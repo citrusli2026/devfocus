@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build
+app/out/
+app/.next/
+app/dist/
+app/src/data/*.json
+
+# Data cache (can be regenerated)
+data/2-raw/
+# 4-final/ is committed — it's what the app builds from
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test
+coverage/
+test-results/
