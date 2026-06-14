@@ -1,14 +1,14 @@
 "use client";
 
-import { useTranslation } from "@/lib/i18n";
-import { Globe, Flame, Cpu, Code2, Zap } from "lucide-react";
-import { GitHubIcon } from "@/components/icons";
-import digestData from "@/data/digest.json";
-import type { Digest } from "@/types";
+import { useTranslation } from "../../lib/i18n";
+import { Globe, Flame, Cpu, Code2, Zap, BarChart3 } from "lucide-react";
+import { GitHubIcon } from "../../components/icons";
+import digestData from "../../data/digest.json";
+import type { Digest } from "../../types";
 
 export default function About() {
   const { t } = useTranslation();
-  const digest = digestData as Digest;
+  const digest = digestData as unknown as Digest;
 
   return (
     <div className="max-w-2xl mx-auto py-6 space-y-12">

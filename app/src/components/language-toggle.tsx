@@ -1,6 +1,6 @@
 "use client";
 
-import { useTranslation } from "@/lib/i18n";
+import { useTranslation } from "../lib/i18n";
 
 export function LanguageToggle() {
   const { locale, setLocale } = useTranslation();

@@ -1,15 +1,15 @@
 "use client";
 
-import { Digest } from "@/types";
-import { FeedList } from "@/components/FeedCard";
-import { useTranslation } from "@/lib/i18n";
+import type { Digest } from "../types";
+import { FeedList } from "../components/FeedCard";
+import { useTranslation } from "../lib/i18n";
 import { TrendingUp, Flame } from "lucide-react";
-import { GitHubIcon } from "@/components/icons";
-import digestData from "@/data/digest.json";
+import { GitHubIcon } from "../components/icons";
+import digestData from "../data/digest.json";
 
 export default function Home() {
   const { t } = useTranslation();
-  const digest = digestData as Digest;
+  const digest = digestData as unknown as Digest;
   const hnItems = digest.daily.items.filter((i) => i.source === "hackernews");
   const ghItems = digest.daily.items.filter((i) => i.source === "github_trending");
 
