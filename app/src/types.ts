@@ -9,6 +9,8 @@ export interface FeedItem {
   author: string;
   time: string;
   tags: string[];
+  summary_zh?: string;
+  summary_en?: string;
 }
 
 export interface DigestSection {
@@ -22,13 +24,7 @@ export interface DigestSection {
 export interface Digest {
   generated_at: string;
   daily: DigestSection;
-  weekly: DigestSection;
+  monthly: DigestSection;
   sources: string[];
   total_items: number;
-}
-
-export interface Feed {
-  generated_at: string;
-  items: FeedItem[];
-  by_date: Record<string, FeedItem[]>;
 }

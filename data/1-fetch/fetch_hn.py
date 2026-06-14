@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
-"""Hacker News Top Stories fetcher. Uses official Firebase API, no auth needed."""
+"""Hacker News Top Stories fetcher with retry."""
 
 import json
 import sys
+import time
 import urllib.request
 import urllib.error
 from datetime import datetime, timezone
@@ -12,23 +13,22 @@ from pathlib import Path
 
 HN_TOP_URL = "https://hacker-news.firebaseio.com/v0/topstories.json"
 HN_ITEM_URL = "https://hacker-news.firebaseio.com/v0/item/{}.json"
-MAX_ITEMS = 50
+MAX_FETCH = 200
 
 
-def fetch_json(url: str, timeout: int = 15):
-    """Fetch JSON from URL."""
-    req = urllib.request.Request(url, headers={"User-Agent": "DevPulse/1.0"})
-    with urllib.request.urlopen(req, timeout=timeout) as resp:
-        return json.loads(resp.read().decode())
-
-
-def fetch_item(item_id: int) -> dict | None:
-    """Fetch a single HN item."""
-    try:
-        return fetch_json(HN_ITEM_URL.format(item_id))
-    except (urllib.error.URLError, TimeoutError) as e:
-        print(f"  [WARN] Failed to fetch item {item_id}: {e}", file=sys.stderr)
-        return None
+def fetch_json(url: str, timeout: int = 15, retries: int = 3):
+    for attempt in range(retries):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "DevFocus/1.0"})
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                return json.loads(resp.read().decode())
+        except (urllib.error.URLError, TimeoutError, OSError) as e:
+            if attempt < retries - 1:
+                wait = 2 ** attempt
+                print(f"  [RETRY {attempt+1}/{retries}] {e}, waiting {wait}s...")
+                time.sleep(wait)
+            else:
+                raise
 
 
 def main():
@@ -36,19 +36,26 @@ def main():
     output_dir.mkdir(parents=True, exist_ok=True)
     output_path = output_dir / "hn_top_stories.json"
 
-    print(f"[HN] Fetching top stories (max {MAX_ITEMS})...")
+    print(f"[HN] Fetching top stories (max {MAX_FETCH})...")
     try:
         top_ids = fetch_json(HN_TOP_URL)
     except Exception as e:
-        print(f"[ERROR] Failed to fetch top stories: {e}", file=sys.stderr)
+        print(f"[ERROR] Failed to fetch top stories after retries: {e}", file=sys.stderr)
+        # Use cached data if available
+        if output_path.exists():
+            print("[HN] Using cached data from previous run")
+            return
         sys.exit(1)
 
-    top_ids = top_ids[:MAX_ITEMS]
-    print(f"[HN] Got {len(top_ids)} story IDs, fetching details...")
+    top_ids = top_ids[:MAX_FETCH]
+    print(f"[HN] Got {len(top_ids)} IDs, fetching details...")
 
     stories = []
     for i, sid in enumerate(top_ids):
-        item = fetch_item(sid)
+        try:
+            item = fetch_json(HN_ITEM_URL.format(sid), retries=2)
+        except Exception:
+            continue
         if item and item.get("type") == "story":
             stories.append({
                 "id": item["id"],
@@ -62,10 +69,9 @@ def main():
                 "hn_url": f"https://news.ycombinator.com/item?id={item['id']}",
                 "source": "hackernews",
             })
-        if (i + 1) % 10 == 0:
+        if (i + 1) % 20 == 0:
             print(f"  [{i+1}/{len(top_ids)}] fetched")
 
-    # Sort by score descending
     stories.sort(key=lambda x: x["score"], reverse=True)
 
     result = {
@@ -74,7 +80,6 @@ def main():
         "count": len(stories),
         "items": stories,
     }
-
     output_path.write_text(json.dumps(result, indent=2, ensure_ascii=False))
     print(f"[HN] Saved {len(stories)} stories to {output_path}")
 

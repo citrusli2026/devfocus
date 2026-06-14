@@ -1,40 +1,44 @@
 import type { Metadata } from "next";
+import { LanguageProvider } from "@/components/language-provider";
+import { Navbar } from "@/components/navbar";
+import { Footer } from "@/components/footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "DevPulse - 开发者脉搏",
+  metadataBase: new URL("https://www.devfocus.cc"),
+  title: {
+    default: "DevFocus - 开发者聚焦",
+    template: "%s - DevFocus",
+  },
   description: "开发者关注的 AI 热榜、GitHub 趋势、技术新闻，每日自动整理",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+const themeScript = `(function(){try{document.documentElement.classList.add("light");}catch(e){}})();`;
+const localeScript = `(function(){try{var l=localStorage.getItem("devfocus-locale");document.documentElement.lang=l==="en"?"en":"zh-CN";}catch(e){}})();`;
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="zh-CN">
-      <body className="bg-gray-950 text-gray-100 min-h-screen">
-        <nav className="border-b border-gray-800 bg-gray-950/80 backdrop-blur-sm sticky top-0 z-50">
-          <div className="max-w-6xl mx-auto px-4 h-14 flex items-center justify-between">
-            <a href="/" className="flex items-center gap-2 font-bold text-lg">
-              <span className="text-2xl">⚡</span>
-              <span>DevPulse</span>
-            </a>
-            <div className="flex items-center gap-6 text-sm">
-              <a href="/" className="hover:text-blue-400 transition-colors">日报</a>
-              <a href="/weekly/" className="hover:text-blue-400 transition-colors">周报</a>
-              <a href="/about/" className="hover:text-blue-400 transition-colors">关于</a>
-            </div>
+    <html lang="zh-CN" className="h-full antialiased" suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: themeScript }} />
+        <script dangerouslySetInnerHTML={{ __html: localeScript }} />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
+      </head>
+      <body className="h-full" style={{ background: "var(--surface-base)" }}>
+        <LanguageProvider>
+          <div className="flex flex-col min-h-full">
+            <Navbar />
+            <main className="flex-1 max-w-6xl w-full mx-auto px-4 sm:px-6 py-8">
+              {children}
+            </main>
+            <Footer />
           </div>
-        </nav>
-        <main className="max-w-6xl mx-auto px-4 py-6">
-          {children}
-        </main>
-        <footer className="border-t border-gray-800 mt-12">
-          <div className="max-w-6xl mx-auto px-4 py-6 text-sm text-gray-500 text-center">
-            DevPulse — 自动收集，每日更新 · 数据来自 Hacker News · GitHub Trending
-          </div>
-        </footer>
+        </LanguageProvider>
       </body>
     </html>
   );
