@@ -7,7 +7,8 @@ on:
 
 permissions:
   contents: write
-  actions: write
+  pull-requests: write
+  actions: read
 
 jobs:
   pipeline:
@@ -19,7 +20,13 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Run pipeline
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: 'npm'
+          cache-dependency-path: app/package-lock.json
+
+      - name: Run data pipeline
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: |
@@ -29,15 +36,49 @@ jobs:
       - name: Sync data to app
         run: cp data/4-final/*.json app/src/data/ || true
 
-      - name: Commit and push
+      - name: Check for changes
+        id: changes
         run: |
+          if git diff --cached --quiet && git diff --quiet; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Build frontend (pre-flight check)
+        if: steps.changes.outputs.has_changes == 'true'
+        run: |
+          cd app
+          npm ci
+          npm run lint
+          npx tsc --noEmit
+          npm run build
+
+      - name: Create PR and auto-merge
+        if: steps.changes.outputs.has_changes == 'true'
+        env:
+          # Use PAT so CI triggers on the PR; fallback to GITHUB_TOKEN
+          GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+        run: |
+          BRANCH="data/daily-update-$(date +%Y-%m-%d)"
+          DATE=$(date +%Y-%m-%d)
+
           git config user.name "devfocus-bot"
           git config user.email "bot@devfocus.cc"
+
+          git checkout -b "$BRANCH"
           git add -A
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            DATE=$(date +%Y-%m-%d)
-            git commit -m "data: daily update $DATE"
-            git push
-          fi
+          git commit -m "data: daily update $DATE"
+          git push origin "$BRANCH"
+
+          gh pr create \
+            --base main \
+            --head "$BRANCH" \
+            --title "data: daily update $DATE" \
+            --body "📡 每日数据自动更新" \
+            --label "auto-merge"
+
+          # Wait briefly then set auto-merge
+          sleep 10
+          gh pr merge "$BRANCH" --auto --squash --delete-branch || \
+            echo "PR created but couldn't set auto-merge (may need manual merge)"
