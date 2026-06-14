@@ -25,7 +25,7 @@ SUMMARIES_PATH = FINAL_DIR / "summaries.json"
 LLM_PROVIDERS = [
     {
         "name": "deepseek",
-        "base_url": "https://api.deepseek.com/v1",
+        "base_url": "https://api.deepseek.com",
         "api_key_env": "DEEPSEEK_API_KEY",
         "model": "deepseek-v4-flash",
     },
@@ -97,6 +97,14 @@ def get_llm_provider():
     """Find first available LLM provider with API key set."""
     for provider in LLM_PROVIDERS:
         key = os.environ.get(provider["api_key_env"], "")
+        # Validate key looks real (starts with sk-)
+        if not key.startswith("sk-"):
+            key = ""
+        # Also try local key file (for development)
+        if not key:
+            key_file = BASE_DIR / ".deepseek_key"
+            if key_file.exists():
+                key = key_file.read_text().strip()
         if key:
             return {**provider, "api_key": key}
     return None

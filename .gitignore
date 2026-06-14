@@ -24,7 +24,8 @@ __pycache__/
 *.swp
 .DS_Store
 
-# Env
+# Secrets (never commit)
+.deepseek_key
 .env
 .env.local
 .env.*.local
