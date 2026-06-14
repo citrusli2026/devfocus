@@ -9,7 +9,7 @@ import digestData from "@/data/digest.json";
 
 export default function Home() {
   const { t } = useTranslation();
-  const digest = digestData as Digest;
+  const digest = digestData as unknown as Digest;
   const hnItems = digest.daily.items.filter((i) => i.source === "hackernews");
   const ghItems = digest.daily.items.filter((i) => i.source === "github_trending");
 
