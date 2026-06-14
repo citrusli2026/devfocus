@@ -4,9 +4,7 @@ const nextConfig: NextConfig = {
   output: "export",
   images: { unoptimized: true },
   trailingSlash: true,
-  typescript: {
-    tsconfigPath: "tsconfig.json",
-  },
+  devIndicators: false,
 };
 
 export default nextConfig;
