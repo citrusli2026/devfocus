@@ -33,8 +33,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <LanguageProvider>
           <div className="flex flex-col min-h-full">
             <Navbar />
-            <main className="flex-1 max-w-6xl w-full mx-auto px-4 sm:px-6 py-8">
-              {children}
+            <main
+              className="flex-1 max-w-6xl w-full mx-auto px-4 sm:px-6"
+              style={{ background: "radial-gradient(ellipse at 50% 0%, rgba(106,95,193,0.12) 0%, transparent 70%)" }}
+            >
+              <div className="py-8">
+                {children}
+              </div>
             </main>
             <Footer />
           </div>

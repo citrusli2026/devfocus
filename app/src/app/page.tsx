@@ -20,12 +20,7 @@ export default function Home() {
   return (
     <div className="space-y-10">
       {/* Hero */}
-      <section
-        className="relative overflow-hidden px-4 pt-8 sm:pt-14 pb-10 sm:pb-16 -mx-4 sm:-mx-6"
-        style={{
-          background: "radial-gradient(ellipse at 50% 0%, rgba(106,95,193,0.12) 0%, transparent 60%)",
-        }}
-      >
+      <section className="relative overflow-hidden px-4 pt-6 sm:pt-10 pb-6 sm:pb-10 -mx-4 sm:-mx-6">
         <div className="mx-auto max-w-5xl text-center relative z-10">
           <div className="inline-flex items-center gap-2 mb-5">
             <span className="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full bg-accent-lime/10 text-accent-lime text-xs font-semibold border border-accent-lime/20">
