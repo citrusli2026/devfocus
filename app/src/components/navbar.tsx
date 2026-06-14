@@ -59,7 +59,7 @@ export function Navbar() {
           <div className="w-px h-6 bg-surface-border mx-1" />
           <LanguageToggle />
           <a
-            href="https://github.com"
+            href="https://github.com/citrusli2026/devfocus"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center h-9 w-9 rounded-lg text-text-secondary hover:text-text-primary hover:bg-surface-card transition-colors"
