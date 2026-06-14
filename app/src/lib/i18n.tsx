@@ -1,8 +1,8 @@
 "use client";
 
 import { createContext, use, useCallback, useEffect, useSyncExternalStore } from "react";
-import zhMessages from "@/messages/zh.json";
-import enMessages from "@/messages/en.json";
+import zhMessages from "../messages/zh.json";
+import enMessages from "../messages/en.json";
 
 type Messages = typeof zhMessages;
 type Locale = "zh" | "en";

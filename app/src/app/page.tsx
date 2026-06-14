@@ -1,7 +1,7 @@
 "use client";
 
-import { Digest } from "@/types";
-import { FeedList } from "@/components/FeedCard";
+import type { Digest } from "../types";
+import { FeedList } from "../components/FeedCard";
 import { useTranslation } from "../lib/i18n";
 import { TrendingUp, Flame } from "lucide-react";
 import { GitHubIcon } from "../components/icons";
