@@ -1,8 +1,8 @@
 "use client";
 
-import { FeedItem } from "@/types";
-import { useTranslation } from "@/lib/i18n";
-import { cn } from "@/lib/utils";
+import { FeedItem } from "../types";
+import { useTranslation } from "../lib/i18n";
+import { cn } from "../lib/utils";
 import { ExternalLink, MessageSquare, Star, ArrowUp } from "lucide-react";
 
 function SourceBadge({ source }: { source: string }) {

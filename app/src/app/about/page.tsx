@@ -1,10 +1,10 @@
 "use client";
 
-import { useTranslation } from "@/lib/i18n";
+import { useTranslation } from "../../lib/i18n";
 import { Globe, Flame, Cpu, Code2, Zap, BarChart3 } from "lucide-react";
-import { GitHubIcon } from "@/components/icons";
-import digestData from "@/data/digest.json";
-import type { Digest } from "@/types";
+import { GitHubIcon } from "../../components/icons";
+import digestData from "../../data/digest.json";
+import type { Digest } from "../../types";
 
 export default function About() {
   const { t } = useTranslation();

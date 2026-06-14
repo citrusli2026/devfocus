@@ -2,10 +2,10 @@
 
 import { Digest } from "@/types";
 import { FeedList } from "@/components/FeedCard";
-import { useTranslation } from "@/lib/i18n";
+import { useTranslation } from "../lib/i18n";
 import { TrendingUp, Flame } from "lucide-react";
-import { GitHubIcon } from "@/components/icons";
-import digestData from "@/data/digest.json";
+import { GitHubIcon } from "../components/icons";
+import digestData from "../data/digest.json";
 
 export default function Home() {
   const { t } = useTranslation();
