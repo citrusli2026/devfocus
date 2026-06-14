@@ -20,8 +20,8 @@ export function Navbar() {
 
   return (
     <header
-      className="sticky top-0 z-50 w-full"
-      style={{ background: "var(--surface-elevated)", borderBottom: "1px solid var(--surface-border)" }}
+      className="sticky top-0 z-50 w-full backdrop-blur-xl"
+      style={{ background: "rgba(245, 243, 250, 0.85)", borderBottom: "1px solid var(--surface-border)" }}
     >
       <div className="mx-auto flex h-14 sm:h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
         <Link href="/" className="flex items-center gap-2.5 group">
