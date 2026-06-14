@@ -19,7 +19,10 @@ export function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-surface-border bg-surface-base shadow-sm">
+    <header
+      className="sticky top-0 z-50 w-full"
+      style={{ background: "var(--surface-elevated)", borderBottom: "1px solid var(--surface-border)" }}
+    >
       <div className="mx-auto flex h-14 sm:h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
         <Link href="/" className="flex items-center gap-2.5 group">
           <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-accent-violet to-accent-coral shadow-sm">
@@ -83,7 +86,7 @@ export function Navbar() {
       </div>
 
       {mobileOpen && (
-        <div className="sm:hidden border-t border-surface-border bg-surface-base/95 backdrop-blur-xl">
+        <div className="sm:hidden border-t border-surface-border" style={{ background: "var(--surface-elevated)" }}>
           <nav className="flex flex-col px-4 py-3 gap-1">
             {navItems.map(({ href, labelKey, icon: Icon }) => {
               const active = pathname === href;
