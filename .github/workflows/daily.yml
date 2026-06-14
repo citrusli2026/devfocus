@@ -45,7 +45,7 @@ jobs:
             echo "has_changes=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Build frontend (pre-flight check)
+      - name: Build frontend
         if: steps.changes.outputs.has_changes == 'true'
         run: |
           cd app
@@ -54,31 +54,12 @@ jobs:
           npx tsc --noEmit
           npm run build
 
-      - name: Create PR and auto-merge
+      - name: Commit and push to main
         if: steps.changes.outputs.has_changes == 'true'
-        env:
-          # Use PAT so CI triggers on the PR; fallback to GITHUB_TOKEN
-          GH_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
         run: |
-          BRANCH="data/daily-update-$(date +%Y-%m-%d)"
-          DATE=$(date +%Y-%m-%d)
-
           git config user.name "devfocus-bot"
           git config user.email "bot@devfocus.cc"
-
-          git checkout -b "$BRANCH"
           git add -A
+          DATE=$(date +%Y-%m-%d)
           git commit -m "data: daily update $DATE"
-          git push origin "$BRANCH"
-
-          gh pr create \
-            --base main \
-            --head "$BRANCH" \
-            --title "data: daily update $DATE" \
-            --body "📡 每日数据自动更新" \
-            --label "auto-merge"
-
-          # Wait briefly then set auto-merge
-          sleep 10
-          gh pr merge "$BRANCH" --auto --squash --delete-branch || \
-            echo "PR created but couldn't set auto-merge (may need manual merge)"
+          git push
