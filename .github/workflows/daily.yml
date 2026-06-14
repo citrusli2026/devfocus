@@ -1,0 +1,39 @@
+name: Daily Pipeline
+
+on:
+  schedule:
+    - cron: '0 2 * * *'  # 每天 UTC 2:00 = 北京 10:00
+  workflow_dispatch:       # 手动触发
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run pipeline
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: |
+          cd data
+          python3.11 pipeline.py
+
+      - name: Sync data to app
+        run: cp data/4-final/*.json app/src/data/ || true
+
+      - name: Commit and push
+        run: |
+          git config user.name "devfocus-bot"
+          git config user.email "bot@devfocus.cc"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            DATE=$(date +%Y-%m-%d)
+            git commit -m "data: daily update $DATE"
+            git push
+          fi
