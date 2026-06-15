@@ -1,8 +1,6 @@
 name: CI
 
 on:
-  push:
-    branches: [main]
   pull_request:
     branches: [main]
     types: [opened, synchronize, reopened]
@@ -63,18 +61,3 @@ jobs:
           python-version: '3.11'
       - run: pip install pyflakes
       - run: pyflakes data/1-fetch/*.py data/3-process/*.py data/pipeline.py
-
-  deploy:
-    runs-on: ubuntu-latest
-    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
-    needs: [build]
-    steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '24'
-      - run: npm i -g vercel
-      - name: Deploy to Vercel Production
-        run: |
-          cd app
-          vercel --prod --yes --token=${{ secrets.VERCEL_TOKEN }}
