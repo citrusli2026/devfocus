@@ -76,19 +76,19 @@ def build_prompt(items: list[dict]) -> str:
     return f"""For each item below, write a concise summary in Chinese (summary_zh) and English (summary_en).
 
 FORMAT RULES:
-- Chinese: ~100-150 characters, 2-3 short sentences
-- English: ~60-100 words, 2-3 short sentences
-- First sentence: WHAT it is (one clear statement)
-- Second sentence: WHY it matters to developers
-- Use simple, direct language — no filler, no fluff
-- For GitHub repos: what it does + why trending
-- For HN articles: key takeaway + developer relevance
+- Chinese: ~150-200 characters, structured as 2-3 key points
+- English: ~100-130 words, structured as 2-3 key points
+- Each point should be a complete sentence, separated by "|"
+- Point 1: WHAT it is (one clear statement)
+- Point 2: WHY it matters to developers
+- Point 3: KEY insight or takeaway (optional, only if adds value)
+- Use simple, direct language — no filler
 
 Items:
 {chr(10).join(lines)}
 
 Return a JSON array:
-[{{"id": "xxx", "summary_zh": "...", "summary_en": "..."}}, ...]
+[{{"id": "xxx", "summary_zh": "第一点 | 第二点 | 第三点", "summary_en": "Point 1 | Point 2 | Point 3"}}, ...]
 
 ONLY the JSON array, nothing else."""
 

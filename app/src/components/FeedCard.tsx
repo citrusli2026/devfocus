@@ -34,17 +34,20 @@ function ScorePill({ score, source }: { score: number; source: string }) {
 function SummaryBlock({ zh, en }: { zh: string; en: string }) {
   if (!zh && !en) return null;
   const text = zh || en;
-  // Split into sentences for better readability
-  const sentences = text.split(/(?<=[。.！!？?])\s*/).filter(Boolean);
-  if (sentences.length <= 1) {
+  // Split by "|" separator for key points
+  const points = text.split(/\s*\|\s*/).filter(Boolean);
+  if (points.length <= 1) {
     return <p className="text-sm text-text-secondary mt-2 leading-relaxed">{text}</p>;
   }
   return (
-    <div className="mt-2 space-y-1">
-      {sentences.map((s, i) => (
-        <p key={i} className="text-sm text-text-secondary leading-relaxed">{s}</p>
+    <ul className="mt-2 space-y-1.5">
+      {points.map((p, i) => (
+        <li key={i} className="flex items-start gap-2 text-sm text-text-secondary leading-relaxed">
+          <span className="mt-1.5 w-1 h-1 rounded-full bg-accent-violet/60 shrink-0" />
+          <span>{p.trim()}</span>
+        </li>
       ))}
-    </div>
+    </ul>
   );
 }
 
