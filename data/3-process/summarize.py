@@ -44,14 +44,13 @@ def call_llm(base_url: str, api_key: str, model: str, prompt: str) -> str:
         "model": model,
         "messages": [
             {"role": "system", "content": (
-                "You are a senior tech news editor and analyst. "
-                "Write detailed, insightful bilingual summaries for developers. "
+                "You are a senior tech news editor. Write concise, scannable summaries. "
                 "Output ONLY valid JSON, no markdown fences."
             )},
             {"role": "user", "content": prompt},
         ],
         "temperature": 0.3,
-        "max_tokens": 4000,
+        "max_tokens": 3000,
     }).encode()
 
     req = urllib.request.Request(url, data=body, headers={
@@ -60,7 +59,7 @@ def call_llm(base_url: str, api_key: str, model: str, prompt: str) -> str:
     })
 
     try:
-        with urllib.request.urlopen(req, timeout=90) as resp:
+        with urllib.request.urlopen(req, timeout=60) as resp:
             data = json.loads(resp.read().decode())
             return data["choices"][0]["message"]["content"].strip()
     except Exception as e:
@@ -72,17 +71,18 @@ def build_prompt(items: list[dict]) -> str:
     """Build summarization prompt for a batch of items."""
     lines = []
     for i, item in enumerate(items):
-        desc = item.get("description", "")[:200]
+        desc = item.get("description", "")[:150]
         lines.append(f"{i+1}. id={item['id']} | title={item['title']} | source={item['source']} | desc={desc}")
-    return f"""For each item below, write a DETAILED summary in Chinese (summary_zh) and English (summary_en).
+    return f"""For each item below, write a concise summary in Chinese (summary_zh) and English (summary_en).
 
-Requirements:
-- Each summary should be ~200-300 Chinese characters / ~150-200 English words
-- Explain WHAT it is, WHY it matters, and WHO benefits
-- Include technical context where relevant
-- For GitHub repos: describe the project's purpose, tech stack, and why it's trending
-- For HN articles: explain the key argument, implications for developers, and community reaction
-- Write as a knowledgeable tech analyst, not just a headline restater
+FORMAT RULES:
+- Chinese: ~100-150 characters, 2-3 short sentences
+- English: ~60-100 words, 2-3 short sentences
+- First sentence: WHAT it is (one clear statement)
+- Second sentence: WHY it matters to developers
+- Use simple, direct language — no filler, no fluff
+- For GitHub repos: what it does + why trending
+- For HN articles: key takeaway + developer relevance
 
 Items:
 {chr(10).join(lines)}
@@ -151,7 +151,7 @@ def main():
 
     need = {id: item for id, item in all_items.items()
             if not existing.get(id, {}).get("summary_zh")
-            or len(existing[id].get("summary_zh", "")) < 100
+            or len(existing[id].get("summary_zh", "")) < 50
             or existing[id]["summary_zh"].startswith("HN 热门")
             or existing[id]["summary_zh"].startswith("开源项目")}
 
@@ -169,9 +169,9 @@ def main():
         print(f"[SUM] Using {provider['name']} API ({provider['model']})...")
         need_list = list(need.values())
 
-        # Batch in groups of 3 (smaller batches for longer summaries)
-        for i in range(0, len(need_list), 3):
-            batch = need_list[i:i+3]
+        # Batch in groups of 5
+        for i in range(0, len(need_list), 5):
+            batch = need_list[i:i+5]
             prompt = build_prompt(batch)
             result = call_llm(provider["base_url"], provider["api_key"], provider["model"], prompt)
 
@@ -184,12 +184,12 @@ def main():
                                 "summary_zh": entry.get("summary_zh", ""),
                                 "summary_en": entry.get("summary_en", ""),
                             }
-                    print(f"  Batch {i//3+1}: {len(parsed)} summaries")
+                    print(f"  Batch {i//5+1}: {len(parsed)} summaries")
                 except json.JSONDecodeError as e:
                     print(f"  [WARN] JSON parse error: {e}")
 
-            if i + 3 < len(need_list):
-                time.sleep(2)
+            if i + 5 < len(need_list):
+                time.sleep(1)
     else:
         print("[SUM] No LLM API key found (set DEEPSEEK_API_KEY or OPENAI_API_KEY)")
         print("[SUM] Falling back to template summaries")
@@ -218,7 +218,7 @@ def main():
     llm_count = len([s for s in summaries.values()
                      if not s["summary_zh"].startswith("HN 热门")
                      and not s["summary_zh"].startswith("开源项目")
-                     and len(s["summary_zh"]) >= 100])
+                     and len(s["summary_zh"]) >= 50])
     print(f"[SUM] Done: {llm_count} LLM + {len(summaries)-llm_count} template = {len(summaries)} total")
 
 

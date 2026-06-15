@@ -31,6 +31,23 @@ function ScorePill({ score, source }: { score: number; source: string }) {
   );
 }
 
+function SummaryBlock({ zh, en }: { zh: string; en: string }) {
+  if (!zh && !en) return null;
+  const text = zh || en;
+  // Split into sentences for better readability
+  const sentences = text.split(/(?<=[。.！!？?])\s*/).filter(Boolean);
+  if (sentences.length <= 1) {
+    return <p className="text-sm text-text-secondary mt-2 leading-relaxed">{text}</p>;
+  }
+  return (
+    <div className="mt-2 space-y-1">
+      {sentences.map((s, i) => (
+        <p key={i} className="text-sm text-text-secondary leading-relaxed">{s}</p>
+      ))}
+    </div>
+  );
+}
+
 export function FeedCard({ item, rank }: { item: FeedItem; rank?: number }) {
   const { t, locale } = useTranslation();
   let domain = "";
@@ -68,18 +85,6 @@ export function FeedCard({ item, rank }: { item: FeedItem; rank?: number }) {
         )}
 
         <div className="flex-1 min-w-0">
-          {/* Meta row */}
-          <div className="flex items-center gap-2 mb-2 flex-wrap">
-            <SourceBadge source={item.source} />
-            <ScorePill score={item.score} source={item.source} />
-            {item.comments > 0 && (
-              <span className="inline-flex items-center gap-1 text-[11px] text-text-dim">
-                <MessageSquare className="h-3 w-3" />
-                {item.comments.toLocaleString()}
-              </span>
-            )}
-          </div>
-
           {/* Title */}
           <h3 className="font-semibold text-[15px] text-text-primary leading-snug group-hover:text-accent-violet transition-colors">
             <a
@@ -93,31 +98,30 @@ export function FeedCard({ item, rank }: { item: FeedItem; rank?: number }) {
             </a>
           </h3>
 
-          {/* Summary — the key new feature */}
-          {summary ? (
-            <p className="text-sm text-text-secondary mt-1.5 leading-relaxed">
-              {summary}
-            </p>
-          ) : item.description ? (
-            <p className="text-sm text-text-muted mt-1.5 line-clamp-2 leading-relaxed">
-              {item.description}
-            </p>
-          ) : null}
-
-          {/* Footer */}
-          <div className="flex items-center gap-3 mt-2.5 text-xs text-text-dim">
+          {/* Meta row */}
+          <div className="flex items-center gap-2 mt-1.5 flex-wrap">
+            <SourceBadge source={item.source} />
+            <ScorePill score={item.score} source={item.source} />
+            {item.comments > 0 && (
+              <span className="inline-flex items-center gap-1 text-[11px] text-text-dim">
+                <MessageSquare className="h-3 w-3" />
+                {item.comments.toLocaleString()}
+              </span>
+            )}
             {domain && (
-              <span className="px-2 py-0.5 rounded-md bg-surface-hover text-text-muted font-medium text-[11px]">
+              <span className="text-[11px] text-text-dim px-1.5 py-0.5 rounded bg-surface-hover">
                 {domain}
               </span>
             )}
             {item.author && (
-              <span className="flex items-center gap-1">
-                <span className="text-text-dim">{t("common.by")}</span>
-                <span className="text-text-muted font-medium">{item.author}</span>
+              <span className="text-[11px] text-text-dim">
+                {t("common.by")} {item.author}
               </span>
             )}
           </div>
+
+          {/* Summary — sentence-by-sentence */}
+          <SummaryBlock zh={item.summary_zh || ""} en={item.summary_en || ""} />
         </div>
       </div>
     </article>
