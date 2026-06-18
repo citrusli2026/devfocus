@@ -12,10 +12,12 @@ export default function Home() {
   const digest = digestData as Digest;
   const hnItems = digest.daily.items.filter((i) => i.source === "hackernews");
   const ghItems = digest.daily.items.filter((i) => i.source === "github_trending");
+  const phItems = digest.daily.items.filter((i) => i.source === "producthunt");
 
   const sourceParts: string[] = [];
   if (hnItems.length > 0) sourceParts.push(`HN ${hnItems.length}`);
   if (ghItems.length > 0) sourceParts.push(`GitHub ${ghItems.length}`);
+  if (phItems.length > 0) sourceParts.push(`PH ${phItems.length}`);
 
   return (
     <div className="space-y-6 sm:space-y-10">
@@ -66,8 +68,25 @@ export default function Home() {
         )}
       </div>
 
+      {/* Product Hunt section — full width if present */}
+      {phItems.length > 0 && (
+        <section>
+          <SectionHeader
+            icon={<span className="text-lg">🚀</span>}
+            title={t("today.phTitle")}
+            count={phItems.length}
+            color="text-[#da552f]"
+            bg="bg-[#da552f]/10"
+          />
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+            <FeedList items={phItems.slice(0, Math.ceil(phItems.length / 2))} />
+            <FeedList items={phItems.slice(Math.ceil(phItems.length / 2))} />
+          </div>
+        </section>
+      )}
+
       {/* Empty state */}
-      {hnItems.length === 0 && ghItems.length === 0 && (
+      {hnItems.length === 0 && ghItems.length === 0 && phItems.length === 0 && (
         <div className="text-center py-12 text-text-muted">
           <p className="text-lg">暂无数据，稍后再来</p>
         </div>
