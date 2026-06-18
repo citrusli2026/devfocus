@@ -76,19 +76,17 @@ def build_prompt(items: list[dict]) -> str:
     return f"""For each item below, write a concise summary in Chinese (summary_zh) and English (summary_en).
 
 FORMAT RULES:
-- Chinese: ~150-200 characters, structured as 2-3 key points
-- English: ~100-130 words, structured as 2-3 key points
-- Each point should be a complete sentence, separated by "|"
-- Point 1: WHAT it is (one clear statement)
-- Point 2: WHY it matters to developers
-- Point 3: KEY insight or takeaway (optional, only if adds value)
-- Use simple, direct language — no filler
+- Chinese: ~100-200 characters, narrative style (记叙文), describe what it is and why it matters
+- English: ~80-120 words, narrative style, describe what it is and why it matters
+- Use natural, flowing sentences — NOT bullet points or key-value pairs
+- Write like a tech blogger explaining to a friend
+- Focus on: what problem it solves, what's interesting about it, who would benefit
 
 Items:
 {chr(10).join(lines)}
 
 Return a JSON array:
-[{{"id": "xxx", "summary_zh": "第一点 | 第二点 | 第三点", "summary_en": "Point 1 | Point 2 | Point 3"}}, ...]
+[{{"id": "xxx", "summary_zh": "中文摘要", "summary_en": "English summary"}}, ...]
 
 ONLY the JSON array, nothing else."""
 
@@ -157,6 +155,14 @@ def main():
 
     if not need:
         print("[SUM] All items have good summaries.")
+        # Still apply existing summaries to digest
+        for key in ["daily"]:
+            for item in digest[key]["items"]:
+                s = existing.get(item["id"])
+                if s:
+                    item["summary_zh"] = s.get("summary_zh", "")
+                    item["summary_en"] = s.get("summary_en", "")
+        digest_path.write_text(json.dumps(digest, indent=2, ensure_ascii=False))
         return
 
     print(f"[SUM] {len(need)} items need summaries")

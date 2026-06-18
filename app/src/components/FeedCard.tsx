@@ -34,21 +34,23 @@ function ScorePill({ score, source }: { score: number; source: string }) {
 function SummaryBlock({ zh, en }: { zh: string; en: string }) {
   if (!zh && !en) return null;
   const text = zh || en;
-  // Split by "|" separator for key points
+  // Check if it's old pipe-separated format
   const points = text.split(/\s*\|\s*/).filter(Boolean);
-  if (points.length <= 1) {
-    return <p className="text-sm text-text-secondary mt-2 leading-relaxed">{text}</p>;
+  if (points.length > 1) {
+    // Legacy format with key points
+    return (
+      <ul className="mt-2 space-y-1.5">
+        {points.map((p, i) => (
+          <li key={i} className="flex items-start gap-2 text-sm text-text-secondary leading-relaxed">
+            <span className="mt-1.5 w-1 h-1 rounded-full bg-accent-violet/60 shrink-0" />
+            <span>{p.trim()}</span>
+          </li>
+        ))}
+      </ul>
+    );
   }
-  return (
-    <ul className="mt-2 space-y-1.5">
-      {points.map((p, i) => (
-        <li key={i} className="flex items-start gap-2 text-sm text-text-secondary leading-relaxed">
-          <span className="mt-1.5 w-1 h-1 rounded-full bg-accent-violet/60 shrink-0" />
-          <span>{p.trim()}</span>
-        </li>
-      ))}
-    </ul>
-  );
+  // New narrative style
+  return <p className="text-sm text-text-secondary mt-2 leading-relaxed">{text}</p>;
 }
 
 export function FeedCard({ item, rank }: { item: FeedItem; rank?: number }) {
