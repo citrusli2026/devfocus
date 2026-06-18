@@ -9,7 +9,6 @@ function SourceBadge({ source }: { source: string }) {
   const cfg: Record<string, { label: string; cls: string }> = {
     hackernews: { label: "HN", cls: "bg-[#ff6600]/8 text-[#ff6600] border-[#ff6600]/15" },
     github_trending: { label: "GitHub", cls: "bg-accent-emerald/8 text-accent-emerald border-accent-emerald/15" },
-    reddit: { label: "Reddit", cls: "bg-[#ff4500]/8 text-[#ff4500] border-[#ff4500]/15" },
   };
   const c = cfg[source] || { label: source, cls: "bg-muted text-muted-foreground border-border" };
   return (
@@ -89,7 +88,7 @@ export function FeedCard({ item, rank }: { item: FeedItem; rank?: number }) {
 
         <div className="flex-1 min-w-0">
           {/* Title */}
-          <h3 className="font-semibold text-[15px] text-text-primary leading-snug group-hover:text-accent-violet transition-colors">
+          <h3 className="font-semibold text-[14px] sm:text-[15px] text-text-primary leading-snug group-hover:text-accent-violet transition-colors">
             <a
               href={item.url}
               target="_blank"
@@ -133,7 +132,7 @@ export function FeedCard({ item, rank }: { item: FeedItem; rank?: number }) {
 
 export function FeedList({ items, showRank = true }: { items: FeedItem[]; showRank?: boolean }) {
   return (
-    <div className="space-y-2.5">
+    <div className="space-y-2 sm:space-y-2.5">
       {items.map((item, i) => (
         <FeedCard key={item.id} item={item} rank={showRank ? i + 1 : undefined} />
       ))}

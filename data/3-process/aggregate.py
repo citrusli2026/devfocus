@@ -59,24 +59,6 @@ def aggregate_github(data: dict, period: str = "daily") -> list[dict]:
     return items
 
 
-def aggregate_reddit(data: dict) -> list[dict]:
-    items = []
-    for s in data.get("items", []):
-        created = datetime.fromtimestamp(s.get("created_utc", 0), tz=timezone.utc)
-        items.append({
-            "id": f"reddit-{s['id']}",
-            "title": s["title"],
-            "url": s.get("url") or s.get("permalink", ""),
-            "description": s.get("selftext", ""),
-            "source": "reddit",
-            "score": s.get("score", 0),
-            "comments": s.get("num_comments", 0),
-            "author": s.get("author", ""),
-            "time": created.isoformat(),
-            "tags": [],
-        })
-    return items
-
 
 def pick_top_per_source(items: list[dict], n: int) -> list[dict]:
     by_source: dict[str, list[dict]] = {}
@@ -160,12 +142,6 @@ def main():
             fresh_items.extend(gh_items)
             print(f"[AGG] GitHub {period}: {len(gh_items)} items")
 
-    # Reddit
-    reddit_data = load_raw("reddit_programming.json")
-    if reddit_data:
-        reddit_items = aggregate_reddit(reddit_data)
-        fresh_items.extend(reddit_items)
-        print(f"[AGG] Reddit: {len(reddit_items)} items")
 
     # Save snapshot
     save_snapshot(fresh_items, now)
