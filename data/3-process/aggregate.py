@@ -59,6 +59,24 @@ def aggregate_github(data: dict, period: str = "daily") -> list[dict]:
     return items
 
 
+def aggregate_producthunt(data: dict) -> list[dict]:
+    items = []
+    for s in data.get("items", []):
+        items.append({
+            "id": s.get("id", f"ph-{hash(s.get('title', ''))}"),
+            "title": s.get("title", ""),
+            "url": s.get("url", ""),
+            "description": s.get("description", ""),
+            "source": "producthunt",
+            "score": s.get("score", 0),
+            "comments": s.get("comments", 0),
+            "author": s.get("author", ""),
+            "time": s.get("time", ""),
+            "tags": s.get("tags", []),
+        })
+    return items
+
+
 
 def pick_top_per_source(items: list[dict], n: int) -> list[dict]:
     by_source: dict[str, list[dict]] = {}
@@ -142,6 +160,12 @@ def main():
             fresh_items.extend(gh_items)
             print(f"[AGG] GitHub {period}: {len(gh_items)} items")
 
+    # Product Hunt
+    ph_data = load_raw("producthunt_daily.json")
+    if ph_data:
+        ph_items = aggregate_producthunt(ph_data)
+        fresh_items.extend(ph_items)
+        print(f"[AGG] Product Hunt: {len(ph_items)} items")
 
     # Save snapshot
     save_snapshot(fresh_items, now)

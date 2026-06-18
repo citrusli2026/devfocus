@@ -9,6 +9,7 @@ function SourceBadge({ source }: { source: string }) {
   const cfg: Record<string, { label: string; cls: string }> = {
     hackernews: { label: "HN", cls: "bg-[#ff6600]/8 text-[#ff6600] border-[#ff6600]/15" },
     github_trending: { label: "GitHub", cls: "bg-accent-emerald/8 text-accent-emerald border-accent-emerald/15" },
+    producthunt: { label: "PH", cls: "bg-[#da552f]/8 text-[#da552f] border-[#da552f]/15" },
   };
   const c = cfg[source] || { label: source, cls: "bg-muted text-muted-foreground border-border" };
   return (
