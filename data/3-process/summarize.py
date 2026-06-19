@@ -45,7 +45,10 @@ def call_llm(base_url: str, api_key: str, model: str, prompt: str) -> str:
         "messages": [
             {"role": "system", "content": (
                 "You are a senior tech news editor. Write concise, scannable summaries. "
-                "Output ONLY valid JSON, no markdown fences."
+                "Output ONLY valid JSON, no markdown fences. "
+                "CRITICAL: Write in flowing narrative prose ONLY. "
+                "NEVER use pipe '|' separators, bullet points, numbered lists, or segmented formatting. "
+                "Each summary must be ONE continuous paragraph of natural sentences."
             )},
             {"role": "user", "content": prompt},
         ],
@@ -186,9 +189,15 @@ def main():
                     parsed = parse_llm_response(result)
                     for entry in parsed:
                         if isinstance(entry, dict) and "id" in entry:
+                            zh = entry.get("summary_zh", "")
+                            en = entry.get("summary_en", "")
+                            # Reject summaries with pipe separators or bullet patterns
+                            if "|" in zh or "|" in en:
+                                print(f"  [WARN] Rejected bullet summary for {entry['id']}")
+                                continue
                             summaries[entry["id"]] = {
-                                "summary_zh": entry.get("summary_zh", ""),
-                                "summary_en": entry.get("summary_en", ""),
+                                "summary_zh": zh,
+                                "summary_en": en,
                             }
                     print(f"  Batch {i//5+1}: {len(parsed)} summaries")
                 except json.JSONDecodeError as e:
