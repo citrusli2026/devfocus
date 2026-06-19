@@ -10,6 +10,8 @@ function SourceBadge({ source }: { source: string }) {
     hackernews: { label: "HN", cls: "bg-[#ff6600]/8 text-[#ff6600] border-[#ff6600]/15" },
     github_trending: { label: "GitHub", cls: "bg-accent-emerald/8 text-accent-emerald border-accent-emerald/15" },
     producthunt: { label: "PH", cls: "bg-[#da552f]/8 text-[#da552f] border-[#da552f]/15" },
+    juejin: { label: "掘金", cls: "bg-[#1e80ff]/8 text-[#1e80ff] border-[#1e80ff]/15" },
+    zhihu: { label: "知乎", cls: "bg-[#0066ff]/8 text-[#0066ff] border-[#0066ff]/15" },
   };
   const c = cfg[source] || { label: source, cls: "bg-muted text-muted-foreground border-border" };
   return (

@@ -167,6 +167,20 @@ def main():
         fresh_items.extend(ph_items)
         print(f"[AGG] Product Hunt: {len(ph_items)} items")
 
+    # Juejin (掘金)
+    jj_data = load_raw("juejin_daily.json")
+    if jj_data:
+        jj_items = jj_data.get("items", [])
+        fresh_items.extend(jj_items)
+        print(f"[AGG] Juejin: {len(jj_items)} items")
+
+    # Zhihu (知乎)
+    zh_data = load_raw("zhihu_daily.json")
+    if zh_data:
+        zh_items = zh_data.get("items", [])
+        fresh_items.extend(zh_items)
+        print(f"[AGG] Zhihu: {len(zh_items)} items")
+
     # Save snapshot
     save_snapshot(fresh_items, now)
 

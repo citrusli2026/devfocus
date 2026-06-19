@@ -14,12 +14,16 @@ export function Footer() {
             <span>—</span>
             <span>{t("nav.brandSub")}</span>
           </div>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4 flex-wrap justify-center">
             <span>Hacker News</span>
             <span className="text-text-dim">·</span>
-            <span>GitHub Trending</span>
+            <span>GitHub</span>
             <span className="text-text-dim">·</span>
-            <span>{t("about.moreSources")}</span>
+            <span>Product Hunt</span>
+            <span className="text-text-dim">·</span>
+            <span>掘金</span>
+            <span className="text-text-dim">·</span>
+            <span>知乎</span>
           </div>
         </div>
       </div>
