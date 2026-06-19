@@ -1,7 +1,7 @@
 "use client";
 
 import { useTranslation } from "../../lib/i18n";
-import { Globe, Flame, Cpu, Code2, Zap, BarChart3 } from "lucide-react";
+import { Globe, Flame, Cpu, Code2, Zap, Calendar } from "lucide-react";
 import { GitHubIcon } from "../../components/icons";
 import digestData from "../../data/digest.json";
 import type { Digest } from "../../types";
@@ -42,12 +42,21 @@ export default function About() {
             <div className="text-xs text-text-dim mt-0.5">{t("about.statLangs")}</div>
           </div>
         </div>
+
+        {/* Last updated */}
+        <div className="mt-4 inline-flex items-center gap-1.5 text-xs text-text-dim">
+          <Calendar className="h-3.5 w-3.5" />
+          <span>{t("about.lastUpdated")}: {digest.daily.date}</span>
+        </div>
       </section>
 
       <Section icon={<Globe className="h-5 w-5" />} title={t("about.sources")} color="text-accent-violet" bg="bg-accent-violet/10">
         <div className="space-y-3">
-          <SourceCard icon={<Flame className="h-5 w-5 text-[#ff6600]" />} label="Hacker News" desc={t("about.hnDesc")} bg="bg-[#ff6600]/8" />
+          <SourceCard icon={<Flame className="h-5 w-5 text-[#ff6600]\" />} label="Hacker News" desc={t("about.hnDesc")} bg="bg-[#ff6600]/8" />
           <SourceCard icon={<GitHubIcon className="h-5 w-5 text-accent-emerald" />} label="GitHub Trending" desc={t("about.ghDesc")} bg="bg-accent-emerald/8" />
+          <SourceCard icon={<span className="text-lg">🚀</span>} label="Product Hunt" desc={t("about.phDesc")} bg="bg-[#da552f]/8" />
+          <SourceCard icon={<span className="text-lg">📘</span>} label="掘金" desc={t("about.juejinDesc")} bg="bg-[#1e80ff]/8" />
+          <SourceCard icon={<span className="text-lg">💬</span>} label="知乎" desc={t("about.zhihuDesc")} bg="bg-[#0066ff]/8" />
         </div>
       </Section>
 
