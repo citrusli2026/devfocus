@@ -1,117 +1,134 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
-"""Fetch Product Hunt daily top posts via RSS feed."""
+"""Fetch Product Hunt daily top posts via GraphQL API."""
 
 import json
+import os
+import sys
 import time
 import urllib.request
 import urllib.error
-import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
-RSS_URL = "https://raw.githubusercontent.com/headllines/producthunt-daily-rss/master/rss.xml"
-HEADERS = {
-    "User-Agent": "DevFocus/1.0 (https://devfocus.cc)",
-    "Accept": "application/rss+xml, application/xml, text/xml",
-}
+BASE_DIR = Path(__file__).resolve().parent.parent
+API_URL = "https://api.producthunt.com/v2/api/graphql"
+TOP_N = 5  # 每天取 Top N 产品
 
 
-def fetch_rss(url: str, timeout: int = 15, retries: int = 3) -> str | None:
-    for attempt in range(retries):
-        try:
-            req = urllib.request.Request(url, headers=HEADERS)
-            with urllib.request.urlopen(req, timeout=timeout) as resp:
-                return resp.read().decode("utf-8")
-        except (urllib.error.URLError, TimeoutError, OSError) as e:
-            if attempt < retries - 1:
-                time.sleep(2 ** attempt)
-            else:
-                print(f"[ProductHunt] Failed to fetch RSS: {e}", file=__import__("sys").stderr)
-                return None
+def get_token() -> str:
+    """Get PH token from env or .ph_token file."""
+    token = os.environ.get("PH_TOKEN", "")
+    if not token:
+        token_file = BASE_DIR / ".ph_token"
+        if token_file.exists():
+            token = token_file.read_text().strip()
+    if not token:
+        print("[ProductHunt] No PH_TOKEN found", file=sys.stderr)
+        return ""
+    return token
 
 
-def parse_rss(xml_text: str) -> list[dict]:
-    """Parse RSS XML and extract items."""
-    items = []
+def query_posts(token: str, date: str) -> list[dict]:
+    """Query PH GraphQL API for top posts on a given date.
+
+    date format: YYYY-MM-DD
+    """
+    posted_after = f"{date}T00:00:00Z"
+    posted_before_date = datetime.strptime(date, "%Y-%m-%d") + timedelta(days=1)
+    posted_before = posted_before_date.strftime("%Y-%m-%dT00:00:00Z")
+
+    query = """{
+      posts(order: VOTES, postedAfter: "%s", postedBefore: "%s", first: %d) {
+        edges {
+          node {
+            id
+            name
+            tagline
+            votesCount
+            commentsCount
+            url
+            website
+          }
+        }
+      }
+    }""" % (posted_after, posted_before, TOP_N)
+
+    body = json.dumps({"query": query}).encode()
+    req = urllib.request.Request(API_URL, data=body, headers={
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {token}",
+    })
+
     try:
-        root = ET.fromstring(xml_text)
-        channel = root.find("channel")
-        if channel is None:
-            return items
-        
-        for item in channel.findall("item"):
-            title = item.findtext("title", "").strip()
-            link = item.findtext("link", "").strip()
-            description = item.findtext("description", "").strip()
-            pub_date = item.findtext("pubDate", "").strip()
-            
-            # Extract PH-specific fields from description or use defaults
-            # RSS description typically contains tagline + link
-            tagline = description if description else title
-            
-            # Try to parse pubDate
-            try:
-                # RFC 822 format: "Mon, 18 Jun 2026 00:00:00 +0000"
-                from email.utils import parsedate_to_datetime
-                dt = parsedate_to_datetime(pub_date)
-            except (ValueError, TypeError):
-                dt = datetime.now(timezone.utc)
-            
-            # Extract product name from link (e.g., /products/xxx)
-            product_name = ""
-            if "/products/" in link:
-                product_name = link.split("/products/")[-1].split("?")[0].split("/")[0]
-            
-            items.append({
-                "id": f"ph-{product_name}" if product_name else f"ph-{hash(title)}",
-                "title": title,
-                "url": link,
-                "description": tagline[:200],
-                "source": "producthunt",
-                "score": 0,  # RSS doesn't provide votes
-                "comments": 0,
-                "author": "",
-                "time": dt.isoformat(),
-                "tags": ["product-hunt"],
-            })
-    except ET.ParseError as e:
-        print(f"[ProductHunt] XML parse error: {e}", file=__import__("sys").stderr)
-    
-    return items
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            data = json.loads(resp.read().decode())
+            edges = data.get("data", {}).get("posts", {}).get("edges", [])
+            return [e["node"] for e in edges]
+    except Exception as e:
+        print(f"[ProductHunt] API error for {date}: {e}", file=sys.stderr)
+        return []
 
 
 def main():
-    output_dir = Path(__file__).resolve().parent.parent / "2-raw"
-    output_dir.mkdir(parents=True, exist_ok=True)
-    output_path = output_dir / "producthunt_daily.json"
-
-    print("[ProductHunt] Fetching RSS feed...")
-    xml_text = fetch_rss(RSS_URL)
-    if not xml_text:
-        print("[ProductHunt] No data fetched", file=__import__("sys").stderr)
+    token = get_token()
+    if not token:
         # Write empty result
-        result = {
-            "fetched_at": datetime.now(timezone.utc).isoformat(),
-            "source": "producthunt",
-            "count": 0,
-            "items": [],
-        }
-        output_path.write_text(json.dumps(result, indent=2, ensure_ascii=False))
+        output_dir = BASE_DIR / "2-raw"
+        output_dir.mkdir(parents=True, exist_ok=True)
+        result = {"fetched_at": datetime.now(timezone.utc).isoformat(),
+                  "source": "producthunt", "count": 0, "items": []}
+        (output_dir / "producthunt_daily.json").write_text(
+            json.dumps(result, indent=2, ensure_ascii=False))
         return
 
-    items = parse_rss(xml_text)
-    print(f"[ProductHunt] Parsed {len(items)} items from RSS")
+    output_dir = BASE_DIR / "2-raw"
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    all_items = []
+    today = datetime.now(timezone.utc).date()
+
+    # Fetch last 3 days
+    for offset in range(3):
+        date = (today - timedelta(days=offset + 1)).strftime("%Y-%m-%d")
+        print(f"[ProductHunt] Fetching {date}...")
+        posts = query_posts(token, date)
+
+        for post in posts:
+            # Clean PH tracking params from URL
+            url = post["url"].split("?")[0] if "?" in post["url"] else post["url"]
+            website = post.get("website", "")
+            if website and "?" in website:
+                website = website.split("?")[0]
+
+            all_items.append({
+                "id": f"ph-{post['id']}",
+                "title": post["name"],
+                "url": website or url,
+                "description": post.get("tagline", "")[:200],
+                "source": "producthunt",
+                "score": post.get("votesCount", 0),
+                "comments": post.get("commentsCount", 0),
+                "author": "",
+                "time": f"{date}T12:00:00+00:00",
+                "tags": ["product-hunt"],
+            })
+
+        if offset < 2:
+            time.sleep(0.5)
+
+    print(f"[ProductHunt] Total: {len(all_items)} items")
 
     result = {
         "fetched_at": datetime.now(timezone.utc).isoformat(),
         "source": "producthunt",
-        "count": len(items),
-        "items": items,
+        "count": len(all_items),
+        "items": all_items,
     }
+    output_path = output_dir / "producthunt_daily.json"
     output_path.write_text(json.dumps(result, indent=2, ensure_ascii=False))
-    print(f"[ProductHunt] Total: {len(items)} items → {output_path.name}")
+    print(f"[ProductHunt] Saved to {output_path.name}")
 
 
 if __name__ == "__main__":
