@@ -1,6 +1,6 @@
 "use client";
 
-import { createContext, use, useCallback, useEffect, useState } from "react";
+import { createContext, use, useCallback, useState } from "react";
 import zhMessages from "../messages/zh.json";
 import enMessages from "../messages/en.json";
 
@@ -42,11 +42,11 @@ function fmt(tpl: string, params: Record<string, string | number>): string {
 }
 
 export function I18nProvider({ children }: { children: React.ReactNode }) {
-  const [locale, setLocaleState] = useState<Locale>(DEFAULT_LOCALE);
-
-  useEffect(() => {
-    setLocaleState(readLocale());
-  }, []);
+  const [locale, setLocaleState] = useState<Locale>(() => {
+    // Only read from localStorage on client side
+    if (typeof window !== "undefined") return readLocale();
+    return DEFAULT_LOCALE;
+  });
 
   const setLocale = useCallback((l: Locale) => {
     try { localStorage.setItem(STORAGE_KEY, l); } catch {}

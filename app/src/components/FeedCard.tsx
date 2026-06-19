@@ -34,8 +34,8 @@ function ScorePill({ score, source }: { score: number; source: string }) {
 }
 
 function SummaryBlock({ zh, en }: { zh: string; en: string }) {
-  if (!zh && !en) return null;
   const { locale } = useTranslation();
+  if (!zh && !en) return null;
   const text = locale === "en" ? (en || zh) : (zh || en);
   // Check if it's old pipe-separated format
   const points = text.split(/\s*\|\s*/).filter(Boolean);
