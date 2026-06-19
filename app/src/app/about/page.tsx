@@ -46,7 +46,7 @@ export default function About() {
         {/* Last updated */}
         <div className="mt-4 inline-flex items-center gap-1.5 text-xs text-text-dim">
           <Calendar className="h-3.5 w-3.5" />
-          <span>{t("about.lastUpdated")}: {digest.daily.date}</span>
+          <span>{t("about.lastUpdated")}: {new Date(digest.generated_at).toLocaleString("zh-CN", { timeZone: "Asia/Shanghai", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit" })}</span>
         </div>
       </section>
 
