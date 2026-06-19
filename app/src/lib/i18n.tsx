@@ -1,6 +1,6 @@
 "use client";
 
-import { createContext, use, useCallback, useEffect, useSyncExternalStore } from "react";
+import { createContext, use, useCallback, useEffect, useState } from "react";
 import zhMessages from "../messages/zh.json";
 import enMessages from "../messages/en.json";
 
@@ -11,17 +11,12 @@ const messages: Record<Locale, Messages> = { zh: zhMessages, en: enMessages };
 const STORAGE_KEY = "devfocus-locale";
 const DEFAULT_LOCALE: Locale = "zh";
 
-function getServerSnapshot(): Locale { return DEFAULT_LOCALE; }
-function getClientSnapshot(): Locale {
+function readLocale(): Locale {
   try {
     const s = window.localStorage.getItem(STORAGE_KEY);
     if (s === "zh" || s === "en") return s;
   } catch {}
   return DEFAULT_LOCALE;
-}
-function subscribe(cb: () => void): () => void {
-  window.addEventListener("storage", cb);
-  return () => window.removeEventListener("storage", cb);
 }
 
 interface I18nCtx {
@@ -47,13 +42,15 @@ function fmt(tpl: string, params: Record<string, string | number>): string {
 }
 
 export function I18nProvider({ children }: { children: React.ReactNode }) {
-  const locale = useSyncExternalStore(subscribe, getClientSnapshot, getServerSnapshot);
+  const [locale, setLocaleState] = useState<Locale>(DEFAULT_LOCALE);
 
-  useEffect(() => { document.documentElement.style.visibility = ""; }, []);
+  useEffect(() => {
+    setLocaleState(readLocale());
+  }, []);
 
   const setLocale = useCallback((l: Locale) => {
     try { localStorage.setItem(STORAGE_KEY, l); } catch {}
-    window.dispatchEvent(new Event("storage"));
+    setLocaleState(l);
   }, []);
 
   const t = useCallback((key: string, params?: Record<string, string | number>): string => {
