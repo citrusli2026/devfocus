@@ -26,6 +26,10 @@ jobs:
           cache: 'npm'
           cache-dependency-path: app/package-lock.json
 
+      - name: Prepare secrets
+        run: |
+          echo "${{ secrets.PH_TOKEN }}" > data/.ph_token
+
       - name: Run data pipeline
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
