@@ -24,9 +24,12 @@ function SourceBadge({ source }: { source: string }) {
 function ScorePill({ score, source }: { score: number; source: string }) {
   if (score === 0) return null;
   const isGH = source === "github_trending";
+  const arrowColor = source === "juejin" ? "text-[#1e80ff]"
+    : source === "zhihu" ? "text-[#0066ff]"
+    : "text-[#ff6600]";
   return (
     <span className="inline-flex items-center gap-1 text-[11px] font-semibold text-text-muted tabular-nums bg-surface-hover px-2 py-0.5 rounded-md">
-      {isGH ? <Star className="h-3 w-3 fill-amber-400 text-amber-400" /> : <ArrowUp className="h-3 w-3 text-[#ff6600]" />}
+      {isGH ? <Star className="h-3 w-3 fill-amber-400 text-amber-400" /> : <ArrowUp className={`h-3 w-3 ${arrowColor}`} />}
       {score.toLocaleString()}
       {isGH && <span className="text-text-dim font-normal">/d</span>}
     </span>

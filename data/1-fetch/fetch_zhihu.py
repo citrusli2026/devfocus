@@ -19,39 +19,51 @@ MAX_FETCH = 50  # fetch more, filter down
 TOP_N = 10
 HEADERS = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"}
 
-# Tech/science/developer keywords — title must match at least one
+# Strict tech/developer keywords — title must match at least one
+# Removed overly broad terms: 科学, 新能源, 数学, 化学, 生物, 物理
 TECH_KEYWORDS = [
-    # AI & LLM
+    # AI & LLM (core focus)
     "AI", "人工智能", "大模型", "LLM", "ChatGPT", "GPT", "Claude", "Gemini",
     "豆包", "DeepSeek", "通义", "文心", "Copilot", "AIGC", "AGI",
-    "机器学习", "深度学习", "神经网络", "算法", "训练", "推理",
+    "机器学习", "深度学习", "神经网络", "算法",
     # Developer & CS
     "编程", "程序员", "代码", "开发", "工程师", "架构", "开源",
     "GitHub", "Python", "Java", "JavaScript", "Rust", "Go", "TypeScript",
-    "前端", "后端", "全栈", "运维", "DevOps", "SRE",
+    "前端", "后端", "全栈", "运维", "DevOps",
     "API", "数据库", "Linux", "Git", "Docker", "Kubernetes",
     # Hardware & Chips
-    "芯片", "半导体", "GPU", "CPU", "NPU", "算力", "光刻",
-    "英伟达", "NVIDIA", "AMD", "Intel", "高通", "联发科",
+    "芯片", "半导体", "GPU", "CPU", "算力", "光刻",
+    "英伟达", "NVIDIA", "AMD", "Intel", "高通",
     # Big Tech
     "苹果", "Apple", "谷歌", "Google", "微软", "Microsoft",
     "OpenAI", "Meta", "字节", "腾讯", "阿里", "百度", "华为",
-    "特斯拉", "SpaceX", "星舰", "火箭",
+    "特斯拉", "SpaceX", "星舰",
     # Digital & Devices
-    "手机", "iPhone", "安卓", "Android", "iOS", "鸿蒙",
-    "芯片", "显卡", "处理器", "服务器", "云计算",
-    # Science
-    "量子", "核聚变", "航天", "卫星", "火箭", "科学", "论文",
-    "基因", "生物", "物理", "化学", "数学",
-    # Industry
-    "自动驾驶", "机器人", "无人机", "新能源", "电池",
-    "5G", "6G", "WiFi", "区块链", "Web3",
+    "iPhone", "安卓", "Android", "iOS", "鸿蒙",
+    "显卡", "处理器", "服务器", "云计算",
+    # Automation & Robotics
+    "自动驾驶", "机器人", "无人机",
+    "5G", "6G", "区块链",
+]
+
+# Negative keywords — exclude even if tech keyword matched
+EXCLUDE_KEYWORDS = [
+    "汽车", "燃油车", "新能源车", "车主", "换车",
+    "厄尔尼诺", "气候", "天气",
+    "高考", "考研", "选专业",
+    "减肥", "健身", "养生",
+    "做饭", "煮饭", "菜谱",
+    "选专业", "专业", "职业", "职业规划",
+    "羡慕", "恐惧", "哲学", "意识", "灵魂",
 ]
 
 
 def is_tech(title: str) -> bool:
     """Check if a title is tech/science related."""
     title_lower = title.lower()
+    # Check exclusions first
+    if any(ex.lower() in title_lower for ex in EXCLUDE_KEYWORDS):
+        return False
     return any(kw.lower() in title_lower for kw in TECH_KEYWORDS)
 
 

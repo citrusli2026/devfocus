@@ -81,7 +81,7 @@ export default function Home() {
       </section>
 
       {/* Source tabs — sticky on scroll */}
-      <nav className="sticky top-14 z-20 -mx-3 px-3 py-2 bg-surface/80 backdrop-blur-xl border-b border-surface-border/50 sm:relative sm:top-auto sm:mx-0 sm:px-0 sm:py-0 sm:bg-transparent sm:backdrop-blur-none sm:border-0">
+      <nav className="sticky top-14 z-30 -mx-3 px-3 py-2 bg-surface/80 backdrop-blur-xl border-b border-surface-border/50 sm:relative sm:top-auto sm:mx-0 sm:px-0 sm:py-0 sm:bg-transparent sm:backdrop-blur-none sm:border-0">
         <div className="flex gap-1.5 overflow-x-auto scrollbar-hide pb-1 -mb-1">
           {(["all", ...activeSources] as SourceKey[]).map((src) => {
             const meta = SOURCE_META[src];
@@ -126,18 +126,10 @@ export default function Home() {
                   {items.length}
                 </span>
               </div>
-              {key === "producthunt" ? (
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-                  <FeedList items={items.slice(0, Math.ceil(items.length / 2))} />
-                  <FeedList items={items.slice(Math.ceil(items.length / 2))} />
-                </div>
-              ) : key === "hackernews" || key === "github_trending" ? (
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-                  <FeedList items={items} />
-                </div>
-              ) : (
-                <FeedList items={items} />
-              )}
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+                <FeedList items={items.slice(0, Math.ceil(items.length / 2))} />
+                <FeedList items={items.slice(Math.ceil(items.length / 2))} />
+              </div>
             </section>
           );
         }
