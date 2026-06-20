@@ -128,7 +128,7 @@ export default function Home() {
               </div>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
                 <FeedList items={items.slice(0, Math.ceil(items.length / 2))} />
-                <FeedList items={items.slice(Math.ceil(items.length / 2))} />
+                <FeedList items={items.slice(Math.ceil(items.length / 2))} rankOffset={Math.ceil(items.length / 2)} />
               </div>
             </section>
           );

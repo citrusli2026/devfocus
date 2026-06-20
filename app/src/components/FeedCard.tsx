@@ -139,11 +139,11 @@ export function FeedCard({ item, rank }: { item: FeedItem; rank?: number }) {
   );
 }
 
-export function FeedList({ items, showRank = true }: { items: FeedItem[]; showRank?: boolean }) {
+export function FeedList({ items, showRank = true, rankOffset = 0 }: { items: FeedItem[]; showRank?: boolean; rankOffset?: number }) {
   return (
     <div className="space-y-2 sm:space-y-2.5">
       {items.map((item, i) => (
-        <FeedCard key={item.id} item={item} rank={showRank ? i + 1 : undefined} />
+        <FeedCard key={item.id} item={item} rank={showRank ? rankOffset + i + 1 : undefined} />
       ))}
     </div>
   );
