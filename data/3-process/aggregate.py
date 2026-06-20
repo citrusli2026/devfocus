@@ -96,8 +96,14 @@ def filter_by_age(items: list[dict], days: int, now: datetime) -> list[dict]:
 
 
 def _parse_time(item: dict) -> datetime:
+    t = item.get("time", "")
+    if isinstance(t, (int, float)) and t > 0:
+        # Unix timestamp (seconds or milliseconds)
+        if t > 1e12:
+            t = t / 1000
+        return datetime.fromtimestamp(t, tz=timezone.utc)
     try:
-        return datetime.fromisoformat(item["time"].replace("Z", "+00:00"))
+        return datetime.fromisoformat(str(t).replace("Z", "+00:00"))
     except (ValueError, KeyError):
         return datetime.min.replace(tzinfo=timezone.utc)
 
@@ -181,6 +187,46 @@ def main():
         fresh_items.extend(zh_items)
         print(f"[AGG] Zhihu: {len(zh_items)} items")
 
+    # 36Kr (36氪)
+    kr_data = load_raw("36kr.json")
+    if kr_data:
+        kr_items = []
+        for item in kr_data:
+            kr_items.append({
+                "id": f"36kr-{item['id']}",
+                "title": item["title"],
+                "url": item["url"],
+                "description": "",
+                "source": "36kr",
+                "score": item.get("score", 0),
+                "comments": 0,
+                "author": "",
+                "time": item.get("time", ""),
+                "tags": item.get("tags", []),
+            })
+        fresh_items.extend(kr_items)
+        print(f"[AGG] 36Kr: {len(kr_items)} items")
+
+    # InfoQ (InfoQ China)
+    iq_data = load_raw("infoq.json")
+    if iq_data:
+        iq_items = []
+        for item in iq_data:
+            iq_items.append({
+                "id": f"infoq-{item['id']}",
+                "title": item["title"],
+                "url": item["url"],
+                "description": "",
+                "source": "infoq",
+                "score": item.get("score", 0),
+                "comments": 0,
+                "author": "",
+                "time": item.get("time", ""),
+                "tags": item.get("tags", []),
+            })
+        fresh_items.extend(iq_items)
+        print(f"[AGG] InfoQ: {len(iq_items)} items")
+
     # Save snapshot
     save_snapshot(fresh_items, now)
 
@@ -218,10 +264,7 @@ def main():
     # Full feed
     by_date: dict[str, list[dict]] = {}
     for item in history_items:
-        try:
-            k = date_key(datetime.fromisoformat(item["time"].replace("Z", "+00:00")))
-        except (ValueError, KeyError):
-            k = today_key
+        k = date_key(_parse_time(item))
         by_date.setdefault(k, []).append(item)
 
     FINAL_DIR.joinpath("feed.json").write_text(json.dumps({
