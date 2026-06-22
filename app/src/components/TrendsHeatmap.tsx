@@ -12,7 +12,6 @@ type Topic = {
   heat_by_date: Record<string, number>;
 };
 
-// Type the imported data
 const data = rawTrendsData as unknown as {
   generated_at: string;
   period: string;
@@ -21,44 +20,55 @@ const data = rawTrendsData as unknown as {
   source_activity: Record<string, Record<string, number>>;
 };
 
-const TREND_ICONS: Record<string, string> = {
-  rising: "🔺",
-  falling: "🔻",
-  stable: "➡️",
-  new: "🆕",
-};
-
-function heatColor(value: number, max: number): string {
-  if (value === 0) return "bg-surface-hover";
+function heatOpacity(value: number, max: number): number {
+  if (value === 0) return 0;
   const ratio = value / max;
-  if (ratio > 0.75) return "bg-accent-violet";
-  if (ratio > 0.5) return "bg-accent-violet/70";
-  if (ratio > 0.25) return "bg-accent-violet/40";
-  return "bg-accent-violet/20";
+  if (ratio > 0.75) return 1;
+  if (ratio > 0.5) return 0.7;
+  if (ratio > 0.25) return 0.45;
+  return 0.2;
 }
 
-function heatTextColor(value: number, max: number): string {
-  if (value === 0) return "text-text-muted";
-  const ratio = value / max;
-  if (ratio > 0.5) return "text-white";
-  return "text-text-secondary";
+function Sparkline({ values, max }: { values: number[]; max: number }) {
+  const w = 64;
+  const h = 20;
+  const padding = 2;
+  const points = values.map((v, i) => {
+    const x = padding + (i / (values.length - 1)) * (w - padding * 2);
+    const y = h - padding - (v / max) * (h - padding * 2);
+    return `${x},${y}`;
+  });
+  const path = `M ${points.join(" L ")}`;
+  const areaPath = `${path} L ${w - padding},${h - padding} L ${padding},${h - padding} Z`;
+
+  return (
+    <svg width={w} height={h} className="flex-shrink-0">
+      <defs>
+        <linearGradient id="sparkGrad" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stopColor="rgb(139, 92, 246)" stopOpacity="0.3" />
+          <stop offset="100%" stopColor="rgb(139, 92, 246)" stopOpacity="0" />
+        </linearGradient>
+      </defs>
+      <path d={areaPath} fill="url(#sparkGrad)" />
+      <path d={path} fill="none" stroke="rgb(139, 92, 246)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  );
 }
 
 export function TrendsHeatmap() {
   const { t } = useTranslation();
   const [showAll, setShowAll] = useState(false);
+  const [hoveredCell, setHoveredCell] = useState<{ topic: string; date: string; value: number } | null>(null);
 
   if (!data.topics || data.topics.length === 0) return null;
 
   const dates = data.dates;
-  const topics = showAll ? data.topics : data.topics.slice(0, 12);
+  const topics = showAll ? data.topics : data.topics.slice(0, 10);
 
-  // Find max heat for color scaling
   const maxHeat = Math.max(
     ...data.topics.flatMap((tp: Topic) => Object.values(tp.heat_by_date))
   );
 
-  // Short date display (MM/DD)
   const shortDate = (d: string) => {
     const parts = d.split("-");
     return `${parts[1]}/${parts[2]}`;
@@ -67,88 +77,109 @@ export function TrendsHeatmap() {
   return (
     <div className="rounded-xl border border-surface-border bg-surface-elevated p-4 sm:p-5">
       {/* Header */}
-      <div className="flex items-center justify-between mb-4">
+      <div className="flex items-center justify-between mb-5">
         <h2 className="text-sm font-semibold text-text-primary flex items-center gap-1.5">
           🔥 {t("trends.title")}
         </h2>
-        <span className="text-xs text-text-muted">{data.period}</span>
+        <span className="text-xs text-text-muted font-mono">{data.period}</span>
       </div>
 
-      {/* Heatmap — horizontal scroll on mobile */}
-      <div className="overflow-x-auto -mx-2 px-2">
-        <table className="w-full text-xs">
-          <thead>
-            <tr>
-              <th className="text-left pr-3 py-1 font-medium text-text-muted whitespace-nowrap sticky left-0 bg-surface-elevated">
-                {t("trends.topic")}
-              </th>
-              <th className="text-center px-1 py-1 font-medium text-text-muted whitespace-nowrap">
-                {t("trends.trend")}
-              </th>
-              {dates.map((d) => (
-                <th
-                  key={d}
-                  className="text-center px-1 py-1 font-medium text-text-muted whitespace-nowrap min-w-[2.5rem]"
-                >
-                  {shortDate(d)}
-                </th>
-              ))}
-            </tr>
-          </thead>
-          <tbody>
-            {topics.map((topic) => (
-              <tr key={topic.keyword} className="group">
-                <td className="pr-3 py-1 font-medium text-text-primary whitespace-nowrap sticky left-0 bg-surface-elevated group-hover:bg-surface-hover transition-colors">
+      {/* Date labels */}
+      <div className="flex items-center gap-1 mb-3 pl-[140px] sm:pl-[160px]">
+        {dates.map((d) => (
+          <div
+            key={d}
+            className="flex-1 text-center text-[10px] text-text-muted font-mono"
+          >
+            {shortDate(d)}
+          </div>
+        ))}
+      </div>
+
+      {/* Heatmap rows */}
+      <div className="space-y-1.5">
+        {topics.map((topic) => {
+          const values = dates.map((d) => topic.heat_by_date[d] || 0);
+          const topicMax = Math.max(...values, 1);
+
+          return (
+            <div key={topic.keyword} className="flex items-center gap-2 group">
+              {/* Topic label */}
+              <div className="w-[130px] sm:w-[150px] flex-shrink-0 flex items-center gap-2">
+                <span className="text-xs font-medium text-text-primary truncate">
                   {topic.keyword}
-                </td>
-                <td className="text-center px-1 py-1">
-                  <span title={topic.trend}>
-                    {TREND_ICONS[topic.trend] || "➡️"}
-                  </span>
-                </td>
+                </span>
+              </div>
+
+              {/* Heat cells */}
+              <div className="flex-1 flex items-center gap-1">
                 {dates.map((d) => {
                   const val = topic.heat_by_date[d] || 0;
+                  const opacity = heatOpacity(val, maxHeat);
+
                   return (
-                    <td
+                    <div
                       key={d}
-                      className={`text-center px-1 py-1 min-w-[2.5rem] ${heatColor(val, maxHeat)} ${heatTextColor(val, maxHeat)} rounded-sm font-mono transition-colors`}
-                      title={`${topic.keyword}: ${val.toFixed(0)}`}
+                      className="flex-1 aspect-square rounded-[3px] transition-all duration-150 cursor-pointer hover:ring-1 hover:ring-violet-400/50 hover:scale-110 relative"
+                      style={{
+                        backgroundColor: `rgba(139, 92, 246, ${opacity})`,
+                      }}
+                      onMouseEnter={() =>
+                        setHoveredCell({ topic: topic.keyword, date: d, value: val })
+                      }
+                      onMouseLeave={() => setHoveredCell(null)}
                     >
-                      {val > 0 ? (val >= 100 ? Math.round(val) : val.toFixed(0)) : ""}
-                    </td>
+                      {hoveredCell?.topic === topic.keyword &&
+                        hoveredCell?.date === d && (
+                          <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 px-2 py-1 bg-gray-900 text-white text-[10px] rounded-md whitespace-nowrap z-10 shadow-lg pointer-events-none">
+                            <span className="font-medium">{topic.keyword}</span>
+                            <span className="mx-1 text-gray-400">·</span>
+                            <span className="font-mono">{shortDate(d)}</span>
+                            <span className="mx-1 text-gray-400">·</span>
+                            <span className="font-mono text-violet-300">
+                              {Math.round(val)}
+                            </span>
+                          </div>
+                        )}
+                    </div>
                   );
                 })}
-              </tr>
-            ))}
-          </tbody>
-        </table>
+              </div>
+
+              {/* Sparkline */}
+              <div className="w-[68px] flex-shrink-0 hidden sm:block">
+                <Sparkline values={values} max={topicMax} />
+              </div>
+            </div>
+          );
+        })}
       </div>
 
       {/* Legend */}
-      <div className="flex items-center gap-3 mt-3 text-xs text-text-muted">
-        <span className="flex items-center gap-1">
-          🔺 {t("trends.rising")}
-        </span>
-        <span className="flex items-center gap-1">
-          🔻 {t("trends.falling")}
-        </span>
-        <span className="flex items-center gap-1">
-          ➡️ {t("trends.stable")}
-        </span>
-        <span className="flex items-center gap-1">
-          🆕 {t("trends.newTopic")}
-        </span>
-      </div>
+      <div className="flex items-center justify-between mt-4 pt-3 border-t border-surface-border">
+        <div className="flex items-center gap-1.5 text-[10px] text-text-muted">
+          <span>{t("trends.less")}</span>
+          {[0.1, 0.3, 0.6, 1].map((opacity, i) => (
+            <div
+              key={i}
+              className="w-2.5 h-2.5 rounded-[2px]"
+              style={{
+                backgroundColor: `rgba(139, 92, 246, ${opacity})`,
+              }}
+            />
+          ))}
+          <span>{t("trends.more")}</span>
+        </div>
 
-      {/* Show more/less */}
-      {data.topics.length > 12 && (
-        <button
-          onClick={() => setShowAll(!showAll)}
-          className="mt-3 text-xs text-accent-violet hover:text-accent-violet/80 transition-colors"
-        >
-          {showAll ? t("trends.showLess") : t("trends.showAll")}
-        </button>
-      )}
+        {data.topics.length > 10 && (
+          <button
+            onClick={() => setShowAll(!showAll)}
+            className="text-xs text-accent-violet hover:text-accent-violet/80 transition-colors font-medium"
+          >
+            {showAll ? t("trends.showLess") : t("trends.showAll")}
+          </button>
+        )}
+      </div>
     </div>
   );
 }
