@@ -10,6 +10,7 @@ type Topic = {
   total_heat: number;
   trend: string;
   heat_by_date: Record<string, number>;
+  sample_titles?: string[];
 };
 
 const data = rawTrendsData as unknown as {
@@ -59,6 +60,7 @@ export function TrendsHeatmap() {
   const { t } = useTranslation();
   const [showAll, setShowAll] = useState(false);
   const [hoveredCell, setHoveredCell] = useState<{ topic: string; date: string; value: number } | null>(null);
+  const [hoveredTopic, setHoveredTopic] = useState<string | null>(null);
 
   if (!data.topics || data.topics.length === 0) return null;
 
@@ -105,10 +107,26 @@ export function TrendsHeatmap() {
           return (
             <div key={topic.keyword} className="flex items-center gap-2 group">
               {/* Topic label */}
-              <div className="w-[130px] sm:w-[150px] flex-shrink-0 flex items-center gap-2">
-                <span className="text-xs font-medium text-text-primary truncate">
+              <div
+                className="w-[130px] sm:w-[150px] flex-shrink-0 relative cursor-default"
+                onMouseEnter={() => setHoveredTopic(topic.keyword)}
+                onMouseLeave={() => setHoveredTopic(null)}
+              >
+                <span className="text-xs font-medium text-text-primary truncate block">
                   {topic.keyword}
                 </span>
+                {/* Sample titles tooltip */}
+                {hoveredTopic === topic.keyword && topic.sample_titles && topic.sample_titles.length > 0 && (
+                  <div className="absolute left-0 bottom-full mb-2 w-[280px] px-3 py-2 bg-gray-900 text-white text-[11px] rounded-lg z-20 shadow-xl pointer-events-none">
+                    <div className="font-medium text-violet-300 mb-1.5 text-xs">{topic.keyword}</div>
+                    {topic.sample_titles.slice(0, 2).map((title, i) => (
+                      <div key={i} className="text-gray-300 leading-relaxed truncate">
+                        · {title}
+                      </div>
+                    ))}
+                    <div className="absolute left-4 top-full w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-gray-900" />
+                  </div>
+                )}
               </div>
 
               {/* Heat cells */}

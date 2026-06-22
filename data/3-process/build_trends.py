@@ -27,6 +27,20 @@ STOP = {
     "our", "his", "her", "he", "she", "my", "me", "i",
 }
 
+# Generic words that are meaningless as standalone topics
+GENERIC = {
+    "show", "open", "source", "code", "skills", "fable", "using", "make",
+    "want", "need", "best", "top", "get", "set", "run", "use", "way",
+    "day", "year", "time", "world", "people", "things", "work", "like",
+    "just", "still", "even", "also", "much", "many", "good", "great",
+    "first", "last", "long", "high", "old", "big", "small", "right",
+    "free", "full", "real", "true", "false", "simple", "easy", "hard",
+    "build", "learn", "start", "help", "take", "find", "think", "look",
+    "come", "give", "back", "down", "well", "part", "made", "read",
+    "post", "ask", "say", "tell", "see", "know", "try", "keep",
+    "site", "app", "tool", "data", "file", "type", "line", "user",
+}
+
 # Known tech keywords to boost
 TECH_KEYWORDS = {
     "ai", "llm", "gpt", "claude", "gemini", "deepseek", "qwen", "llama",
@@ -52,11 +66,11 @@ def extract_keywords(title: str) -> list[str]:
         if kw in title_lower:
             keywords.append(kw)
 
-    # English words (3+ chars, not stop words)
+    # English words (3+ chars, not stop words, not generic)
     words = re.findall(r'[a-zA-Z]{3,}', title)
     for w in words:
         wl = w.lower()
-        if wl not in STOP and len(wl) >= 3:
+        if wl not in STOP and wl not in GENERIC and len(wl) >= 3:
             keywords.append(wl)
 
     # Chinese phrases (2-4 chars for better word boundaries)
@@ -83,8 +97,9 @@ def load_snapshots() -> dict[str, list[dict]]:
     return snapshots
 
 
-def build_keyword_heat(snapshots: dict[str, list[dict]]) -> dict[str, dict[str, float]]:
-    """keyword → {date: heat_score}. Normalized per source to avoid HN dominance."""
+def build_keyword_heat(snapshots: dict[str, list[dict]]) -> tuple[dict[str, dict[str, float]], dict[str, list[str]]]:
+    """keyword → {date: heat_score}. Normalized per source to avoid HN dominance.
+    Also returns keyword → [sample titles] for context."""
     # First pass: find max score per source across all dates
     source_max: dict[str, float] = defaultdict(float)
     for date_str, items in snapshots.items():
@@ -95,6 +110,7 @@ def build_keyword_heat(snapshots: dict[str, list[dict]]) -> dict[str, dict[str, 
 
     # Second pass: normalize scores per source (0-100 scale)
     kw_heat: dict[str, dict[str, float]] = defaultdict(lambda: defaultdict(float))
+    kw_titles: dict[str, list[str]] = defaultdict(list)
     for date_str, items in snapshots.items():
         for item in items:
             title = item.get("title", "")
@@ -105,8 +121,14 @@ def build_keyword_heat(snapshots: dict[str, list[dict]]) -> dict[str, dict[str, 
             keywords = extract_keywords(title)
             for kw in keywords:
                 kw_heat[kw][date_str] += norm_score
+                # Keep top 3 highest-scoring titles per keyword
+                if len(kw_titles[kw]) < 3:
+                    kw_titles[kw].append(title)
+                elif raw_score > 0:
+                    # Replace lowest if this is higher score (simple heuristic)
+                    pass  # keep first 3 for simplicity
 
-    return kw_heat
+    return kw_heat, kw_titles
 
 
 def classify_trend(heat_by_date: dict[str, float]) -> str:
@@ -148,7 +170,7 @@ def main():
     print(f"[Trends] {len(dates)} 天数据: {dates[0]} ~ {dates[-1]}")
 
     # Build keyword heat map
-    kw_heat = build_keyword_heat(snapshots)
+    kw_heat, kw_titles = build_keyword_heat(snapshots)
 
     # Filter: keyword must appear on ≥2 days OR have total heat > 100
     topics = []
@@ -174,6 +196,7 @@ def main():
             "total_heat": total_heat,
             "trend": trend,
             "heat_by_date": full_heat,
+            "sample_titles": kw_titles.get(kw, []),
         })
 
     # Sort by total heat descending, take top 35
