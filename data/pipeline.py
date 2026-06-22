@@ -54,6 +54,11 @@ def main():
     if not args.skip_summarize and not args.dry_run and sum_script.exists():
         run_script(sum_script)
 
+    # Step 3b: Build trends
+    trends_script = PROCESS_DIR / "build_trends.py"
+    if not args.dry_run and trends_script.exists():
+        run_script(trends_script)
+
     # Step 4: Sync to app
     app_data_dir = BASE_DIR.parent / "app" / "src" / "data"
     if not args.dry_run and FINAL_DIR.exists():
