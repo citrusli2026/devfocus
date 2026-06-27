@@ -126,6 +126,24 @@ def load_history() -> list[dict]:
     return list(all_items.values())
 
 
+def load_first_seen_map() -> dict[str, str]:
+    """Scan history snapshots to find the earliest date each item ID appeared."""
+    first_seen: dict[str, str] = {}
+    if not HISTORY_DIR.exists():
+        return first_seen
+    for f in sorted(HISTORY_DIR.glob("*.json")):
+        date_str = f.stem  # e.g. "2026-06-20"
+        try:
+            data = json.loads(f.read_text())
+            for item in data.get("items", []):
+                iid = item["id"]
+                if iid not in first_seen:
+                    first_seen[iid] = date_str
+        except Exception:
+            continue
+    return first_seen
+
+
 def save_snapshot(items: list[dict], now: datetime):
     HISTORY_DIR.mkdir(parents=True, exist_ok=True)
     path = HISTORY_DIR / f"{date_key(now)}.json"
@@ -229,6 +247,16 @@ def main():
 
     # Save snapshot
     save_snapshot(fresh_items, now)
+
+    # Load first_seen from history (before adding today's snapshot)
+    first_seen_map = load_first_seen_map()
+    today_key_str = date_key(now)
+    for item in fresh_items:
+        iid = item["id"]
+        if iid in first_seen_map:
+            item["first_seen"] = first_seen_map[iid]
+        else:
+            item["first_seen"] = today_key_str
 
     # Load history for period reports
     history_items = load_history()

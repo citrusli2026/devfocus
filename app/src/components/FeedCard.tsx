@@ -129,6 +129,11 @@ export function FeedCard({ item, rank }: { item: FeedItem; rank?: number }) {
                 {t("common.by")} {item.author}
               </span>
             )}
+            {item.first_seen && (
+              <span className="text-[11px] text-text-dim px-1.5 py-0.5 rounded bg-surface-hover" title={t("common.firstSeen") || "首次上榜"}>
+                📅 {item.first_seen}
+              </span>
+            )}
           </div>
 
           {/* Summary — sentence-by-sentence */}

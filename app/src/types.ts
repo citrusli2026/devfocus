@@ -11,6 +11,7 @@ export interface FeedItem {
   tags: string[];
   summary_zh?: string;
   summary_en?: string;
+  first_seen?: string;
 }
 
 export interface DigestSection {
