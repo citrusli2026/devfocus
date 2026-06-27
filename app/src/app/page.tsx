@@ -3,7 +3,6 @@
 import { useState } from "react";
 import { Digest } from "../types";
 import { FeedList } from "../components/FeedCard";
-import { TrendsHeatmap } from "../components/TrendsHeatmap";
 import { useTranslation } from "../lib/i18n";
 import { TrendingUp } from "lucide-react";
 import { GitHubIcon } from "../components/icons";
@@ -80,9 +79,6 @@ export default function Home() {
           {digest.daily.date} · {allItems.length} {t("today.items")}
         </p>
       </section>
-
-      {/* Trends Heatmap */}
-      <TrendsHeatmap />
 
       {/* Source tabs — sticky on scroll */}
       <nav className="sticky top-14 z-30 -mx-3 px-3 py-2 bg-surface/80 backdrop-blur-xl border-b border-surface-border/50 sm:relative sm:top-auto sm:mx-0 sm:px-0 sm:py-0 sm:bg-transparent sm:backdrop-blur-none sm:border-0">
