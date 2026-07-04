@@ -2994,5 +2994,137 @@
   "zhihu-2050992107284964141": {
     "summary_zh": "用户发现 DeepSeek 的快速模式回答越来越像字节跳动的豆包，这背后可能是为了追求更低延迟而牺牲了内容深度。文章探讨了 AI 助手在速度与质量之间的取舍，以及这种“豆包化”趋势是否意味着各大模型在用户体验上走向同质化。",
     "summary_en": "Users observe that DeepSeek's fast mode is increasingly resembling ByteDance's Doubao, likely because prioritizing lower latency comes at the cost of response depth. The discussion explores the trade-off between speed and quality in AI assistants, and whether this 'Doubao-ification' trend signals a homogenization of user experience across major language models."
+  },
+  "gh-daily-anthropics-claude-code": {
+    "summary_zh": "Claude Code 是一款驻扎在终端里的智能编码助手，它能深入理解你的整个代码库，替你执行那些繁琐的日常任务，比如重构、测试和文档编写，从而让你能专注于更重要的逻辑设计。对于那些希望在开发流程中大幅提升效率、减少重复劳动的开发者来说，这个工具就像给他们的终端装上了 AI 副驾驶，直接改变了人机协作的方式。",
+    "summary_en": "Claude Code is an agentic coding tool that lives right inside your terminal and understands your entire codebase, allowing it to automate routine tasks like refactoring, testing, and documentation. For developers tired of repetitive manual work, it acts as an AI co-pilot that accelerates development by handling the grunt work so you can focus on solving real problems. It's a practical, hands-on way to bring large language model assistance directly into your existing workflow, making coding faster and more enjoyable."
+  },
+  "gh-daily-supabase-supabase": {
+    "summary_zh": "Supabase 是一个基于 PostgreSQL 的开发平台，它为您提供一套完整的后端服务，包括实时数据库、认证、存储和边缘函数，让您能快速搭建 Web、移动和 AI 应用。作为 Firebase 的开源替代品，它让开发者无需管理基础设施就能获得弹性扩展的数据库，特别适合那些希望加速迭代的全栈团队。",
+    "summary_en": "Supabase is an open-source Firebase alternative built on PostgreSQL that gives you a dedicated database along with authentication, real-time subscriptions, storage, and edge functions. It solves the problem of having to manage your own backend infrastructure by offering a complete development platform that scales automatically. Full-stack teams building web, mobile, or AI applications benefit the most, as it dramatically reduces setup time and lets them focus on product features instead of plumbing."
+  },
+  "gh-daily-elastic-elasticsearch": {
+    "summary_zh": "Elasticsearch 是一款开源的分布式 RESTful 搜索引擎，它以实时、可扩展的方式处理海量数据，广泛应用于日志分析、全文搜索和安全监控等场景。无论是企业需要快速检索大量文档，还是开发者希望为自己的应用添加搜索功能，Elasticsearch 都提供了一套成熟且灵活的解决方案。",
+    "summary_en": "Elasticsearch is a free and open-source distributed search and analytics engine built on Apache Lucene. It solves the problem of searching and analyzing large volumes of data in real time, supporting everything from full-text search to structured logs and metrics. Developers and enterprises rely on it for use cases like log monitoring, security analytics, and powering search features in applications. Its RESTful API and horizontal scalability make it a go-to choice for building fast, reliable search experiences at any scale."
+  },
+  "gh-daily-ansible-ansible": {
+    "summary_zh": "Ansible 是一个极其简洁的 IT 自动化平台，它使用人类可读的 YAML 描述系统配置，无需在目标机器上安装代理就可以完成服务器部署、应用发布和运维编排。对于那些希望用最少的精力实现大规模基础设施自动化的运维团队来说，Ansible 的简洁性和无代理架构带来了显著的生产力提升。",
+    "summary_en": "Ansible is a radically simple IT automation platform that uses human-readable YAML playbooks to automate deployment, configuration management, and application delivery. Its agentless architecture means you don't need to install anything on managed nodes, drastically reducing setup effort. IT operations teams benefit most because it makes automating everything from server provisioning to application updates straightforward and repeatable. It's designed to let you manage thousands of machines with the same ease as one, solving the complexity of modern infrastructure at scale."
+  },
+  "36kr-3879721635361032": {
+    "summary_zh": "据突发消息，阿里巴巴公司内部已要求全面禁用 AI 助手 Claude，所有员工必须在 7 月 10 日前完成卸载。此举主要出于数据安全和合规性考虑，防止敏感业务信息通过外部 AI 工具泄露。对于长期依赖 Claude 提效的开发团队来说，这一禁令意味着他们需要立即寻找替代方案，也反映出大型企业在引入 AI 工具时面临的安全与效率之间的权衡。",
+    "summary_en": "In a breaking news report, Alibaba has mandated a complete ban on the AI coding assistant Claude across the company, requiring all employees to uninstall it by July 10. The move is driven by data security and compliance concerns, as the company seeks to prevent sensitive business information from being processed by external AI tools. This decision highlights the growing tension between leveraging cutting-edge AI for productivity and maintaining strict internal data governance. Teams that heavily relied on Claude will now need to quickly find alternative solutions, potentially impacting their development workflows."
+  },
+  "36kr-3879603134312449": {
+    "summary_zh": "百度创始人李彦宏即将迎来其职业生涯中规模最大的一次IPO，旗下智能云或自动驾驶业务可能独立上市。这一举动不仅将重塑百度的资本结构，更意味着中国AI商业化进入加速阶段。对投资者而言，这是观察中国科技巨头如何拆分核心资产、释放价值的关键窗口，而李彦宏本人也借此从搜索广告的旧叙事转向AI新故事。",
+    "summary_en": "Baidu founder Robin Li is about to oversee the largest IPO of his career, likely for the company's intelligent cloud or autonomous driving unit. This move signals a strategic shift to unlock value from Baidu's AI assets and accelerate commercialization. For investors, it's a crucial case study in how Chinese tech giants spin off core businesses to tap into new growth narratives beyond traditional search advertising."
+  },
+  "36kr-3879590139408646": {
+    "summary_zh": "黑客在短短20小时内成功对Claude的最新安全模型Fable5实施了第二次越狱攻击，此前号称固若金汤的防线再次被攻破。这一事件暴露了大语言模型在安全对齐上的持续漏洞，即便经过多次加固，仍可能被巧妙的提示词绕过。对AI安全社区而言，Fable5的沦陷提醒我们：没有绝对安全的模型，防御与攻击的猫鼠游戏将长期持续。",
+    "summary_en": "A hacker successfully jailbroke Claude's newest safety model Fable5 for a second time in just 20 hours, breaching what was touted as an impenetrable defense. This incident highlights the persistent vulnerability of large language models to adversarial prompt engineering, even after multiple rounds of safety alignment. It serves as a stark reminder to the AI community that no model is truly secure, and the cat-and-mouse game between attackers and defenders will continue indefinitely."
+  },
+  "36kr-3880629882679301": {
+    "summary_zh": "今日科技圈三则重磅消息：阿里巴巴内部全面禁用Claude Code，原因或涉及数据安全与合规，国产AI工具迎来替代机遇；针对法拉第未来洛杉矶总部人去楼空的传闻，公司紧急辟谣称系不实信息，但外界对其资金链的质疑仍未消散；微软宣布斥资25亿美元组建一家6000人规模的AI新公司，加速在AI基础设施与产品层面的布局，这一动作预示着科技巨头对AI人才的争夺战进一步升级。",
+    "summary_en": "Three major tech stories today: Alibaba has banned Claude Code internally, likely over data security and compliance concerns, opening doors for domestic AI tools. Faraday Future denied rumors that its LA headquarters was abandoned, but questions about its cash flow persist. Meanwhile, Microsoft announced a $2.5 billion investment to create a new AI company with 6,000 employees, signaling an intensifying battle for AI talent and infrastructure dominance among tech giants."
+  },
+  "36kr-3879395679137797": {
+    "summary_zh": "这篇文章指出，职场中的成年人最大的智慧是避免陷入资源匮乏、选择受限的恶性循环。所谓的“穷局”不仅是经济上的窘迫，更包括能力、人脉和认知上的滑坡。作者认为，与其等困境降临再奋力挣扎，不如提前布局，保持成长心态并积累可迁移技能。这种观点旨在唤醒那些在重复劳动中逐渐麻木的职场人，提醒他们主动设计职业生涯，而不是被动接受命运。",
+    "summary_en": "This article argues that the smartest move for adults in the workplace is to avoid falling into a 'poverty trap' — not just financial hardship, but a downward spiral of limited skills, connections, and mindsets. Instead of waiting to struggle when crisis hits, professionals should proactively invest in growth and transferable skills. It's a wake-up call for those numbed by repetitive work, urging them to design their careers actively rather than passively accept fate."
+  },
+  "36kr-3879560875651078": {
+    "summary_zh": "韩国散户投资者近期大举买入中国人工智能相关股票，掀起了一波跨市场投资热潮。他们看中的是深度求索、百度等中国AI企业的大模型进展和估值优势。这一现象反映出中国AI技术的全球吸引力正在提升，同时也体现了韩国投资者对本土科技股失望后寻找新热点的心理。他们像当年追逐美股电动车热潮一样，把目光投向了中国AI板块。",
+    "summary_en": "South Korean retail investors are pouring into Chinese AI stocks, driven by the rapid progress of large models from companies like DeepSeek and Baidu, as well as perceived valuation advantages. This cross-market buying spree shows growing global appeal of China's AI sector and reflects Korean investors' search for new opportunities after disappointment with domestic tech stocks. Much like their earlier chase of U.S. EV stocks, they are now betting on Chinese AI."
+  },
+  "36kr-3880635999334660": {
+    "summary_zh": "脆皮中年人开始主动选择一种被称为「三无生活」的新活法，他们放弃房贷、车贷和育儿压力，转而追求低消费、高自由度的极简生活。这一趋势背后折射的是当代中产群体在职场高压与经济不确定性下的集体焦虑，以及他们对传统成功路径的反思。对越来越多人而言，少即是多，活得轻松比活得体面更重要。",
+    "summary_en": "A growing number of middle-aged Chinese are embracing what they call the 'three-no lifestyle'—no mortgage, no car loan, and no children—as a way to escape the crushing pressure of modern life. This trend highlights a widespread disillusionment with traditional markers of success among the middle class, who now prioritize mental well-being and financial freedom over material accumulation. It's a quiet rebellion against the rat race, suggesting that for many, a simpler, less burdensome existence is becoming the new ideal."
+  },
+  "36kr-3879484968398852": {
+    "summary_zh": "Meta首席执行官扎克伯格公开承认，公司打造的AI智能体产品在能力与市场表现上均未达到内部预期，尤其是与竞争对手相比缺乏突破性进展。这番坦诚暴露了Meta在生成式AI竞赛中的尴尬位置：尽管投入巨资，但技术落地与用户体验仍存在显著差距。对于依赖AI转型的Meta而言，这无疑是一记警钟，也提示整个行业：大模型很难靠资源堆砌就一步登天。",
+    "summary_en": "Mark Zuckerberg admitted that Meta’s AI agent development has fallen short of expectations, acknowledging the company's struggles to deliver competitive products in the generative AI race. Despite massive investment, Meta's agents lack the breakthrough capabilities seen in rivals like OpenAI or Google. The confession underscores a harsh reality: throwing resources at AI isn't enough to guarantee success, and Meta now faces an uphill battle to catch up in a field where it was once a pioneer."
+  },
+  "36kr-3879856914198532": {
+    "summary_zh": "一款仅重14克的微型芯片在2024年欧洲杯葡萄牙队的比赛中发挥了关键作用，它被嵌入球员球衣内，实时监测位置、速度和生理数据，协助教练组做出换人和战术调整。正是基于芯片回传的数据，主帅才决定让C罗在关键时刻替补上场并最终扭转战局。这颗小小的芯片代表体育科技从辅助工具进化为核心决策引擎的趋势，也让球迷看到数据如何改写绿茵故事。",
+    "summary_en": "A tiny 14-gram chip embedded in players' jerseys became an unsung hero during Portugal's Euro 2024 campaign, providing real-time tracking and biometric data that helped the coaching staff make a game-changing substitution—bringing on Cristiano Ronaldo at a crucial moment. The chip's data proved decisive, turning the match around. This story illustrates how wearable tech is no longer just a nice-to-have in sports; it has become a strategic weapon that influences real-time decisions, blending data analytics with human instinct on the pitch."
+  },
+  "36kr-3877919172047111": {
+    "summary_zh": "理想汽车再次进行组织架构调整，核心动作是砍掉中间管理层，让整车和智能驾驶产品的决策权直接回归研发团队。这意味着过去层层汇报的流程被缩短，产品与研发的距离被拉近。这家造车新势力试图通过扁平化结构来提升产品迭代速度和响应效率，在竞争白热化的新能源市场中抢占先机。对员工而言，这是一次权责重配，对行业而言，则是极致效率导向的管理实验。",
+    "summary_en": "In a fresh restructuring move, Li Auto is dismantling its middle management layers and giving product decision power directly back to R&D teams for both vehicles and autonomous driving. The goal is to accelerate iteration cycles and sharpen responsiveness in the hyper-competitive EV market. By flattening the hierarchy, the company hopes to eliminate bureaucratic bottlenecks and foster faster innovation. This bold experiment in organizational design signals that even successful startups must constantly reinvent their internal structures to stay agile."
+  },
+  "infoq-HDE9Hoe3RVyNlX3CCGzV": {
+    "summary_zh": "一款基于Anthropic Claude模型构建的AI写作工具Fable因用户多次请求失败引发投诉，而Anthropic的官方回应竟暗示问题出在用户不会正确使用，这一傲慢态度彻底激怒了用户群体。人们吐槽说，花了最贵的钱买了最先进的大模型，却换来最憋屈的使用体验——不仅产品不友好，连反馈都被踢皮球。事件暴露了AI公司在用户体验与客服响应上的短板，提醒所有AI厂商：模型再强，也得有人情味。",
+    "summary_en": "When users complained about Fable, a writing tool powered by Anthropic's Claude model, the company's response essentially blamed the users for not being smart enough to use it correctly. The dismissive attitude infuriated many, who pointed out that paying premium prices for cutting-edge AI should not come with such a frustrating experience. This incident highlights a growing gap between AI model capabilities and real-world usability, as well as a troubling lack of customer empathy from AI vendors. It's a wake-up call: even the best model needs a user-friendly wrapper and respectful support to truly deliver value."
+  },
+  "infoq-vxgbzsNORRzQDz6xK1jv": {
+    "summary_zh": "Meta因被指责退出AI竞赛而转向提供算力服务，股价应声暴涨10%。这引发了“卖铲子比淘金更赚”的讨论，即提供基础设施比直接参与AI模型竞争可能更有利可图。该现象揭示了AI产业链中基础设施服务的价值。",
+    "summary_en": "Meta was criticized for falling behind in the AI race, but its pivot to selling computing power as a service led to a 10% stock surge. This sparked discussions about whether selling shovels is more profitable than mining gold—providing infrastructure might be a smarter bet than competing directly in AI models. The move highlights the growing value of infrastructure services in the AI ecosystem."
+  },
+  "infoq-k8tlXTTbFmTGOLojQVZB": {
+    "summary_zh": "行业智能体时代正式来临，出行和货运领域率先实现突破。智能体通过自主决策和任务执行，极大提升了运营效率和服务质量。这标志着AI从通用对话走向垂直行业深度应用，将重塑行业格局。",
+    "summary_en": "The era of industry-specific AI agents has arrived, with transportation and freight sectors leading the breakthrough. These agents autonomously make decisions and execute tasks, significantly improving operational efficiency and service quality. This marks a shift from general-purpose chatbots to deep vertical applications, reshaping industry landscapes."
+  },
+  "infoq-BXc66LG3pVL8ZMme0ehy": {
+    "summary_zh": "本文介绍如何利用AI Agent实现热补丁的自动化生成，通过智能体理解代码变更和系统状态，自动生成并部署补丁，减少人工干预和停机时间。这对于需要快速响应安全漏洞或bug的开发团队极具价值。",
+    "summary_en": "This article explores how to leverage AI agents to automate hotpatch generation. The agent understands code changes and system states, automatically creating and deploying patches, which reduces manual effort and downtime. It is highly valuable for development teams needing rapid response to security vulnerabilities or bugs."
+  },
+  "infoq-o5BOhliYRHIe4ZZPrHY9": {
+    "summary_zh": "文章讲述了从龙蜥操作系统孵化项目到向上游贡献的过程，重点介绍了SGLang Tracing与AI Agent调优的实践。通过开源协作，提升了AI Agent的可观测性和性能调优能力，为社区提供了宝贵经验。",
+    "summary_en": "This article describes the journey from incubating a project in the OpenAnolis (Longxi) OS to contributing upstream, focusing on SGLang Tracing and AI agent tuning practices. Through open-source collaboration, it enhanced observability and performance tuning for AI agents, providing valuable experience for the community."
+  },
+  "infoq-8WD205mNH9OGrkf8BRYO": {
+    "summary_zh": "GitLab的一项调研显示，AI工具虽然加快了代码编写速度，但并未显著提升整体软件交付效率。原因可能在于测试、部署等环节存在瓶颈。这提醒团队不能只关注编码加速，而需系统性优化流程。",
+    "summary_en": "GitLab's research found that AI tools speed up coding but do not improve overall software delivery efficiency. Bottlenecks in testing, deployment, and other stages may offset gains. This reminds teams to focus on end-to-end process optimization rather than just coding acceleration."
+  },
+  "hn-48772388": {
+    "summary_zh": "最近Hacker News上有一篇讨论非常热烈，主题是“半成品产品”。作者尖锐地指出，很多科技产品在上市时功能残缺、体验糟糕，却打着“敏捷开发”和“快速迭代”的旗号来掩盖问题。这篇文章并非针对某个具体软件，而是对行业风气的反思：当用户成了免费测试员，产品经理用“最小可行产品”当借口逃避责任，整个创新生态都会陷入恶性循环。它之所以能引发大量共鸣，是因为每个人几乎都遇到过这样的“半成品”——从智能家居到办公软件，到处是半途而废的功能和反复无常的界面改动。读完你会开始审视自己手中的工具，并思考什么才是真正值得信赖的产品态度。",
+    "summary_en": "A popular Hacker News post titled 'Half-Baked Product' sparks a much-needed industry conversation. The author argues that too many tech products launch with broken features and poor user experience, hiding behind 'agile development' and 'rapid iteration' as excuses. Rather than targeting one specific app, it criticizes a broader culture where users are treated as free testers and product managers use 'minimum viable product' as a shield. The piece resonates because nearly everyone has encountered such half-finished software—from smart home devices to office tools—that changes interfaces arbitrarily and abandons features midway. It forces you to question whether you're using a polished tool or just someone's unfinished experiment."
+  },
+  "hn-48762098": {
+    "summary_zh": "Podman v6.0.0正式发布，为容器管理领域带来了多项重要改进。作为一款无需守护进程的容器引擎，Podman一直以更安全、更符合Linux标准著称。新版本重点优化了与Kubernetes的兼容性，现在可以直接生成和解析更完善的Pod YAML文件，并且强化了rootless模式下运行容器的稳定性。此外，Podman v6.0还引入了全新的网络堆栈，大幅提升了容器间通信的性能。对于开发者、运维人员以及任何对容器技术感兴趣的人来说，这次更新意味着可以更轻松地在本地模拟生产环境，同时减少对Docker的依赖。它正在成为构建云原生工作流时一个更有力的替代选择。",
+    "summary_en": "Podman v6.0.0 has arrived, bringing significant upgrades to the container ecosystem. As a daemonless container engine, Podman is already known for its security and strict adherence to Linux standards. This release tightens Kubernetes compatibility—generating and parsing Pod YAML files more accurately—while improving the stability of rootless container operations. A completely reworked network stack also boosts inter-container communication performance. For developers, DevOps engineers, and anyone tired of Docker's overhead, this update makes Podman an even more compelling alternative. It allows you to simulate production environments locally with fewer friction points, moving closer to a native, secure, and cloud-native workflow."
+  },
+  "ph-1186480": {
+    "summary_zh": "Raycast推出了一个名为Glaze的新工具，让你只需跟AI聊天就能创建自己的Mac应用。以前要写一个简单的菜单栏工具、快捷转换器或者个人效率小插件，往往需要打开Xcode、学习Swift或者借助一堆复杂的脚本。现在在Glaze里，你只要用自然语言描述需求——比如“做一个随时显示当日天气的菜单栏应用”——AI就会自动生成完整的macOS原生应用，包括界面、交互和核心逻辑。这对设计师、产品经理和一切非编程背景的创意工作者来说简直是一大福音，它大幅降低了Mac应用开发的门槛，让想法能快速变成可执行文件。即使是开发者也可以用它在几分钟内搭建原型，节省重复劳动的时间。",
+    "summary_en": "Glaze by Raycast revolutionizes Mac app creation by letting you build native applications simply by chatting with AI. Instead of wrestling with Xcode, Swift, or complicated scripts, you describe what you want in natural language—for example, 'a menu bar app that shows today's weather'—and Glaze generates a fully functional macOS application with UI, interactions, and logic. This is a game-changer for designers, product managers, and anyone without coding experience who has ever wanted a custom utility for their Mac. Even developers can prototype ideas in minutes instead of hours. By drastically lowering the barrier to entry, Glaze empowers anyone to turn an idea into a real, runnable app without writing a single line of code."
+  },
+  "ph-1186250": {
+    "summary_zh": "Loops推出的Goals是一款专注于衡量营销活动实际效果的利器。过去，我们常常被点赞数、阅读量这类虚荣指标困扰，很难判断一次推广到底有没有真正促成用户转化和业务增长。Goals帮你把模糊的“希望提升品牌知名度”变成可量化的目标，并与实际销售数据、用户行为挂钩，自动追踪从广告点击到最后成交的全链路表现。无论是初创公司的小团队，还是成熟企业的市场部，都能用它清晰地看到每一分钱花在了哪里、带来了什么结果。它让营销决策不再靠直觉，而是有数据支撑的直接反馈。",
+    "summary_en": "Goals from Loops tackles a classic marketing pain point: distinguishing vanity metrics from actual business impact. Instead of obsessing over likes or page views, Goals lets you define concrete outcomes—like 'increase trial sign-ups' or 'drive revenue from a campaign'—and then automatically tracks the full funnel from ad click to conversion. It integrates with your sales data and user behavior analytics to show you which channels actually move the needle. For startups and enterprise marketing teams alike, this means making budget decisions based on real ROI evidence, not gut feelings. Goals transforms vague campaign objectives into actionable, measurable targets that align directly with the bottom line."
+  },
+  "ph-1184640": {
+    "summary_zh": "Needle是一个内置于Slack和Teams中的主动式市场推广（GTM）代理，它彻底改变了销售和营销团队的工作方式。以往团队成员要手动查询客户信息、检查线索状态、跟进任务进度，现在Needle会自动扫描团队正在讨论的内容，理解上下文，然后主动推送相关洞察——比如提醒你某位客户最近在官网上停留了很久，或者指出当前对话中遗漏了一个关键的跟进行动。它就像一个精通业务的AI同事，24小时在线，帮你把信息碎片拼成完整的客户画像。对于B2B团队、增长团队以及一切依赖快速协作的商务场景来说，Needle能显著减少在工具间切换的时间，让每个决策都更及时、更基于数据。",
+    "summary_en": "Needle is a proactive go-to-market agent that lives inside Slack and Teams, fundamentally changing how sales and marketing teams operate. Instead of manually digging through CRM, checking lead statuses, or chasing task updates, Needle listens to your team's conversations, understands the context, and surfaces relevant insights automatically. For example, it might alert you that a key prospect just visited your pricing page, or point out that a follow-up action was missed in a thread. It acts like a brilliant AI teammate who never sleeps, stitching together scattered information into actionable customer profiles. For B2B teams, growth squads, and anyone relying on fast internal collaboration, Needle slashes time spent toggling between tools and makes every sales motion smarter and more data-driven."
+  },
+  "juejin-7551268250888781858": {
+    "summary_zh": "这篇文章探讨了程序员常见的一个困境：技术能力很强但面试表现不佳。作者没有推销课程或技巧，而是真诚地分析了背后的原因，包括面试与日常工作的差异、沟通表达的重要性等。对于正在求职或感到面试挫败的开发者来说，这是一个值得反思的视角，建议带着同理心阅读。",
+    "summary_en": "This article discusses a common dilemma among programmers: being skilled at coding but poor at interviews. The author does not sell courses or tips, but sincerely analyzes the reasons behind this phenomenon, including the gap between daily work and interviews, and the importance of communication. It offers a reflective perspective for developers who are job hunting or feel frustrated about interviews, encouraging readers to approach it with empathy."
+  },
+  "zhihu-2055671696800143351": {
+    "summary_zh": "近期市场上出现售价从十几万到九十九万的机器人伴侣，订单已破万，仅限成人购买。这类仿生机器人主打情感陪伴功能，引发关于高价购买是否值得的讨论。对于孤独人群或寻求新型陪伴方式的人来说，它提供了可能，但也涉及伦理和情感替代的深层问题，值得社会深思。",
+    "summary_en": "Recently, a range of robot companions priced from over 100,000 to 990,000 yuan have garnered over 10,000 orders, available only to adults. These biomimetic robots focus on emotional companionship, sparking debate about whether the high price is justified. For lonely individuals or those seeking new ways of companionship, it offers possibilities, but also raises deep ethical concerns about emotional substitution that society needs to consider."
+  },
+  "zhihu-2055338986755854625": {
+    "summary_zh": "一位37岁工程师在聚餐后猝死，未被认定为工伤。事发前一周他每天冒严寒调试设备到深夜。这起事件暴露了工伤认定中对工作相关与非工作活动界限的模糊，尤其是聚餐是否与工作直接相关成为争议点。对于职场人，这件事提醒我们注意健康与权益保护，也促使法律界重新思考工伤认定的合理性。",
+    "summary_en": "A 37-year-old engineer died suddenly after a dinner gathering, but his death was not recognized as work-related. In the week prior, he had been working late in freezing conditions debugging equipment. The case highlights the difficulty in defining work-related activities, especially when dining with colleagues is involved. It serves as a reminder for workers to prioritize health and understand labor rights, and also prompts legal discussion on the fairness of current work injury recognition standards."
+  },
+  "zhihu-2056009773921964278": {
+    "summary_zh": "韩国围棋九段申真谞将与人工智能KataGO进行三番棋对决，且AI让二子。这是人类顶尖棋手与顶级围棋AI的又一次交锋，但让两子的设定使得胜负更具悬念。对于围棋爱好者和AI研究者来说，这不仅是一场比赛，更是对人类与AI博弈能力边界的探索，也反映了围棋AI的进步程度。",
+    "summary_en": "South Korean Go 9-dan Shin Jin-seo will play a three-game match against the AI KataGO, with the AI giving a two-stone handicap. This is another clash between a top human player and a leading Go AI, but the handicap makes the outcome more uncertain. For Go enthusiasts and AI researchers, it is not just a game, but an exploration of the boundaries of human-AI competition and a demonstration of how far Go AI has advanced."
+  },
+  "zhihu-2056394331271999624": {
+    "summary_zh": "阿里巴巴内部宣布全面禁用Anthropic公司的产品，包括Claude Code、Opus等。这释放了企业级AI工具逐步从消费级转向内部自研或国产替代的信号，同时也反映了中美科技竞争背景下对供应链安全的考量。对于国内开发者，这意味着需要适应新的工具生态，也预示着本土AI工具将迎来发展机遇。",
+    "summary_en": "Alibaba has internally announced a comprehensive ban on products from Anthropic, including Claude Code and Opus. This signals a shift in enterprise AI tools from third-party services to in-house or domestic alternatives, reflecting concerns about supply chain security amid US-China tech competition. For domestic developers, this means adapting to a new ecosystem of tools and also suggests that local AI tools will face new development opportunities."
+  },
+  "zhihu-2056380849625325900": {
+    "summary_zh": "在欧洲杯关键比赛中，一枚植入足球内的芯片精准判定C罗的进球未越位，拯救了葡萄牙队的出线希望。支持者认为这项技术让规则执行达到绝对精准，消除了人为误判的争议；反对者则感叹科技剥夺了足球的偶然性和原始激情，让比赛变得过于机械。这场讨论本质上是在追问：当科技能提供更公平的结果时，我们是否愿意牺牲运动中的不确定性和戏剧性？",
+    "summary_en": "During a crucial Euro match, a chip embedded in the football accurately determined that Cristiano Ronaldo's goal was onside, saving Portugal from elimination. Supporters argue that such technology delivers absolute precision in rule enforcement, eliminating human error and controversy. Critics, however, lament that it strips football of its inherent randomness and raw emotion, making the game feel too mechanical. This debate essentially asks whether we are willing to sacrifice the drama and unpredictability of sports for the sake of perfect fairness."
+  },
+  "zhihu-2055004384480830160": {
+    "summary_zh": "近期数码产品掀起涨价潮，苹果多款产品涨幅超过20%，安卓厂商也在年内进行第二轮提价。这波涨价主要源于芯片、存储等核心元器件成本上升，以及全球供应链紧张和汇率波动。对于消费者而言，意味着购机成本显著增加。业内人士预测，由于原材料和物流压力短期内难以缓解，涨价趋势可能持续到年底甚至明年上半年。",
+    "summary_en": "A wave of price hikes is sweeping the consumer electronics market, with Apple raising prices on multiple products by over 20% and Android brands implementing their second round of increases this year. The main drivers are rising costs of key components like chips and memory, global supply chain strains, and currency fluctuations. This means significantly higher purchase costs for consumers. Industry insiders predict the trend could persist until the end of the year or even the first half of next year, as material and logistics pressures show no signs of easing in the short term."
+  },
+  "zhihu-2030713111028745217": {
+    "summary_zh": "安卓平板软件生态长期萎靡，根源在于开发者缺乏动力。大多应用仅将手机界面简单拉伸，而非针对平板大屏和手写笔优化，导致用户体验远不如iPad。此外，安卓平板市场份额分散，硬件规格参差不齐，开发者很难针对众多不同尺寸和分辨率进行适配。加之谷歌对平板系统的投入不如苹果专注，导致优质应用和生产力工具匮乏，消费者购买后往往沦为“大号手机”。",
+    "summary_en": "The Android tablet software ecosystem has long struggled mainly because developers lack sufficient incentive. Most apps are simply stretched phone versions rather than optimized for larger screens and stylus input, resulting in a poor user experience compared to the iPad. Furthermore, the Android tablet market is fragmented with diverse screen sizes and hardware specs, making adaptation costly and complex. Google's investment in tablet-specific features has also been inconsistent compared to Apple's focused approach. As a result, high-quality apps and productivity tools remain scarce, causing many tablets to end up as little more than oversized phones."
   }
 }
