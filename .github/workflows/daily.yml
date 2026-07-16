@@ -2,7 +2,7 @@ name: Daily Pipeline
 
 on:
   schedule:
-    - cron: '0 2 * * *'  # 每天 UTC 2:00 = 北京 10:00
+    - cron: '0 0 * * *'  # 每天 UTC 0:00 = 北京 08:00
   workflow_dispatch:       # 手动触发
 
 permissions:
@@ -67,3 +67,12 @@ jobs:
           DATE=$(date +%Y-%m-%d)
           git commit -m "data: daily update $DATE"
           git push
+
+      - name: Post digest to Telegram
+        if: steps.changes.outputs.has_changes == 'true'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          cd data
+          python3.11 scripts/post_digest.py

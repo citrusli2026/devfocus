@@ -13,6 +13,7 @@ BASE_DIR = Path(__file__).resolve().parent
 FETCH_DIR = BASE_DIR / "1-fetch"
 PROCESS_DIR = BASE_DIR / "3-process"
 FINAL_DIR = BASE_DIR / "4-final"
+SCRIPTS_DIR = BASE_DIR / "scripts"
 
 
 def run_script(script_path: Path, args: list[str] | None = None):
@@ -67,6 +68,11 @@ def main():
         for f in FINAL_DIR.glob("*.json"):
             shutil.copy2(f, app_data_dir / f.name)
             print(f"[Pipeline] Synced {f.name}")
+
+    # Step 5: Generate RSS feed
+    rss_script = SCRIPTS_DIR / "generate_rss.py"
+    if not args.dry_run and rss_script.exists():
+        run_script(rss_script)
 
     elapsed = (datetime.now(timezone.utc) - start).total_seconds()
     print(f"\n[Pipeline] Done in {elapsed:.1f}s")

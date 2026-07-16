@@ -1,9 +1,10 @@
 "use client";
 
+import { useState } from "react";
 import { FeedItem } from "../types";
 import { useTranslation } from "../lib/i18n";
 import { cn } from "../lib/utils";
-import { ExternalLink, MessageSquare, Star, ArrowUp } from "lucide-react";
+import { ExternalLink, MessageSquare, Star, ArrowUp, Share2, Link as LinkIcon } from "lucide-react";
 
 function SourceBadge({ source }: { source: string }) {
   const cfg: Record<string, { label: string; cls: string }> = {
@@ -59,8 +60,54 @@ function SummaryBlock({ zh, en }: { zh: string; en: string }) {
   return <p className="text-sm text-text-secondary mt-2 leading-relaxed">{text}</p>;
 }
 
+function ShareButtons({ item, locale }: { item: FeedItem; locale: string }) {
+  const [copied, setCopied] = useState(false);
+
+  const tweetText = encodeURIComponent(
+    `${item.title} — DevFocus\n${locale === "zh" ? "via DevFocus 开发者聚焦" : ""}`
+  );
+  const shareUrl = encodeURIComponent(item.url);
+
+  const copyLink = async () => {
+    try {
+      await navigator.clipboard.writeText(item.url);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch {}
+  };
+
+  return (
+    <span className="inline-flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity ml-auto">
+      {/* X/Twitter */}
+      <a
+        href={`https://twitter.com/intent/tweet?text=${tweetText}&url=${shareUrl}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center justify-center h-6 w-6 rounded-md text-text-dim hover:text-text-primary hover:bg-surface-hover transition-all"
+        title="Share on X / Twitter"
+        aria-label="Share on X / Twitter"
+      >
+        <Share2 className="h-3 w-3" />
+      </a>
+      {/* Copy link */}
+      <button
+        onClick={copyLink}
+        className="relative inline-flex items-center justify-center h-6 w-6 rounded-md text-text-dim hover:text-text-primary hover:bg-surface-hover transition-all"
+        title={copied ? "Copied!" : "Copy link"}
+        aria-label="Copy link"
+      >
+        {copied ? (
+          <span className="text-[10px] font-semibold text-accent-emerald">✓</span>
+        ) : (
+          <LinkIcon className="h-3 w-3" />
+        )}
+      </button>
+    </span>
+  );
+}
+
 export function FeedCard({ item, rank }: { item: FeedItem; rank?: number }) {
-  const { t } = useTranslation();
+  const { t, locale } = useTranslation();
   let domain = "";
   try { domain = new URL(item.url).hostname.replace("www.", ""); } catch {}
 
@@ -132,6 +179,7 @@ export function FeedCard({ item, rank }: { item: FeedItem; rank?: number }) {
                 📅 {item.first_seen}
               </span>
             )}
+            <ShareButtons item={item} locale={locale} />
           </div>
 
           {/* Summary — sentence-by-sentence */}
