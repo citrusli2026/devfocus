@@ -29,22 +29,57 @@ def escape(s: str) -> str:
     return saxutils.escape(s)
 
 
+def rfc3339(dt_str: str) -> str:
+    """Normalize to YYYY-MM-DD for sitemap lastmod."""
+    try:
+        dt = datetime.fromisoformat(dt_str.replace("Z", "+00:00"))
+        return dt.strftime("%Y-%m-%d")
+    except (ValueError, AttributeError):
+        return datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+
 def generate():
+    APP_PUBLIC_DIR.mkdir(parents=True, exist_ok=True)
     digest_path = FINAL_DIR / "digest.json"
     if not digest_path.exists():
-        print("[RSS] No digest.json found, skipping")
+        print("[FEED] No digest.json found, skipping")
         return
 
     digest = json.loads(digest_path.read_text())
     daily = digest.get("daily", {})
     items = daily.get("items", [])
     date_str = daily.get("date", "")
-
-    if not items:
-        print("[RSS] No daily items, skipping")
-        return
-
+    gen_date = rfc3339(digest.get("generated_at", ""))
     pub_date = rss_datetime(digest.get("generated_at", ""))
+
+    # ——— Sitemap ———
+    sitemap_xml = f"""<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>{SITE_URL}/</loc>
+    <lastmod>{gen_date}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>{SITE_URL}/about/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>{SITE_URL}/feed.xml</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+</urlset>"""
+    sitemap_path = APP_PUBLIC_DIR / "sitemap.xml"
+    sitemap_path.write_text(sitemap_xml, encoding="utf-8")
+    print(f"[FEED] Sitemap → {sitemap_path}")
+
+    # ——— RSS (only if there are daily items) ———
+    if not items:
+        print("[FEED] No daily items, skipping RSS")
+        return
 
     rss_items = []
     seen_urls: set[str] = set()
@@ -71,7 +106,7 @@ def generate():
     </item>""")
 
     if not rss_items:
-        print("[RSS] No items with valid URLs, skipping")
+        print("[FEED] No items with valid URLs, skipping RSS")
         return
 
     rss_xml = f"""<?xml version="1.0" encoding="UTF-8"?>
@@ -94,10 +129,9 @@ def generate():
   </channel>
 </rss>"""
 
-    APP_PUBLIC_DIR.mkdir(parents=True, exist_ok=True)
     out_path = APP_PUBLIC_DIR / "feed.xml"
     out_path.write_text(rss_xml, encoding="utf-8")
-    print(f"[RSS] {len(rss_items)} items → {out_path}")
+    print(f"[FEED] RSS {len(rss_items)} items → {out_path}")
 
 
 if __name__ == "__main__":
