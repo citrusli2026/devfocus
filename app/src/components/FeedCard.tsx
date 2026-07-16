@@ -60,11 +60,9 @@ function SummaryBlock({ zh, en }: { zh: string; en: string }) {
 }
 
 export function FeedCard({ item, rank }: { item: FeedItem; rank?: number }) {
-  const { t, locale } = useTranslation();
+  const { t } = useTranslation();
   let domain = "";
   try { domain = new URL(item.url).hostname.replace("www.", ""); } catch {}
-
-  const summary = locale === "en" ? item.summary_en : item.summary_zh;
 
   return (
     <article

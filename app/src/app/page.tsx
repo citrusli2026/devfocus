@@ -145,7 +145,7 @@ export default function Home() {
       {/* Empty state */}
       {filteredItems.length === 0 && (
         <div className="text-center py-12 text-text-muted">
-          <p className="text-lg">暂无数据，稍后再来</p>
+          <p className="text-lg">{t("today.empty")}</p>
         </div>
       )}
     </div>

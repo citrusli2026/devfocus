@@ -125,11 +125,33 @@ def template_summary(item: dict) -> tuple[str, str]:
     title = item.get("title", "")
     source = item.get("source", "")
     desc = item.get("description", "")[:100]
+    source_labels_zh = {
+        "hackernews": "HN 热门",
+        "github_trending": "开源项目",
+        "producthunt": "Product Hunt 热门",
+        "juejin": "掘金精选",
+        "zhihu": "知乎热榜",
+        "36kr": "36氪热门",
+        "infoq": "InfoQ 精选",
+        "v2ex": "V2EX 热议",
+    }
+    source_labels_en = {
+        "hackernews": "Trending on HN",
+        "github_trending": "Open-source project",
+        "producthunt": "Popular on Product Hunt",
+        "juejin": "Featured on Juejin",
+        "zhihu": "Hot on Zhihu",
+        "36kr": "Popular on 36Kr",
+        "infoq": "Featured on InfoQ",
+        "v2ex": "Hot on V2EX",
+    }
+    label_zh = source_labels_zh.get(source, "热门")
+    label_en = source_labels_en.get(source, "Trending")
     if source == "github_trending":
         name = title.split("/")[-1] if "/" in title else title
         return (f"开源项目 {name}" + (f" — {desc}" if desc else "。"),
                 f"Open-source project {name}" + (f" — {desc}" if desc else "."))
-    return f"HN 热门：{title}", f"Trending on HN: {title}"
+    return f"{label_zh}：{title}", f"{label_en}: {title}"
 
 
 def main():
@@ -153,8 +175,9 @@ def main():
     need = {id: item for id, item in all_items.items()
             if not existing.get(id, {}).get("summary_zh")
             or len(existing[id].get("summary_zh", "")) < 50
-            or existing[id]["summary_zh"].startswith("HN 热门")
-            or existing[id]["summary_zh"].startswith("开源项目")}
+            or any(existing[id]["summary_zh"].startswith(p) for p in
+                   ("HN 热门", "开源项目", "Product Hunt 热门", "掘金精选",
+                    "知乎热榜", "36氪热门", "InfoQ 精选", "V2EX 热议"))}
 
     if not need:
         print("[SUM] All items have good summaries.")

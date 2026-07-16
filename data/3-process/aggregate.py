@@ -245,6 +245,27 @@ def main():
         fresh_items.extend(iq_items)
         print(f"[AGG] InfoQ: {len(iq_items)} items")
 
+    # V2EX
+    v2_data = load_raw("v2ex.json")
+    if v2_data:
+        v2_items = []
+        raw_items = v2_data.get("items", v2_data if isinstance(v2_data, list) else [])
+        for item in raw_items:
+            v2_items.append({
+                "id": f"v2ex-{item['id']}",
+                "title": item.get("title", ""),
+                "url": item.get("url", ""),
+                "description": "",
+                "source": "v2ex",
+                "score": item.get("score", 0),
+                "comments": 0,
+                "author": "",
+                "time": item.get("time", ""),
+                "tags": item.get("tags", []),
+            })
+        fresh_items.extend(v2_items)
+        print(f"[AGG] V2EX: {len(v2_items)} items")
+
     # Save snapshot
     save_snapshot(fresh_items, now)
 
