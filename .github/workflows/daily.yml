@@ -67,12 +67,3 @@ jobs:
           DATE=$(date +%Y-%m-%d)
           git commit -m "data: daily update $DATE"
           git push
-
-      - name: Post digest to Telegram
-        if: steps.changes.outputs.has_changes == 'true'
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: |
-          cd data
-          python3.11 scripts/post_digest.py
