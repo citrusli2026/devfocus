@@ -8,6 +8,7 @@ import { RelativeTime } from "../components/RelativeTime";
 import { SubscribeForm } from "../components/SubscribeForm";
 import { useTranslation } from "../lib/i18n";
 import { useReadItems } from "../lib/read-items";
+import { trackEvent } from "../lib/analytics";
 import { SOURCE_ORDER, getSourceMeta } from "../lib/sources";
 import Link from "next/link";
 import { TrendingUp, Calendar, History, CheckCheck } from "lucide-react";
@@ -119,7 +120,10 @@ export default function Home() {
             return (
               <button
                 key={src}
-                onClick={() => setActive(src)}
+                onClick={() => {
+                  setActive(src);
+                  trackEvent("source_tab_click", { source: src });
+                }}
                 className={`
                   flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold
                   whitespace-nowrap transition-all duration-150 shrink-0
@@ -137,7 +141,10 @@ export default function Home() {
           })}
           </div>
           <button
-            onClick={() => markAllAsRead(allItems.map((i) => i.id))}
+            onClick={() => {
+              markAllAsRead(allItems.map((i) => i.id));
+              trackEvent("mark_all_read", { count: allItems.length });
+            }}
             className="hidden sm:inline-flex items-center gap-1 px-2.5 py-1.5 rounded-lg text-xs font-medium text-text-dim hover:text-text-primary hover:bg-surface-hover transition-colors shrink-0"
             title={t("today.markAllRead")}
           >

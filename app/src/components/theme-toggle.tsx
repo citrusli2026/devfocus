@@ -2,6 +2,7 @@
 
 import { Moon, Sun, Monitor } from "lucide-react";
 import { useTheme } from "./theme-provider";
+import { trackEvent } from "../lib/analytics";
 import { cn } from "../lib/utils";
 
 export function ThemeToggle({ className }: { className?: string }) {
@@ -15,7 +16,10 @@ export function ThemeToggle({ className }: { className?: string }) {
         return (
           <button
             key={t}
-            onClick={() => setTheme(t)}
+            onClick={() => {
+              setTheme(t);
+              trackEvent("theme_change", { theme: t });
+            }}
             className={cn(
               "flex items-center justify-center h-7 w-7 rounded-md text-sm transition-colors",
               active

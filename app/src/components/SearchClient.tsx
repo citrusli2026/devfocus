@@ -5,6 +5,7 @@ import { useRouter, useSearchParams, usePathname } from "next/navigation";
 import Link from "next/link";
 import { Search, X, ExternalLink, Calendar, Tag, Filter, Loader2 } from "lucide-react";
 import { useTranslation } from "../lib/i18n";
+import { trackEvent } from "../lib/analytics";
 import { getSourceMeta } from "../lib/sources";
 
 export type SearchIndexItem = {
@@ -88,11 +89,6 @@ export function SearchClient({
     [pathname, router, searchParams]
   );
 
-  useEffect(() => {
-    const timeout = setTimeout(() => updateUrl({ q: query }), 200);
-    return () => clearTimeout(timeout);
-  }, [query, updateUrl]);
-
   const items = useMemo(() => index?.items ?? [], [index]);
 
   const sources = useMemo(
@@ -119,6 +115,22 @@ export function SearchClient({
       return hay.includes(q);
     });
   }, [items, query, source, date, tag]);
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      updateUrl({ q: query });
+      if (query.trim()) {
+        trackEvent("search", {
+          query: query.trim(),
+          source,
+          date,
+          tag,
+          results: filtered.length,
+        });
+      }
+    }, 500);
+    return () => clearTimeout(timeout);
+  }, [query, source, date, tag, updateUrl, filtered.length]);
 
   const activeFilters = [source, date, tag].filter((v) => v !== "all").length;
 
