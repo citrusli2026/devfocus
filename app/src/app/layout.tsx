@@ -6,6 +6,7 @@ import { ThemeProvider } from "../components/theme-provider";
 import { ReadItemsProvider } from "../lib/read-items";
 import { Navbar } from "../components/navbar";
 import { Footer } from "../components/footer";
+import { BackToTop } from "../components/BackToTop";
 import "./globals.css";
 
 const rubik = Rubik({
@@ -103,6 +104,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   </div>
                 </main>
                 <Footer />
+                <BackToTop />
               </div>
             </ReadItemsProvider>
           </LanguageProvider>

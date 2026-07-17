@@ -4,6 +4,7 @@ import Link from "next/link";
 import { ArrowLeft, Calendar, ExternalLink, Tag } from "lucide-react";
 import { useTranslation } from "../lib/i18n";
 import { getSourceMeta } from "../lib/sources";
+import { EmptyState } from "./EmptyState";
 
 export type TagItem = {
   id: string;
@@ -98,10 +99,7 @@ export function TagClient({ tag, items }: { tag: string; items: TagItem[] }) {
       </div>
 
       {items.length === 0 && (
-        <div className="text-center py-16 text-text-muted">
-          <p className="text-lg">{t("tag.emptyTitle")}</p>
-          <p className="text-sm mt-1">{t("tag.emptyHint")}</p>
-        </div>
+        <EmptyState title={t("tag.emptyTitle")} hint={t("tag.emptyHint")} icon="file" />
       )}
     </div>
   );

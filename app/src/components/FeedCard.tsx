@@ -195,6 +195,11 @@ export function FeedCard({ item, rank, linkToDetail = false }: { item: FeedItem;
           {/* Meta row */}
           <div className="flex items-center gap-2 mt-1.5 flex-wrap">
             <SourceBadge source={item.source} />
+            {read && (
+              <span className="inline-flex items-center text-[10px] font-semibold px-1.5 py-0.5 rounded-md bg-accent-emerald/10 text-accent-emerald border border-accent-emerald/15">
+                {t("today.read")}
+              </span>
+            )}
             <ScorePill score={item.score} source={item.source} />
             {item.comments > 0 && (
               <span className="inline-flex items-center gap-1 text-[11px] text-text-dim">

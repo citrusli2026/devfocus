@@ -7,6 +7,7 @@ import { Search, X, ExternalLink, Calendar, Tag, Filter, Loader2 } from "lucide-
 import { useTranslation } from "../lib/i18n";
 import { trackEvent } from "../lib/analytics";
 import { getSourceMeta } from "../lib/sources";
+import { EmptyState } from "./EmptyState";
 
 export type SearchIndexItem = {
   id: string;
@@ -310,10 +311,7 @@ export function SearchClient({
       </div>
 
       {filtered.length === 0 && (
-        <div className="text-center py-16 text-text-muted">
-          <p className="text-lg">{t("search.emptyTitle")}</p>
-          <p className="text-sm mt-1">{t("search.emptyHint")}</p>
-        </div>
+        <EmptyState title={t("search.emptyTitle")} hint={t("search.emptyHint")} icon="search" />
       )}
     </div>
   );

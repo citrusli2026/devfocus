@@ -4,6 +4,7 @@ import Link from "next/link";
 import { ArrowLeft, Calendar, ExternalLink, Trophy } from "lucide-react";
 import { useTranslation } from "../lib/i18n";
 import { getSourceMeta } from "../lib/sources";
+import { EmptyState } from "./EmptyState";
 
 export type PeriodItem = {
   id: string;
@@ -111,10 +112,7 @@ export function PeriodClient({
       </div>
 
       {items.length === 0 && (
-        <div className="text-center py-16 text-text-muted">
-          <p className="text-lg">{t("period.emptyTitle")}</p>
-          <p className="text-sm mt-1">{t("period.emptyHint")}</p>
-        </div>
+        <EmptyState title={t("period.emptyTitle")} hint={t("period.emptyHint")} icon="inbox" />
       )}
     </div>
   );

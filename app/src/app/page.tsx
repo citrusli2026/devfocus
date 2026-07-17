@@ -6,6 +6,7 @@ import { FeedList } from "../components/FeedCard";
 import { TrendsHeatmap } from "../components/TrendsHeatmap";
 import { RelativeTime } from "../components/RelativeTime";
 import { SubscribeForm } from "../components/SubscribeForm";
+import { EmptyState } from "../components/EmptyState";
 import { useTranslation } from "../lib/i18n";
 import { useReadItems } from "../lib/read-items";
 import { trackEvent } from "../lib/analytics";
@@ -16,11 +17,12 @@ import digestData from "../data/digest.json";
 
 export default function Home() {
   const { t, locale } = useTranslation();
-  const { markAllAsRead } = useReadItems();
+  const { markAllAsRead, isRead } = useReadItems();
   const digest = digestData as Digest;
   const [active, setActive] = useState<string>("all");
 
   const allItems = digest.daily.items;
+  const readCount = allItems.filter((i) => isRead(i.id)).length;
 
   const { activeSources, itemsBySource } = useMemo(() => {
     const presentSources = Array.from(new Set(allItems.map((i) => i.source)));
@@ -141,6 +143,11 @@ export default function Home() {
             );
           })}
           </div>
+          {readCount > 0 && (
+            <span className="hidden sm:inline-flex items-center gap-1 px-2 py-1 rounded-lg text-[11px] font-medium text-text-dim bg-surface-hover tabular-nums shrink-0">
+              {t("today.readProgress", { read: readCount, total: allItems.length })}
+            </span>
+          )}
           <button
             onClick={() => {
               markAllAsRead(allItems.map((i) => i.id));
@@ -184,9 +191,7 @@ export default function Home() {
 
       {/* Empty state */}
       {filteredItems.length === 0 && (
-        <div className="text-center py-12 text-text-muted">
-          <p className="text-lg">{t("today.empty")}</p>
-        </div>
+        <EmptyState title={t("today.empty")} />
       )}
     </div>
   );
