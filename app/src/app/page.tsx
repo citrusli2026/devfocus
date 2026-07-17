@@ -5,6 +5,7 @@ import { Digest, FeedItem } from "../types";
 import { FeedList } from "../components/FeedCard";
 import { TrendsHeatmap } from "../components/TrendsHeatmap";
 import { RelativeTime } from "../components/RelativeTime";
+import { SubscribeForm } from "../components/SubscribeForm";
 import { useTranslation } from "../lib/i18n";
 import { useReadItems } from "../lib/read-items";
 import { SOURCE_ORDER, getSourceMeta } from "../lib/sources";
@@ -169,6 +170,9 @@ export default function Home() {
           </section>
         );
       })}
+
+      {/* Subscribe */}
+      <SubscribeForm />
 
       {/* Empty state */}
       {filteredItems.length === 0 && (
