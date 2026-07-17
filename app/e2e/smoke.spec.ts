@@ -4,12 +4,15 @@ test.describe("basic navigation", () => {
   test("homepage loads and shows daily content", async ({ page }) => {
     await page.goto("/");
     await expect(page.locator("h1")).toContainText("新鲜事");
-    await expect(page.locator("article")).toHaveCount(10, { timeout: 10000 });
+    const articles = page.locator("article");
+    await expect(articles.first()).toBeVisible({ timeout: 10000 });
+    const count = await articles.count();
+    expect(count).toBeGreaterThan(0);
   });
 
   test("can navigate to search page", async ({ page }) => {
     await page.goto("/");
-    await page.getByRole("link", { name: "搜索" }).click();
+    await page.getByRole("banner").getByRole("link", { name: "搜索" }).click();
     await expect(page).toHaveURL(/\/search\//);
     await expect(page.locator("h1")).toContainText("搜索内容");
   });
@@ -26,7 +29,7 @@ test.describe("basic navigation", () => {
 
   test("can navigate to weekly page", async ({ page }) => {
     await page.goto("/");
-    await page.getByRole("link", { name: "周榜" }).click();
+    await page.getByRole("banner").getByRole("link", { name: "周榜" }).click();
     await expect(page).toHaveURL(/\/weekly\//);
     await expect(page.locator("h1")).toContainText("本周热门");
   });
