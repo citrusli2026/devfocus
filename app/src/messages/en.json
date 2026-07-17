@@ -20,11 +20,50 @@
     "krTitle": "36Kr",
     "infoqTitle": "InfoQ",
     "allSources": "All",
-    "empty": "No data yet, check back later"
+    "empty": "No data yet, check back later",
+    "yesterday": "Yesterday",
+    "allHistory": "All archives"
+  },
+  "search": {
+    "backToToday": "Back to today",
+    "badge": "Search",
+    "title": "Search",
+    "subtitle": "Search historical content",
+    "loading": "Loading search index...",
+    "error": "Failed to load search index",
+    "placeholder": "Search titles, descriptions, tags...",
+    "clear": "Clear search",
+    "filters": "Filters",
+    "allSources": "All sources",
+    "allDates": "All dates",
+    "allTags": "All tags",
+    "resultsCount": "Found {count} results",
+    "openOriginal": "Open original",
+    "emptyTitle": "No matches found",
+    "emptyHint": "Try a different keyword or filter"
+  },
+  "history": {
+    "backToToday": "Back to today",
+    "badge": "Archives",
+    "title": "Past Picks",
+    "subtitle": "{count} days archived",
+    "viewDay": "View day"
+  },
+  "historyDate": {
+    "backToToday": "Back to today",
+    "badge": "Archives",
+    "itemsCount": "{items} items · {sources} sources",
+    "backToTodayButton": "Back to today's picks"
+  },
+  "item": {
+    "backToToday": "Back to today",
+    "summary": "Summary",
+    "readOriginal": "Read original",
+    "viewArchive": "View {date} archive"
   },
   "about": {
     "title": "About DevFocus",
-    "desc": "DevFocus saves developers time — automatically collecting the best from Hacker News and GitHub daily, with Chinese summaries. No need to check multiple sources, it's all here.",
+    "desc": "DevFocus saves developers time — automatically collecting the best from Hacker News, GitHub, Product Hunt, Juejin, Zhihu, 36Kr, InfoQ and more, with Chinese summaries. No need to check multiple sources, it's all here.",
     "sources": "Data Sources",
     "hnDesc": "The most active tech community worldwide, daily hot topics",
     "ghDesc": "Daily trending open-source projects, discover new tools and frameworks",

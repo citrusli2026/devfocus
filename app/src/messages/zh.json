@@ -20,11 +20,50 @@
     "krTitle": "36氪",
     "infoqTitle": "InfoQ",
     "allSources": "全部",
-    "empty": "暂无数据，稍后再来"
+    "empty": "暂无数据，稍后再来",
+    "yesterday": "昨日精选",
+    "allHistory": "全部归档"
+  },
+  "search": {
+    "backToToday": "返回今日",
+    "badge": "全站搜索",
+    "title": "搜索内容",
+    "subtitle": "在历史内容中查找",
+    "loading": "加载搜索索引...",
+    "error": "加载搜索索引失败",
+    "placeholder": "搜索标题、描述、标签...",
+    "clear": "清空搜索",
+    "filters": "筛选",
+    "allSources": "全部来源",
+    "allDates": "全部日期",
+    "allTags": "全部标签",
+    "resultsCount": "找到 {count} 条结果",
+    "openOriginal": "打开原文",
+    "emptyTitle": "未找到匹配内容",
+    "emptyHint": "换个关键词或筛选条件试试"
+  },
+  "history": {
+    "backToToday": "返回今日",
+    "badge": "历史归档",
+    "title": "往期精选",
+    "subtitle": "共 {count} 天归档",
+    "viewDay": "查看当日"
+  },
+  "historyDate": {
+    "backToToday": "返回今日",
+    "badge": "历史归档",
+    "itemsCount": "共 {items} 条内容 · {sources} 个来源",
+    "backToTodayButton": "回到今日精选"
+  },
+  "item": {
+    "backToToday": "返回今日",
+    "summary": "摘要",
+    "readOriginal": "阅读原文",
+    "viewArchive": "查看 {date} 归档"
   },
   "about": {
     "title": "关于 DevFocus",
-    "desc": "DevFocus 帮开发者省时间 — 每天自动从 Hacker News 和 GitHub 收集最值得看的内容，附带中文摘要。不用自己到处刷，一站看完。",
+    "desc": "DevFocus 帮开发者省时间 — 每天自动从 Hacker News、GitHub、Product Hunt、掘金、知乎、36氪、InfoQ 等来源收集最值得看的内容，附带中文摘要。不用自己到处刷，一站看完。",
     "sources": "数据来源",
     "hnDesc": "全球最活跃的技术社区，每日热门话题",
     "ghDesc": "每日热门开源项目，发现新工具和框架",

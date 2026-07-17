@@ -89,13 +89,13 @@ export default function Home() {
             className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-hover text-text-secondary hover:text-text-primary hover:bg-surface-elevated transition-colors text-xs font-medium"
           >
             <History className="h-3.5 w-3.5" />
-            昨日精选
+            {t("today.yesterday")}
           </Link>
           <Link
             href="/history/"
             className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-hover text-text-secondary hover:text-text-primary hover:bg-surface-elevated transition-colors text-xs font-medium"
           >
-            全部归档
+            {t("today.allHistory")}
           </Link>
         </div>
       </section>

@@ -3,7 +3,8 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { useRouter, useSearchParams, usePathname } from "next/navigation";
 import Link from "next/link";
-import { Search, X, ExternalLink, Calendar, Tag, Filter } from "lucide-react";
+import { Search, X, ExternalLink, Calendar, Tag, Filter, Loader2 } from "lucide-react";
+import { useTranslation } from "../lib/i18n";
 import { getSourceMeta } from "../lib/sources";
 
 export type SearchIndexItem = {
@@ -16,27 +17,60 @@ export type SearchIndexItem = {
   comments: number;
   date: string;
   tags: string[];
+  hasDetail: boolean;
+};
+
+type SearchIndex = {
+  generated_at: string;
+  total: number;
+  items: SearchIndexItem[];
 };
 
 export function SearchClient({
-  items,
-  sources,
-  dates,
-  tags,
+  fallbackItems,
 }: {
-  items: SearchIndexItem[];
-  sources: string[];
-  dates: string[];
-  tags: string[];
+  fallbackItems?: SearchIndexItem[];
 }) {
+  const { t } = useTranslation();
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
+
+  const [index, setIndex] = useState<SearchIndex | null>(
+    fallbackItems ? { generated_at: "", total: fallbackItems.length, items: fallbackItems } : null
+  );
+  const [loading, setLoading] = useState(!fallbackItems);
+  const [error, setError] = useState<string | null>(null);
 
   const [query, setQuery] = useState(searchParams.get("q") ?? "");
   const [source, setSource] = useState(searchParams.get("source") ?? "all");
   const [date, setDate] = useState(searchParams.get("date") ?? "all");
   const [tag, setTag] = useState(searchParams.get("tag") ?? "all");
+
+  useEffect(() => {
+    if (fallbackItems) return;
+    let cancelled = false;
+    fetch("/search-index.json")
+      .then((res) => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        return res.json();
+      })
+      .then((data: SearchIndex) => {
+        if (!cancelled) {
+          setIndex(data);
+          setLoading(false);
+        }
+      })
+      .catch((err) => {
+        if (!cancelled) {
+          setError(err instanceof Error ? err.message : "Unknown error");
+          setLoading(false);
+        }
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [fallbackItems]);
 
   const updateUrl = useCallback(
     (params: { q?: string; source?: string; date?: string; tag?: string }) => {
@@ -59,6 +93,21 @@ export function SearchClient({
     return () => clearTimeout(timeout);
   }, [query, updateUrl]);
 
+  const items = useMemo(() => index?.items ?? [], [index]);
+
+  const sources = useMemo(
+    () => Array.from(new Set(items.map((i) => i.source))).sort(),
+    [items]
+  );
+  const dates = useMemo(
+    () => Array.from(new Set(items.map((i) => i.date))).filter(Boolean).sort().reverse(),
+    [items]
+  );
+  const tags = useMemo(
+    () => Array.from(new Set(items.flatMap((i) => i.tags))).filter(Boolean).sort(),
+    [items]
+  );
+
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
     return items.filter((item) => {
@@ -73,6 +122,24 @@ export function SearchClient({
 
   const activeFilters = [source, date, tag].filter((v) => v !== "all").length;
 
+  if (loading) {
+    return (
+      <div className="py-16 flex flex-col items-center gap-3 text-text-muted">
+        <Loader2 className="h-6 w-6 animate-spin" />
+        <p>{t("search.loading")}</p>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="py-16 text-center text-text-muted">
+        <p className="text-lg">{t("search.error")}</p>
+        <p className="text-sm mt-1">{error}</p>
+      </div>
+    );
+  }
+
   return (
     <div className="space-y-6">
       {/* Search input */}
@@ -82,14 +149,14 @@ export function SearchClient({
           type="text"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="搜索标题、描述、标签..."
+          placeholder={t("search.placeholder")}
           className="w-full pl-11 pr-10 py-3.5 rounded-xl bg-surface-card border border-surface-border text-text-primary placeholder:text-text-dim focus:outline-none focus:ring-2 focus:ring-accent-violet/30 focus:border-accent-violet/50"
         />
         {query && (
           <button
             onClick={() => setQuery("")}
             className="absolute right-4 top-1/2 -translate-y-1/2 text-text-dim hover:text-text-primary"
-            aria-label="Clear search"
+            aria-label={t("search.clear")}
           >
             <X className="h-4 w-4" />
           </button>
@@ -100,7 +167,7 @@ export function SearchClient({
       <div className="flex flex-col sm:flex-row gap-3">
         <div className="flex items-center gap-2 text-sm text-text-dim">
           <Filter className="h-4 w-4" />
-          <span>筛选</span>
+          <span>{t("search.filters")}</span>
           {activeFilters > 0 && (
             <span className="px-1.5 py-0.5 rounded-full bg-accent-violet/10 text-accent-violet text-xs font-semibold">
               {activeFilters}
@@ -116,7 +183,7 @@ export function SearchClient({
           }}
           className="flex-1 px-3 py-2 rounded-lg bg-surface-card border border-surface-border text-sm text-text-primary focus:outline-none focus:border-accent-violet/50"
         >
-          <option value="all">全部来源</option>
+          <option value="all">{t("search.allSources")}</option>
           {sources.map((s) => {
             const meta = getSourceMeta(s);
             return (
@@ -135,7 +202,7 @@ export function SearchClient({
           }}
           className="flex-1 px-3 py-2 rounded-lg bg-surface-card border border-surface-border text-sm text-text-primary focus:outline-none focus:border-accent-violet/50"
         >
-          <option value="all">全部日期</option>
+          <option value="all">{t("search.allDates")}</option>
           {dates.map((d) => (
             <option key={d} value={d}>
               {d}
@@ -151,7 +218,7 @@ export function SearchClient({
           }}
           className="flex-1 px-3 py-2 rounded-lg bg-surface-card border border-surface-border text-sm text-text-primary focus:outline-none focus:border-accent-violet/50"
         >
-          <option value="all">全部标签</option>
+          <option value="all">{t("search.allTags")}</option>
           {tags.map((t) => (
             <option key={t} value={t}>
               {t}
@@ -162,7 +229,7 @@ export function SearchClient({
 
       {/* Results count */}
       <div className="text-sm text-text-muted">
-        找到 <span className="font-semibold text-text-primary">{filtered.length}</span> 条结果
+        {t("search.resultsCount", { count: filtered.length })}
       </div>
 
       {/* Results */}
@@ -170,6 +237,7 @@ export function SearchClient({
         {filtered.map((item) => {
           const meta = getSourceMeta(item.source);
           const detailUrl = `/item/${item.id}/`;
+          const titleLink = item.hasDetail ? detailUrl : item.url;
           return (
             <article
               key={item.id}
@@ -178,9 +246,20 @@ export function SearchClient({
               <div className="flex items-start justify-between gap-3">
                 <div className="flex-1 min-w-0">
                   <h3 className="font-semibold text-text-primary group-hover:text-accent-violet transition-colors">
-                    <Link href={detailUrl} className="hover:underline underline-offset-2">
-                      {item.title}
-                    </Link>
+                    {item.hasDetail ? (
+                      <Link href={titleLink} className="hover:underline underline-offset-2">
+                        {item.title}
+                      </Link>
+                    ) : (
+                      <a
+                        href={titleLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:underline underline-offset-2"
+                      >
+                        {item.title}
+                      </a>
+                    )}
                   </h3>
                   <p className="mt-1 text-sm text-text-secondary line-clamp-2">{item.description}</p>
                   <div className="mt-2 flex items-center gap-2 flex-wrap text-xs text-text-dim">
@@ -204,8 +283,8 @@ export function SearchClient({
                   href={item.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-text-dim hover:text-text-primary p-2"
-                  title="Open original"
+                  className="text-text-dim hover:text-text-primary p-2 shrink-0"
+                  title={t("search.openOriginal")}
                 >
                   <ExternalLink className="h-4 w-4" />
                 </a>
@@ -217,8 +296,8 @@ export function SearchClient({
 
       {filtered.length === 0 && (
         <div className="text-center py-16 text-text-muted">
-          <p className="text-lg">未找到匹配内容</p>
-          <p className="text-sm mt-1">换个关键词或筛选条件试试</p>
+          <p className="text-lg">{t("search.emptyTitle")}</p>
+          <p className="text-sm mt-1">{t("search.emptyHint")}</p>
         </div>
       )}
     </div>

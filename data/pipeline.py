@@ -60,14 +60,26 @@ def main():
     if not args.dry_run and trends_script.exists():
         run_script(trends_script)
 
+    # Step 3c: Build search index
+    search_index_script = PROCESS_DIR / "build_search_index.py"
+    if not args.dry_run and search_index_script.exists():
+        run_script(search_index_script)
+
     # Step 4: Sync to app
     app_data_dir = BASE_DIR.parent / "app" / "src" / "data"
+    app_public_dir = BASE_DIR.parent / "app" / "public"
     if not args.dry_run and FINAL_DIR.exists():
         import shutil
         app_data_dir.mkdir(parents=True, exist_ok=True)
         for f in FINAL_DIR.glob("*.json"):
             shutil.copy2(f, app_data_dir / f.name)
             print(f"[Pipeline] Synced {f.name}")
+        # Search index goes to public/ so it is fetched at runtime, not bundled
+        search_index = FINAL_DIR / "search-index.json"
+        if search_index.exists():
+            app_public_dir.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(search_index, app_public_dir / search_index.name)
+            print(f"[Pipeline] Synced {search_index.name} to public/")
 
     # Step 5: Generate RSS feed
     rss_script = SCRIPTS_DIR / "generate_rss.py"
