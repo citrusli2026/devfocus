@@ -1,9 +1,17 @@
 import type { Metadata } from "next";
+import { Rubik } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { LanguageProvider } from "../components/language-provider";
 import { Navbar } from "../components/navbar";
 import { Footer } from "../components/footer";
 import "./globals.css";
+
+const rubik = Rubik({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-rubik",
+  display: "swap",
+});
 
 const SITE_URL = "https://www.devfocus.cc";
 
@@ -71,14 +79,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
         <meta name="google-site-verification" content="kYJkJmeEarl54V8iJywwl4KSz8tq8pqSXrfy6u3tpt4" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
       </head>
-      <body className="h-full" style={{ background: "var(--surface-base)" }}>
+      <body className={`h-full ${rubik.variable}`} style={{ background: "var(--surface-base)" }}>
         <LanguageProvider>
           <a
             href="#main-content"
