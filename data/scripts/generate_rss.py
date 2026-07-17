@@ -109,6 +109,18 @@ def generate():
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>{SITE_URL}/weekly/</loc>
+    <lastmod>{gen_date}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>{SITE_URL}/monthly/</loc>
+    <lastmod>{gen_date}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>{SITE_URL}/about/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
