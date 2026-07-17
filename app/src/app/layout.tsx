@@ -7,6 +7,7 @@ import { ReadItemsProvider } from "../lib/read-items";
 import { Navbar } from "../components/navbar";
 import { Footer } from "../components/footer";
 import { BackToTop } from "../components/BackToTop";
+import { KeyboardShortcuts } from "../components/KeyboardShortcuts";
 import "./globals.css";
 
 const rubik = Rubik({
@@ -105,6 +106,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 </main>
                 <Footer />
                 <BackToTop />
+                <KeyboardShortcuts />
               </div>
             </ReadItemsProvider>
           </LanguageProvider>

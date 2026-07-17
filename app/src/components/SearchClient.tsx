@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useRouter, useSearchParams, usePathname } from "next/navigation";
 import Link from "next/link";
 import { Search, X, ExternalLink, Calendar, Tag, Filter, Loader2 } from "lucide-react";
@@ -44,10 +44,22 @@ export function SearchClient({
   const [loading, setLoading] = useState(!fallbackItems);
   const [error, setError] = useState<string | null>(null);
 
+  const inputRef = useRef<HTMLInputElement>(null);
+
   const [query, setQuery] = useState(searchParams.get("q") ?? "");
   const [source, setSource] = useState(searchParams.get("source") ?? "all");
   const [date, setDate] = useState(searchParams.get("date") ?? "all");
   const [tag, setTag] = useState(searchParams.get("tag") ?? "all");
+
+  useEffect(() => {
+    if (searchParams.get("focus") === "1" && inputRef.current) {
+      inputRef.current.focus();
+      const sp = new URLSearchParams(searchParams.toString());
+      sp.delete("focus");
+      const qs = sp.toString();
+      router.replace(`${pathname}${qs ? `?${qs}` : ""}`, { scroll: false });
+    }
+  }, [searchParams, pathname, router]);
 
   useEffect(() => {
     if (fallbackItems) return;
@@ -159,6 +171,7 @@ export function SearchClient({
       <div className="relative">
         <Search className="absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 text-text-dim" />
         <input
+          ref={inputRef}
           type="text"
           value={query}
           onChange={(e) => setQuery(e.target.value)}

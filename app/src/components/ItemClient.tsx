@@ -1,19 +1,29 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
-import { ArrowLeft, ExternalLink, MessageSquare, Star, ArrowUp, Calendar } from "lucide-react";
+import { ArrowLeft, ExternalLink, MessageSquare, Star, ArrowUp, Calendar, Link as LinkIcon, Check } from "lucide-react";
 import { getSourceMeta } from "../lib/sources";
 import { useTranslation } from "../lib/i18n";
 import type { FeedItem } from "../types";
 
 export function ItemClient({ item }: { item: FeedItem }) {
   const { t } = useTranslation();
+  const [copied, setCopied] = useState(false);
   const meta = getSourceMeta(item.source);
   const summary = item.summary_zh || item.summary_en || item.description;
   let domain = "";
   try {
     domain = new URL(item.url).hostname.replace("www.", "");
   } catch {}
+
+  const copyLink = async () => {
+    try {
+      await navigator.clipboard.writeText(window.location.href);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch {}
+  };
 
   return (
     <article className="max-w-3xl mx-auto space-y-8">
@@ -90,6 +100,13 @@ export function ItemClient({ item }: { item: FeedItem }) {
           <ExternalLink className="h-4 w-4" />
           {t("item.readOriginal")}
         </a>
+        <button
+          onClick={copyLink}
+          className="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-surface-hover text-text-secondary font-semibold hover:bg-surface-elevated transition-colors"
+        >
+          {copied ? <Check className="h-4 w-4 text-accent-emerald" /> : <LinkIcon className="h-4 w-4" />}
+          {copied ? t("item.copied") : t("item.copyLink")}
+        </button>
         {item.first_seen && (
           <Link
             href={`/history/${item.first_seen}/`}
