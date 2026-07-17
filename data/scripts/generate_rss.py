@@ -70,6 +70,24 @@ def generate():
                 f"""  <url>\n    <loc>{SITE_URL}/item/{iid}/</loc>\n    <lastmod>{gen_date}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.3</priority>\n  </url>"""
             )
 
+    # Tag pages
+    tag_urls = []
+    feed_path = FINAL_DIR / "feed.json"
+    if feed_path.exists():
+        try:
+            feed = json.loads(feed_path.read_text())
+            seen = set()
+            for it in feed.get("items", []):
+                for tag in it.get("tags", []):
+                    key = tag.lower().replace(" ", "-")
+                    if key and key not in seen:
+                        seen.add(key)
+                        tag_urls.append(
+                            f"""  <url>\n    <loc>{SITE_URL}/tag/{key}/</loc>\n    <lastmod>{gen_date}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.4</priority>\n  </url>"""
+                        )
+        except (json.JSONDecodeError, OSError):
+            pass
+
     sitemap_xml = f"""<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
@@ -102,6 +120,7 @@ def generate():
   </url>
 {chr(10).join(history_urls)}
 {chr(10).join(item_urls)}
+{chr(10).join(tag_urls)}
 </urlset>"""
     sitemap_path = APP_PUBLIC_DIR / "sitemap.xml"
     sitemap_path.write_text(sitemap_xml, encoding="utf-8")
