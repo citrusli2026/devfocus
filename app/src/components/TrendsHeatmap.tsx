@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { useTranslation } from "../lib/i18n";
 import * as rawTrendsData from "../data/trends.json";
 
@@ -115,14 +116,18 @@ export function TrendsHeatmap() {
               <div key={topic.keyword} className="flex items-center gap-2 group">
                 {/* Label */}
                 <div
-                  className="w-[150px] flex-shrink-0 relative cursor-default"
+                  className="w-[150px] flex-shrink-0 relative"
                   onMouseEnter={() => setHoveredTopic(topic.keyword)}
                   onMouseLeave={() => setHoveredTopic(null)}
                 >
                   <div className="flex items-center gap-1.5">
-                    <span className="text-xs font-medium text-text-primary truncate">
+                    <Link
+                      href={`/search/?q=${encodeURIComponent(topic.keyword)}`}
+                      className="text-xs font-medium text-text-primary truncate hover:text-accent-violet hover:underline underline-offset-2"
+                      onClick={(e) => e.stopPropagation()}
+                    >
                       {topic.keyword}
-                    </span>
+                    </Link>
                     <span className={`text-[9px] px-1 py-0.5 rounded-full font-medium ${badge.color}`}>
                       {badge.icon}
                     </span>
@@ -190,7 +195,12 @@ export function TrendsHeatmap() {
               {/* Topic name + trend */}
               <div className="w-[90px] flex-shrink-0">
                 <div className="flex items-center gap-1">
-                  <span className="text-xs font-semibold text-text-primary truncate">{topic.keyword}</span>
+                  <Link
+                    href={`/search/?q=${encodeURIComponent(topic.keyword)}`}
+                    className="text-xs font-semibold text-text-primary truncate hover:text-accent-violet hover:underline underline-offset-2"
+                  >
+                    {topic.keyword}
+                  </Link>
                   <span className={`text-[9px] px-1 py-0.5 rounded-full font-medium ${badge.color}`}>
                     {badge.icon}
                   </span>
