@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import { FeedItem } from "../types";
 import { useTranslation } from "../lib/i18n";
+import { useReadItems } from "../lib/read-items";
 import { cn } from "../lib/utils";
 import { ExternalLink, MessageSquare, Star, ArrowUp, Share2, Link as LinkIcon } from "lucide-react";
 
@@ -111,16 +112,21 @@ function ShareButtons({ item, locale }: { item: FeedItem; locale: string }) {
 
 export function FeedCard({ item, rank, linkToDetail = false }: { item: FeedItem; rank?: number; linkToDetail?: boolean }) {
   const { t, locale } = useTranslation();
+  const { isRead, markAsRead } = useReadItems();
+  const read = isRead(item.id);
   let domain = "";
   try { domain = new URL(item.url).hostname.replace("www.", ""); } catch {}
 
   const titleLink = linkToDetail ? `/item/${item.id}/` : item.url;
+  const handleRead = () => markAsRead(item.id);
 
   return (
     <article
-      className="group relative bg-surface-card rounded-xl border border-surface-border
-        hover:border-accent-violet/30 hover:shadow-md
-        transition-all duration-200 overflow-hidden"
+      className={cn(
+        "group relative bg-surface-card rounded-xl border border-surface-border",
+        "hover:border-accent-violet/30 hover:shadow-md transition-all duration-200 overflow-hidden",
+        read && "opacity-75"
+      )}
     >
       {/* Rank bar */}
       {rank !== undefined && rank <= 3 && (
@@ -147,10 +153,17 @@ export function FeedCard({ item, rank, linkToDetail = false }: { item: FeedItem;
 
         <div className="flex-1 min-w-0">
           {/* Title */}
-          <h3 className="font-semibold text-[14px] sm:text-[15px] text-text-primary leading-snug group-hover:text-accent-violet transition-colors">
+          <h3 className={cn(
+            "font-semibold text-[14px] sm:text-[15px] leading-snug group-hover:text-accent-violet transition-colors",
+            read ? "text-text-secondary" : "text-text-primary"
+          )}>
+            {!read && (
+              <span className="inline-block w-1.5 h-1.5 rounded-full bg-accent-violet mr-1.5 align-middle" aria-hidden="true" />
+            )}
             {linkToDetail ? (
               <Link
                 href={titleLink}
+                onClick={handleRead}
                 className="hover:underline decoration-accent-violet/30 underline-offset-2"
               >
                 {item.title}
@@ -160,6 +173,7 @@ export function FeedCard({ item, rank, linkToDetail = false }: { item: FeedItem;
                 href={item.url}
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={handleRead}
                 className="hover:underline decoration-accent-violet/30 underline-offset-2"
               >
                 {item.title}
@@ -169,9 +183,10 @@ export function FeedCard({ item, rank, linkToDetail = false }: { item: FeedItem;
               href={item.url}
               target="_blank"
               rel="noopener noreferrer"
+              onClick={handleRead}
               className="inline-flex items-center justify-center h-5 w-5 ml-1 text-text-dim hover:text-text-primary opacity-0 group-hover:opacity-50 transition-opacity align-middle"
-              title="Open original"
-              aria-label="Open original"
+              title={t("search.openOriginal")}
+              aria-label={t("search.openOriginal")}
             >
               <ExternalLink className="h-3.5 w-3.5" />
             </a>

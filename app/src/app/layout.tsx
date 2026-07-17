@@ -3,6 +3,7 @@ import { Rubik } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { LanguageProvider } from "../components/language-provider";
 import { ThemeProvider } from "../components/theme-provider";
+import { ReadItemsProvider } from "../lib/read-items";
 import { Navbar } from "../components/navbar";
 import { Footer } from "../components/footer";
 import "./globals.css";
@@ -84,24 +85,26 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className={`h-full ${rubik.variable}`} style={{ background: "var(--surface-base)" }}>
         <ThemeProvider>
           <LanguageProvider>
-            <a
-              href="#main-content"
-              className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-2 focus:bg-accent-violet focus:text-white focus:rounded-lg focus:shadow-lg"
-            >
-              跳到主要内容 / Skip to main content
-            </a>
-            <div className="flex flex-col min-h-full">
-              <Navbar />
-              <main
-                id="main-content"
-                className="flex-1 max-w-6xl w-full mx-auto px-4 sm:px-6 hero-glow"
+            <ReadItemsProvider>
+              <a
+                href="#main-content"
+                className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-2 focus:bg-accent-violet focus:text-white focus:rounded-lg focus:shadow-lg"
               >
-                <div className="py-8">
-                  {children}
-                </div>
-              </main>
-              <Footer />
-            </div>
+                跳到主要内容 / Skip to main content
+              </a>
+              <div className="flex flex-col min-h-full">
+                <Navbar />
+                <main
+                  id="main-content"
+                  className="flex-1 max-w-6xl w-full mx-auto px-4 sm:px-6 hero-glow"
+                >
+                  <div className="py-8">
+                    {children}
+                  </div>
+                </main>
+                <Footer />
+              </div>
+            </ReadItemsProvider>
           </LanguageProvider>
         </ThemeProvider>
         <Analytics />

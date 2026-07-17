@@ -6,13 +6,15 @@ import { FeedList } from "../components/FeedCard";
 import { TrendsHeatmap } from "../components/TrendsHeatmap";
 import { RelativeTime } from "../components/RelativeTime";
 import { useTranslation } from "../lib/i18n";
+import { useReadItems } from "../lib/read-items";
 import { SOURCE_ORDER, getSourceMeta } from "../lib/sources";
 import Link from "next/link";
-import { TrendingUp, Calendar, History } from "lucide-react";
+import { TrendingUp, Calendar, History, CheckCheck } from "lucide-react";
 import digestData from "../data/digest.json";
 
 export default function Home() {
   const { t, locale } = useTranslation();
+  const { markAllAsRead } = useReadItems();
   const digest = digestData as Digest;
   const [active, setActive] = useState<string>("all");
 
@@ -107,7 +109,8 @@ export default function Home() {
 
       {/* Source tabs — sticky on scroll */}
       <nav className="sticky top-14 z-30 -mx-3 px-3 py-2 bg-surface/80 backdrop-blur-xl border-b border-surface-border/50 sm:relative sm:top-auto sm:mx-0 sm:px-0 sm:py-0 sm:bg-transparent sm:backdrop-blur-none sm:border-0">
-        <div className="flex gap-1.5 overflow-x-auto scrollbar-hide pb-1 -mb-1">
+        <div className="flex items-center gap-2">
+          <div className="flex gap-1.5 overflow-x-auto scrollbar-hide pb-1 -mb-1 flex-1">
           {["all", ...activeSources].map((src) => {
             const meta = getSourceMeta(src);
             const count = sourceCounts[src] ?? 0;
@@ -131,6 +134,15 @@ export default function Home() {
               </button>
             );
           })}
+          </div>
+          <button
+            onClick={() => markAllAsRead(allItems.map((i) => i.id))}
+            className="hidden sm:inline-flex items-center gap-1 px-2.5 py-1.5 rounded-lg text-xs font-medium text-text-dim hover:text-text-primary hover:bg-surface-hover transition-colors shrink-0"
+            title={t("today.markAllRead")}
+          >
+            <CheckCheck className="h-3.5 w-3.5" />
+            {t("today.markAllRead")}
+          </button>
         </div>
       </nav>
 
