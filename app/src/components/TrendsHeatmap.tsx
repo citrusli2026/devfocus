@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useId, useState } from "react";
 import Link from "next/link";
 import { useTranslation } from "../lib/i18n";
 import * as rawTrendsData from "../data/trends.json";
@@ -31,7 +31,7 @@ function heatOpacity(value: number, max: number): number {
   return 0.2;
 }
 
-function Sparkline({ values, max }: { values: number[]; max: number }) {
+function Sparkline({ values, max, gradientId }: { values: number[]; max: number; gradientId: string }) {
   const w = 56;
   const h = 18;
   const padding = 2;
@@ -46,12 +46,12 @@ function Sparkline({ values, max }: { values: number[]; max: number }) {
   return (
     <svg width={w} height={h} className="flex-shrink-0">
       <defs>
-        <linearGradient id="sparkGrad" x1="0" y1="0" x2="0" y2="1">
+        <linearGradient id={gradientId} x1="0" y1="0" x2="0" y2="1">
           <stop offset="0%" stopColor="rgb(139, 92, 246)" stopOpacity="0.3" />
           <stop offset="100%" stopColor="rgb(139, 92, 246)" stopOpacity="0" />
         </linearGradient>
       </defs>
-      <path d={areaPath} fill="url(#sparkGrad)" />
+      <path d={areaPath} fill={`url(#${gradientId})`} />
       <path d={path} fill="none" stroke="rgb(139, 92, 246)" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
     </svg>
   );
@@ -69,6 +69,7 @@ export function TrendsHeatmap() {
   const [showAll, setShowAll] = useState(false);
   const [hoveredCell, setHoveredCell] = useState<{ topic: string; date: string; value: number } | null>(null);
   const [hoveredTopic, setHoveredTopic] = useState<string | null>(null);
+  const baseGradientId = useId().replace(/:/g, "");
 
   if (!data.topics || data.topics.length === 0) return null;
 
@@ -107,7 +108,7 @@ export function TrendsHeatmap() {
 
         {/* Rows */}
         <div className="space-y-1.5">
-          {topics.map((topic) => {
+          {topics.map((topic, topicIndex) => {
             const values = dates.map((d) => topic.heat_by_date[d] || 0);
             const topicMax = Math.max(...values, 1);
             const badge = TREND_BADGE[topic.trend] || TREND_BADGE.stable;
@@ -172,7 +173,7 @@ export function TrendsHeatmap() {
 
                 {/* Sparkline */}
                 <div className="w-[60px] flex-shrink-0">
-                  <Sparkline values={values} max={topicMax} />
+                  <Sparkline values={values} max={topicMax} gradientId={`${baseGradientId}-desktop-${topicIndex}`} />
                 </div>
               </div>
             );
@@ -182,7 +183,7 @@ export function TrendsHeatmap() {
 
       {/* ===== Mobile: stacked cards ===== */}
       <div className="sm:hidden space-y-2">
-        {topics.map((topic) => {
+        {topics.map((topic, topicIndex) => {
           const values = dates.map((d) => topic.heat_by_date[d] || 0);
           const topicMax = Math.max(...values, 1);
           const badge = TREND_BADGE[topic.trend] || TREND_BADGE.stable;
@@ -236,7 +237,7 @@ export function TrendsHeatmap() {
 
               {/* Sparkline mini */}
               <div className="w-[44px] flex-shrink-0">
-                <Sparkline values={values} max={topicMax} />
+                <Sparkline values={values} max={topicMax} gradientId={`${baseGradientId}-mobile-${topicIndex}`} />
               </div>
             </div>
           );

@@ -81,7 +81,7 @@ function ShareButtons({ item, locale }: { item: FeedItem; locale: string }) {
   };
 
   return (
-    <span className="inline-flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity ml-auto">
+    <span className="inline-flex items-center gap-1 ml-auto opacity-100 sm:opacity-0 sm:group-hover:opacity-100 sm:has-[:focus-visible]:opacity-100 transition-opacity">
       {/* X/Twitter */}
       <a
         href={`https://twitter.com/intent/tweet?text=${tweetText}&url=${shareUrl}`}

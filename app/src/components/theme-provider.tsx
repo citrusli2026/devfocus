@@ -1,14 +1,16 @@
 "use client";
 
-import { createContext, use, useCallback, useLayoutEffect, useMemo, useState } from "react";
+import { createContext, use, useCallback, useLayoutEffect, useMemo, useSyncExternalStore } from "react";
 
 type Theme = "light" | "dark" | "system";
+type ResolvedTheme = "light" | "dark";
 
 const STORAGE_KEY = "devfocus-theme";
+const DEFAULT_THEME: Theme = "system";
 
 interface ThemeCtx {
   theme: Theme;
-  resolvedTheme: "light" | "dark";
+  resolvedTheme: ResolvedTheme;
   setTheme: (theme: Theme) => void;
   toggleTheme: () => void;
 }
@@ -16,33 +18,49 @@ interface ThemeCtx {
 const ThemeContext = createContext<ThemeCtx | null>(null);
 
 function readStoredTheme(): Theme {
-  if (typeof window === "undefined") return "system";
   try {
     const v = window.localStorage.getItem(STORAGE_KEY) as Theme | null;
     if (v === "light" || v === "dark" || v === "system") return v;
   } catch {}
-  return "system";
+  return DEFAULT_THEME;
 }
 
-function getSystemTheme(): "light" | "dark" {
+function subscribeTheme(callback: () => void): () => void {
+  const handler = (e: StorageEvent) => {
+    if (e.key === STORAGE_KEY) callback();
+  };
+  window.addEventListener("storage", handler);
+  return () => window.removeEventListener("storage", handler);
+}
+
+function getSystemTheme(): ResolvedTheme {
   if (typeof window === "undefined") return "light";
   return window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
 }
 
+function subscribeSystemTheme(callback: () => void): () => void {
+  const mq = window.matchMedia("(prefers-color-scheme: dark)");
+  const handler = () => callback();
+  mq.addEventListener("change", handler);
+  return () => mq.removeEventListener("change", handler);
+}
+
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
-  const [theme, setThemeState] = useState<Theme>(() => readStoredTheme());
-  const [systemTheme, setSystemTheme] = useState<"light" | "dark">(() =>
-    typeof window === "undefined" ? "light" : getSystemTheme()
+  // Stored preference syncs with localStorage without hydration mismatch.
+  const theme = useSyncExternalStore<Theme>(
+    subscribeTheme,
+    readStoredTheme,
+    () => DEFAULT_THEME
   );
 
-  useLayoutEffect(() => {
-    const mq = window.matchMedia("(prefers-color-scheme: dark)");
-    const handler = () => setSystemTheme(mq.matches ? "dark" : "light");
-    mq.addEventListener("change", handler);
-    return () => mq.removeEventListener("change", handler);
-  }, []);
+  // System theme listener.
+  const systemTheme = useSyncExternalStore<ResolvedTheme>(
+    subscribeSystemTheme,
+    getSystemTheme,
+    () => "light"
+  );
 
-  const resolvedTheme = useMemo(() => {
+  const resolvedTheme = useMemo<ResolvedTheme>(() => {
     return theme === "system" ? systemTheme : theme;
   }, [theme, systemTheme]);
 
@@ -59,7 +77,10 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     try {
       localStorage.setItem(STORAGE_KEY, t);
     } catch {}
-    setThemeState(t);
+    // Notify same-tab listeners (storage events don't fire in the same tab).
+    try {
+      window.dispatchEvent(new StorageEvent("storage", { key: STORAGE_KEY, newValue: t }));
+    } catch {}
   }, []);
 
   const toggleTheme = useCallback(() => {

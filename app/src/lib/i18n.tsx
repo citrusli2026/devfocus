@@ -1,6 +1,6 @@
 "use client";
 
-import { createContext, use, useCallback, useState } from "react";
+import { createContext, use, useCallback, useSyncExternalStore } from "react";
 import zhMessages from "../messages/zh.json";
 import enMessages from "../messages/en.json";
 
@@ -19,6 +19,14 @@ function readLocale(): Locale {
   return DEFAULT_LOCALE;
 }
 
+function subscribeLocale(callback: () => void): () => void {
+  const handler = (e: StorageEvent) => {
+    if (e.key === STORAGE_KEY) callback();
+  };
+  window.addEventListener("storage", handler);
+  return () => window.removeEventListener("storage", handler);
+}
+
 interface I18nCtx {
   locale: Locale;
   setLocale: (l: Locale) => void;
@@ -26,7 +34,7 @@ interface I18nCtx {
 }
 
 export const I18nContext = createContext<I18nCtx>({
-  locale: "zh", setLocale: () => {}, t: (k) => k,
+  locale: DEFAULT_LOCALE, setLocale: () => {}, t: (k) => k,
 });
 
 function getNested(obj: Record<string, unknown>, path: string): string | undefined {
@@ -42,15 +50,21 @@ function fmt(tpl: string, params: Record<string, string | number>): string {
 }
 
 export function I18nProvider({ children }: { children: React.ReactNode }) {
-  const [locale, setLocaleState] = useState<Locale>(() => {
-    // Only read from localStorage on client side
-    if (typeof window !== "undefined") return readLocale();
-    return DEFAULT_LOCALE;
-  });
+  // useSyncExternalStore gives a stable server snapshot (DEFAULT_LOCALE) while
+  // keeping the locale in sync with localStorage on the client without a flash
+  // of mismatched hydration content.
+  const locale = useSyncExternalStore<Locale>(
+    subscribeLocale,
+    readLocale,
+    () => DEFAULT_LOCALE
+  );
 
   const setLocale = useCallback((l: Locale) => {
     try { localStorage.setItem(STORAGE_KEY, l); } catch {}
-    setLocaleState(l);
+    // Dispatch a storage event so other tabs and the store update immediately
+    try {
+      window.dispatchEvent(new StorageEvent("storage", { key: STORAGE_KEY, newValue: l }));
+    } catch {}
   }, []);
 
   const t = useCallback((key: string, params?: Record<string, string | number>): string => {

@@ -193,6 +193,7 @@ export function SearchClient({
             setSource(e.target.value);
             updateUrl({ source: e.target.value });
           }}
+          aria-label={t("search.allSources")}
           className="flex-1 px-3 py-2 rounded-lg bg-surface-card border border-surface-border text-sm text-text-primary focus:outline-none focus:border-accent-violet/50"
         >
           <option value="all">{t("search.allSources")}</option>
@@ -212,6 +213,7 @@ export function SearchClient({
             setDate(e.target.value);
             updateUrl({ date: e.target.value });
           }}
+          aria-label={t("search.allDates")}
           className="flex-1 px-3 py-2 rounded-lg bg-surface-card border border-surface-border text-sm text-text-primary focus:outline-none focus:border-accent-violet/50"
         >
           <option value="all">{t("search.allDates")}</option>
@@ -228,6 +230,7 @@ export function SearchClient({
             setTag(e.target.value);
             updateUrl({ tag: e.target.value });
           }}
+          aria-label={t("search.allTags")}
           className="flex-1 px-3 py-2 rounded-lg bg-surface-card border border-surface-border text-sm text-text-primary focus:outline-none focus:border-accent-violet/50"
         >
           <option value="all">{t("search.allTags")}</option>

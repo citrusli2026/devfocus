@@ -127,6 +127,7 @@ export default function Home() {
                 className={`
                   flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-semibold
                   whitespace-nowrap transition-all duration-150 shrink-0
+                  focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-violet/40
                   ${isActive
                     ? `${meta.bg} ${meta.color} border border-current/20`
                     : "bg-surface-hover text-text-dim hover:text-text-secondary border border-transparent"
