@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useRouter, useSearchParams, usePathname } from "next/navigation";
 import Link from "next/link";
-import { Search, X, ExternalLink, Calendar, Tag, Filter, Loader2 } from "lucide-react";
+import { Search, X, ExternalLink, Calendar, Tag, Filter } from "lucide-react";
 import { useTranslation } from "../lib/i18n";
 import { trackEvent } from "../lib/analytics";
 import { getSourceMeta } from "../lib/sources";
@@ -149,9 +149,19 @@ export function SearchClient({
 
   if (loading) {
     return (
-      <div className="py-16 flex flex-col items-center gap-3 text-text-muted">
-        <Loader2 className="h-6 w-6 animate-spin" />
-        <p>{t("search.loading")}</p>
+      <div className="space-y-5 animate-pulse">
+        <div className="h-12 rounded-xl bg-surface-hover" />
+        <div className="flex flex-col sm:flex-row gap-3">
+          <div className="h-10 rounded-lg bg-surface-hover flex-[2]" />
+          <div className="h-10 rounded-lg bg-surface-hover flex-1" />
+          <div className="h-10 rounded-lg bg-surface-hover flex-1" />
+        </div>
+        <div className="h-4 w-32 rounded bg-surface-hover" />
+        <div className="space-y-3">
+          {Array.from({ length: 6 }).map((_, i) => (
+            <div key={i} className="h-24 rounded-xl bg-surface-hover" />
+          ))}
+        </div>
       </div>
     );
   }

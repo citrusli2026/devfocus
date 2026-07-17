@@ -18,15 +18,16 @@ export type PeriodItem = {
 };
 
 export function PeriodClient({
-  title,
-  subtitle,
+  period,
   items,
 }: {
-  title: string;
-  subtitle: string;
+  period: "weekly" | "monthly";
   items: PeriodItem[];
 }) {
   const { t } = useTranslation();
+
+  const title = period === "weekly" ? t("period.weeklyTitle") : t("period.monthlyTitle");
+  const subtitle = period === "weekly" ? t("period.weeklySubtitle") : t("period.monthlySubtitle");
 
   return (
     <div className="max-w-4xl mx-auto space-y-6">

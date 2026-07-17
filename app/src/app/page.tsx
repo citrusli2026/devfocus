@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Digest, FeedItem } from "../types";
 import { FeedList } from "../components/FeedCard";
 import { TrendsHeatmap } from "../components/TrendsHeatmap";
@@ -20,6 +20,8 @@ export default function Home() {
   const { markAllAsRead, isRead } = useReadItems();
   const digest = digestData as Digest;
   const [active, setActive] = useState<string>("all");
+  const tabsRef = useRef<HTMLDivElement>(null);
+  const [scrollState, setScrollState] = useState({ left: false, right: false });
 
   const allItems = digest.daily.items;
   const readCount = allItems.filter((i) => isRead(i.id)).length;
@@ -34,6 +36,24 @@ export default function Home() {
     }
     return { activeSources: ordered.concat(remaining), itemsBySource: bySource };
   }, [allItems]);
+
+  useEffect(() => {
+    const el = tabsRef.current;
+    if (!el) return;
+    const update = () => {
+      setScrollState({
+        left: el.scrollLeft > 4,
+        right: el.scrollLeft + el.clientWidth < el.scrollWidth - 4,
+      });
+    };
+    update();
+    el.addEventListener("scroll", update, { passive: true });
+    window.addEventListener("resize", update);
+    return () => {
+      el.removeEventListener("scroll", update);
+      window.removeEventListener("resize", update);
+    };
+  }, [activeSources.length]);
 
   const sourceCounts: Record<string, number> = {
     all: allItems.length,
@@ -114,8 +134,18 @@ export default function Home() {
       {/* Source tabs — sticky on scroll */}
       <nav className="sticky top-14 z-30 -mx-3 px-3 py-2 bg-surface/80 backdrop-blur-xl border-b border-surface-border/50 sm:relative sm:top-auto sm:mx-0 sm:px-0 sm:py-0 sm:bg-transparent sm:backdrop-blur-none sm:border-0">
         <div className="flex items-center gap-2">
-          <div className="flex gap-1.5 overflow-x-auto scrollbar-hide pb-1 -mb-1 flex-1">
-          {["all", ...activeSources].map((src) => {
+          <div className="relative flex-1">
+            {scrollState.left && (
+              <div className="absolute left-0 top-0 bottom-1 w-6 bg-gradient-to-r from-surface-base to-transparent z-10 pointer-events-none" />
+            )}
+            {scrollState.right && (
+              <div className="absolute right-0 top-0 bottom-1 w-6 bg-gradient-to-l from-surface-base to-transparent z-10 pointer-events-none" />
+            )}
+            <div
+              ref={tabsRef}
+              className="flex gap-1.5 overflow-x-auto scrollbar-hide pb-1 -mb-1"
+            >
+            {["all", ...activeSources].map((src) => {
             const meta = getSourceMeta(src);
             const count = sourceCounts[src] ?? 0;
             const isActive = active === src;
@@ -142,6 +172,7 @@ export default function Home() {
               </button>
             );
           })}
+            </div>
           </div>
           {readCount > 0 && (
             <span className="hidden sm:inline-flex items-center gap-1 px-2 py-1 rounded-lg text-[11px] font-medium text-text-dim bg-surface-hover tabular-nums shrink-0">
