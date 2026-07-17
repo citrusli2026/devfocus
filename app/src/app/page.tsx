@@ -1,64 +1,46 @@
 "use client";
 
-import { useState } from "react";
-import { Digest } from "../types";
+import { useMemo, useState } from "react";
+import { Digest, FeedItem } from "../types";
 import { FeedList } from "../components/FeedCard";
+import { TrendsHeatmap } from "../components/TrendsHeatmap";
+import { RelativeTime } from "../components/RelativeTime";
 import { useTranslation } from "../lib/i18n";
-import { TrendingUp } from "lucide-react";
-import { GitHubIcon } from "../components/icons";
+import { SOURCE_ORDER, getSourceMeta } from "../lib/sources";
+import { TrendingUp, Calendar } from "lucide-react";
 import digestData from "../data/digest.json";
 
-type SourceKey = "all" | "hackernews" | "github_trending" | "producthunt" | "juejin" | "zhihu";
-
-const SOURCE_META: Record<SourceKey, { labelKey: string; icon: React.ReactNode; color: string; bg: string }> = {
-  all:        { labelKey: "today.allSources",  icon: null,                         color: "text-accent-violet", bg: "bg-accent-violet/10" },
-  hackernews: { labelKey: "today.hnTitle",      icon: <span className="text-sm">🔥</span>, color: "text-[#ff6600]",    bg: "bg-[#ff6600]/10" },
-  github_trending: { labelKey: "today.ghTitle", icon: <GitHubIcon className="h-4 w-4" />,   color: "text-accent-emerald", bg: "bg-accent-emerald/10" },
-  producthunt:{ labelKey: "today.phTitle",      icon: <span className="text-sm">🚀</span>, color: "text-[#da552f]",    bg: "bg-[#da552f]/10" },
-  juejin:     { labelKey: "today.juejinTitle",  icon: <span className="text-sm">📘</span>, color: "text-[#1e80ff]",    bg: "bg-[#1e80ff]/10" },
-  zhihu:      { labelKey: "today.zhihuTitle",   icon: <span className="text-sm">💬</span>, color: "text-[#0066ff]",    bg: "bg-[#0066ff]/10" },
-};
-
 export default function Home() {
-  const { t } = useTranslation();
+  const { t, locale } = useTranslation();
   const digest = digestData as Digest;
-  const [active, setActive] = useState<SourceKey>("all");
+  const [active, setActive] = useState<string>("all");
 
   const allItems = digest.daily.items;
-  const bySource = (src: string) => allItems.filter((i) => i.source === src);
 
-  const hnItems = bySource("hackernews");
-  const ghItems = bySource("github_trending");
-  const phItems = bySource("producthunt");
-  const jjItems = bySource("juejin");
-  const zhItems = bySource("zhihu");
+  const { activeSources, itemsBySource } = useMemo(() => {
+    const presentSources = Array.from(new Set(allItems.map((i) => i.source)));
+    const ordered = SOURCE_ORDER.filter((s) => presentSources.includes(s));
+    const remaining = presentSources.filter((s) => !SOURCE_ORDER.includes(s));
+    const bySource: Record<string, FeedItem[]> = {};
+    for (const src of [...ordered, ...remaining]) {
+      bySource[src] = allItems.filter((i) => i.source === src);
+    }
+    return { activeSources: ordered.concat(remaining), itemsBySource: bySource };
+  }, [allItems]);
 
-  // Build source counts for tabs
-  const sourceCounts: Partial<Record<SourceKey, number>> = {
+  const sourceCounts: Record<string, number> = {
     all: allItems.length,
-    hackernews: hnItems.length,
-    github_trending: ghItems.length,
-    producthunt: phItems.length,
-    juejin: jjItems.length,
-    zhihu: zhItems.length,
+    ...Object.fromEntries(activeSources.map((s) => [s, itemsBySource[s]?.length ?? 0])),
   };
 
-  const activeSources: SourceKey[] = (["hackernews", "github_trending", "producthunt", "juejin", "zhihu"] as SourceKey[])
-    .filter((s) => (sourceCounts[s] ?? 0) > 0);
+  const filteredItems = active === "all" ? allItems : itemsBySource[active] ?? [];
 
-  // Filtered items for active tab
-  const filteredItems = active === "all" ? allItems : allItems.filter((i) => i.source === active);
-
-  // Group items by source for "all" view
-  const sections: { key: SourceKey; items: typeof allItems }[] = active === "all"
-    ? [
-        hnItems.length > 0 && { key: "hackernews" as SourceKey, items: hnItems },
-        ghItems.length > 0 && { key: "github_trending" as SourceKey, items: ghItems },
-        phItems.length > 0 && { key: "producthunt" as SourceKey, items: phItems },
-        jjItems.length > 0 && { key: "juejin" as SourceKey, items: jjItems },
-        zhItems.length > 0 && { key: "zhihu" as SourceKey, items: zhItems },
-      ].filter(Boolean) as { key: SourceKey; items: typeof allItems }[]
-    : [{ key: active, items: filteredItems }];
+  const sections =
+    active === "all"
+      ? activeSources
+          .filter((s) => (sourceCounts[s] ?? 0) > 0)
+          .map((key) => ({ key, items: itemsBySource[key] ?? [] }))
+      : [{ key: active, items: filteredItems }];
 
   return (
     <div className="space-y-6 sm:space-y-10">
@@ -76,15 +58,34 @@ export default function Home() {
         </h1>
 
         <p className="mt-4 text-sm sm:text-base md:text-lg text-text-secondary max-w-2xl mx-auto leading-relaxed">
-          {digest.daily.date} · {allItems.length} {t("today.items")}
+          <span className="inline-flex items-center gap-2">
+            <Calendar className="h-4 w-4" />
+            {digest.daily.date}
+            <span className="text-text-dim">·</span>
+            {allItems.length} {t("today.items")}
+            <span className="text-text-dim">·</span>
+            <RelativeTime
+              date={digest.generated_at}
+              locale={locale}
+              fallback={new Date(digest.generated_at).toLocaleString(
+                locale === "zh" ? "zh-CN" : "en-US",
+                { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" }
+              )}
+            />
+          </span>
         </p>
+      </section>
+
+      {/* Trends overview */}
+      <section>
+        <TrendsHeatmap />
       </section>
 
       {/* Source tabs — sticky on scroll */}
       <nav className="sticky top-14 z-30 -mx-3 px-3 py-2 bg-surface/80 backdrop-blur-xl border-b border-surface-border/50 sm:relative sm:top-auto sm:mx-0 sm:px-0 sm:py-0 sm:bg-transparent sm:backdrop-blur-none sm:border-0">
         <div className="flex gap-1.5 overflow-x-auto scrollbar-hide pb-1 -mb-1">
-          {(["all", ...activeSources] as SourceKey[]).map((src) => {
-            const meta = SOURCE_META[src];
+          {["all", ...activeSources].map((src) => {
+            const meta = getSourceMeta(src);
             const count = sourceCounts[src] ?? 0;
             const isActive = active === src;
             return (
@@ -111,12 +112,11 @@ export default function Home() {
 
       {/* Content sections */}
       {sections.map(({ key, items }) => {
-        const meta = SOURCE_META[key];
-        // All-view: show source header + 2-col grid on desktop
-        // Single-source view: clean list, no header
-        if (active === "all") {
-          return (
-            <section key={key}>
+        const meta = getSourceMeta(key);
+        const isAllView = active === "all";
+        return (
+          <section key={key}>
+            {isAllView && (
               <div className="flex items-center gap-3 mb-4">
                 <div className={`flex items-center justify-center h-8 w-8 rounded-lg ${meta.bg}`}>
                   <span className={meta.color}>{meta.icon}</span>
@@ -126,18 +126,10 @@ export default function Home() {
                   {items.length}
                 </span>
               </div>
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-                <FeedList items={items.slice(0, Math.ceil(items.length / 2))} />
-                <FeedList items={items.slice(Math.ceil(items.length / 2))} rankOffset={Math.ceil(items.length / 2)} />
-              </div>
-            </section>
-          );
-        }
-
-        // Single source view — clean list
-        return (
-          <section key={key}>
-            <FeedList items={items} />
+            )}
+            <div className="space-y-2 sm:space-y-2.5">
+              <FeedList items={items} showRank={!isAllView} />
+            </div>
           </section>
         );
       })}
