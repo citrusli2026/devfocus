@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { FeedItem } from "../types";
 import { useTranslation } from "../lib/i18n";
 import { cn } from "../lib/utils";
@@ -13,6 +14,8 @@ function SourceBadge({ source }: { source: string }) {
     producthunt: { label: "PH", cls: "bg-[#da552f]/8 text-[#da552f] border-[#da552f]/15" },
     juejin: { label: "掘金", cls: "bg-[#1e80ff]/8 text-[#1e80ff] border-[#1e80ff]/15" },
     zhihu: { label: "知乎", cls: "bg-[#0066ff]/8 text-[#0066ff] border-[#0066ff]/15" },
+    "36kr": { label: "36氪", cls: "bg-[#0f66ff]/8 text-[#0f66ff] border-[#0f66ff]/15" },
+    infoq: { label: "InfoQ", cls: "bg-[#ef4444]/8 text-[#ef4444] border-[#ef4444]/15" },
   };
   const c = cfg[source] || { label: source, cls: "bg-muted text-muted-foreground border-border" };
   return (
@@ -106,10 +109,12 @@ function ShareButtons({ item, locale }: { item: FeedItem; locale: string }) {
   );
 }
 
-export function FeedCard({ item, rank }: { item: FeedItem; rank?: number }) {
+export function FeedCard({ item, rank, linkToDetail = false }: { item: FeedItem; rank?: number; linkToDetail?: boolean }) {
   const { t, locale } = useTranslation();
   let domain = "";
   try { domain = new URL(item.url).hostname.replace("www.", ""); } catch {}
+
+  const titleLink = linkToDetail ? `/item/${item.id}/` : item.url;
 
   return (
     <article
@@ -143,14 +148,32 @@ export function FeedCard({ item, rank }: { item: FeedItem; rank?: number }) {
         <div className="flex-1 min-w-0">
           {/* Title */}
           <h3 className="font-semibold text-[14px] sm:text-[15px] text-text-primary leading-snug group-hover:text-accent-violet transition-colors">
+            {linkToDetail ? (
+              <Link
+                href={titleLink}
+                className="hover:underline decoration-accent-violet/30 underline-offset-2"
+              >
+                {item.title}
+              </Link>
+            ) : (
+              <a
+                href={item.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline decoration-accent-violet/30 underline-offset-2"
+              >
+                {item.title}
+              </a>
+            )}
             <a
               href={item.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:underline decoration-accent-violet/30 underline-offset-2"
+              className="inline-flex items-center justify-center h-5 w-5 ml-1 text-text-dim hover:text-text-primary opacity-0 group-hover:opacity-50 transition-opacity align-middle"
+              title="Open original"
+              aria-label="Open original"
             >
-              {item.title}
-              <ExternalLink className="inline-block h-3.5 w-3.5 ml-1.5 opacity-0 group-hover:opacity-50 transition-opacity -translate-y-px" />
+              <ExternalLink className="h-3.5 w-3.5" />
             </a>
           </h3>
 
@@ -175,9 +198,13 @@ export function FeedCard({ item, rank }: { item: FeedItem; rank?: number }) {
               </span>
             )}
             {item.first_seen && (
-              <span className="text-[11px] text-text-dim px-1.5 py-0.5 rounded bg-surface-hover" title={t("common.firstSeen") || "首次上榜"}>
+              <Link
+                href={`/history/${item.first_seen}/`}
+                className="text-[11px] text-text-dim px-1.5 py-0.5 rounded bg-surface-hover hover:text-accent-violet hover:bg-accent-violet/10 transition-colors"
+                title={t("common.firstSeen") || "首次上榜"}
+              >
                 📅 {item.first_seen}
-              </span>
+              </Link>
             )}
             <ShareButtons item={item} locale={locale} />
           </div>
@@ -190,11 +217,11 @@ export function FeedCard({ item, rank }: { item: FeedItem; rank?: number }) {
   );
 }
 
-export function FeedList({ items, showRank = true, rankOffset = 0 }: { items: FeedItem[]; showRank?: boolean; rankOffset?: number }) {
+export function FeedList({ items, showRank = true, rankOffset = 0, linkToDetail = false }: { items: FeedItem[]; showRank?: boolean; rankOffset?: number; linkToDetail?: boolean }) {
   return (
     <div className="space-y-2 sm:space-y-2.5">
       {items.map((item, i) => (
-        <FeedCard key={item.id} item={item} rank={showRank ? rankOffset + i + 1 : undefined} />
+        <FeedCard key={item.id} item={item} rank={showRank ? rankOffset + i + 1 : undefined} linkToDetail={linkToDetail} />
       ))}
     </div>
   );

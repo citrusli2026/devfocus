@@ -7,7 +7,8 @@ import { TrendsHeatmap } from "../components/TrendsHeatmap";
 import { RelativeTime } from "../components/RelativeTime";
 import { useTranslation } from "../lib/i18n";
 import { SOURCE_ORDER, getSourceMeta } from "../lib/sources";
-import { TrendingUp, Calendar } from "lucide-react";
+import Link from "next/link";
+import { TrendingUp, Calendar, History } from "lucide-react";
 import digestData from "../data/digest.json";
 
 export default function Home() {
@@ -34,6 +35,13 @@ export default function Home() {
   };
 
   const filteredItems = active === "all" ? allItems : itemsBySource[active] ?? [];
+
+  const yesterdayDate = (() => {
+    const base = digest.daily.date ?? new Date().toISOString().slice(0, 10);
+    const d = new Date(base);
+    d.setDate(d.getDate() - 1);
+    return d.toISOString().slice(0, 10);
+  })();
 
   const sections =
     active === "all"
@@ -74,6 +82,22 @@ export default function Home() {
             />
           </span>
         </p>
+
+        <div className="mt-5 flex items-center justify-center gap-2">
+          <Link
+            href={`/history/${yesterdayDate}/`}
+            className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-hover text-text-secondary hover:text-text-primary hover:bg-surface-elevated transition-colors text-xs font-medium"
+          >
+            <History className="h-3.5 w-3.5" />
+            昨日精选
+          </Link>
+          <Link
+            href="/history/"
+            className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-hover text-text-secondary hover:text-text-primary hover:bg-surface-elevated transition-colors text-xs font-medium"
+          >
+            全部归档
+          </Link>
+        </div>
       </section>
 
       {/* Trends overview */}
@@ -128,7 +152,7 @@ export default function Home() {
               </div>
             )}
             <div className="space-y-2 sm:space-y-2.5">
-              <FeedList items={items} showRank={!isAllView} />
+              <FeedList items={items} showRank={!isAllView} linkToDetail />
             </div>
           </section>
         );

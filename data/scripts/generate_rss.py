@@ -53,6 +53,23 @@ def generate():
     pub_date = rss_datetime(digest.get("generated_at", ""))
 
     # ——— Sitemap ———
+    history_urls = []
+    history_dir = BASE_DIR / "5-history"
+    if history_dir.exists():
+        for hf in sorted(history_dir.glob("*.json")):
+            d = hf.stem
+            history_urls.append(
+                f"""  <url>\n    <loc>{SITE_URL}/history/{d}/</loc>\n    <lastmod>{d}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.4</priority>\n  </url>"""
+            )
+
+    item_urls = []
+    for it in items:
+        iid = it.get("id", "")
+        if iid:
+            item_urls.append(
+                f"""  <url>\n    <loc>{SITE_URL}/item/{iid}/</loc>\n    <lastmod>{gen_date}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.3</priority>\n  </url>"""
+            )
+
     sitemap_xml = f"""<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
@@ -60,6 +77,12 @@ def generate():
     <lastmod>{gen_date}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>{SITE_URL}/history/</loc>
+    <lastmod>{gen_date}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
   </url>
   <url>
     <loc>{SITE_URL}/about/</loc>
@@ -71,6 +94,8 @@ def generate():
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
+{chr(10).join(history_urls)}
+{chr(10).join(item_urls)}
 </urlset>"""
     sitemap_path = APP_PUBLIC_DIR / "sitemap.xml"
     sitemap_path.write_text(sitemap_xml, encoding="utf-8")
@@ -108,6 +133,16 @@ def generate():
     if not rss_items:
         print("[FEED] No items with valid URLs, skipping RSS")
         return
+
+    # Archive teaser item
+    archive_item = f"""    <item>
+      <title>📅 历史归档</title>
+      <link>{SITE_URL}/history/</link>
+      <guid isPermaLink="false">archive-{date_str}</guid>
+      <pubDate>{pub_date}</pubDate>
+      <description>查看往日精选与趋势变化</description>
+    </item>"""
+    rss_items.append(archive_item)
 
     rss_xml = f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
