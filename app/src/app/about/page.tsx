@@ -12,12 +12,7 @@ export default function About() {
 
   return (
     <div className="max-w-2xl mx-auto py-6 space-y-12">
-      <section
-        className="text-center py-10 -mx-4 sm:-mx-6 px-4"
-        style={{
-          background: "radial-gradient(ellipse at 50% 0%, rgba(106,95,193,0.10) 0%, transparent 60%)",
-        }}
-      >
+      <section className="text-center py-10 -mx-4 sm:-mx-6 px-4 hero-glow">
         <div className="inline-flex items-center justify-center h-14 w-14 rounded-2xl bg-gradient-to-br from-accent-violet to-accent-coral shadow-lg shadow-accent-violet/20 mb-5">
           <Zap className="h-7 w-7 text-white" />
         </div>

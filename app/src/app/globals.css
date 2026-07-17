@@ -90,6 +90,55 @@
 
   --font-sans: var(--font-rubik), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --font-geist-mono: ui-monospace, monospace;
+
+  --hero-glow: rgba(106, 95, 193, 0.12);
+  --navbar-bg: rgba(245, 243, 250, 0.85);
+}
+
+/* Dark Theme */
+:root.dark {
+  --background: #0f0e17;
+  --foreground: #f5f3fa;
+  --card: #1a1925;
+  --card-foreground: #f5f3fa;
+  --primary: #9b8ff7;
+  --primary-foreground: #0f0e17;
+  --secondary: #252336;
+  --secondary-foreground: #d4d0e0;
+  --muted: #1a1925;
+  --muted-foreground: #8a85a0;
+  --accent: #252336;
+  --accent-foreground: #f5f3fa;
+  --destructive: #f43f5e;
+  --border: #2e2c3d;
+  --input: #2e2c3d;
+  --ring: #9b8ff7;
+
+  --surface-base: #0f0e17;
+  --surface-card: #1a1925;
+  --surface-hover: #252336;
+  --surface-elevated: #2e2c3d;
+  --surface-border: #3a3750;
+
+  --text-primary: #f5f3fa;
+  --text-secondary: #d4d0e0;
+  --text-muted: #8a85a0;
+  --text-dim: #6a6783;
+
+  --accent-violet: #9b8ff7;
+  --accent-lime: #84cc16;
+  --accent-coral: #fb923c;
+  --accent-emerald: #34d399;
+  --accent-amber: #fbbf24;
+  --accent-cyan: #22d3ee;
+  --accent-blue: #60a5fa;
+
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.30);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.40), 0 2px 4px -2px rgba(0, 0, 0, 0.30);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.50), 0 4px 6px -4px rgba(0, 0, 0, 0.35);
+
+  --hero-glow: rgba(155, 143, 247, 0.15);
+  --navbar-bg: rgba(15, 14, 23, 0.85);
 }
 
 @layer base {
@@ -105,6 +154,15 @@
     @apply font-sans;
     background: var(--surface-base);
   }
+}
+
+.hero-glow {
+  background: radial-gradient(ellipse at 50% 0%, var(--hero-glow) 0%, transparent 70%);
+}
+
+.navbar-glass {
+  background: var(--navbar-bg);
+  border-bottom: 1px solid var(--surface-border);
 }
 
 /* Custom scrollbar */

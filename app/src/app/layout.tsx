@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Rubik } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { LanguageProvider } from "../components/language-provider";
+import { ThemeProvider } from "../components/theme-provider";
 import { Navbar } from "../components/navbar";
 import { Footer } from "../components/footer";
 import "./globals.css";
@@ -48,7 +49,7 @@ export const metadata: Metadata = {
   },
 };
 
-const themeScript = `(function(){try{document.documentElement.classList.add("light");}catch(e){}})();`;
+const themeScript = `(function(){try{var t=localStorage.getItem("devfocus-theme");var d=window.matchMedia("(prefers-color-scheme: dark)").matches;if(t==="dark"||(!t&&d)){document.documentElement.classList.add("dark");}else{document.documentElement.classList.remove("dark");}}catch(e){}})();`;
 const localeScript = `(function(){try{var l=localStorage.getItem("devfocus-locale");document.documentElement.lang=l==="en"?"en":"zh-CN";}catch(e){}})();`;
 const jsonLd = {
   "@context": "https://schema.org",
@@ -81,26 +82,28 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="google-site-verification" content="kYJkJmeEarl54V8iJywwl4KSz8tq8pqSXrfy6u3tpt4" />
       </head>
       <body className={`h-full ${rubik.variable}`} style={{ background: "var(--surface-base)" }}>
-        <LanguageProvider>
-          <a
-            href="#main-content"
-            className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-2 focus:bg-accent-violet focus:text-white focus:rounded-lg focus:shadow-lg"
-          >
-            跳到主要内容 / Skip to main content
-          </a>
-          <div className="flex flex-col min-h-full">
-            <Navbar />
-            <main id="main-content"
-              className="flex-1 max-w-6xl w-full mx-auto px-4 sm:px-6"
-              style={{ background: "radial-gradient(ellipse at 50% 0%, rgba(106,95,193,0.12) 0%, transparent 70%)" }}
+        <ThemeProvider>
+          <LanguageProvider>
+            <a
+              href="#main-content"
+              className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[100] focus:px-4 focus:py-2 focus:bg-accent-violet focus:text-white focus:rounded-lg focus:shadow-lg"
             >
-              <div className="py-8">
-                {children}
-              </div>
-            </main>
-            <Footer />
-          </div>
-        </LanguageProvider>
+              跳到主要内容 / Skip to main content
+            </a>
+            <div className="flex flex-col min-h-full">
+              <Navbar />
+              <main
+                id="main-content"
+                className="flex-1 max-w-6xl w-full mx-auto px-4 sm:px-6 hero-glow"
+              >
+                <div className="py-8">
+                  {children}
+                </div>
+              </main>
+              <Footer />
+            </div>
+          </LanguageProvider>
+        </ThemeProvider>
         <Analytics />
       </body>
     </html>

@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { cn } from "../lib/utils";
 import { Newspaper, Info, Search, Menu, X, Zap } from "lucide-react";
 import { LanguageToggle } from "./language-toggle";
+import { ThemeToggle } from "./theme-toggle";
 import { GitHubIcon } from "./icons";
 import { useTranslation } from "../lib/i18n";
 import { useState } from "react";
@@ -21,10 +22,7 @@ export function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <header
-      className="sticky top-0 z-50 w-full backdrop-blur-xl"
-      style={{ background: "rgba(245, 243, 250, 0.85)", borderBottom: "1px solid var(--surface-border)" }}
-    >
+    <header className="sticky top-0 z-50 w-full backdrop-blur-xl navbar-glass">
       <div className="mx-auto flex h-14 sm:h-16 max-w-6xl items-center justify-between px-4 sm:px-6">
         <Link href="/" className="flex items-center gap-2.5 group">
           <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-accent-violet to-accent-coral shadow-sm">
@@ -64,6 +62,7 @@ export function Navbar() {
           </nav>
           <div className="w-px h-6 bg-surface-border mx-1" />
           <LanguageToggle />
+          <ThemeToggle />
           <a
             href="https://github.com/citrusli2026/devfocus"
             target="_blank"
@@ -77,6 +76,7 @@ export function Navbar() {
 
         <div className="flex sm:hidden items-center gap-1">
           <LanguageToggle />
+          <ThemeToggle />
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
             className="flex items-center justify-center h-9 w-9 rounded-lg text-text-secondary hover:bg-surface-card transition-colors"
@@ -89,7 +89,7 @@ export function Navbar() {
       </div>
 
       {mobileOpen && (
-        <div className="sm:hidden border-t border-surface-border" style={{ background: "var(--surface-elevated)" }}>
+        <div className="sm:hidden border-t border-surface-border bg-surface-elevated">
           <nav className="flex flex-col px-4 py-3 gap-1">
             {navItems.map(({ href, labelKey, icon: Icon }) => {
               const active = pathname === href;
