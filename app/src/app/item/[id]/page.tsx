@@ -27,5 +27,10 @@ export default async function ItemPage({ params }: { params: Promise<{ id: strin
   const item = itemMap.get(id);
   if (!item) return notFound();
 
-  return <ItemClient item={item} />;
+  const relatedItems = (item.related_ids ?? [])
+    .map((rid) => itemMap.get(rid))
+    .filter((i): i is NonNullable<typeof i> => Boolean(i))
+    .slice(0, 5);
+
+  return <ItemClient item={item} relatedItems={relatedItems} />;
 }

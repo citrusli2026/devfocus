@@ -12,6 +12,9 @@ export interface FeedItem {
   summary_zh?: string;
   summary_en?: string;
   first_seen?: string;
+  domain?: string;
+  quality_score?: number;
+  related_ids?: string[];
 }
 
 export interface DigestSection {

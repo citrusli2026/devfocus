@@ -60,7 +60,9 @@ function buildTagMap(): Record<string, TagItem[]> {
 }
 
 const tagMap = buildTagMap();
-const tags = Object.keys(tagMap);
+// Only generate pages for tags with enough items to avoid noise and keep build fast.
+const MIN_TAG_ITEMS = 5;
+const tags = Object.keys(tagMap).filter((tag) => (tagMap[tag]?.length ?? 0) >= MIN_TAG_ITEMS);
 
 export async function generateStaticParams() {
   return tags.map((tag) => ({ tag }));

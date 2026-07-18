@@ -7,7 +7,7 @@ import { getSourceMeta } from "../lib/sources";
 import { useTranslation } from "../lib/i18n";
 import type { FeedItem } from "../types";
 
-export function ItemClient({ item }: { item: FeedItem }) {
+export function ItemClient({ item, relatedItems }: { item: FeedItem; relatedItems?: FeedItem[] }) {
   const { t } = useTranslation();
   const [copied, setCopied] = useState(false);
   const meta = getSourceMeta(item.source);
@@ -117,6 +117,41 @@ export function ItemClient({ item }: { item: FeedItem }) {
           </Link>
         )}
       </div>
+
+      {relatedItems && relatedItems.length > 0 && (
+        <div className="space-y-4 pt-4 border-t border-surface-border">
+          <h2 className="text-sm font-semibold text-text-muted uppercase tracking-wide">
+            {t("item.related")}
+          </h2>
+          <div className="space-y-3">
+            {relatedItems.map((related) => (
+              <article
+                key={related.id}
+                className="group p-4 rounded-xl bg-surface-card border border-surface-border hover:border-accent-violet/30 hover:shadow-sm transition-all"
+              >
+                <h3 className="font-semibold text-text-primary group-hover:text-accent-violet transition-colors">
+                  <Link href={`/item/${related.id}/`} className="hover:underline underline-offset-2">
+                    {related.title}
+                  </Link>
+                </h3>
+                <p className="mt-1 text-sm text-text-secondary line-clamp-2">{related.description}</p>
+                {related.tags && related.tags.length > 0 && (
+                  <div className="mt-2 flex flex-wrap gap-1.5">
+                    {related.tags.slice(0, 5).map((tag) => (
+                      <span
+                        key={tag}
+                        className="text-[10px] px-1.5 py-0.5 rounded-md bg-surface-hover text-text-dim"
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                )}
+              </article>
+            ))}
+          </div>
+        </div>
+      )}
     </article>
   );
 }

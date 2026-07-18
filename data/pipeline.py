@@ -55,7 +55,17 @@ def main():
     if not args.skip_summarize and not args.dry_run and sum_script.exists():
         run_script(sum_script)
 
-    # Step 3b: Build search index
+    # Step 3b: Enrich items (tags, domain, quality score, related items)
+    enrich_script = PROCESS_DIR / "enrich.py"
+    if not args.dry_run and enrich_script.exists():
+        run_script(enrich_script)
+
+    # Step 3c: Build stats
+    stats_script = PROCESS_DIR / "build_stats.py"
+    if not args.dry_run and stats_script.exists():
+        run_script(stats_script)
+
+    # Step 3d: Build search index
     search_index_script = PROCESS_DIR / "build_search_index.py"
     if not args.dry_run and search_index_script.exists():
         run_script(search_index_script)
