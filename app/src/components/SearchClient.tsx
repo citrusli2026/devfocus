@@ -361,7 +361,7 @@ export function SearchClient({
             >
               <div className="flex items-start justify-between gap-3">
                 <div className="flex-1 min-w-0">
-                  <h3 className="font-semibold text-text-primary group-hover:text-accent-violet transition-colors">
+                  <h3 className="font-semibold text-text-primary group-hover:text-accent-violet transition-colors break-words">
                     {item.hasDetail ? (
                       <Link href={titleLink} className="hover:underline underline-offset-2">
                         {item.title}

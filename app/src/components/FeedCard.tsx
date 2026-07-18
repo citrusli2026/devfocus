@@ -155,7 +155,7 @@ export function FeedCard({ item, rank, linkToDetail = false }: { item: FeedItem;
         <div className="flex-1 min-w-0">
           {/* Title */}
           <h3 className={cn(
-            "font-semibold text-[14px] sm:text-[15px] leading-snug group-hover:text-accent-violet transition-colors",
+            "font-semibold text-[14px] sm:text-[15px] leading-snug group-hover:text-accent-violet transition-colors break-words",
             read ? "text-text-secondary" : "text-text-primary"
           )}>
             {!read && (

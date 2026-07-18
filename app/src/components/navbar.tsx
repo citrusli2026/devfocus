@@ -90,7 +90,7 @@ export function Navbar() {
       </div>
 
       {mobileOpen && (
-        <div className="sm:hidden border-t border-surface-border bg-surface-elevated">
+        <div data-testid="mobile-menu" className="sm:hidden border-t border-surface-border bg-surface-elevated">
           <nav className="flex flex-col px-4 py-3 gap-1">
             {navItems.map(({ href, labelKey, icon: Icon }) => {
               const active = pathname === href;

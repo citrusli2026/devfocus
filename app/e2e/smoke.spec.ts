@@ -113,3 +113,54 @@ test.describe("basic navigation", () => {
     await expect(page.locator("text=订阅功能即将上线")).toBeVisible();
   });
 });
+
+test.describe("mobile viewport", () => {
+  test.use({ viewport: { width: 390, height: 844 }, userAgent: "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X)" });
+
+  test("homepage renders without horizontal overflow", async ({ page }) => {
+    await page.goto("/");
+    await expect(page.locator("h1")).toContainText("新鲜事");
+    const articles = page.locator("article");
+    await expect(articles.first()).toBeVisible({ timeout: 10000 });
+
+    const body = page.locator("body");
+    const width = await body.evaluate((el) => el.scrollWidth);
+    const viewport = await page.evaluate(() => window.innerWidth);
+    expect(width).toBeLessThanOrEqual(viewport + 1); // allow 1px rounding
+  });
+
+  test("mobile menu opens and navigates", async ({ page }) => {
+    await page.goto("/");
+    const menuButton = page.locator('button[aria-label="打开菜单"]');
+    await expect(menuButton).toBeVisible();
+    await menuButton.click();
+    await page.locator('[data-testid="mobile-menu"] a', { hasText: "搜索" }).click();
+    await expect(page).toHaveURL(/\/search\//);
+  });
+
+  test("search page filters fit on screen", async ({ page }) => {
+    await page.goto("/search/");
+    await page.waitForSelector("text=加载搜索索引", { state: "hidden", timeout: 10000 });
+    const filters = page.locator('select');
+    await expect(filters.first()).toBeVisible({ timeout: 10000 });
+    const count = await filters.count();
+    expect(count).toBeGreaterThan(0);
+    for (let i = 0; i < count; i++) {
+      const box = await filters.nth(i).boundingBox();
+      expect(box).not.toBeNull();
+      if (box) {
+        expect(box.x + box.width).toBeLessThanOrEqual(390 + 2); // iPhone 13 width + margin
+      }
+    }
+  });
+
+  test("key pages have no horizontal overflow", async ({ page }) => {
+    for (const url of ["/search/", "/tag/github/", "/domain/github.com/", "/history/", "/weekly/"]) {
+      await page.goto(url);
+      await page.waitForLoadState("networkidle");
+      const width = await page.locator("body").evaluate((el) => el.scrollWidth);
+      const viewport = await page.evaluate(() => window.innerWidth);
+      expect(width, `overflow on ${url}`).toBeLessThanOrEqual(viewport + 1);
+    }
+  });
+});

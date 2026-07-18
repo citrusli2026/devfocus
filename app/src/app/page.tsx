@@ -127,8 +127,8 @@ export default function Home() {
 
       {/* Source tabs — sticky on scroll */}
       <nav className="sticky top-14 z-30 -mx-3 px-3 py-2 bg-surface/80 backdrop-blur-xl border-b border-surface-border/50 sm:relative sm:top-auto sm:mx-0 sm:px-0 sm:py-0 sm:bg-transparent sm:backdrop-blur-none sm:border-0">
-        <div className="flex items-center gap-2">
-          <div className="relative flex-1">
+        <div className="flex items-center gap-2 min-w-0">
+          <div className="relative flex-1 min-w-0">
             {scrollState.left && (
               <div className="absolute left-0 top-0 bottom-1 w-6 bg-gradient-to-r from-surface-base to-transparent z-10 pointer-events-none" />
             )}
