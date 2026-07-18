@@ -1,7 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { Mail, Check, AlertCircle } from "lucide-react";
+import { Mail, Check, AlertCircle, Rss } from "lucide-react";
+import Link from "next/link";
 import { useTranslation } from "../lib/i18n";
 import { trackEvent } from "../lib/analytics";
 
@@ -61,6 +62,18 @@ export function SubscribeForm() {
             {t("subscribe.title")}
           </h2>
           <p className="mt-1 text-sm text-text-secondary">{t("subscribe.desc")}</p>
+          <div className="mt-2 flex items-center gap-1.5 text-xs text-text-dim">
+            <Rss className="h-3.5 w-3.5" />
+            <Link
+              href="/feed.xml"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-text-secondary transition-colors"
+              title={t("subscribe.rssDesc")}
+            >
+              {t("subscribe.rss")}
+            </Link>
+          </div>
         </div>
 
         <form onSubmit={handleSubmit} className="flex-1 max-w-md">
