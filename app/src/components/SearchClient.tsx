@@ -3,11 +3,14 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useRouter, useSearchParams, usePathname } from "next/navigation";
 import Link from "next/link";
-import { Search, X, ExternalLink, Calendar, Tag, Filter } from "lucide-react";
+import MiniSearch from "minisearch";
+import { Search, X, ExternalLink, Calendar, Tag, Filter, ChevronDown } from "lucide-react";
 import { useTranslation } from "../lib/i18n";
 import { trackEvent } from "../lib/analytics";
 import { getSourceMeta } from "../lib/sources";
 import { EmptyState } from "./EmptyState";
+
+const PAGE_SIZE = 20;
 
 export type SearchIndexItem = {
   id: string;
@@ -52,6 +55,7 @@ export function SearchClient({
   const [date, setDate] = useState(searchParams.get("date") ?? "all");
   const [tag, setTag] = useState(searchParams.get("tag") ?? "all");
   const [domain, setDomain] = useState(searchParams.get("domain") ?? "all");
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
 
   useEffect(() => {
     if (searchParams.get("focus") === "1" && inputRef.current) {
@@ -123,18 +127,52 @@ export function SearchClient({
     [items]
   );
 
+  const miniSearch = useMemo(() => {
+    const ms = new MiniSearch<SearchIndexItem>({
+      fields: ["title", "description", "tags", "domain"],
+      storeFields: [],
+      searchOptions: {
+        boost: { title: 4, tags: 3, domain: 2, description: 1 },
+        fuzzy: 0.2,
+        prefix: true,
+      },
+    });
+    ms.addAll(items);
+    return ms;
+  }, [items]);
+
   const filtered = useMemo(() => {
-    const q = query.trim().toLowerCase();
-    return items.filter((item) => {
+    const q = query.trim();
+    let candidates = items;
+    let scored = false;
+
+    if (q) {
+      const raw = miniSearch.search(q, { prefix: true, fuzzy: 0.2 });
+      const itemById = new Map(items.map((i) => [i.id, i]));
+      candidates = raw
+        .map((r) => itemById.get(r.id))
+        .filter((i): i is SearchIndexItem => i !== undefined);
+      scored = true;
+    }
+
+    const out = candidates.filter((item) => {
       if (source !== "all" && item.source !== source) return false;
       if (date !== "all" && item.date !== date) return false;
       if (tag !== "all" && !item.tags.includes(tag)) return false;
       if (domain !== "all" && item.domain !== domain) return false;
-      if (!q) return true;
-      const hay = `${item.title} ${item.description} ${item.tags.join(" ")}`.toLowerCase();
-      return hay.includes(q);
+      return true;
     });
-  }, [items, query, source, date, tag, domain]);
+
+    if (!scored) {
+      // No query: sort by date desc, then score desc
+      out.sort((a, b) => {
+        const dateCmp = b.date.localeCompare(a.date);
+        if (dateCmp !== 0) return dateCmp;
+        return b.score - a.score;
+      });
+    }
+    return out;
+  }, [items, miniSearch, query, source, date, tag, domain]);
 
   useEffect(() => {
     const timeout = setTimeout(() => {
@@ -152,6 +190,9 @@ export function SearchClient({
     }, 500);
     return () => clearTimeout(timeout);
   }, [query, source, date, tag, domain, updateUrl, filtered.length]);
+
+  const visibleResults = filtered.slice(0, visibleCount);
+  const hasMore = visibleCount < filtered.length;
 
   const activeFilters = [source, date, tag, domain].filter((v) => v !== "all").length;
 
@@ -193,13 +234,19 @@ export function SearchClient({
           ref={inputRef}
           type="text"
           value={query}
-          onChange={(e) => setQuery(e.target.value)}
+          onChange={(e) => {
+            setVisibleCount(PAGE_SIZE);
+            setQuery(e.target.value);
+          }}
           placeholder={t("search.placeholder")}
           className="w-full pl-11 pr-10 py-3.5 rounded-xl bg-surface-card border border-surface-border text-text-primary placeholder:text-text-dim focus:outline-none focus:ring-2 focus:ring-accent-violet/30 focus:border-accent-violet/50"
         />
         {query && (
           <button
-            onClick={() => setQuery("")}
+            onClick={() => {
+              setVisibleCount(PAGE_SIZE);
+              setQuery("");
+            }}
             className="absolute right-4 top-1/2 -translate-y-1/2 text-text-dim hover:text-text-primary"
             aria-label={t("search.clear")}
           >
@@ -223,6 +270,7 @@ export function SearchClient({
         <select
           value={source}
           onChange={(e) => {
+            setVisibleCount(PAGE_SIZE);
             setSource(e.target.value);
             updateUrl({ source: e.target.value });
           }}
@@ -243,6 +291,7 @@ export function SearchClient({
         <select
           value={date}
           onChange={(e) => {
+            setVisibleCount(PAGE_SIZE);
             setDate(e.target.value);
             updateUrl({ date: e.target.value });
           }}
@@ -260,6 +309,7 @@ export function SearchClient({
         <select
           value={tag}
           onChange={(e) => {
+            setVisibleCount(PAGE_SIZE);
             setTag(e.target.value);
             updateUrl({ tag: e.target.value });
           }}
@@ -277,6 +327,7 @@ export function SearchClient({
         <select
           value={domain}
           onChange={(e) => {
+            setVisibleCount(PAGE_SIZE);
             setDomain(e.target.value);
             updateUrl({ domain: e.target.value });
           }}
@@ -299,7 +350,7 @@ export function SearchClient({
 
       {/* Results */}
       <div className="space-y-3">
-        {filtered.map((item) => {
+        {visibleResults.map((item) => {
           const meta = getSourceMeta(item.source);
           const detailUrl = `/item/${item.id}/`;
           const titleLink = item.hasDetail ? detailUrl : item.url;
@@ -361,6 +412,18 @@ export function SearchClient({
 
       {filtered.length === 0 && (
         <EmptyState title={t("search.emptyTitle")} hint={t("search.emptyHint")} icon="search" />
+      )}
+
+      {hasMore && (
+        <div className="pt-2 text-center">
+          <button
+            onClick={() => setVisibleCount((c) => c + PAGE_SIZE)}
+            className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-xl bg-surface-card border border-surface-border text-sm font-semibold text-text-secondary hover:border-accent-violet/30 hover:text-accent-violet transition-colors"
+          >
+            {t("search.loadMore")}
+            <ChevronDown className="h-4 w-4" />
+          </button>
+        </div>
       )}
     </div>
   );
