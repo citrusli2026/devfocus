@@ -1,6 +1,6 @@
 "use client";
 
-import { createContext, use, useCallback, useLayoutEffect, useMemo, useState } from "react";
+import { createContext, use, useCallback, useMemo, useSyncExternalStore } from "react";
 
 const STORAGE_KEY = "devfocus-read-items";
 const MAX_ITEMS = 500;
@@ -14,7 +14,7 @@ interface ReadItemsCtx {
 
 const ReadItemsContext = createContext<ReadItemsCtx | null>(null);
 
-function loadIds(): string[] {
+function readFromStorage(): string[] {
   if (typeof window === "undefined") return [];
   try {
     const raw = window.localStorage.getItem(STORAGE_KEY);
@@ -25,7 +25,7 @@ function loadIds(): string[] {
   return [];
 }
 
-function saveIds(ids: string[]) {
+function writeToStorage(ids: string[]) {
   if (typeof window === "undefined") return;
   try {
     const trimmed = ids.slice(-MAX_ITEMS);
@@ -33,42 +33,71 @@ function saveIds(ids: string[]) {
   } catch {}
 }
 
+// Module-level cache and listeners keep snapshots stable across renders and
+// avoid hydration mismatches: the server snapshot is always empty.
+let cache: Set<string> | null = null;
+const listeners = new Set<() => void>();
+
+function getReadIds(): Set<string> {
+  if (typeof window === "undefined") return new Set();
+  if (!cache) cache = new Set(readFromStorage());
+  return cache;
+}
+
+function setReadIds(next: Set<string>) {
+  cache = next;
+  writeToStorage(Array.from(next));
+  listeners.forEach((cb) => cb());
+}
+
+function subscribeReadIds(callback: () => void): () => void {
+  const onStorage = () => {
+    cache = new Set(readFromStorage());
+    callback();
+  };
+  window.addEventListener("storage", onStorage);
+  listeners.add(callback);
+  return () => {
+    window.removeEventListener("storage", onStorage);
+    listeners.delete(callback);
+  };
+}
+
+function getServerSnapshot(): Set<string> {
+  return new Set();
+}
+
 export function ReadItemsProvider({ children }: { children: React.ReactNode }) {
-  const [readIds, setReadIds] = useState<Set<string>>(() => new Set(loadIds()));
+  const readIds = useSyncExternalStore(
+    subscribeReadIds,
+    getReadIds,
+    getServerSnapshot
+  );
 
-  useLayoutEffect(() => {
-    const handler = (e: StorageEvent) => {
-      if (e.key === STORAGE_KEY) {
-        setReadIds(new Set(loadIds()));
-      }
-    };
-    window.addEventListener("storage", handler);
-    return () => window.removeEventListener("storage", handler);
-  }, []);
-
-  useLayoutEffect(() => {
-    saveIds(Array.from(readIds));
-  }, [readIds]);
-
-  const markAsRead = useCallback((id: string) => {
-    setReadIds((prev) => {
-      if (prev.has(id)) return prev;
-      return new Set(prev).add(id);
-    });
-  }, []);
-
-  const markAllAsRead = useCallback((ids: string[]) => {
-    setReadIds((prev) => {
-      const next = new Set(prev);
-      ids.forEach((id) => next.add(id));
-      return next;
-    });
-  }, []);
-
-  const isRead = useCallback(
-    (id: string) => readIds.has(id),
+  const markAsRead = useCallback(
+    (id: string) => {
+      if (readIds.has(id)) return;
+      setReadIds(new Set(readIds).add(id));
+    },
     [readIds]
   );
+
+  const markAllAsRead = useCallback(
+    (ids: string[]) => {
+      const next = new Set(readIds);
+      let changed = false;
+      for (const id of ids) {
+        if (!next.has(id)) {
+          next.add(id);
+          changed = true;
+        }
+      }
+      if (changed) setReadIds(next);
+    },
+    [readIds]
+  );
+
+  const isRead = useCallback((id: string) => readIds.has(id), [readIds]);
 
   const value = useMemo(
     () => ({ readIds, markAsRead, markAllAsRead, isRead }),

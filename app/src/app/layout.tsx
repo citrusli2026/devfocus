@@ -71,7 +71,7 @@ const jsonLd = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="zh-CN" className="h-full antialiased" suppressHydrationWarning>
+    <html lang="zh-CN" className="h-full antialiased" suppressHydrationWarning data-suppress-hydration>
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeScript }} />
         <script dangerouslySetInnerHTML={{ __html: localeScript }} />
