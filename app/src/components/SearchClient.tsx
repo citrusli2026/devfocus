@@ -15,6 +15,7 @@ export type SearchIndexItem = {
   url: string;
   description: string;
   source: string;
+  domain: string;
   score: number;
   comments: number;
   date: string;
@@ -50,6 +51,7 @@ export function SearchClient({
   const [source, setSource] = useState(searchParams.get("source") ?? "all");
   const [date, setDate] = useState(searchParams.get("date") ?? "all");
   const [tag, setTag] = useState(searchParams.get("tag") ?? "all");
+  const [domain, setDomain] = useState(searchParams.get("domain") ?? "all");
 
   useEffect(() => {
     if (searchParams.get("focus") === "1" && inputRef.current) {
@@ -87,7 +89,7 @@ export function SearchClient({
   }, [fallbackItems]);
 
   const updateUrl = useCallback(
-    (params: { q?: string; source?: string; date?: string; tag?: string }) => {
+    (params: { q?: string; source?: string; date?: string; tag?: string; domain?: string }) => {
       const sp = new URLSearchParams(searchParams.toString());
       for (const [key, value] of Object.entries(params)) {
         if (!value || value === "all") {
@@ -116,6 +118,10 @@ export function SearchClient({
     () => Array.from(new Set(items.flatMap((i) => i.tags))).filter(Boolean).sort(),
     [items]
   );
+  const domains = useMemo(
+    () => Array.from(new Set(items.map((i) => i.domain))).filter(Boolean).sort(),
+    [items]
+  );
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -123,11 +129,12 @@ export function SearchClient({
       if (source !== "all" && item.source !== source) return false;
       if (date !== "all" && item.date !== date) return false;
       if (tag !== "all" && !item.tags.includes(tag)) return false;
+      if (domain !== "all" && item.domain !== domain) return false;
       if (!q) return true;
       const hay = `${item.title} ${item.description} ${item.tags.join(" ")}`.toLowerCase();
       return hay.includes(q);
     });
-  }, [items, query, source, date, tag]);
+  }, [items, query, source, date, tag, domain]);
 
   useEffect(() => {
     const timeout = setTimeout(() => {
@@ -138,14 +145,15 @@ export function SearchClient({
           source,
           date,
           tag,
+          domain,
           results: filtered.length,
         });
       }
     }, 500);
     return () => clearTimeout(timeout);
-  }, [query, source, date, tag, updateUrl, filtered.length]);
+  }, [query, source, date, tag, domain, updateUrl, filtered.length]);
 
-  const activeFilters = [source, date, tag].filter((v) => v !== "all").length;
+  const activeFilters = [source, date, tag, domain].filter((v) => v !== "all").length;
 
   if (loading) {
     return (
@@ -153,6 +161,7 @@ export function SearchClient({
         <div className="h-12 rounded-xl bg-surface-hover" />
         <div className="flex flex-col sm:flex-row gap-3">
           <div className="h-10 rounded-lg bg-surface-hover flex-[2]" />
+          <div className="h-10 rounded-lg bg-surface-hover flex-1" />
           <div className="h-10 rounded-lg bg-surface-hover flex-1" />
           <div className="h-10 rounded-lg bg-surface-hover flex-1" />
         </div>
@@ -261,6 +270,23 @@ export function SearchClient({
           {tags.map((t) => (
             <option key={t} value={t}>
               {t}
+            </option>
+          ))}
+        </select>
+
+        <select
+          value={domain}
+          onChange={(e) => {
+            setDomain(e.target.value);
+            updateUrl({ domain: e.target.value });
+          }}
+          aria-label={t("search.allDomains")}
+          className="flex-1 px-3 py-2 rounded-lg bg-surface-card border border-surface-border text-sm text-text-primary focus:outline-none focus:border-accent-violet/50"
+        >
+          <option value="all">{t("search.allDomains")}</option>
+          {domains.map((d) => (
+            <option key={d} value={d}>
+              {d}
             </option>
           ))}
         </select>

@@ -8,6 +8,7 @@ Includes recent/high-quality items with a flag for items that have detail pages.
 import json
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urlparse
 
 DATA = Path(__file__).resolve().parent.parent
 FEED_PATH = DATA / "4-final" / "feed.json"
@@ -23,6 +24,14 @@ def parse_time(t):
         return datetime.fromisoformat(str(t).replace("Z", "+00:00"))
     except (ValueError, TypeError):
         return None
+
+
+def normalize_domain(url: str) -> str:
+    try:
+        host = urlparse(url).hostname or ""
+        return host.lower().removeprefix("www.")
+    except (ValueError, TypeError):
+        return ""
 
 
 def main():
@@ -67,6 +76,7 @@ def main():
             "url": item.get("url", ""),
             "description": item.get("description", ""),
             "source": item.get("source", ""),
+            "domain": normalize_domain(item.get("url", "")),
             "score": item.get("score", 0),
             "comments": item.get("comments", 0),
             "date": dt.strftime("%Y-%m-%d") if dt else "",

@@ -61,6 +61,40 @@ TECH_KEYWORDS = {
     "cursor", "codex", "copilot", "vibe coding",
 }
 
+# Tags that are too generic or noisy to be useful
+TAG_DENYLIST = {
+    "blog", "article", "news", "post", "story", "video", "discussion",
+    "comments", "twitter", "thread", "website", "page", "link", "update",
+    "announcing", "announced", "announces", "launch", "launches", "launched",
+    "introducing", "introduction", "review", "reviews", "guide", "guides",
+    "tutorial", "tutorials", "weekly", "monthly", "daily", "today", "yesterday",
+    "new", "latest", "top", "best", "good", "great", "big", "small", "old",
+    "year", "years", "month", "months", "day", "days", "week", "weeks",
+    "2025", "2026", "2027",
+}
+
+# Simple singular forms for common plurals
+PLURAL_MAP = {
+    "llms": "llm",
+    "agents": "agent",
+    "apis": "api",
+    "sdks": "sdk",
+    "frameworks": "framework",
+    "libraries": "library",
+    "tools": "tool",
+    "apps": "app",
+    "services": "service",
+    "platforms": "platform",
+    "models": "model",
+    "systems": "system",
+    "networks": "network",
+    "databases": "database",
+    "languages": "language",
+    "projects": "project",
+    "companies": "company",
+    "startups": "startup",
+}
+
 
 def extract_domain(url: str) -> str:
     try:
@@ -227,13 +261,19 @@ def main():
         existing_tags = set(t.lower() for t in item.get("tags", []) if t)
         new_tags = {dtag, source_tag} | set(keyword_tags)
         # Merge and normalize: lowercase, hyphen-separated, deduped
-        merged = sorted(
-            set(
-                re.sub(r"[\s_]+", "-", t).strip("-")
-                for t in (existing_tags | new_tags)
-                if t and len(t) >= 2
-            )
-        )
+        normalized = set()
+        for t in (existing_tags | new_tags):
+            if not t or len(t) < 2:
+                continue
+            t = re.sub(r"[\s_]+", "-", t).strip("-")
+            if not t:
+                continue
+            # Apply plural -> singular mapping
+            t = PLURAL_MAP.get(t, t)
+            normalized.add(t)
+
+        # Remove denylisted and overly generic tags
+        merged = sorted(t for t in normalized if t not in TAG_DENYLIST)
         item["tags"] = merged
 
         has_summary = bool(summaries.get(item.get("id", ""), {}).get("summary_zh"))
