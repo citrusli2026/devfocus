@@ -144,11 +144,37 @@ def load_first_seen_map() -> dict[str, str]:
     return first_seen
 
 
-def save_snapshot(items: list[dict], now: datetime):
+def save_snapshot(items: list[dict], digest_items: list[dict], now: datetime):
     HISTORY_DIR.mkdir(parents=True, exist_ok=True)
     path = HISTORY_DIR / f"{date_key(now)}.json"
-    path.write_text(json.dumps({"date": date_key(now), "fetched_at": now.isoformat(), "items": items}, indent=2, ensure_ascii=False))
-    print(f"[AGG] Snapshot: {len(items)} items → {path.name}")
+    path.write_text(json.dumps({
+        "date": date_key(now),
+        "fetched_at": now.isoformat(),
+        "items": items,
+        "digest_items": digest_items,
+    }, indent=2, ensure_ascii=False))
+    print(f"[AGG] Snapshot: {len(items)} items, {len(digest_items)} digest items → {path.name}")
+
+
+def cleanup_old_snapshots(days: int = 30):
+    """Remove history snapshots older than `days` days."""
+    if not HISTORY_DIR.exists():
+        return
+    cutoff = datetime.now(timezone.utc) - timedelta(days=days)
+    removed = 0
+    for f in HISTORY_DIR.glob("*.json"):
+        try:
+            date_str = f.stem.split("-")[0:3]
+            if len(date_str) != 3:
+                continue
+            file_date = datetime(int(date_str[0]), int(date_str[1]), int(date_str[2]), tzinfo=timezone.utc)
+            if file_date < cutoff:
+                f.unlink()
+                removed += 1
+        except Exception:
+            continue
+    if removed:
+        print(f"[AGG] Removed {removed} snapshots older than {days} days")
 
 
 def dedupe_by_title(items: list[dict]) -> list[dict]:
@@ -266,8 +292,11 @@ def main():
         fresh_items.extend(v2_items)
         print(f"[AGG] V2EX: {len(v2_items)} items")
 
-    # Save snapshot
-    save_snapshot(fresh_items, now)
+    # Build daily digest before saving snapshot so digest_items can be stored
+    daily_items = pick_top_per_source(fresh_items, DAILY_PER_SOURCE)
+
+    # Save snapshot (full items + digest items)
+    save_snapshot(fresh_items, daily_items, now)
 
     # Load first_seen from history (before adding today's snapshot)
     first_seen_map = load_first_seen_map()
@@ -285,9 +314,6 @@ def main():
     print(f"[AGG] History: {len(history_items)} unique items")
 
     # --- Build digests ---
-
-    # Daily: top N per source from fresh data
-    daily_items = pick_top_per_source(fresh_items, DAILY_PER_SOURCE)
 
     # Monthly: top N per source from history (past 30 days)
     monthly_hn = [i for i in history_items if i["source"] == "hackernews" and _parse_time(i) >= now - timedelta(days=30)]
@@ -321,6 +347,8 @@ def main():
         "items": history_items,
         "by_date": {k: v for k, v in sorted(by_date.items(), reverse=True)},
     }, indent=2, ensure_ascii=False))
+
+    cleanup_old_snapshots(days=30)
 
 
 if __name__ == "__main__":

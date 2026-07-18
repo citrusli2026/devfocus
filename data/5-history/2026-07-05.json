@@ -12,7 +12,9 @@
       "comments": 744,
       "author": "kirushik",
       "time": "2026-06-30T15:44:24+00:00",
-      "tags": []
+      "tags": [],
+      "summary_zh": "Claude Code被发现会在发出的请求中嵌入隐写术标记，这一做法引发了广泛讨论。这些标记以不易察觉的方式隐藏在正常数据流里，可能用于追溯请求来源、防止篡改或进行版权声明。虽然隐写本身并非恶意，但它意味着用户与AI交互时可能被无感追踪，从而引发隐私和透明度方面的担忧。对于注重数据隐蔽性和控制权的开发者来说，这无疑是个需要警惕的新动向。",
+      "summary_en": "Claude Code has been discovered to embed steganographic marks within its outgoing requests, a technique that hides data in plain sight. These marks can trace the origin of requests, prevent tampering, or assert copyright. While not inherently malicious, the practice raises privacy and transparency concerns, as users may be unknowingly tracked during AI interactions. For developers who value data sovereignty and fine-grained control, this revelation signals a need to scrutinize how AI tools handle metadata beyond the obvious outputs."
     },
     {
       "id": "hn-48755965",
@@ -24,7 +26,9 @@
       "comments": 731,
       "author": "drewfax",
       "time": "2026-07-02T03:00:15+00:00",
-      "tags": []
+      "tags": [],
+      "summary_zh": "一位安全研究员揭露了 Android 开发者验证流程中存在的严重安全隐患：这一本意是保护开发者账户的机制，反而可能被攻击者利用来冒充合法开发者。通过分析验证逻辑中的漏洞，攻击者可以绕过程序窃取身份或发布恶意应用。这相当于把保护门禁变成了入侵的梯子。对于 Android 生态中的所有开发者而言，这个问题值得高度警惕，因为它动摇了整个应用签名和身份信任体系的基础。",
+      "summary_en": "A security researcher reveals that Android's Developer Verification process—designed to protect developers—can be exploited by attackers to impersonate legitimate developers. By analyzing flaws in the verification logic, adversaries can bypass protections, steal identities, or distribute malicious apps under trusted names. This turns a protective gate into an entry point for intrusion. The finding undermines the trust foundation of Android's app signing and identity system, making it a critical concern for every developer in the ecosystem."
     },
     {
       "id": "hn-48772388",
@@ -36,7 +40,9 @@
       "comments": 397,
       "author": "weli",
       "time": "2026-07-03T08:23:32+00:00",
-      "tags": []
+      "tags": [],
+      "summary_zh": "最近Hacker News上有一篇讨论非常热烈，主题是“半成品产品”。作者尖锐地指出，很多科技产品在上市时功能残缺、体验糟糕，却打着“敏捷开发”和“快速迭代”的旗号来掩盖问题。这篇文章并非针对某个具体软件，而是对行业风气的反思：当用户成了免费测试员，产品经理用“最小可行产品”当借口逃避责任，整个创新生态都会陷入恶性循环。它之所以能引发大量共鸣，是因为每个人几乎都遇到过这样的“半成品”——从智能家居到办公软件，到处是半途而废的功能和反复无常的界面改动。读完你会开始审视自己手中的工具，并思考什么才是真正值得信赖的产品态度。",
+      "summary_en": "A popular Hacker News post titled 'Half-Baked Product' sparks a much-needed industry conversation. The author argues that too many tech products launch with broken features and poor user experience, hiding behind 'agile development' and 'rapid iteration' as excuses. Rather than targeting one specific app, it criticizes a broader culture where users are treated as free testers and product managers use 'minimum viable product' as a shield. The piece resonates because nearly everyone has encountered such half-finished software—from smart home devices to office tools—that changes interfaces arbitrarily and abandons features midway. It forces you to question whether you're using a polished tool or just someone's unfinished experiment."
     },
     {
       "id": "hn-48740771",
@@ -48,7 +54,9 @@
       "comments": 687,
       "author": "Pragmata",
       "time": "2026-06-30T23:55:12+00:00",
-      "tags": []
+      "tags": [],
+      "summary_zh": "美国商务部刚刚解除了对Claude Fable 5和Mythos 5这两款先进AI模型的出口管制。此前这些模型因可能被用于军事或监控而被限制出口，如今禁令取消意味着开发者可以更自由地将它们部署到海外市场。这对全球AI研发社区是个好消息，尤其是需要强大语言模型进行本地化应用或学术研究的团队。",
+      "summary_en": "The U.S. Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5, two advanced AI models that were previously restricted due to national security concerns. This change means developers and researchers around the world can now more freely deploy these models for tasks like natural language processing and creative content generation. The move is seen as a boost for global AI collaboration, particularly for startups and academic labs relying on cutting-edge language models without the burden of export licensing."
     },
     {
       "id": "hn-48747304",
@@ -60,7 +68,9 @@
       "comments": 298,
       "author": "defrost",
       "time": "2026-07-01T14:20:52+00:00",
-      "tags": []
+      "tags": [],
+      "summary_zh": "科学家们首次成功构建了一个完全人工设计的细胞，并且这个细胞能够自我生长和分裂。这个被称为“合成最小细胞”的项目用化学合成的DNA替换了天然基因组，证明我们可以在实验室里从头创造生命的基本功能。这项突破打开了一扇大门，未来或许能定制微生物来生产药物或分解塑料，但同时也引发了关于人造生命伦理的讨论。",
+      "summary_en": "For the first time, researchers have created a cell built entirely from scratch that can grow and divide on its own. This synthetic minimal cell, with a genome designed and chemically synthesized in the lab, demonstrates that the fundamental processes of life can be replicated from non-living components. The achievement has profound implications for biotechnology—think custom microbes that produce new medicines or clean up pollution. Yet it also raises ethical questions about playing God and the safety of self-replicating artificial organisms."
     },
     {
       "id": "hn-48783117",
@@ -72,7 +82,9 @@
       "comments": 443,
       "author": "gslin",
       "time": "2026-07-04T06:32:28+00:00",
-      "tags": []
+      "tags": [],
+      "summary_zh": "一篇来自Hacker News的热门文章提出一个反直觉观点：在人工智能与高性能计算领域，真正的瓶颈可能不是芯片算力，而是房间里的空气。随着AI模型规模暴增，数据中心散热需求急剧上升，传统空气冷却已接近物理极限，严重制约了算力的进一步释放。文章呼吁业界重新思考散热架构，探索液冷、浸没式等新兴方案，以避免“空气瓶颈”成为AI发展的隐形天花板。",
+      "summary_en": "A popular Hacker News article argues that the real bottleneck in AI and high-performance computing might be the air in the room. As AI models grow, data centers face soaring cooling demands, and traditional air cooling is hitting physical limits, throttling further compute scaling. The piece urges a rethink of thermal management, advocating for liquid cooling and immersion solutions to prevent the 'air bottleneck' from becoming an invisible ceiling on AI progress."
     },
     {
       "id": "hn-48762725",
@@ -84,7 +96,9 @@
       "comments": 304,
       "author": "mgh2",
       "time": "2026-07-02T15:02:26+00:00",
-      "tags": []
+      "tags": [],
+      "summary_zh": "西班牙政府将 Palantir 列入黑名单，禁止公共和私营公司与其合作，此举反映出对数据隐私和监控过度的担忧。Palantir 的数据分析工具可能被用于大规模监控，西班牙的禁令可能会影响该公司在欧洲市场的业务，同时也为其他国家的监管提供了参考。",
+      "summary_en": "Spain has ordered a blacklist barring Palantir from working with both public and private companies, citing concerns over data privacy and surveillance overreach. This move could significantly impact Palantir's European operations and may encourage other nations to impose similar restrictions. The decision highlights growing regulatory scrutiny of tech companies involved in mass data analysis and government surveillance."
     },
     {
       "id": "hn-48759634",
@@ -96,7 +110,9 @@
       "comments": 351,
       "author": "doener",
       "time": "2026-07-02T11:17:45+00:00",
-      "tags": []
+      "tags": [],
+      "summary_zh": "PeerTube 是一款免费、去中心化且支持联邦协议的视频平台，旨在替代传统集中式视频服务。任何人可以运行自己的节点，与其他节点互联，实现内容共享且无中央控制。这解决了平台审查、数据垄断和创作者依赖单一平台的问题，尤其适合注重隐私、内容自由和社区自治的用户。",
+      "summary_en": "PeerTube is a free, decentralized, and federated video platform that offers an alternative to centralized services like YouTube. Anyone can host their own instance and connect with other instances, forming a network where no single entity controls the content. This approach tackles censorship, algorithmic bias, and creator dependency on big platforms. It's ideal for communities valuing privacy, freedom of expression, and shared governance."
     },
     {
       "id": "hn-48762098",
@@ -108,7 +124,9 @@
       "comments": 253,
       "author": "soheilpro",
       "time": "2026-07-02T14:23:09+00:00",
-      "tags": []
+      "tags": [],
+      "summary_zh": "Podman v6.0.0正式发布，为容器管理领域带来了多项重要改进。作为一款无需守护进程的容器引擎，Podman一直以更安全、更符合Linux标准著称。新版本重点优化了与Kubernetes的兼容性，现在可以直接生成和解析更完善的Pod YAML文件，并且强化了rootless模式下运行容器的稳定性。此外，Podman v6.0还引入了全新的网络堆栈，大幅提升了容器间通信的性能。对于开发者、运维人员以及任何对容器技术感兴趣的人来说，这次更新意味着可以更轻松地在本地模拟生产环境，同时减少对Docker的依赖。它正在成为构建云原生工作流时一个更有力的替代选择。",
+      "summary_en": "Podman v6.0.0 has arrived, bringing significant upgrades to the container ecosystem. As a daemonless container engine, Podman is already known for its security and strict adherence to Linux standards. This release tightens Kubernetes compatibility—generating and parsing Pod YAML files more accurately—while improving the stability of rootless container operations. A completely reworked network stack also boosts inter-container communication performance. For developers, DevOps engineers, and anyone tired of Docker's overhead, this update makes Podman an even more compelling alternative. It allows you to simulate production environments locally with fewer friction points, moving closer to a native, secure, and cloud-native workflow."
     },
     {
       "id": "hn-48761944",
@@ -120,7 +138,9 @@
       "comments": 288,
       "author": "hashier",
       "time": "2026-07-02T14:13:26+00:00",
-      "tags": []
+      "tags": [],
+      "summary_zh": "Immich 3.0 正式发布，这是一款开源的私有照片管理应用，旨在成为 Google Photos 的自托管替代方案。新版本带来了性能大幅提升、全新的时间线界面以及增强的机器学习能力，比如更精准的人脸识别和自动标签分类。对于注重隐私的用户来说，它意味着可以完全掌控自己的照片和视频数据，无需担心云端封禁或数据泄露。无论是家庭相册备份还是摄影师的作品归档，Immich 3.0 都提供了一个强大且用户友好的选择。",
+      "summary_en": "Immich 3.0 has been released as a major update to the open-source, self-hosted photo management platform that rivals Google Photos. The new version brings significant performance improvements, a redesigned timeline interface, and enhanced machine learning features including more accurate facial recognition and automatic tagging. For privacy-conscious users, it offers complete control over personal media without relying on cloud services. Ideal for families backing up memories or photographers managing portfolios, Immich 3.0 continues to mature as a powerful and user-friendly alternative to proprietary photo libraries."
     },
     {
       "id": "hn-48774518",
@@ -168,7 +188,9 @@
       "comments": 314,
       "author": "javxfps",
       "time": "2026-07-04T16:45:10+00:00",
-      "tags": []
+      "tags": [],
+      "summary_zh": "近日有安全研究人员披露，YouTube存在一个严重漏洞，可能导致创作者标记为私密的视频被不当泄露。该漏洞允许攻击者通过特定接口绕过访问限制，获取非公开视频的信息或内容。此事引发了对平台隐私保护机制的质疑，尤其影响依赖私密分享进行协作或内部审查的创作者群体，目前谷歌正在紧急修复。",
+      "summary_en": "Security researchers have disclosed a vulnerability in YouTube that could leak private videos marked as unlisted or private by creators. The flaw reportedly allows attackers to bypass access restrictions through certain API endpoints, exposing non-public content. This raises serious privacy concerns for creators who rely on private sharing for collaboration or review. Google is reportedly working on a fix, but the incident highlights ongoing challenges in content access control on large platforms."
     },
     {
       "id": "hn-48776044",
@@ -180,7 +202,9 @@
       "comments": 548,
       "author": "bookofjoe",
       "time": "2026-07-03T15:14:55+00:00",
-      "tags": []
+      "tags": [],
+      "summary_zh": "一篇分析文章指出Costco的商业模式与亚马逊截然相反：它依靠会员费盈利，有意保持有限商品种类和仓储式大包装，以减少选择焦虑并提升购物效率。相比之下，亚马逊依赖无限货架、算法推荐和冲动消费。Costco的策略在通胀环境下尤其吸引人，因为其低价和退换货政策让消费者感到信任。这篇文章揭示了传统零售在面对电商巨头时依然能靠差异化的信任和体验取胜。",
+      "summary_en": "A thought-provoking piece compares Costco's business model as the anti-Amazon: Costco profits primarily from membership fees, deliberately offers a limited selection of high-quality items in bulk, and curates a no-frills shopping experience that reduces decision fatigue. In contrast, Amazon thrives on endless inventory, algorithmic recommendations, and impulse buying. This matters because Costco's approach builds deep trust and customer loyalty, especially in times of inflation, proving that physical retail can outperform e-commerce by focusing on value, simplicity, and a human-centric experience rather than scale and convenience."
     },
     {
       "id": "hn-48768951",
@@ -192,7 +216,9 @@
       "comments": 194,
       "author": "thoughtpeddler",
       "time": "2026-07-02T23:54:03+00:00",
-      "tags": []
+      "tags": [],
+      "summary_zh": "一篇呼吁保护本地运行AI权利的文章指出，随着AI服务日益云化，用户面临着数据隐私、服务中断和厂商锁定的风险。文章主张支持开源模型和本地推理硬件，让个人和小型企业能够在自己的设备上运行大语言模型，从而掌控自己的数据并降低成本。这对于关注隐私的开发者、研究人员以及需要离线AI能力的行业（如医疗、法律）尤为重要，因为它确保了AI的民主化和可持续性。",
+      "summary_en": "This article advocates for the right to run AI locally, warning that the trend toward cloud-only AI services threatens data privacy, creates vendor lock-in, and introduces single points of failure. It champions open-source models and consumer-grade hardware that enable individuals and small businesses to run large language models on their own machines, cutting costs and maintaining full control over sensitive information. For privacy-conscious developers, researchers, and industries like healthcare and law, local AI is essential for compliance, offline capabilities, and avoiding censorship. The piece is a rallying cry for an open AI ecosystem that empowers users rather than centralizing power in a few cloud giants."
     },
     {
       "id": "hn-48763035",
@@ -216,7 +242,9 @@
       "comments": 185,
       "author": "asronline",
       "time": "2026-07-04T19:41:10+00:00",
-      "tags": []
+      "tags": [],
+      "summary_zh": "经典即时战略游戏《命令与征服：将军》借助Fable工具被原生移植到macOS、iPhone和iPad平台。这意味着玩家无需通过模拟器或虚拟机，就能在苹果设备上直接流畅运行这款老游戏。对于怀念这款作品的军事策略爱好者来说，这次移植不仅提升了操作的便捷性，还充分利用了苹果硬件的性能，让移动端也能体验完整的战场指挥。",
+      "summary_en": "Command and Conquer Generals has been natively ported to macOS, iPhone, and iPad using the Fable tool, allowing players to run the classic real-time strategy game without emulation or virtualization. This matters because it brings a beloved PC title to Apple platforms with full hardware acceleration and touch-friendly controls, appealing to nostalgic gamers who want to command armies on the go. The port demonstrates how modern tooling can breathe new life into legacy software, making it accessible to a wider audience while preserving the original gameplay experience."
     },
     {
       "id": "hn-48784777",
@@ -228,7 +256,9 @@
       "comments": 55,
       "author": "theanonymousone",
       "time": "2026-07-04T12:00:57+00:00",
-      "tags": []
+      "tags": [],
+      "summary_zh": "这篇文章详细解释了 Linux 下 htop 和 top 工具中每个字段的含义，包括 CPU、内存、进程状态等。它适合那些想深入了解系统性能监控细节的开发者和运维人员，帮你读懂那些看似复杂的数字和指标，从而更精准地排查问题。",
+      "summary_en": "This article from 2019 provides a thorough explanation of every field you see in htop and top on Linux, from CPU percentages to memory usage and process states. It's a must-read for developers and sysadmins who want to truly understand system monitoring output rather than just guess at the numbers. By breaking down each column and indicator, the author turns an opaque terminal display into a clear diagnostic tool, helping you spot bottlenecks and runaway processes with confidence."
     },
     {
       "id": "hn-48782435",
@@ -1020,7 +1050,9 @@
       "comments": 26,
       "author": "nozzlegear",
       "time": "2026-07-05T02:01:03+00:00",
-      "tags": []
+      "tags": [],
+      "summary_zh": "一篇关于用户界面设计的文章以“按钮只有一个任务”为论点，批评了现代软件中过度复杂和模糊的设计倾向。它强调每个交互元素应当有明确且单一的功能，避免让用户猜测或误操作。对于产品设计师和前端开发者而言，这篇文章提醒他们在追求美观的同时不能牺牲可用性——好的按钮应该让用户一看就知道按下去会发生什么，这也是以人为本的设计基本原则。",
+      "summary_en": "A design philosophy essay argues that a button has exactly one job: triggering a single, clear action. It criticizes modern interfaces that overload buttons with multiple functions or unclear labels, leading to user confusion and errors. The article is a timely reminder for product designers and front-end developers that simplicity and discoverability are paramount in interaction design. By adhering to the principle of one purpose per element, teams can create more intuitive software that respects users' attention and reduces cognitive load, ultimately leading to higher satisfaction and fewer support issues."
     },
     {
       "id": "hn-48785840",
@@ -2414,7 +2446,9 @@
       "author": "JuliusBrussee",
       "time": "2026-07-05T06:00:40.202250+00:00",
       "tags": [],
-      "gh_period": "daily"
+      "gh_period": "daily",
+      "summary_zh": "「穴居人」是一个脑洞大开的 Claude Code 技能：通过用极其简短的“原始语言”与 AI 交互，最多能减少 65% 的 token 消耗。它巧妙地利用了大模型对精简指令的理解能力，既省钱又高效，尤其适合频繁调用 API 的开发者或预算有限的团队。",
+      "summary_en": "Caveman is a quirky yet clever skill for Claude Code that drastically reduces token usage by communicating in ultra-brief, “caveman-style” language. By stripping away unnecessary words while retaining clear intent, it can cut up to 65% of tokens in a conversation. This technique leverages large language models’ ability to understand minimalistic prompts, making it a cost-effective and efficient approach for heavy API users or teams on a tight budget—without sacrificing output quality."
     },
     {
       "id": "gh-daily-alibaba-page-agent",
@@ -2479,7 +2513,9 @@
       "author": "asgeirtj",
       "time": "2026-07-05T06:00:40.202250+00:00",
       "tags": [],
-      "gh_period": "daily"
+      "gh_period": "daily",
+      "summary_zh": "这个GitHub仓库公开了从Anthropic和OpenAI等AI公司模型中提取的系统提示（system prompts），包括Claude Fable 5、Opus 4.8、ChatGPT 5.5 Thinking等版本。这些提示揭示了模型背后的一些行为规则和设计逻辑，对AI研究者和开发者理解模型内部机制、进行提示工程非常有价值，但也引发了关于安全和隐私的讨论。",
+      "summary_en": "This repository contains extracted system prompts from major AI models including Anthropic's Claude Fable 5, Opus 4.8, and OpenAI's ChatGPT 5.5 Thinking and GPT 5.5 Instant. These leaked prompts provide rare insight into how these models are instructed to behave, revealing design logic and safety rules. For AI researchers and prompt engineers, this is a goldmine for understanding and improving prompt techniques. However, it also raises concerns about intellectual property and security, as companies typically keep such system prompts confidential."
     },
     {
       "id": "gh-daily-harvard-edge-cs249r_book",
@@ -2557,7 +2593,9 @@
       "author": "immich-app",
       "time": "2026-07-05T06:00:40.202250+00:00",
       "tags": [],
-      "gh_period": "daily"
+      "gh_period": "daily",
+      "summary_zh": "Immich是一款高性能的自托管照片和视频管理应用，旨在替代Google Photos等云服务。它提供自动备份、智能搜索、人脸识别等功能，所有数据都存储在用户自己的服务器上，解决了隐私和数据控制问题。适合注重数据隐私、希望拥有个人云相册的用户。",
+      "summary_en": "Immich is a high performance self hosted photo and video management solution that serves as an open source alternative to Google Photos. It offers automatic backup, smart search, facial recognition, and sharing features while keeping all data on your own server. The project solves privacy concerns and gives users full control over their media. It's ideal for privacy conscious individuals or families who want a personal cloud photo library without relying on third party services."
     },
     {
       "id": "gh-daily-chthollyphile-folia-major",
@@ -2583,7 +2621,9 @@
       "author": "mattpocock",
       "time": "2026-07-05T06:00:40.202250+00:00",
       "tags": [],
-      "gh_period": "daily"
+      "gh_period": "daily",
+      "summary_zh": "这个项目是著名 TypeScript 教育家 Matt Pocock 分享的一份“技能清单”，直接来自他的 AI 编程助手 Claude 的配置文件。它列出了他认为一名“真正工程师”应该掌握的核心能力——从代码审查、架构决策到技术债管理，覆盖了远比语法更重要的工程实践。与其说是代码库，不如说是一份工程文化的宣言。适合想提升团队工程水平或建立个人技术成长路线的开发者阅读。",
+      "summary_en": "This is Matt Pocock's personal skill list for 'real engineers,' extracted straight from his Claude AI configuration. It goes far beyond coding syntax to cover code review, architecture decisions, tech debt management, and communication—the soft and hard skills that separate experienced engineers from beginners. It's less a codebase and more a manifesto on engineering culture. If you're looking to level up your professional practice or define what 'good engineering' means for your team, this concise list is a great starting point."
     },
     {
       "id": "gh-daily-CoplayDev-unity-mcp",
@@ -2635,7 +2675,9 @@
       "author": "apple",
       "time": "2026-07-05T06:00:40.202250+00:00",
       "tags": [],
-      "gh_period": "monthly"
+      "gh_period": "monthly",
+      "summary_zh": "苹果官方开源了一个名为container的工具，它利用轻量级虚拟机在Mac上创建和管理Linux容器。整个工具用Swift编写并针对Apple Silicon深度优化，为macOS开发者提供了一种原生、高效且安全的容器运行方案，填补了Apple生态中本地Linux容器体验的空白。",
+      "summary_en": "Apple has open-sourced container, a tool that creates and manages Linux containers on Mac using lightweight virtual machines. Written in Swift and optimized for Apple Silicon, it delivers a native, fast, and secure container experience on macOS. This project fills a long-standing gap for developers who need Linux containers without leaving the Apple ecosystem."
     },
     {
       "id": "gh-monthly-DeusData-codebase-memory-mcp",
@@ -2674,7 +2716,9 @@
       "author": "Panniantong",
       "time": "2026-07-05T06:00:40.202250+00:00",
       "tags": [],
-      "gh_period": "monthly"
+      "gh_period": "monthly",
+      "summary_zh": "Agent-Reach是一个命令行工具，让AI代理能够直接“看到”整个互联网。它支持读取和搜索Twitter、Reddit、YouTube、GitHub、Bilibili、小红书等主流平台，而且不需要任何API费用。对于开发AI代理的人来说，最大的痛点就是如何让代理获取实时、跨平台的信息，这款工具通过简单的CLI命令就解决了这个问题。无论是做社交媒体分析、技术趋势追踪还是内容聚合，开发者都可以零成本地为自己的AI装上“眼睛”。",
+      "summary_en": "Agent-Reach is a CLI tool that gives AI agents the ability to 'see' the entire internet. It enables reading and searching across major platforms like Twitter, Reddit, YouTube, GitHub, Bilibili, and Xiaohongshu — all without any API fees. The biggest pain point for AI agent developers is getting real-time, cross-platform data; Agent-Reach solves this with a single command. Whether you're building a social media analyzer, a tech trend tracker, or a content aggregator, you can now equip your AI with 'eyes' at zero cost. It's a game-changer for hobbyists and startups who previously had to rely on expensive or rate-limited APIs."
     },
     {
       "id": "gh-monthly-mvanhorn-last30days-skill",
@@ -2687,7 +2731,9 @@
       "author": "mvanhorn",
       "time": "2026-07-05T06:00:40.202250+00:00",
       "tags": [],
-      "gh_period": "monthly"
+      "gh_period": "monthly",
+      "summary_zh": "mvanhorn/last30days-skill 是一个 AI 代理技能，能自动从 Reddit、X、YouTube、Hacker News、Polymarket 和全网搜索某个话题，并合成一份有据可循的摘要。它解决了信息碎片化问题，帮助研究者、内容和投资者快速了解最近30天内的舆论热点和市场情绪。",
+      "summary_en": "mvanhorn/last30days-skill is an AI agent capability that automatically researches any topic across Reddit, X, YouTube, Hacker News, Polymarket, and the broader web, then synthesizes a grounded summary. It tackles information fragmentation, making it invaluable for researchers, content creators, and investors who need a quick, reliable overview of recent discourse and sentiment around a topic."
     },
     {
       "id": "gh-monthly-iptv-org-iptv",
@@ -2700,7 +2746,9 @@
       "author": "iptv-org",
       "time": "2026-07-05T06:00:40.202250+00:00",
       "tags": [],
-      "gh_period": "monthly"
+      "gh_period": "monthly",
+      "summary_zh": "这个项目收集了全球各地公开可用的IPTV频道，让你能轻松观看来自世界各国的电视节目。对于热爱探索不同文化节目或身处海外想收看家乡频道的人来说，它提供了一个免费且便捷的聚合入口，无需繁琐的订阅流程。重要的是，它完全开源并由社区维护，频道列表会持续更新，有效解决了寻找稳定免费IPTV源的常见痛点。",
+      "summary_en": "iptv-org/iptv is a community-maintained collection of freely available IPTV channels from around the world. It aggregates thousands of live TV streams into a single, structured playlist, making it easy to explore international TV content without expensive subscriptions. This open-source project solves the headache of finding reliable, free IPTV sources by keeping the list constantly updated. Anyone interested in global TV content—from expats to cord-cutters—can benefit by simply loading the playlist into any compatible player."
     },
     {
       "id": "gh-monthly-simplex-chat-simplex-chat",
@@ -2752,7 +2800,9 @@
       "author": "asgeirtj",
       "time": "2026-07-05T06:00:40.202250+00:00",
       "tags": [],
-      "gh_period": "monthly"
+      "gh_period": "monthly",
+      "summary_zh": "asgeirtj/system_prompts_leaks 是一个 GitHub 项目，它收集了 Anthropic 和 OpenAI 多个大模型的系统提示词，包括 Claude Fable 5、Opus 4.8、ChatGPT 5.5 Thinking 等。这些提示词揭示了模型背后如何被引导、如何设定角色和限制，对 AI 研究者和开发者理解模型行为非常有价值。它引发了关于提示工程和模型安全边界的讨论，也是窥探顶级 AI 内部设计的一个窗口。",
+      "summary_en": "This GitHub repository compiles leaked system prompts from popular AI models like Anthropic's Claude Fable 5 and Opus 4.8, as well as OpenAI's ChatGPT 5.5 Thinking and GPT 5.5 Instant. By exposing the hidden instructions that shape how these models behave, it offers rare insight into prompt engineering, safety guardrails, and role-setting techniques. AI researchers and developers can learn how top models are orchestrated, but the leak also raises important questions about access control and intellectual property in the generative AI race."
     },
     {
       "id": "gh-monthly-ogulcancelik-herdr",
@@ -2804,7 +2854,9 @@
       "author": "usestrix",
       "time": "2026-07-05T06:00:40.202250+00:00",
       "tags": [],
-      "gh_period": "monthly"
+      "gh_period": "monthly",
+      "summary_zh": "Strix是一款开源的AI渗透测试工具，能够自动扫描并修复应用中的安全漏洞。它利用人工智能模拟攻击行为，帮助开发者在早期发现潜在风险，大幅提升安全检测效率。对于缺乏专业安全团队的初创公司和个人开发者来说，Strix提供了一种低成本、高效率的防护方案，让应用安全不再成为短板。",
+      "summary_en": "Strix is an open-source AI-powered penetration testing tool designed to automatically identify and fix vulnerabilities in applications. By simulating cyber attacks with artificial intelligence, it helps developers catch security flaws early in the development cycle, significantly reducing manual effort and cost. This tool is particularly valuable for startups and individual developers who lack dedicated security teams, offering a practical way to strengthen app security without complex infrastructure. Its open-source nature also allows the community to contribute and customize it for specific needs."
     },
     {
       "id": "gh-monthly-roboflow-supervision",
@@ -2817,7 +2869,9 @@
       "author": "roboflow",
       "time": "2026-07-05T06:00:40.202250+00:00",
       "tags": [],
-      "gh_period": "monthly"
+      "gh_period": "monthly",
+      "summary_zh": "Supervision是Roboflow推出的开源计算机视觉工具库，旨在简化视觉AI应用的开发流程。它提供数据标注、模型评估、可视化等可复用组件，支持主流框架如YOLO、SAM等。开发者无需重复造轮子，即可快速搭建从训练到部署的完整管线，适合计算机视觉工程师和研究人员提高效率。",
+      "summary_en": "Supervision is an open source library from Roboflow that provides reusable computer vision tools for building and deploying vision AI applications. It offers components for data annotation, model evaluation, visualization, and integration with popular frameworks like YOLO and SAM. The project solves the problem of reinventing common CV workflows, allowing developers to quickly assemble pipelines from training to production. It's a time saver for computer vision engineers and researchers who want to focus on their specific models rather than boilerplate code."
     },
     {
       "id": "gh-monthly-openai-plugins",
@@ -2869,7 +2923,9 @@
       "author": "Leonxlnx",
       "time": "2026-07-05T06:00:40.202250+00:00",
       "tags": [],
-      "gh_period": "monthly"
+      "gh_period": "monthly",
+      "summary_zh": "Taste-Skill 是一个让 AI 拥有“品味”的开源项目，旨在阻止 AI 生成无聊、千篇一律的套话。它通过注入风格偏好和审美标准，让模型输出更具个性与创意。对于厌倦了 AI 那种“官方腔”和模板化回复的内容创作者、营销人员或任何使用生成式 AI 的用户，这个项目能解放你的生产力，让 AI 的产出真正有灵魂、有风格。",
+      "summary_en": "Taste-Skill is an open-source project that gives your AI genuine taste, preventing it from churning out boring, generic slop. By injecting style preferences and aesthetic standards, it pushes models to produce more creative and distinctive outputs. For content creators, marketers, and anyone tired of AI's default “corporate blandness,” this project is a breath of fresh air. It transforms AI from a repetitive template machine into a collaborator with actual voice and flair, making every generated piece feel human and intentional."
     },
     {
       "id": "gh-monthly-mukul975-Anthropic-Cybersecurity-Skills",
@@ -2896,7 +2952,9 @@
       "time": "2026-07-04T12:00:00+00:00",
       "tags": [
         "product-hunt"
-      ]
+      ],
+      "summary_zh": "Vida 是一款创新的 AI 工具，口号是“克隆自己，让 AI 在你提问之前就完成工作”。它通过分析用户的行为模式和偏好，自动生成一个能够代替你处理日常任务的数字分身。比如自动回复邮件、整理信息或安排日程，从而大幅节省时间。对于忙碌的职场人士或自由职业者来说，Vida 就像一个全天候工作的虚拟助理，让重复性劳动变得自动化，让你能专注于真正重要的事情。",
+      "summary_en": "Vida is an AI tool that lets you clone yourself so it can handle tasks before you even ask. By learning your behavior patterns and preferences, it creates a digital twin that autonomously manages routine work like replying to emails, organizing information, and scheduling. For busy professionals and freelancers, Vida acts as a proactive virtual assistant that eliminates repetitive chores, freeing up mental energy for creative and strategic work. It’s essentially a personal AI that anticipates your needs and acts on them immediately."
     },
     {
       "id": "ph-1187416",
@@ -2910,7 +2968,9 @@
       "time": "2026-07-04T12:00:00+00:00",
       "tags": [
         "product-hunt"
-      ]
+      ],
+      "summary_zh": "ChecklistFox 是一款免费的 AI 清单制作工具，可以瞬间生成美观的 PDF 文档。你只需输入任务或主题，它就能自动帮你整理出结构清晰的清单列表，并排版成可直接打印或分享的专业 PDF。无论是旅行打包清单、项目管理核对表还是婚礼筹备事项，ChecklistFox 都能在几秒钟内搞定。它的最大优势是免费且即时，无需注册，打开即用，非常适合需要快速整理思路且追求输出格式美观的用户。",
+      "summary_en": "ChecklistFox is a free AI-powered checklist maker that instantly generates beautiful PDFs. Simply describe your task or topic, and it automatically organizes the content into a well-structured checklist, formatted as a professional PDF ready for printing or sharing. Whether it’s a travel packing list, project milestones, or wedding planning, ChecklistFox delivers in seconds. The best part is it’s completely free, requires no sign-up, and works instantly—ideal for anyone who needs to quickly organize thoughts and present them in a clean, shareable document."
     },
     {
       "id": "ph-1162362",
@@ -2924,7 +2984,9 @@
       "time": "2026-07-04T12:00:00+00:00",
       "tags": [
         "product-hunt"
-      ]
+      ],
+      "summary_zh": "PhoneDeck能将你的iPhone瞬间变成Mac的无线控制器，完全免费，无需额外硬件。它支持触控板、键盘快捷键、媒体播放等多种控制模式，非常适合在演示时控制电脑、远程桌面操作或窝在沙发上浏览。只需在iPhone和Mac上安装相应应用即可配对使用，比购买专用遥控器或触控板方便得多。对于经常随身携带iPhone的Mac用户，PhoneDeck是一个巧妙且经济的替代方案。",
+      "summary_en": "PhoneDeck turns your iPhone into a free, wireless controller for your Mac, requiring no extra hardware. It supports multiple control modes including trackpad, keyboard shortcuts, and media playback, making it perfect for presentations, remote desktop control, or browsing while lounging on the couch. Simply install the companion app on both devices to pair them. It is a convenient and cost-effective alternative to buying a dedicated remote or trackpad, especially handy for Mac users who always have their iPhone nearby. The setup is quick and the experience is smooth."
     },
     {
       "id": "ph-1163471",
@@ -2938,7 +3000,9 @@
       "time": "2026-07-04T12:00:00+00:00",
       "tags": [
         "product-hunt"
-      ]
+      ],
+      "summary_zh": "CentryAI是一个订阅管理工具，由一位曾忘记取消11个订阅的开发者创建，充满了真实痛点。它能自动扫描你的账户，检测所有循环扣费项目，并以简洁的仪表盘呈现，还会在扣费前发送提醒。用户只需一次点击就能取消不需要的订阅。对于被流媒体、软件会员等众多月度支出淹没的人来说，CentryAI是省钱利器，帮你轻松掌握每一笔开销，不再糊里糊涂地付费。",
+      "summary_en": "CentryAI is a subscription tracker created by a developer who once forgot to cancel 11 subscriptions, making it a tool born from real pain. It automatically scans your accounts to detect recurring charges, organizes them in a clean dashboard, and sends reminders before payments. With a single tap, you can cancel unwanted subscriptions. It is a lifesaver for anyone drowning in monthly expenses from streaming services, software, gym memberships, and more. The personal story behind it adds relatability, and it solves the common problem of losing money to forgotten subscriptions, giving you full control over your recurring costs."
     },
     {
       "id": "ph-1187434",
@@ -2966,7 +3030,9 @@
       "time": "2026-07-03T12:00:00+00:00",
       "tags": [
         "product-hunt"
-      ]
+      ],
+      "summary_zh": "Raycast推出了一个名为Glaze的新工具，让你只需跟AI聊天就能创建自己的Mac应用。以前要写一个简单的菜单栏工具、快捷转换器或者个人效率小插件，往往需要打开Xcode、学习Swift或者借助一堆复杂的脚本。现在在Glaze里，你只要用自然语言描述需求——比如“做一个随时显示当日天气的菜单栏应用”——AI就会自动生成完整的macOS原生应用，包括界面、交互和核心逻辑。这对设计师、产品经理和一切非编程背景的创意工作者来说简直是一大福音，它大幅降低了Mac应用开发的门槛，让想法能快速变成可执行文件。即使是开发者也可以用它在几分钟内搭建原型，节省重复劳动的时间。",
+      "summary_en": "Glaze by Raycast revolutionizes Mac app creation by letting you build native applications simply by chatting with AI. Instead of wrestling with Xcode, Swift, or complicated scripts, you describe what you want in natural language—for example, 'a menu bar app that shows today's weather'—and Glaze generates a fully functional macOS application with UI, interactions, and logic. This is a game-changer for designers, product managers, and anyone without coding experience who has ever wanted a custom utility for their Mac. Even developers can prototype ideas in minutes instead of hours. By drastically lowering the barrier to entry, Glaze empowers anyone to turn an idea into a real, runnable app without writing a single line of code."
     },
     {
       "id": "ph-1186250",
@@ -2980,7 +3046,9 @@
       "time": "2026-07-03T12:00:00+00:00",
       "tags": [
         "product-hunt"
-      ]
+      ],
+      "summary_zh": "Loops推出的Goals是一款专注于衡量营销活动实际效果的利器。过去，我们常常被点赞数、阅读量这类虚荣指标困扰，很难判断一次推广到底有没有真正促成用户转化和业务增长。Goals帮你把模糊的“希望提升品牌知名度”变成可量化的目标，并与实际销售数据、用户行为挂钩，自动追踪从广告点击到最后成交的全链路表现。无论是初创公司的小团队，还是成熟企业的市场部，都能用它清晰地看到每一分钱花在了哪里、带来了什么结果。它让营销决策不再靠直觉，而是有数据支撑的直接反馈。",
+      "summary_en": "Goals from Loops tackles a classic marketing pain point: distinguishing vanity metrics from actual business impact. Instead of obsessing over likes or page views, Goals lets you define concrete outcomes—like 'increase trial sign-ups' or 'drive revenue from a campaign'—and then automatically tracks the full funnel from ad click to conversion. It integrates with your sales data and user behavior analytics to show you which channels actually move the needle. For startups and enterprise marketing teams alike, this means making budget decisions based on real ROI evidence, not gut feelings. Goals transforms vague campaign objectives into actionable, measurable targets that align directly with the bottom line."
     },
     {
       "id": "ph-1186410",
@@ -2994,7 +3062,9 @@
       "time": "2026-07-03T12:00:00+00:00",
       "tags": [
         "product-hunt"
-      ]
+      ],
+      "summary_zh": "Tamamon 是一款有趣的桌面宠物应用，它会随着你使用 Claude Code 编写代码而成长。你可以把它看作一个像素风格的电子宠物，只不过它的成长全靠你的编程活动来驱动。当你持续编码时，宠物会变得更加活跃、进化甚至解锁新形态。它不仅给枯燥的开发工作增添了一丝游戏化的乐趣，还能作为一种激励工具，让你更愿意保持高效的编码节奏。对于喜欢复古游戏和养成类体验的开发者来说，Tamamon 是桌面上的一个可爱伴侣。",
+      "summary_en": "Tamamon is a desktop pet that grows as you code with Claude Code. Think of it as a digital Tamagotchi that evolves based on your programming activity—the more you code, the more your pet levels up, changes appearance, and unlocks new forms. It adds a playful gamification layer to development, turning long coding sessions into a rewarding experience. For developers who enjoy retro pixel art and virtual pet mechanics, Tamamon serves as both a cute companion and a subtle motivational tool to maintain a steady coding flow."
     },
     {
       "id": "ph-1178256",
@@ -3036,7 +3106,9 @@
       "time": "2026-07-02T12:00:00+00:00",
       "tags": [
         "product-hunt"
-      ]
+      ],
+      "summary_zh": "Context.dev 提供单一 API，即可完成网页爬取、数据丰富和信息提取，极大简化了从互联网获取结构化数据的流程。无论是做市场调研、竞争分析还是构建数据产品，开发者都能通过这一接口快速获取所需信息，避免自建爬虫的繁琐与维护成本。",
+      "summary_en": "Context.dev offers a single API for scraping, enriching, and extracting data from the web, solving the headache of managing multiple tools. Developers and data scientists can quickly pull structured information from any website for market research, competitive analysis, or building data-driven products. It abstracts away the complexity of building and maintaining custom scrapers, saving time and effort."
     },
     {
       "id": "ph-1172870",
@@ -3050,7 +3122,9 @@
       "time": "2026-07-02T12:00:00+00:00",
       "tags": [
         "product-hunt"
-      ]
+      ],
+      "summary_zh": "Fypro 帮助 TikTok 创作者和品牌将粉丝有效转化为付费客户，通过智能链接、数据分析等功能实现社交流量变现。无需粉丝离开平台，即可引导他们完成购买、订阅等操作。对于希望从内容创作中获得收益的博主来说，这款工具简化了转化路径，提升了商业价值。",
+      "summary_en": "Fypro enables TikTok creators and brands to convert their followers into paying customers without driving them away from the platform. With smart links, analytics, and targeted calls-to-action, it streamlines the monetization of social traffic. Ideal for influencers and e-commerce sellers, it reduces friction in the buyer journey and helps turn engagement into revenue effortlessly."
     },
     {
       "id": "ph-1184640",
@@ -3064,7 +3138,9 @@
       "time": "2026-07-02T12:00:00+00:00",
       "tags": [
         "product-hunt"
-      ]
+      ],
+      "summary_zh": "Needle是一个内置于Slack和Teams中的主动式市场推广（GTM）代理，它彻底改变了销售和营销团队的工作方式。以往团队成员要手动查询客户信息、检查线索状态、跟进任务进度，现在Needle会自动扫描团队正在讨论的内容，理解上下文，然后主动推送相关洞察——比如提醒你某位客户最近在官网上停留了很久，或者指出当前对话中遗漏了一个关键的跟进行动。它就像一个精通业务的AI同事，24小时在线，帮你把信息碎片拼成完整的客户画像。对于B2B团队、增长团队以及一切依赖快速协作的商务场景来说，Needle能显著减少在工具间切换的时间，让每个决策都更及时、更基于数据。",
+      "summary_en": "Needle is a proactive go-to-market agent that lives inside Slack and Teams, fundamentally changing how sales and marketing teams operate. Instead of manually digging through CRM, checking lead statuses, or chasing task updates, Needle listens to your team's conversations, understands the context, and surfaces relevant insights automatically. For example, it might alert you that a key prospect just visited your pricing page, or point out that a follow-up action was missed in a thread. It acts like a brilliant AI teammate who never sleeps, stitching together scattered information into actionable customer profiles. For B2B teams, growth squads, and anyone relying on fast internal collaboration, Needle slashes time spent toggling between tools and makes every sales motion smarter and more data-driven."
     },
     {
       "id": "ph-1185785",
@@ -3078,7 +3154,9 @@
       "time": "2026-07-02T12:00:00+00:00",
       "tags": [
         "product-hunt"
-      ]
+      ],
+      "summary_zh": "PixFit 是一款创意素材转换工具，能把你的一份设计稿瞬间适配成所有广告平台的尺寸格式。无论是社交媒体帖子、横幅广告还是信息流视频，只需上传一个原始创意，PixFit 就能自动生成各种尺寸和比例的版本，保持视觉一致性并优化元素布局。对于营销人员、小企业主和内容创作者来说，它解决了手动调整尺寸的繁琐工作，大幅提升素材产出效率，让你一次创作就能覆盖所有渠道。",
+      "summary_en": "PixFit instantly transforms a single creative into every ad format you need. Just upload one design—be it an image or a video—and it automatically resizes, crops, and repositions elements to fit all major ad platforms, from social media posts to display banners and video ads. It saves marketers, small business owners, and content creators hours of manual resizing while maintaining visual consistency across channels. With PixFit, you create once and deploy everywhere, making it an essential tool for anyone running multi-platform ad campaigns."
     },
     {
       "id": "ph-1181934",
@@ -3106,7 +3184,9 @@
       "time": "2026-06-22T15:12:29+00:00",
       "tags": [
         "juejin"
-      ]
+      ],
+      "summary_zh": "一位独立开发者分享了他业余开发的记账小程序“福猪记账”上线半年来的真实收入与运营数据。从v1.0.0迭代到v1.6.1，他记录了开发日志、用户增长曲线和盈利情况。这篇文章不仅展示了个人开发者利用业余时间做产品的可能性，也提供了从零到一、从技术到商业的完整复盘，特别适合想试试副业的程序员参考。",
+      "summary_en": "An indie developer shared the real revenue and operational data of his expense tracking mini-program called 'Fuzhu' over six months since launch. He iterated from v1.0.0 to v1.6.1, documenting development logs, user growth, and profitability. This article demonstrates the possibility of building a product in spare time, offering a complete postmortem from coding to business. It’s especially useful for programmers exploring side projects."
     },
     {
       "id": "juejin-7637856870833635343",
@@ -3120,7 +3200,9 @@
       "time": "2026-05-11T05:44:06+00:00",
       "tags": [
         "juejin"
-      ]
+      ],
+      "summary_zh": "一位开发者从Cursor切换到Amazon Codex使用了半个多月，分享了两者的本质差异。Cursor让他第一次感受到AI编程的震撼，但Codex让他真正觉得AI不再只是辅助工具，而是一个能独立执行任务的超级Agent。作者认为Codex更接近下一阶段AI编程的形态，从对话式补全进化到主动式代理，对追求最前沿编程体验的开发者有重要参考价值。",
+      "summary_en": "After switching from Cursor to Amazon Codex for over half a month, a developer shared their real experience of the fundamental differences. While Cursor first impressed them with AI-assisted coding, Codex felt like a true super agent that can independently execute tasks, not just an assistant. The author believes Codex represents the next phase of AI programming—evolving from conversational completion to proactive agency. This comparison is invaluable for developers seeking the cutting edge in AI-powered coding tools."
     },
     {
       "id": "juejin-7612479947865669675",
@@ -3134,7 +3216,9 @@
       "time": "2026-03-27T07:04:50+00:00",
       "tags": [
         "juejin"
-      ]
+      ],
+      "summary_zh": "作者针对互联网红利消退的现状，向年轻程序员提出培养商业嗅觉和写作能力的建议。他认为在中国庞大的人口基数下，能卖爆一个商品或写出高阅读量的公众号文章就能获得巨大财富。文章强调技术之外的市场认知和内容表达能力同样重要，适合处于职业早期的程序员思考如何拓宽收入来源。",
+      "summary_en": "The author offers advice for young programmers in the post-internet-bonus era, emphasizing the need to develop business acumen and writing skills. Given China's huge population, successfully selling a product or writing a viral WeChat article can bring significant wealth. The article argues that market insight and content communication are as crucial as technical skills, making it relevant for early-career programmers looking to diversify their income streams."
     },
     {
       "id": "juejin-7634732507103969326",
@@ -3148,7 +3232,9 @@
       "time": "2026-05-03T04:46:19+00:00",
       "tags": [
         "juejin"
-      ]
+      ],
+      "summary_zh": "这是一位程序员分享的2026年4月副业复盘，作者回应读者催更，讲述了自己年后持续折腾、通宵编程开发软件并发布新版本的经历。文章展现了副业程序员面临的巨大时间投入与自我驱动力，同时也描述了新版本上线后的短暂轻松。对于同样在探索副业的开发者来说，这篇复盘既是一种共鸣，也是激励——持续投入终会带来可见的成果。",
+      "summary_en": "A programmer shares their side project recap for April 2026, responding to readers who urged an update. The author describes an intense period of coding overnight after the new year, finally releasing a new version of their software. This post highlights the significant time commitment and self-discipline required for side projects, along with the fleeting relief of shipping a release. For developers juggling side hustles, this recap resonates deeply—it shows that sustained effort eventually pays off with tangible progress and a momentary break."
     },
     {
       "id": "juejin-7631010684484845568",
@@ -3162,7 +3248,9 @@
       "time": "2026-04-21T05:17:17+00:00",
       "tags": [
         "juejin"
-      ]
+      ],
+      "summary_zh": "HN 热门：程序员懂业务，到底要懂到什么程度",
+      "summary_en": "Trending on HN: 程序员懂业务，到底要懂到什么程度"
     },
     {
       "id": "juejin-7650882103059939337",
@@ -3176,7 +3264,9 @@
       "time": "2026-06-14T06:46:48+00:00",
       "tags": [
         "juejin"
-      ]
+      ],
+      "summary_zh": "这篇文章介绍了如何通过简单五步配置，在本地开发工具中免费无限使用DeepSeek V4 Pro模型，无需充值即可调用其强大能力，甚至还能接入Claude-Code。作者提供了详细的准备工作与操作指南，手把手教用户“薅羊毛”。对于AI开发者和爱好者而言，这是一份极具价值的省钱攻略，能让他们在不花费任何成本的情况下使用顶级AI模型加速编程和创作。",
+      "summary_en": "This tutorial explains how to configure local development tools to use the DeepSeek V4 Pro model for free and unlimited access with just five simple steps, and also covers integrating Claude-Code. The guide, written by a blogger known as 'Xing Ge', provides detailed instructions to help developers and AI enthusiasts leverage top-tier AI models without spending a dime. It is a valuable resource for programmers and creators looking to accelerate their workflows using cutting-edge AI at zero cost."
     },
     {
       "id": "juejin-7657794899357761570",
@@ -3190,7 +3280,9 @@
       "time": "2026-07-03T00:10:38+00:00",
       "tags": [
         "juejin"
-      ]
+      ],
+      "summary_zh": "文章盘点了2026年6月GitHub上最热门的十大开源项目，聚焦五大技术主线：Agent感知、技能市场、视频生产、代码智能和并行编排。这些项目反映了当前AI和开发者工具领域的最新趋势，例如自主智能体框架、去中心化技能交易平台、AI视频生成工具、代码补全与审查增强插件，以及并行计算调度方案。对于希望紧跟开源前沿的开发者，这篇榜单提供了一份值得关注的项目清单。",
+      "summary_en": "This article highlights the top ten trending open source projects on GitHub in June 2026, organized around five key themes: agent perception, skill marketplaces, video production, code intelligence, and parallel orchestration. The projects showcase cutting-edge developments in AI agents, decentralized skill trading platforms, AI-powered video generation, smart code completion and review tools, and high-performance parallel scheduling frameworks. For developers who want to stay ahead of the open source curve, this curated list offers a valuable snapshot of where the ecosystem is heading."
     },
     {
       "id": "juejin-7656721849944064010",
@@ -3204,7 +3296,9 @@
       "time": "2026-06-30T02:03:03+00:00",
       "tags": [
         "juejin"
-      ]
+      ],
+      "summary_zh": "DeepSeek自2023年创立以来首次正式发布大规模招聘公告，打破了此前低调、不主动招人的传统。这一动作表明DeepSeek正在加速扩张，可能为应对更激烈的AI竞争和业务增长做准备。对求职者而言，进入这家以技术见长的初创公司意味着参与前沿大模型研发的机会。",
+      "summary_en": "DeepSeek, the AI startup founded in 2023, has for the first time publicly announced a large-scale recruitment drive, marking a significant shift from its previous low-key hiring approach. This move signals rapid expansion, likely to fuel growth and compete in the increasingly crowded AI landscape. For job seekers, it represents a rare opportunity to join a company known for its strong technical focus and work on cutting-edge large language models, making it a notable event in the Chinese AI talent market."
     },
     {
       "id": "juejin-7657791057037131822",
@@ -3218,7 +3312,9 @@
       "time": "2026-07-03T06:44:42+00:00",
       "tags": [
         "juejin"
-      ]
+      ],
+      "summary_zh": "HN 热门：用 Cesium 撸了一个森林火情监控大屏，弧线、粒子、发光效果都齐了",
+      "summary_en": "Trending on HN: 用 Cesium 撸了一个森林火情监控大屏，弧线、粒子、发光效果都齐了"
     },
     {
       "id": "juejin-7655245911811784750",
@@ -3232,7 +3328,9 @@
       "time": "2026-06-25T13:25:35+00:00",
       "tags": [
         "juejin"
-      ]
+      ],
+      "summary_zh": "这篇文章探讨了在AI能写出80%代码的背景下，技术面试如何从考察基础原理转向考察程序员的独特价值。面试官默认你熟悉AI工具，他们更看重问题拆解、业务理解、架构思维和人机协作能力，提醒开发者要聚焦AI无法替代的核心竞争力。",
+      "summary_en": "The article explores how technical interviews have transformed as AI now writes 80% of the code. Interviewers assume proficiency with AI tools and instead evaluate skills that make developers irreplaceable: problem decomposition, business understanding, architectural thinking, and effective human-AI collaboration. It cautions against over-reliance on AI-generated code and urges developers to cultivate uniquely human competencies for long-term career relevance."
     },
     {
       "id": "zhihu-2055415968537618014",
@@ -3246,7 +3344,9 @@
       "time": "2026-07-05T06:01:07.261479+00:00",
       "tags": [
         "zhihu"
-      ]
+      ],
+      "summary_zh": "HN 热门：如何看待字节员工靠炒美股财富自由后离职，称投资比大厂升职更容易实现财务自由？",
+      "summary_en": "Trending on HN: 如何看待字节员工靠炒美股财富自由后离职，称投资比大厂升职更容易实现财务自由？"
     },
     {
       "id": "zhihu-2055966649900183829",
@@ -3260,7 +3360,9 @@
       "time": "2026-07-05T06:01:07.261544+00:00",
       "tags": [
         "zhihu"
-      ]
+      ],
+      "summary_zh": "近日有网友爆料称苹果手机出现严重信息泄露，其程度被戏称为堪比“马圣开源”，引发广泛关注。这一事件暴露出即使是封闭生态的苹果也难逃数据安全挑战，用户隐私保护再次成为焦点，提醒我们在享受智能设备便利的同时需警惕潜在风险。",
+      "summary_en": "A recent claim about severe iPhone data leaks, humorously compared to 'Ma Sheng open-sourcing,' has sparked widespread concern. It highlights that even Apple's closed ecosystem is not immune to security challenges, reigniting debates over user privacy protection. The incident serves as a reminder for users to stay vigilant about potential risks while enjoying the convenience of smart devices."
     },
     {
       "id": "zhihu-2050992107284964141",
@@ -3274,7 +3376,9 @@
       "time": "2026-07-05T06:01:07.261738+00:00",
       "tags": [
         "zhihu"
-      ]
+      ],
+      "summary_zh": "用户发现 DeepSeek 的快速模式回答越来越像字节跳动的豆包，这背后可能是为了追求更低延迟而牺牲了内容深度。文章探讨了 AI 助手在速度与质量之间的取舍，以及这种“豆包化”趋势是否意味着各大模型在用户体验上走向同质化。",
+      "summary_en": "Users observe that DeepSeek's fast mode is increasingly resembling ByteDance's Doubao, likely because prioritizing lower latency comes at the cost of response depth. The discussion explores the trade-off between speed and quality in AI assistants, and whether this 'Doubao-ification' trend signals a homogenization of user experience across major language models."
     },
     {
       "id": "zhihu-2055338986755854625",
@@ -3288,7 +3392,9 @@
       "time": "2026-07-05T06:01:07.261763+00:00",
       "tags": [
         "zhihu"
-      ]
+      ],
+      "summary_zh": "一位37岁工程师在聚餐后猝死，未被认定为工伤。事发前一周他每天冒严寒调试设备到深夜。这起事件暴露了工伤认定中对工作相关与非工作活动界限的模糊，尤其是聚餐是否与工作直接相关成为争议点。对于职场人，这件事提醒我们注意健康与权益保护，也促使法律界重新思考工伤认定的合理性。",
+      "summary_en": "A 37-year-old engineer died suddenly after a dinner gathering, but his death was not recognized as work-related. In the week prior, he had been working late in freezing conditions debugging equipment. The case highlights the difficulty in defining work-related activities, especially when dining with colleagues is involved. It serves as a reminder for workers to prioritize health and understand labor rights, and also prompts legal discussion on the fairness of current work injury recognition standards."
     },
     {
       "id": "zhihu-2056439444681515610",
@@ -3302,7 +3408,9 @@
       "time": "2026-07-05T06:01:07.261870+00:00",
       "tags": [
         "zhihu"
-      ]
+      ],
+      "summary_zh": "越来越多传统导演开始尝试用AI制作影视作品，这一现象引发行业热议：AI究竟是短暂的风口还是影视创作不可或缺的工具？支持者认为AI能降低特效成本、激发创意，而质疑者则担忧艺术灵魂被算法取代。无论答案如何，AI已深刻改变影视行业的制作流程，未来或许不再是“要不要用”，而是“怎么用好”。",
+      "summary_en": "A growing number of traditional directors are embracing AI for filmmaking, sparking debate over whether AI is a passing trend or an indispensable tool. Proponents argue that AI reduces VFX costs and sparks creativity, while skeptics fear algorithms might stifle artistic soul. Regardless, AI has already reshaped production workflows, and the question may soon shift from 'whether to use it' to 'how to use it well.'"
     },
     {
       "id": "zhihu-2055686422682494046",
@@ -3316,7 +3424,9 @@
       "time": "2026-07-05T06:01:07.261913+00:00",
       "tags": [
         "zhihu"
-      ]
+      ],
+      "summary_zh": "字节跳动CEO梁汝波在全员信中要求领导者敢于设定高目标并深入一线，背后意图在于打破大公司病，提升执行力和创新效率。此举预计会推动管理层更贴近业务实际，减少官僚主义，激发团队活力，但也可能给管理者带来更大压力。字节跳动正试图在快速增长中保持创业公司的敏锐度。",
+      "summary_en": "ByteDance CEO Ray Liang sent a company-wide letter urging leaders to set ambitious goals and stay close to the front lines. The move aims to combat bureaucratic inertia and boost execution and innovation efficiency. It is expected to push management to better understand business realities, reduce red tape, and energize teams. However, it also adds pressure on managers. ByteDance is striving to maintain a startup-like agility amid rapid growth."
     },
     {
       "id": "zhihu-2056384180200498322",
@@ -3330,7 +3440,9 @@
       "time": "2026-07-05T06:01:07.261950+00:00",
       "tags": [
         "zhihu"
-      ]
+      ],
+      "summary_zh": "阿里内部宣布全面禁用Claude Code，原因是该AI编程工具存在植入后门的风险。这一决定可能引发连锁反应：其他企业或效仿加强AI工具安全审查，同时也给AI开发工具厂商敲响警钟——安全性必须放在首位。禁用措施短期内会影响开发效率，但长期看有利于保障代码安全和数据隐私。",
+      "summary_en": "Alibaba has internally banned Claude Code, an AI coding assistant, due to risks of backdoor implantation. This decision could trigger a domino effect: other companies may tighten security reviews of AI tools, while vendors are warned to prioritize safety. The ban may temporarily impact developer productivity, but in the long run, it helps protect code security and data privacy."
     },
     {
       "id": "zhihu-2056419241230688758",
@@ -3344,7 +3456,9 @@
       "time": "2026-07-05T06:01:07.262039+00:00",
       "tags": [
         "zhihu"
-      ]
+      ],
+      "summary_zh": "世界杯1/16决赛中，哥伦比亚队凭借阿里亚斯的进球1比0战胜加纳队。整场比赛节奏紧凑，哥伦比亚防守稳健，加纳虽多次制造威胁但未能破门。阿里亚斯的进球展现了个人能力与团队配合的默契。这场胜利让哥伦比亚顺利晋级，同时也暴露了加纳在关键分上的把握不足。",
+      "summary_en": "In the World Cup Round of 32, Colombia defeated Ghana 1-0 with a goal from Arias. The match was tightly contested: Colombia's defense remained solid, while Ghana created several chances but failed to convert. Arias's strike showcased individual skill and team coordination. The victory sent Colombia through, while Ghana's lack of clinical finishing in crucial moments was laid bare."
     },
     {
       "id": "36kr-3881112560005381",
@@ -3356,7 +3470,9 @@
       "comments": 0,
       "author": "",
       "time": 1783156497682,
-      "tags": []
+      "tags": [],
+      "summary_zh": "据报道，Anthropic正计划全面封禁所谓“地下通道”——即第三方绕过官方API限制的非正规使用方式。此举旨在加强对其AI模型访问的控制，确保合规使用并防止滥用。这对那些依赖非官方接口的开发者或研究机构可能产生影响，但也体现了AI公司在安全治理上的持续推进。",
+      "summary_en": "According to a report on 36Kr, Anthropic is planning to comprehensively block what it calls underground channels — third party methods that bypass official API restrictions. This move aims to tighten control over access to its AI models, ensure compliance, and prevent misuse. It could impact developers or researchers who rely on unofficial interfaces, but also reflects the ongoing push by AI companies toward stronger governance and security. The decision highlights the tension between openness and control in the AI ecosystem."
     },
     {
       "id": "36kr-3880964231707525",
@@ -3368,7 +3484,9 @@
       "comments": 0,
       "author": "",
       "time": 1783157411000,
-      "tags": []
+      "tags": [],
+      "summary_zh": "一款名为OASIS的语音输入戒指在海外走红，它支持用户通过语音直接输入文字，无需键盘。其流行与“Vibe Coding”趋势有关——开发者用自然语言描述需求，AI自动生成代码，而语音戒指则让这一过程更加自然便捷。这款设备适合编程人员、创作者以及随时随地需要高效输入的用户，预示着AI硬件的消费化浪潮。",
+      "summary_en": "The OASIS voice input ring has gone viral as a wearable that lets users type by speaking, eliminating the need for a keyboard. Its popularity is tied to the Vibe Coding trend, where developers describe requirements in natural language and AI generates code — the ring makes this interaction even more seamless. For programmers, content creators, and anyone needing hands free input, OASIS offers convenience and speed. The product signals a wave of consumer AI hardware designed to enhance human machine interaction in everyday tasks."
     },
     {
       "id": "36kr-3880971920584962",
@@ -3380,7 +3498,9 @@
       "comments": 0,
       "author": "",
       "time": 1783153850000,
-      "tags": []
+      "tags": [],
+      "summary_zh": "据传OpenAI的GPT-5.6将推出三大模型，并定于7月7日发布，这一消息引发行业震动。此次可能同时发布多个变体，覆盖不同应用场景，对于AI开发者、企业和普通用户来说，这将是下一代语言模型的重要里程碑，意味着更强大的推理能力和更广泛的应用可能性。标题中的“趁火打劫”暗示这可能是在竞争对手遭遇困境时加速推出的策略，值得关注其背后的商业博弈。",
+      "summary_en": "Rumors suggest that OpenAI's GPT-5.6, comprising three major models, has been fully leaked and is tentatively scheduled for release on July 7. This move could mark a strategic acceleration amid competitors' setbacks. The models are expected to offer significant improvements in reasoning and task specialization, benefiting developers, enterprises, and end users alike. The unveiling represents a major milestone in AI progress, but also raises questions about competitive dynamics in the industry."
     },
     {
       "id": "36kr-3879997412929545",
@@ -3392,7 +3512,9 @@
       "comments": 0,
       "author": "",
       "time": 1783144837000,
-      "tags": []
+      "tags": [],
+      "summary_zh": "这篇文章探讨了在效率工具泛滥的时代，真正决定个人差距的不是技术或工具，而是内在的“心力”，包括意志力、专注力和情绪管理能力。作者认为，工具可以复制，但心力无法外包，尤其在AI辅助工作中，心力成为稀缺资源。对于职场人士、创业者以及任何追求长期成长的人，培养心力比掌握更多工具更重要。",
+      "summary_en": "In an age of abundant productivity tools, this article argues that the real differentiator between individuals is not the tools they use but their inner 'mental strength'—willpower, focus, and emotional resilience. Since tools can be replicated, mental capacity becomes the scarce resource, especially in AI-augmented workflows. Professionals, entrepreneurs, and anyone seeking sustained growth would benefit more from cultivating this inner strength than from acquiring more tools."
     },
     {
       "id": "36kr-3882050751672327",
@@ -3404,7 +3526,9 @@
       "comments": 0,
       "author": "",
       "time": 1783214869357,
-      "tags": []
+      "tags": [],
+      "summary_zh": "文章以幽默口吻指出，中年男性常见的烧钱爱好中，观鸟意外成为新晋“败家”榜首。从前被认为是小众的观鸟活动，如今因高端望远镜、相机和旅行成本而花费不菲。这反映了中年群体在追求精神寄托和生活情趣时的消费升级，对户外装备厂商和旅行服务商来说，这是一个值得关注的新兴市场。",
+      "summary_en": "With a humorous tone, this article highlights that birdwatching has unexpectedly topped the list of expensive hobbies for middle-aged men, surpassing traditional items like high-end cameras or audio gear. This hobby now demands costly telescopes, cameras, and travel expenses, reflecting a shift in how this demographic seeks meaning and enjoyment. It signals a growing niche market for outdoor gear and travel services catering to affluent enthusiasts."
     },
     {
       "id": "36kr-3880753426739209",
@@ -3416,7 +3540,9 @@
       "comments": 0,
       "author": "",
       "time": 1783148417000,
-      "tags": []
+      "tags": [],
+      "summary_zh": "近期美日韩三地芯片股大幅下跌，部分舆论将原因归咎于中国需求疲软或政策限制。然而，文章分析指出深层原因包括全球半导体周期下行、库存过剩以及地缘政治不确定性。对于投资者和相关行业从业者，理解这些复杂因素比简单归因于单一国家更为重要，实际影响涉及全球供应链调整和行业格局变化。",
+      "summary_en": "Recent sharp declines in chip stocks across the US, Japan, and South Korea have prompted some to blame weak Chinese demand or policy restrictions. However, a deeper analysis suggests the downturn stems from a cyclical semiconductor slowdown, inventory glut, and geopolitical uncertainties. For investors and industry professionals, understanding these multifaceted factors is crucial. The real impact includes supply chain adjustments and shifts in global market dynamics."
     },
     {
       "id": "36kr-3880802116582280",
@@ -3428,7 +3554,9 @@
       "comments": 0,
       "author": "",
       "time": 1783150239000,
-      "tags": []
+      "tags": [],
+      "summary_zh": "快手创始人程一笑正带领旗下AI产品可灵AI参与一场“对赌局”，这并非简单的博弈，而是一次将AI预测能力应用于实际商业决策的试验。可灵AI通过分析海量数据与模型推演，试图在充满不确定性的对赌场景中占据优势。这一举动不仅展示了AI在复杂博弈中的潜力，也为AI技术从实验室走向真实商业应用提供了有趣范本，吸引投资者与科技圈的密切关注。",
+      "summary_en": "Kuaishou founder Cheng Yixiao is leading his AI product Keling AI into a high-stakes bet, showcasing how AI prediction can be applied to real business decisions. This isn't mere gambling but a bold experiment where Keling AI analyzes vast datasets to gain an edge in uncertainty. The move highlights AI's potential in complex strategy games and commercial contexts, drawing attention from investors and tech enthusiasts who see it as a testbed for AI's real-world viability."
     },
     {
       "id": "36kr-3880751081336839",
@@ -3440,7 +3568,9 @@
       "comments": 0,
       "author": "",
       "time": 1783152040000,
-      "tags": []
+      "tags": [],
+      "summary_zh": "AI眼镜芯片正面临“不可能三角”的严峻挑战，即在性能、功耗与成本之间难以同时兼顾。当前芯片设计在追求低功耗的同时往往牺牲计算力，而提升性能又可能导致发热和成本飙升。这篇文章深入分析了AI眼镜芯片需要跨越的技术门槛，包括专用架构优化、先进制程取舍以及散热方案创新，指出只有突破这些瓶颈，AI眼镜才能真正走向轻量化和普及化。",
+      "summary_en": "AI glasses chips are grappling with an impossible triangle balancing performance, power consumption, and cost. Current designs often trade computing power for lower energy use, while performance upgrades drive up heat and expenses. This piece explores the technical hurdles ahead, including optimized architectures, process node trade-offs, and novel cooling methods. It argues that only by overcoming these bottlenecks can AI glasses achieve the lightweight, mainstream adoption that the industry envisions."
     },
     {
       "id": "36kr-3880834484613121",
@@ -3452,7 +3582,9 @@
       "comments": 0,
       "author": "",
       "time": 1783146634000,
-      "tags": []
+      "tags": [],
+      "summary_zh": "在近期一次演讲中，被誉为深度学习之父的Geoffrey Hinton盛赞了Gemini项目的核心贡献者，并预言未来将出现数十亿个超人级别的AI“爱因斯坦”。演讲者认为，随着AI能力指数级增长，这些超级智能体将在科学发现、创意艺术等领域超越人类顶尖专家，引发社会结构的根本变革。这一展望既令人振奋又引发深思，探讨人类如何在超人级AI时代保持主导地位。",
+      "summary_en": "In a recent talk, Geoffrey Hinton praised a key Gemini contributor, who predicted billions of superhuman AI Einsteins in the future. The speaker argued that as AI capabilities grow exponentially, these super-intelligent agents will surpass top human experts in science, art, and beyond, fundamentally reshaping society. The vision is both exhilarating and sobering, raising questions about how humanity can maintain agency in an era of superhuman AI."
     },
     {
       "id": "36kr-3881451489440004",
@@ -3464,7 +3596,9 @@
       "comments": 0,
       "author": "",
       "time": 1783212921409,
-      "tags": []
+      "tags": [],
+      "summary_zh": "现场媒体评价美版世界杯时指出，本届赛事的体育场馆达到了世界一流水平，现代化设施与观赛体验令人印象深刻。然而，票价却极其荒诞，普通观众难以承受，引发了对赛事商业化和公平性的广泛讨论。媒体认为，高昂票价将普通球迷拒之门外，让世界杯变成一场精英聚会，尽管硬件出色，但高昂成本可能削弱足球运动的全民参与初衷。",
+      "summary_en": "On-site media covering the US version of the World Cup praised the stadiums as world-class with modern facilities and immersive experiences. But they also criticized the absurdly high ticket prices, which lock out ordinary fans and spark debates over commercialization and fairness. The media suggests that while the hardware shines, exorbitant costs turn the tournament into an elite gathering, undermining football's grassroots spirit."
     },
     {
       "id": "36kr-3856698016519170",
@@ -3608,7 +3742,9 @@
       "comments": 0,
       "author": "",
       "time": 1783078030122,
-      "tags": []
+      "tags": [],
+      "summary_zh": "Anthropic通过其产品Claude Code展示了惊人的降本能力：删掉80%的提示词后性能反而提升。他们借助自研的Fable 5框架，用更少的token生成更精准的代码，大幅降低推理成本。这预示着AI行业“降本”竞赛才刚刚开始，对于有大规模AI部署需求的企业，优化提示词将是关键突破口。",
+      "summary_en": "Anthropic demonstrated remarkable cost reduction with Claude Code: removing 80% of prompt tokens actually improved performance. Using their proprietary Fable 5 framework, the system generates more accurate code with fewer tokens, slashing inference costs. This signals that the AI industry's 'cost reduction' race has just begun. For enterprises with large-scale AI deployments, optimizing prompts will be the key breakthrough."
     },
     {
       "id": "infoq-pNFHkLos3FoDNm8cQsyt",
@@ -3632,7 +3768,9 @@
       "comments": 0,
       "author": "",
       "time": 1783075256676,
-      "tags": []
+      "tags": [],
+      "summary_zh": "文章指出，AI Agent的能力正从单纯的编程扩展到“Anything”——即各种工作流中的任务。通过理解自然语言和上下文，Agent可以自动执行数据分析、文档处理、客户服务等多步骤工作，正在重新定义人与工具的协作方式。这对企业意味着更高的效率和更低的门槛，但也带来了新的治理和信任挑战。",
+      "summary_en": "The article points out that AI agents are expanding from simple coding tasks to handling 'anything'—various tasks within workflows. By understanding natural language and context, agents can automatically perform multi-step jobs like data analysis, document processing, and customer service, redefining how humans collaborate with tools. This shift brings higher efficiency and lower barriers for enterprises, but also introduces new governance and trust challenges that need to be addressed."
     },
     {
       "id": "infoq-MOqFJbvWYlJ9PXcfdfCC",
@@ -3644,7 +3782,9 @@
       "comments": 0,
       "author": "",
       "time": 1783072800534,
-      "tags": []
+      "tags": [],
+      "summary_zh": "OpenAI和Anthropic纷纷启动自研芯片项目，目标直指英伟达在AI训练市场上的暴利护城河。通过定制化硬件，它们希望大幅降低大模型训练的天价成本，同时提升效率与供应链自主权。这一动作不仅可能撼动英伟达的垄断地位，更意味着AI基础设施正在从通用GPU走向专用芯片时代，对整个产业生态产生深远影响。",
+      "summary_en": "OpenAI and Anthropic have both launched in-house chip development projects, aiming to challenge Nvidia's profitable dominance in AI training hardware. By designing custom chips, they hope to significantly reduce the enormous cost of training large models while improving efficiency and supply chain independence. This move could shake Nvidia's monopoly and signal a shift from general-purpose GPUs to specialized AI chips, reshaping the entire industry ecosystem."
     },
     {
       "id": "infoq-tZe66KJ12UsjrqpeSiaA",
@@ -3656,7 +3796,9 @@
       "comments": 0,
       "author": "",
       "time": 1783063035313,
-      "tags": []
+      "tags": [],
+      "summary_zh": "大晓机器人首席科学家陶大程提出，世界模型的核心目标不是完美复刻现实世界，而是为智能体提供足以支撑行动决策的精准预测。这一观点挑战了传统追求高保真模拟的做法，强调实用性优先。对于具身智能和机器人领域，这意味着模型设计应聚焦于任务相关的关键信息，而非浪费算力在无关细节上，从而让机器人更高效地与现实交互。",
+      "summary_en": "Dr. Tao Dacheng, chief scientist at Daxia Robotics, argues that the primary mission of a world model is not to perfectly replicate the real world but to provide precise predictions that support actionable decisions. This view challenges the conventional pursuit of high-fidelity simulation and prioritizes practicality. For embodied AI and robotics, it suggests that model design should focus on task-critical information rather than wasting compute on irrelevant details, enabling robots to interact with the physical world more efficiently."
     },
     {
       "id": "infoq-qA1Ucwbw3KZy5yIgCrVo",
@@ -3668,7 +3810,9 @@
       "comments": 0,
       "author": "",
       "time": 1783050505575,
-      "tags": []
+      "tags": [],
+      "summary_zh": "随着音视频AI Agent从生成走向交付，业界意识到需要一个生产级开发套件来支撑全流程。该套件不仅要处理模型推理，还要覆盖编码、封装、分发等环节，确保实时性与质量。这篇文章强调了标准化工具链的重要性，它能让开发者更高效地构建可落地的音视频应用，推动AI在影视、直播等领域的实际部署。",
+      "summary_en": "As AI agents for audio and video move from generation to delivery, the industry recognizes the need for a production-grade development suite to support the entire pipeline. Such a suite must handle not only model inference but also encoding, packaging, and distribution to ensure real-time performance and quality. This article emphasizes the importance of a standardized toolchain, enabling developers to build deployable audio-video applications more efficiently, thereby pushing AI adoption in filmmaking, live streaming, and more."
     },
     {
       "id": "infoq-dbZRhCUeEqX4WdboztyG",
@@ -3680,7 +3824,9 @@
       "comments": 0,
       "author": "",
       "time": 1783041669182,
-      "tags": []
+      "tags": [],
+      "summary_zh": "文章深入分析了Java实时系统在扩容时采用事件驱动设计所面临的隐性权衡。虽然事件驱动架构能带来高吞吐和弹性扩展，但它也引入了额外的复杂性，如调试困难、延迟不确定性以及状态管理挑战。对于构建高性能分布式系统的开发者而言，理解这些权衡至关重要，因为盲目采用可能反而导致系统不稳定。",
+      "summary_en": "This article delves into the hidden trade-offs of using event-driven design when scaling Java real-time systems. While event-driven architectures offer high throughput and elastic scalability, they also bring added complexity, such as debugging difficulties, latency unpredictability, and state management challenges. For developers building high-performance distributed systems, understanding these trade-offs is crucial, as blindly adopting event-driven patterns can lead to system instability instead of the desired benefits."
     },
     {
       "id": "infoq-pxXOLZMIk90UTXOJ8aNE",
@@ -3692,7 +3838,9 @@
       "comments": 0,
       "author": "",
       "time": 1782992586890,
-      "tags": []
+      "tags": [],
+      "summary_zh": "这篇文章聚焦于“一人公司”创业模式，即由单一个体运营的小型科技企业。作者提供了如何选择合适的方法论，如精益创业和敏捷开发，以及装备库，包括工具链、云服务和AI助手的建议。对于独立开发者、自由职业者和微型创业者，这些指导可以帮助他们以最小成本高效构建和运营产品，实现从零到一的突破。",
+      "summary_en": "This article focuses on the 'one-person company' startup model, where a single individual runs a tech business. It offers practical advice on choosing the right methodologies, such as lean startup and agile, and tooling arsenal including development tools, cloud services, and AI assistants. For solo developers, freelancers, and micro-entrepreneurs, these insights enable cost-effective product building and operation, helping them achieve a breakthrough from zero to one."
     },
     {
       "id": "infoq-HDE9Hoe3RVyNlX3CCGzV",
@@ -3704,7 +3852,9 @@
       "comments": 0,
       "author": "",
       "time": 1782988568537,
-      "tags": []
+      "tags": [],
+      "summary_zh": "一款基于Anthropic Claude模型构建的AI写作工具Fable因用户多次请求失败引发投诉，而Anthropic的官方回应竟暗示问题出在用户不会正确使用，这一傲慢态度彻底激怒了用户群体。人们吐槽说，花了最贵的钱买了最先进的大模型，却换来最憋屈的使用体验——不仅产品不友好，连反馈都被踢皮球。事件暴露了AI公司在用户体验与客服响应上的短板，提醒所有AI厂商：模型再强，也得有人情味。",
+      "summary_en": "When users complained about Fable, a writing tool powered by Anthropic's Claude model, the company's response essentially blamed the users for not being smart enough to use it correctly. The dismissive attitude infuriated many, who pointed out that paying premium prices for cutting-edge AI should not come with such a frustrating experience. This incident highlights a growing gap between AI model capabilities and real-world usability, as well as a troubling lack of customer empathy from AI vendors. It's a wake-up call: even the best model needs a user-friendly wrapper and respectful support to truly deliver value."
     },
     {
       "id": "infoq-vxgbzsNORRzQDz6xK1jv",
@@ -3716,7 +3866,9 @@
       "comments": 0,
       "author": "",
       "time": 1782988025744,
-      "tags": []
+      "tags": [],
+      "summary_zh": "Meta因被指责退出AI竞赛而转向提供算力服务，股价应声暴涨10%。这引发了“卖铲子比淘金更赚”的讨论，即提供基础设施比直接参与AI模型竞争可能更有利可图。该现象揭示了AI产业链中基础设施服务的价值。",
+      "summary_en": "Meta was criticized for falling behind in the AI race, but its pivot to selling computing power as a service led to a 10% stock surge. This sparked discussions about whether selling shovels is more profitable than mining gold—providing infrastructure might be a smarter bet than competing directly in AI models. The move highlights the growing value of infrastructure services in the AI ecosystem."
     },
     {
       "id": "infoq-KmDMAvlzBGgwu5A2kf7t",
@@ -3728,7 +3880,9 @@
       "comments": 0,
       "author": "",
       "time": 1782983992410,
-      "tags": []
+      "tags": [],
+      "summary_zh": "在 AI Agent 的火热浪潮下，这篇文章冷静地指出了规模化落地中普遍遭遇的僵局。问题出在哪儿？作者分析认为，当前多数 Agent 在真实业务中面临可靠性不足、成本失控、场景碎片化以及缺乏统一标准的困境。尽管演示很炫酷，但一旦要扩展到成百上千个节点，各种边缘情况就会让系统变得脆弱。这篇文章对于正计划大举投入 Agent 的企业来说，是一剂必要的清醒剂，提醒我们在追逐热潮的同时，要先解决基础工程挑战。",
+      "summary_en": "Amid the AI Agent hype, this article offers a sobering analysis of why large-scale deployment often hits a dead end. The core issues include insufficient reliability, runaway costs, fragmented use cases, and a lack of common standards. While demos are impressive, scaling to hundreds of agents exposes fragility in edge cases. For enterprises planning heavy investment, this piece serves as a necessary reality check, urging them to tackle fundamental engineering challenges before chasing the trend."
     },
     {
       "id": "infoq-QbFT0uMbBd8rcZ0zEfit",
@@ -3752,7 +3906,9 @@
       "comments": 0,
       "author": "",
       "time": 1782980511289,
-      "tags": []
+      "tags": [],
+      "summary_zh": "行业智能体时代正式来临，出行和货运领域率先实现突破。智能体通过自主决策和任务执行，极大提升了运营效率和服务质量。这标志着AI从通用对话走向垂直行业深度应用，将重塑行业格局。",
+      "summary_en": "The era of industry-specific AI agents has arrived, with transportation and freight sectors leading the breakthrough. These agents autonomously make decisions and execute tasks, significantly improving operational efficiency and service quality. This marks a shift from general-purpose chatbots to deep vertical applications, reshaping industry landscapes."
     },
     {
       "id": "infoq-BXc66LG3pVL8ZMme0ehy",
@@ -3764,7 +3920,9 @@
       "comments": 0,
       "author": "",
       "time": 1782979200283,
-      "tags": []
+      "tags": [],
+      "summary_zh": "本文介绍如何利用AI Agent实现热补丁的自动化生成，通过智能体理解代码变更和系统状态，自动生成并部署补丁，减少人工干预和停机时间。这对于需要快速响应安全漏洞或bug的开发团队极具价值。",
+      "summary_en": "This article explores how to leverage AI agents to automate hotpatch generation. The agent understands code changes and system states, automatically creating and deploying patches, which reduces manual effort and downtime. It is highly valuable for development teams needing rapid response to security vulnerabilities or bugs."
     },
     {
       "id": "infoq-o5BOhliYRHIe4ZZPrHY9",
@@ -3776,7 +3934,9 @@
       "comments": 0,
       "author": "",
       "time": 1782976335290,
-      "tags": []
+      "tags": [],
+      "summary_zh": "文章讲述了从龙蜥操作系统孵化项目到向上游贡献的过程，重点介绍了SGLang Tracing与AI Agent调优的实践。通过开源协作，提升了AI Agent的可观测性和性能调优能力，为社区提供了宝贵经验。",
+      "summary_en": "This article describes the journey from incubating a project in the OpenAnolis (Longxi) OS to contributing upstream, focusing on SGLang Tracing and AI agent tuning practices. Through open-source collaboration, it enhanced observability and performance tuning for AI agents, providing valuable experience for the community."
     },
     {
       "id": "infoq-8WD205mNH9OGrkf8BRYO",
@@ -3788,7 +3948,9 @@
       "comments": 0,
       "author": "",
       "time": 1782975600655,
-      "tags": []
+      "tags": [],
+      "summary_zh": "GitLab的一项调研显示，AI工具虽然加快了代码编写速度，但并未显著提升整体软件交付效率。原因可能在于测试、部署等环节存在瓶颈。这提醒团队不能只关注编码加速，而需系统性优化流程。",
+      "summary_en": "GitLab's research found that AI tools speed up coding but do not improve overall software delivery efficiency. Bottlenecks in testing, deployment, and other stages may offset gains. This reminds teams to focus on end-to-end process optimization rather than just coding acceleration."
     },
     {
       "id": "infoq-IeXGCZqbv5WQ5zFQXoup",
@@ -3800,7 +3962,9 @@
       "comments": 0,
       "author": "",
       "time": 1782967520116,
-      "tags": []
+      "tags": [],
+      "summary_zh": "AReaL 2.0 近期开源，这是一个专门为智能体打造的“成长系统”，核心在于赋予 AI Agent 持续学习和自我进化的能力。与传统的静态模型不同，该系统允许智能体在实际使用中不断吸收新知识、优化决策策略，从而越用越聪明、越用越适应复杂场景。对于开发者而言，这意味着他们可以构建出真正具备长期生命力的 Agent 应用，而不是一次训练后就停滞不前的工具。这一项目开源后，将极大降低让智能体具备持续学习能力的技术门槛，推动 AI 从“一次性交付”走向“持续进化”。",
+      "summary_en": "AReaL 2.0 has been open-sourced, introducing a growth system that enables AI agents to learn and evolve continuously during use. Unlike static models, this system allows agents to absorb new knowledge and refine decision-making strategies over time, becoming smarter and more adaptive in complex scenarios. For developers, it opens the door to building agents with long-term vitality rather than one-shot tools. By lowering the barrier to continuous learning in AI, AReaL 2.0 pushes the industry toward agents that truly improve with every interaction."
     },
     {
       "id": "infoq-kY3j5x1kIEvedufYJ1rJ",
@@ -3812,7 +3976,9 @@
       "comments": 0,
       "author": "",
       "time": 1782960840104,
-      "tags": []
+      "tags": [],
+      "summary_zh": "Vercel正式发布了名为Eve的开源AI智能体开发框架，旨在降低AI智能体应用的构建和部署门槛。Eve提供了一系列模块化的工具和强大的运行时支持，开发者可以像搭积木一样快速创建、测试和扩展自己的智能体。这一框架特别适合前端开发者、全栈工程师以及希望将AI能力集成到Web应用中的团队，它让智能体开发变得简单而高效，有望加速AI在Web领域的落地。",
+      "summary_en": "Vercel has officially released Eve, an open-source framework for building AI agents, designed to lower the barrier to creating and deploying agent applications. Eve provides a set of modular tools and robust runtime support, allowing developers to quickly build, test, and scale their agents like assembling building blocks. This framework is particularly suited for frontend developers, full-stack engineers, and teams looking to integrate AI capabilities into web applications, making agent development simple and efficient and potentially accelerating the adoption of AI in the web domain."
     },
     {
       "id": "infoq-UIxTYxSIfevGUg2BZ567",
@@ -3824,7 +3990,9 @@
       "comments": 0,
       "author": "",
       "time": 1782960093848,
-      "tags": []
+      "tags": [],
+      "summary_zh": "这篇文章深刻反思了编程的本质：代码不仅是给机器运行的指令，更是写给未来开发者（包括未来的自己）的一封信。作者认为，优秀的代码应当像一篇流畅的记叙文，注重可读性、意图表达和长期可维护性，而非仅仅追求当下的功能实现。在技术快速迭代的今天，这种“为未来写代码”的理念尤为重要，它提醒我们在追求效率的同时，不要忘记团队协作和知识传承的价值。",
+      "summary_en": "This article reflects on the essence of programming: code is not just instructions for machines but a message to future developers—including your future self. The author argues that great code should read like a clear narrative, prioritizing readability, intent, and long-term maintainability over mere functional correctness. In an era of rapid tech iteration, this philosophy becomes crucial, reminding us to balance speed with collaboration and knowledge transfer. It's a call to write code that future humans will thank you for."
     }
   ]
 }

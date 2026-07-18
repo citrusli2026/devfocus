@@ -10,6 +10,7 @@ interface HistoryData {
   date: string;
   fetched_at: string;
   items: FeedItem[];
+  digest_items?: FeedItem[];
 }
 
 async function loadHistory(date: string): Promise<HistoryData | null> {
@@ -31,7 +32,9 @@ export async function generateStaticParams() {
 export default async function HistoryDatePage({ params }: { params: Promise<{ date: string }> }) {
   const { date } = await params;
   const history = await loadHistory(date);
-  if (!history || !history.items?.length) return notFound();
+  // Prefer curated digest_items (with summaries) when available; fall back to full snapshot.
+  const items = history?.digest_items?.length ? history.digest_items : history?.items;
+  if (!history || !items?.length) return notFound();
 
-  return <HistoryDateClient date={history.date} items={history.items} />;
+  return <HistoryDateClient date={history.date} items={items} />;
 }

@@ -3,7 +3,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { Digest, FeedItem } from "../types";
 import { FeedList } from "../components/FeedCard";
-import { TrendsHeatmap } from "../components/TrendsHeatmap";
 import { RelativeTime } from "../components/RelativeTime";
 import { SubscribeForm } from "../components/SubscribeForm";
 import { EmptyState } from "../components/EmptyState";
@@ -124,11 +123,6 @@ export default function Home() {
             {t("today.allHistory")}
           </Link>
         </div>
-      </section>
-
-      {/* Trends overview */}
-      <section>
-        <TrendsHeatmap />
       </section>
 
       {/* Source tabs — sticky on scroll */}

@@ -154,6 +154,30 @@ def template_summary(item: dict) -> tuple[str, str]:
     return f"{label_zh}：{title}", f"{label_en}: {title}"
 
 
+def apply_summaries_to_history(summaries: dict[str, dict], today_key: str):
+    """Apply generated summaries to today's history snapshot digest_items."""
+    from pathlib import Path
+    BASE_DIR = Path(__file__).resolve().parent.parent
+    HISTORY_DIR = BASE_DIR / "5-history"
+    snapshot_path = HISTORY_DIR / f"{today_key}.json"
+    if not snapshot_path.exists():
+        return
+    try:
+        data = json.loads(snapshot_path.read_text())
+        updated = False
+        for item in data.get("digest_items", []):
+            s = summaries.get(item.get("id", ""))
+            if s:
+                item["summary_zh"] = s.get("summary_zh", "")
+                item["summary_en"] = s.get("summary_en", "")
+                updated = True
+        if updated:
+            snapshot_path.write_text(json.dumps(data, indent=2, ensure_ascii=False))
+            print(f"[SUM] Applied summaries to history snapshot {snapshot_path.name}")
+    except Exception as e:
+        print(f"[WARN] Failed to apply summaries to history snapshot: {e}", file=sys.stderr)
+
+
 def main():
     digest_path = FINAL_DIR / "digest.json"
     if not digest_path.exists():
@@ -258,6 +282,12 @@ def main():
                      and not s["summary_zh"].startswith("开源项目")
                      and len(s["summary_zh"]) >= 50])
     print(f"[SUM] Done: {llm_count} LLM + {len(summaries)-llm_count} template = {len(summaries)} total")
+
+    # Also store summaries in today's history snapshot so archived daily pages
+    # retain the bilingual summaries.
+    today_key = digest.get("daily", {}).get("date", "")
+    if today_key:
+        apply_summaries_to_history(existing, today_key)
 
 
 if __name__ == "__main__":
