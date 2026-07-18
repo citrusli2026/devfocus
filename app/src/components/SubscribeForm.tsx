@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Mail, Check, AlertCircle } from "lucide-react";
 import { useTranslation } from "../lib/i18n";
+import { trackEvent } from "../lib/analytics";
 
 const SUBSCRIBE_URL = process.env.NEXT_PUBLIC_SUBSCRIBE_URL;
 
@@ -19,6 +20,8 @@ export function SubscribeForm() {
       setMessage(t("subscribe.invalidEmail"));
       return;
     }
+
+    trackEvent("subscribe_intent", { has_backend: !!SUBSCRIBE_URL });
 
     if (SUBSCRIBE_URL) {
       try {
@@ -37,7 +40,7 @@ export function SubscribeForm() {
         setMessage(t("subscribe.error"));
       }
     } else {
-      // No backend configured yet — store intent locally and show coming soon
+      // No backend configured yet — record intent locally and be honest about it
       try {
         const list = JSON.parse(localStorage.getItem("devfocus-subscribe-intent") || "[]");
         list.push({ email, date: new Date().toISOString() });

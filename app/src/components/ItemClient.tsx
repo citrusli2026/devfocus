@@ -5,6 +5,7 @@ import Link from "next/link";
 import { ArrowLeft, ExternalLink, MessageSquare, Star, ArrowUp, Calendar, Link as LinkIcon, Check } from "lucide-react";
 import { getSourceMeta } from "../lib/sources";
 import { useTranslation } from "../lib/i18n";
+import { isWithinDays } from "../lib/time";
 import type { FeedItem } from "../types";
 
 export function ItemClient({ item, relatedItems }: { item: FeedItem; relatedItems?: FeedItem[] }) {
@@ -107,7 +108,7 @@ export function ItemClient({ item, relatedItems }: { item: FeedItem; relatedItem
           {copied ? <Check className="h-4 w-4 text-accent-emerald" /> : <LinkIcon className="h-4 w-4" />}
           {copied ? t("item.copied") : t("item.copyLink")}
         </button>
-        {item.first_seen && (
+        {item.first_seen && isWithinDays(item.first_seen, 30) && (
           <Link
             href={`/history/${item.first_seen}/`}
             className="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-surface-hover text-text-secondary font-semibold hover:bg-surface-elevated transition-colors"

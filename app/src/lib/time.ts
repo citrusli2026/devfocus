@@ -7,6 +7,13 @@ const UNITS: { unit: Intl.RelativeTimeFormatUnit; ms: number }[] = [
   { unit: "second", ms: 1000 },
 ];
 
+export function isWithinDays(date: Date | string, days: number): boolean {
+  const d = typeof date === "string" ? new Date(date) : date;
+  const now = new Date();
+  const diffMs = now.getTime() - d.getTime();
+  return diffMs >= 0 && diffMs <= days * 24 * 60 * 60 * 1000;
+}
+
 export function formatRelativeTime(
   date: Date | string,
   locale: "zh" | "en" = "zh"

@@ -5,6 +5,7 @@ import Link from "next/link";
 import { FeedItem } from "../types";
 import { useTranslation } from "../lib/i18n";
 import { useReadItems } from "../lib/read-items";
+import { isWithinDays } from "../lib/time";
 import { cn } from "../lib/utils";
 import { ExternalLink, MessageSquare, Star, ArrowUp, Share2, Link as LinkIcon } from "lucide-react";
 
@@ -218,13 +219,22 @@ export function FeedCard({ item, rank, linkToDetail = false }: { item: FeedItem;
               </span>
             )}
             {item.first_seen && (
-              <Link
-                href={`/history/${item.first_seen}/`}
-                className="text-[11px] text-text-dim px-1.5 py-0.5 rounded bg-surface-hover hover:text-accent-violet hover:bg-accent-violet/10 transition-colors"
-                title={t("common.firstSeen") || "首次上榜"}
-              >
-                📅 {item.first_seen}
-              </Link>
+              isWithinDays(item.first_seen, 30) ? (
+                <Link
+                  href={`/history/${item.first_seen}/`}
+                  className="text-[11px] text-text-dim px-1.5 py-0.5 rounded bg-surface-hover hover:text-accent-violet hover:bg-accent-violet/10 transition-colors"
+                  title={t("common.firstSeen") || "首次上榜"}
+                >
+                  📅 {item.first_seen}
+                </Link>
+              ) : (
+                <span
+                  className="text-[11px] text-text-dim px-1.5 py-0.5 rounded bg-surface-hover cursor-default"
+                  title={t("common.firstSeenArchived")}
+                >
+                  📅 {item.first_seen}
+                </span>
+              )
             )}
             <ShareButtons item={item} locale={locale} />
           </div>
