@@ -18,7 +18,7 @@ export default defineConfig({
     },
   ],
   webServer: {
-    command: "npm run build && npx serve out -p 3000",
+    command: "npm run build && npx http-server out -p 3000 --silent",
     url: "http://localhost:3000",
     reuseExistingServer: !process.env.CI,
     timeout: 120 * 1000,

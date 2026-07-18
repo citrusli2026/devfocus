@@ -66,7 +66,9 @@ export function SubscribeForm() {
         <form onSubmit={handleSubmit} className="flex-1 max-w-md">
           <div className="flex gap-2">
             <input
-              type="email"
+              type="text"
+              inputMode="email"
+              autoComplete="email"
               value={email}
               onChange={(e) => {
                 setEmail(e.target.value);
@@ -74,7 +76,6 @@ export function SubscribeForm() {
               }}
               placeholder={t("subscribe.placeholder")}
               className="flex-1 px-4 py-2.5 rounded-lg bg-surface-hover border border-surface-border text-text-primary placeholder:text-text-dim focus:outline-none focus:border-accent-violet/50 text-sm"
-              required
             />
             <button
               type="submit"

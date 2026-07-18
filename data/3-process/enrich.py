@@ -41,10 +41,10 @@ GENERIC = {
     "just", "still", "even", "also", "much", "many", "good", "great",
     "first", "last", "long", "high", "old", "big", "small", "right",
     "free", "full", "real", "true", "false", "simple", "easy", "hard",
-    "build", "learn", "start", "help", "take", "find", "think", "look",
+    "build", "built", "building", "learn", "start", "help", "take", "find", "think", "look",
     "come", "give", "back", "down", "well", "part", "made", "read",
     "post", "ask", "say", "tell", "see", "know", "try", "keep",
-    "site", "app", "tool", "data", "file", "type", "line", "user",
+    "site", "app", "tool", "data", "file", "type", "line", "user", "users",
     # Expanded noise words that don't help discovery
     "one", "two", "three", "new", "now", "then", "here", "there", "this", "that",
     "these", "those", "some", "any", "every", "all", "each", "own", "self",

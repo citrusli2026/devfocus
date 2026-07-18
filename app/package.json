@@ -8,7 +8,9 @@
     "postbuild": "node scripts/clean-build-traces.mjs",
     "start": "next start",
     "lint": "eslint",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "test:py": "cd ../data/3-process && python3 -m unittest test_enrich.py && python3 ../scripts/validate_data.py",
+    "test:all": "npm run lint && npm run test:py && npm run test:e2e"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",
