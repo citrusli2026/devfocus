@@ -1,7 +1,9 @@
 import { notFound } from "next/navigation";
+import type { Metadata } from "next";
 import digestData from "../../../data/digest.json";
 import feedData from "../../../data/feed.json";
 import { TagClient, TagItem } from "../../../components/TagClient";
+import { buildMetadata } from "../../../lib/metadata";
 import type { Digest } from "../../../types";
 
 type FeedItem = {
@@ -66,6 +68,15 @@ const tags = Object.keys(tagMap).filter((tag) => (tagMap[tag]?.length ?? 0) >= M
 
 export async function generateStaticParams() {
   return tags.map((tag) => ({ tag }));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ tag: string }> }): Promise<Metadata> {
+  const { tag } = await params;
+  return buildMetadata({
+    title: `#${tag} - 标签聚合`,
+    description: `DevFocus 上 #${tag} 相关的技术资讯、文章和讨论聚合`,
+    path: `/tag/${tag}/`,
+  });
 }
 
 export default async function TagPage({ params }: { params: Promise<{ tag: string }> }) {

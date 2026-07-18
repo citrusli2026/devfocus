@@ -1,7 +1,9 @@
 import { notFound } from "next/navigation";
+import type { Metadata } from "next";
 import { promises as fs } from "fs";
 import path from "path";
 import { HistoryDateClient } from "../../../components/HistoryDateClient";
+import { buildMetadata } from "../../../lib/metadata";
 import type { FeedItem } from "../../../types";
 
 const HISTORY_DIR = path.resolve(process.cwd(), "..", "data", "5-history");
@@ -20,6 +22,27 @@ async function loadHistory(date: string): Promise<HistoryData | null> {
   } catch {
     return null;
   }
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ date: string }> }): Promise<Metadata> {
+  const { date } = await params;
+  const history = await loadHistory(date);
+  const items = history?.digest_items?.length ? history.digest_items : history?.items;
+  if (!history || !items?.length) {
+    return buildMetadata({
+      title: `归档 - ${date}`,
+      description: `${date} 技术资讯归档页面`,
+      path: `/history/${date}/`,
+      noIndex: true,
+    });
+  }
+  const headline = items[0];
+  const description = `DevFocus ${date} 归档共 ${history.items.length} 条技术资讯${headline ? `，精选：${headline.title}` : ""}`;
+  return buildMetadata({
+    title: `${date} 技术资讯归档 | DevFocus`,
+    description,
+    path: `/history/${date}/`,
+  });
 }
 
 export async function generateStaticParams() {

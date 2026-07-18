@@ -1,7 +1,9 @@
 import { notFound } from "next/navigation";
+import type { Metadata } from "next";
 import digestData from "../../../data/digest.json";
 import feedData from "../../../data/feed.json";
 import { ItemClient } from "../../../components/ItemClient";
+import { buildMetadata } from "../../../lib/metadata";
 import type { Digest, FeedItem } from "../../../types";
 
 const digest = digestData as Digest;
@@ -28,6 +30,20 @@ export async function generateStaticParams() {
   return Array.from(itemMap.values())
     .filter(hasDetailPage)
     .map((item) => ({ id: item.id }));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
+  const { id } = await params;
+  const item = itemMap.get(id);
+  if (!item || !hasDetailPage(item)) {
+    return buildMetadata({ title: "Not Found", path: "/", noIndex: true });
+  }
+  const summary = item.summary_zh || item.summary_en || item.description;
+  return buildMetadata({
+    title: item.title,
+    description: summary.slice(0, 160),
+    path: `/item/${id}/`,
+  });
 }
 
 export default async function ItemPage({ params }: { params: Promise<{ id: string }> }) {

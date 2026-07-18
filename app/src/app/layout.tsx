@@ -31,9 +31,6 @@ export const metadata: Metadata = {
   creator: "DevFocus",
   publisher: "DevFocus",
   robots: { index: true, follow: true },
-  alternates: {
-    canonical: SITE_URL,
-  },
   openGraph: {
     type: "website",
     locale: "zh_CN",

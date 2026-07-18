@@ -1,7 +1,9 @@
 import { notFound } from "next/navigation";
+import type { Metadata } from "next";
 import digestData from "../../../data/digest.json";
 import feedData from "../../../data/feed.json";
 import { DomainClient, DomainItem } from "../../../components/DomainClient";
+import { buildMetadata } from "../../../lib/metadata";
 import type { Digest } from "../../../types";
 
 type FeedItem = {
@@ -64,6 +66,15 @@ const domains = Object.keys(domainMap).filter((d) => (domainMap[d]?.length ?? 0)
 
 export async function generateStaticParams() {
   return domains.map((domain) => ({ domain }));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ domain: string }> }): Promise<Metadata> {
+  const { domain } = await params;
+  return buildMetadata({
+    title: `${domain} - 域名聚合`,
+    description: `DevFocus 上来自 ${domain} 的技术资讯、文章和讨论聚合`,
+    path: `/domain/${domain}/`,
+  });
 }
 
 export default async function DomainPage({ params }: { params: Promise<{ domain: string }> }) {
