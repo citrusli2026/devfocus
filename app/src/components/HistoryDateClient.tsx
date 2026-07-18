@@ -10,9 +10,11 @@ import type { FeedItem } from "../types";
 export function HistoryDateClient({
   date,
   items,
+  total,
 }: {
   date: string;
   items: FeedItem[];
+  total?: number;
 }) {
   const { t } = useTranslation();
 
@@ -46,7 +48,9 @@ export function HistoryDateClient({
           {date}
         </h1>
         <p className="mt-2 text-text-secondary">
-          {t("historyDate.itemsCount", { items: items.length, sources: sources.length })}
+          {total && total > items.length
+            ? t("historyDate.itemsCountCapped", { items: items.length, total, sources: sources.length })
+            : t("historyDate.itemsCount", { items: items.length, sources: sources.length })}
         </p>
       </section>
 

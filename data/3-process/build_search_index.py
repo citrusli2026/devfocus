@@ -47,6 +47,8 @@ def main():
         digest = json.loads(DIGEST_PATH.read_text())
         digest_ids = {i["id"] for i in digest.get("daily", {}).get("items", []) if i.get("id")}
 
+    detail_ids = {i["id"] for i in items if i.get("id") in digest_ids or i.get("summary_zh")}
+
     now = datetime.now(timezone.utc)
     cutoff = now.timestamp() - DAYS_BACK * 24 * 60 * 60
 
@@ -81,7 +83,7 @@ def main():
             "comments": item.get("comments", 0),
             "date": dt.strftime("%Y-%m-%d") if dt else "",
             "tags": item.get("tags", []) or [],
-            "hasDetail": item.get("id", "") in digest_ids,
+            "hasDetail": item.get("id", "") in detail_ids,
         })
 
     result = {

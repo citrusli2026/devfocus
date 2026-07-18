@@ -29,12 +29,21 @@ export async function generateStaticParams() {
     .map((f) => ({ date: f.replace(".json", "") }));
 }
 
+const HISTORY_PAGE_SIZE = 60;
+
 export default async function HistoryDatePage({ params }: { params: Promise<{ date: string }> }) {
   const { date } = await params;
   const history = await loadHistory(date);
   // Prefer curated digest_items (with summaries) when available; fall back to full snapshot.
-  const items = history?.digest_items?.length ? history.digest_items : history?.items;
+  let items = history?.digest_items?.length ? history.digest_items : history?.items;
   if (!history || !items?.length) return notFound();
 
-  return <HistoryDateClient date={history.date} items={items} />;
+  // Cap the statically rendered list to keep daily archive pages small. Full history
+  // remains available in data/5-history/ for search and future enrichment.
+  items = items
+    .slice()
+    .sort((a, b) => (b.quality_score ?? 0) - (a.quality_score ?? 0))
+    .slice(0, HISTORY_PAGE_SIZE);
+
+  return <HistoryDateClient date={history.date} items={items} total={history.items.length} />;
 }
