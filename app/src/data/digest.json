@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-18T01:21:48.214780+00:00",
+  "generated_at": "2026-07-19T01:28:23.316401+00:00",
   "daily": {
-    "date": "2026-07-18",
+    "date": "2026-07-19",
     "items": [
       {
         "id": "gh-daily-codecrafters-io-build-your-own-x",
@@ -9,10 +9,10 @@
         "url": "https://github.com/codecrafters-io/build-your-own-x",
         "description": "Master programming by recreating your favorite technologies from scratch.",
         "source": "github_trending",
-        "score": 527380,
+        "score": 528280,
         "comments": 0,
         "author": "codecrafters-io",
-        "time": "2026-07-18T01:21:13.281341+00:00",
+        "time": "2026-07-19T01:27:46.005727+00:00",
         "tags": [
           "favorite",
           "github",
@@ -27,38 +27,10 @@
         "quality_score": 75.0,
         "related_ids": [
           "gh-daily-freeCodeCamp-freeCodeCamp",
+          "gh-daily-rohitg00-ai-engineering-from-scratch",
           "gh-daily-ossu-computer-science",
           "gh-daily-mattpocock-skills",
-          "gh-daily-Shubhamsaboo-awesome-llm-apps",
-          "gh-daily-sindresorhus-awesome"
-        ]
-      },
-      {
-        "id": "gh-daily-OpenCut-app-OpenCut",
-        "title": "OpenCut-app/OpenCut",
-        "url": "https://github.com/OpenCut-app/OpenCut",
-        "description": "The open-source CapCut alternative",
-        "source": "github_trending",
-        "score": 74884,
-        "comments": 0,
-        "author": "OpenCut-app",
-        "time": "2026-07-18T01:21:13.281341+00:00",
-        "tags": [
-          "capcut",
-          "github"
-        ],
-        "gh_period": "daily",
-        "first_seen": "2026-07-14",
-        "summary_zh": "OpenCut 是一款开源视频剪辑工具，旨在成为 CapCut 的免费替代品，提供了类似的时间线编辑、特效和导出功能。它完全开源，用户可以自由定制和部署，对于寻找免费、专业级别且注重隐私的视频编辑解决方案的创作者来说，OpenCut 是一个极具吸引力的选择。",
-        "summary_en": "OpenCut is an open-source video editor positioned as a free alternative to CapCut. It features a timeline-based editing interface, effects, and export options similar to its commercial counterpart, but with full transparency and customizability. Privacy-conscious content creators, hobbyist editors, and developers who want to extend the tool will benefit from its open nature and active community.",
-        "domain": "github.com",
-        "quality_score": 45.0,
-        "related_ids": [
-          "gh-monthly-OpenCut-app-OpenCut",
-          "gh-daily-codecrafters-io-build-your-own-x",
-          "gh-daily-docusealco-docuseal",
-          "gh-daily-ossu-computer-science",
-          "gh-daily-mattpocock-skills"
+          "gh-daily-Shubhamsaboo-awesome-llm-apps"
         ]
       },
       {
@@ -67,10 +39,10 @@
         "url": "https://github.com/OpenCut-app/OpenCut",
         "description": "The open-source CapCut alternative",
         "source": "github_trending",
-        "score": 74884,
+        "score": 75435,
         "comments": 0,
         "author": "OpenCut-app",
-        "time": "2026-07-18T01:21:13.281341+00:00",
+        "time": "2026-07-19T01:27:46.005727+00:00",
         "tags": [
           "capcut",
           "github"
@@ -95,10 +67,10 @@
         "url": "https://github.com/ocornut/imgui",
         "description": "Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies",
         "source": "github_trending",
-        "score": 74735,
+        "score": 74776,
         "comments": 0,
         "author": "ocornut",
-        "time": "2026-07-18T01:21:13.281341+00:00",
+        "time": "2026-07-19T01:27:46.005727+00:00",
         "tags": [
           "dependency",
           "github",
@@ -121,75 +93,15 @@
         ]
       },
       {
-        "id": "gh-daily-protocolbuffers-protobuf",
-        "title": "protocolbuffers/protobuf",
-        "url": "https://github.com/protocolbuffers/protobuf",
-        "description": "Protocol Buffers - Google's data interchange format",
-        "source": "github_trending",
-        "score": 71540,
-        "comments": 0,
-        "author": "protocolbuffers",
-        "time": "2026-07-18T01:21:13.281341+00:00",
-        "tags": [
-          "github",
-          "go",
-          "google",
-          "protobuf",
-          "protocol"
-        ],
-        "gh_period": "daily",
-        "first_seen": "2026-07-18",
-        "summary_zh": "Protocol Buffers 是谷歌开发的一种数据交换格式，用于高效序列化结构化数据，比 XML 和 JSON 更小更快。它定义了 .proto 文件来描述数据结构，通过代码生成器生成多种语言的类，广泛应用于微服务通信、存储和网络协议中。对开发者而言，这意味着更少的带宽占用和更快的解析速度，尤其适合高性能系统和跨语言数据传输场景。这项技术已经支撑了谷歌内部的无数服务，现在开源供全社区使用，成为云原生和分布式系统的基础组件之一。",
-        "summary_en": "Protocol Buffers is Google's language-neutral, platform-neutral data interchange format for serializing structured data efficiently. It uses a .proto file to define schemas and generates code in multiple languages, making data exchange faster and smaller than XML or JSON. This technology solves the problem of bulky, slow serialization in distributed systems and is critical for microservices, RPC frameworks like gRPC, and high-performance storage. Developers benefit from reduced bandwidth, faster parsing, and strong typing across languages. Originally internal at Google, it's now open source and widely adopted, powering everything from cloud infrastructure to mobile apps.",
-        "domain": "github.com",
-        "quality_score": 44.7,
-        "related_ids": [
-          "gh-monthly-asgeirtj-system_prompts_leaks",
-          "gh-monthly-GoogleCloudPlatform-knowledge-catalog",
-          "gh-daily-codecrafters-io-build-your-own-x",
-          "gh-monthly-diegosouzapw-OmniRoute",
-          "gh-daily-asgeirtj-system_prompts_leaks"
-        ]
-      },
-      {
-        "id": "gh-daily-openinterpreter-openinterpreter",
-        "title": "openinterpreter/openinterpreter",
-        "url": "https://github.com/openinterpreter/openinterpreter",
-        "description": "A coding agent for open models like Kimi K3",
-        "source": "github_trending",
-        "score": 66376,
-        "comments": 0,
-        "author": "openinterpreter",
-        "time": "2026-07-18T01:21:13.281341+00:00",
-        "tags": [
-          "agent",
-          "github",
-          "kimi"
-        ],
-        "gh_period": "daily",
-        "first_seen": "2026-07-16",
-        "summary_zh": "Open Interpreter项目近日推出了一款面向低成本模型的编程代理，它允许用户通过自然语言与本地运行的AI模型交互，自动生成并执行代码。这意味着即使是资源受限的设备也能实现高级的自动化编程任务，极大地降低了AI辅助开发的门槛。对于开发者、研究者以及爱好低预算实验的团队来说，这个工具提供了一个灵活且高效的选择，让更多人可以体验到AI编程的乐趣与便利。",
-        "summary_en": "Open Interpreter has introduced a coding agent designed specifically for low-cost AI models. It enables users to interact with locally running models through natural language, automatically generating and executing code. This breakthrough allows advanced automated programming tasks even on resource-constrained devices, significantly lowering the barrier to AI-assisted development. Developers, researchers, and teams with limited budgets will find it a flexible and efficient tool, bringing the joy and convenience of AI-powered coding to a broader audience.",
-        "domain": "github.com",
-        "quality_score": 44.4,
-        "related_ids": [
-          "gh-monthly-calesthio-OpenMontage",
-          "gh-daily-Shubhamsaboo-awesome-llm-apps",
-          "gh-monthly-stablyai-orca",
-          "gh-daily-Graphify-Labs-graphify",
-          "gh-daily-lobehub-lobehub"
-        ]
-      },
-      {
         "id": "gh-monthly-asgeirtj-system_prompts_leaks",
         "title": "asgeirtj/system_prompts_leaks",
         "url": "https://github.com/asgeirtj/system_prompts_leaks",
         "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT GPT-5.6, Codex GPT-5.6, GPT-5.5. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
         "source": "github_trending",
-        "score": 58649,
+        "score": 58868,
         "comments": 0,
         "author": "asgeirtj",
-        "time": "2026-07-18T01:21:13.281341+00:00",
+        "time": "2026-07-19T01:27:46.005727+00:00",
         "tags": [
           "ai",
           "anthropic",
@@ -226,8 +138,8 @@
           "gh-daily-asgeirtj-system_prompts_leaks",
           "gh-monthly-diegosouzapw-OmniRoute",
           "gh-daily-Graphify-Labs-graphify",
-          "gh-daily-Nutlope-hallmark",
-          "gh-monthly-Egonex-AI-Understand-Anything"
+          "gh-monthly-Nutlope-hallmark",
+          "gh-daily-Nutlope-hallmark"
         ]
       },
       {
@@ -236,15 +148,14 @@
         "url": "https://github.com/Panniantong/Agent-Reach",
         "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
         "source": "github_trending",
-        "score": 57504,
+        "score": 57767,
         "comments": 0,
         "author": "Panniantong",
-        "time": "2026-07-18T01:21:13.281341+00:00",
+        "time": "2026-07-19T01:27:46.005727+00:00",
         "tags": [
           "agent",
           "ai",
           "api",
-          "bilibili",
           "cli",
           "entire",
           "eyes",
@@ -264,10 +175,10 @@
         "quality_score": 43.8,
         "related_ids": [
           "gh-daily-lobehub-lobehub",
+          "gh-daily-KnockOutEZ-wigolo",
           "gh-daily-Shubhamsaboo-awesome-llm-apps",
           "gh-daily-Panniantong-Agent-Reach",
-          "gh-daily-Graphify-Labs-graphify",
-          "gh-monthly-calesthio-OpenMontage"
+          "gh-daily-Graphify-Labs-graphify"
         ]
       },
       {
@@ -276,10 +187,10 @@
         "url": "https://github.com/usestrix/strix",
         "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
         "source": "github_trending",
-        "score": 42273,
+        "score": 42454,
         "comments": 0,
         "author": "usestrix",
-        "time": "2026-07-18T01:21:13.281341+00:00",
+        "time": "2026-07-19T01:27:46.005727+00:00",
         "tags": [
           "ai",
           "fix",
@@ -295,11 +206,38 @@
         "domain": "github.com",
         "quality_score": 42.8,
         "related_ids": [
-          "gh-daily-mattpocock-skills",
           "gh-daily-PostHog-posthog",
+          "gh-daily-mattpocock-skills",
           "gh-daily-Shubhamsaboo-awesome-llm-apps",
           "gh-daily-Graphify-Labs-graphify",
           "gh-daily-lobehub-lobehub"
+        ]
+      },
+      {
+        "id": "36kr-3899876606985864",
+        "title": "打败Fable 5！Kimi K3冲上第一，杨植麟导师很骄傲",
+        "url": "https://36kr.com/p/3899876606985864",
+        "description": "",
+        "source": "36kr",
+        "score": 39839,
+        "comments": 0,
+        "author": "",
+        "time": 1784338933699,
+        "tags": [
+          "36kr",
+          "kimi"
+        ],
+        "first_seen": "2026-07-19",
+        "summary_zh": "Kimi K3模型在最新评测中一举超越Fable 5，登顶排行榜首位，引发行业关注。月之暗面创始人杨植麟的导师对此表示骄傲，认为这标志着中国AI团队的创新能力正在快速崛起。Kimi K3凭借更强的推理能力和更低的成本，成为开发者首选。",
+        "summary_en": "Kimi K3 has overtaken Fable 5 to claim the top spot in a recent benchmark, marking a significant milestone for Moonshot AI. The model's superior reasoning and cost-efficiency have drawn praise from industry observers, including founder Yang Zhilin's mentor. This achievement highlights the rapid progress of Chinese AI teams in delivering competitive solutions.",
+        "domain": "36kr.com",
+        "quality_score": 42.6,
+        "related_ids": [
+          "36kr-3898252203984520",
+          "36kr-3900918550546308",
+          "36kr-3899772123694979",
+          "36kr-3900809746319238",
+          "36kr-3899401765422720"
         ]
       },
       {
@@ -308,10 +246,10 @@
         "url": "https://github.com/calesthio/OpenMontage",
         "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
         "source": "github_trending",
-        "score": 39528,
+        "score": 39823,
         "comments": 0,
         "author": "calesthio",
-        "time": "2026-07-18T01:21:13.281341+00:00",
+        "time": "2026-07-19T01:27:46.005727+00:00",
         "tags": [
           "agent",
           "agentic",
@@ -330,423 +268,348 @@
         "quality_score": 42.6,
         "related_ids": [
           "gh-daily-Graphify-Labs-graphify",
+          "gh-daily-PostHog-posthog",
           "gh-daily-addyosmani-agent-skills",
           "gh-daily-Shubhamsaboo-awesome-llm-apps",
+          "gh-daily-lobehub-lobehub"
+        ]
+      },
+      {
+        "id": "gh-daily-rohitg00-ai-engineering-from-scratch",
+        "title": "rohitg00/ai-engineering-from-scratch",
+        "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+        "description": "Learn it. Build it. Ship it for others.",
+        "source": "github_trending",
+        "score": 39107,
+        "comments": 0,
+        "author": "rohitg00",
+        "time": "2026-07-19T01:27:46.005727+00:00",
+        "tags": [
+          "ai",
+          "github",
+          "others",
+          "rohitg",
+          "scratch",
+          "ship"
+        ],
+        "gh_period": "daily",
+        "first_seen": "2026-06-16",
+        "summary_zh": "这是一个面向AI工程师的入门级开源项目，从零开始教授机器学习工程的核心技能。作者强调学以致用，不仅构建模型，还要学会部署和交付给他人使用。适合希望系统掌握AI工程全流程的初学者和转行者。",
+        "summary_en": "This GitHub repository offers a hands-on curriculum for aspiring AI engineers, covering everything from foundations to deployment. The motto 'Learn it. Build it. Ship it for others' reflects its practical approach: you don't just study theory, you create real products. Perfect for beginners or career switchers who want a structured path into AI engineering.",
+        "domain": "github.com",
+        "quality_score": 42.6,
+        "related_ids": [
+          "gh-daily-codecrafters-io-build-your-own-x",
+          "gh-daily-Shubhamsaboo-awesome-llm-apps",
+          "gh-daily-PostHog-posthog",
+          "gh-daily-mattpocock-skills",
+          "gh-daily-Graphify-Labs-graphify"
+        ]
+      },
+      {
+        "id": "gh-daily-PostHog-posthog",
+        "title": "PostHog/posthog",
+        "url": "https://github.com/PostHog/posthog",
+        "description": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+        "source": "github_trending",
+        "score": 36599,
+        "comments": 0,
+        "author": "PostHog",
+        "time": "2026-07-19T01:27:46.005727+00:00",
+        "tags": [
+          "agent",
+          "ai",
+          "analytics",
+          "capture",
+          "context",
+          "driving",
+          "error",
+          "experiment",
+          "fix",
+          "github",
+          "leading",
+          "log",
+          "mcp",
+          "observability",
+          "opportunity",
+          "posthog",
+          "session",
+          "ship",
+          "slack",
+          "tracking"
+        ],
+        "gh_period": "daily",
+        "first_seen": "2026-07-16",
+        "summary_zh": "PostHog是一个开源的产品分析平台，帮助团队构建“自动驾驶”产品。它集成了AI可观测性、用户行为分析、会话回放和功能开关等工具，让开发者无需依赖多个第三方服务。非常适合注重数据隐私和自建分析能力的团队。",
+        "summary_en": "PostHog is an open-source product analytics suite that empowers teams to build self-driving products. It combines AI observability, session replay, feature flags, and more into one platform, reducing reliance on multiple vendors. With full control over data, it's ideal for startups and enterprises that prioritize privacy and flexibility.",
+        "domain": "github.com",
+        "quality_score": 42.4,
+        "related_ids": [
+          "gh-daily-Shubhamsaboo-awesome-llm-apps",
           "gh-daily-lobehub-lobehub",
-          "gh-daily-openinterpreter-openinterpreter"
+          "gh-monthly-calesthio-OpenMontage",
+          "gh-monthly-stablyai-orca",
+          "gh-daily-tirth8205-code-review-graph"
         ]
       },
       {
-        "id": "36kr-3899037763864453",
-        "title": "韩国股市“疯牛”之后“熊出没”，2.3万亿韩元被强平，总统紧急下场干预",
-        "url": "https://36kr.com/p/3899037763864453",
+        "id": "gh-monthly-DeusData-codebase-memory-mcp",
+        "title": "DeusData/codebase-memory-mcp",
+        "url": "https://github.com/DeusData/codebase-memory-mcp",
+        "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+        "source": "github_trending",
+        "score": 32721,
+        "comments": 0,
+        "author": "DeusData",
+        "time": "2026-07-19T01:27:46.005727+00:00",
+        "tags": [
+          "average",
+          "binary",
+          "codebase",
+          "codebases",
+          "dependency",
+          "fewer",
+          "github",
+          "graph",
+          "indexes",
+          "intelligence",
+          "knowledge",
+          "mcp",
+          "persistent",
+          "queries",
+          "rag",
+          "repo",
+          "static",
+          "sub"
+        ],
+        "gh_period": "monthly",
+        "first_seen": "2026-06-21",
+        "summary_zh": "这是一个高性能的代码智能MCP服务器，能将整个代码库索引成持久化的知识图谱，支持158种语言，平均查询响应时间仅为毫秒级。它极大地提升了开发者在大型项目中快速理解代码结构的能力，尤其适合复杂代码库的维护和重构场景。",
+        "summary_en": "This MCP server indexes entire codebases into a persistent knowledge graph with sub-millisecond latency, supporting 158 languages. It enables developers to rapidly understand code structure, dependencies, and history — a game-changer for navigating large, legacy, or unfamiliar repositories. Perfect for teams doing code reviews, refactoring, or onboarding.",
+        "domain": "github.com",
+        "quality_score": 42.2,
+        "related_ids": [
+          "gh-daily-tirth8205-code-review-graph",
+          "gh-daily-DeusData-codebase-memory-mcp",
+          "gh-monthly-topoteretes-cognee",
+          "gh-daily-Graphify-Labs-graphify",
+          "gh-monthly-ocornut-imgui"
+        ]
+      },
+      {
+        "id": "36kr-3900918550546308",
+        "title": "刚刚，Fable 5官宣永久可用",
+        "url": "https://36kr.com/p/3900918550546308",
         "description": "",
         "source": "36kr",
-        "score": 31446,
+        "score": 27750,
         "comments": 0,
         "author": "",
-        "time": 1784251503297,
+        "time": 1784365294546,
         "tags": [
           "36kr",
-          "之后"
+          "刚刚"
         ],
-        "first_seen": "2026-07-18",
-        "summary_zh": "韩国股市在经历一轮强劲上涨后突然暴跌，出现“熊出没”行情，约2.3万亿韩元的多头仓位被强制平仓，引发市场恐慌。韩国总统紧急下令，要求金融监管机构采取措施稳定市场，包括限制卖空和提供流动性支持。这场危机暴露了韩国股市在杠杆交易和外资流动上的脆弱性，对散户投资者和基金造成了巨大损失，也让市场对政府干预效果产生质疑，值得所有新兴市场投资者警惕。",
-        "summary_en": "South Korea's stock market suffered a brutal reversal after a bull run, with about 2.3 trillion won in leveraged long positions forcibly liquidated, triggering a sharp selloff. The president intervened urgently, ordering regulators to curb short-selling and inject liquidity to stabilize the market. This event highlights the fragility of Korea's equity market due to high leverage and foreign capital flows, devastating retail investors and funds. It raises questions about the effectiveness of government intervention and serves as a cautionary tale for emerging markets about the risks of rapid booms followed by violent corrections.",
+        "first_seen": "2026-07-19",
+        "summary_zh": "Fable 5今日正式宣布永久免费开放所有功能，用户无需再担心订阅到期或功能限制。这一决定被认为是对用户反馈的积极回应，也意在巩固其在开发者社区中的口碑。对于依赖Fable 5进行日常编码和调试的团队来说，这无疑是个好消息。",
+        "summary_en": "Fable 5 has just announced it will be permanently free, lifting all subscription restrictions. The move is seen as a response to community feedback and a strategy to strengthen its developer ecosystem. Teams using Fable 5 for coding and debugging can now rely on it without cost worries, making it a more attractive alternative in the tooling space.",
         "domain": "36kr.com",
-        "quality_score": 42.1,
+        "quality_score": 41.8,
         "related_ids": [
-          "36kr-3891132709206784",
-          "36kr-3898973942007684",
-          "36kr-3899401765422720",
-          "36kr-3898151587890824",
-          "36kr-3898252203984520"
+          "36kr-3895147864947970",
+          "36kr-3895421757753218",
+          "36kr-3899876606985864",
+          "36kr-3899772123694979",
+          "36kr-3900809746319238"
         ]
       },
       {
-        "id": "36kr-3899401765422720",
-        "title": "突发叫停，Gemini 3.5 Pro难产，谷歌跌入失望陷阱",
-        "url": "https://36kr.com/p/3899401765422720",
+        "id": "36kr-3899772123694979",
+        "title": "门票炒到 3000 元的 WAIC，我们找到了 AI 真正的创新",
+        "url": "https://36kr.com/p/3899772123694979",
         "description": "",
         "source": "36kr",
-        "score": 15469,
+        "score": 18764,
         "comments": 0,
         "author": "",
-        "time": 1784275841948,
-        "tags": [
-          "36kr",
-          "gemini",
-          "pro"
-        ],
-        "first_seen": "2026-07-18",
-        "summary_zh": "谷歌突然叫停了备受期待的 Gemini 3.5 Pro 模型发布，导致市场预期落空，股价承压，投资者陷入失望。传闻称模型在安全测试中未通过或性能未达到预期，谷歌陷入了“发布即失败”的困境。这次难产反映了大型 AI 模型研发中面临的巨大挑战：安全、对齐和成本控制。对 AI 行业来说，这意味着即便是科技巨头也难以保证按时交付突破性产品，用户和开发者需要重新调整对 AI 进步速度的预期。",
-        "summary_en": "Google abruptly halted the release of its highly anticipated Gemini 3.5 Pro model, disappointing investors and causing its stock to dip. Rumors suggest the model failed safety evaluations or fell short of performance benchmarks, highlighting the immense challenges in developing cutting-edge AI: safety alignment, reliability, and cost. This setback shows that even tech giants struggle to deliver revolutionary products on schedule, reshaping expectations for AI progress. Users and developers now face uncertainty about when truly advanced models will arrive, and the incident underscores the delicate balance between innovation and responsible deployment.",
-        "domain": "36kr.com",
-        "quality_score": 41.0,
-        "related_ids": [
-          "gh-monthly-asgeirtj-system_prompts_leaks",
-          "36kr-3899037763864453",
-          "36kr-3898973942007684",
-          "36kr-3898151587890824",
-          "36kr-3898252203984520"
-        ]
-      },
-      {
-        "id": "36kr-3899650585806469",
-        "title": "第一个被AI做空的国家，出现了",
-        "url": "https://36kr.com/p/3899650585806469",
-        "description": "",
-        "source": "36kr",
-        "score": 11850,
-        "comments": 0,
-        "author": "",
-        "time": 1784289100034,
+        "time": 1784339918706,
         "tags": [
           "36kr",
           "ai",
-          "出现了"
+          "waic",
+          "元的"
         ],
-        "first_seen": "2026-07-18",
-        "summary_zh": "有报道指出，某个国家因人工智能技术的快速崛起，传统出口产业遭受冲击，导致国际资本集体做空其股市和货币，成为全球首个被 AI 做空的国家。AI 的自动化能力取代了该国大量制造业和客服岗位，削弱了其经济基本盘，而本土 AI 产业又未能及时填补缺口。这场做空危机提醒各国，AI 不仅带来机遇，也可能成为经济脆弱性的新源头，尤其对于那些过度依赖低端劳动力的经济体，转型迫在眉睫。",
-        "summary_en": "A country has reportedly become the world's first to be shorted by AI-driven market forces. As artificial intelligence rapidly automates traditional manufacturing and service jobs, its export-driven economy took a hit, prompting international investors to bet against its stocks and currency. The nation's own AI industry failed to offset the losses, exposing a structural vulnerability. This event serves as a stark warning: AI can create new economic risks, especially for economies reliant on low-cost labor. The shift demands urgent policy responses and diversification, or else more countries could face similar short attacks in the age of automation.",
+        "first_seen": "2026-07-19",
+        "summary_zh": "世界人工智能大会（WAIC）一票难求，门票甚至被炒到3000元，但我们在喧嚣之外找到了真正值得关注的AI创新。这些创新并非宏大叙事，而是聚焦于落地场景、提升效率的小而美解决方案，比如在医疗、制造等领域默默改变行业运转方式的项目。它们才是AI未来的基石。",
+        "summary_en": "Tickets for the World Artificial Intelligence Conference (WAIC) have been scalped up to 3000 yuan, but beyond the hype, we found the real AI innovations—not grandiose promises but practical, smaller-scale solutions that improve efficiency in fields like healthcare and manufacturing. These are the quiet game-changers that will define AI's true impact.",
         "domain": "36kr.com",
-        "quality_score": 40.8,
+        "quality_score": 41.2,
         "related_ids": [
-          "36kr-3898151587890824",
-          "36kr-3898153712518785",
-          "36kr-3899386796656516",
-          "36kr-3896564485572489",
-          "36kr-3899334500501377"
+          "36kr-3900957398960006",
+          "36kr-3901343845598599",
+          "36kr-3900935608911744",
+          "36kr-3901333823293312",
+          "36kr-3899650585806469"
         ]
       },
       {
-        "id": "36kr-3899057634363266",
-        "title": "36氪首发 | 这家人形机器人ODM厂商获千万融资，飞荣达、索辰科技接连下注",
-        "url": "https://36kr.com/p/3899057634363266",
+        "id": "36kr-3900809746319238",
+        "title": "“韩国最好的夏天”：120万人爆仓，巨亏940万亿",
+        "url": "https://36kr.com/p/3900809746319238",
         "description": "",
         "source": "36kr",
-        "score": 11819,
+        "score": 17055,
         "comments": 0,
         "author": "",
-        "time": 1784251607175,
+        "time": 1784358689034,
         "tags": [
           "36kr",
-          "机器人",
-          "氪首发",
-          "融资"
+          "万亿"
         ],
-        "first_seen": "2026-07-18",
-        "summary_zh": "这个人形机器人ODM厂商近期获得了千万级融资，飞荣达和索辰科技等知名机构接连下注。作为一家专注于人形机器人设计制造的服务商，公司为下游企业提供从研发到量产的完整解决方案。此次融资将加速其技术迭代和产能扩张，助力人形机器人从实验室走向商业化落地。对于整个行业而言，这笔投资也反映出资本市场对人形机器人产业链的高度关注。",
-        "summary_en": "A humanoid robot ODM manufacturer has secured tens of millions of yuan in funding, with investors including Feirongda and Suochen Technology. The company provides end-to-end design and manufacturing services for humanoid robots, bridging the gap between R&D and mass production. This investment will accelerate its technology iterations and capacity expansion, pushing humanoid robots closer to commercial deployment. The move underscores growing investor confidence in the humanoid robotics supply chain.",
+        "first_seen": "2026-07-19",
+        "summary_zh": "韩国经历了一个“最好的夏天”，却伴随着120万投资者爆仓、总亏损高达940万亿韩元的惨痛代价。这起事件源于对高风险金融产品的狂热追逐，最终演变成一场大规模财富蒸发。它再次警示人们，泡沫狂欢的背后往往是深渊，理性投资才是生存之道。",
+        "summary_en": "South Korea experienced what was ironically called 'the best summer' as 1.2 million investors saw their positions liquidated, suffering total losses of 940 trillion won. This mass blow-up stemmed from a frenzy over high-risk financial products, turning euphoria into a devastating wealth wipeout—a stark reminder that markets built on hype can collapse overnight.",
         "domain": "36kr.com",
-        "quality_score": 40.8,
+        "quality_score": 41.1,
         "related_ids": [
-          "36kr-3898476192941697",
-          "36kr-3893976502287618",
-          "36kr-3892027841362694",
-          "36kr-3872276297618436",
-          "36kr-3899037763864453"
+          "36kr-3901197105071748",
+          "36kr-3899876606985864",
+          "36kr-3900918550546308",
+          "36kr-3899772123694979",
+          "36kr-3899401765422720"
         ]
       },
       {
-        "id": "36kr-3899389352871301",
-        "title": "realme手机退出中国：3亿全球销量，换不来1%国内市场",
-        "url": "https://36kr.com/p/3899389352871301",
+        "id": "36kr-3872197089383430",
+        "title": "真正让人变通透、有智慧的15个底层习惯",
+        "url": "https://36kr.com/p/3872197089383430",
         "description": "",
         "source": "36kr",
-        "score": 11172,
+        "score": 10864,
         "comments": 0,
         "author": "",
-        "time": 1784278183688,
-        "tags": [
-          "36kr",
-          "中国"
-        ],
-        "first_seen": "2026-07-18",
-        "summary_zh": "realme手机宣布退出中国市场，这家曾以高性价比著称的品牌尽管在全球累计销量突破3亿台，却始终未能打开国内局面，市场份额不足1%。激烈的竞争、品牌认知度不足以及渠道策略的差异，最终让realme选择折戟沉沙。这一事件再次凸显了中国手机市场的残酷竞争环境，即便是拥有庞大全球体量的品牌也难以轻易立足。",
-        "summary_en": "Realme has announced its withdrawal from the Chinese market. Despite achieving 300 million global shipments, the brand never captured more than 1% of China's smartphone market. Fierce competition, weak brand recognition, and channel strategy mismatches ultimately led to its exit. This move highlights the brutal landscape of China's smartphone market, where even globally successful players struggle to gain a foothold.",
-        "domain": "36kr.com",
-        "quality_score": 40.7,
-        "related_ids": [
-          "36kr-3898562702329479",
-          "36kr-3899037763864453",
-          "36kr-3898973942007684",
-          "36kr-3899401765422720",
-          "36kr-3898151587890824"
-        ]
-      },
-      {
-        "id": "36kr-3898476192941697",
-        "title": "震业新材完成超亿元A轮融资，招商致远、玉柴股份、海富产业基金领投｜36氪首发",
-        "url": "https://36kr.com/p/3898476192941697",
-        "description": "",
-        "source": "36kr",
-        "score": 10056,
-        "comments": 0,
-        "author": "",
-        "time": 1784266881992,
-        "tags": [
-          "36kr",
-          "氪首发",
-          "融资",
-          "轮融资"
-        ],
-        "first_seen": "2026-07-18",
-        "summary_zh": "震业新材宣布完成超亿元人民币A轮融资，招商致远资本、玉柴股份和海富产业基金联合领投。该公司专注于高性能新材料研发生产，产品广泛应用于汽车、新能源等领域。本轮融资将用于扩大产能、加强研发投入及市场拓展。随着碳中和目标推进，高性能材料需求激增，震业新材有望借助资本力量加速成长。",
-        "summary_en": "Zhenye New Materials has closed an over-100-million-yuan Series A round led by China Merchants Zhiyuan Capital, Yuchai Co., and Hifund Industrial Fund. The company specializes in high-performance advanced materials used in automotive and renewable energy sectors. The funding will support capacity expansion, R&D enhancement, and market penetration. As demand surges for sustainable materials amid carbon neutrality goals, Zhenye is well-positioned to accelerate growth.",
-        "domain": "36kr.com",
-        "quality_score": 40.7,
-        "related_ids": [
-          "36kr-3899057634363266",
-          "36kr-3893976502287618",
-          "36kr-3872276297618436",
-          "36kr-3892027841362694",
-          "36kr-3877109751803904"
-        ]
-      },
-      {
-        "id": "36kr-3899475392906880",
-        "title": "梁文锋“狙击”闫俊杰",
-        "url": "https://36kr.com/p/3899475392906880",
-        "description": "",
-        "source": "36kr",
-        "score": 9748,
-        "comments": 0,
-        "author": "",
-        "time": 1784281420483,
-        "tags": [
-          "36kr",
-          "梁文锋"
-        ],
-        "first_seen": "2026-07-18",
-        "summary_zh": "36氪报道了梁文锋与闫俊杰之间的一场激烈交锋。梁文锋被视为主动发起“狙击”的一方，试图在人工智能或前沿科技领域压制对手。文章分析了双方的技术路线、市场策略以及背后的资本博弈，引发了对行业格局变化的讨论。这场较量不仅关乎个人胜负，更折射出新技术浪潮下头部玩家争夺话语权的激烈竞争。",
-        "summary_en": "A 36Kr report details the intense rivalry between Liang Wenfeng and Yan Junjie, with Liang seemingly launching a strategic 'ambush' against Yan in the AI or cutting-edge tech space. The piece examines their respective technological approaches, market tactics, and the capital dynamics at play, sparking discussions on shifting industry landscapes. This clash goes beyond personal competition, reflecting the fierce battle for dominance among leading players amid a new wave of innovation.",
-        "domain": "36kr.com",
-        "quality_score": 40.6,
-        "related_ids": [
-          "36kr-3899037763864453",
-          "36kr-3898973942007684",
-          "36kr-3899401765422720",
-          "36kr-3898151587890824",
-          "36kr-3898252203984520"
-        ]
-      },
-      {
-        "id": "36kr-3899054639285895",
-        "title": "95岁巴菲特严厉警告：市场已成“赌场”，很难找到价值，力挺谷歌“能击败95%华尔街推的票”",
-        "url": "https://36kr.com/p/3899054639285895",
-        "description": "",
-        "source": "36kr",
-        "score": 9178,
-        "comments": 0,
-        "author": "",
-        "time": 1784253397861,
+        "time": 1784359815850,
         "tags": [
           "36kr"
         ],
-        "first_seen": "2026-07-18",
-        "summary_zh": "95岁高龄的沃伦·巴菲特近日发出严厉警告，称当前市场已经演变成“赌场”，价值投资变得异常困难。他同时表示看好谷歌，认为其能击败95%华尔街推荐的股票。巴菲特此番言论引发广泛关注，既反映了他对市场投机风气的忧虑，也体现了他对科技巨头长期价值的坚定信仰。对于投资者而言，这无疑是一剂清醒剂。",
-        "summary_en": "At 95, Warren Buffett issued a stern warning, calling the current market a 'casino' where value is hard to find. He also voiced strong support for Google, claiming it can beat 95% of stocks recommended by Wall Street. The remarks have drawn widespread attention, reflecting Buffett's concern over speculative excesses and his enduring faith in tech giants' long-term value. For investors, it's a sobering reminder of the challenges in today's market.",
+        "first_seen": "2026-07-19",
+        "summary_zh": "真正让人变得通透而有智慧的，不是天赋或运气，而是15个深植于日常的底层习惯。比如保持好奇、延迟判断、记录反思、主动休息等。这些习惯看似简单，却能从根本上重塑思维模式和生活品质。任何渴望成长的人都能从中受益，逐步活出更清醒、从容的人生。",
+        "summary_en": "Real wisdom and clarity come not from talent or luck but from 15 foundational habits rooted in daily life—like staying curious, withholding judgment, journaling reflections, and taking proactive breaks. These simple yet transformative practices reshape your thinking and quality of life, helping anyone who craves growth become more clear-headed and resilient.",
         "domain": "36kr.com",
-        "quality_score": 40.6,
+        "quality_score": 40.7,
         "related_ids": [
-          "36kr-3899037763864453",
-          "36kr-3898973942007684",
-          "36kr-3899401765422720",
-          "36kr-3898151587890824",
-          "36kr-3898252203984520"
+          "36kr-3899876606985864",
+          "36kr-3900918550546308",
+          "36kr-3899772123694979",
+          "36kr-3900809746319238",
+          "36kr-3899401765422720"
         ]
       },
       {
-        "id": "36kr-3871011536393479",
-        "title": "越来越多的人开始自己手搓APP",
-        "url": "https://36kr.com/p/3871011536393479",
+        "id": "36kr-3872125819901184",
+        "title": "从不发朋友圈、不更新社交动态的人，是什么心理？",
+        "url": "https://36kr.com/p/3872125819901184",
         "description": "",
         "source": "36kr",
-        "score": 8654,
+        "score": 9309,
         "comments": 0,
         "author": "",
-        "time": 1784272349580,
+        "time": 1784359797727,
         "tags": [
-          "36kr",
-          "越来越多"
+          "36kr"
         ],
-        "first_seen": "2026-07-18",
-        "summary_zh": "随着低代码和无代码工具的发展，越来越多普通人开始亲手构建自己的应用程序，这种现象被称为“手搓APP”。它打破了传统开发的门槛，让没有编程经验的用户也能实现创意，从生活工具到趣味小游戏，人人都能成为创造者。这不仅是技术民主化的体现，更预示着个性化应用时代的到来，极大激发了普通人的参与感和创新热情。",
-        "summary_en": "With the rise of low-code and no-code tools, more ordinary people are building their own apps from scratch, a trend called \"DIY app development.\" It breaks down traditional programming barriers, allowing anyone without coding experience to turn ideas into reality—from practical tools to fun games. This democratization of technology not only empowers individuals but also signals a new era of personalized applications, sparking creativity and engagement among non-developers.",
+        "first_seen": "2026-07-19",
+        "summary_zh": "那些从不发朋友圈、不更新社交动态的人，往往并非孤僻或冷漠，而是出于一种清醒的自我选择。他们可能更注重隐私保护、渴望真实的人际联结，或者不愿将生活碎片化地展示给他人。这种行为背后是对社交媒体的深度反思，以及对内心秩序和专注力的主动维护。",
+        "summary_en": "People who never post on social media or update their status aren't necessarily antisocial or aloof. Instead, they often make a conscious choice to protect privacy, seek authentic connections, or avoid fragmenting their lives for public display. This behavior reflects a deep reflection on social media's impact and a proactive effort to preserve inner peace and focus.",
         "domain": "36kr.com",
         "quality_score": 40.6,
         "related_ids": [
-          "36kr-3899037763864453",
-          "36kr-3898973942007684",
-          "36kr-3899401765422720",
-          "36kr-3898151587890824",
-          "36kr-3898252203984520"
+          "36kr-3899876606985864",
+          "36kr-3900918550546308",
+          "36kr-3899772123694979",
+          "36kr-3900809746319238",
+          "36kr-3899401765422720"
         ]
       },
       {
-        "id": "36kr-3899707968358279",
-        "title": "预制时代最让年轻人羡慕的能力，两个字",
-        "url": "https://36kr.com/p/3899707968358279",
+        "id": "36kr-3900499208308353",
+        "title": "40元的网红蛋糕，一年关店180家",
+        "url": "https://36kr.com/p/3900499208308353",
         "description": "",
         "source": "36kr",
-        "score": 8454,
+        "score": 8046,
         "comments": 0,
         "author": "",
-        "time": 1784291568917,
+        "time": 1784339662467,
+        "tags": [
+          "36kr"
+        ],
+        "first_seen": "2026-07-19",
+        "summary_zh": "曾靠40元高性价比红极一时的网红蛋糕品牌，如今一年内关闭了180家门店。从排队热潮到大规模关店，折射出网红餐饮的残酷真相：低价流量难以持续，供应链管控、品牌老化、消费者尝鲜心理消退等致命伤集中爆发。如果没能构建真正的壁垒，网红品牌终成过眼云烟。",
+        "summary_en": "A once-popular cake brand known for its 40-yuan price tag and long queues has shut down 180 stores in just one year. Its fall from viral hit to mass closure reveals the harsh reality of internet-famous food businesses: low-price hype is unsustainable, and issues like supply chain fragility, brand fatigue, and fickle consumer tastes eventually catch up. Without a real moat, even the hottest brands fade fast.",
+        "domain": "36kr.com",
+        "quality_score": 40.5,
+        "related_ids": [
+          "36kr-3899876606985864",
+          "36kr-3900918550546308",
+          "36kr-3899772123694979",
+          "36kr-3900809746319238",
+          "36kr-3899401765422720"
+        ]
+      },
+      {
+        "id": "36kr-3900957398960006",
+        "title": "WAIC2026的三个关键信号：算力重组、Agent交付与AI硬件闭环",
+        "url": "https://36kr.com/p/3900957398960006",
+        "description": "",
+        "source": "36kr",
+        "score": 7199,
+        "comments": 0,
+        "author": "",
+        "time": 1784367700718,
         "tags": [
           "36kr",
-          "能力"
+          "agent",
+          "ai",
+          "waic"
         ],
-        "first_seen": "2026-07-18",
-        "summary_zh": "在预制菜、预制生活充斥的时代，年轻人最羡慕的能力被概括为“手搓”——即亲手创造而非被动消费。无论是自己组装家具、制作短视频还是开发APP，这种动手能力象征着对同质化生活的反抗和对个性化的追求。它让年轻人在标准化浪潮中找回掌控感，成为缓解焦虑、实现自我表达的新出口，本质上是对自由和独特性的渴望。",
-        "summary_en": "In an era of pre-made meals and a prefabricated lifestyle, the ability young people envy most is summed up in two words: \"DIY\"—creating by hand rather than passively consuming. Whether assembling furniture, making short videos, or building apps, this hands-on skill represents a rebellion against homogenization and a pursuit of individuality. It gives young people a sense of control in a standardized world, serving as an outlet for anxiety and self-expression, ultimately reflecting a deep desire for freedom and uniqueness.",
+        "first_seen": "2026-07-19",
+        "summary_zh": "WAIC 2026大会上释放了三个关键信号：算力正在从堆规模转向精准重组，AI Agent从演示走向真正可交付的产品，以及AI硬件终于形成从芯片到终端的闭环生态。这三个趋势意味着行业不再盲目追求参数膨胀，而是关注实际落地和可持续运行，对开发者和企业选型有重要参考价值。",
+        "summary_en": "WAIC 2026 sent three key signals: computing power is shifting from brute-force scaling to intelligent reorganization, AI agents are moving from demos to real-world deployable products, and AI hardware is finally forming a closed loop from chips to end devices. These trends show the industry is maturing beyond parameter inflation, focusing on practical deployment and sustainability—critical clues for developers and enterprises planning their AI strategies.",
         "domain": "36kr.com",
-        "quality_score": 40.6,
+        "quality_score": 40.5,
         "related_ids": [
-          "36kr-3899037763864453",
-          "36kr-3898973942007684",
-          "36kr-3899401765422720",
-          "36kr-3898151587890824",
-          "36kr-3898252203984520"
+          "36kr-3899772123694979",
+          "36kr-3901343845598599",
+          "36kr-3900935608911744",
+          "36kr-3901333823293312",
+          "36kr-3899650585806469"
         ]
       },
       {
-        "id": "infoq-vMEl57NogYIZXKY5bwUj",
-        "title": "中国AI编程的入口之战，Qoder先拿下半壁江山",
-        "url": "https://www.infoq.cn/article/vMEl57NogYIZXKY5bwUj",
+        "id": "36kr-3900914417780615",
+        "title": "中产最爱的果汁，里面连水果都没有？",
+        "url": "https://36kr.com/p/3900914417780615",
         "description": "",
-        "source": "infoq",
-        "score": 5831,
+        "source": "36kr",
+        "score": 6983,
         "comments": 0,
         "author": "",
-        "time": 1784198436288,
+        "time": 1784365019614,
         "tags": [
-          "ai",
-          "infoq",
-          "中国",
-          "编程"
+          "36kr"
         ],
-        "first_seen": "2026-07-16",
-        "summary_zh": "在AI编程工具激烈竞争的入口战中，Qoder凭借易用的交互和强大的代码生成能力率先占据半壁江山，成为中国开发者首选的AI编程助手。它降低了编程门槛，让新手也能快速产出代码，同时大幅提升专业开发者的效率。Qoder的成功不仅证明了AI辅助编程的巨大市场需求，也预示着开发者工具将从“编辑器”转向“智能协作伙伴”，对软件行业的未来影响深远。",
-        "summary_en": "In the fierce battle for the gateway to AI-powered programming in China, Qoder has captured half the market with its user-friendly interface and powerful code generation. It lowers the barrier to coding, enabling novices to produce code quickly while significantly boosting professional developers' productivity. Qoder's success not only validates the huge demand for AI-assisted programming but also signals a shift from traditional editors to intelligent collaborative partners, profoundly shaping the future of software development.",
-        "domain": "infoq.cn",
-        "quality_score": 40.4,
+        "first_seen": "2026-07-19",
+        "summary_zh": "一篇调查揭露了市场上许多标称“鲜榨”或“纯果汁”的产品其实不含任何真实水果成分，而是用香精、色素和糖浆调配而成。这类“假果汁”价格不菲却深受中产消费者青睐，背后暴露了食品标签监管漏洞和消费者对健康饮品的认知盲区。",
+        "summary_en": "An investigation reveals that many popular 'fresh-squeezed' or 'pure fruit' juices actually contain no real fruit at all—they are made from flavorings, colorings, and syrups. These fake juices command premium prices and are favored by middle-class consumers, exposing gaps in food labeling regulations and widespread misconceptions about healthy beverages. The story serves as a cautionary tale for anyone seeking genuine nutrition in bottled drinks.",
+        "domain": "36kr.com",
+        "quality_score": 40.5,
         "related_ids": [
-          "infoq-IZIwV2Qia1X1q6RQvDxW",
-          "infoq-s8EpYCpdF3YiSkSbYfGG",
-          "infoq-wPNm4Qvak0PmHFSyJj9e",
-          "infoq-zVfybMt5i742CqhWYjR4",
-          "infoq-6WyXSL8U09AT6dWV1RNq"
-        ]
-      },
-      {
-        "id": "infoq-IZIwV2Qia1X1q6RQvDxW",
-        "title": "“我现在干得还行，但劝你别进来！”AI 蜜月期要结束了：打工人变成“快乐的行尸走肉”",
-        "url": "https://www.infoq.cn/article/IZIwV2Qia1X1q6RQvDxW",
-        "description": "",
-        "source": "infoq",
-        "score": 5753,
-        "comments": 0,
-        "author": "",
-        "time": 1784198841030,
-        "tags": [
-          "ai",
-          "infoq"
-        ],
-        "first_seen": "2026-07-16",
-        "summary_zh": "随着AI工具普及，许多打工人表面效率提升、工作轻松，实则陷入缺乏深度思考与创造力的“快乐行尸走肉”状态。文章警示AI蜜月期即将结束，过度依赖AI正在削弱人类的核心技能，导致职业危机和内心空虚。它呼吁职场人警惕工具异化，在拥抱AI的同时保持独立思考和不可替代性，否则未来可能被AI全面取代。",
-        "summary_en": "As AI tools become widespread, many workers enjoy easier tasks and higher efficiency on the surface, but they are actually turning into \"happy zombies\"— losing deep thinking and creativity. This article warns that the AI honeymoon is ending, as over-reliance on AI erodes core human skills, leading to career risks and inner emptiness. It urges professionals to stay alert to tool alienation, maintain independent thinking and irreplaceability while embracing AI, otherwise they risk being fully replaced in the future.",
-        "domain": "infoq.cn",
-        "quality_score": 40.4,
-        "related_ids": [
-          "infoq-vMEl57NogYIZXKY5bwUj",
-          "infoq-s8EpYCpdF3YiSkSbYfGG",
-          "infoq-wPNm4Qvak0PmHFSyJj9e",
-          "infoq-zVfybMt5i742CqhWYjR4",
-          "infoq-6WyXSL8U09AT6dWV1RNq"
-        ]
-      },
-      {
-        "id": "infoq-AlwgmgVxh7Q25NxgGrEI",
-        "title": "押注智能体时代，灵睿智芯完成数亿元融资，RISC-V 迎算力新机遇",
-        "url": "https://www.infoq.cn/article/AlwgmgVxh7Q25NxgGrEI",
-        "description": "",
-        "source": "infoq",
-        "score": 5443,
-        "comments": 0,
-        "author": "",
-        "time": 1784205189609,
-        "tags": [
-          "infoq",
-          "risc",
-          "融资"
-        ],
-        "first_seen": "2026-07-16",
-        "summary_zh": "灵睿智芯宣布完成数亿元融资，将专注于基于RISC-V架构的AI算力芯片，为智能体（AI Agent）时代提供底层支撑。RISC-V的开源特性使其在定制化、低功耗和成本上具有优势，尤其适合智能体场景中大量边缘计算需求。此轮融资不仅加速了国产芯片在AI领域的布局，更意味着RISC-V生态正从物联网向高性能计算扩展，为AI应用带来全新算力机遇。",
-        "summary_en": "Lingrui Zhixin has secured hundreds of millions in funding to develop AI chips based on the open-source RISC-V architecture, targeting the era of AI agents. RISC-V's openness offers advantages in customization, low power consumption, and cost, making it ideal for the massive edge computing demands of agent scenarios. This investment accelerates the deployment of domestic chips in AI and signals that the RISC-V ecosystem is expanding from IoT to high-performance computing, bringing new computing opportunities for AI applications.",
-        "domain": "infoq.cn",
-        "quality_score": 40.4,
-        "related_ids": [
-          "infoq-vMEl57NogYIZXKY5bwUj",
-          "infoq-IZIwV2Qia1X1q6RQvDxW",
-          "infoq-jdBsbJXVi22iPafARSFx",
-          "infoq-58aLq5Y7pHsmb0PfgU4O",
-          "infoq-s8EpYCpdF3YiSkSbYfGG"
-        ]
-      },
-      {
-        "id": "infoq-jdBsbJXVi22iPafARSFx",
-        "title": "留给开源模型的时间，就剩6个月？",
-        "url": "https://www.infoq.cn/article/jdBsbJXVi22iPafARSFx",
-        "description": "",
-        "source": "infoq",
-        "score": 5420,
-        "comments": 0,
-        "author": "",
-        "time": 1784199115033,
-        "tags": [
-          "infoq",
-          "个月",
-          "开源"
-        ],
-        "first_seen": "2026-07-16",
-        "summary_zh": "开源模型领域正面临一场时间竞赛，有观点认为留给它们的时间仅剩六个月。这篇文章探讨了在商业化闭源模型高速迭代的背景下，开源社区能否依靠集体智慧和低成本优势实现突围。核心在于开源模型需要尽快找到可持续的商业模式和技术突破点，否则可能被挤出主流市场，这对开发者、创业公司和整个AI生态都至关重要。",
-        "summary_en": "The article discusses a provocative claim that open-source AI models have only six months left to prove their viability. As proprietary models advance rapidly with massive funding, open-source alternatives face an existential challenge. The piece examines whether community-driven development and cost advantages can sustain them, or if they will be marginalized. It matters because the outcome will shape accessibility, innovation, and competition in the AI landscape for developers and enterprises alike.",
-        "domain": "infoq.cn",
-        "quality_score": 40.4,
-        "related_ids": [
-          "infoq-r3sAtSl97Gx5CuZHXOdi",
-          "infoq-Rzh9umgPl90MgGolBcWm",
-          "infoq-WL9yUw7LJbBFTgzwXbVZ",
-          "infoq-Fg7xEo3RGENyoefojZVD",
-          "infoq-vMEl57NogYIZXKY5bwUj"
-        ]
-      },
-      {
-        "id": "infoq-58aLq5Y7pHsmb0PfgU4O",
-        "title": "一件特有意思的事：「启发涌现」，邀你共建",
-        "url": "https://www.infoq.cn/article/58aLq5Y7pHsmb0PfgU4O",
-        "description": "",
-        "source": "infoq",
-        "score": 5086,
-        "comments": 0,
-        "author": "",
-        "time": 1784203113266,
-        "tags": [
-          "infoq"
-        ],
-        "first_seen": "2026-07-16",
-        "summary_zh": "这是一篇关于「启发涌现」理念的邀请文章，鼓励技术社区共同参与构建一种新的知识分享和协作模式。它强调通过开放讨论和集体智慧激发创新火花，让有趣的想法自然涌现出来。对于技术从业者来说，这不仅是一次参与社区共建的机会，更是探索如何用更有机的方式推动技术进步和知识传播。",
-        "summary_en": "This article invites the tech community to participate in 'Inspiration Emergence,' a collaborative initiative aimed at fostering organic knowledge sharing and collective innovation. It describes how open discussions and diverse perspectives can spark novel ideas naturally, rather than through top-down directives. For developers and tech enthusiasts, it offers a chance to shape a new paradigm of co-creation that prioritizes emergent insights over structured planning, ultimately enriching the entire ecosystem.",
-        "domain": "infoq.cn",
-        "quality_score": 40.3,
-        "related_ids": [
-          "infoq-vMEl57NogYIZXKY5bwUj",
-          "infoq-IZIwV2Qia1X1q6RQvDxW",
-          "infoq-AlwgmgVxh7Q25NxgGrEI",
-          "infoq-jdBsbJXVi22iPafARSFx",
-          "infoq-s8EpYCpdF3YiSkSbYfGG"
+          "36kr-3899876606985864",
+          "36kr-3900918550546308",
+          "36kr-3899772123694979",
+          "36kr-3900809746319238",
+          "36kr-3899401765422720"
         ]
       },
       {
@@ -755,26 +618,27 @@
         "url": "https://www.infoq.cn/article/s8EpYCpdF3YiSkSbYfGG",
         "description": "",
         "source": "infoq",
-        "score": 3725,
+        "score": 6237,
         "comments": 0,
         "author": "",
         "time": 1784254165246,
         "tags": [
           "ai",
           "infoq",
+          "工厂",
           "英伟达"
         ],
         "first_seen": "2026-07-18",
         "summary_zh": "英伟达下一代架构Vera Rubin被视为AI工厂的核心引擎，它不再仅仅关注GPU算力，而是将重心转向Token——即AI模型处理的基本单元。通过优化从计算到内存的整个链路，Vera Rubin旨在降低大规模模型训练和推理的成本与延迟。这对需要部署大模型的企业意义重大，意味着更高效的AI基础设施和更低的运营门槛。",
         "summary_en": "NVIDIA's upcoming Vera Rubin architecture reimagines AI factories by shifting focus from raw GPU power to tokens, the fundamental units AI models process. It optimizes the entire compute-memory pipeline to reduce costs and latency for training and inference at scale. This matters for enterprises building large language models, as it promises more efficient hardware that lowers the barrier to deploying advanced AI systems, potentially reshaping the economics of AI infrastructure.",
         "domain": "infoq.cn",
-        "quality_score": 40.2,
+        "quality_score": 40.4,
         "related_ids": [
-          "infoq-vMEl57NogYIZXKY5bwUj",
-          "infoq-IZIwV2Qia1X1q6RQvDxW",
           "infoq-wPNm4Qvak0PmHFSyJj9e",
           "infoq-zVfybMt5i742CqhWYjR4",
-          "infoq-hocbRjZumiBA6MN4s7bu"
+          "infoq-62J9L28365BtFlSFxVjE",
+          "infoq-FeWLPKLYDjWko8rJjxKq",
+          "infoq-r3sAtSl97Gx5CuZHXOdi"
         ]
       },
       {
@@ -783,7 +647,7 @@
         "url": "https://www.infoq.cn/article/yyqAuTFso3SdTW84AKvY",
         "description": "",
         "source": "infoq",
-        "score": 3548,
+        "score": 5900,
         "comments": 0,
         "author": "",
         "time": 1784252290554,
@@ -795,13 +659,13 @@
         "summary_zh": "文章探讨了软件行业长期存在的平台锁定问题，并提出解决方案可能在于数据格式的开放与标准化。通过采用可移植、互操作的数据格式，用户和开发者可以自由迁移数据和应用，不再被单一厂商束缚。这一思路对降低企业技术风险、促进生态竞争具有重要意义，尤其适合那些希望保持技术独立性的开发团队和业务决策者。",
         "summary_en": "This article tackles the persistent problem of platform lock-in in software and suggests that open, standardized data formats could be the key to liberation. By designing systems with portable and interoperable data structures, users and developers can migrate workloads between platforms freely, reducing vendor dependency. The insight is crucial for businesses seeking technical autonomy and for developers building resilient software, as it shifts power back to the community and fosters healthier competition.",
         "domain": "infoq.cn",
-        "quality_score": 40.2,
+        "quality_score": 40.4,
         "related_ids": [
+          "infoq-KPd6YwU0Y1iCMGMakSmE",
           "infoq-sDyPWhAWPHttlQJTUwq3",
           "infoq-9RKrYlX2xWPNabO3ErVj",
-          "infoq-vMEl57NogYIZXKY5bwUj",
-          "infoq-IZIwV2Qia1X1q6RQvDxW",
-          "infoq-AlwgmgVxh7Q25NxgGrEI"
+          "infoq-s8EpYCpdF3YiSkSbYfGG",
+          "infoq-wPNm4Qvak0PmHFSyJj9e"
         ]
       },
       {
@@ -810,7 +674,7 @@
         "url": "https://www.infoq.cn/article/wPNm4Qvak0PmHFSyJj9e",
         "description": "",
         "source": "infoq",
-        "score": 3483,
+        "score": 5845,
         "comments": 0,
         "author": "",
         "time": 1784253600668,
@@ -824,39 +688,13 @@
         "summary_zh": "本文报道了AICon深圳大会上关于AI如何重塑分销增长的主题。过去AI只是辅助工具，现在它正演变为驱动分销策略的核心引擎，能够实时分析市场数据、预测客户行为并自动优化推广路径。这种转变让企业从被动应对变为主动增长，尤其对电商、SaaS和数字营销领域的从业者具有直接指导价值，展现了AI从增效工具到增长发动机的角色跃升。",
         "summary_en": "Reporting from AICon Shenzhen, this article describes how AI is evolving from a supporting tool to the central engine driving distribution growth. By analyzing market data in real time, predicting customer behavior, and automating campaign optimization, AI now powers proactive growth strategies rather than just incremental improvements. This paradigm shift is particularly relevant for e-commerce, SaaS, and digital marketing professionals, as it demonstrates how AI transforms distribution from a cost center into a value-creating engine.",
         "domain": "infoq.cn",
-        "quality_score": 40.2,
+        "quality_score": 40.4,
         "related_ids": [
+          "infoq-KPd6YwU0Y1iCMGMakSmE",
           "infoq-fRMquPuKMsj6zkyFmO6P",
           "infoq-1JIiNLEgyJ2UEPwS825r",
           "infoq-H8IqlmqWsza0ev6KvvGm",
-          "infoq-vMEl57NogYIZXKY5bwUj",
-          "infoq-IZIwV2Qia1X1q6RQvDxW"
-        ]
-      },
-      {
-        "id": "infoq-q6ITZPjCW2ph1pEVhvOK",
-        "title": "SwiftData 迎来大升级：查询能力增强，支持第三方类型持久化",
-        "url": "https://www.infoq.cn/article/q6ITZPjCW2ph1pEVhvOK",
-        "description": "",
-        "source": "infoq",
-        "score": 3164,
-        "comments": 0,
-        "author": "",
-        "time": 1784257200166,
-        "tags": [
-          "infoq"
-        ],
-        "first_seen": "2026-07-18",
-        "summary_zh": "苹果的持久化框架 SwiftData 近期迎来一次重大升级，核心亮点在于查询能力的显著增强，现在开发者可以执行更复杂的筛选和排序操作。更令人兴奋的是，它开始支持第三方数据类型的持久化存储，这意味着开发者不再受限于苹果原生类型，可以更灵活地将来自外部库或自定义模型的数据直接存入数据库。这一改动极大地降低了与外部数据格式集成的门槛，对于构建数据密集型的 iOS 和 macOS 应用来说是一次效率革命，尤其适合需要混合使用多种数据源的团队。",
-        "summary_en": "Apple's SwiftData framework has received a major upgrade, with enhanced query capabilities that allow developers to perform more complex filtering and sorting. More importantly, it now supports persistence for third-party data types, breaking free from exclusive reliance on native Apple types. This means developers can directly store custom models or data from external libraries into the database without cumbersome conversions. The change significantly reduces integration friction for data-intensive iOS and macOS apps, making SwiftData a more versatile and practical choice for teams that need to mix multiple data sources, ultimately streamlining development workflows.",
-        "domain": "infoq.cn",
-        "quality_score": 40.2,
-        "related_ids": [
-          "infoq-vMEl57NogYIZXKY5bwUj",
-          "infoq-IZIwV2Qia1X1q6RQvDxW",
-          "infoq-AlwgmgVxh7Q25NxgGrEI",
-          "infoq-jdBsbJXVi22iPafARSFx",
-          "infoq-58aLq5Y7pHsmb0PfgU4O"
+          "infoq-s8EpYCpdF3YiSkSbYfGG"
         ]
       },
       {
@@ -865,7 +703,7 @@
         "url": "https://www.infoq.cn/article/zVfybMt5i742CqhWYjR4",
         "description": "",
         "source": "infoq",
-        "score": 2984,
+        "score": 5643,
         "comments": 0,
         "author": "",
         "time": 1784268900293,
@@ -878,13 +716,214 @@
         "summary_zh": "Stripe 最近发布了一项关于 AI 智能体开发支付集成方案的基准测试，结果令人既兴奋又警醒。测试显示，当前 AI 智能体能够快速生成功能完整的集成方案，大幅缩短了开发时间，这对于小型团队或初创公司来说是个福音。然而，AI 在方案校验环节表现明显不足，容易遗漏关键的安全验证和边界情况，导致生成的代码在生产环境中可能埋下隐患。Stripe 强调，AI 智能体应当作为加速工具而非替代人类审核，开发者需要建立严格的验证流程来弥补 AI 的短板。",
         "summary_en": "Stripe recently released a benchmark evaluating AI agents for building payment integration solutions. The findings are both promising and cautionary: AI agents can rapidly produce functional integration code, dramatically accelerating development speed—a huge win for small teams and startups. However, the agents consistently fell short in the validation phase, often missing critical security checks and edge cases, potentially introducing production risks. Stripe underscores that AI should be used as an accelerator, not a replacement for human review, and developers must enforce rigorous verification processes to compensate for these gaps.",
         "domain": "infoq.cn",
-        "quality_score": 40.2,
+        "quality_score": 40.4,
         "related_ids": [
-          "infoq-vMEl57NogYIZXKY5bwUj",
-          "infoq-IZIwV2Qia1X1q6RQvDxW",
           "infoq-s8EpYCpdF3YiSkSbYfGG",
           "infoq-wPNm4Qvak0PmHFSyJj9e",
-          "infoq-6WyXSL8U09AT6dWV1RNq"
+          "infoq-62J9L28365BtFlSFxVjE",
+          "infoq-FeWLPKLYDjWko8rJjxKq",
+          "infoq-r3sAtSl97Gx5CuZHXOdi"
+        ]
+      },
+      {
+        "id": "infoq-q6ITZPjCW2ph1pEVhvOK",
+        "title": "SwiftData 迎来大升级：查询能力增强，支持第三方类型持久化",
+        "url": "https://www.infoq.cn/article/q6ITZPjCW2ph1pEVhvOK",
+        "description": "",
+        "source": "infoq",
+        "score": 5550,
+        "comments": 0,
+        "author": "",
+        "time": 1784257200166,
+        "tags": [
+          "infoq"
+        ],
+        "first_seen": "2026-07-18",
+        "summary_zh": "苹果的持久化框架 SwiftData 近期迎来一次重大升级，核心亮点在于查询能力的显著增强，现在开发者可以执行更复杂的筛选和排序操作。更令人兴奋的是，它开始支持第三方数据类型的持久化存储，这意味着开发者不再受限于苹果原生类型，可以更灵活地将来自外部库或自定义模型的数据直接存入数据库。这一改动极大地降低了与外部数据格式集成的门槛，对于构建数据密集型的 iOS 和 macOS 应用来说是一次效率革命，尤其适合需要混合使用多种数据源的团队。",
+        "summary_en": "Apple's SwiftData framework has received a major upgrade, with enhanced query capabilities that allow developers to perform more complex filtering and sorting. More importantly, it now supports persistence for third-party data types, breaking free from exclusive reliance on native Apple types. This means developers can directly store custom models or data from external libraries into the database without cumbersome conversions. The change significantly reduces integration friction for data-intensive iOS and macOS apps, making SwiftData a more versatile and practical choice for teams that need to mix multiple data sources, ultimately streamlining development workflows.",
+        "domain": "infoq.cn",
+        "quality_score": 40.4,
+        "related_ids": [
+          "infoq-s8EpYCpdF3YiSkSbYfGG",
+          "infoq-yyqAuTFso3SdTW84AKvY",
+          "infoq-wPNm4Qvak0PmHFSyJj9e",
+          "infoq-zVfybMt5i742CqhWYjR4",
+          "infoq-62J9L28365BtFlSFxVjE"
+        ]
+      },
+      {
+        "id": "infoq-62J9L28365BtFlSFxVjE",
+        "title": "搭载全球首个智能体原生操作系统 Step AOS，STEPX Neo 亮相 2026 WAIC",
+        "url": "https://www.infoq.cn/article/62J9L28365BtFlSFxVjE",
+        "description": "",
+        "source": "infoq",
+        "score": 5342,
+        "comments": 0,
+        "author": "",
+        "time": 1784296989259,
+        "tags": [
+          "ai",
+          "infoq",
+          "neo",
+          "step",
+          "waic"
+        ],
+        "first_seen": "2026-07-18",
+        "summary_zh": "STEPX在WAIC 2026上发布了Neo智能硬件，搭载全球首个智能体原生操作系统Step AOS。该系统专门为AI Agent设计，能够直接管理多Agent协作、任务调度和资源分配，让硬件不再只是运行单个模型的工具，而是成为自主智能体集群的宿主平台。这对开发复杂AI应用场景的团队来说是一个重要的基础设施选项。",
+        "summary_en": "At WAIC 2026, STEPX unveiled the Neo smart device powered by Step AOS, the world's first agent-native operating system. Built specifically for AI agents, Step AOS handles multi-agent collaboration, task scheduling, and resource allocation directly, transforming hardware from a model runner into a host platform for autonomous agent swarms. This gives developers a new infrastructure foundation for building complex agent-based applications that require coordination and real-time adaptation.",
+        "domain": "infoq.cn",
+        "quality_score": 40.4,
+        "related_ids": [
+          "infoq-FeWLPKLYDjWko8rJjxKq",
+          "infoq-xtEyfZsTRA3FFW4dzCah",
+          "infoq-s8EpYCpdF3YiSkSbYfGG",
+          "infoq-wPNm4Qvak0PmHFSyJj9e",
+          "infoq-zVfybMt5i742CqhWYjR4"
+        ]
+      },
+      {
+        "id": "infoq-FeWLPKLYDjWko8rJjxKq",
+        "title": "WAIC 2026 | 混元Hy3大模型首秀，腾讯上线AI技能支付体系",
+        "url": "https://www.infoq.cn/article/FeWLPKLYDjWko8rJjxKq",
+        "description": "",
+        "source": "infoq",
+        "score": 5322,
+        "comments": 0,
+        "author": "",
+        "time": 1784293277014,
+        "tags": [
+          "ai",
+          "infoq",
+          "waic",
+          "大模型"
+        ],
+        "first_seen": "2026-07-18",
+        "summary_zh": "腾讯在WAIC 2026上首次公开展示了混元Hy3大模型，同时在现场宣布上线AI技能支付体系。Hy3被认为是混元系列的重大升级，在推理和多模态能力上有显著突破。而AI技能支付体系则允许用户按次或按量购买特定AI技能（如图像生成、代码辅助），这种灵活的付费模式可能改变AI服务商业化的方式。",
+        "summary_en": "At WAIC 2026, Tencent publicly debuted its Hunyuan Hy3 large language model, claiming major leaps in reasoning and multimodal capabilities. Alongside the model launch, Tencent introduced an AI skills payment system that lets users purchase specific AI abilities—like image generation or code assistance—on a per-use or volume basis. This flexible monetization model could reshape how AI services are consumed and billed, moving away from blanket subscriptions toward granular value exchange.",
+        "domain": "infoq.cn",
+        "quality_score": 40.4,
+        "related_ids": [
+          "infoq-62J9L28365BtFlSFxVjE",
+          "infoq-xtEyfZsTRA3FFW4dzCah",
+          "infoq-s8EpYCpdF3YiSkSbYfGG",
+          "infoq-wPNm4Qvak0PmHFSyJj9e",
+          "infoq-zVfybMt5i742CqhWYjR4"
+        ]
+      },
+      {
+        "id": "infoq-j59f7KU3djH4Ex4YhqxF",
+        "title": "亚马逊云科技推出 Claude 应用网关：面向 Claude Code 与 Claude Desktop 的自托管控制平面",
+        "url": "https://www.infoq.cn/article/j59f7KU3djH4Ex4YhqxF",
+        "description": "",
+        "source": "infoq",
+        "score": 5120,
+        "comments": 0,
+        "author": "",
+        "time": 1784278800669,
+        "tags": [
+          "claude",
+          "infoq",
+          "亚马逊云",
+          "科技推出",
+          "面向"
+        ],
+        "first_seen": "2026-07-18",
+        "summary_zh": "亚马逊云科技发布了Claude应用网关，这是一个面向Claude Code和Claude Desktop的自托管控制平面。它允许企业将Claude的访问完全托管在自己的基础设施内，实现数据不出域的同时灵活管理使用权限、流量监控和成本控制。对于对安全合规有严格要求的企业来说，这个网关解决了将Claude部署到敏感环境的核心痛点。",
+        "summary_en": "AWS launched the Claude Application Gateway, a self-hosted control plane for Claude Code and Claude Desktop. It lets enterprises manage all access to Claude within their own infrastructure, ensuring data never leaves their environment while offering granular control over permissions, traffic monitoring, and cost management. For companies with strict compliance and security requirements, this gateway solves the core pain point of deploying powerful AI assistants like Claude in sensitive or regulated settings.",
+        "domain": "infoq.cn",
+        "quality_score": 40.3,
+        "related_ids": [
+          "infoq-T4BhLjLfHYBC8rNfQVxe",
+          "infoq-hSKvPpuMW3Y1GyyHtt3I",
+          "infoq-kyteEZN46mi8l0eMiKuh",
+          "infoq-Af9AUfyturjojjQvv6QI",
+          "infoq-Pqcx0ktTdljvoQ3OMxze"
+        ]
+      },
+      {
+        "id": "infoq-r3sAtSl97Gx5CuZHXOdi",
+        "title": "GOAI 世界人工智能开源大赛官网上线，全球报名正式开启",
+        "url": "https://www.infoq.cn/article/r3sAtSl97Gx5CuZHXOdi",
+        "description": "",
+        "source": "infoq",
+        "score": 5086,
+        "comments": 0,
+        "author": "",
+        "time": 1784286680796,
+        "tags": [
+          "ai",
+          "go",
+          "infoq",
+          "上线",
+          "开源"
+        ],
+        "first_seen": "2026-07-18",
+        "summary_zh": "GOAI世界人工智能开源大赛官网正式上线并开启全球报名，这是一场围绕开源人工智能技术的国际竞赛，旨在汇聚全球开发者共同解决实际场景中的AI难题。大赛提供海量数据集和算力资源，鼓励创新并推动开源生态发展，尤其适合希望用技术改变世界的机器学习工程师和科研人员参与。",
+        "summary_en": "The GOAI World AI Open Source Competition has officially launched its website and opened global registration. This international contest focuses on open-source AI technologies, aiming to bring together developers worldwide to tackle real-world AI challenges. It provides massive datasets and computing power, encouraging innovation and fostering the open-source ecosystem. It is ideal for machine learning engineers and researchers who want to make an impact through technology.",
+        "domain": "infoq.cn",
+        "quality_score": 40.3,
+        "related_ids": [
+          "infoq-KPd6YwU0Y1iCMGMakSmE",
+          "infoq-s8EpYCpdF3YiSkSbYfGG",
+          "infoq-wPNm4Qvak0PmHFSyJj9e",
+          "infoq-zVfybMt5i742CqhWYjR4",
+          "infoq-62J9L28365BtFlSFxVjE"
+        ]
+      },
+      {
+        "id": "infoq-xtEyfZsTRA3FFW4dzCah",
+        "title": "AI从“能对话”走向“能办事”，蚂蚁集团WAIC展示三层布局",
+        "url": "https://www.infoq.cn/article/xtEyfZsTRA3FFW4dzCah",
+        "description": "",
+        "source": "infoq",
+        "score": 4801,
+        "comments": 0,
+        "author": "",
+        "time": 1784297286557,
+        "tags": [
+          "ai",
+          "infoq",
+          "waic"
+        ],
+        "first_seen": "2026-07-18",
+        "summary_zh": "蚂蚁集团在WAIC大会上展示了AI从对话式交互向实际任务执行演进的进程，并提出了包括基座模型、智能应用和行业解决方案的三层布局策略。这意味着AI不再只是聊天工具，而是能够真正处理支付、风控、客服等复杂业务，为金融机构和中小企业提供高效、可信的智能服务，推动产业数字化升级。",
+        "summary_en": "At WAIC, Ant Group demonstrated how AI is evolving from conversational interactions to executing real tasks, unveiling a three-tier layout covering foundation models, smart applications, and industry solutions. This shift means AI is no longer just a chat tool but can handle complex business operations like payments, risk control, and customer service. It offers efficient, trustworthy intelligent services for financial institutions and SMEs, driving digital transformation across industries.",
+        "domain": "infoq.cn",
+        "quality_score": 40.3,
+        "related_ids": [
+          "infoq-62J9L28365BtFlSFxVjE",
+          "infoq-FeWLPKLYDjWko8rJjxKq",
+          "infoq-s8EpYCpdF3YiSkSbYfGG",
+          "infoq-wPNm4Qvak0PmHFSyJj9e",
+          "infoq-zVfybMt5i742CqhWYjR4"
+        ]
+      },
+      {
+        "id": "36kr-3901197105071748",
+        "title": "万亿Token调用量验证，PPIO如何打造新一代智能Token工厂？",
+        "url": "https://36kr.com/p/3901197105071748",
+        "description": "",
+        "source": "36kr",
+        "score": 4458,
+        "comments": 0,
+        "author": "",
+        "time": 1784382315309,
+        "tags": [
+          "36kr",
+          "万亿",
+          "工厂"
+        ],
+        "first_seen": "2026-07-19",
+        "summary_zh": "PPIO凭借万亿Token调用量的验证经验，打造了新一代智能Token工厂，专注于为AI模型训练和推理提供高效、低成本的Token处理服务。它解决了大规模Token生成与管理的性能瓶颈，尤其适合需要处理海量自然语言数据的开发团队和AI公司，帮助它们降低训练成本并加速产品迭代。",
+        "summary_en": "Backed by the validation of trillions of token invocations, PPIO has built a new-generation intelligent token factory that focuses on providing efficient and low-cost token processing for AI model training and inference. It solves performance bottlenecks in massive token generation and management, especially beneficial for development teams and AI companies dealing with huge volumes of natural language data. This helps reduce training costs and accelerate product iteration.",
+        "domain": "36kr.com",
+        "quality_score": 40.3,
+        "related_ids": [
+          "36kr-3900809746319238",
+          "infoq-s8EpYCpdF3YiSkSbYfGG",
+          "36kr-3899876606985864",
+          "36kr-3900918550546308",
+          "36kr-3899772123694979"
         ]
       },
       {
@@ -893,8 +932,8 @@
         "url": "https://www.kimi.com/blog/kimi-k3",
         "description": "",
         "source": "hackernews",
-        "score": 1995,
-        "comments": 1161,
+        "score": 2063,
+        "comments": 1188,
         "author": "vincent_s",
         "time": "2026-07-16T14:46:05+00:00",
         "tags": [
@@ -907,41 +946,13 @@
         "summary_zh": "Kimi K3 是一款开源前沿智能模型，旨在将最先进的AI能力开放给更多开发者和研究者。它解决了闭源AI技术垄断的问题，让社区能够自由实验、定制和改进模型。无论是初创公司还是学术机构，都能借助Kimi K3构建自己的智能应用，而无需支付昂贵的授权费用。这种开放策略有望加速AI创新和民主化，使得更广泛的人群能享受到人工智能的成果。",
         "summary_en": "Kimi K3 is an open-source frontier intelligence model designed to democratize state-of-the-art AI capabilities. It tackles the problem of closed-source AI monopolies by allowing developers and researchers to freely experiment, customize, and improve the model. Startups and academic institutions, in particular, can build their own intelligent applications without expensive licensing fees. This open approach is expected to accelerate AI innovation and democratization, making advanced artificial intelligence accessible to a broader audience.",
         "domain": "kimi.com",
-        "quality_score": 59.0,
+        "quality_score": 44.5,
         "related_ids": [
+          "hn-48960218",
           "hn-48947717",
-          "hn-48939019",
           "hn-48947280",
           "hn-48953406",
           "hn-48945241"
-        ]
-      },
-      {
-        "id": "hn-48924912",
-        "title": "Inkling: Our Open-Weights Model",
-        "url": "https://thinkingmachines.ai/news/introducing-inkling/",
-        "description": "",
-        "source": "hackernews",
-        "score": 1206,
-        "comments": 289,
-        "author": "vimarsh6739",
-        "time": "2026-07-15T18:12:45+00:00",
-        "tags": [
-          "hackernews",
-          "thinkingmachines",
-          "weights"
-        ],
-        "first_seen": "2026-07-16",
-        "summary_zh": "Inkling是一个新发布的开放权重AI模型，其核心特点是完全公开模型参数，允许开发者自由下载、微调和部署。与许多只提供API的闭源模型不同，Inkling旨在打破黑箱，让研究者能深入理解模型行为，企业能基于私有数据定制专属版本而不受供应商限制。它特别适合那些对数据隐私敏感或需要高度可定制AI能力的团队。开放权重模式也推动了AI民主化的讨论，让更多人能直接使用和改造先进模型，而不只是充当被动用户。",
-        "summary_en": "Inkling is a newly released open-weights AI model that makes its parameters fully available for download, fine-tuning, and deployment. Unlike many closed-source models that only offer APIs, Inkling breaks the black box: researchers can scrutinize its behavior, and enterprises can customize it on private data without vendor lock-in. This is especially valuable for teams with strict data privacy needs or those requiring highly tailored AI capabilities. By embracing the open-weights philosophy, Inkling contributes to the democratization of AI, empowering more people to directly use and adapt advanced models rather than merely consuming them through restricted interfaces.",
-        "domain": "thinkingmachines.ai",
-        "quality_score": 29.8,
-        "related_ids": [
-          "hn-48935342",
-          "hn-48945241",
-          "hn-48933419",
-          "hn-48463808",
-          "hn-48567759"
         ]
       },
       {
@@ -950,8 +961,8 @@
         "url": "https://news.ycombinator.com/item?id=48945241",
         "description": "",
         "source": "hackernews",
-        "score": 1040,
-        "comments": 638,
+        "score": 1272,
+        "comments": 735,
         "author": "nprateem",
         "time": "2026-07-17T09:42:05+00:00",
         "tags": [
@@ -963,13 +974,69 @@
         "summary_zh": "AWS 近日承认其估算计费数据出现严重不准确，误差金额高达 17 亿美元。这一数字令人震惊，意味着某些客户可能收到了严重偏离实际使用量的账单预估，从而影响预算决策与资源配置。虽然 AWS 强调最终结算会基于准确数据，但如此巨大的估算偏差动摇了用户对云成本管理工具的信任。对于严重依赖 AWS 的企业来说，这一事件凸显了依赖自动化计费预估的风险，也引发了业界对云服务商提供更透明、更精准计费信息的迫切需求。",
         "summary_en": "AWS has admitted to a massive inaccuracy in its estimated billing data, with errors reaching a staggering $1.7 billion. This means many customers may have received wildly incorrect billing estimates, affecting their budget planning and resource allocation decisions. While AWS assures that final charges will be based on precise data, such a large discrepancy undermines trust in cloud cost management tools. For enterprises heavily reliant on AWS, this event highlights the risks of depending solely on automated billing estimates and underscores the urgent need for cloud providers to deliver more transparent and accurate billing information.",
         "domain": "news.ycombinator.com",
-        "quality_score": 50.5,
+        "quality_score": 52.1,
         "related_ids": [
           "hn-48526360",
           "hn-48951694",
+          "hn-48956688",
+          "hn-48463808",
+          "hn-48935342"
+        ]
+      },
+      {
+        "id": "hn-48924912",
+        "title": "Inkling: Our Open-Weights Model",
+        "url": "https://thinkingmachines.ai/news/introducing-inkling/",
+        "description": "",
+        "source": "hackernews",
+        "score": 1213,
+        "comments": 292,
+        "author": "vimarsh6739",
+        "time": "2026-07-15T18:12:45+00:00",
+        "tags": [
+          "hackernews",
+          "weights"
+        ],
+        "first_seen": "2026-07-16",
+        "summary_zh": "Inkling是一个新发布的开放权重AI模型，其核心特点是完全公开模型参数，允许开发者自由下载、微调和部署。与许多只提供API的闭源模型不同，Inkling旨在打破黑箱，让研究者能深入理解模型行为，企业能基于私有数据定制专属版本而不受供应商限制。它特别适合那些对数据隐私敏感或需要高度可定制AI能力的团队。开放权重模式也推动了AI民主化的讨论，让更多人能直接使用和改造先进模型，而不只是充当被动用户。",
+        "summary_en": "Inkling is a newly released open-weights AI model that makes its parameters fully available for download, fine-tuning, and deployment. Unlike many closed-source models that only offer APIs, Inkling breaks the black box: researchers can scrutinize its behavior, and enterprises can customize it on private data without vendor lock-in. This is especially valuable for teams with strict data privacy needs or those requiring highly tailored AI capabilities. By embracing the open-weights philosophy, Inkling contributes to the democratization of AI, empowering more people to directly use and adapt advanced models rather than merely consuming them through restricted interfaces.",
+        "domain": "thinkingmachines.ai",
+        "quality_score": 29.8,
+        "related_ids": [
+          "hn-48945241",
+          "hn-48956688",
+          "hn-48463808",
           "hn-48935342",
-          "hn-48933419",
-          "hn-48463808"
+          "hn-48632884"
+        ]
+      },
+      {
+        "id": "hn-48956688",
+        "title": "LG monitors silently install software through Windows Update without consent",
+        "url": "https://videocardz.com/newz/lg-monitors-silently-install-software-through-windows-update-without-user-consent",
+        "description": "",
+        "source": "hackernews",
+        "score": 990,
+        "comments": 506,
+        "author": "baranul",
+        "time": "2026-07-18T10:21:19+00:00",
+        "tags": [
+          "consent",
+          "hackernews",
+          "monitors",
+          "silently"
+        ],
+        "first_seen": "2026-07-19",
+        "summary_zh": "有用户发现LG显示器通过Windows Update悄悄安装未经用户同意的软件，引发了关于隐私和用户自主权的争议。这一行为不仅影响了系统性能，还暴露了硬件厂商利用系统更新渠道强行推送软件的隐患，对注重隐私和系统纯净度的技术用户尤为困扰。",
+        "summary_en": "Users discovered that LG monitors silently install software through Windows Update without user consent, sparking controversy over privacy and user autonomy. This behavior not only affects system performance but also exposes the risk of hardware vendors using system update channels to force software installations. It is particularly troubling for tech-savvy users who value privacy and a clean system environment.",
+        "domain": "videocardz.com",
+        "quality_score": 48.3,
+        "related_ids": [
+          "hn-48953226",
+          "hn-48942603",
+          "hn-48963108",
+          "hn-48947184",
+          "hn-48896665"
         ]
       },
       {
@@ -978,14 +1045,13 @@
         "url": "https://fabiensanglard.net/jurrasic_park_computers/index.html",
         "description": "",
         "source": "hackernews",
-        "score": 943,
-        "comments": 251,
+        "score": 951,
+        "comments": 253,
         "author": "vinhnx",
         "time": "2026-07-15T02:57:47+00:00",
         "tags": [
           "ai",
           "detail",
-          "fabiensanglard",
           "hackernews"
         ],
         "first_seen": "2026-07-15",
@@ -994,38 +1060,11 @@
         "domain": "fabiensanglard.net",
         "quality_score": 29.2,
         "related_ids": [
-          "hn-48865019",
-          "hn-48939524",
+          "hn-48956949",
           "hn-48664814",
-          "hn-48672732",
-          "hn-48946303"
-        ]
-      },
-      {
-        "id": "hn-48869989",
-        "title": "Your 'app' could have been a webpage (so I fixed it for you)",
-        "url": "https://danq.me/2026/07/09/your-app-could-have-been-a-webpage/",
-        "description": "",
-        "source": "hackernews",
-        "score": 883,
-        "comments": 541,
-        "author": "MrVandemar",
-        "time": "2026-07-11T08:21:27+00:00",
-        "tags": [
-          "fixed",
-          "hackernews"
-        ],
-        "first_seen": "2026-07-15",
-        "summary_zh": "这篇文章直指一个普遍问题：很多所谓的手机应用其实完全可以用网页来实现，但开发者却硬要打包成原生App，既臃肿又麻烦。作者为此动手改造，把这些App还原成轻量的网页版本，让用户无需下载就能直接使用。对于讨厌频繁安装应用、追求简洁体验的用户来说，这无疑是一种返璞归真的好办法，也提醒我们技术选型应当更务实。",
-        "summary_en": "This article calls out a common overengineering trend: many mobile apps are just web pages in disguise, yet developers insist on packaging them as heavyweight native apps. The author took matters into his own hands, converting these apps back into lightweight web versions that work instantly without installation. It's a refreshingly pragmatic approach for users tired of bloated downloads, and a reminder that sometimes the simplest solution is the best.",
-        "domain": "danq.me",
-        "quality_score": 33.9,
-        "related_ids": [
-          "hn-48935342",
-          "hn-48945241",
-          "hn-48933419",
-          "hn-48463808",
-          "hn-48632884"
+          "hn-48952880",
+          "hn-48946303",
+          "hn-48947825"
         ]
       },
       {
@@ -1034,8 +1073,8 @@
         "url": "https://www.pigeonsandplanes.com/read/music-piracy-what-cd-oink-nine-inch-nails-streaming",
         "description": "",
         "source": "hackernews",
-        "score": 818,
-        "comments": 578,
+        "score": 831,
+        "comments": 586,
         "author": "mcgin",
         "time": "2026-07-16T04:46:21+00:00",
         "tags": [
@@ -1048,13 +1087,13 @@
         "summary_zh": "一篇 Hacker News 上的热门文章怀念起了音乐盗版时代的那种快乐。作者认为，盗版不仅仅是为了免费获取音乐，更是一种发现和分享的社区体验，充满了对音乐的热爱和探索的兴奋。如今流媒体虽然方便，却失去了那种淘碟般的惊喜和收藏的乐趣。这篇文章引发了人们对数字时代消费方式的深思。",
         "summary_en": "A popular Hacker News post reminisces about the joy of music piracy, arguing it wasn't just about getting music for free but about the community-driven discovery and sharing experience. It was filled with the excitement of exploration and a genuine love for music. While streaming offers convenience, it lacks the thrill of digging for rarities and the pride of curating a personal collection. The article prompts readers to reflect on how we consume media in the digital age and what we've lost along the way.",
         "domain": "pigeonsandplanes.com",
-        "quality_score": 34.5,
+        "quality_score": 34.6,
         "related_ids": [
-          "hn-48939524",
           "hn-48947922",
-          "hn-48935342",
           "hn-48945241",
-          "hn-48933419"
+          "hn-48956688",
+          "hn-48939524",
+          "hn-48463808"
         ]
       },
       {
@@ -1063,8 +1102,8 @@
         "url": "https://opensource.microsoft.com/blog/2026/07/16/microsoft-comic-chat-is-now-open-source/",
         "description": "",
         "source": "hackernews",
-        "score": 787,
-        "comments": 172,
+        "score": 801,
+        "comments": 176,
         "author": "jervant",
         "time": "2026-07-16T16:06:27+00:00",
         "tags": [
@@ -1076,40 +1115,13 @@
         "summary_zh": "微软近日将经典聊天软件 Microsoft Comic Chat 的源代码正式开源，引发了一波怀旧热潮。这款诞生于上世纪 90 年代末的软件，以其独创的漫画风格聊天界面而闻名——用户可以选择角色、表情和动作，对话以连环画形式呈现，在互联网早期可谓标新立异。如今开源，意味着开发者可以研究其代码逻辑，甚至移植到现代平台。对于技术考古爱好者和希望探索早期图形界面社交交互的开发者来说，这是一个不可多得的学习资源。",
         "summary_en": "Microsoft has officially open-sourced the code for its classic chat software, Microsoft Comic Chat. Released in the late 1990s, it was renowned for its novel comic-style interface: users selected characters, expressions, and actions to turn conversations into a sequential comic strip, a radical concept at the time. Now open source, developers can explore its inner workings and potentially port it to modern platforms. This is a treasure trove for tech archaeology enthusiasts and developers curious about early graphical social interactions, offering a unique glimpse into the creative experimentation of the early internet era.",
         "domain": "opensource.microsoft.com",
-        "quality_score": 42.9,
+        "quality_score": 27.9,
         "related_ids": [
-          "hn-48935342",
+          "hn-48963108",
+          "hn-48963539",
           "hn-48843923",
           "hn-48945241",
-          "hn-48819244",
-          "hn-48933419"
-        ]
-      },
-      {
-        "id": "hn-48919363",
-        "title": "Sleep regularity is a stronger predictor of mortality risk than sleep duration (2023)",
-        "url": "https://academic.oup.com/sleep/article/47/1/zsad253/7280269",
-        "description": "",
-        "source": "hackernews",
-        "score": 747,
-        "comments": 404,
-        "author": "bilsbie",
-        "time": "2026-07-15T11:46:06+00:00",
-        "tags": [
-          "academic",
-          "hackernews"
-        ],
-        "first_seen": "2026-07-16",
-        "summary_zh": "一项2023年的研究发现，睡眠规律性（即每天在同一时间入睡和起床）比睡眠时长更能预测死亡风险。研究团队分析了数万名参与者的数据后发现，即使睡眠时间充足，如果作息不规律，健康风险也会显著增加。这个发现挑战了以往强调“睡够8小时”的常识，提醒我们保持固定的生物钟或许比追求时长更重要——尤其对那些经常倒班或作息混乱的人来说，调整睡眠规律性可能是改善健康、延长寿命的更有效途径。",
-        "summary_en": "A 2023 study reveals that sleep regularity—consistently sleeping and waking at the same times each day—is a stronger predictor of mortality risk than total sleep duration. Analyzing data from tens of thousands of participants, researchers found that irregular sleep patterns, even with adequate sleep hours, significantly increase health risks. This challenges the common emphasis on achieving eight hours of sleep, suggesting that maintaining a stable circadian rhythm may be more critical for longevity. The findings are particularly relevant for shift workers or those with chaotic schedules, offering a simpler target: focus on consistency rather than counting hours.",
-        "domain": "academic.oup.com",
-        "quality_score": 31.6,
-        "related_ids": [
-          "hn-48935342",
-          "hn-48945241",
-          "hn-48933419",
-          "hn-48463808",
-          "hn-48632884"
+          "hn-48819244"
         ]
       },
       {
@@ -1118,7 +1130,7 @@
         "url": "https://www.producthunt.com/r/BASZVKO22HWWKN",
         "description": "Turn any goal into a personalized, adaptive learning path.",
         "source": "producthunt",
-        "score": 704,
+        "score": 795,
         "comments": 130,
         "author": "",
         "time": "2026-07-16T12:00:00+00:00",
@@ -1135,43 +1147,66 @@
         "summary_zh": "Paradigm 是一款能将任何目标转化为个性化自适应学习路径的工具。它利用AI分析用户的知识水平和学习习惯，动态调整学习计划，帮助用户高效达成既定目标。不同于传统的固定课程，Paradigm能够识别用户的薄弱环节并提供针对性内容。对于想要系统学习新技能或准备考试的人来说，它提供了一种灵活且高效的解决方案，极大提升了学习的自主性和效率。",
         "summary_en": "Paradigm turns any goal into a personalized, adaptive learning path by leveraging AI to analyze a user's knowledge level and learning habits, dynamically adjusting the plan to help them achieve their target efficiently. Unlike fixed curricula, Paradigm identifies weak spots and delivers tailored content. This makes it a flexible and effective solution for anyone wanting to systematically learn a new skill or prepare for exams, significantly boosting autonomy and learning efficiency.",
         "domain": "producthunt.com",
-        "quality_score": 42.2,
+        "quality_score": 27.2,
         "related_ids": [
           "ph-1191609",
+          "ph-1193468",
           "ph-1194188",
           "ph-1195830",
-          "ph-1186250",
-          "ph-1193175"
+          "ph-1186250"
         ]
       },
       {
-        "id": "hn-48910545",
-        "title": "Bonsai 27B: A 27B-Class model that runs on a phone",
-        "url": "https://prismml.com/news/bonsai-27b",
+        "id": "hn-48949551",
+        "title": "Thanks HN for 15 years of support and helping me find my life's work",
+        "url": "https://news.ycombinator.com/item?id=48949551",
         "description": "",
         "source": "hackernews",
-        "score": 698,
-        "comments": 250,
-        "author": "xenova",
-        "time": "2026-07-14T17:50:48+00:00",
+        "score": 792,
+        "comments": 99,
+        "author": "nicholasjbs",
+        "time": "2026-07-17T16:57:27+00:00",
         "tags": [
-          "ai",
-          "class",
           "hackernews",
-          "prismml",
-          "runs"
+          "helping"
         ],
-        "first_seen": "2026-07-15",
-        "summary_zh": "Bonsai 27B是一个拥有270亿参数的大模型，却神奇地能在手机上流畅运行，这得益于先进的量化和蒸馏技术，让高端AI能力走下云端的昂贵服务器，直接装进用户口袋，对隐私和离线场景意义重大。",
-        "summary_en": "Bonsai 27B is a 27-billion-parameter language model that runs directly on a phone without cloud connectivity. Using compression techniques like quantization and distillation, it brings powerful AI to mobile devices, prioritizing privacy and offline usage. This breakthrough matters for developers building intelligent on-device applications.",
-        "domain": "prismml.com",
-        "quality_score": 29.1,
+        "first_seen": "2026-07-18",
+        "summary_zh": "一位开发者发文感谢Hacker News社区15年来的陪伴与支持，称这个平台帮助他找到了毕生的事业。这篇简短而真挚的帖子回顾了自己在HN上学习、交流并最终确定职业方向的历程，突显了技术社区对个人成长的深远影响，也让无数读者感受到社群互助的温暖。",
+        "summary_en": "A developer posted a heartfelt thank-you to the Hacker News community for 15 years of support, crediting the platform with helping him find his life's work. The brief yet sincere post reflects on how he learned, exchanged ideas, and ultimately defined his career path through HN. It highlights the profound impact a tech community can have on personal growth and resonates with many readers who have experienced the warmth of peer support.",
+        "domain": "news.ycombinator.com",
+        "quality_score": 41.7,
         "related_ids": [
-          "hn-48865019",
-          "hn-48939524",
-          "hn-48664814",
-          "hn-48672732",
-          "hn-48946303"
+          "hn-48960155",
+          "hn-48952565",
+          "hn-48958814",
+          "hn-48959186",
+          "hn-48945241"
+        ]
+      },
+      {
+        "id": "hn-48919363",
+        "title": "Sleep regularity is a stronger predictor of mortality risk than sleep duration (2023)",
+        "url": "https://academic.oup.com/sleep/article/47/1/zsad253/7280269",
+        "description": "",
+        "source": "hackernews",
+        "score": 750,
+        "comments": 407,
+        "author": "bilsbie",
+        "time": "2026-07-15T11:46:06+00:00",
+        "tags": [
+          "hackernews"
+        ],
+        "first_seen": "2026-07-16",
+        "summary_zh": "一项2023年的研究发现，睡眠规律性（即每天在同一时间入睡和起床）比睡眠时长更能预测死亡风险。研究团队分析了数万名参与者的数据后发现，即使睡眠时间充足，如果作息不规律，健康风险也会显著增加。这个发现挑战了以往强调“睡够8小时”的常识，提醒我们保持固定的生物钟或许比追求时长更重要——尤其对那些经常倒班或作息混乱的人来说，调整睡眠规律性可能是改善健康、延长寿命的更有效途径。",
+        "summary_en": "A 2023 study reveals that sleep regularity—consistently sleeping and waking at the same times each day—is a stronger predictor of mortality risk than total sleep duration. Analyzing data from tens of thousands of participants, researchers found that irregular sleep patterns, even with adequate sleep hours, significantly increase health risks. This challenges the common emphasis on achieving eight hours of sleep, suggesting that maintaining a stable circadian rhythm may be more critical for longevity. The findings are particularly relevant for shift workers or those with chaotic schedules, offering a simpler target: focus on consistency rather than counting hours.",
+        "domain": "academic.oup.com",
+        "quality_score": 31.7,
+        "related_ids": [
+          "hn-48945241",
+          "hn-48956688",
+          "hn-48463808",
+          "hn-48935342",
+          "hn-48632884"
         ]
       },
       {
@@ -1180,8 +1215,8 @@
         "url": "https://www.mixfont.com/experiments/decoy-font",
         "description": "",
         "source": "hackernews",
-        "score": 694,
-        "comments": 155,
+        "score": 711,
+        "comments": 158,
         "author": "ray__",
         "time": "2026-07-16T16:18:21+00:00",
         "tags": [
@@ -1192,75 +1227,13 @@
         "summary_zh": "Decoy Font 是一种专为对抗自动字体识别和 OCR（光学字符识别）系统而设计的特殊字体。它通过对标准字形进行细微但足以迷惑算法的扭曲，使得机器难以准确读取文字内容，同时普通人眼仍能勉强辨认。这种字体在隐私保护领域颇具创意价值，例如用于在公开发布的文档中隐藏敏感信息，或者制作反爬虫验证码。对于关注数据隐私和安全的研究人员来说，Decoy Font 提供了一种低开销的对抗手段，但也可能引发字体的可读性与机器可读性之间的权衡讨论。",
         "summary_en": "Decoy Font is a specialized typeface designed to thwart automatic font recognition and OCR (optical character recognition) systems. It subtly distorts standard glyphs enough to confuse algorithms while remaining somewhat legible to human eyes. This creative approach has clear privacy applications: it can be used to conceal sensitive information in publicly shared documents or to create captchas that resist automated extraction. For researchers and developers concerned with data privacy and security, Decoy Font offers a low-overhead adversarial tool. However, it also raises interesting debates about the trade-off between human readability and machine readability in an increasingly automated world.",
         "domain": "mixfont.com",
-        "quality_score": 42.6,
+        "quality_score": 27.6,
         "related_ids": [
-          "hn-48935342",
           "hn-48945241",
-          "hn-48933419",
+          "hn-48956688",
           "hn-48463808",
+          "hn-48935342",
           "hn-48632884"
-        ]
-      },
-      {
-        "id": "ph-1186299",
-        "title": "V2Fun",
-        "url": "https://www.producthunt.com/r/YMZ2X3HYSCQ2UP",
-        "description": "Generate 3D character with 8K textures and AI motion capture",
-        "source": "producthunt",
-        "score": 693,
-        "comments": 182,
-        "author": "",
-        "time": "2026-07-15T12:00:00+00:00",
-        "tags": [
-          "ai",
-          "capture",
-          "character",
-          "fun",
-          "generate",
-          "motion",
-          "producthunt"
-        ],
-        "first_seen": "2026-07-16",
-        "summary_zh": "V2Fun是一款面向创作者和游戏开发者的3D角色生成工具，它能通过AI自动生成具有8K纹理的高质量3D角色模型，并内置AI动作捕捉功能，让角色立刻拥有流畅的动画。过去，制作一个类似的精细角色需要专业的建模师、纹理艺术家和动捕设备，耗时数天甚至数周；而V2Fun将这一过程缩短到几分钟，大幅降低了3D内容创作的门槛。无论是独立游戏制作者、虚拟主播，还是电商展示中的数字人形象，都能借助它快速生成可用资产。",
-        "summary_en": "V2Fun is a 3D character generation tool that uses AI to produce high-quality models with 8K textures and includes AI-powered motion capture for instant animation. What once required a team of professional modelers, texture artists, and expensive motion capture equipment—taking days or weeks—can now be done in minutes. This dramatically lowers the barrier for independent game developers, virtual streamers, and digital human creators in e-commerce, enabling them to quickly generate production-ready characters without specialized skills. It solves the bottleneck of 3D asset creation: speed versus quality.",
-        "domain": "producthunt.com",
-        "quality_score": 28.0,
-        "related_ids": [
-          "ph-1195845",
-          "ph-1036558",
-          "ph-1197712",
-          "ph-1198501",
-          "ph-1131659"
-        ]
-      },
-      {
-        "id": "ph-1196222",
-        "title": "Velo 3.0",
-        "url": "https://www.producthunt.com/r/KDX5BM26GQ5BM5",
-        "description": "AI video infrastructure to explain, train, and sell faster.",
-        "source": "producthunt",
-        "score": 668,
-        "comments": 150,
-        "author": "",
-        "time": "2026-07-15T12:00:00+00:00",
-        "tags": [
-          "ai",
-          "infrastructure",
-          "producthunt",
-          "sell",
-          "train"
-        ],
-        "first_seen": "2026-07-16",
-        "summary_zh": "Velo 3.0是一个AI视频基础设施平台，专为需要快速制作视频内容的企业设计，帮助他们在产品说明、员工培训和市场销售等场景中更高效地传播信息。它整合了视频生成、剪辑、翻译和分发功能，用户只需提供原始材料（如文档、幻灯片或产品演示），AI就能自动生成叙事清晰、画面专业的视频。相比传统视频制作需要编写脚本、拍摄、后期等复杂流程，Velo大幅缩短了视频产出周期。对于销售团队、培训部门和市场营销人员来说，这是一个理想的提效工具。",
-        "summary_en": "Velo 3.0 is an AI-powered video infrastructure platform designed for businesses that need to create video content quickly for explaining products, training employees, or accelerating sales. It integrates video generation, editing, translation, and distribution — users simply provide raw materials like documents, slides, or product demos, and the AI produces professional videos with clear narratives. Compared to traditional video production, which involves scripting, filming, and post-production, Velo drastically reduces turnaround time. Sales teams, training departments, and marketers benefit most, as they can now communicate complex ideas in minutes rather than weeks.",
-        "domain": "producthunt.com",
-        "quality_score": 27.5,
-        "related_ids": [
-          "ph-1195845",
-          "ph-1036558",
-          "ph-1197712",
-          "ph-1198501",
-          "gh-daily-Graphify-Labs-graphify"
         ]
       },
       {
@@ -1269,8 +1242,8 @@
         "url": "https://www.producthunt.com/r/AW6GAYWJDAD4GS",
         "description": "Shared memory across all apps and LLMs. In Claude",
         "source": "producthunt",
-        "score": 513,
-        "comments": 116,
+        "score": 589,
+        "comments": 122,
         "author": "",
         "time": "2026-07-17T12:00:00+00:00",
         "tags": [
@@ -1283,13 +1256,42 @@
         "summary_zh": "Unabyss for Claude 是一款让 Claude 拥有跨应用和跨大模型共享记忆的工具。它能记住你在不同软件和 AI 模型间的对话上下文，不再每次重启都要从头解释。对于重度使用 AI 助手、频繁切换工作场景的用户来说，这解决了记忆碎片化的大痛点，让协作更连贯自然。",
         "summary_en": "Unabyss for Claude is a tool that gives Claude persistent memory across different apps and large language models. It retains conversation context even when you switch between software or AI assistants, eliminating the need to repeat yourself. This solves the fragmentation problem for heavy AI users who juggle multiple tools, making workflows smoother and more coherent.",
         "domain": "producthunt.com",
-        "quality_score": 41.9,
+        "quality_score": 42.0,
         "related_ids": [
-          "ph-1036558",
           "ph-1180472",
+          "ph-1036558",
           "gh-daily-Shubhamsaboo-awesome-llm-apps",
           "ph-1190387",
           "ph-1178725"
+        ]
+      },
+      {
+        "id": "ph-1190090",
+        "title": "ZooData",
+        "url": "https://www.producthunt.com/r/2S6BVJ6IPXLOG5",
+        "description": "The data layer for AI agents",
+        "source": "producthunt",
+        "score": 545,
+        "comments": 69,
+        "author": "",
+        "time": "2026-07-18T12:00:00+00:00",
+        "tags": [
+          "agent",
+          "ai",
+          "layer",
+          "producthunt"
+        ],
+        "first_seen": "2026-07-19",
+        "summary_zh": "ZooData 是一个专门为 AI 智能体打造的数据层平台，它解决了智能体在访问和整合多源数据时遇到的碎片化和权限问题。通过提供统一的接口和实时数据流，ZooData 让 AI 代理能够高效地读取、写入和同步来自不同系统的结构化数据，相当于给智能体装上了“数据神经系统”。对于正在构建复杂 AI 工作流的开发者和企业来说，这个工具能大幅减少数据预处理的工作量，让智能体直接“吃”到干净、实时的数据。",
+        "summary_en": "ZooData is a dedicated data layer built specifically for AI agents, addressing the fragmentation and permission headaches that agents face when accessing data from multiple sources. It offers a unified API with real-time data streaming, enabling AI agents to read, write, and sync structured data seamlessly across different systems. Think of it as giving your agent a nervous system for data. For developers and enterprises building complex AI workflows, ZooData cuts down the heavy lifting of data preprocessing, letting agents consume clean, live data directly. This means faster development cycles and more reliable agent behavior.",
+        "domain": "producthunt.com",
+        "quality_score": 41.2,
+        "related_ids": [
+          "ph-1191307",
+          "gh-daily-lobehub-lobehub",
+          "gh-daily-PostHog-posthog",
+          "ph-1195845",
+          "ph-1157021"
         ]
       },
       {
@@ -1298,8 +1300,8 @@
         "url": "https://www.producthunt.com/r/VLHFXUWJ6KN7JY",
         "description": "Private inference for coding agents",
         "source": "producthunt",
-        "score": 488,
-        "comments": 69,
+        "score": 498,
+        "comments": 70,
         "author": "",
         "time": "2026-07-16T12:00:00+00:00",
         "tags": [
@@ -1311,127 +1313,41 @@
         "summary_zh": "Zro 是一个为编码代理提供私有推理服务的工具，专注于保护代码隐私。在AI辅助编程越来越流行的今天，开发者通常需要将代码发送到云端进行推理，这存在泄露敏感商业逻辑的风险。Zro通过安全的私有推理机制，让编码代理在不暴露原始代码的情况下进行智能分析。这对于重视代码安全的企业开发者尤其重要，他们可以在享受AI帮助的同时确保核心竞争力不受威胁。",
         "summary_en": "Zro provides private inference for coding agents, focusing on protecting code privacy. As AI-assisted programming becomes popular, developers often send code to the cloud for inference, risking exposure of sensitive business logic. Zro uses a secure private inference mechanism that enables coding agents to analyze code without revealing the original source. This is crucial for enterprise developers who value code security, allowing them to benefit from AI assistance while keeping their competitive advantage intact.",
         "domain": "producthunt.com",
-        "quality_score": 41.2,
+        "quality_score": 26.2,
         "related_ids": [
-          "ph-1197773",
-          "ph-1191413",
+          "ph-1190090",
           "ph-1191307",
           "ph-1190657",
+          "ph-1197773",
           "ph-1184233"
         ]
       },
       {
-        "id": "ph-1191307",
-        "title": "Campus",
-        "url": "https://www.producthunt.com/r/4PXLGX63BG2Y7T",
-        "description": "One project space for humans and AI agents",
+        "id": "ph-1157021",
+        "title": "Clark",
+        "url": "https://www.producthunt.com/r/YDCFYTSZJ66D6D",
+        "description": "An AI coworker with its own cloud computer",
         "source": "producthunt",
-        "score": 454,
-        "comments": 110,
+        "score": 442,
+        "comments": 55,
         "author": "",
-        "time": "2026-07-15T12:00:00+00:00",
-        "tags": [
-          "agent",
-          "ai",
-          "producthunt"
-        ],
-        "first_seen": "2026-07-16",
-        "summary_zh": "Campus是一款面向“人类+AI代理”协作的项目管理空间，发布于ProductHunt。它将团队成员和多种AI代理整合到同一个共享环境中，让用户通过自然语言分配任务、协调工作流，并实时查看AI执行进度。对于产品经理、创业团队和远程协作者来说，Campus解决了传统工具中Agent集成生硬、信息孤岛明显的问题，使AI不再只是一个对话框，而是真正的协作伙伴。这种“混合团队”理念可能会重新定义未来的工作空间。",
-        "summary_en": "Campus, launched on ProductHunt, is a unified project space designed for collaboration between humans and AI agents. Instead of treating AI as a separate chat window, Campus integrates multiple agents directly into team workflows. Users can assign tasks in natural language, track AI progress, and iterate together on the same canvas. This solves the pain point of disjointed tooling and siloed AI interactions. For product managers and remote teams, it reimagines the workspace as a hybrid team where humans and AI work side by side, making collaboration more fluid and efficient.",
-        "domain": "producthunt.com",
-        "quality_score": 26.8,
-        "related_ids": [
-          "ph-1197428",
-          "ph-1191413",
-          "gh-daily-lobehub-lobehub",
-          "ph-1197773",
-          "ph-1195845"
-        ]
-      },
-      {
-        "id": "ph-1195845",
-        "title": "Pebbles Ai",
-        "url": "https://www.producthunt.com/r/AYLBJIEQ76AGBE",
-        "description": "AI sales platform for modern B2B teams",
-        "source": "producthunt",
-        "score": 380,
-        "comments": 86,
-        "author": "",
-        "time": "2026-07-17T12:00:00+00:00",
+        "time": "2026-07-18T12:00:00+00:00",
         "tags": [
           "ai",
+          "cloud",
           "producthunt"
         ],
-        "first_seen": "2026-07-18",
-        "summary_zh": "Pebbles Ai 是一个面向现代 B2B 团队的 AI 销售平台，能自动处理线索跟进、客户沟通和数据分析等繁琐任务。它用自然语言理解销售流程，帮助团队把精力集中在高价值谈判上。对于销售效率至上、希望用 AI 减轻行政负担的团队来说，这是一个实用的生产力工具。",
-        "summary_en": "Pebbles Ai is an AI sales platform designed for modern B2B teams. It automates routine tasks like lead follow-ups, customer communication, and data analysis by understanding natural language sales processes. This frees up team members to focus on high-value negotiations. For sales teams looking to boost productivity and reduce administrative overhead, it's a practical AI assistant.",
+        "first_seen": "2026-07-19",
+        "summary_zh": "Clark 是一位拥有自己云端计算机的 AI 同事，它不只是对话机器人，而是一个能独立操作桌面软件、浏览网页、处理文件的智能代理。Clark 可以在云端运行复杂的任务，比如自动整理报表、管理邮件、甚至操作 SaaS 工具，然后直接给你结果。对于需要自动化重复性办公任务的团队来说，Clark 就像一个不会累的数字员工，无需 API 集成就能操控现有软件，大大降低了自动化门槛。",
+        "summary_en": "Clark is an AI coworker equipped with its own cloud computer, moving beyond simple chatbots to become an agent that can independently operate desktop software, browse the web, and manage files. Running entirely in the cloud, Clark handles complex tasks like compiling reports, sorting emails, or using SaaS tools, then returns the finished work to you. For teams drowning in repetitive office chores, Clark acts as a tireless digital employee that can control existing software without needing API integrations. This dramatically lowers the barrier to automation, making it accessible even for non-technical users.",
         "domain": "producthunt.com",
-        "quality_score": 41.4,
+        "quality_score": 40.9,
         "related_ids": [
-          "ph-1036558",
-          "ph-1197712",
+          "ph-1195845",
+          "ph-1190090",
           "ph-1198501",
           "ph-1186299",
           "ph-1196222"
-        ]
-      },
-      {
-        "id": "ph-1129473",
-        "title": "Agently",
-        "url": "https://www.producthunt.com/r/WSQCJVSEX7VIBA",
-        "description": "Your whole stack, running itself!",
-        "source": "producthunt",
-        "score": 360,
-        "comments": 109,
-        "author": "",
-        "time": "2026-07-15T12:00:00+00:00",
-        "tags": [
-          "agent",
-          "itself",
-          "producthunt",
-          "stack",
-          "whole"
-        ],
-        "first_seen": "2026-07-16",
-        "summary_zh": "Agently 是一个能自动运行整个技术栈的工具，号称“让你的整个栈自己跑起来”。它整合了基础设施管理、部署、监控和运维等各个环节，通过智能自动化减少人工干预。开发者只需定义期望状态，Agently就能自动配置、调整和修复环境。这对于那些希望专注于业务逻辑而非基础设施的小团队或独立开发者尤其有价值，大大降低了运维复杂度和人力成本。",
-        "summary_en": "Agently is a tool that makes your entire tech stack run itself by automating infrastructure management, deployment, monitoring, and operations. It reduces manual intervention through intelligent automation: developers only need to define the desired state, and Agently configures, adjusts, and fixes the environment automatically. This is particularly valuable for small teams and indie developers who want to focus on business logic rather than infrastructure, significantly lowering operational complexity and labor costs.",
-        "domain": "producthunt.com",
-        "quality_score": 26.8,
-        "related_ids": [
-          "ph-1197428",
-          "ph-1197773",
-          "ph-1192591",
-          "ph-1190387",
-          "ph-1191413"
-        ]
-      },
-      {
-        "id": "ph-1036558",
-        "title": "Albato AI",
-        "url": "https://www.producthunt.com/r/POR77IN2OM6IQT",
-        "description": "Build AI-driven workflows across 1,000+ apps",
-        "source": "producthunt",
-        "score": 356,
-        "comments": 64,
-        "author": "",
-        "time": "2026-07-16T12:00:00+00:00",
-        "tags": [
-          "ai",
-          "driven",
-          "producthunt",
-          "workflow"
-        ],
-        "first_seen": "2026-07-17",
-        "summary_zh": "Albato AI 让你无需编程就能在超过 1000 个应用之间构建 AI 驱动的工作流。它整合了各种 SaaS 工具，通过简单的界面设置自动化任务，比如用 ChatGPT 处理邮件或同步数据。对于业务人员和技术用户来说，它降低了搭建智能自动化的门槛，让重复工作真正实现无人值守。",
-        "summary_en": "Albato AI enables no-code AI-driven workflows across more than 1,000 apps. It connects various SaaS tools and allows users to set up automations — like processing emails with ChatGPT or syncing data — through a simple interface. This lowers the barrier for both business users and tech enthusiasts to build smart automation, turning repetitive tasks into truly hands-off operations.",
-        "domain": "producthunt.com",
-        "quality_score": 41.1,
-        "related_ids": [
-          "ph-1193175",
-          "ph-1191413",
-          "ph-1177933",
-          "ph-1195845",
-          "ph-1178725"
         ]
       },
       {
@@ -1440,8 +1356,8 @@
         "url": "https://www.producthunt.com/r/YT3DDK5NRLBZDJ",
         "description": "The world's first open 3T-class model",
         "source": "producthunt",
-        "score": 348,
-        "comments": 10,
+        "score": 437,
+        "comments": 13,
         "author": "",
         "time": "2026-07-17T12:00:00+00:00",
         "tags": [
@@ -1455,11 +1371,67 @@
         "domain": "producthunt.com",
         "quality_score": 40.2,
         "related_ids": [
-          "ph-1174789",
           "ph-1193175",
           "ph-1195845",
-          "ph-1197428",
-          "ph-1036558"
+          "ph-1190090",
+          "ph-1157021",
+          "ph-1188992"
+        ]
+      },
+      {
+        "id": "ph-1195845",
+        "title": "Pebbles Ai",
+        "url": "https://www.producthunt.com/r/AYLBJIEQ76AGBE",
+        "description": "AI sales platform for modern B2B teams",
+        "source": "producthunt",
+        "score": 428,
+        "comments": 102,
+        "author": "",
+        "time": "2026-07-17T12:00:00+00:00",
+        "tags": [
+          "ai",
+          "producthunt"
+        ],
+        "first_seen": "2026-07-18",
+        "summary_zh": "Pebbles Ai 是一个面向现代 B2B 团队的 AI 销售平台，能自动处理线索跟进、客户沟通和数据分析等繁琐任务。它用自然语言理解销售流程，帮助团队把精力集中在高价值谈判上。对于销售效率至上、希望用 AI 减轻行政负担的团队来说，这是一个实用的生产力工具。",
+        "summary_en": "Pebbles Ai is an AI sales platform designed for modern B2B teams. It automates routine tasks like lead follow-ups, customer communication, and data analysis by understanding natural language sales processes. This frees up team members to focus on high-value negotiations. For sales teams looking to boost productivity and reduce administrative overhead, it's a practical AI assistant.",
+        "domain": "producthunt.com",
+        "quality_score": 41.7,
+        "related_ids": [
+          "ph-1190090",
+          "ph-1157021",
+          "ph-1198501",
+          "ph-1186299",
+          "ph-1196222"
+        ]
+      },
+      {
+        "id": "ph-1036558",
+        "title": "Albato AI",
+        "url": "https://www.producthunt.com/r/POR77IN2OM6IQT",
+        "description": "Build AI-driven workflows across 1,000+ apps",
+        "source": "producthunt",
+        "score": 362,
+        "comments": 65,
+        "author": "",
+        "time": "2026-07-16T12:00:00+00:00",
+        "tags": [
+          "ai",
+          "driven",
+          "producthunt",
+          "workflow"
+        ],
+        "first_seen": "2026-07-17",
+        "summary_zh": "Albato AI 让你无需编程就能在超过 1000 个应用之间构建 AI 驱动的工作流。它整合了各种 SaaS 工具，通过简单的界面设置自动化任务，比如用 ChatGPT 处理邮件或同步数据。对于业务人员和技术用户来说，它降低了搭建智能自动化的门槛，让重复工作真正实现无人值守。",
+        "summary_en": "Albato AI enables no-code AI-driven workflows across more than 1,000 apps. It connects various SaaS tools and allows users to set up automations — like processing emails with ChatGPT or syncing data — through a simple interface. This lowers the barrier for both business users and tech enthusiasts to build smart automation, turning repetitive tasks into truly hands-off operations.",
+        "domain": "producthunt.com",
+        "quality_score": 26.1,
+        "related_ids": [
+          "ph-1193175",
+          "ph-1177933",
+          "ph-1195845",
+          "ph-1190090",
+          "ph-1157021"
         ]
       },
       {
@@ -1468,7 +1440,7 @@
         "url": "https://juejin.cn/post/7635467758865235968",
         "description": "穷则思变，富则...算了，富哥就不用看这篇文章了！ 为了守护我们钱包，这套穷鬼工作流横空出世！ 欢迎来到 AI 黑心包工队！",
         "source": "juejin",
-        "score": 327,
+        "score": 329,
         "comments": 69,
         "author": "",
         "time": "2026-05-09T03:51:58+00:00",
@@ -1487,36 +1459,63 @@
           "gh-monthly-asgeirtj-system_prompts_leaks",
           "juejin-7662691781214470180",
           "juejin-7657392618506764326",
-          "juejin-7660712622825144374"
+          "juejin-7656050265522913280"
         ]
       },
       {
-        "id": "juejin-7641048219231010862",
-        "title": "我用AI做了个微信小游戏-上线了",
-        "url": "https://juejin.cn/post/7641048219231010862",
-        "description": "真实的 AI 开发微信小游戏全流程记录：技术栈、prompt、踩坑清单、成本明细全公开。文末有彩蛋。",
-        "source": "juejin",
-        "score": 268,
-        "comments": 159,
+        "id": "ph-1188992",
+        "title": "LiveDemo",
+        "url": "https://www.producthunt.com/r/LPPCPHHYS32PCX",
+        "description": "Open-source alternative to Storylane, Navattic, and Arcade",
+        "source": "producthunt",
+        "score": 283,
+        "comments": 46,
         "author": "",
-        "time": "2026-05-18T10:38:35+00:00",
+        "time": "2026-07-18T12:00:00+00:00",
         "tags": [
-          "ai",
-          "juejin",
-          "prompt",
-          "我用"
+          "arcade",
+          "producthunt"
         ],
-        "first_seen": "2026-07-07",
-        "summary_zh": "这篇文章完整记录了一位开发者利用AI辅助技术从零构建并上线微信小游戏的全过程。作者毫无保留地公开了技术栈、提示词（prompt）设计、遇到的各类踩坑问题以及详细的成本明细，甚至附有彩蛋。对于想尝试用AI加速小游戏开发但又缺乏经验的团队或个人来说，这篇实战复盘提供了真实可参考的路线图和避坑指南，展现了AI在降低开发门槛方面的巨大潜力。",
-        "summary_en": "This article provides a comprehensive walkthrough of building and launching a WeChat mini game entirely with AI assistance. The author shares everything from the technology stack and prompt engineering techniques to a detailed breakdown of costs and a list of common pitfalls encountered during the process, ending with a hidden bonus. For indie developers or small teams curious about leveraging AI to speed up game development, this real-world case study serves as an invaluable reference. It demonstrates how AI tools can dramatically lower the barrier to entry for game creation, making it accessible even to those without a deep coding background.",
-        "domain": "juejin.cn",
-        "quality_score": 12.6,
+        "first_seen": "2026-07-19",
+        "summary_zh": "LiveDemo 是一个开源的互动演示平台，可以用来替代 Storylane、Navattic 和 Arcade 这类付费工具。它让你轻松创建产品交互演示、模拟试用和产品导览，所有代码都透明可控。对于 SaaS 公司和产品团队来说，LiveDemo 意味着不再被供应商锁定，可以按照自己的需求定制演示体验，同时节省许可费用。开源社区也能参与改进，让演示工具变得更灵活。",
+        "summary_en": "LiveDemo is an open-source interactive demo platform designed as a free alternative to paid tools like Storylane, Navattic, and Arcade. It lets you create product tours, simulated walkthroughs, and interactive demos with full code transparency and control. For SaaS companies and product teams, LiveDemo means no vendor lock-in, the ability to tailor demo experiences exactly to their needs, and significant cost savings on licensing. The open-source community can also contribute improvements, making it a more flexible and evolving solution for showcasing software products.",
+        "domain": "producthunt.com",
+        "quality_score": 40.8,
         "related_ids": [
-          "juejin-7662691781214470180",
-          "juejin-7657392618506764326",
-          "juejin-7661160753004904448",
-          "juejin-7660712622825144374",
-          "juejin-7656050265522913280"
+          "ph-1193175",
+          "ph-1195845",
+          "ph-1190090",
+          "ph-1157021",
+          "ph-1198643"
+        ]
+      },
+      {
+        "id": "ph-1197773",
+        "title": "Codex Micro",
+        "url": "https://www.producthunt.com/r/N2GRCRNINJWBZ7",
+        "description": "Tactile controls for your Codex agents",
+        "source": "producthunt",
+        "score": 271,
+        "comments": 11,
+        "author": "",
+        "time": "2026-07-16T12:00:00+00:00",
+        "tags": [
+          "agent",
+          "codex",
+          "micro",
+          "producthunt"
+        ],
+        "first_seen": "2026-07-17",
+        "summary_zh": "Codex Micro 是一款为 Codex 智能体提供触觉控制的外设，它通过物理旋钮、按钮和滑块让你直接操控 AI 代理的行为，比如调整参数、暂停任务或切换模式。对于经常与 AI 代理打交道的开发者和重度用户来说，这种实体交互方式比鼠标键盘更直观高效，尤其适合需要实时微调 AI 行为的场景，比如模型训练监控或自动化流程控制。它把抽象的数字控制变成了指尖的物理反馈。",
+        "summary_en": "Codex Micro brings tactile controls to AI agents with physical knobs, buttons, and sliders that let you directly tweak agent behaviors—adjusting parameters, pausing tasks, or switching modes—without digging into code. For developers and power users who work with AI agents daily, this hardware interface offers a more intuitive and efficient way to manage real-time adjustments than traditional mouse-and-keyboard interactions. It's especially handy in scenarios like model training monitoring or automation flow control where quick, precise tweaks are needed. Codex Micro turns abstract digital control into satisfying physical feedback.",
+        "domain": "producthunt.com",
+        "quality_score": 25.2,
+        "related_ids": [
+          "ph-1190090",
+          "ph-1191307",
+          "ph-1190657",
+          "ph-1197428",
+          "ph-1196845"
         ]
       },
       {
@@ -1525,7 +1524,7 @@
         "url": "https://juejin.cn/post/7593338828196626472",
         "description": "1. 开发历程 时间过得真快，转眼间福猪记账小程序上线已经有半年时间了，从v1.0.0 版本做到了 v1.6.1 版本。今天整理了开发日志，真的不敢相信自己在工作之余能够把它做出来并上线。 2.用户积",
         "source": "juejin",
-        "score": 258,
+        "score": 259,
         "comments": 284,
         "author": "",
         "time": "2026-06-22T15:12:29+00:00",
@@ -1540,9 +1539,9 @@
         "related_ids": [
           "juejin-7662691781214470180",
           "juejin-7661160753004904448",
-          "juejin-7660712622825144374",
           "juejin-7661426136199544838",
-          "juejin-7634732507103969326"
+          "juejin-7634732507103969326",
+          "juejin-7657392618506764326"
         ]
       },
       {
@@ -1551,7 +1550,7 @@
         "url": "https://juejin.cn/post/7637856870833635343",
         "description": "Cursor 让我第一次强烈感受到 AI 编程的震撼，Codex 则让我第一次真正感觉到，AI 不只是编程助手，而是一个真正的超级Agent，Codex 明显更接近下一阶段的形态。",
         "source": "juejin",
-        "score": 204,
+        "score": 208,
         "comments": 105,
         "author": "",
         "time": "2026-05-11T05:44:06+00:00",
@@ -1571,9 +1570,35 @@
         "related_ids": [
           "gh-daily-Graphify-Labs-graphify",
           "gh-monthly-asgeirtj-system_prompts_leaks",
-          "juejin-7660712622825144374",
           "gh-daily-Shubhamsaboo-awesome-llm-apps",
-          "gh-monthly-diegosouzapw-OmniRoute"
+          "gh-monthly-diegosouzapw-OmniRoute",
+          "gh-monthly-Nutlope-hallmark"
+        ]
+      },
+      {
+        "id": "juejin-7612479947865669675",
+        "title": "写给年轻程序员的几点建议-2",
+        "url": "https://juejin.cn/post/7612479947865669675",
+        "description": "现在互联网红利已经消失了，深知年轻程序员的不易，下面就浅薄地谈几点建议。中国人口基数比较大，要培养自己的 商业嗅觉。你能卖爆一个商品，就能获得巨大的财富。微信公众号如果能写出 几万 浏览量的文章，就有",
+        "source": "juejin",
+        "score": 168,
+        "comments": 43,
+        "author": "",
+        "time": "2026-03-27T07:04:50+00:00",
+        "tags": [
+          "juejin"
+        ],
+        "first_seen": "2026-06-19",
+        "summary_zh": "作者针对互联网红利消退的现状，向年轻程序员提出培养商业嗅觉和写作能力的建议。他认为在中国庞大的人口基数下，能卖爆一个商品或写出高阅读量的公众号文章就能获得巨大财富。文章强调技术之外的市场认知和内容表达能力同样重要，适合处于职业早期的程序员思考如何拓宽收入来源。",
+        "summary_en": "The author offers advice for young programmers in the post-internet-bonus era, emphasizing the need to develop business acumen and writing skills. Given China's huge population, successfully selling a product or writing a viral WeChat article can bring significant wealth. The article argues that market insight and content communication are as crucial as technical skills, making it relevant for early-career programmers looking to diversify their income streams.",
+        "domain": "juejin.cn",
+        "quality_score": 10.7,
+        "related_ids": [
+          "juejin-7662691781214470180",
+          "juejin-7661160753004904448",
+          "juejin-7661426136199544838",
+          "juejin-7593338828196626472",
+          "juejin-7657392618506764326"
         ]
       },
       {
@@ -1583,7 +1608,7 @@
         "description": "如题。 这真的没在开玩笑。 这也是最近不少公司，在大力、甚至全面拥抱 AI 之后所发出的切实吐槽。 一个月前，Uber 的 CTO 曾对外透露，公司自部署 CC 以来，内部有超 9 成的工程师在高频率",
         "source": "juejin",
         "score": 100,
-        "comments": 85,
+        "comments": 86,
         "author": "",
         "time": "2026-06-02T01:59:56+00:00",
         "tags": [
@@ -1601,9 +1626,9 @@
         "related_ids": [
           "infoq-s8EpYCpdF3YiSkSbYfGG",
           "juejin-7662691781214470180",
-          "juejin-7660712622825144374",
           "juejin-7654102171461402662",
-          "gh-daily-mattpocock-skills"
+          "gh-daily-mattpocock-skills",
+          "infoq-ySJsUiKHrIF1zDtKsNDj"
         ]
       },
       {
@@ -1612,8 +1637,8 @@
         "url": "https://juejin.cn/post/7662691781214470180",
         "description": "停更的这一年，All In AI、陪媳妇生娃、还考了个研 打开掘金 App，看了一眼自己的最近更新——停在了整整一年前。 不是不想写，是这一年确实被塞得太满了。如果非要用几个关键词来概括，那就是： A",
         "source": "juejin",
-        "score": 54,
-        "comments": 54,
+        "score": 55,
+        "comments": 62,
         "author": "",
         "time": "2026-07-16T07:49:08+00:00",
         "tags": [
@@ -1625,43 +1650,13 @@
         "summary_zh": "一位掘金作者停更一年后回归，分享了这段时间的密集经历：全力投入 AI 领域、陪伴妻子生娃、还抽空考了个研。文章以第一人称讲述了如何平衡工作、家庭与个人提升，展现了技术人在生活重大节点上的真实抉择。对面临类似境遇的读者来说，这是一个关于如何在巨大压力下仍坚持成长的真实故事。",
         "summary_en": "A Juejin author returns after a year-long hiatus, recounting a whirlwind period of diving headfirst into AI, supporting his wife through childbirth, and even squeezing in graduate school exams. Through first-person narration, he shares how he balanced career, family, and personal growth, offering a relatable and inspiring tale for developers navigating life’s major milestones while striving to keep improving.",
         "domain": "juejin.cn",
-        "quality_score": 25.9,
+        "quality_score": 26.0,
         "related_ids": [
-          "juejin-7660712622825144374",
           "gh-daily-mattpocock-skills",
           "juejin-7657392618506764326",
           "gh-daily-Shubhamsaboo-awesome-llm-apps",
-          "juejin-7655245911811784750"
-        ]
-      },
-      {
-        "id": "juejin-7657794899357761570",
-        "title": "🚀 2026 年 6 月 GitHub 十大热门项目排行榜 🔥",
-        "url": "https://juejin.cn/post/7657794899357761570",
-        "description": "欢迎来到 2026 年 6 月 GitHub 热门开源项目排行榜！聚焦 Agent 感知 + 技能市场 + 视频生产 + 代码智能 + 并行编排五大主线！",
-        "source": "juejin",
-        "score": 53,
-        "comments": 5,
-        "author": "",
-        "time": "2026-07-03T00:10:38+00:00",
-        "tags": [
-          "agent",
-          "git",
-          "github",
-          "juejin",
-          "开源"
-        ],
-        "first_seen": "2026-07-05",
-        "summary_zh": "文章盘点了2026年6月GitHub上最热门的十大开源项目，聚焦五大技术主线：Agent感知、技能市场、视频生产、代码智能和并行编排。这些项目反映了当前AI和开发者工具领域的最新趋势，例如自主智能体框架、去中心化技能交易平台、AI视频生成工具、代码补全与审查增强插件，以及并行计算调度方案。对于希望紧跟开源前沿的开发者，这篇榜单提供了一份值得关注的项目清单。",
-        "summary_en": "This article highlights the top ten trending open source projects on GitHub in June 2026, organized around five key themes: agent perception, skill marketplaces, video production, code intelligence, and parallel orchestration. The projects showcase cutting-edge developments in AI agents, decentralized skill trading platforms, AI-powered video generation, smart code completion and review tools, and high-performance parallel scheduling frameworks. For developers who want to stay ahead of the open source curve, this curated list offers a valuable snapshot of where the ecosystem is heading.",
-        "domain": "juejin.cn",
-        "quality_score": 15.1,
-        "related_ids": [
-          "gh-monthly-Panniantong-Agent-Reach",
-          "gh-daily-Shubhamsaboo-awesome-llm-apps",
-          "gh-daily-github-copilot-sdk",
-          "juejin-7646004870782550050",
-          "gh-daily-lobehub-lobehub"
+          "juejin-7655245911811784750",
+          "gh-daily-Graphify-Labs-graphify"
         ]
       },
       {
@@ -1670,7 +1665,7 @@
         "url": "https://juejin.cn/post/7660712622825144374",
         "description": "前言 最近编程圈最火的一个词，非 Skills 莫属。 不是指程序员的技术能力，而是指 AI 编程助手的“技能包” 。 一套让 AI 从“随缘写代码”变成“按流程交付”的标准化工作流模块。 今天这篇文",
         "source": "juejin",
-        "score": 44,
+        "score": 45,
         "comments": 2,
         "author": "",
         "time": "2026-07-10T10:57:38+00:00",
@@ -1684,13 +1679,13 @@
         "summary_zh": "2026 年编程圈热议的 10 个 Skills 并非指程序员的技术能力，而是 AI 编程助手的“技能包”——一套标准化工作流模块，让 AI 从随缘写代码变为按流程交付。这些技能包覆盖代码审查、测试生成、文档编写等环节，旨在提升开发效率和代码质量。对正在探索 AI 辅助编程的团队和个人开发者而言，掌握这些技能包将成为提高生产力的关键。",
         "summary_en": "The 10 hottest Skills in programming circles for 2026 refer not to developers' own abilities but to standardized workflow modules for AI coding assistants. These skill packages transform AI from random code generation to structured delivery, covering code review, test generation, documentation, and more. For teams and individual developers exploring AI-assisted programming, mastering these skills is becoming essential for boosting productivity and code quality.",
         "domain": "juejin.cn",
-        "quality_score": 25.0,
+        "quality_score": 15.0,
         "related_ids": [
-          "infoq-vMEl57NogYIZXKY5bwUj",
           "juejin-7662691781214470180",
           "juejin-7656050265522913280",
           "juejin-7656613897318907958",
-          "juejin-7659225944678432806"
+          "juejin-7659225944678432806",
+          "juejin-7637856870833635343"
         ]
       },
       {
@@ -1699,7 +1694,7 @@
         "url": "https://juejin.cn/post/7660367518163746852",
         "description": "前后端一起消失：2026 年 7 月，前端正在被彻底“重新定义” 一、谷歌憋了两个月的王牌，专攻前端 2026 年 7 月，全网被 Gemini 3.5 Pro 的泄露刷屏了。 谷歌在 I/O 大会上",
         "source": "juejin",
-        "score": 34,
+        "score": 35,
         "comments": 13,
         "author": "",
         "time": "2026-07-10T02:05:05+00:00",
@@ -1718,9 +1713,9 @@
         "related_ids": [
           "gh-monthly-asgeirtj-system_prompts_leaks",
           "36kr-3899401765422720",
-          "hn-48941902",
           "juejin-7643116195138781238",
-          "juejin-7629997042786336768"
+          "juejin-7629997042786336768",
+          "infoq-rHiSH66JZwoQG5Dfvv6x"
         ]
       },
       {
@@ -1749,132 +1744,99 @@
         "quality_score": 25.2,
         "related_ids": [
           "gh-monthly-asgeirtj-system_prompts_leaks",
-          "hn-48939524",
           "juejin-7659585088225624079",
-          "hn-48939768",
-          "hn-48689028"
+          "hn-48956879",
+          "hn-48689028",
+          "infoq-uwozdp7L5ex4Z2r7iZRC"
         ]
       },
       {
-        "id": "zhihu-2061411962487924266",
-        "title": "网传阿根廷绝杀前犯规的「证据图」被证实为 AI 篡改，如何评价？球衣号码都错误的 AI 假图为何能被大量转发？",
-        "url": "https://www.zhihu.com/question/2061411962487924266",
+        "id": "zhihu-2061407401308152796",
+        "title": "DeepSeek V4 正式版即将发布，有哪些值得关注的亮点？",
+        "url": "https://www.zhihu.com/question/2061407401308152796",
         "description": "",
         "source": "zhihu",
         "score": 0,
         "comments": 0,
         "author": "",
-        "time": "2026-07-18T01:21:48.178354+00:00",
+        "time": "2026-07-19T01:28:23.281560+00:00",
         "tags": [
-          "ai",
-          "zhihu",
-          "如何评价"
-        ],
-        "first_seen": "2026-07-18",
-        "summary_zh": "阿根廷绝杀前犯规的所谓“证据图”被证实是 AI 篡改的，图中球衣号码都张冠李戴，却仍在网络上疯传。这暴露出 AI 生成假图在热点事件中的巨大杀伤力：技术门槛低、传播速度极快，而大多数网友缺乏鉴别能力。它提醒我们，在情绪激动的舆论场中，任何“一眼真”的图片都可能是精心制作的谎言，需要更审慎地核查来源。",
-        "summary_en": "A viral 'evidence photo' claiming a foul before Argentina's last-minute goal was proven to be AI-manipulated, with numbers on jerseys completely wrong. Yet it spread widely across social media. This exposes the immense damage of AI-generated fake images in hot events: low technical barrier, lightning-fast propagation, and most users lack the skills to detect them. It serves as a stark reminder that in emotionally charged discourse, any seemingly convincing image could be a well-crafted lie — demanding more rigorous source verification.",
-        "domain": "zhihu.com",
-        "quality_score": 40.0,
-        "related_ids": [
-          "zhihu-2060770809543758786",
-          "zhihu-2058326197759743941",
-          "zhihu-2061099332632416849",
-          "zhihu-2058376747633189052",
-          "zhihu-2058688182946992686"
-        ]
-      },
-      {
-        "id": "zhihu-2061099332632416849",
-        "title": "Linus 称 Linux 不搞「反 AI」，并要求「要么 fork，要么走人」，这会带来哪些影响？",
-        "url": "https://www.zhihu.com/question/2061099332632416849",
-        "description": "",
-        "source": "zhihu",
-        "score": 0,
-        "comments": 0,
-        "author": "",
-        "time": "2026-07-18T01:21:48.178396+00:00",
-        "tags": [
-          "ai",
-          "fork",
-          "linus",
-          "linux",
-          "zhihu",
-          "哪些影响"
-        ],
-        "first_seen": "2026-07-18",
-        "summary_zh": "Linux创始人Linus Torvalds近日在邮件列表中强硬表态，称Linux内核社区不会为迎合人工智能而降低代码质量标准，甚至拒绝接纳大量由AI生成的补丁。Linus要求反对者要么另立分支（fork），要么接受规则，否则请离开。这一表态直接回应了部分开发者希望利用AI自动生成内核补丁的趋势。Linus认为当前AI生成的代码缺乏严谨性，可能引入安全与稳定性风险。此举在开发者圈引发热议，既维护了Linux长期坚持的“质量优先”传统，也可能让部分依赖AI工具的贡献者感到挫败。对于内核项目而言，这是一次技术伦理与社区治理的明确宣示。",
-        "summary_en": "Linus Torvalds, the creator of Linux, recently made a firm statement in a mailing list discussion, declaring that the Linux kernel community will not lower its code quality standards to accommodate artificial intelligence. He rejected a large number of patches generated by AI, arguing they lack rigor and could introduce security and stability risks. Torvalds challenged opponents to either fork the project or accept the rules, or simply leave. This stance sparked heated debate among developers. While it reaffirms Linux's long-standing commitment to code quality, it may also frustrate contributors who rely on AI tools. The move serves as a clear declaration of technical ethics and community governance for the kernel project.",
-        "domain": "zhihu.com",
-        "quality_score": 40.0,
-        "related_ids": [
-          "zhihu-2060770809543758786",
-          "zhihu-2058326197759743941",
-          "zhihu-2061411962487924266",
-          "zhihu-2058376747633189052",
-          "hn-48935814"
-        ]
-      },
-      {
-        "id": "zhihu-2058326197759743941",
-        "title": "努比亚即将发布全球首款 AI 智能体手机，内置豆包手机助手，对此你有哪些期待？会成手机行业未来趋势吗？",
-        "url": "https://www.zhihu.com/question/2058326197759743941",
-        "description": "",
-        "source": "zhihu",
-        "score": 0,
-        "comments": 0,
-        "author": "",
-        "time": "2026-07-18T01:21:48.178805+00:00",
-        "tags": [
-          "ai",
+          "deepseek",
           "zhihu"
         ],
-        "first_seen": "2026-07-17",
-        "summary_zh": "努比亚宣布即将推出全球首款搭载豆包手机助手的 AI 智能体手机，这意味着手机不再只是被动响应指令，而是能主动理解用户意图并执行复杂任务。例如，它可能自动整理日程、生成旅行攻略或代回消息。对于追求高效生活的年轻用户来说，这种集成 AI 助手的形态或许会改变我们与手机的交互方式。如果成功，很可能推动整个行业从“工具”向“伙伴”转型。",
-        "summary_en": "Nubia is set to launch the world's first AI agent phone, featuring the Doubao assistant that proactively understands user intents rather than just waiting for commands. It could automatically organize schedules, generate travel plans, or reply to messages on behalf of the user. For busy young professionals, this shifts the phone from a passive tool to an active companion. If the approach gains traction, it may redefine the smartphone industry's trajectory, making AI integration the new standard.",
+        "first_seen": "2026-07-19",
+        "summary_zh": "DeepSeek V4 正式版的即将发布引发了广泛关注，作为国产大模型的重要迭代，它预计在推理能力、多模态理解和长文本处理上会有显著提升。业界普遍期待它能缩小甚至超越 GPT-4 在某些任务上的表现，同时保持低成本和高效率的优势。对于 AI 研究者和应用开发者来说，V4 可能带来更稳定的 API 服务和更丰富的生态工具，进一步推动 AI 应用落地。这次更新不仅关乎技术参数，更可能影响未来国产大模型的格局。",
+        "summary_en": "The upcoming official release of DeepSeek V4 has generated significant buzz as a major iteration of China's leading large language model. Expected improvements include stronger reasoning abilities, better multimodal understanding, and enhanced long-context processing. Many in the industry hope it will close the gap with or even surpass GPT-4 on certain benchmarks while maintaining DeepSeek's signature cost-efficiency. For AI researchers and application developers, V4 could offer more stable APIs and a richer ecosystem of tools, further accelerating real-world AI deployment. This update isn't just about technical specs—it may reshape the competitive landscape for domestic large models.",
         "domain": "zhihu.com",
         "quality_score": 40.0,
         "related_ids": [
-          "zhihu-2060770809543758786",
-          "zhihu-2061411962487924266",
-          "zhihu-2061099332632416849",
-          "zhihu-2058376747633189052",
-          "zhihu-2058688182946992686"
+          "zhihu-2055029429290771542",
+          "zhihu-9783691829",
+          "zhihu-2061111911014470002",
+          "zhihu-2060653385058194207",
+          "zhihu-2059934323000845474"
         ]
       },
       {
-        "id": "zhihu-2058376747633189052",
-        "title": "WAIC 2026 有什么值得看的？",
-        "url": "https://www.zhihu.com/question/2058376747633189052",
+        "id": "zhihu-2061503634332809158",
+        "title": "金标联盟宣布小米、 OPPO 、 vivo 、荣耀将统一「碰一碰」及运存管理标准，安卓生态能否告别各自为战？",
+        "url": "https://www.zhihu.com/question/2061503634332809158",
         "description": "",
         "source": "zhihu",
         "score": 0,
         "comments": 0,
         "author": "",
-        "time": "2026-07-18T01:21:48.178864+00:00",
+        "time": "2026-07-19T01:28:23.281616+00:00",
+        "tags": [
+          "zhihu"
+        ],
+        "first_seen": "2026-07-19",
+        "summary_zh": "金标联盟由小米、OPPO、vivo、荣耀等主流手机厂商发起，宣布将统一“碰一碰”（近场通信）和运存管理标准，这意味着安卓碎片化问题有望迎来关键破局。过去不同品牌间碰一碰功能互不兼容，运存管理也各有规则，导致用户换机或使用跨品牌配件时体验割裂。如今四大厂商联手制定统一规范，让应用和硬件适配不再各自为战，降低开发者成本的同时也提升了普通用户的日常使用流畅度。对于想享受无缝安卓生态的用户来说，这无疑是值得期待的进步。",
+        "summary_en": "The Gold Standard Alliance, comprising Xiaomi, OPPO, vivo, and Honor, has announced plans to unify the 'tap-to-share' (NFC) and RAM management standards across their devices. This move directly tackles the long-standing fragmentation in the Android ecosystem, where different brands implemented incompatible NFC protocols and memory optimization policies. By establishing a common standard, the alliance aims to make cross-brand file transfers and app behavior more predictable and seamless. Developers will benefit from reduced fragmentation, while end users—especially those juggling multiple devices or switching brands—can expect a smoother, more consistent experience. Although the initiative is still in early stages, it signals a rare cooperative effort among Chinese smartphone giants to solve a core Android pain point.",
+        "domain": "zhihu.com",
+        "quality_score": 40.0,
+        "related_ids": [
+          "zhihu-9783691829",
+          "zhihu-2061111911014470002",
+          "zhihu-2060653385058194207",
+          "zhihu-2059934323000845474",
+          "zhihu-2058326197759743941"
+        ]
+      },
+      {
+        "id": "zhihu-2060398351212700649",
+        "title": "参加 2026 世界人工智能大会 (WAIC) 是一种怎样的体验？",
+        "url": "https://www.zhihu.com/question/2060398351212700649",
+        "description": "",
+        "source": "zhihu",
+        "score": 0,
+        "comments": 0,
+        "author": "",
+        "time": "2026-07-19T01:28:23.281698+00:00",
         "tags": [
           "ai",
           "waic",
           "zhihu"
         ],
-        "first_seen": "2026-07-18",
-        "summary_zh": "WAIC（世界人工智能大会）2026年预计将继续聚焦AI前沿技术与产业落地。值得关注的看点包括：大模型向多模态、轻量化方向进化；具身智能与人形机器人从展示走向真实场景；AI for Science在医疗、材料等领域的新突破；以及AI治理与安全议题的深化讨论。此外，国产算力芯片、端侧AI应用、生成式AI在内容创作中的落地案例也将成为亮点。对于从业者和爱好者而言，WAIC 2026不仅是技术风向标，更是观察AI如何从实验室渗透到日常生活的窗口。",
-        "summary_en": "WAIC 2026 (World Artificial Intelligence Conference) is expected to continue showcasing cutting-edge AI technologies and industrial applications. Key highlights include the evolution of large language models toward multimodal and lightweight forms; embodied intelligence and humanoid robots moving from demonstrations to real-world scenarios; new breakthroughs in AI for Science across healthcare and materials; and deeper discussions on AI governance and safety. Additionally, domestic AI chips, on-device AI applications, and generative AI use cases in content creation will be attractive. For practitioners and enthusiasts, WAIC 2026 offers a valuable window into how AI is penetrating daily life from the lab.",
+        "first_seen": "2026-07-19",
+        "summary_zh": "2026年世界人工智能大会（WAIC）在上海浦江两岸盛大举行，吸引全球顶尖AI科学家、企业家和创业者齐聚一堂。参会者体验了从具身机器人、生成式AI到AI for Science的最前沿成果，现场不仅有能跑会跳的机器人，还有实时交互的“数字人”助手。大会最引人注目的是多项大模型新突破的集中展示，以及各行业落地案例，如AI医疗诊断和自动驾驶的升级方案。对于从业者而言，这不仅是一场技术盛宴，更是洞察未来趋势、寻找合作机会的绝佳窗口；普通观众则能感受到AI如何悄然渗透日常生活的方方面面。",
+        "summary_en": "The 2026 World Artificial Intelligence Conference (WAIC) in Shanghai was a dazzling showcase of the latest breakthroughs in AI, drawing leading researchers, entrepreneurs, and tech enthusiasts from around the world. Attendees were treated to live demonstrations of humanoid robots, generative AI systems creating art and code on the fly, and AI-driven scientific discovery tools. The event's highlight was the debut of several advanced large language models with improved reasoning and multimodal capabilities, alongside practical applications in healthcare, autonomous driving, and digital assistants. For industry insiders, WAIC served as both a knowledge injection and a networking goldmine; for casual visitors, it offered a tangible glimpse of how AI is reshaping work and life.",
         "domain": "zhihu.com",
         "quality_score": 40.0,
         "related_ids": [
-          "zhihu-2060770809543758786",
+          "zhihu-2058376747633189052",
           "zhihu-2058326197759743941",
           "zhihu-2061411962487924266",
           "zhihu-2061099332632416849",
-          "zhihu-2058688182946992686"
+          "36kr-3899772123694979"
         ]
       }
     ],
-    "count": 64
+    "count": 62
   },
   "monthly": {
-    "start": "2026-06-18",
-    "end": "2026-07-18",
+    "start": "2026-06-19",
+    "end": "2026-07-19",
     "items": [
       {
         "id": "gh-monthly-OpenCut-app-OpenCut",
@@ -1882,10 +1844,10 @@
         "url": "https://github.com/OpenCut-app/OpenCut",
         "description": "The open-source CapCut alternative",
         "source": "github_trending",
-        "score": 74884,
+        "score": 75435,
         "comments": 0,
         "author": "OpenCut-app",
-        "time": "2026-07-18T01:21:13.281341+00:00",
+        "time": "2026-07-19T01:27:46.005727+00:00",
         "tags": [],
         "gh_period": "monthly",
         "first_seen": "2026-07-01"
@@ -1896,10 +1858,10 @@
         "url": "https://github.com/ocornut/imgui",
         "description": "Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies",
         "source": "github_trending",
-        "score": 74735,
+        "score": 74776,
         "comments": 0,
         "author": "ocornut",
-        "time": "2026-07-18T01:21:13.281341+00:00",
+        "time": "2026-07-19T01:27:46.005727+00:00",
         "tags": [],
         "gh_period": "monthly",
         "first_seen": "2026-07-13"
@@ -1910,10 +1872,10 @@
         "url": "https://github.com/asgeirtj/system_prompts_leaks",
         "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT GPT-5.6, Codex GPT-5.6, GPT-5.5. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
         "source": "github_trending",
-        "score": 58649,
+        "score": 58868,
         "comments": 0,
         "author": "asgeirtj",
-        "time": "2026-07-18T01:21:13.281341+00:00",
+        "time": "2026-07-19T01:27:46.005727+00:00",
         "tags": [],
         "gh_period": "monthly",
         "first_seen": "2026-06-28"
@@ -1924,10 +1886,10 @@
         "url": "https://github.com/Panniantong/Agent-Reach",
         "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
         "source": "github_trending",
-        "score": 57504,
+        "score": 57767,
         "comments": 0,
         "author": "Panniantong",
-        "time": "2026-07-18T01:21:13.281341+00:00",
+        "time": "2026-07-19T01:27:46.005727+00:00",
         "tags": [],
         "gh_period": "monthly",
         "first_seen": "2026-06-19"
@@ -1938,10 +1900,10 @@
         "url": "https://github.com/usestrix/strix",
         "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
         "source": "github_trending",
-        "score": 42273,
+        "score": 42454,
         "comments": 0,
         "author": "usestrix",
-        "time": "2026-07-18T01:21:13.281341+00:00",
+        "time": "2026-07-19T01:27:46.005727+00:00",
         "tags": [],
         "gh_period": "monthly",
         "first_seen": "2026-07-05"
@@ -1952,10 +1914,10 @@
         "url": "https://github.com/calesthio/OpenMontage",
         "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
         "source": "github_trending",
-        "score": 39528,
+        "score": 39823,
         "comments": 0,
         "author": "calesthio",
-        "time": "2026-07-18T01:21:13.281341+00:00",
+        "time": "2026-07-19T01:27:46.005727+00:00",
         "tags": [],
         "gh_period": "monthly",
         "first_seen": "2026-06-25"
@@ -1966,10 +1928,10 @@
         "url": "https://github.com/DeusData/codebase-memory-mcp",
         "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
         "source": "github_trending",
-        "score": 32435,
+        "score": 32721,
         "comments": 0,
         "author": "DeusData",
-        "time": "2026-07-18T01:21:13.281341+00:00",
+        "time": "2026-07-19T01:27:46.005727+00:00",
         "tags": [],
         "gh_period": "monthly",
         "first_seen": "2026-06-21"
@@ -1980,13 +1942,27 @@
         "url": "https://github.com/gabime/spdlog",
         "description": "Fast C++ logging library.",
         "source": "github_trending",
-        "score": 29167,
+        "score": 29188,
         "comments": 0,
         "author": "gabime",
-        "time": "2026-07-18T01:21:13.281341+00:00",
+        "time": "2026-07-19T01:27:46.005727+00:00",
         "tags": [],
         "gh_period": "monthly",
         "first_seen": "2026-07-12"
+      },
+      {
+        "id": "gh-monthly-topoteretes-cognee",
+        "title": "topoteretes/cognee",
+        "url": "https://github.com/topoteretes/cognee",
+        "description": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.",
+        "source": "github_trending",
+        "score": 28208,
+        "comments": 0,
+        "author": "topoteretes",
+        "time": "2026-07-19T01:27:46.005727+00:00",
+        "tags": [],
+        "gh_period": "monthly",
+        "first_seen": "2026-07-13"
       },
       {
         "id": "gh-monthly-alibaba-page-agent",
@@ -1994,24 +1970,10 @@
         "url": "https://github.com/alibaba/page-agent",
         "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
         "source": "github_trending",
-        "score": 26917,
+        "score": 27045,
         "comments": 0,
         "author": "alibaba",
-        "time": "2026-07-18T01:21:13.281341+00:00",
-        "tags": [],
-        "gh_period": "monthly",
-        "first_seen": "2026-07-08"
-      },
-      {
-        "id": "gh-monthly-Zackriya-Solutions-meetily",
-        "title": "Zackriya-Solutions/meetily",
-        "url": "https://github.com/Zackriya-Solutions/meetily",
-        "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows. Understand How to write meeting minutes",
-        "source": "github_trending",
-        "score": 25294,
-        "comments": 0,
-        "author": "Zackriya-Solutions",
-        "time": "2026-07-18T01:21:13.281341+00:00",
+        "time": "2026-07-19T01:27:46.005727+00:00",
         "tags": [],
         "gh_period": "monthly",
         "first_seen": "2026-07-08"
@@ -2026,7 +1988,9 @@
         "comments": 744,
         "author": "kirushik",
         "time": "2026-06-30T15:44:24+00:00",
-        "tags": []
+        "tags": [],
+        "summary_zh": "Claude Code被发现会在发出的请求中嵌入隐写术标记，这一做法引发了广泛讨论。这些标记以不易察觉的方式隐藏在正常数据流里，可能用于追溯请求来源、防止篡改或进行版权声明。虽然隐写本身并非恶意，但它意味着用户与AI交互时可能被无感追踪，从而引发隐私和透明度方面的担忧。对于注重数据隐蔽性和控制权的开发者来说，这无疑是个需要警惕的新动向。",
+        "summary_en": "Claude Code has been discovered to embed steganographic marks within its outgoing requests, a technique that hides data in plain sight. These marks can trace the origin of requests, prevent tampering, or assert copyright. While not inherently malicious, the practice raises privacy and transparency concerns, as users may be unknowingly tracked during AI interactions. For developers who value data sovereignty and fine-grained control, this revelation signals a need to scrutinize how AI tools handle metadata beyond the obvious outputs."
       },
       {
         "id": "hn-48935342",
@@ -2034,8 +1998,8 @@
         "url": "https://www.kimi.com/blog/kimi-k3",
         "description": "",
         "source": "hackernews",
-        "score": 1995,
-        "comments": 1161,
+        "score": 2063,
+        "comments": 1188,
         "author": "vincent_s",
         "time": "2026-07-16T14:46:05+00:00",
         "tags": []
@@ -2050,7 +2014,9 @@
         "comments": 1721,
         "author": "theschwa",
         "time": "2026-06-22T17:09:51+00:00",
-        "tags": []
+        "tags": [],
+        "summary_zh": "Valve今日正式发布了Steam Machine，这是一款专为客厅游戏场景设计的游戏主机，运行SteamOS系统。它允许玩家在电视上流畅运行PC游戏，并支持流式传输和多种控制器。此次发布标志着Valve试图打破主机市场格局，将PC游戏的开放生态带入客厅。对于游戏玩家而言，这意味着更丰富的游戏选择、更低的硬件门槛，以及跨平台存档和社交功能的便利。",
+        "summary_en": "Valve today officially launched the Steam Machine, a gaming console designed for the living room running SteamOS. It lets players smoothly play PC games on TV, supports streaming and various controllers. This launch marks Valve's attempt to disrupt the console market by bringing the open ecosystem of PC gaming into the living room. For gamers, it means more game choices, lower hardware barriers, and the convenience of cross-platform saves and social features."
       },
       {
         "id": "hn-48755965",
@@ -2062,7 +2028,9 @@
         "comments": 738,
         "author": "drewfax",
         "time": "2026-07-02T03:00:15+00:00",
-        "tags": []
+        "tags": [],
+        "summary_zh": "一位安全研究员揭露了 Android 开发者验证流程中存在的严重安全隐患：这一本意是保护开发者账户的机制，反而可能被攻击者利用来冒充合法开发者。通过分析验证逻辑中的漏洞，攻击者可以绕过程序窃取身份或发布恶意应用。这相当于把保护门禁变成了入侵的梯子。对于 Android 生态中的所有开发者而言，这个问题值得高度警惕，因为它动摇了整个应用签名和身份信任体系的基础。",
+        "summary_en": "A security researcher reveals that Android's Developer Verification process—designed to protect developers—can be exploited by attackers to impersonate legitimate developers. By analyzing flaws in the verification logic, adversaries can bypass protections, steal identities, or distribute malicious apps under trusted names. This turns a protective gate into an entry point for intrusion. The finding undermines the trust foundation of Android's app signing and identity system, making it a critical concern for every developer in the ecosystem."
       },
       {
         "id": "hn-48675179",
@@ -2074,7 +2042,9 @@
         "comments": 366,
         "author": "verditelabs",
         "time": "2026-06-25T15:48:07+00:00",
-        "tags": []
+        "tags": [],
+        "summary_zh": "科学家们首次完整地阅读了一卷被维苏威火山喷发碳化的赫库兰尼姆古卷，这卷在公元79年埋藏至今的莎草纸文献通过先进成像技术和人工智能得到了成功解读。团队利用高分辨率扫描和机器学习模型破译了被碳化的文字，揭示了古希腊哲学和文学的新内容。这项突破不仅为历史研究打开了一扇通往古代世界的新窗户，也验证了非侵入式技术对脆弱文物的保护价值。对于考古学家、古典学者以及所有对文明传承感兴趣的人来说，这是一个激动人心的里程碑。",
+        "summary_en": "For the first time, researchers have fully read a Herculaneum scroll that was carbonized by the eruption of Mount Vesuvius in 79 AD. Using advanced X-ray imaging and machine learning, they deciphered the charred papyrus, unearthing new passages of ancient Greek philosophy and literature. This achievement solves a centuries-old puzzle—these scrolls were long considered too fragile to unroll. The breakthrough not only enriches our understanding of antiquity but also demonstrates a powerful, non-invasive method for studying other delicate artifacts. Archaeologists, classicists, and anyone fascinated by lost knowledge will find this a monumental leap forward."
       },
       {
         "id": "hn-48865019",
@@ -2086,7 +2056,9 @@
         "comments": 941,
         "author": "stock_toaster",
         "time": "2026-07-10T20:47:09+00:00",
-        "tags": []
+        "tags": [],
+        "summary_zh": "苹果公司近日对OpenAI提起民事诉讼，指控多名前员工在离职时窃取了与人工智能研发相关的商业机密。这些员工据称带走了内部技术文档和核心算法，并可能用于竞争项目。这起诉讼不仅反映了硅谷两大科技巨头在人才和知识产权上的激烈争夺，也凸显了AI领域日益敏感的技术保密问题。对于科技行业观察者而言，这场法律战的结果或许会重塑企业防范员工跳槽时的保密协议设计。",
+        "summary_en": "Apple has filed a lawsuit against OpenAI, alleging that several former employees stole trade secrets related to artificial intelligence research. The complaint claims these workers took proprietary technical documents and core algorithms before leaving for positions that could benefit competing projects. This legal battle underscores the fierce competition for talent and intellectual property between two Silicon Valley giants, and highlights the growing sensitivity of technology secrecy in the AI industry. For tech observers, the outcome may influence how companies craft confidentiality agreements to guard against employee poaching."
       },
       {
         "id": "hn-48843923",
@@ -2098,7 +2070,9 @@
         "comments": 853,
         "author": "rapnie",
         "time": "2026-07-09T11:03:54+00:00",
-        "tags": []
+        "tags": [],
+        "summary_zh": "欧盟议会通过了备受争议的Chat Control 1.0法案，要求数字平台扫描并报告涉及儿童性虐待材料的私密通信内容。这项立法引发了隐私与安全之间的激烈辩论，支持者认为它有助于保护儿童，而反对者警告这可能破坏端到端加密并开创大规模监控的先例。对于关注数字权利和隐私保护的群体来说，这是一个需要密切关注的发展。",
+        "summary_en": "The European Parliament has approved the controversial Chat Control 1.0 regulation, requiring digital platforms to scan private communications for child sexual abuse material. The law sparks intense debate between child safety advocates and privacy defenders, who warn it undermines end-to-end encryption and sets a precedent for mass surveillance. Anyone concerned about digital rights and encryption should pay close attention to this development."
       },
       {
         "id": "hn-48849066",
@@ -2110,7 +2084,9 @@
         "comments": 1101,
         "author": "logickkk1",
         "time": "2026-07-09T17:04:14+00:00",
-        "tags": []
+        "tags": [],
+        "summary_zh": "关于GPT-5.6的传闻在开发者社区悄然升温，据称这是OpenAI内部测试的新一代模型，在推理效率和长文本处理上有显著提升。尽管官方未确认，但泄露的基准测试显示其在复杂编程和数学任务上超越了现有版本。如果属实，这将意味着AI模型在实用性和响应速度上迈入新台阶，对依赖语言模型的开发者和企业影响深远。",
+        "summary_en": "Rumors about GPT-5.6, an alleged internal iteration from OpenAI, have sparked excitement in the developer community. Leaked benchmarks suggest it offers substantial improvements in reasoning efficiency and long-context handling, outperforming current models on complex coding and math tasks. While OpenAI hasn't confirmed the release, the speculation points to a possible leap in practical AI utility, making responses faster and more accurate. For developers and businesses relying on language models, even incremental upgrades can translate into better user experiences and lower latency. This potential release underscores the rapid pace of AI advancement."
       },
       {
         "id": "hn-48829312",
@@ -2122,7 +2098,9 @@
         "comments": 232,
         "author": "speerer",
         "time": "2026-07-08T08:46:06+00:00",
-        "tags": []
+        "tags": [],
+        "summary_zh": "一位技术爱好者解析了优衣库T恤上印制的混淆bash脚本，发现它实际上是一个恶作剧程序，通过复杂的字符串操作和陷阱逻辑来隐藏其真实功能。这篇分析展示了逆向工程乐趣，也提醒大家即使看似无害的代码也可能暗藏玄机。对于安全研究人员和编程爱好者来说，这是一次趣味与技术并重的解谜之旅。",
+        "summary_en": "A tech enthusiast meticulously dissected an obfuscated bash script printed on a Uniqlo t-shirt, revealing it to be a playful prank program designed to confuse casual observers. The script uses intricate string manipulations and trap commands to mask its true purpose, which is simply to echo a message. This analysis highlights the fun side of reverse engineering and serves as a reminder that even innocuous-looking code can contain hidden complexity. It's a delightful read for security researchers and programming hobbyists who enjoy a good puzzle."
       },
       {
         "id": "hn-48889637",
@@ -2134,7 +2112,9 @@
         "comments": 721,
         "author": "crowdhailer",
         "time": "2026-07-13T08:39:39+00:00",
-        "tags": []
+        "tags": [],
+        "summary_zh": "Zig语言的创始人近日直言不讳地批评了人工智能公司Anthropic，指责其营销宣传充斥着虚假和夸大的内容。他在社交媒体上毫不留情地指出，Anthropic所谓的“安全、负责任”的AI不过是烟雾弹，实际行为与其承诺严重不符。这场公开争执在开发者社区引发热议，许多人赞赏他的坦率，认为这揭示了AI行业普遍存在的过度包装问题。事件提醒我们，技术的真正价值取决于透明度和诚实，而非华丽的辞藻。",
+        "summary_en": "The creator of the Zig programming language openly criticized AI company Anthropic for what he called misleading marketing and exaggerated claims. In a blunt online post, he accused Anthropic of blowing smoke about its safety and responsibility commitments while failing to deliver on those promises. The exchange has stirred significant discussion in the developer community, with many applauding his candor and seeing it as a reflection of broader issues in the AI industry where hype often overshadows substance. This moment underscores the importance of transparency and honesty in technology, reminding us that real progress depends on truth, not rhetoric."
       }
     ],
     "count": 20
@@ -2148,5 +2128,5 @@
     "producthunt",
     "zhihu"
   ],
-  "total_items": 5678
+  "total_items": 5801
 }
