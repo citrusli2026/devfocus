@@ -5418,5 +5418,161 @@
   "zhihu-2059057378591613636": {
     "summary_zh": "近期网络流传消息称，DeepSeek 正在灰度测试其第四代大模型的正式版，代号 v4。虽然官方尚未正式确认，但已有部分用户声称在试用中体验到了更强的推理能力和更低的延迟。这一传闻迅速在 AI 社区引发热议，因为 DeepSeek 此前以高性价比和开源性著称，v4 的升级可能会进一步拉低大模型的使用门槛。如果消息属实，这将对国内外大模型格局产生重要影响，尤其对开发者、中小企业和研究机构而言，意味着更强大的国产开源模型即将到来。",
     "summary_en": "Rumors have been circulating online that DeepSeek is conducting grayscale testing of its official fourth-generation large model, called v4. Though the company has not officially confirmed it, some users report experiencing improved reasoning capabilities and lower latency. The buzz quickly spread across the AI community, as DeepSeek is known for its cost-effective and open-source models. If the v4 upgrade is real, it could lower the barrier to entry for powerful AI, benefiting developers, SMEs, and research institutions. This would also reshape the competitive landscape of both domestic and international LLMs, bringing a stronger open-source alternative to the market."
+  },
+  "gh-daily-chrislgarry-Apollo-11": {
+    "summary_zh": "阿波罗11号导航计算机的原始源码被上传到GitHub，引发了技术怀旧热潮。这份代码记录了人类首次登月所用制导系统的核心逻辑，包括指令舱和登月模块的双重任务分配。对于科技史爱好者和程序员来说，这是一个独特的窗口，能够窥见当年用精简指令和磁芯内存完成航天计算的智慧。它不仅是历史文档，更是早期嵌入式系统风格的典型示范。",
+    "summary_en": "The original Apollo Guidance Computer source code was uploaded to GitHub, sparking a wave of tech nostalgia. This code represents the core logic behind the first moon landing navigation system, including both the command and lunar modules. For history enthusiasts and programmers, it offers a unique glimpse into how early engineers achieved spaceflight computing with minimal instructions and core memory. It's not just a historical artifact but a showcase of classic embedded system design."
+  },
+  "gh-daily-DioxusLabs-dioxus": {
+    "summary_zh": "Dioxus 是一个用 Rust 编写的全栈应用框架，旨在替代 React 在桌面、Web 和移动端的开发体验。它利用 Rust 的安全性和性能优势，同时支持类似 React 的声明式 UI 编写方式。最吸引人的是它允许同一套代码运行在多个平台，包括原生桌面和移动应用，这对追求跨平台一致性和高性能的 Rust 开发者来说是一个极具潜力的工具。",
+    "summary_en": "Dioxus is a full-stack app framework written in Rust, aiming to replace React for desktop, web, and mobile development. It leverages Rust's safety and performance while offering a React-like declarative UI writing experience. Most notably, it allows the same codebase to run on multiple platforms including native desktop and mobile apps, making it a powerful tool for Rust developers seeking cross-platform consistency and high performance."
+  },
+  "gh-daily-AstrBotDevs-AstrBot": {
+    "summary_zh": "AstrBot 是一个 AI 智能体助手兼开发框架，集成了大量即时通讯平台、大语言模型、插件和 AI 功能，旨在成为类似 openclaw 的替代方案。它让开发者可以快速搭建跨平台的 AI 助手，支持灵活的插件扩展和多模型切换。对于想要在微信、Discord 等渠道部署智能对话机器人或自动化工作流的团队，这是一个开箱即用的高效方案。",
+    "summary_en": "AstrBot is an AI agent assistant and development framework that integrates numerous IM platforms, large language models, plugins, and AI features, positioning itself as an alternative to openclaw. It enables developers to quickly build cross-platform AI assistants with flexible plugin extensions and multi-model switching. For teams looking to deploy intelligent chatbots or automated workflows on WeChat, Discord, and other channels, it provides an out-of-the-box efficient solution."
+  },
+  "36kr-3904844399445638": {
+    "summary_zh": "谷歌被曝正在秘密研发一款专为 Gemini 模型优化的人工智能芯片，其能效据称达到了现有 TPU 的十倍。这款神秘芯片的设计目标是“焊死”在 Gemini 上，实现软硬件深度绑定，从而大幅降低推理成本并提升性能。如果消息属实，这将改变 AI 芯片市场的格局，尤其对大规模部署 Gemini 应用的企业来说，意味着更低的运营成本和更强的竞争力。",
+    "summary_en": "Google is reportedly secretly developing a custom AI chip specifically optimized for its Gemini model, claiming energy efficiency ten times that of current TPUs. This mysterious chip aims to tightly couple hardware and software with Gemini, significantly reducing inference costs and boosting performance. If true, this could reshape the AI chip landscape, especially for enterprises deploying Gemini at scale, offering lower operational costs and stronger competitiveness."
+  },
+  "36kr-3906043683296648": {
+    "summary_zh": "今日多项热点：怡颗莓就“检出致癌物”事件作出回应，否认产品存在安全问题；美团否认推出“本科专送”“硕士优送”等分类配送服务，称传闻系谣言；美国方面则向三星电子和 SK 海力士施压，要求其分享因芯片市场波动获得的超额利润。这些动态分别涉及食品安全、劳动力歧视和国际贸易博弈，各自引发广泛关注。",
+    "summary_en": "Today's hot topics: Berry & Berry responded to claims of detecting carcinogens in their products, denying any safety issues. Meituan denied launching delivery services labeled as 'Bachelor's Degree Exclusive' or 'Master's Degree Premium', calling them rumors. The U.S. government urged Samsung Electronics and SK Hynix to share excess profits from chip market fluctuations. These developments touch on food safety, labor discrimination, and international trade dynamics, each sparking widespread attention."
+  },
+  "36kr-3904937240364936": {
+    "summary_zh": "黄仁勋的'达链'闭环了，指的是英伟达从芯片设计到AI数据中心的全栈生态终于打通。过去依赖外部代工和软件适配，如今英伟达自研CPU、GPU、网络和软件平台，形成完整供应链闭环。这对数据中心客户意味着更高效的部署和更低的总拥有成本，但也让竞争对手难以复制其一体化优势。",
+    "summary_en": "Jensen Huang's 'DA Chain' has closed the loop, referring to NVIDIA's achievement of a full-stack ecosystem from chip design to AI data centers. Previously reliant on external foundries and software adaptation, NVIDIA now integrates its own CPUs, GPUs, networking, and software platform into a seamless supply chain. This gives data center customers more efficient deployment and lower total cost of ownership, while making it harder for competitors to replicate such integrated advantages."
+  },
+  "36kr-3904914616747399": {
+    "summary_zh": "美国大模型开始借鉴DeepSeek的架构，标志着中国AI技术路线首次被海外主流团队效仿。DeepSeek通过稀疏注意力、MoE优化等创新，在保持性能的同时大幅降低训练成本。如今美国团队直接沿用其设计，说明中国在开源大模型领域的创新已获得国际认可，也意味着AI竞争从拼算力转向拼架构效率。",
+    "summary_en": "American large language models are now adopting DeepSeek's architecture, marking the first time a Chinese AI technical approach has been emulated by mainstream overseas teams. DeepSeek's innovations in sparse attention and MoE optimization significantly cut training costs while maintaining performance. The fact that US teams are directly replicating this design shows that China's open-source AI innovation has gained international recognition, shifting the competition from raw compute power to architectural efficiency."
+  },
+  "36kr-3904870603900291": {
+    "summary_zh": "磁吸背屏手机突然流行起来，但各家玩法完全不同：影石和海信更强调实用功能，比如用背屏显示信息或辅助拍摄；而OPPO和荣耀则把背屏做成情感化的'情绪搭子'，可以显示动态表情、天气或自定义动画。这种差异化说明厂商正在探索如何用第二块屏幕创造社交价值和用户粘性，而不仅仅是堆砌硬件。",
+    "summary_en": "Magnetic back-screen phones are suddenly all the rage, but each brand takes a different approach. Insta360 and Hisense focus on practicality—using the back screen for information display or camera assistance. OPPO and Honor, on the other hand, treat it as an 'emotional companion' that shows animated emojis, weather, or custom animations. This divergence shows manufacturers are exploring how a second screen can create social value and user stickiness beyond sheer hardware gimmicks."
+  },
+  "36kr-3904814486718342": {
+    "summary_zh": "欧林生物近期受到市场关注，但投资者仍对'重庆啤酒的痛'记忆犹新。当年重庆啤酒因乙肝疫苗研发失败股价暴跌，如今欧林生物同样押注创新疫苗，市场担心历史重演。尽管欧林在破伤风疫苗等领域有优势，但核心管线的不确定性让股民难以释怀，提醒生物科技投资要警惕单产品依赖风险。",
+    "summary_en": "Olym Bio has caught market attention recently, but investors haven't forgotten 'Chongqing Beer's pain'. That company saw its stock crash after a hepatitis B vaccine failure. Now Olym Bio is also betting big on innovative vaccines, and the market worries history might repeat. Despite Olym's strengths in tetanus vaccines, the uncertainty around its core pipeline keeps shareholders uneasy—a cautionary tale about single-product risk in biotech investing."
+  },
+  "36kr-3904680471988100": {
+    "summary_zh": "困扰数学家张益唐七年的雅可比猜想，竟被名为Fable 5的AI工具在一夜之间推翻证伪。Fable 5通过自动推理和搜索反例，发现该猜想在特定条件下不成立，直接终结了多年的学术争议。这件事让数学界既震惊又兴奋——AI不仅能辅助证明，还能彻底否定经典猜想，预示着计算数学工具将在理论发现中扮演更激进的角色。",
+    "summary_en": "The Jacobian Conjecture, which tormented mathematician Yitang Zhang for seven years, was overturned and falsified overnight by an AI tool called Fable 5. Using automated reasoning and counterexample search, Fable 5 found that the conjecture fails under certain conditions, ending years of academic debate. The mathematics community is both shocked and thrilled—AI not only assists in proofs but can now outright debunk classic conjectures, signaling that computational tools will play an even more aggressive role in theoretical discovery."
+  },
+  "36kr-3904731682096520": {
+    "summary_zh": "中国新茶饮品牌赴日开店曾引发热潮，但如今却纷纷遭遇滑铁卢。日本市场消费习惯保守、本土饮品竞争激烈，加之品牌溢价不被接受，导致这些茶饮品牌难以盈利。这个现象揭示了跨界出海时文化适配和本地化策略的重要性，也给其他计划出海的消费品牌敲响了警钟。",
+    "summary_en": "Chinese new-style tea brands expanded into Japan with high hopes, only to face a Waterloo. Conservative consumer habits, fierce competition from established local drinks, and a rejection of premium pricing have made profitability elusive. This serves as a cautionary tale about the critical need for cultural adaptation and localization strategies when Chinese consumer brands venture overseas."
+  },
+  "36kr-3904889544672644": {
+    "summary_zh": "数码产品市场出现罕见分化：手机和电脑因芯片短缺和原材料涨价而价格飞涨，但相机市场却因为手机摄影的冲击和需求萎缩而价格雪崩。对消费者而言，现在入手相机是抄底的好时机，而买手机电脑则要多掏钱。这种价格倒挂背后是技术迭代和消费习惯的深刻变革。",
+    "summary_en": "The electronics market is seeing a peculiar divergence: smartphones and PCs are skyrocketing in price due to chip shortages and rising component costs, while cameras are crashing in value as smartphone photography eats their lunch. For consumers, it's a great time to buy a camera bargain but a painful one for phones or laptops. This price inversion reflects deep shifts in technology cycles and consumer behavior."
+  },
+  "36kr-3906062371263874": {
+    "summary_zh": "谷歌连夜发布Gemini 4系列模型，一口气推出Ultra、Pro和Nano三个版本，覆盖从云端到端侧的全场景。新模型在推理、多模态能力上大幅提升，并开始集成到谷歌搜索和办公套件中。这意味着AI助手将变得更聪明、更实时，开发者也能基于此构建更强大的应用，AI竞争进入新阶段。",
+    "summary_en": "Google dropped the Gemini 4 family overnight, releasing three models — Ultra, Pro, and Nano — spanning cloud to on-device. These models boast major leaps in reasoning and multimodal capabilities, and are already being integrated into Google Search and Workspace. This means AI assistants are about to get smarter and more real-time, and developers have a new foundation for powerful apps. The AI race just shifted gears."
+  },
+  "infoq-kiNAVcGoJjaVXvJGZpyK": {
+    "summary_zh": "Loop Engineering提出一种新颖的业务研发方法，将系统故障处理划分为事前预防、事中响应和事后复盘三个阶段。通过在每个环节嵌入自动化检测、隔离和恢复机制，能显著降低故障对业务的影响。这个架构特别适合追求高可用和快速迭代的互联网团队，它让稳定性不再靠人工加班，而是成为一种系统工程能力。",
+    "summary_en": "Loop Engineering introduces a novel approach to business development by structuring fault handling into three phases: before (prevention), during (response), and after (review). By embedding automated detection, isolation, and recovery into each stage, it dramatically reduces the impact of failures on operations. This architecture is ideal for internet teams chasing high availability and fast iteration, turning reliability from a manual firefight into an engineering discipline."
+  },
+  "infoq-AWhEVVgvNquuiKZdRQ0H": {
+    "summary_zh": "无问芯穹提出Agentic Infra的概念，认为未来的AI生产力要无缝打通数字世界和物理世界，必须依赖这样的智能基础设施。它提供统一的算力调度、数据管理和智能体编排能力，让机器人、自动驾驶和工业AI等应用能够高效协作。这不仅是技术栈的升级，更是AI从单点应用迈向全场景自动化的关键底座。",
+    "summary_en": "Infinite Foundry puts forward the concept of Agentic Infra, arguing that all AI productivity spanning the digital and physical worlds requires such an intelligent infrastructure. It unifies compute orchestration, data management, and agent coordination, enabling robots, autonomous driving, and industrial AI to collaborate efficiently. This isn't just a tech stack upgrade — it's the foundational layer that moves AI from isolated applications to full-scenario automation."
+  },
+  "infoq-01aguG1Yrgxl0bpmfZps": {
+    "summary_zh": "摩尔线程国产GPU成功训练出世界模型，标志着国产GPU行业从单纯参数竞赛转向实际应用能力的分水岭。当其他厂商还在比拼硬件参数时，摩尔线程已经实现了AI大模型训练的真实突破，对于推动国产AI生态发展和算力自主可控具有里程碑意义。",
+    "summary_en": "Moore Threads has trained a world model using its domestic GPU, marking a watershed moment for the Chinese GPU industry. While competitors are still competing on hardware specifications, Moore Threads has demonstrated real-world AI training capability. This breakthrough shows that domestic GPUs can handle advanced AI workloads, which is critical for building a self-sufficient AI ecosystem and reducing dependence on foreign chips."
+  },
+  "infoq-jc1vll7xctqYlopcwIKe": {
+    "summary_zh": "神州数码推出企业AI流程系统和智算产品，致力于打通AI应用与算力资源之间的壁垒。该方案帮助企业简化AI部署流程、优化算力使用效率，降低了企业应用AI的技术门槛和成本，对于推动企业数字化智能化转型具有实际价值。",
+    "summary_en": "Digital China has launched an enterprise AI workflow system and intelligent computing products, aiming to connect AI applications with computing power resources. The solution simplifies AI deployment and optimizes resource utilization, lowering the technical barriers and costs for enterprises to adopt AI. This move accelerates digital and intelligent transformation for businesses of all sizes."
+  },
+  "infoq-bkhkOrQYPuIN672g20hi": {
+    "summary_zh": "亚马逊云科技分享了一个客户案例，详细描述了如何将AWS Lambda函数扩展至100万个并发实例。该案例展示了无服务器架构在超大规模弹性扩展方面的实践方法，为需要处理海量请求或突发流量的开发者提供了宝贵的参考，证明了Lambda在生产环境中的极限能力。",
+    "summary_en": "AWS outlined how a customer scaled its Lambda functions to 1 million concurrent executions. The case study demonstrates the extreme elasticity of serverless computing and provides practical insights into handling massive workloads. It serves as a valuable reference for developers building highly scalable applications, showing that Lambda can handle unprecedented traffic spikes while maintaining performance and cost efficiency."
+  },
+  "infoq-MgFehj2q2FJFrf6XvEco": {
+    "summary_zh": "文章探讨了开源模式在平台工程中的重要作用，说明开源如何促进跨团队协作、共享组件和最佳实践。通过开源，团队可以避免重复造轮子，加速平台构建，并借助社区智慧持续改进系统。这对于平台工程师和DevOps团队提升开发效率和创新能力具有实际意义。",
+    "summary_en": "This article explores how open source fosters collaboration in platform engineering. By sharing components, best practices, and code, teams can avoid reinventing the wheel and build platforms faster. Open source enables cross-team cooperation and leverages community contributions to improve systems. This approach is especially beneficial for platform engineers and DevOps teams aiming to accelerate development and innovate more efficiently."
+  },
+  "infoq-6aAupoiW1H6WqbR0kO7W": {
+    "summary_zh": "OpenAI在调试系统崩溃时，创新地采用类似流行病学的研究方法进行根因分析，最终发现并修复了GNU libunwind库中一个存在18年的漏洞。这一过程展示了将系统调试与数据分析相结合的独特思路，对于软件开发者具有启发意义，也强调了开源社区合作修复关键底层漏洞的重要性。",
+    "summary_en": "OpenAI treated a crash debugging process like an epidemiological investigation, ultimately identifying and fixing an 18-year-old bug in GNU libunwind. This creative approach combined system debugging with data analysis, offering a fascinating lesson for software developers. The fix benefits the entire open source community by addressing a long-standing vulnerability in a widely used library, highlighting the value of rigorous debugging methods and cross-team collaboration."
+  },
+  "infoq-58Vmogt2bAU6ciTIAuDt": {
+    "summary_zh": "龙虾之父的一条推文引发了技术圈的震荡，暗示着曾风靡一时的 Loop 框架可能走向终结。作为早期微服务架构的倡导者，Loop 一度被众多开发者追捧，但如今创始人的公开表态让社区陷入迷茫。这一事件让人们重新思考框架过度依赖单一灵魂人物的风险，也提醒我们在技术选型时需更加审慎。",
+    "summary_en": "A single tweet from the 'father of Lobster' has sent shockwaves through the tech community, hinting at the possible end of the Loop framework. Loop, once a darling of microservices architecture, enjoyed widespread adoption, but its creator's public remarks now leave developers uncertain. This incident underscores the risks of relying too heavily on a single visionary in open-source projects and prompts teams to rethink their framework dependencies and long-term viability."
+  },
+  "infoq-pwI9ti1vx0uPcSZRg9zL": {
+    "summary_zh": "本期 Java 新闻汇总了多个重要更新：TornadoVM 5 带来 GPU 加速改进，JHipster 推出新版本简化微服务搭建，Google ADK 发布助力 Android 开发，OmniFish 带来 Payara 社区构建版，以及 Vidocq 工具的正式发布。这些更新涵盖了性能优化、开发效率提升和生态扩展，对于 Java 开发者来说是值得关注的一轮技术迭代。",
+    "summary_en": "This Java news roundup covers key updates: TornadoVM 5 improves GPU acceleration for Java; JHipster delivers a new release to streamline microservice scaffolding; Google ADK launches to assist Android development; OmniFish introduces a community build of Payara; and Vidocq tool goes official. These releases collectively boost performance, developer productivity, and ecosystem expansion, making them essential reads for Java developers tracking the latest tooling and runtime advances."
+  },
+  "hn-48977128": {
+    "summary_zh": "一篇讨论引发了关于中国 AI 模型是否值得担忧的辩论。随着 DeepSeek 等国产模型在国际上崭露头角，一些人开始担心数据隐私和安全问题，但也有人认为这只是技术竞争的自然结果。文章指出，过度恐惧可能并非必要，关键是要基于事实而非情绪来评估风险，同时关注开源与合作带来的机遇。",
+    "summary_en": "A Hacker News discussion explores whether Chinese AI models should be feared. As models like DeepSeek gain international traction, concerns about data privacy and security emerge. However, some argue this is just normal tech competition. The piece suggests that overblown fear is unwarranted, urging a fact-based risk assessment instead of emotional reactions, while highlighting opportunities from open-source collaboration and global innovation."
+  },
+  "hn-48978605": {
+    "summary_zh": "一名黑客成功入侵罗马尼亚的国家土地登记系统，并删除了整个数据库，导致数百万条土地所有权记录丢失。这次攻击不仅影响了政府运作，还给房地产交易和产权认证带来了巨大混乱。安全专家警告，此类针对关键基础设施的破坏性攻击正变得越来越普遍，各国需要加强网络安全防御体系。",
+    "summary_en": "A hacker infiltrated Romania's national land registry system and wiped the entire database, causing the loss of millions of land ownership records. The attack disrupted government operations and plunged real estate transactions and title verification into chaos. Security experts warn that such destructive attacks on critical infrastructure are becoming more common, highlighting the urgent need for stronger cybersecurity measures worldwide."
+  },
+  "hn-48997548": {
+    "summary_zh": "OpenAI 与 Hugging Face 联合披露了一起在模型评估过程中发现的安全事件，涉及潜在的数据泄露风险。两家公司迅速响应，修补了漏洞并加强了评估流程的防护措施。这一事件突显了 AI 模型评估环节的安全性不容忽视，特别是在第三方协作和开放测试环境中，更需要建立严格的安全审查机制。",
+    "summary_en": "OpenAI and Hugging Face disclosed a security incident that occurred during a model evaluation, involving potential data exposure risks. Both companies responded quickly, patching the vulnerability and reinforcing security protocols in the evaluation pipeline. This incident highlights that AI model evaluation stages are not immune to attacks, especially in collaborative and open-testing environments, underscoring the need for rigorous security review processes to protect sensitive data."
+  },
+  "hn-48981703": {
+    "summary_zh": "Kimi Work是一款面向职场团队的协作效率工具，它将任务管理、日程同步与即时通讯功能融为一体，帮助团队减少信息孤岛。其亮点在于智能化的优先级排序和自动化工作流，尤其适合远程办公团队或需要跨部门协作的场景。",
+    "summary_en": "Kimi Work is a productivity platform designed for workplace teams, combining task management, calendar sync, and instant messaging to reduce information silos. Its standout feature is intelligent priority sorting and automated workflows, making it ideal for remote teams or cross-department collaboration scenarios."
+  },
+  "hn-48981620": {
+    "summary_zh": "Jelly UI是一个为原生HTML表单控件添加软体物理效果的开源库，让输入框、按钮等元素在交互时产生弹性形变和自然回弹。它提升了表单操作的趣味性与反馈感，开发者无需复杂代码就能实现类似Apple Vision Pro风格的动态界面。",
+    "summary_en": "Jelly UI is an open-source library that adds soft-body physics to native HTML form controls, making inputs and buttons exhibit elastic deformation and natural bounce on interaction. It enhances the fun and feedback of form actions, allowing developers to create Apple Vision Pro-style dynamic interfaces without complex code."
+  },
+  "ph-1197421": {
+    "summary_zh": "Lev8是一个线索挖掘与联系人发现工具，帮助销售、招聘和市场人员精准找到目标人群，并快速获取其联系方式及背景信息。它整合了多渠道数据透视，减少手动搜索时间，特别适合B2B获客或高管招聘场景。",
+    "summary_en": "Lev8 is a lead generation and contact discovery tool that helps sales, recruitment, and marketing professionals precisely find target people and quickly obtain their contact info and background. It integrates multi-channel data profiling to reduce manual search time, making it especially useful for B2B prospecting or executive recruiting."
+  },
+  "ph-1160224": {
+    "summary_zh": "CartAI是一个AI购物助手，能够自动完成电商网站上的结账流程，包括填写地址、选择支付方式等。它解决了手动重复填表的痛点，适合经常网购或抢购限量商品的用户，也适用于开发者测试结账环节。",
+    "summary_en": "CartAI is an AI agent that automates the checkout process on e-commerce sites, handling address entry, payment selection, and more. It solves the pain point of repetitive manual form filling, making it ideal for frequent online shoppers or those racing for limited-edition items, as well as developers testing checkout flows."
+  },
+  "ph-1200759": {
+    "summary_zh": "ditto.site是一款免费开源工具，能够将任意网站克隆为整洁、可编辑的HTML/CSS代码。它一键抓取页面结构并去除了冗余脚本，适合前端开发者快速获取参考布局或设计师提取灵感。完全开源且无需注册。",
+    "summary_en": "ditto.site is a free, open-source tool that clones any website into clean, editable HTML and CSS code. It captures the page structure with one click and strips out redundant scripts, making it handy for front-end developers to obtain reference layouts or for designers to extract inspiration. It's fully open source and requires no sign-up."
+  },
+  "juejin-7663426727991164991": {
+    "summary_zh": "Kimi 的 K3 模型实测表现确实强悍，但致命缺陷是配额太少，一周的额度在一天内就用完了，只生成了五个测试页面。从这几个例子看，有的生成效果很棒，有的却不尽如人意，甚至有些糟糕。作者强调自己并非收钱办事，而是真实体验，这让 K3 的实际可用性打了折扣。",
+    "summary_en": "The author tested Kimi's K3 model and found it genuinely powerful, but the critical issue is its extremely limited quota. A week's worth of quota was exhausted in just one day, allowing only five test page generations. Among the examples, some results were impressive while others were disappointing or even poor. The author stresses this is an unbiased review, highlighting that K3, despite its strength, suffers from severe availability constraints that undermine its practical use."
+  },
+  "juejin-7664248618913660955": {
+    "summary_zh": "昨天还在疯狂测试 Kimi K3，今天就听说它停售了。K3 火爆到全球关注，结果直接停售，此前的 GLM 5.2 也是因太火而一直限购。这让人感叹，国外的大模型抢不到就算了，现在国内热门的模型也如此难获取，国内用户想用好模型实在太难了。",
+    "summary_en": "Just yesterday the author was busy testing Kimi K3, and today news broke that it has been discontinued for sale. K3 became so popular globally that sales were halted, similar to the earlier GLM 5.2 which also remained under purchase restrictions due to high demand. This situation highlights the difficulty domestic users face in accessing hot AI models—it's not just foreign models that are hard to get, but now even domestic ones are equally elusive."
+  },
+  "zhihu-2061915732447687216": {
+    "summary_zh": "有网友发现现在很多 KTV 的屏幕上不再是传统 MV，而是充斥着由 AI 生成的奇怪画面。这种现象引发了广泛讨论，大家好奇为什么会发生这样的变化，以及 AI 画面是否影响了唱歌体验。这背后可能涉及版权成本、内容制作效率以及 KTV 行业的数字化转型趋势。",
+    "summary_en": "A netizen noticed that many KTV rooms now play bizarre AI-generated visuals instead of traditional music videos, sparking discussions about why this change is happening and how it affects the singing experience. The shift likely relates to copyright costs, content production efficiency, and the digital transformation trend in the KTV industry. This phenomenon raises questions about the balance between technology convenience and user experience in entertainment venues."
+  },
+  "zhihu-2062927366180157304": {
+    "summary_zh": "围棋顶尖棋手申真谞以二比一的比分击败了围棋人工智能 KataGo，这一结果引发了热议。虽然 KataGo 并不像 AlphaGo 那样顶尖，但人类棋手能在让先或特定条件下战胜 AI，仍然展示了人类智慧与 AI 博弈的微妙之处。这场胜利是否说明人类仍有突破口，还是暴露了 AI 的局限性，值得深思。",
+    "summary_en": "Top Go player Shin Jin-seo defeated the Go AI KataGo with a 2–1 score, sparking heated discussion. While KataGo is not as dominant as AlphaGo, a human victory under handicap or specific conditions still demonstrates the subtle interplay between human intuition and AI calculation. This outcome raises questions about whether humans can still find breakthroughs against AI or if it reveals limitations in current Go AI systems, offering valuable insights for the ongoing human-AI competition."
+  },
+  "zhihu-2061356466783642903": {
+    "summary_zh": "Kimi 的新模型 K3 在跑分上力压 Claude Fable 5 登顶排行榜，这无疑将对大模型市场格局产生重大影响。K3 的强势表现意味着国产模型在技术实力上迈上了新台阶，可能改变行业竞争态势，促使其他厂商加速迭代。但跑分能否转化为实际应用优势，还有待观察。",
+    "summary_en": "Kimi's new model K3 has topped the benchmark rankings, surpassing Claude Fable 5, which is set to significantly impact the landscape of large language models. This achievement signals that domestic models have reached a new level of technical prowess, potentially reshaping industry competition and pushing other developers to accelerate their iterations. However, whether the benchmark success will translate into real-world application advantages remains to be seen, as the gap between rankings and practical utility is still a key consideration."
+  },
+  "zhihu-2062587249968129781": {
+    "summary_zh": "一对情侣用AI识别野生菌毒性，兴致勃勃采了十多斤，结果被当地小孩哥“火眼金睛”筛选后只剩两斤可食用。这有趣的一幕背后，折射出AI在特定场景下的局限性：AI基于图片与数据库比对，但野生菌外观相似、变异大，而小孩哥依靠的是当地世代相传的经验，对细微气味、质地甚至生长环境都了如指掌。对于经常户外野采或依赖AI识别的人而言，这提醒我们：AI是工具，但绝不能替代真实世界的经验鉴别，尤其涉及生命安全时，本地知识往往更可靠。",
+    "summary_en": "A couple used AI to identify poisonous mushrooms and proudly collected over ten pounds, only to have a local child winnow them down to just two pounds of safe-to-eat ones. This charming incident highlights a critical gap: AI mushrooms identification relies on image databases and struggles with visual variants, while the child's knowledge comes from generations of hands-on local wisdom about smell, texture, and habitat. For outdoor enthusiasts and AI-reliant novices, the takeaway is clear—AI is a handy assistant, but when safety is at stake, nothing beats human expertise passed down through local experience."
+  },
+  "zhihu-2063033606767895735": {
+    "summary_zh": "谷歌最新发布了两款Gemini模型：3.6 flash注重快速推理与低成本，适合实时应用；3.5 lite则是轻量版，面向边缘设备。但备受期待的Pro版本再次缺席，让人不禁疑惑。从战略上看，谷歌似乎在有意拉开产品线：先用flash抢占高频、低延迟场景（如聊天机器人），再用lite覆盖手机、IoT等端侧需求，而Pro作为旗舰级模型，可能还在打磨或等待更好的发布时机。对于开发者来说，这意味着可以先用这些特化版本做产品原型，但追求顶尖推理能力的用户还需再等等。",
+    "summary_en": "Google quietly launched two new Gemini models: 3.6 Flash, optimized for fast inference and low cost, and 3.5 Lite, a lightweight variant for edge devices. But the Pro model is again missing, raising eyebrows. Strategically, Google seems to be segmenting its lineup—Flash targets real-time chat and high-frequency tasks, while Lite fits mobile and IoT. Pro, the flagship, may still be in refinement or awaiting a bigger launch window. For developers, this means practical tools for prototyping are here, but those seeking state-of-the-art reasoning power will have to wait longer."
+  },
+  "zhihu-2061768835326292798": {
+    "summary_zh": "Anthropic的Claude Fable 5最近从Pro订阅计划中撤出，仅保留在更昂贵的Max计划中。这一调整看似突然，实则合情理：Fable 5作为创意写作专长模型，其高计算成本使其难以在月费20美元的Pro计划中盈利。保留Max用户独享，既能维持高质量服务，又符合高端用户的付费意愿。对普通Pro用户而言，虽少了这个“作家助手”，但Claude的核心能力依然可用；而对专业创作者或企业来说，Fable 5的价值在于它几乎能写出媲美人类的小说段落，贵有贵的道理。",
+    "summary_en": "Anthropic has quietly removed Claude Fable 5 from its Pro subscription, making it exclusive to the pricier Max plan. Behind this move is simple economics: Fable 5, a model specialized for creative writing, is computationally expensive to run, and the $20/month Pro tier couldn't sustain it profitably. By keeping it in Max, Anthropic ensures the model's quality while aligning with high-paying users' expectations. For regular Pro subscribers, it's a loss of a unique writer's assistant, but core Claude capabilities remain. For serious novelists and content studios, Fable 5's ability to craft human-like prose justifies the upgrade."
+  },
+  "zhihu-422144033": {
+    "summary_zh": "“一切皆文件”是Linux的设计哲学，意思是系统把设备、进程、网络连接等几乎所有资源都抽象成文件接口。比如键盘、硬盘、打印机，你都可以用读写文件的方式去操作它们：打开、读取、写入、关闭。这大大简化了编程模型，让统通用工具（如cat、grep、重定向）就能处理各种资源。对于新手，理解这个理念是掌握Linux终端的钥匙；对于开发者，这意味着可以用统一API操作硬件与系统，降低开发复杂度。简单来说，就是“万物皆可当作文件来玩”。",
+    "summary_en": "In Linux, 'everything is a file' is a core philosophy that treats almost any system resource—devices, processes, sockets, even kernel data—as if they were regular files. This means you can open a keyboard, read from a microphone, or write to a hard drive using the same read/write/close operations you'd use on a text file. It massively simplifies programming: common tools like cat, grep, or redirection work on all sorts of resources. For beginners, grasping this unlocks the true power of the command line. For developers, it reduces complexity by providing a uniform API to interact with hardware and system internals. Essentially, it turns everything into something you can 'play with like a file'."
   }
 }
