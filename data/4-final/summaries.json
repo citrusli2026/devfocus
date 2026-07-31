@@ -6686,5 +6686,161 @@
   "hn-49098510": {
     "summary_zh": "HN 热门：Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac",
     "summary_en": "Trending on HN: Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac"
+  },
+  "infoq-v1VMBH1RxmXyHvD6vo2d": {
+    "summary_zh": "情报虾是一款跨平台情报收集工具，通过skills能力一键扫荡小红书、微博和B站，把分散在不同平台的热点、趋势和用户反馈整合在一起。对运营、媒体人和市场研究人员来说，不必再手动切换多个应用，只需一个入口就能掌握全网络动态，大幅提升信息采集与分析的效率。",
+    "summary_en": "Qingbao Xia is a cross-platform intelligence gathering tool that leverages skills to sweep Xiaohongshu, Weibo, and Bilibili in one click. It aggregates trending topics, user feedback, and insights from scattered platforms into a single dashboard. This saves social media operators, journalists, and market researchers from constant app switching, giving them a unified view of public sentiment and viral content. The tool matters because manual monitoring is slow and error-prone; automating collection lets teams focus on analysis and decision-making. Anyone tracking online trends or brand reputation would benefit from this practical automation."
+  },
+  "infoq-msL3K1DAsj3XIwLmd4tN": {
+    "summary_zh": "这篇文章探讨了Expedia为何没有盲目追随AI Agent潮流，而是采用确定性工作流来构建AI运维平台。相比完全交给智能体自主决策，确定性流程更能保证操作的可控性与稳定性，特别适合处理线上故障排查、系统监控等高风险场景。它提醒我们，在某些运维任务中，明确规则与人工干预依然比全自动智能体更可靠。",
+    "summary_en": "This article explains why Expedia chose deterministic workflows over AI Agents for its AI operations platform. Instead of letting autonomous agents make decisions, Expedia relies on predefined, predictable processes to ensure control and stability in high-risk scenarios like incident response and system monitoring. The key insight is that not every problem needs an intelligent agent; some operational tasks are better served by explicit rules and human oversight. This matters because it challenges the hype around agentic AI, showing that deterministic automation can be more reliable and easier to troubleshoot in production environments. DevOps teams and platform engineers would benefit from understanding when to choose workflow-based automation over flexible agents."
+  },
+  "infoq-NMXxssS9qB8LtRlWMr5V": {
+    "summary_zh": "文章回顾了从GPT-2到Kimi K3七年间大模型规模扩大2.26万倍的历程，指出架构演进的主线其实是在建立一套'记忆操作系统'。模型越来越大，本质上是为了更好地存储、调用和组织知识，就像操作系统管理内存与文件一样。这一视角帮助理解上下文窗口、注意力机制和检索增强等技术方向，对研究大模型发展脉络的人很有启发。",
+    "summary_en": "This piece traces the evolution from GPT-2 to Kimi K3, noting that model scale has grown 22,600 times in seven years. The author argues that the main architectural trend is effectively building a 'memory operating system' for AI. As models grow larger, they better store, retrieve, and organize knowledge, much like an OS manages memory and files. This framing clarifies why research focuses on context windows, attention mechanisms, and retrieval augmentation. It offers a unifying perspective for understanding large model development and helps researchers, engineers, and tech observers see beyond raw parameter counts to the deeper challenge of memory management."
+  },
+  "infoq-s2ZOVJgO0ytfzxIAK7DB": {
+    "summary_zh": "办公虾是一款专注办公效率的skills工具，可以秒级部署，迅速联动Excel、Word等办公软件，把重复性操作自动化。用户无需复杂编程，只需调用skills就能完成报表生成、文档处理等任务，效率翻倍。对于经常处理表格和文件的行政、财务、运营人员来说，是一个非常实用的轻量级自动化助手。",
+    "summary_en": "Bangong Xia is a productivity-focused skills tool that deploys in seconds and connects with office software like Excel and Word. It automates repetitive tasks such as generating reports, formatting documents, and processing data, without requiring users to write complex code. By calling pre-built skills, administrative staff, finance professionals, and operations teams can double their efficiency and reduce manual errors. The tool matters because office automation is often gated by technical skill; this removes that barrier and makes workflow automation accessible to everyone. It is a lightweight, practical assistant for anyone who lives in spreadsheets and documents."
+  },
+  "infoq-B2GjIEBr0c1L0amoKmNf": {
+    "summary_zh": "这篇深度访谈探讨了当AI Agent获得数据库操作权限后，权力结构正在发生第二次转移。过去决策权从业务人员转向IT部门，如今Agent可以直接读写数据、执行查询，意味着业务人员能更自主地获取洞察，但同时也带来了数据安全与治理的新挑战。文章适合关注数据平台、AI应用落地和企业治理的读者思考。",
+    "summary_en": "This in-depth interview explores a 'second power shift' in enterprise data: AI Agents are now taking direct action on databases. Previously, decision-making moved from business users to IT departments; now agents can query, read, and write data autonomously, giving business users more independence and faster access to insights. However, this shift also raises serious concerns about data security, access control, and governance. The conversation is relevant for data platform teams, AI application developers, and enterprise leaders who must balance autonomy with accountability. It highlights the need for new guardrails as agents become more involved in operational decisions."
+  },
+  "hn-49103285": {
+    "summary_zh": "这篇文章指出，顶尖AI创业公司目前几乎不再公开发表研究成果，这标志着从学术界开放传统向工业界保密策略的明显转变。这种趋势引发了关于可复现性、研究透明度和技术共享的担忧，对于依赖前沿公开成果的研究人员和行业观察者来说，了解其影响至关重要。",
+    "summary_en": "Top AI startups are increasingly keeping their research under wraps, a stark departure from the open publication culture of academia. This piece explores how the shift toward corporate secrecy affects reproducibility, transparency, and the broader AI ecosystem. Researchers and industry observers who rely on published breakthroughs to guide their work will find this analysis particularly relevant, as it raises important questions about the future of knowledge sharing in a field that once thrived on collective progress."
+  },
+  "ph-1208711": {
+    "summary_zh": "SKI是一款免费语音编程工具，支持Claude Code、Codex等主流AI编程助手，让开发者直接用自然语言口述代码指令，无需动手输入。它解决了程序员因键盘操作导致的肢体疲劳问题，同时也为行动不便的群体提供了更友好的编程方式。最吸引人的是它完全免费，降低了尝试门槛，是追求高效无障碍编程体验者的实用选择。",
+    "summary_en": "SKI is a free voice coding tool that works with popular AI assistants like Claude Code and Codex, letting developers dictate commands and code instructions naturally instead of typing. It addresses common issues like repetitive strain injuries and accessibility barriers, making programming more inclusive and comfortable. The fact that it's free lowers the entry barrier significantly, so anyone curious about hands-free development can simply plug it in and start speaking. For developers with physical discomfort or those just wanting a more ergonomic workflow, SKI offers a practical and approachable solution."
+  },
+  "ph-1187127": {
+    "summary_zh": "AI Search Console是一款专门为AI搜索时代打造的提示词分析和引用映射工具。它能帮助品牌和内容创作者追踪自己的内容在ChatGPT、Perplexity等AI搜索引擎中被引用的情况，查看哪些提示词触发了品牌提及，以及竞争对手的可见度如何。对于SEO专业人员、内容营销人员和关注品牌在线影响力的人来说，这是一款极具针对性的数据洞察平台。",
+    "summary_en": "AI Search Console provides prompt analytics and citation mapping for the fast-growing world of AI-powered search. It lets brands and content creators see exactly how their material gets referenced inside AI chatbots like ChatGPT and Perplexity, which prompts trigger brand appearances, and how they compare to competitors. This addresses the emerging challenge of tracking visibility in answer engines rather than traditional Google results. For SEO professionals, content marketers, and brand managers who want to understand their footprint in the AI search landscape, this tool offers essential clarity and actionable data in one focused dashboard."
+  },
+  "ph-1203499": {
+    "summary_zh": "Memmy Agent致力于解决AI记忆碎片化的问题，它创建一个统一的用户记忆层，让不同的AI助手和工具都能记住同一个你。无论你使用ChatGPT、Claude还是其他AI产品，你的偏好、背景信息和上下文都能被共享，从而获得高度个性化的连贯体验。对于重度AI用户和追求跨平台一致性的专业人士来说，这款工具能极大提升效率，减少重复介绍和重新设置带来的麻烦。",
+    "summary_en": "Memmy Agent builds a unified memory layer that lets every AI tool remember the same version of you. Instead of each chatbot or assistant starting from scratch, your preferences, background details, and context are shared across platforms, so the experience feels continuous and genuinely personal. This solves a common frustration for heavy AI users who constantly have to repeat themselves or lose important context when switching tools. Professionals who juggle multiple AI assistants in daily workflows will benefit the most, as Memmy reduces redundancy and makes every interaction more informed and tailored. It's an elegant step toward making AI truly understand you, not just handle isolated requests."
+  },
+  "ph-1138570": {
+    "summary_zh": "Denovo是一款帮助开发者把vibe coding快速搭建出的应用转化为实际收入的工具。很多用自然语言生成的代码原型往往停留在demo阶段，Denovo提供支付、订阅、用户管理等商业化功能集成，让这些应用能够轻松实现收费闭环。对于独立开发者、创业团队以及AI产品爱好者来说，这是连接创意原型与可持续商业模式的桥梁，能显著加速产品变现过程并验证市场价值。",
+    "summary_en": "Denovo helps developers turn vibe-coded apps—those quickly built with natural language prompts—into actual sources of revenue. While many such prototypes never leave the demo stage, Denovo provides easy integration for payments, subscriptions, user management, and other monetization essentials, completing the leap from fun experiment to viable business. It's designed for indie hackers, startup founders, and AI enthusiasts who want to validate their ideas without wrestling with complex billing infrastructure. By removing the friction around getting paid, Denovo lets builders focus on what they care about: making a product people love. This is a legitimate bridge between rapid AI-assisted creation and sustainable commercial success."
+  },
+  "ph-1208851": {
+    "summary_zh": "LangWatch 新推出的工具专门为 Claude Code 会话提供成本追踪服务，让开发者清楚知道每次编码会话实际花了多少钱。它能拆解 API 调用、token 消耗和耗时，帮助个人开发者或团队更好地控制 AI 编程预算，优化使用效率。对于重度依赖 Claude Code 的用户来说，这是一款非常实用的成本管理利器。",
+    "summary_en": "LangWatch has launched a new tool that tracks the real cost of your Claude Code sessions, breaking down API calls, token usage, and time spent. It helps developers and teams understand exactly what they're spending on AI coding, so they can manage budgets and optimize usage more effectively. For anyone relying heavily on Claude Code, this is a handy cost-control layer that turns vague anxiety about bills into clear, actionable data."
+  },
+  "juejin-7667495083470471177": {
+    "summary_zh": "一位携程员工透露自己在公司四年月薪约三万元且几乎没涨过，但他表示挺满足，因为工作稳定、福利不错。文章还附带了14道 Coding Agent 面试题的源码级解析，涵盖 Prompt 组装、上下文三层压缩、Tool 与 Skill 区别、多 Agent 编排、Plan 设计等，对准备 AI 智能体相关岗位的开发者很有参考价值。",
+    "summary_en": "A Ctrip employee shared that after four years at the company, his salary is still around 30,000 yuan a month with almost no raises, yet he feels satisfied because the job is stable and benefits are good. The post also includes detailed source-level answers to 14 Coding Agent interview questions, covering prompt assembly, three-layer context compression, the difference between tools and skills, multi-agent orchestration, and plan design. Developers prepping for AI agent roles will find this a valuable reference."
+  },
+  "zhihu-2066333638568972760": {
+    "summary_zh": "OpenAI 大幅下调 GPT-5.6 Luna 和 Terra 的价格，引发关于大模型是否进入价格战时代的讨论。降价意味着 OpenAI 试图以更低成本抢占市场份额，也反映出模型推理成本在持续下降。对开发者和企业来说是利好，但行业竞争加剧，中小模型厂商可能面临更大压力，未来价格战或成常态。",
+    "summary_en": "OpenAI's significant price cut for GPT-5.6 Luna and Terra has sparked debate over whether large models are entering an era of price wars. Lower prices suggest OpenAI is trying to capture more market share, and they also reflect continued declines in inference costs. This is good news for developers and enterprises, but intensifying competition could put smaller model providers under real pressure. A sustained price war across the industry may become the new normal."
+  },
+  "zhihu-2065915199089894895": {
+    "summary_zh": "媒体报道显示，因 AI 而裁员的公司中超过半数承认当初决策失误，许多企业已迅速反悔，重新招聘。原因在于他们高估了 AI 的即时产出能力，忽略了人类员工在复杂场景下的判断力和协作价值。这说明 AI 裁员浪潮并未真正结束，但企业开始从盲目用 AI 替代人力转向人机协作的理性调整。",
+    "summary_en": "Media reports suggest that more than half of companies that laid off workers due to AI now admit their decision was a mistake, and many are quickly reversing course. The reason is they overestimated AI's immediate productivity while overlooking human judgment and collaboration in complex scenarios. This doesn't mean the AI layoff wave is completely over, but companies are shifting from blindly replacing people with AI toward more rational human-AI collaboration."
+  },
+  "zhihu-2065810199877611641": {
+    "summary_zh": "SK 海力士股价暴跌超过17%，创下史上最大单日跌幅，引发市场震动。尽管 AI 芯片投资火热，但股价崩溃主要源于市场对内存芯片需求增长放缓的担忧，以及前期涨幅过大后的获利回吐。再加上行业竞争加剧和宏观不确定性，投资者对高估值产生疑虑，迫使芯片巨头股价大幅回调。",
+    "summary_en": "SK Hynix's stock plunged over 17%, marking its biggest single-day drop ever and shaking the market. Despite the ongoing AI chip investment boom, the collapse stems from growing worries about slowing memory chip demand growth, plus profit-taking after a massive rally. Intensifying competition and macroeconomic uncertainty have also made investors question high valuations, forcing the chip giant's shares into a sharp correction."
+  },
+  "zhihu-2065451751201661992": {
+    "summary_zh": "网传支付宝体验技术部被拆分，员工被分散到各业务线，并统一切换为「Agent 开发全栈工程师」。这反映出前端体验岗位正被AI重构，传统UI开发向智能体编排与全栈能力融合。对企业而言是降本增效，对个人则意味着技能栈必须扩展，否则面临边缘化。此举或许预示着大厂技术组织形态将围绕AI代理重新洗牌。",
+    "summary_en": "Reports say Alipay split its experience technology department, redistributing staff across business lines and converting them all into \"agent full-stack engineers.\" This signals a big shift in front-end and UX engineering: instead of building static interfaces, developers now orchestrate AI agents and integrate them with backend systems. The move reflects cost pressure and AI-driven productivity gains, but it also poses a career challenge—engineers must broaden their skills quickly. It could foreshadow how large tech companies restructure technical organizations around AI agents, making specialized UI teams less necessary."
+  },
+  "zhihu-13242386490": {
+    "summary_zh": "关于DeepSeek能否用来翻译书，讨论认为完全可行但需谨慎。它能快速生成流畅初译，大幅降低时间和成本，尤其适合技术文档、通俗小说等非文学类内容。但文学翻译需要风格、韵味和文化语境，机器仍易翻车，需要人工校对和润色。结论是把DeepSeek当作高效助理而非替代译者，才是现实路径。",
+    "summary_en": "DeepSeek can certainly be used to translate books, but with caveats. It produces fluid first drafts quickly, cutting time and cost dramatically—especially for technical manuals, business documents, and popular fiction where accuracy and clarity matter more than style. However, literary translation still poses a challenge: capturing tone, wordplay, and cultural nuance requires human sensibility. Machine output can sound flat or subtly wrong in context. The practical approach is to use DeepSeek as an efficient assistant, then have experienced editors polish the result. For non-literary works, it may be good enough with light revision; for serious literature, it remains a tool, not a replacement."
+  },
+  "zhihu-2041296249568188081": {
+    "summary_zh": "有人说美国制造业衰落，但SpaceX却展示了惊人的制造水平，这并不矛盾。SpaceX的强项不在传统大批量生产，而在高度垂直整合、快速迭代和工程创新，比如不锈钢火箭、猛禽发动机的量产化和可复用设计。它证明美国在尖端、复杂系统制造上仍有统治力，只是普通消费品制造已经转移。制造业不行与极强可以同时存在于不同赛道。",
+    "summary_en": "The claim that U.S. manufacturing is weak seems contradicted by SpaceX's impressive production capabilities—but the two can coexist. SpaceX excels not in mass consumer goods, but in vertically integrated, fast-iterating engineering for complex systems: stainless-steel rockets, mass-producible Raptor engines, and reusable vehicles. Its approach emphasizes rapid prototyping, in-house fabrication, and aggressive cost reduction, proving that American manufacturing remains world-class in high-tech, high-complexity niches. Traditional manufacturing like clothing, gadgets, and basic components moved overseas long ago. So \"declining\" manufacturing and \"extraordinary\" manufacturing both describe the U.S. accurately, just in different sectors."
+  },
+  "zhihu-2065143384034095215": {
+    "summary_zh": "针对美国拟对中国AI企业发起调查和制裁，商务部回应称这是典型的人工智能霸权主义行径。这种作法以安全为名，实则打压他国技术发展，破坏全球AI产业链合作与公平竞争。美国试图通过政治手段维持技术垄断，但反而会加速中国AI自主创新和国产替代。国际市场规则被工具化，长期看对全球技术进步没有好处。",
+    "summary_en": "In response to U.S. plans to investigate and sanction Chinese AI firms, China's commerce ministry called the move typical \"AI hegemony.\" While framed as national security, the action appears designed to suppress rivals and preserve U.S. technological dominance. It disrupts global AI supply chains and undermines fair competition. Analysts note that such pressure often backfires, pushing Chinese companies to accelerate self-reliance in chips, frameworks, and applications. Instrumentalizing trade rules for geopolitical ends harms the entire industry, raising costs and slowing innovation worldwide. For startups on both sides, this means greater uncertainty and a fragmented AI landscape."
+  },
+  "zhihu-666022955": {
+    "summary_zh": "目前AI的最强能力已远超普通人的日常认知：大模型能写代码、做数学推理、处理长文本、生成高质量图像视频，还能调用工具自主完成复杂任务。但它的强是窄而深的，依赖训练数据，缺乏真正的理解与常识，也会一本正经地胡说八道。最震撼的不只是单个模型能力，而是智能体与多模态结合后的自动化潜力。目前AI更像一个超强助手，离通用智能还有距离。",
+    "summary_en": "Today's AI is far more capable than most people realize. Large models can write production code, solve challenging math problems, analyze long documents, and generate realistic images and video—and when connected to tools, they can autonomously execute multi-step tasks. This feels almost magical. Yet the strength is narrow and brittle: AI depends on training data, has no genuine understanding, and can confidently produce nonsense. The real breakthrough isn't just one model, but the combination of agents, multimodal input, and automation, which is starting to reshape knowledge work. Still, it remains a super-powered assistant, not general intelligence—impressive but fundamentally limited."
+  },
+  "gh-monthly-Shubhamsaboo-awesome-llm-apps": {
+    "summary_zh": "开源项目 awesome-llm-apps — 100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+    "summary_en": "Open-source project awesome-llm-apps — 100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source."
+  },
+  "gh-daily-ChromeDevTools-chrome-devtools-mcp": {
+    "summary_zh": "开源项目 chrome-devtools-mcp — Chrome DevTools for coding agents",
+    "summary_en": "Open-source project chrome-devtools-mcp — Chrome DevTools for coding agents"
+  },
+  "36kr-3917796249071239": {
+    "summary_zh": "36氪热门：OpenAI，开源了",
+    "summary_en": "Popular on 36Kr: OpenAI，开源了"
+  },
+  "36kr-3918776472022402": {
+    "summary_zh": "36氪热门：8点1氪丨宇树科技：8月10日网下申购；字节跳动成立新的豆包产品团队；美股三大指数集体收涨，微软创近18年以来最大单日涨幅",
+    "summary_en": "Popular on 36Kr: 8点1氪丨宇树科技：8月10日网下申购；字节跳动成立新的豆包产品团队；美股三大指数集体收涨，微软创近18年以来最大单日涨幅"
+  },
+  "36kr-3917605642743426": {
+    "summary_zh": "36氪热门：小扎预告个人智能体，Meta一夜蒸发7800亿",
+    "summary_en": "Popular on 36Kr: 小扎预告个人智能体，Meta一夜蒸发7800亿"
+  },
+  "36kr-3917991880633990": {
+    "summary_zh": "36氪热门：吞并飞书，豆包成“豆办”",
+    "summary_en": "Popular on 36Kr: 吞并飞书，豆包成“豆办”"
+  },
+  "36kr-3917509136346498": {
+    "summary_zh": "36氪热门：OpenAI公布GPT-5.6自进化秘籍，翁荔被曝回归",
+    "summary_en": "Popular on 36Kr: OpenAI公布GPT-5.6自进化秘籍，翁荔被曝回归"
+  },
+  "36kr-3917750378534530": {
+    "summary_zh": "36氪热门：飞书变成了豆包",
+    "summary_en": "Popular on 36Kr: 飞书变成了豆包"
+  },
+  "36kr-3917441255206272": {
+    "summary_zh": "36氪热门：AI，正在消灭「穷人的娱乐」",
+    "summary_en": "Popular on 36Kr: AI，正在消灭「穷人的娱乐」"
+  },
+  "36kr-3917509234699651": {
+    "summary_zh": "36氪热门：马斯克发Grok新模型，登智能体测评榜首，比OpenAI家便宜一半",
+    "summary_en": "Popular on 36Kr: 马斯克发Grok新模型，登智能体测评榜首，比OpenAI家便宜一半"
+  },
+  "36kr-3917442639457668": {
+    "summary_zh": "36氪热门：智驾小蓝灯“滥用”，国家出手了",
+    "summary_en": "Popular on 36Kr: 智驾小蓝灯“滥用”，国家出手了"
+  },
+  "36kr-3917548470218371": {
+    "summary_zh": "36氪热门：易方达「戒酒」",
+    "summary_en": "Popular on 36Kr: 易方达「戒酒」"
+  },
+  "infoq-4hUcQzeCeKm0wqkc4Zdc": {
+    "summary_zh": "InfoQ 精选：首个突破90%成功率的桌面操作智能体！从堆模型到拼工程，实在Agent登顶OSWorld双冠",
+    "summary_en": "Featured on InfoQ: 首个突破90%成功率的桌面操作智能体！从堆模型到拼工程，实在Agent登顶OSWorld双冠"
+  },
+  "infoq-v9Vmgcy4RZvUIcxPEP77": {
+    "summary_zh": "InfoQ 精选：用于生产安全运维的多智能体 AI ：5G 核心网中的 A2A 和 MCP 架构",
+    "summary_en": "Featured on InfoQ: 用于生产安全运维的多智能体 AI ：5G 核心网中的 A2A 和 MCP 架构"
+  },
+  "infoq-SZaGmZI0g7INLtxalmvi": {
+    "summary_zh": "InfoQ 精选：轻量化异构双臂 x VLA/世界模型：家庭服务具身机器人的落地实践｜AICon深圳",
+    "summary_en": "Featured on InfoQ: 轻量化异构双臂 x VLA/世界模型：家庭服务具身机器人的落地实践｜AICon深圳"
+  },
+  "infoq-V6jFOIUOQtmruUil4WIA": {
+    "summary_zh": "InfoQ 精选：深度对话：AI 耳机下半场：从录音工具到办公 Agent 入口",
+    "summary_en": "Featured on InfoQ: 深度对话：AI 耳机下半场：从录音工具到办公 Agent 入口"
+  },
+  "infoq-h0WG6p7z3tyTk3hxQIhT": {
+    "summary_zh": "InfoQ 精选：Kubernetes 统治了容器时代，谷歌 Agent Substrate 意在拿下下一个十年",
+    "summary_en": "Featured on InfoQ: Kubernetes 统治了容器时代，谷歌 Agent Substrate 意在拿下下一个十年"
+  },
+  "hn-49102774": {
+    "summary_zh": "HN 热门：The coolest use for the Vision Pro",
+    "summary_en": "Trending on HN: The coolest use for the Vision Pro"
+  },
+  "hn-49113929": {
+    "summary_zh": "HN 热门：UEFA and its national associations will not participate in FIFA competitions",
+    "summary_en": "Trending on HN: UEFA and its national associations will not participate in FIFA competitions"
   }
 }
