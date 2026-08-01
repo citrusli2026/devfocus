@@ -6684,8 +6684,8 @@
     "summary_en": "A controversial prediction by Tsimerma claims that within two years AI will completely surpass human mathematicians in mathematical ability. This view stems from rapid advances in large language models and theorem proving systems, with systems like AlphaProof already nearing gold medal performance at IMO. While many experts debate whether total transcendence is imminent, the forecast forces a deeper reflection on how mathematics is done and what unique roles remain for human intuition. For researchers and educators, it signals both a career wake-up call and a glimpse into a future where AI co-pilots become standard tools for discovery."
   },
   "hn-49098510": {
-    "summary_zh": "HN 热门：Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac",
-    "summary_en": "Trending on HN: Show HN: Open-source engine running Gemma 4 26B in 2 GB RAM on any M-series Mac"
+    "summary_zh": "一个开源项目实现了在2GB内存的M系列Mac上本地运行Gemma 4 26B模型。通过先进的量化技术和内存优化算法，这个引擎大幅降低了运行大语言模型的硬件门槛。普通Mac用户无需昂贵的工作站或云端服务，就能在本地运行强大的AI模型，既保护了数据隐私，又降低了使用成本。对开源AI社区的普及和民主化具有重要意义。",
+    "summary_en": "A new open-source engine enables running Google's Gemma 4 26B model in just 2GB of RAM on any M-series Mac. This is a significant breakthrough for on-device AI, achieved through advanced quantization and aggressive memory optimization techniques. Previously, running a model of this size required substantial memory or cloud computing resources. Now, everyday Mac users can execute powerful language models locally without expensive hardware or cloud subscriptions, while keeping their data private. This project exemplifies the ongoing democratization of AI — lowering the barrier to entry for developers, researchers, and hobbyists who want to experiment with state-of-the-art models on consumer hardware."
   },
   "infoq-v1VMBH1RxmXyHvD6vo2d": {
     "summary_zh": "情报虾是一款跨平台情报收集工具，通过skills能力一键扫荡小红书、微博和B站，把分散在不同平台的热点、趋势和用户反馈整合在一起。对运营、媒体人和市场研究人员来说，不必再手动切换多个应用，只需一个入口就能掌握全网络动态，大幅提升信息采集与分析的效率。",
@@ -6840,7 +6840,147 @@
     "summary_en": "Trending on HN: The coolest use for the Vision Pro"
   },
   "hn-49113929": {
-    "summary_zh": "HN 热门：UEFA and its national associations will not participate in FIFA competitions",
-    "summary_en": "Trending on HN: UEFA and its national associations will not participate in FIFA competitions"
+    "summary_zh": "UEFA及其成员国足协宣布将不参加FIFA旗下赛事，这是国际足球管理体系的重大分裂。起因是全球足球管理机构之间的权力和利益分配矛盾日益激化，特别是关于赛事日程和扩军计划的争议。这一决定可能重塑国际足球赛事的格局，对球员、俱乐部和球迷都将产生深远影响，也可能导致国际足球出现双轨制局面。",
+    "summary_en": "UEFA and its national associations have announced they will boycott FIFA-organized competitions, marking an unprecedented fracture in international football governance. This escalation stems from long-simmering disputes over match scheduling, competition format expansion, and revenue distribution between the two governing bodies. The decision could split the global football landscape into competing jurisdictions, with profound implications for players, clubs, and national teams who may face conflicting commitments. For the sport's fans, it risks creating confusion around international tournaments and disrupting established traditions. This is a power struggle with existential stakes for the world's most popular sport."
+  },
+  "infoq-pvr2j4G3vxdy4Od9RGPb": {
+    "summary_zh": "观远数据张进在一次深度对话中提出了企业级AI落地的新解法，主张从第一性原理出发重新审视业务本质，并总结出一套可操作的“5A路径”作为实践框架。他强调企业应回归数据价值，以业务问题为导向逐步推进AI应用，避免盲目跟风技术潮流。这篇文章对正在探索AI转型的企业决策者和数据团队具有重要的参考意义。",
+    "summary_en": "In an interview, Guandata's Zhang Jin presents a fresh approach to enterprise AI adoption, starting from first principles to understand business fundamentals, then following a \"5A path\" as a practical framework. He argues that companies should focus on data-driven value and solve real business problems gradually, rather than chasing trends. This offers guidance for decision-makers and data teams navigating AI transformation."
+  },
+  "infoq-M9l2eJdhQkbruQlETEbt": {
+    "summary_zh": "DataBuddy是一个面向企业场景的Agent Runtime，以数据语义为核心驱动Agent的智能决策与执行。文章结合AICon深圳的分享，详细介绍了DataBuddy在数据口径统一、意图理解、任务编排等方面的设计思路与落地经验，有效解决了企业Agent因数据语义不一致而难以可靠运行的痛点。关注AI Agent工程化与数据中台建设的技术团队能从中获得十分实用的借鉴。",
+    "summary_en": "DataBuddy is an enterprise-oriented Agent runtime designed around data semantics, enabling agents to understand and execute tasks with consistent data meaning. This talk from AICon Shenzhen details its architecture, including unified data definitions, intent understanding, and task orchestration, as well as real-world implementation lessons. It addresses a common pain point where enterprise agents fail due to ambiguous or inconsistent data semantics. Teams working on AI agent engineering and data platform construction will find practical insights here."
+  },
+  "infoq-u4rDqep8zVWUJsqVoQ23": {
+    "summary_zh": "这次GitHub AI Agent的安全事故令人警醒：攻击者完全不需要利用复杂黑客技术，只需在指令中写下一句恶意提示，就能诱导AI Agent泄露敏感数据。文章深入剖析了攻击原理，指出AI Agent在遵循用户指令时缺乏安全边界，因而被提示注入攻击轻松得逞。这提醒开发者在接入AI Agent时，必须重视输入过滤和权限隔离，避免过度信任，对使用GitHub Copilot等服务的开发者尤其重要。",
+    "summary_en": "A recent security incident involving GitHub's AI agent shows that attackers can steal sensitive data without any hacking skills—simply by embedding a malicious sentence in instructions. The article analyzes how prompt injection tricks the agent into bypassing its intended boundaries, revealing a fundamental lack of safety constraints in current AI agent design. It urges developers to implement strict input validation and permission isolation when integrating AI agents, rather than blindly trusting outputs. This is particularly critical for teams using GitHub Copilot or similar tools in their workflows."
+  },
+  "infoq-PVdaiz9gRseK6wx54ajX": {
+    "summary_zh": "在AI浪潮席卷各行业之际，如何找到自己的确定性成为普遍焦虑。文章围绕“确定性”这一主题展开，提出面对技术变革，企业和个人都应回归核心能力与长期目标，通过持续学习和迭代构建自身的发展路径。他强调不要被热点裹挟，而要以清晰的价值判断和行动节奏参与AI革命。对于产品经理、技术决策者和创业者来说，这是一篇极富启发性的思考文章。",
+    "summary_en": "As AI transforms every industry, many feel anxious about finding clarity in the chaos. This article explores the concept of \"certainty\" and suggests that both companies and individuals should anchor on core competencies and long-term goals, rather than chasing every trend. It advocates continuous learning and iteration to carve out a stable development path amid rapid technological change. By focusing on value judgment and consistent action, readers can navigate the AI wave with more confidence. This reflective piece is especially useful for product managers, tech leaders, and startup founders."
+  },
+  "infoq-QSMNwS8RolhIE9sA2MbE": {
+    "summary_zh": "这是LangChain4j框架的一项实验性项目，目标是让AI Agent能够自我构建，即根据任务需求自动生成和组装所需的组件与流程。文章介绍了实验的设计思路、实现原理以及当前的限制，充分展示了Java生态下构建自适应Agent的潜力。虽然仍处于早期阶段，但这一实验为开发者提供了全新思路，让Agent具备更强的自主性和扩展性，特别适合对Agent自动化和Java AI开发感兴趣的工程师关注。",
+    "summary_en": "This article presents an experimental project from LangChain4j that explores self-building agents—agents capable of automatically generating and assembling components for given tasks. The author explains the design rationale, implementation approach, and current limitations, showing how this idea could bring more autonomy and extensibility to AI agents within the Java ecosystem. Though still at an early stage, the experiment offers a novel perspective for developers interested in agent automation and Java-based AI development. It highlights the future potential where agents can adapt themselves to increasingly complex requirements without manual intervention."
+  },
+  "infoq-3gb6NlxK6c0A9or5Zfbt": {
+    "summary_zh": "NVIDIA在GTC大会上正式发布Vera Rubin下一代计算平台，不仅升级了芯片性能，更将优化范围扩展到整个电力基础设施。这一代平台强调从芯片到电网的全链路成本优化，目标是把每个Token的生成成本压到最低。对于大规模AI推理和训练用户来说，这意味着更低的运营成本和更高的能效比。",
+    "summary_en": "NVIDIA officially unveiled its Vera Rubin computing platform, marking a strategic shift from chip-level optimization to full-stack infrastructure efficiency. The platform addresses one of AI's most pressing challenges: the soaring cost of powering large-scale inference workloads. By optimizing everything from silicon design to grid-level power distribution, NVIDIA aims to dramatically reduce the per-token cost of AI generation. This matters for enterprises running massive AI deployments, as it directly impacts their operational economics. The announcement signals that the AI hardware battle has moved beyond raw compute into holistic infrastructure efficiency."
+  },
+  "infoq-zIm0P8HWsWHWuGC54BsU": {
+    "summary_zh": "枫清科技高雪峰分享AI在材料研发与化工生产全流程中的落地实践。从分子设计、配方优化到生产过程的智能调控，AI正在重塑传统化工行业的研发范式。这套方案能大幅缩短新材料开发周期，降低实验成本，帮助化工企业提升生产效率和产品质量。对传统制造业数字化转型具有重要参考价值。",
+    "summary_en": "Gao Xuefeng from Fengqing Technology describes how AI is now embedded across the entire materials research and chemical production pipeline. From molecular design and formula optimization to intelligent process control during manufacturing, AI is fundamentally reshaping how chemical companies innovate. The key insight is that AI can dramatically compress the R&D cycle for new materials while reducing expensive experimental trial-and-error costs. This matters for the chemical industry, which has traditionally been slow to digitize. Manufacturers adopting these approaches can expect faster time-to-market, improved product quality, and more efficient production operations. It's a concrete example of how AI is moving beyond software into physical-world industrial applications."
+  },
+  "hn-49124218": {
+    "summary_zh": "这个关于电梯的Hacker News讨论帖引发了广泛关注，话题涵盖电梯调度算法、等待时间优化和现代电梯系统的智能控制技术。电梯作为城市垂直交通的核心设施，其运行效率直接影响着人们的生活和工作体验。讨论中提到的智能电梯系统利用AI进行客流预测和动态调度，能够显著减少等待时间，这一看似平凡的设备背后其实藏着丰富的系统工程和算法设计学问。",
+    "summary_en": "A Hacker News post titled \"Elevators\" has sparked a wide-ranging discussion about the technology behind vertical transportation. The conversation covers elevator dispatch algorithms, wait time optimization, and the emerging role of AI in modern elevator systems. While elevators seem mundane, they represent a fascinating intersection of mechanical engineering, control systems, and operations research. Smart elevator systems now use predictive algorithms and AI to anticipate traffic patterns and dynamically optimize car assignment, significantly reducing wait times in busy buildings. The discussion highlights how an overlooked everyday technology contains deep engineering challenges — from load balancing during rush hour to energy efficiency — making it a compelling topic for engineers and urban technology enthusiasts."
+  },
+  "zhihu-2066610469444347106": {
+    "summary_zh": "达利欧认为AI资产泡沫特征已显现，他依据的是长期债务周期理论，指出当前AI投资高度集中、估值脱离基本面，类似历史上的泡沫阶段。他称80年一次的大周期已近尾声，但并未给出明确时间点。对此，有支持者认为AI技术革命确实存在过度炒作，但也有观点指出泡沫不等于立刻破裂，AI热潮可能还会持续数年。这一争论核心在于：市场定价是否已透支未来增长，普通投资者和从业者都需警惕回调风险。",
+    "summary_en": "Ray Dalio says AI asset bubbles show clear signs, drawing on his long-term debt cycle theory. He points to extreme concentration in AI investments and valuations that have detached from fundamentals, likening the current environment to past manias. He also claims the once-in-80-years big cycle is nearing its end, though he avoids giving a precise timeline. Some analysts agree that AI hype has overshot reality, while others argue that a bubble can persist for years before bursting. The key debate is whether current prices already price in all future growth. For everyday investors and tech workers, the warning serves as a reminder to stay cautious about potential correction risks in an increasingly speculative market."
+  },
+  "zhihu-2066567142019786000": {
+    "summary_zh": "华为正式开源了openPangu-2.0-Pro模型，参数规模达5050亿，并发布了详细技术报告。这是目前国内少有的超大参数开源大模型，展示出自研算力支撑下的训练能力。它采用MoE架构，在中文理解、代码生成等任务上表现优异。开源的意义在于推动国产AI生态发展，让研究者和企业不再只能依赖国外模型，同时也有助于验证昇腾芯片的软硬件协同。不过巨大算力需求也限制了多数团队二次开发，实际价值还需结合应用场景评判。",
+    "summary_en": "Huawei has officially open-sourced its openPangu-2.0-Pro model with 505 billion parameters, along with a detailed technical report. This marks one of the largest open-source large models from China, demonstrating its ability to train at scale on domestic accelerators. Using a Mixture-of-Experts architecture, the model shows strong performance in Chinese language understanding and code generation. The release is significant because it strengthens China's AI ecosystem by providing an alternative to foreign models and validating the software-hardware synergy of Ascend chips. However, the massive computing requirements make it difficult for most teams to fine-tune or deploy locally, so its practical impact will depend on how well the community can adapt it to real-world applications."
+  },
+  "zhihu-2064429823846568390": {
+    "summary_zh": "随着模型参数规模急剧膨胀，许多号称开源的权重大小已经远超普通公司和个人能部署的范围。比如几百B参数的模型需要多卡甚至集群才能运行，论文和代码公开了，但实际使用权和数据清洗过程仍不透明。这引发一个问题：开源是真正开放，还是另一种营销？对研究者来说，可以研究架构和做小规模验证，但无法复现完整效果；对中小企业来说，成本高得吓人。真正受益的可能是头部公司和少数有资源的机构，开源精神在硬约束下被削弱。",
+    "summary_en": "As model parameter counts explode, many 'open-source' models are now too large for any ordinary company or individual to actually deploy. Hundreds of billions of parameters require multi-GPU setups or even clusters, making the weights nearly unusable in practice. While training code and technical papers may be public, the true lineage of data and full reproduction paths are often missing. This raises a critical question: is such open source still meaningful, or is it just a marketing label? Researchers can study the architecture and run small-scale experiments, but they cannot reproduce the complete performance. Small and medium enterprises face prohibitive infrastructure costs. In reality, only big companies and well-funded labs benefit fully, weakening the original spirit of open source."
+  },
+  "zhihu-2065499504187371980": {
+    "summary_zh": "近期Anthropic大规模封禁中国开发者账号，很多依赖Claude写代码的程序员突然失去工具，效率大降，被网友调侃为“天才程序员陨落”。这件事暴露出国内开发者在AI工具上对国外平台的严重依赖，也说明技术出口管制和合规风险正从芯片延伸到软件层。封号背后可能是地缘政治压力，也可能是服务条款的执行。对个人开发者而言，这是一次警醒：过度依赖单一AI工具存在风险，需要多元化方案，比如国产模型、本地部署或开源替代品。",
+    "summary_en": "Anthropic recently banned a large number of Chinese developer accounts, causing many programmers who heavily relied on Claude for code generation to lose their main tool overnight. Their productivity dropped sharply, leading netizens to joke about 'the fall of genius programmers.' This incident reveals how deeply Chinese developers depend on foreign AI platforms, and it highlights that tech export controls and compliance risks are now extending from chips to software services. The ban may stem from geopolitical pressure or simply from enforcing terms of service. For individual developers, this is a wake-up call about the dangers of over-reliance on a single AI tool. A more resilient strategy would involve diversifying across domestic models, local deployments, or open-source alternatives."
+  },
+  "gh-monthly-pbakaus-impeccable": {
+    "summary_zh": "开源项目 impeccable — The design language that makes your AI harness better at design.",
+    "summary_en": "Open-source project impeccable — The design language that makes your AI harness better at design."
+  },
+  "36kr-3918999971622280": {
+    "summary_zh": "36氪热门：25岁OpenAI神童，拉全球股民陪葬",
+    "summary_en": "Popular on 36Kr: 25岁OpenAI神童，拉全球股民陪葬"
+  },
+  "36kr-3919224296451461": {
+    "summary_zh": "36氪热门：DeepSeek V4正式版来了，新能力浮出水面，性价比之王开战",
+    "summary_en": "Popular on 36Kr: DeepSeek V4正式版来了，新能力浮出水面，性价比之王开战"
+  },
+  "36kr-3919242384043654": {
+    "summary_zh": "36氪热门：刚刚，DeepSeek-V4-Flash正式版API公测上线",
+    "summary_en": "Popular on 36Kr: 刚刚，DeepSeek-V4-Flash正式版API公测上线"
+  },
+  "36kr-3919027865316744": {
+    "summary_zh": "36氪热门：翁荔刚回OpenAI，Thinking Machines反手甩出新模型",
+    "summary_en": "Popular on 36Kr: 翁荔刚回OpenAI，Thinking Machines反手甩出新模型"
+  },
+  "36kr-3920241240419720": {
+    "summary_zh": "36氪热门：9点1氪丨马斯克回应特斯拉剥离中国业务；国内航线燃油附加费将再次下调；中国最高薪本科专业易主",
+    "summary_en": "Popular on 36Kr: 9点1氪丨马斯克回应特斯拉剥离中国业务；国内航线燃油附加费将再次下调；中国最高薪本科专业易主"
+  },
+  "36kr-3918896884848514": {
+    "summary_zh": "36氪热门：当爱马仕CEO开始关心中国猪肉价格",
+    "summary_en": "Popular on 36Kr: 当爱马仕CEO开始关心中国猪肉价格"
+  },
+  "36kr-3910776673064073": {
+    "summary_zh": "36氪热门：36氪独家｜曾爱玲入职B站担任AI视频生成业务负责人，向CEO陈睿汇报",
+    "summary_en": "Popular on 36Kr: 36氪独家｜曾爱玲入职B站担任AI视频生成业务负责人，向CEO陈睿汇报"
+  },
+  "36kr-3918264341147271": {
+    "summary_zh": "36氪热门：顶配预售价 30 万元，小米澎程不当「红米汽车」",
+    "summary_en": "Popular on 36Kr: 顶配预售价 30 万元，小米澎程不当「红米汽车」"
+  },
+  "36kr-3919206044495240": {
+    "summary_zh": "36氪热门：ChatGPT突发封杀令，全球AI写手一夜断粮",
+    "summary_en": "Popular on 36Kr: ChatGPT突发封杀令，全球AI写手一夜断粮"
+  },
+  "36kr-3918245811121538": {
+    "summary_zh": "36氪热门：L2的小蓝灯要灭了，L3的小蓝灯要亮起来",
+    "summary_en": "Popular on 36Kr: L2的小蓝灯要灭了，L3的小蓝灯要亮起来"
+  },
+  "infoq-im3GxWtxYPZpkodNRgVQ": {
+    "summary_zh": "InfoQ 精选：翁荔被爆重返OpenAI！两天前因身体原因从Thinking Machines Lab离职",
+    "summary_en": "Featured on InfoQ: 翁荔被爆重返OpenAI！两天前因身体原因从Thinking Machines Lab离职"
+  },
+  "infoq-xeM23uOSNw0s7Q8xUCTp": {
+    "summary_zh": "InfoQ 精选：React Compiler 迁移 Rust 后更快了，但开发者担心“没人看得懂代码”",
+    "summary_en": "Featured on InfoQ: React Compiler 迁移 Rust 后更快了，但开发者担心“没人看得懂代码”"
+  },
+  "infoq-cWloUAofMHCLHpvscihh": {
+    "summary_zh": "InfoQ 精选：微软、Meta 同日交财报：小扎把现金流烧到只剩7.84亿美元，纳德拉靠 Azure 赚疯了",
+    "summary_en": "Featured on InfoQ: 微软、Meta 同日交财报：小扎把现金流烧到只剩7.84亿美元，纳德拉靠 Azure 赚疯了"
+  },
+  "hn-49112744": {
+    "summary_zh": "HN 热门：Read this before you buy that TV streaming stick",
+    "summary_en": "Trending on HN: Read this before you buy that TV streaming stick"
+  },
+  "hn-49112232": {
+    "summary_zh": "HN 热门：Stacked PRs are now live on GitHub",
+    "summary_en": "Trending on HN: Stacked PRs are now live on GitHub"
+  },
+  "hn-49118781": {
+    "summary_zh": "HN 热门：The session you cannot take with you",
+    "summary_en": "Trending on HN: The session you cannot take with you"
+  },
+  "hn-49119559": {
+    "summary_zh": "HN 热门：DeepSeek-V4-Flash Update",
+    "summary_en": "Trending on HN: DeepSeek-V4-Flash Update"
+  },
+  "ph-1052113": {
+    "summary_zh": "Product Hunt 热门：NINA",
+    "summary_en": "Popular on Product Hunt: NINA"
+  },
+  "ph-1208194": {
+    "summary_zh": "Product Hunt 热门：/mission for Claude Code",
+    "summary_en": "Popular on Product Hunt: /mission for Claude Code"
+  },
+  "ph-1211205": {
+    "summary_zh": "Product Hunt 热门：MiniMax H3",
+    "summary_en": "Popular on Product Hunt: MiniMax H3"
+  },
+  "juejin-7667503991685857290": {
+    "summary_zh": "掘金精选：2026 了，前端转 AI 全栈我是这么学的 😍😍😍",
+    "summary_en": "Featured on Juejin: 2026 了，前端转 AI 全栈我是这么学的 😍😍😍"
+  },
+  "zhihu-2066465758503252393": {
+    "summary_zh": "知乎热榜：如何看待 Anthropic 公布 Claude 也发生了沙箱逃逸，真实入侵了三家机构？",
+    "summary_en": "Hot on Zhihu: 如何看待 Anthropic 公布 Claude 也发生了沙箱逃逸，真实入侵了三家机构？"
   }
 }
