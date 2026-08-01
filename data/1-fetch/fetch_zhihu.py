@@ -46,15 +46,15 @@ TECH_KEYWORDS = [
     "5G", "6G", "区块链",
 ]
 
-# Negative keywords — exclude even if tech keyword matched
+# Negative keywords — exclude even if tech keyword matched.
+# 只保留明确跑题的领域词；"专业/职业/意识/哲学"这类宽泛词会误杀
+# 开发者受众关心的话题（AI 专业选择、程序员职业讨论），不再一刀切。
 EXCLUDE_KEYWORDS = [
     "汽车", "燃油车", "新能源车", "车主", "换车",
     "厄尔尼诺", "气候", "天气",
-    "高考", "考研", "选专业",
+    "高考", "考研",
     "减肥", "健身", "养生",
     "做饭", "煮饭", "菜谱",
-    "选专业", "专业", "职业", "职业规划",
-    "羡慕", "恐惧", "哲学", "意识", "灵魂",
 ]
 
 
@@ -102,20 +102,17 @@ def fetch_hot_list() -> list[dict]:
 
     items = []
     seen: set[str] = set()
-    for rank, (href, title, heat_text) in enumerate(rows[:MAX_FETCH]):
-        title = title.strip()
-        if not title or len(title) < 5:
-            continue
-        if not is_tech(title):
-            continue
+
+    def add_item(rank: int, href: str, title: str, heat_text: str, general: bool = False):
         qid = re.search(r"/question/(\d+)", href)
         qid_str = qid.group(1) if qid else str(hash(title))
         if qid_str in seen:
-            continue
+            return
         seen.add(qid_str)
         heat = parse_heat(heat_text)
         # 热度解析失败（页面结构变化）时退化为排名分：第 1 名 50 分，逐名 -5
         score = heat if heat > 0 else max(50 - len(items) * 5, 5)
+        tags = ["zhihu"] + (["general-hot"] if general else [])
         items.append({
             "id": f"zhihu-{qid_str}",
             "title": title,
@@ -126,10 +123,28 @@ def fetch_hot_list() -> list[dict]:
             "comments": 0,
             "author": "",
             "time": datetime.now(timezone.utc).isoformat(),
-            "tags": ["zhihu"],
+            "tags": tags,
         })
-        if len(items) >= TOP_N:
-            break
+
+    # 第一遍：科技相关条目优先
+    candidates = []
+    for rank, (href, title, heat_text) in enumerate(rows[:MAX_FETCH]):
+        title = title.strip()
+        if not title or len(title) < 5:
+            continue
+        candidates.append((rank, href, title, heat_text))
+        if is_tech(title) and len(items) < TOP_N:
+            add_item(rank, href, title, heat_text)
+
+    # 第二遍：科技条目不足 TOP_N 时，按榜单顺序用热榜条目补足（仍受排除词 veto），
+    # 保证知乎源始终有满额内容；补位条目带 general-hot 标签以示区别
+    if len(items) < TOP_N:
+        for rank, href, title, heat_text in candidates:
+            if len(items) >= TOP_N:
+                break
+            if any(ex.lower() in title.lower() for ex in EXCLUDE_KEYWORDS):
+                continue
+            add_item(rank, href, title, heat_text, general=True)
 
     return items
 

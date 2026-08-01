@@ -12,7 +12,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 API_URL = "https://api.juejin.cn/recommend_api/v1/article/recommend_all_feed"
-TOP_N = 10
+TOP_N = 20  # 多抓留出余量，下游 aggregate 取 Top 10
 
 
 def fetch_articles() -> list[dict]:
