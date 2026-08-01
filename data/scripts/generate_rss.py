@@ -29,15 +29,6 @@ def escape(s: str) -> str:
     return saxutils.escape(s)
 
 
-def rfc3339(dt_str: str) -> str:
-    """Normalize to YYYY-MM-DD for sitemap lastmod."""
-    try:
-        dt = datetime.fromisoformat(dt_str.replace("Z", "+00:00"))
-        return dt.strftime("%Y-%m-%d")
-    except (ValueError, AttributeError):
-        return datetime.now(timezone.utc).strftime("%Y-%m-%d")
-
-
 def generate():
     APP_PUBLIC_DIR.mkdir(parents=True, exist_ok=True)
     digest_path = FINAL_DIR / "digest.json"
@@ -49,94 +40,7 @@ def generate():
     daily = digest.get("daily", {})
     items = daily.get("items", [])
     date_str = daily.get("date", "")
-    gen_date = rfc3339(digest.get("generated_at", ""))
     pub_date = rss_datetime(digest.get("generated_at", ""))
-
-    # ——— Sitemap ———
-    history_urls = []
-    history_dir = BASE_DIR / "5-history"
-    if history_dir.exists():
-        for hf in sorted(history_dir.glob("*.json")):
-            d = hf.stem
-            history_urls.append(
-                f"""  <url>\n    <loc>{SITE_URL}/history/{d}/</loc>\n    <lastmod>{d}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.4</priority>\n  </url>"""
-            )
-
-    item_urls = []
-    for it in items:
-        iid = it.get("id", "")
-        if iid:
-            item_urls.append(
-                f"""  <url>\n    <loc>{SITE_URL}/item/{iid}/</loc>\n    <lastmod>{gen_date}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.3</priority>\n  </url>"""
-            )
-
-    # Tag pages
-    tag_urls = []
-    feed_path = FINAL_DIR / "feed.json"
-    if feed_path.exists():
-        try:
-            feed = json.loads(feed_path.read_text())
-            seen = set()
-            for it in feed.get("items", []):
-                for tag in it.get("tags", []):
-                    key = tag.lower().replace(" ", "-")
-                    if key and key not in seen:
-                        seen.add(key)
-                        tag_urls.append(
-                            f"""  <url>\n    <loc>{SITE_URL}/tag/{key}/</loc>\n    <lastmod>{gen_date}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.4</priority>\n  </url>"""
-                        )
-        except (json.JSONDecodeError, OSError):
-            pass
-
-    sitemap_xml = f"""<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>{SITE_URL}/</loc>
-    <lastmod>{gen_date}</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>{SITE_URL}/history/</loc>
-    <lastmod>{gen_date}</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>{SITE_URL}/search/</loc>
-    <lastmod>{gen_date}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>{SITE_URL}/weekly/</loc>
-    <lastmod>{gen_date}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>{SITE_URL}/monthly/</loc>
-    <lastmod>{gen_date}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>{SITE_URL}/about/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
-  </url>
-  <url>
-    <loc>{SITE_URL}/feed.xml</loc>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-{chr(10).join(history_urls)}
-{chr(10).join(item_urls)}
-{chr(10).join(tag_urls)}
-</urlset>"""
-    sitemap_path = APP_PUBLIC_DIR / "sitemap.xml"
-    sitemap_path.write_text(sitemap_xml, encoding="utf-8")
-    print(f"[FEED] Sitemap → {sitemap_path}")
 
     # ——— RSS (only if there are daily items) ———
     if not items:
