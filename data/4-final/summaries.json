@@ -6836,8 +6836,8 @@
     "summary_en": "Featured on InfoQ: Kubernetes 统治了容器时代，谷歌 Agent Substrate 意在拿下下一个十年"
   },
   "hn-49102774": {
-    "summary_zh": "HN 热门：The coolest use for the Vision Pro",
-    "summary_en": "Trending on HN: The coolest use for the Vision Pro"
+    "summary_zh": "Hacker News 热帖认为 Vision Pro 最酷的用法是当随身多屏工作台：连接 Mac 后投射出多个虚拟屏幕，用于编程或设计，而不是玩沉浸视频。评论区的开发者普遍认可这一生产力定位，但也吐槽佩戴舒适度和电池续航仍是硬伤。适合正在评估空间计算设备价值的开发者。",
+    "summary_en": "A Hacker News thread argues the Vision Pro's coolest use is as a portable multi-monitor workstation: pair it with a Mac and project several virtual displays for coding or design, not immersive video. Developers in the comments mostly agree that productivity beats entertainment here, despite complaints about comfort and battery. Worth reading if you're evaluating Apple's spatial computer."
   },
   "hn-49113929": {
     "summary_zh": "UEFA及其成员国足协宣布将不参加FIFA旗下赛事，这是国际足球管理体系的重大分裂。起因是全球足球管理机构之间的权力和利益分配矛盾日益激化，特别是关于赛事日程和扩军计划的争议。这一决定可能重塑国际足球赛事的格局，对球员、俱乐部和球迷都将产生深远影响，也可能导致国际足球出现双轨制局面。",
@@ -6948,8 +6948,8 @@
     "summary_en": "Meta's latest earnings revealed free cash flow shrank to just $784 million, hit by soaring AI infrastructure spending, while Microsoft posted strong Azure growth the same day. The contrast underscores how AI capex is now reshaping Big Tech financials, a key signal for investors."
   },
   "hn-49112744": {
-    "summary_zh": "HN 热门：Read this before you buy that TV streaming stick",
-    "summary_en": "Trending on HN: Read this before you buy that TV streaming stick"
+    "summary_zh": "这篇文章建议购买电视棒前先看清三个隐藏成本：系统占用可用的存储空间、系统更新周期决定设备寿命、主页会推送广告。它对比了 Roku、Fire TV 和 Google TV 的长期体验，认为低价格并不等于低总拥有成本。适合准备购买电视盒子的用户。",
+    "summary_en": "This article warns that cheap streaming sticks come with hidden costs: system files eat available storage, OS updates have a limited lifespan, and home screens show ads. It compares Roku, Fire TV, and Google TV on long-term experience, arguing that a low upfront price doesn't mean low total ownership. A must-read before picking a living-room device."
   },
   "hn-49112232": {
     "summary_zh": "GitHub 今日正式上线堆叠 PR（stacked pull requests）功能，允许把相互依赖的多个 PR 按依赖关系排列成栈，逐层合并。这样大改动可以拆成多个小提交独立评审，适合在长生命周期分支上协作的团队，能明显减少等待和冲突。",
@@ -7140,7 +7140,31 @@
     "summary_en": "Kaneo is an open-source project management tool built on a minimalist philosophy, offering only essential features without unnecessary clutter. It targets developers and small teams who prefer a lightweight, self-hosted alternative to heavier project management suites. The project emphasizes adapting to user workflows rather than forcing users to adapt to the tool."
   },
   "gh-daily-huggingface-speech-to-speech": {
-    "summary_zh": "开源项目 speech-to-speech — Build local voice agents with open-source models",
-    "summary_en": "Open-source project speech-to-speech — Build local voice agents with open-source models"
+    "summary_zh": "Hugging Face 新开源 speech-to-speech 项目，可在本地构建语音 Agent，无需调用云端 API。它把语音识别、语义理解与语音合成全流程跑在本地硬件上，主打隐私与离线可用。适合想为桌面或智能家居打造私人语音助手的开发者。",
+    "summary_en": "Hugging Face has open-sourced speech-to-speech, a toolkit for building voice agents entirely on local hardware. It chains speech recognition, NLU, and synthesis into one pipeline, avoiding cloud APIs and supporting consumer GPUs. A great starting point for developers creating privacy-focused personal voice assistants, and it targets low-latency, offline-first smart home use cases."
+  },
+  "zhihu-2065447454913335537": {
+    "summary_zh": "知乎热帖讨论暂无用车需求却被迫考驾照的悖论。高赞回答从时间成本和驾考政策角度算账，认为若用不上就不必为‘以后总会用到’付费；也有人指出驾照在升学、应急时仍是刚需。适合被父母催考的年轻人参考。",
+    "summary_en": "A Zhihu thread explores whether to learn driving now even when you don't need it, just because parents push it. Top answers weigh the time and money spent against a future that may never come; the consensus is to wait until you actually need a license. Others point out practical cases like school or emergencies. Helpful for anyone facing family pressure."
+  },
+  "v2ex-cdac363839c9": {
+    "summary_zh": "V2EX 用户发帖称 DeepSeek 的 V4 Flash 0731 模型 API 价格低到击穿国产模型市场，让包月制的编程助手订阅看起来不再划算。评论区在估算按量计费的实际成本，不少人认为这类模型将替代 Copilot 等付费方案。适合关注 AI 落地成本的开发者。",
+    "summary_en": "A V2EX developer says DeepSeek's V4 Flash 0731 API pricing is so low it upends the domestic LLM market, making paid coding-plan subscriptions hard to justify. The thread estimates unit economics and coding quality, with many predicting usage-based billing will replace monthly copilot plans. Worth a look for developers budgeting AI tooling."
+  },
+  "v2ex-f6c1365ef323": {
+    "summary_zh": "该网站是个人开发者近日上线的 Web 应用，包含反应时、数字记忆、专注度等多项测试，无需安装即可在浏览器中完成。测试后提供结果对比和简单解读，适合想快速评估自身认知状态或做脑力小实验的用户。界面简洁，移动端可用。",
+    "summary_en": "A personal developer recently launched a browser-based cognitive testing site covering reaction time, memory span, and focus exercises. Users can complete tests instantly without installation, then see comparative scores and brief interpretation. This practical tool suits anyone curious about quick self-evaluation or simple brain training experiments. The interface is minimal and mobile-friendly."
+  },
+  "v2ex-5824ce0f371f": {
+    "summary_zh": "用户在帖中对比两大搜索引擎对 DMCA 删除请求的响应差异，称 Google 在版权投诉处理上更严格，删除结果更快更全面，而 Bing 则相对宽松。这会影响站长和内容创作者对搜索流量的预期，尤其是涉及版权争议内容时。评论中有人指出 Google 的自动化系统也可能误删，需注意申诉渠道。",
+    "summary_en": "A user reports that Google handles DMCA takedown requests more strictly than Bing, with faster and more comprehensive removal of search results. This matters for webmasters and creators who rely on search traffic, particularly for copyright-sensitive material. Some commenters note Google's automated system may over-remove, so filing counter-notices is essential."
+  },
+  "v2ex-0d5b44ffb088": {
+    "summary_zh": "发帖者向社区询问 SSH 连接管理方案，期望替代自带终端或简化多主机管理。回帖中推荐了 Termius、FinalShell、Tabby 等跨平台工具，还有人建议用 Shell 脚本配合 ssh config 自定义。适合运维和经常需要连接多台服务器的开发者，选择时可以考虑是否支持密钥管理、同步和团队协作。",
+    "summary_en": "The poster asks for SSH client management tools, hoping to simplify working with multiple hosts. Commenters recommend cross-platform apps like Termius, FinalShell, and Tabby, while others suggest scripting with ssh config. Useful for DevOps engineers and developers who frequently manage servers — consider features like keychain storage, cloud sync, and team collaboration when choosing."
+  },
+  "v2ex-0e72dacb2fba": {
+    "summary_zh": "帖主观察到当天社交平台 X 上大量用户晒收益截图，似乎与某个活动或空投相关。评论中有人推测是加密货币激励或广告分成计划，也有网友表示只是集中炫耀。这条动态反映 X 平台近期在创作者变现上的新动作，适合关注社交平台生态变化的从业者留意。",
+    "summary_en": "The author notices an unusual wave of users on X posting earnings screenshots, possibly tied to a promotion or crypto airdrop. Commenters speculate about an incentive scheme or ad revenue program, while others see it as mere flexing. The thread highlights X’s recent shifts in creator monetization, relevant for those tracking social platform dynamics."
   }
 }
