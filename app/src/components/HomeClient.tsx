@@ -63,9 +63,14 @@ export default function Home() {
 
   const yesterdayDate = (() => {
     const base = digest.daily.date ?? new Date().toISOString().slice(0, 10);
-    const d = new Date(base);
-    d.setDate(d.getDate() - 1);
-    return d.toISOString().slice(0, 10);
+    // Parse "YYYY-MM-DD" as a local date; new Date(base) would be UTC midnight
+    // and setDate/toISOString would shift the day for users behind UTC.
+    const [y, m, d] = base.split("-").map(Number);
+    const date = new Date(y, m - 1, d);
+    date.setDate(date.getDate() - 1);
+    const mm = String(date.getMonth() + 1).padStart(2, "0");
+    const dd = String(date.getDate()).padStart(2, "0");
+    return `${date.getFullYear()}-${mm}-${dd}`;
   })();
 
   const sections =

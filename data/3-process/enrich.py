@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import json
 import re
+import sys
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
@@ -18,6 +19,7 @@ DATA = Path(__file__).resolve().parent.parent
 FEED_PATH = DATA / "4-final" / "feed.json"
 DIGEST_PATH = DATA / "4-final" / "digest.json"
 SUMMARIES_PATH = DATA / "4-final" / "summaries.json"
+HISTORY_DIR = DATA / "5-history"
 
 STOP = {
     "the", "a", "an", "is", "are", "was", "were", "be", "been", "being",
@@ -1037,6 +1039,33 @@ def find_related(item: dict, inverted_index: dict[str, list[dict]], item_by_id: 
     return [iid for _, iid in scored[:top_n]]
 
 
+def apply_enrichment_to_history(id_to_item: dict[str, dict], today_key: str):
+    """把 enrich 结果（domain/quality_score/summary）回写到当日历史快照，
+    让归档页"按质量排序"和 item 详情页有数据。"""
+    snapshot_path = HISTORY_DIR / f"{today_key}.json"
+    if not snapshot_path.exists():
+        return
+    try:
+        data = json.loads(snapshot_path.read_text())
+        updated = 0
+        for section in ("items", "digest_items"):
+            for item in data.get(section, []):
+                enriched = id_to_item.get(item.get("id", ""))
+                if not enriched:
+                    continue
+                item["domain"] = enriched.get("domain", "")
+                item["quality_score"] = enriched.get("quality_score", 0)
+                if enriched.get("summary_zh"):
+                    item["summary_zh"] = enriched["summary_zh"]
+                    item["summary_en"] = enriched.get("summary_en", "")
+                updated += 1
+        if updated:
+            snapshot_path.write_text(json.dumps(data, indent=2, ensure_ascii=False))
+            print(f"[Enrich] Updated {updated} items in history snapshot {snapshot_path.name}")
+    except Exception as e:
+        print(f"[WARN] Failed to update history snapshot: {e}", file=sys.stderr)
+
+
 def main():
     if not FEED_PATH.exists():
         print("[Enrich] feed.json not found, skipping")
@@ -1049,8 +1078,12 @@ def main():
     if SUMMARIES_PATH.exists():
         summaries = json.loads(SUMMARIES_PATH.read_text())
 
-    max_score = max((i.get("score", 0) for i in items), default=1)
-    max_comments = max((i.get("comments", 0) for i in items), default=1)
+    # 按来源分别取最大值做归一化，避免 GH 总星数（几十万）碾压 HN 分数（几百）
+    max_by_source: dict[str, dict[str, float]] = {}
+    for i in items:
+        m = max_by_source.setdefault(i.get("source", ""), {"score": 0.0, "comments": 0.0})
+        m["score"] = max(m["score"], i.get("score", 0))
+        m["comments"] = max(m["comments"], i.get("comments", 0))
 
     # First pass: enrich each item
     for item in items:
@@ -1086,7 +1119,14 @@ def main():
         item["tags"] = merged
 
         has_summary = bool(summaries.get(item.get("id", ""), {}).get("summary_zh"))
-        item["quality_score"] = compute_quality_score(item, has_summary, max_score, max_comments)
+        # 把 summaries.json 的摘要按 id 合并进 feed item，供详情页直接使用
+        if has_summary:
+            s = summaries[item["id"]]
+            item["summary_zh"] = s.get("summary_zh", "")
+            item["summary_en"] = s.get("summary_en", "")
+        m = max_by_source.get(source, {})
+        item["quality_score"] = compute_quality_score(
+            item, has_summary, m.get("score", 0), m.get("comments", 0))
 
     # Second pass: prune rare noise tags globally
     MIN_TAG_FREQUENCY = 3
@@ -1107,8 +1147,10 @@ def main():
     FEED_PATH.write_text(json.dumps(feed, indent=2, ensure_ascii=False), encoding="utf-8")
 
     # Also update digest.json daily items with enriched metadata
+    today_key = ""
     if DIGEST_PATH.exists():
         digest = json.loads(DIGEST_PATH.read_text())
+        today_key = digest.get("daily", {}).get("date", "")
         updated = 0
         for item in digest.get("daily", {}).get("items", []):
             enriched = id_to_item.get(item.get("id", ""))
@@ -1117,9 +1159,16 @@ def main():
                 item["tags"] = enriched.get("tags", [])
                 item["quality_score"] = enriched.get("quality_score", 0)
                 item["related_ids"] = enriched.get("related_ids", [])
+                if enriched.get("summary_zh"):
+                    item["summary_zh"] = enriched["summary_zh"]
+                    item["summary_en"] = enriched.get("summary_en", "")
                 updated += 1
         DIGEST_PATH.write_text(json.dumps(digest, indent=2, ensure_ascii=False), encoding="utf-8")
         print(f"[Enrich] Updated {updated} items in digest.json")
+
+    # 回写当日历史快照（aggregate 阶段已由 save_snapshot 写出）
+    if today_key:
+        apply_enrichment_to_history(id_to_item, today_key)
 
     # Report
     tag_counts = Counter()

@@ -2,12 +2,24 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { FeedItem } from "../types";
+import { FeedItem, Digest } from "../types";
+import digestData from "../data/digest.json";
 import { useTranslation } from "../lib/i18n";
 import { useReadItems } from "../lib/read-items";
 import { isWithinDays } from "../lib/time";
 import { cn } from "../lib/utils";
 import { ExternalLink, MessageSquare, Star, ArrowUp, Share2, Link as LinkIcon } from "lucide-react";
+
+// Current digest date, used as "today" for new/days-on badges (build-time constant).
+const digestDate = (digestData as Digest).daily.date ?? "";
+
+// Calendar-day difference between two YYYY-MM-DD strings (b - a).
+function daysBetween(a: string, b: string): number {
+  return Math.round((Date.parse(`${b}T00:00:00Z`) - Date.parse(`${a}T00:00:00Z`)) / 86400000);
+}
+
+// Keep in sync with normalizeTag in src/app/tag/[tag]/page.tsx
+const tagHref = (tag: string) => `/tag/${encodeURIComponent(tag.toLowerCase().replace(/\s+/g, "-"))}/`;
 
 function SourceBadge({ source }: { source: string }) {
   const cfg: Record<string, { label: string; cls: string }> = {
@@ -120,6 +132,8 @@ export function FeedCard({ item, rank, linkToDetail = false }: { item: FeedItem;
 
   const titleLink = linkToDetail ? `/item/${item.id}/` : item.url;
   const handleRead = () => markAsRead(item.id);
+  // Days since the item first appeared, relative to the current digest date.
+  const daysSinceFirstSeen = item.first_seen && digestDate ? daysBetween(item.first_seen, digestDate) : null;
 
   return (
     <article
@@ -196,6 +210,16 @@ export function FeedCard({ item, rank, linkToDetail = false }: { item: FeedItem;
           {/* Meta row */}
           <div className="flex items-center gap-2 mt-1.5 flex-wrap">
             <SourceBadge source={item.source} />
+            {daysSinceFirstSeen === 0 && (
+              <span className="inline-flex items-center text-[10px] font-semibold px-1.5 py-0.5 rounded-md bg-accent-violet/10 text-accent-violet border border-accent-violet/20">
+                {t("badge.new")}
+              </span>
+            )}
+            {daysSinceFirstSeen !== null && daysSinceFirstSeen >= 3 && (
+              <span className="inline-flex items-center text-[10px] font-semibold px-1.5 py-0.5 rounded-md bg-accent-amber/10 text-accent-amber border border-accent-amber/20">
+                {t("badge.daysOn", { days: daysSinceFirstSeen + 1 })}
+              </span>
+            )}
             {read && (
               <span className="inline-flex items-center text-[10px] font-semibold px-1.5 py-0.5 rounded-md bg-accent-emerald/10 text-accent-emerald border border-accent-emerald/15">
                 {t("today.read")}
@@ -209,10 +233,24 @@ export function FeedCard({ item, rank, linkToDetail = false }: { item: FeedItem;
               </span>
             )}
             {domain && (
-              <span className="text-[11px] text-text-dim px-1.5 py-0.5 rounded bg-surface-hover">
+              <Link
+                href={`/domain/${domain}/`}
+                onClick={(e) => e.stopPropagation()}
+                className="text-[11px] text-text-dim px-1.5 py-0.5 rounded bg-surface-hover hover:text-accent-violet hover:bg-accent-violet/10 transition-colors"
+              >
                 {domain}
-              </span>
+              </Link>
             )}
+            {item.tags?.slice(0, 3).map((tag) => (
+              <Link
+                key={tag}
+                href={tagHref(tag)}
+                onClick={(e) => e.stopPropagation()}
+                className="text-[11px] text-text-dim px-1.5 py-0.5 rounded bg-surface-hover hover:text-accent-violet hover:bg-accent-violet/10 transition-colors"
+              >
+                #{tag}
+              </Link>
+            ))}
             {item.author && (
               <span className="text-[11px] text-text-dim">
                 {t("common.by")} {item.author}

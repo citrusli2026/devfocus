@@ -3,6 +3,7 @@
     "today": "Today",
     "search": "Search",
     "weekly": "Weekly",
+    "trends": "Trends",
     "about": "About",
     "brand": "DevFocus",
     "brandSub": "Developer Focus",
@@ -62,7 +63,7 @@
     "backToToday": "Back to today",
     "badge": "Archives",
     "itemsCount": "{items} items · {sources} sources",
-    "itemsCountCapped": "Showing {items}/{total} items · {sources} sources (sorted by quality)",
+    "itemsCountCapped": "Showing {items}/{total} items · {sources} sources (sorted by score)",
     "backToTodayButton": "Back to today's picks"
   },
   "item": {
@@ -72,7 +73,27 @@
     "viewArchive": "View {date} archive",
     "copyLink": "Copy link",
     "copied": "Copied",
-    "related": "Related"
+    "related": "Related",
+    "heat7d": "7-day heat"
+  },
+  "badge": {
+    "new": "NEW",
+    "daysOn": "{days}d on chart"
+  },
+  "trends": {
+    "badge": "Trends",
+    "title": "Topic Trend Heatmap",
+    "subtitle": "{period} · topic × date",
+    "topic": "Topic",
+    "legendLow": "Low",
+    "legendHigh": "High",
+    "rising": "Rising",
+    "falling": "Falling",
+    "stable": "Stable",
+    "new": "New topic",
+    "sourceActivity": "Source activity",
+    "samples": "Sample items",
+    "empty": "No trend data yet"
   },
   "tag": {
     "badge": "Tag",
@@ -116,6 +137,8 @@
     "phDesc": "Hottest new products daily, discover the next big thing",
     "juejinDesc": "Chinese developer community — coding tips and industry news",
     "zhihuDesc": "Zhihu tech hot list — AI, coding, and hardware picks",
+    "krDesc": "36Kr tech news — startups and industry updates",
+    "infoqDesc": "InfoQ tech news — in-depth architecture and AI coverage",
     "lastUpdated": "Last updated",
     "techStack": "Tech Stack",
     "statDaily": "Daily picks",
@@ -140,18 +163,5 @@
     "subtitle": "The page you are looking for may have moved or been removed",
     "backHome": "Back home",
     "viewHistory": "View archives"
-  },
-  "trends": {
-    "title": "Topic Trends",
-    "topic": "Topic",
-    "trend": "Trend",
-    "rising": "Rising",
-    "falling": "Falling",
-    "stable": "Stable",
-    "newTopic": "New",
-    "showAll": "Show all",
-    "showLess": "Show less",
-    "less": "Less",
-    "more": "More"
   }
 }

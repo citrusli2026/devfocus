@@ -20,6 +20,11 @@ MAX_ITEMS = 1000
 
 
 def parse_time(t):
+    # 支持 ISO 字符串，也支持 int/float 时间戳（秒或毫秒，36kr/infoq 用的是毫秒）
+    if isinstance(t, (int, float)) and t > 0:
+        if t > 1e12:
+            t = t / 1000
+        return datetime.fromtimestamp(t, tz=timezone.utc)
     try:
         return datetime.fromisoformat(str(t).replace("Z", "+00:00"))
     except (ValueError, TypeError):

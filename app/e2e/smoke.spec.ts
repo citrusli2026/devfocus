@@ -1,4 +1,37 @@
 import { test, expect } from "@playwright/test";
+import fs from "node:fs";
+import path from "node:path";
+
+// Sample real entries from the build-time dataset so tests don't rot as the
+// data is refreshed daily. Thresholds mirror the static generation rules:
+// tag pages require >= 8 items, domain pages >= 3 (see the respective pages).
+type SearchIndexItem = { id: string; title: string; tags: string[]; domain: string };
+const searchIndex = JSON.parse(
+  fs.readFileSync(path.resolve(__dirname, "../public/search-index.json"), "utf-8")
+) as { items: SearchIndexItem[] };
+
+function normalizeTag(tag: string): string {
+  return tag.toLowerCase().replace(/\s+/g, "-");
+}
+
+const tagCounts = new Map<string, number>();
+const domainCounts = new Map<string, number>();
+for (const item of searchIndex.items) {
+  for (const tag of item.tags ?? []) {
+    const key = normalizeTag(tag);
+    tagCounts.set(key, (tagCounts.get(key) ?? 0) + 1);
+  }
+  if (item.domain) {
+    domainCounts.set(item.domain, (domainCounts.get(item.domain) ?? 0) + 1);
+  }
+}
+
+const topEntry = (counts: Map<string, number>, min: number) =>
+  [...counts.entries()].filter(([, c]) => c >= min).sort((a, b) => b[1] - a[1])[0];
+
+const sampleTag = topEntry(tagCounts, 8)?.[0];
+const sampleDomain = topEntry(domainCounts, 3)?.[0];
+const sampleDomainItem = searchIndex.items.find((i) => i.domain === sampleDomain);
 
 test.describe("basic navigation", () => {
   test("homepage loads and shows daily content", async ({ page }) => {
@@ -73,16 +106,18 @@ test.describe("basic navigation", () => {
   });
 
   test("can navigate to a tag page", async ({ page }) => {
-    await page.goto("/tag/github/");
-    await expect(page.locator("h1")).toContainText("github");
+    test.skip(!sampleTag, "No tag with enough items in the search index");
+    await page.goto(`/tag/${encodeURIComponent(sampleTag!)}/`);
+    await expect(page.locator("h1")).toContainText(sampleTag!);
     await expect(page.locator("article").first()).toBeVisible({ timeout: 10000 });
   });
 
   test("can navigate to a domain page", async ({ page }) => {
-    await page.goto("/domain/github.com/");
-    await expect(page.locator("h1")).toContainText("github.com");
-    // The domain page is client-rendered; wait for a known GitHub repo title to appear.
-    await expect(page.locator("text=codecrafters-io/build-your-own-x").first()).toBeVisible({ timeout: 10000 });
+    test.skip(!sampleDomain || !sampleDomainItem, "No domain with enough items in the search index");
+    await page.goto(`/domain/${sampleDomain!}/`);
+    await expect(page.locator("h1")).toContainText(sampleDomain!);
+    // The domain page is client-rendered; wait for a real item title to appear.
+    await expect(page.getByText(sampleDomainItem!.title.slice(0, 30)).first()).toBeVisible({ timeout: 10000 });
     await expect(page.locator("article").first()).toBeVisible({ timeout: 10000 });
   });
 
@@ -155,7 +190,10 @@ test.describe("mobile viewport", () => {
   });
 
   test("key pages have no horizontal overflow", async ({ page }) => {
-    for (const url of ["/search/", "/tag/github/", "/domain/github.com/", "/history/", "/weekly/"]) {
+    const urls = ["/search/", "/history/", "/weekly/"];
+    if (sampleTag) urls.push(`/tag/${encodeURIComponent(sampleTag)}/`);
+    if (sampleDomain) urls.push(`/domain/${sampleDomain}/`);
+    for (const url of urls) {
       await page.goto(url);
       await page.waitForLoadState("networkidle");
       const width = await page.locator("body").evaluate((el) => el.scrollWidth);

@@ -65,7 +65,7 @@ export default async function HistoryDatePage({ params }: { params: Promise<{ da
   // remains available in data/5-history/ for search and future enrichment.
   items = items
     .slice()
-    .sort((a, b) => (b.quality_score ?? 0) - (a.quality_score ?? 0))
+    .sort((a, b) => (b.score ?? 0) - (a.score ?? 0))
     .slice(0, HISTORY_PAGE_SIZE);
 
   return <HistoryDateClient date={history.date} items={items} total={history.items.length} />;

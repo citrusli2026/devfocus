@@ -127,6 +127,8 @@ export default function About() {
           <SourceCard icon={<span className="text-lg">🚀</span>} label="Product Hunt" desc={t("about.phDesc")} bg="bg-[#da552f]/8" />
           <SourceCard icon={<span className="text-lg">📘</span>} label="掘金" desc={t("about.juejinDesc")} bg="bg-[#1e80ff]/8" />
           <SourceCard icon={<span className="text-lg">💬</span>} label="知乎" desc={t("about.zhihuDesc")} bg="bg-[#0066ff]/8" />
+          <SourceCard icon={<span className="text-lg">📰</span>} label="36氪" desc={t("about.krDesc")} bg="bg-[#0f66ff]/8" />
+          <SourceCard icon={<span className="text-lg">📡</span>} label="InfoQ" desc={t("about.infoqDesc")} bg="bg-[#ef4444]/8" />
         </div>
       </Section>
 

@@ -14,12 +14,62 @@ HISTORY_DIR = BASE_DIR / "5-history"
 DAILY_PER_SOURCE = 10
 MONTHLY_PER_SOURCE = 10
 
+# raw 数据超过该时长未更新即视为源"缺席"，不进日榜并在 digest.missing_sources 标注
+STALE_HOURS = 36
+
+# 各数据源对应的 2-raw 文件（github_trending 三个周期文件同批抓取，以 daily 文件为准）
+SOURCE_RAW_FILES = {
+    "hackernews": "hn_top_stories.json",
+    "github_trending": "gh_trending_daily.json",
+    "producthunt": "producthunt_daily.json",
+    "juejin": "juejin_daily.json",
+    "zhihu": "zhihu_daily.json",
+    "36kr": "36kr.json",
+    "infoq": "infoq.json",
+    "v2ex": "v2ex.json",
+}
+
 
 def load_raw(filename: str) -> dict | None:
     path = RAW_DIR / filename
     if not path.exists():
         return None
     return json.loads(path.read_text())
+
+
+def raw_freshness(filename: str, data) -> datetime | None:
+    """raw 数据的抓取时间：优先 fetched_at 字段；裸 list（36kr/infoq）无该字段，用文件 mtime 兜底。"""
+    if isinstance(data, dict):
+        fetched_at = data.get("fetched_at")
+        if fetched_at:
+            try:
+                return datetime.fromisoformat(str(fetched_at).replace("Z", "+00:00"))
+            except ValueError:
+                pass
+    try:
+        return datetime.fromtimestamp((RAW_DIR / filename).stat().st_mtime, tz=timezone.utc)
+    except OSError:
+        return None
+
+
+def find_missing_sources(now: datetime) -> list[str]:
+    """raw 文件缺失、不可解析或超过 STALE_HOURS 未更新的源视为缺席。"""
+    missing = []
+    cutoff = now - timedelta(hours=STALE_HOURS)
+    for source, filename in SOURCE_RAW_FILES.items():
+        path = RAW_DIR / filename
+        if not path.exists():
+            missing.append(source)
+            continue
+        try:
+            data = json.loads(path.read_text())
+        except Exception:
+            missing.append(source)
+            continue
+        ts = raw_freshness(filename, data)
+        if ts is None or ts < cutoff:
+            missing.append(source)
+    return sorted(missing)
 
 
 def aggregate_hn(data: dict) -> list[dict]:
@@ -292,11 +342,10 @@ def main():
         fresh_items.extend(v2_items)
         print(f"[AGG] V2EX: {len(v2_items)} items")
 
-    # Build daily digest before saving snapshot so digest_items can be stored
-    daily_items = pick_top_per_source(fresh_items, DAILY_PER_SOURCE)
-
-    # Save snapshot (full items + digest items)
-    save_snapshot(fresh_items, daily_items, now)
+    # --- Freshness check: 缺席源（raw 缺失或超过 STALE_HOURS 未更新）不进日榜 ---
+    missing_sources = find_missing_sources(now)
+    if missing_sources:
+        print(f"[AGG] Missing sources (raw absent or stale >{STALE_HOURS}h): {', '.join(missing_sources)}")
 
     # Load first_seen from history (before adding today's snapshot)
     first_seen_map = load_first_seen_map()
@@ -308,21 +357,31 @@ def main():
         else:
             item["first_seen"] = today_key_str
 
+    # Build daily digest before saving snapshot so digest_items can be stored
+    # 日榜只取 GitHub daily 条目（monthly 与 daily 同 source，需先按 gh_period 隔开），
+    # 并按标题去重，避免同一仓库以 gh-daily-* / gh-monthly-* 重复出现
+    daily_pool = [i for i in fresh_items
+                  if i.get("gh_period") in (None, "daily") and i["source"] not in missing_sources]
+    daily_items = pick_top_per_source(dedupe_by_title(daily_pool), DAILY_PER_SOURCE)
+
+    # Save snapshot (full items + digest items)
+    save_snapshot(fresh_items, daily_items, now)
+
     # Load history for period reports
     history_items = load_history()
+    # 兜底回填 first_seen：今日快照已带该字段，更早日期的历史条目按首次出现日期补齐
+    for item in history_items:
+        item.setdefault("first_seen", first_seen_map.get(item["id"], today_key_str))
     history_items.sort(key=lambda x: x["score"], reverse=True)
     print(f"[AGG] History: {len(history_items)} unique items")
 
     # --- Build digests ---
 
-    # Monthly: top N per source from history (past 30 days)
-    monthly_hn = [i for i in history_items if i["source"] == "hackernews" and _parse_time(i) >= now - timedelta(days=30)]
-    monthly_gh = [i for i in fresh_items if i.get("gh_period") == "monthly"]
-    monthly_all = dedupe_by_title(monthly_hn + monthly_gh)
-    monthly_all.sort(key=lambda x: x["score"], reverse=True)
-    monthly_items = pick_top_per_source(monthly_all, MONTHLY_PER_SOURCE)
-
+    # Monthly: 全源 30 天窗口，与日榜一致按源取 top N（含今日快照在内的 history）
     month_ago = now - timedelta(days=30)
+    monthly_pool = dedupe_by_title([i for i in history_items if _parse_time(i) >= month_ago])
+    monthly_items = pick_top_per_source(monthly_pool, MONTHLY_PER_SOURCE)
+
     sources = sorted({i["source"] for i in history_items})
 
     digest = {
@@ -330,6 +389,7 @@ def main():
         "daily": {"date": today_key, "items": daily_items, "count": len(daily_items)},
         "monthly": {"start": date_key(month_ago), "end": today_key, "items": monthly_items, "count": len(monthly_items)},
         "sources": sources,
+        "missing_sources": missing_sources,
         "total_items": len(history_items),
     }
 

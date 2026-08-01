@@ -7,6 +7,9 @@ Priority:
   1. Existing summaries in summaries.json (skip if already have)
   2. LLM API (if DEEPSEEK_API_KEY or OPENAI_API_KEY env var set)
   3. Template fallback (low quality, last resort)
+
+每次运行还会扫描 summaries.json 里 summary_zh 为空的历史条目，
+从 digest + 历史快照找回原始条目后重新入队（不删库，LLM 不可用时留空下轮再试）。
 """
 
 import json
@@ -18,7 +21,18 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 FINAL_DIR = BASE_DIR / "4-final"
+HISTORY_DIR = BASE_DIR / "5-history"
 SUMMARIES_PATH = FINAL_DIR / "summaries.json"
+
+BATCH_SIZE = 5
+RETRY_BATCH_SIZE = 3        # 重试轮用更小批次，降低截断概率
+MAX_RETRY_EMPTY = 30        # 每轮最多回填的历史空摘要条数
+
+# 模板摘要的中文前缀（用于识别低质量模板产物，重新入队 + 统计口径）
+TEMPLATE_PREFIXES_ZH = (
+    "HN 热门", "开源项目", "Product Hunt 热门", "掘金精选",
+    "知乎热榜", "36氪热门", "InfoQ 精选", "V2EX 热议",
+)
 
 # LLM config from environment variables (never hardcoded)
 LLM_PROVIDERS = [
@@ -26,6 +40,7 @@ LLM_PROVIDERS = [
         "name": "deepseek",
         "base_url": "https://api.deepseek.com",
         "api_key_env": "DEEPSEEK_API_KEY",
+        "api_key_file": ".deepseek_key",  # 本地开发用，仅该 provider 生效
         "model": "deepseek-v4-flash",
     },
     {
@@ -36,6 +51,27 @@ LLM_PROVIDERS = [
     },
 ]
 
+SYSTEM_PROMPT = (
+    "You are a senior tech editor writing bilingual summaries for a developer "
+    "news digest. 你的读者是一线开发者，看重事实密度，反感营销腔。"
+    "Output ONLY valid JSON — no markdown fences, no commentary."
+)
+
+USER_PROMPT_TEMPLATE = """为下面每条资讯各写一条中文摘要 (summary_zh) 和一条英文摘要 (summary_en)。
+
+要求：
+1. summary_zh：2-3 句自然中文，60-120 字。第一句讲清它是什么（给出标题没有的具体事实，不要复述标题）；第二句说明为什么重要、亮点是什么、或适合什么人。
+2. summary_en：2-3 sentences of natural English, 50-90 words, same structure — what it is (facts beyond the title), then why it matters or who should care.
+3. 技术名词、产品名、公司名保留英文原文（如 Kubernetes、Transformer、Claude、GitHub），不要硬译。
+4. 禁止：复述标题凑字数；堆砌形容词和夸张修辞（如"神器""白月光""颠覆""震撼"）；套话结尾（如"值得关注""未来可期"）；列表、编号、竖线 | —— 必须是连贯段落。
+5. 两条摘要覆盖相同的关键事实，但语言各自地道，不是逐句互译。
+
+Items:
+{items}
+
+Output a JSON object with this exact shape (include every item id exactly once):
+{{"summaries": [{{"id": "xxx", "summary_zh": "...", "summary_en": "..."}}, ...]}}"""
+
 
 def call_llm(base_url: str, api_key: str, model: str, prompt: str) -> str:
     """Call LLM API, return response text or empty string."""
@@ -43,17 +79,13 @@ def call_llm(base_url: str, api_key: str, model: str, prompt: str) -> str:
     body = json.dumps({
         "model": model,
         "messages": [
-            {"role": "system", "content": (
-                "You are a senior tech news editor. Write concise, scannable summaries. "
-                "Output ONLY valid JSON, no markdown fences. "
-                "CRITICAL: Write in flowing narrative prose ONLY. "
-                "NEVER use pipe '|' separators, bullet points, numbered lists, or segmented formatting. "
-                "Each summary must be ONE continuous paragraph of natural sentences."
-            )},
+            {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": prompt},
         ],
         "temperature": 0.3,
-        "max_tokens": 3000,
+        # reasoning 模型会消耗大量隐藏 token，5 条批量需要充足余量避免截断
+        "max_tokens": 8000,
+        "response_format": {"type": "json_object"},
     }).encode()
 
     req = urllib.request.Request(url, data=body, headers={
@@ -62,9 +94,12 @@ def call_llm(base_url: str, api_key: str, model: str, prompt: str) -> str:
     })
 
     try:
-        with urllib.request.urlopen(req, timeout=60) as resp:
+        with urllib.request.urlopen(req, timeout=120) as resp:
             data = json.loads(resp.read().decode())
-            return data["choices"][0]["message"]["content"].strip()
+            choice = data["choices"][0]
+            if choice.get("finish_reason") == "length":
+                print("  [WARN] LLM response truncated (finish_reason=length)", file=sys.stderr)
+            return choice["message"]["content"].strip()
     except Exception as e:
         print(f"  [WARN] LLM call failed: {e}", file=sys.stderr)
         return ""
@@ -74,33 +109,22 @@ def build_prompt(items: list[dict]) -> str:
     """Build summarization prompt for a batch of items."""
     lines = []
     for i, item in enumerate(items):
-        desc = item.get("description", "")[:150]
-        lines.append(f"{i+1}. id={item['id']} | title={item['title']} | source={item['source']} | desc={desc}")
-    return f"""For each item below, write a concise summary in Chinese (summary_zh) and English (summary_en).
-
-FORMAT RULES:
-- Chinese: ~100-200 characters, narrative style (记叙文), describe what it is and why it matters
-- English: ~80-120 words, narrative style, describe what it is and why it matters
-- Use natural, flowing sentences — NOT bullet points or key-value pairs
-- Write like a tech blogger explaining to a friend
-- Focus on: what problem it solves, what's interesting about it, who would benefit
-
-Items:
-{chr(10).join(lines)}
-
-Return a JSON array:
-[{{"id": "xxx", "summary_zh": "中文摘要", "summary_en": "English summary"}}, ...]
-
-ONLY the JSON array, nothing else."""
+        desc = (item.get("description") or "")[:200]
+        lines.append(f"{i+1}. id={item['id']} | source={item.get('source', '')} | title={item.get('title', '')} | desc={desc}")
+    return USER_PROMPT_TEMPLATE.format(items="\n".join(lines))
 
 
 def parse_llm_response(text: str) -> list[dict]:
-    """Parse LLM response, handling markdown fences."""
+    """Parse LLM response, handling markdown fences and both
+    {"summaries": [...]} and bare-array shapes."""
     clean = text.strip()
     if clean.startswith("```"):
         clean = clean.split("\n", 1)[1] if "\n" in clean else clean[3:]
         clean = clean.rsplit("```", 1)[0]
-    return json.loads(clean.strip())
+    data = json.loads(clean.strip())
+    if isinstance(data, dict):
+        data = data.get("summaries", [])
+    return data if isinstance(data, list) else []
 
 
 def get_llm_provider():
@@ -110,9 +134,10 @@ def get_llm_provider():
         # Validate key looks real (starts with sk-)
         if not key.startswith("sk-"):
             key = ""
-        # Also try local key file (for development)
-        if not key:
-            key_file = BASE_DIR / ".deepseek_key"
+        # Local key file fallback, scoped to its own provider
+        # (否则 openai provider 会误用 deepseek 的 key)
+        if not key and provider.get("api_key_file"):
+            key_file = BASE_DIR / provider["api_key_file"]
             if key_file.exists():
                 key = key_file.read_text().strip()
         if key:
@@ -124,7 +149,7 @@ def template_summary(item: dict) -> tuple[str, str]:
     """Low-quality template fallback."""
     title = item.get("title", "")
     source = item.get("source", "")
-    desc = item.get("description", "")[:100]
+    desc = (item.get("description") or "")[:100]
     source_labels_zh = {
         "hackernews": "HN 热门",
         "github_trending": "开源项目",
@@ -154,28 +179,132 @@ def template_summary(item: dict) -> tuple[str, str]:
     return f"{label_zh}：{title}", f"{label_en}: {title}"
 
 
-def apply_summaries_to_history(summaries: dict[str, dict], today_key: str):
-    """Apply generated summaries to today's history snapshot digest_items."""
-    from pathlib import Path
-    BASE_DIR = Path(__file__).resolve().parent.parent
-    HISTORY_DIR = BASE_DIR / "5-history"
-    snapshot_path = HISTORY_DIR / f"{today_key}.json"
-    if not snapshot_path.exists():
+def is_template_zh(zh: str) -> bool:
+    return any(zh.startswith(p) for p in TEMPLATE_PREFIXES_ZH)
+
+
+def needs_summary(entry: dict | None) -> bool:
+    """summaries.json 里的一条记录是否需要（重新）生成。"""
+    if not entry:
+        return True
+    zh = (entry.get("summary_zh") or "").strip()
+    if not zh or len(zh) < 50 or is_template_zh(zh):
+        return True
+    if not (entry.get("summary_en") or "").strip():
+        return True
+    return False
+
+
+def accept_entry(entry, batch_ids: set[str], titles: dict[str, str]):
+    """校验一条 LLM 产物，合格返回 {"summary_zh","summary_en"}，否则 None。"""
+    if not isinstance(entry, dict):
+        return None
+    item_id = entry.get("id")
+    if item_id not in batch_ids:
+        return None
+    zh = (entry.get("summary_zh") or "").strip()
+    en = (entry.get("summary_en") or "").strip()
+    if not zh or not en:
+        print(f"  [WARN] Rejected empty summary for {item_id}")
+        return None
+    if len(zh) < 20:
+        print(f"  [WARN] Rejected too-short summary for {item_id}")
+        return None
+    if "|" in zh or "|" in en:
+        print(f"  [WARN] Rejected bullet summary for {item_id}")
+        return None
+    title = titles.get(item_id, "").strip()
+    if title and zh == title:
+        print(f"  [WARN] Rejected title-echo summary for {item_id}")
+        return None
+    return {"summary_zh": zh, "summary_en": en}
+
+
+def llm_summarize(items: list[dict], provider: dict, batch_size: int,
+                  summaries: dict[str, dict], llm_ids: set[str]):
+    """One pass of batched LLM summarization; results merged into `summaries`."""
+    titles = {it["id"]: it.get("title", "") for it in items}
+    for i in range(0, len(items), batch_size):
+        batch = items[i:i + batch_size]
+        batch_ids = {it["id"] for it in batch}
+        result = call_llm(provider["base_url"], provider["api_key"], provider["model"],
+                          build_prompt(batch))
+        if result:
+            try:
+                parsed = parse_llm_response(result)
+                n = 0
+                for entry in parsed:
+                    ok = accept_entry(entry, batch_ids, titles)
+                    if ok:
+                        summaries[entry["id"]] = ok
+                        llm_ids.add(entry["id"])
+                        n += 1
+                print(f"  Batch {i//batch_size+1}: {n}/{len(batch)} accepted")
+            except json.JSONDecodeError as e:
+                print(f"  [WARN] JSON parse error: {e}")
+        if i + batch_size < len(items):
+            time.sleep(1)
+
+
+def find_items_in_history(ids: set[str]) -> dict[str, dict]:
+    """从 digest + 历史快照里按 id 找回原始条目（用于空摘要回填）。"""
+    found: dict[str, dict] = {}
+    digest_path = FINAL_DIR / "digest.json"
+    sources: list[Path] = []
+    if digest_path.exists():
+        sources.append(digest_path)
+    if HISTORY_DIR.exists():
+        sources.extend(sorted(HISTORY_DIR.glob("*.json"), reverse=True))
+    for path in sources:
+        if len(found) == len(ids):
+            break
+        try:
+            data = json.loads(path.read_text())
+        except (ValueError, json.JSONDecodeError):
+            continue
+        pools = []
+        if "daily" in data:  # digest.json
+            pools.append(data["daily"].get("items", []))
+        else:  # history snapshot
+            pools.append(data.get("digest_items", []))
+            pools.append(data.get("items", []))
+        for pool in pools:
+            for item in pool:
+                item_id = item.get("id", "")
+                if item_id in ids and item_id not in found:
+                    found[item_id] = item
+    return found
+
+
+def backfill_history_summaries(summaries: dict[str, dict], today_key: str):
+    """把摘要回填进历史快照：所有快照补空字段；今日快照覆盖为最新值。"""
+    if not HISTORY_DIR.exists():
         return
-    try:
-        data = json.loads(snapshot_path.read_text())
+    for snapshot_path in sorted(HISTORY_DIR.glob("*.json")):
+        overwrite = snapshot_path.stem == today_key
+        try:
+            data = json.loads(snapshot_path.read_text())
+        except (ValueError, json.JSONDecodeError):
+            continue
         updated = False
-        for item in data.get("digest_items", []):
-            s = summaries.get(item.get("id", ""))
-            if s:
-                item["summary_zh"] = s.get("summary_zh", "")
-                item["summary_en"] = s.get("summary_en", "")
-                updated = True
+        for key in ("items", "digest_items"):
+            for item in data.get(key, []):
+                s = summaries.get(item.get("id", ""))
+                if not s:
+                    continue
+                zh, en = s.get("summary_zh", ""), s.get("summary_en", "")
+                if zh and (overwrite or not (item.get("summary_zh") or "").strip()):
+                    item["summary_zh"] = zh
+                    updated = True
+                if en and (overwrite or not (item.get("summary_en") or "").strip()):
+                    item["summary_en"] = en
+                    updated = True
         if updated:
-            snapshot_path.write_text(json.dumps(data, indent=2, ensure_ascii=False))
-            print(f"[SUM] Applied summaries to history snapshot {snapshot_path.name}")
-    except Exception as e:
-        print(f"[WARN] Failed to apply summaries to history snapshot: {e}", file=sys.stderr)
+            try:
+                snapshot_path.write_text(json.dumps(data, indent=2, ensure_ascii=False))
+                print(f"[SUM] Backfilled summaries in {snapshot_path.name}")
+            except Exception as e:
+                print(f"[WARN] Failed to write {snapshot_path.name}: {e}", file=sys.stderr)
 
 
 def main():
@@ -196,12 +325,23 @@ def main():
         for item in digest[key]["items"]:
             all_items[item["id"]] = item
 
-    need = {id: item for id, item in all_items.items()
-            if not existing.get(id, {}).get("summary_zh")
-            or len(existing[id].get("summary_zh", "")) < 50
-            or any(existing[id]["summary_zh"].startswith(p) for p in
-                   ("HN 热门", "开源项目", "Product Hunt 热门", "掘金精选",
-                    "知乎热榜", "36氪热门", "InfoQ 精选", "V2EX 热议"))}
+    need: dict[str, dict] = {
+        id: item for id, item in all_items.items()
+        if needs_summary(existing.get(id))
+    }
+
+    # 历史空摘要条目自动重新入队（不删库）：从 digest/快照找回原始条目
+    empty_ids = {id for id, s in existing.items()
+                 if not (s.get("summary_zh") or "").strip()} - set(all_items)
+    retry_only_ids: set[str] = set()
+    if empty_ids:
+        resolved = find_items_in_history(empty_ids)
+        for id, item in list(resolved.items())[:MAX_RETRY_EMPTY]:
+            need[id] = item
+            retry_only_ids.add(id)
+        unresolved = len(empty_ids) - len(resolved)
+        print(f"[SUM] 历史空摘要 {len(empty_ids)} 条：重新入队 {len(retry_only_ids)}"
+              + (f"，找不到原始条目跳过 {unresolved}" if unresolved else ""))
 
     if not need:
         print("[SUM] All items have good summaries.")
@@ -220,45 +360,26 @@ def main():
     # Try LLM first
     provider = get_llm_provider()
     summaries: dict[str, dict] = {}
+    llm_ids: set[str] = set()
 
     if provider:
         print(f"[SUM] Using {provider['name']} API ({provider['model']})...")
         need_list = list(need.values())
+        llm_summarize(need_list, provider, BATCH_SIZE, summaries, llm_ids)
 
-        # Batch in groups of 5
-        for i in range(0, len(need_list), 5):
-            batch = need_list[i:i+5]
-            prompt = build_prompt(batch)
-            result = call_llm(provider["base_url"], provider["api_key"], provider["model"], prompt)
-
-            if result:
-                try:
-                    parsed = parse_llm_response(result)
-                    for entry in parsed:
-                        if isinstance(entry, dict) and "id" in entry:
-                            zh = entry.get("summary_zh", "")
-                            en = entry.get("summary_en", "")
-                            # Reject summaries with pipe separators or bullet patterns
-                            if "|" in zh or "|" in en:
-                                print(f"  [WARN] Rejected bullet summary for {entry['id']}")
-                                continue
-                            summaries[entry["id"]] = {
-                                "summary_zh": zh,
-                                "summary_en": en,
-                            }
-                    print(f"  Batch {i//5+1}: {len(parsed)} summaries")
-                except json.JSONDecodeError as e:
-                    print(f"  [WARN] JSON parse error: {e}")
-
-            if i + 5 < len(need_list):
-                time.sleep(1)
+        # 重试一轮：空摘要/被校验拒收/批次解析失败的条目，更小批次再试一次
+        missing = [it for it in need_list if it["id"] not in summaries]
+        if missing:
+            print(f"[SUM] Retrying {len(missing)} failed items (smaller batches)...")
+            llm_summarize(missing, provider, RETRY_BATCH_SIZE, summaries, llm_ids)
     else:
         print("[SUM] No LLM API key found (set DEEPSEEK_API_KEY or OPENAI_API_KEY)")
         print("[SUM] Falling back to template summaries")
 
     # Fallback: template for any still missing
+    # （历史回填条目不用模板兜底——留空下轮再试，避免模板垃圾污染 summaries.json）
     for id, item in need.items():
-        if id not in summaries:
+        if id not in summaries and id not in retry_only_ids:
             zh, en = template_summary(item)
             summaries[id] = {"summary_zh": zh, "summary_en": en}
 
@@ -277,17 +398,12 @@ def main():
     digest_path.write_text(json.dumps(digest, indent=2, ensure_ascii=False))
     SUMMARIES_PATH.write_text(json.dumps(existing, indent=2, ensure_ascii=False))
 
-    llm_count = len([s for s in summaries.values()
-                     if not s["summary_zh"].startswith("HN 热门")
-                     and not s["summary_zh"].startswith("开源项目")
-                     and len(s["summary_zh"]) >= 50])
+    llm_count = len(llm_ids)
     print(f"[SUM] Done: {llm_count} LLM + {len(summaries)-llm_count} template = {len(summaries)} total")
 
-    # Also store summaries in today's history snapshot so archived daily pages
-    # retain the bilingual summaries.
+    # 回填历史快照：今日快照覆盖为最新摘要，旧快照只补空字段
     today_key = digest.get("daily", {}).get("date", "")
-    if today_key:
-        apply_summaries_to_history(existing, today_key)
+    backfill_history_summaries(existing, today_key)
 
 
 if __name__ == "__main__":

@@ -39,13 +39,12 @@ export const metadata: Metadata = {
     title: "DevFocus - 开发者聚焦",
     description: "每日自动整理的开发者资讯：AI 热榜、GitHub 趋势、技术新闻，一站式看完",
     url: SITE_URL,
-    images: [{ url: `${SITE_URL}/og.png`, width: 1200, height: 630, alt: "DevFocus" }],
+    // images come from src/app/opengraph-image.tsx (generated at build time)
   },
   twitter: {
     card: "summary_large_image",
     title: "DevFocus - 开发者聚焦",
     description: "每日自动整理的开发者资讯：AI 热榜、GitHub 趋势、技术新闻",
-    images: [`${SITE_URL}/og.png`],
   },
 };
 

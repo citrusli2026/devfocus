@@ -32,3 +32,25 @@ export interface Digest {
   sources: string[];
   total_items: number;
 }
+
+export interface TrendTopic {
+  keyword: string;
+  count: number;
+  trend: "rising" | "falling" | "stable" | "new";
+  heat_by_date: Record<string, number>;
+  sample_titles: string[];
+  sources: string[];
+}
+
+export interface TrendsData {
+  generated_at: string;
+  period: string;
+  dates: string[];
+  topics: TrendTopic[];
+  source_activity: Record<string, Record<string, number>>;
+}
+
+export interface HeatPoint {
+  date: string;
+  score: number;
+}

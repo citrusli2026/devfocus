@@ -4,6 +4,7 @@ from __future__ import annotations
 """GitHub Trending repos — HTML scrape with API fallback."""
 
 import json
+import re
 import sys
 import urllib.request
 import urllib.error
@@ -28,7 +29,8 @@ class TrendingParser(HTMLParser):
         self._in_article = False
         self._in_h2 = False
         self._in_desc = False
-        self._in_stars = False
+        self._in_stars_total = False
+        self._in_stars_today = False
         self._in_lang = False
         self._text_buf = ""
 
@@ -51,7 +53,12 @@ class TrendingParser(HTMLParser):
                 self._in_desc = True
                 self._text_buf = ""
             elif tag == "a" and "Link--muted" in cls and "/stargazers" in (attrs_dict.get("href") or ""):
-                self._in_stars = True
+                # /stargazers 链接里的数字是仓库总 star 数，不是当日新增
+                self._in_stars_total = True
+                self._text_buf = ""
+            elif tag == "span" and "float-sm-right" in cls:
+                # 卡片右下角 "N stars today / this month"，周期内新增 star 数
+                self._in_stars_today = True
                 self._text_buf = ""
             elif tag == "span" and "repo-language-color" in cls:
                 self._in_lang = True
@@ -67,11 +74,17 @@ class TrendingParser(HTMLParser):
         elif tag == "p" and self._in_desc:
             self._in_desc = False
             self._current["description"] = " ".join(self._text_buf.split()).strip()
-        elif tag == "a" and self._in_stars:
-            self._in_stars = False
+        elif tag == "a" and self._in_stars_total:
+            self._in_stars_total = False
             stars = self._text_buf.strip().replace(",", "")
             if stars.isdigit():
-                self._current["stars_today"] = int(stars)
+                self._current["stars_total"] = int(stars)
+        elif tag == "span" and self._in_stars_today:
+            self._in_stars_today = False
+            # 文本形如 "1,234 stars today"，取开头数字
+            m = re.match(r"\s*([\d,]+)", self._text_buf)
+            if m:
+                self._current["stars_today"] = int(m.group(1).replace(",", ""))
         elif tag == "span" and self._in_lang:
             self._in_lang = False
         elif tag == "article" and self._in_article:
@@ -81,7 +94,8 @@ class TrendingParser(HTMLParser):
             self._current = {}
 
     def handle_data(self, data):
-        if self._in_h2 or self._in_desc or self._in_stars or self._in_lang:
+        if (self._in_h2 or self._in_desc or self._in_stars_total
+                or self._in_stars_today or self._in_lang):
             self._text_buf += data
 
 
@@ -102,6 +116,7 @@ def fetch_html(url: str) -> list[dict]:
             "url": r.get("url", ""),
             "description": r.get("description", ""),
             "stars_today": r.get("stars_today", 0),
+            "stars_total": r.get("stars_total", 0),
             "source": "github_trending",
         })
     return repos
@@ -135,7 +150,10 @@ def fetch_api_fallback(period: str) -> list[dict]:
             "name": item.get("name", ""),
             "url": item.get("html_url", ""),
             "description": item.get("description", "") or "",
+            # 兜底拿不到 "stars today"，用仓库总 star 数（stargazers_count）充数，
+            # 数值量级比真实 stars_today 大，下游排序时注意
             "stars_today": item.get("stargazers_count", 0),
+            "stars_total": item.get("stargazers_count", 0),
             "source": "github_trending",
         })
     print(f"[GH] API fallback returned {len(repos)} repos for {period}")

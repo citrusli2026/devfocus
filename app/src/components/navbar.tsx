@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "../lib/utils";
-import { Newspaper, Info, Search, Trophy, Menu, X, Zap } from "lucide-react";
+import { Newspaper, Info, Search, Trophy, Menu, X, Zap, TrendingUp } from "lucide-react";
 import { LanguageToggle } from "./language-toggle";
 import { ThemeToggle } from "./theme-toggle";
 import { GitHubIcon } from "./icons";
@@ -14,6 +14,7 @@ const navItems = [
   { href: "/", labelKey: "nav.today", icon: Newspaper },
   { href: "/search/", labelKey: "nav.search", icon: Search },
   { href: "/weekly/", labelKey: "nav.weekly", icon: Trophy },
+  { href: "/trends/", labelKey: "nav.trends", icon: TrendingUp },
   { href: "/about/", labelKey: "nav.about", icon: Info },
 ];
 

@@ -67,6 +67,20 @@ def is_tech(title: str) -> bool:
     return any(kw.lower() in title_lower for kw in TECH_KEYWORDS)
 
 
+def parse_heat(text: str) -> int:
+    """Parse tophub heat text like '1235 万热度' / '697 万热度' to a raw number.
+
+    Returns 0 when unparseable (caller falls back to rank-based score).
+    """
+    m = re.search(r"([\d.]+)", text)
+    if not m:
+        return 0
+    val = float(m.group(1))
+    if "万" in text:
+        val *= 10000
+    return int(val)
+
+
 def fetch_hot_list() -> list[dict]:
     """Fetch Zhihu hot list from tophub.today, filtered to tech only."""
     req = urllib.request.Request(TOPHUB_URL, headers=HEADERS)
@@ -77,14 +91,18 @@ def fetch_hot_list() -> list[dict]:
         print(f"[Zhihu] Fetch error: {e}", file=sys.stderr)
         return []
 
-    links = re.findall(
-        r'<a[^>]*href="(https://www\.zhihu\.com/question/\d+)"[^>]*target="_blank"[^>]*>([^<]+)</a>',
+    # Each list row is: title anchor followed by '<div class="item-desc">N 万热度</div>'.
+    # Capture both in one pass so heat stays aligned with its title.
+    rows = re.findall(
+        r'<a[^>]*href="(https://www\.zhihu\.com/question/\d+)"[^>]*target="_blank"[^>]*>([^<]+)</a></div>'
+        r'\s*<div class="item-desc">([^<]*)</div>',
         html,
+        re.S,
     )
 
     items = []
     seen: set[str] = set()
-    for href, title in links[:MAX_FETCH]:
+    for rank, (href, title, heat_text) in enumerate(rows[:MAX_FETCH]):
         title = title.strip()
         if not title or len(title) < 5:
             continue
@@ -95,13 +113,16 @@ def fetch_hot_list() -> list[dict]:
         if qid_str in seen:
             continue
         seen.add(qid_str)
+        heat = parse_heat(heat_text)
+        # 热度解析失败（页面结构变化）时退化为排名分：第 1 名 50 分，逐名 -5
+        score = heat if heat > 0 else max(50 - len(items) * 5, 5)
         items.append({
             "id": f"zhihu-{qid_str}",
             "title": title,
             "url": href,
             "description": "",
             "source": "zhihu",
-            "score": 0,
+            "score": score,
             "comments": 0,
             "author": "",
             "time": datetime.now(timezone.utc).isoformat(),

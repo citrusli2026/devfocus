@@ -6,9 +6,50 @@ import { ArrowLeft, ExternalLink, MessageSquare, Star, ArrowUp, Calendar, Link a
 import { getSourceMeta } from "../lib/sources";
 import { useTranslation } from "../lib/i18n";
 import { isWithinDays } from "../lib/time";
-import type { FeedItem } from "../types";
+import type { FeedItem, HeatPoint } from "../types";
 
-export function ItemClient({ item, relatedItems }: { item: FeedItem; relatedItems?: FeedItem[] }) {
+// Keep in sync with normalizeTag in src/app/tag/[tag]/page.tsx
+const tagHref = (tag: string) => `/tag/${encodeURIComponent(tag.toLowerCase().replace(/\s+/g, "-"))}/`;
+
+// Minimal hand-drawn sparkline (no chart library), ~120x32.
+function Sparkline({ points }: { points: HeatPoint[] }) {
+  const w = 120;
+  const h = 32;
+  const pad = 4;
+  const scores = points.map((p) => p.score);
+  const min = Math.min(...scores);
+  const max = Math.max(...scores);
+  const span = max - min;
+  const x = (i: number) => pad + (i * (w - pad * 2)) / (points.length - 1);
+  const y = (score: number) => (span === 0 ? h / 2 : h - pad - ((score - min) / span) * (h - pad * 2));
+  const path = points.map((p, i) => `${i === 0 ? "M" : "L"}${x(i).toFixed(1)},${y(p.score).toFixed(1)}`).join(" ");
+
+  return (
+    <div className="flex items-center gap-3">
+      <svg
+        width={w}
+        height={h}
+        viewBox={`0 0 ${w} ${h}`}
+        role="img"
+        aria-label={points.map((p) => `${p.date}: ${p.score}`).join(", ")}
+        className="text-accent-violet shrink-0"
+      >
+        <path d={path} fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+        {points.map((p, i) => (
+          <circle key={p.date} cx={x(i)} cy={y(p.score)} r="2.5" fill="currentColor">
+            <title>{`${p.date} · ${p.score.toLocaleString()}`}</title>
+          </circle>
+        ))}
+      </svg>
+      <div className="flex flex-col text-[11px] text-text-dim tabular-nums leading-tight">
+        <span>{points[0].date.slice(5)}</span>
+        <span>{points[points.length - 1].date.slice(5)}</span>
+      </div>
+    </div>
+  );
+}
+
+export function ItemClient({ item, relatedItems, heatHistory }: { item: FeedItem; relatedItems?: FeedItem[]; heatHistory?: HeatPoint[] }) {
   const { t } = useTranslation();
   const [copied, setCopied] = useState(false);
   const meta = getSourceMeta(item.source);
@@ -91,6 +132,15 @@ export function ItemClient({ item, relatedItems }: { item: FeedItem; relatedItem
         </div>
       )}
 
+      {heatHistory && heatHistory.length >= 2 && (
+        <div className="bg-surface-card border border-surface-border rounded-xl p-5 sm:p-6">
+          <h2 className="text-sm font-semibold text-text-muted mb-3 uppercase tracking-wide">
+            {t("item.heat7d")}
+          </h2>
+          <Sparkline points={heatHistory} />
+        </div>
+      )}
+
       <div className="flex flex-col sm:flex-row gap-3">
         <a
           href={item.url}
@@ -139,12 +189,14 @@ export function ItemClient({ item, relatedItems }: { item: FeedItem; relatedItem
                 {related.tags && related.tags.length > 0 && (
                   <div className="mt-2 flex flex-wrap gap-1.5">
                     {related.tags.slice(0, 5).map((tag) => (
-                      <span
+                      <Link
                         key={tag}
-                        className="text-[10px] px-1.5 py-0.5 rounded-md bg-surface-hover text-text-dim"
+                        href={tagHref(tag)}
+                        onClick={(e) => e.stopPropagation()}
+                        className="text-[10px] px-1.5 py-0.5 rounded-md bg-surface-hover text-text-dim hover:text-accent-violet hover:bg-accent-violet/10 transition-colors"
                       >
                         {tag}
-                      </span>
+                      </Link>
                     ))}
                   </div>
                 )}

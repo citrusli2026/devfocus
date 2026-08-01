@@ -40,10 +40,17 @@ jobs:
       - name: Sync data to app
         run: cp data/4-final/*.json app/src/data/ || true
 
+      - name: Validate data
+        run: |
+          cd data
+          python3.11 scripts/validate_data.py
+
       - name: Check for changes
         id: changes
         run: |
-          if git diff --cached --quiet && git diff --quiet; then
+          # 先 git add -A，让 untracked 文件也纳入 diff --cached 判断
+          git add -A
+          if git diff --cached --quiet; then
             echo "has_changes=false" >> "$GITHUB_OUTPUT"
           else
             echo "has_changes=true" >> "$GITHUB_OUTPUT"

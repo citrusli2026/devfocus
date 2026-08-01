@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "postbuild": "node scripts/clean-build-traces.mjs",
-    "start": "next start",
+    "start": "http-server out -p 3000",
     "lint": "eslint",
     "test:e2e": "playwright test",
     "test:py": "cd ../data/3-process && python3 -m unittest test_enrich.py && python3 ../scripts/validate_data.py",
@@ -30,6 +30,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.2.9",
+    "http-server": "^14.1.1",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

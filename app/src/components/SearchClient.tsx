@@ -12,6 +12,9 @@ import { EmptyState } from "./EmptyState";
 
 const PAGE_SIZE = 20;
 
+// Keep in sync with normalizeTag in src/app/tag/[tag]/page.tsx
+const tagHref = (tag: string) => `/tag/${encodeURIComponent(tag.toLowerCase().replace(/\s+/g, "-"))}/`;
+
 export type SearchIndexItem = {
   id: string;
   title: string;
@@ -390,7 +393,17 @@ export function SearchClient({
                     {item.tags.length > 0 && (
                       <span className="inline-flex items-center gap-1">
                         <Tag className="h-3 w-3" />
-                        {item.tags.slice(0, 3).join(", ")}
+                        {item.tags.slice(0, 3).map((tag, i) => (
+                          <Link
+                            key={tag}
+                            href={tagHref(tag)}
+                            onClick={(e) => e.stopPropagation()}
+                            className="hover:text-accent-violet transition-colors"
+                          >
+                            {tag}
+                            {i < Math.min(item.tags.length, 3) - 1 ? "," : ""}
+                          </Link>
+                        ))}
                       </span>
                     )}
                   </div>
