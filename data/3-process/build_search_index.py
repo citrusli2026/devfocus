@@ -67,8 +67,18 @@ def main():
             continue
         scored.append((item.get("score", 0), ts, item))
 
-    # Sort by score desc, then recency desc
-    scored.sort(key=lambda x: (x[0], x[1]), reverse=True)
+    # 各源 score 量纲天差地别（知乎热度数百万 / 36kr 阅读数 / HN 几百分），
+    # 直接按原始分排序会让高量纲源挤掉整源。按源内最大值归一后再排序，
+    # 保证每个有数据的源都能进入索引。
+    max_by_source: dict[str, float] = {}
+    for score, _, item in scored:
+        src = item.get("source", "")
+        if score > max_by_source.get(src, 0):
+            max_by_source[src] = score
+    scored.sort(
+        key=lambda x: (x[0] / max(max_by_source.get(x[2].get("source", ""), 1), 1), x[1]),
+        reverse=True,
+    )
     selected = [x[2] for x in scored[:MAX_ITEMS]]
 
     # Stable sort by date desc for predictable display
