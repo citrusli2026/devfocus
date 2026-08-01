@@ -2608,7 +2608,9 @@
       "author": "alibaba",
       "time": "2026-07-07T06:03:47.775150+00:00",
       "tags": [],
-      "gh_period": "daily"
+      "gh_period": "daily",
+      "summary_zh": "zvec是一个轻量级、极速的进程内向量数据库，专为AI应用设计。它直接嵌入到你的程序中，无需独立服务，因此安装和运维成本极低。虽然体积小，但检索性能非常出色，能高效处理高维向量相似度搜索，非常适合做推荐系统、语义检索和RAG等场景。对于想要快速原型验证的小团队和独立开发者，zvec是一个非常吸引人的选择，让你在不增加基础设施负担的情况下释放AI潜力。",
+      "summary_en": "zvec is a lightweight, lightning-fast in-process vector database built for AI applications. Because it runs inside your application process, there's no separate service to deploy or manage, so setup and maintenance are trivial. Despite its small footprint, it delivers excellent performance for high-dimensional similarity searches, making it ideal for recommendation systems, semantic retrieval, and retrieval-augmented generation. Developers and small teams that want to prototype quickly without spinning up heavy infrastructure will find zvec especially appealing — it's a simple, powerful tool to embed AI capabilities directly into your product."
     },
     {
       "id": "gh-daily-sindresorhus-awesome",
@@ -3352,8 +3354,8 @@
       "tags": [
         "zhihu"
       ],
-      "summary_zh": "",
-      "summary_en": ""
+      "summary_zh": "知乎热议：AI 降低了内容生产、客服、编程等环节的边际成本，让“一人公司”在工具层面成为可能；但讨论中也指出，获客、品牌信任、合规风控等非生成性工作仍难被 AI 替代。适合正在评估是否脱离组织、以个体户或小团队形式创业的开发者参考。",
+      "summary_en": "A Zhihu discussion argues that AI tools cut marginal costs in content, customer service, and coding, making one-person companies technically feasible. Yet commenters note that acquisition, brand trust, and compliance still require human effort. Worth reading for developers weighing solo or micro-team ventures."
     },
     {
       "id": "zhihu-2056408133904201108",
@@ -3368,8 +3370,8 @@
       "tags": [
         "zhihu"
       ],
-      "summary_zh": "",
-      "summary_en": ""
+      "summary_zh": "讨论梳理了 AI 在科研中的应用边界：它已能承担文献综述、实验设计辅助和数据分析，显著缩短假设验证周期；但提出好问题、判断研究价值与承担学术责任仍依赖人类。适合想用 AI 提效同时担心被替代的科研一线人员阅读。",
+      "summary_en": "The discussion examines how AI already accelerates literature reviews, experimental design, and data analysis, shortening hypothesis-to-result cycles. But it stresses that framing meaningful questions, assessing research significance, and taking accountability remain human tasks. Useful for researchers who want to leverage AI without fearing obsolescence."
     },
     {
       "id": "36kr-3884131364712711",
@@ -3438,8 +3440,8 @@
       "author": "",
       "time": 1783389624997,
       "tags": [],
-      "summary_zh": "",
-      "summary_en": ""
+      "summary_zh": "Anthropic 新公布的模型内部状态可视化显示，Claude 在给出最终回答前会经历多轮对候选思路的评估与修正，类似人类的“潜意识”权衡；这些中间信号并不出现在公开输出中。对于研究模型可解释性、调试提示词或评估 AI 安全的人来说，这是少见的对黑箱内部机制的观察窗口。",
+      "summary_en": "Anthropic published visualizations of Claude's internal states, showing that the model evaluates and revises candidate lines of reasoning before final output — a hidden process absent from public responses. This gives interpretability researchers and safety engineers a rare window into the black box, useful for debugging prompts and auditing behavior."
     },
     {
       "id": "36kr-3883985820446978",
@@ -3452,8 +3454,8 @@
       "author": "",
       "time": 1783334556697,
       "tags": [],
-      "summary_zh": "",
-      "summary_en": ""
+      "summary_zh": "文章认为，国内大厂的 AI 竞争正从单点模型能力转向组织级渗透：AI 被嵌入产品线、供应链、营销等流程，像“基因”一样改造公司运作方式，而非仅作为实验室成果发布。头部厂商的模型更新节奏放缓，更强调业务落地和 ROI 考核，适合关注 AI 商业化和产业应用的人读。",
+      "summary_en": "The piece argues that Chinese tech giants are shifting AI competition from standalone model capability to organization-wide integration, embedding AI across product lines, supply chains, and marketing like a 'gene drive.' With model releases slowing, the focus is on business deployment and ROI. Relevant for those tracking AI commercialization and enterprise adoption."
     },
     {
       "id": "36kr-3884297914579586",
@@ -3466,8 +3468,8 @@
       "author": "",
       "time": 1783397750929,
       "tags": [],
-      "summary_zh": "",
-      "summary_en": ""
+      "summary_zh": "苹果新任CEO一上任就面临全面涨价和“最惨泄密”的双重考验，内部计划用16款新品发起突围。如此密集的产品发布节奏，将直接检验新管理层对供应链、定价和保密体系的重整能力，也决定市场对苹果转型期的信心。",
+      "summary_en": "Apple's incoming CEO faces an immediate storm of price hikes across the lineup and what's described as its worst leak yet. In response, the company is reportedly preparing 16 new product launches to regain momentum. The unusually dense release schedule will test the new leadership's command of supply chain, pricing strategy, and internal secrecy — and shape confidence in Apple's transition."
     },
     {
       "id": "36kr-3884830690717697",
@@ -3480,8 +3482,8 @@
       "author": "",
       "time": 1783383619834,
       "tags": [],
-      "summary_zh": "",
-      "summary_en": ""
+      "summary_zh": "Anthropic 在内部研究中发现 Claude 存在一个名为“J空间”的特殊表征区域，据称它存储着模型未在回答中直接说出的潜在想法。这个“类意识工作台”如果得到验证，将为大模型内部机理和可解释性研究提供新的切入点，也可能引发关于AI状态的新讨论。",
+      "summary_en": "Anthropic researchers have identified a mysterious internal region in Claude dubbed 'J-space,' which appears to hold latent thoughts the model never directly expresses in its responses. Dubbed a 'consciousness-like workbench,' this finding could open a new avenue for studying LLM internal representations and interpretability. AI researchers and safety engineers will likely want to reproduce and analyze it."
     },
     {
       "id": "36kr-3884262718042115",
