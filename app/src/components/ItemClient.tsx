@@ -6,6 +6,7 @@ import { ArrowLeft, ExternalLink, MessageSquare, Star, ArrowUp, Calendar, Link a
 import { getSourceMeta } from "../lib/sources";
 import { useTranslation } from "../lib/i18n";
 import { isWithinDays } from "../lib/time";
+import { isValidTag } from "../lib/valid-tags";
 import type { FeedItem, HeatPoint } from "../types";
 
 // Keep in sync with normalizeTag in src/app/tag/[tag]/page.tsx
@@ -188,16 +189,25 @@ export function ItemClient({ item, relatedItems, heatHistory }: { item: FeedItem
                 <p className="mt-1 text-sm text-text-secondary line-clamp-2">{related.description}</p>
                 {related.tags && related.tags.length > 0 && (
                   <div className="mt-2 flex flex-wrap gap-1.5">
-                    {related.tags.slice(0, 5).map((tag) => (
-                      <Link
-                        key={tag}
-                        href={tagHref(tag)}
-                        onClick={(e) => e.stopPropagation()}
-                        className="text-[10px] px-1.5 py-0.5 rounded-md bg-surface-hover text-text-dim hover:text-accent-violet hover:bg-accent-violet/10 transition-colors"
-                      >
-                        {tag}
-                      </Link>
-                    ))}
+                    {related.tags.slice(0, 5).map((tag) =>
+                      isValidTag(tag) ? (
+                        <Link
+                          key={tag}
+                          href={tagHref(tag)}
+                          onClick={(e) => e.stopPropagation()}
+                          className="text-[10px] px-1.5 py-0.5 rounded-md bg-surface-hover text-text-dim hover:text-accent-violet hover:bg-accent-violet/10 transition-colors"
+                        >
+                          {tag}
+                        </Link>
+                      ) : (
+                        <span
+                          key={tag}
+                          className="text-[10px] px-1.5 py-0.5 rounded-md bg-surface-hover text-text-dim"
+                        >
+                          {tag}
+                        </span>
+                      )
+                    )}
                   </div>
                 )}
               </article>

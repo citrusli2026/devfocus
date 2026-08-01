@@ -8,6 +8,7 @@ import { Search, X, ExternalLink, Calendar, Tag, Filter, ChevronDown } from "luc
 import { useTranslation } from "../lib/i18n";
 import { trackEvent } from "../lib/analytics";
 import { getSourceMeta } from "../lib/sources";
+import { isValidTag } from "../lib/valid-tags";
 import { EmptyState } from "./EmptyState";
 
 const PAGE_SIZE = 20;
@@ -393,17 +394,24 @@ export function SearchClient({
                     {item.tags.length > 0 && (
                       <span className="inline-flex items-center gap-1">
                         <Tag className="h-3 w-3" />
-                        {item.tags.slice(0, 3).map((tag, i) => (
-                          <Link
-                            key={tag}
-                            href={tagHref(tag)}
-                            onClick={(e) => e.stopPropagation()}
-                            className="hover:text-accent-violet transition-colors"
-                          >
-                            {tag}
-                            {i < Math.min(item.tags.length, 3) - 1 ? "," : ""}
-                          </Link>
-                        ))}
+                        {item.tags.slice(0, 3).map((tag, i) =>
+                          isValidTag(tag) ? (
+                            <Link
+                              key={tag}
+                              href={tagHref(tag)}
+                              onClick={(e) => e.stopPropagation()}
+                              className="hover:text-accent-violet transition-colors"
+                            >
+                              {tag}
+                              {i < Math.min(item.tags.length, 3) - 1 ? "," : ""}
+                            </Link>
+                          ) : (
+                            <span key={tag}>
+                              {tag}
+                              {i < Math.min(item.tags.length, 3) - 1 ? "," : ""}
+                            </span>
+                          )
+                        )}
                       </span>
                     )}
                   </div>

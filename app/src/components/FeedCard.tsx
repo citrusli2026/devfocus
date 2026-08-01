@@ -7,6 +7,7 @@ import digestData from "../data/digest.json";
 import { useTranslation } from "../lib/i18n";
 import { useReadItems } from "../lib/read-items";
 import { isWithinDays } from "../lib/time";
+import { isValidTag, isValidDomain } from "../lib/valid-tags";
 import { cn } from "../lib/utils";
 import { ExternalLink, MessageSquare, Star, ArrowUp, Share2, Link as LinkIcon } from "lucide-react";
 
@@ -232,7 +233,7 @@ export function FeedCard({ item, rank, linkToDetail = false }: { item: FeedItem;
                 {item.comments.toLocaleString()}
               </span>
             )}
-            {domain && (
+            {domain && (isValidDomain(domain) ? (
               <Link
                 href={`/domain/${domain}/`}
                 onClick={(e) => e.stopPropagation()}
@@ -240,17 +241,30 @@ export function FeedCard({ item, rank, linkToDetail = false }: { item: FeedItem;
               >
                 {domain}
               </Link>
-            )}
-            {item.tags?.slice(0, 3).map((tag) => (
-              <Link
-                key={tag}
-                href={tagHref(tag)}
-                onClick={(e) => e.stopPropagation()}
-                className="text-[11px] text-text-dim px-1.5 py-0.5 rounded bg-surface-hover hover:text-accent-violet hover:bg-accent-violet/10 transition-colors"
-              >
-                #{tag}
-              </Link>
+            ) : (
+              <span className="text-[11px] text-text-dim px-1.5 py-0.5 rounded bg-surface-hover">
+                {domain}
+              </span>
             ))}
+            {item.tags?.slice(0, 3).map((tag) =>
+              isValidTag(tag) ? (
+                <Link
+                  key={tag}
+                  href={tagHref(tag)}
+                  onClick={(e) => e.stopPropagation()}
+                  className="text-[11px] text-text-dim px-1.5 py-0.5 rounded bg-surface-hover hover:text-accent-violet hover:bg-accent-violet/10 transition-colors"
+                >
+                  #{tag}
+                </Link>
+              ) : (
+                <span
+                  key={tag}
+                  className="text-[11px] text-text-dim px-1.5 py-0.5 rounded bg-surface-hover"
+                >
+                  #{tag}
+                </span>
+              )
+            )}
             {item.author && (
               <span className="text-[11px] text-text-dim">
                 {t("common.by")} {item.author}

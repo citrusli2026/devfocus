@@ -65,6 +65,8 @@ USER_PROMPT_TEMPLATE = """为下面每条资讯各写一条中文摘要 (summary
 3. 技术名词、产品名、公司名保留英文原文（如 Kubernetes、Transformer、Claude、GitHub），不要硬译。
 4. 禁止：复述标题凑字数；堆砌形容词和夸张修辞（如"神器""白月光""颠覆""震撼"）；套话结尾（如"值得关注""未来可期"）；列表、编号、竖线 | —— 必须是连贯段落。
 5. 两条摘要覆盖相同的关键事实，但语言各自地道，不是逐句互译。
+6. 事实边界：摘要里出现的公司名、人名、产品名、数字、版本号必须来自该条的 title 或 desc，禁止引入两者都未提及的实体（例如标题只写 Codex 时不得自行加上 "Amazon"）。拿不准就不写。
+7. desc 为空的条目（如只有链接的 HN 帖）：禁止猜测正文内容。基于标题能确定的事实写 1-2 句，并明确说明"原文是链接，未提供更多细节"（英文："the linked page isn't summarized here; details beyond the title aren't available"）。
 
 Items:
 {items}
@@ -109,7 +111,7 @@ def build_prompt(items: list[dict]) -> str:
     """Build summarization prompt for a batch of items."""
     lines = []
     for i, item in enumerate(items):
-        desc = (item.get("description") or "")[:200]
+        desc = (item.get("description") or "")[:200] or "（无正文，仅标题/链接）"
         lines.append(f"{i+1}. id={item['id']} | source={item.get('source', '')} | title={item.get('title', '')} | desc={desc}")
     return USER_PROMPT_TEMPLATE.format(items="\n".join(lines))
 

@@ -120,6 +120,37 @@ def main():
     OUTPUT.write_text(json.dumps(stats, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"[Stats] {total_items} items, {days_covered} days → {OUTPUT}")
 
+    # valid-tags.json：有独立聚合页的标签/域名清单，供前端过滤链接（避免长尾标签 404）。
+    # 阈值与归一化必须和前端保持一致：
+    #   app/src/app/tag/[tag]/page.tsx    MIN_TAG_ITEMS=8,  key=lower+空格转-
+    #   app/src/app/domain/[domain]/page.tsx  MIN_DOMAIN_ITEMS=3, key=lower+去www.
+    MIN_TAG_ITEMS = 8
+    MIN_DOMAIN_ITEMS = 3
+    tag_counts: Counter = Counter()
+    for i in items:
+        for tag in i.get("tags") or []:
+            key = "-".join(str(tag).lower().split())
+            if key:
+                tag_counts[key] += 1
+    # 与 domain 页一致，用 enrich 写入的 item.domain 字段（而非 URL 解析）
+    item_domain_counts: Counter = Counter()
+    for i in items:
+        d = str(i.get("domain") or "").lower()
+        if d.startswith("www."):
+            d = d[4:]
+        if d:
+            item_domain_counts[d] += 1
+    valid = {
+        "generated_at": now.isoformat(),
+        "min_tag_items": MIN_TAG_ITEMS,
+        "min_domain_items": MIN_DOMAIN_ITEMS,
+        "tags": sorted(t for t, c in tag_counts.items() if c >= MIN_TAG_ITEMS),
+        "domains": sorted(d for d, c in item_domain_counts.items() if c >= MIN_DOMAIN_ITEMS),
+    }
+    valid_path = DATA / "4-final" / "valid-tags.json"
+    valid_path.write_text(json.dumps(valid, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    print(f"[Stats] valid-tags: {len(valid['tags'])} tags, {len(valid['domains'])} domains → {valid_path}")
+
 
 if __name__ == "__main__":
     main()
