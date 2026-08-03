@@ -2526,7 +2526,9 @@
       "author": "lyogavin",
       "time": "2026-07-19T01:27:46.005727+00:00",
       "tags": [],
-      "gh_period": "daily"
+      "gh_period": "daily",
+      "summary_zh": "AirLLM 能在单块 4GB 显存 GPU 上运行 70B 参数的大模型推理，不需要多卡或高显存设备。它显著降低了大模型本地部署的硬件门槛，适合资源有限的开发者尝试超大参数模型。",
+      "summary_en": "AirLLM is an inference project that runs a 70B-parameter model on a single 4GB GPU, avoiding the need for multi-GPU setups. It lowers the hardware barrier for local LLM deployment, making it appealing for developers with limited VRAM."
     },
     {
       "id": "gh-daily-KnockOutEZ-wigolo",
