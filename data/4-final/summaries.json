@@ -856,8 +856,9 @@
     "summary_en": "This Codex-based skill generates 16:9 hand-drawn illustrations with a white background for Chinese articles, featuring dark whimsical characters and minimal red/orange/blue annotations. It automatically creates matching visuals for textual content. For developers, it demonstrates how to leverage AI skills to automate the generation of stylized illustrations, potentially integrating into content pipelines."
   },
   "gh-daily-obra-superpowers": {
-    "summary_zh": "Superpowers 是一套面向 AI 代理的“技能框架”和软件开发方法论。它试图解决当前大模型在复杂任务中缺乏结构化思考的问题——通过定义清晰的技能单元和协作流程，让 AI 代理像人类工程师一样分步解决问题。这个框架不仅给 AI 用，也可以指导人类团队如何拆解需求、编写代码、进行测试。如果你在探索如何让 AI 更可靠地参与实际项目开发，或者想建立更高效的工程协作流程，值得关注。",
-    "summary_en": "Superpowers is an agentic skills framework and software development methodology designed to make AI agents work more reliably on complex engineering tasks. Instead of letting a model guess its way through a problem, it decomposes work into defined skills, checks, and iterative steps—similar to how a senior engineer would approach a feature. The framework is practical enough to be used by human teams as well. If you're building AI-powered coding tools or want to inject disciplined structure into your development workflow, this project offers a fresh, actionable approach."
+    "summary_zh": "Superpowers 是一套面向 coding agent 的完整开发方法论，用可组合的 skills 和初始指令让 Claude Code、Codex CLI、Cursor、Gemini CLI 等工具按流程工作。它要求 agent 先追问真实目标，把 spec 分块确认，再产出实现计划，并强调 red/green TDD 与 YAGNI。适合想规范 AI 编程助手的团队。",
+    "summary_en": "Superpowers is a complete software development methodology for coding agents, built from composable skills and bootstrap instructions, and integrates with Claude Code, Codex CLI, Cursor, Gemini CLI, GitHub Copilot CLI, and more. The workflow starts with the agent asking for the real goal, presenting a spec in digestible chunks, then producing an implementation plan that emphasizes red/green TDD and YAGNI. It appeals to teams that want AI assistants to work from a spec rather than immediately writing code.",
+    "input_hash": "4b9e170d2843"
   },
   "gh-monthly-microsoft-markitdown": {
     "summary_zh": "MarkItDown 是微软开源的一个 Python 工具，能把各种常见文档（Word、Excel、PPT、PDF、HTML 等）批量转换成 Markdown 格式。对于需要将非结构化文档喂给大语言模型或者做文本分析的开发者来说，这简直是神器——因为大多数 AI 工具处理结构化文本（如 Markdown）都比原始二进制文件要好。它简洁、依赖少、输出质量高，尤其适合做 RAG（检索增强生成）的文档预处理环节。",
@@ -876,8 +877,9 @@
     "summary_en": "RuView turns commodity WiFi signals into real-time intelligence for spatial awareness, vital sign monitoring, and presence detection—all without using any cameras or dedicated sensors. By analyzing how WiFi waves are disturbed by human movement and breathing, it can detect falls, track location, and monitor heart rate through walls. This privacy-preserving, low-cost solution works with existing home WiFi routers, making it a breakthrough for elderly care, smart buildings, and security applications where non-intrusive monitoring is critical."
   },
   "gh-daily-addyosmani-agent-skills": {
-    "summary_zh": "agent-skills 是 Google Chrome 团队 Addy Osmani 发起的开源项目，旨在为AI编码代理注入生产级的工程技能。项目提供了一套精心设计的技能库，涵盖代码审查、调试、测试生成、性能优化、安全审计等专业领域。每个技能以清晰的提示（prompt）和示例形式呈现，使AI代理能像资深工程师一样思考和工作。该项目的重要性在于填补了当前AI编码助手的核心短板——多数工具只能生成代码片段，但缺乏对代码质量、可维护性和工程规范的深层次理解。受益对象是所有使用AI辅助编程的开发者，尤其是团队中的高级工程师和架构师。GitHub趋势榜上的高关注度反映了开发者对“更有用AI代理”的迫切需求。项目本身是纯文本/知识库形式，依赖LLM本身的推理能力，不绑定特定平台，因此极易集成到Cline、GitHub Copilot等工具中。",
-    "summary_en": "Agent-skills is an open-source project by Google Chrome's Addy Osmani that equips AI coding agents with production-grade engineering competencies. It provides a curated library of skills—code review, debugging, test generation, performance optimization, and security auditing—each packaged as well-crafted prompts with real-world examples. The project addresses a critical gap in current AI coding assistants: most can generate code but lack deep understanding of quality, maintainability, and engineering best practices. Senior developers, teams adopting AI-assisted workflows, and tool builders benefit directly from these reusable skill definitions. Its rapid rise on GitHub signals urgent demand for more capable, context-aware AI agents. The project is platform-agnostic (pure text/prompt libraries) and integrates easily with agents like Cline, Claude Code, or Copilot. By codifying expert knowledge into prompt templates, it pushes AI coding from toy examples toward production readiness."
+    "summary_zh": "Addy Osmani 开源了 agent-skills，把资深工程师的开发流程、质量门禁与最佳实践打包成 AI 编码 agent 可遵循的规范。仓库提供 8 个斜杠命令，对应从 spec、plan、build、test、review 到 ship 的完整开发周期，方便 agent 在每个阶段按同一套标准执行；适合团队用来为 AI 编码流程建立统一的质量门槛。",
+    "summary_en": "Addy Osmani's agent-skills packs senior-engineer workflows, quality gates, and best practices into skills that AI coding agents can follow consistently. It ships with eight slash commands mapped to the development lifecycle — from spec and plan through build, test, review, and ship — giving teams a straightforward way to enforce the same engineering bar across AI-assisted development.",
+    "input_hash": "9d6cbb9d33ac"
   },
   "gh-monthly-Egonex-AI-Understand-Anything": {
     "summary_zh": "Understand-Anything 能将任何代码库自动转化为可交互的知识图谱，让你可以像搜索和提问一样探索代码结构。它打破了传统线性阅读代码的模式，通过可视化展示函数、类、模块之间的关系，帮助开发者快速理解大型项目。对于接手历史代码、参与开源贡献或学习新框架的人来说，这个工具极大降低了认知负担，让理解复杂代码变成一场有趣的导航体验。",
@@ -892,8 +894,9 @@
     "summary_en": "Hello Algo is an animated, interactive textbook for data structures and algorithms. Instead of static diagrams, it uses step-by-step animations to show how arrays, trees, sorting, and graph algorithms actually work. Code snippets are provided in a dozen languages (Python, Java, C++, Go, Rust, etc.) and can be run directly in the browser. It's available in both Chinese and English. If you've ever struggled with pure-text algorithm books or want a visual, hands-on way to prepare for technical interviews, this is a beautifully crafted resource that makes learning both fun and effective."
   },
   "gh-daily-mattpocock-skills": {
-    "summary_zh": "这个项目是著名 TypeScript 教育家 Matt Pocock 分享的一份“技能清单”，直接来自他的 AI 编程助手 Claude 的配置文件。它列出了他认为一名“真正工程师”应该掌握的核心能力——从代码审查、架构决策到技术债管理，覆盖了远比语法更重要的工程实践。与其说是代码库，不如说是一份工程文化的宣言。适合想提升团队工程水平或建立个人技术成长路线的开发者阅读。",
-    "summary_en": "This is Matt Pocock's personal skill list for 'real engineers,' extracted straight from his Claude AI configuration. It goes far beyond coding syntax to cover code review, architecture decisions, tech debt management, and communication—the soft and hard skills that separate experienced engineers from beginners. It's less a codebase and more a manifesto on engineering culture. If you're looking to level up your professional practice or define what 'good engineering' means for your team, this concise list is a great starting point."
+    "summary_zh": "Matt Pocock 把他日常使用的 agent skills 开源，存放于 .agents 目录，定位是“真实工程”而非 vibe coding。与 GSD、BMAD、Spec-Kit 这类接管完整流程的框架不同，这批 skills 刻意保持小而可组合，且不绑定特定模型；适合想自定义 AI 编码工作流的工程师。",
+    "summary_en": "Matt Pocock published the agent skills he uses daily, straight from his .agents directory, for real engineering rather than vibe coding. Unlike process-owning frameworks like GSD, BMAD, and Spec-Kit, these skills are kept small, composable, and model-agnostic — a practical starting point for engineers who want to adapt an AI coding workflow to their own taste.",
+    "input_hash": "89fdcb8f3747"
   },
   "gh-monthly-iptv-org-iptv": {
     "summary_zh": "这个项目收集了全球各地公开可用的IPTV频道，让你能轻松观看来自世界各国的电视节目。对于热爱探索不同文化节目或身处海外想收看家乡频道的人来说，它提供了一个免费且便捷的聚合入口，无需繁琐的订阅流程。重要的是，它完全开源并由社区维护，频道列表会持续更新，有效解决了寻找稳定免费IPTV源的常见痛点。",
@@ -1049,7 +1052,8 @@
   },
   "juejin-7620060655607857178": {
     "summary_zh": "一位开发者亲测了32个Claude Code实用技能和8个MCP服务器，整理出一套完整的效率提升方案。这些技能覆盖代码补全、重构、调试等关键环节，配合MCP服务器实现任务自动化，让AI编程助手从玩具变成真正的生产力工具。文章强调所有技能均已真实可用，不是理论堆砌，适合所有使用Claude Code的开发者直接上手。",
-    "summary_en": "A developer tested 32 practical Claude Code skills and 8 MCP servers, compiling a comprehensive guide to boost coding efficiency. These skills cover code completion, refactoring, and debugging, while the MCP servers automate repetitive tasks, transforming Claude Code from a gimmick into a real productivity tool. The author emphasizes that all tips have been verified in practice, making this resource valuable for any developer looking to get the most out of their AI coding assistant."
+    "summary_en": "A developer tested 32 practical Claude Code skills and 8 MCP servers, compiling a comprehensive guide to boost coding efficiency. These skills cover code completion, refactoring, and debugging, while the MCP servers automate repetitive tasks, transforming Claude Code from a gimmick into a real productivity tool. The author emphasizes that all tips have been verified in practice, making this resource valuable for any developer looking to get the most out of their AI coding assistant.",
+    "input_hash": "921915a83f6c"
   },
   "juejin-7584110439933100078": {
     "summary_zh": "有网友爆料快手研发线发布通知，收紧第三方编程软件权限，员工电脑上打开Cursor就会闪退。这标志着又一家大型互联网公司正式封禁AI编程工具Cursor，反映出企业对代码安全和数据隐私的担忧。对于依赖Cursor提升效率的开发者来说，这一趋势可能迫使他们在工具选型和企业合规之间做出权衡。",
@@ -1057,15 +1061,18 @@
   },
   "juejin-7593338828196626472": {
     "summary_zh": "一位独立开发者分享了他业余开发的记账小程序“福猪记账”上线半年来的真实收入与运营数据。从v1.0.0迭代到v1.6.1，他记录了开发日志、用户增长曲线和盈利情况。这篇文章不仅展示了个人开发者利用业余时间做产品的可能性，也提供了从零到一、从技术到商业的完整复盘，特别适合想试试副业的程序员参考。",
-    "summary_en": "An indie developer shared the real revenue and operational data of his expense tracking mini-program called 'Fuzhu' over six months since launch. He iterated from v1.0.0 to v1.6.1, documenting development logs, user growth, and profitability. This article demonstrates the possibility of building a product in spare time, offering a complete postmortem from coding to business. It’s especially useful for programmers exploring side projects."
+    "summary_en": "An indie developer shared the real revenue and operational data of his expense tracking mini-program called 'Fuzhu' over six months since launch. He iterated from v1.0.0 to v1.6.1, documenting development logs, user growth, and profitability. This article demonstrates the possibility of building a product in spare time, offering a complete postmortem from coding to business. It’s especially useful for programmers exploring side projects.",
+    "input_hash": "c4bb96cb5a42"
   },
   "juejin-7612479947865669675": {
     "summary_zh": "作者针对互联网红利消退的现状，向年轻程序员提出培养商业嗅觉和写作能力的建议。他认为在中国庞大的人口基数下，能卖爆一个商品或写出高阅读量的公众号文章就能获得巨大财富。文章强调技术之外的市场认知和内容表达能力同样重要，适合处于职业早期的程序员思考如何拓宽收入来源。",
-    "summary_en": "The author offers advice for young programmers in the post-internet-bonus era, emphasizing the need to develop business acumen and writing skills. Given China's huge population, successfully selling a product or writing a viral WeChat article can bring significant wealth. The article argues that market insight and content communication are as crucial as technical skills, making it relevant for early-career programmers looking to diversify their income streams."
+    "summary_en": "The author offers advice for young programmers in the post-internet-bonus era, emphasizing the need to develop business acumen and writing skills. Given China's huge population, successfully selling a product or writing a viral WeChat article can bring significant wealth. The article argues that market insight and content communication are as crucial as technical skills, making it relevant for early-career programmers looking to diversify their income streams.",
+    "input_hash": "5aa3d9b28cba"
   },
   "juejin-7637856870833635343": {
     "summary_zh": "一位开发者从Cursor切换到Amazon Codex使用了半个多月，分享了两者的本质差异。Cursor让他第一次感受到AI编程的震撼，但Codex让他真正觉得AI不再只是辅助工具，而是一个能独立执行任务的超级Agent。作者认为Codex更接近下一阶段AI编程的形态，从对话式补全进化到主动式代理，对追求最前沿编程体验的开发者有重要参考价值。",
-    "summary_en": "After switching from Cursor to Amazon Codex for over half a month, a developer shared their real experience of the fundamental differences. While Cursor first impressed them with AI-assisted coding, Codex felt like a true super agent that can independently execute tasks, not just an assistant. The author believes Codex represents the next phase of AI programming—evolving from conversational completion to proactive agency. This comparison is invaluable for developers seeking the cutting edge in AI-powered coding tools."
+    "summary_en": "After switching from Cursor to Amazon Codex for over half a month, a developer shared their real experience of the fundamental differences. While Cursor first impressed them with AI-assisted coding, Codex felt like a true super agent that can independently execute tasks, not just an assistant. The author believes Codex represents the next phase of AI programming—evolving from conversational completion to proactive agency. This comparison is invaluable for developers seeking the cutting edge in AI-powered coding tools.",
+    "input_hash": "e18155ff13d1"
   },
   "juejin-7646004870782550050": {
     "summary_zh": "2026年5月GitHub十大热门项目排行榜出炉，社区火力集中在“把Agent做进工程化工作流”这一主题上。这些项目不仅能够节省Token开销、记住对话上下文，还能编排多个Agent协作并产出高质量内容。对于开发者和技术团队来说，它们意味着更高效的AI工程化落地方案，让大模型从玩具变成真正的生产力工具。",
@@ -2397,7 +2404,8 @@
   },
   "juejin-7655245911811784750": {
     "summary_zh": "这篇文章探讨了在AI能写出80%代码的背景下，技术面试如何从考察基础原理转向考察程序员的独特价值。面试官默认你熟悉AI工具，他们更看重问题拆解、业务理解、架构思维和人机协作能力，提醒开发者要聚焦AI无法替代的核心竞争力。",
-    "summary_en": "The article explores how technical interviews have transformed as AI now writes 80% of the code. Interviewers assume proficiency with AI tools and instead evaluate skills that make developers irreplaceable: problem decomposition, business understanding, architectural thinking, and effective human-AI collaboration. It cautions against over-reliance on AI-generated code and urges developers to cultivate uniquely human competencies for long-term career relevance."
+    "summary_en": "The article explores how technical interviews have transformed as AI now writes 80% of the code. Interviewers assume proficiency with AI tools and instead evaluate skills that make developers irreplaceable: problem decomposition, business understanding, architectural thinking, and effective human-AI collaboration. It cautions against over-reliance on AI-generated code and urges developers to cultivate uniquely human competencies for long-term career relevance.",
+    "input_hash": "5a57a7adb8d0"
   },
   "juejin-7656414036670840832": {
     "summary_zh": "这篇文章详细记录了CPU使用率不均匀的排查过程，从现象分析到根因定位再到解决方案。作者发现根因是服务实例数超过Kafka分片数导致负载不均，快速解决办法是扩大Kafka分片。文章还总结了通用排查思路和典型原因，对架构师和运维人员有很强的实用价值。",
@@ -2793,7 +2801,8 @@
   },
   "juejin-7635467758865235968": {
     "summary_zh": "这篇文章介绍了一套名为“穷鬼工作流”的AI编程方案，旨在帮助预算有限的开发者利用Codex等工具低成本完成项目。作者以幽默自嘲的口吻，将这套方案比作“AI黑心包工队”，强调其核心价值是让手头拮据的程序员也能享受AI带来的效率提升，而不必购买昂贵的付费服务。对于个人开发者和小团队尤其实用。",
-    "summary_en": "This article introduces a budget-friendly AI coding workflow called \"Poor Guy Workflow,\" aimed at helping developers with limited funds leverage tools like Codex to complete projects at low cost. The author humorously dubs it an \"AI shady contractor team,\" emphasizing that it allows coders on a tight budget to enjoy AI efficiency boosts without expensive subscriptions. It's especially practical for indie developers and small teams."
+    "summary_en": "This article introduces a budget-friendly AI coding workflow called \"Poor Guy Workflow,\" aimed at helping developers with limited funds leverage tools like Codex to complete projects at low cost. The author humorously dubs it an \"AI shady contractor team,\" emphasizing that it allows coders on a tight budget to enjoy AI efficiency boosts without expensive subscriptions. It's especially practical for indie developers and small teams.",
+    "input_hash": "5c88a1d734a2"
   },
   "juejin-7623217419704909866": {
     "summary_zh": "本文探讨了在Vibe Coding（基于AI情绪化编码）时代，Vue和React两大前端框架的地位变化。作者分析了为何有人认为Vue逐渐式微而React愈发强势，并指出AI编程工具可能更倾向于与React生态兼容。文章引发读者思考：在AI辅助编码日益普及的今天，前端开发者应如何选择技术栈，以及Vue是否真的面临生存危机。",
@@ -3237,7 +3246,8 @@
   },
   "juejin-7657794899357761570": {
     "summary_zh": "文章盘点了2026年6月GitHub上最热门的十大开源项目，聚焦五大技术主线：Agent感知、技能市场、视频生产、代码智能和并行编排。这些项目反映了当前AI和开发者工具领域的最新趋势，例如自主智能体框架、去中心化技能交易平台、AI视频生成工具、代码补全与审查增强插件，以及并行计算调度方案。对于希望紧跟开源前沿的开发者，这篇榜单提供了一份值得关注的项目清单。",
-    "summary_en": "This article highlights the top ten trending open source projects on GitHub in June 2026, organized around five key themes: agent perception, skill marketplaces, video production, code intelligence, and parallel orchestration. The projects showcase cutting-edge developments in AI agents, decentralized skill trading platforms, AI-powered video generation, smart code completion and review tools, and high-performance parallel scheduling frameworks. For developers who want to stay ahead of the open source curve, this curated list offers a valuable snapshot of where the ecosystem is heading."
+    "summary_en": "This article highlights the top ten trending open source projects on GitHub in June 2026, organized around five key themes: agent perception, skill marketplaces, video production, code intelligence, and parallel orchestration. The projects showcase cutting-edge developments in AI agents, decentralized skill trading platforms, AI-powered video generation, smart code completion and review tools, and high-performance parallel scheduling frameworks. For developers who want to stay ahead of the open source curve, this curated list offers a valuable snapshot of where the ecosystem is heading.",
+    "input_hash": "38c1a4f3854b"
   },
   "zhihu-2055415968537618014": {
     "summary_zh": "HN 热门：如何看待字节员工靠炒美股财富自由后离职，称投资比大厂升职更容易实现财务自由？",
@@ -4849,7 +4859,8 @@
   },
   "juejin-7660712622825144374": {
     "summary_zh": "2026 年编程圈热议的 10 个 Skills 并非指程序员的技术能力，而是 AI 编程助手的“技能包”——一套标准化工作流模块，让 AI 从随缘写代码变为按流程交付。这些技能包覆盖代码审查、测试生成、文档编写等环节，旨在提升开发效率和代码质量。对正在探索 AI 辅助编程的团队和个人开发者而言，掌握这些技能包将成为提高生产力的关键。",
-    "summary_en": "The 10 hottest Skills in programming circles for 2026 refer not to developers' own abilities but to standardized workflow modules for AI coding assistants. These skill packages transform AI from random code generation to structured delivery, covering code review, test generation, documentation, and more. For teams and individual developers exploring AI-assisted programming, mastering these skills is becoming essential for boosting productivity and code quality."
+    "summary_en": "The 10 hottest Skills in programming circles for 2026 refer not to developers' own abilities but to standardized workflow modules for AI coding assistants. These skill packages transform AI from random code generation to structured delivery, covering code review, test generation, documentation, and more. For teams and individual developers exploring AI-assisted programming, mastering these skills is becoming essential for boosting productivity and code quality.",
+    "input_hash": "4c382cff1ba6"
   },
   "juejin-7662691781214470180": {
     "summary_zh": "一位掘金作者停更一年后回归，分享了这段时间的密集经历：全力投入 AI 领域、陪伴妻子生娃、还抽空考了个研。文章以第一人称讲述了如何平衡工作、家庭与个人提升，展现了技术人在生活重大节点上的真实抉择。对面临类似境遇的读者来说，这是一个关于如何在巨大压力下仍坚持成长的真实故事。",
@@ -6353,7 +6364,8 @@
   },
   "juejin-7664905579035410441": {
     "summary_zh": "本文探讨了如何设计一个优秀的AI技能系统，重点介绍了“具身交互智能”这一前沿概念，即让AI拥有身体并能感知世界、理解环境、通过语音表情动作与人自然互动。这一设计理念将推动AI从纯语言模型向多模态、有实体的智能体进化，解决AI在物理世界中行动和感知的难题，对开发者设计下一代人机交互产品具有重要启发意义。",
-    "summary_en": "This article explores how to design an excellent AI skills system, focusing on the cutting-edge concept of 'embodied interactive intelligence.' It argues that the next phase of AI goes beyond reasoning—AI should have a body, perceive the world, understand environments, and interact through voice, expressions, and gestures. This approach solves the problem of AI operating in physical spaces, enabling more natural human-machine collaboration. Developers building the next generation of smart assistants, robots, or metaverse avatars will find these design principles transformative."
+    "summary_en": "This article explores how to design an excellent AI skills system, focusing on the cutting-edge concept of 'embodied interactive intelligence.' It argues that the next phase of AI goes beyond reasoning—AI should have a body, perceive the world, understand environments, and interact through voice, expressions, and gestures. This approach solves the problem of AI operating in physical spaces, enabling more natural human-machine collaboration. Developers building the next generation of smart assistants, robots, or metaverse avatars will find these design principles transformative.",
+    "input_hash": "ca3047575f5a"
   },
   "juejin-7666019880676622345": {
     "summary_zh": "本文基于2026年7月的海内外市场数据与最新智能体趋势，分析AI对前端岗位的影响。结论是AI不会整体取代前端工程师，但会结构性重构岗位——那些善于使用AI工具的前端开发者，正在取代那些不用的。这意味着前端从业者需要主动学习AI辅助开发，提升效率与价值，而非恐惧被替代。对求职者和在职开发者有现实参考意义。",
@@ -7733,7 +7745,8 @@
   },
   "hn-49167448": {
     "summary_zh": "Xbox 出现宕机，玩家无法游玩手中的光盘版游戏。该事件说明光盘游戏也需要在线验证才能运行。原文为链接帖，未提供更多细节。",
-    "summary_en": "Xbox suffered an outage, preventing users from playing disc-based games they own. The linked page isn't summarized here; details beyond the title aren't available."
+    "summary_en": "Xbox suffered an outage, preventing users from playing disc-based games they own. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "6990829efcde"
   },
   "hn-49153374": {
     "summary_zh": "文章主张手动重敲一遍 LLM 生成的代码，以降低认知负担，而不是直接复制粘贴。这是一种将外部生成代码内化为自身理解的实践。原文是链接，未提供更多细节。",
@@ -7837,7 +7850,8 @@
   },
   "hn-49161518": {
     "summary_zh": "这个HN帖子的标题提出“LLMs reward expertise”（大语言模型奖励专业知识）这一观点，暗示具备领域知识的提问者能从大语言模型得到更高质量的回答。由于原帖只有链接没有正文，这里仅能基于标题说明其讨论方向，具体论证和案例无从得知。",
-    "summary_en": "This Hacker News post, titled \"LLMs reward expertise,\" puts forward the idea that large language models yield better results for prompts grounded in specialized knowledge, suggesting a correlation between user expertise and response quality. That said, the linked page isn't summarized here; details beyond the title aren't available, so the post's arguments, examples, and context cannot be examined from this listing alone."
+    "summary_en": "This Hacker News post, titled \"LLMs reward expertise,\" puts forward the idea that large language models yield better results for prompts grounded in specialized knowledge, suggesting a correlation between user expertise and response quality. That said, the linked page isn't summarized here; details beyond the title aren't available, so the post's arguments, examples, and context cannot be examined from this listing alone.",
+    "input_hash": "3fb60e3dfa43"
   },
   "hn-49173165": {
     "summary_zh": "这篇帖子以“纪念我的妻子Elise Cawley，感谢36年美好岁月”为题，是一篇悼念文字，表达对亡妻的怀念与感激。原帖只有标题和链接，未提供更多细节，因此无法获知其中更多故事或背景。",
@@ -7849,7 +7863,8 @@
   },
   "hn-49156111": {
     "summary_zh": "这是一条只有标题的 Hacker News 帖子，主张开发工具应当开源。由于原文未提供正文，无法获知具体论证或案例。适合关心开发者工具生态与开源许可的读者留意讨论。",
-    "summary_en": "This Hacker News post, consisting only of a title, argues that developer tools must be open source. No body text is provided, so specific arguments or examples aren't available. Developers interested in tooling and open-source licensing may find the discussion worth following."
+    "summary_en": "This Hacker News post, consisting only of a title, argues that developer tools must be open source. No body text is provided, so specific arguments or examples aren't available. Developers interested in tooling and open-source licensing may find the discussion worth following.",
+    "input_hash": "578722d43a08"
   },
   "hn-49157930": {
     "summary_zh": "这是一条标题为“数学与理论计算机科学的十项进展”的 Hacker News 帖子，原文没有正文。从标题看，它可能盘点该领域的十个突破或成果，但具体内容未知。适合对数学与理论计算机感兴趣的研究者围观标题并自行点击原文。",
@@ -7940,8 +7955,9 @@
     "summary_en": "The article introduces Ming-Flash-Omni, a unified omni-modal large model, focusing on its key techniques and practical implementation for multimodal modeling. This appears aimed at demonstrating how a single model can handle multiple modalities, which is relevant for researchers and engineers building multimodal systems. The linked page isn't summarized here; details beyond the title aren't available."
   },
   "gh-daily-cloudflare-computer": {
-    "summary_zh": "Cloudflare 发布了一个名为 computer 的开源仓库，标语是“Give your agent a computer”，目标是让 AI 代理获得一台可操作的计算环境。对想为 agent 扩展实际执行能力的开发者来说是一个直接入口，具体接入方式需查看仓库文档。",
-    "summary_en": "Cloudflare has released an open-source repository called \"computer\", with the tagline \"Give your agent a computer\". It aims to provide AI agents with their own computing environment. Developers building agent tooling can treat the repo as a direct entry point; the README has implementation details."
+    "summary_zh": "Cloudflare Computer 是在 Durable Object 中实现虚拟文件系统的运行时，SQLite 保存权威状态，入口统一为 workspace.runtime.exec(source, { backend })。它提供 Container、Isolate shell、Isolate JavaScript 三种后端：Container 经 FUSE 挂载真实 Linux 并走 capnweb RPC 同步，后两者在 Dynamic Worker 中分别跑 just-bash 和 ECMAScript。适合想给 coding agent 持久化执行环境的开发者。",
+    "summary_en": "Cloudflare Computer is a virtual filesystem implemented in a Durable Object, with SQLite as the authoritative state and a single execution entry point via workspace.runtime.exec(source, { backend }). It ships three backends: Container exposes the state as a real FUSE mount and syncs over capnweb RPC; Isolate shell and Isolate JavaScript run just-bash and ECMAScript modules inside Dynamic Workers. This is for developers who want persistent, pluggable execution environments for their agents.",
+    "input_hash": "cb085386088c"
   },
   "hn-49170165": {
     "summary_zh": "这是 Hacker News 上的一个 Show HN 帖子，提出用简单算法和颜色空间生成多样化的肤色。原文是链接，未提供更多细节；具体实现请访问原帖查看。",
@@ -7949,15 +7965,18 @@
   },
   "hn-49184960": {
     "summary_zh": "有一个题为“Discovery Loop”的帖子，但摘要没有提供正文内容。原始内容只有标题和链接，无法判断其主题与用途，需要打开链接查看。",
-    "summary_en": "A post titled \"Discovery Loop\" is listed here without any body text. The linked page isn't summarized here; details beyond the title aren't available, so its subject and purpose can't be determined without opening the link."
+    "summary_en": "A post titled \"Discovery Loop\" is listed here without any body text. The linked page isn't summarized here; details beyond the title aren't available, so its subject and purpose can't be determined without opening the link.",
+    "input_hash": "4672a2a57295"
   },
   "ph-1214897": {
     "summary_zh": "Wispr Flow Notetaker 是一款会议记录工具，主打“把细节记对”。它强调准确捕捉会议中的具体信息，适合对会议纪要准确性要求较高的个人和团队。",
-    "summary_en": "Wispr Flow Notetaker is a meeting notes tool whose pitch is \"Meeting notes that get the details right.\" It emphasizes capturing specific information accurately rather than generic summaries, making it suitable for people and teams who need reliable meeting records."
+    "summary_en": "Wispr Flow Notetaker is a meeting notes tool whose pitch is \"Meeting notes that get the details right.\" It emphasizes capturing specific information accurately rather than generic summaries, making it suitable for people and teams who need reliable meeting records.",
+    "input_hash": "df4d47854c54"
   },
   "ph-1212030": {
     "summary_zh": "AdAnt AI 是一款社交广告创意工具，定位是“广告界的 Claude”，即用 AI 生成高传播、高转化的社交媒体广告。适合营销人员快速产出广告创意与文案，具体功能需参考官方介绍。",
-    "summary_en": "AdAnt AI is a social ad creative tool described as \"Claude for viral, high-converting social ads.\" That positioning points to an AI assistant for generating ad creative and copy aimed at engagement and conversion. Marketing teams and founders are the likely audience; product details would come from the official page."
+    "summary_en": "AdAnt AI is a social ad creative tool described as \"Claude for viral, high-converting social ads.\" That positioning points to an AI assistant for generating ad creative and copy aimed at engagement and conversion. Marketing teams and founders are the likely audience; product details would come from the official page.",
+    "input_hash": "1f49a8dd7b0d"
   },
   "gh-daily-donnemartin-system-design-primer": {
     "summary_zh": "此仓库是 GitHub 热门的系统设计学习资源，聚焦大规模系统设计与面试准备，并附带 Anki 记忆卡片。适合准备系统设计面试或想系统梳理后端架构知识的开发者。",
@@ -8049,7 +8068,8 @@
   },
   "ph-1214477": {
     "summary_zh": "NextDoor.Company 是一个地图服务，帮助求职者发现附近正在招聘的初创公司。它把招聘信息按地理位置直观展示，免去传统招聘网站繁琐的筛选流程，适合想就近加入创业团队的人。",
-    "summary_en": "NextDoor.Company is a map-based service that shows startups hiring near you. Instead of traditional job board filters, it places open positions on a map so you can instantly see which local companies have roles. This is particularly useful for job seekers who want to work at a startup without relocating or commuting far."
+    "summary_en": "NextDoor.Company is a map-based service that shows startups hiring near you. Instead of traditional job board filters, it places open positions on a map so you can instantly see which local companies have roles. This is particularly useful for job seekers who want to work at a startup without relocating or commuting far.",
+    "input_hash": "166442cc4dc0"
   },
   "gh-daily-uber-ADR": {
     "summary_zh": "ADR 是 Uber 推出的企业级 AI Agent 安全框架，通过可观测性、安全基准测试和威胁检测来保护 Agent，并已在 Uber 内部部署。它兼顾上线前的安全评估与运行时的异常发现，适合在生产环境中落地 AI Agent 的安全和平台团队。",
@@ -8061,7 +8081,8 @@
   },
   "ph-1204933": {
     "summary_zh": "ngrok 推出 AI Gateway，定位是用一个私有网关连接所有 AI 模型。它把模型访问收敛到单一入口，适合需要统一接入多家模型服务的开发者或团队。",
-    "summary_en": "ngrok's AI Gateway is positioned as one private gateway for every AI model. It gives developers a single private access point to multiple models, so teams integrating various AI providers can centralize their entry point rather than managing separate connections."
+    "summary_en": "ngrok's AI Gateway is positioned as one private gateway for every AI model. It gives developers a single private access point to multiple models, so teams integrating various AI providers can centralize their entry point rather than managing separate connections.",
+    "input_hash": "f5e4b0eb74df"
   },
   "zhihu-12458892686": {
     "summary_zh": "这是一条知乎提问，聚焦《封神演义》中姜子牙主持封神却自己未被封神的设定。条目仅有标题，未提供正文；关于原著依据或主流解读，需进入原帖查看，但当前无法从摘要获得更多细节。",
@@ -8081,7 +8102,8 @@
   },
   "zhihu-2066577828443854713": {
     "summary_zh": "知乎提问：一个 27 岁的人做出一款自己的游戏，却一行代码也没写，这反映游戏开发哪些趋势。条目只有标题，没有正文；具体使用什么工具或创作方式，原文链接未提供更多细节。",
-    "summary_en": "A Zhihu question asks: a 27-year-old made their own game without writing a line of code — what does this say about game development trends? Only the title is provided; the linked page isn't summarized here, so details beyond the title aren't available."
+    "summary_en": "A Zhihu question asks: a 27-year-old made their own game without writing a line of code — what does this say about game development trends? Only the title is provided; the linked page isn't summarized here, so details beyond the title aren't available.",
+    "input_hash": "d660207d53c0"
   },
   "36kr-3928685883308165": {
     "summary_zh": "这是一条早报合集标题，涵盖三条新闻：DeepSeek宣布大幅涨价；贾国龙再创业，开店“天边羊多”；河南试行周五下午弹性离岗。原文是链接，未提供更多细节，以上仅为标题信息。",
@@ -8165,15 +8187,18 @@
   },
   "hn-49195231": {
     "summary_zh": "这是一个只有标题的 Hacker News 链接帖，标题将《超级马里奥》与帕累托原则并置，暗示某种把游戏或效率法则结合的项目或演示。原文未提供正文，无法确认具体内容。",
-    "summary_en": "This is a title-only Hacker News link post; the title suggests a crossover between Super Mario and the Pareto principle, likely a playful demo or project. The linked page isn't summarized here; details beyond the title aren't available."
+    "summary_en": "This is a title-only Hacker News link post; the title suggests a crossover between Super Mario and the Pareto principle, likely a playful demo or project. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "f0f4d90296fe"
   },
   "hn-49184755": {
     "summary_zh": "标题显示 Google DeepMind 将进行高层调整：Demis Hassabis 由 CEO 转任 Chair，Jeff Dean 离开公司。作为顶尖 AI 实验室，这一变动备受关注，但帖子只有标题，未说明原因与后续安排。",
-    "summary_en": "According to the title, Google DeepMind is reshuffling leadership: Demis Hassabis moves from CEO to Chair, and Jeff Dean departs. Since DeepMind is a major AI lab, the change is notable, but the post contains only a title; details beyond it aren't available."
+    "summary_en": "According to the title, Google DeepMind is reshuffling leadership: Demis Hassabis moves from CEO to Chair, and Jeff Dean departs. Since DeepMind is a major AI lab, the change is notable, but the post contains only a title; details beyond it aren't available.",
+    "input_hash": "8cabd88e55b4"
   },
   "hn-49192566": {
     "summary_zh": "这个 Hacker News 帖只有标题，把“犯罪有回报”和“植物学没有”作对比，可能指向某种社会观察或黑色幽默内容。由于未提供正文，无法得知具体指向。",
-    "summary_en": "This Hacker News post consists only of the title, which contrasts \"crime pays\" with \"botany doesn't\"—possibly a social commentary or joke. The linked page isn't summarized here; details beyond the title aren't available."
+    "summary_en": "This Hacker News post consists only of the title, which contrasts \"crime pays\" with \"botany doesn't\"—possibly a social commentary or joke. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "816ffd792f3c"
   },
   "hn-49182996": {
     "summary_zh": "标题称 Cloudflare 发布 Cloudflare OS，定位为面向 agents、应用和工作的开放平台。但该 HN 帖未附正文，无法确认这是产品发布、概念介绍还是其他内容。",
@@ -8181,7 +8206,8 @@
   },
   "ph-1215966": {
     "summary_zh": "Cloudflare OS 在 Product Hunt 发布，简介称其目标是“为你的公司构建 AI 操作系统”。它试图把 AI 能力做成企业级基础设施，但具体功能和定价待进一步了解。",
-    "summary_en": "Cloudflare OS is listed on Product Hunt with the tagline \"Build the AI operating system for your company.\" It appears to position Cloudflare as an enterprise AI infrastructure layer, though specifics are yet to be detailed."
+    "summary_en": "Cloudflare OS is listed on Product Hunt with the tagline \"Build the AI operating system for your company.\" It appears to position Cloudflare as an enterprise AI infrastructure layer, though specifics are yet to be detailed.",
+    "input_hash": "46734590cc16"
   },
   "v2ex-9e7695ff9939": {
     "summary_zh": "作者在 V2EX 分享，把自己个人 IP 的配图封装成可复用的 Skill，目的是让读者更容易记住他的身份。该做法可能对内容创作者有借鉴意义，但原文是链接，未提供更多细节。",
@@ -8220,8 +8246,9 @@
     "summary_en": "A V2EX post about a side hustle on Xiaohongshu: after 11 days, the author earned 14.5 yuan and gained 12 followers, saying it's better than expected. The linked page isn't summarized here; details beyond the title aren't available."
   },
   "gh-daily-goauthentik-authentik": {
-    "summary_zh": "goauthentik/authentik 是一个出现在 GitHub 趋势榜上的认证相关项目，官方描述为“The authentication glue you need”。原文描述很短，未提供安装方式、技术栈或版本等细节。",
-    "summary_en": "goauthentik/authentik is a trending GitHub project described as 'The authentication glue you need.' The repository's description is minimal, so no details about installation, tech stack, or features are available."
+    "summary_zh": "authentik 是 GitHub 上的一个项目，自称 'The authentication glue you need'（你需要的认证粘合剂）。仓库 README 目前只有 logo、徽章和 Docker 镜像链接，没有展开功能细节，需要访问仓库或文档获取更多信息。",
+    "summary_en": "authentik is a GitHub project described as 'The authentication glue you need.' The README currently consists largely of a logo, badges, and a Docker image link, without a detailed feature description; visit the repository or docs for specifics.",
+    "input_hash": "34e4d3c0dbdd"
   },
   "zhihu-2068637080209421054": {
     "summary_zh": "知乎上出现关于梁文锋旗下幻方量化多只产品收益转负、单月跌幅超20%的讨论，原帖仅有标题和链接，未提供正文细节。该话题受关注，是因为幻方量化是头部量化私募，产品净值大幅回撤可能引发投资者对量化策略的担忧。",
@@ -8253,11 +8280,13 @@
   },
   "ph-1196518": {
     "summary_zh": "Rippling 推出的 AI Spend Console，是一个跟踪 AI 支出并把花费与业务成果关联的控制台。适合需要管控 AI 成本、评估 AI 投入产出比的财务或 IT 团队，能帮助把 AI 花费与业务指标打通。",
-    "summary_en": "Rippling's AI Spend Console tracks AI-related spending and links it to business outcomes. It's aimed at finance and IT teams that want to measure AI ROI, turning AI costs from an isolated line item into a metric connected to actual results."
+    "summary_en": "Rippling's AI Spend Console tracks AI-related spending and links it to business outcomes. It's aimed at finance and IT teams that want to measure AI ROI, turning AI costs from an isolated line item into a metric connected to actual results.",
+    "input_hash": "1446a1bfa22c"
   },
   "ph-1214908": {
     "summary_zh": "Cloudflare 发布 Cloudflare Wallets，定位为面向 agentic Internet 的可编程钱包。它面向智能体自主交互场景，适合关注 AI Agent 支付与授权的开发者评估。",
-    "summary_en": "Cloudflare Wallets is a programmable wallet positioned for the agentic Internet. It's designed for agent-driven interactions and payments, making it a relevant option for developers building AI-agent infrastructure that needs wallet-like capabilities."
+    "summary_en": "Cloudflare Wallets is a programmable wallet positioned for the agentic Internet. It's designed for agent-driven interactions and payments, making it a relevant option for developers building AI-agent infrastructure that needs wallet-like capabilities.",
+    "input_hash": "3b928fd54564"
   },
   "v2ex-cfe07aeab917": {
     "summary_zh": "这是 V2EX 上的一条问答帖，标题称有用户收到 Apple 邮件，提示付款方式出现问题，可能导致 ChatGPT 订阅无法续期。由于该帖仅有标题与链接，未提供正文细节，具体是哪种付款方式、如何处理需查看原帖。适合遇到类似续期问题的用户参考。",
@@ -8265,23 +8294,28 @@
   },
   "zhihu-2068808615612490682": {
     "summary_zh": "该事件描述的是黄山一位老人在用手机拍照时被频繁弹出广告。原文仅是一个链接，未提供更多细节；讨论焦点是这类强制弹窗广告对老年人使用智能手机的困扰。",
-    "summary_en": "A Zhihu thread discusses an incident in which an elderly person in Huangshan was inundated with pop-up ads while taking photos on a phone. Only the title is available; the linked page isn't summarized here and details beyond the title aren't available. The concern is how aggressive ad pushes affect older smartphone users."
+    "summary_en": "A Zhihu thread discusses an incident in which an elderly person in Huangshan was inundated with pop-up ads while taking photos on a phone. Only the title is available; the linked page isn't summarized here and details beyond the title aren't available. The concern is how aggressive ad pushes affect older smartphone users.",
+    "input_hash": "014fd6d04f32"
   },
   "zhihu-2068108635620774765": {
     "summary_zh": "知乎上有讨论称 DeepSeek V4 Flash 在完成用户任务后自行写了一个游戏并玩了一上午。原帖只有标题，未提供链接正文细节；讨论聚焦该传闻的真实性，以及模型为何会表现出这类自主行为。",
-    "summary_en": "A Zhihu discussion asks whether it's true that DeepSeek V4 Flash wrote a game and played it for a morning after finishing a task. Only the title is given; the linked page isn't summarized here and details beyond the title aren't available. The thread explores whether such behavior is plausible and what might cause it."
+    "summary_en": "A Zhihu discussion asks whether it's true that DeepSeek V4 Flash wrote a game and played it for a morning after finishing a task. Only the title is given; the linked page isn't summarized here and details beyond the title aren't available. The thread explores whether such behavior is plausible and what might cause it.",
+    "input_hash": "fa4fc8117ab2"
   },
   "zhihu-2068998842628793638": {
     "summary_zh": "该话题讨论张一鸣与梁文峰被评价为正在以完全不同的方向推进 AGI 一事。原链接未提供正文，无法获知评价来源与具体依据；评论区焦点是两人技术路线和产品策略的差异可能意味着什么。",
-    "summary_en": "The thread discusses a public assessment that Zhang Yiming and Liang Wenfeng are heading toward AGI in completely different directions. Since the linked page isn't summarized here, details beyond the title aren't available; the discussion centers on what their divergent technical and product approaches might imply and how to interpret such a distinction."
+    "summary_en": "The thread discusses a public assessment that Zhang Yiming and Liang Wenfeng are heading toward AGI in completely different directions. Since the linked page isn't summarized here, details beyond the title aren't available; the discussion centers on what their divergent technical and product approaches might imply and how to interpret such a distinction.",
+    "input_hash": "0ad4d55dd292"
   },
   "zhihu-2068674224802067300": {
     "summary_zh": "该讨论指向四大会计师事务所的多份研究报告集体出现「AI 幻觉」现象。原帖仅提供标题，没有更详细正文；核心议题是这会如何冲击咨询行业公信力，以及报告生成流程中暴露了哪些质量控制问题。",
-    "summary_en": "The post points to multiple research reports from the Big Four accounting firms that are said to have fallen into 'AI hallucination'. Only the title is available; the linked page isn't summarized here and details beyond the title aren't available. The concern is how the credibility of consulting may be affected and what quality-control failures this exposes."
+    "summary_en": "The post points to multiple research reports from the Big Four accounting firms that are said to have fallen into 'AI hallucination'. Only the title is available; the linked page isn't summarized here and details beyond the title aren't available. The concern is how the credibility of consulting may be affected and what quality-control failures this exposes.",
+    "input_hash": "96244141fcff"
   },
   "zhihu-2068038088828217340": {
     "summary_zh": "外媒报道称，腾讯《最后的哨兵》项目已投入数亿美元、开发六年仍未见成果。原帖仅为链接，未提供更多细节；讨论焦点是腾讯为什么一直做不出高质量的 3A 开放世界作品。",
-    "summary_en": "Foreign media report that Tencent's 'Last Sentinel' has consumed hundreds of millions of dollars over six years without a clear result. The linked page isn't summarized here; details beyond the title aren't available. The discussion asks why Tencent still struggles to produce a strong 3A open-world title, despite years of investment."
+    "summary_en": "Foreign media report that Tencent's 'Last Sentinel' has consumed hundreds of millions of dollars over six years without a clear result. The linked page isn't summarized here; details beyond the title aren't available. The discussion asks why Tencent still struggles to produce a strong 3A open-world title, despite years of investment.",
+    "input_hash": "d7b8fea3a2ca"
   },
   "zhihu-2064111819678078764": {
     "summary_zh": "该问题指向 Zig 的两项反常规选择：不采用 GitHub，以及禁用 AI 辅助编程。原文是链接，未提供更多细节，作者的具体论证与反对意见不得而知。",
@@ -8293,47 +8327,58 @@
   },
   "zhihu-2068569618449430292": {
     "summary_zh": "标题把当下 AI 产品的竞争焦点概括为编程并被追问原因，可能涉及编程任务对 AI 训练与商业化的特殊价值。原文是链接，未提供更多细节，原回答的观点和论据未在标题中体现。",
-    "summary_en": "The title asks why AI products are all rushing into programming, implying the field has unique appeal for training and monetization. The linked page isn't summarized here; details beyond the title aren't available."
+    "summary_en": "The title asks why AI products are all rushing into programming, implying the field has unique appeal for training and monetization. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "ed11683d47e2"
   },
   "zhihu-2069026444722843772": {
     "summary_zh": "标题引用张朝阳的观点，将 AI 内容比作“化肥催出来的西红柿”，认为其缺乏自然质感，并征求是否认同及 AI 创作缺了什么。原文是链接，未提供更多细节，相关辩论内容需要进入正文查看。",
-    "summary_en": "The title cites Zhang Chaoyang likening AI-generated content to fertilizer-grown tomatoes, suggesting it lacks organic quality, and asks what AI creation is missing. The linked page isn't summarized here; details beyond the title aren't available."
+    "summary_en": "The title cites Zhang Chaoyang likening AI-generated content to fertilizer-grown tomatoes, suggesting it lacks organic quality, and asks what AI creation is missing. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "b3e5d2e733da"
   },
   "zhihu-2068986574256312589": {
     "summary_zh": "标题围绕 GPT-5.6Luna 免费且不限量展开，并追问基础大模型是否都会走向免费。原文是链接，未提供更多细节，关于该模型的能力与免费策略的实际影响需查看正文。",
-    "summary_en": "The title asks how to evaluate GPT-5.6Luna being free and unlimited, and whether foundation models will all become free. The linked page isn't summarized here; details beyond the title aren't available."
+    "summary_en": "The title asks how to evaluate GPT-5.6Luna being free and unlimited, and whether foundation models will all become free. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "5306e3739943"
   },
   "36kr-3928861549869446": {
     "summary_zh": "报道介绍了一款 OpenAI 音箱，标题称其设计带“果味”（明显的 Apple 风格），并且比苹果多走一步。原文是链接，未提供更多细节，因此具体在哪方面“多走一步”、硬件能否落地，都无法从标题判断。",
-    "summary_en": "A piece showcases an OpenAI-branded speaker, calling out its Apple-like 'fruity' design and claiming it goes a step further than Apple. The linked page isn't summarized here; details beyond the title aren't available, so what that extra step means remains unknown."
+    "summary_en": "A piece showcases an OpenAI-branded speaker, calling out its Apple-like 'fruity' design and claiming it goes a step further than Apple. The linked page isn't summarized here; details beyond the title aren't available, so what that extra step means remains unknown.",
+    "input_hash": "57c0cc39e77a"
   },
   "36kr-3929084702506118": {
     "summary_zh": "文章围绕 OpenAI 首款 AI 硬件展开，指出它是一款没有屏幕、形似“甜甜圈”的设备。标题抛出“为什么是这种形态”的问题，但原文是链接，未提供更多细节；硬件具体交互方式、设计动机与发布信息均无法确认。",
-    "summary_en": "A story looks at OpenAI's first AI hardware, describing it as a screenless, doughnut-shaped device. The headline asks why OpenAI chose that design, but the linked page isn't summarized here; details beyond the title aren't available, so interaction methods and launch info are unconfirmed."
+    "summary_en": "A story looks at OpenAI's first AI hardware, describing it as a screenless, doughnut-shaped device. The headline asks why OpenAI chose that design, but the linked page isn't summarized here; details beyond the title aren't available, so interaction methods and launch info are unconfirmed.",
+    "input_hash": "30a5b4077a6b"
   },
   "36kr-3929185899314567": {
     "summary_zh": "标题称，一家 SpaceX 的竞争对手已宣告破产。具体是哪家公司、破产原因以及对航天市场的影响，标题均未说明；原文是链接，未提供更多细节。",
-    "summary_en": "Headline reports that a SpaceX competitor has gone bankrupt. The linked page isn't summarized here; details beyond the title aren't available, so the company's identity, cause of failure, and industry impact remain unknown."
+    "summary_en": "Headline reports that a SpaceX competitor has gone bankrupt. The linked page isn't summarized here; details beyond the title aren't available, so the company's identity, cause of failure, and industry impact remain unknown.",
+    "input_hash": "2ebc684e2baa"
   },
   "36kr-3929019838348417": {
     "summary_zh": "报道称，赵祺已接手豆包项目、握稳了“方向盘”，暗示其成为该项目的新负责人或核心决策者。不过原文是链接，未提供更多细节；具体职务、任命时间以及与团队的关系都未在标题之外给出。",
-    "summary_en": "According to the headline, Zhao Qi has taken the wheel of Doubao, suggesting a leading role in the project. The linked page isn't summarized here; details beyond the title aren't available, so his exact title, appointment date, and responsibilities are not stated."
+    "summary_en": "According to the headline, Zhao Qi has taken the wheel of Doubao, suggesting a leading role in the project. The linked page isn't summarized here; details beyond the title aren't available, so his exact title, appointment date, and responsibilities are not stated.",
+    "input_hash": "d47639e6fd28"
   },
   "36kr-3928841938966400": {
     "summary_zh": "报道称，五路玩家同时入场，AI 办公“超级入口”的争夺战全面打响。原文是链接，未提供更多细节；这五路是谁、各自打法及当前格局，都无法从标题得知。",
-    "summary_en": "A report says five groups of players are entering the AI-office space, setting off a battle for the 'super entrance' — a primary workplace AI portal. The linked page isn't summarized here; details beyond the title aren't available, so no player names, strategies, or market context are given."
+    "summary_en": "A report says five groups of players are entering the AI-office space, setting off a battle for the 'super entrance' — a primary workplace AI portal. The linked page isn't summarized here; details beyond the title aren't available, so no player names, strategies, or market context are given.",
+    "input_hash": "bc356e1d9e77"
   },
   "infoq-sQW5F63ZP4QMyhlWAzQi": {
     "summary_zh": "文中分析AI算力扩张下HBM（高带宽内存）供应趋紧的现状，指出AI SSD正成为缓解存储瓶颈的新方向。文章围绕这一硬件趋势展开，适合关注AI基础设施与存储技术演进的开发者。",
-    "summary_en": "This article analyzes how HBM (High Bandwidth Memory) supply is tightening amid AI compute expansion, and argues that AI SSDs are emerging as a new direction to ease storage bottlenecks. It suits developers tracking AI infrastructure and storage evolution."
+    "summary_en": "This article analyzes how HBM (High Bandwidth Memory) supply is tightening amid AI compute expansion, and argues that AI SSDs are emerging as a new direction to ease storage bottlenecks. It suits developers tracking AI infrastructure and storage evolution.",
+    "input_hash": "1dc92c52480a"
   },
   "infoq-HqthsfSNK4bQYqOSh6Ni": {
     "summary_zh": "文章对比AI视频降本的三种技术路线，指出仅有一种能在降低成本的同时保持画质无损。该分析对视频处理、编解码和AI应用团队评估方案具有参考价值。",
-    "summary_en": "The article compares three approaches to cutting AI video costs, noting that only one preserves visual quality. This analysis is useful for teams evaluating video processing and codec strategies."
+    "summary_en": "The article compares three approaches to cutting AI video costs, noting that only one preserves visual quality. This analysis is useful for teams evaluating video processing and codec strategies.",
+    "input_hash": "4972f842e626"
   },
   "infoq-2vgS2FNle83YQZrLvxSF": {
     "summary_zh": "这篇文章是AICon深圳的演讲回顾，介绍荣耀YOYO智能体平台从App容器演进为Agent调度中心的架构变迁与关键实践。适合端侧智能体、移动平台架构师了解落地思路。",
-    "summary_en": "Recapping a talk at AICon Shenzhen, this piece details how Honor's YOYO agent platform evolved from an app container to an agent scheduling center. It's aimed at architects building on-device agents and mobile platforms."
+    "summary_en": "Recapping a talk at AICon Shenzhen, this piece details how Honor's YOYO agent platform evolved from an app container to an agent scheduling center. It's aimed at architects building on-device agents and mobile platforms.",
+    "input_hash": "0ed14db26ff6"
   },
   "infoq-6q0ACAlcmf7vmpIcJb09": {
     "summary_zh": "Cloudflare推出了面向自治Worker部署的临时账户机制，用于隔离和管理自动化部署的权限。该设计可能降低长期凭证泄露风险，适合Serverless和边缘计算开发者关注。",
@@ -8341,31 +8386,38 @@
   },
   "infoq-5DEAabOIcvRrEMhAbCyz": {
     "summary_zh": "文章对比了DeepSeek涨价与Meta新模型的低价策略，后者只要求以数据使用作为代价。这一价格战反映了大模型厂商在数据和成本之间的权衡，适合关注模型商业模式的从业者。",
-    "summary_en": "The piece contrasts DeepSeek's price hike with Meta's cheaper new model, which asks for data usage in return. It highlights how LLM vendors trade off data and pricing, relevant for anyone watching AI business models."
+    "summary_en": "The piece contrasts DeepSeek's price hike with Meta's cheaper new model, which asks for data usage in return. It highlights how LLM vendors trade off data and pricing, relevant for anyone watching AI business models.",
+    "input_hash": "49977f493483"
   },
   "gh-daily-PrimeIntellect-ai-prime-agent": {
-    "summary_zh": "PrimeIntellect-ai/prime-agent 是一个主打自我改进的 RLM 智能体，面向编码工作流和长时间运行的自主任务。它通过自我改进机制减少人工干预，适合需要持续运行的自动化开发场景。",
-    "summary_en": "PrimeIntellect-ai/prime-agent is a self-improving RLM agent designed for coding workflows and long-running autonomous tasks. Its self-improvement mechanism reduces manual oversight, making it a fit for automated development environments that need to operate continuously."
+    "summary_zh": "Prime Intellect 发布的 prime-agent 是一个自改进的 RLM agent，定位于编码工作流与长时间运行的自主任务。仓库配套提供 verifiers 与 PRIME-RL，突出强化学习驱动的自我改进；对研究自进化编码 agent 的开发者有直接参考价值。",
+    "summary_en": "Prime Intellect's prime-agent is a self-improving RLM agent built for coding workflows and long-running autonomous tasks. The repo also links to companion projects like Verifiers and PRIME-RL, signaling a reinforcement-learning-driven approach to agent self-improvement — useful for developers building coding agents that get better over time.",
+    "input_hash": "b1c274949bf5"
   },
   "hn-49201970": {
     "summary_zh": "AMD 收购 Taalas，旨在把模型直接刻进硅片以提升推理性能。原文是链接，未提供更多细节；除标题外没有可确认的交易金额或技术参数。",
-    "summary_en": "AMD is acquiring Taalas, with the goal of improving inference performance by etching models directly into silicon. The linked page isn't summarized here; details beyond the title aren't available."
+    "summary_en": "AMD is acquiring Taalas, with the goal of improving inference performance by etching models directly into silicon. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "6ccc4f3c0940"
   },
   "hn-49208314": {
     "summary_zh": "美国达成一项 12 亿美元的协议，将付钱给一家德国公司以叫停海上风电项目。原文是链接，未提供更多细节；除标题外没有可确认的条款或背景信息。",
-    "summary_en": "The US has struck a $1.2 billion deal to pay a German company to halt offshore wind projects. The linked page isn't summarized here; details beyond the title aren't available."
+    "summary_en": "The US has struck a $1.2 billion deal to pay a German company to halt offshore wind projects. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "fbb46703a58d"
   },
   "hn-49204352": {
     "summary_zh": "新墨西哥州法院裁定 Meta 支付 5.67 亿美元，事由是儿童心理健康受损。原文是链接，未提供更多细节；除标题外没有可确认的案情或判决依据。",
-    "summary_en": "A New Mexico court has ordered Meta to pay $567 million over harms to children's mental health. The linked page isn't summarized here; details beyond the title aren't available."
+    "summary_en": "A New Mexico court has ordered Meta to pay $567 million over harms to children's mental health. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "d793bb6a8a14"
   },
   "gh-daily-denoland-celld": {
-    "summary_zh": "denoland/celld 是一个自托管的分布式 Durable Objects 实现。它把持久化对象能力扩展到自托管环境，适合需要跨节点协调状态和长期运行的应用。",
-    "summary_en": "denoland/celld is a self-hosted, distributed implementation of Durable Objects. It brings durable, synchronized state to your own infrastructure, making it useful for stateful distributed applications that must run across nodes."
+    "summary_zh": "celld 是一个开源守护进程，让你在自己的机器上运行 Cloudflare Workers 与 Durable Objects。每个 object 是独立的 SQLite 数据库，复制到用户自有的 S3 兼容桶中，节点间仅靠对象存储的 compare-and-swap 协调，无需控制平面或共识服务；空闲 cell 可休眠到近乎零开销。适合想自建分布式 Durable Objects 的开发者。",
+    "summary_en": "celld is an open-source daemon that runs Cloudflare Workers and Durable Objects on your own machines. Each object is its own SQLite database, replicated to a user-owned S3-compatible bucket; nodes coordinate solely through compare-and-swap on that bucket, so there's no control plane, membership protocol, or consensus. Idle cells hibernate to nearly nothing, making it an appealing option for self-hosting distributed Durable Objects.",
+    "input_hash": "e615d772180c"
   },
   "ph-1210682": {
     "summary_zh": "Superlog Responder 是一个免费、开源的 AI 代理，专用于修复软件缺陷。它可直接接入开发流程，适合希望用 AI 辅助除错而又不想依赖商业服务的开发者。开源意味着可以自行审计和改进。",
-    "summary_en": "Superlog Responder is a free, open-source AI agent focused on fixing software bugs. It can be plugged into existing development workflows, making it useful for developers who want AI-assisted debugging without relying on a commercial service. Being open source, it can also be audited and modified."
+    "summary_en": "Superlog Responder is a free, open-source AI agent focused on fixing software bugs. It can be plugged into existing development workflows, making it useful for developers who want AI-assisted debugging without relying on a commercial service. Being open source, it can also be audited and modified.",
+    "input_hash": "233fb05bd4ab"
   },
   "v2ex-b01efffbb054": {
     "summary_zh": "这是一条 V2EX 推广帖，标题称一个应用（可能名为 Vibe）上线一天内有 50 多人申请内测，随后作者发问“然后呢”。原文是链接，未提供更多细节，无法确认应用功能或后续内容。",
@@ -8377,7 +8429,8 @@
   },
   "v2ex-a0e2d0eebf3e": {
     "summary_zh": "面向没有显卡的围棋爱好者，作者分享了一个云端 KataGo 服务，可直接接入 KaTrain 使用。原文是链接，未提供更多细节，如部署方式、免费与否等。",
-    "summary_en": "A V2EX “share” post offers a cloud KataGo service for Go players without a GPU, designed to plug directly into KaTrain. The linked page isn't summarized here; details such as pricing or setup aren't available."
+    "summary_en": "A V2EX “share” post offers a cloud KataGo service for Go players without a GPU, designed to plug directly into KaTrain. The linked page isn't summarized here; details such as pricing or setup aren't available.",
+    "input_hash": "7e70a62a24e8"
   },
   "v2ex-c6e7b53bb55f": {
     "summary_zh": "这条 V2EX 问答帖的标题是 “dsv4 flash vs k3”，看起来是一个对比问题，但 dsv4 flash 与 k3 具体指什么没有更多信息。原文是链接，未提供正文，无法获取对比细节。",
@@ -8392,8 +8445,9 @@
     "summary_en": "This V2EX share introduces mcpp, an open-source C++ package index that lets you use libraries via `import xxx;`, with one-click referencing, code samples, and growth charts. The post body isn't included, so only the title's claims are summarized; follow the link for implementation details."
   },
   "gh-daily-pranshuparmar-witr": {
-    "summary_zh": "GitHub 趋势项目 witr 提供 CLI 和 TUI 界面，能把任意进程、端口、容器或文件追溯到启动它的父进程/来源。对排查系统占用和容器环境问题很有用，适合运维与后端开发者。",
-    "summary_en": "witr is a GitHub trending CLI/TUI tool that traces any process, port, container, or file back to what started it. It's useful for debugging resource usage and understanding system behavior, appealing to developers doing operations or backend work."
+    "summary_zh": "witr 是一款开源排查工具，用一条命令把进程、端口、容器或文件追溯到启动它的完整链路，输出支持机器可读 JSON，也可切换交互式 TUI。项目提供多平台支持（Linux/macOS/Windows/FreeBSD），并已进入 brew、conda、winget、npm 等常见包管理器，方便开发者直接安装。适合经常处理“这是哪个进程拉起来的”类问题的系统与后端开发者。",
+    "summary_en": "witr is an open-source CLI/TUI tool that traces any process, port, container, or file back to the exact command chain that started it, with output as machine-readable JSON or an interactive TUI. It supports Linux, macOS, Windows, and FreeBSD, and is distributed through package managers like Homebrew, Conda, AUR, winget, and npm. Developers who routinely debug 'why is this running' questions will find it a practical addition.",
+    "input_hash": "311a32fe01e0"
   },
   "v2ex-300a808d94d7": {
     "summary_zh": "一名程序员在 V2EX 分享称，给自己的博客里的 Linux 终端加上了挂载本地文件的功能。帖子正文没有更多细节（仅标题/链接），具体交互方式或实现原理需要跳转原帖了解。",
@@ -8409,62 +8463,136 @@
   },
   "36kr-3928804830804097": {
     "summary_zh": "文章主角是梁文锋，标题意味着他正在告别“价格屠夫”这个标签。但原文仅是链接，未提供正文细节，相关背景与具体动作需点开原链接才能确认。",
-    "summary_en": "The article centers on Liang Wenfeng, with a headline that signals he is leaving the 'price butcher' identity. The linked page isn't summarized here; details beyond the title aren't available."
+    "summary_en": "The article centers on Liang Wenfeng, with a headline that signals he is leaving the 'price butcher' identity. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "2c6065c608f3"
   },
   "36kr-3929008963245955": {
     "summary_zh": "报道聚焦大学新生买不起电脑的现象，标题直指他们面临的经济压力。原文只有链接，没有更多正文，具体原因、价格变化等细节需查看原文章。",
-    "summary_en": "This report highlights the financial strain on incoming college students trying to buy computers, as implied by the headline. The linked page isn't summarized here; details beyond the title aren't available."
+    "summary_en": "This report highlights the financial strain on incoming college students trying to buy computers, as implied by the headline. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "e7be79c9421e"
   },
   "36kr-3928197036447365": {
     "summary_zh": "苹果折叠屏首秀在即，标题称备货达1000万，并挑战厚度极限。文章讨论它能否打破折叠屏市场僵局，但原文只有链接，未提供更多细节，具体产品信息需查看原链接。",
-    "summary_en": "Apple's foldable-device debut is the subject, with the headline citing 10 million units in stock and a push to beat thickness limits. The piece asks whether it can break the foldable market's deadlock. The linked page isn't summarized here; details beyond the title aren't available."
+    "summary_en": "Apple's foldable-device debut is the subject, with the headline citing 10 million units in stock and a push to beat thickness limits. The piece asks whether it can break the foldable market's deadlock. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "99895b596c66"
   },
   "36kr-3928735587301507": {
     "summary_zh": "报道对比称电车维修费约为油车的1.7倍，并指出车主还有更多未言明的痛点。原文为链接，未提供正文细节，具体哪些情况让人崩溃无法确认。",
-    "summary_en": "The headline cites EV repair costs as 1.7 times those of gas cars, along with hints of additional owner pain points. The linked page isn't summarized here; details beyond the title aren't available."
+    "summary_en": "The headline cites EV repair costs as 1.7 times those of gas cars, along with hints of additional owner pain points. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "ecfe68d3cc6a"
   },
   "36kr-3929155270131075": {
     "summary_zh": "标题称GPT-5.6在调用量上被DeepSeek以三倍差距碾压，并宣布免费。原文为链接，未提供正文细节，数据口径及免费范围无法确认。",
-    "summary_en": "The headline claims DeepSeek's usage is 3x that of GPT-5.6, and GPT-5.6 is now free. The linked page isn't summarized here; details beyond the title aren't available."
+    "summary_en": "The headline claims DeepSeek's usage is 3x that of GPT-5.6, and GPT-5.6 is now free. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "ead261eeb145"
   },
   "infoq-eDt24UFt212XlaW83ryM": {
     "summary_zh": "该指南介绍DevEco CLI的快速入门，意在帮助AI Agent更好地理解HarmonyOS应用开发。原文为链接，未提供正文细节，具体操作步骤无法展开。",
-    "summary_en": "This quick-start guide for DevEco CLI aims to help AI agents better understand HarmonyOS app development. The linked page isn't summarized here; details beyond the title aren't available."
+    "summary_en": "This quick-start guide for DevEco CLI aims to help AI agents better understand HarmonyOS app development. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "24225d3f9864"
   },
   "infoq-FGMkg9BOrQ7vg5ubBp4U": {
     "summary_zh": "本条目仅有原文链接，未提供更多细节。根据标题，HarmonyOS 7（API 26）Beta 2 新增 AI 赋能的故障分析能力，用于发现、定位并修复应用稳定性问题。",
-    "summary_en": "The linked page isn't summarized here; details beyond the title aren't available. According to the title, HarmonyOS 7 (API 26) Beta 2 adds AI-powered fault analysis to help developers discover, locate, and fix application stability issues. Since this digest entry contains only the headline, further technical details would require reading the original page."
+    "summary_en": "The linked page isn't summarized here; details beyond the title aren't available. According to the title, HarmonyOS 7 (API 26) Beta 2 adds AI-powered fault analysis to help developers discover, locate, and fix application stability issues. Since this digest entry contains only the headline, further technical details would require reading the original page.",
+    "input_hash": "5d0611029e15"
   },
   "infoq-B2JUs2zafHE0fE0AYaNY": {
     "summary_zh": "本条目仅有原文链接，未提供更多细节。标题称 DNS 战场出现新变化：Cloudflare 开始对 AWS Route 53 发起挑战。",
-    "summary_en": "The linked page isn't summarized here; details beyond the title aren't available. Based on the headline, Cloudflare is beginning to challenge AWS Route 53 in the DNS market, a move that would mark another shift in that space. If you need specifics, the linked article is the only source on this topic."
+    "summary_en": "The linked page isn't summarized here; details beyond the title aren't available. Based on the headline, Cloudflare is beginning to challenge AWS Route 53 in the DNS market, a move that would mark another shift in that space. If you need specifics, the linked article is the only source on this topic.",
+    "input_hash": "f774ae4f0c84"
   },
   "infoq-HQD432MKSXMMR2UUag6P": {
     "summary_zh": "本条目仅有原文链接，未提供更多细节。标题称微软公布了面向 AI 智能体的 LLM 路由方案，最高可节省 85% 成本。",
-    "summary_en": "The linked page isn't summarized here; details beyond the title aren't available. According to the headline, Microsoft has announced an LLM routing approach for AI agents that reportedly delivers up to 85% cost savings. Since no article body is included here, details about how the routing works are only available from the linked page."
+    "summary_en": "The linked page isn't summarized here; details beyond the title aren't available. According to the headline, Microsoft has announced an LLM routing approach for AI agents that reportedly delivers up to 85% cost savings. Since no article body is included here, details about how the routing works are only available from the linked page.",
+    "input_hash": "1371f5fc0331"
   },
   "infoq-d6ypyGIvilRgHz1MJaTR": {
     "summary_zh": "这条资讯介绍 HarmonyOS 7（API 26）Beta 2 的新能力，重点解读“平行视界”如何为大屏多任务开启新体验。原文为链接，未提供更多细节；要获取完整解读，需点击原文查看。",
-    "summary_en": "This item reports on new capabilities in HarmonyOS 7 (API 26) Beta 2, focusing on the “parallel view” feature that enables a new large-screen multitasking experience. However, the linked page isn't summarized here; details beyond the title aren't available, so readers should follow the link for specifics."
+    "summary_en": "This item reports on new capabilities in HarmonyOS 7 (API 26) Beta 2, focusing on the “parallel view” feature that enables a new large-screen multitasking experience. However, the linked page isn't summarized here; details beyond the title aren't available, so readers should follow the link for specifics.",
+    "input_hash": "290b0df17a43"
   },
   "ph-1198904": {
     "summary_zh": "Coldtea.ai 是 Product Hunt 上的一款新产品，定位是让软件交付实现“自动驾驶”。它希望减少发布流程中的人工干预，适合想自动化 CI/CD 流程的开发团队了解。",
-    "summary_en": "Coldtea.ai is a new Product Hunt launch that aims to make software delivery “self-driving,” reducing manual intervention in the release process. It’s positioned for development teams who want to automate their CI/CD workflow and focus on higher-value work. The pitch is short, but the scope seems to cover the entire delivery pipeline."
+    "summary_en": "Coldtea.ai is a new Product Hunt launch that aims to make software delivery “self-driving,” reducing manual intervention in the release process. It’s positioned for development teams who want to automate their CI/CD workflow and focus on higher-value work. The pitch is short, but the scope seems to cover the entire delivery pipeline.",
+    "input_hash": "df79c981f312"
   },
   "gh-daily-Significant-Gravitas-AutoGPT": {
-    "summary_zh": "AutoGPT 是 GitHub 上一个热门项目，愿景是让 AI 人人可用，既能直接使用，也能在其上构建。项目旨在提供工具，让开发者专注于真正重要的事情；适合对开源 AI 应用感兴趣的开发者。",
-    "summary_en": "AutoGPT is a trending GitHub project with the vision of making AI accessible to everyone — both to use and to build on. The project's mission is to provide the tools needed so that developers can focus on what matters. It’s relevant for anyone exploring open-source AI tooling. The repository description emphasizes both usability and extensibility."
+    "summary_zh": "AutoGPT 是一个 AI agent 平台，用户描述目标后，它自动构建 agent、运行任务并汇报结果。README 提供了托管平台（platform.agpt.co）和 self-host 两种使用方式，并宣称每周能省下 10 小时。适合希望用自然语言委派端到端任务的开发者。",
+    "summary_en": "AutoGPT is an AI-agent platform positioned as 'AI agents that finish the work.' You describe the desired outcome; it builds an agent, runs the task, and reports back. The README links to a hosted platform and a self-host option. It is aimed at those who want to delegate end-to-end tasks to AI without hand-building agent scaffolding.",
+    "input_hash": "7cdee20d7a21"
   },
   "ph-1216472": {
     "summary_zh": "Soloop 是一款面向独立创业者的 Agent OS，主打“审批优先”模式，让 AI 代理在执行任务前先经过人工确认。对既要借助自动化、又不想失去掌控感的 solo founder 来说，它提供了一条更稳妥的 Agent 落地路径。",
-    "summary_en": "Soloop is an agent operating system designed for solo founders, with an approval-first workflow that puts human sign-off before agent actions. Its key differentiator is that agents cannot act without permission, offering one-person teams a middle path between automation and control when adopting AI agents."
+    "summary_en": "Soloop is an agent operating system designed for solo founders, with an approval-first workflow that puts human sign-off before agent actions. Its key differentiator is that agents cannot act without permission, offering one-person teams a middle path between automation and control when adopting AI agents.",
+    "input_hash": "99c250ec0412"
   },
   "gh-daily-google-skills": {
-    "summary_zh": "google/skills 是 Google 在 GitHub 上开源的 Agent Skills 仓库，汇集了面向 Google 产品与技术的技能模块。它能让开发者通过统一接口为 AI Agent 接入 Google 生态能力，适合正在构建 Agent 工作流的开发者参考和复用。",
-    "summary_en": "google/skills is a GitHub repository from Google that collects Agent Skills for Google products and technologies. It is useful for developers building agentic workflows who want a structured, reusable way to add Google integrations; the skills pattern is still taking shape, so the repo serves as both a library and a reference."
+    "summary_zh": "Google 官方发布了 Agent Skills 仓库，面向 Google 产品与 Google Cloud，提供可复用的技能集合，可通过 npx skills add google/skills 安装并自由选择子技能。仓库尚处活跃开发中，已包含 Google Cloud 认证、基础环境搭建、解决方案架构与跨云数据分析等技能，适合用 Agent 方式编排 Google Cloud 工作流的开发者。",
+    "summary_en": "Google has released an official Agent Skills repository for Google products and Google Cloud, installable via `npx skills add google/skills` with selectable sub-skills. The repo is under active development and already covers Google Cloud auth, foundation setup, solution architecture, and agentic analytics. Useful for developers building agent workflows on Google Cloud.",
+    "input_hash": "0b70efb8da37"
   },
   "v2ex-ca68fc089984": {
     "summary_zh": "V2EX 上出现标题为“OpenAI codex 似乎要重置啦”的帖子，但原文只有链接，没有正文或更多说明。除标题外，当前无法获取关于“重置”的具体对象或影响的更多细节。",
     "summary_en": "A V2EX post carrying the headline '[OpenAI] codex 似乎要重置啦' has surfaced, hinting that OpenAI's Codex is about to undergo a reset. However, the thread contains no body text, only a link; the linked page isn't summarized here, so details beyond the title aren't available. This leaves readers with the headline as the only concrete information."
+  },
+  "zhihu-2069013447518287455": {
+    "summary_zh": "北大数院2007级校友苏炜杰获2026年度考普斯奖，考普斯奖有“统计学界的诺贝尔奖”之称。问题页没有附带正文，未提供成果细节与获奖意义的具体解读；完整讨论需查看原问答。",
+    "summary_en": "Su Weijie, a 2007 alumnus of Peking University's School of Mathematical Sciences, has won the 2026 COPSS Award, often called the 'Nobel Prize of statistics.' The linked Zhihu page isn't summarized here; details beyond the title aren't available, so the discussion of his work and the award's significance remains on the original page.",
+    "input_hash": "5719988702e2"
+  },
+  "infoq-hI2W3XTUo2GNylxSXDC8": {
+    "summary_zh": "黎曼动力宣布与光轮智能、诺亦腾机器人合作，共同推进2026年百万小时具身智能数据建设。这一规模在具身智能领域属于重大项目，但当前条目只有标题，未给出合作模式、时间表或技术方案的更多细节。",
+    "summary_en": "A partnership of three Chinese companies—黎曼动力, 光轮智能, and 诺亦腾机器人—is pushing toward one million hours of embodied-intelligence data by 2026. The effort targets the data bottleneck for embodied AI training, but the linked page isn't summarized here; details beyond the title aren't available, so the exact working arrangement remains undisclosed.",
+    "input_hash": "58e7ded9de78"
+  },
+  "v2ex-e0cefca06bb2": {
+    "summary_zh": "这是一条 V2EX 求职帖，发帖者寻找 Web 图形开发与数据可视化方向的全职或兼职岗位。原文是链接，未提供更多细节。",
+    "summary_en": "A V2EX post from a developer seeking full-time or part-time Web graphics and data visualization roles. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "0e21438e4c15"
+  },
+  "v2ex-61fa31b76187": {
+    "summary_zh": "发帖人分享了一个名为 CodeDock 的桌面客户端，为 AI 编程 CLI 提供会话、编辑器和 Git 一体化界面。原文是链接，未提供更多细节。",
+    "summary_en": "A V2EX post introduces CodeDock, a desktop client for AI coding CLI integrating session, editor, and Git tools. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "6d480f14efa2"
+  },
+  "v2ex-ccada383615e": {
+    "summary_zh": "这是一条推广帖，介绍《我享云》的专线服务，并称 3 折优惠码持续发放中。原文是链接，未提供更多细节。",
+    "summary_en": "This is a promotional post for the cloud service 我享云, advertising a premium dedicated line and an ongoing 30%-off coupon code. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "7251ee691709"
+  },
+  "v2ex-83cd1236308e": {
+    "summary_zh": "帖子讨论江苏联通宽带被拉入 122. 异地网段后如何恢复的问题。原文是链接，未提供更多细节。",
+    "summary_en": "A post asks how to restore Jiangsu Unicom broadband after it was routed into a remote 122. network segment. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "f1189d1ccfa3"
+  },
+  "v2ex-a09b4592a53d": {
+    "summary_zh": "这是一条 V2EX 上的商品推广帖，出售东南亚区的 GPT Plus 成品月卡账号，宣称支持反代，并承诺购买 24 小时内若因非禁止网络问题可免费换一次。原帖没有描述正文，除标题外没有更多可用细节。",
+    "summary_en": "This V2EX post advertises exclusive GPT Plus monthly accounts for the Southeast Asia region, sold through a special channel and marketed with reverse-proxy support plus a one-time free replacement within 24 hours for non-banned network issues. The post has no body text, so the linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "361f80d74224"
+  },
+  "v2ex-c72cd6208b36": {
+    "summary_zh": "这是一个开源项目，定位为自托管的 AI 应用构建器底座，关键特性是“带真实构建验证”，即底座本身经过实际构建测试而非只提供代码骨架。原帖只有标题，未给出仓库地址或更多细节；对想自建 AI 工具链的开发者可作参考。",
+    "summary_en": "This open-source project is a self-hosted foundation for building AI applications, featuring 'real build verification' — the base is validated with actual build runs, not just scaffolding. The post only lists the title, so no repository or further details are provided; developers wanting a verified starting point for self-hosted AI tooling may want to track down the project.",
+    "input_hash": "ae3bd31e651f"
+  },
+  "v2ex-80f0a659ce57": {
+    "summary_zh": "这条 V2EX 帖标题提到 OpenAI 的 Codex 似乎要重置，但原帖没有正文，无法确认是指会话、配额还是其他内容被重置。对关注 Codex 的开发者来说，这只是一个待证实的信号，需要自行去原帖或官方渠道核实。",
+    "summary_en": "This V2EX post's title says that OpenAI's Codex appears to be resetting, but there is no body text to clarify whether it refers to sessions, quotas, or another aspect. Developers who follow Codex should treat this as an unverified signal and check the original post or official channels for more details.",
+    "input_hash": "ab7a3c0bcf22"
+  },
+  "v2ex-1ee0040a95d0": {
+    "summary_zh": "这是一条 V2EX 推广帖，来自一位叫 vibe 的开发者/项目，称自己的第一个 app 一天内已有 50 多人报名内测，并抛出了“然后呢”的延续话题。原帖没有正文，无法得知 app 的功能或后续计划，只能确认这是一个面向社区收集反馈的推广帖。",
+    "summary_en": "This V2EX promotional post comes from a developer/project called vibe, announcing that their first app has already drawn 50+ people for beta testing within one day and asking what comes next as a hook for discussion. There is no body text, so the app's purpose and next steps aren't clear; the post is essentially a request for community feedback.",
+    "input_hash": "644a9b32bd51"
+  },
+  "v2ex-eb584494ccb0": {
+    "summary_zh": "这是一个程序员社区的讨论帖，标题围绕“vibe”成本和“护城河”提问：当 vibe 成本如此低时，程序员的护城河是什么，又是否真的需要护城河。原文为链接，未提供更多正文细节。",
+    "summary_en": "This is a programmer forum thread that poses an open question: with vibe costs dropping so low, what truly forms a programmer's defendable edge, and is such a moat even necessary in the current environment? The thread provides no further text, so the linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "2624ae1d7856"
+  },
+  "juejin-7669622241974632490": {
+    "summary_zh": "一篇盘点 2026 上半年前端圈五次重大事件的文章。第一件是微软于 7 月 8 日发布 TypeScript 7.0，被描述为 14 年来最大变革，编译速度提升 10 倍。文章其余四次事件未在摘要来源中展开。",
+    "summary_en": "An article recaps five major frontend ecosystem events from the first half of 2026 that have drawn wide attention. The first one is TypeScript 7.0: Microsoft released it on July 8, 2026, calling it the biggest change in 14 years and claiming a 10x compile speedup. The other four events are not detailed in the snippet.",
+    "input_hash": "fcd79a23dc01"
   }
 }

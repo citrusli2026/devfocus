@@ -12,6 +12,7 @@ Priority:
 从 digest + 历史快照找回原始条目后重新入队（不删库，LLM 不可用时留空下轮再试）。
 """
 
+import hashlib
 import json
 import os
 import sys
@@ -65,8 +66,8 @@ USER_PROMPT_TEMPLATE = """为下面每条资讯各写一条中文摘要 (summary
 3. 技术名词、产品名、公司名保留英文原文（如 Kubernetes、Transformer、Claude、GitHub），不要硬译。
 4. 禁止：复述标题凑字数；堆砌形容词和夸张修辞（如"神器""白月光""颠覆""震撼"）；套话结尾（如"值得关注""未来可期"）；列表、编号、竖线 | —— 必须是连贯段落。
 5. 两条摘要覆盖相同的关键事实，但语言各自地道，不是逐句互译。
-6. 事实边界：摘要里出现的公司名、人名、产品名、数字、版本号必须来自该条的 title 或 desc，禁止引入两者都未提及的实体（例如标题只写 Codex 时不得自行加上 "Amazon"）。拿不准就不写。
-7. desc 为空的条目（如只有链接的 HN 帖）：禁止猜测正文内容。基于标题能确定的事实写 1-2 句，并明确说明"原文是链接，未提供更多细节"（英文："the linked page isn't summarized here; details beyond the title aren't available"）。
+6. 事实边界：摘要里出现的公司名、人名、产品名、数字、版本号必须来自该条的 title、desc 或 readme（README 正文），禁止引入这些输入都未提及的实体（例如标题只写 Codex 时不得自行加上 "Amazon"）。拿不准就不写。
+7. desc 与 readme 均为空的条目（如只有链接的 HN 帖）：禁止猜测正文内容。基于标题能确定的事实写 1-2 句，并明确说明"原文是链接，未提供更多细节"（英文："the linked page isn't summarized here; details beyond the title aren't available"）。readme 非空的条目以 readme 为准提炼事实（它比 desc 完整），desc 仅作补充。
 
 Items:
 {items}
@@ -86,7 +87,7 @@ def call_llm(base_url: str, api_key: str, model: str, prompt: str) -> str:
         ],
         "temperature": 0.3,
         # reasoning 模型会消耗大量隐藏 token，5 条批量需要充足余量避免截断
-        "max_tokens": 8000,
+        "max_tokens": 12000,
         "response_format": {"type": "json_object"},
     }).encode()
 
@@ -111,8 +112,13 @@ def build_prompt(items: list[dict]) -> str:
     """Build summarization prompt for a batch of items."""
     lines = []
     for i, item in enumerate(items):
-        desc = (item.get("description") or "")[:200] or "（无正文，仅标题/链接）"
-        lines.append(f"{i+1}. id={item['id']} | source={item.get('source', '')} | title={item.get('title', '')} | desc={desc}")
+        desc = (item.get("description") or "").strip()[:200] or "（无）"
+        line = f"{i+1}. id={item['id']} | source={item.get('source', '')} | title={item.get('title', '')} | desc={desc}"
+        # README 正文是全文摘要的主要素材（压缩空白为单行，避免格式错乱）
+        readme = (item.get("readme") or "").strip()[:1200]
+        if readme:
+            line += f"\n   readme={' '.join(readme.split())}"
+        lines.append(line)
     return USER_PROMPT_TEMPLATE.format(items="\n".join(lines))
 
 
@@ -185,8 +191,24 @@ def is_template_zh(zh: str) -> bool:
     return any(zh.startswith(p) for p in TEMPLATE_PREFIXES_ZH)
 
 
-def needs_summary(entry: dict | None) -> bool:
-    """summaries.json 里的一条记录是否需要（重新）生成。"""
+def item_hash(item: dict) -> str:
+    """输入内容指纹（title+desc+readme），输入变化时触发重新摘要。"""
+    raw = "|".join([
+        (item.get("title") or "").strip(),
+        (item.get("description") or "").strip(),
+        (item.get("readme") or "").strip(),
+    ])
+    return hashlib.md5(raw.encode("utf-8")).hexdigest()[:12]
+
+
+def needs_summary(entry: dict | None, item: dict | None = None) -> bool:
+    """summaries.json 里的一条记录是否需要（重新）生成。
+
+    除摘要质量检查外，还比对输入指纹：
+    - 指纹不一致 → 输入内容变了，重新生成
+    - 历史条目无指纹：readme 是新引入的输入，带 readme 的条目视为输入变化
+      （首次部署后这批摘要需要基于 README 重写）；其余信任现有摘要
+    """
     if not entry:
         return True
     zh = (entry.get("summary_zh") or "").strip()
@@ -194,7 +216,27 @@ def needs_summary(entry: dict | None) -> bool:
         return True
     if not (entry.get("summary_en") or "").strip():
         return True
+    if item is not None:
+        cur = item_hash(item)
+        if entry.get("input_hash") == cur:
+            return False
+        if entry.get("input_hash") or (item.get("readme") or "").strip():
+            return True
     return False
+
+
+def backfill_hashes(summaries: dict[str, dict], items: dict[str, dict]) -> None:
+    """给保留的旧摘要补写输入指纹（无 readme 的历史条目信任现有摘要）。"""
+    for iid, item in items.items():
+        entry = summaries.get(iid)
+        if entry and not entry.get("input_hash"):
+            entry["input_hash"] = item_hash(item)
+
+
+def strip_readme(items: list[dict]) -> None:
+    """移除 readme 字段（摘要的内部素材，写回 digest 前必须剥离，原地修改）。"""
+    for it in items:
+        it.pop("readme", None)
 
 
 def accept_entry(entry, batch_ids: set[str], titles: dict[str, str]):
@@ -226,6 +268,7 @@ def llm_summarize(items: list[dict], provider: dict, batch_size: int,
                   summaries: dict[str, dict], llm_ids: set[str]):
     """One pass of batched LLM summarization; results merged into `summaries`."""
     titles = {it["id"]: it.get("title", "") for it in items}
+    hashes = {it["id"]: item_hash(it) for it in items}
     for i in range(0, len(items), batch_size):
         batch = items[i:i + batch_size]
         batch_ids = {it["id"] for it in batch}
@@ -238,6 +281,7 @@ def llm_summarize(items: list[dict], provider: dict, batch_size: int,
                 for entry in parsed:
                     ok = accept_entry(entry, batch_ids, titles)
                     if ok:
+                        ok["input_hash"] = hashes[entry["id"]]
                         summaries[entry["id"]] = ok
                         llm_ids.add(entry["id"])
                         n += 1
@@ -329,7 +373,7 @@ def main():
 
     need: dict[str, dict] = {
         id: item for id, item in all_items.items()
-        if needs_summary(existing.get(id))
+        if needs_summary(existing.get(id), item)
     }
 
     # 历史空摘要条目自动重新入队（不删库）：从 digest/快照找回原始条目
@@ -354,6 +398,10 @@ def main():
                 if s:
                     item["summary_zh"] = s.get("summary_zh", "")
                     item["summary_en"] = s.get("summary_en", "")
+        backfill_hashes(existing, all_items)
+        SUMMARIES_PATH.write_text(json.dumps(existing, indent=2, ensure_ascii=False))
+        strip_readme(digest["daily"]["items"])
+        strip_readme(digest["monthly"]["items"])
         digest_path.write_text(json.dumps(digest, indent=2, ensure_ascii=False))
         return
 
@@ -383,10 +431,11 @@ def main():
     for id, item in need.items():
         if id not in summaries and id not in retry_only_ids:
             zh, en = template_summary(item)
-            summaries[id] = {"summary_zh": zh, "summary_en": en}
+            summaries[id] = {"summary_zh": zh, "summary_en": en, "input_hash": item_hash(item)}
 
     # Merge into existing
     existing.update(summaries)
+    backfill_hashes(existing, all_items)
 
     # Apply to digest
     for key in ["daily"]:
@@ -396,7 +445,9 @@ def main():
                 item["summary_zh"] = s.get("summary_zh", "")
                 item["summary_en"] = s.get("summary_en", "")
 
-    # Save
+    # Save（readme 仅作摘要输入，不写入最终产出）
+    strip_readme(digest["daily"]["items"])
+    strip_readme(digest["monthly"]["items"])
     digest_path.write_text(json.dumps(digest, indent=2, ensure_ascii=False))
     SUMMARIES_PATH.write_text(json.dumps(existing, indent=2, ensure_ascii=False))
 

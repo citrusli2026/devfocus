@@ -98,6 +98,7 @@ def aggregate_github(data: dict, period: str = "daily") -> list[dict]:
             "title": r["full_name"],
             "url": r.get("url", ""),
             "description": r.get("description", ""),
+            "readme": r.get("readme", ""),  # 摘要阶段的全文素材，不进前端产出
             "source": "github_trending",
             "score": r.get("stars_today", 0),
             "comments": 0,
@@ -235,6 +236,12 @@ def dedupe_by_title(items: list[dict]) -> list[dict]:
         if key not in seen or item["score"] > seen[key]["score"]:
             seen[key] = item
     return list(seen.values())
+
+
+def strip_readme(items: list[dict]) -> None:
+    """移除 readme 字段（摘要的内部素材，不进前端产出，原地修改）。"""
+    for it in items:
+        it.pop("readme", None)
 
 
 def main():
@@ -381,6 +388,7 @@ def main():
     month_ago = now - timedelta(days=30)
     monthly_pool = dedupe_by_title([i for i in history_items if _parse_time(i) >= month_ago])
     monthly_items = pick_top_per_source(monthly_pool, MONTHLY_PER_SOURCE)
+    strip_readme(monthly_items)  # readme 仅供摘要，不进 digest/feed 产出
 
     sources = sorted({i["source"] for i in history_items})
 
@@ -397,6 +405,7 @@ def main():
     print(f"[AGG] Digest: daily={len(daily_items)} monthly={len(monthly_items)}")
 
     # Full feed
+    strip_readme(history_items)  # readme 仅供摘要，不进 feed 产出
     by_date: dict[str, list[dict]] = {}
     for item in history_items:
         k = date_key(_parse_time(item))

@@ -8,6 +8,7 @@ import re
 import sys
 import urllib.request
 import urllib.error
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from html.parser import HTMLParser
 from pathlib import Path
@@ -19,6 +20,11 @@ URLS = {
 
 # Fallback: GitHub search API (no auth needed, rate limit 10/min)
 SEARCH_API = "https://api.github.com/search/repositories?q=created:>{date}&sort=stars&order=desc&per_page=30"
+
+# README 抓取：raw.githubusercontent 无需 auth，HEAD 跟随默认分支；
+# 大小写/后缀变体逐个尝试，失败视为无 README
+README_VARIANTS = ("README.md", "readme.md", "README.rst", "readme.rst")
+README_MAX_CHARS = 2000
 
 
 class TrendingParser(HTMLParser):
@@ -97,6 +103,37 @@ class TrendingParser(HTMLParser):
         if (self._in_h2 or self._in_desc or self._in_stars_total
                 or self._in_stars_today or self._in_lang):
             self._text_buf += data
+
+
+def fetch_readme(full_name: str) -> str:
+    """抓取仓库 README 正文（默认分支），供摘要阶段做全文素材。失败返回空串。"""
+    for fname in README_VARIANTS:
+        url = f"https://raw.githubusercontent.com/{full_name}/HEAD/{fname}"
+        req = urllib.request.Request(url, headers={"User-Agent": "DevFocus/1.0"})
+        try:
+            with urllib.request.urlopen(req, timeout=10) as resp:
+                text = resp.read().decode("utf-8", errors="replace")
+                if text.strip():
+                    return text[:README_MAX_CHARS]
+        except Exception:
+            continue
+    return ""
+
+
+def attach_readmes(repos: list[dict]) -> list[dict]:
+    """并发抓取每个 repo 的 README，挂到条目 readme 字段。"""
+    if not repos:
+        return repos
+
+    def _one(r: dict) -> dict:
+        r["readme"] = fetch_readme(r["full_name"])
+        return r
+
+    with ThreadPoolExecutor(max_workers=8) as ex:
+        results = list(ex.map(_one, repos))
+    got = sum(1 for r in results if r.get("readme"))
+    print(f"[GH] README fetched: {got}/{len(results)}")
+    return results
 
 
 def fetch_html(url: str) -> list[dict]:
@@ -181,6 +218,10 @@ def main():
         if len(repos) < 5:
             print(f"[GH] Trying API fallback for {period}...")
             repos = fetch_api_fallback(period)
+
+        # README 全文（摘要阶段的输入素材，缺 README 的仓库降级用 description）
+        if repos:
+            repos = attach_readmes(repos)
 
         if repos:
             result = {
