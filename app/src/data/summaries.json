@@ -3238,8 +3238,9 @@
     "summary_en": "PhoneDeck turns your iPhone into a free, wireless controller for your Mac, requiring no extra hardware. It supports multiple control modes including trackpad, keyboard shortcuts, and media playback, making it perfect for presentations, remote desktop control, or browsing while lounging on the couch. Simply install the companion app on both devices to pair them. It is a convenient and cost-effective alternative to buying a dedicated remote or trackpad, especially handy for Mac users who always have their iPhone nearby. The setup is quick and the experience is smooth."
   },
   "juejin-7631010684484845568": {
-    "summary_zh": "HN 热门：程序员懂业务，到底要懂到什么程度",
-    "summary_en": "Trending on HN: 程序员懂业务，到底要懂到什么程度"
+    "summary_zh": "作者在面试中发现，多数候选人谈业务时只复述职责，例如负责订单模块、做支付对接、写库存扣减，认为这就是业务理解。文章指出这属于工作经历而非业务理解，并探讨二者区别，适合正在准备面试或想从“做功能”转向“懂业务”的开发者阅读。",
+    "summary_en": "Drawing on interviews, the author argues that most candidates confuse business understanding with a list of past features—they mention order modules, payment integrations, or stock-deduction logic, but that's work history, not business insight. The post explores the gap between the two and is useful for developers preparing for interviews or trying to grow beyond feature delivery.",
+    "input_hash": "7f1827021cb3"
   },
   "juejin-7657791057037131822": {
     "summary_zh": "HN 热门：用 Cesium 撸了一个森林火情监控大屏，弧线、粒子、发光效果都齐了",
@@ -3520,7 +3521,8 @@
   },
   "juejin-7641048219231010862": {
     "summary_zh": "这篇文章完整记录了一位开发者利用AI辅助技术从零构建并上线微信小游戏的全过程。作者毫无保留地公开了技术栈、提示词（prompt）设计、遇到的各类踩坑问题以及详细的成本明细，甚至附有彩蛋。对于想尝试用AI加速小游戏开发但又缺乏经验的团队或个人来说，这篇实战复盘提供了真实可参考的路线图和避坑指南，展现了AI在降低开发门槛方面的巨大潜力。",
-    "summary_en": "This article provides a comprehensive walkthrough of building and launching a WeChat mini game entirely with AI assistance. The author shares everything from the technology stack and prompt engineering techniques to a detailed breakdown of costs and a list of common pitfalls encountered during the process, ending with a hidden bonus. For indie developers or small teams curious about leveraging AI to speed up game development, this real-world case study serves as an invaluable reference. It demonstrates how AI tools can dramatically lower the barrier to entry for game creation, making it accessible even to those without a deep coding background."
+    "summary_en": "This article provides a comprehensive walkthrough of building and launching a WeChat mini game entirely with AI assistance. The author shares everything from the technology stack and prompt engineering techniques to a detailed breakdown of costs and a list of common pitfalls encountered during the process, ending with a hidden bonus. For indie developers or small teams curious about leveraging AI to speed up game development, this real-world case study serves as an invaluable reference. It demonstrates how AI tools can dramatically lower the barrier to entry for game creation, making it accessible even to those without a deep coding background.",
+    "input_hash": "626d00122d97"
   },
   "juejin-7659584269551501327": {
     "summary_zh": "在微服务架构中，分布式锁是保证数据最终一致性的关键，但传统Redis锁在高并发下常面临性能瓶颈和可靠性问题。本文深入剖析了这些痛点，并提出了一种增强型锁实现：在看门狗（Watch Dog）自动续期机制基础上引入等待队列和自适应自旋策略，显著减少了锁冲突时的资源浪费和延迟。对于后端架构师和中间件开发者来说，这篇文章从Redlock的局限性出发，一步步推导出更鲁棒的优化方案，兼具理论深度与实践价值。",
@@ -8515,9 +8517,9 @@
     "input_hash": "290b0df17a43"
   },
   "ph-1198904": {
-    "summary_zh": "Coldtea.ai 是 Product Hunt 上的一款新产品，定位是让软件交付实现“自动驾驶”。它希望减少发布流程中的人工干预，适合想自动化 CI/CD 流程的开发团队了解。",
-    "summary_en": "Coldtea.ai is a new Product Hunt launch that aims to make software delivery “self-driving,” reducing manual intervention in the release process. It’s positioned for development teams who want to automate their CI/CD workflow and focus on higher-value work. The pitch is short, but the scope seems to cover the entire delivery pipeline.",
-    "input_hash": "df79c981f312"
+    "summary_zh": "Coldtea.ai 在 Product Hunt 上线，官方描述为“让软件自动驾驶”（Make your software self-driving）。它意在将 AI 引入软件运行与维护流程，让系统能自主决策和行动；具体技术细节未披露，适合关注 AI Agent 与自动化运维的开发者跟进。",
+    "summary_en": "Coldtea.ai just launched on Product Hunt, carrying the tagline \"Make your software self-driving.\" The pitch suggests using AI to oversee software operations, letting systems make decisions and take action without constant human intervention. Only the tagline is provided for now, so developers following AI agents and automated ops may want to watch for more details.",
+    "input_hash": "532649db3658"
   },
   "gh-daily-Significant-Gravitas-AutoGPT": {
     "summary_zh": "AutoGPT 是一个 AI agent 平台，用户描述目标后，它自动构建 agent、运行任务并汇报结果。README 提供了托管平台（platform.agpt.co）和 self-host 两种使用方式，并宣称每周能省下 10 小时。适合希望用自然语言委派端到端任务的开发者。",
@@ -8662,5 +8664,200 @@
     "summary_zh": "这是一条来自 V2EX 的问答帖，提问者希望了解如何提升自然语言转 SQL 的准确性。帖子未提供具体的技术栈、错误案例或已尝试的方法，因此摘要无法给出任何技术细节。对 NL2SQL 工具链或 Text-to-SQL 优化感兴趣的读者，建议去原帖查看讨论。",
     "summary_en": "This V2EX Q&A thread raises a common question: how to improve the accuracy of converting natural language into SQL queries. The post doesn't mention any specific tools, error cases, or previously attempted methods, so no technical detail can be summarized from the title alone. The linked page isn't summarized here; details beyond the title aren't available. Developers working on Text-to-SQL or NL2SQL pipelines may want to open the thread and read the replies.",
     "input_hash": "682aea141766"
+  },
+  "zhihu-2069133357099832441": {
+    "summary_zh": "知乎上该提问聚焦 OpenCode Go 订阅中 DeepSeek v4 Flash 开启的限时双倍活动。原文是链接，未提供更多细节；活动具体规则、双倍内容及适用门槛均未在标题中说明，事件背景与官方公告均未披露。",
+    "summary_en": "A Zhihu question asks how to view the limited-time double promotion for DeepSeek v4 Flash in OpenCode Go subscriptions. The linked page isn't summarized here; details beyond the title aren't available, including the exact mechanics of the double offer and any eligibility conditions. Since no official announcement or context is provided, developers interested in the subscription can only infer from the title.",
+    "input_hash": "9182632b4d05"
+  },
+  "zhihu-2068674999947359163": {
+    "summary_zh": "知乎帖子讨论 DeepSeek 宣布近期整体上调 API 服务定价、预计涨幅较大的消息及其背后考量。原文是链接，未提供更多细节；具体涨价的幅度、生效日期及调整原因均未在标题中说明。",
+    "summary_en": "A Zhihu post discusses DeepSeek's announcement that it will raise overall API pricing soon, with a reportedly large increase. The linked page isn't summarized here; details beyond the title aren't available, so the exact price change, effective date, and reasoning are not specified. API developers waiting for pricing updates should follow the original thread for more.",
+    "input_hash": "311c48f5ac35"
+  },
+  "36kr-3930343633141121": {
+    "summary_zh": "36氪文章探讨 Cursor 可能彻底消失的传闻或前景。原文是链接，未提供更多细节；标题并未说明讨论的是产品更名、公司变动还是市场竞争，具体内容需查看原文。",
+    "summary_en": "A 36Kr article explores the possibility that Cursor might completely disappear. The linked page isn't summarized here; details beyond the title aren't available, and the piece could refer to a rebrand, company changes, or competitive pressure. Readers need the original article to know what the claim is actually based on.",
+    "input_hash": "31ddfb902dc9"
+  },
+  "36kr-3930193006837125": {
+    "summary_zh": "36氪突发报道称，ChatGPT 最强模型紧急'踩刹车'，奥特曼对 Astra 表示'你吓到我了'。原文是链接，未提供更多细节；具体涉及哪个模型、为何暂停以及 Astra 的身份均未在标题中说明，事件背景也不得而知。",
+    "summary_en": "A 36Kr breaking report says the strongest ChatGPT model has been urgently halted, with Altman telling Astra, 'You scared me.' The linked page isn't summarized here; details beyond the title aren't available, including which model is affected, why the halt happened, and what Astra refers to. The original article is needed for background.",
+    "input_hash": "bbf8f415b53b"
+  },
+  "36kr-3930338581091977": {
+    "summary_zh": "36氪文章称，黄仁勋的相关动作导致全球内存股大跌，唯独长鑫幸免。原文是链接，未提供更多细节；具体是何种言论、举措以及长鑫为何未受影响，标题均未说明。",
+    "summary_en": "A 36Kr article reports that Jensen Huang's move smashed global memory stocks, with only ChangXin spared. The linked page isn't summarized here; details beyond the title aren't available, including what Huang said or did and why ChangXin avoided the selloff. The original article provides the full story. Investors following semiconductor memory trends may want to read it.",
+    "input_hash": "2ef2e034ba37"
+  },
+  "36kr-3930151021247877": {
+    "summary_zh": "这则报道聚焦短剧演员的生存困境：一些中央戏剧学院毕业的演员在演完“霸总”角色后无戏可拍，只能回家卖菜。它折射出短剧行业对演员的消耗和职业的不稳定性，对有意入行的表演者与关注内容行业的人有参考价值。",
+    "summary_en": "A new report highlights the tough situation of short-drama actors: some Central Academy of Drama graduates, after playing overbearing CEO roles, run out of acting gigs and end up selling vegetables back home. It shows how unstable the profession can be and raises questions about the industry's lopsided talent supply. This serves as a cautionary tale for anyone considering a career in short-drama production.",
+    "input_hash": "4c30b2e3a0ee"
+  },
+  "infoq-t0wslR8w8H7yeRD2MwO6": {
+    "summary_zh": "Fliggy 发布新一代 AI 产品 V10，目标是让消费 Agent 从“回答问题”升级到“把事办完”。文章探讨了消费 Agent 落地还缺什么，适合关注 AI 应用和消费场景的产品经理与开发者阅读。",
+    "summary_en": "Fliggy has unveiled V10, a new-generation AI product that aims to push consumer agents from merely answering questions to actually getting things done. The article explores what consumer agents still lack for real-world adoption, and is directly relevant to product managers and developers working on AI-powered services. The piece highlights the gap between conversation and completion in consumer-facing AI.",
+    "input_hash": "f863bf397745"
+  },
+  "36kr-3929466054163584": {
+    "summary_zh": "寒武纪披露上半年业绩：营收 60 亿元，净利润 23 亿元；与此同时，章建平退出前十大股东名单，或已套现百亿。业绩与股东变动同时曝光，使得这家公司接下来的股价与基本面走向成为关注焦点。",
+    "summary_en": "Cambricon posted RMB 6 billion in revenue and RMB 2.3 billion in net profit for the first half of the year. At the same time, investor Zhang Jianping left the top-ten shareholder list, with reports suggesting he may have cashed out RMB 10 billion. This dual update gives investors a fresh data point on the company's performance and ownership structure.",
+    "input_hash": "d60962f505a4"
+  },
+  "hn-49209539": {
+    "summary_zh": "这个 Hacker News 帖子向读者抛出一个问题：当某个职业群体集体对职业生涯失去信心时，会发生什么？原文是链接，未提供更多细节。",
+    "summary_en": "This Hacker News post asks what would happen if an entire class of workers loses faith in their careers. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "6593edd5de97"
+  },
+  "hn-49214008": {
+    "summary_zh": "该链接指向一个名为 DeepSeek V4 Flash 0731 的页面，从标题看是 DeepSeek 旗下一个带版本号的发布物。原文是链接，未提供更多细节，具体内容无法确认。",
+    "summary_en": "The link points to a page titled DeepSeek V4 Flash 0731, which appears to be a versioned release from DeepSeek. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "e1db8303a0a0"
+  },
+  "ph-1207906": {
+    "summary_zh": "The GTM Co-Founder 是一个面向技术创始人的开源项目，提供一套 Go-to-Market（GTM）技能包。它把市场、销售、增长等商业化环节拆解成可操作的模板和方法，帮助不擅长市场的开发者补齐短板。适合正在做产品冷启动的独立开发者和技术型创业团队。",
+    "summary_en": "The GTM Co-Founder is an open-source resource that gives technical founders practical go-to-market skills. It breaks down marketing, sales, and growth into templates and playbooks so engineers can handle commercialization without a full GTM team. Useful for indie developers and technical founders launching new products.",
+    "input_hash": "ae8fe7974439"
+  },
+  "v2ex-dbf1e2e87636": {
+    "summary_zh": "V2EX 上一篇帖子问道：有人真的用过 mini swe agent 来调试或开发吗？标题即全部信息，未提供更多细节；该问题反映出开发者对这类小型 AI agent 的实际效果仍有疑虑。",
+    "summary_en": "A recent V2EX post asks whether anyone has actually used a mini swe agent for debugging or development tasks. The post's title is all we have; no further details are available. It reflects developers' lingering uncertainty about whether such small AI agents deliver real value in their day-to-day debugging and development work.",
+    "input_hash": "339e5f072d4f"
+  },
+  "v2ex-9bd6256cc61e": {
+    "summary_zh": "V2EX 宽带症候群板块有用户反馈，最近阿里系云服务频繁解析出鹏博士、东方有线等运营商下无法访问的 IP。帖子只有标题，未提供复现步骤或更多细节；这可能是 DNS 解析异常，但具体情况需进一步确认。",
+    "summary_en": "In V2EX's broadband section, a user reports that Alibaba's cloud services have recently been resolving to inaccessible IPs belonging to ISPs such as Peng Bo Shi and Oriental Cable. Only the post title is available; no reproduction steps or further context are given. The symptom points to a possible DNS resolution problem, but the exact cause remains unclear without additional details.",
+    "input_hash": "3bcc14a734d4"
+  },
+  "v2ex-0e6fcf4438fd": {
+    "summary_zh": "V2EX 酷工作板块的这则招聘帖仅有标题：一家位于上海五角场的 AI 公司招募全栈开发工程师，薪资 40 万起加期权。公司名称、技术栈等细节均未披露，仅标题可见。",
+    "summary_en": "A V2EX job listing in the \"Cool Jobs\" section seeks a full-stack developer at an AI company in Wujiaochang, Shanghai, with a salary of 400k CNY plus equity. The post title is the only information available; the company name and tech stack are not disclosed. Interested developers should check the original post for specifics.",
+    "input_hash": "9b4cdefe6b63"
+  },
+  "v2ex-e36cca4830f1": {
+    "summary_zh": "智友社在V2EX发帖转售ChatGPT Plus会员：卖家提供北欧区成品号，支持反向代理，并承诺购买15天内只要不是因被禁止的网络或账号问题导致，可按剩余价值退款；原文是链接，未提供更多细节。适合想以月卡方式获取GPT Plus、又重视售后退款保障的用户，但需自行甄别第三方渠道风险。",
+    "summary_en": "A seller called Zhiyoushe is promoting ChatGPT Plus monthly accounts on V2EX: Nordic-region ready-made accounts, reverse proxy support, and a prorated refund within 15 days unless the issue comes from a prohibited network or account condition. The linked page isn't summarized here; details beyond the title aren't available. It may appeal to users who want GPT Plus on a monthly basis with after-sales protection, though third-party risk remains.",
+    "input_hash": "88b3afdb6174"
+  },
+  "ph-1211567": {
+    "summary_zh": "Nitro 4.0 定位为第一个面向 AI Agent 的人工翻译平台：它让智能体接入人工翻译服务，而不是依赖机器翻译。适合在生成内容涉及高专业度或语境敏感文本时，用 Agent 编排人工译员来兜底质量。",
+    "summary_en": "Nitro 4.0 is introduced on Product Hunt as the first human translation platform built for AI agents, meaning AI systems can tap into human translators when machine output isn't good enough. For developers working on multilingual agent workflows, this integration layer could become a useful fallback for high-stakes or context-sensitive content.",
+    "input_hash": "96f5b260d6f5"
+  },
+  "v2ex-0f18ef8a792b": {
+    "summary_zh": "这是一个 V2EX 问答帖，标题问的是 vx 小程序上传后如何设置为体验版；原文是链接，未提供更多细节。适合正在开发小程序、卡在体验版配置环节的人点进去看回复。",
+    "summary_en": "This V2EX Q&A post asks how to set an uploaded vx mini program to the trial/experience version, but the linked page isn't summarized here and details beyond the title aren't available. The thread may contain answers for developers wrestling with mini program release workflows, especially those stuck on the experience-version step.",
+    "input_hash": "4081345df34f"
+  },
+  "ph-1214232": {
+    "summary_zh": "Rindler 是 Product Hunt 上的一款面向团队的产品，标语是“把团队手动完成的网页工作自动化”。它能帮运营、客服或数据录入这类依赖浏览器的人工流程减少重复劳动；具体技术和集成细节未在描述中展开。",
+    "summary_en": "Rindler is a Product Hunt launch that promises to automate the web work your team does by hand, targeting teams stuck with repetitive browser-based tasks. It's positioned as a timesaver for ops, support, or data-entry workflows, but the description doesn't go into specific features or integration details. The product seems aimed at teams that want to cut down on manual browser chores.",
+    "input_hash": "8e0426c534c7"
+  },
+  "v2ex-5356f17909d8": {
+    "summary_zh": "这条 V2EX 问答帖说作者发现 ChatGPT 最长只能持续工作约一个半小时，想找解决办法；原文是链接，未提供更多细节。对遇到类似会话时长上限的人，帖子里的回复可能有参考价值。",
+    "summary_en": "This V2EX Q&A post notes that ChatGPT can only work for about 1.5 hours at a stretch and asks for workarounds, but the linked page isn't summarized here and details beyond the title aren't available. Developers who hit similar session limits may find the thread's replies worth a look, particularly if they rely on long-running ChatGPT sessions.",
+    "input_hash": "f542d739d715"
+  },
+  "ph-1216156": {
+    "summary_zh": "Muse Code 是 Meta 发布的终端代理，专为长周期编码任务设计。它面向需要在终端中完成多步骤、跨文件修改的开发者，意在减少人工干预。不过当前公开信息有限，具体能力与使用方式尚待进一步说明。",
+    "summary_en": "Muse Code, a terminal agent from Meta, targets long-horizon coding tasks. It is designed for developers who need to carry out multi-step, cross-file changes in the terminal, potentially reducing the need for manual intervention. Public details remain limited; further specifics about its capabilities and usage have not yet been released.",
+    "input_hash": "4bffe7c8b061"
+  },
+  "v2ex-4d6bbb34326e": {
+    "summary_zh": "作者在 V2EX 发布了一款名为 Termio.sh 的终端优先 AI 编程环境，声称比 Ghostty、iTem2、cmux 更好用。帖子本身只有标题，原文是链接，未提供更多细节，实际体验和对比依据暂不清楚。",
+    "summary_en": "A V2EX user shares Termio.sh, a terminal-first AI coding environment, claiming it is more convenient than Ghostty, iTem2, and cmux. The linked page isn't summarized here; details beyond the title aren't available. As a result, there is no information about how it works or what makes it better, and the comparison remains unverified.",
+    "input_hash": "88ee2296bd40"
+  },
+  "ph-1216176": {
+    "summary_zh": "AstraPixels 是一个像素艺术风格的太阳系可视化项目，按真实时间显示各行星的当前位置。它把天文数据与复古像素画风结合，适合天文爱好者或喜欢轻量可视化工具的人。信息来自 Product Hunt 简介，具体交互方式未说明。",
+    "summary_en": "AstraPixels is a pixel-art solar system visualization that shows planets at their real current positions. It pairs astronomical data with a retro pixel look, making it appealing to space enthusiasts and fans of lightweight visual tools. The Product Hunt description doesn't detail how the visualization is built or whether it supports interaction.",
+    "input_hash": "d7324c66f803"
+  },
+  "v2ex-f9638d3abed0": {
+    "summary_zh": "V2EX 上有用户发帖询问如何获得 Claude 官方 API 的渠道。帖子没有提供具体信息，仅是一个求助帖；原文是链接，未提供更多细节。有相关需求的开发者或许可以从回复中找线索。",
+    "summary_en": "A V2EX user is asking where to get official API access for Claude. The post is a help request with no body text; the linked page isn't summarized here, and details beyond the title aren't available. Since no concrete source is mentioned, developers with the same need might have to rely on community replies for leads.",
+    "input_hash": "a4de18cc9163"
+  },
+  "v2ex-e1aaf1bc95ce": {
+    "summary_zh": "V2EX 上出现一条优惠信息，称 mirasim 提供免费一年、5x 额度的 Coding 套餐，标注“手慢无”。帖子里没有更多说明，原文是链接，未提供更多细节。感兴趣的开发者需要自行跳转核实活动规则。",
+    "summary_en": "A V2EX post advertises a deal from mirasim offering a one-year free Coding plan with 5x quota, labeled as “first come, first served.” The post gives no further details; the linked page isn't summarized here, and details beyond the title aren't available. Interested developers will need to visit the link to verify the exact terms and conditions.",
+    "input_hash": "5e12a01e4f08"
+  },
+  "v2ex-6c0a3fa4d7be": {
+    "summary_zh": "该帖称 UU 远程更新后，历史程序文件残留在 C 盘并占用空间。原文是链接，未提供更多细节。",
+    "summary_en": "A V2EX ticket-style post reports that a remote update by UU leaves leftover program files on the C: drive. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "61dcddb5a6fe"
+  },
+  "gh-daily-TauricResearch-TradingAgents": {
+    "summary_zh": "TradingAgents 是一个基于多智能体 LLM 的金融交易框架，附带 arXiv 论文（2412.20138）和社区链接。它已被列为 GitHub 当日趋势第一，适合想了解 LLM 智能体在金融决策中如何协作的开发者参考。",
+    "summary_en": "TradingAgents is a multi-agent LLM financial trading framework with an accompanying arXiv paper (2412.20138) and community channels. It was trending as a top GitHub repository of the day, making it a good reference for developers interested in how LLM agents can collaborate on trading decisions.",
+    "input_hash": "c44b21c45845"
+  },
+  "gh-daily-TapXWorld-ChinaTextbook": {
+    "summary_zh": "此仓库汇集了中国小学到高中及大学的 PDF 教材，readme 称开源是为了应对有人售卖带私人水印的免费资源，也方便海外华人子女接触国内教材。它以开源方式集中这些文件，降低了获取门槛。",
+    "summary_en": "This repository collects PDF textbooks for Chinese primary, middle, high school and university subjects. The author says they open-sourced these resources to fight resellers who watermark and sell free educational materials, and to help overseas Chinese families keep their kids connected to China's curriculum.",
+    "input_hash": "5818af49d220"
+  },
+  "gh-daily-bannedbook-fanqiang": {
+    "summary_zh": "bannedbook/fanqiang 是一个整理网络访问工具的 GitHub 仓库，内容包括安卓客户端、Chrome/Firefox 一键配置包，以及自建 V2Ray、Shadowsocks 服务器的简明教程。适合需要查阅工具清单或自行搭建服务的用户。",
+    "summary_en": "bannedbook/fanqiang is a GitHub collection of circumvention tools and tutorials, including Android clients, Chrome/Firefox one-click proxy packs, and guides for setting up your own V2Ray or Shadowsocks server. It serves as a practical resource list for developers and users who need to locate or configure these tools.",
+    "input_hash": "866680dee118"
+  },
+  "gh-daily-google-guava": {
+    "summary_zh": "Guava 是 Google 的 Java 核心库，包含 multimap、multiset 等新集合类型，以及不可变集合、图库和并发、I/O、哈希、字符串等工具。它在 Google 内部多数 Java 项目及众多外部公司广泛使用，提供 JRE（JDK 1.8+）与 Android 两个版本，Maven 坐标为 com.google.guava。",
+    "summary_en": "Guava is Google's core Java library suite, adding collection types like multimap and multiset, plus immutable collections, a graph library, and utilities for concurrency, I/O, hashing, primitives, and strings. It underpins most Java projects inside Google and many elsewhere. The library ships in JRE (JDK 1.8+) and Android flavors under Maven group ID com.google.guava.",
+    "input_hash": "0fcf05cdccb4"
+  },
+  "zhihu-2069125628117214469": {
+    "summary_zh": "这则讨论帖引用了一篇媒体评论，核心观点是郑钦文需要调整自我认知，并且要听从团队的劝告；发帖人随后询问读者对该评论的看法，以及这一评论是否正确。由于原条目只有链接而没有正文，具体的评论出处、作者及论据都无从得知，因此摘要只能基于标题提供这些信息。",
+    "summary_en": "This post relays a media commentary stating that Zheng Qinwen needs to adjust her self-perception and follow her team's advice; it then asks readers whether that commentary is correct. The linked page isn't summarized here; details beyond the title aren't available, so the original article's author and arguments are unknown.",
+    "input_hash": "65e45d8d2f90"
+  },
+  "zhihu-2069099745738593864": {
+    "summary_zh": "于东来公开表示，要关闭一家已经营业24年的生活广场店；他给出的理由是，自己经手的每一个项目都应当达到国际一流的品质，达不到标准的项目就会被关闭。该话题在征求网友对于这一决定的看法。由于原文没有正文，这家店的具体名称、关闭时间以及“国际一流品质”的衡量标准都未披露。",
+    "summary_en": "Yu Donglai announced that he will close a lifestyle plaza store that has been operating for 24 years, saying that every project he runs must meet world-class quality and any that fall short are shut down. The post invites opinions on this decision. Since only the title is accessible, the store's name, closure schedule, and quality criteria aren't known.",
+    "input_hash": "c8487544d602"
+  },
+  "zhihu-2068423027138859669": {
+    "summary_zh": "比亚迪旗下纯电 K-car 车型“海獭” Racco 在日本斩获了超过700辆的订单；该话题在探讨这一成绩对于比亚迪出海战略究竟意味着什么。原帖仅有标题，没有提供车型定价、交付时间、日本市场同类竞品等细节，因此只能确认订单数量这一项事实。",
+    "summary_en": "BYD's electric kei-car, the \"Sea Otter\" Racco, has received over 700 orders in Japan, and the post asks what this means for BYD's overseas expansion strategy. Because the original item is just a title link, details such as pricing, delivery timing, and competitive context aren't provided, beyond the order number.",
+    "input_hash": "744b31a9cf70"
+  },
+  "zhihu-2069446019272724909": {
+    "summary_zh": "T1 官宣将二队打野 Painter 上调至一队，并将在对阵 HLE 的比赛中首发，Oner 转为替补。该提问希望获得对这次换人的评价，但原文只有标题，没有提供更多细节。",
+    "summary_en": "T1 have announced that jungler Painter is promoted from the second team and will start against HLE, with Oner moving to the bench. The original post is a Zhihu question asking for opinions on the roster change; the linked page isn't summarized here, so details beyond the title aren't available.",
+    "input_hash": "6178e8b515e6"
+  },
+  "zhihu-2042649810709239000": {
+    "summary_zh": "这是一个知乎提问，核心是为什么体制内至今仍不鼓励使用人工智能。该帖只有标题，没有任何附加说明或正文，目前看不到任何回答或背景信息，因此除问题本身外，无法获取更多细节。",
+    "summary_en": "On Zhihu, someone asks why the \"system\" (tizhi nei) still does not encourage AI use. The question is all that's available — the original post has no description or content, and the linked page isn't summarized here, so details beyond the title aren't available. In other words, no answer or context is provided.",
+    "input_hash": "9f8e62764f12"
+  },
+  "36kr-3929555171432068": {
+    "summary_zh": "苹果官翻机近期出货爆发，与新品差价可达数千元；与此同时，「官换机」被质疑借机套路消费者。原文来自 36氪，仅有标题而无正文摘要，具体案例与避坑建议无法确认。",
+    "summary_en": "Apple's official refurbished devices are seeing a surge, with price differences of thousands of yuan compared to new ones. At the same time, the question arises whether \"official replacement\" (官换机) products are taking advantage of consumers. The 36Kr article isn't summarized here, so specific cases or details beyond the title aren't available.",
+    "input_hash": "7c53a2175c48"
+  },
+  "36kr-3930248675497858": {
+    "summary_zh": "根据标题，寒武纪上半年实现23亿元盈利，并将下半年焦点转向交付。由于该条目未附描述，正文细节缺失，需查看原文章才能了解具体业务进展和行业背景。",
+    "summary_en": "According to the headline of the original article, Cambricon, a company in an unspecified sector, made a profit of 2.3 billion in the first half of this year and looks to deliveries as the key factor for the second half. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "acf888fe7b9f"
+  },
+  "36kr-3930159831612804": {
+    "summary_zh": "标题提及经销商正批量离场，并自称'活不起'、缺乏方向。原文未提供更多细节，从标题无法判断经销商是汽车、零售还是其他行业，也没有具体地域信息。",
+    "summary_en": "Based solely on the headline, dealerships are exiting their business in large numbers, describing themselves as unable to survive and without any clear direction. The title alone offers no clues about the specific industry, product, or region involved. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "d97c8f1ae347"
+  },
+  "36kr-3930290495510401": {
+    "summary_zh": "标题以'杯酒释兵权'的典故，暗示谷歌AI内部经历了一场温和但实质的权力移交或组织调整。原文未提供更多细节，无法得知涉及的人员或具体举措。",
+    "summary_en": "The article's title metaphorically likens the situation to a classic Chinese tale of peacefully stripping a general of his troops, implying that Google AI is undergoing a transfer of authority. No specifics are given in the headline about who or what changed. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "7132bea47281"
+  },
+  "36kr-3930356721499268": {
+    "summary_zh": "文章标题称美国本土直播带货市场已成长出一个规模达 200 亿美元的“巨兽”，但未点明具体企业或平台。原文仅为链接，未提供更多细节，无法确认其商业模式或数据来源。",
+    "summary_en": "The headline reports that a 'behemoth' worth $20 billion has emerged in US live-commerce, without naming the company or platform. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "cc149329901a"
   }
 }
