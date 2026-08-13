@@ -447,9 +447,10 @@ def main():
     if SUMMARIES_PATH.exists():
         existing = json.loads(SUMMARIES_PATH.read_text())
 
-    # Collect unique items needing summaries
+    # Collect unique items needing summaries（daily + monthly；同 id 去重，
+    # 月度条目只补缺，已有摘要的不会被重复生成——input_hash 防重复扣费）
     all_items: dict[str, dict] = {}
-    for key in ["daily"]:
+    for key in ("daily", "monthly"):
         for item in digest[key]["items"]:
             all_items[item["id"]] = item
 
@@ -486,7 +487,7 @@ def main():
     if not need:
         print("[SUM] All items have good summaries.")
         # Still apply existing summaries to digest
-        for key in ["daily"]:
+        for key in ("daily", "monthly"):
             for item in digest[key]["items"]:
                 s = existing.get(item["id"])
                 if s:
@@ -549,7 +550,7 @@ def main():
     backfill_hashes(existing, all_items)
 
     # Apply to digest
-    for key in ["daily"]:
+    for key in ("daily", "monthly"):
         for item in digest[key]["items"]:
             s = existing.get(item["id"])
             if s:
