@@ -76,8 +76,19 @@ function HeatmapTable({ dates, topics }: { dates: string[]; topics: TrendTopic[]
                 <tr
                   key={topic.keyword}
                   onClick={() => setExpanded(isOpen ? null : topic.keyword)}
+                  onKeyDown={(e) => {
+                    // 键盘可达：Enter/Space 展开样例标题（a11y）
+                    if (e.key === "Enter" || e.key === " ") {
+                      e.preventDefault();
+                      setExpanded(isOpen ? null : topic.keyword);
+                    }
+                  }}
+                  tabIndex={0}
+                  role="button"
+                  aria-expanded={isOpen}
+                  aria-label={`${topic.keyword}，${topic.count} 条，${{ rising: t("trends.rising"), falling: t("trends.falling"), stable: t("trends.stable"), new: t("trends.new") }[topic.trend]}`}
                   className={cn(
-                    "cursor-pointer border-b border-surface-border/50 last:border-b-0",
+                    "cursor-pointer border-b border-surface-border/50 last:border-b-0 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent-violet/60",
                     isOpen && "bg-surface-hover/30"
                   )}
                 >
@@ -96,6 +107,8 @@ function HeatmapTable({ dates, topics }: { dates: string[]; topics: TrendTopic[]
                         <div
                           className={cn("h-6 w-7 rounded-sm", HEAT_CELL[level])}
                           title={heat ? `${d} · ${heat}` : `${d} · 0`}
+                          role="img"
+                          aria-label={`${topic.keyword} ${d} 热度 ${heat ?? 0}`}
                         />
                       </td>
                     );
