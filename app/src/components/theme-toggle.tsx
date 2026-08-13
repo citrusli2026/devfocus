@@ -27,6 +27,7 @@ export function ThemeToggle({ className }: { className?: string }) {
                 : "text-text-dim hover:text-text-secondary"
             )}
             aria-label={t === "light" ? "Light mode" : "Dark mode"}
+            aria-pressed={active}
             title={t === "light" ? "Light" : "Dark"}
           >
             <Icon className="h-3.5 w-3.5" />

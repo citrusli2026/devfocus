@@ -165,6 +165,16 @@
   border-bottom: 1px solid var(--surface-border);
 }
 
+/* Tailwind v4 未内置 scrollbar-hide（无 tailwind-scrollbar-hide 插件），
+   首页来源 tab 横向滚动条隐藏用 */
+.scrollbar-hide {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
 /* Custom scrollbar */
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: var(--surface-base); }

@@ -134,7 +134,11 @@ export default function Home() {
       </section>
 
       {/* Source tabs — sticky on scroll（bg-surface-base/80：Tailwind v4 未定义裸 --color-surface，bg-surface/80 是无效类） */}
-      <nav className="sticky top-14 z-30 -mx-3 px-3 py-2 bg-surface-base/80 backdrop-blur-xl border-b border-surface-border/50 sm:relative sm:top-auto sm:mx-0 sm:px-0 sm:py-0 sm:bg-transparent sm:backdrop-blur-none sm:border-0">
+      <nav
+        aria-label={t("today.sourceTabs")}
+        role="tablist"
+        className="sticky top-14 z-30 -mx-3 px-3 py-2 bg-surface-base/80 backdrop-blur-xl border-b border-surface-border/50 sm:relative sm:top-auto sm:mx-0 sm:px-0 sm:py-0 sm:bg-transparent sm:backdrop-blur-none sm:border-0"
+      >
         <div className="flex items-center gap-2 min-w-0">
           <div className="relative flex-1 min-w-0">
             {scrollState.left && (
@@ -154,6 +158,8 @@ export default function Home() {
             return (
               <button
                 key={src}
+                role="tab"
+                aria-selected={isActive}
                 onClick={() => {
                   setActive(src);
                   trackEvent("source_tab_click", { source: src });

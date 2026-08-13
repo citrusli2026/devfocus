@@ -43,7 +43,9 @@ export function buildMetadata({
       card: "summary_large_image",
       title,
       description,
-      ...(ogImage ? { images: [ogImage] } : {}),
+      // item 页 ogImage=null 走路由级 opengraph-image（OG 爬虫可用），
+      // twitter:image 路由级文件不生成，回退到站点默认图避免卡片无图
+      images: [ogImage ?? DEFAULT_OG_IMAGE],
     },
   };
 }

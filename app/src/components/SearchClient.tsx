@@ -332,9 +332,9 @@ export function SearchClient({
           className="flex-1 px-3 py-2 rounded-lg bg-surface-card border border-surface-border text-sm text-text-primary focus:outline-none focus:border-accent-violet/50"
         >
           <option value="all">{t("search.allTags")}</option>
-          {tags.map((t) => (
-            <option key={t} value={t}>
-              {t}
+          {tags.map((tag) => (
+            <option key={tag} value={tag}>
+              {tag}
             </option>
           ))}
         </select>

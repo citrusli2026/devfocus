@@ -16,18 +16,20 @@ export function SubscribeForm() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!email.includes("@")) {
+    // 邮箱正则校验（此前仅 includes("@")，弱校验放过 "a@b" 之类）
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.trim())) {
       setStatus("error");
       setMessage(t("subscribe.invalidEmail"));
       return;
     }
+    const cleanEmail = email.trim();
 
     trackEvent("subscribe_intent", { has_backend: !!SUBSCRIBE_URL });
 
     if (SUBSCRIBE_URL) {
       try {
         const formData = new FormData();
-        formData.append("email", email);
+        formData.append("email", cleanEmail);
         await fetch(SUBSCRIBE_URL, {
           method: "POST",
           body: formData,
@@ -44,7 +46,7 @@ export function SubscribeForm() {
       // No backend configured yet — record intent locally and be honest about it
       try {
         const list = JSON.parse(localStorage.getItem("devfocus-subscribe-intent") || "[]");
-        list.push({ email, date: new Date().toISOString() });
+        list.push({ email: cleanEmail, date: new Date().toISOString() });
         localStorage.setItem("devfocus-subscribe-intent", JSON.stringify(list.slice(-100)));
       } catch {}
       setStatus("success");
@@ -79,7 +81,7 @@ export function SubscribeForm() {
         <form onSubmit={handleSubmit} className="flex-1 max-w-md">
           <div className="flex gap-2">
             <input
-              type="text"
+              type="email"
               inputMode="email"
               autoComplete="email"
               value={email}

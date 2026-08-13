@@ -8,7 +8,7 @@ import { LanguageToggle } from "./language-toggle";
 import { ThemeToggle } from "./theme-toggle";
 import { GitHubIcon } from "./icons";
 import { useTranslation } from "../lib/i18n";
-import { useState } from "react";
+import { useState, useRef } from "react";
 
 const navItems = [
   { href: "/", labelKey: "nav.today", icon: Newspaper },
@@ -22,6 +22,17 @@ export function Navbar() {
   const pathname = usePathname();
   const { t } = useTranslation();
   const [mobileOpen, setMobileOpen] = useState(false);
+  const menuButtonRef = useRef<HTMLButtonElement>(null);
+
+  const toggleMenu = () => {
+    if (mobileOpen) {
+      setMobileOpen(false);
+      // 关闭后焦点返还触发按钮（a11y 焦点管理）
+      requestAnimationFrame(() => menuButtonRef.current?.focus());
+    } else {
+      setMobileOpen(true);
+    }
+  };
 
   return (
     <header className="sticky top-0 z-50 w-full backdrop-blur-xl navbar-glass">
@@ -80,10 +91,12 @@ export function Navbar() {
           <LanguageToggle />
           <ThemeToggle />
           <button
-            onClick={() => setMobileOpen(!mobileOpen)}
+            ref={menuButtonRef}
+            onClick={toggleMenu}
             className="flex items-center justify-center h-9 w-9 rounded-lg text-text-secondary hover:bg-surface-card transition-colors"
             aria-label={mobileOpen ? t("nav.closeMenu") : t("nav.openMenu")}
             aria-expanded={mobileOpen}
+            aria-controls="mobile-menu"
           >
             {mobileOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
           </button>
@@ -91,7 +104,7 @@ export function Navbar() {
       </div>
 
       {mobileOpen && (
-        <div data-testid="mobile-menu" className="sm:hidden border-t border-surface-border bg-surface-elevated">
+        <div id="mobile-menu" data-testid="mobile-menu" className="sm:hidden border-t border-surface-border bg-surface-elevated">
           <nav className="flex flex-col px-4 py-3 gap-1">
             {navItems.map(({ href, labelKey, icon: Icon }) => {
               const active = pathname === href;
