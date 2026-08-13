@@ -1,18 +1,46 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
-"""Fetch Juejin (掘金) hot articles via API."""
+"""Fetch Juejin (掘金) hot articles via API.
+
+正文来源：推荐 API 只给 brief_content，完整正文从文章详情页 SSR 的
+web_html_content 字段提取（无 cookie 可访问），失败条目 content 留空降级。
+"""
 
 import json
+import re
 import sys
-import time
 import urllib.request
 import urllib.error
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
 
+from _common import html_to_text
+
 API_URL = "https://api.juejin.cn/recommend_api/v1/article/recommend_all_feed"
 TOP_N = 20  # 多抓留出余量，下游 aggregate 取 Top 10
+CONTENT_MAX_CHARS = 2000
+
+
+def fetch_article_content(aid: str) -> str:
+    """从文章详情页 SSR 提取正文（web_html_content 字段）。失败返回空串。"""
+    url = f"https://juejin.cn/post/{aid}"
+    try:
+        req = urllib.request.Request(url, headers={
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)",
+            "Accept": "text/html",
+        })
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            html = resp.read().decode("utf-8", errors="replace")
+        # SSR 里的字段形如 web_html_content:"...\u003C..."（key 无引号，值带 JSON 转义）
+        m = re.search(r'web_html_content:"((?:\\.|[^"\\])*)"', html)
+        if not m:
+            return ""
+        body_html = json.loads(f'"{m.group(1)}"')
+        return html_to_text(body_html, max_chars=CONTENT_MAX_CHARS)
+    except Exception:
+        return ""
 
 
 def fetch_articles() -> list[dict]:
@@ -68,6 +96,15 @@ def main():
     print("[Juejin] Fetching hot articles...")
     items = fetch_articles()
     print(f"[Juejin] Got {len(items)} articles")
+
+    # 并发抓正文（摘要阶段的输入素材）
+    if items:
+        with ThreadPoolExecutor(max_workers=8) as ex:
+            contents = list(ex.map(lambda it: fetch_article_content(it["id"].replace("juejin-", "")), items))
+        for it, c in zip(items, contents):
+            it["content"] = c
+        got = sum(1 for c in contents if c)
+        print(f"[Juejin] content fetched: {got}/{len(items)}")
 
     result = {
         "fetched_at": datetime.now(timezone.utc).isoformat(),

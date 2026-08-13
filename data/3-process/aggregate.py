@@ -80,6 +80,7 @@ def aggregate_hn(data: dict) -> list[dict]:
             "title": s["title"],
             "url": s.get("url") or s.get("hn_url", ""),
             "description": "",
+            "content": s.get("content", ""),  # 摘要内部素材，不进前端产出
             "source": "hackernews",
             "score": s.get("score", 0),
             "comments": s.get("descendants", 0),
@@ -238,10 +239,11 @@ def dedupe_by_title(items: list[dict]) -> list[dict]:
     return list(seen.values())
 
 
-def strip_readme(items: list[dict]) -> None:
-    """移除 readme 字段（摘要的内部素材，不进前端产出，原地修改）。"""
+def strip_internal(items: list[dict]) -> None:
+    """移除摘要内部素材字段（readme/content），不进前端产出，原地修改。"""
     for it in items:
         it.pop("readme", None)
+        it.pop("content", None)
 
 
 def main():
@@ -298,6 +300,7 @@ def main():
                 "title": item["title"],
                 "url": item["url"],
                 "description": "",
+                "content": item.get("content", ""),  # 摘要内部素材，不进前端产出
                 "source": "36kr",
                 "score": item.get("score", 0),
                 "comments": 0,
@@ -318,6 +321,7 @@ def main():
                 "title": item["title"],
                 "url": item["url"],
                 "description": "",
+                "content": item.get("content", ""),  # 摘要内部素材，不进前端产出
                 "source": "infoq",
                 "score": item.get("score", 0),
                 "comments": 0,
@@ -339,6 +343,7 @@ def main():
                 "title": item.get("title", ""),
                 "url": item.get("url", ""),
                 "description": "",
+                "content": item.get("content", ""),  # 摘要内部素材，不进前端产出
                 "source": "v2ex",
                 "score": item.get("score", 0),
                 "comments": 0,
@@ -388,7 +393,7 @@ def main():
     month_ago = now - timedelta(days=30)
     monthly_pool = dedupe_by_title([i for i in history_items if _parse_time(i) >= month_ago])
     monthly_items = pick_top_per_source(monthly_pool, MONTHLY_PER_SOURCE)
-    strip_readme(monthly_items)  # readme 仅供摘要，不进 digest/feed 产出
+    strip_internal(monthly_items)  # readme/content 仅供摘要，不进 digest/feed 产出
 
     sources = sorted({i["source"] for i in history_items})
 
@@ -405,7 +410,7 @@ def main():
     print(f"[AGG] Digest: daily={len(daily_items)} monthly={len(monthly_items)}")
 
     # Full feed
-    strip_readme(history_items)  # readme 仅供摘要，不进 feed 产出
+    strip_internal(history_items)  # readme/content 仅供摘要，不进 feed 产出
     by_date: dict[str, list[dict]] = {}
     for item in history_items:
         k = date_key(_parse_time(item))

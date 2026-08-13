@@ -15,6 +15,7 @@ Priority:
 import hashlib
 import json
 import os
+import re
 import sys
 import time
 import urllib.request
@@ -66,8 +67,8 @@ USER_PROMPT_TEMPLATE = """为下面每条资讯各写一条中文摘要 (summary
 3. 技术名词、产品名、公司名保留英文原文（如 Kubernetes、Transformer、Claude、GitHub），不要硬译。
 4. 禁止：复述标题凑字数；堆砌形容词和夸张修辞（如"神器""白月光""颠覆""震撼"）；套话结尾（如"值得关注""未来可期"）；列表、编号、竖线 | —— 必须是连贯段落。
 5. 两条摘要覆盖相同的关键事实，但语言各自地道，不是逐句互译。
-6. 事实边界：摘要里出现的公司名、人名、产品名、数字、版本号必须来自该条的 title、desc 或 readme（README 正文），禁止引入这些输入都未提及的实体（例如标题只写 Codex 时不得自行加上 "Amazon"）。拿不准就不写。
-7. desc 与 readme 均为空的条目（如只有链接的 HN 帖）：禁止猜测正文内容。基于标题能确定的事实写 1-2 句，并明确说明"原文是链接，未提供更多细节"（英文："the linked page isn't summarized here; details beyond the title aren't available"）。readme 非空的条目以 readme 为准提炼事实（它比 desc 完整），desc 仅作补充。
+6. 事实边界：摘要里出现的公司名、人名、产品名、数字、版本号必须来自该条的 title、desc 或正文（readme/content 字段），禁止引入这些输入都未提及的实体（例如标题只写 Codex 时不得自行加上 "Amazon"）。拿不准就不写。
+7. title 之外没有任何正文素材的条目（desc、readme、content 均为空，如只有链接的 HN 帖）：禁止猜测正文内容。基于标题能确定的事实写 1-2 句，并明确说明"原文是链接，未提供更多细节"（英文："the linked page isn't summarized here; details beyond the title aren't available"）。有正文的条目以正文（readme/content）为准提炼事实（它比 desc 完整），desc 仅作补充。
 
 Items:
 {items}
@@ -114,10 +115,10 @@ def build_prompt(items: list[dict]) -> str:
     for i, item in enumerate(items):
         desc = (item.get("description") or "").strip()[:200] or "（无）"
         line = f"{i+1}. id={item['id']} | source={item.get('source', '')} | title={item.get('title', '')} | desc={desc}"
-        # README 正文是全文摘要的主要素材（压缩空白为单行，避免格式错乱）
-        readme = (item.get("readme") or "").strip()[:1200]
-        if readme:
-            line += f"\n   readme={' '.join(readme.split())}"
+        # 正文素材（GitHub 用 readme，其他源用 content），压缩空白为单行避免格式错乱
+        body = (item.get("readme") or item.get("content") or "").strip()[:1200]
+        if body:
+            line += f"\n   content={' '.join(body.split())}"
         lines.append(line)
     return USER_PROMPT_TEMPLATE.format(items="\n".join(lines))
 
@@ -192,11 +193,12 @@ def is_template_zh(zh: str) -> bool:
 
 
 def item_hash(item: dict) -> str:
-    """输入内容指纹（title+desc+readme），输入变化时触发重新摘要。"""
+    """输入内容指纹（title+desc+readme/content），输入变化时触发重新摘要。"""
     raw = "|".join([
         (item.get("title") or "").strip(),
         (item.get("description") or "").strip(),
         (item.get("readme") or "").strip(),
+        (item.get("content") or "").strip(),
     ])
     return hashlib.md5(raw.encode("utf-8")).hexdigest()[:12]
 
@@ -206,8 +208,8 @@ def needs_summary(entry: dict | None, item: dict | None = None) -> bool:
 
     除摘要质量检查外，还比对输入指纹：
     - 指纹不一致 → 输入内容变了，重新生成
-    - 历史条目无指纹：readme 是新引入的输入，带 readme 的条目视为输入变化
-      （首次部署后这批摘要需要基于 README 重写）；其余信任现有摘要
+    - 历史条目无指纹：正文（readme/content）是新引入的输入，带正文的条目视为
+      输入变化（首次部署后这批摘要需要基于正文重写）；其余信任现有摘要
     """
     if not entry:
         return True
@@ -220,7 +222,7 @@ def needs_summary(entry: dict | None, item: dict | None = None) -> bool:
         cur = item_hash(item)
         if entry.get("input_hash") == cur:
             return False
-        if entry.get("input_hash") or (item.get("readme") or "").strip():
+        if entry.get("input_hash") or (item.get("readme") or item.get("content") or "").strip():
             return True
     return False
 
@@ -233,13 +235,36 @@ def backfill_hashes(summaries: dict[str, dict], items: dict[str, dict]) -> None:
             entry["input_hash"] = item_hash(item)
 
 
-def strip_readme(items: list[dict]) -> None:
-    """移除 readme 字段（摘要的内部素材，写回 digest 前必须剥离，原地修改）。"""
+def strip_internal(items: list[dict]) -> None:
+    """移除 readme/content 字段（摘要的内部素材，写回 digest 前必须剥离，原地修改）。"""
     for it in items:
         it.pop("readme", None)
+        it.pop("content", None)
 
 
-def accept_entry(entry, batch_ids: set[str], titles: dict[str, str]):
+def title_entities(title: str) -> list[str]:
+    """标题里的可核验实体：≥2 字中文词、≥3 字母英文词（小写）。"""
+    toks = []
+    for m in re.findall(r"[\u4e00-\u9fff]{2,}", title):
+        toks.append(m)
+    for m in re.findall(r"[A-Za-z]{3,}", title):
+        toks.append(m.lower())
+    return toks
+
+
+def has_title_overlap(zh: str, en: str, title: str) -> bool:
+    """摘要须与标题有实体重叠，拦截 LLM 批量输出串行（内容对错条目）的错误。
+
+    标题无实体（纯符号/太短）时跳过校验，避免误伤。
+    """
+    toks = title_entities(title)
+    if not toks:
+        return True
+    blob = (zh + en).lower()
+    return any(t in blob for t in toks)
+
+
+def accept_entry(entry, batch_ids: set[str], titles: dict[str, str], has_body: dict[str, bool] | None = None):
     """校验一条 LLM 产物，合格返回 {"summary_zh","summary_en"}，否则 None。"""
     if not isinstance(entry, dict):
         return None
@@ -261,6 +286,12 @@ def accept_entry(entry, batch_ids: set[str], titles: dict[str, str]):
     if title and zh == title:
         print(f"  [WARN] Rejected title-echo summary for {item_id}")
         return None
+    # 实体重叠校验只对"有正文素材"的条目启用：无正文条目的诚实声明摘要
+    # （"原文是链接，未提供更多细节"）不含标题实体属正常，避免误伤
+    if title and has_body and has_body.get(item_id) \
+            and not has_title_overlap(zh, en, title):
+        print(f"  [WARN] Rejected mismatched summary (no title overlap) for {item_id}")
+        return None
     return {"summary_zh": zh, "summary_en": en}
 
 
@@ -269,6 +300,8 @@ def llm_summarize(items: list[dict], provider: dict, batch_size: int,
     """One pass of batched LLM summarization; results merged into `summaries`."""
     titles = {it["id"]: it.get("title", "") for it in items}
     hashes = {it["id"]: item_hash(it) for it in items}
+    has_body = {it["id"]: bool(it.get("readme") or it.get("content"))
+                for it in items}
     for i in range(0, len(items), batch_size):
         batch = items[i:i + batch_size]
         batch_ids = {it["id"] for it in batch}
@@ -279,7 +312,7 @@ def llm_summarize(items: list[dict], provider: dict, batch_size: int,
                 parsed = parse_llm_response(result)
                 n = 0
                 for entry in parsed:
-                    ok = accept_entry(entry, batch_ids, titles)
+                    ok = accept_entry(entry, batch_ids, titles, has_body)
                     if ok:
                         ok["input_hash"] = hashes[entry["id"]]
                         summaries[entry["id"]] = ok
@@ -400,8 +433,8 @@ def main():
                     item["summary_en"] = s.get("summary_en", "")
         backfill_hashes(existing, all_items)
         SUMMARIES_PATH.write_text(json.dumps(existing, indent=2, ensure_ascii=False))
-        strip_readme(digest["daily"]["items"])
-        strip_readme(digest["monthly"]["items"])
+        strip_internal(digest["daily"]["items"])
+        strip_internal(digest["monthly"]["items"])
         digest_path.write_text(json.dumps(digest, indent=2, ensure_ascii=False))
         return
 
@@ -446,8 +479,8 @@ def main():
                 item["summary_en"] = s.get("summary_en", "")
 
     # Save（readme 仅作摘要输入，不写入最终产出）
-    strip_readme(digest["daily"]["items"])
-    strip_readme(digest["monthly"]["items"])
+    strip_internal(digest["daily"]["items"])
+    strip_internal(digest["monthly"]["items"])
     digest_path.write_text(json.dumps(digest, indent=2, ensure_ascii=False))
     SUMMARIES_PATH.write_text(json.dumps(existing, indent=2, ensure_ascii=False))
 

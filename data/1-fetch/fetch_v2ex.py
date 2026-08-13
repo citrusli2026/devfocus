@@ -16,11 +16,14 @@ from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 
+from _common import html_to_text
+
 OUT = Path(__file__).parent.parent / "2-raw" / "v2ex.json"
 RSS = "https://www.v2ex.com/index.xml"
 
 HEADERS = {"User-Agent": "DevFocus/1.0"}
 MAX_ITEMS = 20
+CONTENT_MAX_CHARS = 2000
 
 
 def _stable_id(title: str, link: str) -> str:
@@ -76,7 +79,7 @@ def _parse_entries(root: ET.Element) -> list[dict]:
     for entry in root.iter():
         if _local(entry.tag) not in ("item", "entry"):
             continue
-        title = link = pub_date = ""
+        title = link = pub_date = content = ""
         for child in entry:
             name = _local(child.tag)
             if name == "title":
@@ -86,8 +89,12 @@ def _parse_entries(root: ET.Element) -> list[dict]:
                 link = child.get("href") or (child.text or "").strip() or link
             elif name in ("pubDate", "published", "updated"):
                 pub_date = pub_date or (child.text or "").strip()
+            elif name == "content":
+                # Atom <content type="html">，帖子正文 HTML
+                content = (child.text or "").strip()
         if title:
-            entries.append({"title": title, "link": link, "pub_date": pub_date})
+            entries.append({"title": title, "link": link, "pub_date": pub_date,
+                            "content": content})
     return entries
 
 
@@ -128,6 +135,7 @@ def fetch():
             "title": entry["title"],
             "url": entry["link"],
             "source": "v2ex",
+            "content": html_to_text(entry["content"], max_chars=CONTENT_MAX_CHARS),
             # V2EX feed 无任何互动指标，score 恒 0 会让该源在 search-index（按 score 取前 1000）
             # 和 quality_score 中没有存在感（与知乎 score=0 同类问题）；
             # 用榜单位次做代理分：第 1 名 300 分，逐名 -10（量级对齐中等 HN 条目）
