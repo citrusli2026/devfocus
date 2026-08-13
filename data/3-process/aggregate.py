@@ -308,7 +308,9 @@ def main():
     kr_data = load_raw("36kr.json")
     if kr_data:
         kr_items = []
-        for item in kr_data:
+        # 兼容历史裸 list 格式；新格式为 {fetched_at, source, count, items}
+        raw_list = kr_data if isinstance(kr_data, list) else kr_data.get("items", [])
+        for item in raw_list:
             kr_items.append({
                 "id": f"36kr-{item['id']}",
                 "title": item["title"],
@@ -329,7 +331,9 @@ def main():
     iq_data = load_raw("infoq.json")
     if iq_data:
         iq_items = []
-        for item in iq_data:
+        # 兼容历史裸 list 格式；新格式为 {fetched_at, source, count, items}
+        raw_list = iq_data if isinstance(iq_data, list) else iq_data.get("items", [])
+        for item in raw_list:
             iq_items.append({
                 "id": f"infoq-{item['id']}",
                 "title": item["title"],
