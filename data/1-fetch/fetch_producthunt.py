@@ -61,6 +61,7 @@ def query_posts(token: str, date: str) -> list[dict]:
     body = json.dumps({"query": query}).encode()
     req = urllib.request.Request(API_URL, data=body, headers={
         "Content-Type": "application/json",
+        "User-Agent": "DevFocus/1.0 (https://devfocus.cc)",
         "Authorization": f"Bearer {token}",
     })
 
@@ -105,10 +106,11 @@ def main():
         posts = query_posts(token, date)
 
         for post in posts:
-            # Clean PH tracking params from URL
-            url = post["url"].split("?")[0] if "?" in post["url"] else post["url"]
-            website = post.get("website", "")
-            if website and "?" in website:
+            # Clean PH tracking params from URL（post['url'] 缺失时用 get 防御，
+            # 避免字段缺失导致整个脚本崩溃——此前无降级）
+            url = (post.get("url") or "").split("?")[0] if "?" in (post.get("url") or "") else post.get("url", "")
+            website = post.get("website", "") or ""
+            if "?" in website:
                 website = website.split("?")[0]
 
             all_items.append({
