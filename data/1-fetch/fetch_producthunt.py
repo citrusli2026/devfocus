@@ -12,6 +12,8 @@ import urllib.error
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
+from _common import html_to_text
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 API_URL = "https://api.producthunt.com/v2/api/graphql"
 TOP_N = 5  # 每天取 Top N 产品
@@ -46,6 +48,7 @@ def query_posts(token: str, date: str) -> list[dict]:
             id
             name
             tagline
+            description
             votesCount
             commentsCount
             url
@@ -107,6 +110,7 @@ def main():
                 "title": post["name"],
                 "url": website or url,
                 "description": post.get("tagline", "")[:200],
+                "content": html_to_text(post.get("description") or "", max_chars=2000),
                 "source": "producthunt",
                 "score": post.get("votesCount", 0),
                 "comments": post.get("commentsCount", 0),
