@@ -131,6 +131,12 @@ def aggregate_producthunt(data: dict) -> list[dict]:
 
 
 def pick_top_per_source(items: list[dict], n: int) -> list[dict]:
+    """按源各取 top n，跨源排序使用源内归一化分。
+
+    各源 score 量纲差异巨大（zhihu 万热度可达 2 千万级、v2ex 榜位代理分
+    10~300、HN 几百、GH stars_today 几千），直接按原始分跨源排序会被
+    大量纲源霸榜。源内选取仍用原始分，最终合并排序用 score/源内最大值。
+    """
     by_source: dict[str, list[dict]] = {}
     for item in items:
         by_source.setdefault(item["source"], []).append(item)
@@ -138,7 +144,15 @@ def pick_top_per_source(items: list[dict], n: int) -> list[dict]:
     for source_items in by_source.values():
         source_items.sort(key=lambda x: x["score"], reverse=True)
         result.extend(source_items[:n])
-    result.sort(key=lambda x: x["score"], reverse=True)
+    max_by_source = {
+        src: max((i.get("score", 0) for i in lst), default=1) or 1
+        for src, lst in by_source.items()
+    }
+
+    def normalized_key(item: dict) -> float:
+        return item.get("score", 0) / max_by_source.get(item["source"], 1)
+
+    result.sort(key=normalized_key, reverse=True)
     return result
 
 
