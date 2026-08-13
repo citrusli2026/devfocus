@@ -11,45 +11,14 @@ import json
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import urlparse
+
+from _shared import extract_domain, parse_time
 
 DATA = Path(__file__).resolve().parent.parent
 FEED_PATH = DATA / "4-final" / "feed.json"
 DIGEST_PATH = DATA / "4-final" / "digest.json"
 SUMMARIES_PATH = DATA / "4-final" / "summaries.json"
 OUTPUT = DATA / "4-final" / "stats.json"
-
-
-def parse_time(t: str | int | float) -> datetime | None:
-    try:
-        # Handle Unix timestamps (seconds or milliseconds)
-        if isinstance(t, (int, float)) and t > 0:
-            if t > 1e12:
-                t = t / 1000
-            return datetime.fromtimestamp(t, tz=timezone.utc)
-        # Handle ISO strings
-        s = str(t)
-        if s.isdigit():
-            n = int(s)
-            if n > 1e12:
-                n = n / 1000
-            return datetime.fromtimestamp(n, tz=timezone.utc)
-        dt = datetime.fromisoformat(s.replace("Z", "+00:00"))
-        if dt.tzinfo is None:
-            dt = dt.replace(tzinfo=timezone.utc)
-        return dt
-    except (ValueError, TypeError):
-        return None
-
-
-def domain(url: str) -> str:
-    try:
-        host = urlparse(url).hostname or ""
-        # 小写 + 仅剥离前缀 www.，与 enrich/build_search_index 口径一致
-        # （旧实现无 lower 且 replace 会误删中间域名段）
-        return host.lower().removeprefix("www.")
-    except Exception:
-        return ""
 
 
 def main():
@@ -92,7 +61,7 @@ def main():
     total_comments = sum(i.get("comments", 0) for i in items)
 
     # Domains
-    domain_counts = Counter(domain(i.get("url", "")) for i in items if i.get("url"))
+    domain_counts = Counter(extract_domain(i.get("url", "")) for i in items if i.get("url"))
 
     # Daily digest size
     daily_count = digest.get("daily", {}).get("count", 0)

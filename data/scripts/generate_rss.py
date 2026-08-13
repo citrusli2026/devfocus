@@ -2,10 +2,13 @@
 """Generate RSS feed from digest.json → app/public/feed.xml."""
 
 import json
-import os
+import sys
 import xml.sax.saxutils as saxutils
 from datetime import datetime, timezone
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "3-process"))
+from _shared import parse_time
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 FINAL_DIR = BASE_DIR / "4-final"
@@ -16,13 +19,14 @@ FEED_TITLE = "DevFocus - 开发者聚焦"
 FEED_DESC = "每日自动整理的开发者资讯：AI 热榜、GitHub 趋势、技术新闻"
 
 
-def rss_datetime(dt_str: str) -> str:
-    """Convert any timestamp to RFC 2822."""
-    try:
-        dt = datetime.fromisoformat(dt_str.replace("Z", "+00:00"))
-        return dt.strftime("%a, %d %b %Y %H:%M:%S +0000")
-    except (ValueError, AttributeError):
-        return datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")
+def rss_datetime(dt_str) -> str:
+    """Convert any timestamp (ISO string or int/float epoch, sec/ms/us) to RFC 2822."""
+    dt = parse_time(dt_str)
+    if dt is None:
+        # 非法时间退化为当前时间（此前同样处理，但 int 毫秒时间戳会
+        # 被 fromisoformat 拒绝而误走此分支导致 pubDate 全错）
+        dt = datetime.now(timezone.utc)
+    return dt.strftime("%a, %d %b %Y %H:%M:%S +0000")
 
 
 def escape(s: str) -> str:

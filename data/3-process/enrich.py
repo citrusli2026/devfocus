@@ -14,7 +14,8 @@ import sys
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import urlparse
+
+from _shared import CN_JUNK_SUBSTR, cjk_tag_ok, extract_domain, parse_time
 
 DATA = Path(__file__).resolve().parent.parent
 FEED_PATH = DATA / "4-final" / "feed.json"
@@ -106,31 +107,8 @@ _TECH_ASCII_PATTERNS = [
 _TECH_CJK = [kw for kw in TECH_KEYWORDS if _CN_CHAR_RE.search(kw)]
 TECH_TAGS = {kw.replace(" ", "-") for kw in TECH_KEYWORDS}
 
-# 中文滑窗碎词过滤（与 build_trends.py 同源规则）
-CN_FUNC_CHARS = set(
-    "的了和是我你他她它们在就不都也还与及或被把让呢吗吧啊嘛么"
-    "之其于以而且若因又再才只却并将能可要想说等该此哪谁什怎没有着过得地"
-)
-CN_JUNK_SUBSTR = ("如何", "为什么")
-CN_STOP_PHRASES = {
-    "这个", "那个", "什么", "怎么", "可以", "不是", "没有", "已经", "因为",
-    "所以", "但是", "如果", "虽然", "知道", "觉得", "可能", "应该", "现在",
-    "今天", "明天", "昨天", "大家", "自己", "问题", "东西", "事情", "怎么样",
-    "为什么", "这么", "那么", "还是", "就是", "这些", "那些", "一种", "一个",
-    "看待", "带来", "个月", "推出", "上线", "发布", "宣布", "据悉",
-    "开始", "近日", "最近", "最新", "公司", "行业", "全面", "分享", "半年",
-    "时代", "多少",
-}
+# 中文滑窗碎词过滤（规则定义在 _shared.py，与 build_trends.py 共用）
 _CJK_RUN_RE = re.compile(r"[\u4e00-\u9fff]+")
-
-
-def _cjk_tag_ok(gram: str) -> bool:
-    """中文标签合法性：非停用短语、无疑问前缀、不含虚字。"""
-    if gram in CN_STOP_PHRASES:
-        return False
-    if any(j in gram for j in CN_JUNK_SUBSTR):
-        return False
-    return not any(c in CN_FUNC_CHARS for c in gram)
 
 # Tags that are too generic or noisy to be useful
 TAG_DENYLIST = {
@@ -942,15 +920,6 @@ TAG_SYNONYMS = {
 }
 
 
-def extract_domain(url: str) -> str:
-    try:
-        host = urlparse(url).hostname or ""
-        # 只剥离前缀 www.，不能 replace 删除所有出现处（中间域名段也会被误删）
-        return host.lower().removeprefix("www.")
-    except Exception:
-        return ""
-
-
 def domain_tag(domain: str) -> str:
     """Map known domains to a concise tag; ignore unknown domains to avoid noise."""
     mapping = {
@@ -1002,7 +971,7 @@ def extract_keywords(title: str, description: str = "") -> list[str]:
         if any(j in run for j in CN_JUNK_SUBSTR):
             continue  # 疑问句式（"如何看待…"）不产标签
         if len(run) <= 12:
-            if _cjk_tag_ok(run):
+            if cjk_tag_ok(run):
                 keywords.add(run)
             continue
         accepted: list[str] = []
@@ -1011,32 +980,12 @@ def extract_keywords(title: str, description: str = "") -> list[str]:
                 gram = run[i:i + n]
                 if any(gram in a for a in accepted):
                     continue  # 已被更长 gram 覆盖的碎片
-                if not _cjk_tag_ok(gram):
+                if not cjk_tag_ok(gram):
                     continue
                 accepted.append(gram)
         keywords.update(accepted)
 
     return sorted(keywords)
-
-
-def parse_time(t):
-    try:
-        if isinstance(t, (int, float)) and t > 0:
-            if t > 1e12:
-                t = t / 1000
-            return datetime.fromtimestamp(t, tz=timezone.utc)
-        s = str(t)
-        if s.isdigit():
-            n = int(s)
-            if n > 1e12:
-                n = n / 1000
-            return datetime.fromtimestamp(n, tz=timezone.utc)
-        dt = datetime.fromisoformat(s.replace("Z", "+00:00"))
-        if dt.tzinfo is None:
-            dt = dt.replace(tzinfo=timezone.utc)
-        return dt
-    except Exception:
-        return None
 
 
 def compute_quality_score(item: dict, has_summary: bool, max_score: float, max_comments: float) -> float:
@@ -1197,7 +1146,7 @@ def main():
             t for t in existing_tags
             if not _CN_CHAR_RE.search(t)
             or t in keyword_tags
-            or (len(t) < 4 and _cjk_tag_ok(t))
+            or (len(t) < 4 and cjk_tag_ok(t))
         }
         new_tags = {dtag, source_tag} | set(keyword_tags)
         # Merge and normalize: lowercase, hyphen-separated, deduped

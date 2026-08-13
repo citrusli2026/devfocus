@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T15:24:06.456309+00:00",
+  "generated_at": "2026-08-13T15:26:20.188188+00:00",
   "daily": {
     "date": "2026-08-13",
     "items": [
@@ -929,8 +929,8 @@
         "quality_score": 65.7,
         "related_ids": [
           "v2ex-2cc08481582e",
-          "v2ex-ffaac498a59e",
           "v2ex-f76751aa5172",
+          "v2ex-ffaac498a59e",
           "v2ex-518d34bbed3e",
           "ph-1208711"
         ],
@@ -1888,8 +1888,8 @@
           "v2ex-cfe07aeab917",
           "infoq-rcSr7bVQFB9Uskadg74T",
           "hn-49199357",
-          "v2ex-ffaac498a59e",
-          "v2ex-8be2e4a63e18"
+          "v2ex-8be2e4a63e18",
+          "v2ex-ffaac498a59e"
         ],
         "summary_zh": "作者用 ChatGPT 5.6 (Sol) 配合 Codex、Blender 和 blender-mcp 等工具，从设计稿到可点击的 3D 充电站大屏全程没写一行代码。文章重点复盘切图环节的坑：首批 27 个素材放大后发虚、背景不透明，原因是提示词同时要求 RGB 无 Alpha 和背景色校验，并给出修复思路。",
         "summary_en": "The author built a clickable 3D EV-charging station dashboard from a design mockup without writing any code, using ChatGPT 5.6 (Sol), Codex, Blender, blender-mcp, and a custom dashboard scaffold. The post focuses on pitfalls from the asset-cutting step: the first 27 cutouts were blurry when scaled and had non-transparent backgrounds, traced back to a contradictory prompt, with fixes included."
