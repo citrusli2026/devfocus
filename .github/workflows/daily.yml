@@ -2,7 +2,11 @@ name: Daily Pipeline
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # 每天 UTC 0:00 = 北京 08:00
+    # 北京低峰期：北京时间 04:00 = UTC 前一日 20:00。
+    # 原 UTC 0:00（北京 08:00 早高峰）改为凌晨，管线约 70-80 分钟，
+    # 05:15 左右完成，早晨醒来前数据已就绪。
+    # 注意：GitHub 不保证 schedule 准时（高峰可能延迟数十分钟）。
+    - cron: '0 20 * * *'
   workflow_dispatch:       # 手动触发
 
 permissions:

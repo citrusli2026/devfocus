@@ -66,7 +66,7 @@ cd app && npm run test:e2e                                # Playwright E2E
 ## 部署
 
 静态导出到 `app/out/`，可部署到 Vercel、GitHub Pages、Cloudflare Pages 等。
-每日 00:00 UTC 由 GitHub Actions（`.github/workflows/daily.yml`）自动抓取、
+每日北京时间 04:00（UTC 前一日 20:00，北京低峰期）由 GitHub Actions（`.github/workflows/daily.yml`）自动抓取、
 生成、构建并提交数据。
 
 ## License
