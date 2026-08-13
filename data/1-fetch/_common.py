@@ -21,12 +21,12 @@ class TextExtractor(HTMLParser):
         self._skip = 0        # script/style 嵌套深度
         # target_class 为空时收集整页文本
         self._capture = target_class is None
-        self._depth = 0       # 目标容器 div 嵌套深度
+        self._depth = 0       # 目标容器 div 嵌套深度（仅 target_class 模式使用）
 
     def handle_starttag(self, tag, attrs):
         if tag in ("script", "style"):
             self._skip += 1
-        if self._capture:
+        if self._capture and self.target_class:
             if tag == "div":
                 self._depth += 1
         elif self.target_class:
@@ -40,7 +40,9 @@ class TextExtractor(HTMLParser):
             if self._skip:
                 self._skip -= 1
             return
-        if self._capture and tag == "div":
+        # 全页模式不追踪 div 深度：此前在第一个顶层 </div> 就停止捕获，
+        # 导致后续平级内容（如第二个正文 div）全部丢失（实测）
+        if self._capture and self.target_class and tag == "div":
             self._depth -= 1
             if self._depth <= 0:
                 self._capture = False
