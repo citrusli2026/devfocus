@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 """Backfill bilingual summaries into existing history snapshots.
 
+⚠️ 一次性手动工具（未被 pipeline.py 调用）：日常回填由 summarize.py 的
+backfill_history_summaries() 完成（语义略不同——管线版对今日快照覆盖
+最新值，本脚本只填空不覆盖）。仅当你需要手动批量回填历史快照时使用。
+
 Reads summaries.json and applies summary_zh/summary_en to matching items in
 5-history/*.json snapshots. This makes archived daily pages retain summaries
 for items that were ever featured in the digest.

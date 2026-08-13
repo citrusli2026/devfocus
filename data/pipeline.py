@@ -4,6 +4,7 @@ from __future__ import annotations
 """Pipeline orchestrator. Runs fetch → aggregate → summarize → sync."""
 
 import argparse
+import json
 import subprocess
 import sys
 from datetime import datetime, timezone
@@ -39,6 +40,24 @@ def main():
     print(f"[Pipeline] Starting at {start.isoformat()}")
     results: list[tuple[str, int]] = []
 
+    if args.dry_run:
+        # 打印执行计划（此前 --dry-run 静默跳过一切，无任何输出）
+        print("[Pipeline] DRY RUN — 计划执行（不实际运行）：")
+        if args.skip_fetch:
+            print("  - 跳过 fetch")
+        else:
+            print(f"  - fetch: {', '.join(sorted(p.name for p in FETCH_DIR.glob('fetch_*.py')))}")
+        for name in ["aggregate.py", "summarize.py", "enrich.py", "build_stats.py",
+                     "build_trends.py", "build_search_index.py"]:
+            if name == "summarize.py" and args.skip_summarize:
+                print("  - 跳过 summarize.py")
+                continue
+            print(f"  - {name}")
+        print("  - sync 4-final/*.json → app/src/data（排除 summaries/search-index）"
+              " + search-index.json → app/public")
+        print("  - generate_rss.py, validate_data.py")
+        return
+
     def step(script_path: Path):
         results.append((script_path.name, run_script(script_path)))
 
@@ -56,6 +75,19 @@ def main():
     agg_script = PROCESS_DIR / "aggregate.py"
     if not args.dry_run and agg_script.exists():
         step(agg_script)
+
+    # aggregate 后检查 feed 非空：fetch 全挂时 aggregate 可能写出空结构，
+    # enrich 已做空 feed 防护但前端会消费空/旧数据——空 feed 视为关键失败
+    if not args.dry_run:
+        feed_path = FINAL_DIR / "feed.json"
+        try:
+            feed_ok = bool(json.loads(feed_path.read_text(encoding="utf-8")).get("items"))
+        except Exception:
+            feed_ok = False
+        if not feed_ok:
+            print("[Pipeline] CRITICAL: feed.json missing or empty after aggregate",
+                  file=sys.stderr)
+            sys.exit(1)
 
     # Step 3: Summarize
     sum_script = PROCESS_DIR / "summarize.py"
