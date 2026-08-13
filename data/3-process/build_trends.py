@@ -129,6 +129,8 @@ def extract_keywords(title: str) -> set[str]:
         keywords.add(f"{a} {b}")
 
     # 4) 中文：连续汉字段内 2-4 字滑窗，过滤虚字与停用短语
+    #    停用短语的真子串也丢弃（"分享创造" 被停用后，"分享创"/"享创造"
+    #    这类碎片若不加规则会继续成为话题）
     for run in _CJK_RUN_RE.findall(title):
         if len(run) == 1:
             continue
@@ -143,6 +145,8 @@ def extract_keywords(title: str) -> set[str]:
                     continue
                 if any(c in CN_FUNC_CHARS for c in gram):
                     continue
+                if any(gram != p and gram in p for p in CN_STOP_PHRASES):
+                    continue  # 更长停用短语的真子串（碎片）
                 keywords.add(gram)
 
     return keywords
