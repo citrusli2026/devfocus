@@ -56,9 +56,13 @@ def fetch_link_content(url: str) -> str:
         if "Checking your browser" in html or "JavaScript is disabled" in html \
                 or "Enable JavaScript" in html or "cf-challenge" in html:
             return ""
-        m = re.search(r'<meta[^>]+name=["\']description["\'][^>]+content=["\']([^"\']*)["\']', html, re.I)
+        # meta description 的 name/content 属性顺序不固定：
+        # 先定位含 name="description" 的 <meta> 标签，再从中取 content
+        m = re.search(r'<meta[^>]+name=["\']description["\'][^>]*>', html, re.I)
         if m:
-            return html_to_text(m.group(1), max_chars=CONTENT_MAX_CHARS)
+            cm = re.search(r'content=["\']([^"\']*)["\']', m.group(0), re.I)
+            if cm:
+                return html_to_text(cm.group(1), max_chars=CONTENT_MAX_CHARS)
         return html_to_text(html, max_chars=CONTENT_MAX_CHARS)
     except Exception:
         return ""
@@ -83,14 +87,13 @@ def main():
     top_ids = top_ids[:MAX_FETCH]
     print(f"[HN] Got {len(top_ids)} IDs, fetching details...")
 
-    stories = []
-    for i, sid in enumerate(top_ids):
+    def fetch_one(sid: int) -> dict | None:
         try:
             item = fetch_json(HN_ITEM_URL.format(sid), retries=2)
         except Exception:
-            continue
+            return None
         if item and item.get("type") == "story":
-            stories.append({
+            return {
                 "id": item["id"],
                 "title": item.get("title", ""),
                 "url": item.get("url", ""),
@@ -102,9 +105,18 @@ def main():
                 "descendants": item.get("descendants", 0),
                 "hn_url": f"https://news.ycombinator.com/item?id={item['id']}",
                 "source": "hackernews",
-            })
-        if (i + 1) % 20 == 0:
-            print(f"  [{i+1}/{len(top_ids)}] fetched")
+            }
+        return None
+
+    # 详情抓取并发化（此前 200 条串行 + 每条 2 次重试，实测 60s+）
+    with ThreadPoolExecutor(max_workers=8) as ex:
+        results = list(ex.map(fetch_one, top_ids))
+    stories = [s for s in results if s is not None]
+    failed = sum(1 for s in results if s is None)
+    if failed:
+        print(f"  [WARN] {failed}/{len(top_ids)} story details failed to fetch",
+              file=sys.stderr)
+    print(f"[HN] Got {len(stories)} stories")
 
     stories.sort(key=lambda x: x["score"], reverse=True)
 
