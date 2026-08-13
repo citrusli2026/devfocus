@@ -226,7 +226,9 @@ def classify_trend(heat_by_date: dict[str, float], dates: list[str]) -> str:
     recent_avg = sum(heat_by_date.get(d, 0) for d in recent) / len(recent)
     earlier_avg = sum(heat_by_date.get(d, 0) for d in earlier) / len(earlier)
     if earlier_avg == 0:
-        return "rising" if recent_avg > 0 else "stable"
+        # 此前无热度：仅当最近 2 天仍有命中才算 rising——单条命中在 3 天前
+        # 且之后再无的词汇（稀疏命中）此前被误判为上升
+        return "rising" if active[-1] in dates[-2:] else "stable"
     if recent_avg > earlier_avg * 1.5:
         return "rising"
     if recent_avg < earlier_avg / 1.5:
