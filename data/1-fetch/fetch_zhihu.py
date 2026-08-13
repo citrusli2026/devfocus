@@ -81,8 +81,13 @@ def parse_heat(text: str) -> int:
     return int(val)
 
 
-def fetch_hot_list() -> list[dict]:
-    """Fetch Zhihu hot list from tophub.today, filtered to tech only."""
+def fetch_hot_list(time_iso: str) -> list[dict]:
+    """Fetch Zhihu hot list from tophub.today, filtered to tech only.
+
+    tophub 无条目级时间戳，所有条目统一用调用方传入的榜单日时间
+    （当天 12:00 UTC），与 Product Hunt 抓取约定一致，保证 by_date
+    分组确定、月度窗口过滤语义可预期。
+    """
     req = urllib.request.Request(TOPHUB_URL, headers=HEADERS)
     try:
         with urllib.request.urlopen(req, timeout=15) as resp:
@@ -122,7 +127,7 @@ def fetch_hot_list() -> list[dict]:
             "score": score,
             "comments": 0,
             "author": "",
-            "time": datetime.now(timezone.utc).isoformat(),
+            "time": time_iso,
             "tags": tags,
         })
 
@@ -155,7 +160,9 @@ def main():
     output_path = output_dir / "zhihu_daily.json"
 
     print("[Zhihu] Fetching hot list (tech filter)...")
-    items = fetch_hot_list()
+    # 榜单日中午作为条目统一时间戳（tophub 无条目级时间）
+    time_iso = f"{datetime.now(timezone.utc).date().isoformat()}T12:00:00+00:00"
+    items = fetch_hot_list(time_iso)
     if not items:
         # 抓取失败或页面结构变化：保留旧缓存（新鲜空文件会覆盖好数据，
         # 且新鲜时间戳会绕过 aggregate 的 STALE_HOURS 缺席检测导致源静默消失）
