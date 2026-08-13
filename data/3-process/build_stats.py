@@ -45,7 +45,9 @@ def parse_time(t: str | int | float) -> datetime | None:
 def domain(url: str) -> str:
     try:
         host = urlparse(url).hostname or ""
-        return host.replace("www.", "")
+        # 小写 + 仅剥离前缀 www.，与 enrich/build_search_index 口径一致
+        # （旧实现无 lower 且 replace 会误删中间域名段）
+        return host.lower().removeprefix("www.")
     except Exception:
         return ""
 
@@ -99,7 +101,7 @@ def main():
     latest_update = digest.get("generated_at", last_date.isoformat() if last_date else "")
 
     stats = {
-        "generated_at": now.isoformat(),
+        "generated_at": now.isoformat(timespec="seconds"),
         "total_items": total_items,
         "unique_items": unique_ids,
         "days_covered": days_covered,
@@ -141,7 +143,7 @@ def main():
         if d:
             item_domain_counts[d] += 1
     valid = {
-        "generated_at": now.isoformat(),
+        "generated_at": now.isoformat(timespec="seconds"),
         "min_tag_items": MIN_TAG_ITEMS,
         "min_domain_items": MIN_DOMAIN_ITEMS,
         "tags": sorted(t for t, c in tag_counts.items() if c >= MIN_TAG_ITEMS),
