@@ -76,18 +76,24 @@ def query_posts(token: str, date: str) -> list[dict]:
 
 def main():
     token = get_token()
-    if not token:
-        # Write empty result
-        output_dir = BASE_DIR / "2-raw"
-        output_dir.mkdir(parents=True, exist_ok=True)
-        result = {"fetched_at": datetime.now(timezone.utc).isoformat(),
-                  "source": "producthunt", "count": 0, "items": []}
-        (output_dir / "producthunt_daily.json").write_text(
-            json.dumps(result, indent=2, ensure_ascii=False))
-        return
-
     output_dir = BASE_DIR / "2-raw"
     output_dir.mkdir(parents=True, exist_ok=True)
+    output_path = output_dir / "producthunt_daily.json"
+
+    if not token:
+        # 无 token：保留旧缓存（新鲜空文件会覆盖好数据，且新鲜时间戳会绕过
+        # aggregate 的 STALE_HOURS 缺席检测导致源静默消失）
+        print("[ProductHunt] No PH_TOKEN found", file=sys.stderr)
+        if output_path.exists():
+            old = json.loads(output_path.read_text())
+            if old.get("items"):
+                print(f"[ProductHunt] Keeping cached {len(old['items'])} items (no token)",
+                      file=sys.stderr)
+                return
+        result = {"fetched_at": datetime.now(timezone.utc).isoformat(),
+                  "source": "producthunt", "count": 0, "items": []}
+        output_path.write_text(json.dumps(result, indent=2, ensure_ascii=False))
+        return
 
     all_items = []
     today = datetime.now(timezone.utc).date()
@@ -123,6 +129,14 @@ def main():
             time.sleep(0.5)
 
     print(f"[ProductHunt] Total: {len(all_items)} items")
+
+    if not all_items and output_path.exists():
+        # 全部 3 天查询都失败：保留旧缓存，避免空文件覆盖 + 绕过缺席检测
+        old = json.loads(output_path.read_text())
+        if old.get("items"):
+            print(f"[ProductHunt] All API queries failed, keeping cached {len(old['items'])} items",
+                  file=sys.stderr)
+            return
 
     result = {
         "fetched_at": datetime.now(timezone.utc).isoformat(),

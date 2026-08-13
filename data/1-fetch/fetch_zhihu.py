@@ -156,6 +156,16 @@ def main():
 
     print("[Zhihu] Fetching hot list (tech filter)...")
     items = fetch_hot_list()
+    if not items:
+        # 抓取失败或页面结构变化：保留旧缓存（新鲜空文件会覆盖好数据，
+        # 且新鲜时间戳会绕过 aggregate 的 STALE_HOURS 缺席检测导致源静默消失）
+        if output_path.exists():
+            old = json.loads(output_path.read_text())
+            if old.get("items"):
+                print(f"[Zhihu] Fetch returned no items, keeping cached {len(old['items'])} items",
+                      file=sys.stderr)
+                return
+        print("[Zhihu] No items and no usable cache; writing empty result", file=sys.stderr)
     print(f"[Zhihu] Got {len(items)} tech items")
 
     result = {

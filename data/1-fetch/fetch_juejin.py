@@ -95,6 +95,16 @@ def main():
 
     print("[Juejin] Fetching hot articles...")
     items = fetch_articles()
+    if not items:
+        # 抓取失败或 API 返回空：保留旧缓存（新鲜空文件会覆盖好数据，
+        # 且新鲜时间戳会绕过 aggregate 的 STALE_HOURS 缺席检测导致源静默消失）
+        if output_path.exists():
+            old = json.loads(output_path.read_text())
+            if old.get("items"):
+                print(f"[Juejin] Fetch returned no items, keeping cached {len(old['items'])} items",
+                      file=sys.stderr)
+                return
+        print("[Juejin] No items and no usable cache; writing empty result", file=sys.stderr)
     print(f"[Juejin] Got {len(items)} articles")
 
     # 并发抓正文（摘要阶段的输入素材）
