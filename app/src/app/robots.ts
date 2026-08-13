@@ -8,7 +8,8 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: "*",
       allow: "/",
-      disallow: "/search?*",
+      // trailingSlash 下搜索 URL 是 /search/?q=...，旧模式 "/search?*" 匹配不到
+      disallow: "/search",
     },
     sitemap: `${SITE_URL}/sitemap.xml`,
     host: SITE_URL,

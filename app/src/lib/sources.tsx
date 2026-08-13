@@ -16,6 +16,7 @@ export const SOURCE_ORDER = [
   "zhihu",
   "36kr",
   "infoq",
+  "v2ex",
 ];
 
 export const SOURCE_META: Record<string, SourceMeta> = {
@@ -74,6 +75,13 @@ export const SOURCE_META: Record<string, SourceMeta> = {
     icon: <span className="text-sm">📡</span>,
     color: "text-[#ef4444]",
     bg: "bg-[#ef4444]/10",
+  },
+  v2ex: {
+    labelKey: "today.v2exTitle",
+    shortLabel: "V2EX",
+    icon: <span className="text-sm">🌐</span>,
+    color: "text-[#0088cc]",
+    bg: "bg-[#0088cc]/10",
   },
 };
 
