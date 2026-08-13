@@ -7,7 +7,12 @@ import { useTranslation } from "../lib/i18n";
 import { cn } from "../lib/utils";
 import type { TrendsData, TrendTopic } from "../types";
 
-const TOPIC_LIMIT = 20;
+const TOPIC_LIMIT = 35; // 与数据管线 build_trends.py 的 MAX_TOPICS 对齐，避免话题被静默丢弃
+
+// 话题总热度（后端排序口径：heat_by_date 之和）
+function topicHeat(topic: TrendTopic): number {
+  return Object.values(topic.heat_by_date ?? {}).reduce((a, b) => a + b, 0);
+}
 
 // 4 heat levels on the violet scale; index 0 = no data
 const HEAT_CELL = [
@@ -179,7 +184,10 @@ function SourceActivity({ dates, activity }: { dates: string[]; activity: Trends
 export function TrendsClient({ trends }: { trends: TrendsData }) {
   const { t } = useTranslation();
   const dates = trends.dates ?? [];
-  const topics = (trends.topics ?? []).slice(0, TOPIC_LIMIT);
+  // 防御性重排：后端按总热度降序输出 topics，这里不依赖该顺序约定
+  const topics = [...(trends.topics ?? [])]
+    .sort((a, b) => topicHeat(b) - topicHeat(a))
+    .slice(0, TOPIC_LIMIT);
 
   return (
     <div className="space-y-8 max-w-5xl mx-auto">
