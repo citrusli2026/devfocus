@@ -37,8 +37,8 @@ jobs:
           cd data
           python3.11 pipeline.py
 
-      - name: Sync data to app
-        run: cp data/4-final/*.json app/src/data/ || true
+      # pipeline.py 第 4 步已自行同步 4-final → app/src/data + public，
+      # 无需重复 cp（旧步骤的 `|| true` 还会掩盖同步失败）
 
       - name: Validate data
         run: |

@@ -66,4 +66,16 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install pyflakes
-      - run: pyflakes data/1-fetch/*.py data/3-process/*.py data/pipeline.py
+      - run: pyflakes data/1-fetch/*.py data/3-process/*.py data/scripts/*.py data/pipeline.py
+
+  python-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Unit tests
+        run: python3 -m unittest discover -s data/3-process -p "test_*.py"
+      - name: Validate final data
+        run: python3 data/scripts/validate_data.py
