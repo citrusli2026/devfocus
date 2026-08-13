@@ -18,7 +18,9 @@ import os
 import re
 import sys
 import time
+import urllib.error
 import urllib.request
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -77,8 +79,16 @@ Output a JSON object with this exact shape (include every item id exactly once):
 {{"summaries": [{{"id": "xxx", "summary_zh": "...", "summary_en": "..."}}, ...]}}"""
 
 
+class LLMAuthError(Exception):
+    """LLM API 认证失败（401/403）：key 无效，继续重试只会空耗时间。"""
+
+
 def call_llm(base_url: str, api_key: str, model: str, prompt: str) -> str:
-    """Call LLM API, return response text or empty string."""
+    """Call LLM API, return response text or empty string.
+
+    401/403 立即抛 LLMAuthError（key 无效，全量重试无意义）；
+    429/5xx 指数退避重试（1s/2s/4s）；连接失败重试一次后降级。
+    """
     url = f"{base_url}/chat/completions"
     body = json.dumps({
         "model": model,
@@ -97,16 +107,34 @@ def call_llm(base_url: str, api_key: str, model: str, prompt: str) -> str:
         "Authorization": f"Bearer {api_key}",
     })
 
-    try:
-        with urllib.request.urlopen(req, timeout=120) as resp:
-            data = json.loads(resp.read().decode())
-            choice = data["choices"][0]
-            if choice.get("finish_reason") == "length":
-                print("  [WARN] LLM response truncated (finish_reason=length)", file=sys.stderr)
-            return choice["message"]["content"].strip()
-    except Exception as e:
-        print(f"  [WARN] LLM call failed: {e}", file=sys.stderr)
-        return ""
+    last_err: Exception | None = None
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=120) as resp:
+                data = json.loads(resp.read().decode())
+                choice = data["choices"][0]
+                if choice.get("finish_reason") == "length":
+                    print("  [WARN] LLM response truncated (finish_reason=length)", file=sys.stderr)
+                return choice["message"]["content"].strip()
+        except urllib.error.HTTPError as e:
+            code = e.code
+            if code in (401, 403):
+                raise LLMAuthError(f"LLM auth failed (HTTP {code})") from e
+            if code == 429 or code >= 500:
+                wait = 2 ** attempt  # 1s / 2s / 4s
+                print(f"  [WARN] LLM HTTP {code}, retry in {wait}s...", file=sys.stderr)
+                last_err = e
+                time.sleep(wait)
+                continue
+            print(f"  [WARN] LLM HTTP {code}: {e}", file=sys.stderr)
+            return ""
+        except Exception as e:
+            last_err = e
+            if attempt < 2:
+                time.sleep(2 ** attempt)
+                continue
+    print(f"  [WARN] LLM call failed: {last_err}", file=sys.stderr)
+    return ""
 
 
 def build_prompt(items: list[dict]) -> str:
@@ -203,6 +231,24 @@ def item_hash(item: dict) -> str:
     return hashlib.md5(raw.encode("utf-8")).hexdigest()[:12]
 
 
+# 失败冷却：被 LLM 拒收/调用失败的条目 24h 内不重新入队，避免每轮重复扣费
+FAIL_COOLDOWN_HOURS = 24
+
+
+def _in_cooldown(entry: dict | None) -> bool:
+    """条目最近失败过（failed_at 在冷却期内）→ 本轮跳过。"""
+    if not entry:
+        return False
+    failed_at = entry.get("failed_at")
+    if not failed_at:
+        return False
+    try:
+        t = datetime.fromisoformat(str(failed_at).replace("Z", "+00:00"))
+    except ValueError:
+        return False
+    return (datetime.now(timezone.utc) - t) < timedelta(hours=FAIL_COOLDOWN_HOURS)
+
+
 def needs_summary(entry: dict | None, item: dict | None = None) -> bool:
     """summaries.json 里的一条记录是否需要（重新）生成。
 
@@ -210,7 +256,10 @@ def needs_summary(entry: dict | None, item: dict | None = None) -> bool:
     - 指纹不一致 → 输入内容变了，重新生成
     - 历史条目无指纹：正文（readme/content）是新引入的输入，带正文的条目视为
       输入变化（首次部署后这批摘要需要基于正文重写）；其余信任现有摘要
+    - 最近失败过的条目（failed_at 冷却期内）跳过，避免每轮重复扣费
     """
+    if _in_cooldown(entry):
+        return False
     if not entry:
         return True
     zh = (entry.get("summary_zh") or "").strip()
@@ -409,9 +458,11 @@ def main():
         if needs_summary(existing.get(id), item)
     }
 
-    # 历史空摘要条目自动重新入队（不删库）：从 digest/快照找回原始条目
+    # 历史空摘要条目自动重新入队（不删库）：从 digest/快照找回原始条目。
+    # 冷却期内（最近失败过）的空条目不重新入队，避免每轮重复扣费。
     empty_ids = {id for id, s in existing.items()
-                 if not (s.get("summary_zh") or "").strip()} - set(all_items)
+                 if not (s.get("summary_zh") or "").strip()
+                 and not _in_cooldown(s)} - set(all_items)
     retry_only_ids: set[str] = set()
     if empty_ids:
         resolved = find_items_in_history(empty_ids)
@@ -421,6 +472,16 @@ def main():
         unresolved = len(empty_ids) - len(resolved)
         print(f"[SUM] 历史空摘要 {len(empty_ids)} 条：重新入队 {len(retry_only_ids)}"
               + (f"，找不到原始条目跳过 {unresolved}" if unresolved else ""))
+        # 清理死数据：空摘要、找不到原始条目、且无指纹/失败标记的遗留条目
+        # （不可恢复，保留只会每轮被扫描）
+        pruned = 0
+        for id in unresolved:
+            entry = existing.get(id)
+            if entry and not entry.get("input_hash") and not entry.get("failed_at"):
+                del existing[id]
+                pruned += 1
+        if pruned:
+            print(f"[SUM] 清理 {pruned} 条不可恢复的空摘要死数据")
 
     if not need:
         print("[SUM] All items have good summaries.")
@@ -448,13 +509,30 @@ def main():
     if provider:
         print(f"[SUM] Using {provider['name']} API ({provider['model']})...")
         need_list = list(need.values())
-        llm_summarize(need_list, provider, BATCH_SIZE, summaries, llm_ids)
+        try:
+            llm_summarize(need_list, provider, BATCH_SIZE, summaries, llm_ids)
 
-        # 重试一轮：空摘要/被校验拒收/批次解析失败的条目，更小批次再试一次
-        missing = [it for it in need_list if it["id"] not in summaries]
-        if missing:
-            print(f"[SUM] Retrying {len(missing)} failed items (smaller batches)...")
-            llm_summarize(missing, provider, RETRY_BATCH_SIZE, summaries, llm_ids)
+            # 重试一轮：空摘要/被校验拒收/批次解析失败的条目，更小批次再试一次
+            missing = [it for it in need_list if it["id"] not in summaries]
+            if missing:
+                print(f"[SUM] Retrying {len(missing)} failed items (smaller batches)...")
+                llm_summarize(missing, provider, RETRY_BATCH_SIZE, summaries, llm_ids)
+        except LLMAuthError as e:
+            # key 无效：立即中止并报错，避免空转与模板垃圾污染
+            print(f"[ERROR] {e} — 请检查 DEEPSEEK_API_KEY / OPENAI_API_KEY", file=sys.stderr)
+            sys.exit(1)
+
+        # 两轮后仍失败的条目：记录 failed_at/failed_count，进入 24h 冷却，
+        # 下轮不再重复扣费（内容变化时 input_hash 变化会自然解除冷却——见 needs_summary）
+        still_missing = [it for it in need_list if it["id"] not in summaries]
+        if still_missing:
+            failed_ts = datetime.now(timezone.utc).isoformat(timespec="seconds")
+            for it in still_missing:
+                entry = existing.get(it["id"]) or {}
+                entry["failed_at"] = failed_ts
+                entry["failed_count"] = int(entry.get("failed_count") or 0) + 1
+                existing[it["id"]] = entry
+            print(f"[SUM] 记录 {len(still_missing)} 条失败条目进入 {FAIL_COOLDOWN_HOURS}h 冷却")
     else:
         print("[SUM] No LLM API key found (set DEEPSEEK_API_KEY or OPENAI_API_KEY)")
         print("[SUM] Falling back to template summaries")
