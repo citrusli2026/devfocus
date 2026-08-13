@@ -68,6 +68,12 @@ def fetch_articles() -> list[dict]:
                 if not ai.get("title"):
                     continue
                 aid = ai.get("article_id", "")
+                # mtime 为字符串 "0"/"" 时视为无效（此前 "0" 是真值，
+                # 直接 fromtimestamp(0) 产出 1970-01-01 时间戳污染 by_date）
+                try:
+                    mtime_ts = int(ai.get("mtime") or 0)
+                except (ValueError, TypeError):
+                    mtime_ts = 0
                 results.append({
                     "id": f"juejin-{aid}",
                     "title": ai.get("title", ""),
@@ -77,9 +83,8 @@ def fetch_articles() -> list[dict]:
                     "score": ai.get("digg_count", 0),
                     "comments": ai.get("comment_count", 0),
                     "author": "",
-                    "time": datetime.fromtimestamp(
-                        int(ai.get("mtime", "0")), tz=timezone.utc
-                    ).isoformat() if ai.get("mtime") else datetime.now(timezone.utc).isoformat(),
+                    "time": (datetime.fromtimestamp(mtime_ts, tz=timezone.utc).isoformat()
+                             if mtime_ts > 0 else datetime.now(timezone.utc).isoformat()),
                     "tags": ["juejin"],
                 })
             return results
