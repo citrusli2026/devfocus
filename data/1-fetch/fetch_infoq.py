@@ -4,7 +4,7 @@ import urllib.request
 from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
-from _common import html_to_text
+from _common import fetch_with_retry, html_to_text
 
 OUT = Path(__file__).parent.parent / "2-raw" / "infoq.json"
 API = "https://www.infoq.cn/public/v1/my/recommond"
@@ -37,9 +37,8 @@ def fetch_article_content(uuid: str) -> str:
 
 def fetch():
     payload = json.dumps({"size": 20}).encode()
-    req = urllib.request.Request(API, data=payload, headers=HEADERS, method="POST")
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        data = json.loads(resp.read().decode())
+    _, body = fetch_with_retry(API, timeout=30, method="POST", data=payload, headers=HEADERS)
+    data = json.loads(body.decode())
     
     items = []
     for item in (data.get("data", []) or [])[:20]:
