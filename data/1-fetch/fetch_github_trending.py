@@ -66,9 +66,11 @@ class TrendingParser(HTMLParser):
                 # 卡片右下角 "N stars today / this month"，周期内新增 star 数
                 self._in_stars_today = True
                 self._text_buf = ""
-            elif tag == "span" and "repo-language-color" in cls:
+            elif tag == "span" and attrs_dict.get("itemprop") == "programmingLanguage":
+                # 语言名：<span itemprop="programmingLanguage">Python</span>。
+                # 颜色圆点 span（repo-language-color）只作装饰，不能拿它的
+                # 闭合来驱动捕获（此前语言解析因此是死代码，从未产出字段）
                 self._in_lang = True
-            elif tag == "span" and self._in_lang:
                 self._text_buf = ""
 
     def handle_endtag(self, tag):
@@ -93,6 +95,9 @@ class TrendingParser(HTMLParser):
                 self._current["stars_today"] = int(m.group(1).replace(",", ""))
         elif tag == "span" and self._in_lang:
             self._in_lang = False
+            lang = " ".join(self._text_buf.split()).strip()
+            if lang:
+                self._current["language"] = lang
         elif tag == "article" and self._in_article:
             self._in_article = False
             if self._current.get("full_name"):
@@ -152,6 +157,7 @@ def fetch_html(url: str) -> list[dict]:
             "name": r.get("name", r.get("full_name", "")),
             "url": r.get("url", ""),
             "description": r.get("description", ""),
+            "language": r.get("language", ""),
             "stars_today": r.get("stars_today", 0),
             "stars_total": r.get("stars_total", 0),
             "source": "github_trending",
