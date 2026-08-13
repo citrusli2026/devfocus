@@ -265,9 +265,16 @@ def main():
 
     kw_heat, kw_hits, kw_sources, kw_samples = build_keyword_heat(snapshots)
 
-    # 聚类规则：同一关键词命中 ≥ MIN_HITS 条 → 话题
+    # 聚类规则：同一关键词命中 ≥ MIN_HITS 条 → 话题。
+    # 2 字纯中文泛词（"开发"/"程序"/"数据" 等，不在技术词表内）直接排除——
+    # 它们大多是滑窗碎片或高频元词，作为话题噪音大于价值
     counts = {kw: len(hits) for kw, hits in kw_hits.items()}
-    candidates = [kw for kw, c in counts.items() if c >= MIN_HITS and len(kw) >= 2]
+    candidates = [
+        kw for kw, c in counts.items()
+        if c >= MIN_HITS and len(kw) >= 2
+        and not (len(kw) == 2 and _is_cjk(kw) and not re.search(r"[a-z0-9]", kw)
+                 and kw not in TECH_KEYWORDS)
+    ]
     candidates = dedup_contained(candidates, counts)
 
     topics = []
