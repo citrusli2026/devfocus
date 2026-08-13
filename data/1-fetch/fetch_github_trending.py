@@ -134,7 +134,7 @@ def attach_readmes(repos: list[dict]) -> list[dict]:
         r["readme"] = fetch_readme(r["full_name"])
         return r
 
-    with ThreadPoolExecutor(max_workers=8) as ex:
+    with ThreadPoolExecutor(max_workers=4) as ex:
         results = list(ex.map(_one, repos))
     got = sum(1 for r in results if r.get("readme"))
     print(f"[GH] README fetched: {got}/{len(results)}")

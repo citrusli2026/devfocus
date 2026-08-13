@@ -109,7 +109,7 @@ def main():
         return None
 
     # 详情抓取并发化（此前 200 条串行 + 每条 2 次重试，实测 60s+）
-    with ThreadPoolExecutor(max_workers=8) as ex:
+    with ThreadPoolExecutor(max_workers=4) as ex:
         results = list(ex.map(fetch_one, top_ids))
     stories = [s for s in results if s is not None]
     failed = sum(1 for s in results if s is None)
@@ -125,7 +125,7 @@ def main():
         s["content"] = html_to_text(s.pop("text", ""), max_chars=CONTENT_MAX_CHARS)
     link_stories = [s for s in stories[:CONTENT_TOP_N] if not s["content"]]
     if link_stories:
-        with ThreadPoolExecutor(max_workers=8) as ex:
+        with ThreadPoolExecutor(max_workers=4) as ex:
             contents = list(ex.map(lambda s: fetch_link_content(s["url"]), link_stories))
         for s, c in zip(link_stories, contents):
             s["content"] = c

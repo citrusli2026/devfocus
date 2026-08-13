@@ -26,6 +26,11 @@ def get_token() -> str:
         token_file = BASE_DIR / ".ph_token"
         if token_file.exists():
             token = token_file.read_text().strip()
+            # CI 写入的 token 文件默认 644，收紧为仅本人可读（尽力而为）
+            try:
+                os.chmod(token_file, 0o600)
+            except OSError:
+                pass
     if not token:
         print("[ProductHunt] No PH_TOKEN found", file=sys.stderr)
         return ""

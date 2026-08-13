@@ -54,7 +54,7 @@ def fetch():
 
     # 并发抓正文（摘要阶段的输入素材，失败条目 content 留空降级）
     if items:
-        with ThreadPoolExecutor(max_workers=8) as ex:
+        with ThreadPoolExecutor(max_workers=4) as ex:
             contents = list(ex.map(lambda it: fetch_article_content(it["id"]), items))
         for it, c in zip(items, contents):
             it["content"] = c
