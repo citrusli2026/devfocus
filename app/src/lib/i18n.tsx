@@ -1,6 +1,6 @@
 "use client";
 
-import { createContext, use, useCallback, useSyncExternalStore } from "react";
+import { createContext, use, useCallback, useEffect, useSyncExternalStore } from "react";
 import zhMessages from "../messages/zh.json";
 import enMessages from "../messages/en.json";
 
@@ -71,6 +71,14 @@ export function I18nProvider({ children }: { children: React.ReactNode }) {
     const v = getNested(messages[locale], key);
     if (v === undefined) return key;
     return params ? fmt(v, params) : v;
+  }, [locale]);
+
+  // 语言切换后同步 <html lang>（此前仅页面加载时由 layout 的 localeScript
+  // 设置一次；切换语言后读屏发音/翻译插件/SEO 语义仍然错误）
+  useEffect(() => {
+    try {
+      document.documentElement.lang = locale === "en" ? "en" : "zh-CN";
+    } catch {}
   }, [locale]);
 
   return <I18nContext.Provider value={{ locale, setLocale, t }}>{children}</I18nContext.Provider>;
