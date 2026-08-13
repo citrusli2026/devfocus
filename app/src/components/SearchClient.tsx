@@ -36,20 +36,14 @@ type SearchIndex = {
   items: SearchIndexItem[];
 };
 
-export function SearchClient({
-  fallbackItems,
-}: {
-  fallbackItems?: SearchIndexItem[];
-}) {
+export function SearchClient() {
   const { t } = useTranslation();
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
 
-  const [index, setIndex] = useState<SearchIndex | null>(
-    fallbackItems ? { generated_at: "", total: fallbackItems.length, items: fallbackItems } : null
-  );
-  const [loading, setLoading] = useState(!fallbackItems);
+  const [index, setIndex] = useState<SearchIndex | null>(null);
+  const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
   const inputRef = useRef<HTMLInputElement>(null);
@@ -83,7 +77,6 @@ export function SearchClient({
   }, [searchParams, pathname, router]);
 
   useEffect(() => {
-    if (fallbackItems) return;
     let cancelled = false;
     fetch("/search-index.json")
       .then((res) => {
@@ -105,7 +98,7 @@ export function SearchClient({
     return () => {
       cancelled = true;
     };
-  }, [fallbackItems]);
+  }, []);
 
   const updateUrl = useCallback(
     (params: { q?: string; source?: string; date?: string; tag?: string; domain?: string }) => {

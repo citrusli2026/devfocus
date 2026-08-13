@@ -87,8 +87,14 @@ def main():
     app_public_dir = BASE_DIR.parent / "app" / "public"
     if not args.dry_run and FINAL_DIR.exists():
         import shutil
+        # 不进入 src/data 的文件：
+        # - summaries.json：仅管线内部使用（enrich 合并摘要），前端零引用（1.8MB）
+        # - search-index.json：运行时从 public/ 拉取，src/data 副本冗余（334KB×2）
+        EXCLUDED_FROM_SRC_DATA = {"summaries.json", "search-index.json"}
         app_data_dir.mkdir(parents=True, exist_ok=True)
         for f in FINAL_DIR.glob("*.json"):
+            if f.name in EXCLUDED_FROM_SRC_DATA:
+                continue
             shutil.copy2(f, app_data_dir / f.name)
             print(f"[Pipeline] Synced {f.name}")
         # Search index goes to public/ so it is fetched at runtime, not bundled
