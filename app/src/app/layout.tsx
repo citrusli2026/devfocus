@@ -1,5 +1,10 @@
 import type { Metadata } from "next";
-import { Rubik } from "next/font/google";
+// 自托管 Rubik（@fontsource）：构建不再依赖 fonts.googleapis.com 网络
+// （此前 next/font/google 在国内网络下构建必失败）
+import "@fontsource/rubik/400.css";
+import "@fontsource/rubik/500.css";
+import "@fontsource/rubik/600.css";
+import "@fontsource/rubik/700.css";
 import { Analytics } from "@vercel/analytics/next";
 import { LanguageProvider } from "../components/language-provider";
 import { ThemeProvider } from "../components/theme-provider";
@@ -9,13 +14,6 @@ import { Footer } from "../components/footer";
 import { BackToTop } from "../components/BackToTop";
 import { KeyboardShortcuts } from "../components/KeyboardShortcuts";
 import "./globals.css";
-
-const rubik = Rubik({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  variable: "--font-rubik",
-  display: "swap",
-});
 
 const SITE_URL = "https://www.devfocus.cc";
 
@@ -80,7 +78,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         />
         <meta name="google-site-verification" content="kYJkJmeEarl54V8iJywwl4KSz8tq8pqSXrfy6u3tpt4" />
       </head>
-      <body className={`h-full ${rubik.variable}`} style={{ background: "var(--surface-base)" }}>
+      <body className="h-full" style={{ background: "var(--surface-base)" }}>
         <ThemeProvider>
           <LanguageProvider>
             <ReadItemsProvider>

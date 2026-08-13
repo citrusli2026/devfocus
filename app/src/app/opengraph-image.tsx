@@ -1,4 +1,5 @@
 import { ImageResponse } from "next/og";
+import { OG_FONT_STACK, ogFonts } from "../lib/og-fonts";
 
 export const alt = "DevFocus - 开发者聚焦";
 export const size = { width: 1200, height: 630 };
@@ -19,6 +20,7 @@ export default function Image() {
           justifyContent: "center",
           background: "#f5f3fa",
           color: "#1a1530",
+          fontFamily: OG_FONT_STACK,
         }}
       >
         <div style={{ display: "flex", fontSize: 108, fontWeight: 700, letterSpacing: -2 }}>
@@ -43,6 +45,6 @@ export default function Image() {
         </div>
       </div>
     ),
-    { ...size }
+    { ...size, fonts: ogFonts }
   );
 }

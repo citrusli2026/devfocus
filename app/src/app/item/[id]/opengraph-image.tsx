@@ -1,6 +1,7 @@
 import { ImageResponse } from "next/og";
 import digestData from "../../../data/digest.json";
 import feedData from "../../../data/feed.json";
+import { OG_FONT_STACK, ogFonts } from "../../../lib/og-fonts";
 import { getSourceMeta } from "../../../lib/sources";
 import type { Digest, FeedItem } from "../../../types";
 
@@ -52,7 +53,7 @@ export default async function Image({ params }: { params: Promise<{ id: string }
           color: "#1a1530",
         }}
       >
-        <div style={{ display: "flex", fontSize: 32, fontWeight: 700, marginBottom: 32 }}>
+        <div style={{ display: "flex", fontSize: 32, fontWeight: 700, marginBottom: 32, fontFamily: OG_FONT_STACK }}>
           <span>Dev</span>
           <span style={{ color: "#6a5fc1" }}>Focus</span>
         </div>
@@ -64,15 +65,16 @@ export default async function Image({ params }: { params: Promise<{ id: string }
             lineHeight: 1.25,
             overflow: "hidden",
             textOverflow: "ellipsis",
+            fontFamily: OG_FONT_STACK,
           }}
         >
           {title}
         </div>
-        <div style={{ display: "flex", marginTop: 40, fontSize: 28, color: "#6a5fc1" }}>
+        <div style={{ display: "flex", marginTop: 40, fontSize: 28, color: "#6a5fc1", fontFamily: OG_FONT_STACK }}>
           {sourceLabel}
         </div>
       </div>
     ),
-    { ...size }
+    { ...size, fonts: ogFonts }
   );
 }
