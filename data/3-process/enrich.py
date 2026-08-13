@@ -8,6 +8,7 @@ Output: enriched 4-final/feed.json (in-place)
 from __future__ import annotations
 
 import json
+import os
 import re
 import sys
 from collections import Counter
@@ -944,7 +945,8 @@ TAG_SYNONYMS = {
 def extract_domain(url: str) -> str:
     try:
         host = urlparse(url).hostname or ""
-        return host.replace("www.", "").lower()
+        # 只剥离前缀 www.，不能 replace 删除所有出现处（中间域名段也会被误删）
+        return host.lower().removeprefix("www.")
     except Exception:
         return ""
 
@@ -1065,23 +1067,40 @@ def compute_quality_score(item: dict, has_summary: bool, max_score: float, max_c
     return min(round(quality, 1), 100)
 
 
+# 源/域级标签：所有同源条目共享，对"相关条目"匹配无信息量
+# （此前作为桶成员让 find_related 退化为 O(n²) 且结果被同源条目主导）
+SOURCE_TAGS = {
+    "hackernews", "github-trending", "producthunt", "juejin", "zhihu",
+    "36kr", "infoq", "v2ex", "general-hot",
+    "github", "youtube", "arxiv", "twitter",
+}
+
+
+def _content_kws(item: dict) -> set[str]:
+    """条目的内容关键词（排除源/域级标签），用于相关匹配。"""
+    tags = set(item.get("tags", [])) - SOURCE_TAGS
+    return tags | set(extract_keywords(item.get("title", ""), item.get("description", "")))
+
+
 def build_inverted_index(all_items: list[dict]) -> dict[str, list[dict]]:
     """keyword -> list of items that contain it."""
     index: dict[str, list[dict]] = {}
     for item in all_items:
-        kws = set(item.get("tags", [])) | set(extract_keywords(item.get("title", ""), item.get("description", "")))
-        for kw in kws:
+        for kw in _content_kws(item):
             index.setdefault(kw, []).append(item)
     return index
 
 
 def find_related(item: dict, inverted_index: dict[str, list[dict]], item_by_id: dict[str, dict], top_n: int = 5) -> list[str]:
-    """Find related items by keyword overlap using an inverted index."""
-    item_kws = set(item.get("tags", [])) | set(extract_keywords(item.get("title", ""), item.get("description", "")))
+    """Find related items by keyword overlap using an inverted index.
+
+    源/域级标签不参与匹配（排除后桶成员数量级下降，且结果不再被
+    "同源其他条目"主导），也不做同源加分——跨源相关性才是目标。
+    """
+    item_kws = _content_kws(item)
     if not item_kws:
         return []
 
-    same_source = item.get("source", "")
     candidate_scores: dict[str, float] = {}
 
     for kw in item_kws:
@@ -1095,12 +1114,18 @@ def find_related(item: dict, inverted_index: dict[str, list[dict]], item_by_id: 
         other = item_by_id.get(other_id)
         if not other:
             continue
-        source_boost = 1.5 if other.get("source") == same_source else 1.0
         quality = other.get("quality_score", 50)
-        scored.append((overlap * source_boost * (quality / 100), other_id))
+        scored.append((overlap * (quality / 100), other_id))
 
     scored.sort(key=lambda x: x[0], reverse=True)
     return [iid for _, iid in scored[:top_n]]
+
+
+def _write_json_atomic(path: Path, obj) -> None:
+    """写 JSON 到临时文件后原子替换，避免中途崩溃留下半写文件。"""
+    tmp = path.with_name(path.name + ".tmp")
+    tmp.write_text(json.dumps(obj, indent=2, ensure_ascii=False), encoding="utf-8")
+    os.replace(tmp, path)
 
 
 def apply_enrichment_to_history(id_to_item: dict[str, dict], today_key: str):
@@ -1124,7 +1149,7 @@ def apply_enrichment_to_history(id_to_item: dict[str, dict], today_key: str):
                     item["summary_en"] = enriched.get("summary_en", "")
                 updated += 1
         if updated:
-            snapshot_path.write_text(json.dumps(data, indent=2, ensure_ascii=False))
+            _write_json_atomic(snapshot_path, data)
             print(f"[Enrich] Updated {updated} items in history snapshot {snapshot_path.name}")
     except Exception as e:
         print(f"[WARN] Failed to update history snapshot: {e}", file=sys.stderr)
@@ -1137,6 +1162,11 @@ def main():
 
     feed = json.loads(FEED_PATH.read_text())
     items = feed.get("items", [])
+    if not items:
+        # 空 feed（fetch 全挂但 aggregate 写出空结构）：直接跳过，
+        # 避免后续除零崩溃留下半处理状态
+        print("[Enrich] feed.json has no items, skipping")
+        return
 
     summaries = {}
     if SUMMARIES_PATH.exists():
@@ -1217,7 +1247,7 @@ def main():
         related = find_related(item, inverted_index, id_to_item)
         item["related_ids"] = related
 
-    FEED_PATH.write_text(json.dumps(feed, indent=2, ensure_ascii=False), encoding="utf-8")
+    _write_json_atomic(FEED_PATH, feed)
 
     # Also update digest.json daily items with enriched metadata
     today_key = ""
@@ -1236,7 +1266,7 @@ def main():
                     item["summary_zh"] = enriched["summary_zh"]
                     item["summary_en"] = enriched.get("summary_en", "")
                 updated += 1
-        DIGEST_PATH.write_text(json.dumps(digest, indent=2, ensure_ascii=False), encoding="utf-8")
+        _write_json_atomic(DIGEST_PATH, digest)
         print(f"[Enrich] Updated {updated} items in digest.json")
 
     # 回写当日历史快照（aggregate 阶段已由 save_snapshot 写出）
