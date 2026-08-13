@@ -200,3 +200,42 @@ test.describe("mobile viewport", () => {
     }
   });
 });
+
+test.describe("extended coverage", () => {
+  test("trends page renders heatmap topics", async ({ page }) => {
+    await page.goto("/trends/");
+    await expect(page.locator("h1")).toContainText("趋势", { timeout: 10000 });
+    // 热力表格至少渲染一个话题行（data 驱动，无话题时跳过）
+    const rows = page.locator("table tbody tr[role='button']");
+    if ((await rows.count()) > 0) {
+      const row = rows.first();
+      await expect(row).toBeVisible();
+      // 键盘可达性：焦点 + Enter 展开（aria-expanded 翻转）
+      await row.focus();
+      await page.keyboard.press("Enter");
+      await expect(row).toHaveAttribute("aria-expanded", "true");
+      // 有样例标题的话题会渲染列表
+      const sampleLists = page.locator("table tbody tr td ul");
+      if ((await sampleLists.count()) > 0) {
+        await expect(sampleLists.first()).toBeVisible();
+      }
+    }
+  });
+
+  test("unknown route renders 404", async ({ page }) => {
+    await page.goto("/this-route-does-not-exist/");
+    await expect(page.locator("text=404").first()).toBeVisible({ timeout: 10000 });
+  });
+
+  test("language toggle updates html lang attribute", async ({ page }) => {
+    await page.goto("/");
+    const langBefore = await page.evaluate(() => document.documentElement.lang);
+    const toggle = page.locator("button[title*='Switch to English'], button[title*='切换到中文']").first();
+    await expect(toggle).toBeVisible();
+    await toggle.click();
+    // 等 effect 同步 <html lang>
+    await expect
+      .poll(() => page.evaluate(() => document.documentElement.lang), { timeout: 5000 })
+      .toBe(langBefore === "zh-CN" ? "en" : "zh-CN");
+  });
+});

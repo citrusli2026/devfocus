@@ -6,7 +6,6 @@ from datetime import datetime, timezone
 
 from _shared import parse_time
 from enrich import (
-    SOURCE_TAGS,
     _content_kws,
     build_inverted_index,
     domain_tag,
@@ -16,8 +15,6 @@ from enrich import (
     compute_quality_score,
     PLURAL_MAP,
     TAG_DENYLIST,
-    STOP,
-    GENERIC,
 )
 
 

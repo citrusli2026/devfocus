@@ -78,7 +78,7 @@ export function SubscribeForm() {
           </div>
         </div>
 
-        <form onSubmit={handleSubmit} className="flex-1 max-w-md">
+        <form onSubmit={handleSubmit} noValidate className="flex-1 max-w-md">
           <div className="flex gap-2">
             <input
               type="email"

@@ -6,7 +6,6 @@ scripts/ 下的脚本通过 sys.path 引导导入。
 
 from __future__ import annotations
 
-import re
 from datetime import datetime, timezone
 from urllib.parse import urlparse
 
