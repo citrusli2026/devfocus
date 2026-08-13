@@ -39,13 +39,15 @@ TEMPLATE_PREFIXES_ZH = (
 )
 
 # LLM config from environment variables (never hardcoded)
+# model 可用环境变量覆盖（LLM_MODEL），避免模型名变更时改代码；
+# 启动时会打印实际使用的 provider/model 便于核对
 LLM_PROVIDERS = [
     {
         "name": "deepseek",
         "base_url": "https://api.deepseek.com",
         "api_key_env": "DEEPSEEK_API_KEY",
         "api_key_file": ".deepseek_key",  # 本地开发用，仅该 provider 生效
-        "model": "deepseek-v4-flash",
+        "model": os.environ.get("LLM_MODEL", "deepseek-v4-flash"),
     },
     {
         "name": "openai",
