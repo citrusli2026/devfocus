@@ -193,13 +193,15 @@ def fetch_api_fallback(period: str) -> list[dict]:
             "name": item.get("name", ""),
             "url": item.get("html_url", ""),
             "description": item.get("description", "") or "",
-            # 兜底拿不到 "stars today"，用仓库总 star 数（stargazers_count）充数，
-            # 数值量级比真实 stars_today 大，下游排序时注意
-            "stars_today": item.get("stargazers_count", 0),
+            # 兜底拿不到 "stars today"：置 0 而不是用总 star 充数——
+            # 总 star 量级与真实日增不可比，会污染跨源排序（此前注释承认
+            # 该问题但仍写入）。0 分使兜底条目排在同源末尾，行为可预期。
+            "stars_today": 0,
             "stars_total": item.get("stargazers_count", 0),
             "source": "github_trending",
         })
-    print(f"[GH] API fallback returned {len(repos)} repos for {period}")
+    print(f"[GH] API fallback returned {len(repos)} repos for {period}"
+          f"（stars_today 置 0，无日增数据）", file=sys.stderr)
     return repos
 
 
