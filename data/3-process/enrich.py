@@ -57,7 +57,7 @@ GENERIC = {
     "little", "few", "lot", "bit", "plenty", "enough", "several", "various",
     "certain", "specific", "particular", "general", "common", "popular",
     "recent", "latest", "current", "modern", "future", "past", "former",
-    " potential", "possible", "likely", "available", "accessible",
+    "potential", "possible", "likely", "available", "accessible",
     "able", "unable", "ready", "willing", "likely", "unlikely",
     "different", "similar", "various", "several", "multiple", "single",
     "various", "diverse", "range", "series", "variety", "collection",
@@ -92,6 +92,44 @@ TECH_KEYWORDS = {
     "startup", "融资", "收购", "产品", "设计", "用户体验",
     "cursor", "codex", "copilot", "vibe coding",
 }
+
+# --- 标签匹配规则 ---
+# ASCII 技术词按整词匹配（避免 "ai" 命中 "sailing"、"go" 命中 "google"），
+# CJK 技术词按子串匹配。多词技术词在标签里是连字符形式（"machine-learning"），
+# 频率裁剪时需用归一化后的集合判断（否则 "machine learning" 永不会命中）。
+_CN_CHAR_RE = re.compile(r"[\u4e00-\u9fff]")
+_TECH_ASCII_PATTERNS = [
+    (kw, re.compile(r"(?<![a-z0-9])" + re.escape(kw) + r"(?![a-z0-9])"))
+    for kw in TECH_KEYWORDS if not _CN_CHAR_RE.search(kw)
+]
+_TECH_CJK = [kw for kw in TECH_KEYWORDS if _CN_CHAR_RE.search(kw)]
+TECH_TAGS = {kw.replace(" ", "-") for kw in TECH_KEYWORDS}
+
+# 中文滑窗碎词过滤（与 build_trends.py 同源规则）
+CN_FUNC_CHARS = set(
+    "的了和是我你他她它们在就不都也还与及或被把让呢吗吧啊嘛么"
+    "之其于以而且若因又再才只却并将能可要想说等该此哪谁什怎没有着过得地"
+)
+CN_JUNK_SUBSTR = ("如何", "为什么")
+CN_STOP_PHRASES = {
+    "这个", "那个", "什么", "怎么", "可以", "不是", "没有", "已经", "因为",
+    "所以", "但是", "如果", "虽然", "知道", "觉得", "可能", "应该", "现在",
+    "今天", "明天", "昨天", "大家", "自己", "问题", "东西", "事情", "怎么样",
+    "为什么", "这么", "那么", "还是", "就是", "这些", "那些", "一种", "一个",
+    "看待", "带来", "个月", "推出", "上线", "发布", "宣布", "据悉",
+    "开始", "近日", "最近", "最新", "公司", "行业", "全面", "分享", "半年",
+    "时代", "多少",
+}
+_CJK_RUN_RE = re.compile(r"[\u4e00-\u9fff]+")
+
+
+def _cjk_tag_ok(gram: str) -> bool:
+    """中文标签合法性：非停用短语、无疑问前缀、不含虚字。"""
+    if gram in CN_STOP_PHRASES:
+        return False
+    if any(j in gram for j in CN_JUNK_SUBSTR):
+        return False
+    return not any(c in CN_FUNC_CHARS for c in gram)
 
 # Tags that are too generic or noisy to be useful
 TAG_DENYLIST = {
@@ -930,27 +968,53 @@ def domain_tag(domain: str) -> str:
 
 
 def extract_keywords(title: str, description: str = "") -> list[str]:
+    """Extract tags from title+description.
+
+    英文技术词整词匹配；中文连续段内长 gram 优先滑窗（"正式版发布" 整体
+    成词，而不是 "正式版发" 之类残缺窗口），并过滤虚字/疑问前缀/停用短语。
+    返回排序后的去重列表（输出确定性，避免每次运行 diff 噪音）。
+    """
     text = f"{title} {description}".lower()
-    keywords = []
+    keywords: set[str] = set()
 
-    # Known tech keywords
-    for kw in TECH_KEYWORDS:
+    # 1) 技术词表：ASCII 整词匹配，CJK 子串匹配
+    for kw, pat in _TECH_ASCII_PATTERNS:
+        if pat.search(text):
+            keywords.add(kw)
+    for kw in _TECH_CJK:
         if kw in text:
-            keywords.append(kw)
+            keywords.add(kw)
 
-    # English words
+    # 2) 英文词（≥3 字母，非停用词/泛用词）
     for w in re.findall(r"[a-zA-Z]{3,}", text):
         wl = w.lower()
-        if wl not in STOP and wl not in GENERIC and len(wl) >= 3:
-            keywords.append(wl)
+        if wl not in STOP and wl not in GENERIC:
+            keywords.add(wl)
 
-    # Chinese phrases
-    for p in re.findall(r"[\u4e00-\u9fff]{2,4}", text):
-        if p in ("这个", "那个", "什么", "怎么", "可以", "不是", "没有", "已经", "因为", "所以"):
+    # 3) 中文：连续汉字段优先整体成词（≤12 字），避免 "正式版发" 之类
+    #    残缺滑窗碎片；疑问句式（含 如何/为什么）整段跳过；超长段退回
+    #    长 gram 优先滑窗 + 覆盖率去重
+    for run in _CJK_RUN_RE.findall(text):
+        if len(run) < 2:
             continue
-        keywords.append(p)
+        if any(j in run for j in CN_JUNK_SUBSTR):
+            continue  # 疑问句式（"如何看待…"）不产标签
+        if len(run) <= 12:
+            if _cjk_tag_ok(run):
+                keywords.add(run)
+            continue
+        accepted: list[str] = []
+        for n in range(min(len(run), 6), 1, -1):
+            for i in range(len(run) - n + 1):
+                gram = run[i:i + n]
+                if any(gram in a for a in accepted):
+                    continue  # 已被更长 gram 覆盖的碎片
+                if not _cjk_tag_ok(gram):
+                    continue
+                accepted.append(gram)
+        keywords.update(accepted)
 
-    return list(set(keywords))
+    return sorted(keywords)
 
 
 def parse_time(t):
@@ -1097,6 +1161,14 @@ def main():
         keyword_tags = extract_keywords(item.get("title", ""), item.get("description", ""))
 
         existing_tags = set(t.lower() for t in item.get("tags", []) if t)
+        # 清理历史遗留的中文碎词标签（如 "正式版发"、"如何评价"）：
+        # 中文标签只保留本次提取认可、或 2-3 字且通过碎词过滤的（短词无法再拆）
+        existing_tags = {
+            t for t in existing_tags
+            if not _CN_CHAR_RE.search(t)
+            or t in keyword_tags
+            or (len(t) < 4 and _cjk_tag_ok(t))
+        }
         new_tags = {dtag, source_tag} | set(keyword_tags)
         # Merge and normalize: lowercase, hyphen-separated, deduped
         normalized = set()
@@ -1133,7 +1205,8 @@ def main():
     tag_counts = Counter()
     for item in items:
         tag_counts.update(item.get("tags", []))
-    keep_tags = {tag for tag, count in tag_counts.items() if count >= MIN_TAG_FREQUENCY or tag in TECH_KEYWORDS}
+    keep_tags = {tag for tag, count in tag_counts.items()
+                 if count >= MIN_TAG_FREQUENCY or tag in TECH_TAGS}
     for item in items:
         item["tags"] = [t for t in item.get("tags", []) if t in keep_tags]
 
