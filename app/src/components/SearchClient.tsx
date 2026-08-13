@@ -61,6 +61,17 @@ export function SearchClient({
   const [domain, setDomain] = useState(searchParams.get("domain") ?? "all");
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
 
+  // 索引覆盖日期范围（用于明示搜索覆盖范围，避免用户误以为全站可搜）
+  const coverage = useMemo(() => {
+    if (!index) return null;
+    const dates = index.items.map((i) => i.date).filter(Boolean);
+    if (!dates.length) return null;
+    return {
+      start: dates.reduce((a, b) => (a < b ? a : b)),
+      end: dates.reduce((a, b) => (a > b ? a : b)),
+    };
+  }, [index]);
+
   useEffect(() => {
     if (searchParams.get("focus") === "1" && inputRef.current) {
       inputRef.current.focus();
@@ -347,9 +358,14 @@ export function SearchClient({
         </select>
       </div>
 
-      {/* Results count */}
-      <div className="text-sm text-text-muted">
-        {t("search.resultsCount", { count: filtered.length })}
+      {/* Results count + 覆盖范围说明（索引只覆盖最近 N 天，需明示） */}
+      <div className="text-sm text-text-muted flex items-baseline gap-2">
+        <span>{t("search.resultsCount", { count: filtered.length })}</span>
+        {coverage && (
+          <span className="text-xs text-text-dim">
+            {t("search.coverage", { start: coverage.start, end: coverage.end })}
+          </span>
+        )}
       </div>
 
       {/* Results */}

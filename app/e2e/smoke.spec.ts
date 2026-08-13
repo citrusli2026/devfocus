@@ -52,32 +52,30 @@ test.describe("basic navigation", () => {
 
   test("search filters content", async ({ page }) => {
     await page.goto("/search/");
-    await page.waitForSelector("text=加载搜索索引", { state: "hidden", timeout: 10000 });
     const input = page.getByPlaceholder("搜索标题、描述、标签");
+    await expect(input).toBeVisible({ timeout: 15000 });
     await input.fill("github");
-    await page.waitForTimeout(500);
-    const countText = await page.locator("text=找到").textContent();
-    expect(countText).toMatch(/找到 \d+ 条结果/);
+    // 等待真实信号：结果计数行出现且 > 0（Suspense fallback 消失不代表索引加载完）
+    await expect(page.getByText(/找到 [1-9]\d* 条结果/)).toBeVisible({ timeout: 15000 });
+    await expect(page.locator("article").first()).toBeVisible();
   });
 
   test("search supports fuzzy matching", async ({ page }) => {
     await page.goto("/search/");
-    await page.waitForSelector("text=加载搜索索引", { state: "hidden", timeout: 10000 });
     const input = page.getByPlaceholder("搜索标题、描述、标签");
+    await expect(input).toBeVisible({ timeout: 15000 });
     // Intentional typo should still match "github" thanks to MiniSearch fuzzy search
     await input.fill("githib");
-    await page.waitForTimeout(500);
-    const countText = await page.locator("text=找到").textContent();
-    expect(countText).toMatch(/找到 \d+ 条结果/);
-    expect(countText).not.toMatch(/找到 0 条结果/);
+    await expect(page.getByText(/找到 [1-9]\d* 条结果/)).toBeVisible({ timeout: 15000 });
   });
 
   test("search results can load more", async ({ page }) => {
     await page.goto("/search/");
-    await page.waitForSelector("text=加载搜索索引", { state: "hidden", timeout: 10000 });
+    const input = page.getByPlaceholder("搜索标题、描述、标签");
+    await expect(input).toBeVisible({ timeout: 15000 });
     // Use a broad query that returns more than PAGE_SIZE (20) results
-    await page.getByPlaceholder("搜索标题、描述、标签").fill("ai");
-    await page.waitForTimeout(500);
+    await input.fill("ai");
+    await expect(page.getByText(/找到 [1-9]\d* 条结果/)).toBeVisible({ timeout: 15000 });
     const firstCount = await page.locator("article").count();
     const loadMore = page.locator("button", { hasText: "加载更多" });
     if (await loadMore.isVisible().catch(() => false)) {
@@ -175,7 +173,7 @@ test.describe("mobile viewport", () => {
 
   test("search page filters fit on screen", async ({ page }) => {
     await page.goto("/search/");
-    await page.waitForSelector("text=加载搜索索引", { state: "hidden", timeout: 10000 });
+    await expect(page.locator('select').first()).toBeVisible({ timeout: 15000 });
     const filters = page.locator('select');
     await expect(filters.first()).toBeVisible({ timeout: 10000 });
     const count = await filters.count();
