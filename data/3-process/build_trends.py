@@ -284,7 +284,6 @@ def main():
     topics = []
     for kw in candidates:
         heat_map = kw_heat[kw]
-        total_heat = sum(heat_map.values())
         full_heat = {d: int(round(heat_map.get(d, 0))) for d in dates}
         topics.append({
             "keyword": kw,
@@ -293,14 +292,12 @@ def main():
             "heat_by_date": full_heat,
             "sample_titles": [t for _, t in kw_samples.get(kw, [])],
             "sources": sorted(kw_sources.get(kw, set())),
-            "_total_heat": total_heat,
         })
 
-    # 按总热度排序取 top N
-    topics.sort(key=lambda t: t["_total_heat"], reverse=True)
+    # 按总热度排序取 top N（排序键不嵌入输出对象，避免中途异常时
+    # _total_heat 内部字段泄漏到产出 JSON）
+    topics.sort(key=lambda t: sum(t["heat_by_date"].values()), reverse=True)
     topics = topics[:MAX_TOPICS]
-    for t in topics:
-        del t["_total_heat"]
 
     # Source activity
     source_activity: dict[str, dict[str, int]] = defaultdict(lambda: defaultdict(int))
