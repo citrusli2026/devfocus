@@ -26,12 +26,18 @@ interface HistorySnapshot {
 // feed.json's by_date buckets only cover curated subsets, so full history
 // snapshots are the reliable source for multi-day presence. Matches by id,
 // falling back to exact title match.
-async function buildHeatHistory(id: string, title: string): Promise<HeatPoint[]> {
+
+// 模块级缓存：1093 个详情页共享最近 7 个快照的解析结果（此前每页
+// readdir + 7×readFile + JSON.parse ≈ 3MB，构建期累计 ~3.3GB 串行解析）
+let snapshotCache: { files: string[]; snapshots: HistorySnapshot[] } | null = null;
+
+async function loadRecentSnapshots(): Promise<{ files: string[]; snapshots: HistorySnapshot[] }> {
+  if (snapshotCache) return snapshotCache;
   let files: string[] = [];
   try {
     files = (await fs.readdir(HISTORY_DIR)).filter((f) => f.endsWith(".json")).sort().slice(-HEAT_WINDOW);
   } catch {
-    return [];
+    files = [];
   }
   const snapshots: HistorySnapshot[] = [];
   for (const file of files) {
@@ -39,6 +45,12 @@ async function buildHeatHistory(id: string, title: string): Promise<HeatPoint[]>
       snapshots.push(JSON.parse(await fs.readFile(path.join(HISTORY_DIR, file), "utf-8")) as HistorySnapshot);
     } catch {}
   }
+  snapshotCache = { files, snapshots };
+  return snapshotCache;
+}
+
+async function buildHeatHistory(id: string, title: string): Promise<HeatPoint[]> {
+  const { snapshots } = await loadRecentSnapshots();
   const collect = (match: (i: FeedItem) => boolean): HeatPoint[] =>
     snapshots.flatMap((snap) => {
       const hit = (snap.items ?? []).find(match);
