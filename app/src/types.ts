@@ -33,6 +33,15 @@ export interface Digest {
   total_items: number;
 }
 
+export interface DigestMeta {
+  generated_at: string;
+  date: string;
+  count: number;
+  sources: string[];
+  /** 5-history 中实际存在的归档日（供前端避免渲染死链） */
+  history_dates: string[];
+}
+
 export interface TrendTopic {
   keyword: string;
   count: number;

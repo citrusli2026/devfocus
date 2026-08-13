@@ -5,9 +5,10 @@ import Link from "next/link";
 import { ArrowLeft, ExternalLink, MessageSquare, Star, ArrowUp, Calendar, Link as LinkIcon, Check } from "lucide-react";
 import { getSourceMeta } from "../lib/sources";
 import { useTranslation } from "../lib/i18n";
-import { isWithinDays } from "../lib/time";
+
 import { isValidTag } from "../lib/valid-tags";
-import type { FeedItem, HeatPoint } from "../types";
+import digestMeta from "../data/digest-meta.json";
+import type { FeedItem, HeatPoint, DigestMeta } from "../types";
 
 // Keep in sync with normalizeTag in src/app/tag/[tag]/page.tsx
 const tagHref = (tag: string) => `/tag/${encodeURIComponent(tag.toLowerCase().replace(/\s+/g, "-"))}/`;
@@ -159,7 +160,7 @@ export function ItemClient({ item, relatedItems, heatHistory }: { item: FeedItem
           {copied ? <Check className="h-4 w-4 text-accent-emerald" /> : <LinkIcon className="h-4 w-4" />}
           {copied ? t("item.copied") : t("item.copyLink")}
         </button>
-        {item.first_seen && isWithinDays(item.first_seen, 30) && (
+        {item.first_seen && ((digestMeta as DigestMeta).history_dates ?? []).includes(item.first_seen) && (
           <Link
             href={`/history/${item.first_seen}/`}
             className="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-surface-hover text-text-secondary font-semibold hover:bg-surface-elevated transition-colors"

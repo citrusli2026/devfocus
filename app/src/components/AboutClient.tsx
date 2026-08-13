@@ -3,9 +3,9 @@
 import { useTranslation } from "@/lib/i18n";
 import { Globe, Flame, Cpu, Code2, Zap, Calendar, BarChart3, Layers, MessageSquare, FileText } from "lucide-react";
 import { GitHubIcon } from "@/components/icons";
-import digestData from "@/data/digest.json";
+import digestMeta from "@/data/digest-meta.json";
 import statsData from "@/data/stats.json";
-import type { Digest } from "@/types";
+import type { DigestMeta } from "@/types";
 
 const stats = statsData as {
   generated_at: string;
@@ -27,7 +27,8 @@ const stats = statsData as {
 
 export default function About() {
   const { t, locale } = useTranslation();
-  const digest = digestData as unknown as Digest;
+  // 轻量元数据（count/generated_at），避免打包完整 digest.json
+  const meta = digestMeta as DigestMeta;
 
   const maxSourceCount = Math.max(...Object.values(stats.source_counts), 1);
 
@@ -47,7 +48,7 @@ export default function About() {
         </p>
 
         <div className="mt-8 grid grid-cols-2 sm:grid-cols-3 gap-3">
-          <StatCard value={digest.daily.count} label={t("about.statDaily")} color="text-accent-violet" icon={<Layers className="h-4 w-4" />} />
+          <StatCard value={meta.count} label={t("about.statDaily")} color="text-accent-violet" icon={<Layers className="h-4 w-4" />} />
           <StatCard value={stats.sources.length} label={t("about.statSources")} color="text-accent-emerald" icon={<Globe className="h-4 w-4" />} />
           <StatCard value={2} label={t("about.statLangs")} color="text-accent-amber" icon={<Code2 className="h-4 w-4" />} />
           <StatCard value={stats.total_items} label={t("about.statTotal")} color="text-accent-coral" icon={<BarChart3 className="h-4 w-4" />} />
@@ -58,7 +59,7 @@ export default function About() {
         {/* Last updated */}
         <div className="mt-4 inline-flex items-center gap-1.5 text-xs text-text-dim">
           <Calendar className="h-3.5 w-3.5" />
-          <span>{t("about.lastUpdated")}: {new Date(stats.latest_update || digest.generated_at).toLocaleString("zh-CN", { timeZone: "Asia/Shanghai", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit" })}</span>
+          <span>{t("about.lastUpdated")}: {new Date(stats.latest_update || meta.generated_at).toLocaleString("zh-CN", { timeZone: "Asia/Shanghai", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit" })}</span>
         </div>
       </section>
 

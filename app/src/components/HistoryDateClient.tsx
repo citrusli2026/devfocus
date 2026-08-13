@@ -5,7 +5,8 @@ import { Calendar, ArrowLeft } from "lucide-react";
 import { FeedList } from "./FeedCard";
 import { getSourceMeta } from "../lib/sources";
 import { useTranslation } from "../lib/i18n";
-import type { FeedItem } from "../types";
+import digestMeta from "../data/digest-meta.json";
+import type { FeedItem, DigestMeta } from "../types";
 
 export function HistoryDateClient({
   date,
@@ -17,6 +18,7 @@ export function HistoryDateClient({
   total?: number;
 }) {
   const { t } = useTranslation();
+  const historyDates = (digestMeta as DigestMeta).history_dates ?? [];
 
   const bySource: Record<string, FeedItem[]> = {};
   for (const item of items) {
@@ -72,7 +74,8 @@ export function HistoryDateClient({
                 </span>
               </div>
               <div className="space-y-2 sm:space-y-2.5">
-                <FeedList items={srcItems} showRank={false} />
+                <FeedList items={srcItems} showRank={false}
+                  digestDate={date} historyDates={historyDates} />
               </div>
             </section>
           );

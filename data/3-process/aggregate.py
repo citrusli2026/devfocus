@@ -442,6 +442,23 @@ def main():
 
     cleanup_old_snapshots(days=30)
 
+    # digest-meta.json：轻量元数据（来源列表/日期/可用归档日），
+    # 供前端 Footer/About/归档链接存在性兜底使用——
+    # 避免全站每个页面打包 digest.json（223KB，含 80 条完整条目）
+    history_dates = sorted(
+        f.stem for f in HISTORY_DIR.glob("*.json") if len(f.stem) == 10
+    )
+    meta = {
+        "generated_at": now.isoformat(timespec="seconds"),
+        "date": today_key,
+        "count": len(daily_items),
+        "sources": sources,
+        "history_dates": history_dates,
+    }
+    FINAL_DIR.joinpath("digest-meta.json").write_text(
+        json.dumps(meta, indent=2, ensure_ascii=False))
+    print(f"[AGG] Digest meta: {len(history_dates)} archive dates")
+
 
 if __name__ == "__main__":
     main()

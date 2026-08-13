@@ -2,17 +2,12 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { FeedItem, Digest } from "../types";
-import digestData from "../data/digest.json";
+import { FeedItem } from "../types";
 import { useTranslation } from "../lib/i18n";
 import { useReadItems } from "../lib/read-items";
-import { isWithinDays } from "../lib/time";
 import { isValidTag, isValidDomain } from "../lib/valid-tags";
 import { cn } from "../lib/utils";
 import { ExternalLink, MessageSquare, Star, ArrowUp, Share2, Link as LinkIcon } from "lucide-react";
-
-// Current digest date, used as "today" for new/days-on badges (build-time constant).
-const digestDate = (digestData as Digest).daily.date ?? "";
 
 // Calendar-day difference between two YYYY-MM-DD strings (b - a).
 function daysBetween(a: string, b: string): number {
@@ -124,7 +119,13 @@ function ShareButtons({ item, locale }: { item: FeedItem; locale: string }) {
   );
 }
 
-export function FeedCard({ item, rank, linkToDetail = false }: { item: FeedItem; rank?: number; linkToDetail?: boolean }) {
+export function FeedCard({ item, rank, linkToDetail = false, digestDate = "", historyDates }: {
+  item: FeedItem; rank?: number; linkToDetail?: boolean;
+  /** 当前 digest 日期（"今天"），用于 new/days-on 徽章 */
+  digestDate?: string;
+  /** 实际存在归档页的日期集合，避免渲染死链 */
+  historyDates?: string[];
+}) {
   const { t, locale } = useTranslation();
   const { isRead, markAsRead } = useReadItems();
   const read = isRead(item.id);
@@ -271,7 +272,7 @@ export function FeedCard({ item, rank, linkToDetail = false }: { item: FeedItem;
               </span>
             )}
             {item.first_seen && (
-              isWithinDays(item.first_seen, 30) ? (
+              historyDates?.includes(item.first_seen) ? (
                 <Link
                   href={`/history/${item.first_seen}/`}
                   className="text-[11px] text-text-dim px-1.5 py-0.5 rounded bg-surface-hover hover:text-accent-violet hover:bg-accent-violet/10 transition-colors"
@@ -299,11 +300,15 @@ export function FeedCard({ item, rank, linkToDetail = false }: { item: FeedItem;
   );
 }
 
-export function FeedList({ items, showRank = true, rankOffset = 0, linkToDetail = false }: { items: FeedItem[]; showRank?: boolean; rankOffset?: number; linkToDetail?: boolean }) {
+export function FeedList({ items, showRank = true, rankOffset = 0, linkToDetail = false, digestDate = "", historyDates }: {
+  items: FeedItem[]; showRank?: boolean; rankOffset?: number; linkToDetail?: boolean;
+  digestDate?: string; historyDates?: string[];
+}) {
   return (
     <div className="space-y-2 sm:space-y-2.5">
       {items.map((item, i) => (
-        <FeedCard key={item.id} item={item} rank={showRank ? rankOffset + i + 1 : undefined} linkToDetail={linkToDetail} />
+        <FeedCard key={item.id} item={item} rank={showRank ? rankOffset + i + 1 : undefined}
+          linkToDetail={linkToDetail} digestDate={digestDate} historyDates={historyDates} />
       ))}
     </div>
   );

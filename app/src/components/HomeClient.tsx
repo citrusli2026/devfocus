@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { Digest, FeedItem } from "@/types";
+import { Digest, FeedItem, DigestMeta } from "@/types";
 import { FeedList } from "@/components/FeedCard";
 import { RelativeTime } from "@/components/RelativeTime";
 import { SubscribeForm } from "@/components/SubscribeForm";
@@ -13,11 +13,14 @@ import { SOURCE_ORDER, getSourceMeta } from "@/lib/sources";
 import Link from "next/link";
 import { TrendingUp, Calendar, History, CheckCheck } from "lucide-react";
 import digestData from "@/data/digest.json";
+import digestMeta from "@/data/digest-meta.json";
 
 export default function Home() {
   const { t, locale } = useTranslation();
   const { markAllAsRead, isRead } = useReadItems();
   const digest = digestData as Digest;
+  // 轻量元数据：归档日期集合用于"昨日"链接存在性兜底（避免死链）
+  const historyDates = (digestMeta as DigestMeta).history_dates ?? [];
   const [active, setActive] = useState<string>("all");
   const tabsRef = useRef<HTMLDivElement>(null);
   const [scrollState, setScrollState] = useState({ left: false, right: false });
@@ -115,7 +118,7 @@ export default function Home() {
 
         <div className="mt-5 flex items-center justify-center gap-2">
           <Link
-            href={`/history/${yesterdayDate}/`}
+            href={historyDates.includes(yesterdayDate) ? `/history/${yesterdayDate}/` : "/history/"}
             className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-hover text-text-secondary hover:text-text-primary hover:bg-surface-elevated transition-colors text-xs font-medium"
           >
             <History className="h-3.5 w-3.5" />
@@ -210,7 +213,8 @@ export default function Home() {
               </div>
             )}
             <div className="space-y-2 sm:space-y-2.5">
-              <FeedList items={items} showRank={!isAllView} linkToDetail />
+              <FeedList items={items} showRank={!isAllView} linkToDetail
+                digestDate={digest.daily.date} historyDates={historyDates} />
             </div>
           </section>
         );

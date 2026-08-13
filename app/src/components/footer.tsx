@@ -4,13 +4,13 @@ import Link from "next/link";
 import { useTranslation } from "../lib/i18n";
 import { getSourceMeta } from "../lib/sources";
 import { GitHubIcon } from "./icons";
-import digestData from "../data/digest.json";
-import type { Digest } from "../types";
+import digestMeta from "../data/digest-meta.json";
+import type { DigestMeta } from "../types";
 
 export function Footer() {
   const { t } = useTranslation();
-  const digest = digestData as Digest;
-  const sources = digest.sources ?? [];
+  // 只用来源列表：从轻量 digest-meta.json 读取，避免全站打包 digest.json
+  const sources = (digestMeta as DigestMeta).sources ?? [];
 
   const links = [
     { href: "/", label: t("nav.today") },
