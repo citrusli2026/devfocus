@@ -559,6 +559,21 @@ def main():
                 item["summary_zh"] = s.get("summary_zh", "")
                 item["summary_en"] = s.get("summary_en", "")
 
+    # 强制兜底：digest 中的任何条目都必须有摘要，避免校验失败
+    # （LLM 不可用、冷却期内、或历史回填失败时，模板摘要保证管线不中断）
+    for key in ("daily", "monthly"):
+        for item in digest[key]["items"]:
+            if not (item.get("summary_zh") or "").strip():
+                zh, en = template_summary(item)
+                item["summary_zh"] = zh
+                item["summary_en"] = en
+                # 同步回 summaries.json，避免 enrich 阶段再次缺失
+                entry = existing.setdefault(item["id"], {})
+                entry["summary_zh"] = zh
+                entry["summary_en"] = en
+                if "input_hash" not in entry:
+                    entry["input_hash"] = item_hash(item)
+
     # Save（readme 仅作摘要输入，不写入最终产出）
     strip_internal(digest["daily"]["items"])
     strip_internal(digest["monthly"]["items"])
