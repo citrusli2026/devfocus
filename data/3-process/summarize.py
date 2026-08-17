@@ -218,6 +218,37 @@ def template_summary(item: dict) -> tuple[str, str]:
     return f"{label_zh}：{title}", f"{label_en}: {title}"
 
 
+def ensure_digest_summaries(digest: dict, existing: dict[str, dict]) -> None:
+    """强制兜底：digest 中的任何条目都必须有摘要，避免校验失败。
+
+    无论走 LLM/模板主流程还是提前返回，都必须保证最终 digest 不含空摘要；
+    否则 validate_data.py 会拒绝发布。
+    """
+    for key in ("daily", "monthly"):
+        for item in digest[key]["items"]:
+            if not (item.get("summary_zh") or "").strip():
+                zh, en = template_summary(item)
+                item["summary_zh"] = zh
+                item["summary_en"] = en
+                # 同步回 summaries.json，避免 enrich 阶段再次缺失
+                entry = existing.setdefault(item["id"], {})
+                entry["summary_zh"] = zh
+                entry["summary_en"] = en
+                if "input_hash" not in entry:
+                    entry["input_hash"] = item_hash(item)
+
+
+def prune_unresolved_empty(existing: dict[str, dict], unresolved_ids: set[str]) -> int:
+    """清理不可恢复的空摘要死数据：找不到原始条目、且无指纹/失败标记。"""
+    pruned = 0
+    for id in unresolved_ids:
+        entry = existing.get(id)
+        if entry and not entry.get("input_hash") and not entry.get("failed_at"):
+            del existing[id]
+            pruned += 1
+    return pruned
+
+
 def is_template_zh(zh: str) -> bool:
     return any(zh.startswith(p) for p in TEMPLATE_PREFIXES_ZH)
 
@@ -472,17 +503,13 @@ def main():
         for id, item in list(resolved.items())[:MAX_RETRY_EMPTY]:
             need[id] = item
             retry_only_ids.add(id)
-        unresolved = len(empty_ids) - len(resolved)
+        unresolved_ids = empty_ids - set(resolved)
+        unresolved_count = len(unresolved_ids)
         print(f"[SUM] 历史空摘要 {len(empty_ids)} 条：重新入队 {len(retry_only_ids)}"
-              + (f"，找不到原始条目跳过 {unresolved}" if unresolved else ""))
+              + (f"，找不到原始条目跳过 {unresolved_count}" if unresolved_count else ""))
         # 清理死数据：空摘要、找不到原始条目、且无指纹/失败标记的遗留条目
         # （不可恢复，保留只会每轮被扫描）
-        pruned = 0
-        for id in unresolved:
-            entry = existing.get(id)
-            if entry and not entry.get("input_hash") and not entry.get("failed_at"):
-                del existing[id]
-                pruned += 1
+        pruned = prune_unresolved_empty(existing, unresolved_ids)
         if pruned:
             print(f"[SUM] 清理 {pruned} 条不可恢复的空摘要死数据")
 
@@ -496,6 +523,9 @@ def main():
                     item["summary_zh"] = s.get("summary_zh", "")
                     item["summary_en"] = s.get("summary_en", "")
         backfill_hashes(existing, all_items)
+        # 即使本轮没有需要生成的条目，也可能存在冷却期内的空摘要；
+        # 统一走强制兜底，确保 digest 校验永不因空摘要失败。
+        ensure_digest_summaries(digest, existing)
         SUMMARIES_PATH.write_text(json.dumps(existing, indent=2, ensure_ascii=False))
         strip_internal(digest["daily"]["items"])
         strip_internal(digest["monthly"]["items"])
@@ -561,18 +591,7 @@ def main():
 
     # 强制兜底：digest 中的任何条目都必须有摘要，避免校验失败
     # （LLM 不可用、冷却期内、或历史回填失败时，模板摘要保证管线不中断）
-    for key in ("daily", "monthly"):
-        for item in digest[key]["items"]:
-            if not (item.get("summary_zh") or "").strip():
-                zh, en = template_summary(item)
-                item["summary_zh"] = zh
-                item["summary_en"] = en
-                # 同步回 summaries.json，避免 enrich 阶段再次缺失
-                entry = existing.setdefault(item["id"], {})
-                entry["summary_zh"] = zh
-                entry["summary_en"] = en
-                if "input_hash" not in entry:
-                    entry["input_hash"] = item_hash(item)
+    ensure_digest_summaries(digest, existing)
 
     # Save（readme 仅作摘要输入，不写入最终产出）
     strip_internal(digest["daily"]["items"])
