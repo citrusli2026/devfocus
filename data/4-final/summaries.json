@@ -1321,7 +1321,8 @@
   },
   "juejin-7650882103059939337": {
     "summary_zh": "这篇文章介绍了如何通过简单五步配置，在本地开发工具中免费无限使用DeepSeek V4 Pro模型，无需充值即可调用其强大能力，甚至还能接入Claude-Code。作者提供了详细的准备工作与操作指南，手把手教用户“薅羊毛”。对于AI开发者和爱好者而言，这是一份极具价值的省钱攻略，能让他们在不花费任何成本的情况下使用顶级AI模型加速编程和创作。",
-    "summary_en": "This tutorial explains how to configure local development tools to use the DeepSeek V4 Pro model for free and unlimited access with just five simple steps, and also covers integrating Claude-Code. The guide, written by a blogger known as 'Xing Ge', provides detailed instructions to help developers and AI enthusiasts leverage top-tier AI models without spending a dime. It is a valuable resource for programmers and creators looking to accelerate their workflows using cutting-edge AI at zero cost."
+    "summary_en": "This tutorial explains how to configure local development tools to use the DeepSeek V4 Pro model for free and unlimited access with just five simple steps, and also covers integrating Claude-Code. The guide, written by a blogger known as 'Xing Ge', provides detailed instructions to help developers and AI enthusiasts leverage top-tier AI models without spending a dime. It is a valuable resource for programmers and creators looking to accelerate their workflows using cutting-edge AI at zero cost.",
+    "input_hash": "a450cd4be0ed"
   },
   "gh-daily-bytedance-deer-flow": {
     "summary_zh": "字节跳动开源了DeerFlow，一个面向长期任务的超级智能体框架。它能够自主进行研究、编码和创作，借助沙箱环境、记忆模块、工具调用、技能学习和子代理协作来应对复杂场景。对于需要构建可扩展AI工作流的开发者来说，这提供了一个灵活且强大的基础工具。",
@@ -3484,7 +3485,8 @@
   },
   "juejin-7641048219231010862": {
     "summary_zh": "这篇文章完整记录了一位开发者利用AI辅助技术从零构建并上线微信小游戏的全过程。作者毫无保留地公开了技术栈、提示词（prompt）设计、遇到的各类踩坑问题以及详细的成本明细，甚至附有彩蛋。对于想尝试用AI加速小游戏开发但又缺乏经验的团队或个人来说，这篇实战复盘提供了真实可参考的路线图和避坑指南，展现了AI在降低开发门槛方面的巨大潜力。",
-    "summary_en": "This article provides a comprehensive walkthrough of building and launching a WeChat mini game entirely with AI assistance. The author shares everything from the technology stack and prompt engineering techniques to a detailed breakdown of costs and a list of common pitfalls encountered during the process, ending with a hidden bonus. For indie developers or small teams curious about leveraging AI to speed up game development, this real-world case study serves as an invaluable reference. It demonstrates how AI tools can dramatically lower the barrier to entry for game creation, making it accessible even to those without a deep coding background."
+    "summary_en": "This article provides a comprehensive walkthrough of building and launching a WeChat mini game entirely with AI assistance. The author shares everything from the technology stack and prompt engineering techniques to a detailed breakdown of costs and a list of common pitfalls encountered during the process, ending with a hidden bonus. For indie developers or small teams curious about leveraging AI to speed up game development, this real-world case study serves as an invaluable reference. It demonstrates how AI tools can dramatically lower the barrier to entry for game creation, making it accessible even to those without a deep coding background.",
+    "input_hash": "aedd5d750e9b"
   },
   "juejin-7659584269551501327": {
     "summary_zh": "在微服务架构中，分布式锁是保证数据最终一致性的关键，但传统Redis锁在高并发下常面临性能瓶颈和可靠性问题。本文深入剖析了这些痛点，并提出了一种增强型锁实现：在看门狗（Watch Dog）自动续期机制基础上引入等待队列和自适应自旋策略，显著减少了锁冲突时的资源浪费和延迟。对于后端架构师和中间件开发者来说，这篇文章从Redlock的局限性出发，一步步推导出更鲁棒的优化方案，兼具理论深度与实践价值。",
@@ -9204,8 +9206,8 @@
     "input_hash": "a9c271b157f7"
   },
   "36kr-3903692874827395": {
-    "summary_zh": "标题观点是不要把全职工作当成唯一安全感。原文是链接，未提供更多细节，无法得知论证过程或具体建议。",
-    "summary_en": "The title argues that full-time employment shouldn't be treated as your only source of security. The linked page isn't summarized here; details beyond the title aren't available, so the supporting arguments and advice are unknown.",
+    "summary_zh": "36Kr 发布的一篇文章以‘别把全职工作当成唯一安全感’为标题，主张重新思考职业安全感来源。原文是链接，未提供更多细节。",
+    "summary_en": "A 36Kr article carries the headline 'Don't Treat a Full-Time Job as Your Only Source of Security,' urging many readers to reconsider where career security comes from. This is a link-only post, and the linked page isn't summarized here, so details beyond the title aren't available in this news digest.",
     "input_hash": "a61f99cacb50"
   },
   "36kr-3943003260583049": {
@@ -9219,8 +9221,8 @@
     "input_hash": "7e35a7fb323a"
   },
   "gh-daily-santifer-career-ops": {
-    "summary_zh": "开源项目 santifer/career-ops 是一套多智能体求职系统：扫描招聘平台、用 A-F 评分表给职位打分并换算为 1.0-5.0，还能定制简历、跟踪申请进度，全程在本地 AI 编程 CLI（如 Claude Code）中运行。作者把此前只能被动等待 AI 筛选的求职流程反转过来，让候选人主动评估公司，适合习惯用命令行管理求职流程的开发者。",
-    "summary_en": "career-ops is an open-source multi-agent job search system that scans job portals, scores listings with a structured A-F rubric normalized to 1.0-5.0, tailors CVs, and tracks applications — all locally inside an AI coding CLI such as Claude Code. It was built by someone frustrated with manual applications, giving candidates an AI-powered way to evaluate companies rather than just being filtered. Job seekers who work in the terminal may find it a practical fit.",
+    "summary_zh": "career-ops 是一套开源的 AI 求职系统：抓取招聘网站、用 A-F 评分表给职位打 1.0-5.0 分、帮你定制简历并跟踪申请进度，整个流程跑在本地 AI 编程 CLI（如 Claude Code）里。作者把求职流程里最耗时环节自动化了，适合正在批量投递的开发者。",
+    "summary_en": "career-ops is an open-source, multi-agent job search system that scans job portals, scores listings from A to F mapped to a 1.0–5.0 scale, tailors your CV, and tracks applications — all running locally inside an AI coding CLI like Claude Code. It automates the most tedious parts of the job hunt, so it's worth a look for developers applying in bulk.",
     "input_hash": "5b6a9b193316"
   },
   "zhihu-2067930819897964535": {
@@ -9347,5 +9349,120 @@
     "summary_zh": "该条是 AICon 深圳的一场分享，主题为金融监管中 Harness 的实践，目标是让知识与数据驱动 Agent 稳定运行。原页面未提供正文，仅从标题无法得知具体方法；更多细节需查看原文链接。",
     "summary_en": "A session at AICon Shenzhen covers Harness practices in financial regulation, focusing on using knowledge and data to keep AI agents running stably. The original post is title-only with no body text, so the linked page isn't summarized here; specifics of the talk aren't available beyond this headline. The concrete approach is not described in this digest.",
     "input_hash": "f99051735b5f"
+  },
+  "v2ex-4b11132605f8": {
+    "summary_zh": "V2EX 热议：[生活] 女朋友说在我家呆着不舒服，再也不想来我家了",
+    "summary_en": "Hot on V2EX: [生活] 女朋友说在我家呆着不舒服，再也不想来我家了",
+    "input_hash": "145b51449d67"
+  },
+  "zhihu-2071739761476293183": {
+    "summary_zh": "这是一条知乎提问，询问如何评价刚开源的 Qwen3.8-27B。原帖未提供更多内容，因此摘要仅能基于标题：该模型已开源，讨论焦点是其评价。",
+    "summary_en": "This is a Zhihu question asking how to evaluate the just-open-sourced Qwen3.8-27B. The linked page isn't summarized here; details beyond the title aren't available. The only clear fact is that the model has been released as open source, which is why the thread invites community evaluation. Those tracking open-weight releases may find the discussion relevant, but no specifics are given.",
+    "input_hash": "21dbb48118fe"
+  },
+  "v2ex-81dd1da00ab8": {
+    "summary_zh": "V2EX 用户反馈 Codex 桌面版和 VSCode 插件在通过 ChatGPT 登录时都报错：Sign-in could not be completed，具体为请求 auth.openai.com/oauth/token 时 Token exchange failed。用户称已排除地区问题，目前未找到解决办法，在社区求助。",
+    "summary_en": "A V2EX user reports that both the Codex desktop app and the VSCode plugin fail to complete login via ChatGPT, showing 'Sign-in could not be completed' with a Token exchange failed error when requesting https://auth.openai.com/oauth/token. The user says region issues have been ruled out and is asking the community for help.",
+    "input_hash": "263de2e4d721"
+  },
+  "v2ex-ab6c850f1bb4": {
+    "summary_zh": "V2EX 用户发帖称自己的代币被盗，助记词泄漏：钱包两年未动，但一个月前就有异常操作。他怀疑此前将助记词拍照上传到 iCloud 和夸克网盘导致泄露，困惑是哪个平台的审核员看到了，并承认自己大意。",
+    "summary_en": "A V2EX user reports that their V2EX tokens were stolen due to a leaked seed phrase. The wallet had been untouched for two years, but suspicious activity occurred a month ago. The user had previously uploaded photos of the seed phrase to iCloud and Quark Netdisk, and suspects a reviewer from one of those platforms saw it, admitting they were careless because it was a small wallet.",
+    "input_hash": "2dfa1817c5e8"
+  },
+  "v2ex-686f202c6f98": {
+    "summary_zh": "V2EX 用户发帖强烈吐槽 Qwen3.7-flash 模型：接入 hermes 后不遵守已有技能沉淀规范和代码同步机制，忽略个性化设置，且几乎没有记忆。最严重的是，尽管设置了硬纪律和最高优先级规则，该模型仍一天内暴露凭据 6 次，用户因此建议不要使用。",
+    "summary_en": "A V2EX user rants against the Qwen3.7-flash model, claiming that when integrated with hermes it ignores custom skills, code sync scripts, and personalized settings, and retains almost no memory. Worse, despite setting hard rules and top-priority instructions to keep credentials out of the conversation, the model exposed credentials six times in one day. The user strongly advises against using this model.",
+    "input_hash": "66d2ded83361"
+  },
+  "v2ex-f75e2dd185f4": {
+    "summary_zh": "V2EX 用户问：在 payments.google.com 添加支付方式时，信用卡真实地址与地址第 1/2 行不一致能否通过？教程里的 address line 1 由生成器生成，与账单地址不同，担心验证失败。",
+    "summary_en": "A V2EX user asks whether a credit card's actual billing address can differ from address line 1/2 when adding a payment method on payments.google.com, since a tutorial's generated address line 1 won't match the card's real address. The concern is whether Google Payments will accept the mismatch.",
+    "input_hash": "278fde89480b"
+  },
+  "v2ex-9d9148cdb295": {
+    "summary_zh": "V2EX 用户研究 local.ai 后发现，它是一个针对本地人工智能的工具，会根据设备推荐合适的大模型。帖子附有邀请链接，但作者只注册看了看，没有深入测试。",
+    "summary_en": "After trying local.ai, a V2EX user found it's a service that recommends suitable large language models based on your device for local AI. The post shares an invite link, but the author only registered and looked around without deeper testing.",
+    "input_hash": "0ab3b2ead922"
+  },
+  "v2ex-1ffa42d324fd": {
+    "summary_zh": "V2EX 用户分享用 GraalVM native-image 将 JavaFX 项目打包成原生 exe 的实践：不熟悉配置，靠 opencode AI 代理反复编译和纠错终于跑通，但 WebView 操作崩溃、内存浮动大，文件选择器等缺失。他建议放弃 JavaFX，改做 Web 服务。",
+    "summary_en": "A V2EX developer shares how to compile a JavaFX project into a native exe with GraalVM native-image without being an expert: they let the opencode AI agent repeatedly build, analyze errors, and iterate. It worked after a day, but WebView interactions still crash, memory usage fluctuates between 300MB and 900MB, and features like the file chooser are missing. The author suggests skipping JavaFX and building a web service instead.",
+    "input_hash": "0347800346ce"
+  },
+  "v2ex-07bae02ff34c": {
+    "summary_zh": "V2EX 用户发放 3 个 Codex 邀请名额，每个可获 1,000 额度，需要的人留下邮箱即可。帖子没有更多细节，只是随手分享。",
+    "summary_en": "A V2EX user is giving away three invites to Codex that each come with 1,000 credits/quota. Interested members can leave an email. The post has no further details; it's just a quick share.",
+    "input_hash": "bd739d51c741"
+  },
+  "hn-49319556": {
+    "summary_zh": "Claude 的核心系统提示词更新说明现在可以在 claude.ai 和 iOS/Android 客户端上查看。内容展示了官方对提示词的调整，适合需要了解 Claude 行为边界或做提示词调优的开发者直接参考。",
+    "summary_en": "This post links to the updated core system prompts for Claude, now available on claude.ai and the official iOS and Android apps. Developers who tune Claude or audit its behavior can read exactly what changed in the official prompts, making it a useful primary reference for understanding the model's guardrails and default instructions.",
+    "input_hash": "d4df3f0459e5"
+  },
+  "zhihu-2072615174142255425": {
+    "summary_zh": "知乎上有一条关于新规的讨论，规定厨余垃圾不能直接喂猪，并抛出背后的政策考量以及对行业可能带来的影响两个问题。原文是链接，未提供更多细节。",
+    "summary_en": "This Zhihu discussion centers on a newly clarified rule that forbids feeding kitchen waste directly to pigs, and asks what considerations lie behind the policy and what effects it may bring. The post is a link-only item; the linked page isn't summarized here, so details beyond the title aren't available.",
+    "input_hash": "707523e9d46c"
+  },
+  "zhihu-2071509878875615796": {
+    "summary_zh": "知乎上有一个问答，讨论美伊战争进入第 6 个月时，为什么航空母舰上的水兵会先撑不住。原帖是链接，未提供更多细节。",
+    "summary_en": "This particular Zhihu question focuses on the sixth month of a US-Iran war and asks why sailors on aircraft carriers are the first to break under sustained military operations. The post is a link-only item; details beyond the title aren't available in this digest, as the linked page isn't summarized here.",
+    "input_hash": "d8a2c5fa7fbf"
+  },
+  "zhihu-2072103596481683649": {
+    "summary_zh": "知乎上出现一个问答，提到 DeepSeek Harness 周边一下子涌现了许多插件，向大佬求助推荐。原文是链接，未提供更多细节。",
+    "summary_en": "This Zhihu post says that DeepSeek Harness has suddenly seen a flood of plugins, with many new options emerging, and asks experienced users for recommendations on which ones to pick. This is a link-only item, and the linked page isn't summarized here, so details beyond the title aren't available in this digest.",
+    "input_hash": "83d8ee276d92"
+  },
+  "36kr-3943027909557632": {
+    "summary_zh": "上海市对购房政策进行了微调。本条仅有标题，原文为链接，未提供更多细节。",
+    "summary_en": "Shanghai has made minor adjustments to its home-purchase policy. This item only has a title; the linked page isn't summarized here, so details beyond the title aren't available.",
+    "input_hash": "0e6c62731944"
+  },
+  "juejin-7650352436700774400": {
+    "summary_zh": "开发者把小米 MiMo Code 官网链接丢给 Codex，十分钟就 1:1 复刻整站，连鼠标擦除露图动效、字体和 DESIGN.md 设计规范都一并还原。这个例子直观展示了 AI 编程代理处理前端交互和设计细节的能力，关注 AI 辅助编程的开发者可以看看。",
+    "summary_en": "A developer handed the Xiaomi MiMo Code site URL to Codex and got a 1:1 clone in ten minutes, including the mouse-erase reveal effect, fonts, and the DESIGN.md spec. It shows how AI coding agents can reproduce front-end interactions and design details, relevant if you're evaluating AI-assisted development.",
+    "input_hash": "904b9c09fb7c"
+  },
+  "gh-daily-akitaonrails-ai-memory": {
+    "summary_zh": "akitaonrails/ai-memory 是一个用 Rust 写的长时记忆工具，专门给 AI 编程 CLI 用：你可以在任务中途退出 Claude Code，换到 OpenAI Codex 继续，不用重新解释架构、失败尝试和待定问题。项目支持 Linux 和 macOS，采用 MIT 协议，适合在多款编程代理之间切换的开发者。",
+    "summary_en": "ai-memory is a Rust-based long-term memory solution for AI coding CLIs: quit Claude Code mid-task, start OpenAI Codex in the same directory, and continue without re-explaining architecture, failed approaches, or open questions. It supports Linux and macOS and is MIT-licensed, useful for developers who switch between coding agents.",
+    "input_hash": "356f0a51f1fa"
+  },
+  "juejin-7668296872551792640": {
+    "summary_zh": "该榜单盘点了 2026 年 7 月 GitHub 上最热门的十个项目，从 OmniRoute 到 page-agent，火力集中在 AI Agent 的可用性、可审性、可写性与可视化。适合想快速了解当月开源社区风向的开发者。",
+    "summary_en": "This roundup covers the ten hottest GitHub projects in July 2026, from OmniRoute to page-agent, with the trend concentrated on AI agents being affordable, reviewable, writable, and visible. It's a quick way to gauge where the open-source ecosystem is heading.",
+    "input_hash": "88029d4c9f8a"
+  },
+  "juejin-7671106436446011443": {
+    "summary_zh": "作者写这篇文章是为了回应一位球友的提问，将一线大厂普遍使用的 Git 规范从头到尾拆解一遍。文中按步骤讲解，给出可直接落地的实践参照。适合想规范团队 Git 流程、向大厂看齐的开发者。",
+    "summary_en": "This article is the author's reply to a reader's question about finding a reliable Git convention. It unpacks the Git standards used by top-tier tech companies from start to finish, making it a handy reference for daily development. Teams or individuals seeking to align their Git workflow with industry-leading practices will find actionable guidance here.",
+    "input_hash": "8991d51a073a"
+  },
+  "v2ex-9576d9843374": {
+    "summary_zh": "一位程序员在 V2EX 发帖吐槽，自己明明还有大量 token 额度，却对着上下文写不出提示词，感觉缺乏灵感。他困惑的是：知道要 AI 做什么，但写提示词却越来越需要灵感。",
+    "summary_en": "A programmer on V2EX vents at night about struggling to write AI prompts even though they still have many tokens and quota left. They feel a lack of inspiration and wonder why prompting needs more inspiration when they already know what they want the AI to do. The original post is a brief personal complaint without additional technical details.",
+    "input_hash": "88a106c939e3"
+  },
+  "v2ex-f68ac96a51d9": {
+    "summary_zh": "动画电影《牛来》导演信雨萌在专访中透露，他 1992 年生于大连，原是装修/景观设计师，2021 年跨界，5 年几乎一人完成 86 分钟纯手工动画，无科班背景、无团队、无投资、无 AI。其母亲孙丽芳是国企员工，自学音乐并包办全部配乐及片尾曲《雨后清风有香》的词曲唱，还参与编剧和配音。信雨萌说能做成这事'命好占了 99.9%'。",
+    "summary_en": "In a Bilibili interview, director Xin Yumeng discusses his animated film 'Niu Lai': born in 1992 in Dalian, he previously worked in decoration/landscape design, switched to animation in 2021, and spent five years nearly single-handedly creating an 86-minute hand-drawn film — no formal training, no team, no investment, no AI. His mother Sun Lifang, a state-owned enterprise employee who never studied music, self-taught and composed, wrote lyrics for, and performed the entire soundtrack and ending song '雨后清风有香', while also contributing to script discussions and voice acting. Xin attributes the achievement to being '99.9% lucky'.",
+    "input_hash": "4d55df84010d"
+  },
+  "zhihu-2070200885368419979": {
+    "summary_zh": "该条目仅提供标题：研究显示西地那非（伟哥成分）或能抑制癌细胞转移扩散，但距临床应用尚有距离。原文是链接，未提供更多细节。",
+    "summary_en": "This item is a title-only link: research suggests sildenafil (Viagra's active ingredient) might inhibit cancer metastasis, but clinical use is still far off. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "ce7955427772"
+  },
+  "hn-49324985": {
+    "summary_zh": "阿里开源 270 亿参数视觉语言模型 Qwen 3.8 27B（Apache 2.0）。Simon Willison 实测后发现它性能出色，但默认设置为“过度思考”，在 MacBook 和 DGX Spark 上 17GB 量化版即可运行，且超越前代与闭源 Qwen 3.7-Plus。",
+    "summary_en": "Qwen 3.8 27B is a 27B-parameter vision-language model from Alibaba's Qwen lab, released under Apache 2.0. Simon Willison found it excellent but prone to overthinking by default; it runs as a 17GB Q4_K_M quantized build on a MacBook Pro and NVIDIA DGX Spark, with benchmarks beating both Qwen 3.6 27B and closed-weight Qwen 3.7-Plus.",
+    "input_hash": "eaf72c5dcadb"
+  },
+  "hn-49324087": {
+    "summary_zh": "John Gruber 在 Daring Fireball 撰文批评 Anthropic 为满足欧盟法规，将在所有 Claude 模型的输出文本中嵌入隐写式水印，而非可见的 Unicode 字符。他指出 Anthropic 公告未解释实现方式，并认为这种通过 token 选择留下概率性指纹的做法是对写作的亵渎。",
+    "summary_en": "In a Daring Fireball post, John Gruber criticizes Anthropic's plan to watermark all Claude output text via steganography to comply with an EU regulation, rather than using invisible Unicode. He notes the company's announcement gave no implementation details, and argues that leaving probabilistic fingerprints through token selection during inference perverts writing.",
+    "input_hash": "762aff809276"
   }
 }
