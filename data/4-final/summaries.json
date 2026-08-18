@@ -6320,7 +6320,8 @@
   },
   "hn-49065752": {
     "summary_zh": "Kimi-K3模型正式登陆HuggingFace，这是一款在长文本处理和多轮对话上表现突出的开源大语言模型。它延续了Kimi系列的高效压缩和推理加速技术，使得资源有限的开发者也能轻松部署。此举将推动更多社区在复杂问答和文档分析场景中的应用，进一步降低大模型的使用门槛。",
-    "summary_en": "Kimi-K3, an open-source large language model excelling in long-context understanding and multi-turn conversation, has been released on HuggingFace. Building on Kimi's efficient compression and inference acceleration techniques, it lowers the barrier for developers with limited resources to deploy advanced AI. The release encourages community-driven innovation in complex QA and document analysis, making state-of-the-art language models more accessible to a wider audience."
+    "summary_en": "Kimi-K3, an open-source large language model excelling in long-context understanding and multi-turn conversation, has been released on HuggingFace. Building on Kimi's efficient compression and inference acceleration techniques, it lowers the barrier for developers with limited resources to deploy advanced AI. The release encourages community-driven innovation in complex QA and document analysis, making state-of-the-art language models more accessible to a wider audience.",
+    "input_hash": "edb6516f6a1d"
   },
   "hn-49063022": {
     "summary_zh": "一名美国公民在机场被边检人员要求解锁手机，其运行的GrapheneOS系统自动触发数据擦除，随后该公民被起诉。此事件凸显了增强隐私的操作系统与执法搜查之间的冲突，引发了关于数字权利、第五修正案以及用户是否有义务配合设备解锁的激烈讨论，对隐私和安全领域的法律边界提出了新挑战。",
@@ -7982,9 +7983,9 @@
     "input_hash": "b1b724c6e02c"
   },
   "ph-1212030": {
-    "summary_zh": "AdAnt AI 是一款社交广告创意工具，定位是“广告界的 Claude”，即用 AI 生成高传播、高转化的社交媒体广告。适合营销人员快速产出广告创意与文案，具体功能需参考官方介绍。",
-    "summary_en": "AdAnt AI is a social ad creative tool described as \"Claude for viral, high-converting social ads.\" That positioning points to an AI assistant for generating ad creative and copy aimed at engagement and conversion. Marketing teams and founders are the likely audience; product details would come from the official page.",
-    "input_hash": "1f49a8dd7b0d"
+    "summary_zh": "AdAnt AI 是一款定位为“社交广告界的 Claude”的工具，主打生成高转化、易传播的社交广告文案。适合依赖社交投放的营销人员与内容团队，用于快速产出多种广告变体。",
+    "summary_en": "AdAnt AI is pitched as \"Claude for viral, high-converting social ads,\" meaning it helps generate ad copy optimized for social platforms. It's aimed at marketers and content teams who need fast, engaging ad variations.",
+    "input_hash": "ffde10065f85"
   },
   "gh-daily-donnemartin-system-design-primer": {
     "summary_zh": "此仓库是 GitHub 热门的系统设计学习资源，聚焦大规模系统设计与面试准备，并附带 Anki 记忆卡片。适合准备系统设计面试或想系统梳理后端架构知识的开发者。",
@@ -9191,9 +9192,9 @@
     "input_hash": "db9968b30135"
   },
   "gh-daily-agalwood-Motrix": {
-    "summary_zh": "Motrix 是一款开源桌面下载管理器，支持 HTTP、FTP、BitTorrent 和磁力链接等协议。v2 版本（Motrix Turbo）用 Electron、React 和 TypeScript 重写，下载核心与界面分离，并通过基于 JSON-RPC 2.0 的开放协议 MDXP 与浏览器扩展、命令行工具通信，还支持无桌面环境的 headless server 模式。",
-    "summary_en": "Motrix is an open-source download manager for HTTP, FTP, BitTorrent, magnet links, and more. The v2 rewrite, Motrix Turbo, is built with Electron, React, and TypeScript, keeps the download core independent of the UI, and exposes an open JSON-RPC 2.0 protocol called MDXP for browser extensions and CLI tools. It also supports a headless server mode that runs without a desktop environment.",
-    "input_hash": "df3db15bb5a0"
+    "summary_zh": "Motrix 是支持 HTTP、FTP、BitTorrent 与磁力链接的全功能下载管理器；v2 版 Motrix Turbo 用 Electron、React、TypeScript 重写，下载核心与 UI 解耦。浏览器扩展和命令行工具通过基于 JSON-RPC 2.0 的开放协议 MDXP 通信，插件在隔离沙箱中运行。适合需要跨平台下载工具或研究桌面应用架构的开发者。",
+    "summary_en": "Motrix is a full-featured download manager supporting HTTP, FTP, BitTorrent and magnet links. Its v2 rewrite, Motrix Turbo, is built with Electron, React, and TypeScript and decouples the download core from the UI; browser extensions and CLI tools talk to it over MDXP, an open protocol based on JSON-RPC 2.0, with plugins running in sandboxes. Developers who want a cross-platform downloader or a clean Electron architecture example should find it useful.",
+    "input_hash": "b8c738264905"
   },
   "36kr-3943282569706884": {
     "summary_zh": "据标题，内容是关于阿里巴巴以100亿（未注明币种）出售其“现金牛”业务。原文是链接，未提供更多细节；具体被出售的业务和交易条件需点开原文确认。",
@@ -9464,5 +9465,290 @@
     "summary_zh": "John Gruber 在 Daring Fireball 撰文批评 Anthropic 为满足欧盟法规，将在所有 Claude 模型的输出文本中嵌入隐写式水印，而非可见的 Unicode 字符。他指出 Anthropic 公告未解释实现方式，并认为这种通过 token 选择留下概率性指纹的做法是对写作的亵渎。",
     "summary_en": "In a Daring Fireball post, John Gruber criticizes Anthropic's plan to watermark all Claude output text via steganography to comply with an EU regulation, rather than using invisible Unicode. He notes the company's announcement gave no implementation details, and argues that leaving probabilistic fingerprints through token selection during inference perverts writing.",
     "input_hash": "762aff809276"
+  },
+  "v2ex-a5451c806f3c": {
+    "summary_zh": "V2EX 热议：[生活] 中式的酒桌文化 一生黑",
+    "summary_en": "Hot on V2EX: [生活] 中式的酒桌文化 一生黑",
+    "input_hash": "7e234a60de49"
+  },
+  "infoq-UJt7EQIZJaWe1dFZkD6F": {
+    "summary_zh": "InfoQ 精选：技术风向变了？2026 年，数据库领域国际顶会都在研究什么？",
+    "summary_en": "Featured on InfoQ: 技术风向变了？2026 年，数据库领域国际顶会都在研究什么？",
+    "input_hash": "ec00afe13596"
+  },
+  "v2ex-bd944b5578fd": {
+    "summary_zh": "V2EX 热议：[问与答] 上班族推荐个午休小枕头",
+    "summary_en": "Hot on V2EX: [问与答] 上班族推荐个午休小枕头",
+    "input_hash": "02cd6ae553ae"
+  },
+  "ph-1222691": {
+    "summary_zh": "Meridian 是 Product Hunt 上的一款新品，宣传语为“别让你的工作被忽视，获得晋升”。目前仅有这句介绍，具体功能与运行方式未披露。",
+    "summary_en": "Meridian is a new product on Product Hunt whose tagline says, 'Don't let your work go unnoticed. Get promoted!' No further details about its functionality are available; the entry only offers this tagline.",
+    "input_hash": "fb0029de6f50"
+  },
+  "zhihu-2070835091132125605": {
+    "summary_zh": "知乎话题讨论康师傅与统一今年上半年的方便面业务均实现增长，并追问方便面再度受青睐的原因。该提问没有附带正文，仅有标题，因此具体数据与分析尚不可知。",
+    "summary_en": "A Zhihu thread asks why instant noodle businesses of Kangshifu and Uni-President both grew in H1, highlighting renewed interest in instant noodles. No body text accompanies the question, so no numbers or analysis beyond the title are available.",
+    "input_hash": "a2a826a67642"
+  },
+  "36kr-3944273186241673": {
+    "summary_zh": "36氪早报汇总三条新闻：李书福辞任吉利汽车董事会主席，管理层将调整；iPhone 17 或全球涨价，最高涨幅近千元；宇树科技发布“超人”产品。该条目无正文，除标题所列要点外没有更多细节。",
+    "summary_en": "This 36Kr morning brief covers three items: Li Shufu steps down as chairman of Geely Automobile with a management shuffle, iPhone 17 may see a global price increase of up to nearly ¥1,000, and Unitree launches a product called 'Superman'. No body text accompanies the briefing, so no further details are available.",
+    "input_hash": "03823abb60b6"
+  },
+  "infoq-MljtE2Xk6hVkd061LY7k": {
+    "summary_zh": "Qwen3.8-27B 是一个 27B 参数的原生多模态稠密模型，Apache 2.0 协议开源，量化后可在消费级 GPU 上运行。在编程、Agentic 和多项多模态基准上，其得分超过 Claude Opus 4.6 Max，被本地大模型玩家视为最受期待的发布之一。",
+    "summary_en": "Qwen3.8-27B is a natively multimodal 27B dense model open-sourced under Apache 2.0; quantized builds can run on consumer GPUs. It beats Claude Opus 4.6 Max on several coding, agentic, and multimodal benchmarks, and has drawn excitement from local-model enthusiasts as one of the most promising releases.",
+    "input_hash": "e1a7c7171bfd"
+  },
+  "v2ex-e7355c30cee3": {
+    "summary_zh": "DSH 长回复默认把最后一行对齐到页面底部，用户得滚动到顶部才能从开头阅读。插件 dsh-reply-top-align 将回复首行对齐到页面顶部来解决这一痛点，代码位于 GitHub 仓库 zisen123/dsh-reply-top-align，安装步骤见 INSTALL.md。",
+    "summary_en": "The DSH plugin dsh-reply-top-align aligns the first line of a long reply to the top of the page, fixing the default last-line alignment that forces users to scroll up to read from the beginning. The code is on GitHub at zisen123/dsh-reply-top-align, with installation steps in the repo's INSTALL.md.",
+    "input_hash": "d280272ab774"
+  },
+  "infoq-77NthDLZNgqTgBuMKsQh": {
+    "summary_zh": "openJiuwen（华为 2012 实验室等联合构建）将蜂群智能体升级为 WorkSwarm，已上架鸿蒙 PC 应用市场并支持 Windows 与 Mac。它通过协同工程组织多智能体分工接棒，可让 7 个 Agent 合作完成一首歌，也支持单 Agent 与集群两种模式，用户能随时查看进度并加入协作。",
+    "summary_en": "openJiuwen, built jointly by Huawei's 2012 Labs et al., has upgraded its swarm agents into WorkSwarm, now available on HarmonyOS PC app store with Windows and Mac support. Using Coordination Engineering, it organizes multiple agents to hand off tasks — e.g., 7 agents can co-create a song. It offers single-agent and swarm modes, letting users monitor progress or join the team.",
+    "input_hash": "3a17cc5e9774"
+  },
+  "v2ex-1c3cffdb7092": {
+    "summary_zh": "Anthropic 的 Claude Code 周限额促销将在明天截止，促销自 5 月 13 日起将周额度提高 50%，截止后额度恢复，用户可用额度将减少约三分之一；5 小时使用限制不受影响。有用户反馈用过 Fable 5 后难回 Opus 或 GPT 5.6。",
+    "summary_en": "Anthropic's Claude Code weekly limits promotion ends tomorrow; since May 13 it has raised limits by 50%, so after it ends users get roughly one-third less than during the promo. The 5-hour usage limit is unaffected. One user reports finding it hard to go back to Opus or GPT 5.6 after using Fable 5.",
+    "input_hash": "b68f5ba6c2f0"
+  },
+  "infoq-0MLCGOPXzzILTxB8CORk": {
+    "summary_zh": "Snowflake 正将 AI 嵌入 FinOps 成本管理工具，并发布一组治理原语，以应对 AI 工作负载的不可预测支出。据 FinOps Foundation 报告，98% 的 FinOps 团队已在管理 AI 支出，两年前仅 31%；挑战集中在可见性、成本分摊和 ROI 判断。",
+    "summary_en": "Snowflake is embedding AI into its FinOps tooling and offering governance primitives to manage unpredictable AI costs. Per the FinOps Foundation's State of FinOps 2026 report, 98% of teams now manage AI spend, up from 31% two years ago. Key pain points: visibility, allocation, and ROI.",
+    "input_hash": "59c8f928cb56"
+  },
+  "v2ex-82c867e28359": {
+    "summary_zh": "一位用户发现 iPhone 和 iPad 在连续 3 天不解锁后会自动强制重启。原文是链接，未提供更多细节。",
+    "summary_en": "A user reports that iPhone and iPad force-restart after 3 days without unlocking. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "f4e1008b1595"
+  },
+  "infoq-fpxjBGx9mj52yzMoZ8Ty": {
+    "summary_zh": "Snowflake 用 Streamlit 构建了内部长期规划应用 Snowplan，以替代维护困难的巨型 Excel 模型。分析师可通过可编辑界面更新假设，改动直接写回 Snowflake 并即时反映新输出，支持版本化、场景对比和按角色细粒度操作。",
+    "summary_en": "Snowflake built Snowplan, an internal long-term planning app using Streamlit, replacing a giant Excel model. Analysts edit assumptions in the UI, which writes back to Snowflake and recomputes outputs instantly. It supports versioning, scenario comparison, and role-specific granularity.",
+    "input_hash": "e389e66a7d7f"
+  },
+  "infoq-M7RAkplwuMQrs72dSYfj": {
+    "summary_zh": "InfoQ 文章介绍 Kotlin Multiplatform (KMP) 在鸿蒙上的落地成效：渲染内存降低 95%，GC 卡顿率降低 90%。文章梳理了 React Native、Flutter 到 Jetpack Compose 的跨平台演进脉络，为理解 KMP 的适配方案提供背景。",
+    "summary_en": "This article spotlights Kotlin Multiplatform on HarmonyOS, reporting a 95% cut in rendering memory and a 90% drop in GC jank. It retraces the evolution of cross-platform frameworks — React Native, Flutter, Jetpack Compose — and their performance trade-offs.",
+    "input_hash": "2113edc7f1ac"
+  },
+  "infoq-5bfbkX6WIN3iKO6FlJwO": {
+    "summary_zh": "npm 正式推出分阶段发布（staged publishing）功能：新版本上传后先进入队列，由维护者通过双因素认证审批后才公开放行。这是应对 Shai-Hulud 蠕虫等供应链安全事件的举措，官方建议与 OIDC 可信发布结合使用；要求 npm CLI ≥ 11.15.0、Node ≥ 22.14.0。",
+    "summary_en": "npm has made staged publishing GA: package versions land in a staging queue and require maintainer approval (with 2FA) before becoming installable. Aimed at supply-chain attacks like the Shai-Hulud worm, it's designed to work alongside OIDC-based trusted publishing. Requires npm CLI >= 11.15.0 and Node >= 22.14.0.",
+    "input_hash": "fc16708234c2"
+  },
+  "ph-1223058": {
+    "summary_zh": "Product Hunt 上架了 xpander 的新产品 Omni，简介为“Stop babysitting your AI agents”（别再盯着你的 AI 代理）。原文是链接，未提供更多细节，具体功能需等待官方进一步介绍。",
+    "summary_en": "Omni by xpander appears on Product Hunt with the line 'Stop babysitting your AI agents.' The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "3235741f7816"
+  },
+  "v2ex-603de7f96a55": {
+    "summary_zh": "socket.dev 是一个面向 NPM 生态的安全扫描服务。帖文演示了如何通过 `npm install -g socket` 安装它，再以 `npx @deepseek-ai/dsh web` 运行 DeepSeek Harness，从而让 Socket 保护安装和执行过程。适合关心 AI 工具供应链安全的开发者参考。",
+    "summary_en": "socket.dev is a security scanning service for the NPM ecosystem. The post shows installing Socket with `npm install -g socket`, then running DeepSeek Harness via `npx @deepseek-ai/dsh web` so Socket guards the installation and execution. It's a practical reference for developers worried about supply-chain security in AI tools.",
+    "input_hash": "3eb642b16a55"
+  },
+  "ph-1214248": {
+    "summary_zh": "Clears 的官方介绍语是“从 AI 编程走向智能体化软件交付”。它把卖点放在让智能体承担更多交付环节，而不只是辅助写代码。除这句定位外，本次条目没有提供更具体的功能细节。",
+    "summary_en": "Clears is positioned around the tagline 'Move beyond AI coding to Agentic Software Delivery,' suggesting a focus on letting agents handle more of the delivery pipeline rather than just generating code. The listing offers no concrete feature details beyond this one-line positioning.",
+    "input_hash": "3a48ce175047"
+  },
+  "v2ex-d513ec23f8a2": {
+    "summary_zh": "一位 iPhone 用户反馈，升级到 iOS27 后 iMessage 就无法发送了，而此前一直正常使用。帖子没有给出设备型号、系统版本号、错误信息或任何排查步骤，暂时不清楚是个例还是共性问题。",
+    "summary_en": "An iPhone user reports that iMessage stopped sending after upgrading to iOS27, though it worked fine before. The post offers no device model, build number, error details, or troubleshooting steps, so it's unclear whether the problem is isolated or widespread.",
+    "input_hash": "8e107ac4855c"
+  },
+  "v2ex-26de2b5c348d": {
+    "summary_zh": "一位开发者深度体验 Grok4.6 后，称它又快又准，帮自己实现了很多功能，且只出现一个 BUG。他认为 Grok4.6 的准确度比 GPT5.6 之前的模型提升明显，并指出 Cursor 套餐中 Grok4.6 的可用额度很充足。",
+    "summary_en": "A developer reports hands-on experience with Grok4.6 inside a Cursor plan, calling it fast and accurate, helping build many features with only one bug encountered. The user says accuracy is a clear improvement over pre-GPT5.6 models and notes the Cursor plan includes a generous Grok4.6 quota.",
+    "input_hash": "73a1ffc304a4"
+  },
+  "ph-1224529": {
+    "summary_zh": "Vendo 的宣传语是“让你的用户在你的产品里构建自己的功能”，主打把功能扩展能力交给终端用户。当前条目只有这一句定位，未提供实现方式、定价或更多技术细节，因此无法判断其具体形态。",
+    "summary_en": "Vendo's tagline says it lets your users build their own features inside your product, pointing to an end-user extensibility model. The listing has only this positioning; no implementation details or technical specifics are available.",
+    "input_hash": "83ca261122b6"
+  },
+  "hn-49336573": {
+    "summary_zh": "这是一条 Hacker News 帖子，作者自称对 AI 非常支持，但已受够 AI 生成的垃圾内容，因此把 AI;DR（AI; Didn't Read）当作过滤信息墙的新方式。除了表达个人态度，正文没有提任何具体工具、扩展或项目链接，更像一个观点而非产品介绍。",
+    "summary_en": "A Hacker News submission uses AI;DR as the author's new catchphrase for skipping AI-generated 'walls of slop.' The author says they are as pro-AI as possible but find this acronym useful for quickly dismissing low-effort content. No project or tool is described — only a personal opinion, so the post is more commentary than a product announcement.",
+    "input_hash": "3831d4772671"
+  },
+  "v2ex-1fa106b8565b": {
+    "summary_zh": "DBNova 是刚发布 beta.3 的数据库管理软件，基于 Wails 构建，支持主流 SQL 数据库、MongoDB 和 Redis，提供 Windows x64、Linux x64 与 macOS Arm64 版本。它扩展 SQL 语法和注释实现参数化复用，也能用 TypeScript 生成 d.ts 注入 Monaco Editor。目前没有付费功能，作者计划在 Wails3 发布后再做单库独立窗口付费特性。",
+    "summary_en": "DBNova's beta.3 is a Wails-based database manager that supports multiple SQL databases as well as MongoDB and Redis on Windows x64, Linux x64, and macOS Arm64. It extends SQL syntax and comments for parameterized reuse and can generate d.ts from database structures into Monaco Editor for TypeScript users. No features are paid yet; the author plans to add a paid single-database-window feature only after Wails3 ships.",
+    "input_hash": "148963c927be"
+  },
+  "v2ex-42424118237d": {
+    "summary_zh": "「行业图谱」是一个面向投资与行业研究的产品，正在招募种子用户，首批用户可永久免费使用 Pro 套餐并优先体验新功能。官方希望用户直接反馈 Bug、使用场景和功能需求，产品愿景是把产业链关系可视化，帮助快速理解行业和发现机会。适合股票研究者与行业分析人员参与内测。",
+    "summary_en": "An investment-research product called 'Industry Graph' is recruiting seed users, offering permanent free Pro access and early access to new features. The developer wants direct feedback on bugs, real use cases, and feature requests, with the goal of visualizing industry-chain relationships for faster sector understanding and opportunity discovery. Suitable for stock researchers and industry analysts who want early access and direct input.",
+    "input_hash": "95c2f0cd51aa"
+  },
+  "hn-49337392": {
+    "summary_zh": "报道称 Hanover Institute 在一周多时间里发布了至少 100 篇文章，内容看起来专为影响 AI 聊天机器人而设计，并被描述为由以色列创建的虚假智库。该事件提醒人们，AI 模型可能通过索引文本吸收有组织的虚假信息，适合关注 AI 安全与信息战的读者阅读。",
+    "summary_en": "A report claims the Hanover Institute published at least 100 articles in just over a week, with content seemingly tailor-made to sway AI chatbots, and describes it as a fake think tank created by Israel. It raises concerns about AI systems ingesting coordinated disinformation from indexed text. Worth reading for those focused on AI security and information warfare.",
+    "input_hash": "af531f51966f"
+  },
+  "infoq-1EP0hwuqRzccrWArR7GJ": {
+    "summary_zh": "极客时间教研组发布了一套开源的 DeepSeek Harness 极简入门教程，用 7 篇短文和贯穿始终的 Task Lens 项目，带读者从空目录启动到完成一次功能升级。教程覆盖模型接入、Agent 预设和插件配置，约 1-2 小时可走完，适合想先建立整体认识再深入源码的开发者。",
+    "summary_en": "Geek Time's teaching team has released an open-source hands-on tutorial for DeepSeek Harness, built around a sample project called Task Lens. It walks you from an empty directory through launching the harness, switching model providers, comparing agent presets, and configuring plugins, with seven short articles designed to be finished in one or two hours. Developers who want an end-to-end mental model before diving into the source code will find it useful.",
+    "input_hash": "9bb064e2aad7"
+  },
+  "zhihu-2073094932298822565": {
+    "summary_zh": "根据标题，官方调整了住房公积金政策：租房提取公积金不再设收入比例门槛，装修自住住房也可提取公积金。原文是链接，未提供更多细节。",
+    "summary_en": "Based on the title, Chinese authorities adjusted housing provident fund rules: rental withdrawals no longer have an income-ratio threshold, and renovations to owner-occupied homes become eligible for withdrawal. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "e7c9e50760e2"
+  },
+  "infoq-LLrRNFqoYHPWGNSPslWm": {
+    "summary_zh": "格灵深瞳上线新官网 Glint AI Studio，将视觉 AI 落地所需的系统能力产品化：GBOX 边缘智算盒子负责边缘推理，MENTOR 算法训练大师与 EXPERT 算法运营专家分别和 GBOX 组合，形成持续训练与本地化运营两条路径。它展示了模型之外部署、调度、数据回流等环节的重要性。",
+    "summary_en": "Glint AI Studio, the new website from Chinese visual AI company Glint, productizes the system capabilities needed after model training: the GBOX edge-computing box handles edge inference, while MENTOR for training and EXPERT for operations can pair with GBOX to cover continuous training or fully local deployment. It shows that model accuracy alone isn't enough—deployment, scheduling, and data feedback are where real-world visual AI projects succeed or fail.",
+    "input_hash": "a26ec64dbc7f"
+  },
+  "gh-daily-public-apis-public-apis": {
+    "summary_zh": "public-apis/public-apis 是 GitHub 上维护的免费 API 集合仓库。README 顶部在推广 APILayer 统一套件：用一个账号、一个控制台和一个 API key 集成位置解析、邮件验证、航班、股票、搜索等生产级 REST API。适合需要快速找免费 API 或对比供应商的开发者。",
+    "summary_en": "public-apis/public-apis is a GitHub repository maintaining a collective list of free APIs. Its README currently promotes APILayer's unified suite, pitching one account, one dashboard, and one API key to access production-grade REST APIs for geocoding, email validation, flight data, stock data, and search. Developers looking for free API collections can use it as a directory.",
+    "input_hash": "bc0543444c0a"
+  },
+  "hn-49330781": {
+    "summary_zh": "DuckDB 官方预告 v2.0 将于今年秋季发布，并列出主要新特性：支持作为服务器运行、触发器、VARIANT 类型、异步 I/O、新的 SQL parser 和新的存储格式。对用 DuckDB 做嵌入式分析或需要服务化部署的开发者，服务端模式值得关注。",
+    "summary_en": "DuckDB v2.0 is scheduled for this fall, according to an official preview. The headline features include running DuckDB as a server, triggers, the VARIANT type, asynchronous I/O, a new SQL parser, and a new storage format. Developers using DuckDB for embedded analytics or planning server-side deployments should pay close attention.",
+    "input_hash": "bb9cc815bfc9"
+  },
+  "infoq-sjSVpfSFB3cQwzP3lMHZ": {
+    "summary_zh": "Anthropic 联合创始人兼 CEO Dario Amodei 8 月 16 日在 X 发布长文回应 AI 信任危机，承认 AI 公司未兑现承诺，帖子浏览量已破千万。他反对把监管等同于权力集中，主张制度化程序能去中心化，并支持放慢前沿模型、利好小公司的 SB 53 与 SB 1047 等政策。",
+    "summary_en": "Anthropic co-founder and CEO Dario Amodei posted a long X thread on August 16 addressing the AI trust crisis, acknowledging that AI companies haven't delivered on their promises; it has surpassed 10 million views. He rejects the 'regulation equals power concentration' framing, argues institutional processes can decentralize power, and supports policies that slow frontier labs while benefiting smaller competitors, citing California's SB 53 and SB 1047.",
+    "input_hash": "40153fa474ff"
+  },
+  "hn-49338459": {
+    "summary_zh": "开发者 Tim Marinin 发现，Bluesky 应用界面本没有 logo，但截图角落却会出现，同一位置在正常使用时是 Follow 按钮。他在切换应用的间隙截屏仍看到按钮，于是怀疑 Bluesky 借助 iOS 截屏监听在最后瞬间换上 logo，并为此写了分析。",
+    "summary_en": "Developer Tim Marinin noticed that Bluesky screenshots show a logo in the corner even though the app UI doesn't display one — the spot is occupied by a Follow button. When he screenshotted during an app-switcher transition, the button was still visible, so he suspects Bluesky hooks the iOS screenshot shortcut and swaps in the logo at the last moment. He published his investigation.",
+    "input_hash": "0328c2a70500"
+  },
+  "36kr-3944514235455111": {
+    "summary_zh": "36氪这篇报道的标题称，在 AI 生成代码过剩之后，一家专门给代码“冲厕所”的清理公司报价涨了十倍。原文是链接，未提供更多细节。",
+    "summary_en": "A 36Kr story's headline says that after an overabundance of AI-generated code, a company doing 'toilet-cleaning' work for code — i.e., cleaning up messy output — has become ten times more expensive. The linked page isn't summarized here; details beyond the title aren't available. The item includes no description or body, so this is the extent of what can be reported.",
+    "input_hash": "da529f4e0568"
+  },
+  "hn-49345263": {
+    "summary_zh": "这是 Seth Godin 博客上一篇题为《The Amazon tax》的文章，但正文未提供，只能看到博客简介“marketing, tribes and respect”。原文是链接，未提供更多细节。",
+    "summary_en": "This is a post titled 'The Amazon tax' on Seth Godin's blog, but the article text isn't included — only the blog's tagline 'marketing, tribes and respect' appears. The linked page isn't summarized here; details beyond the title aren't available. As a result, the post's actual argument cannot be assessed.",
+    "input_hash": "157d605bcfab"
+  },
+  "zhihu-2073101523161192426": {
+    "summary_zh": "知乎问题引述小米集团第二季度业绩：总收入 1089 亿元，经调整净利润 62 亿元，并询问如何评价这一表现。原文是链接，未提供更多细节。",
+    "summary_en": "A Zhihu question cites Xiaomi Group's Q2 results — total revenue of 108.9 billion yuan and adjusted net profit of 6.2 billion yuan — and asks how to evaluate the performance. The linked page isn't summarized here; details beyond the title aren't available. This appears to be a discussion prompt, not an article.",
+    "input_hash": "d620b8d3e7d1"
+  },
+  "36kr-3944456947472006": {
+    "summary_zh": "郭台铭推动二十年的转型计划终于落地，报道称其掌舵的算力业务已成为万亿级龙头，但估值高度依赖AI行业景气度。原文是链接，未提供更多细节。",
+    "summary_en": "Guo Taiming's two-decade transformation goal has reportedly landed, with his company now a trillion-yuan computing-power leader whose valuation hinges largely on AI market sentiment. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "ecd1e0516bf3"
+  },
+  "36kr-3944469940354434": {
+    "summary_zh": "报道称，在国内近乎绝迹的老式奶茶，却在韩国女性和白人女性顾客中引发排队热潮，还撑起了约40亿元市值。原文是链接，未提供更多细节。",
+    "summary_en": "A nostalgic, old-school milk tea that has nearly disappeared in China is apparently drawing long queues among Korean and white female customers and supporting a market value of roughly 4 billion. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "9c78e667921a"
+  },
+  "36kr-3944424092400770": {
+    "summary_zh": "报道称，带摄像头的 AirPods 遭到曝光，苹果的一批产品传闻也得到证实。原文是链接，未提供更多细节。",
+    "summary_en": "The report says AirPods with integrated cameras have been revealed, and a slate of other Apple product rumors are said to be confirmed. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "9e507f3d971c"
+  },
+  "zhihu-2071850141703729771": {
+    "summary_zh": "伊朗方面称“美军比想象中更弱”，标题据此提问：这一判断基于哪些事实，又反映出美军的何种现状？原文是链接，未提供更多细节。",
+    "summary_en": "Iran is quoted as saying \"the U.S. military is weaker than imagined,\" and the headline asks what facts back that assessment and what it reveals about the U.S. military today. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "2b703226ee07"
+  },
+  "36kr-3944309176237441": {
+    "summary_zh": "报道标题称，AI服务器销售火爆，让相关厂商一天能赚1.3亿元。原文是链接，未提供更多细节。",
+    "summary_en": "The headline says booming AI server sales are generating 130 million yuan a day for the company involved. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "500e218040e2"
+  },
+  "36kr-3943581379099779": {
+    "summary_zh": "这篇 36kr 专访的标题显示，受访者是曾与《牛来》同档期的导演，ta 用“我们用心拍电影的人成了小丑”来概括行业现状。原文是链接，未提供更多细节。",
+    "summary_en": "This 36Kr interview, judging solely from the headline, features a director whose film was in the same release window as '牛来' (Niu Lai); they lament that people who genuinely care about filmmaking have become 'clowns.' No more context was available in this digest: the linked page isn't summarized here, and details beyond the title aren't available.",
+    "input_hash": "1fd85bd7e881"
+  },
+  "gh-daily-bojieli-ai-agent-book": {
+    "summary_zh": "李博杰所著《深入理解 AI Agent：设计原理与工程实践》的开源主仓库，提供全书正文、编译版 PDF/EPUB 和按章配套代码，也可在 bojieli.github.io/ai-agent-book 在线阅读。已翻译为 14 种语言，采用 Apache-2.0 许可证，适合想系统学习 AI Agent 工程实现的中文开发者。",
+    "summary_en": "This is the open-source main repository for Li Bojie's book Understanding AI Agents: Design Principles and Engineering Practice, hosting the full text, compiled PDF/EPUB, and per-chapter code, with online reading at bojieli.github.io/ai-agent-book. It has been translated into 14 languages and is licensed under Apache-2.0 — a practical resource for developers who want to learn how AI agents are designed and built.",
+    "input_hash": "a9f0dc74b0ac"
+  },
+  "gh-daily-genlayerlabs-genlayer-project-boilerplate": {
+    "summary_zh": "genlayerlabs/genlayer-project-boilerplate 是一个 GenLayer 示例项目，内置一个带 Web 访问和 LLM 集成的足球竞猜智能合约。仓库还包含直接模式单元测试（可 mock Web/LLM，毫秒级）、针对 GenLayer Studio 的端到端集成测试、合约静态检查 linting 和 GitHub Actions CI 流水线，适合作为 GenLayer 合约开发的脚手架。",
+    "summary_en": "genlayerlabs/genlayer-project-boilerplate is a sample GenLayer project featuring a football-bets intelligent contract with web access and LLM integration. The repo also includes fast in-memory 'direct mode' tests with mocked web/LLM calls, end-to-end integration tests against GenLayer Studio, contract linting, and a GitHub Actions CI pipeline — a ready-made scaffold for GenLayer contract development.",
+    "input_hash": "0fdbfedd192c"
+  },
+  "36kr-3944955424963715": {
+    "summary_zh": "这篇 36kr 文章的标题为《中国咖啡一哥，换对手了》，指向中国咖啡市场头部品牌的竞争格局变化。原文是链接，未提供更多细节。",
+    "summary_en": "A 36Kr article titled 'China's coffee leader has a new rival' suggests that the country's dominant coffee brand is now facing a different competitor, pointing to a realignment in the market's top tier. No body text was provided for this digest entry; the linked page isn't summarized here, and details beyond the title aren't available.",
+    "input_hash": "d99c80b51105"
+  },
+  "36kr-3904020396295817": {
+    "summary_zh": "这篇文章的核心观点是：问题不在时间总量，而在能否拥有专注高效的高质量时段。标题本身即点明观点，但原文仅为链接，未提供更具体的建议或方法论。",
+    "summary_en": "The piece argues that what you lack isn't time itself but high-quality time blocks, shifting the focus from time quantity to deep, focused periods. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "a7642b6a35fd"
+  },
+  "36kr-3944305380703618": {
+    "summary_zh": "该文讨论电动车续航达到1000公里后，油车车主是否就会因此考虑购买电车。标题暗示续航里程可能不是换车的决定性因素，但原文仅提供标题，未展开具体分析。",
+    "summary_en": "This article asks whether a 1000-km range for electric cars would actually convince gas car owners to switch, implying range alone may not be the deciding factor. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "ba4fec21423d"
+  },
+  "juejin-7661439504077176847": {
+    "summary_zh": "作者 alien 介绍了 ai-website-cloner-template，一个基于 Playwright 与多 Agent 协作的网站一键复制方案，并讲解其使用方法和实现原理。适合想快速克隆网页布局、或对自动化抓取与多 Agent 编排感兴趣的开发者。",
+    "summary_en": "Author alien introduces ai-website-cloner-template, a Playwright-based tool with multi-agent orchestration that clones websites in one click, and explains both usage and internals. It's aimed at developers interested in rapid page replication or multi-agent automation.",
+    "input_hash": "c7a17c2ad281"
+  },
+  "gh-daily-basecamp-omarchy": {
+    "summary_zh": "Omarchy 是 DHH 推出的 Linux 发行版，定位为美观、现代且“有主见”的系统。仓库内含权威手册，覆盖安装入门、导航、主题、热键，以及内置终端、Neovim 和 AI 应用等内容，并同步到 learn.omacom.io。适合想尝鲜新系统或学习 DHH 桌面环境理念的人。",
+    "summary_en": "Omarchy is a Linux distribution created by DHH, billed as beautiful, modern, and opinionated. The repo hosts the authoritative manual—covering setup, navigation, themes, hotkeys, and built-in apps like Terminal, Neovim, and AI tools—mirrored at learn.omacom.io. It's a good pick for those curious about a fresh distro or DHH’s desktop philosophy.",
+    "input_hash": "34a6a17b263b"
+  },
+  "juejin-7630298684078243891": {
+    "summary_zh": "Fantastic-admin 6.0 正式发布，作者称这是此前一篇“AI 时代的管理后台框架应该是什么样子”文章的理论落地。文章介绍新版特性、设计思路与具体实现，适合管理后台开发者及关注前端框架演进的人阅读。",
+    "summary_en": "Fantastic-admin 6.0 has arrived as the author’s concrete follow-up to their earlier essay on what AI-era admin dashboard frameworks should look like. The post covers new features, design thinking, and implementation details, making it relevant for developers building admin interfaces or tracking AI-era frontend evolution.",
+    "input_hash": "482ff2facb5c"
+  },
+  "juejin-7636724456984428607": {
+    "summary_zh": "得物技术团队发表了一篇 AI 全栈开发实践文章，围绕 Harness（约束）思维、SDD 和多仓管理模式展开。Harness 的核心是给 AI 一个已有实现作为参照，让它照着复刻而非凭空创造。适合正在探索 AI 辅助编码并希望保持代码风格一致的团队阅读。",
+    "summary_en": "This article from Dewu Technology describes a full-stack AI development practice that combines Harness (a mindset of giving AI an existing implementation to replicate rather than create from scratch), SDD, and multi-repo management. It's aimed at engineering teams exploring AI-assisted coding and seeking to keep generated code consistent with established patterns in large codebases.",
+    "input_hash": "fe25601c2a27"
+  },
+  "gh-daily-volcengine-OpenViking": {
+    "summary_zh": "OpenViking 是火山引擎开源的自进化上下文数据库，面向 AI Agent，统一了代理记忆、知识 RAG 与技能管理。它试图成为 Agent 的上下文层，让长期记忆、检索和工具调用在同一处协同。适合构建需要持久记忆和知识检索能力的 Agent 的开发者。",
+    "summary_en": "OpenViking is Volcengine's open-source self-evolving context database for AI agents, unifying agent memory, knowledge RAG, and skills. It positions itself as a context layer for agents, coordinating long-term memory, retrieval, and tool calls in one place. Developers building agents with persistent memory and RAG should check out the live demo and docs.",
+    "input_hash": "5453da8f3613"
+  },
+  "zhihu-2072710686380238015": {
+    "summary_zh": "宇树科技发布了人形机器人「超人」，据标题可确定其具备原地跳高 2 米、奔跑极速每秒 12.66 米的能力。该条目只有标题，没有机器人的具体参数、售价或场景信息；原文是链接，未提供更多细节。",
+    "summary_en": "Unitree has released a humanoid robot called \"Superman,\" capable of a 2-meter standing high jump and a top running speed of 12.66 m/s, according to the title. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "b30e3da41bb7"
+  },
+  "zhihu-2027085919899919718": {
+    "summary_zh": "这个帖子在问学生群体中 ChatGPT 与 Gemini 哪个更好，但除了标题没有给出任何对比维度或场景细节，因此无法判断应该选哪个。原文是链接，未提供更多细节。",
+    "summary_en": "This post asks which is better for students, ChatGPT or Gemini, but the title doesn't specify any comparison criteria. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "44f03e6a3a74"
+  },
+  "zhihu-14194805205": {
+    "summary_zh": "该问题在比较免费的 DeepSeek 与每月 200 美元的 ChatGPT 是否等价，但帖子只有标题，没有具体测试或使用场景，无法给出结论。原文是链接，未提供更多细节。",
+    "summary_en": "The post asks whether the free DeepSeek can match a $200/month ChatGPT subscription, but no evaluation details are provided. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "2bc35eb15bd5"
+  },
+  "zhihu-2072255826778140869": {
+    "summary_zh": "DeepSeek Harness 提出“一切皆插件 + 技能包”的架构思路，讨论 Agent 能否借此逐步实现自我进化。目前仅有标题，未提供正文细节，无法获知具体技术方案或实验依据。",
+    "summary_en": "This Zhihu discussion centers on DeepSeek Harness' idea of \"everything as a plugin plus skill packs\" and whether it could lead agents toward self-evolution. Only the title is available; the linked page isn't summarized here, so details beyond the title aren't available.",
+    "input_hash": "062258bf3116"
+  },
+  "zhihu-2065714833606104237": {
+    "summary_zh": "话题围绕一位菲尔兹奖得主的观点展开：人工智能可能会“杀死数学”。讨论涉及 AI 对数学研究方式乃至学科价值的冲击。目前仅见标题，未提供正文细节。",
+    "summary_en": "This Zhihu thread takes a Fields medalist's claim that AI could \"kill mathematics\" as a starting point for debate. Only the title is available, so the linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "13e624bcd4bf"
+  },
+  "zhihu-2069194695201252236": {
+    "summary_zh": "该问题探讨 AI 能否理解爱，以及这种“理解”与人类情感的本质差异，涉及情感模拟与意识等话题。目前仅有标题，没有正文内容，回答中的具体论证无从得知。",
+    "summary_en": "A Zhihu question asking whether AI can understand love, and how that understanding differs from human love. Only the title is available; the linked page isn't summarized here, so details beyond the title aren't available.",
+    "input_hash": "a3285f901df5"
   }
 }

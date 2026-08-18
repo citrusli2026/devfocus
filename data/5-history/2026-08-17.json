@@ -406,7 +406,9 @@
       "tags": [],
       "first_seen": "2026-08-17",
       "domain": "duckdb.org",
-      "quality_score": 36.5
+      "quality_score": 36.5,
+      "summary_zh": "DuckDB 官方预告 v2.0 将于今年秋季发布，并列出主要新特性：支持作为服务器运行、触发器、VARIANT 类型、异步 I/O、新的 SQL parser 和新的存储格式。对用 DuckDB 做嵌入式分析或需要服务化部署的开发者，服务端模式值得关注。",
+      "summary_en": "DuckDB v2.0 is scheduled for this fall, according to an official preview. The headline features include running DuckDB as a server, triggers, the VARIANT type, asynchronous I/O, a new SQL parser, and a new storage format. Developers using DuckDB for embedded analytics or planning server-side deployments should pay close attention."
     },
     {
       "id": "hn-49319389",
@@ -1030,7 +1032,9 @@
       "tags": [],
       "first_seen": "2026-08-17",
       "domain": "rickmanelius.com",
-      "quality_score": 33.2
+      "quality_score": 33.2,
+      "summary_zh": "这是一条 Hacker News 帖子，作者自称对 AI 非常支持，但已受够 AI 生成的垃圾内容，因此把 AI;DR（AI; Didn't Read）当作过滤信息墙的新方式。除了表达个人态度，正文没有提任何具体工具、扩展或项目链接，更像一个观点而非产品介绍。",
+      "summary_en": "A Hacker News submission uses AI;DR as the author's new catchphrase for skipping AI-generated 'walls of slop.' The author says they are as pro-AI as possible but find this acronym useful for quickly dismissing low-effort content. No project or tool is described — only a personal opinion, so the post is more commentary than a product announcement."
     },
     {
       "id": "hn-49292385",
@@ -5001,7 +5005,9 @@
       "tags": [],
       "first_seen": "2026-08-17",
       "domain": "infoq.cn",
-      "quality_score": 36.3
+      "quality_score": 36.3,
+      "summary_zh": "Snowflake 正将 AI 嵌入 FinOps 成本管理工具，并发布一组治理原语，以应对 AI 工作负载的不可预测支出。据 FinOps Foundation 报告，98% 的 FinOps 团队已在管理 AI 支出，两年前仅 31%；挑战集中在可见性、成本分摊和 ROI 判断。",
+      "summary_en": "Snowflake is embedding AI into its FinOps tooling and offering governance primitives to manage unpredictable AI costs. Per the FinOps Foundation's State of FinOps 2026 report, 98% of teams now manage AI spend, up from 31% two years ago. Key pain points: visibility, allocation, and ROI."
     },
     {
       "id": "infoq-UJt7EQIZJaWe1dFZkD6F",
@@ -5017,7 +5023,9 @@
       "tags": [],
       "first_seen": "2026-08-17",
       "domain": "infoq.cn",
-      "quality_score": 36.4
+      "quality_score": 36.4,
+      "summary_zh": "InfoQ 精选：技术风向变了？2026 年，数据库领域国际顶会都在研究什么？",
+      "summary_en": "Featured on InfoQ: 技术风向变了？2026 年，数据库领域国际顶会都在研究什么？"
     },
     {
       "id": "infoq-5bfbkX6WIN3iKO6FlJwO",
@@ -5033,7 +5041,9 @@
       "tags": [],
       "first_seen": "2026-08-17",
       "domain": "infoq.cn",
-      "quality_score": 36.5
+      "quality_score": 36.5,
+      "summary_zh": "npm 正式推出分阶段发布（staged publishing）功能：新版本上传后先进入队列，由维护者通过双因素认证审批后才公开放行。这是应对 Shai-Hulud 蠕虫等供应链安全事件的举措，官方建议与 OIDC 可信发布结合使用；要求 npm CLI ≥ 11.15.0、Node ≥ 22.14.0。",
+      "summary_en": "npm has made staged publishing GA: package versions land in a staging queue and require maintainer approval (with 2FA) before becoming installable. Aimed at supply-chain attacks like the Shai-Hulud worm, it's designed to work alongside OIDC-based trusted publishing. Requires npm CLI >= 11.15.0 and Node >= 22.14.0."
     },
     {
       "id": "infoq-fpxjBGx9mj52yzMoZ8Ty",
@@ -5049,7 +5059,9 @@
       "tags": [],
       "first_seen": "2026-08-17",
       "domain": "infoq.cn",
-      "quality_score": 37.0
+      "quality_score": 37.0,
+      "summary_zh": "Snowflake 用 Streamlit 构建了内部长期规划应用 Snowplan，以替代维护困难的巨型 Excel 模型。分析师可通过可编辑界面更新假设，改动直接写回 Snowflake 并即时反映新输出，支持版本化、场景对比和按角色细粒度操作。",
+      "summary_en": "Snowflake built Snowplan, an internal long-term planning app using Streamlit, replacing a giant Excel model. Analysts edit assumptions in the UI, which writes back to Snowflake and recomputes outputs instantly. It supports versioning, scenario comparison, and role-specific granularity."
     },
     {
       "id": "infoq-M7RAkplwuMQrs72dSYfj",
@@ -5065,7 +5077,9 @@
       "tags": [],
       "first_seen": "2026-08-17",
       "domain": "infoq.cn",
-      "quality_score": 36.9
+      "quality_score": 36.9,
+      "summary_zh": "InfoQ 文章介绍 Kotlin Multiplatform (KMP) 在鸿蒙上的落地成效：渲染内存降低 95%，GC 卡顿率降低 90%。文章梳理了 React Native、Flutter 到 Jetpack Compose 的跨平台演进脉络，为理解 KMP 的适配方案提供背景。",
+      "summary_en": "This article spotlights Kotlin Multiplatform on HarmonyOS, reporting a 95% cut in rendering memory and a 90% drop in GC jank. It retraces the evolution of cross-platform frameworks — React Native, Flutter, Jetpack Compose — and their performance trade-offs."
     },
     {
       "id": "infoq-77NthDLZNgqTgBuMKsQh",
@@ -5081,7 +5095,9 @@
       "tags": [],
       "first_seen": "2026-08-17",
       "domain": "infoq.cn",
-      "quality_score": 37.5
+      "quality_score": 37.5,
+      "summary_zh": "openJiuwen（华为 2012 实验室等联合构建）将蜂群智能体升级为 WorkSwarm，已上架鸿蒙 PC 应用市场并支持 Windows 与 Mac。它通过协同工程组织多智能体分工接棒，可让 7 个 Agent 合作完成一首歌，也支持单 Agent 与集群两种模式，用户能随时查看进度并加入协作。",
+      "summary_en": "openJiuwen, built jointly by Huawei's 2012 Labs et al., has upgraded its swarm agents into WorkSwarm, now available on HarmonyOS PC app store with Windows and Mac support. Using Coordination Engineering, it organizes multiple agents to hand off tasks — e.g., 7 agents can co-create a song. It offers single-agent and swarm modes, letting users monitor progress or join the team."
     },
     {
       "id": "infoq-MljtE2Xk6hVkd061LY7k",
@@ -5097,7 +5113,9 @@
       "tags": [],
       "first_seen": "2026-08-17",
       "domain": "infoq.cn",
-      "quality_score": 37.6
+      "quality_score": 37.6,
+      "summary_zh": "Qwen3.8-27B 是一个 27B 参数的原生多模态稠密模型，Apache 2.0 协议开源，量化后可在消费级 GPU 上运行。在编程、Agentic 和多项多模态基准上，其得分超过 Claude Opus 4.6 Max，被本地大模型玩家视为最受期待的发布之一。",
+      "summary_en": "Qwen3.8-27B is a natively multimodal 27B dense model open-sourced under Apache 2.0; quantized builds can run on consumer GPUs. It beats Claude Opus 4.6 Max on several coding, agentic, and multimodal benchmarks, and has drawn excitement from local-model enthusiasts as one of the most promising releases."
     },
     {
       "id": "infoq-FzWV9Jzv2CPK8yjLPxdA",
