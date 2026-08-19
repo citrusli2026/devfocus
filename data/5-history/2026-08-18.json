@@ -260,7 +260,9 @@
       "tags": [],
       "first_seen": "2026-08-17",
       "domain": "ysph.yale.edu",
-      "quality_score": 50.0
+      "quality_score": 50.0,
+      "summary_zh": "一项研究估计，全民健康覆盖每年可节省约1万亿美元、避免11.4万人死亡。原帖只给了 medRxiv 预印本链接，未提供方法、样本等更多细节。",
+      "summary_en": "A study estimates that universal health coverage could save $1 trillion and 114,000 lives a year. The post is only a link to a medRxiv preprint; no methodology or context is included, so details beyond the headline aren't available."
     },
     {
       "id": "hn-49330597",
@@ -3240,7 +3242,9 @@
       "gh_period": "daily",
       "first_seen": "2026-08-18",
       "domain": "github.com",
-      "quality_score": 30.0
+      "quality_score": 30.0,
+      "summary_zh": "Munder Difflin 是一个开源的本地多智能体 harness（v0.4.4，MIT）。它把 Claude Code、OpenAI Codex、Gemini 等终端编程 CLI 纳入统一调度，用自己的 key 和本地模型即可让多个 agent 并行工作，并以办公室工位头像可视化运行状态。适合手头已有多种 CLI 订阅、想在本地跑多 agent 工作流的开发者。",
+      "summary_en": "Munder Difflin is an open-source local multi-agent harness (v0.4.4, MIT) that wraps terminal coding CLIs including Claude Code, OpenAI Codex, Gemini via Antigravity, Grok, Qwen, and GitHub Copilot CLI. It orchestrates multiple agents with your own API keys or local LLMs, shows them as avatars on a virtual office floor, and lets the work continue while you're away. Developers already paying for these CLI tools can combine them under one harness."
     },
     {
       "id": "gh-daily-akitaonrails-ai-memory",
@@ -5018,7 +5022,9 @@
       "tags": [],
       "first_seen": "2026-08-18",
       "domain": "infoq.cn",
-      "quality_score": 36.5
+      "quality_score": 36.5,
+      "summary_zh": "Angular v22 让 Signal Forms、Angular Aria 和 resource/rxResource/httpResource 转正，并把 OnPush 设为默认变更检测（旧默认策略改名 Eager），还带来 @Service() 装饰器、injectAsync 懒加载和模板 spread/rest 语法。官方同时实验性支持 WebMCP，把应用和表单暴露给浏览器内 AI 智能体。HN 上有人为 Signal Forms 欢呼，也有人批评编译器在 AI 编程时代拖后腿。",
+      "summary_en": "Angular v22 stabilizes Signal Forms, Angular Aria, and resource/rxResource/httpResource, makes OnPush the default change-detection strategy (the old default is renamed Eager), and adds @Service(), injectAsync lazy loading, and template spread/rest. It also ships experimental WebMCP to expose apps and forms to browser-based AI agents. Hacker News reviewers welcome the shift from RxJS-only form handling, but many still see the Angular compiler as a bottleneck for AI-assisted development."
     },
     {
       "id": "infoq-pOfV96f9DHG9Cw1KQAZB",
@@ -5034,7 +5040,9 @@
       "tags": [],
       "first_seen": "2026-08-18",
       "domain": "infoq.cn",
-      "quality_score": 37.4
+      "quality_score": 37.4,
+      "summary_zh": "Snowflake CoCo 能将自然语言转换为实际工作流，运行 SQL 和多步流程并调用大模型，但按 token 消耗 credits，成本容易失控。这篇文章给出从轻量监控到强制阻断的 7 个治理手段，第一步是通过 SNOWFLAKE.ACCOUNT_USAGE 下的三个 usage history 视图统计每个用户的 credit 消耗，后续再用默认优化和硬性约束控本。适合用 CoCo 做智能体应用、需要建立成本治理的团队参考。",
+      "summary_en": "Snowflake CoCo turns natural language into real workflows, running SQL and multi-step processes with LLM calls, but consumes credits per token and can easily blow budgets. This article walks through seven governance levers, starting with usage history views in SNOWFLAKE.ACCOUNT_USAGE to track per-user credit consumption, then default-behavior optimization and strict constraints. It's practical guidance for teams using CoCo for agentic apps who need cost control."
     },
     {
       "id": "infoq-jsqPaMGuPXFkhifJmTym",
@@ -5050,7 +5058,9 @@
       "tags": [],
       "first_seen": "2026-08-18",
       "domain": "infoq.cn",
-      "quality_score": 36.9
+      "quality_score": 36.9,
+      "summary_zh": "文章对比了 Linux 生态对 AI 生成代码的不同政策：GCC 倾向全面禁用 AI 补丁，担心版权污染和幻觉漏洞；Torvalds 要求内核维护者能解释每一行代码；Kubernetes 要求 PR 披露 AI 使用并禁止 AI 生成提交信息；Debian 则用一般决议判断其与自由软件准则的关系。这些路线展示了基础设施项目在透明度、可靠性和人类责任之间的不同取舍。",
+      "summary_en": "The article maps how Linux ecosystem projects are fragmenting on AI policy. GCC maintainers lean toward banning AI-generated patches over copyright and hallucination risks; the Linux kernel, led by Torvalds, requires maintainers to defend every line; Kubernetes mandates AI-use disclosure in PRs and forbids AI-written commit messages; Debian is weighing AI output against its Free Software Guidelines. The article is useful for teams deciding how to integrate AI assistance into code review."
     },
     {
       "id": "infoq-QekQuwv8UhxAcrOFgKM8",
@@ -5066,7 +5076,9 @@
       "tags": [],
       "first_seen": "2026-08-18",
       "domain": "infoq.cn",
-      "quality_score": 37.7
+      "quality_score": 37.7,
+      "summary_zh": "文章认为云厂商真正的战场不在 Agent Builder，而在模型之外的 Agent 基础设施：阿里云 8 月将 Agent 服务升级为百炼上的 Agent Studio，Anthropic 也因把 Session、Agent Harness 和 Sandbox 塞进同一容器导致问题而返工拆分。适合关注 Agent 落地成本和平台选型的开发者与架构师。",
+      "summary_en": "The piece argues that cloud vendors' real battleground isn't the Agent Builder but the infrastructure underneath agents. It notes Alibaba Cloud upgraded its agent offerings into Agent Studio on Bailian in August, and Anthropic had to rework its setup after bundling Session, Agent Harness, and Sandbox into one container caused isolation and scaling problems. Worth reading for engineers evaluating agent platform costs and architecture."
     },
     {
       "id": "infoq-kJK3qG9m7UEYtf7siCgU",
@@ -5082,7 +5094,9 @@
       "tags": [],
       "first_seen": "2026-08-18",
       "domain": "infoq.cn",
-      "quality_score": 37.5
+      "quality_score": 37.5,
+      "summary_zh": "豆包视频通话升级后，AI 能同时处理音视频和文本三路输入，可边看边听边说、主动开口，官方称对话节奏违和问题相比传统级联方案减少约 50%。技术底层由火山引擎多模态传输系统（MMT）支撑，基于 QUIC 和 MoQ 协议，建联耗时从秒级降至数百毫秒，并通过统一会话控制避免音视频流与模型状态异步导致的答非所问。适合关注多模态实时交互和 AI 语音助手的开发者阅读。",
+      "summary_en": "Doubao's upgraded video calling lets the AI ingest audio, video, and text simultaneously, speak when appropriate, and reduces awkward conversational pauses by about 50% versus classic cascaded systems, according to official evaluation. Underneath, Volcano Engine's MMT (multimodal transport system) replaces traditional RTC: it uses QUIC and MoQ for a unified session, cutting connection time from seconds to hundreds of milliseconds and preventing out-of-sync audio/model states. This is relevant for developers working on full-duplex multimodal real-time interaction."
     },
     {
       "id": "infoq-lHpgJMVERySthZ0KKIg4",
@@ -5098,7 +5112,9 @@
       "tags": [],
       "first_seen": "2026-08-18",
       "domain": "infoq.cn",
-      "quality_score": 37.0
+      "quality_score": 37.0,
+      "summary_zh": "Stripe 工程团队将全球 MongoDB 基础设施建模为图，结合图搜索与状态机自动计算修复路径，替代硬编码的插件式修复。采用 Dijkstra 算法后，系统能动态适应分片布局，将数据库相关寻呼告警减少约 30%，相当于每年少 200 次寻呼、消除约 12 天分片异常。适合管理复杂分布式基础设施、希望用状态机发现全新恢复方案的团队。",
+      "summary_en": "Stripe's engineering team models its global MongoDB infrastructure as a graph and uses graph search combined with state machines to automate failure recovery. Replacing hardcoded repair sequences with Dijkstra-based pathfinding reduced database-related paging alerts by roughly 30%, saving about 200 pages and 12 days of shard anomalies per year. A useful pattern for teams managing complex distributed systems."
     },
     {
       "id": "infoq-gC7CU8lbYmha1QPMvqP7",
