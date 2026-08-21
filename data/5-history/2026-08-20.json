@@ -308,7 +308,9 @@
       "tags": [],
       "first_seen": "2026-08-20",
       "domain": "chrisburnell.com",
-      "quality_score": 37.6
+      "quality_score": 37.6,
+      "summary_zh": "《HTML Can Do That》是一个参考页面，收录了仅用 HTML 就能实现的动态交互功能，这些能力以往通常要写 JavaScript。适合想减少前端脚本、避免重框架依赖的开发者快速查阅，也方便了解浏览器原生能力的最新边界。",
+      "summary_en": "HTML Can Do That is a reference page that collects dynamic behaviors now achievable with HTML alone, circling back to the platform's native capabilities instead of JavaScript. The examples cover interaction and UI features that used to require custom scripts, making it a useful starting point for simplifying front-end code and reducing dependency on client-side frameworks. This matters for developers aiming for more resilient pages and faster load times."
     },
     {
       "id": "hn-49361279",
@@ -356,7 +358,9 @@
       "tags": [],
       "first_seen": "2026-08-20",
       "domain": "experimental-history.com",
-      "quality_score": 24.0
+      "quality_score": 24.0,
+      "summary_zh": "这是一条只有标题的 Hacker News 链接，标题为“I like 'em thick: an apology to my English teachers”。原文是链接，未提供更多细节，因此无法得知文章的具体内容或“thick”所指为何。",
+      "summary_en": "This Hacker News post consists of only the title, \"I like 'em thick: an apology to my English teachers.\" The linked page isn't summarized here; details beyond the title aren't available. The exact meaning of \"thick\" and the apology's context remain unknown. Readers interested in the piece must visit the source page for the actual content."
     },
     {
       "id": "hn-49355105",
@@ -2036,7 +2040,9 @@
       "tags": [],
       "first_seen": "2026-08-20",
       "domain": "blog.curiousquail.com",
-      "quality_score": 30.2
+      "quality_score": 30.2,
+      "summary_zh": "HN 帖子指出类似行为的不同处置：Aaron Swartz 曾因批量抓取被起诉，而 Meta 做同样的事却未受惩罚。原帖只有标题，未提供更多论证细节。",
+      "summary_en": "An HN post argues that Aaron Swartz was prosecuted for scraping, while Meta does scraping without facing consequences. The linked page isn't summarized here; details beyond the title aren't available."
     },
     {
       "id": "hn-49376769",
@@ -3975,7 +3981,9 @@
       ],
       "first_seen": "2026-08-20",
       "domain": "producthunt.com",
-      "quality_score": 42.0
+      "quality_score": 42.0,
+      "summary_zh": "Claude Watermark Remover 是 Product Hunt 上的一款工具，能找出并删除 AI 在文本中留下的水印痕迹。它面向需要清理 AI 生成内容、去除可识别标记的写作者和内容运营者；目前仅提供了简短的产品介绍，未说明具体实现原理。",
+      "summary_en": "Listed on Product Hunt, Claude Watermark Remover scans text for AI traces and strips them out. The tool is aimed at writers and content teams who need to remove detectable AI artifacts. Its listing doesn't delve into how the removal works, and the title's Claude reference isn't reflected in the one-line description."
     },
     {
       "id": "ph-1224932",
@@ -5106,7 +5114,9 @@
       "tags": [],
       "first_seen": "2026-08-20",
       "domain": "infoq.cn",
-      "quality_score": 36.1
+      "quality_score": 36.1,
+      "summary_zh": "KCD Hangzhou 2026 将于 11 月 28 日举办，CFP 开放至 9 月 30 日，主题为 'Cloud Native in the Age of Agents'，设三个分论坛：Agent on Kubernetes 基础设施、CNCF 可观测生态保障 AI 质量、AI 推理与 K8s 调度结合。去年 KCD Hangzhou 2025 收到 82 份投稿，316 人到场，线上观众超 2 万。",
+      "summary_en": "KCD Hangzhou 2026 takes place on November 28, with the CFP open until September 30. Themed 'Cloud Native in the Age of Agents,' it features three tracks: Agent infrastructure on Kubernetes, observability for AI systems, and AI inference integrated with K8s scheduling. Last year's edition saw 82 submissions, 316 attendees on site, and over 20,000 online viewers."
     },
     {
       "id": "infoq-qaWyth5P4tZE1CQhhaGq",
@@ -5122,7 +5132,9 @@
       "tags": [],
       "first_seen": "2026-08-20",
       "domain": "infoq.cn",
-      "quality_score": 36.8
+      "quality_score": 36.8,
+      "summary_zh": "美国 CFTC 已就算力衍生品公开征求意见，讨论永续算力期货；CME 与 Silicon Data 拟推出基于 NVIDIA H100/B200 租金的期货。Silicon Data 刚完成 3050 万美元 A 轮融资，投资方包括 CME Ventures、Jump Trading 等金融机构。算力正从资源采购变成可对冲的金融资产，做 AI Infra 的人应留意这一趋势。",
+      "summary_en": "The US CFTC is soliciting comments on compute derivatives, including perpetual compute futures, after CME Group and Silicon Data said they plan to launch futures based on NVIDIA H100 and B200 rental prices. Silicon Data has just raised $30.5M in Series A funding from investors including CME Ventures and Jump Trading. GPU compute is starting to become a hedgeable asset class, so anyone building AI infrastructure should watch how pricing develops."
     },
     {
       "id": "infoq-pKbwv6YkdSE1UdCiKl2F",
@@ -5138,7 +5150,9 @@
       "tags": [],
       "first_seen": "2026-08-20",
       "domain": "infoq.cn",
-      "quality_score": 36.6
+      "quality_score": 36.6,
+      "summary_zh": "Cloudflare 发布开发者预览：网站后台一键开启 WebMCP，AI 智能体即可通过结构化工具与页面交互，无需 HTML 抓取或模拟点击。实现基于桥接脚本注入，提供 document.modelContext API 和声明式表单注解两种方式，内置 Content Credentials 与 Site MCP 两个工具包，未来可扩展。",
+      "summary_en": "Cloudflare unveiled a developer preview that lets sites enable WebMCP with a panel toggle, giving browser-based AI agents structured tools instead of scraping or UI automation. The implementation injects bridge.js, with two authoring paths — document.modelContext API and declarative HTML form annotations — and ships toolkits for Content Credentials and Site MCP, with more toolkits to come."
     },
     {
       "id": "infoq-CPidTC2YJ7AvlU7jUgiq",
@@ -5154,7 +5168,9 @@
       "tags": [],
       "first_seen": "2026-08-20",
       "domain": "infoq.cn",
-      "quality_score": 37.3
+      "quality_score": 37.3,
+      "summary_zh": "文章认为，Coding Agent 做数据工作时的常见问题不是幻觉，而是缺少环境上下文：不了解生产表、受治理 Schema、RBAC 或 Snowflake 特有对象，生成的代码语法正确但仍需人工改。手工喂 Schema 与示例本质是集成工作，脱敏、行级访问控制等治理对 Agent 几乎不可见。",
+      "summary_en": "The piece argues that coding agents fail at data work less from hallucination and more from missing context: they don't know production tables, governed schemas, RBAC, or Snowflake-specific constructs, so they produce syntactically valid code that still needs rework. Hand-feeding schemas via prompts is essentially integration work disguised as AI, and governance layers like masking and row-level security are invisible to agents running outside the platform. Data engineers should weigh how much environment context an agent actually gets."
     },
     {
       "id": "infoq-8EPJjIlk5WwgiXphjxEW",
@@ -5170,7 +5186,9 @@
       "tags": [],
       "first_seen": "2026-08-20",
       "domain": "infoq.cn",
-      "quality_score": 36.7
+      "quality_score": 36.7,
+      "summary_zh": "Cloud Native Buildpacks 于 2026 年 7 月 17 日从 CNCF 毕业，它将基础镜像与 CVE 补丁决策从各团队的 Dockerfile 收归平台工程团队。其 rebase 机制只改写 OCI 清单中的运行镜像 digest，无需重建应用层；BellSoft 于 7 月 21 日推出基于 Alpaquita 加固镜像的 Paketo 构建器。适合关注容器镜像供应链安全的平台团队。",
+      "summary_en": "Cloud Native Buildpacks graduated from CNCF on July 17, 2026 after positioning itself as a security alternative to per-service Dockerfiles: platform teams, not app teams, control base image patches. Its rebase command rewrites the run-image digest in the OCI manifest, applying a patched base image in milliseconds without a rebuild. BellSoft followed on July 21 with a hardened Paketo builder based on Alpaquita Linux."
     },
     {
       "id": "infoq-d5mWBGZxB2l2vRTO8wFU",
@@ -5186,7 +5204,9 @@
       "tags": [],
       "first_seen": "2026-08-20",
       "domain": "infoq.cn",
-      "quality_score": 37.4
+      "quality_score": 37.4,
+      "summary_zh": "InfoQ 精选：将可理解性作为架构特性：无法理解的系统无法安全演进",
+      "summary_en": "Featured on InfoQ: 将可理解性作为架构特性：无法理解的系统无法安全演进"
     },
     {
       "id": "infoq-u2O9k3QiZkeIbqJ7GsPw",
@@ -5202,7 +5222,9 @@
       "tags": [],
       "first_seen": "2026-08-20",
       "domain": "infoq.cn",
-      "quality_score": 38.1
+      "quality_score": 38.1,
+      "summary_zh": "Lin Sun 在 CNCF 博客介绍 kagent，认为 Pod 只适合作执行单元，不应作为部署、身份或生命周期单元。文章对比了两种方案：把智能体作为 K8s 工作负载，或在 K8s 上引入类似 Google Agent Substrate 的控制平面，用 WorkerPool/Worker/ActorTemplate 管理生命周期。",
+      "summary_en": "In a CNCF blog post, Lin Sun argues that Pods should serve as the execution unit for AI agents but not as the deployment, identity, or lifecycle unit. The post contrasts treating each agent as a first-class Kubernetes workload with a control-plane approach like Google's Agent Substrate, which manages WorkerPools, Workers, and ActorTemplates above Kubernetes. Platform engineers can weigh these two trade-offs."
     },
     {
       "id": "infoq-PuaPuRIjd35ItQSVCOK1",
@@ -5218,7 +5240,9 @@
       "tags": [],
       "first_seen": "2026-08-20",
       "domain": "infoq.cn",
-      "quality_score": 37.9
+      "quality_score": 37.9,
+      "summary_zh": "美图 MT Lab 提出 Self-Prompting 场景文本编辑方案，从输入图像提取风格信息，结合字形提示与完整图像输入多模态扩散 Transformer，无需额外编码器端到端编辑。该成果入选 ICML 2026，用自监督预训练加约 4000 对人工数据微调，比 OCR/固定字表方法更利于多语言和开放词汇下的风格一致。",
+      "summary_en": "Meitu's MT Lab proposes a self-prompting approach to scene-text editing: it extracts style cues like color and texture from the input image, then feeds them with a rendered glyph prompt and the full image into a multimodal diffusion transformer for encoder-free end-to-end editing. Accepted at ICML 2026, it combines self-supervised pretraining with fine-tuning on about 4,000 human-curated pairs, improving style consistency for multilingual and open-vocabulary text over OCR-dependent or fixed-vocabulary baselines."
     },
     {
       "id": "infoq-FjAtSWXLEfY3Iu4ThvJM",

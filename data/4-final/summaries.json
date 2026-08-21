@@ -891,8 +891,9 @@
     "summary_en": "iptv-org/iptv is a community-maintained collection of freely available IPTV channels from around the world. It aggregates thousands of live TV streams into a single, structured playlist, making it easy to explore international TV content without expensive subscriptions. This open-source project solves the headache of finding reliable, free IPTV sources by keeping the list constantly updated. Anyone interested in global TV content—from expats to cord-cutters—can benefit by simply loading the playlist into any compatible player."
   },
   "gh-daily-makeplane-plane": {
-    "summary_zh": "Plane 是一款开源的项目管理平台，旨在替代 Jira、Linear、Monday 和 ClickUp 等商业工具。它提供了任务管理、迭代规划、文档协作和问题分类等现代开发团队需要的核心功能。作为开源方案，它没有用户数限制，数据完全由自己掌控，同时拥有活跃的社区支持。对于追求自主可控、希望避免供应商锁定或预算有限的团队来说，Plane 是一个功能完整且高度可定制的优秀选择。",
-    "summary_en": "Plane is an open-source project management platform built as a modern alternative to Jira, Linear, Monday, and ClickUp. It handles tasks, sprints, documentation, and issue triaging with a clean, intuitive interface. The key differentiator is being fully open-source—teams get unlimited users, full data ownership, and community-driven features without expensive per-seat licenses. It's ideal for small to medium-sized engineering teams, open-source projects, or any organization wanting to avoid vendor lock-in while still having a powerful, customizable tool."
+    "summary_zh": "Plane 是一个开源项目管理平台，定位为 Jira、Linear、Monday 和 ClickUp 的替代品，覆盖问题跟踪、迭代周期、文档和产品路线图。对于希望自托管或避免绑定特定商业产品的团队，这是一个值得评估的选择，社区和文档也相当活跃。",
+    "summary_en": "Plane is an open-source project management tool positioned as an alternative to Jira, Linear, Monday, and ClickUp. It handles issue tracking, cycles, docs, and product roadmaps, with self-hosting options and an active community. Teams seeking a vendor-neutral PM platform may find it a solid fit.",
+    "input_hash": "db10f407c4f8"
   },
   "ph--3309385803659388716": {
     "summary_zh": "Product Hunt在2026年6月16日发布了当天最受欢迎的产品合集，汇集了来自全球创业者的创新工具与应用，涵盖生产力、设计、AI等多个领域，帮助用户快速发现值得关注的新项目，是科技爱好者每日必看的精选榜单。",
@@ -2844,8 +2845,9 @@
     "summary_en": "Clean Code JavaScript adapts Robert C. Martin's classic coding principles specifically for the JavaScript ecosystem, offering practical advice on variable naming, function design, error handling, and more. Whether you're a beginner or an experienced developer, this repository provides actionable tips to improve code readability and maintainability. It has become an essential reference for teams striving to build high-quality JavaScript applications that are easier to debug and extend."
   },
   "gh-daily-JuliusBrussee-caveman": {
-    "summary_zh": "「穴居人」是一个脑洞大开的 Claude Code 技能：通过用极其简短的“原始语言”与 AI 交互，最多能减少 65% 的 token 消耗。它巧妙地利用了大模型对精简指令的理解能力，既省钱又高效，尤其适合频繁调用 API 的开发者或预算有限的团队。",
-    "summary_en": "Caveman is a quirky yet clever skill for Claude Code that drastically reduces token usage by communicating in ultra-brief, “caveman-style” language. By stripping away unnecessary words while retaining clear intent, it can cut up to 65% of tokens in a conversation. This technique leverages large language models’ ability to understand minimalistic prompts, making it a cost-effective and efficient approach for heavy API users or teams on a tight budget—without sacrificing output quality."
+    "summary_zh": "JuliusBrussee/caveman 是一个 Claude Code 技能，通过让模型用“原始人式”简短表达来减少 token 消耗。README 中的固定基准测试显示 provider 报告的输入 token 减少 33.2%，而项目描述则称可削减 65% 的 token。按 token 付费的 Claude Code 用户可自行验证实际收益。",
+    "summary_en": "Caveman is a Claude Code skill that compresses prompts into terse \"caveman\" phrasing to cut token usage. A pinned benchmark reports 33.2% fewer provider-reported input tokens, while the project description claims up to 65% savings. Developers paying per token for Claude Code may want to benchmark it in their own workflows.",
+    "input_hash": "b5b96d4c0262"
   },
   "36kr-3879158039834629": {
     "summary_zh": "8点1氪报道了三则重磅商业新闻：被称为「具身智能第一股」的宇树科技已通过上市申请；SK海力士因市场波动单日市值蒸发超1万亿韩元；霸王茶姬因配置失误导致0元抢购潮，随后致歉并紧急修复。这些事件分别反映了具身机器人赛道的资本加速、半导体行业的股价震荡，以及新消费品牌的运营风险。",
@@ -4581,7 +4583,8 @@
   },
   "juejin-7659709059810705462": {
     "summary_zh": "Meta 提出算力过剩观点后 AI 股市应声下跌，引发行业焦虑。文章反思 AI 应用三年未爆发的原因：基础设施投入巨大但 killer app 缺失，用户对 ChatGPT 等工具的新鲜感消退，而企业级落地面临成本和安全挑战。作者认为 AI 不会重蹈互联网泡沫，但需要找到像抖音微信那样的超级场景才能引爆下一波增长。",
-    "summary_en": "When Meta suggested there was too much computing capacity, AI stocks tumbled, revealing deep anxiety in the industry. This article reflects on why AI applications haven't exploded after three years: massive infrastructure spending without a killer app, declining novelty of chatbots like ChatGPT, and enterprise deployment hurdles around cost and security. The author argues it's not a repeat of the 2000 dot-com bubble, but AI needs its own TikTok or WeChat moment to trigger the next growth wave. It's a sobering reality check for the industry."
+    "summary_en": "When Meta suggested there was too much computing capacity, AI stocks tumbled, revealing deep anxiety in the industry. This article reflects on why AI applications haven't exploded after three years: massive infrastructure spending without a killer app, declining novelty of chatbots like ChatGPT, and enterprise deployment hurdles around cost and security. The author argues it's not a repeat of the 2000 dot-com bubble, but AI needs its own TikTok or WeChat moment to trigger the next growth wave. It's a sobering reality check for the industry.",
+    "input_hash": "cf73555b75f4"
   },
   "zhihu-2058449781597459395": {
     "summary_zh": "长鑫科技以 8.66 元/股启动申购，估值超 4 万亿（实际约 4300 亿？），成为国产 DRAM 龙头资本化里程碑。对自身而言，募资将加速先进制程研发和产能扩张，巩固与三星、SK 海力士的竞争；对半导体产业则意味着国产存储芯片从追赶进入量产验证期，有望降低对进口的依赖并带动设备材料国产化生态。",
@@ -10179,9 +10182,9 @@
     "input_hash": "3485d8d41fb7"
   },
   "hn-49372583": {
-    "summary_zh": "有用户在打开 AliExpress 首页后发现手机通过多点蓝牙耳机播放的音频中断，调查认为是页面用 WebAudio 做无声指纹采集时也输出了音频流，导致耳机一直占用 PC 连接。静音标签页或系统无效，关闭页面立即恢复，页面上没有可见媒体。",
-    "summary_en": "A user reports that opening the AliExpress homepage silently breaks multipoint Bluetooth audio: phone playback stops because the page appears to use WebAudio for fingerprinting while also outputting a silent audio stream that keeps the headphones connected to the PC. Muting the tab or system doesn't help; closing the tab restores audio instantly, and no visible media is present on the page.",
-    "input_hash": "901c11c95e27"
+    "summary_zh": "有用户报告，在 Firefox/Chrome 中打开 AliExpress 首页后，支持 multipoint 的蓝牙耳机会停止播放手机音频；关闭标签页立即恢复，静音标签、浏览器或系统均无效。页面没有可见媒体，作者怀疑是无声的 WebAudio 指纹识别在后台维持连接并抢占音频通道。",
+    "summary_en": "A Hacker News user reports that opening AliExpress's homepage in Firefox or Chrome makes multipoint Bluetooth headphones drop audio from the phone; closing the tab restores it immediately. Muting the tab, browser, or OS doesn't help, and no visible media is playing, pointing to silent WebAudio fingerprinting that keeps the PC side active. The case highlights how hidden background audio can break Bluetooth multipoint.",
+    "input_hash": "dfb4180c7e57"
   },
   "hn-49365405": {
     "summary_zh": "Go 1.27 正式引入泛型方法、encoding/json/v2 与 uuid 标准库包，同时优化内存分配性能并新增 goroutine 泄漏分析工具。这些改动直接影响标准库使用和运行时诊断，Go 开发者应关注兼容性变化，并利用新工具排查并发问题。",
@@ -10254,9 +10257,9 @@
     "input_hash": "cf0b9ab2e736"
   },
   "gh-daily-mahlernim-google-timeline-visualizer": {
-    "summary_zh": "google-timeline-visualizer 是一个将 Google Location History（Timeline）数据转为旅行动画视频的开源工具，可选定日期范围或具体日期、预览行程并导出 MP4。Android 端有应用，iPhone 端用 Safari 打开网页版即可，无需上传 Timeline 文件。适合用 Google 地图记录旅行轨迹、想生成年度回顾的人。",
-    "summary_en": "google-timeline-visualizer is an open-source Android app that converts Google Location History (Timeline) data into animated travel videos, letting you select month ranges or exact dates, choose camera movement, and preview the journey before exporting MP4. An iPhone web app runs in Safari without uploading the Timeline file, keeping your data on-device. It's a practical tool for turning Google Maps tracking history into shareable year-in-review clips.",
-    "input_hash": "a9e1da07b0c1"
+    "summary_zh": "这个开源项目能把 Google 位置历史（Timeline）导出的 Timeline.json 自动变成带地图轨迹的旅行动画视频：在 Android 上可选日期范围、预览行程并导出 MP4；iPhone 用户可通过其网页应用在 Safari 中处理，无需安装 App，文件也不会上传。适合想用位置数据快速做年度旅行回顾或分享视频的人。",
+    "summary_en": "This open-source project turns your Google Location History (Timeline) JSON into an animated travel video with map routes. On Android you pick dates, preview the journey, and export MP4; iPhone users can process the file in Safari via a web app, with no install and no upload. Useful for quickly creating shareable year-in-travel videos.",
+    "input_hash": "dfb276418764"
   },
   "36kr-3946459843509637": {
     "summary_zh": "一篇报道称，一个名为“小星星”的新品类已售出10亿片，吸引大品牌入局，并因年轻人而走红。原文是链接，未提供更多细节。",
@@ -10277,5 +10280,235 @@
     "summary_zh": "文章的核心判断是：AI 虽然正在席卷一切，但游戏行业的根本性变化还处于早期阶段。原文是链接，未提供更多细节。",
     "summary_en": "The article's core argument is that while AI is sweeping through every industry, the game industry's major changes are only just beginning. The linked page isn't summarized here; details beyond the title aren't available.",
     "input_hash": "78251125da27"
+  },
+  "v2ex-c45f64f46ca2": {
+    "summary_zh": "V2EX 热议：[分享创造] 分享自己 Vibe 的相册应用",
+    "summary_en": "Hot on V2EX: [分享创造] 分享自己 Vibe 的相册应用",
+    "input_hash": "b83d4f22f3fd"
+  },
+  "infoq-d5mWBGZxB2l2vRTO8wFU": {
+    "summary_zh": "InfoQ 精选：将可理解性作为架构特性：无法理解的系统无法安全演进",
+    "summary_en": "Featured on InfoQ: 将可理解性作为架构特性：无法理解的系统无法安全演进",
+    "input_hash": "b62e570fdff6"
+  },
+  "v2ex-f8eee3d10969": {
+    "summary_zh": "V2EX 热议：[Solana] 想到一个增加$v2ex 的使用率的方法",
+    "summary_en": "Hot on V2EX: [Solana] 想到一个增加$v2ex 的使用率的方法",
+    "input_hash": "985ffc65e1db"
+  },
+  "zhihu-2074241643339675348": {
+    "summary_zh": "铁路部门通报“两人买三张票空座放零食”事件，称空座属于未检票旅客，另两人不能占用。该回应明确了未检票状态下座位不属于购票者支配。原文是链接，未提供更多细节。",
+    "summary_en": "Chinese railway authorities responded to an incident where two passengers kept an empty seat for snacks using three tickets, saying the seat belonged to an unticketed passenger and could not be occupied. The reply clarifies seating rights before ticket check-in. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "3ff729fba579"
+  },
+  "36kr-3948502822550665": {
+    "summary_zh": "36氪早报焦点包括：许家印被判处无期徒刑；宇树大跌，中签者称幸亏全卖了；云南已规定感染艾滋病要告知配偶。以上均来自标题，正文未提供更多细节。",
+    "summary_en": "This 36Kr morning briefing covers: Xu Jiayin sentenced to life imprisonment; shares of robotics firm Yushu plunging, with lucky subscribers saying they sold everything; and Yunnan now requiring HIV-positive people to inform their spouses. Only the headlines are given; no further details are included.",
+    "input_hash": "682e88a5ae7e"
+  },
+  "infoq-qaWyth5P4tZE1CQhhaGq": {
+    "summary_zh": "美国 CFTC 已就算力衍生品公开征求意见，讨论永续算力期货；CME 与 Silicon Data 拟推出基于 NVIDIA H100/B200 租金的期货。Silicon Data 刚完成 3050 万美元 A 轮融资，投资方包括 CME Ventures、Jump Trading 等金融机构。算力正从资源采购变成可对冲的金融资产，做 AI Infra 的人应留意这一趋势。",
+    "summary_en": "The US CFTC is soliciting comments on compute derivatives, including perpetual compute futures, after CME Group and Silicon Data said they plan to launch futures based on NVIDIA H100 and B200 rental prices. Silicon Data has just raised $30.5M in Series A funding from investors including CME Ventures and Jump Trading. GPU compute is starting to become a hedgeable asset class, so anyone building AI infrastructure should watch how pricing develops.",
+    "input_hash": "c2d1b29704ec"
+  },
+  "v2ex-a01893d25363": {
+    "summary_zh": "V2EX 用户求推荐 MP3：必须开机自动连接上次配对过的蓝牙耳机，不需要每次手动重连；最好内置扬声器，按键用物理键而非触摸键。适合常戴蓝牙耳机、讨厌反复配对的便携播放器用户。",
+    "summary_en": "A V2EX user asks for MP3 player recommendations with a hard requirement: it must automatically reconnect to the last paired Bluetooth earbuds on power-on, no manual pairing needed. The user also prefers a built-in speaker and physical buttons over touch controls. Good fit for people tired of re-pairing portable audio devices.",
+    "input_hash": "5f7e34338303"
+  },
+  "hn-49379550": {
+    "summary_zh": "HN 帖子指出类似行为的不同处置：Aaron Swartz 曾因批量抓取被起诉，而 Meta 做同样的事却未受惩罚。原帖只有标题，未提供更多论证细节。",
+    "summary_en": "An HN post argues that Aaron Swartz was prosecuted for scraping, while Meta does scraping without facing consequences. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "32e0916553ea"
+  },
+  "infoq-u2O9k3QiZkeIbqJ7GsPw": {
+    "summary_zh": "Lin Sun 在 CNCF 博客介绍 kagent，认为 Pod 只适合作执行单元，不应作为部署、身份或生命周期单元。文章对比了两种方案：把智能体作为 K8s 工作负载，或在 K8s 上引入类似 Google Agent Substrate 的控制平面，用 WorkerPool/Worker/ActorTemplate 管理生命周期。",
+    "summary_en": "In a CNCF blog post, Lin Sun argues that Pods should serve as the execution unit for AI agents but not as the deployment, identity, or lifecycle unit. The post contrasts treating each agent as a first-class Kubernetes workload with a control-plane approach like Google's Agent Substrate, which manages WorkerPools, Workers, and ActorTemplates above Kubernetes. Platform engineers can weigh these two trade-offs.",
+    "input_hash": "949be2ab1f31"
+  },
+  "infoq-CPidTC2YJ7AvlU7jUgiq": {
+    "summary_zh": "文章认为，Coding Agent 做数据工作时的常见问题不是幻觉，而是缺少环境上下文：不了解生产表、受治理 Schema、RBAC 或 Snowflake 特有对象，生成的代码语法正确但仍需人工改。手工喂 Schema 与示例本质是集成工作，脱敏、行级访问控制等治理对 Agent 几乎不可见。",
+    "summary_en": "The piece argues that coding agents fail at data work less from hallucination and more from missing context: they don't know production tables, governed schemas, RBAC, or Snowflake-specific constructs, so they produce syntactically valid code that still needs rework. Hand-feeding schemas via prompts is essentially integration work disguised as AI, and governance layers like masking and row-level security are invisible to agents running outside the platform. Data engineers should weigh how much environment context an agent actually gets.",
+    "input_hash": "0b8fcf0f53d5"
+  },
+  "infoq-PuaPuRIjd35ItQSVCOK1": {
+    "summary_zh": "美图 MT Lab 提出 Self-Prompting 场景文本编辑方案，从输入图像提取风格信息，结合字形提示与完整图像输入多模态扩散 Transformer，无需额外编码器端到端编辑。该成果入选 ICML 2026，用自监督预训练加约 4000 对人工数据微调，比 OCR/固定字表方法更利于多语言和开放词汇下的风格一致。",
+    "summary_en": "Meitu's MT Lab proposes a self-prompting approach to scene-text editing: it extracts style cues like color and texture from the input image, then feeds them with a rendered glyph prompt and the full image into a multimodal diffusion transformer for encoder-free end-to-end editing. Accepted at ICML 2026, it combines self-supervised pretraining with fine-tuning on about 4,000 human-curated pairs, improving style consistency for multilingual and open-vocabulary text over OCR-dependent or fixed-vocabulary baselines.",
+    "input_hash": "253cf6497e95"
+  },
+  "infoq-LpNjOA7au7WIhTBmVcJo": {
+    "summary_zh": "KCD Hangzhou 2026 将于 11 月 28 日举办，CFP 开放至 9 月 30 日，主题为 'Cloud Native in the Age of Agents'，设三个分论坛：Agent on Kubernetes 基础设施、CNCF 可观测生态保障 AI 质量、AI 推理与 K8s 调度结合。去年 KCD Hangzhou 2025 收到 82 份投稿，316 人到场，线上观众超 2 万。",
+    "summary_en": "KCD Hangzhou 2026 takes place on November 28, with the CFP open until September 30. Themed 'Cloud Native in the Age of Agents,' it features three tracks: Agent infrastructure on Kubernetes, observability for AI systems, and AI inference integrated with K8s scheduling. Last year's edition saw 82 submissions, 316 attendees on site, and over 20,000 online viewers.",
+    "input_hash": "f8122c24d852"
+  },
+  "v2ex-e955e25d7dc4": {
+    "summary_zh": "一家做海外 AI 图片工具产品的团队招聘远程全栈工程师，薪资 15-20k，要求熟悉 Python 后端且有 agent 一线经验。团队近期发展不错，新增偏后端岗位，时间自由、不坐班。",
+    "summary_en": "A remote team building AI image tools for overseas markets is hiring a full-stack engineer with a backend focus, offering a salary of 15-20k and requiring Python backend skills plus first-line agent experience. The team says it's growing and needs an additional engineer now; the role is fully remote with flexible hours, and candidates can apply via the email listed in the post.",
+    "input_hash": "ebe3601688c2"
+  },
+  "infoq-pKbwv6YkdSE1UdCiKl2F": {
+    "summary_zh": "Cloudflare 发布开发者预览：网站后台一键开启 WebMCP，AI 智能体即可通过结构化工具与页面交互，无需 HTML 抓取或模拟点击。实现基于桥接脚本注入，提供 document.modelContext API 和声明式表单注解两种方式，内置 Content Credentials 与 Site MCP 两个工具包，未来可扩展。",
+    "summary_en": "Cloudflare unveiled a developer preview that lets sites enable WebMCP with a panel toggle, giving browser-based AI agents structured tools instead of scraping or UI automation. The implementation injects bridge.js, with two authoring paths — document.modelContext API and declarative HTML form annotations — and ships toolkits for Content Credentials and Site MCP, with more toolkits to come.",
+    "input_hash": "1b946cdeea5f"
+  },
+  "v2ex-d3fee473d700": {
+    "summary_zh": "作者用 Orderly Network 的 Perp Anything 服务，配合 GPT 微调和 Cloudflare Pages 部署，在 v2ex.fyi 搭了一个纯前端的永续合约 DEX，无需服务器。整个过程几小时，静态页调用链上合约和共享订单簿；作者提醒用零资产小号体验，避免绑定真实身份。",
+    "summary_en": "The author built v2ex.fyi, a frontend-only perpetual DEX, in a few hours using Orderly Network's Perp Anything, GPT-assisted tweaks, and Cloudflare Pages deployment — no servers involved. It works as a static page calling on-chain contracts and a shared order book; the post also warns readers to interact only with zero-balance test wallets and avoid linking real identities.",
+    "input_hash": "82f8b8529aa6"
+  },
+  "infoq-8EPJjIlk5WwgiXphjxEW": {
+    "summary_zh": "Cloud Native Buildpacks 于 2026 年 7 月 17 日从 CNCF 毕业，它将基础镜像与 CVE 补丁决策从各团队的 Dockerfile 收归平台工程团队。其 rebase 机制只改写 OCI 清单中的运行镜像 digest，无需重建应用层；BellSoft 于 7 月 21 日推出基于 Alpaquita 加固镜像的 Paketo 构建器。适合关注容器镜像供应链安全的平台团队。",
+    "summary_en": "Cloud Native Buildpacks graduated from CNCF on July 17, 2026 after positioning itself as a security alternative to per-service Dockerfiles: platform teams, not app teams, control base image patches. Its rebase command rewrites the run-image digest in the OCI manifest, applying a patched base image in milliseconds without a rebuild. BellSoft followed on July 21 with a hardened Paketo builder based on Alpaquita Linux.",
+    "input_hash": "475819b74e12"
+  },
+  "v2ex-fa543f753d75": {
+    "summary_zh": "牛来（ox）在 V2EX 发推广帖称其 AI 大模型 API 已上线并免费开放，获取地址为 oxalpha.io。这只是一条推广信息，没有模型能力、上下文长度或速率限制等细节，适合想低成本尝鲜的开发者先自行验证。",
+    "summary_en": "An ox-branded AI model API, called 牛来 (ox), is being promoted on V2EX as now available for free at oxalpha.io. It's a brief promotional post with no technical details such as model capabilities, context size, or rate limits, so developers should treat it as an early-access offering rather than a production endpoint.",
+    "input_hash": "c721da7d6f44"
+  },
+  "v2ex-3d3fa7238d78": {
+    "summary_zh": "一位 V2EX 用户称其 14600K CPU、96GB DDR4 内存和 22G 显存的 RTX 2080 Ti 加核显机器在跑 Codex（vibe coding）时仍感觉很吃力，询问换 Mac 是否更好。帖子没有回复可供参考，但这个高配 Windows 环境下的卡顿反馈，对同样在调本地编码 Agent 的开发者有对比价值。",
+    "summary_en": "A V2EX user reports that Codex feels sluggish during vibe coding on a machine with an i5-14600K, 96GB DDR4 RAM, and a 22GB RTX 2080 Ti plus iGPU, and asks whether switching to a Mac would help. The post is a question with no replies summarized here; it's a useful data point for developers experiencing similar local-AI-agent slowdowns.",
+    "input_hash": "c52c079fcd04"
+  },
+  "v2ex-efe5f6af321f": {
+    "summary_zh": "深圳一家公司招聘 C++ 软件工程师，负责 3D 打印模型预处理软件的 Windows 客户端开发，涵盖界面、网络功能、架构设计与代码重构。任职要求本科以上、5 年以上嵌入式或软件开发经验，熟悉 C++、SQLite 与网络编程，适合有 Windows 桌面端和本地存储经验的开发者。",
+    "summary_en": "A Shenzhen company is hiring a C++ software engineer for its Windows client for 3D-print model preprocessing, covering UI, networking, architecture design, and refactoring. Requirements include a bachelor's degree or above, 5+ years in embedded or software development, plus solid C++, SQLite, and network programming skills. Suitable for C++ developers with desktop-app and local-storage experience.",
+    "input_hash": "6e3c6a9cd496"
+  },
+  "v2ex-55559dd136f2": {
+    "summary_zh": "开发者基于 DeepSeek Harness 发布社区桌面版 Open DeepSeek Harness Desktop（MIT 开源，预览阶段），提供可视化工作区管理项目与会话，并可将编码任务委派给 Codex。预装的 dsh-im 插件支持微信、飞书、钉钉、Telegram 等 IM 远程派任务，作者称是开源的 WorkBuddy 替代品。适合同时用多款编码 Agent 与 MCP 工具的开发者。",
+    "summary_en": "A developer has released Open DeepSeek Harness Desktop, a community-built, MIT-licensed desktop distribution of DeepSeek Harness, currently in preview. It adds a visual workspace with local project and persistent-session management, and can delegate actual code changes to Codex. A bundled dsh-im plugin lets you assign tasks remotely via WeChat, Feishu, DingTalk, Telegram, and other IM apps; the author positions it as an open-source WorkBuddy alternative for developers juggling multiple coding agents and MCP tools.",
+    "input_hash": "9f6db8804919"
+  },
+  "v2ex-7e9992fa7ec8": {
+    "summary_zh": "一篇技术分析拆解了 Chrome 对后台标签页的五层节流机制，并逐一给出对策；文章以无限滚动爬虫在后台只抓到 20 条就停住为例，说明问题出在浏览器架构而不是脚本。作者把这些节流与修复整理成开源项目 Scrapewright，包括修改页面可见性状态等注入方案，适合写爬虫或做后台页自动化的开发者参考。",
+    "summary_en": "A technical write-up dissects Chrome's five-layer throttling of background tabs and pairs each layer with a workaround. It opens with a familiar scraper failure—an infinite-scroll page returns 20 items then stops when the tab isn't visible—and argues the cause is Chrome's architecture, not your code. The fixes are collected in Scrapewright, an open-source taxonomy that includes visibility-state overrides and keep-alive loops.",
+    "input_hash": "21a4957122dd"
+  },
+  "ph-1215949": {
+    "summary_zh": "HyNote 是 macOS 上的一款本地转录工具，宣称免费且 100% 私有，音频不需要上传到云端。当前公开信息只有产品简介，没有介绍具体实现、支持语言或识别质量；想验证这些需要实际下载试用。",
+    "summary_en": "HyNote is a macOS transcription app that advertises free, fully local speech-to-text with 100% privacy, meaning audio is supposed to stay on the device. The Product Hunt listing is brief and contains no implementation details or feature breakdown, so the privacy claim and overall feature scope remain to be verified by trying the app. It looks aimed at users who want transcription without uploading recordings to a cloud service.",
+    "input_hash": "92baba758abf"
+  },
+  "hn-49362689": {
+    "summary_zh": "《HTML Can Do That》是一个参考页面，收录了仅用 HTML 就能实现的动态交互功能，这些能力以往通常要写 JavaScript。适合想减少前端脚本、避免重框架依赖的开发者快速查阅，也方便了解浏览器原生能力的最新边界。",
+    "summary_en": "HTML Can Do That is a reference page that collects dynamic behaviors now achievable with HTML alone, circling back to the platform's native capabilities instead of JavaScript. The examples cover interaction and UI features that used to require custom scripts, making it a useful starting point for simplifying front-end code and reducing dependency on client-side frameworks. This matters for developers aiming for more resilient pages and faster load times.",
+    "input_hash": "ae25dccb81d4"
+  },
+  "infoq-D6IBeGO6rqVCjBDv1qwj": {
+    "summary_zh": "Astro 7 聚焦构建性能：编译器用 Rust 重写，Markdown/MDX 迁移到新的 Rust 流水线，并基于 Vite 8 与 Rolldown；官方测试显示构建提速 15%~61%。新编译器更严格，Markdown 改走自研 Sätteri 处理器，还带来 Hono 兼容入口与稳定路由缓存；HN 用户对依赖数减少和放弃 unified 反应不一。",
+    "summary_en": "Astro 7 focuses on build performance: the .astro compiler is rewritten in Rust, Markdown/MDX processing moves to a Rust pipeline, and the framework runs on Vite 8 with Rolldown; official benchmarks show 15%–61% faster builds, with astro.build dropping from 62.70s to 24.24s. The stricter compiler now errors on unclosed tags, Markdown goes through the new Sätteri processor, and there are Hono-compatible entry points, stable route caching, and experimental CDN providers. Hacker News reaction is mixed, with praise for fewer dependencies and criticism of the Markdown/unified switch.",
+    "input_hash": "bfea8dc1dce0"
+  },
+  "ph-1226841": {
+    "summary_zh": "Grok 4.6 已上线，官方将其定位为“面向长时间运行智能体的前沿智能”。这意味着它重点服务需要持续执行、多步骤推理的 agent 场景，而非一次性问答。开发者在选型或评测长程 agent 模型时，可以把 Grok 4.6 加入对比。",
+    "summary_en": "Grok 4.6 is now out, and its tagline describes it as frontier intelligence for long-running agents. That points to a focus on sustained, multi-step agentic tasks instead of single-turn answers. For developers who build autonomous agents or evaluate frontier models, it offers a new, specific target to benchmark against, though details beyond the tagline are limited.",
+    "input_hash": "bf0788397150"
+  },
+  "zhihu-2074181821978376015": {
+    "summary_zh": "这条知乎问答请评价 DeepSeek-V4-Flash-Vision-Exp 发布后的多模态能力表现。原文是链接，未提供更多细节。",
+    "summary_en": "This Zhihu discussion asks how DeepSeek-V4-Flash-Vision-Exp performs on multimodal tasks after its release. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "2aacfcd4af71"
+  },
+  "infoq-hfJrKqqoww06UYcygUrJ": {
+    "summary_zh": "Anthropic 旗下 Claude Code 仍领跑 AI 编程工具，但开发者正流向 OpenAI Codex：有用户抱怨 Claude Code 的“AI 腔”严重、体验越来越差，而 Codex 在功能跃升和放宽使用限制后更受追捧。TickerTrends 估算截至 8 月 10 日，Claude Code 的 ARR 为 151.2 亿美元，是 Codex 88.3 亿美元的 1.71 倍，但 Codex 月环比增长 20.8%，远超 Claude Code 的 5.2%，差距正快速收窄。",
+    "summary_en": "Claude Code still leads AI coding tools on revenue, but momentum has shifted to OpenAI's Codex. Developers cite Codex's improved capabilities, higher rate limits, and more straightforward behavior, while complaining that Claude Code feels increasingly verbose and 'AI-sounding.' TickerTrends estimates Claude Code ARR at $15.12B vs Codex's $8.83B as of Aug 10, yet Codex's 20.8% monthly growth dwarfs Claude Code's 5.2%, closing the gap.",
+    "input_hash": "bf2b2f267810"
+  },
+  "hn-49388154": {
+    "summary_zh": "Kagi 新增一项设置，可从搜索结果中移除带付费墙的链接。原文是链接，未提供更多细节。",
+    "summary_en": "Kagi now offers a setting to strip paywalled links from search results. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "9f18c0df6d8c"
+  },
+  "36kr-3948693036563590": {
+    "summary_zh": "有消费者花 3.8 万元购买的老铺黄金，二手转卖只能卖出 1.9 万元，价格近乎腰斩。原文是链接，未提供更多细节。",
+    "summary_en": "A consumer spent ¥38,000 on 老铺黄金, but second-hand resale only fetches ¥19,000. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "1dce3c28e88b"
+  },
+  "hn-49347543": {
+    "summary_zh": "这是一条只有标题的 Hacker News 链接，标题为“I like 'em thick: an apology to my English teachers”。原文是链接，未提供更多细节，因此无法得知文章的具体内容或“thick”所指为何。",
+    "summary_en": "This Hacker News post consists of only the title, \"I like 'em thick: an apology to my English teachers.\" The linked page isn't summarized here; details beyond the title aren't available. The exact meaning of \"thick\" and the apology's context remain unknown. Readers interested in the piece must visit the source page for the actual content.",
+    "input_hash": "d199127e72b3"
+  },
+  "ph-1226478": {
+    "summary_zh": "Claude Watermark Remover 是 Product Hunt 上的一款工具，能找出并删除 AI 在文本中留下的水印痕迹。它面向需要清理 AI 生成内容、去除可识别标记的写作者和内容运营者；目前仅提供了简短的产品介绍，未说明具体实现原理。",
+    "summary_en": "Listed on Product Hunt, Claude Watermark Remover scans text for AI traces and strips them out. The tool is aimed at writers and content teams who need to remove detectable AI artifacts. Its listing doesn't delve into how the removal works, and the title's Claude reference isn't reflected in the one-line description.",
+    "input_hash": "95bb7e5e9304"
+  },
+  "36kr-3948952877661575": {
+    "summary_zh": "OpenAI 宣布全面开源 Codex Harness，该消息由 36 氪报道。原文只有标题，没有正文，无法进一步介绍 Harness 的功能、开源范围或对开发者的影响。",
+    "summary_en": "According to a 36Kr report, OpenAI has fully open-sourced Codex Harness. The linked page isn't summarized here; details beyond the title aren't available. Since the feed item carries no description or article body, anything more would be speculation. The headline's \"full open source\" claim still needs an official source to verify its terms.",
+    "input_hash": "841133523823"
+  },
+  "ph-1219589": {
+    "summary_zh": "Checksum AI 是 Product Hunt 上的一款工具，定位为“coding agent 的测试伙伴”，面向使用 AI 编程代理的开发者。它能帮助 agent 完成测试相关工作，但产品页只有一句简介，未说明具体功能或技术细节。",
+    "summary_en": "Checksum AI is a Product Hunt listing described as \"your coding agent's testing buddy.\" It positions itself as a companion for AI-powered development agents, presumably covering testing tasks. The page contains only this one-line pitch; no details on features or integration are provided. Given the sparse description, the exact role in the agent workflow remains unclear.",
+    "input_hash": "d74ac48387a2"
+  },
+  "36kr-3949069449821314": {
+    "summary_zh": "恒湾科技完成 B+ 轮融资，标题称基站将变为算力节点。该条目没有正文，未提供融资金额、投资方或技术细节，无法判断融资规模与基站改造的具体方案。",
+    "summary_en": "Hengwan Technology has closed a Series B+ funding round, according to 36Kr. The headline frames base stations as computing nodes, but the item lacks an article body. Investment amount, backers, and technical specifics are not available. The linked page isn't summarized here, so there's nothing more to add from this entry.",
+    "input_hash": "00fc20a6308a"
+  },
+  "36kr-3947887902194823": {
+    "summary_zh": "这篇36氪「深氪」文章以「跳槽去机器人？赚一波快钱」为题，讨论是否值得为短期收益转入机器人行业。原文是链接，未提供更多细节。",
+    "summary_en": "This piece from 36Kr's Shenke column poses the question of whether to switch careers into robotics for quick money. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "8fbdc36f8102"
+  },
+  "36kr-3947933586586753": {
+    "summary_zh": "这篇36氪文章以「减肥针开始改造全球经济」为题，讨论减肥针带来的广泛经济影响。原文是链接，未提供更多细节。",
+    "summary_en": "This 36Kr article argues that weight-loss injections are beginning to reshape the global economy. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "4475095df32e"
+  },
+  "36kr-3947852851664512": {
+    "summary_zh": "这篇36氪报道称，DeepSeek Harness 在一周内更新三次，把 Claude Code 和 Codex 收编为子代理，试图成为 Agent 时代的「调度层」。原文是链接，未提供更多细节。",
+    "summary_en": "This 36Kr piece reports that DeepSeek Harness shipped three updates in a week, turning Claude Code and Codex into sub-agents and positioning itself as a 'scheduling layer' for the agent era. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "7de055410111"
+  },
+  "36kr-3948691750059394": {
+    "summary_zh": "这篇36氪文章面向零基础读者介绍 DeepSeek Harness，把它比喻成「赛博乐高」，主打快速上手和拼装玩法。原文是链接，未提供更多细节。",
+    "summary_en": "This 36Kr guide introduces DeepSeek Harness to complete beginners, describing it as 'cyber Lego' and promising a quick way to assemble and play with it. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "0ab230eb0038"
+  },
+  "36kr-3948894693283717": {
+    "summary_zh": "智谱（Zhipu）的唐杰近日公开承认，公司在战略上“走了弯路”，其市值在过去两个月内蒸发了大约8000亿元。该条目目前只有标题和链接，未提供正文细节，实际背景需跳转原文了解。",
+    "summary_en": "Tang Jie of Zhipu openly admitted that the company \"took a wrong turn,\" with roughly 800 billion yuan in market value lost over two months. This entry is just a title and link; the linked page isn't summarized here, details beyond the title aren't available.",
+    "input_hash": "f357179783be"
+  },
+  "36kr-3948701056128896": {
+    "summary_zh": "AI可穿戴领域中，眼镜、戒指和吊坠被并称为“三剑客”。这篇文章试图回答为什么是这三种形态跑了出来，而不是其他穿戴设备。该条目仅有标题和链接，未提供更多正文细节，具体分析需查看原文。",
+    "summary_en": "In the AI wearables space, glasses, rings, and pendants have been called the \"three musketeers.\" The story looks at why these three form factors won out over other wearables. Only the title is available here; the linked page isn't summarized, so details beyond the headline aren't provided.",
+    "input_hash": "fb69b58e6d9c"
+  },
+  "juejin-7631832575604129811": {
+    "summary_zh": "一位开发者发帖吐槽国产 CodingPlan 近期全面收紧，用户要么转 TokenPlan，要么接受低配额且月费高达 200 元的方案，于是转向 OpenAI 的 GPT5.5 + Codex。帖子未提供两者的详细对比，原文信息仅到此。",
+    "summary_en": "A developer complains that domestic CodingPlan has gotten much tighter: users are pushed to TokenPlan or left with tiny quotas and a 200-yuan monthly fee. They've switched to OpenAI's GPT5.5 + Codex, but the post doesn't offer a detailed comparison between the two options.",
+    "input_hash": "84cc3d3e83eb"
+  },
+  "zhihu-2073421689262532035": {
+    "summary_zh": "柯洁称找到了破解围棋 AI 的方法：只要装弱智，哪怕让 AI 九子也能赢。该问题在探讨这招是否可行及其原理，但目前无正文细节。原文是链接，未提供更多细节。",
+    "summary_en": "Ke Jie reportedly claims a way to beat Go AI: pretend to be weak, and even with a nine-stone handicap he can win. This Zhihu question asks if it works and what the principle is. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "80e903904b52"
+  },
+  "zhihu-2073122669688533530": {
+    "summary_zh": "该问题围绕华为发布的全球首款阔直板手机，提及此前传闻定价 6000-7000 元，询问其市场前景。原文是链接，未提供更多细节。",
+    "summary_en": "This Zhihu question discusses Huawei's launch of the world's first 'wide straight-board' phone, with a previously reported price of 6,000–7,000 yuan, and asks about its market prospects. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "357308698188"
+  },
+  "zhihu-2072772413494973775": {
+    "summary_zh": "该知乎问题提到 iPhone 17 系列在国内销量超过 4000 万的传闻，并询问消费者为何仍然偏爱苹果。原文是链接，未提供更多细节。",
+    "summary_en": "This Zhihu question cites a report that iPhone 17 series sales in China exceeded 40 million units and asks why consumers still prefer Apple. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "e23693e7b3b7"
+  },
+  "zhihu-755709371": {
+    "summary_zh": "该知乎问题在问国产 Linux 是否还有希望，即想知道它还有没有发展空间，但只有标题，没有正文内容。原文是链接，未提供更多细节。",
+    "summary_en": "This Zhihu question asks whether domestic Linux still has a future. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "6be53666b0b3"
+  },
+  "zhihu-2071247286114281452": {
+    "summary_zh": "该知乎问题在讨论具身智能是否会成为 AI 的下一个爆发点，也就是其能否成为下一阶段的增长核心，但只有标题，没有正文内容。原文是链接，未提供更多细节。",
+    "summary_en": "This Zhihu question asks whether embodied AI will become the next major growth area for AI. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "bff779eb004c"
   }
 }
