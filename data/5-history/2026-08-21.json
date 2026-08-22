@@ -772,7 +772,9 @@
       "tags": [],
       "first_seen": "2026-08-21",
       "domain": "nytimes.com",
-      "quality_score": 37.9
+      "quality_score": 37.9,
+      "summary_zh": "这是一个 Hacker News 帖子，标题称美国公民在边境删除手机数据可能面临重罪指控。原帖正文仅有 archive.ph 存档和 YouTube 视频链接，没有更多案情或法律细节，具体事件背景需点击链接查看。",
+      "summary_en": "A Hacker News post titled 'Felony charges for citizen deleting phone data at US Border' alleges that deleting phone data at the border could lead to felony charges for a U.S. citizen. The submission includes only links to an archive.ph snapshot and a YouTube video; no text excerpt or case details are provided. The linked pages aren't summarized here; details beyond the headline aren't available."
     },
     {
       "id": "hn-49362001",
@@ -5077,7 +5079,9 @@
       "tags": [],
       "first_seen": "2026-08-21",
       "domain": "infoq.cn",
-      "quality_score": 36.4
+      "quality_score": 36.4,
+      "summary_zh": "OpenRouter 悄然上线匿名模型 Ox Alpha（stealth/ox-alpha），未发布技术报告，目前免费。该模型拥有超 100 万 Token 上下文、13 万 Token 最大输出，支持文本/图像/视频输入与工具调用，但暂不支持严格 JSON Schema。它来自匿名的第三方供应商，上线后引发关于 Google Gemini、小米 MiMo V3、腾讯混元等出处的猜测。",
+      "summary_en": "OpenRouter has quietly released an anonymous model called Ox Alpha (stealth/ox-alpha) with no technical report, and it is currently free. The model offers a 1M-token context window, up to 130K-token output, text/image/video input, and tool calling, though strict JSON Schema isn't supported. It comes from an unnamed third-party provider, sparking speculation about origins ranging from Google Gemini to Xiaomi MiMo V3 and Tencent Hunyuan."
     },
     {
       "id": "infoq-jlTfe57D4r0Juzpz8Fk5",
@@ -5093,7 +5097,9 @@
       "tags": [],
       "first_seen": "2026-08-21",
       "domain": "infoq.cn",
-      "quality_score": 36.2
+      "quality_score": 36.2,
+      "summary_zh": "DeepSeek 发布实验模型 deepseek-v4-flash-vision-exp，首次通过官方 API 开放视觉输入，图片按 token 计费，单张最多 384 tokens。相比 V4-Flash-0731，多数基准提升，Toolathlon 增 5.6 分、DeepSWE 增 4.9 分，文本 Agent 能力整体接近 Opus 4.8。API 支持 Chat Completions、Messages、Responses 三种格式及多种图片传参方式。",
+      "summary_en": "DeepSeek launched an experimental multimodal model, deepseek-v4-flash-vision-exp, marking its first official API support for image understanding. Images are converted to tokens — up to 384 per image — and billed at the same rate as V4-Flash. Compared with V4-Flash-0731, most benchmarks improved (e.g., +5.6 on Toolathlon, +4.9 on DeepSWE), bringing text-agent performance close to Opus 4.8. API calls support Chat Completions, Messages, and Responses, with base64, URL, or Files API image input."
     },
     {
       "id": "infoq-YB51rwb95keVmlIZ0xQd",
@@ -5125,7 +5131,9 @@
       "tags": [],
       "first_seen": "2026-08-21",
       "domain": "infoq.cn",
-      "quality_score": 37.2
+      "quality_score": 37.2,
+      "summary_zh": "Meta AI Research 开源 300 亿参数模型 Muse Glimmer，采用 Apache 2.0 许可，专为本地智能体、工具调用、编码和 LLM 评估设计。借助动态量化与 DFlash 推测解码，模型占用约 17-20GB，在 M4/M5 Max、RTX 5090 上生成速度最高提升 3.1 倍；1.8B 参数感知编码器支持交错图文输入，基准测试优于 Gemma 4 31B 和 Qwen 3.6 27B。",
+      "summary_en": "Meta AI Research open-sourced Muse Glimmer, a 30B-parameter model under Apache 2.0, designed for always-on local workflows such as autonomous agents, complex tool use, local coding, and LLM-as-judge evaluation. Dynamic quantization shrinks memory to roughly 17–20GB, and DFlash speculative decoding boosts throughput up to 3.1x on M4/M5 Max and RTX 5090. A dedicated 1.8B perception encoder handles interleaved multimodal inputs, and benchmarks show stronger multi-step tool-call reliability than Gemma 4 31B and Qwen 3.6 27B."
     },
     {
       "id": "infoq-7FAcAhVUw89VJNwuOwrc",
@@ -5223,7 +5231,9 @@
       "tags": [],
       "first_seen": "2026-08-21",
       "domain": "infoq.cn",
-      "quality_score": 38.8
+      "quality_score": 38.8,
+      "summary_zh": "J-Space Cognition Suite 声称不改 DeepSeek V4-Pro-0813 权重，仅靠推理时 Harness 就能在 Agent 基准上超越 Fable 5，但尚无第三方复现。项目针对“表征漂移”和“过早停止”优化 Harness 的重试、记忆与停止条件；它与 Anthropic 的 J-space 可解释性研究只是同名。",
+      "summary_en": "J-Space Cognition Suite claims to push DeepSeek V4-Pro-0813 past Fable 5 on agent benchmarks without modifying model weights, using only a runtime harness. Published results are self-reported with no independent reproduction yet. It targets 'representation drift' and 'premature stopping' by changing retry, memory, and stop conditions; despite the name, it's unrelated to Anthropic's J-space interpretability research."
     },
     {
       "id": "infoq-9FZ8z60yB4tS4WQEP4dw",

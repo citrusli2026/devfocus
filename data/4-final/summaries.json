@@ -1566,9 +1566,9 @@
     "summary_en": "Trending on HN: 8点1氪丨SpaceX跌破IPO首日收盘价，市值蒸发4000亿美元；英国首相斯塔默宣布辞职；SK海力士市值首超三星电子"
   },
   "gh-daily-affaan-m-ECC": {
-    "summary_zh": "affaan-m/ECC 是一个面向 Claude Code、Codex 和 Opencod 等 AI 编程助手的性能优化系统，它集成了技能、直觉、记忆、安全性和研究优先的开发理念，帮助开发者更高效地利用这些工具，让 AI 代理的运行更加稳定和智能。",
-    "summary_en": "ECC is an agent harness performance optimization system designed for AI coding assistants like Claude Code, Codex, and Opencod. It bundles skills, instincts, memory, security, and a research-first development approach, enabling developers to fine-tune their agents for better stability and intelligence. This matters because it transforms raw AI tools into more reliable, context-aware programming partners.",
-    "input_hash": "f77dce530a39"
+    "summary_zh": "ECC 是一个面向 AI 编程代理的 agent harness 性能优化系统，宣称覆盖 Claude Code、Codex、Opencode、Cursor 等工具，主打 skills、instincts、memory、security 与 research-first 开发流程。它当前是 GitHub 趋势仓库，适合希望系统化调优 agent 行为与安全边界的开发者。仓库提供多语言 README，但具体实现细节需自行查看源代码。",
+    "summary_en": "ECC is a performance-optimization system for agent harnesses, aimed at AI coding tools such as Claude Code, Codex, Opencode, and Cursor. It emphasizes skills, instincts, memory, security, and a research-first workflow. The trending GitHub repository offers multilingual READMEs; developers interested in systematically tuning agent behavior can inspect the source for implementation details.",
+    "input_hash": "de2bc01c6f10"
   },
   "gh-daily-NousResearch-hermes-agent": {
     "summary_zh": "NousResearch 推出的 hermes-agent 是一款能够随用户使用而不断进化的智能代理，它通过持续学习用户的行为和偏好来优化自身表现，适合那些希望拥有一个越用越顺手、越用越懂自己的 AI 助手的开发者和普通用户。",
@@ -1995,8 +1995,9 @@
     "summary_en": "Trending on HN: 70亿，阿里终于承认了那个\"不\"字"
   },
   "gh-daily-ripienaar-free-for-dev": {
-    "summary_zh": "这是一个在GitHub上持续更新的资源列表，专门汇总了各类SaaS、PaaS和IaaS服务的免费套餐。对于DevOps和基础设施开发者来说，它就像一份宝藏地图，能帮你在预算有限的情况下快速找到合适的云工具，从而降低创业或实验成本。无论是搭建个人项目还是测试新技术，这个列表都能节省大量搜索时间。",
-    "summary_en": "This is a constantly updated GitHub repository that curates a comprehensive list of SaaS, PaaS, and IaaS offerings with free tiers. It serves as a treasure map for DevOps and infrastructure developers, helping them quickly identify cloud tools that fit tight budgets. Whether you're bootstrapping a startup, running personal projects, or experimenting with new technologies, this list dramatically reduces the time spent hunting for cost-effective solutions, making it an essential resource for anyone who wants to build without breaking the bank."
+    "summary_zh": "ripienaar/free-for-dev 是一个收录 SaaS、PaaS、IaaS 免费层的清单，目标用户是 DevOps 和基础设施开发者；它要求服务提供长期免费额度而非仅试用，且只收录 as-a-Service 产品，不含自托管软件。该列表由 1600 多位贡献者通过 Pull Request 共同维护，适合需要筛选免费开发服务的工程师快速参考。",
+    "summary_en": "free-for-dev is a curated list of SaaS, PaaS, and IaaS offerings with free tiers, aimed at DevOps and infrastructure developers. Eligibility requires a genuine free tier rather than a trial, and only as-a-Service products are included—no self-hosted software. Maintained by 1,600+ contributors via pull requests, it's a practical reference for engineers hunting for no-cost development services.",
+    "input_hash": "8e70b442e10f"
   },
   "gh-daily-grafana-grafana": {
     "summary_zh": "Grafana是一款开源的可观测性与数据可视化平台，它能够统一展示来自Prometheus、Loki等多种来源的指标、日志和链路追踪数据。通过灵活的仪表盘和告警机制，运维团队可以轻松监控系统健康状态，定位问题根源。它的核心价值在于将分散的监控数据整合成直观的视图，让复杂系统的可观测性变得简单而强大。",
@@ -5041,8 +5042,9 @@
     "summary_en": "This GitHub repository offers a hands-on curriculum for aspiring AI engineers, covering everything from foundations to deployment. The motto 'Learn it. Build it. Ship it for others' reflects its practical approach: you don't just study theory, you create real products. Perfect for beginners or career switchers who want a structured path into AI engineering."
   },
   "gh-daily-PostHog-posthog": {
-    "summary_zh": "PostHog是一个开源的产品分析平台，帮助团队构建“自动驾驶”产品。它集成了AI可观测性、用户行为分析、会话回放和功能开关等工具，让开发者无需依赖多个第三方服务。非常适合注重数据隐私和自建分析能力的团队。",
-    "summary_en": "PostHog is an open-source product analytics suite that empowers teams to build self-driving products. It combines AI observability, session replay, feature flags, and more into one platform, reducing reliance on multiple vendors. With full control over data, it's ideal for startups and enterprises that prioritize privacy and flexibility."
+    "summary_zh": "PostHog/posthog 是 PostHog 的官方开源仓库，其开发者工具覆盖 AI 可观测性、数据分析、会话回放、功能开关、实验、错误追踪与日志等场景。该仓库在 GitHub 上保持活跃（欢迎提交 PR、有 Docker 镜像），适合需要一站式产品洞察与排障能力的开发团队。",
+    "summary_en": "PostHog/posthog is the official open-source repository for PostHog, bundling developer tools for AI observability, analytics, session replay, feature flags, experiments, error tracking, and logs. The repo is actively maintained, welcomes pull requests, and ships Docker images. Useful for teams wanting an all-in-one product analytics and debugging stack.",
+    "input_hash": "f2c63dd9b8a2"
   },
   "gh-monthly-DeusData-codebase-memory-mcp": {
     "summary_zh": "这是一个高性能的代码智能MCP服务器，能将整个代码库索引成持久化的知识图谱，支持158种语言，平均查询响应时间仅为毫秒级。它极大地提升了开发者在大型项目中快速理解代码结构的能力，尤其适合复杂代码库的维护和重构场景。",
@@ -6109,7 +6111,8 @@
   },
   "gh-daily-pbakaus-impeccable": {
     "summary_zh": "Impeccable 是一套专门为 AI 设计工具量身打造的设计语言，旨在帮助 AI 更准确地理解和生成美观、一致的用户界面。它定义了清晰的视觉规范、布局原则和交互模式，让 AI 在设计输出时不再“胡乱发挥”，而是遵循人类设计师的直觉和标准。无论是设计自动化工具、低代码平台还是智能助手，Impeccable 都能显著提升 AI 产出的设计质量，降低后期人工修正成本。",
-    "summary_en": "Impeccable is a design language crafted specifically for AI-powered design tools, helping AI better understand and generate visually appealing, consistent user interfaces. By defining clear visual specifications, layout principles, and interaction patterns, it stops AI from producing chaotic results and instead aligns its output with human designer intuition. For design automation tools, low-code platforms, or smart assistants, Impeccable significantly improves the quality of AI-generated designs and reduces the need for manual adjustments."
+    "summary_en": "Impeccable is a design language crafted specifically for AI-powered design tools, helping AI better understand and generate visually appealing, consistent user interfaces. By defining clear visual specifications, layout principles, and interaction patterns, it stops AI from producing chaotic results and instead aligns its output with human designer intuition. For design automation tools, low-code platforms, or smart assistants, Impeccable significantly improves the quality of AI-generated designs and reduces the need for manual adjustments.",
+    "input_hash": "8eda17e61367"
   },
   "36kr-3911068395345287": {
     "summary_zh": "曾因风格过于性感而被市场边缘化的某女性品牌，如今凭借精准的品牌重塑和产品升级，重新夺回行业第一宝座，一年内从中国女性消费者身上赚走近5亿元。它的逆袭故事展示了传统品牌如何在消费趋势变迁中灵活调整策略，抓住新一代女性的审美和需求红利，也印证了“性感”并非过时，而是需要与品质和情感共鸣结合。",
@@ -10417,8 +10420,8 @@
     "input_hash": "bf2b2f267810"
   },
   "hn-49388154": {
-    "summary_zh": "Kagi 新增一项设置，可从搜索结果中移除带付费墙的链接。原文是链接，未提供更多细节。",
-    "summary_en": "Kagi now offers a setting to strip paywalled links from search results. The linked page isn't summarized here; details beyond the title aren't available.",
+    "summary_zh": "Kagi 为搜索结果新增了一个设置项，用于移除付费墙（paywall）链接。原始条目只有标题、没有正文，因此无法提供更多实现细节。",
+    "summary_en": "Kagi has added a setting that removes paywalled links from search results. The linked page isn't summarized here; details beyond the title aren't available.",
     "input_hash": "9f18c0df6d8c"
   },
   "36kr-3948693036563590": {
@@ -10510,5 +10513,195 @@
     "summary_zh": "该知乎问题在讨论具身智能是否会成为 AI 的下一个爆发点，也就是其能否成为下一阶段的增长核心，但只有标题，没有正文内容。原文是链接，未提供更多细节。",
     "summary_en": "This Zhihu question asks whether embodied AI will become the next major growth area for AI. The linked page isn't summarized here; details beyond the title aren't available.",
     "input_hash": "bff779eb004c"
+  },
+  "v2ex-ee0e29d0fcf5": {
+    "summary_zh": "V2EX 热议：[分享创造] [跟风作品] 最近竞价排行榜挺火，我也做了一个，看看能有什么效果",
+    "summary_en": "Hot on V2EX: [分享创造] [跟风作品] 最近竞价排行榜挺火，我也做了一个，看看能有什么效果",
+    "input_hash": "8167f089e2d9"
+  },
+  "v2ex-4b33254fba60": {
+    "summary_zh": "V2EX 热议：[问与答] v 站签到系统好像有点问题，凌晨有时候不能自动签到，不知道什么原因。",
+    "summary_en": "Hot on V2EX: [问与答] v 站签到系统好像有点问题，凌晨有时候不能自动签到，不知道什么原因。",
+    "input_hash": "a2f350145f7b"
+  },
+  "gh-daily-openai-codex": {
+    "summary_zh": "OpenAI 的 Codex CLI 是一个运行在本地终端的轻量级编程代理，支持 Mac/Linux 和 Windows 安装，也可作为 IDE 插件装进 VS Code、Cursor、Windsurf。对想留在命令行用 AI 写代码的开发者，它提供了比云端版本更直接的本地工作流；OpenAI 还提供桌面应用和云端 Codex Web。",
+    "summary_en": "Codex CLI is a lightweight coding agent from OpenAI that runs locally in a terminal, with installers for Mac/Linux and Windows plus IDE extensions for VS Code, Cursor, and Windsurf. It should appeal to developers who want AI pair-programming without leaving the command line; OpenAI also ships a desktop app and a cloud version, Codex Web.",
+    "input_hash": "8db9a23c442f"
+  },
+  "zhihu-2074570591689089958": {
+    "summary_zh": "该知乎问答讨论的是：因曝光林肯号航空母舰糟糕处境，美国军报总编辑、发行人和记者均被解雇，被视为对吹哨人的清算。题目在征求对此事的看法，但原帖只有标题，未提供更多细节。",
+    "summary_en": "This Zhihu post asks readers to discuss reports that the editor-in-chief, publisher, and a reporter of a U.S. military newspaper were fired after exposing the poor conditions of the aircraft carrier Lincoln — described as retaliation against a whistleblower. The original post is a title-only question; no additional details are available.",
+    "input_hash": "43631ac1e094"
+  },
+  "36kr-3950020635180169": {
+    "summary_zh": "36氪这篇标题显示，一个尚未实际造出任何产品的对象以80亿元的价格被收购或出售。原文仅有标题，未提供更多细节，因此无法确认具体标的、买家或交易背景。",
+    "summary_en": "This 36Kr article's headline reports that a subject with no actual output was sold for 8 billion. Only the title is available, so the company, buyer, and deal details are not included in this summary.",
+    "input_hash": "0ee0f51d3098"
+  },
+  "v2ex-66d4f710cbd2": {
+    "summary_zh": "Atoman 是开源内容聚合社区，定位是高质量、少限制、求真，而非算法推荐和情绪互动。现有订阅、博客、音乐、论坛、辩论、人物时间线等模块，其中博客、音乐、订阅已可用；适合想要安静获取信息、认真讨论问题的用户，代码托管在 GitHub。",
+    "summary_en": "Atoman is an open-source content aggregation community that explicitly avoids algorithm-driven feeds and emotional engagement, aiming instead for high-quality, low-censorship, truth-focused discussion. The site includes modules for subscriptions, blogs, music, forums, debate, person timelines, and podcasts/videos, though only blog, music, and subscription are fully usable; code is on GitHub. It suits people who want calmer information consumption and serious exchanges.",
+    "input_hash": "e809f233136a"
+  },
+  "v2ex-bf0c949f6835": {
+    "summary_zh": "这篇 V2EX 文章从 git worktree 出发，建议为每个 AI agent 创建独立工作区以并行开发，避免多会话互相覆盖和缓存冲突。作者特别指出 Windows 需升级到 Win11，用 ReFS 开发者驱动器（Dev Drive）提供 COW 支持，使 worktree 的创建接近 macOS 原生体验且减少 SSD 写入；Linux 则可用 btrfs 达到类似效果。",
+    "summary_en": "This V2EX post explains how to set up Windows for parallel AI agent development: use git worktree to give each agent its own workspace, avoiding file conflicts and cache misses. The author recommends upgrading to Windows 11 and enabling the ReFS-based Dev Drive for copy-on-write support, which makes worktree creation near-instant and avoids heavy SSD writes; Linux users can use btrfs for a similar setup.",
+    "input_hash": "bba9e890d65a"
+  },
+  "v2ex-939351d12041": {
+    "summary_zh": "apipeek 将 mitmproxy 抓包流程封装成一键启动的小工具：自动开启 HTTP/HTTPS 代理，内置 mitmweb 页面实时查看请求和响应，结果默认保存为 requests.jsonl，一行一条完整请求。支持按域名过滤、导出 HAR，并提供 Windows 便携版，解压双击即可运行；适合开发调试、接口联调与授权范围内的接口分析。",
+    "summary_en": "apipeek wraps mitmproxy into a one-click packet capture tool: it starts an HTTP/HTTPS proxy, embeds the mitmweb UI for live request/response inspection, and logs each request as one JSONL line in requests.jsonl. It also supports domain filtering and HAR export, ships a Windows portable build (unzip and run), and can be installed via pip install -e . for further development. Useful for debugging, API integration testing, and authorized traffic analysis.",
+    "input_hash": "5708bf391ef4"
+  },
+  "zhihu-2074601403142649584": {
+    "summary_zh": "该知乎提问讨论 DeepSeek 在 8 月 22 日再次调整定价，周末全天统一按低谷价收费。原文是链接，未提供更多细节。",
+    "summary_en": "This Zhihu question discusses DeepSeek's latest pricing adjustment on August 22, applying off-peak rates all day on weekends. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "39efb3c86c64"
+  },
+  "zhihu-2065514457850176456": {
+    "summary_zh": "该知乎问答提出一个假想选择：三张银行卡初始金额分别为 1 亿、1 万、1 元，对应日利率 0.01%、1%、10%，询问怎么选。原文是链接，未提供更多细节。",
+    "summary_en": "This Zhihu question poses a hypothetical choice: three bank cards with starting balances of CNY 100 million, CNY 10,000, and CNY 1, earning daily interest of 0.01%, 1%, and 10% respectively, asking which to pick. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "fc202a41a84b"
+  },
+  "zhihu-2074541381372965994": {
+    "summary_zh": "该知乎话题讨论在高校录取通知书回归「一页纸」的背景下，清华大学推出立体二校门版「入学纪念证书」的做法。原文是链接，未提供更多细节。",
+    "summary_en": "This Zhihu discussion asks for views on Tsinghua University's launch of a three-dimensional 'Second School Gate' admission commemorative certificate, at a time when university admission letters are returning to a single-page format. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "a5cf59cf6a7a"
+  },
+  "36kr-3949992200928641": {
+    "summary_zh": "这是36氪《9点1氪》的一期，收录三条要闻：医院可领结婚证并与婚前检查无缝衔接、阿里巴巴发布2027财年Q1财报（营收2690亿元）、OpenAI进一步开放Codex底层能力。原文是链接，未提供更多细节。",
+    "summary_en": "This installment of 36Kr's '9点1氪' morning roundup headlines three items: hospitals offering marriage certificates alongside premarital checkups; Alibaba posting RMB 269 billion revenue for Q1 of FY2027; and OpenAI opening up more of Codex's underlying capabilities. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "0d897251660b"
+  },
+  "v2ex-efbe1ef34cee": {
+    "summary_zh": "一位 V2EX 用户发帖称发现某输入法加入了实时背单词功能，并表示很激动。原文是链接，未提供更多细节。",
+    "summary_en": "A V2EX user shares a discovery: an input method now has a real-time vocabulary-learning feature, and the poster says they're excited. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "5cebc01185d2"
+  },
+  "36kr-3950055800749193": {
+    "summary_zh": "36氪报道，苹果 VR 部门出现大裁员，VisionPro 2 的前景因此变得不确定。原文是链接，未提供更多细节。",
+    "summary_en": "According to 36Kr, Apple's VR division has seen significant layoffs, making the future of VisionPro 2 look doubtful. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "a555dd17659c"
+  },
+  "v2ex-c734fb2701b6": {
+    "summary_zh": "vivo 会在无操作时改写 motion photo 元信息：MP4 尾部增加 240 字节专有 uuid box，XMP 新增 VCamera 标记，导致 Google Photos 无法播放、vivo 相册却正常。发帖者用 Codex 定位到 com.vivo.gallery.file.convert 等改动，跨生态同步 motion photo 的用户需注意。",
+    "summary_en": "A V2EX user reports that vivo phones silently rewrite motion photo metadata: the MP4 gets a 240-byte vivo-specific UUID box and the JPEG XMP adds VCamera fields. As a result, motion photos that once played in Google Photos now show a loading spinner, while vivo's gallery plays them. Using Codex, the user traced the issue to vivo-specific tags like com.vivo.gallery.file.convert:10004.",
+    "input_hash": "c90ae3f35e6d"
+  },
+  "v2ex-6848a031e35e": {
+    "summary_zh": "一位 V2EX 用户在投资节点提问：持有外国 TIN 和中国、香港及第三国汇丰卓越理财账户，如何投资美股并尽量避开 CRS 交换。原文是链接，未提供更多细节。",
+    "summary_en": "A V2EX user asks in the investing section: with a foreign TIN and HSBC Premier accounts in China, Hong Kong, and a third country, what's the best way to invest in US stocks while minimizing CRS information exchange? The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "b265f5672751"
+  },
+  "v2ex-36d0c1f2010a": {
+    "summary_zh": "一名 V2EX 用户在下载 Hugging Face 模型时发现 GitHub 仓库 xixu-me/xget 已返回 404，无法正常访问。帖子未说明仓库是删除、转移还是转为私有；依赖该下载工具的开发者需要暂时寻找替代方案或等待恢复。",
+    "summary_en": "A V2EX user reports that the GitHub repository xixu-me/xget is now returning 404, just when they wanted to use it to download Hugging Face models. The post doesn't say whether the repo was deleted, moved, or made private; anyone relying on this tool may need to find an alternative or wait for it to come back.",
+    "input_hash": "e8c6e202689c"
+  },
+  "v2ex-9ba023ae1d30": {
+    "summary_zh": "GuanDan Lab 是一个面向掼蛋新手的开源陪练项目，把规则学习、实战、记牌训练和赛后复盘整合在一起。目前支持本地 AI 四人对局、在线四人大厅、大语言模型驱动的 Agent 队友/对手、九宫格记牌训练、中文语音和移动端适配。适合没有固定牌友、想快速上手的玩家。",
+    "summary_en": "GuanDan Lab is an open-source AI training companion for Guandan beginners, combining rule learning, gameplay, card-memory drills, and post-game review. It offers local AI four-player matches, an online four-player lobby, LLM-driven Agent teammates and opponents, nine-grid memory training, character-specific Chinese voice lines, and mobile adaptation. It's useful for players without a regular card group.",
+    "input_hash": "263895407340"
+  },
+  "infoq-MKDQBpGhC5Uu3pB4kMbC": {
+    "summary_zh": "J-Space Cognition Suite 声称不改 DeepSeek V4-Pro-0813 权重，仅靠推理时 Harness 就能在 Agent 基准上超越 Fable 5，但尚无第三方复现。项目针对“表征漂移”和“过早停止”优化 Harness 的重试、记忆与停止条件；它与 Anthropic 的 J-space 可解释性研究只是同名。",
+    "summary_en": "J-Space Cognition Suite claims to push DeepSeek V4-Pro-0813 past Fable 5 on agent benchmarks without modifying model weights, using only a runtime harness. Published results are self-reported with no independent reproduction yet. It targets 'representation drift' and 'premature stopping' by changing retry, memory, and stop conditions; despite the name, it's unrelated to Anthropic's J-space interpretability research.",
+    "input_hash": "ab3b37534d2c"
+  },
+  "infoq-3MNJh5F34GSsRQJJWJzY": {
+    "summary_zh": "OpenRouter 悄然上线匿名模型 Ox Alpha（stealth/ox-alpha），未发布技术报告，目前免费。该模型拥有超 100 万 Token 上下文、13 万 Token 最大输出，支持文本/图像/视频输入与工具调用，但暂不支持严格 JSON Schema。它来自匿名的第三方供应商，上线后引发关于 Google Gemini、小米 MiMo V3、腾讯混元等出处的猜测。",
+    "summary_en": "OpenRouter has quietly released an anonymous model called Ox Alpha (stealth/ox-alpha) with no technical report, and it is currently free. The model offers a 1M-token context window, up to 130K-token output, text/image/video input, and tool calling, though strict JSON Schema isn't supported. It comes from an unnamed third-party provider, sparking speculation about origins ranging from Google Gemini to Xiaomi MiMo V3 and Tencent Hunyuan.",
+    "input_hash": "77af94e0b651"
+  },
+  "zhihu-2074086385397544896": {
+    "summary_zh": "该条目是知乎上的一个提问，引述彭博社报道，该报道称美国在人工智能领域的领先地位正被中国迅速缩小。目前仅有标题，原文是链接，未提供更多细节，讨论内容不详。",
+    "summary_en": "This Zhihu entry poses the question of how to view a Bloomberg report that says China is quickly closing the US's AI lead. Only the title is available in this digest; the linked page isn't summarized here, so details beyond the title aren't available.",
+    "input_hash": "d924cc7d1285"
+  },
+  "infoq-aGfkSN1YlmLrUQMPea9L": {
+    "summary_zh": "Meta AI Research 开源 300 亿参数模型 Muse Glimmer，采用 Apache 2.0 许可，专为本地智能体、工具调用、编码和 LLM 评估设计。借助动态量化与 DFlash 推测解码，模型占用约 17-20GB，在 M4/M5 Max、RTX 5090 上生成速度最高提升 3.1 倍；1.8B 参数感知编码器支持交错图文输入，基准测试优于 Gemma 4 31B 和 Qwen 3.6 27B。",
+    "summary_en": "Meta AI Research open-sourced Muse Glimmer, a 30B-parameter model under Apache 2.0, designed for always-on local workflows such as autonomous agents, complex tool use, local coding, and LLM-as-judge evaluation. Dynamic quantization shrinks memory to roughly 17–20GB, and DFlash speculative decoding boosts throughput up to 3.1x on M4/M5 Max and RTX 5090. A dedicated 1.8B perception encoder handles interleaved multimodal inputs, and benchmarks show stronger multi-step tool-call reliability than Gemma 4 31B and Qwen 3.6 27B.",
+    "input_hash": "4ae697ce8183"
+  },
+  "infoq-jlTfe57D4r0Juzpz8Fk5": {
+    "summary_zh": "DeepSeek 发布实验模型 deepseek-v4-flash-vision-exp，首次通过官方 API 开放视觉输入，图片按 token 计费，单张最多 384 tokens。相比 V4-Flash-0731，多数基准提升，Toolathlon 增 5.6 分、DeepSWE 增 4.9 分，文本 Agent 能力整体接近 Opus 4.8。API 支持 Chat Completions、Messages、Responses 三种格式及多种图片传参方式。",
+    "summary_en": "DeepSeek launched an experimental multimodal model, deepseek-v4-flash-vision-exp, marking its first official API support for image understanding. Images are converted to tokens — up to 384 per image — and billed at the same rate as V4-Flash. Compared with V4-Flash-0731, most benchmarks improved (e.g., +5.6 on Toolathlon, +4.9 on DeepSWE), bringing text-agent performance close to Opus 4.8. API calls support Chat Completions, Messages, and Responses, with base64, URL, or Files API image input.",
+    "input_hash": "04ab6f4a3d2a"
+  },
+  "zhihu-275468231": {
+    "summary_zh": "该条目是一个知乎提问，问题聚焦于哪些操作可能对电脑造成永久性损坏。目前仅有标题，原文是链接，未提供更多细节，具体回答与讨论内容暂不可知。",
+    "summary_en": "This Zhihu entry is a question about PC hardware: which operations might permanently damage a computer? Since only the title is included in this digest, the linked page isn't summarized here, and details beyond the title aren't available — no answers or examples are provided.",
+    "input_hash": "1bf69a7f6cb1"
+  },
+  "36kr-3950175530270084": {
+    "summary_zh": "该文标题提出一个观点：越熟练使用 AI 的人，学习能力可能退化得越快。原文是 36kr 文章，但条目未提供正文或描述，无法给出作者的具体论证与案例。",
+    "summary_en": "This 36kr article is represented only by its headline: the more proficient people become at using AI, the faster their learning ability may decline. No body text or description accompanies the link, so the author's reasoning, examples, and evidence are not available. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "810b186fd6f4"
+  },
+  "hn-49386895": {
+    "summary_zh": "这是一个 Hacker News 帖子，标题称美国公民在边境删除手机数据可能面临重罪指控。原帖正文仅有 archive.ph 存档和 YouTube 视频链接，没有更多案情或法律细节，具体事件背景需点击链接查看。",
+    "summary_en": "A Hacker News post titled 'Felony charges for citizen deleting phone data at US Border' alleges that deleting phone data at the border could lead to felony charges for a U.S. citizen. The submission includes only links to an archive.ph snapshot and a YouTube video; no text excerpt or case details are provided. The linked pages aren't summarized here; details beyond the headline aren't available.",
+    "input_hash": "65f3bb88f186"
+  },
+  "ph-1227792": {
+    "summary_zh": "Wizstar 是 Product Hunt 上发布的一款数字人偶产品，官方描述称它能生成像专业演员一样移动和表演的数字人。它瞄准需要虚拟人物出镜的视频、演示或互动内容创作者，但列表未提供技术实现、价格或试用信息。",
+    "summary_en": "Wizstar is a Product Hunt launch described as digital avatars that move and act like professional actors. The one-line pitch appears aimed at creators who need lifelike virtual performers for video, presentations, or interactive content. No technical implementation, pricing, or demo is included in the listing; the actual quality and workflow are unverified. Prospective users would need to try the product or watch sample output to judge it.",
+    "input_hash": "533ac65a3e81"
+  },
+  "ph-1220506": {
+    "summary_zh": "Supernova 是 Product Hunt 上发布的一款工具，标语为“All your data in Claude and Codex”，即把用户数据接入 Claude 和 Codex。列表没有说明具体实现方式、存储或安全机制，适合希望在这两个 AI 工具间统一管理数据的用户。",
+    "summary_en": "Supernova is a Product Hunt listing whose pitch is 'All your data in Claude and Codex'. It appears to bring a user's data into both AI tools, possibly as a central hub or import layer. The listing doesn't explain how data is synced, stored, or secured, so anyone considering it should verify those details before handing over data.",
+    "input_hash": "d0e2e31af885"
+  },
+  "36kr-3926661974980745": {
+    "summary_zh": "该文章标题提供了一个建议：当努力没有回报时，不要陷入内耗。条目只有标题，没有正文或描述，因此作者的具体论述、案例和方法都无从得知。",
+    "summary_en": "This headline-only 36kr article advises readers not to fall into self-consuming rumination when their efforts don't pay off. No body text or description is provided, so the author's specific argument, examples, and practical advice aren't available. The idea addresses the common tendency to overthink when hard work doesn't pay off.",
+    "input_hash": "f86a6729e482"
+  },
+  "ph-1223186": {
+    "summary_zh": "Mindcase 是一款网页数据提取工具，官方描述称可在几分钟内从任意网页抓取数据。它适合不想写爬虫或维护解析规则的开发者，借助现成工具快速获得网页中的数据，但报价与具体接入方式未在介绍中披露。",
+    "summary_en": "Mindcase is a Product Hunt listing described as extracting data from anywhere on the web within minutes. That's the only claim available; pricing, API details, and supported sources aren't stated. It may appeal to developers looking for quick web data extraction without building scrapers.",
+    "input_hash": "e147bb22b285"
+  },
+  "36kr-3950346470725256": {
+    "summary_zh": "这篇 36kr 文章的标题是《怎样活得像一个数学家》，但条目没有附带正文或摘要。除标题外没有更多信息，无法得知文章的具体论点、事例或作者，只能确认它是关于「像数学家一样生活」这一话题。",
+    "summary_en": "This 36kr article is titled 'How to Live Like a Mathematician,' but the listing includes no body text or summary. Beyond the title, no details are available — no arguments, examples, or author. The only verifiable point is that it concerns living a mathematician-like life.",
+    "input_hash": "c459ce720409"
+  },
+  "36kr-3949967488318596": {
+    "summary_zh": "这篇 36kr 文章只有标题：一位影后一夜登上热搜，让人看到「港女」最硬核的一面。正文与摘要均未提供，因此影后姓名、热搜原因和文章具体内容都无从知晓。",
+    "summary_en": "This 36kr listing offers only a headline: an award-winning actress trends overnight, revealing the toughest side of 'Hong Kong women.' No body text or summary is included, so the actress's name, the reason for the trend, and the article's content are all unknown.",
+    "input_hash": "c8be7fec2fb2"
+  },
+  "36kr-3950235899821184": {
+    "summary_zh": "这篇 36kr 报道的标题称，某款游戏首周流水超过 4000 万元，制作者搓游戏 12 年无人知晓，旧作的「边角料」反而成为爆款。条目没有正文，无法确认具体游戏名、团队和爆款原因。",
+    "summary_en": "This 36kr headline reports that a game earned over 40 million yuan in its first week, that the maker spent 12 years unnoticed, and that leftover assets from an old title unexpectedly became a hit. With no body text available, the game's name, the developer, and the reasons behind the success can't be confirmed.",
+    "input_hash": "01586230bc2b"
+  },
+  "36kr-3950021184142465": {
+    "summary_zh": "这篇文章来自 36kr，标题为「博通的生意，大家都想抢」，但没有提供正文。可以确定的话题是围绕 Broadcom 的业务竞争，至于具体业务线、竞争者和背景均无详情。",
+    "summary_en": "This 36kr article is titled 'Everyone Wants to Grab Broadcom's Business,' but no body text is included. The headline indicates the topic is competition for Broadcom's business, with no specifics on the product line, rivals, or background available.",
+    "input_hash": "f78567b602cb"
+  },
+  "gh-daily-multica-ai-andrej-karpathy-skills": {
+    "summary_zh": "这是一个名为 andrej-karpathy-skills 的 GitHub 仓库，核心内容是一份 CLAUDE.md 文件，用于改善 Claude Code 的编码行为。规则源自 Andrej Karpathy 总结的 LLM 编程常见问题，如模型会基于错误假设行动、过度复杂化代码等。适合希望用 Karpathy 的经验约束 Claude Code 行为的开发者。",
+    "summary_en": "This GitHub repo, andrej-karpathy-skills, is a single CLAUDE.md file that modifies Claude Code's behavior based on Andrej Karpathy's observations of common LLM coding pitfalls. It targets issues like models running with wrong assumptions, overcomplicating code, and failing to clean up. Useful for developers who want to apply Karpathy's guidance directly to Claude Code.",
+    "input_hash": "500ca6baae58"
+  },
+  "36kr-3949972904918405": {
+    "summary_zh": "该帖标题关于成都，提到比亚迪与吉利正在争夺冠军，较弱的竞争者却在退出。原文是链接，未提供更多细节，因此无法概括正文内容。",
+    "summary_en": "The linked post's title references Chengdu, saying BYD and Geely are competing for the championship while weaker rivals are leaving. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "e33619c9890b"
+  },
+  "zhihu-2074077084964733784": {
+    "summary_zh": "这条知乎讨论提出：OpenCode 在对接多家供应商后，仍找不到 DeepSeek 涨价前的原厂价格。原帖仅为一条链接，未提供更多细节。",
+    "summary_en": "This Zhihu discussion asks why OpenCode, after approaching multiple vendors, still cannot get the original factory price DeepSeek offered before the price increase. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "b22f614e1f04"
+  },
+  "zhihu-2073477389846369252": {
+    "summary_zh": "第二届世界人形机器人运动会在北京启幕，问题聚焦本届赛事有哪些看点。原帖仅为一条链接，未提供比赛项目或选手阵容等更多具体信息。",
+    "summary_en": "The second World Humanoid Robot Games has opened in Beijing, and the post asks what highlights to watch for. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "3d2a4847e3ce"
   }
 }
