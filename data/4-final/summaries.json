@@ -1059,9 +1059,9 @@
     "input_hash": "ef4de0757ed8"
   },
   "juejin-7637856870833635343": {
-    "summary_zh": "作者在从 Cursor 切换到 Codex 大半个月后认为，Codex 更接近 AI 编程的下一阶段形态，不再只是辅助写代码的助手，而是能独立完成任务的超级 Agent。这一对比反映出 AI 编程工具正从代码补全向自主代理演进，适合关注 AI 编程工具选型和使用体验的开发者参考。",
-    "summary_en": "After switching from Cursor to Codex for over two weeks, the author found Codex closer to the next-generation AI programming form — not just a coding assistant but a true super agent capable of handling tasks independently. This hands-on comparison highlights a shift from code completion to autonomous agents, useful for developers evaluating AI coding tools.",
-    "input_hash": "72d412342830"
+    "summary_zh": "作者自2025年4月起使用 Cursor，到2026年4月因 Cursor 从固定许可转为按量计费、费用更高且不可预测，公司决定改用 OpenAI Codex。体验 Codex 大半个月后，他认为 Codex 更接近真正的超级 Agent，而非只是编程助手，并觉得它更接近下一阶段形态。",
+    "summary_en": "The author used Cursor for about a year from April 2025, then his company switched to OpenAI Codex in mid-April 2026 after Cursor moved from fixed licensing to usage-based pricing, making costs higher and unpredictable. After a bit over two weeks with Codex, he sees it as closer to a true AI agent than a coding assistant, even though he appreciated Cursor's in-editor experience. The piece is useful for developers weighing AI coding tools on cost, capability, and enterprise strategy.",
+    "input_hash": "cf3d5401aeb1"
   },
   "juejin-7646004870782550050": {
     "summary_zh": "2026年5月GitHub十大热门项目排行榜出炉，社区火力集中在“把Agent做进工程化工作流”这一主题上。这些项目不仅能够节省Token开销、记住对话上下文，还能编排多个Agent协作并产出高质量内容。对于开发者和技术团队来说，它们意味着更高效的AI工程化落地方案，让大模型从玩具变成真正的生产力工具。",
@@ -3812,7 +3812,8 @@
   },
   "gh-daily-anthropics-claude-cookbooks": {
     "summary_zh": "Anthropic 官方在 GitHub 上发布了 Claude 菜谱合集，里面包含一系列 Jupyter 笔记和实用示例，展示了如何用 Claude 做文本分析、代码生成、多轮对话等高级任务。这些菜谱不仅教基础用法，还挖掘了很多创意场景，比如用 Claude 写剧本或模拟辩论。对于想深入研究 Claude 能力的开发者来说，这是绝佳的学习资源。",
-    "summary_en": "Anthropic has officially released the Claude Cookbooks on GitHub, a collection of Jupyter notebooks and practical recipes that demonstrate advanced use cases like text analysis, code generation, and multi-turn conversations. Beyond basic tutorials, these cookbooks explore creative scenarios such as scriptwriting or debate simulation. For developers looking to push Claude's capabilities, this is an invaluable learning resource."
+    "summary_en": "Anthropic has officially released the Claude Cookbooks on GitHub, a collection of Jupyter notebooks and practical recipes that demonstrate advanced use cases like text analysis, code generation, and multi-turn conversations. Beyond basic tutorials, these cookbooks explore creative scenarios such as scriptwriting or debate simulation. For developers looking to push Claude's capabilities, this is an invaluable learning resource.",
+    "input_hash": "c45181b03e2d"
   },
   "36kr-3889047503354625": {
     "summary_zh": "8点1氪早报带来三条重要商业动态：老乡鸡第五次冲刺上市再次失败，前四次已折戟，这次依然未果；燃油车市场出现回暖迹象，两款老车型重回销量榜前十，令新能源车企感到压力；长鑫科技披露招股意向书，计划在7月16日发行，这家内存芯片巨头离A股上市又近一步。",
@@ -6800,8 +6801,9 @@
     "summary_en": "Open-source project awesome-llm-apps — 100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source."
   },
   "gh-daily-ChromeDevTools-chrome-devtools-mcp": {
-    "summary_zh": "开源项目 chrome-devtools-mcp — Chrome DevTools for coding agents",
-    "summary_en": "Open-source project chrome-devtools-mcp — Chrome DevTools for coding agents"
+    "summary_zh": "ChromeDevTools/chrome-devtools-mcp 是一个 GitHub 项目，描述为“Chrome DevTools for coding agents”。根据现有元数据，它似乎是要将 Chrome 开发者工具与 AI 编码代理连接；但原文是链接，未提供更多细节。",
+    "summary_en": "ChromeDevTools/chrome-devtools-mcp is a GitHub project whose description reads 'Chrome DevTools for coding agents.' Based on the provided metadata, it appears to connect Chrome's developer tools with AI coding agents, though this digest doesn't include the repository contents; the linked page isn't summarized here, so details beyond the title and description aren't available.",
+    "input_hash": "a6f9e35b988d"
   },
   "36kr-3917796249071239": {
     "summary_zh": "36氪热门：OpenAI，开源了",
@@ -9337,9 +9339,9 @@
     "input_hash": "8ec0a8d3912e"
   },
   "juejin-7654140424869855282": {
-    "summary_zh": "这是一篇关于 Codex 的超级长文，总结了开发者上手 AI 工具时常见的几个问题：模型输出不稳定、同一任务换种说法效果差异大、对话变长后容易跑偏、功能多却不知怎么用。文章从理解 AI 的工作原理出发，给出对应的使用建议，适合正在把 Codex 融入日常开发的程序员。",
-    "summary_en": "This long-form post on Codex highlights the most common pain points developers hit when starting with AI: output inconsistency, high sensitivity to rephrasing, drift in long conversations, and feature overload. It argues that you need to understand how AI works before using it well, and offers practical advice for integrating Codex into daily development.",
-    "input_hash": "d1dca967b671"
+    "summary_zh": "这篇长文是前端开发者 oil 欧呦基于一年多实际使用经验整理的 Codex 实践课，系统讲解 Agent 与普通对话的区别、模型选择、上下文管理、Skill 机制与自动化能力。它不罗列官方文档，而是用真实踩坑经历讲清如何稳定地用 AI 完成任务。适合刚开始接触 AI Agent 的开发者建立完整认知。",
+    "summary_en": "This long-read by front-end developer \"oil 欧呦\" condenses over a year of hands-on experience into a Codex best-practice guide. It covers Agent-versus-chat fundamentals, model selection, context management, built-in tools, Skills, and automation — with real pitfalls rather than rehashed docs. The target reader is a developer still struggling to get consistent results from AI agents.",
+    "input_hash": "878c4a91f116"
   },
   "gh-daily-AlexsJones-llmfit": {
     "summary_zh": "llmfit 是一个命令行工具，用一条命令在数百个模型和提供商中找出你的硬件能跑哪些模型。它还新增加了 benchmark 功能，用本机实测数据来给出更靠谱的估算；项目以 MIT 协议开源，可通过 crates.io 安装。",
@@ -9437,9 +9439,9 @@
     "input_hash": "0e6c62731944"
   },
   "juejin-7650352436700774400": {
-    "summary_zh": "开发者把小米 MiMo Code 官网链接丢给 Codex，十分钟就 1:1 复刻整站，连鼠标擦除露图动效、字体和 DESIGN.md 设计规范都一并还原。这个例子直观展示了 AI 编程代理处理前端交互和设计细节的能力，关注 AI 辅助编程的开发者可以看看。",
-    "summary_en": "A developer handed the Xiaomi MiMo Code site URL to Codex and got a 1:1 clone in ten minutes, including the mouse-erase reveal effect, fonts, and the DESIGN.md spec. It shows how AI coding agents can reproduce front-end interactions and design details, relevant if you're evaluating AI-assisted development.",
-    "input_hash": "904b9c09fb7c"
+    "summary_zh": "作者把小米 MiMo Code 官网链接丢给 AI Coding Agent Codex，约十分钟、消耗近一半 Plus 额度就复刻了首页，连字体、图片和 DESIGN.md 设计规范都一并提取。文章还演示了让 Codex 从目标网站导出设计规范、后续统一生成风格的思路。适合想快速克隆网站 UI 的开发者。",
+    "summary_en": "The author handed the Xiaomi MiMo Code homepage URL to AI coding agent Codex, which produced a 1:1 replica of the page in about ten minutes while consuming nearly half of a Plus quota, including fonts, images, and a DESIGN.md style spec. The post also shows how to have Codex extract design tokens for reuse. Useful for developers who often clone website UIs.",
+    "input_hash": "38c69fd453c6"
   },
   "gh-daily-akitaonrails-ai-memory": {
     "summary_zh": "akitaonrails/ai-memory 是一个用 Rust 写的长时记忆工具，专门给 AI 编程 CLI 用：你可以在任务中途退出 Claude Code，换到 OpenAI Codex 继续，不用重新解释架构、失败尝试和待定问题。项目支持 Linux 和 macOS，采用 MIT 协议，适合在多款编程代理之间切换的开发者。",
@@ -9712,9 +9714,9 @@
     "input_hash": "ba4fec21423d"
   },
   "juejin-7661439504077176847": {
-    "summary_zh": "作者 alien 介绍了 ai-website-cloner-template，一个基于 Playwright 与多 Agent 协作的网站一键复制方案，并讲解其使用方法和实现原理。适合想快速克隆网页布局、或对自动化抓取与多 Agent 编排感兴趣的开发者。",
-    "summary_en": "Author alien introduces ai-website-cloner-template, a Playwright-based tool with multi-agent orchestration that clones websites in one click, and explains both usage and internals. It's aimed at developers interested in rapid page replication or multi-agent automation.",
-    "input_hash": "c7a17c2ad281"
+    "summary_zh": "ai-website-cloner-template 是一套基于 Claude Code 的网站克隆工作流，核心由 Playwright 驱动：在 1440×900、768×1024、390×844 三个视口截图，用 getComputedStyle() 抓取 design tokens，再模拟滚动、点击、hover 后生成代码。作者实测掘金首页，移动端适配好，UI 还原度超 70%。适合想快速克隆网站并拿到可维护代码的前端开发者。",
+    "summary_en": "ai-website-cloner-template is a Claude Code-based workflow for cloning websites. It uses Playwright to capture screenshots at three viewports (1440×900, 768×1024, 390×844), extracts computed design tokens via getComputedStyle(), and simulates scrolls, clicks, and hovers before generating code. In a test on juejin.cn, mobile adaptation was solid and UI fidelity exceeded 70%. Frontend developers who need a rapid way to convert live sites into maintainable code can use it.",
+    "input_hash": "0d6eb910fc3b"
   },
   "gh-daily-basecamp-omarchy": {
     "summary_zh": "Omarchy 是 DHH 推出的 Linux 发行版，定位为美观、现代且“有主见”的系统。仓库内含权威手册，覆盖安装入门、导航、主题、热键，以及内置终端、Neovim 和 AI 应用等内容，并同步到 learn.omacom.io。适合想尝鲜新系统或学习 DHH 桌面环境理念的人。",
@@ -10162,9 +10164,9 @@
     "input_hash": "8e0e46ef8cfb"
   },
   "gh-daily-AprilNEA-OpenLogi": {
-    "summary_zh": "OpenLogi 是一个用 Rust 写的 Logitech Options+ 本地替代品，通过 HID++/UVC 重映射 Logitech 鼠标、键盘和摄像头的按键、DPI 与 SmartShift，无需账号、无遥测。项目刚上 Product Hunt，仍在活跃开发中、未稳定，适合在意隐私的 Logitech 用户尝鲜。",
-    "summary_en": "OpenLogi is a native, local-first alternative to Logitech Options+ written in Rust. It remaps buttons, DPI, and SmartShift on Logitech mice, keyboards, and webcams over HID++/UVC, with no account or telemetry. The project just launched on Product Hunt but is still under active development and not stable yet, so it's best suited to privacy-conscious Logitech users who don't mind testing.",
-    "input_hash": "502538a30839"
+    "summary_zh": "OpenLogi 是一个用 Rust 编写的原生、本地优先的 Logitech Options+ 替代品，通过 HID++ 支持按键重映射、DPI 调整和 SmartShift，无需账户也不含遥测。项目尚处于积极开发中，功能与配置可能变动，作者建议先 Star 和 Watch 以便收到新版本通知。",
+    "summary_en": "OpenLogi is a native, local-first alternative to Logitech Options+ written in Rust, offering button remapping, DPI adjustment, and SmartShift over HID++ with no account or telemetry data. The project is under active development and not yet stable, so features and config may change; the author recommends starring and watching the repo for release notifications. For users who want a privacy-friendly way to control Logitech peripherals.",
+    "input_hash": "3798c810cc9c"
   },
   "zhihu-2071867429039378493": {
     "summary_zh": "这条知乎提问探讨“司令”与“司令员”两个称谓的区别，二者仅一字之差。问题页面没有提供正文或回答内容，原文是链接，未提供更多细节。",
@@ -10627,9 +10629,9 @@
     "input_hash": "4ae697ce8183"
   },
   "infoq-jlTfe57D4r0Juzpz8Fk5": {
-    "summary_zh": "DeepSeek 发布实验模型 deepseek-v4-flash-vision-exp，首次通过官方 API 开放视觉输入，图片按 token 计费，单张最多 384 tokens。相比 V4-Flash-0731，多数基准提升，Toolathlon 增 5.6 分、DeepSWE 增 4.9 分，文本 Agent 能力整体接近 Opus 4.8。API 支持 Chat Completions、Messages、Responses 三种格式及多种图片传参方式。",
-    "summary_en": "DeepSeek launched an experimental multimodal model, deepseek-v4-flash-vision-exp, marking its first official API support for image understanding. Images are converted to tokens — up to 384 per image — and billed at the same rate as V4-Flash. Compared with V4-Flash-0731, most benchmarks improved (e.g., +5.6 on Toolathlon, +4.9 on DeepSWE), bringing text-agent performance close to Opus 4.8. API calls support Chat Completions, Messages, and Responses, with base64, URL, or Files API image input.",
-    "input_hash": "04ab6f4a3d2a"
+    "summary_zh": "该报道标题称 DeepSeek 发布了多模态模型，并用“小鲸鱼长出了眼睛”形容这一更新。但目前仅能确认发布消息本身，模型名称、能力细节和发布日期都未在摘要中提供。对关注 DeepSeek 进展的开发者来说，这是一条需要等待后续详情的动态。",
+    "summary_en": "According to the headline, DeepSeek has released a multimodal model, playfully described as \"the little whale has grown eyes.\" No further details about the model's name or capabilities are available beyond the title. Developers tracking DeepSeek should look out for the full report.",
+    "input_hash": "43cfd1dd2750"
   },
   "zhihu-275468231": {
     "summary_zh": "该条目是一个知乎提问，问题聚焦于哪些操作可能对电脑造成永久性损坏。目前仅有标题，原文是链接，未提供更多细节，具体回答与讨论内容暂不可知。",
@@ -10882,9 +10884,9 @@
     "input_hash": "aa071639c25b"
   },
   "gh-daily-Alishahryar1-free-claude-code": {
-    "summary_zh": "free-claude-code 是一个开源项目，宣称可免费调用 Claude Code、Codex、Pi 和 OpenCode 等 AI 编程助手，提供 1.3B+ 免费 token，并支持从终端、App、IDE 或手机使用，还带语音能力、号称符合 ToS。项目采用 MIT 协议，依赖 Python 3.14 与 uv 等现代工具链；对想低成本对比多款编程 Agent 的开发者值得一试。",
-    "summary_en": "free-claude-code is an open-source project that claims to provide free access to Claude Code, Codex, Pi, and OpenCode with over 1.3B free tokens, usable from a terminal, app, IDE, or phone, with voice support and ToS-friendly behavior. It's MIT-licensed and built on Python 3.14 with uv. Developers who want to evaluate several AI coding agents without paying should check it out.",
-    "input_hash": "2fc35e5db0f4"
+    "summary_zh": "GitHub 趋势项目 free-claude-code 声称可免费使用 Claude Code、Codex、Pi 和 OpenCode，提供 1.3B+ 免费 token，并支持从终端、IDE、手机或应用调用，OpenClaw 风格，还附带语音与 ToS 友好。仓库以 MIT 协议开源，面向不想付费订阅 AI 编程助手的开发者，可用 token 量很有吸引力。",
+    "summary_en": "free-claude-code is trending on GitHub: it advertises free access to Claude Code, Codex, Pi, and OpenCode with 1.3B+ free tokens, usable from a terminal, app, IDE, or phone in an OpenClaw-style interface, with voice support and ToS-friendly usage. The MIT-licensed repo is aimed at developers who want AI coding assistants without a paid subscription, and the generous token pool is the main hook.",
+    "input_hash": "a7b1d7c5b2a9"
   },
   "36kr-3950851925032069": {
     "summary_zh": "这篇文章报道美国 AI 公司开始大规模举债，标题中提到的金额达到 600 亿和 5000 亿（未注明币种）。原文是链接，未提供更多细节，具体借款主体与用途需查看原文。",
@@ -10902,9 +10904,9 @@
     "input_hash": "070b3e692940"
   },
   "gh-daily-freestylefly-awesome-gpt-image-2": {
-    "summary_zh": "GitHub 上的 awesome-gpt-image-2 定位为“Prompt as Code”的 GPT-Image2 工业级提示词引擎与模板库，整理了 500 多个逆向工程案例和 20 多套工业级模板，并提炼成可复用 Skills。需要稳定产出高质量图片或做批量生成的开发者，可以以此作为提示词参考库。",
-    "summary_en": "awesome-gpt-image-2 is a GPT-Image2 prompt engine and template library built around the idea of 'Prompt as Code.' It collects 500+ reverse-engineered cases and 20+ industrial templates, distilled into reusable Skills. Developers doing batch image generation or wanting a more systematic approach to prompting can use it as a reference library for consistent high-quality output.",
-    "input_hash": "4080ccf45ccb"
+    "summary_zh": "这是一个面向 GPT-Image2 的开源提示词引擎与模板库，作者对 532 个案例做了逆向工程，提炼出 20+ 套工业级模板，并把可复用的写法沉淀为 Skills，以“Prompt as Code”的方式持续更新。适合需要批量、稳定产出高质量图片的开发者或内容团队，用来替代零散的手写提示词。",
+    "summary_en": "This open-source repository is a GPT-Image2 prompt engine and template library built on \"Prompt as Code.\" It reverse-engineers 532 real cases into 20+ industrial-grade templates and distills reusable patterns as Skills, with ongoing updates. Developers and content teams who need consistent, high-volume image generation can use it instead of ad-hoc hand-written prompts.",
+    "input_hash": "e49e1dbc6668"
   },
   "gh-daily-virgiliojr94-book-to-skill": {
     "summary_zh": "book-to-skill 是一个能将技术书籍、文档文件夹或资料合集转换为统一 Agent Skill 的开源工具，转换结果可直接在 Claude Code、GitHub Copilot CLI、Amp 中调用，支持 PDF、EPUB、DOCX、MD、HTML、RTF、MOBI 格式。它基于开放的 Agent Skills 标准，适合想把技术藏书变成 AI 编程助手可查知识库的开发者。",
@@ -10945,5 +10947,220 @@
     "summary_zh": "作者因一个过期 nameserver 意外接管了多个地区的 e164.arpa 区域，这些区域把电话号码映射到路由信息，导致大量拨打军事基地的电话记录进入其日志。文章复盘了为何迟迟未检查日志，并指出这类 DNS 故障可能引发的隐私与安全风险。",
     "summary_en": "The author accidentally took over e164.arpa zones for multiple territories after an expired nameserver left them open, capturing logs of hundreds of thousands of calls made to military bases. The post walks through the mistake, the delayed log check, and the broader privacy and security implications of such DNS infrastructure failures. Useful for developers working on telephony routing, DNS, or infrastructure operations.",
     "input_hash": "0b1492ec9613"
+  },
+  "infoq-m8zEcEteGKJma9EJe35S": {
+    "summary_zh": "InfoQ 精选：事故频发并不意味着可靠性下降",
+    "summary_en": "Featured on InfoQ: 事故频发并不意味着可靠性下降",
+    "input_hash": "1d64c0760b1f"
+  },
+  "juejin-7634116818671648822": {
+    "summary_zh": "掘金精选：😮‍💨 有了 AI 之后，我怎么感觉反而更累了？",
+    "summary_en": "Featured on Juejin: 😮‍💨 有了 AI 之后，我怎么感觉反而更累了？",
+    "input_hash": "2dbc8070e82c"
+  },
+  "hn-49413320": {
+    "summary_zh": "这是一篇标题为 Everything I own, owned 的 Hacker News 帖子，原文是链接，未提供更多细节。基于标题只能判断它可能围绕“个人所有物”展开，无法确认具体内容。",
+    "summary_en": "This Hacker News post, titled \"Everything I own, owned,\" is a link submission with no accompanying description. The linked page isn't summarized here; details beyond the title aren't available. From the title alone, the topic appears to involve personal possessions or ownership, yet no concrete facts can be verified. The linked content was not included in this digest, so interested readers should follow the link for context.",
+    "input_hash": "6f180a671f38"
+  },
+  "36kr-3952761839795331": {
+    "summary_zh": "这期 36氪早报摘要显示，小红书因遭举报导致上市失败的说法不实，造谣者已被行政拘留；加拿大决定自9月8日起对美国加征报复性关税；另外多个高职专业起薪高于部分本科专业。由于未提供正文，以上事实仅来自标题，没有更多细节。",
+    "summary_en": "This edition of 36Kr's morning briefing covers three stories: the claim that Xiaohongshu's IPO failed due to reports is false, and the rumor-monger has been detained; Canada will impose retaliatory tariffs on U.S. goods starting September 8; and several vocational college programs now have starting salaries above some bachelor's-degree programs. Details beyond the headline aren't available.",
+    "input_hash": "cac9a2d346c7"
+  },
+  "v2ex-381af96b4c1c": {
+    "summary_zh": "Weft 是一个开源 Chrome 插件，把网页/PDF 中选中的内容按 Session 保存，让 AI 只基于用户圈定的材料写报告、摘要或图表。答案引用可点击回溯原文，Deep Search 找来的外部证据则单独标记，强调可溯源的 grounded generation。适合常做调研、写稿、竞品分析的内容工作者。",
+    "summary_en": "Weft is an open-source Chrome extension that saves selected text, images, and links from webpages and PDFs into per-topic Sessions, then lets AI generate reports, summaries, or charts only from that chosen material. Citations in answers are clickable back to sources, while evidence from Deep Search is marked separately, reinforcing grounded generation with traceability. It's for researchers, writers, and analysts who want AI output to be verifiable.",
+    "input_hash": "423ac860395c"
+  },
+  "v2ex-6aea08871d98": {
+    "summary_zh": "该帖作者询问如何从小白卡转换到 eSIM 设备，并表示自己尚未找到换过的朋友请教。由于帖子正文只有“RT”和寻找经验者的内容，具体运营商或设备细节并未展开。适合同样想从实体卡转 eSIM 的用户留意评论区经验。",
+    "summary_en": "The author asks how to switch from a \"small white card\" to an eSIM device, and says they haven't found anyone who has done it before. The post body is just \"RT\" plus a request for experiences, so no carrier or device details are given. Useful for users considering a similar physical-to-eSIM move.",
+    "input_hash": "82626103c818"
+  },
+  "v2ex-f3bf99af494a": {
+    "summary_zh": "该帖在 V2EX 上询问，在不考虑付费成本等非产品因素的前提下，大家更偏爱哪家模型与 Harness 的组合，并列出 Codex、Claude Code、Kimi、DeepSeek、Pi 以及开源模型等候选。发帖人表示目前 Claude 全家桶依然没有找到好的替代方案。适合正在评估 AI 编程工具选型的开发者参考。",
+    "summary_en": "A V2EX thread asks users to pick their favorite model and Harness combination purely on product quality, ignoring cost, with candidates like Codex, Claude Code, Kimi, DeepSeek, Pi, and open-source models. The author says the Claude lineup still has no good substitute for them. Useful for developers evaluating AI coding assistant setups.",
+    "input_hash": "c574f2525d82"
+  },
+  "ph-1186033": {
+    "summary_zh": "Construct Computer 在 Product Hunt 上亮相，宣传语是“你的 AI 同事有了一台电脑，你拿回自己的时间”，暗示其功能是让 AI 助手拥有计算机操作能力。目前页面没有披露具体实现方式或技术架构。适合关注 AI 代理自主操作电脑的开发者关注。",
+    "summary_en": "Construct Computer appears on Product Hunt with the tagline \"Your AI coworker gets a computer. You get your day back,\" implying it gives an AI assistant its own computer to work with. The listing offers no technical details or architecture. Worth a look for developers interested in AI agents that operate a computer.",
+    "input_hash": "e09deba8c3ab"
+  },
+  "v2ex-73cc85c4dcdb": {
+    "summary_zh": "一名 V2EX 用户发帖询问如何在新加坡长期设置远程环境，以便无痛使用 Claude Code，并设想带一台旧笔记本放在当地常开。这涉及远程访问的稳定性和设备部署等实际问题。适合有海外远程开发需求、希望优化 Claude Code 使用体验的人参考。",
+    "summary_en": "A V2EX user asks how to set up a long-term remote terminal in Singapore to use Claude Code smoothly, even considering leaving an old laptop running there. The question raises practical concerns like always-on hardware and access reliability. Relevant for developers planning remote setups for Claude Code.",
+    "input_hash": "3d24cc24617b"
+  },
+  "36kr-3953230805876099": {
+    "summary_zh": "字节跳动正在整合旗下 AI 生产力工具：TRAE 与扣子并入豆包，并计划推出统一办公品牌「豆包工作」。这意味着 AI 编程、智能体与办公应用将统一入口，对开发者和企业用户影响较大；但原文是链接，未提供更多细节。",
+    "summary_en": "ByteDance is consolidating its AI productivity tools: TRAE and 扣子 are being folded into Doubao, with a unified office brand \"Doubao Work\" planned. This signals a single entry point for AI coding, agents, and office apps. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "1d163721ac4e"
+  },
+  "v2ex-a9503f42d4b3": {
+    "summary_zh": "一位用户在 Windows 10 的 Docker Desktop 上发现，即使没有启动任何容器，vmmem 进程 CPU 占用仍持续超过 10%；关闭「Enable Scout image analysis」选项后降到 1% 以下。该问题似乎由 Scout 后台镜像分析触发，即使用户并未显式开启相关索引。遇到 Docker Desktop 空闲高 CPU 的人可尝试此选项。",
+    "summary_en": "A Windows 10 user found vmmem consuming over 10% CPU in Docker Desktop even with no containers running. Disabling \"Enable Scout image analysis\" dropped usage below 1%, despite background Scout SBOM indexing not being enabled. Useful for developers seeing idle Docker Desktop CPU spikes.",
+    "input_hash": "11e4fa5638c3"
+  },
+  "infoq-YB51rwb95keVmlIZ0xQd": {
+    "summary_zh": "材科源图在三个月内完成两轮融资，并押注 AI 全链路闭环来加速材料产业化。这显示出资本对 AI+材料科学落地节奏的关注在升温。原文是链接，未提供更多细节。",
+    "summary_en": "Caike Yuantu (材科源图) completed two funding rounds within three months, using an AI full-loop approach to accelerate materials industrialization. The rapid financing highlights momentum in AI-driven materials innovation. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "cfc5d0b17f4f"
+  },
+  "v2ex-0139a7c9cdca": {
+    "summary_zh": "UTMChecker.online 是一个免费的 campaign URL 预检工具，可检查 utm_source/medium/campaign 缺失、utm_conent 这类拼写错误、大小写混用、重复参数、UTM 放错位置、空值和双重编码。支持批量审计最多 50 个 URL，并输出可直接用于 GA4 的 CSV；付费 API 还能接入自动化 QA。适合投放、邮件或社媒团队在上线前快速排查 attribution 问题。",
+    "summary_en": "UTMChecker.online is a free pre-launch tool that audits campaign URLs: it spots missing utm_source/medium/campaign values, typos like utm_conent, inconsistent casing, duplicate parameters, UTM after a hash, empty values, and possible double encoding. It batch-checks up to 50 URLs and generates a CSV with cleaned, GA4-ready URLs; a paid API adds automated QA. Useful for ads, newsletters, and launch teams before pushing links live.",
+    "input_hash": "440617b27699"
+  },
+  "v2ex-66c156a25016": {
+    "summary_zh": "OpenKAL 通过定义通用内核接口层，让 C++ 可在 Windows、Linux、macOS 之间互相交叉编译，例如在 Windows 上构建 Linux/macOS 程序。项目已在 GitHub 公开，包含 openkal 规范、mcpp 构建工具和交叉构建示例。适合需要在本地为多平台目标构建 C++ 工程的开发者。",
+    "summary_en": "OpenKAL defines a generic kernel-interface layer for C++ so it can cross-compile between Windows, Linux, and macOS — e.g., building Linux/macOS binaries from Windows. The project is on GitHub with the openkal spec, the mcpp build tool, and cross-build examples. It's useful for developers who need multi-platform C++ outputs without juggling separate toolchains.",
+    "input_hash": "819a4d28b220"
+  },
+  "v2ex-e1ba5101028f": {
+    "summary_zh": "帖主发现身边有些高收入者供孩子读国际学校也吃力，而潮汕地区月薪六七千的同学却常有两三个孩子，因此发问三线城市和村镇养小孩成本是否真低。帖里没有财务数据，只有亲历观察；适合关注地域育儿成本差异的人参考。",
+    "summary_en": "On V2EX, the author notes that acquaintances with high incomes still struggle to support a child in international school, while classmates in Chaoshan earning only ¥6–7k a month have two or three kids. They wonder whether child-rearing costs really are that low in third-tier cities and villages. Useful as an anecdotal perspective, though no hard data is included.",
+    "input_hash": "3e0c24790211"
+  },
+  "infoq-CQhb4TOREpEZshtqWZMy": {
+    "summary_zh": "JetBrains 称开发相关 AI 支出六个月涨约十倍，公司没有收紧工具名单，而是构建了 Central CLI 共享访问与记账层，让请求经自有 AI 平台统一路由，可对第三方工具套用积分并为开发者/团队设限额，已有超千名开发者采用。这种思路把成本控制从事后观察变成流量必经的控制点，适合既想保留工具选择权又要控制预算的团队。",
+    "summary_en": "JetBrains says AI-related development spending rose roughly tenfold in six months. Instead of narrowing the approved tool list, it built a Central CLI as a shared access and accounting layer: requests route through its own AI platform, letting the company apply credits and set per-developer or per-team limits. More than 1,000 developers adopted it within weeks, offering a model for teams that want both tool choice and cost control.",
+    "input_hash": "7ff216f11342"
+  },
+  "v2ex-ae7429a57180": {
+    "summary_zh": "Qiz Origin 推出面向 Claude Code/Codex 的月付 Seat，订阅后获得 Base URL 与独立 Key 即可接入，无需维护上游账号；目前分 $38/月 Standard 和 $180/月 Premium 两档，一个 Seat 只对应一个工具，额度用尽会返回 429。这不是官方代充或 Team 邀请，适合不想按量付费或自备账号的用户，但需自行评估非官方渠道的稳定性。",
+    "summary_en": "Qiz Origin is offering monthly seats for Claude Code or Codex: subscribers get a Base URL and independent key to plug into the existing CLI, without maintaining an upstream account. Plans are $38/month Standard and $180/month Premium, with one seat supporting only one tool; hitting usage limits returns 429. It isn't an official recharge or Team invitation, so it may appeal to those averse to per-token API billing, with third-party risks to weigh.",
+    "input_hash": "f7ab4e65813c"
+  },
+  "v2ex-bd349b782632": {
+    "summary_zh": "作者在 X 上看到老刘正在旅行，而 surgebeta 账号仍在持续发布更新，于是发帖质疑 Surge 是否已被出售，或者有人在远程指挥 AI 继续更新。正文没有提供任何证据，只有猜测。",
+    "summary_en": "The author noticed on X that 老刘 is traveling while the surgebeta account keeps publishing updates, so they question whether Surge has actually been sold, or whether the owner is remotely directing AI to update from afar. The post offers speculation only, with no evidence.",
+    "input_hash": "da031d8fa210"
+  },
+  "infoq-IBYDTeu3rse9tH3549wf": {
+    "summary_zh": "Cloudflare 发布 Agent Tracing，作为 Cloudflare Agents 的首个组件，提供统一 Dashboard 查看 Agent 会话；在 Workers Tracing 之上新增 Agent 调用、模型调用、工具执行与审批等 Span，附模型信息和 Token 用量，Subagent 调用会嵌套在父级瀑布流中。Beta 期间免费，2026 年 10 月 1 日起纳入 Workers Observability 计费，适合排查返回 200 但行为异常的 Agent。",
+    "summary_en": "Cloudflare launched Agent Tracing, the first component of Cloudflare Agents, adding a unified dashboard for agent sessions. It extends Workers Tracing with agent-level spans for agent invocations, model calls, tool executions, and approvals, carrying model info and token usage; subagent work nests under the parent flow. Free in beta, it enters Workers Observability billing on October 1, 2026, and helps debug agents that return HTTP 200 yet misbehave through wrong tool choices or costly retries.",
+    "input_hash": "e88ecab60f16"
+  },
+  "ph-1223147": {
+    "summary_zh": "FetchSandbox MCP 是一个用于验证 AI 集成修复效果的 MCP 服务，宣称能在沙盒环境中证明修复方案确实有效。适合正在调试 AI 工具链或自动化集成流程的开发者，用来在合入前快速验证修复是否真正解决问题。",
+    "summary_en": "FetchSandbox MCP is an MCP service that claims to prove whether your AI's integration fixes actually work, by running them in a sandbox. It's aimed at developers debugging AI toolchains or automated integrations who want to verify a fix before committing. Details beyond the title and short description aren't available.",
+    "input_hash": "196cd67c2c84"
+  },
+  "infoq-fPGPEF2hwCKtz3PTg69C": {
+    "summary_zh": "npm 12 发布，默认关闭 allowScripts，依赖项的 preinstall/install/postinstall 脚本（含隐式 node-gyp 构建）不再自动运行，需 approve-scripts 审批。--allow-git 与 --allow-remote 默认改为 none，弃用可绕过 2FA 的细粒度访问令牌。官方给出迁移建议，社区反应普遍正面。",
+    "summary_en": "npm 12 ships with allowScripts disabled by default, so preinstall, install, and postinstall scripts from dependencies (including implicit node-gyp builds) won't run unless explicitly approved. It also defaults --allow-git and --allow-remote to none and deprecates fine-grained access tokens that could bypass 2FA. The npm team provides a migration guide; the community response is largely supportive.",
+    "input_hash": "aa23294b38b9"
+  },
+  "hn-49419237": {
+    "summary_zh": "这篇 Hacker News 帖子认为，欧盟新出台的包装法规正在威胁创客和小微创业者，可能危及相关就业与整个创新生态。帖子本身仅给出这一观点，未提供具体条款或案例细节。",
+    "summary_en": "This Hacker News post argues that the European Union's new packaging rules threaten makers and micro-entrepreneurs, putting jobs and the innovation ecosystem at risk. The post itself offers this claim without technical details from the linked article.",
+    "input_hash": "f09829c5349d"
+  },
+  "infoq-kyUdCw0IPHwuIHg2WJCu": {
+    "summary_zh": "Cloudflare 推出 Cache Response Rules，在源站返回响应之后、写入缓存之前执行，允许用户修改 Cache-Control、管理 Cache Tag，并移除 Set-Cookie、ETag 等 Header，而无需改动源站应用。官方称它与现有 Cache Rules 互补而非取代，可减少意外 Header 导致的缓存命中率下降，方便 CDN 迁移。",
+    "summary_en": "Cloudflare has launched Cache Response Rules, a new rule engine that runs after the origin responds but before content is written to cache. It lets you adjust Cache-Control directives, manage cache tags, and strip headers like Set-Cookie, ETag, or Last-Modified without modifying your origin app. Cloudflare says it complements, not replaces, existing Cache Rules and can boost cache hit rates and ease CDN migrations.",
+    "input_hash": "2255a6a28e2d"
+  },
+  "ph-1217834": {
+    "summary_zh": "Aximote 是 Product Hunt 上发布的一款产品，主打“把汽车数据放进口袋”，即通过手机随时查看车辆相关信息。目前仅有一句介绍，支持的具体车型、数据种类和接入方式均未提及。",
+    "summary_en": "Aximote is a Product Hunt launch that promises to put your car data in your pocket, meaning mobile access to vehicle information. The listing provides no further details on supported cars, data types, or connectivity.",
+    "input_hash": "4059dac99150"
+  },
+  "hn-49411102": {
+    "summary_zh": "HN 上这条帖子只有标题没有正文，核心信息是 Anthropic 的最强 AI 模型在吸引用户方面遇到阻力，而更便宜的工具正在增长。原文是链接，未提供更多细节。",
+    "summary_en": "According to this Hacker News submission's title—the only content given—Anthropic's best AI model is currently struggling to attract users as cheaper tools thrive. The linked page isn't summarized here; details beyond the title aren't available. No concrete model names, metrics, or time frames are provided in the entry.",
+    "input_hash": "57ac7b4e21b8"
+  },
+  "36kr-3951916130499972": {
+    "summary_zh": "这篇 36 氪标题称 ChatGPT 现在可以「监控」电脑，作者体验后表示愿意让它继续多看两眼。由于条目只提供标题，具体功能形态、开启方式和适用场景都没有说明；原文是链接，未提供更多细节。",
+    "summary_en": "This 36Kr article, per its headline, says ChatGPT can now 'monitor' a computer screen, and the author—after trying it—decides to let it keep looking. Since this entry includes only the title, the exact feature details, setup, and use cases are unknown. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "87fd779794bb"
+  },
+  "36kr-3952697243778439": {
+    "summary_zh": "这则 36 氪标题描述了一个名为「牛来」的神秘现象在硅谷刷屏，谷歌试图认领相关话题，结果被全网嘲笑。条目没有正文，无法确认「牛来」的具体含义或谷歌认领的细节；原文是链接，未提供更多细节。",
+    "summary_en": "According to this 36Kr headline, a mysterious phenomenon called 'Niu Lai' ('the cow comes') is rocking Silicon Valley, and Google's attempt to claim it drew widespread mockery online. The entry has no body, so the meaning of 'Niu Lai' and the specifics of Google's involvement can't be verified. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "5ddf653520ce"
+  },
+  "infoq-9YicfQysexJdmx11xG4m": {
+    "summary_zh": "DynamoDB 原生向量搜索上线：嵌入向量与应用数据可存在同一张表，用 SearchVectors API 做近似最近邻查询，免去独立向量库。无服务器自动扩缩，最高 4096 维、支持多种距离函数，官方称可扩展到数万亿向量并保持毫秒级延迟，按索引写入、查询和存储计费。",
+    "summary_en": "DynamoDB now has native vector search: embeddings and application data can live in the same table, and developers query them via the SearchVectors API for approximate nearest neighbors, eliminating a separate vector database. It scales serverlessly, supports up to 4,096 dimensions and several distance functions, and can reach trillions of vectors with single-digit-millisecond latency; costs are metered for index writes, queries, and storage.",
+    "input_hash": "26bce8aab33d"
+  },
+  "hn-49390427": {
+    "summary_zh": "Cobalt 是一个面向 Kobo 电子书阅读器的开源应用平台，提供启动器、签名应用商店、Rust SDK 和能力隔离运行时。用户只需通过 USB 安装一次，之后所有应用都通过 Wi-Fi 分发。签名商店和隔离运行时的组合，让第三方应用在阅读器上更容易安全分发。",
+    "summary_en": "Cobalt is an open-source app platform for Kobo e-readers, bundling a launcher, a signed App Store, a Rust SDK, and a capability-isolated runtime. One USB install is enough; every following app arrives over Wi-Fi. The signed store and isolated runtime make it a notable path for safer third-party software distribution on e-readers.",
+    "input_hash": "621520e94251"
+  },
+  "infoq-cwj5Ikvhqu5mKH22zKsO": {
+    "summary_zh": "亚马逊云科技开源了 Dogwood，一门用于 AI 智能体工具调用的策略语言，其规则可回溯智能体已执行的操作，与只能限制单次请求的 Cedar 形成互补。它提供 formerly、sum_within 等时序操作符来约束操作序列，并演示了针对响应事件写速率限制会被并发转账绕过的典型陷阱，适合构建 Agent 安全控制层的团队参考。",
+    "summary_en": "Amazon has open-sourced Dogwood, a policy language for AI-agent tool calls that can read an agent’s event history and express temporal constraints, complementing the stateless Cedar. It adds operators such as formerly and sum_within for sequence-level rules, and demonstrates a classic pitfall where rate limits on responses are bypassed by concurrent transfers. A good fit for teams building deterministic guardrails around agent tools.",
+    "input_hash": "322648aa8699"
+  },
+  "hn-49383026": {
+    "summary_zh": "Anna’s Archive 发出紧急呼吁，称 AI 公司正秘密购买、扫描并销毁数百万本实体书用于模型训练，把人类知识锁进私有服务器。该组织号召全球志愿者赶在文化遗产消失前扫描并上传这些稀有书籍，以扩充其影子图书馆。",
+    "summary_en": "Anna’s Archive is urgently calling for volunteers, saying AI companies are secretly buying, scanning, and destroying millions of physical books to train models, locking human knowledge inside private servers. The organization wants people to scan and upload rare books to its shadow library before this cultural heritage disappears. It highlights a stark trade-off between AI training data and preserving physical archives.",
+    "input_hash": "a1134f228ffe"
+  },
+  "hn-49416055": {
+    "summary_zh": "一篇批评 Andreessen Horowitz 的帖子称，该机构将数十亿美元投向了大量利用法律漏洞、创造令人不安产品甚至违法的公司，认为这是在押注一个黯淡的未来。帖子没有点名具体企业，更像一项整体定性，需要进一步阅读原帖获取证据。",
+    "summary_en": "An HN post argues that Andreessen Horowitz is investing billions into a bleak future, claiming the firm’s portfolio is full of companies that exploit legal loopholes, create disturbing products, and break the law. No specific companies or deals are named in the post, so the critique reads as a broad indictment rather than a documented list. It may interest readers tracking the political and ethical debates around venture capital.",
+    "input_hash": "f842fd8b87e3"
+  },
+  "36kr-3952772295474564": {
+    "summary_zh": "Anthropic 已就 Claude 被指“暗中降智”一事道歉，等于承认外界质疑属实。原文没有提供更多细节，涉及哪些功能或版本尚不清楚；关注 Claude 输出质量变化的开发者建议直接查看原报道。",
+    "summary_en": "Anthropic has apologized over allegations that Claude was silently degraded, effectively confirming the claims. The linked page isn't summarized here; details beyond the title aren't available. Developers relying on Claude's output quality should check the original article for specifics.",
+    "input_hash": "b11511b6a0bc"
+  },
+  "hn-49420873": {
+    "summary_zh": "一条 HN 热帖称，小米的新 CPU 单线程性能追平 Apple 核心，多线程则明显更快。原帖只有标题和指向 lemire 动态的外部链接，没有机型配置或跑分数据；想验证这一说法需点开原链接查看。",
+    "summary_en": "A Xiaomi CPU claim is making the rounds on HN: its new chip reportedly matches Apple cores in single-threaded work and is much faster multi-threaded. The item is just a headline linking to a lemire post, so no benchmarks or chip details are available beyond the title. Mobile-performance watchers should open the linked post for evidence.",
+    "input_hash": "19d6d0145e70"
+  },
+  "36kr-3952867368648073": {
+    "summary_zh": "本文是 36Kr（硬氪）对前掌门教育 CEO 的专访：其公司曾退市并裁员 10 万人，如今他创业做家庭机器人，已拿到 10 亿元融资。报道聚焦创始人转型与机器人产品方向，适合关注教育行业老兵二次创业和消费机器人赛道的读者。",
+    "summary_en": "This 36Kr interview covers the former CEO of Zhangmen Education after his company delisted and cut 100,000 jobs; his new startup builds home robots and just raised 1 billion yuan. The piece follows the founder's shift from education to robotics, useful for anyone tracking edtech veterans' second moves or consumer robot startups.",
+    "input_hash": "72dd9c737204"
+  },
+  "36kr-3953241067421065": {
+    "summary_zh": "折叠 iPhone 的爆料汇总称，上手体验过的人普遍给出好评，但也指出了两个明显缺点。原文没有提供更多细节，具体短板无从判断；关注折叠屏 iPhone 进展的用户不妨打开原报道查看细节。",
+    "summary_en": "A roundup of foldable iPhone leaks says people who tried it were mostly positive, but it also flags two significant drawbacks. The linked page isn't summarized here; details beyond the title aren't available, so the exact downsides—hinge, crease, price, or something else—remain unknown.",
+    "input_hash": "5b463693649a"
+  },
+  "36kr-3952828656204928": {
+    "summary_zh": "一家被冠以\"中国版 Palantir\"之名的数据分析公司，三个月内接连完成两轮融资，热度迅速上升。由于原文仅提供标题，公司主体、融资金额与产品形态均未给出，无法更深入解读。",
+    "summary_en": "A Chinese data-analytics startup, dubbed the \"Chinese Palantir,\" has closed two funding rounds in three months, according to a 36kr story. Only the headline was available for this item, so the company's name, valuation, and product details aren't known. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "8d74cfec74eb"
+  },
+  "36kr-3952840422128775": {
+    "summary_zh": "文章描述了年轻人中间的一股\"邪修攒钱\"风潮，例如假装怀孕、借钱凑整等怪异的存钱技巧。原文仅保留标题，没有正文，无法确认具体案例或这是否为严肃报道。",
+    "summary_en": "This article reports a new \"heretical saving\" trend among young Chinese people, with examples such as faking pregnancy and borrowing money to make amounts round. Since only the title was provided, the specific cases and reporting context can't be summarized. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "cac6f6e08de4"
+  },
+  "36kr-3950257108539015": {
+    "summary_zh": "这篇评论关注 GLM-5.3 这一新模型，核心问题是它能力更强，为什么没有像以往版本那样在社交网络刷屏。可惜原文仅保留标题，正文缺失，发布时机、能力细节和传播数据都无从确认。",
+    "summary_en": "A short 36kr item asks why GLM-5.3, despite being a stronger model, failed to generate social-media buzz. Since only the headline is in the input, no release date, capability improvements, or dissemination figures can be summarized. The linked page isn't summarized here; details beyond the title aren't available, so the question remains open.",
+    "input_hash": "cb8dab8a0700"
+  },
+  "gh-daily-VoltAgent-awesome-agent-skills": {
+    "summary_zh": "VoltAgent 在 GitHub 上维护的 awesome-agent-skills 是一个精选 Agent 技能合集，目前收录 1497+ 条来自官方团队与社区的技能，兼容 Claude Code、Codex、Gemini CLI、Cursor 等工具。与批量抓取的仓库不同，它强调人工筛选，确保技能真实可用，适合需要直接落地 Agent 工作流的开发者。",
+    "summary_en": "VoltAgent's awesome-agent-skills is a hand-picked collection of 1497+ Agent skills from official teams and the community, covering Claude Code, Codex, Gemini CLI, Cursor, and others. Unlike AI-slop bulk listings, each skill is manually vetted for real-world use. It's a useful starting point for developers building reliable agent workflows and is trending on GitHub today.",
+    "input_hash": "7f8dd26cea99"
+  },
+  "gh-daily-tinyhumansai-openhuman": {
+    "summary_zh": "OpenHuman 是一个开源 AI harness，定位为个人 AI 超级智能：为你的生活建立 local-first 记忆，编排 agent 与工作流，也能做深度研究。想把记忆留在本地、统一协调多个 Agent 的开发者适合用它来搭建自己的 AI 工作台。",
+    "summary_en": "OpenHuman is an open-source AI harness described as a personal AI superintelligence. It builds a local-first memory of your life, orchestrates agent fleets and workflows, and can act as a deep researcher. Developers who want to coordinate multiple agents while keeping memory data on their own machine may want to evaluate it.",
+    "input_hash": "e56fd3298929"
+  },
+  "gh-daily-anthropics-claude-plugins-community": {
+    "summary_zh": "Anthropic 的 claude-plugins-community 是 Claude Cowork 与 Claude Code 的社区插件市场，本质是一个只读镜像：插件经 claude.ai 提交并通过自动安全扫描后，每晚随 Anthropic 的内部审核流水线同步进来，直接对该仓库发 PR 会被自动关闭。需要给 Claude 安装社区插件的开发者应使用官方提交入口，而不是提 PR。",
+    "summary_en": "Anthropic's claude-plugins-community is a read-only mirror of the community plugin marketplace for Claude Cowork and Claude Code. Plugins are submitted through claude.ai, pass automated security scanning, and are synced nightly from Anthropic's internal review pipeline; direct pull requests to the repo are automatically closed. Developers seeking community plugins for Claude should use the official submission form.",
+    "input_hash": "18c8dd6860d9"
+  },
+  "juejin-7642171057679859775": {
+    "summary_zh": "Skill 本质是含 SKILL.md 的文件夹，沉淀任务经验与流程，而非临时 prompt。文章以工作总结为例，在 Codex/Claude Code 创建 work-summary-writing，适合需要 AI 复用个人工作流的开发者。",
+    "summary_en": "A Skill is a folder containing a SKILL.md file that packages rules, experience, and procedures for a task — not a one-off prompt or API call. The article demonstrates building a work-summary-writing skill, covering the minimal structure (SKILL.md, plus optional scripts/references/assets) and installation paths for Codex and Claude Code. Ideal for developers tired of repeating the same instructions for recurring AI tasks.",
+    "input_hash": "ff243712fde8"
   }
 }

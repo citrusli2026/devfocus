@@ -196,7 +196,9 @@
       "tags": [],
       "first_seen": "2026-08-21",
       "domain": "bandarlabs.github.io",
-      "quality_score": 31.9
+      "quality_score": 31.9,
+      "summary_zh": "Cobalt 是一个面向 Kobo 电子书阅读器的开源应用平台，提供启动器、签名应用商店、Rust SDK 和能力隔离运行时。用户只需通过 USB 安装一次，之后所有应用都通过 Wi-Fi 分发。签名商店和隔离运行时的组合，让第三方应用在阅读器上更容易安全分发。",
+      "summary_en": "Cobalt is an open-source app platform for Kobo e-readers, bundling a launcher, a signed App Store, a Rust SDK, and a capability-isolated runtime. One USB install is enough; every following app arrives over Wi-Fi. The signed store and isolated runtime make it a notable path for safer third-party software distribution on e-readers."
     },
     {
       "id": "hn-49395628",
@@ -244,7 +246,9 @@
       "tags": [],
       "first_seen": "2026-08-21",
       "domain": "annas-archive.gl",
-      "quality_score": 45.4
+      "quality_score": 45.4,
+      "summary_zh": "Anna’s Archive 发出紧急呼吁，称 AI 公司正秘密购买、扫描并销毁数百万本实体书用于模型训练，把人类知识锁进私有服务器。该组织号召全球志愿者赶在文化遗产消失前扫描并上传这些稀有书籍，以扩充其影子图书馆。",
+      "summary_en": "Anna’s Archive is urgently calling for volunteers, saying AI companies are secretly buying, scanning, and destroying millions of physical books to train models, locking human knowledge inside private servers. The organization wants people to scan and upload rare books to its shadow library before this cultural heritage disappears. It highlights a stark trade-off between AI training data and preserving physical archives."
     },
     {
       "id": "hn-49374269",
@@ -2260,7 +2264,9 @@
       "tags": [],
       "first_seen": "2026-08-23",
       "domain": "ft.com",
-      "quality_score": 31.3
+      "quality_score": 31.3,
+      "summary_zh": "HN 上这条帖子只有标题没有正文，核心信息是 Anthropic 的最强 AI 模型在吸引用户方面遇到阻力，而更便宜的工具正在增长。原文是链接，未提供更多细节。",
+      "summary_en": "According to this Hacker News submission's title—the only content given—Anthropic's best AI model is currently struggling to attract users as cheaper tools thrive. The linked page isn't summarized here; details beyond the title aren't available. No concrete model names, metrics, or time frames are provided in the entry."
     },
     {
       "id": "hn-49404968",
@@ -3369,7 +3375,9 @@
       "gh_period": "daily",
       "first_seen": "2026-08-23",
       "domain": "github.com",
-      "quality_score": 30.0
+      "quality_score": 30.0,
+      "summary_zh": "OpenHuman 是一个开源 AI harness，定位为个人 AI 超级智能：为你的生活建立 local-first 记忆，编排 agent 与工作流，也能做深度研究。想把记忆留在本地、统一协调多个 Agent 的开发者适合用它来搭建自己的 AI 工作台。",
+      "summary_en": "OpenHuman is an open-source AI harness described as a personal AI superintelligence. It builds a local-first memory of your life, orchestrates agent fleets and workflows, and can act as a deep researcher. Developers who want to coordinate multiple agents while keeping memory data on their own machine may want to evaluate it."
     },
     {
       "id": "gh-daily-affaan-m-ECC",
@@ -3422,7 +3430,9 @@
       "gh_period": "daily",
       "first_seen": "2026-08-23",
       "domain": "github.com",
-      "quality_score": 30.1
+      "quality_score": 30.1,
+      "summary_zh": "VoltAgent 在 GitHub 上维护的 awesome-agent-skills 是一个精选 Agent 技能合集，目前收录 1497+ 条来自官方团队与社区的技能，兼容 Claude Code、Codex、Gemini CLI、Cursor 等工具。与批量抓取的仓库不同，它强调人工筛选，确保技能真实可用，适合需要直接落地 Agent 工作流的开发者。",
+      "summary_en": "VoltAgent's awesome-agent-skills is a hand-picked collection of 1497+ Agent skills from official teams and the community, covering Claude Code, Codex, Gemini CLI, Cursor, and others. Unlike AI-slop bulk listings, each skill is manually vetted for real-world use. It's a useful starting point for developers building reliable agent workflows and is trending on GitHub today."
     },
     {
       "id": "gh-daily-virgiliojr94-book-to-skill",
@@ -3475,7 +3485,9 @@
       "gh_period": "daily",
       "first_seen": "2026-08-23",
       "domain": "github.com",
-      "quality_score": 30.1
+      "quality_score": 30.1,
+      "summary_zh": "Anthropic 的 claude-plugins-community 是 Claude Cowork 与 Claude Code 的社区插件市场，本质是一个只读镜像：插件经 claude.ai 提交并通过自动安全扫描后，每晚随 Anthropic 的内部审核流水线同步进来，直接对该仓库发 PR 会被自动关闭。需要给 Claude 安装社区插件的开发者应使用官方提交入口，而不是提 PR。",
+      "summary_en": "Anthropic's claude-plugins-community is a read-only mirror of the community plugin marketplace for Claude Cowork and Claude Code. Plugins are submitted through claude.ai, pass automated security scanning, and are synced nightly from Anthropic's internal review pipeline; direct pull requests to the repo are automatically closed. Developers seeking community plugins for Claude should use the official submission form."
     },
     {
       "id": "gh-daily-ripienaar-free-for-dev",
@@ -4328,7 +4340,9 @@
       "content": "",
       "first_seen": "2026-08-22",
       "domain": "juejin.cn",
-      "quality_score": 7.2
+      "quality_score": 7.2,
+      "summary_zh": "掘金精选：😮‍💨 有了 AI 之后，我怎么感觉反而更累了？",
+      "summary_en": "Featured on Juejin: 😮‍💨 有了 AI 之后，我怎么感觉反而更累了？"
     },
     {
       "id": "juejin-7673855455463800847",
@@ -4963,7 +4977,9 @@
       "tags": [],
       "first_seen": "2026-08-23",
       "domain": "infoq.cn",
-      "quality_score": 37.5
+      "quality_score": 37.5,
+      "summary_zh": "亚马逊云科技开源了 Dogwood，一门用于 AI 智能体工具调用的策略语言，其规则可回溯智能体已执行的操作，与只能限制单次请求的 Cedar 形成互补。它提供 formerly、sum_within 等时序操作符来约束操作序列，并演示了针对响应事件写速率限制会被并发转账绕过的典型陷阱，适合构建 Agent 安全控制层的团队参考。",
+      "summary_en": "Amazon has open-sourced Dogwood, a policy language for AI-agent tool calls that can read an agent’s event history and express temporal constraints, complementing the stateless Cedar. It adds operators such as formerly and sum_within for sequence-level rules, and demonstrates a classic pitfall where rate limits on responses are bypassed by concurrent transfers. A good fit for teams building deterministic guardrails around agent tools."
     },
     {
       "id": "infoq-9YicfQysexJdmx11xG4m",
@@ -4979,7 +4995,9 @@
       "tags": [],
       "first_seen": "2026-08-23",
       "domain": "infoq.cn",
-      "quality_score": 38.2
+      "quality_score": 38.2,
+      "summary_zh": "DynamoDB 原生向量搜索上线：嵌入向量与应用数据可存在同一张表，用 SearchVectors API 做近似最近邻查询，免去独立向量库。无服务器自动扩缩，最高 4096 维、支持多种距离函数，官方称可扩展到数万亿向量并保持毫秒级延迟，按索引写入、查询和存储计费。",
+      "summary_en": "DynamoDB now has native vector search: embeddings and application data can live in the same table, and developers query them via the SearchVectors API for approximate nearest neighbors, eliminating a separate vector database. It scales serverlessly, supports up to 4,096 dimensions and several distance functions, and can reach trillions of vectors with single-digit-millisecond latency; costs are metered for index writes, queries, and storage."
     },
     {
       "id": "infoq-umVdo2GaEyONQLWNmPZ9",
@@ -5011,7 +5029,9 @@
       "tags": [],
       "first_seen": "2026-08-23",
       "domain": "infoq.cn",
-      "quality_score": 39.9
+      "quality_score": 39.9,
+      "summary_zh": "InfoQ 精选：事故频发并不意味着可靠性下降",
+      "summary_en": "Featured on InfoQ: 事故频发并不意味着可靠性下降"
     },
     {
       "id": "infoq-kyUdCw0IPHwuIHg2WJCu",
@@ -5027,7 +5047,9 @@
       "tags": [],
       "first_seen": "2026-08-22",
       "domain": "infoq.cn",
-      "quality_score": 44.9
+      "quality_score": 44.9,
+      "summary_zh": "Cloudflare 推出 Cache Response Rules，在源站返回响应之后、写入缓存之前执行，允许用户修改 Cache-Control、管理 Cache Tag，并移除 Set-Cookie、ETag 等 Header，而无需改动源站应用。官方称它与现有 Cache Rules 互补而非取代，可减少意外 Header 导致的缓存命中率下降，方便 CDN 迁移。",
+      "summary_en": "Cloudflare has launched Cache Response Rules, a new rule engine that runs after the origin responds but before content is written to cache. It lets you adjust Cache-Control directives, manage cache tags, and strip headers like Set-Cookie, ETag, or Last-Modified without modifying your origin app. Cloudflare says it complements, not replaces, existing Cache Rules and can boost cache hit rates and ease CDN migrations."
     },
     {
       "id": "infoq-IBYDTeu3rse9tH3549wf",
@@ -5043,7 +5065,9 @@
       "tags": [],
       "first_seen": "2026-08-22",
       "domain": "infoq.cn",
-      "quality_score": 47.2
+      "quality_score": 47.2,
+      "summary_zh": "Cloudflare 发布 Agent Tracing，作为 Cloudflare Agents 的首个组件，提供统一 Dashboard 查看 Agent 会话；在 Workers Tracing 之上新增 Agent 调用、模型调用、工具执行与审批等 Span，附模型信息和 Token 用量，Subagent 调用会嵌套在父级瀑布流中。Beta 期间免费，2026 年 10 月 1 日起纳入 Workers Observability 计费，适合排查返回 200 但行为异常的 Agent。",
+      "summary_en": "Cloudflare launched Agent Tracing, the first component of Cloudflare Agents, adding a unified dashboard for agent sessions. It extends Workers Tracing with agent-level spans for agent invocations, model calls, tool executions, and approvals, carrying model info and token usage; subagent work nests under the parent flow. Free in beta, it enters Workers Observability billing on October 1, 2026, and helps debug agents that return HTTP 200 yet misbehave through wrong tool choices or costly retries."
     },
     {
       "id": "infoq-fPGPEF2hwCKtz3PTg69C",
@@ -5059,7 +5083,9 @@
       "tags": [],
       "first_seen": "2026-08-22",
       "domain": "infoq.cn",
-      "quality_score": 46.6
+      "quality_score": 46.6,
+      "summary_zh": "npm 12 发布，默认关闭 allowScripts，依赖项的 preinstall/install/postinstall 脚本（含隐式 node-gyp 构建）不再自动运行，需 approve-scripts 审批。--allow-git 与 --allow-remote 默认改为 none，弃用可绕过 2FA 的细粒度访问令牌。官方给出迁移建议，社区反应普遍正面。",
+      "summary_en": "npm 12 ships with allowScripts disabled by default, so preinstall, install, and postinstall scripts from dependencies (including implicit node-gyp builds) won't run unless explicitly approved. It also defaults --allow-git and --allow-remote to none and deprecates fine-grained access tokens that could bypass 2FA. The npm team provides a migration guide; the community response is largely supportive."
     },
     {
       "id": "infoq-CQhb4TOREpEZshtqWZMy",
@@ -5075,7 +5101,9 @@
       "tags": [],
       "first_seen": "2026-08-22",
       "domain": "infoq.cn",
-      "quality_score": 49.2
+      "quality_score": 49.2,
+      "summary_zh": "JetBrains 称开发相关 AI 支出六个月涨约十倍，公司没有收紧工具名单，而是构建了 Central CLI 共享访问与记账层，让请求经自有 AI 平台统一路由，可对第三方工具套用积分并为开发者/团队设限额，已有超千名开发者采用。这种思路把成本控制从事后观察变成流量必经的控制点，适合既想保留工具选择权又要控制预算的团队。",
+      "summary_en": "JetBrains says AI-related development spending rose roughly tenfold in six months. Instead of narrowing the approved tool list, it built a Central CLI as a shared access and accounting layer: requests route through its own AI platform, letting the company apply credits and set per-developer or per-team limits. More than 1,000 developers adopted it within weeks, offering a model for teams that want both tool choice and cost control."
     },
     {
       "id": "infoq-3MNJh5F34GSsRQJJWJzY",
@@ -5127,7 +5155,9 @@
       "tags": [],
       "first_seen": "2026-08-21",
       "domain": "infoq.cn",
-      "quality_score": 37.9
+      "quality_score": 37.9,
+      "summary_zh": "材科源图在三个月内完成两轮融资，并押注 AI 全链路闭环来加速材料产业化。这显示出资本对 AI+材料科学落地节奏的关注在升温。原文是链接，未提供更多细节。",
+      "summary_en": "Caike Yuantu (材科源图) completed two funding rounds within three months, using an AI full-loop approach to accelerate materials industrialization. The rapid financing highlights momentum in AI-driven materials innovation. The linked page isn't summarized here; details beyond the title aren't available."
     },
     {
       "id": "infoq-aGfkSN1YlmLrUQMPea9L",
