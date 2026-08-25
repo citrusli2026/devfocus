@@ -340,7 +340,9 @@
       "tags": [],
       "first_seen": "2026-08-24",
       "domain": "xusheng.dev",
-      "quality_score": 40.7
+      "quality_score": 40.7,
+      "summary_zh": "逆向工程发现，Microsoft Paint 和 Photos 都会在本地生成的 AI 图像像素中嵌入一个服务器下发的 GUID，作为不可见水印。也就是说，虽然是在本地生成，输出也可能带有可追溯的隐藏标识；对隐私敏感的用户和做内容溯源的人影响直接。",
+      "summary_en": "A reverse-engineering look shows that Microsoft Paint and Photos embed a server-issued GUID into the pixels of AI images produced locally, forming an invisible watermark. Local generation therefore doesn't guarantee an untraceable file. The finding matters for privacy-conscious users and for anyone researching AI-content provenance, though only the mechanism has been confirmed so far."
     },
     {
       "id": "hn-49410362",
@@ -3259,7 +3261,9 @@
       "gh_period": "daily",
       "first_seen": "2026-08-24",
       "domain": "github.com",
-      "quality_score": 30.1
+      "quality_score": 30.1,
+      "summary_zh": "MadsLorentzen/ai-job-search 是一个基于 Claude Code 的 AI 求职申请框架，代码在本机运行，用户 fork 后填入个人资料即可让 AI 评估职位、定制简历、写求职信和准备面试。项目强调 open source 且与 Anthropic 无关，只是用 Claude Code 作为工作流工具。适合正在海投或想自动化求职流程的开发者。",
+      "summary_en": "MadsLorentzen/ai-job-search is an AI-powered job application framework built on Claude Code that runs locally on your machine. After forking the repo and filling in your profile, Claude evaluates job postings, tailors your CV, writes cover letters, and prepares you for interviews. It is an independent open-source project, not affiliated with Anthropic."
     },
     {
       "id": "gh-daily-multica-ai-andrej-karpathy-skills",
@@ -3371,7 +3375,9 @@
       "gh_period": "daily",
       "first_seen": "2026-08-23",
       "domain": "github.com",
-      "quality_score": 30.1
+      "quality_score": 30.1,
+      "summary_zh": "Apache Maka 是一个正在 Apache 软件基金会孵化的本地优先 AI Agent 工作区，将模型消息、工具调用与结果、权限决策、终止事件以追加式日志完整记录。这种可审计设计适合需要追溯 AI 行为链路的开发场景，便于调试与信任管理。",
+      "summary_en": "Apache Maka (Incubating) is a local-first AI agent workspace that records model messages, tool calls, tool results, permission decisions, and termination events in an append-only log. Incubating at the Apache Software Foundation, its auditable design suits developers who need to trace and debug agent behavior."
     },
     {
       "id": "gh-daily-PostHog-posthog",
@@ -3424,7 +3430,9 @@
       "gh_period": "daily",
       "first_seen": "2026-08-24",
       "domain": "github.com",
-      "quality_score": 30.1
+      "quality_score": 30.1,
+      "summary_zh": "claude-obsidian 是基于 Claude Code 的 Obsidian 自组织知识库插件，v2.1.0 以 MIT 协议开源，兼容 Agent Skills。它把资料来源读取、互链成纯 Markdown，支持有依据问答与知识库健康检查，适合想保留 Markdown 所有权又用 AI 记笔记的开发者。",
+      "summary_en": "claude-obsidian is a self-organizing knowledge-base plugin for Obsidian and Claude Code, released under MIT as v2.1.0 and compatible with Agent Skills. It captures sources, links them into a connected graph of plain Markdown, and lets you retrieve grounded answers while keeping the vault healthy. For developers who want AI-assisted note-taking without surrendering ownership of their files."
     },
     {
       "id": "gh-daily-rohitg00-ai-engineering-from-scratch",
@@ -4965,7 +4973,9 @@
       "tags": [],
       "first_seen": "2026-08-24",
       "domain": "infoq.cn",
-      "quality_score": 39.0
+      "quality_score": 39.0,
+      "summary_zh": "Netflix 开源了一个因果推断智能代理工作流：执行与评审双代理协作，自动承担敏感性分析等重复工作，人类只负责定义问题和审核结果。它在 ACIC 数据上表现‘有竞争力’；游戏留存案例中，效果估计仅为 Claude 简单回归基线的 25%，且能自动识别早期采用者偏差。",
+      "summary_en": "Netflix open-sourced an agentic workflow for observational causal inference (OCI) that pairs an execution agent with a reviewer agent. The execution agent handles repetitive work such as sensitivity analysis, while humans set the analysis plan and judge results. On ACIC competition data the workflow was competitive; in a game-retention case study, its effect estimate was 25% of a Claude simple-linear-regression baseline, and the reviewer flagged early-adopter bias and a failed placebo test."
     },
     {
       "id": "infoq-ogFMPSyD3LqR9RtbIRky",
@@ -4981,7 +4991,9 @@
       "tags": [],
       "first_seen": "2026-08-24",
       "domain": "infoq.cn",
-      "quality_score": 39.7
+      "quality_score": 39.7,
+      "summary_zh": "Uncle Bob（Robert C. Martin）已放弃逐行人工评审AI代码，转而用单元测试、验收测试、变异测试等强约束体系来把关，并自称这套流程运行顺利。但在播客中他承认，AI自动做架构设计仍频繁产出有漏洞的方案，架构和模块依赖管控仍需人类主导。UML联合作者Grady Booch则公开反对，主张“信任但要核验”。",
+      "summary_en": "Robert C. Martin (“Uncle Bob”) has stopped reviewing AI-generated code line by line, replacing manual review with a strict framework of unit tests, acceptance tests, and mutation testing. He told a podcast that this works well for code writing, but automating his full architecture-planning process hasn't succeeded — AI architecture proposals still miss things, so humans must lead module and dependency design. Grady Booch, UML co-creator, disagrees publicly, arguing that “trust, but verify” is still necessary and no agent has a developer's experience and business context."
     },
     {
       "id": "infoq-ONGSA7k86LcxFyU64N2z",
@@ -4997,7 +5009,9 @@
       "tags": [],
       "first_seen": "2026-08-24",
       "domain": "infoq.cn",
-      "quality_score": 40.2
+      "quality_score": 40.2,
+      "summary_zh": "本期 AI 周报以 DeepSeek 调价打头：8 月 23 日起周末全天按低谷价计费，此前 V4 Pro 高峰输入/输出已涨至每百万 token 9/27 元。还涉及英伟达 AI 服务器涨价超 15%、前 Kimi 搜索负责人创业做“AI 红娘”（承诺三年不结婚退款）以及宇树上市首日大涨后跌 19% 等动态。",
+      "summary_en": "The AI weekly roundup leads with DeepSeek repricing: from Aug 23, weekends get all-day off-peak rates; previously, V4 Pro peak input/output jumped to ¥9/¥27 per million tokens. It also covers Nvidia AI server prices rising more than 15%, a former Kimi search head launching an “AI matchmaker” that refunds users if they don't marry within three years, and Unitree's first-day surge then 19% drop."
     },
     {
       "id": "infoq-6zto2Zd1cdiODGyBcf6r",
@@ -5029,7 +5043,9 @@
       "tags": [],
       "first_seen": "2026-08-24",
       "domain": "infoq.cn",
-      "quality_score": 40.0
+      "quality_score": 40.0,
+      "summary_zh": "Cloudflare 推出私有测试版 WriteGuard，为 MCP 服务器提供细粒度安全策略，控制 AI 代理对数据库、GitHub 等外部服务的写入操作。它会拦截 MCP 请求，按 read-only、minimal impact、contained write、critical 等风险等级放行或阻止，并复用现有 OAuth 身份、输出审计日志。",
+      "summary_en": "Cloudflare has launched WriteGuard, in private beta, to give MCP servers fine-grained security controls. It checks incoming MCP requests against per-tool policies, classifying operations as read-only, minimal impact, contained write, or critical, and then allows or blocks them. WriteGuard reuses existing OAuth credentials and keeps audit logs, so teams can manage AI agents that write to external services without creating separate agent accounts."
     },
     {
       "id": "infoq-cwj5Ikvhqu5mKH22zKsO",
@@ -5081,7 +5097,9 @@
       "tags": [],
       "first_seen": "2026-08-23",
       "domain": "infoq.cn",
-      "quality_score": 46.5
+      "quality_score": 46.5,
+      "summary_zh": "Nikolay Samokhvalov 发布开源教育工具 PGSimCity，将 PostgreSQL 18 运行机制变成浏览器内的 3D 城市模拟，shared_buffers、WAL、checkpointer、autovacuum 等组件被映射为不同城区。开发者可跟踪 SQL 从解析到执行的生命周期，也可调低 work_mem 或 shared_buffers 观察排序溢出等故障模式。适合后端、SRE 与 DBA 直观理解 PG 内核。",
+      "summary_en": "Nikolay Samokhvalov released PGSimCity, an open-source educational tool that turns PostgreSQL cluster internals into an interactive 3D city simulation running entirely in the browser. It maps PG 18 components like shared_buffers, WAL, checkpointer, and autovacuum to city districts, letting users trace query execution and trigger failure modes such as sort spills or buffer-eviction contention. Aimed at backend developers, SREs, and DBAs, it bridges the gap between SQL and kernel internals."
     },
     {
       "id": "infoq-m8zEcEteGKJma9EJe35S",

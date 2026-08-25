@@ -3339,7 +3339,9 @@
       "gh_period": "daily",
       "first_seen": "2026-08-23",
       "domain": "github.com",
-      "quality_score": 30.0
+      "quality_score": 30.0,
+      "summary_zh": "Apache Maka 是一个正在 Apache 软件基金会孵化的本地优先 AI Agent 工作区，将模型消息、工具调用与结果、权限决策、终止事件以追加式日志完整记录。这种可审计设计适合需要追溯 AI 行为链路的开发场景，便于调试与信任管理。",
+      "summary_en": "Apache Maka (Incubating) is a local-first AI agent workspace that records model messages, tool calls, tool results, permission decisions, and termination events in an append-only log. Incubating at the Apache Software Foundation, its auditable design suits developers who need to trace and debug agent behavior."
     },
     {
       "id": "gh-daily-Alishahryar1-free-claude-code",
@@ -5013,7 +5015,9 @@
       "tags": [],
       "first_seen": "2026-08-23",
       "domain": "infoq.cn",
-      "quality_score": 38.4
+      "quality_score": 38.4,
+      "summary_zh": "Nikolay Samokhvalov 发布开源教育工具 PGSimCity，将 PostgreSQL 18 运行机制变成浏览器内的 3D 城市模拟，shared_buffers、WAL、checkpointer、autovacuum 等组件被映射为不同城区。开发者可跟踪 SQL 从解析到执行的生命周期，也可调低 work_mem 或 shared_buffers 观察排序溢出等故障模式。适合后端、SRE 与 DBA 直观理解 PG 内核。",
+      "summary_en": "Nikolay Samokhvalov released PGSimCity, an open-source educational tool that turns PostgreSQL cluster internals into an interactive 3D city simulation running entirely in the browser. It maps PG 18 components like shared_buffers, WAL, checkpointer, and autovacuum to city districts, letting users trace query execution and trigger failure modes such as sort spills or buffer-eviction contention. Aimed at backend developers, SREs, and DBAs, it bridges the gap between SQL and kernel internals."
     },
     {
       "id": "infoq-m8zEcEteGKJma9EJe35S",
