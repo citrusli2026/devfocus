@@ -5052,7 +5052,8 @@
   },
   "gh-monthly-DeusData-codebase-memory-mcp": {
     "summary_zh": "这是一个高性能的代码智能MCP服务器，能将整个代码库索引成持久化的知识图谱，支持158种语言，平均查询响应时间仅为毫秒级。它极大地提升了开发者在大型项目中快速理解代码结构的能力，尤其适合复杂代码库的维护和重构场景。",
-    "summary_en": "This MCP server indexes entire codebases into a persistent knowledge graph with sub-millisecond latency, supporting 158 languages. It enables developers to rapidly understand code structure, dependencies, and history — a game-changer for navigating large, legacy, or unfamiliar repositories. Perfect for teams doing code reviews, refactoring, or onboarding."
+    "summary_en": "This MCP server indexes entire codebases into a persistent knowledge graph with sub-millisecond latency, supporting 158 languages. It enables developers to rapidly understand code structure, dependencies, and history — a game-changer for navigating large, legacy, or unfamiliar repositories. Perfect for teams doing code reviews, refactoring, or onboarding.",
+    "input_hash": "43802ff51bc9"
   },
   "36kr-3900918550546308": {
     "summary_zh": "Fable 5今日正式宣布永久免费开放所有功能，用户无需再担心订阅到期或功能限制。这一决定被认为是对用户反馈的积极回应，也意在巩固其在开发者社区中的口碑。对于依赖Fable 5进行日常编码和调试的团队来说，这无疑是个好消息。",
@@ -10906,9 +10907,9 @@
     "input_hash": "070b3e692940"
   },
   "gh-daily-freestylefly-awesome-gpt-image-2": {
-    "summary_zh": "这是一个面向 GPT-Image2 的开源提示词引擎与模板库，作者对 532 个案例做了逆向工程，提炼出 20+ 套工业级模板，并把可复用的写法沉淀为 Skills，以“Prompt as Code”的方式持续更新。适合需要批量、稳定产出高质量图片的开发者或内容团队，用来替代零散的手写提示词。",
-    "summary_en": "This open-source repository is a GPT-Image2 prompt engine and template library built on \"Prompt as Code.\" It reverse-engineers 532 real cases into 20+ industrial-grade templates and distills reusable patterns as Skills, with ongoing updates. Developers and content teams who need consistent, high-volume image generation can use it instead of ad-hoc hand-written prompts.",
-    "input_hash": "e49e1dbc6668"
+    "summary_zh": "awesome-gpt-image-2 是一个面向 GPT-Image2 的“Prompt as Code”资源库，包含 538 个逆向工程案例、20+ 套工业级模板，以及从案例中提炼的可复用 Skills。它把零散的提示词技巧整理成结构化引擎，适合需要在图片生成工作中批量构建和复用提示词的开发者。项目仍在持续更新。",
+    "summary_en": "awesome-gpt-image-2 is a prompt-as-code resource for GPT-Image2, containing 538 reverse-engineered cases, 20+ industrial templates, and reusable prompt skills. It turns scattered prompting tricks into a structured engine so developers can build and scale image-generation workflows without reinventing prompts. The repository is actively updated, and its case-driven approach is a practical reference for teams adopting GPT-Image2.",
+    "input_hash": "04ec537f6ec8"
   },
   "gh-daily-virgiliojr94-book-to-skill": {
     "summary_zh": "book-to-skill 是一个能将技术书籍、文档文件夹或资料合集转换为统一 Agent Skill 的开源工具，转换结果可直接在 Claude Code、GitHub Copilot CLI、Amp 中调用，支持 PDF、EPUB、DOCX、MD、HTML、RTF、MOBI 格式。它基于开放的 Agent Skills 标准，适合想把技术藏书变成 AI 编程助手可查知识库的开发者。",
@@ -11311,9 +11312,9 @@
     "input_hash": "984e94650384"
   },
   "gh-daily-AgriciDaniel-claude-obsidian": {
-    "summary_zh": "claude-obsidian 是基于 Claude Code 的 Obsidian 自组织知识库插件，v2.1.0 以 MIT 协议开源，兼容 Agent Skills。它把资料来源读取、互链成纯 Markdown，支持有依据问答与知识库健康检查，适合想保留 Markdown 所有权又用 AI 记笔记的开发者。",
-    "summary_en": "claude-obsidian is a self-organizing knowledge-base plugin for Obsidian and Claude Code, released under MIT as v2.1.0 and compatible with Agent Skills. It captures sources, links them into a connected graph of plain Markdown, and lets you retrieve grounded answers while keeping the vault healthy. For developers who want AI-assisted note-taking without surrendering ownership of their files.",
-    "input_hash": "186387a4cb24"
+    "summary_zh": "claude-obsidian 是一个 MIT 许可的 Claude Code 插件（当前版本 v2.1.1），可将 Obsidian 变为自组织的第二大脑：任意资料放入后，Claude 会自动阅读、链接并归档为 Markdown 知识图谱，文件所有权始终归用户。兼容 Agent Skills，适合用 Obsidian 做笔记并希望 AI 自动整理的人。",
+    "summary_en": "claude-obsidian is an open-source Claude Code plugin (v2.1.1, MIT-licensed) that turns Obsidian into a self-organizing second brain. Drop in any source, and Claude reads, links, and files it into a connected knowledge graph of plain Markdown files you own. It also supports Agent Skills, and is aimed at Obsidian users who want AI-assisted note-taking without losing file ownership.",
+    "input_hash": "6c32ae733e84"
   },
   "36kr-3954101013904513": {
     "summary_zh": "据标题，小米发布了一套 AI 芯片全家桶，雷军还透露一个隐藏彩蛋：芯片成本高，建议用户不要拆机。原文是链接，未提供更多细节。",
@@ -11389,5 +11390,265 @@
     "summary_zh": "这条帖子在征集有意思、很酷的开源项目。原文是链接，未提供更多细节；标题之外没有列出任何具体项目或分类方向。",
     "summary_en": "This post asks for interesting, cool open-source projects. The linked page isn't summarized here; details beyond the title aren't available, so no specific projects or categories are listed.",
     "input_hash": "410fe0791459"
+  },
+  "v2ex-dce90e9a55bf": {
+    "summary_zh": "V2EX 热议：[分享创造] 二次验证器管理工具",
+    "summary_en": "Hot on V2EX: [分享创造] 二次验证器管理工具",
+    "input_hash": "8d488804d52c"
+  },
+  "infoq-4mIQfr4w5gPLXSIW7YST": {
+    "summary_zh": "InfoQ 精选：主要前沿模型提供商采用水印技术以满足欧盟法规要求",
+    "summary_en": "Featured on InfoQ: 主要前沿模型提供商采用水印技术以满足欧盟法规要求",
+    "input_hash": "48c2f0241b37"
+  },
+  "hn-49438052": {
+    "summary_zh": "据标题报道，Dolly Parton 已经去世。该条为链接资讯，除标题外未提供更多细节，无法确认其他信息。",
+    "summary_en": "The headline reports that Dolly Parton has died. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "01ed04c53142"
+  },
+  "zhihu-2075969425702741132": {
+    "summary_zh": "据标题报道，西藏日喀则吉隆口岸发生泥石流，造成重大人员伤亡和失联，有建筑被掩埋。该条目未提供更多细节，当前伤亡数字和救援进展无法从标题确认。",
+    "summary_en": "According to the headline, a mudslide hit Gyirong Port in Shigatse, Tibet, causing major casualties and missing people, with buildings buried. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "4a47f2c8c512"
+  },
+  "36kr-3955497683991684": {
+    "summary_zh": "据标题报道，苹果发布了新款 Mac mini，价格较前代上涨 2500 元，并称这是苹果首款为 AI 设计的电脑。该条目未提供配置、芯片等更多细节，具体规格尚不清楚。",
+    "summary_en": "Apple has released a new Mac mini with a 2,500 yuan price increase and is positioning it as the company's first Mac designed for AI, according to the headline. This headline-only post doesn't include chip, memory, or availability details; only the pricing and AI positioning are confirmed.",
+    "input_hash": "94c3fbf5cfbf"
+  },
+  "infoq-2IBWc7BuB2qoGao5tlQT": {
+    "summary_zh": "亚马逊云科技在 Bedrock AgentCore 中推出运行时实例，让 AI 智能体运行在客户账户内的 Amazon EC2 上，并保留原有 API、身份与可观测性。相比无服务器 microVM 的 8 小时会话上限，它支持最长 14 天的持久会话、共享文件系统、GPU 实例，以及 CrewAI、LangGraph 等框架，适合长时间运行的多智能体协作。",
+    "summary_en": "AWS announced runtime instances for Bedrock AgentCore, which run agents on managed EC2 instances inside the customer's account while preserving the existing AgentCore API, identity, and observability. Sessions can last up to 14 days (vs. the 8-hour microVM cap), with shared file systems, GPU-backed instances, and support for frameworks like CrewAI and LangGraph. It targets teams whose agents need longer than 8 hours and benefit from multiple agents collaborating on one host.",
+    "input_hash": "86c2e08c7c99"
+  },
+  "v2ex-20344e968064": {
+    "summary_zh": "有 V2EX 用户反映，Twitter/X 浏览器首页突然刷不出内容，只剩一句 “Welcome to X! Let's go!”，并猜测是不是 Firefox 被针对性封禁。如果属实，会影响用浏览器访问 X 的用户；但也可能只是显示异常。",
+    "summary_en": "A user on V2EX reports that the X/Twitter homepage in a browser suddenly stopped showing posts, displaying only 'Welcome to X! Let's go!' and wonders whether Firefox is being specifically blocked. If real, it affects Firefox users visiting X; otherwise it may just be a display glitch.",
+    "input_hash": "5c9005d55536"
+  },
+  "v2ex-869d3d9a4d1a": {
+    "summary_zh": "一篇 V2EX 讨论帖问如何最大化 coding 时所用模型的效果，作者提到 Codex 版本多且推理强度分梯度，Claude 通常用 opus 系列 medium，想知道更精细的用法。适合正在组合不同模型和任务、想优化调用策略的开发者。",
+    "summary_en": "A V2EX thread asks how to get the most out of model choice for coding. The author notes Codex comes in many versions with reasoning-strength tiers, and Claude is usually used via the opus series at medium setting, and wants finer-grained usage tips. Good for developers who are matching models to tasks.",
+    "input_hash": "4edb48a68adc"
+  },
+  "infoq-yEKcMO03wXvuyZpj1C1d": {
+    "summary_zh": "React Router v8 于 2026 年 6 月 17 日发布，改为仅 ESM、默认启用中间件，并提高 Node/React/Vite 最低版本要求，v6 与 Remix v2 进入 EOL。破坏性变更引发争议，官方称都可在 v7 中提前适配，部分开发者已转向 TanStack Router。",
+    "summary_en": "React Router v8, released June 17, 2026, is ESM-only, enables middleware by default, and raises minimums to Node 22.22+, React 19.2.7+, and Vite 7+, while v6 and Remix v2 are EOL. Brooks Lybrand joked they 'broke all your apps,' and some developers are moving to TanStack Router.",
+    "input_hash": "8c5386c01bb3"
+  },
+  "infoq-zdc3HzpvqA96jwWA6lGb": {
+    "summary_zh": "GitHub 公开预览 Stacked Pull Requests，支持把大型变更拆成多个相互依赖的小 PR，分别审查和合并。该功能针对 AI 生成代码提速后人工审查成为瓶颈的问题，同时保留现有分支保护、审查与合并策略，适合代码产出量大的团队直接采用。",
+    "summary_en": "GitHub's public preview of Stacked Pull Requests lets teams split large changes into small, interdependent pull requests that can be reviewed and merged individually. It targets the bottleneck between AI-accelerated code generation and limited human review while preserving existing branch protection, review, and merge workflows. Teams can adopt stacked development without third-party tools.",
+    "input_hash": "e7582eec00be"
+  },
+  "v2ex-ef7b8349d340": {
+    "summary_zh": "一位程序员在公司 AI 提效大赛前发帖求助，担心常规 Java 开发提效案例过不了初审，请网友们提供案例灵感。适合正在准备 AI 案例比赛、需要从业务场景切入的团队参考。",
+    "summary_en": "A programmer asks for ideas in a company AI-efficiency case competition, worried that the usual Java development workflow won't pass initial review. The thread collects practical inspiration for teams that need to build AI-powered business cases.",
+    "input_hash": "567a1fcdd53d"
+  },
+  "infoq-NedlVNN6E9uWbIE3WV07": {
+    "summary_zh": "Vercel 发布 Next.js 16.3，开发模式内存占用最高降 90%（Turbopack 磁盘缓存+内存回收），CI 重复构建提速 5.5 倍。新增可选的 Instant Navigations 工具集，基于 use cache 指令、两个配置标志启用，给服务端架构带来 SPA 级响应速度；服务端渲染迁移到 Node.js 流，边缘运行时废弃。",
+    "summary_en": "Vercel shipped Next.js 16.3, focused on developer experience: Turbopack's disk cache and new memory reclamation cut `next dev` memory usage by up to 90%, and repeated CI builds run up to 5.5x faster. The release introduces the optional Instant Navigations toolkit, built on the `use cache` directive and enabled via two config flags, bringing SPA-like speed to the server-side model. Server rendering now uses native Node.js streams, and the edge runtime is deprecated.",
+    "input_hash": "08c13cad4775"
+  },
+  "ph-1216588": {
+    "summary_zh": "akta.pro 是一个面向 agent 经济的 API，提供私有公司数据和信号。适合需要将非公开企业信息接入 AI 代理或自动化流程的开发者。页面未给出数据源和接口的具体细节。",
+    "summary_en": "akta.pro is an API that supplies private company data and signals for the agent economy. It targets developers building AI agents or automated workflows that need non-public business information. The listing doesn't specify data sources or endpoint details.",
+    "input_hash": "4f740fb4d7c5"
+  },
+  "v2ex-f890b02ccca6": {
+    "summary_zh": "一位 Mac mini 用户发现非 Apple 全尺寸键盘的 numlock 键无效，小键盘只能输数字，且这个 11 年的老问题一直无官方解决。他于是自己做了个工具，发布在 numlockled.com，称体验完美。适合同样依赖小键盘方向键的 Mac 外接键盘用户。",
+    "summary_en": "A Mac mini user found the numlock key on a full-size non-Apple keyboard does nothing, forcing the keypad to type digits — a problem he says has gone unsolved for 11 years. He built his own tool and published it at numlockled.com, saying it works perfectly. This may help anyone relying on keypad arrows in macOS with third-party keyboards.",
+    "input_hash": "370a8eab6f9d"
+  },
+  "ph-1229322": {
+    "summary_zh": "Diet Claude 是一个用于监控或管理 Claude 用量限制的工具，目标是让用户不会再被突然的额度耗尽打断工作。描述未说明具体形态（本地监控、扩展还是 API 封装）。适合重度依赖 Claude API 或网页版的开发者。",
+    "summary_en": "Diet Claude is a tool to help users avoid being blindsided by Claude's usage limits, presumably by tracking or managing quota consumption. The listing doesn't state whether it's a local monitor, browser extension, or API wrapper. It's aimed at developers and heavy Claude users who need to plan around rate caps.",
+    "input_hash": "f3aa47f26294"
+  },
+  "v2ex-62f53c560c8d": {
+    "summary_zh": "这是一条 Lemfi 转账奖励的邀请推广：新用户通过邀请链接汇 50 英镑，官方奖励 50 英镑，推广者额外返 25 英镑，合计可得 75 英镑。要求英国手机号、IP 和护照，无需地址证明；若未开出满血版可在 savings 重新提交地址证明。文末附邀请码和 Telegram 羊毛群。",
+    "summary_en": "This is a referral promotion for Lemfi: new users who send GBP 50 through the provided invite link get GBP 50 from Lemfi plus an extra GBP 25 from the poster, totaling GBP 75. A UK phone number, IP, and passport are required; address proof isn't requested initially, and a fully unlocked account can be enabled by resubmitting address proof under Savings. An invite code and Telegram deal group are included.",
+    "input_hash": "0ab9e1807250"
+  },
+  "v2ex-ef27c5fed350": {
+    "summary_zh": "clbtransport 是 Go 语言实现的 http.Transport 简易替代，内置负载均衡能力，可直接替换标准库 transport 使用。代码由作者手工编写，文档则借助 AI 生成。适合需要轻量客户端负载均衡、又不愿引入重型框架的 Go 开发者。",
+    "summary_en": "clbtransport is a lightweight drop-in replacement for Go's http.Transport with built-in load balancing. The code is hand-crafted while the docs are AI-generated. It suits Go developers who want client-side load balancing without pulling in heavy dependencies.",
+    "input_hash": "c518223cf611"
+  },
+  "infoq-a2Y7bOxLHZfCVWtKhAtQ": {
+    "summary_zh": "Grok Bot 是 SpaceXAI 推出的持久型 AI 代理系统，运行在云端，可操作网站、应用和收件箱完成多步骤任务，并在需要时请求用户批准。它能观察演示以记忆工作流，支持多代理协作；与编程代理不同，它面向通用业务自动化。目前处于 beta 阶段。",
+    "summary_en": "Grok Bot is a persistent AI agent system from SpaceXAI running in the cloud. It can operate websites, apps, inboxes, and other tools to complete multi-step tasks end-to-end, pausing for user approval when needed. Agents can learn workflows by watching demonstrations and coordinate with each other. Unlike coding-focused agents like Claude Code or OpenAI Codex, it targets general business automation and is currently in beta.",
+    "input_hash": "1445cfcc1fa6"
+  },
+  "v2ex-4948f46065b1": {
+    "summary_zh": "这是一则 V2EX 推广帖：发帖人自称有稳定的 Claude Max 20x 账号资源，寻找真实大流量的中转站合作消耗，并明确表示不做蒸馏。适合做 API 转售或代理服务的人参考，但需自行辨别风险。",
+    "summary_en": "This V2EX post is a promotional offer for stable Claude Max 20x account resources. The poster is looking for relay platforms with genuine high traffic to consume them, explicitly ruling out distillation. It's relevant to API resellers and relay operators, though due diligence is advised.",
+    "input_hash": "07a39adc5d27"
+  },
+  "v2ex-803370a672f5": {
+    "summary_zh": "「人生有数」是一份 100 题的人生经历自测清单，从第一次约会延伸到可能不会在饭桌上讲的故事。勾选做过的事，每个“是”扣 1 分，分数越低意味着经历越多。作者想表达：经历没有标准答案，但你可以对自己的路有数。",
+    "summary_en": "Life Has a Number is a 100-item self-test checklist covering experiences from first dates to stories you wouldn't share at dinner. Each 'yes' reduces your score, so a lower number indicates more lived experiences. The author's message: there's no standard answer to life, but you can still take measure of your own path.",
+    "input_hash": "1ae6723a71ea"
+  },
+  "hn-49437283": {
+    "summary_zh": "Hacker News 帖子称 Nitter 和 XCancel 均收到停止并终止（cease and desist）通知。帖子正文只有两个链接（GitHub issue 和 xcancel.com），未说明通知细节，链接页面也未在此摘要中提供更多内容。",
+    "summary_en": "A Hacker News post reports that Nitter and XCancel have received cease-and-desist notices. The post contains only links (a GitHub issue and xcancel.com); the linked pages aren't summarized here, so details beyond the title aren't available.",
+    "input_hash": "068eacf322f6"
+  },
+  "v2ex-a9ff0b4aa0ea": {
+    "summary_zh": "作者调研了多种节省 token 的方法后，整理成一个名为 token-saver 的 skill，开源在 GitHub（wenyu0608/token-saver），会根据问题类型自动选择最省钱的调用方案。作者称其尤其适合长输入、大型代码仓库等场景。适合需要控制 LLM 成本、使用 agent 工作流的开发者尝试。",
+    "summary_en": "This GitHub project (wenyu0608/token-saver) packages a skill that picks the cheapest scheme based on the question type, distilled from the author's research into token-saving methods. The author says it works especially well for long inputs and large codebases in agent workflows. Developers monitoring LLM costs may want to try it and submit feedback.",
+    "input_hash": "4b5aec10abfc"
+  },
+  "infoq-9a0qIhdK6QBwSEh1KQyY": {
+    "summary_zh": "在 Snowflake Summit 2026 上，Whatnot 介绍其数据栈实践：2025 年 live GMV 达 80 亿美元、新增账户超 2000 万，每天数十亿条数据进入 Snowflake。为突破集中式数据团队和 dbt 的瓶颈，他们转向 infrastructure as code 的 modular data stack，让 fraud prevention 等部门自助使用数据。",
+    "summary_en": "At Snowflake Summit 2026, Whatnot described its data-stack evolution: 2025 live GMV reached $8B, more than 20M accounts were added, and billions of data points enter Snowflake daily. After outgrowing a centralized data team and dbt, it moved to a modular data stack built on infrastructure as code, letting units like fraud prevention consume data directly. Useful for engineers building real-time data platforms under hyper-growth.",
+    "input_hash": "2df13f427aeb"
+  },
+  "infoq-9UoCxEhRcFG5ovFxTkXS": {
+    "summary_zh": "Grafana Labs 发布 gcx CLI 和 Grafana MCP 服务器，让 AI 编码代理在开发时实时查询指标、日志、追踪与 SLO，4 月已在 GrafanaCon 2026 公布。它们把可观测性数据作为审查代码变更的额外证据，解决代理合入 PR 时对改动理解不足的问题；MCP 服务器提供固定工具集，gcx 则更偏自定义工作流。",
+    "summary_en": "Grafana Labs has released gcx, a CLI, and the Grafana MCP server, letting AI coding agents query metrics, logs, traces, SLOs, and synthetic monitoring from Grafana Cloud or self-hosted stacks during development. Announced at GrafanaCon 2026 in April, they add observability data as evidence in review, addressing the problem of agents merging PRs without truly understanding changes. The MCP server is a more prescriptive toolset, while gcx is flexible for custom workflows.",
+    "input_hash": "636e8bb1a048"
+  },
+  "infoq-xIctLq7L5cK9dIrVVCvd": {
+    "summary_zh": "Cloudflare 推出 CI SDK @cloudflare/ci：用 TypeScript 取代 YAML 写流水线，每个步骤作为持久化 Workflow 跑在 Workers 上。步骤在隔离沙箱运行，支持检查点失败续跑；依赖缓存用 R2 快照避免重复安装。这是平台级 CI，整合 Workflows、沙箱、容器、Durable Objects 与 R2，而非简单替代方案。",
+    "summary_en": "Cloudflare shipped @cloudflare/ci, a CI SDK that lets developers define pipelines in TypeScript instead of YAML, running each step as a durable Workflow on the Workers runtime. Steps execute in isolated sandboxes with checkpointing, so failed steps retry in place and resume from that step, and dependency caching stores install snapshots in R2. It's a platform-level take on CI, wiring together Workflows, sandboxes, containers, Durable Objects, and R2 rather than a drop-in replacement.",
+    "input_hash": "8b192f712105"
+  },
+  "ph-1229731": {
+    "summary_zh": "Agnost AI 是一款面向 AI 智能体的排查工具，定位是捕捉常规 evals 测不出来的失败场景。适合正在构建 agent 应用、担心现有评测有盲区的团队，用来找那些传统测试套件漏掉的问题。",
+    "summary_en": "Agnost AI is positioned as a tool for catching AI-agent failures that standard evals miss. Its Product Hunt description emphasizes finding blind spots in agent behavior rather than adding more pass/fail test cases. The pitch is aimed at teams building agentic applications who worry that current evaluation suites overlook the failures that actually matter.",
+    "input_hash": "b2e2c0037657"
+  },
+  "hn-49448321": {
+    "summary_zh": "AWS 收购了 DuckLabs，后者由 DuckDB 的主要开发者直接提供围绕该进程内 OLAP 数据库的服务。DuckDB 核心团队由此进入 AWS，后续的版本演进与云上集成方式可能生变。",
+    "summary_en": "AWS has acquired DuckLabs, the company that provides services around DuckDB, the in-process OLAP data management system, and is staffed by DuckDB's main developers. The deal puts the core team behind DuckDB under Amazon's umbrella, which could shape how DuckDB evolves and is offered in AWS's data stack.",
+    "input_hash": "54259eb475a7"
+  },
+  "36kr-3955588176706951": {
+    "summary_zh": "本期 36氪早报有三条要闻：道交法修订草案拟规定，自动驾驶状态下发生交通违法由车企担责；SK海力士淘宝旗舰店已下架全部商品；加拿大宣布对美国商品征收报复性关税。",
+    "summary_en": "This edition of 36Kr's '8点1氪' morning roundup covers three stories: a draft amendment to China's road traffic law that would hold car companies liable for traffic violations committed in autonomous driving mode, SK Hynix taking all products off its Taobao flagship store, and Canada announcing retaliatory tariffs on US goods.",
+    "input_hash": "321f23371f41"
+  },
+  "ph-1220359": {
+    "summary_zh": "Jotform AI Data Assistant 帮助 Jotform 用户用 AI 把表单提交数据转化为洞察和下一步行动。适合已经在通过表单收集数据、希望直接从原始回复进入分析和跟进流程的团队。",
+    "summary_en": "Jotform AI Data Assistant helps Jotform users turn their form submissions into insights and next actions using AI. It's aimed at people who already collect data through forms and want an easier path from raw responses to analysis and follow-ups. The product's pitch is simple: connect the data you already have and let AI do the interpretation.",
+    "input_hash": "6181c2ad3e2f"
+  },
+  "hn-49433316": {
+    "summary_zh": "苹果发布新一代 Mac Studio，可选 M5 Max 与全新 M5 Ultra 芯片，官方称 AI 性能大幅跃升，图形性能也更快。对需要密集 AI 计算和图形渲染的用户来说，这是一次直接升级。",
+    "summary_en": "Apple has announced the new Mac Studio with the M5 Max and the all-new M5 Ultra chip, saying it provides a large leap in AI performance and faster graphics. The announcement highlights the high-end desktop's appeal for running demanding AI and graphics workloads, aimed at developers and creative professionals who need serious local compute.",
+    "input_hash": "a7da4b0cfa4b"
+  },
+  "hn-49449507": {
+    "summary_zh": "这是一个标题为 GLM-5.3-Flash 的 Hacker News 帖子，正文只有一条链接。原文是链接，未提供更多细节，无法判断具体内容和用途。",
+    "summary_en": "This is a Hacker News post titled GLM-5.3-Flash. The body is just a link to another Hacker News item, so the linked page isn't summarized here; details beyond the title aren't available. Without access to that destination, the topic, claims, and relevance of GLM-5.3-Flash cannot be assessed.",
+    "input_hash": "4ac477db2489"
+  },
+  "hn-49437069": {
+    "summary_zh": "这是一篇关于作者朋友 Aaron 的个人叙事文章。文章开头提到两人十一岁在学校相识，作者当时就说想成为 Aaron 最好的朋友，但句子在此处中断。没有更多正文内容，只能看到一个片段。",
+    "summary_en": "This is a personal narrative about the author's friend Aaron, whom the author met at school when both were eleven. The excerpt records the author saying they wanted to be Aaron's best friend, then cuts off mid-sentence. Only this opening fragment is available; the Hacker News submission is a personal piece rather than a technical article.",
+    "input_hash": "129ed691c742"
+  },
+  "infoq-8ouuK09WuWA7Up35W9vb": {
+    "summary_zh": "文章预测：到 2026 年，Agentic AI 将从被动助手变为独立行动者，零售端 AI Agents 会替消费者比价、议价并下单，制造与供应链中能自动调产、改运、谈合同。品牌需转向生成式引擎优化（GEO）并让产品数据机器可读，欧盟数字产品护照（DPP）也在推动透明化。",
+    "summary_en": "This article argues that by 2026 agentic AI will turn systems from passive assistants into independent actors: AI agents will research, negotiate, and execute purchases for consumers, while in manufacturing and supply chain they can reschedule production, reroute shipments, and negotiate replenishment contracts. Brands are urged to shift from SEO to Generative Engine Optimization (GEO) and make product data machine-readable, with EU Digital Product Passports also pushing transparency.",
+    "input_hash": "d681cf666d1d"
+  },
+  "36kr-3954658788506755": {
+    "summary_zh": "根据标题，国产医疗外骨骼企业迈步机器人获得中信建投近亿元战略融资，并称是国内首家盈利的医疗外骨骼公司。原文是链接，未提供更多细节。",
+    "summary_en": "According to the headline, Chinese medical exoskeleton maker Maibu Robotics has received a strategic investment of nearly 100 million yuan from CITIC Construction Investment, described as the country's first profitable medical exoskeleton company. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "2124e05db9c8"
+  },
+  "36kr-3955585236057474": {
+    "summary_zh": "这篇报道称 OpenAI 首颗自研芯片代号“辣椒”，性能压倒英伟达，同时 GPT-6 的出现会让 CUDA 生态进一步承压。但该条目只有标题，无法确认这些说法是源自实测、泄露还是推测，原文没有提供更多细节。",
+    "summary_en": "A 36Kr report claims OpenAI's first in-house chip, codenamed 'Pepper,' outperforms Nvidia and that GPT-6 will put further pressure on the CUDA ecosystem. Since neither the article body nor any data is available in this entry, it cannot be verified whether the source is benchmarks, leaks, or speculation; the linked page isn't summarized here, and details beyond the title aren't available.",
+    "input_hash": "e94d2a8097af"
+  },
+  "zhihu-2075994374953857334": {
+    "summary_zh": "知乎上一个关于西藏吉隆口岸泥石流灾害的提问称，一侧前往口岸的道路、通信和电力中断，并询问当前救援存在哪些难点。该条目没有正文，伤亡人数、抢修进展与官方响应等细节无法从这条资讯中得知。",
+    "summary_en": "A Zhihu question about the mudslide disaster at Gyirong Port in Tibet says roads, communications, and electricity to the port are cut off on one side, and asks what the main difficulties are for rescue. The linked page isn't summarized here; details beyond the title aren't available. No further information is captured in this entry.",
+    "input_hash": "02c2a2b17cdd"
+  },
+  "36kr-3954965904883077": {
+    "summary_zh": "这篇报道称一家专注做 AI 戒指的公司估值已超过 1000 亿，但标题并未写明公司名称和币种。由于该条目没有正文，产品线、投资方与营收等关键信息无从确认，目前只能把它当做一个估值数字来看待。",
+    "summary_en": "The article reports that a company focused on AI rings has reached a valuation above 100 billion, though the title names neither the company nor the currency; without the article body, product lineup, backers, and revenue can't be confirmed. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "332056478976"
+  },
+  "gh-daily-tt-a1i-archify": {
+    "summary_zh": "Archify 是一个面向 Raven、Cursor、Claude Code、Codex CLI 和 OpenCode 的 agent skill，能在聊天中把代码库或系统描述直接生成可交互、可分享的技术架构图，输出为带动效、便于导出的自包含 HTML。它提供五种图类型、四套预设和明暗主题，并支持 Before/Delta/After 快照对比，用于合并前审查架构变更。",
+    "summary_en": "Archify is an agent skill for Raven, Cursor, Claude Code, Codex CLI, and OpenCode that turns a codebase or system description into an interactive, shareable technical map directly in chat, outputting self-contained HTML with motion and crisp export. It includes five diagram types, four presets, light/dark themes, and a Before/Delta/After snapshot comparison for reviewing architecture changes before merge.",
+    "input_hash": "561bb85182d1"
+  },
+  "36kr-3955946421540737": {
+    "summary_zh": "这篇文章认为创新药行业终于走出低谷，并对比了三家头部公司各自不同的打法。由于只有标题、没有正文，三家公司具体是谁、策略细节如何，都无法从这条资讯中确认。",
+    "summary_en": "The article argues that innovative drug development has finally turned a corner and compares how three leading companies are taking different approaches. Since only the headline is provided in this digest item, the three firms' identities and the specifics of their strategies cannot be confirmed; the linked page isn't summarized here, and details beyond the title aren't available. No further information is captured in this entry.",
+    "input_hash": "35f3ff2d0d1d"
+  },
+  "36kr-3955039969967494": {
+    "summary_zh": "这篇文章标题称英伟达对人造钻石需求迫切，并认为 AI 发展离不开河南的人造钻石产业。目前只能从标题获得这些信息，原文是链接，未提供更多细节。",
+    "summary_en": "Based solely on its headline, this article reports that Nvidia urgently needs synthetic diamonds and that the AI industry depends heavily on Henan's lab-grown diamond sector. In other words, the headline frames Henan as a key supplier for AI hardware. The linked page isn't summarized here; details beyond the title are not available.",
+    "input_hash": "f26372b89407"
+  },
+  "36kr-3955937575402881": {
+    "summary_zh": "这篇报道的标题称恶劣天气正在助推黄金价格上涨，可能通过影响供应链或避险需求来推高金价。原文是链接，未提供更多细节，具体机制无法确认。",
+    "summary_en": "According to its headline, this article reports that adverse weather conditions are fueling a rise in gold prices, potentially via supply chain issues or a flight to safe-haven assets. At this stage, the linked page isn't summarized here; details beyond the title aren't available, and we cannot confirm any specifics yet.",
+    "input_hash": "3d3991a14d76"
+  },
+  "36kr-3955731203980672": {
+    "summary_zh": "标题称今年 9 月将是史上最激烈的手机发布季，苹果、华为、小米将正面交锋，手机价格也随之上涨。原文是链接，未提供更多细节，具体机型与涨幅无法确认。",
+    "summary_en": "The headline says this September is set to be the most intense smartphone launch season ever, with Apple, Huawei, and Xiaomi competing head-on while prices climb. The linked page isn't summarized here; details beyond the title aren't available, including specific models or price increases, so we cannot verify the extent of the price hikes.",
+    "input_hash": "ef1cbd71c999"
+  },
+  "36kr-3955789065158018": {
+    "summary_zh": "标题称小米低调发布了三款芯片，目标不止 AI 手机，可能涉及其他智能设备或汽车。原文是链接，未提供更多细节，芯片具体型号与用途待确认。",
+    "summary_en": "For now, we only have the headline, which says Xiaomi quietly released three chips that go beyond AI smartphones, possibly for other devices or vehicles. The linked page isn't summarized here; full details beyond the title aren't available, so specific chip names and use cases remain unknown as of yet.",
+    "input_hash": "87dc3bb4bb8f"
+  },
+  "zhihu-2075743712588608931": {
+    "summary_zh": "德芙就一则引发争议的社交媒体文案公开道歉，称该文案由第三方运营团队创作并发布，并表示会加强管理。由于原文为链接，未提供更多细节，具体的管理漏洞和改进措施尚不清楚。这篇问答讨论的是品牌内容审核与外包团队管控的问题。",
+    "summary_en": "Dove apologized for a controversial social-media post about \"sharing with a crush while her boyfriend is away,\" saying it was created and published by a third-party operations team and pledging to tighten management. The linked page isn't summarized here; details beyond the title aren't available. The Zhihu thread asks what management failures allowed this.",
+    "input_hash": "30376c13ae4e"
+  },
+  "juejin-7671964740780785670": {
+    "summary_zh": "这篇文章介绍 Pi——一个运行在 CLI 中的 Coding Agent，并分享将它与 DeepSeek-v4-Flash 组合使用的体验。作者 cxuan 称其用起来很顺手，适合喜欢在终端里完成编码任务的开发者。文章聚焦实践感受而非详细教程。",
+    "summary_en": "This article introduces Pi, a coding agent that runs in the CLI, and shares hands-on experience pairing it with DeepSeek-v4-Flash. The author, cxuan, says the combination feels smooth and enjoyable, and adds that he has wanted to cover Pi for a long time. It targets developers who prefer terminal-based coding workflows and provides practical impressions rather than a full setup guide.",
+    "input_hash": "03de5c7943d6"
+  },
+  "zhihu-2075675774821086239": {
+    "summary_zh": "标题显示，30 多个国家表示准备向乌克兰派兵，这可能对俄乌冲突的走向产生重大影响。不过原文是链接，未提供更多细节，因此无法确认具体国家名单或军事行动的规模。相关问答讨论集中在多国介入对局势升级或外交斡旋的影响上。",
+    "summary_en": "According to the title, more than 30 countries have signaled readiness to send troops to Ukraine, which could significantly shift the course of the Russia-Ukraine conflict. The linked page isn't summarized here; details beyond the title aren't available, so the specific nations and scope of action remain unconfirmed. The Zhihu discussion examines how multinational involvement might affect escalation or diplomatic efforts.",
+    "input_hash": "1e6b9dbb3cae"
+  },
+  "zhihu-2075754349884600817": {
+    "summary_zh": "这个问答围绕联合国投票中 50 国反对俄罗斯这一现象展开，探讨其诱因。由于原文为链接，未提供更多细节，具体的投票议题和国家名单无法确认。基于标题，讨论可能涉及外交立场与地缘政治分析。",
+    "summary_en": "This Zhihu question asks why 50 countries opposed Russia in a UN vote, framing it as a notable diplomatic event. The linked page isn't summarized here; details beyond the title aren't available, so the specific resolution and countries aren't confirmed. Based on the title, the discussion likely covers diplomatic alignments and geopolitical factors.",
+    "input_hash": "ccd7d37b6981"
+  },
+  "zhihu-2075488229747339425": {
+    "summary_zh": "粥饼伦的天津鸡蛋灌饼店因年租金从 13 万元涨至 20 万元而暂停营业，标题借此追问当前房东与租户之间的矛盾为何如此突出。但原文是链接，未提供更多细节，具体经营情况和涨租背景无法核实。该问答适合关注个体经营与商业地产成本的人。",
+    "summary_en": "The Tianjin egg-pancake shop run by Zhou Binglun suspended operations after its annual rent jumped from 130,000 to 200,000 yuan, prompting questions about tensions between landlords and tenants. The linked page isn't summarized here; details beyond the title aren't available. The Zhihu thread explores why such conflicts are so prominent, relevant to small-business owners concerned about commercial rents.",
+    "input_hash": "f50996f82cce"
+  },
+  "zhihu-2070165569941287944": {
+    "summary_zh": "这是一条求证型知乎提问：DeepSeek 深度思考模式被传会在用户不知情时起外号。原文是链接，未提供更多细节，因此无法判断传闻属实还是误解。",
+    "summary_en": "This Zhihu question asks whether a rumor is true: DeepSeek's deep-thinking mode may privately assign nicknames to users. The poster wants to know if this happens and why, but the linked page isn't summarized here; details beyond the title aren't available. Treat the claim as unverified without checking the original thread.",
+    "input_hash": "1b7692cf69ff"
+  },
+  "zhihu-2074228962302093110": {
+    "summary_zh": "该提问以赛力斯中报巨亏、问界 M6 走量预期落空为由头，讨论华为智选车模式是否成立。原文是链接，未提供更多细节；财报数字和销量数据均未出现。",
+    "summary_en": "This post connects Seres' heavy interim loss and the AITO M6 missing its volume target with a broader question about Huawei's Smart Selection car model. It invites readers to evaluate that model, but the linked page isn't summarized here; details beyond the title aren't available. The snippet contains no financial figures or sales numbers.",
+    "input_hash": "850cce499f5b"
+  },
+  "zhihu-2075957645354033219": {
+    "summary_zh": "千问团队开源了 Qwen3.8-Flash-Next，标题称它基于 Qwen4 架构，提问者关心下一代架构的关键变化。原文是链接，未提供更多细节，具体改进点暂不可考。",
+    "summary_en": "The question highlights the open-sourced Qwen3.8-Flash-Next, which the title says is based on the Qwen4 architecture, and asks what changes matter in the next-generation design. Since the original post is just a link and the linked page isn't summarized here, details beyond the title aren't available. Developers need to follow the original source for concrete technical differences.",
+    "input_hash": "49a9375088ca"
+  },
+  "gh-daily-dotnet-aspnetcore": {
+    "summary_zh": "dotnet/aspnetcore 是 ASP.NET Core 这个跨平台 .NET 框架所在的仓库，用于在 Windows、macOS 和 Linux 上构建现代云端 Web 应用。它登上 GitHub 趋势榜，是 .NET Web 开发者的基础参照；跨平台支持让非 Windows 环境的开发与部署更现实。",
+    "summary_en": "The dotnet/aspnetcore repo is the repository for ASP.NET Core, a cross-platform .NET framework for building modern cloud-based web applications on Windows, Mac, or Linux. It is currently trending on GitHub, making it a timely reference for .NET web developers. Its cross-platform support matters for teams that don't want to lock into Windows-only hosting.",
+    "input_hash": "450e991f80c7"
   }
 }

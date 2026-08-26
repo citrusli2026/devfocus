@@ -4493,7 +4493,9 @@
       "content": "各位小伙伴们大家好，我是 cxuan。 今天我们来聊一下 Pi ，Pi 这个 Agent 我也是想写很久了。 如果你刚接触 Pi，就暂且可以先把它理解成一个运行在 CLI 里的 Coding Agent，它的设计逻辑就是四个字 --- 极简内核。 极简到像是只有内核的 Linux 0.11 。 Pi 本身只有最基础的 read 、 bash 、 edit 、 write 等基础工具。 如果你需要 skill 和 MCP ，你得自己装。 这篇文章我就先跟大家聊聊 Pi ，然后说一下如何接入 DeepSeek，再根据一个我实际的场景跑一下 Pi + DeepSeek-v4-Flash 的能力。 Pi 是什么？ Pi 的官方定位是 minimal terminal coding harness ，也就是最小化的 Coding Agent 。Pi 的重点在于 harness：它负责运行模型、提供工具、保存会话，并允许你替换或扩展几乎所有工作环节。 一个最基础的 Pi session 的工作流如下： Pi 的核心只提供少量文件和 Shell 工具。很多 Coding Agent 有的 Plan Mode、Subagent、浏览器自动化、WebSearch 和自定义状态栏等能力，需要通过 Extension、Skill 或 Package 来进行添加。 Pi 的这种设计与 VS Code 有些相似：优先提供编辑和运行框架，想要啥自己通过插件的方式进行拓展。 五分钟搞定 Pi 的安装 废话说的有点说了，下面直接跟大家说如何安装。 一句命令的事儿： npm install -g --ignore-scripts @earendil-works /pi-coding-agent 进入项目后启动： cd your-project pi 就完事儿了。 你看看这个主页，真 TM 极简了，连个 Logo 都没有。。。 第一次启动可以执行： /login 登录模型供应商或订阅 /model 选择模型 /settings 设置主题、thinking 和消息模式 /hotkeys 查看快捷键 几个最常用的操作： Shift+Tab ：切换 thinking level。 Ctrl+L ：选择模型。 Escape ：中止当前运行。 Ctrl+O ：展开或折叠工具输出。 输入 @ ：引用项目文件。 /resume ：恢复以前的会话。 /tree ：回到会话中的任意节点并创建新分支。 刚开始时不需要安装任何插件，直接先上手体验。 为什么要使用 Pi 现在市面上的 Coding Agent 太多了，为啥要用 Pi 呢？它有啥优势？ 我给大家列举了几点： 首先就是 模型选择自由 ，多 Provider 支持已经不是啥新鲜事了，不过这仍然是 Pi 的优势，因为很多 Coding Agent 本身不支持其他模型，需要借助外部工具来支持。 工作流由自己决定 ，Pi 不强制使用内置的 Plan、Subagent ，你可以通过 Skill 和 Extension 按需组合，这就保证了高自由度，但代价是配置和维护也要自己负责。 可以嵌入自己的系统 ，除了终端交互之外，Pi 还提供了 JSON、RPC 和 TypeScript SDK。它既能作为 Coding Agent 使用，也能成为内部机器人、自动审查或专用工作台的基础组件。 Skill 可以跨工具复用 ，Pi 支持 Agent Skills 标准，可以复用 .agents/skills 、Claude Code 和 Codex 的 Skill。不用为每个 Coding Agent 都配置自己的 skills 了。 那 Pi、Codex CLI、Claude Code 和 Gemini CLI 该怎么选 这些区别只有一个： 官方 CLI 更省事，Pi 更自由。 主要使用 OpenAI，希望沙箱和审批开箱即用：选 Codex CLI 。 主要使用 Claude，希望 Agent、Plan、IDE 和插件体验完整：选 Claude Code 。 主要使用 Gemini 或 Google Cloud：选 Gemini CLI （Gemini 真是不想说了） 经常切换模型、使用代理网关，或者想自己改造工作流：选 Pi 。 如果你不想折腾，官方 CLI 通常更合适；如果你受不了工具替你决定模型和工作流，Pi 对你来说才有吸引力。 所有如果你是新手或者小白，通常不建议你使用 Pi，Pi 更适合老油子，想要自己折腾的 Geek 。 这让我想到之前写 DeepSeek-v4-Flash 本地部署的文章时，有个评论区的人说： 只能说生命不息，折腾不止。。。 把 DeepSeek-v4-Flash 接入 Pi Pi 的自定义 provider 都",
       "first_seen": "2026-08-18",
       "domain": "juejin.cn",
-      "quality_score": 8.7
+      "quality_score": 8.7,
+      "summary_zh": "这篇文章介绍 Pi——一个运行在 CLI 中的 Coding Agent，并分享将它与 DeepSeek-v4-Flash 组合使用的体验。作者 cxuan 称其用起来很顺手，适合喜欢在终端里完成编码任务的开发者。文章聚焦实践感受而非详细教程。",
+      "summary_en": "This article introduces Pi, a coding agent that runs in the CLI, and shares hands-on experience pairing it with DeepSeek-v4-Flash. The author, cxuan, says the combination feels smooth and enjoyable, and adds that he has wanted to cover Pi for a long time. It targets developers who prefer terminal-based coding workflows and provides practical impressions rather than a full setup guide."
     },
     {
       "id": "juejin-7666482995197722630",
@@ -4909,7 +4911,9 @@
       "tags": [],
       "first_seen": "2026-08-24",
       "domain": "infoq.cn",
-      "quality_score": 36.5
+      "quality_score": 36.5,
+      "summary_zh": "Vercel 发布 Next.js 16.3，开发模式内存占用最高降 90%（Turbopack 磁盘缓存+内存回收），CI 重复构建提速 5.5 倍。新增可选的 Instant Navigations 工具集，基于 use cache 指令、两个配置标志启用，给服务端架构带来 SPA 级响应速度；服务端渲染迁移到 Node.js 流，边缘运行时废弃。",
+      "summary_en": "Vercel shipped Next.js 16.3, focused on developer experience: Turbopack's disk cache and new memory reclamation cut `next dev` memory usage by up to 90%, and repeated CI builds run up to 5.5x faster. The release introduces the optional Instant Navigations toolkit, built on the `use cache` directive and enabled via two config flags, bringing SPA-like speed to the server-side model. Server rendering now uses native Node.js streams, and the edge runtime is deprecated."
     },
     {
       "id": "infoq-2IBWc7BuB2qoGao5tlQT",
@@ -4925,7 +4929,9 @@
       "tags": [],
       "first_seen": "2026-08-24",
       "domain": "infoq.cn",
-      "quality_score": 37.6
+      "quality_score": 37.6,
+      "summary_zh": "亚马逊云科技在 Bedrock AgentCore 中推出运行时实例，让 AI 智能体运行在客户账户内的 Amazon EC2 上，并保留原有 API、身份与可观测性。相比无服务器 microVM 的 8 小时会话上限，它支持最长 14 天的持久会话、共享文件系统、GPU 实例，以及 CrewAI、LangGraph 等框架，适合长时间运行的多智能体协作。",
+      "summary_en": "AWS announced runtime instances for Bedrock AgentCore, which run agents on managed EC2 instances inside the customer's account while preserving the existing AgentCore API, identity, and observability. Sessions can last up to 14 days (vs. the 8-hour microVM cap), with shared file systems, GPU-backed instances, and support for frameworks like CrewAI and LangGraph. It targets teams whose agents need longer than 8 hours and benefit from multiple agents collaborating on one host."
     },
     {
       "id": "infoq-yEKcMO03wXvuyZpj1C1d",
@@ -4941,7 +4947,9 @@
       "tags": [],
       "first_seen": "2026-08-24",
       "domain": "infoq.cn",
-      "quality_score": 37.6
+      "quality_score": 37.6,
+      "summary_zh": "React Router v8 于 2026 年 6 月 17 日发布，改为仅 ESM、默认启用中间件，并提高 Node/React/Vite 最低版本要求，v6 与 Remix v2 进入 EOL。破坏性变更引发争议，官方称都可在 v7 中提前适配，部分开发者已转向 TanStack Router。",
+      "summary_en": "React Router v8, released June 17, 2026, is ESM-only, enables middleware by default, and raises minimums to Node 22.22+, React 19.2.7+, and Vite 7+, while v6 and Remix v2 are EOL. Brooks Lybrand joked they 'broke all your apps,' and some developers are moving to TanStack Router."
     },
     {
       "id": "infoq-zdc3HzpvqA96jwWA6lGb",
@@ -4957,7 +4965,9 @@
       "tags": [],
       "first_seen": "2026-08-24",
       "domain": "infoq.cn",
-      "quality_score": 37.6
+      "quality_score": 37.6,
+      "summary_zh": "GitHub 公开预览 Stacked Pull Requests，支持把大型变更拆成多个相互依赖的小 PR，分别审查和合并。该功能针对 AI 生成代码提速后人工审查成为瓶颈的问题，同时保留现有分支保护、审查与合并策略，适合代码产出量大的团队直接采用。",
+      "summary_en": "GitHub's public preview of Stacked Pull Requests lets teams split large changes into small, interdependent pull requests that can be reviewed and merged individually. It targets the bottleneck between AI-accelerated code generation and limited human review while preserving existing branch protection, review, and merge workflows. Teams can adopt stacked development without third-party tools."
     },
     {
       "id": "infoq-4h2jb2eOcBrP5AG5hLYt",

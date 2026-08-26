@@ -214,7 +214,9 @@
       "tags": [],
       "first_seen": "2026-08-25",
       "domain": "theguardian.com",
-      "quality_score": 45.9
+      "quality_score": 45.9,
+      "summary_zh": "据标题报道，Dolly Parton 已经去世。该条为链接资讯，除标题外未提供更多细节，无法确认其他信息。",
+      "summary_en": "The headline reports that Dolly Parton has died. The linked page isn't summarized here; details beyond the title aren't available."
     },
     {
       "id": "hn-49424606",
@@ -264,7 +266,9 @@
       "tags": [],
       "first_seen": "2026-08-25",
       "domain": "apple.com",
-      "quality_score": 49.9
+      "quality_score": 49.9,
+      "summary_zh": "苹果发布新一代 Mac Studio，可选 M5 Max 与全新 M5 Ultra 芯片，官方称 AI 性能大幅跃升，图形性能也更快。对需要密集 AI 计算和图形渲染的用户来说，这是一次直接升级。",
+      "summary_en": "Apple has announced the new Mac Studio with the M5 Max and the all-new M5 Ultra chip, saying it provides a large leap in AI performance and faster graphics. The announcement highlights the high-end desktop's appeal for running demanding AI and graphics workloads, aimed at developers and creative professionals who need serious local compute."
     },
     {
       "id": "hn-49412396",
@@ -584,7 +588,9 @@
       "tags": [],
       "first_seen": "2026-08-25",
       "domain": "github.com",
-      "quality_score": 40.7
+      "quality_score": 40.7,
+      "summary_zh": "Hacker News 帖子称 Nitter 和 XCancel 均收到停止并终止（cease and desist）通知。帖子正文只有两个链接（GitHub issue 和 xcancel.com），未说明通知细节，链接页面也未在此摘要中提供更多内容。",
+      "summary_en": "A Hacker News post reports that Nitter and XCancel have received cease-and-desist notices. The post contains only links (a GitHub issue and xcancel.com); the linked pages aren't summarized here, so details beyond the title aren't available."
     },
     {
       "id": "hn-49419252",
@@ -728,7 +734,9 @@
       "tags": [],
       "first_seen": "2026-08-25",
       "domain": "rorz.io",
-      "quality_score": 36.3
+      "quality_score": 36.3,
+      "summary_zh": "这是一篇关于作者朋友 Aaron 的个人叙事文章。文章开头提到两人十一岁在学校相识，作者当时就说想成为 Aaron 最好的朋友，但句子在此处中断。没有更多正文内容，只能看到一个片段。",
+      "summary_en": "This is a personal narrative about the author's friend Aaron, whom the author met at school when both were eleven. The excerpt records the author saying they wanted to be Aaron's best friend, then cuts off mid-sentence. Only this opening fragment is available; the Hacker News submission is a personal piece rather than a technical article."
     },
     {
       "id": "hn-49432319",
@@ -4337,7 +4345,9 @@
       "content": "",
       "first_seen": "2026-08-18",
       "domain": "juejin.cn",
-      "quality_score": 8.7
+      "quality_score": 8.7,
+      "summary_zh": "这篇文章介绍 Pi——一个运行在 CLI 中的 Coding Agent，并分享将它与 DeepSeek-v4-Flash 组合使用的体验。作者 cxuan 称其用起来很顺手，适合喜欢在终端里完成编码任务的开发者。文章聚焦实践感受而非详细教程。",
+      "summary_en": "This article introduces Pi, a coding agent that runs in the CLI, and shares hands-on experience pairing it with DeepSeek-v4-Flash. The author, cxuan, says the combination feels smooth and enjoyable, and adds that he has wanted to cover Pi for a long time. It targets developers who prefer terminal-based coding workflows and provides practical impressions rather than a full setup guide."
     },
     {
       "id": "juejin-7659709059810705462",
@@ -5063,7 +5073,9 @@
       "tags": [],
       "first_seen": "2026-08-25",
       "domain": "infoq.cn",
-      "quality_score": 37.0
+      "quality_score": 37.0,
+      "summary_zh": "InfoQ 精选：主要前沿模型提供商采用水印技术以满足欧盟法规要求",
+      "summary_en": "Featured on InfoQ: 主要前沿模型提供商采用水印技术以满足欧盟法规要求"
     },
     {
       "id": "infoq-9UoCxEhRcFG5ovFxTkXS",
@@ -5079,7 +5091,9 @@
       "tags": [],
       "first_seen": "2026-08-25",
       "domain": "infoq.cn",
-      "quality_score": 37.6
+      "quality_score": 37.6,
+      "summary_zh": "Grafana Labs 发布 gcx CLI 和 Grafana MCP 服务器，让 AI 编码代理在开发时实时查询指标、日志、追踪与 SLO，4 月已在 GrafanaCon 2026 公布。它们把可观测性数据作为审查代码变更的额外证据，解决代理合入 PR 时对改动理解不足的问题；MCP 服务器提供固定工具集，gcx 则更偏自定义工作流。",
+      "summary_en": "Grafana Labs has released gcx, a CLI, and the Grafana MCP server, letting AI coding agents query metrics, logs, traces, SLOs, and synthetic monitoring from Grafana Cloud or self-hosted stacks during development. Announced at GrafanaCon 2026 in April, they add observability data as evidence in review, addressing the problem of agents merging PRs without truly understanding changes. The MCP server is a more prescriptive toolset, while gcx is flexible for custom workflows."
     },
     {
       "id": "infoq-xIctLq7L5cK9dIrVVCvd",
@@ -5095,7 +5109,9 @@
       "tags": [],
       "first_seen": "2026-08-25",
       "domain": "infoq.cn",
-      "quality_score": 37.8
+      "quality_score": 37.8,
+      "summary_zh": "Cloudflare 推出 CI SDK @cloudflare/ci：用 TypeScript 取代 YAML 写流水线，每个步骤作为持久化 Workflow 跑在 Workers 上。步骤在隔离沙箱运行，支持检查点失败续跑；依赖缓存用 R2 快照避免重复安装。这是平台级 CI，整合 Workflows、沙箱、容器、Durable Objects 与 R2，而非简单替代方案。",
+      "summary_en": "Cloudflare shipped @cloudflare/ci, a CI SDK that lets developers define pipelines in TypeScript instead of YAML, running each step as a durable Workflow on the Workers runtime. Steps execute in isolated sandboxes with checkpointing, so failed steps retry in place and resume from that step, and dependency caching stores install snapshots in R2. It's a platform-level take on CI, wiring together Workflows, sandboxes, containers, Durable Objects, and R2 rather than a drop-in replacement."
     },
     {
       "id": "infoq-9a0qIhdK6QBwSEh1KQyY",
@@ -5111,7 +5127,9 @@
       "tags": [],
       "first_seen": "2026-08-25",
       "domain": "infoq.cn",
-      "quality_score": 38.4
+      "quality_score": 38.4,
+      "summary_zh": "在 Snowflake Summit 2026 上，Whatnot 介绍其数据栈实践：2025 年 live GMV 达 80 亿美元、新增账户超 2000 万，每天数十亿条数据进入 Snowflake。为突破集中式数据团队和 dbt 的瓶颈，他们转向 infrastructure as code 的 modular data stack，让 fraud prevention 等部门自助使用数据。",
+      "summary_en": "At Snowflake Summit 2026, Whatnot described its data-stack evolution: 2025 live GMV reached $8B, more than 20M accounts were added, and billions of data points enter Snowflake daily. After outgrowing a centralized data team and dbt, it moved to a modular data stack built on infrastructure as code, letting units like fraud prevention consume data directly. Useful for engineers building real-time data platforms under hyper-growth."
     },
     {
       "id": "infoq-a2Y7bOxLHZfCVWtKhAtQ",
@@ -5127,7 +5145,9 @@
       "tags": [],
       "first_seen": "2026-08-25",
       "domain": "infoq.cn",
-      "quality_score": 41.2
+      "quality_score": 41.2,
+      "summary_zh": "Grok Bot 是 SpaceXAI 推出的持久型 AI 代理系统，运行在云端，可操作网站、应用和收件箱完成多步骤任务，并在需要时请求用户批准。它能观察演示以记忆工作流，支持多代理协作；与编程代理不同，它面向通用业务自动化。目前处于 beta 阶段。",
+      "summary_en": "Grok Bot is a persistent AI agent system from SpaceXAI running in the cloud. It can operate websites, apps, inboxes, and other tools to complete multi-step tasks end-to-end, pausing for user approval when needed. Agents can learn workflows by watching demonstrations and coordinate with each other. Unlike coding-focused agents like Claude Code or OpenAI Codex, it targets general business automation and is currently in beta."
     },
     {
       "id": "infoq-NedlVNN6E9uWbIE3WV07",
@@ -5143,7 +5163,9 @@
       "tags": [],
       "first_seen": "2026-08-24",
       "domain": "infoq.cn",
-      "quality_score": 45.3
+      "quality_score": 45.3,
+      "summary_zh": "Vercel 发布 Next.js 16.3，开发模式内存占用最高降 90%（Turbopack 磁盘缓存+内存回收），CI 重复构建提速 5.5 倍。新增可选的 Instant Navigations 工具集，基于 use cache 指令、两个配置标志启用，给服务端架构带来 SPA 级响应速度；服务端渲染迁移到 Node.js 流，边缘运行时废弃。",
+      "summary_en": "Vercel shipped Next.js 16.3, focused on developer experience: Turbopack's disk cache and new memory reclamation cut `next dev` memory usage by up to 90%, and repeated CI builds run up to 5.5x faster. The release introduces the optional Instant Navigations toolkit, built on the `use cache` directive and enabled via two config flags, bringing SPA-like speed to the server-side model. Server rendering now uses native Node.js streams, and the edge runtime is deprecated."
     },
     {
       "id": "infoq-2IBWc7BuB2qoGao5tlQT",
@@ -5159,7 +5181,9 @@
       "tags": [],
       "first_seen": "2026-08-24",
       "domain": "infoq.cn",
-      "quality_score": 47.1
+      "quality_score": 47.1,
+      "summary_zh": "亚马逊云科技在 Bedrock AgentCore 中推出运行时实例，让 AI 智能体运行在客户账户内的 Amazon EC2 上，并保留原有 API、身份与可观测性。相比无服务器 microVM 的 8 小时会话上限，它支持最长 14 天的持久会话、共享文件系统、GPU 实例，以及 CrewAI、LangGraph 等框架，适合长时间运行的多智能体协作。",
+      "summary_en": "AWS announced runtime instances for Bedrock AgentCore, which run agents on managed EC2 instances inside the customer's account while preserving the existing AgentCore API, identity, and observability. Sessions can last up to 14 days (vs. the 8-hour microVM cap), with shared file systems, GPU-backed instances, and support for frameworks like CrewAI and LangGraph. It targets teams whose agents need longer than 8 hours and benefit from multiple agents collaborating on one host."
     },
     {
       "id": "infoq-yEKcMO03wXvuyZpj1C1d",
@@ -5175,7 +5199,9 @@
       "tags": [],
       "first_seen": "2026-08-24",
       "domain": "infoq.cn",
-      "quality_score": 46.0
+      "quality_score": 46.0,
+      "summary_zh": "React Router v8 于 2026 年 6 月 17 日发布，改为仅 ESM、默认启用中间件，并提高 Node/React/Vite 最低版本要求，v6 与 Remix v2 进入 EOL。破坏性变更引发争议，官方称都可在 v7 中提前适配，部分开发者已转向 TanStack Router。",
+      "summary_en": "React Router v8, released June 17, 2026, is ESM-only, enables middleware by default, and raises minimums to Node 22.22+, React 19.2.7+, and Vite 7+, while v6 and Remix v2 are EOL. Brooks Lybrand joked they 'broke all your apps,' and some developers are moving to TanStack Router."
     },
     {
       "id": "infoq-zdc3HzpvqA96jwWA6lGb",
@@ -5191,7 +5217,9 @@
       "tags": [],
       "first_seen": "2026-08-24",
       "domain": "infoq.cn",
-      "quality_score": 45.9
+      "quality_score": 45.9,
+      "summary_zh": "GitHub 公开预览 Stacked Pull Requests，支持把大型变更拆成多个相互依赖的小 PR，分别审查和合并。该功能针对 AI 生成代码提速后人工审查成为瓶颈的问题，同时保留现有分支保护、审查与合并策略，适合代码产出量大的团队直接采用。",
+      "summary_en": "GitHub's public preview of Stacked Pull Requests lets teams split large changes into small, interdependent pull requests that can be reviewed and merged individually. It targets the bottleneck between AI-accelerated code generation and limited human review while preserving existing branch protection, review, and merge workflows. Teams can adopt stacked development without third-party tools."
     },
     {
       "id": "infoq-4h2jb2eOcBrP5AG5hLYt",
