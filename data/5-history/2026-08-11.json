@@ -3413,7 +3413,9 @@
       "gh_period": "monthly",
       "first_seen": "2026-07-12",
       "domain": "github.com",
-      "quality_score": 33.9
+      "quality_score": 33.9,
+      "summary_zh": "stablyai/orca 是一个面向并行 agent 集群的 ADE，官方介绍称可以用自己的订阅运行任意编码 agent，并支持桌面、移动端和 VPS。它试图把多个 agent 的调度、运行集中到一个工具里，适合需要同时跑多个编码任务的开发者。仓库详情不多，具体工作方式需看 README。",
+      "summary_en": "stablyai/orca is an ADE (agent development environment) for working with a fleet of parallel agents. According to the description, you can run any coding agent with your own subscription, on desktop, mobile, or a VPS. It's aimed at developers who want a single tool to coordinate multiple coding agents, though the repository listing is light on specifics."
     },
     {
       "id": "gh-monthly-zhaoxuya520-reverse-skill",
@@ -4325,7 +4327,9 @@
       ],
       "first_seen": "2026-08-11",
       "domain": "juejin.cn",
-      "quality_score": 17.7
+      "quality_score": 17.7,
+      "summary_zh": "作者给内部系统加 OCR，让用户上传截图后自动识别文字，最终选择了百度 PaddleOCR：专用 OCR 模型在识别率上优于大模型，网页端加载约 6MB 模型即可跑得又快又准。文中还对比了传统做法——后端起 Python 服务装 PaddleOCR。适合需要在 Web 端做轻量 OCR 的开发者参考。",
+      "summary_en": "A developer wanted OCR for an internal web system so users could upload screenshots and get recognized text automatically, and settled on Baidu's PaddleOCR. The dedicated OCR model beats large models on accuracy, and loading an ~6MB model on the web makes it fast and precise. It also compares the traditional route of running a Python PaddleOCR service. Useful for teams embedding lightweight web OCR."
     },
     {
       "id": "juejin-7661439504077176847",
