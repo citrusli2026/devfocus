@@ -212,7 +212,9 @@
       "tags": [],
       "first_seen": "2026-08-26",
       "domain": "qwen.ai",
-      "quality_score": 45.5
+      "quality_score": 45.5,
+      "summary_zh": "这条 Hacker News 帖子标题为 Qwen3.8-Flash-Next，提交内容只附带了 imageat.com 上的一个模型页链接，没有任何介绍文字。无法确认它是模型版本、演示项目还是其他资源；原文是链接，未提供更多细节。",
+      "summary_en": "This Hacker News post is titled “Qwen3.8-Flash-Next” and links only to an imageat.com model page, with no description in the submission. The linked page isn't summarized here; details beyond the title aren't available."
     },
     {
       "id": "hn-49434378",
@@ -3259,7 +3261,9 @@
       "gh_period": "daily",
       "first_seen": "2026-08-25",
       "domain": "github.com",
-      "quality_score": 30.1
+      "quality_score": 30.1,
+      "summary_zh": "Anthropic 官方推出的 Claude Code 插件目录，分为内部插件和第三方外部插件两类。安装方式是在 Claude Code 中运行 `/plugin install {plugin-name}@claude-plugins-official`；Anthropic 提醒用户安装前需自行评估信任度，外部插件需要通过质量和安全审核才能上架。适合正用 Claude Code 做开发、想扩展功能的用户。",
+      "summary_en": "Anthropic's official directory for Claude Code plugins, split into internal plugins maintained by Anthropic and external plugins from partners and the community. Plugins are installed via `/plugin install {plugin-name}@claude-plugins-official`; Anthropic warns that third-party plugins aren't verified, so trust must be assessed before use. Relevant for developers using Claude Code who want to extend its capabilities."
     },
     {
       "id": "gh-daily-Alishahryar1-free-claude-code",

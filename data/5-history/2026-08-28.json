@@ -212,7 +212,9 @@
       "tags": [],
       "first_seen": "2026-08-26",
       "domain": "qwen.ai",
-      "quality_score": 47.6
+      "quality_score": 47.6,
+      "summary_zh": "这条 Hacker News 帖子标题为 Qwen3.8-Flash-Next，提交内容只附带了 imageat.com 上的一个模型页链接，没有任何介绍文字。无法确认它是模型版本、演示项目还是其他资源；原文是链接，未提供更多细节。",
+      "summary_en": "This Hacker News post is titled “Qwen3.8-Flash-Next” and links only to an imageat.com model page, with no description in the submission. The linked page isn't summarized here; details beyond the title aren't available."
     },
     {
       "id": "hn-49437069",
@@ -278,7 +280,9 @@
       "tags": [],
       "first_seen": "2026-08-28",
       "domain": "blog.cloudflare.com",
-      "quality_score": 44.6
+      "quality_score": 44.6,
+      "summary_zh": "Cloudflare 团队分享了为 1.1.1.1 DNS 缓存（代号 Big Pineapple）做的 5 项 Rust 层内存优化，单条缓存记录内存占用降低 56%，整个服务集群释放约 100 TB 内存。对做 DNS 基础设施或大规模 Rust 性能优化的工程师有直接参考价值。",
+      "summary_en": "Cloudflare describes five Rust-level memory optimizations applied to the DNS cache layout behind 1.1.1.1 (internally codenamed Big Pineapple). Per-entry memory dropped by 56%, freeing roughly 100 TB of memory across the company's fleet. Worth reading if you work on DNS infrastructure or large-scale Rust performance tuning."
     },
     {
       "id": "hn-49434378",
@@ -326,7 +330,9 @@
       "tags": [],
       "first_seen": "2026-08-28",
       "domain": "pollen-robotics.com",
-      "quality_score": 44.2
+      "quality_score": 44.2,
+      "summary_zh": "Microduck 是 25 厘米高、15 个电机、带摄像头与 LiDAR 的双足机器人，鸟喙可抓取物体，开箱即玩。它的开源软件栈支持先在仿真中训练新行为，再部署到真机运行，预售价 399 美元。适合想低成本进入双足机器人或 sim-to-real 方向的开发者。",
+      "summary_en": "Microduck is a 25 cm biped robot with 15 motors, a camera, LiDAR, and a grasping beak. It is playable out of the box, and its open-source stack lets you train new behaviors in simulation before deploying them to the real robot. At a $399 pre-order price, it appeals to hobbyists and researchers exploring robot learning on a budget."
     },
     {
       "id": "hn-49433450",
@@ -374,7 +380,9 @@
       "tags": [],
       "first_seen": "2026-08-28",
       "domain": "calv.info",
-      "quality_score": 44.6
+      "quality_score": 44.6,
+      "summary_zh": "在这篇博文中，Calvin French-Owen 用自己的实测说明小型模型已经够用：gpt-5.6-luna 速度快（约 100 tokens/s）、能力强，处理数千封邮件的大任务 API 成本也只有几十美分。他借此解释投资者困惑的\"为何没看到更多消费级 AI 公司\"——过去 token 成本是瓶颈，而 GLM 5.3 等新模型正处在性价比前沿。",
+      "summary_en": "In this post, Calvin French-Owen argues that small AI models have arrived, citing his hands-on experience with gpt-5.6-luna — it's fast (~100 tps), capable, and costs only tens of cents even when searching across thousands of emails. He connects this to why consumer AI companies are scarce: token costs used to be the bottleneck. GLM 5.3 is also mentioned as a new Pareto-frontier option."
     },
     {
       "id": "hn-49457545",
@@ -3297,7 +3305,9 @@
       "gh_period": "daily",
       "first_seen": "2026-08-28",
       "domain": "github.com",
-      "quality_score": 30.1
+      "quality_score": 30.1,
+      "summary_zh": "JetBrains 发布官方项目 go-modern-guidelines，指导 AI 编程智能体写现代 Go：如用 max(a,b)、slices.Contains、cmp.Or 替代旧语法。规范覆盖到 Go 1.27，含 Go 1.26 的 new(42)、errors.AsType[T]；智能体根据 go.mod 判断项目 Go 版本，只采用对应版本的新特性，以缓解模型训练数据滞后问题。",
+      "summary_en": "JetBrains released go-modern-guidelines, an official project that teaches AI coding agents to write modern Go. It replaces older patterns with stdlib APIs like max(a,b), slices.Contains, and cmp.Or, and covers features from Go 1.0 through 1.27 — including Go 1.26's new(42) and errors.AsType[T]. Agents read the project's go.mod to use only APIs available in that Go version, countering outdated training data."
     },
     {
       "id": "gh-daily-anthropics-claude-plugins-official",
@@ -3314,7 +3324,9 @@
       "gh_period": "daily",
       "first_seen": "2026-08-25",
       "domain": "github.com",
-      "quality_score": 30.1
+      "quality_score": 30.1,
+      "summary_zh": "Anthropic 官方推出的 Claude Code 插件目录，分为内部插件和第三方外部插件两类。安装方式是在 Claude Code 中运行 `/plugin install {plugin-name}@claude-plugins-official`；Anthropic 提醒用户安装前需自行评估信任度，外部插件需要通过质量和安全审核才能上架。适合正用 Claude Code 做开发、想扩展功能的用户。",
+      "summary_en": "Anthropic's official directory for Claude Code plugins, split into internal plugins maintained by Anthropic and external plugins from partners and the community. Plugins are installed via `/plugin install {plugin-name}@claude-plugins-official`; Anthropic warns that third-party plugins aren't verified, so trust must be assessed before use. Relevant for developers using Claude Code who want to extend its capabilities."
     },
     {
       "id": "gh-daily-K-Dense-AI-scientific-agent-skills",
@@ -3984,7 +3996,9 @@
       ],
       "first_seen": "2026-08-28",
       "domain": "producthunt.com",
-      "quality_score": 46.5
+      "quality_score": 46.5,
+      "summary_zh": "Lenz 是一个独立的事实核查 API，定位是给 AI 工作流做多模型交叉验证。它适合在 RAG、Agent 等管线里增加一道自动核验，而不是只信任单个模型的输出。目前除产品定位外，没有更多技术细节。",
+      "summary_en": "Lenz is an independent fact-checking API designed for AI workflows, using multiple models to verify outputs. It targets teams that want an automated cross-check layer inside RAG pipelines or agent systems instead of trusting a single model. Only the product pitch is available; implementation details aren't provided."
     },
     {
       "id": "ph-1233386",
@@ -4018,7 +4032,9 @@
       ],
       "first_seen": "2026-08-28",
       "domain": "producthunt.com",
-      "quality_score": 43.4
+      "quality_score": 43.4,
+      "summary_zh": "Speko 打出的定位是“OpenRouter for Voice”，也就是为语音相关能力提供统一接入和路由的 API 层。开发者可以用一套接口对接不同语音服务，但这只是一个简短的产品简介，具体支持哪些供应商或模型尚未公布。",
+      "summary_en": "Speko is described as \"OpenRouter for Voice\" — a unified API layer for routing and integrating voice-related capabilities. The idea is to let developers talk to multiple voice providers through one interface, though no specific providers or models are listed yet. Details beyond the one-line pitch aren't published."
     },
     {
       "id": "ph-1231551",
@@ -5139,7 +5155,9 @@
       "tags": [],
       "first_seen": "2026-08-28",
       "domain": "infoq.cn",
-      "quality_score": 30.6
+      "quality_score": 30.6,
+      "summary_zh": "Snowflake 为 Cortex Agents 增加了一系列新能力，面向已把 Agent 投入生产的企业，解决编排、执行和治理上的运营难题。亮点包括 Async Agent API、Interrupt and Resume、Partial Access 和可视化版本管理 UI，并推出 Build Coding Agent 等公开预览功能，目标是让智能体从“能构建”走向“可规模化运营”。",
+      "summary_en": "Snowflake is expanding Cortex Agents with new capabilities for enterprises running agents in production, targeting operational pain points in orchestration, execution, and governance. Highlights include the Async Agent API, interrupt/resume, partial access controls, and a versioning UI, along with previews like Build Coding Agent and Tool Search — aimed at moving agents from \"buildable\" to \"operable at scale.\""
     },
     {
       "id": "infoq-0yv69MyNwHiwY3IZXPQt",
@@ -5155,7 +5173,9 @@
       "tags": [],
       "first_seen": "2026-08-28",
       "domain": "infoq.cn",
-      "quality_score": 30.7
+      "quality_score": 30.7,
+      "summary_zh": "日程 SaaS 公司 Calendly 公开了将 AI Agent 嵌入研发流程的实践：Agent 先审 Jira 需求、拆解任务，再并行写代码、跑测试和 QA，人类负责最终 Review 与 Merge。其 IAM 团队一周半生成 64 个 PR，完成约 30% 的大型解耦项目重构。Calendly 的结论是，工程瓶颈正从写代码转向需求对齐和判断力。",
+      "summary_en": "Calendly, a scheduling SaaS company, detailed how it embeds AI agents across Jira, GitHub, CI and production workflows: agents review requirements, split tasks, write code in parallel, run tests and QA, with humans doing final review and merge. In its IAM team, agents generated 64 PRs in one and a half weeks and completed about 30% of a large decoupling project. The takeaway: the bottleneck is shifting from writing code to requirement alignment and judgment."
     },
     {
       "id": "infoq-sTYSudHtvkbNJvuSbp31",
@@ -5171,7 +5191,9 @@
       "tags": [],
       "first_seen": "2026-08-28",
       "domain": "infoq.cn",
-      "quality_score": 30.9
+      "quality_score": 30.9,
+      "summary_zh": "此前匿名出现在 OpenRouter 的模型 Ox Alpha 被智谱认领为 GLM-5.3-Flash。它采用 3200 亿总参数的 MoE 架构，每次仅激活约 180 亿参数，匿名测试版提供 104 万 Token 上下文，支持文本、图片和视频输入。Stripe CEO Patrick Collison 称其“非常令人印象深刻”，测试流量由国产 AI 芯片集群承载。",
+      "summary_en": "Zhipu confirmed that Ox Alpha, the anonymous model that climbed OpenRouter's trending list, is GLM-5.3-Flash. It is a mixture-of-experts model with 320B total parameters but only about 18B active per token; the anonymous test version offered 1.04M-token context and accepted text, image, and video input. Stripe CEO Patrick Collison said it was 'very impressive,' and Zhipu said all test traffic ran on clusters built with domestic AI chips."
     },
     {
       "id": "infoq-MCTm2NvWob0ZHulXe0AQ",
@@ -5187,7 +5209,9 @@
       "tags": [],
       "first_seen": "2026-08-28",
       "domain": "infoq.cn",
-      "quality_score": 31.6
+      "quality_score": 31.6,
+      "summary_zh": "谷歌发布号称迄今最精确的语音转文本模型 Gemini 3.5 Transcribe，CEO Pichai 在 X 上宣布。它能自动清理语气词、口误和重复，理解“不，改成周三”这类自我修正，支持 85 种以上语言和实时切换，并识别最多 8 位说话人。据 Artificial Analysis，流式转录词错误率 4.0%，非流式 2.6%。",
+      "summary_en": "Google unveiled Gemini 3.5 Transcribe, which CEO Pichai announced on X as its most accurate speech-to-text model. It cleans up fillers, mistakes, and repetitions, understands self-corrections like 'no, make it Wednesday,' supports 85+ languages with live switching, and can identify up to eight speakers. According to Artificial Analysis, word error rate is 4.0% for streaming and 2.6% for non-streaming transcription."
     },
     {
       "id": "infoq-TEgX02zINMmLVbYPyP0N",
@@ -5203,7 +5227,9 @@
       "tags": [],
       "first_seen": "2026-08-28",
       "domain": "infoq.cn",
-      "quality_score": 31.7
+      "quality_score": 31.7,
+      "summary_zh": "Cloudflare 用 AI 把工程规范变成强制管控：自 2026 年初，AI 代码审查工具已识别近 23 万处不合规问题，近 1.6 万处导致审批被驳回。规范以 Cloudflare Codex 为唯一事实来源，分 SHOULD/MUST 两级，按“建议→观察→强制”递进，并同样用于技术设计和事故报告。",
+      "summary_en": "Cloudflare detailed how it turned internal engineering standards from passive docs into AI-enforced controls: its AI code review tool has flagged nearly 230,000 violations since early 2026, with almost 16,000 causing approvals to be rejected. Standards are defined in RFCs with SHOULD/MUST levels and roll out through an advisory, observe, then enforce process, also applied to technical designs and incident reports. This model suits organizations that need to review massive numbers of changes from AI coding agents."
     },
     {
       "id": "infoq-Z9bIWfsMCIA9yiLUSDvJ",
@@ -5219,7 +5245,9 @@
       "tags": [],
       "first_seen": "2026-08-28",
       "domain": "infoq.cn",
-      "quality_score": 32.7
+      "quality_score": 32.7,
+      "summary_zh": "英伟达据报正就收购 AI 平台 Hugging Face 展开谈判，Business Insider 称估值可能超 130 亿美元，另有报道给出 129 亿美元的交易价格。消息前数小时英伟达公布财报：Q2 营收 960 亿美元、同比翻倍，黄仁勋称算力需求明年或增约 100%，但供应限制使营收预期约 70%。",
+      "summary_en": "Nvidia is reportedly in talks to acquire AI platform Hugging Face, with a potential valuation above $13 billion; The Information reports a $12.9 billion deal. The news comes just after Nvidia's earnings showed Q2 revenue of $96 billion, more than doubled year over year, with Huang citing ~100% demand growth but only ~70% revenue growth due to supply constraints."
     },
     {
       "id": "infoq-Y410fSRGi67fUrNUuzYb",

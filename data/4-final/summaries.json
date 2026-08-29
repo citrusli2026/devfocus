@@ -1040,9 +1040,9 @@
     "summary_en": "Invoko is a subtle yet powerful Mac utility that manifests as a tiny animated hand floating on your screen. It redefines desktop interaction by letting you trigger apps, execute system commands, or simulate complex mouse gestures with a single click or swipe. For anyone tired of repetitive tasks, Invoko acts as a second cursor that never tires. It’s particularly useful for designers, developers, and power users who want to streamline their workflow without memorizing keyboard shortcuts or digging into menus. The hand’s playful design belies its serious productivity boost, making it a delightful companion for daily Mac use."
   },
   "juejin-7620060655607857178": {
-    "summary_zh": "一篇面向 Claude Code 用户的实践分享，作者整理了 32 个亲测可用的 Skills 和 8 个 MCP 服务器，并称全部实测可用。核心价值在于给不想停留在默认配置的开发者提供可直接参考的扩展组合，减少自己摸索和踩坑的成本。",
-    "summary_en": "This practical post shares 32 hands-on-tested Skills and 8 MCP servers for Claude Code, with the author claiming every item was verified to work. It's useful for developers who want to extend Claude Code beyond its default setup and skip trial-and-error when assembling a toolchain.",
-    "input_hash": "b125dd2d6f4a"
+    "summary_zh": "一篇 Claude Code 实战配置指南，作者整理了 32 个实测可用的 Skills 和 8 个 MCP 服务器，并提供 npx skills add 一键安装命令。文中明确区分 Skills（提示词/工作流封装）与 MCP（本地工具/API 服务）的差别，还修正了 npm 安装前缀问题。适合想把 Claude Code 从补代码助手变成全流程搭档的开发者。",
+    "summary_en": "A practical guide to configuring Claude Code, sharing 32 tested Skills and 8 MCP servers with copy-paste npx install commands. The author clarifies the difference between Skills (prompt/workflow packs) and MCP (local tools/API services), and includes a fix for the npm install prefix. Useful for developers who want Claude Code to handle docs, code review, and more automatically.",
+    "input_hash": "45fdabeb86e7"
   },
   "juejin-7584110439933100078": {
     "summary_zh": "有网友爆料快手研发线发布通知，收紧第三方编程软件权限，员工电脑上打开Cursor就会闪退。这标志着又一家大型互联网公司正式封禁AI编程工具Cursor，反映出企业对代码安全和数据隐私的担忧。对于依赖Cursor提升效率的开发者来说，这一趋势可能迫使他们在工具选型和企业合规之间做出权衡。",
@@ -1059,9 +1059,9 @@
     "input_hash": "ef4de0757ed8"
   },
   "juejin-7637856870833635343": {
-    "summary_zh": "作者在从 Cursor 切换到 Codex 大半个月后分享真实体验，认为 Codex 不再只是编程助手，而是更像一个真正的超级 Agent，明显更接近 AI 编程的下一阶段，而 Cursor 只带来最初的新鲜感。对正在对比 AI 编程工具的开发者和团队来说，这篇体验能提供重要的选型参考。",
-    "summary_en": "After switching from Cursor to Codex for more than half a month, the author shares real-world impressions: Codex feels like a genuine super-agent rather than just a coding assistant, and much closer to the next stage of AI programming. The post offers a practical data point for developers and teams evaluating which AI tool to adopt.",
-    "input_hash": "72d412342830"
+    "summary_zh": "作者从 2025 年 4 月用到 2026 年 4 月，因 Cursor 转向按量计费后费用不可预测，公司决定改用 OpenAI Codex。体验半个月后，作者认为 Codex 不仅是编程助手，更像一个真正的超级 Agent，而 Cursor 的优势在于贴近编辑器、支持 Tab 补全和主流模型切换。",
+    "summary_en": "After a year on Cursor, the author's company switched to OpenAI Codex in April 2026 because Cursor moved to usage-based pricing that became more expensive and unpredictable. Two weeks into the switch, he sees Codex as a genuine super-agent, not just a coding assistant, while Cursor's strengths remain in tight editor integration, Tab completion, and the freedom to choose mainstream models.",
+    "input_hash": "cf3d5401aeb1"
   },
   "juejin-7646004870782550050": {
     "summary_zh": "2026年5月GitHub十大热门项目排行榜出炉，社区火力集中在“把Agent做进工程化工作流”这一主题上。这些项目不仅能够节省Token开销、记住对话上下文，还能编排多个Agent协作并产出高质量内容。对于开发者和技术团队来说，它们意味着更高效的AI工程化落地方案，让大模型从玩具变成真正的生产力工具。",
@@ -2770,9 +2770,9 @@
     "summary_en": "Claude Sonnet 5 marks a shift from conversational AI to action-oriented agents. Unlike previous models that only generate text, Sonnet 5 can plan multi-step tasks, use tools, write code, and manage files to deliver actual results. It's designed to function like a digital employee that understands instructions and follows through. This matters for knowledge workers and developers who need a reliable assistant for complex workflows — it's not just about answering questions anymore, but about getting work done. With Sonnet 5, Anthropic positions AI as a doer, not just a talker, which could redefine how we think about productivity software."
   },
   "juejin-7635467758865235968": {
-    "summary_zh": "这是一篇以省钱为目标的 Codex 使用攻略，作者自称“AI 黑心包工队”，把一套“穷鬼工作流”当作护钱包方案推荐给读者。内容偏向调侃和心态分享，没有给出可验证的技术细节。适合好奇怎么低成本试 Codex 的开发者，但别指望拿到手把手的教程。",
-    "summary_en": "This is a tongue-in-cheek guide to using Codex on a budget, presented as a 'poor man's workflow' to protect your wallet, with the author playfully calling themselves the 'AI black-heart contractor'. The post is more about attitude than technical detail, so don't expect step-by-step instructions. Useful for developers curious about low-cost Codex experiments.",
-    "input_hash": "6325357d2f6b"
+    "summary_zh": "开源工作流 codex_with_cc 让 Codex 当“老板”拆解和验收任务，把重活交给子代理：通过 CC Switch 将 Claude Code 的后端切到 DeepSeek，以极低成本执行大范围探索和重构。作者称六千万 token 用量、缓存命中 98.5% 时花费约 2 元，DeepSeek 缓存命中价低至 0.02 元/百万 token。适合被 Codex token 消耗困扰的开发者试用。",
+    "summary_en": "A new open-source workflow, codex_with_cc, turns Codex into a planning/QA lead while subagents do the heavy lifting: Claude Code runs on a DeepSeek backend via CC Switch, dramatically cutting token costs. The author reports 60 million tokens with a 98.5% cache hit rate cost about ¥2, thanks to DeepSeek's ¥0.02 per 1M cached tokens. It targets developers watching Codex burn through their quota.",
+    "input_hash": "096cbb188e49"
   },
   "juejin-7623217419704909866": {
     "summary_zh": "本文探讨了在Vibe Coding（基于AI情绪化编码）时代，Vue和React两大前端框架的地位变化。作者分析了为何有人认为Vue逐渐式微而React愈发强势，并指出AI编程工具可能更倾向于与React生态兼容。文章引发读者思考：在AI辅助编码日益普及的今天，前端开发者应如何选择技术栈，以及Vue是否真的面临生存危机。",
@@ -3490,9 +3490,9 @@
     "summary_en": "Octolens is a social listening tool built specifically for the age of AI agents. It monitors how brands are mentioned and perceived not only by humans but also by AI models, filling a critical gap in traditional sentiment analysis. As AI-generated content becomes more prevalent, companies can no longer rely solely on human conversations for brand intelligence. Octolens tracks discussions across social platforms where both users and AI bots interact, enabling marketing teams to understand how algorithms influence brand perception. Its real-time alerts and AI-aware insights help businesses adjust their strategies proactively. Marketers, PR professionals, and product managers who need to keep a finger on the pulse of both human and machine-driven brand mentions will find Octolens indispensable."
   },
   "juejin-7641048219231010862": {
-    "summary_zh": "这篇文章完整记录了一位开发者利用AI辅助技术从零构建并上线微信小游戏的全过程。作者毫无保留地公开了技术栈、提示词（prompt）设计、遇到的各类踩坑问题以及详细的成本明细，甚至附有彩蛋。对于想尝试用AI加速小游戏开发但又缺乏经验的团队或个人来说，这篇实战复盘提供了真实可参考的路线图和避坑指南，展现了AI在降低开发门槛方面的巨大潜力。",
-    "summary_en": "This article provides a comprehensive walkthrough of building and launching a WeChat mini game entirely with AI assistance. The author shares everything from the technology stack and prompt engineering techniques to a detailed breakdown of costs and a list of common pitfalls encountered during the process, ending with a hidden bonus. For indie developers or small teams curious about leveraging AI to speed up game development, this real-world case study serves as an invaluable reference. It demonstrates how AI tools can dramatically lower the barrier to entry for game creation, making it accessible even to those without a deep coding background.",
-    "input_hash": "aedd5d750e9b"
+    "summary_zh": "掘金精选：我用AI做了个微信小游戏-上线了",
+    "summary_en": "Featured on Juejin: 我用AI做了个微信小游戏-上线了",
+    "input_hash": "01f5b64d1d0a"
   },
   "juejin-7659584269551501327": {
     "summary_zh": "在微服务架构中，分布式锁是保证数据最终一致性的关键，但传统Redis锁在高并发下常面临性能瓶颈和可靠性问题。本文深入剖析了这些痛点，并提出了一种增强型锁实现：在看门狗（Watch Dog）自动续期机制基础上引入等待队列和自适应自旋策略，显著减少了锁冲突时的资源浪费和延迟。对于后端架构师和中间件开发者来说，这篇文章从Redlock的局限性出发，一步步推导出更鲁棒的优化方案，兼具理论深度与实践价值。",
@@ -4836,9 +4836,9 @@
     "summary_en": "Grok Build, a build tool developed by xAI, has been open-sourced, making it freely available for use and modification. Previously used internally, it now promises to help developers streamline build processes with greater customization. The move towards transparency and community collaboration could benefit DevOps teams and infrastructure engineers looking for flexible, efficient alternatives in the build tool landscape."
   },
   "juejin-7660712622825144374": {
-    "summary_zh": "这篇文章盘点2026年编程圈热门的10个Skills。这里Skills不是程序员能力，而是AI编程助手的“技能包”：一套标准化工作流模块，能让AI从“随缘写代码”变成“按流程交付”。对依赖AI生成代码的开发者，这套概念直接影响产出质量。",
-    "summary_en": "This article rounds up 10 Skills trending in the programming world for 2026. In this context, Skills are not human competencies but standardized workflow packages for AI coding assistants — turning ad-hoc code generation into process-driven delivery. The concept directly matters for developers who rely on AI-generated code.",
-    "input_hash": "39a792f5cff6"
+    "summary_zh": "文章盘点 2026 年最火的 10 个 AI 编程 Skills，并解释 Anthropic 的 Agent Skills 标准：用 SKILL.md 打包流程，让 AI 按步骤执行。作者称社区 Skill 七成不合格，重点介绍 Star 超 24 万的 Superpowers，含 TDD、调试等 20+ 子模块。",
+    "summary_en": "The article lists 10 AI coding Skills trending in 2026, starting with Anthropic's Agent Skills open standard from October 2025, where a SKILL.md folder makes AI follow a workflow instead of improvising. It notes that 70% of 1,400+ community Skills fail quality checks, then highlights Superpowers (240k+ GitHub stars), a collection of 20+ subskills including TDD and systematic debugging.",
+    "input_hash": "b7c678e66f4e"
   },
   "juejin-7662691781214470180": {
     "summary_zh": "一位掘金作者停更一年后回归，分享了这段时间的密集经历：全力投入 AI 领域、陪伴妻子生娃、还抽空考了个研。文章以第一人称讲述了如何平衡工作、家庭与个人提升，展现了技术人在生活重大节点上的真实抉择。对面临类似境遇的读者来说，这是一个关于如何在巨大压力下仍坚持成长的真实故事。",
@@ -6417,7 +6417,8 @@
   },
   "gh-monthly-diegosouzapw-OmniRoute": {
     "summary_zh": "OmniRoute 是一个免费的开源 AI 网关项目，它提供了一个统一端点，让你能访问超过 290 个提供商（其中 90 多个免费）和 500 多种模型，包括 Kimi、Claude、GPT、Gemini 等主流模型。开发者只需要接入一个 API 就可以调用几乎所有的前沿模型，不再需要为每个服务商单独申请和集成，大大降低了实验和开发的门槛。对于 AI 应用开发者来说，这是一个极大的便利。",
-    "summary_en": "OmniRoute is a free, open-source AI gateway that exposes a single endpoint to access over 290 providers (90+ free) and 500+ models, including Kimi, Claude, GPT, Gemini, and many more. Developers can now call almost any cutting-edge model through one API, eliminating the need for separate integrations and sign-ups. This dramatically lowers the barrier for AI experimentation and development, making it a huge boon for AI application builders."
+    "summary_en": "OmniRoute is a free, open-source AI gateway that exposes a single endpoint to access over 290 providers (90+ free) and 500+ models, including Kimi, Claude, GPT, Gemini, and many more. Developers can now call almost any cutting-edge model through one API, eliminating the need for separate integrations and sign-ups. This dramatically lowers the barrier for AI experimentation and development, making it a huge boon for AI application builders.",
+    "input_hash": "7cdd99574fc9"
   },
   "gh-monthly-permissionlesstech-bitchat": {
     "summary_zh": "BitChat 是一个基于蓝牙 Mesh 网络的开源聊天工具，它不依赖互联网或中央服务器，设备之间通过蓝牙自动组网实现消息传递，体验类似于早期 IRC 的聊天风格。这个项目解决了在无网络或网络受限环境下保持通信的问题，非常适合户外活动、灾害救援或对隐私要求高的场景。它展示了去中心化通信的另一种可能性。",
@@ -9343,9 +9344,9 @@
     "input_hash": "8ec0a8d3912e"
   },
   "juejin-7654140424869855282": {
-    "summary_zh": "这篇关于 Codex 最佳实践的长文，先点出使用 AI 工具的常见问题：模型强但输出不稳定、换种说法效果差很多、对话一长就跑偏、功能多却不知怎么用。适合刚接触 Codex 的开发者先建立对 AI 工作方式的理解，再针对性地实践。",
-    "summary_en": "This long guide to Codex best practices starts with common pain points: powerful models produce unstable results, rephrasing a task changes outcomes significantly, long conversations drift, and many features go unused. It's for developers new to Codex who want to understand how AI behaves before applying it.",
-    "input_hash": "d1dca967b671"
+    "summary_zh": "作者 oil 欧呦结合一年多实战经验，写下一篇 Codex 最佳实践长文：从 Agent 与普通 AI 对话的区别讲起，覆盖模型选择、上下文管理、内置工具、Skill 机制和自动化。文章强调先理解 AI 的能力边界，再把它用于编程以外的实际工作，并学会过滤垃圾信息。",
+    "summary_en": "In this long Codex best-practices guide, author oil 欧呦 — a former front-end developer now doing product work — shares over a year of hands-on lessons. It starts by contrasting agents with ordinary AI chat, then covers model selection, context management, built-in tools, Skills, and automation. The goal is to understand AI's boundaries so you can apply it beyond coding and ignore hype.",
+    "input_hash": "878c4a91f116"
   },
   "gh-daily-AlexsJones-llmfit": {
     "summary_zh": "llmfit 是一个命令行工具，用一条命令在数百个模型和提供商中找出你的硬件能跑哪些模型。它还新增加了 benchmark 功能，用本机实测数据来给出更靠谱的估算；项目以 MIT 协议开源，可通过 crates.io 安装。",
@@ -10908,9 +10909,9 @@
     "input_hash": "070b3e692940"
   },
   "gh-daily-freestylefly-awesome-gpt-image-2": {
-    "summary_zh": "awesome-gpt-image-2 是一个面向 GPT-Image2 的“Prompt as Code”资源库，包含 538 个逆向工程案例、20+ 套工业级模板，以及从案例中提炼的可复用 Skills。它把零散的提示词技巧整理成结构化引擎，适合需要在图片生成工作中批量构建和复用提示词的开发者。项目仍在持续更新。",
-    "summary_en": "awesome-gpt-image-2 is a prompt-as-code resource for GPT-Image2, containing 538 reverse-engineered cases, 20+ industrial templates, and reusable prompt skills. It turns scattered prompting tricks into a structured engine so developers can build and scale image-generation workflows without reinventing prompts. The repository is actively updated, and its case-driven approach is a practical reference for teams adopting GPT-Image2.",
-    "input_hash": "04ec537f6ec8"
+    "summary_zh": "这是一个面向 GPT-Image2 的开源提示词工程库，口号是“Prompt as Code”，对 530+ 个真实案例做了逆向工程，整理出 20+ 套工业级模板并提炼成可复用的 Skills。适合想把图像生成流程工程化、稳定复现风格的团队，模板库还在持续更新。",
+    "summary_en": "This open-source GitHub repo treats prompts as code for GPT-Image2, offering 530+ reverse-engineered real-world cases, 20+ industrial-grade templates, and distilled reusable Skills. It's for teams that want to turn AI image generation into an engineered, repeatable workflow. The collection is actively maintained.",
+    "input_hash": "670b7042f4b6"
   },
   "gh-daily-virgiliojr94-book-to-skill": {
     "summary_zh": "book-to-skill 是一个能将技术书籍、文档文件夹或资料合集转换为统一 Agent Skill 的开源工具，转换结果可直接在 Claude Code、GitHub Copilot CLI、Amp 中调用，支持 PDF、EPUB、DOCX、MD、HTML、RTF、MOBI 格式。它基于开放的 Agent Skills 标准，适合想把技术藏书变成 AI 编程助手可查知识库的开发者。",
@@ -11808,9 +11809,9 @@
     "input_hash": "d5264f59d24f"
   },
   "zhihu-2076362548765357313": {
-    "summary_zh": "西藏吉隆发生泥石流，已造成 3 人遇难、558 人失联，受灾路段已抢通约 800 米。知乎上的这个问题正在汇总救援进展和信息，适合关注灾情动态的读者跟进。",
-    "summary_en": "A mudslide in Jilong, Tibet, has killed three people and left 558 missing; rescue crews have cleared roughly 800 meters of the stricken road. This Zhihu thread aggregates ongoing rescue progress and information, making it a useful resource for following the disaster.",
-    "input_hash": "c79e7c56a7ac"
+    "summary_zh": "西藏吉隆发生泥石流，已致 7 人遇难、554 人失联，上游堰塞湖出现溢流，消防救援队已抵达受灾核心区。原文是知乎问题页，未提供更多救援进展细节。",
+    "summary_en": "A debris flow in Jilong, Tibet has left 7 dead and 554 missing; upstream barrier lake is overflowing and fire rescue teams have reached the core affected area. The linked page is a Zhihu question and no further rescue details are available.",
+    "input_hash": "4894faecbe46"
   },
   "hn-49458418": {
     "summary_zh": "SenteLabsAI 开源了 OpenExecutive：一个统一的高管人格背后运行着 8 个专职 Claude agent，组成 AI 虚拟执行团队，基于 FastAPI 和 Next.js 构建。在不少 CEO 用 AI 裁员的背景下，开发者选择把“AI CEO”本身开源，算是一种反向回应。适合想了解多 Agent 协作架构或开源 AI 治理的人。",
@@ -11936,5 +11937,280 @@
     "summary_zh": "作者在职场话题下发帖，说自己突然冒出做销售的想法，并问不干互联网行业能否胜任。原文只有这句话，未提供更多背景或细节。",
     "summary_en": "A brief post in the workplace category: the author has suddenly considered switching to sales and asks whether they could handle it outside the internet industry. The original post contains only that sentence, so no further details are available.",
     "input_hash": "7fd91a01e1fd"
+  },
+  "v2ex-45a27387cecb": {
+    "summary_zh": "V2EX 热议：[程序员] 做了个翻译中文提示词的小工具",
+    "summary_en": "Hot on V2EX: [程序员] 做了个翻译中文提示词的小工具",
+    "input_hash": "0599668b26aa"
+  },
+  "v2ex-018f34117b26": {
+    "summary_zh": "V2EX 热议：[生活] 闲鱼手续费分好几笔扣",
+    "summary_en": "Hot on V2EX: [生活] 闲鱼手续费分好几笔扣",
+    "input_hash": "9a3856f278dc"
+  },
+  "36kr-3958638529117569": {
+    "summary_zh": "赵长鹏在香港的一场现场活动中回答了 15 个问题，具体内容未在本条中展示。原文是 36kr 的活动直击报道链接，未提供更多细节。",
+    "summary_en": "Changpeng Zhao answered 15 questions at a live event in Hong Kong. The linked article isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "85a33d8c85e0"
+  },
+  "infoq-Z9bIWfsMCIA9yiLUSDvJ": {
+    "summary_zh": "英伟达据报正就收购 AI 平台 Hugging Face 展开谈判，Business Insider 称估值可能超 130 亿美元，另有报道给出 129 亿美元的交易价格。消息前数小时英伟达公布财报：Q2 营收 960 亿美元、同比翻倍，黄仁勋称算力需求明年或增约 100%，但供应限制使营收预期约 70%。",
+    "summary_en": "Nvidia is reportedly in talks to acquire AI platform Hugging Face, with a potential valuation above $13 billion; The Information reports a $12.9 billion deal. The news comes just after Nvidia's earnings showed Q2 revenue of $96 billion, more than doubled year over year, with Huang citing ~100% demand growth but only ~70% revenue growth due to supply constraints.",
+    "input_hash": "6bb66c4e5a96"
+  },
+  "v2ex-ff169e96f446": {
+    "summary_zh": "vget 是一个开源的命令行视频下载工具，针对 MP4/HLS 支持画质选择、并发分片下载、断点续传、代理和 Cookie，不依赖 yt-dlp，基于 UAV Downloader 二次开发。适合需要脚本化下载视频、又想避开 yt-dlp 依赖的开发者。",
+    "summary_en": "vget is an open-source CLI video downloader for MP4/HLS with quality selection, concurrent chunked downloads, resumable transfers, proxy and cookie support, and no yt-dlp dependency. It's a reworked spin-off of UAV Downloader. Good for developers who want a scriptable download tool with a lighter dependency stack.",
+    "input_hash": "c9b41d9d51fc"
+  },
+  "v2ex-12b5346085e2": {
+    "summary_zh": "据帖子介绍，GrokBot 此前仅限 SuperGrok Heavy 用户领取，现在 SuperGrok 和 Cursor Pro 用户也能领取，被视为马斯克送出的福利。帖子未提供更多活动细则。",
+    "summary_en": "According to the post, GrokBot was previously only available to SuperGrok Heavy users, but now SuperGrok and Cursor Pro users can also claim it — a perk the author attributes to Musk. The expansion means more users can get the bot without needing the Heavy plan, though no additional details about the offer were provided.",
+    "input_hash": "cfd6db09edc5"
+  },
+  "infoq-SxrNXURUimQf4hL83ybj": {
+    "summary_zh": "腾讯开源混元 Hy4 preview，总参数 770B、激活 49B，上下文超 1M，主打 Agent、Coding 与生产力场景。它在自研全链路中参与训练与算子优化，形成初步递归自我改进闭环，并将端到端吞吐提升 31.8%；API 输入 6 元/百万 tokens，WorkBuddy/CodeBuddy 限时免费两周。",
+    "summary_en": "Tencent has open-sourced Hunyuan Hy4 preview with 770B total parameters, 49B active, and 1M+ context, tuned for agent, coding, and productivity tasks. It was involved in optimizing its own training and operators, forming a recursive self-improvement loop, and improving end-to-end throughput by 31.8%. API pricing is 6 CNY input and 18 CNY output per million tokens; WorkBuddy/CodeBuddy are free for two weeks.",
+    "input_hash": "a36a08d55166"
+  },
+  "infoq-mKFB15kPm6Uw8fNG4Y7e": {
+    "summary_zh": "Snowflake 为 Cortex Agents 增加了一系列新能力，面向已把 Agent 投入生产的企业，解决编排、执行和治理上的运营难题。亮点包括 Async Agent API、Interrupt and Resume、Partial Access 和可视化版本管理 UI，并推出 Build Coding Agent 等公开预览功能，目标是让智能体从“能构建”走向“可规模化运营”。",
+    "summary_en": "Snowflake is expanding Cortex Agents with new capabilities for enterprises running agents in production, targeting operational pain points in orchestration, execution, and governance. Highlights include the Async Agent API, interrupt/resume, partial access controls, and a versioning UI, along with previews like Build Coding Agent and Tool Search — aimed at moving agents from \"buildable\" to \"operable at scale.\"",
+    "input_hash": "0b182580c3a1"
+  },
+  "v2ex-686d8583f3cc": {
+    "summary_zh": "一款 iOS 27 风格的 V2EX 客户端，采用 SwiftUI 与 Liquid Glass 实现，在 App Store 三轮审核后被判定为 4.3(a) Spam，理由是与其他 V2EX 客户端雷同。开发者称代码从零编写、开源免费，已有 78 位 TestFlight 测试者，现已提交申诉。",
+    "summary_en": "An iOS 27-style V2EX client built with SwiftUI and Liquid Glass was rejected three times in App Store review, ultimately for 4.3(a) Spam over similarity to existing clients. The developer says the code is original and open source, free, with 78 TestFlight testers; an appeal has been filed.",
+    "input_hash": "b41095664356"
+  },
+  "infoq-0yv69MyNwHiwY3IZXPQt": {
+    "summary_zh": "日程 SaaS 公司 Calendly 公开了将 AI Agent 嵌入研发流程的实践：Agent 先审 Jira 需求、拆解任务，再并行写代码、跑测试和 QA，人类负责最终 Review 与 Merge。其 IAM 团队一周半生成 64 个 PR，完成约 30% 的大型解耦项目重构。Calendly 的结论是，工程瓶颈正从写代码转向需求对齐和判断力。",
+    "summary_en": "Calendly, a scheduling SaaS company, detailed how it embeds AI agents across Jira, GitHub, CI and production workflows: agents review requirements, split tasks, write code in parallel, run tests and QA, with humans doing final review and merge. In its IAM team, agents generated 64 PRs in one and a half weeks and completed about 30% of a large decoupling project. The takeaway: the bottleneck is shifting from writing code to requirement alignment and judgment.",
+    "input_hash": "d2e5dbfb97fe"
+  },
+  "infoq-sTYSudHtvkbNJvuSbp31": {
+    "summary_zh": "此前匿名出现在 OpenRouter 的模型 Ox Alpha 被智谱认领为 GLM-5.3-Flash。它采用 3200 亿总参数的 MoE 架构，每次仅激活约 180 亿参数，匿名测试版提供 104 万 Token 上下文，支持文本、图片和视频输入。Stripe CEO Patrick Collison 称其“非常令人印象深刻”，测试流量由国产 AI 芯片集群承载。",
+    "summary_en": "Zhipu confirmed that Ox Alpha, the anonymous model that climbed OpenRouter's trending list, is GLM-5.3-Flash. It is a mixture-of-experts model with 320B total parameters but only about 18B active per token; the anonymous test version offered 1.04M-token context and accepted text, image, and video input. Stripe CEO Patrick Collison said it was 'very impressive,' and Zhipu said all test traffic ran on clusters built with domestic AI chips.",
+    "input_hash": "88db9eef4e8b"
+  },
+  "infoq-MCTm2NvWob0ZHulXe0AQ": {
+    "summary_zh": "谷歌发布号称迄今最精确的语音转文本模型 Gemini 3.5 Transcribe，CEO Pichai 在 X 上宣布。它能自动清理语气词、口误和重复，理解“不，改成周三”这类自我修正，支持 85 种以上语言和实时切换，并识别最多 8 位说话人。据 Artificial Analysis，流式转录词错误率 4.0%，非流式 2.6%。",
+    "summary_en": "Google unveiled Gemini 3.5 Transcribe, which CEO Pichai announced on X as its most accurate speech-to-text model. It cleans up fillers, mistakes, and repetitions, understands self-corrections like 'no, make it Wednesday,' supports 85+ languages with live switching, and can identify up to eight speakers. According to Artificial Analysis, word error rate is 4.0% for streaming and 2.6% for non-streaming transcription.",
+    "input_hash": "01159c7d0325"
+  },
+  "infoq-TEgX02zINMmLVbYPyP0N": {
+    "summary_zh": "Cloudflare 用 AI 把工程规范变成强制管控：自 2026 年初，AI 代码审查工具已识别近 23 万处不合规问题，近 1.6 万处导致审批被驳回。规范以 Cloudflare Codex 为唯一事实来源，分 SHOULD/MUST 两级，按“建议→观察→强制”递进，并同样用于技术设计和事故报告。",
+    "summary_en": "Cloudflare detailed how it turned internal engineering standards from passive docs into AI-enforced controls: its AI code review tool has flagged nearly 230,000 violations since early 2026, with almost 16,000 causing approvals to be rejected. Standards are defined in RFCs with SHOULD/MUST levels and roll out through an advisory, observe, then enforce process, also applied to technical designs and incident reports. This model suits organizations that need to review massive numbers of changes from AI coding agents.",
+    "input_hash": "53d4d6a57050"
+  },
+  "infoq-JDYKJmiY9vTRSw47t15a": {
+    "summary_zh": "Cloudflare 推出面向 AI 智能体的轻量级浏览器 Kitesurf，在 Workers 的 WebAssembly/Rust 隔离环境中运行，支持 Chrome DevTools 协议，让 Playwright 和 Puppeteer 以低于完整 Chromium 的资源开销驱动。它基于 Rust 的 Blitz 渲染引擎和 Firefox 的 Stylo CSS 解析器，暂不支持视频、WebGL 和真实环境 TLS 机器人验证。Hacker News 上已有用户质疑 CDN 提供商做浏览器是否存在利益冲突。",
+    "summary_en": "Cloudflare released Kitesurf, a lightweight browser engine built for AI agents. It runs browser components in isolated WebAssembly/Rust environments on Cloudflare Workers, supports the Chrome DevTools Protocol, so Playwright and Puppeteer can drive it with lower overhead than full Chromium. Built on the Rust-based Blitz rendering engine and Firefox's Stylo CSS parser, it omits video, WebGL, and real-world TLS bot checks; some Hacker News commenters raised conflict-of-interest concerns because Cloudflare runs a large CDN and security services.",
+    "input_hash": "0cead1c92e35"
+  },
+  "infoq-REPGvBlF661I4hRmvV8J": {
+    "summary_zh": "GOAI复赛提交已开启：赛道一至三须在9月3日18:00前提交，赛道四调试安排在9月中下旬。作品要求提高，赛道一须用AgentTeams框架组合至少3个职能不同的Agent，并提供验证材料、可执行代码和Demo；线上答辩为9月4-6日。",
+    "summary_en": "The World AI Open Source Competition (GOAI) has entered its rematch round: tracks 1–3 must submit by Sept 3 18:00, while track 4 debugging runs into mid-September. The Agent Infra track now demands an AgentTeams-based design with at least three distinct agents, along with validation, code, and a demo video. Online defenses are Sept 4–6.",
+    "input_hash": "e427883f32f2"
+  },
+  "v2ex-daa694420e90": {
+    "summary_zh": "这是一则V2EX职场话题征集帖，作者询问大家从事什么远程工作、远程工作是否还有前途，并邀请跟帖交流。帖子没有提供具体行业数据或个人结论，只停留在发起讨论层面。",
+    "summary_en": "A V2EX discussion thread asks remote workers what kind of work they do and whether remote work still has a future. The post is just a call for conversation — no industry data, arguments, or conclusions are included.",
+    "input_hash": "d6caba6e08c1"
+  },
+  "infoq-A0CMcU7UVsMQreKPcKOw": {
+    "summary_zh": "LinkedIn自建了多智能体AI代码审查平台，用多个独立审查员（不同模型与推理方式）交叉验证，并把组织策略、代码库约定和特定规则纳入定制，以降低幻觉和噪音。评估显示，在1727个PR的5230条抽样评论中，63.9%的建议被最终采纳；逻辑错误采纳率80%，并发缺陷达100%。",
+    "summary_en": "LinkedIn built a multi-agent AI code review platform instead of bolting a generic tool onto GitHub. It combines independent reviewers using different models and reasoning methods, applies organization- and repo-specific rules, and filters noise. In an evaluation of 5,230 sampled comments across 1,727 PRs, 63.9% of suggestions were adopted; logic-error and concurrency fixes were accepted 80% and 100% of the time respectively.",
+    "input_hash": "d8b7a4d79426"
+  },
+  "v2ex-9e7aae65abd6": {
+    "summary_zh": "发帖人在湖北小县城买了房但一直未入住，因此没交物业费，被物业起诉后，法院在9月10日开庭前直接冻结了其定期存款，且未收到通知，他想问这样做是否合法。帖子是求助性质，没有后续判决或法律分析。",
+    "summary_en": "A homeowner in a small Hubei county didn't pay property management fees for an apartment they never occupied. The property company sued; before the Sept 10 hearing, the court froze the user's time deposit without any notice. The post asks whether this is legal and provides no follow-up or legal analysis.",
+    "input_hash": "10e396d69ab0"
+  },
+  "ph-1113358": {
+    "summary_zh": "Lenz 是一个独立的事实核查 API，定位是给 AI 工作流做多模型交叉验证。它适合在 RAG、Agent 等管线里增加一道自动核验，而不是只信任单个模型的输出。目前除产品定位外，没有更多技术细节。",
+    "summary_en": "Lenz is an independent fact-checking API designed for AI workflows, using multiple models to verify outputs. It targets teams that want an automated cross-check layer inside RAG pipelines or agent systems instead of trusting a single model. Only the product pitch is available; implementation details aren't provided.",
+    "input_hash": "8a264bffda03"
+  },
+  "ph-1233567": {
+    "summary_zh": "Speko 打出的定位是“OpenRouter for Voice”，也就是为语音相关能力提供统一接入和路由的 API 层。开发者可以用一套接口对接不同语音服务，但这只是一个简短的产品简介，具体支持哪些供应商或模型尚未公布。",
+    "summary_en": "Speko is described as \"OpenRouter for Voice\" — a unified API layer for routing and integrating voice-related capabilities. The idea is to let developers talk to multiple voice providers through one interface, though no specific providers or models are listed yet. Details beyond the one-line pitch aren't published.",
+    "input_hash": "0c409da454bc"
+  },
+  "ph-1225168": {
+    "summary_zh": "Caddi 是一个你只要展示一次工作过程、就能帮你生成代理的 agent，相当于把一次手工演示固化成可复用的自动化代理。它适合希望快速把既有流程变成 agent、又不想从头搭建脚手架的人。目前公开信息只有这句定位，具体实现未公布。",
+    "summary_en": "Caddi is an agent that creates other agents after you show it your workflow once. It's aimed at teams that want to turn a manual process into a reusable automation without writing agent scaffolding from scratch. Only this pitch is public; no technical details have been released.",
+    "input_hash": "2f29720f0327"
+  },
+  "hn-49468083": {
+    "summary_zh": "Cloudflare 团队分享了为 1.1.1.1 DNS 缓存（代号 Big Pineapple）做的 5 项 Rust 层内存优化，单条缓存记录内存占用降低 56%，整个服务集群释放约 100 TB 内存。对做 DNS 基础设施或大规模 Rust 性能优化的工程师有直接参考价值。",
+    "summary_en": "Cloudflare describes five Rust-level memory optimizations applied to the DNS cache layout behind 1.1.1.1 (internally codenamed Big Pineapple). Per-entry memory dropped by 56%, freeing roughly 100 TB of memory across the company's fleet. Worth reading if you work on DNS infrastructure or large-scale Rust performance tuning.",
+    "input_hash": "b3ae79d1e8b9"
+  },
+  "36kr-3958937888609920": {
+    "summary_zh": "智谱（Zhipu）被形容为“牛到家”，标题称其第一刀就砍向DeepSeek，表明智谱在战略上直接对标DeepSeek。不过该条没有正文，原文未提供更多细节。",
+    "summary_en": "The headline reports that Zhipu, described as 'impressive,' is taking its first swing at DeepSeek, clearly signaling a direct competitive move. That's all we have, since the linked page isn't summarized here; details beyond the title aren't available. The original piece might contain more context, but it is not included in this digest.",
+    "input_hash": "492f51312f98"
+  },
+  "36kr-3958606256274823": {
+    "summary_zh": "阿里上线了全新编程产品 Qoder，标题称这终于让编程能力“外溢”。该条没有正文，原文未提供更多细节。",
+    "summary_en": "Alibaba has launched Qoder, a new coding product, and the headline suggests it finally lets the company's programming capabilities spill outward. No concrete details are provided here, so functionality, pricing, and availability remain unknown. The linked page isn't summarized here; details beyond the title aren't available. Readers looking for specifics will need to consult the original article.",
+    "input_hash": "7c3ff5d9f5a8"
+  },
+  "hn-49462763": {
+    "summary_zh": "Microduck 是 25 厘米高、15 个电机、带摄像头与 LiDAR 的双足机器人，鸟喙可抓取物体，开箱即玩。它的开源软件栈支持先在仿真中训练新行为，再部署到真机运行，预售价 399 美元。适合想低成本进入双足机器人或 sim-to-real 方向的开发者。",
+    "summary_en": "Microduck is a 25 cm biped robot with 15 motors, a camera, LiDAR, and a grasping beak. It is playable out of the box, and its open-source stack lets you train new behaviors in simulation before deploying them to the real robot. At a $399 pre-order price, it appeals to hobbyists and researchers exploring robot learning on a budget.",
+    "input_hash": "9adccf752647"
+  },
+  "hn-49448210": {
+    "summary_zh": "这条 Hacker News 帖子标题为 Qwen3.8-Flash-Next，提交内容只附带了 imageat.com 上的一个模型页链接，没有任何介绍文字。无法确认它是模型版本、演示项目还是其他资源；原文是链接，未提供更多细节。",
+    "summary_en": "This Hacker News post is titled “Qwen3.8-Flash-Next” and links only to an imageat.com model page, with no description in the submission. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "7534cef8cafe"
+  },
+  "36kr-3958688934083714": {
+    "summary_zh": "这篇 36kr 文章标题为《小龙绕过办公 agent》，但摘要条目没有附带正文或描述，无法确认报道对象、具体场景和结论。原文是链接，未提供更多细节，需要点开原文才能了解故事全貌。",
+    "summary_en": "This 36Kr article is titled “Xiaolong bypasses the office agent” (小龙绕过办公 agent), but the digest entry provides no body text or description. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "d6554038f62f"
+  },
+  "36kr-3958567373864320": {
+    "summary_zh": "标题称 GPT-5.6 进入 Claude 擅长的编程场景，重新计算成本账：只降价 20%，账单却减少八成。该条目没有附正文或摘要，具体套餐、对比基线和算账方式均无从验证。原文是链接，未提供更多细节。",
+    "summary_en": "The title says GPT-5.6 is moving into Claude's coding territory and rewriting the cost math: a 20% price cut reportedly leads to an 80% lower bill. However, this 36Kr entry includes no body text, so the specific plan, baseline, and calculation method can't be verified. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "684b9168bda7"
+  },
+  "36kr-3958567414070663": {
+    "summary_zh": "根据标题，OpenAI 的 Codex 内部代码被曝光，设计上不强制休眠、不停机，被形容为「永动机」。原文是链接，未提供更多细节。",
+    "summary_en": "Based on the title alone, internal code for OpenAI's Codex appears to avoid forced sleep and never stops, earning the 'perpetual motion machine' label. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "00b98999c4b9"
+  },
+  "36kr-3959072129252485": {
+    "summary_zh": "标题显示黄仁勋宣称英伟达已实现 AGI。原文是链接，未提供更多细节。",
+    "summary_en": "The headline quotes Jensen Huang claiming NVIDIA has achieved AGI. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "774e38e9755c"
+  },
+  "36kr-3958922751137671": {
+    "summary_zh": "标题称 Claude 终于内置浏览器，并指出豆包在办公场景早已如此，千问等模型可能也绕不开这一趋势。原文是链接，未提供更多细节。",
+    "summary_en": "The headline says Claude finally gets a built-in browser, notes Doubao already did this for work scenarios, and suggests Qwen and similar models may have to follow. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "90f94e3c91a0"
+  },
+  "36kr-3958891437915269": {
+    "summary_zh": "据标题，出国留学人数已降至十年前水平，文章探讨年轻人留学意愿下降的原因。原文是链接，未提供更多细节。",
+    "summary_en": "The headline reports that the number of students studying abroad has dropped to levels last seen ten years ago, and asks why fewer young people want to study overseas. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "c9d7cbb5fbcc"
+  },
+  "gh-daily-tailscale-tailcat": {
+    "summary_zh": "Tailcat 是 Tailscale 开源的 netcat 替代品，基于其数据面（magicsock）做点对点 WireGuard 加密隧道，但不依赖控制面，连接元数据由用户带外交换。提供 CLI 和 Go 库，适合临时加密点对点连接。",
+    "summary_en": "Tailcat is an open-source netcat-like tool from Tailscale, built on Tailscale's data plane (magicsock) to create point-to-point WireGuard-encrypted tunnels, but it skips the Tailscale control plane by exchanging connection metadata out of band. It ships as both a CLI and a Go importable library, making it useful when you want an ephemeral encrypted connection without onboarding a control plane.",
+    "input_hash": "9fa94e859a13"
+  },
+  "zhihu-2075956678424635296": {
+    "summary_zh": "曝光称多家背景调查公司可低价（仅30元）调取个人社保记录，引发对数据来源与合法性的追问。该问题将矛头指向背调行业的数据获取链条是否涉及违规或违法。原文是链接，未提供更多细节。",
+    "summary_en": "This question cites reports that multiple background-check companies can access personal social-security records for as little as 30 yuan, raising concerns about how they obtain the data and whether such practices are legal. It highlights potential privacy violations in the industry. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "e9239d088ef1"
+  },
+  "zhihu-2074767872866383641": {
+    "summary_zh": "此问题讨论一位父亲为防女儿早恋而带其到处旅游、故意晒黑的做法，质疑这种策略的实际效果。它折射出家长对青春期恋爱的焦虑，以及传统管教手段是否科学。原文是链接，未提供更多细节。",
+    "summary_en": "This question describes a father who took his daughter on trips and deliberately let her get tanned to discourage early romance, asking whether such tactics actually work. It reflects parental anxiety about teenage dating and the effectiveness of unconventional discipline. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "6acebcffee68"
+  },
+  "zhihu-2076605797715424941": {
+    "summary_zh": "该问题谈到澳大利亚将蟑螂改造为可通过遥控系统向灾害废墟受困者送药的赛博急救员，并探讨灾难救援中动物与纯机器人的取舍。它指向生物与机器人结合的救援技术路线及其伦理争议。原文是链接，未提供更多细节。",
+    "summary_en": "This question discusses reports from Australia about turning cockroaches into cyborg first responders that can deliver medicine to people trapped in disaster rubble via remote control, and asks whether such missions should use animals or pure robots. It raises ethical and practical questions about bio-robot hybrids in rescue operations. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "06fb6babf440"
+  },
+  "zhihu-2076400121282147077": {
+    "summary_zh": "该问题引用媒体人称姚明在 NBA 的收入也面临分成，舆论施压后最终仅缴纳税后收入的 3%-5%，并追问此事背后的含义。它涉及名人收入分配、舆论与规则之间的博弈。原文是链接，未提供更多细节。",
+    "summary_en": "This question cites a media claim that Yao Ming's NBA income was also subject to revenue sharing, and that after public pressure he ultimately paid only 3%-5% of his after-tax income. It asks what this implies about celebrity earnings and negotiation dynamics. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "bc710bab9233"
+  },
+  "zhihu-2076024925496636848": {
+    "summary_zh": "该问题指出尼泊尔一侧发生泥石流，导致西藏吉隆口岸出现重大人员伤亡与失联，并追问此次灾害为何破坏力如此强。它可能涉及地质与跨境气象因素的叠加。原文是链接，未提供更多细节。",
+    "summary_en": "This question refers to a mudslide on the Nepalese side that caused heavy casualties and disappearances at Gyirong port in Tibet, and asks why this event was so severe. It points to potential geological and cross-border meteorological factors, though no specifics are given. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "859cb04829eb"
+  },
+  "zhihu-2076823659071680517": {
+    "summary_zh": "美联储主席沃什表示，若通胀未明显回落，仍可能加息，并誓言实现 2% 的目标；黄金价格随即直线跳水。原文是链接，未提供更多细节。",
+    "summary_en": "Federal Reserve Chair Warsh signaled that rate hikes are still possible if inflation does not clearly fall, reaffirming the 2% target; gold prices plunged in response. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "922f28f9265b"
+  },
+  "gh-daily-JetBrains-go-modern-guidelines": {
+    "summary_zh": "JetBrains 发布官方项目 go-modern-guidelines，指导 AI 编程智能体写现代 Go：如用 max(a,b)、slices.Contains、cmp.Or 替代旧语法。规范覆盖到 Go 1.27，含 Go 1.26 的 new(42)、errors.AsType[T]；智能体根据 go.mod 判断项目 Go 版本，只采用对应版本的新特性，以缓解模型训练数据滞后问题。",
+    "summary_en": "JetBrains released go-modern-guidelines, an official project that teaches AI coding agents to write modern Go. It replaces older patterns with stdlib APIs like max(a,b), slices.Contains, and cmp.Or, and covers features from Go 1.0 through 1.27 — including Go 1.26's new(42) and errors.AsType[T]. Agents read the project's go.mod to use only APIs available in that Go version, countering outdated training data.",
+    "input_hash": "fe80d6faace7"
+  },
+  "zhihu-2073805227866773343": {
+    "summary_zh": "知乎上有网友提问：根号 15 和根号 17 哪一个更接近 4？原文是链接，未提供更多细节。",
+    "summary_en": "A Zhihu question asks which number is closer to 4: √15 or √17. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "bff8b45d8985"
+  },
+  "juejin-7674794074013024310": {
+    "summary_zh": "文章以2026—2035年为周期，面向高级前端开发者做职业规划，指出互联网行业已从扩张期进入存量期，前端岗位面临更特殊的竞争压力，同时AI浪潮带来新机会。内容还解读了“35岁现象”的本质，并给出35岁前的行动建议，适合需要长期规划的前端工程师阅读。",
+    "summary_en": "This career-planning article covers 2026–2035 for senior front-end developers, arguing that the internet industry has shifted from expansion to a stock market phase, with front-end roles facing particular pressure and AI creating new opportunities. It also analyzes the \"35-year-old phenomenon\" and offers advice for the years before 35. Relevant for front-end engineers planning long-term growth.",
+    "input_hash": "cd4a49a91160"
+  },
+  "gh-daily-anthropics-claude-plugins-official": {
+    "summary_zh": "Anthropic 官方推出的 Claude Code 插件目录，分为内部插件和第三方外部插件两类。安装方式是在 Claude Code 中运行 `/plugin install {plugin-name}@claude-plugins-official`；Anthropic 提醒用户安装前需自行评估信任度，外部插件需要通过质量和安全审核才能上架。适合正用 Claude Code 做开发、想扩展功能的用户。",
+    "summary_en": "Anthropic's official directory for Claude Code plugins, split into internal plugins maintained by Anthropic and external plugins from partners and the community. Plugins are installed via `/plugin install {plugin-name}@claude-plugins-official`; Anthropic warns that third-party plugins aren't verified, so trust must be assessed before use. Relevant for developers using Claude Code who want to extend its capabilities.",
+    "input_hash": "6ad9de8f01b4"
+  },
+  "zhihu-4023337465": {
+    "summary_zh": "这是一个知乎提问，标题请人解释 AI infra（AI 基础设施）具体做什么。原帖只有标题，没有正文，因此无法提供更多细节。",
+    "summary_en": "This is a Zhihu question asking someone to explain what \"AI infra\" actually does. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "b373be000eae"
+  },
+  "zhihu-425890753": {
+    "summary_zh": "这是一个知乎提问，想了解国内蜂群无人机目前的发展水平。原帖只有标题，没有正文内容，因此无法提供更多细节。",
+    "summary_en": "This is a Zhihu question asking how far domestically produced swarm drones have developed in China. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "1c5a9ee4f9fd"
+  },
+  "gh-daily-jenkinsci-jenkins": {
+    "summary_zh": "Jenkins 自动化服务器的官方 GitHub 仓库，也是该项目的主要维护入口，本周出现在 GitHub 趋势榜上。仓库描述只有“自动化服务器”一句，更多更新细节未提供。",
+    "summary_en": "The official GitHub repository for Jenkins, the widely used automation server. It appears in this GitHub trending list. Beyond the repository name and the \"automation server\" description, no further details are provided in this digest.",
+    "input_hash": "fc86a0cafe38"
+  },
+  "gh-monthly-MadsLorentzen-ai-job-search": {
+    "summary_zh": "这个开源项目是基于 Claude Code 的 AI 求职应用框架，完全在本地运行，涵盖评估职位信息、定制简历、撰写求职信和面试准备等环节。它是可自主 Fork 和定制的工作流模板，适合想用 Claude Code 自动化求职流程的开发者。",
+    "summary_en": "This open-source project is an AI job application framework built on Claude Code, designed to run on your own machine. It automates the full pipeline: evaluating job postings, tailoring CVs, writing cover letters, and prepping for interviews. Since it's forkable, developers can own and customize the workflow to fit their specific job-search needs.",
+    "input_hash": "a5cb458f9c7f"
+  },
+  "gh-monthly-bojieli-ai-agent-book": {
+    "summary_zh": "这是李博杰所著《深入理解 AI Agent：设计原理与工程实践》的开源主仓库，包含全书正文、编译版 PDF 以及按章节配套的代码。适合想系统学习 AI Agent 设计原理和工程实践、并希望结合代码阅读的开发者。",
+    "summary_en": "This is the open-source main repository for Li Bojie's \"深入理解 AI Agent: 设计原理与工程实践\" (Understanding AI Agents: Design Principles and Engineering Practice), housing the full text, a compiled PDF, and chapter-by-chapter companion code. It's for developers who want to study AI agent design and engineering systematically, with code to follow along.",
+    "input_hash": "8f5e64bc21c0"
+  },
+  "gh-monthly-emilkowalski-skills": {
+    "summary_zh": "这个仓库面向设计师和工程师，但描述只有一句 \"Skills for Designers and Engineers\"，没有列出具体技能。更多细节未在本次摘要中提供，需要查看 GitHub 页面。",
+    "summary_en": "A repository called \"skills\" aimed at designers and engineers, but the description is only the single line \"Skills for Designers and Engineers\"—no list of skills or further details. The linked page isn't summarized here; details beyond the title aren't available. Interested readers can check the GitHub repository directly for more information.",
+    "input_hash": "eda5ee8aa016"
+  },
+  "v2ex-bed22d931080": {
+    "summary_zh": "作者把《我的女友景甜》直接发给 Codex 5.6-sol，不给任何提示词，让它自由发挥。Codex 用 30 分钟做出了几个小游戏，作者随后上架到小程序。这个案例展示了无提示词时 AI 根据输入内容自主生成可玩内容的可能性，适合对 AI 编程和快速原型感兴趣的人。",
+    "summary_en": "The author sent the work 'My Girlfriend Jing Tian' to Codex 5.6-sol with zero prompting and let it do its own thing. Codex produced several small games in about 30 minutes, which the author then published to a mini-program. This example shows an AI turning arbitrary input into playable content without explicit guidance, making it interesting for developers exploring AI-driven coding and rapid prototyping.",
+    "input_hash": "e6008e71c401"
+  },
+  "v2ex-0261b2bf991a": {
+    "summary_zh": "CardFi 是作者将 H5 版「卡集」升级为 iOS 和 Android 应用，共收录 300 多张 U 卡及其他卡片信息，覆盖申请条件、费用、返现、使用地区及 Apple Pay、Google Pay 支持情况。上线次日即收到第一笔付费订阅。相比网页版，App 增加了多卡片对比、收藏、钱包管理，并接入 AI 选卡、卡片分析和账单费率计算，适合经常比较信用卡权益的用户。",
+    "summary_en": "CardFi is the mobile app version of the developer's earlier H5 site, now available on iOS and Android, cataloging 300+ U cards and other cards with details on requirements, fees, cashback, supported regions, and Apple Pay/Google Pay compatibility. It earned its first paid subscription the day after launch. The app adds multi-card comparison, favorites, wallet management, and AI-assisted card selection, analysis, and fee calculation, making it useful for users comparing card benefits.",
+    "input_hash": "c6df0e427cb9"
+  },
+  "v2ex-3b3ec161b7b6": {
+    "summary_zh": "作者为 Wan 3.0 搭建了在线 AI 视频工作台，集成了文生视频、图生视频、首尾帧控制和多模态参考等工作流；但他认为真正关键的是一套可复现的测试方法。该方法要求固定输入、预先定义通过标准、每轮只改一个变量，并记录失败标签，用“总生成与重试成本 ÷ 通过片段数”计算真实成本，因为失败样本比精选样片更能说明模型能否进入真实项目。",
+    "summary_en": "The author built an online AI video workbench for Wan 3.0, featuring text-to-video, image-to-video, first/last frame control, and multimodal reference workflows. More importantly, he proposes a reproducible evaluation methodology: fixed inputs, pre-defined acceptance criteria, one variable changed per run, and systematic logging of failures. He argues that failed samples matter more than polished demos, and suggests measuring real cost as total generation/retry spend divided by the number of usable clips, helping teams decide if AI video is production-ready.",
+    "input_hash": "45daa333576a"
+  },
+  "ph-1228394": {
+    "summary_zh": "PageIndex 是 Product Hunt 上的一款工具，定位是在专业文档中提供准确、可信的答案。该条目目前只有一句简介，没有给出技术实现、适用场景或具体功能等更多细节。",
+    "summary_en": "PageIndex is a product listed on Product Hunt, positioned as a tool that provides accurate, trustworthy answers from professional documents. Only this one-line description is available; no technical implementation, use cases, or functionality are provided in the entry, so details beyond the title and tagline aren't available.",
+    "input_hash": "a7d61b392662"
+  },
+  "36kr-3958688993082499": {
+    "summary_zh": "黄仁勋在最新采访中表示，内存涨价是好事。原文是链接，未提供更多细节，因此无法补充其具体理由或背景。",
+    "summary_en": "Jensen Huang said in a recent interview that rising memory prices are a good thing. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "500520fb7ec7"
+  },
+  "hn-49466917": {
+    "summary_zh": "在这篇博文中，Calvin French-Owen 用自己的实测说明小型模型已经够用：gpt-5.6-luna 速度快（约 100 tokens/s）、能力强，处理数千封邮件的大任务 API 成本也只有几十美分。他借此解释投资者困惑的\"为何没看到更多消费级 AI 公司\"——过去 token 成本是瓶颈，而 GLM 5.3 等新模型正处在性价比前沿。",
+    "summary_en": "In this post, Calvin French-Owen argues that small AI models have arrived, citing his hands-on experience with gpt-5.6-luna — it's fast (~100 tps), capable, and costs only tens of cents even when searching across thousands of emails. He connects this to why consumer AI companies are scarce: token costs used to be the bottleneck. GLM 5.3 is also mentioned as a new Pareto-frontier option.",
+    "input_hash": "45445f53bab0"
   }
 }
