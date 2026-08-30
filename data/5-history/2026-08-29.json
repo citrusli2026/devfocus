@@ -3322,7 +3322,9 @@
       "gh_period": "daily",
       "first_seen": "2026-08-29",
       "domain": "github.com",
-      "quality_score": 30.0
+      "quality_score": 30.0,
+      "summary_zh": "Heretic 是一款针对 transformer 语言模型的自动去审查工具，用方向消融（directional ablation，即 abliteration）移除“安全对齐”，无需昂贵后训练。适合研究模型审查机制、做红队测试或复现对齐移除方法的开发者，项目已提供 Discord、Matrix 和 Hugging Face 社区入口。",
+      "summary_en": "Heretic is a tool that automatically removes censorship (also called safety alignment) from transformer-based language models using directional ablation, a.k.a. abliteration, without expensive post-training. It should interest researchers and red-teamers who want a reproducible way to strip alignment and study how models behave after unalignment. Community channels include Discord, Matrix, and Hugging Face."
     },
     {
       "id": "gh-daily-bigskysoftware-htmx",
@@ -3659,7 +3661,9 @@
       "gh_period": "monthly",
       "first_seen": "2026-08-07",
       "domain": "github.com",
-      "quality_score": 35.4
+      "quality_score": 35.4,
+      "summary_zh": "reverse-skill 是一个面向逆向工程、授权渗透测试和安全研究的技能路由包，核心特性包括 AI 驱动的路由、按需工具链启动和自进化知识库，且支持 Claude Code。适合用 AI 辅助安全分析、希望按任务动态组装工具链的开发者。",
+      "summary_en": "reverse-skill is a skill router pack for reverse engineering, authorized penetration testing, and security research. It combines AI-powered routing, on-demand toolchain bootstrapping, and a self-evolving knowledge base, with support for Claude Code. Security analysts and red-teamers who use AI assistants will find it useful for dynamic tooling."
     },
     {
       "id": "gh-monthly-cactus-compute-needle",
@@ -3763,7 +3767,9 @@
       "gh_period": "monthly",
       "first_seen": "2026-08-03",
       "domain": "github.com",
-      "quality_score": 34.7
+      "quality_score": 34.7,
+      "summary_zh": "archify 是一个面向 AI agent 的技能包，可生成架构、工作流、时序、数据流和生命周期图，并以自带动效、可清晰导出的独立 HTML 形式输出。适合需要让 agent 自动产出可验证图表文档的开发者。",
+      "summary_en": "Archify is an agent skill designed to produce architecture, workflow, sequence, data-flow, and lifecycle diagrams. Its output is self-contained HTML with motion and crisp export, making it easy to embed or share. Developers using AI coding agents will appreciate having verifiable diagram generation built into the toolchain."
     },
     {
       "id": "gh-monthly-usekaneo-kaneo",
@@ -4041,7 +4047,9 @@
       ],
       "first_seen": "2026-08-29",
       "domain": "producthunt.com",
-      "quality_score": 41.4
+      "quality_score": 41.4,
+      "summary_zh": "OpenTag 是一个常驻 Slack 和 Teams 的 AI 同事，能把 AI 助手直接嵌入团队日常沟通与协作流程。对于以 Slack 或 Teams 为主要工作台的团队，这类工具可以减少切换应用的成本。",
+      "summary_en": "OpenTag is an AI coworker that lives on Slack and Teams, embedding AI help directly into chat and collaboration. It's especially relevant for teams that work mainly inside these tools and want AI support without switching apps."
     },
     {
       "id": "ph-1214277",
@@ -4134,7 +4142,9 @@
       ],
       "first_seen": "2026-08-28",
       "domain": "producthunt.com",
-      "quality_score": 28.7
+      "quality_score": 28.7,
+      "summary_zh": "Gemini 3.5 Transcribe 在 Product Hunt 上线，官方称这是目前最精准的语音转文字模型。做会议纪要、字幕生成或语音助手的开发者，可以把它的转写准确率与现有服务做对比后纳入选型。",
+      "summary_en": "Gemini 3.5 Transcribe is now listed on Product Hunt, positioned as the team's most precise speech-to-text model yet. Developers who build meeting notes, captions, or voice assistants should run their own accuracy and latency benchmarks before moving from an existing provider. The headline claim matters most for pipelines where transcription errors propagate into later language-model steps."
     },
     {
       "id": "ph-1231551",
@@ -5097,7 +5107,9 @@
       "tags": [],
       "first_seen": "2026-08-29",
       "domain": "infoq.cn",
-      "quality_score": 45.6
+      "quality_score": 45.6,
+      "summary_zh": "阿里千问8月26日发布并开源多模态MoE模型Qwen3.8-Flash：主参数125B，每Token只激活6B，输入/输出每百万Token定价0.8/2.7元。千问办公标准模式同步上线，生成速度提升约100%、Token消耗减少75%，可覆盖约95%日常任务，降低Agent使用成本。",
+      "summary_en": "Alibaba Qwen released and open-sourced Qwen3.8-Flash on Aug 26, a multimodal MoE model with 125B main parameters and only 6B activated per token, priced at 0.8 yuan input / 2.7 yuan output per million tokens. The Qianwen Office standard mode built on it boosts single-task generation speed by about 100% and cuts average token consumption by 75%, covering roughly 95% of routine office tasks. The combination makes agent-assisted office work dramatically cheaper while keeping quality."
     },
     {
       "id": "infoq-SD7eGfAXrr5K0spls5LO",

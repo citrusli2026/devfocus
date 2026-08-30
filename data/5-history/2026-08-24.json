@@ -3487,7 +3487,9 @@
       "gh_period": "daily",
       "first_seen": "2026-08-24",
       "domain": "github.com",
-      "quality_score": 30.0
+      "quality_score": 30.0,
+      "summary_zh": "GitHub 趋势项目 FreeLLMAPI 将 34 家免费 LLM 提供方的 635 个端点聚合到单个 OpenAI 兼容 /v1 API，宣称每月可用 74 亿 tokens。它内置智能路由、限流自动切换和加密 key 存储，并按 key 跟踪用量以避开各家免费额度上限。适合想统一接入多个免费大模型 API 的开发者，MIT 开源且提供 Docker 镜像。",
+      "summary_en": "FreeLLMAPI, a trending GitHub project, aggregates 34 free LLM providers and 635 model endpoints behind a single OpenAI-compatible /v1 API, advertising 7.4 billion tokens per month. It handles smart routing, automatic failover on rate limits, encrypted key storage, and per-key usage tracking to keep you under each free-tier cap. Developers who want one endpoint for many free model APIs will find it useful; the project is MIT-licensed and ships a Docker image."
     },
     {
       "id": "gh-daily-dani-garcia-vaultwarden",
@@ -3646,7 +3648,9 @@
       "gh_period": "monthly",
       "first_seen": "2026-08-07",
       "domain": "github.com",
-      "quality_score": 34.9
+      "quality_score": 34.9,
+      "summary_zh": "reverse-skill 是一个面向逆向工程、授权渗透测试和安全研究的技能路由包，核心特性包括 AI 驱动的路由、按需工具链启动和自进化知识库，且支持 Claude Code。适合用 AI 辅助安全分析、希望按任务动态组装工具链的开发者。",
+      "summary_en": "reverse-skill is a skill router pack for reverse engineering, authorized penetration testing, and security research. It combines AI-powered routing, on-demand toolchain bootstrapping, and a self-evolving knowledge base, with support for Claude Code. Security analysts and red-teamers who use AI assistants will find it useful for dynamic tooling."
     },
     {
       "id": "gh-monthly-microsoft-AI-For-Beginners",

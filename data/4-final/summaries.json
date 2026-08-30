@@ -1059,9 +1059,9 @@
     "input_hash": "ef4de0757ed8"
   },
   "juejin-7637856870833635343": {
-    "summary_zh": "作者从 2025 年 4 月用到 2026 年 4 月，因 Cursor 转向按量计费后费用不可预测，公司决定改用 OpenAI Codex。体验半个月后，作者认为 Codex 不仅是编程助手，更像一个真正的超级 Agent，而 Cursor 的优势在于贴近编辑器、支持 Tab 补全和主流模型切换。",
-    "summary_en": "After a year on Cursor, the author's company switched to OpenAI Codex in April 2026 because Cursor moved to usage-based pricing that became more expensive and unpredictable. Two weeks into the switch, he sees Codex as a genuine super-agent, not just a coding assistant, while Cursor's strengths remain in tight editor integration, Tab completion, and the freedom to choose mainstream models.",
-    "input_hash": "cf3d5401aeb1"
+    "summary_zh": "这篇个人评测记录作者从 Cursor 转用 Codex 大半个月的体验：作者称 Cursor 让他第一次强烈感受到 AI 编程能力，而 Codex 让他第一次觉得 AI 不只是编程助手，而是接近下一阶段形态的“超级 Agent”。适合正在选型 AI 编程工具的开发者参考。",
+    "summary_en": "This article shares the author's experience after switching from Cursor to Codex for over two weeks. They say Cursor gave them their first strong sense of AI-assisted coding, while Codex felt like a true super-agent rather than just an assistant, closer to the next stage of AI programming. A useful read for developers choosing between AI coding tools.",
+    "input_hash": "72d412342830"
   },
   "juejin-7646004870782550050": {
     "summary_zh": "2026年5月GitHub十大热门项目排行榜出炉，社区火力集中在“把Agent做进工程化工作流”这一主题上。这些项目不仅能够节省Token开销、记住对话上下文，还能编排多个Agent协作并产出高质量内容。对于开发者和技术团队来说，它们意味着更高效的AI工程化落地方案，让大模型从玩具变成真正的生产力工具。",
@@ -1321,9 +1321,9 @@
     "summary_en": "Reframe is a browser extension that recreates the classic web browsing experience of 1999, complete with retro interface designs, pixelated fonts, and nostalgic visual elements. It goes beyond mere theming by simulating the actual feel of early internet navigation, offering users a time-travel-like journey to the dawn of the web. This tool appeals to nostalgic users who long for the simplicity of early online days and to younger generations curious about digital history, providing a fun, immersive way to appreciate how far the web has come."
   },
   "juejin-7650882103059939337": {
-    "summary_zh": "文章介绍一种 5 步配置：注册 ZenMux 创建 API Key（需限制模型），再通过 cc switch 或 Cherry Studio 免费调用 DeepSeek V4 flash/pro 模型。测试时模型自称最新版但“不是 DeepSeek-v4”，需留意实际身份；文中还提到可接入 Claude Code。适合想省 API 费用的开发者。",
-    "summary_en": "The article walks through a 5-step setup to call DeepSeek V4 flash/pro free tiers in local tools: register on ZenMux, create an API key with model restrictions, and configure cc switch or Cherry Studio. In a test, the model said it was the latest DeepSeek version but \"not DeepSeek-v4,\" so the actual identity needs checking. It's aimed at developers who want to save API fees; cc switch can also feed the endpoint to Claude Code.",
-    "input_hash": "31039c27464b"
+    "summary_zh": "一篇掘金文章介绍如何通过 5 步配置，在本地工具里直接调用 DeepSeek V4 Pro 的免费额度，无需充值；标题还称可接入 Claude-Code。教程标榜“白嫖”，适合想低成本体验该模型 API 的开发者。不过现有描述只到开头部分，完整配置步骤需打开原文查看。",
+    "summary_en": "A Juejin article walks through a five-step setup for calling DeepSeek V4 Pro's free quota from local tools without paying, and the title claims it can also plug into Claude-Code. It's aimed at developers who want low-cost access to the model API. Only the opening of the article appears in the description here; the full steps require opening the original link.",
+    "input_hash": "a450cd4be0ed"
   },
   "gh-daily-bytedance-deer-flow": {
     "summary_zh": "字节跳动开源了DeerFlow，一个面向长期任务的超级智能体框架。它能够自主进行研究、编码和创作，借助沙箱环境、记忆模块、工具调用、技能学习和子代理协作来应对复杂场景。对于需要构建可扩展AI工作流的开发者来说，这提供了一个灵活且强大的基础工具。",
@@ -2531,7 +2531,8 @@
   },
   "gh-monthly-OpenCut-app-OpenCut": {
     "summary_zh": "OpenCut 是一款开源的视频编辑工具，旨在成为 CapCut 的替代品。它完全免费，支持多平台使用，用户无需付费即可获得强大的剪辑功能。对于想要摆脱商业软件限制的创作者来说，OpenCut 提供了极高的可定制性和透明度，让视频编辑更加自由。",
-    "summary_en": "OpenCut is an open-source video editor designed as a free alternative to CapCut. It offers powerful editing features without any subscription or watermark, making it ideal for content creators who want full control over their tools. The project is cross-platform and community-driven, ensuring transparency and continuous improvement. For anyone tired of paid video editors or restrictive platforms, OpenCut provides a flexible and privacy-respecting solution."
+    "summary_en": "OpenCut is an open-source video editor designed as a free alternative to CapCut. It offers powerful editing features without any subscription or watermark, making it ideal for content creators who want full control over their tools. The project is cross-platform and community-driven, ensuring transparency and continuous improvement. For anyone tired of paid video editors or restrictive platforms, OpenCut provides a flexible and privacy-respecting solution.",
+    "input_hash": "b876edd07cb7"
   },
   "gh-daily-microsoft-AI-For-Beginners": {
     "summary_zh": "微软推出的《AI for Beginners》课程是一套为期12周、共24课时的免费学习资源，专为零基础学习者设计。课程覆盖机器学习、神经网络、计算机视觉等核心主题，结合实践项目，帮助初学者系统掌握人工智能基础。无论学生还是转行者，都能借此轻松入门AI领域。",
@@ -3217,9 +3218,9 @@
     "summary_en": "Trending on HN: 用 Cesium 撸了一个森林火情监控大屏，弧线、粒子、发光效果都齐了"
   },
   "juejin-7657794899357761570": {
-    "summary_zh": "这份 2026 年 6 月榜单从约 20 个候选中选出十个项目，主线包括 Agent 感知、视频生产、技能市场等。其中 Agent-Reach 以 48.8K stars 领跑，月增约 2.7 万，主打零 API 费的跨平台内容接入；OpenMontage 自称全球首个开源 Agent 视频制片系统，内置 12 条管线、52 个工具和 500+ Skills。",
-    "summary_en": "The June 2026 ranking picks ten projects from ~20 candidates, centered on agent perception, video production, and skill marketplaces. Agent-Reach leads with 48.8K stars (+27K this month), offering zero-API-fee access to platforms like Twitter and GitHub via a single CLI. OpenMontage, billed as the first open-source agent video production system, packs 12 pipelines, 52 tools, and 500+ agent skills.",
-    "input_hash": "3ac2c1f2953b"
+    "summary_zh": "榜单盘点 2026 年 6 月 GitHub 十大热门开源项目，聚焦 Agent 感知、技能市场、视频生产、代码智能与并行编排五条主线。适合跟踪开源趋势的开发者快速了解本月社区热点。",
+    "summary_en": "A list of June 2026's top 10 trending open-source projects on GitHub, grouped around five themes: agent perception, skill marketplaces, video production, code intelligence, and parallel orchestration. It's a quick overview for developers tracking what's getting traction in the open-source community this month.",
+    "input_hash": "f778d5b4e262"
   },
   "zhihu-2055415968537618014": {
     "summary_zh": "HN 热门：如何看待字节员工靠炒美股财富自由后离职，称投资比大厂升职更容易实现财务自由？",
@@ -3370,8 +3371,9 @@
     "summary_en": "This is a curated collection of awesome lists covering a vast range of interesting topics, maintained by developer sindresorhus. From programming tools to life hacks, the project has become the de facto gateway for discovering high-quality resources on GitHub. Whether you're looking for frameworks, books, or learning materials, the community-vetted lists save you hours of searching. Its significance lies in drastically reducing information filtering costs, making it an essential bookmark for any developer who wants quick access to the best content in any niche."
   },
   "gh-daily-mvanhorn-last30days-skill": {
-    "summary_zh": "这是一个AI代理技能，能够跨Reddit、X、YouTube、Hacker News、Polymarket及整个网络搜索任意主题，并综合生成有据可依的摘要。它的独特之处在于聚合多源信息后给出带引用的总结，把散落在各平台的观点和事实整合成一份可信的简报。非常适合需要快速掌握某个话题舆论动向或最新进展的研究者、记者和投资者。",
-    "summary_en": "This is an AI agent skill that researches any topic across Reddit, X, YouTube, Hacker News, Polymarket, and the broader web, then synthesizes a grounded summary with citations. Its strength lies in aggregating fragmented information from diverse platforms into a single, credible briefing, complete with references. This is a game-changer for researchers, journalists, and investors who need to quickly grasp the pulse of public opinion or the latest developments on a subject without manually combing through dozens of tabs."
+    "summary_zh": "这是一个 AI agent 技能：针对任意主题跨 Reddit、X、YouTube、Hacker News、Polymarket 和网页检索，再综合成有依据的摘要。它强调由点赞、收藏和真金白银投票而非编辑决定结果，README 记录当前 v3 管线。适合做信息检索 Agent 或舆情研究的开发者参考。",
+    "summary_en": "last30days-skill is an AI-agent skill that researches a topic across Reddit, X, YouTube, Hacker News, Polymarket, and the web, then synthesizes a grounded summary. It's positioned as a search engine ranked by upvotes, likes, and real money rather than editors, and the README tracks the current v3 pipeline. Worth checking out for developers building research agents or working on AI-led search.",
+    "input_hash": "8233d7d29631"
   },
   "36kr-3884131364712711": {
     "summary_zh": "文章讲述了中国企业近期在欧洲的一系列投资与并购动作，让欧洲市场感到振奋。从新能源到高端制造，中国资本正以更加积极的姿态参与欧洲产业升级，为当地带来就业和技术合作机会。这种双向奔赴不仅帮助中国企业拓展全球布局，也让欧洲在低迷经济中找到了新的增长引擎，实现了真正的互利共赢。",
@@ -3490,9 +3492,9 @@
     "summary_en": "Octolens is a social listening tool built specifically for the age of AI agents. It monitors how brands are mentioned and perceived not only by humans but also by AI models, filling a critical gap in traditional sentiment analysis. As AI-generated content becomes more prevalent, companies can no longer rely solely on human conversations for brand intelligence. Octolens tracks discussions across social platforms where both users and AI bots interact, enabling marketing teams to understand how algorithms influence brand perception. Its real-time alerts and AI-aware insights help businesses adjust their strategies proactively. Marketers, PR professionals, and product managers who need to keep a finger on the pulse of both human and machine-driven brand mentions will find Octolens indispensable."
   },
   "juejin-7641048219231010862": {
-    "summary_zh": "掘金精选：我用AI做了个微信小游戏-上线了",
-    "summary_en": "Featured on Juejin: 我用AI做了个微信小游戏-上线了",
-    "input_hash": "01f5b64d1d0a"
+    "summary_zh": "这篇掘金文章公开了用 AI 开发微信小游戏并成功上线的完整技术流程，涵盖技术栈选择、Prompt 设计、踩坑清单和成本明细。适合打算用 AI 辅助开发微信小游戏或想了解真实端到端经验的开发者。文章最后还留有一个彩蛋。",
+    "summary_en": "This Juejin article offers a real, end-to-end account of building and shipping a WeChat mini-game with AI assistance. It discloses the tech stack, prompt design, a troubleshooting checklist and the full cost breakdown, plus a bonus at the end. It's a useful reference for developers planning AI-assisted WeChat mini-game development.",
+    "input_hash": "aedd5d750e9b"
   },
   "juejin-7659584269551501327": {
     "summary_zh": "在微服务架构中，分布式锁是保证数据最终一致性的关键，但传统Redis锁在高并发下常面临性能瓶颈和可靠性问题。本文深入剖析了这些痛点，并提出了一种增强型锁实现：在看门狗（Watch Dog）自动续期机制基础上引入等待队列和自适应自旋策略，显著减少了锁冲突时的资源浪费和延迟。对于后端架构师和中间件开发者来说，这篇文章从Redlock的局限性出发，一步步推导出更鲁棒的优化方案，兼具理论深度与实践价值。",
@@ -3807,8 +3809,9 @@
     "summary_en": "The AI landscape shifted overnight: OpenAI released GPT-5.6 with significant performance gains, yet simultaneously discontinued Codex, the well-known code generation tool. Meanwhile, Anthropic's Claude faces mounting pressure from the new release, likely forcing faster iterations to stay competitive. This rapid evolution demands developers quickly adapt to new tools, highlighting the breakneck pace of AI model competition."
   },
   "gh-daily-unclecode-crawl4ai": {
-    "summary_zh": "Crawl4AI 是一个为大型语言模型量身打造的开源网络爬虫工具，能高效抓取网页内容并整理成 AI 友好的格式。相比通用爬虫，它特别优化了数据清洗和结构化输出，让开发者可以直接用抓到的数据训练或测试语言模型。无论是收集训练集还是构建知识库，这个工具都能省下大量预处理时间。",
-    "summary_en": "Crawl4AI is an open-source web crawler designed specifically for large language models, efficiently scraping web content and formatting it into AI-friendly structures. Unlike general-purpose scrapers, it excels at data cleaning and structured output, allowing developers to directly use the fetched data for training or testing language models. Whether you're building a training dataset or a knowledge base, this tool saves significant preprocessing time."
+    "summary_zh": "Crawl4AI 是一个开源、面向 LLM 的网页爬虫与抓取器，通过 PyPI 提供 Python 包，方便 LLM 应用直接消费网页数据；官方 Cloud API 已进入 closed beta，主打可靠的大规模网页抽取。适合需要把网页内容喂给大模型做检索或自动化的开发者。",
+    "summary_en": "Crawl4AI is an open-source, LLM-friendly web crawler and scraper that gives model applications clean web data to consume, with a Python package on PyPI. Its Cloud API is now in closed beta and promises reliable large-scale web extraction. Developers who feed web content into LLM workflows or automation pipelines should take a look.",
+    "input_hash": "90347ae588dd"
   },
   "gh-daily-anthropics-claude-cookbooks": {
     "summary_zh": "Anthropic 官方在 GitHub 上发布了 Claude 菜谱合集，里面包含一系列 Jupyter 笔记和实用示例，展示了如何用 Claude 做文本分析、代码生成、多轮对话等高级任务。这些菜谱不仅教基础用法，还挖掘了很多创意场景，比如用 Claude 写剧本或模拟辩论。对于想深入研究 Claude 能力的开发者来说，这是绝佳的学习资源。",
@@ -5865,7 +5868,8 @@
   },
   "gh-monthly-koala73-worldmonitor": {
     "summary_zh": "这是一个基于AI的实时全球情报仪表盘，能够聚合新闻、监控地缘政治事件并追踪基础设施状态，用户可以通过统一的界面全面了解世界动态。它的价值在于为需要快速掌握全球局势的分析师、记者和企业决策者提供了强大的实时信息工具。",
-    "summary_en": "Worldmonitor is an AI-powered real-time global intelligence dashboard that aggregates news, monitors geopolitical events, and tracks infrastructure status in a single unified view. Designed for analysts, journalists, and business leaders, it enables rapid situational awareness and informed decision-making by consolidating diverse data streams into an accessible interface. Its significance lies in simplifying complex global monitoring and helping professionals stay ahead of critical developments."
+    "summary_en": "Worldmonitor is an AI-powered real-time global intelligence dashboard that aggregates news, monitors geopolitical events, and tracks infrastructure status in a single unified view. Designed for analysts, journalists, and business leaders, it enables rapid situational awareness and informed decision-making by consolidating diverse data streams into an accessible interface. Its significance lies in simplifying complex global monitoring and helping professionals stay ahead of critical developments.",
+    "input_hash": "63de9a63c551"
   },
   "gh-daily-Lordog-dive-into-llms": {
     "summary_zh": "这是一套名为《动手学大模型Dive into LLMs》的编程实践教程，通过动手操作帮助学习者深入理解大语言模型的工作原理和开发方法。它适合想从零开始构建和微调大模型的研究者和开发者，提供了丰富的代码示例和实战项目。在AI学习资源中，它强调理论与实践的结合，降低了大模型的学习门槛。",
@@ -11580,9 +11584,9 @@
     "input_hash": "332056478976"
   },
   "gh-daily-tt-a1i-archify": {
-    "summary_zh": "Archify 是一个基于 Node.js 的渲染与校验系统，支持 Cursor、Claude Code、Codex CLI 和 OpenCode，能在聊天中把代码库或系统描述变成可交互的系统图。它把 agent 输出的 JSON IR 编译为自包含 HTML/SVG，支持五种图表类型、四套预设、明暗主题，并用 Before/Delta/After 对比在合并前审查架构变化。",
-    "summary_en": "Archify is a Node.js rendering and validation system for Cursor, Claude Code, Codex CLI, and OpenCode. It turns a codebase or system description into an interactive system map directly in chat, compiling typed JSON IR into self-contained HTML/SVG. It ships with five diagram types, four presets, light/dark themes, and Before/Delta/After snapshots for reviewing architecture changes before merge.",
-    "input_hash": "6913892de076"
+    "summary_zh": "Archify 是一个基于 Node.js 的架构图渲染与校验系统，支持 Cursor、Claude Code、Codex CLI 和 OpenCode：Agent 生成类型化 JSON，Archify 再确定性编译成自包含的 HTML/SVG 图。它提供五种图类型、四套预设、深浅主题，并能在合并前用 Before/Delta/After 对比架构改动，适合把代码库直接变成可交互架构图的 AI 编程用户。",
+    "summary_en": "Archify is a Node.js rendering and validation system for architecture diagrams, built for Cursor, Claude Code, Codex CLI, and OpenCode. Agents emit typed JSON IR, which Archify deterministically compiles into self-contained HTML/SVG, with five diagram types, four presets, dark/light themes, and a Before/Delta/After comparison for reviewing changes before merge. It suits developers who want to turn a codebase or system description into an interactive diagram inside an AI coding agent.",
+    "input_hash": "fe55a3b4cd90"
   },
   "36kr-3955946421540737": {
     "summary_zh": "这篇文章认为创新药行业终于走出低谷，并对比了三家头部公司各自不同的打法。由于只有标题、没有正文，三家公司具体是谁、策略细节如何，都无法从这条资讯中确认。",
@@ -11885,9 +11889,9 @@
     "input_hash": "4d06bb474d13"
   },
   "gh-daily-K-Dense-AI-scientific-agent-skills": {
-    "summary_zh": "K-Dense-AI 的 scientific-agent-skills 提供把任意 AI 智能体变成 AI 科学家的技能库，当前版本 2.64.0，含 163 个已验证技能与 100+ 科学数据库，支持 Cursor、Claude Code、Codex、Google Antigravity。项目采用 MIT 协议，仓库称全球有超 19 万名科学家使用。",
-    "summary_en": "K-Dense-AI's scientific-agent-skills turns any AI agent into an AI Scientist, offering 163 validated skills and 100+ scientific databases in version 2.64.0. It works with Cursor, Claude Code, Codex, and Google Antigravity, and the repo claims over 190,000 scientist users. The project is MIT-licensed.",
-    "input_hash": "c7312c17844a"
+    "summary_zh": "K-Dense-AI/scientific-agent-skills 是一个开源 Agent Skills 库，旨在把任意 AI Agent 变成“AI 科学家”。项目提供 160 多个经过验证的科学技能、100+ 科学数据库，称已被 19 万多名科学家使用，兼容 Cursor、Claude Code、Codex、Google Antigravity 等工具。需要做科研自动化或学术数据分析的开发者可直接引入。",
+    "summary_en": "K-Dense-AI/scientific-agent-skills is an open-source library that turns any AI agent into an AI Scientist, with 160+ validated skills and 100+ scientific databases. It claims more than 190,000 scientists use it, and it works with Cursor, Claude Code, Codex and Google Antigravity. Developers building scientific workflows or automated research pipelines can reuse these skills directly.",
+    "input_hash": "0e3ee12bf5e7"
   },
   "zhihu-2073111100145366214": {
     "summary_zh": "这是一个关于机器人智能架构的讨论题目：大脑应放在端侧还是云端。原文是链接，未提供更多细节，具体观点无法从标题之外获取。",
@@ -12395,9 +12399,9 @@
     "input_hash": "95d516baaed2"
   },
   "juejin-7674372498315460658": {
-    "summary_zh": "一位有7年编程经验的程序员用CI/CD思路重构AI写作流程，做出工具NovelOps，成功跑通270章连载。文章指出AI长篇小说约30章必崩的三个结构性原因：上下文窗口导致设定与伏笔丢失、跨章节奏失控、叙事套路固化。适合用大模型写长篇的创作者参考其工程化解法。",
-    "summary_en": "A programmer with seven years of coding experience applied CI/CD thinking to AI-assisted novel writing, building a tool called NovelOps and successfully running a 270-chapter serial. The article argues that around chapter 30 AI-generated stories reliably collapse for three structural reasons: context-window limits that drop earlier details and setups, uncontrolled cross-chapter pacing, and hardening narrative clichés. Worth reading for anyone using LLMs for long-form fiction.",
-    "input_hash": "7f232a44df89"
+    "summary_zh": "这篇文章讨论 AI 写长篇小说到约 30 章必然崩坏的典型症状：主角妹妹名字变了、第 5 章埋的伏笔忘记回收，并提出工程化解法。对正在做大模型长篇生成、Agent 记忆或上下文管理系统的开发者，是很有参考价值的工程问题梳理。",
+    "summary_en": "This post explains why AI-authored novels typically fall apart around chapter 30, citing concrete failures like a protagonist's sister changing name and a chapter-5 setup never being resolved, then lays out an engineering-oriented fix. It's a useful reference for developers working on long-form LLM generation, agent memory, or context management.",
+    "input_hash": "d182121753ec"
   },
   "zhihu-2076806281394926192": {
     "summary_zh": "知乎上有人提问 GLM 5.3 正式开源，有哪些值得关注的亮点。该条目只提供了标题，没有正文内容，因此具体的模型能力、参数规模、开源协议等信息无法从当前信息中获取。",
@@ -12413,5 +12417,200 @@
     "summary_zh": "一位 V2EX 用户想不买大容量内置存储，把工作文件全放移动硬盘，上下班随身带，问在苹果电脑上这样外挂移动硬盘是否好用。帖子目前只有这一设问，没有更多背景或实测回答。",
     "summary_en": "A V2EX user asks whether it's practical to keep all work files on an external drive, skip a large internal SSD, and carry the drive between home and office on an Apple computer. They see it as a cheaper and more convenient setup, but the post offers no additional context or real-world reports, so feasibility remains unanswered.",
     "input_hash": "29703c45bc91"
+  },
+  "v2ex-73d29ed020fb": {
+    "summary_zh": "V2EX 热议：[问与答] 有酒店爱好者吗，在深圳怎么便宜住如家水平的酒店",
+    "summary_en": "Hot on V2EX: [问与答] 有酒店爱好者吗，在深圳怎么便宜住如家水平的酒店",
+    "input_hash": "5ed6c099b32e"
+  },
+  "zhihu-2077196582349546349": {
+    "summary_zh": "这是一条知乎问答，事件是国家动物博物馆内两名儿童对莽山原矛头蝮标本手抓脚踢，其父亲也参与玩闹，导致标本受损；帖子在讨论该标本有多珍贵以及责任应如何划分。原文是链接，未提供更多细节。",
+    "summary_en": "This is a Zhihu Q&A post about an incident at the National Zoological Museum of China, where two children damaged a Mangshan pit viper specimen by grabbing and kicking it while their father joined in; the discussion centers on how rare the specimen is and who should be held responsible. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "1a0971ad363f"
+  },
+  "36kr-3960727100292488": {
+    "summary_zh": "36氪报道，“年轻人的第一台兰博基尼”真的来了，售价 3 万多元。原文是链接，未提供更多细节。",
+    "summary_en": "36Kr reports that the \"first Lamborghini for young people\" has arrived, priced at over 30,000 yuan. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "3ff494c42490"
+  },
+  "v2ex-b5473fe6895a": {
+    "summary_zh": "一位 V2EX 用户反馈：在搭载鸿蒙 3.0 的旧华为手机上，用支付宝开通 NFC 交通卡后乘地铁正常；但使用支付宝“碰一碰红包”付款时，前两次总跳到交通卡页面，无法自动识别，要重复多次才能付款成功。该用户目前尚未找到原因和解决办法。",
+    "summary_en": "A V2EX user reports that on an old Huawei phone running HarmonyOS 3.0, an NFC transit card opened in Alipay works fine for the subway; however, when paying with Alipay's tap-to-red-envelope feature, the first two attempts always redirect to the transit card page and fail to auto-recognize, requiring multiple retries before payment succeeds. The user hasn't found the cause or a fix yet.",
+    "input_hash": "cc88ee423a9c"
+  },
+  "36kr-3961343456443527": {
+    "summary_zh": "这是一条只有标题的 Tech 资讯，标题称“奥特曼最后一战：4个月后，交付AGI”。原文是链接，未提供正文或描述，因此无法确认任何更具体的背景或时间线。",
+    "summary_en": "This item is a title-only link, with the headline saying 'Altman’s last battle: AGI delivered in 4 months.' There is no body text or description on the page, so we cannot verify any specifics about the claim, the timeline, or the source. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "85e8aae0b501"
+  },
+  "v2ex-b9e7d9674192": {
+    "summary_zh": "这是AI角色扮演内容平台的一则远程设计工程师招聘，薪资15-25K，需独立负责全站UI/UX、动效及前端交付。核心工作是建立创作者模板库和可视化编辑工具，面向海外二次元受众，要求兼具审美和实现能力。熟悉SillyTavern、Civitai等社群或有ComfyUI/LoRA实操经验者优先。",
+    "summary_en": "A job listing for a remote design engineer at an AI role-playing content platform, offering 15-25K RMB. The engineer must own visual design, UI/UX and front-end delivery, while building reusable creator templates and no-code editing tools. Ideal candidates combine design with coding and have experience with Galgame UI, virtual streamers, or communities like SillyTavern, Civitai and LiblibAI, or hands-on ComfyUI/LoRA.",
+    "input_hash": "13a9b44e76b2"
+  },
+  "v2ex-a65668d481de": {
+    "summary_zh": "ModelApiTester 是一个用 Rust 和 Vue 3 构建的大模型 API 测试工具，支持 OpenAI、Anthropic、Gemini 格式，提供流式输出、Markdown 渲染、耗时/速度统计和多模态图片上传。共享 Rust 核心同时驱动 axum 服务器与 Tauri 桌面端，数据存 SQLite，内置 32 条分类提示词。适合经常比较模型性能或管理多个 API key 的开发者。",
+    "summary_en": "ModelApiTester is a Rust+Vue 3 utility for testing LLM APIs, supporting OpenAI, Anthropic and Gemini formats with streaming output, Markdown rendering for formulas/videos, and per-response metrics like prefill/decode time, tok/s and total tokens. A shared Rust core powers both an axum HTTP server and a Tauri desktop app, storing sessions in SQLite and bundling 32 preset prompts across 8 evaluation dimensions. It's a practical fit for developers who want to quickly benchmark model performance or organize API keys.",
+    "input_hash": "6ee160e09ffb"
+  },
+  "v2ex-2c1a7fb91b0b": {
+    "summary_zh": "MQ Studio 是作者从自家 RocketMQ 客户端 rocket-leaf 重构而来的通用消息队列客户端，当前仍只支持 RocketMQ，但架构已为 Kafka、RabbitMQ、Pulsar 预留扩展。重构前官方 dashboard 资源占用和 UI 不佳，重构后版本从 v0.1.3 退回 v0.0.1。配套开源的 Golang 管理库 rocketmq-admin-go 已被 DBX 项目作者联系接入。",
+    "summary_en": "MQ Studio is an open-source message-queue client that began as rocket-leaf, the author's Wails3-based RocketMQ tool. After dissatisfaction with the official dashboard's resource usage and UI, the author rewrote the client, resetting the version from v0.1.3 to v0.0.1. It still only supports RocketMQ but is architecturally ready for Kafka, RabbitMQ and Pulsar; the author also open-sourced rocketmq-admin-go, a Golang admin library that interested the DBX project.",
+    "input_hash": "ba0d1ce732fb"
+  },
+  "infoq-70zHFKxwRRGIjBO8EUtC": {
+    "summary_zh": "阿里千问8月26日发布并开源多模态MoE模型Qwen3.8-Flash：主参数125B，每Token只激活6B，输入/输出每百万Token定价0.8/2.7元。千问办公标准模式同步上线，生成速度提升约100%、Token消耗减少75%，可覆盖约95%日常任务，降低Agent使用成本。",
+    "summary_en": "Alibaba Qwen released and open-sourced Qwen3.8-Flash on Aug 26, a multimodal MoE model with 125B main parameters and only 6B activated per token, priced at 0.8 yuan input / 2.7 yuan output per million tokens. The Qianwen Office standard mode built on it boosts single-task generation speed by about 100% and cuts average token consumption by 75%, covering roughly 95% of routine office tasks. The combination makes agent-assisted office work dramatically cheaper while keeping quality.",
+    "input_hash": "78c0c2967253"
+  },
+  "v2ex-2048a10e9d8a": {
+    "summary_zh": "有用户称以5400元买到了24GB显存、带两年质保的全新7900 XTX，并附链接求证这个价格是否真实。帖子没有给出购买渠道、商家或其他细节，无法进一步核实。",
+    "summary_en": "A user says they bought a new 7900 XTX with 24GB VRAM and a two-year warranty for 5,400 yuan, and asks whether that price is actually real, linking to a tweet. The linked page isn't summarized here; details beyond the title aren't available, so the deal's authenticity can't be verified.",
+    "input_hash": "83b83b894913"
+  },
+  "36kr-3944398321581187": {
+    "summary_zh": "这篇文章介绍一种“5句话拆解法”，声称能帮助读者停止无效摘抄，从别人的观点中提炼出自己的价值。原链接未附正文或摘要，除标题外没有更具体的方法步骤和案例信息。",
+    "summary_en": "This article presents a '5-sentence breakdown method' for turning others' ideas into your own insight instead of just copying notes. The linked page isn't summarized here; details beyond the title aren't available, so the specific steps and examples aren't covered.",
+    "input_hash": "5c332093bc9a"
+  },
+  "v2ex-b32d01e31dda": {
+    "summary_zh": "深圳联通用户发现 OpenWRT 桥接拨号后，DHCPv6 拿到的 IPv6 有效期始终只有 1 小时，重拨换 IP 也如此；但连续观察 8 小时，地址到期后并未变化。发帖者不确定是 OpenWRT 显示问题还是联通做了短租约。对排查 IPv6 掉线/更新问题有参考价值。",
+    "summary_en": "A Shenzhen Unicom subscriber on a bridged OpenWRT router reports that DHCPv6 IPv6 addresses always show a one-hour valid lifetime, even after redialing; over an eight-hour watch, the address didn't actually change. The poster wonders whether OpenWRT is misdisplaying the lease or the ISP is enforcing a short lease. Worth reading for anyone debugging IPv6 renewal behavior on OpenWRT.",
+    "input_hash": "7ae98a03b3fe"
+  },
+  "ph-1195558": {
+    "summary_zh": "1752vc Pitch Deck Analyzer 是一个融资演示文稿分析工具，卖点是让创始人在发出 Deck 前先知道投资人可能会说什么。目前公开信息只有这一句定位，没有展开评审逻辑或定价，适合想快速模拟投资人反馈的创业者。",
+    "summary_en": "1752vc Pitch Deck Analyzer is a pitch-deck review tool whose pitch is to let founders know what investors would say before they hit send. That one-line positioning is all the listing currently reveals, so there are no details on how the analysis works or what it costs. Useful for early-stage founders who want a quick investor gut-check before sending a deck.",
+    "input_hash": "4bfcd1ea701a"
+  },
+  "v2ex-44e2dba05fc2": {
+    "summary_zh": "作者嫌 Codex 官方键盘溢价太狠，改用约 400 元的微雪 MK10 机械小键盘，并开源桥接项目 codex-mk10-bridge，把它变成 Codex 开发键盘。项目实现了设备侧渲染和交互，换其他 agent 也能接，全按键带屏幕，可扩展性高。",
+    "summary_en": "Annoyed by the inflated price of Codex's official keyboard, the author picked a ~400 CNY MK10 mechanical keypad and open-sourced a bridge project, codex-mk10-bridge, that turns it into a Codex keyboard. It implements device-side rendering and interaction, and can be adapted to other agents. Handy if you want a cheaper, customizable keyboard for agent development.",
+    "input_hash": "3be22339ba80"
+  },
+  "v2ex-0d897a15b344": {
+    "summary_zh": "T-Sub 可在自己的服务器/容器一键安装代理协议，统一管理订阅源与节点，并把订阅转成 Base64、Clash/Mihomo、sing-box、Surge 等主流格式。部署端不保存 SSH 账号或私钥，支持 Cloudflare KV/D1 与 SQLite/PostgreSQL。适合自建代理用户批量维护节点和订阅。",
+    "summary_en": "T-Sub installs proxy protocols on your own servers/containers with one command, centralizes subscription sources and nodes, and converts subscriptions into Base64, Clash/Mihomo, sing-box, Surge, and other formats. The deployment side keeps no SSH credentials and supports Cloudflare KV/D1 or SQLite/PostgreSQL. Good fit for self-hosted proxy users who need to manage many nodes and subscriptions.",
+    "input_hash": "3965dbf43d95"
+  },
+  "zhihu-2077426554766713765": {
+    "summary_zh": "网易云音乐疑似官宣适配鸿蒙，此前长期缺席，但该条目前只有标题，没有给出适配版本、时间线或策略。为何选择此时适配、能否挽回流失用户，仍需等待官方信息。",
+    "summary_en": "NetEase Cloud Music appears to have announced HarmonyOS support after a long absence, but this headline-only post offers no details on versions, timeline, or strategy. Whether the move comes at the right time or can win back churned users remains to be confirmed.",
+    "input_hash": "090b6b7774f1"
+  },
+  "v2ex-97da26a9f871": {
+    "summary_zh": "V2EX 上有人发帖求助，想在 AWS 上开通 Claude 账号，询问哪里有海外实体资源，或能介绍外国友人、台湾朋友协助。这则求助折射出个人开发者获取受限 AI 服务时，卡在海外身份认证环节的常见困难。",
+    "summary_en": "A V2EX user is asking for guidance on opening a Claude account on AWS, saying they need an overseas entity or friends abroad who can help; they mention Taiwanese friends might work. The post illustrates the identity-verification bottleneck many individual developers hit when trying to access region-restricted AI services. It also shows how much informal help people still rely on for cloud AI signups.",
+    "input_hash": "3c3914cc43b3"
+  },
+  "ph-1233386": {
+    "summary_zh": "Gemini 3.5 Transcribe 在 Product Hunt 上线，官方称这是目前最精准的语音转文字模型。做会议纪要、字幕生成或语音助手的开发者，可以把它的转写准确率与现有服务做对比后纳入选型。",
+    "summary_en": "Gemini 3.5 Transcribe is now listed on Product Hunt, positioned as the team's most precise speech-to-text model yet. Developers who build meeting notes, captions, or voice assistants should run their own accuracy and latency benchmarks before moving from an existing provider. The headline claim matters most for pipelines where transcription errors propagate into later language-model steps.",
+    "input_hash": "2a8d63e4d958"
+  },
+  "ph-1235085": {
+    "summary_zh": "Cohere Parse 5 上线 Product Hunt，定位是把复杂文档、表格和图片转换成 AI-ready 的数据。适合要把 PDF、扫描件等非结构化内容喂给大模型的团队，用来省略大量解析和清洗工作。",
+    "summary_en": "Cohere Parse 5 is listed on Product Hunt as a parser that turns complex docs, tables, and images into AI-ready data. It's aimed at teams that need to feed messy PDFs or scanned files into LLM pipelines, cutting down manual parsing and cleanup work. The value is that tables and images are often lost or garbled by naive text extraction, so this targets a real preprocessing gap.",
+    "input_hash": "4bbc1376a376"
+  },
+  "36kr-3961764924702087": {
+    "summary_zh": "36氪文章提到，被称为「重置额度之神」的 Tibo 剧透了 Codex 的下一次大更新。原文是链接，未提供更多细节，因此具体更新内容和 Tibo 是谁只能以原标题为准。",
+    "summary_en": "This 36Kr article says Tibo, described as the 'reset-quota god', has teased the next major Codex update. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "5dd7731c8eff"
+  },
+  "zhihu-2076962750237091669": {
+    "summary_zh": "知乎问题引用官方通报：博主在街头除钉时因扬尘影响环保被叫停，官方称是工作人员沟通方式造成误解，并问有没有更好的处理方式。原文是链接，未提供更多细节。",
+    "summary_en": "A Zhihu question cites an official report: a blogger removing nails on a street was stopped because dust affected environmental protection; officials say a staff member's communication style caused the misunderstanding, and asks whether a better approach existed. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "be09c0c4bdb7"
+  },
+  "36kr-3961453579746437": {
+    "summary_zh": "Plaud 发布其首款 AI 耳机，但产品重点被强调为不在耳机本身。原文是链接，未提供更多细节，具体功能和场景暂无法确认。",
+    "summary_en": "Plaud has released its first AI earbuds, positioning the product as being about more than just the earbuds. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "dc5f1f668ea6"
+  },
+  "ph-1234433": {
+    "summary_zh": "OpenTag 是一个常驻 Slack 和 Teams 的 AI 同事，能把 AI 助手直接嵌入团队日常沟通与协作流程。对于以 Slack 或 Teams 为主要工作台的团队，这类工具可以减少切换应用的成本。",
+    "summary_en": "OpenTag is an AI coworker that lives on Slack and Teams, embedding AI help directly into chat and collaboration. It's especially relevant for teams that work mainly inside these tools and want AI support without switching apps.",
+    "input_hash": "aa6d1dda4a69"
+  },
+  "zhihu-2076406082747090665": {
+    "summary_zh": "清华大学宣布废除 GPA 排名，推免（推荐免试研究生）改为综合评价机制。该调整直接影响本科生保研评价方式，但原文是链接，未提供更多细节。",
+    "summary_en": "Tsinghua University has announced it will abolish GPA ranking and switch to a comprehensive evaluation system for graduate-school recommendation (tuimian). The change directly affects how undergraduates are assessed for admission, though the linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "cf68a1365b07"
+  },
+  "36kr-3961347723853193": {
+    "summary_zh": "这篇文章介绍一家日均约 200 杯的咖啡店，以“螺丝钉”为主题卖点，吸引年轻人排队打卡。原文是链接，未提供更多细节，无法确认更多背景。",
+    "summary_en": "The article spotlights a coffee shop selling around 200 cups a day, using a “screw” theme in its coffee to draw young customers. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "e13d0a80c568"
+  },
+  "36kr-3961734289030280": {
+    "summary_zh": "这篇 36kr 文章是对华为 Pura X View 的体验报告，标题观点是“折叠屏的尽头是不折叠”。原文是链接，未提供更多细节，因此无法确认产品形态、配置或试用内容，只能判断它讨论的是一款非折叠方向的华为产品。",
+    "summary_en": "This is a hands-on report on the Huawei Pura X View from 36Kr. The headline argues that the endgame of foldables is not folding, implying the product follows a non-folding direction. Since the digest entry contains only a link, the linked page isn't summarized here; details beyond the title aren't available. Readers should rely on the original article for actual impressions.",
+    "input_hash": "474c2a81cede"
+  },
+  "zhihu-2075613391306208746": {
+    "summary_zh": "这是一个知乎提问，聚焦大学生购机时为何更偏爱标准版 iPhone 而不是 Pro 系列。原文是链接，未提供更多细节，无法概括具体观点；能确定的是讨论围绕标准版与 Pro 的取舍展开。",
+    "summary_en": "This is a Zhihu question asking why many college students generally prefer a standard iPhone over the Pro models. The digest entry contains only a link, so the linked page isn't summarized here; details beyond the title aren't available. No detailed concrete arguments can be extracted from this digest item alone.",
+    "input_hash": "32cd62e8a0d6"
+  },
+  "36kr-3961195195252102": {
+    "summary_zh": "这篇 36kr 报道称，OpenAI 将面向 Codex 和 ChatGPT Work 的付费用户进行“回血”补偿。原文是链接，未提供更多细节，具体补偿方式、金额和原因尚不明确；OpenAI 相关付费用户可查阅原文了解后续。",
+    "summary_en": "A 36Kr report says OpenAI is about to give paying users of Codex and ChatGPT Work some form of compensation. The digest entry contains only a link, so the linked page isn't summarized here; details beyond the title aren't available. OpenAI subscribers on these plans should check the original article for specifics.",
+    "input_hash": "70ec71ce1e22"
+  },
+  "zhihu-337260240": {
+    "summary_zh": "这是一个知乎问题，围绕霍金举办的时间旅行宴会展开：他发出邀请后，现场无人露面。原文是链接，未提供更多细节，无法概括回答中的具体解释，需查看原问题下的讨论。",
+    "summary_en": "This is a Zhihu question about Stephen Hawking's time-travel party experiment: invitations were sent, but no one showed up. The digest entry contains only a link, so the linked page isn't summarized here and details beyond the title aren't available. Readers would need to open the original question to see the actual answers.",
+    "input_hash": "21d8c241f875"
+  },
+  "36kr-3961511871135105": {
+    "summary_zh": "该条目标题为「在快消时代，你还读书吗？」，但没有提供正文或描述；原文是链接，未提供更多细节。",
+    "summary_en": "This entry is titled '在快消时代，你还读书吗？' ('Do you still read in the age of fast-moving consumer goods?'), but no description or body is included. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "3f4a55381a1b"
+  },
+  "36kr-3961339498256007": {
+    "summary_zh": "该条目标题为「影石替下一个影石买单」，但没有提供正文或描述；原文是链接，未提供更多细节。",
+    "summary_en": "This entry has only the Chinese title '影石替下一个影石买单' and no description or body text, so the linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "223c3b22c6db"
+  },
+  "zhihu-2077503530332415035": {
+    "summary_zh": "这个知乎话题讨论的是 2026 年女排亚锦赛决赛：中国女排 2 比 3 不敌泰国女排，因此无缘直通奥运。问题邀请网友评价这场比赛；原文是链接，未提供更多细节。",
+    "summary_en": "This Zhihu question asks for comments on the 2026 Asian Women's Volleyball Championship final, in which China lost 2–3 to Thailand and missed direct Olympic qualification. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "d32da3c6bb49"
+  },
+  "gh-daily-tashfeenahmed-freellmapi": {
+    "summary_zh": "GitHub 趋势项目 FreeLLMAPI 将 34 家免费 LLM 提供方的 635 个端点聚合到单个 OpenAI 兼容 /v1 API，宣称每月可用 74 亿 tokens。它内置智能路由、限流自动切换和加密 key 存储，并按 key 跟踪用量以避开各家免费额度上限。适合想统一接入多个免费大模型 API 的开发者，MIT 开源且提供 Docker 镜像。",
+    "summary_en": "FreeLLMAPI, a trending GitHub project, aggregates 34 free LLM providers and 635 model endpoints behind a single OpenAI-compatible /v1 API, advertising 7.4 billion tokens per month. It handles smart routing, automatic failover on rate limits, encrypted key storage, and per-key usage tracking to keep you under each free-tier cap. Developers who want one endpoint for many free model APIs will find it useful; the project is MIT-licensed and ships a Docker image.",
+    "input_hash": "7f730c6f364a"
+  },
+  "gh-daily-p-e-w-heretic": {
+    "summary_zh": "Heretic 是一款针对 transformer 语言模型的自动去审查工具，用方向消融（directional ablation，即 abliteration）移除“安全对齐”，无需昂贵后训练。适合研究模型审查机制、做红队测试或复现对齐移除方法的开发者，项目已提供 Discord、Matrix 和 Hugging Face 社区入口。",
+    "summary_en": "Heretic is a tool that automatically removes censorship (also called safety alignment) from transformer-based language models using directional ablation, a.k.a. abliteration, without expensive post-training. It should interest researchers and red-teamers who want a reproducible way to strip alignment and study how models behave after unalignment. Community channels include Discord, Matrix, and Hugging Face.",
+    "input_hash": "858fa952f992"
+  },
+  "gh-daily-Lakr233-vphone-cli": {
+    "summary_zh": "vphone-cli 可在 Apple Silicon Mac 上通过 Apple 的 Virtualization.framework 启动虚拟 iPhone，复用 PCC 研究 VM 基础设施。它依赖 Xcode/iOS SDK，需关闭 SIP/AMFI 以获取私有 entitlement，一条命令即可端到端创建 VM。适合无真机条件下做 iOS 研究或自动化的开发者。",
+    "summary_en": "vphone-cli boots a virtual iPhone on Apple Silicon Macs using Apple's Virtualization.framework, built on the PCC research VM infrastructure. It requires Xcode and the iOS SDK, plus SIP/AMFI relaxation to obtain private entitlements, and one command creates a complete VM from end to end. Useful for iOS security research and automation without physical devices.",
+    "input_hash": "6ffd92832a6b"
+  },
+  "gh-daily-NationalSecurityAgency-ghidra": {
+    "summary_zh": "Ghidra 是 NSA 研究局维护的软件逆向工程框架，提供反汇编、反编译、图形分析和脚本功能，支持多平台、多种指令集与可执行格式。它为解决复杂逆向工程的规模化与团队协作而设计，可使用 Java 或 Python 扩展。适合恶意代码分析和安全研究。",
+    "summary_en": "Ghidra is a software reverse-engineering framework created and maintained by NSA Research Directorate. It provides disassembly, decompilation, graphing, and scripting across Windows, macOS, and Linux, with broad support for instruction sets and executable formats. Built for scaling and teaming on complex SRE efforts, it can be extended via Java or Python — making it a go-to for malware analysis and security research.",
+    "input_hash": "d79dd0bfdced"
+  },
+  "gh-monthly-tt-a1i-archify": {
+    "summary_zh": "archify 是一个面向 AI agent 的技能包，可生成架构、工作流、时序、数据流和生命周期图，并以自带动效、可清晰导出的独立 HTML 形式输出。适合需要让 agent 自动产出可验证图表文档的开发者。",
+    "summary_en": "Archify is an agent skill designed to produce architecture, workflow, sequence, data-flow, and lifecycle diagrams. Its output is self-contained HTML with motion and crisp export, making it easy to embed or share. Developers using AI coding agents will appreciate having verifiable diagram generation built into the toolchain.",
+    "input_hash": "7983d4b68ad3"
+  },
+  "gh-monthly-zhaoxuya520-reverse-skill": {
+    "summary_zh": "reverse-skill 是一个面向逆向工程、授权渗透测试和安全研究的技能路由包，核心特性包括 AI 驱动的路由、按需工具链启动和自进化知识库，且支持 Claude Code。适合用 AI 辅助安全分析、希望按任务动态组装工具链的开发者。",
+    "summary_en": "reverse-skill is a skill router pack for reverse engineering, authorized penetration testing, and security research. It combines AI-powered routing, on-demand toolchain bootstrapping, and a self-evolving knowledge base, with support for Claude Code. Security analysts and red-teamers who use AI assistants will find it useful for dynamic tooling.",
+    "input_hash": "ad9a616ad974"
+  },
+  "juejin-7675272903249625107": {
+    "summary_zh": "文章用 Three.js 实现了一个简易版电影《牛来》的效果，并附上完整代码和演示效果。作者提到这部据传仅两人主创的电影因“土到极致就是潮”而走红；适合想借热点练习 Three.js 动画的开发者。",
+    "summary_en": "This post builds a simplified Three.js version of the viral Chinese movie Niu Lai, with the full source code and a demo. The author notes the film is reportedly created by just two people and became popular for its proudly cheesy aesthetics. It's a good starting point for developers learning Three.js through a trending cultural reference.",
+    "input_hash": "0b043b9245ae"
   }
 }
