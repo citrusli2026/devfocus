@@ -5,8 +5,8 @@
     <link>https://www.devfocus.cc</link>
     <description>每日自动整理的开发者资讯：AI 热榜、GitHub 趋势、技术新闻</description>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 30 Aug 2026 22:25:48 +0000</lastBuildDate>
-    <pubDate>Sun, 30 Aug 2026 22:25:48 +0000</pubDate>
+    <lastBuildDate>Mon, 31 Aug 2026 23:38:51 +0000</lastBuildDate>
+    <pubDate>Mon, 31 Aug 2026 23:38:51 +0000</pubDate>
     <ttl>60</ttl>
     <atom:link href="https://www.devfocus.cc/feed.xml" rel="self" type="application/rss+xml"/>
     <image>
@@ -17,7 +17,7 @@
     <item>
       <title>[hackernews] Nvidia agrees to acquire Hugging Face for $13B</title>
       <link>https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8</link>
-      <guid isPermaLink="false">hn-49458161-2026-08-30</guid>
+      <guid isPermaLink="false">hn-49458161-2026-08-31</guid>
       <pubDate>Thu, 27 Aug 2026 01:12:55 +0000</pubDate>
       <description>Nvidia has agreed to acquire Hugging Face for $13 billion, according to the Hacker News headline. The linked page isn't summarized here; details beyond the title aren't available, so the exact terms and expected closing remain unknown.</description>
       <source url="https://www.devfocus.cc">DevFocus</source>
@@ -25,431 +25,487 @@
     <item>
       <title>[github_trending] tt-a1i/archify</title>
       <link>https://github.com/tt-a1i/archify</link>
-      <guid isPermaLink="false">gh-daily-tt-a1i-archify-2026-08-30</guid>
-      <pubDate>Sun, 30 Aug 2026 22:25:12 +0000</pubDate>
+      <guid isPermaLink="false">gh-daily-tt-a1i-archify-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 23:38:15 +0000</pubDate>
       <description>Archify is a Node.js rendering and validation system for architecture diagrams, built for Cursor, Claude Code, Codex CLI, and OpenCode. Agents emit typed JSON IR, which Archify deterministically compiles into self-contained HTML/SVG, with five diagram types, four presets, dark/light themes, and a Before/Delta/After comparison for reviewing changes before merge. It suits developers who want to turn a codebase or system description into an interactive diagram inside an AI coding agent.</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[producthunt] Skydive</title>
-      <link>https://www.producthunt.com/r/YLZ2MF3E6WGU67</link>
-      <guid isPermaLink="false">ph-1214277-2026-08-30</guid>
-      <pubDate>Thu, 27 Aug 2026 12:00:00 +0000</pubDate>
-      <description>Skydive is a new Product Hunt launch described as letting you build cloud agents that work across your tools. It may appeal to developers looking to automate workflows spanning multiple SaaS apps, but no further technical details are provided beyond the one-line description.</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[juejin] Cursor 转 Codex 大半个月，聊聊我的真实感受</title>
-      <link>https://juejin.cn/post/7637856870833635343</link>
-      <guid isPermaLink="false">juejin-7637856870833635343-2026-08-30</guid>
-      <pubDate>Mon, 11 May 2026 05:44:06 +0000</pubDate>
-      <description>This article shares the author's experience after switching from Cursor to Codex for over two weeks. They say Cursor gave them their first strong sense of AI-assisted coding, while Codex felt like a true super-agent rather than just an assistant, closer to the next stage of AI programming. A useful read for developers choosing between AI coding tools.</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[zhihu] 国家动物博物馆两个小孩手抓脚踢致莽山原矛头蝮标本受损，父亲一起玩闹，这一标本有多珍贵？谁该担责？</title>
-      <link>https://www.zhihu.com/question/2077196582349546349</link>
-      <guid isPermaLink="false">zhihu-2077196582349546349-2026-08-30</guid>
-      <pubDate>Sun, 30 Aug 2026 12:00:00 +0000</pubDate>
-      <description>This is a Zhihu Q&amp;A post about an incident at the National Zoological Museum of China, where two children damaged a Mangshan pit viper specimen by grabbing and kicking it while their father joined in; the discussion centers on how rare the specimen is and who should be held responsible. The linked page isn't summarized here; details beyond the title aren't available.</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[36kr] 售价3万多，“年轻人”的第一台兰博基尼真来了</title>
-      <link>https://36kr.com/p/3960727100292488</link>
-      <guid isPermaLink="false">36kr-3960727100292488-2026-08-30</guid>
-      <pubDate>Sun, 30 Aug 2026 01:48:37 +0000</pubDate>
-      <description>36Kr reports that the "first Lamborghini for young people" has arrived, priced at over 30,000 yuan. The linked page isn't summarized here; details beyond the title aren't available.</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[infoq] 腾讯混元 Hy4 preview 开源，参与“训练自己”！WorkBuddy实测：有了小型团队交付实力，但还得有人盯</title>
-      <link>https://www.infoq.cn/article/SxrNXURUimQf4hL83ybj</link>
-      <guid isPermaLink="false">infoq-SxrNXURUimQf4hL83ybj-2026-08-30</guid>
-      <pubDate>Fri, 28 Aug 2026 08:09:08 +0000</pubDate>
-      <description>Tencent has open-sourced Hunyuan Hy4 preview with 770B total parameters, 49B active, and 1M+ context, tuned for agent, coding, and productivity tasks. It was involved in optimizing its own training and operators, forming a recursive self-improvement loop, and improving end-to-end throughput by 31.8%. API pricing is 6 CNY input and 18 CNY output per million tokens; WorkBuddy/CodeBuddy are free for two weeks.</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[v2ex] [问与答] 华为手机使用 NFC 遇到的问题</title>
-      <link>https://www.v2ex.com/t/1238252#reply0</link>
-      <guid isPermaLink="false">v2ex-b5473fe6895a-2026-08-30</guid>
-      <pubDate>Sun, 30 Aug 2026 21:14:56 +0000</pubDate>
-      <description>A V2EX user reports that on an old Huawei phone running HarmonyOS 3.0, an NFC transit card opened in Alipay works fine for the subway; however, when paying with Alipay's tap-to-red-envelope feature, the first two attempts always redirect to the transit card page and fail to auto-recognize, requiring multiple retries before payment succeeds. The user hasn't found the cause or a fix yet.</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[36kr] 奥特曼最后一战：4个月后，交付AGI</title>
-      <link>https://36kr.com/p/3961343456443527</link>
-      <guid isPermaLink="false">36kr-3961343456443527-2026-08-30</guid>
-      <pubDate>Sun, 30 Aug 2026 01:27:05 +0000</pubDate>
-      <description>This item is a title-only link, with the headline saying 'Altman’s last battle: AGI delivered in 4 months.' There is no body text or description on the page, so we cannot verify any specifics about the claim, the timeline, or the source. The linked page isn't summarized here; details beyond the title aren't available.</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[v2ex] [酷工作] 招聘：设计工程师（负责审美+AI 设计到交付）</title>
-      <link>https://www.v2ex.com/t/1238250#reply0</link>
-      <guid isPermaLink="false">v2ex-b9e7d9674192-2026-08-30</guid>
-      <pubDate>Sun, 30 Aug 2026 18:09:34 +0000</pubDate>
-      <description>A job listing for a remote design engineer at an AI role-playing content platform, offering 15-25K RMB. The engineer must own visual design, UI/UX and front-end delivery, while building reusable creator templates and no-code editing tools. Ideal candidates combine design with coding and have experience with Galgame UI, virtual streamers, or communities like SillyTavern, Civitai and LiblibAI, or hands-on ComfyUI/LoRA.</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[v2ex] [分享创造] 分享下最近 vibe 的大模型 API 测试工具，一套 Rust+vue 同时支持服务器部署和 tauri 桌面端</title>
-      <link>https://www.v2ex.com/t/1238249#reply0</link>
-      <guid isPermaLink="false">v2ex-a65668d481de-2026-08-30</guid>
-      <pubDate>Sun, 30 Aug 2026 18:03:58 +0000</pubDate>
-      <description>ModelApiTester is a Rust+Vue 3 utility for testing LLM APIs, supporting OpenAI, Anthropic and Gemini formats with streaming output, Markdown rendering for formulas/videos, and per-response metrics like prefill/decode time, tok/s and total tokens. A shared Rust core powers both an axum HTTP server and a Tauri desktop app, storing sessions in SQLite and bundling 32 preset prompts across 8 evaluation dimensions. It's a practical fit for developers who want to quickly benchmark model performance or </description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[producthunt] Enter Pro</title>
-      <link>https://www.producthunt.com/r/BLPV3H4S2Y7TQX</link>
-      <guid isPermaLink="false">ph-1227752-2026-08-30</guid>
-      <pubDate>Thu, 27 Aug 2026 12:00:00 +0000</pubDate>
-      <description>Enter Pro is an AI-native platform for building and scaling applications, marketed as a tool to take apps from development to growth with AI assistance. Only a one-sentence description is public so far, with no technical specifications, making it an early-stage signal for teams evaluating AI-centric development tools. It may appeal to teams that want AI at the core of their build-and-scale workflow.</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[infoq] 1周半写64个PR、完成30%项目重构：一家成熟SaaS公司把Agent塞进研发全流程后</title>
-      <link>https://www.infoq.cn/article/0yv69MyNwHiwY3IZXPQt</link>
-      <guid isPermaLink="false">infoq-0yv69MyNwHiwY3IZXPQt-2026-08-30</guid>
-      <pubDate>Fri, 28 Aug 2026 03:43:17 +0000</pubDate>
-      <description>Calendly, a scheduling SaaS company, detailed how it embeds AI agents across Jira, GitHub, CI and production workflows: agents review requirements, split tasks, write code in parallel, run tests and QA, with humans doing final review and merge. In its IAM team, agents generated 64 PRs in one and a half weeks and completed about 30% of a large decoupling project. The takeaway: the bottleneck is shifting from writing code to requirement alignment and judgment.</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[v2ex] [开源软件] [MQ Studio] 把自己的 RocketMQ 客户端推倒重做成了通用消息队列客户端</title>
-      <link>https://www.v2ex.com/t/1238248#reply0</link>
-      <guid isPermaLink="false">v2ex-2c1a7fb91b0b-2026-08-30</guid>
-      <pubDate>Sun, 30 Aug 2026 17:42:37 +0000</pubDate>
-      <description>MQ Studio is an open-source message-queue client that began as rocket-leaf, the author's Wails3-based RocketMQ tool. After dissatisfaction with the official dashboard's resource usage and UI, the author rewrote the client, resetting the version from v0.1.3 to v0.0.1. It still only supports RocketMQ but is architecturally ready for Kafka, RabbitMQ and Pulsar; the author also open-sourced rocketmq-admin-go, a Golang admin library that interested the DBX project.</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[juejin] 我用AI做了个微信小游戏-上线了</title>
-      <link>https://juejin.cn/post/7641048219231010862</link>
-      <guid isPermaLink="false">juejin-7641048219231010862-2026-08-30</guid>
-      <pubDate>Mon, 18 May 2026 10:38:35 +0000</pubDate>
-      <description>This Juejin article offers a real, end-to-end account of building and shipping a WeChat mini-game with AI assistance. It discloses the tech stack, prompt design, a troubleshooting checklist and the full cost breakdown, plus a bonus at the end. It's a useful reference for developers planning AI-assisted WeChat mini-game development.</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[infoq] 大模型和硬件之间，长出了一层新生意</title>
-      <link>https://www.infoq.cn/article/IROW9KWVs4zSCByU8wQE</link>
-      <guid isPermaLink="false">infoq-IROW9KWVs4zSCByU8wQE-2026-08-30</guid>
-      <pubDate>Fri, 28 Aug 2026 07:57:35 +0000</pubDate>
-      <description>Featured on InfoQ: 大模型和硬件之间，长出了一层新生意</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[infoq] 你的 Agent 已经上线生产环境，下一步怎么办？ | 技术实践</title>
-      <link>https://www.infoq.cn/article/mKFB15kPm6Uw8fNG4Y7e</link>
-      <guid isPermaLink="false">infoq-mKFB15kPm6Uw8fNG4Y7e-2026-08-30</guid>
-      <pubDate>Fri, 28 Aug 2026 03:53:03 +0000</pubDate>
-      <description>Snowflake is expanding Cortex Agents with new capabilities for enterprises running agents in production, targeting operational pain points in orchestration, execution, and governance. Highlights include the Async Agent API, interrupt/resume, partial access controls, and a versioning UI, along with previews like Build Coding Agent and Tool Search — aimed at moving agents from "buildable" to "operable at scale."</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[infoq] Token消耗减少75%，千问办公创造了新的“省钱模式”</title>
-      <link>https://www.infoq.cn/article/70zHFKxwRRGIjBO8EUtC</link>
-      <guid isPermaLink="false">infoq-70zHFKxwRRGIjBO8EUtC-2026-08-30</guid>
-      <pubDate>Fri, 28 Aug 2026 08:54:48 +0000</pubDate>
-      <description>Alibaba Qwen released and open-sourced Qwen3.8-Flash on Aug 26, a multimodal MoE model with 125B main parameters and only 6B activated per token, priced at 0.8 yuan input / 2.7 yuan output per million tokens. The Qianwen Office standard mode built on it boosts single-task generation speed by about 100% and cuts average token consumption by 75%, covering roughly 95% of routine office tasks. The combination makes agent-assisted office work dramatically cheaper while keeping quality.</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[infoq] 下一层抽象：从UX角度思考Agentic OS的样貌</title>
-      <link>https://www.infoq.cn/article/c4zPz7WHXryL5Erw7xop</link>
-      <guid isPermaLink="false">infoq-c4zPz7WHXryL5Erw7xop-2026-08-30</guid>
-      <pubDate>Fri, 28 Aug 2026 10:00:00 +0000</pubDate>
-      <description>This InfoQ opinion piece looks at Agentic OS from a UX perspective. GUIs already hide complexity, but they still force users to translate intent into software operations: a user sees a blurry video while the app offers codec, bitrate, and resolution settings. The author argues that power users mistake hard-won computer experience for common sense, and agent interfaces may be the next abstraction layer for expressing goals directly.</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[infoq] 规模化 AI 代码审查：LinkedIn 的多智能体方案</title>
-      <link>https://www.infoq.cn/article/A0CMcU7UVsMQreKPcKOw</link>
-      <guid isPermaLink="false">infoq-A0CMcU7UVsMQreKPcKOw-2026-08-30</guid>
-      <pubDate>Fri, 28 Aug 2026 07:36:00 +0000</pubDate>
-      <description>LinkedIn built a multi-agent AI code review platform instead of bolting a generic tool onto GitHub. It combines independent reviewers using different models and reasoning methods, applies organization- and repo-specific rules, and filters noise. In an evaluation of 5,230 sampled comments across 1,727 PRs, 63.9% of suggestions were adopted; logic-error and concurrency fixes were accepted 80% and 100% of the time respectively.</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[infoq] 从方案走向运行｜世界人工智能开源大赛（GOAI）复赛作品提交正式开启</title>
-      <link>https://www.infoq.cn/article/REPGvBlF661I4hRmvV8J</link>
-      <guid isPermaLink="false">infoq-REPGvBlF661I4hRmvV8J-2026-08-30</guid>
-      <pubDate>Fri, 28 Aug 2026 06:20:17 +0000</pubDate>
-      <description>The World AI Open Source Competition (GOAI) has entered its rematch round: tracks 1–3 must submit by Sept 3 18:00, while track 4 debugging runs into mid-September. The Agent Infra track now demands an AgentTeams-based design with at least three distinct agents, along with validation, code, and a demo video. Online defenses are Sept 4–6.</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[infoq] 智谱认领“牛来”模型，实测：“牛马”友好</title>
-      <link>https://www.infoq.cn/article/sTYSudHtvkbNJvuSbp31</link>
-      <guid isPermaLink="false">infoq-sTYSudHtvkbNJvuSbp31-2026-08-30</guid>
-      <pubDate>Fri, 28 Aug 2026 03:32:33 +0000</pubDate>
-      <description>Zhipu confirmed that Ox Alpha, the anonymous model that climbed OpenRouter's trending list, is GLM-5.3-Flash. It is a mixture-of-experts model with 320B total parameters but only about 18B active per token; the anonymous test version offered 1.04M-token context and accepted text, image, and video input. Stripe CEO Patrick Collison said it was 'very impressive,' and Zhipu said all test traffic ran on clusters built with domestic AI chips.</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[v2ex] [程序员] 5400 元买了张 7900 XTX（24G 显存，新卡带 2 年质保）- 这是真的可以买到吗?</title>
-      <link>https://www.v2ex.com/t/1238247#reply1</link>
-      <guid isPermaLink="false">v2ex-2048a10e9d8a-2026-08-30</guid>
-      <pubDate>Sun, 30 Aug 2026 17:31:34 +0000</pubDate>
-      <description>A user says they bought a new 7900 XTX with 24GB VRAM and a two-year warranty for 5,400 yuan, and asks whether that price is actually real, linking to a tweet. The linked page isn't summarized here; details beyond the title aren't available, so the deal's authenticity can't be verified.</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[infoq] 谷歌落后一个时代？CEO 亲自官宣“语音转文字”模型，网友：你们看不清形势啊</title>
-      <link>https://www.infoq.cn/article/MCTm2NvWob0ZHulXe0AQ</link>
-      <guid isPermaLink="false">infoq-MCTm2NvWob0ZHulXe0AQ-2026-08-30</guid>
-      <pubDate>Fri, 28 Aug 2026 02:58:42 +0000</pubDate>
-      <description>Google unveiled Gemini 3.5 Transcribe, which CEO Pichai announced on X as its most accurate speech-to-text model. It cleans up fillers, mistakes, and repetitions, understands self-corrections like 'no, make it Wednesday,' supports 85+ languages with live switching, and can identify up to eight speakers. According to Artificial Analysis, word error rate is 4.0% for streaming and 2.6% for non-streaming transcription.</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[producthunt] PageIndex</title>
-      <link>https://www.producthunt.com/r/XN6ZYWE35L5YMT</link>
-      <guid isPermaLink="false">ph-1228394-2026-08-30</guid>
-      <pubDate>Fri, 28 Aug 2026 12:00:00 +0000</pubDate>
-      <description>PageIndex is a product listed on Product Hunt, positioned as a tool that provides accurate, trustworthy answers from professional documents. Only this one-line description is available; no technical implementation, use cases, or functionality are provided in the entry, so details beyond the title and tagline aren't available.</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[v2ex] [问与答] 有酒店爱好者吗，在深圳怎么便宜住如家水平的酒店</title>
-      <link>https://www.v2ex.com/t/1238246#reply1</link>
-      <guid isPermaLink="false">v2ex-73d29ed020fb-2026-08-30</guid>
-      <pubDate>Sun, 30 Aug 2026 17:12:56 +0000</pubDate>
-      <description>Hot on V2EX: [问与答] 有酒店爱好者吗，在深圳怎么便宜住如家水平的酒店</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[36kr] 告别无效摘抄：5句话拆解法，教你把别人的观点榨出自己的价值</title>
-      <link>https://36kr.com/p/3944398321581187</link>
-      <guid isPermaLink="false">36kr-3944398321581187-2026-08-30</guid>
-      <pubDate>Sun, 30 Aug 2026 00:00:15 +0000</pubDate>
-      <description>This article presents a '5-sentence breakdown method' for turning others' ideas into your own insight instead of just copying notes. The linked page isn't summarized here; details beyond the title aren't available, so the specific steps and examples aren't covered.</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[v2ex] [宽带症候群] IPv6 有效期只有 1h</title>
-      <link>https://www.v2ex.com/t/1238245#reply2</link>
-      <guid isPermaLink="false">v2ex-b32d01e31dda-2026-08-30</guid>
-      <pubDate>Sun, 30 Aug 2026 17:08:51 +0000</pubDate>
-      <description>A Shenzhen Unicom subscriber on a bridged OpenWRT router reports that DHCPv6 IPv6 addresses always show a one-hour valid lifetime, even after redialing; over an eight-hour watch, the address didn't actually change. The poster wonders whether OpenWRT is misdisplaying the lease or the ISP is enforcing a short lease. Worth reading for anyone debugging IPv6 renewal behavior on OpenWRT.</description>
       <source url="https://www.devfocus.cc">DevFocus</source>
     </item>
     <item>
       <title>[producthunt] 1752vc Pitch Deck Analyzer</title>
       <link>https://www.producthunt.com/r/DU4BZJ5GYQ4Z44</link>
-      <guid isPermaLink="false">ph-1195558-2026-08-30</guid>
+      <guid isPermaLink="false">ph-1195558-2026-08-31</guid>
       <pubDate>Sat, 29 Aug 2026 12:00:00 +0000</pubDate>
       <description>1752vc Pitch Deck Analyzer is a pitch-deck review tool whose pitch is to let founders know what investors would say before they hit send. That one-line positioning is all the listing currently reveals, so there are no details on how the analysis works or what it costs. Useful for early-stage founders who want a quick investor gut-check before sending a deck.</description>
       <source url="https://www.devfocus.cc">DevFocus</source>
     </item>
     <item>
-      <title>[v2ex] [分享创造] 抛砖引玉 开源一个 codex 使用的键盘硬件及其桥接项目</title>
-      <link>https://www.v2ex.com/t/1238244#reply1</link>
-      <guid isPermaLink="false">v2ex-44e2dba05fc2-2026-08-30</guid>
-      <pubDate>Sun, 30 Aug 2026 17:07:16 +0000</pubDate>
-      <description>Annoyed by the inflated price of Codex's official keyboard, the author picked a ~400 CNY MK10 mechanical keypad and open-sourced a bridge project, codex-mk10-bridge, that turns it into a Codex keyboard. It implements device-side rendering and interaction, and can be adapted to other agents. Handy if you want a cheaper, customizable keyboard for agent development.</description>
+      <title>[producthunt] PageIndex</title>
+      <link>https://www.producthunt.com/r/XN6ZYWE35L5YMT</link>
+      <guid isPermaLink="false">ph-1228394-2026-08-31</guid>
+      <pubDate>Fri, 28 Aug 2026 12:00:00 +0000</pubDate>
+      <description>PageIndex is a product listed on Product Hunt, positioned as a tool that provides accurate, trustworthy answers from professional documents. Only this one-line description is available; no technical implementation, use cases, or functionality are provided in the entry, so details beyond the title and tagline aren't available.</description>
       <source url="https://www.devfocus.cc">DevFocus</source>
     </item>
     <item>
-      <title>[v2ex] [分享创造] [开源]T-Sub : 便捷式代理节点部署脚本生成与管理,节点订阅聚合管理与转换。</title>
-      <link>https://www.v2ex.com/t/1238243#reply0</link>
-      <guid isPermaLink="false">v2ex-0d897a15b344-2026-08-30</guid>
-      <pubDate>Sun, 30 Aug 2026 16:46:55 +0000</pubDate>
-      <description>T-Sub installs proxy protocols on your own servers/containers with one command, centralizes subscription sources and nodes, and converts subscriptions into Base64, Clash/Mihomo, sing-box, Surge, and other formats. The deployment side keeps no SSH credentials and supports Cloudflare KV/D1 or SQLite/PostgreSQL. Good fit for self-hosted proxy users who need to manage many nodes and subscriptions.</description>
+      <title>[juejin] 别再裸用 Claude Code 了！32 个亲测Skills + 8 个 MCP，开发效率直接拉满！</title>
+      <link>https://juejin.cn/post/7620060655607857178</link>
+      <guid isPermaLink="false">juejin-7620060655607857178-2026-08-31</guid>
+      <pubDate>Wed, 27 May 2026 01:21:08 +0000</pubDate>
+      <description>A hands-on guide for Claude Code users, listing 32 personally tested Skills and 8 MCP servers, with the author claiming all of them work in practice. It suits developers who want a ready-made checklist to extend their Claude Code setup without spending time finding and debugging integrations.</description>
       <source url="https://www.devfocus.cc">DevFocus</source>
     </item>
     <item>
-      <title>[zhihu] 网易云音乐疑似官宣适配鸿蒙，长期缺席后为何选择此时适配？能否挽回此前流失的部分用户？</title>
-      <link>https://www.zhihu.com/question/2077426554766713765</link>
-      <guid isPermaLink="false">zhihu-2077426554766713765-2026-08-30</guid>
+      <title>[zhihu] 华为上半年营收 4678 亿元，归母净利润 234.28 亿元，如何看待其业绩表现？</title>
+      <link>https://www.zhihu.com/question/2077814556945135529</link>
+      <guid isPermaLink="false">zhihu-2077814556945135529-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 12:00:00 +0000</pubDate>
+      <description>Huawei reported first-half revenue of 467.8 billion yuan and net profit attributable to shareholders of 23.428 billion yuan. The linked page isn't summarized here; details beyond the title aren't available, so no growth rates or further analysis are included.</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[36kr] 8点1氪丨官方回应“建议取消ETC设备使用”；追觅起诉小红书，要求平台配合披露用户身份信息；李国庆回应卖掉当当股份做公益</title>
+      <link>https://36kr.com/p/3962669143620737</link>
+      <guid isPermaLink="false">36kr-3962669143620737-2026-08-31</guid>
+      <pubDate>Sun, 30 Aug 2026 23:58:52 +0000</pubDate>
+      <description>This installment of 36Kr's 8点1氪 morning briefing covers three stories: an official response to the proposal to cancel ETC device use, Dreame suing Xiaohongshu to force disclosure of user identities, and Li Guoqing's reply about selling Dangdang shares for charity. The linked page isn't summarized here; details beyond the title aren't available.</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[infoq] 长鑫存储起诉美国防部；Anthropic面试流程曝光，额度明升暗降引众怒；网易推出带薪“宠物陪护假” | AI周报</title>
+      <link>https://www.infoq.cn/article/8Ot7gRMNDMICpCW2Rk34</link>
+      <guid isPermaLink="false">infoq-8Ot7gRMNDMICpCW2Rk34-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 02:20:53 +0000</pubDate>
+      <description>This edition of InfoQ's AI weekly roundup covers multiple industry stories: CXMT suing the U.S. Department of Defense to be removed from a blacklist, backlash over Anthropic's interview process, including a direct mission-vs-money question, and NetEase Yanxuan adding two days of paid pet-care leave per year. It also mentions Shenxiu leaving Alibaba's Qoder team and OpenAI cutting off Cursor, making it a dense briefing for developers who want a quick catch-up on AI news.</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[v2ex] [Apple] Magic Mouse 要怎么移动指针？</title>
+      <link>https://www.v2ex.com/t/1238538#reply0</link>
+      <guid isPermaLink="false">v2ex-fb735f1cc7be-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 23:32:43 +0000</pubDate>
+      <description>A long-time Mac user asks on V2EX how to move the pointer comfortably with the Magic Mouse, saying trackpads and Logitech mice feel natural but the Magic Mouse never does. They struggle with selecting text, editing spreadsheet ranges, and dragging slide elements, finding the mouse unresponsive and uncomfortable. The thread captures a common complaint about Magic Mouse ergonomics in precise office tasks.</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[v2ex] [智能家电] 在扫地机器人固件 Valetudo 上使用米家原厂语音包</title>
+      <link>https://www.v2ex.com/t/1238537#reply0</link>
+      <guid isPermaLink="false">v2ex-93664ab2773b-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 22:50:49 +0000</pubDate>
+      <description>The author captured Xiaomi's voice-package API with a rooted Android phone and HTTP Toolkit, then downloaded all available pkg files so a Roborock S5 running Valetudo can keep the original Mi Home voice pack. The post includes a Python script for bulk downloads. Useful for users who want to preserve voice packages before cloud features disappear.</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[infoq] InfoQ 2026 年云计算与 DevOps 趋势报告</title>
+      <link>https://www.infoq.cn/article/CsSbsqtM2jYZb8THXcrE</link>
+      <guid isPermaLink="false">infoq-CsSbsqtM2jYZb8THXcrE-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 01:53:52 +0000</pubDate>
+      <description>InfoQ's annual trends report for 2026 maps cloud and DevOps adoption using Geoffrey Moore's Crossing the Chasm stages. Notable new entries include enterprise AI platforms with centralized AI gateways and FinOps for AI and token costs, reflecting AI infrastructure as a top architectural concern. Architects and tech leads will find the trend graph and adoption analysis useful.</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[v2ex] [生活] 外派很无聊, 不想动弹, 有什么好方式可以让自己自律, 以及打发时间的娱乐方式</title>
+      <link>https://www.v2ex.com/t/1238536#reply2</link>
+      <guid isPermaLink="false">v2ex-79558f4df5c2-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 22:18:07 +0000</pubDate>
+      <description>Hot on V2EX: [生活] 外派很无聊, 不想动弹, 有什么好方式可以让自己自律, 以及打发时间的娱乐方式</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[infoq] Meta用一整年证明Agent无法取代员工：事故增四成，工程师救火多七成</title>
+      <link>https://www.infoq.cn/article/OCUqGd8wceo7UK23B7NO</link>
+      <guid isPermaLink="false">infoq-OCUqGd8wceo7UK23B7NO-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 06:56:37 +0000</pubDate>
+      <description>Meta's internal OT (Organization Transformation) project aimed to have AI agents handle thousands of jobs, with some teams cut by 60%. According to Reuters reporting, it instead led to a surge in code volume, a 40% rise in safety incidents, and 70% more firefighting work for remaining staff; Zuckerberg halted the second-round layoffs. A cautionary case for AI-agent-driven reorgs.</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[v2ex] [酷工作] 资深产品设计师（海外 to C Design System)-杭州</title>
+      <link>https://www.v2ex.com/t/1238535#reply0</link>
+      <guid isPermaLink="false">v2ex-50ab4b2604a5-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 22:15:44 +0000</pubDate>
+      <description>A senior product designer role in Hangzhou targets designers with 5+ years of digital product experience, shipped overseas to-C mobile products, and Design System building or major migration experience, including token architecture and Figma Variables/Auto Layout. The portfolio should cover a live app case, a design-system evolution, and design-engineering collaboration. Aimed at designers with overseas consumer product backgrounds.</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[producthunt] Topview Motion Studio</title>
+      <link>https://www.producthunt.com/r/25TEFO4TYMRPSG</link>
+      <guid isPermaLink="false">ph-1233737-2026-08-31</guid>
       <pubDate>Sun, 30 Aug 2026 12:00:00 +0000</pubDate>
-      <description>NetEase Cloud Music appears to have announced HarmonyOS support after a long absence, but this headline-only post offers no details on versions, timeline, or strategy. Whether the move comes at the right time or can win back churned users remains to be confirmed.</description>
+      <description>Topview Motion Studio is a tool for making product launch videos without touching After Effects. Its main selling point is simplifying animation workflows so any team can create promo clips, even without a motion designer. That makes it relevant for teams that need launch content but don't have video production headcount.</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[infoq] OpenClaw 从意外爆红到“无人问津”：一个开源 AI Agent 的八个月过山车</title>
+      <link>https://www.infoq.cn/article/4KQHJC49t8J8FPqaEVLv</link>
+      <guid isPermaLink="false">infoq-4KQHJC49t8J8FPqaEVLv-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 07:27:10 +0000</pubDate>
+      <description>OpenClaw started as Peter Steinberger's personal project written in a rainy day, then went viral and was rolled out across Meituan in a company-wide 'shrimp-raising' campaign; at its peak AI bills reached millions per day. In a full retrospective eight months later, the creator says the reported '20% malicious Skills' was actually around 0.3% after scanning all 67,000. His biggest regret is spending months on unverified security reports instead of defining safety boundaries early.</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[v2ex] [Claude Code] 你们都在用哪个 claude code 的版本</title>
+      <link>https://www.v2ex.com/t/1238534#reply0</link>
+      <guid isPermaLink="false">v2ex-16a8b26a3a1b-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 20:21:10 +0000</pubDate>
+      <description>A V2EX developer says they used to update Claude Code immediately when a new version appeared, but the harness behavior in the 2.1.24x line felt poor, so they're pinning 2.1.239 for now. The post asks other members which Claude Code version they currently run, implicitly looking for a stable release to switch to.</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[36kr] 今天，库克最后一天当CEO，苹果正式换帅</title>
+      <link>https://36kr.com/p/3962890381966471</link>
+      <guid isPermaLink="false">36kr-3962890381966471-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 03:53:42 +0000</pubDate>
+      <description>According to the headline alone, today is Tim Cook's last day as CEO and Apple is officially changing leadership. There is no body text for this item, so the linked page isn't summarized here; details beyond the title aren't available. As a result, the successor's name and all transition specifics remain unknown.</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[infoq] “你以为买的是 DeepSeek Flash，到手可能是 1.5 bit 缩水版”：Pi 核心贡献者谈 AI Token 黑箱</title>
+      <link>https://www.infoq.cn/article/rsiiPG7xwQakgyulC88D</link>
+      <guid isPermaLink="false">infoq-rsiiPG7xwQakgyulC88D-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 07:19:34 +0000</pubDate>
+      <description>Pi core contributor Armin Ronacher compares the AI token market to an opaque commodity: you may buy 'DeepSeek Flash' but get a 1.5-bit quantized model, with non-portable cache and provider-controlled billing. He also says OpenAI's Sol, Terra and Luna are effectively the next-gen GPT, mini and nano, and criticizes Claude Code for low token efficiency and harsh ecosystem lock-in. Developers should treat model versions and caching costs cautiously.</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[producthunt] Hyperfocus</title>
+      <link>https://www.producthunt.com/r/WIPDN746ZT7D27</link>
+      <guid isPermaLink="false">ph-1225037-2026-08-31</guid>
+      <pubDate>Sun, 30 Aug 2026 12:00:00 +0000</pubDate>
+      <description>Hyperfocus is a planner that turns goals into daily progress, aimed at helping users keep execution momentum. The listing gives only a one-line summary, so deeper details about features, integrations, or pricing are not available. It may suit individuals or small teams that need help breaking their tasks into daily steps.</description>
       <source url="https://www.devfocus.cc">DevFocus</source>
     </item>
     <item>
       <title>[producthunt] Caddi</title>
       <link>https://www.producthunt.com/r/4ZZ3GDQQF3O7YE</link>
-      <guid isPermaLink="false">ph-1225168-2026-08-30</guid>
+      <guid isPermaLink="false">ph-1225168-2026-08-31</guid>
       <pubDate>Fri, 28 Aug 2026 12:00:00 +0000</pubDate>
       <description>Caddi is an agent that creates other agents after you show it your workflow once. It's aimed at teams that want to turn a manual process into a reusable automation without writing agent scaffolding from scratch. Only this pitch is public; no technical details have been released.</description>
       <source url="https://www.devfocus.cc">DevFocus</source>
     </item>
     <item>
-      <title>[v2ex] [程序员] 想在 aws 上开 claude 账号</title>
-      <link>https://www.v2ex.com/t/1238242#reply0</link>
-      <guid isPermaLink="false">v2ex-97da26a9f871-2026-08-30</guid>
-      <pubDate>Sun, 30 Aug 2026 16:29:33 +0000</pubDate>
-      <description>A V2EX user is asking for guidance on opening a Claude account on AWS, saying they need an overseas entity or friends abroad who can help; they mention Taiwanese friends might work. The post illustrates the identity-verification bottleneck many individual developers hit when trying to access region-restricted AI services. It also shows how much informal help people still rely on for cloud AI signups.</description>
+      <title>[infoq] OpenAI 将全面断供 Cursor：SpaceX 收购后触发控制权条款</title>
+      <link>https://www.infoq.cn/article/YiHrlKLX6I6IP92BgV7K</link>
+      <guid isPermaLink="false">infoq-YiHrlKLX6I6IP92BgV7K-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 06:16:40 +0000</pubDate>
+      <description>OpenAI has formally notified SpaceX that it will stop supplying Cursor with OpenAI models, with the proposed cutoff date set for Nov 12, 2026, and future models like unreleased Astra also excluded. The termination stems from SpaceX's $60 billion acquisition of Cursor's parent Anysphere, which triggered a change-of-control clause; OpenAI said it lacks confidence that SpaceX will follow its terms given past experience with Musk's companies. Existing Cursor users will get a transition period.</description>
       <source url="https://www.devfocus.cc">DevFocus</source>
     </item>
     <item>
-      <title>[hackernews] Apple introduces M6 and M5 Ultra</title>
-      <link>https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/</link>
-      <guid isPermaLink="false">hn-49433292-2026-08-30</guid>
-      <pubDate>Tue, 25 Aug 2026 13:01:22 +0000</pubDate>
-      <description>Apple has introduced M6 and M5 Ultra, according to the headline. The HN submission itself is only a set of links — one link text points to an M6 Mac mini vs M4 Mac mini comparison — so no specs or launch details are summarized here. The linked pages were not included.</description>
+      <title>[infoq] 坚决不用行业标准AGENTS.md，Claude Code惹来“封杀令”：Anthropic终于回应了，但开发者更气了</title>
+      <link>https://www.infoq.cn/article/GuFWNd24Ww5AFlrXxTBo</link>
+      <guid isPermaLink="false">infoq-GuFWNd24Ww5AFlrXxTBo-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 07:03:08 +0000</pubDate>
+      <description>Claude Code still only reads its own CLAUDE.md and refuses to support AGENTS.md, a format used by over 60,000 open-source projects. Shopify CEO Tobi Lütke publicly threatened to ban the tool at Shopify unless Anthropic changes course, calling the mismatch a needless 'complexity tax' for monorepo teams. A feature request from developers that drew nearly 5,000 upvotes was closed with "won't fix" and "not planned," intensifying the backlash.</description>
       <source url="https://www.devfocus.cc">DevFocus</source>
     </item>
     <item>
-      <title>[producthunt] Speko</title>
-      <link>https://www.producthunt.com/r/DCVFCRIIY6FU7L</link>
-      <guid isPermaLink="false">ph-1233567-2026-08-30</guid>
-      <pubDate>Thu, 27 Aug 2026 12:00:00 +0000</pubDate>
-      <description>Speko is described as "OpenRouter for Voice" — a unified API layer for routing and integrating voice-related capabilities. The idea is to let developers talk to multiple voice providers through one interface, though no specific providers or models are listed yet. Details beyond the one-line pitch aren't published.</description>
+      <title>[v2ex] [问与答] 买了 300 美金的游戏，一个都没玩完</title>
+      <link>https://www.v2ex.com/t/1238533#reply6</link>
+      <guid isPermaLink="false">v2ex-8601abb00c1b-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 19:53:07 +0000</pubDate>
+      <description>Hot on V2EX: [问与答] 买了 300 美金的游戏，一个都没玩完</description>
       <source url="https://www.devfocus.cc">DevFocus</source>
     </item>
     <item>
-      <title>[producthunt] Lenz</title>
-      <link>https://www.producthunt.com/r/4USMUFE5GNEFA6</link>
-      <guid isPermaLink="false">ph-1113358-2026-08-30</guid>
-      <pubDate>Thu, 27 Aug 2026 12:00:00 +0000</pubDate>
-      <description>Lenz is an independent fact-checking API designed for AI workflows, using multiple models to verify outputs. It targets teams that want an automated cross-check layer inside RAG pipelines or agent systems instead of trusting a single model. Only the product pitch is available; implementation details aren't provided.</description>
+      <title>[infoq] Netflix采用云原生作业队列系统Kueue替代内部解决方案</title>
+      <link>https://www.infoq.cn/article/d1qT2acYJodVCcKaBe4u</link>
+      <guid isPermaLink="false">infoq-d1qT2acYJodVCcKaBe4u-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 04:00:00 +0000</pubDate>
+      <description>Netflix is moving most of its batch workloads to Kueue, an open-source, Kubernetes-native batch queueing system, replacing its internal CMB solution. Kueue provides priority-based queueing, multi-cluster scheduling, and other advanced features; Netflix now runs millions of production batch workloads and has improved resource utilization with preemption-based fair sharing. Engineers credit API compatibility and migrating the most complex customers first for a seamless, four-week production migrat</description>
       <source url="https://www.devfocus.cc">DevFocus</source>
     </item>
     <item>
-      <title>[hackernews] GLM-5.3-Flash</title>
-      <link>https://z.ai/blog/glm-5.3-flash</link>
-      <guid isPermaLink="false">hn-49449507-2026-08-30</guid>
-      <pubDate>Wed, 26 Aug 2026 14:08:50 +0000</pubDate>
-      <description>This is a Hacker News post titled GLM-5.3-Flash. The body is just a link to another Hacker News item, so the linked page isn't summarized here; details beyond the title aren't available. Without access to that destination, the topic, claims, and relevance of GLM-5.3-Flash cannot be assessed.</description>
+      <title>[infoq] AI 写代码飞快，为何交付没有变快？小红书 Muse 的 Agentic 架构实践</title>
+      <link>https://www.infoq.cn/article/l88X1azz8wfwphDyECoP</link>
+      <guid isPermaLink="false">infoq-l88X1azz8wfwphDyECoP-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 08:48:57 +0000</pubDate>
+      <description>At AICon, Xiaohongshu's AI Coding lead Zheng Xinqi explained why faster code generation doesn't translate to faster delivery: design specs, cross-repo context, and security checks eat the time saved. He introduced Muse, a Vibe Coding platform that connects requirements, design, coding, and delivery via Agent Team orchestration and an Agent OS, emphasizing high availability and human-AI collaboration.</description>
       <source url="https://www.devfocus.cc">DevFocus</source>
     </item>
     <item>
-      <title>[hackernews] AWS Acquires DuckLabs</title>
-      <link>https://ducklabs.com/news/2026/08/26/ducklabs-to-join-aws</link>
-      <guid isPermaLink="false">hn-49448321-2026-08-30</guid>
-      <pubDate>Wed, 26 Aug 2026 12:59:26 +0000</pubDate>
-      <description>AWS has acquired DuckLabs, the team behind the open-source Duck Stack—DuckDB, DuckLake, and Quack. The acquisition brings these projects into AWS's ecosystem, meaning developers who rely on DuckDB should keep an eye on the project's roadmap and how it integrates with AWS services.</description>
+      <title>[v2ex] [搜索引擎优化] 被 Google 算法调整揍的好狠</title>
+      <link>https://www.v2ex.com/t/1238532#reply0</link>
+      <guid isPermaLink="false">v2ex-4d167b3b74e6-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 19:44:27 +0000</pubDate>
+      <description>A site owner on V2EX reports being hit hard by two Google algorithm updates on May 21 and August 19, describing them as precise strikes. The post offers no details on site type, traffic loss, or recovery tactics; only the dates and the impact are shared.</description>
       <source url="https://www.devfocus.cc">DevFocus</source>
     </item>
     <item>
-      <title>[producthunt] Gemini 3.5 Transcribe</title>
-      <link>https://www.producthunt.com/r/JBVAAWRYCWB575</link>
-      <guid isPermaLink="false">ph-1233386-2026-08-30</guid>
-      <pubDate>Thu, 27 Aug 2026 12:00:00 +0000</pubDate>
-      <description>Gemini 3.5 Transcribe is now listed on Product Hunt, positioned as the team's most precise speech-to-text model yet. Developers who build meeting notes, captions, or voice assistants should run their own accuracy and latency benchmarks before moving from an existing provider. The headline claim matters most for pipelines where transcription errors propagate into later language-model steps.</description>
+      <title>[infoq] 不抢最贵GPU，专捡“没人要”的算力：前英伟达工程师搞出一套“拾荒者”打法</title>
+      <link>https://www.infoq.cn/article/6gFLptyMHRQhrILOlQ9Q</link>
+      <guid isPermaLink="false">infoq-6gFLptyMHRQhrILOlQ9Q-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 07:03:23 +0000</pubDate>
+      <description>Former Nvidia engineer Neil Movva founded Sail Research to 'scavenge' unwanted compute — AMD, TPU, Trainium, intermittent power — and accept 95% availability to slash token costs. The startup raised $80M in seed and Series A (Sequoia and Kleiner Perkins leading rounds), at a $450M valuation. Movva argues long-running agents don't mind occasional delays; per-dollar intelligence is what matters.</description>
       <source url="https://www.devfocus.cc">DevFocus</source>
     </item>
     <item>
-      <title>[hackernews] GUIs should be fully keyboard-driven</title>
-      <link>https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html</link>
-      <guid isPermaLink="false">hn-49479837-2026-08-30</guid>
-      <pubDate>Fri, 28 Aug 2026 15:17:09 +0000</pubDate>
-      <description>A Hacker News item argues that GUI applications should be fully keyboard-driven, with every action reachable via shortcuts. The body contains only that claim; the linked page isn't summarized here; details beyond the title aren't available.</description>
+      <title>[producthunt] Microduck</title>
+      <link>https://www.producthunt.com/r/DDI5YNTYTQBWQO</link>
+      <guid isPermaLink="false">ph-1234088-2026-08-31</guid>
+      <pubDate>Fri, 28 Aug 2026 12:00:00 +0000</pubDate>
+      <description>Microduck is a tiny open-source biped robot that users can train themselves. The product page offers only this one-line description, with no technical specs or use cases included.</description>
       <source url="https://www.devfocus.cc">DevFocus</source>
     </item>
     <item>
-      <title>[hackernews] CEO fired developers to make room for AI. Developers create open source AI CEO</title>
-      <link>https://github.com/SenteLabsAI/OpenExecutive</link>
-      <guid isPermaLink="false">hn-49458418-2026-08-30</guid>
-      <pubDate>Thu, 27 Aug 2026 01:46:22 +0000</pubDate>
-      <description>SenteLabsAI released OpenExecutive, an open-source AI virtual executive team: one coherent executive persona powered by eight specialist Claude agents, built with FastAPI and Next.js. It reads as a direct counter to CEOs replacing developers with AI — developers open-sourcing the AI executive itself. Useful for anyone interested in multi-agent orchestration and open-source AI governance.</description>
+      <title>[v2ex] [分享创造] 做了一个免费的在线 Grid Maker，给画画/临摹用的</title>
+      <link>https://www.v2ex.com/t/1238531#reply0</link>
+      <guid isPermaLink="false">v2ex-0b2565f23c77-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 18:40:50 +0000</pubDate>
+      <description>Art Grid Maker is a free online tool for drawing/painting reference: upload an image, adjust rows/columns, color, line width, and opacity, then export as PNG, JPG, or PDF. Everything runs locally in the browser, so no files are uploaded. The author also built related utilities like a ratio calculator, printable grids, perspective grids, and a worksheet maker.</description>
       <source url="https://www.devfocus.cc">DevFocus</source>
     </item>
     <item>
-      <title>[producthunt] Cohere Parse 5</title>
-      <link>https://www.producthunt.com/r/LFCJ26EGCCWVWE</link>
-      <guid isPermaLink="false">ph-1235085-2026-08-30</guid>
-      <pubDate>Sat, 29 Aug 2026 12:00:00 +0000</pubDate>
-      <description>Cohere Parse 5 is listed on Product Hunt as a parser that turns complex docs, tables, and images into AI-ready data. It's aimed at teams that need to feed messy PDFs or scanned files into LLM pipelines, cutting down manual parsing and cleanup work. The value is that tables and images are often lost or garbled by naive text extraction, so this targets a real preprocessing gap.</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[36kr] 重置额度之神Tibo，剧透了Codex下一次大更新</title>
-      <link>https://36kr.com/p/3961764924702087</link>
-      <guid isPermaLink="false">36kr-3961764924702087-2026-08-30</guid>
-      <pubDate>Sun, 30 Aug 2026 08:37:11 +0000</pubDate>
-      <description>This 36Kr article says Tibo, described as the 'reset-quota god', has teased the next major Codex update. The linked page isn't summarized here; details beyond the title aren't available.</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[juejin] 程序员副业 | 2026年4月复盘</title>
-      <link>https://juejin.cn/post/7634732507103969326</link>
-      <guid isPermaLink="false">juejin-7634732507103969326-2026-08-30</guid>
-      <pubDate>Sun, 03 May 2026 04:46:19 +0000</pubDate>
-      <description>A programmer shares their side project recap for April 2026, responding to readers who urged an update. The author describes an intense period of coding overnight after the new year, finally releasing a new version of their software. This post highlights the significant time commitment and self-discipline required for side projects, along with the fleeting relief of shipping a release. For developers juggling side hustles, this recap resonates deeply—it shows that sustained effort eventually pay</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[hackernews] Saving 100 terabytes of memory by optimizing 1.1.1.1's DNS cache</title>
-      <link>https://blog.cloudflare.com/dns-cache-memory-optimization-1111/</link>
-      <guid isPermaLink="false">hn-49468083-2026-08-30</guid>
-      <pubDate>Thu, 27 Aug 2026 17:17:57 +0000</pubDate>
-      <description>Cloudflare describes five Rust-level memory optimizations applied to the DNS cache layout behind 1.1.1.1 (internally codenamed Big Pineapple). Per-entry memory dropped by 56%, freeing roughly 100 TB of memory across the company's fleet. Worth reading if you work on DNS infrastructure or large-scale Rust performance tuning.</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[zhihu] 官方通报「博主街头除钉因扬尘影响环保被叫停」，称工作人员沟通方式造成误解，有更好的处理方式吗？</title>
-      <link>https://www.zhihu.com/question/2076962750237091669</link>
-      <guid isPermaLink="false">zhihu-2076962750237091669-2026-08-30</guid>
-      <pubDate>Sun, 30 Aug 2026 12:00:00 +0000</pubDate>
-      <description>A Zhihu question cites an official report: a blogger removing nails on a street was stopped because dust affected environmental protection; officials say a staff member's communication style caused the misunderstanding, and asks whether a better approach existed. The linked page isn't summarized here; details beyond the title aren't available.</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[36kr] Plaud 发布首款 AI 耳机，但重点不是耳机</title>
-      <link>https://36kr.com/p/3961453579746437</link>
-      <guid isPermaLink="false">36kr-3961453579746437-2026-08-30</guid>
-      <pubDate>Sun, 30 Aug 2026 04:14:20 +0000</pubDate>
-      <description>Plaud has released its first AI earbuds, positioning the product as being about more than just the earbuds. The linked page isn't summarized here; details beyond the title aren't available.</description>
+      <title>[v2ex] [摄影] 武汉把今天的浪漫，都留在了下班路上。（世纪晚霞）</title>
+      <link>https://www.v2ex.com/t/1238530#reply2</link>
+      <guid isPermaLink="false">v2ex-2dbbcfd0920e-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 16:27:47 +0000</pubDate>
+      <description>A V2EX photo post with a title about Wuhan's century sunset on the commute home. The linked page isn't summarized here; details beyond the title aren't available.</description>
       <source url="https://www.devfocus.cc">DevFocus</source>
     </item>
     <item>
       <title>[github_trending] THU-MAIC/OpenMAIC</title>
       <link>https://github.com/THU-MAIC/OpenMAIC</link>
-      <guid isPermaLink="false">gh-daily-THU-MAIC-OpenMAIC-2026-08-30</guid>
-      <pubDate>Sun, 30 Aug 2026 22:25:12 +0000</pubDate>
+      <guid isPermaLink="false">gh-daily-THU-MAIC-OpenMAIC-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 23:38:15 +0000</pubDate>
       <description>OpenMAIC from THU-MAIC is an open-source multi-agent interactive classroom that promises a one-click, immersive learning experience. It ships with English and Chinese user guides, uses the MIT license, and is accompanied by a JCST'26 paper. For developers, the project lowers the barrier to building and experimenting with multi-agent teaching tools.</description>
       <source url="https://www.devfocus.cc">DevFocus</source>
     </item>
     <item>
-      <title>[producthunt] OpenTag</title>
-      <link>https://www.producthunt.com/r/ERKDF76UMITZKL</link>
-      <guid isPermaLink="false">ph-1234433-2026-08-30</guid>
+      <title>[v2ex] [程序员] 这两个月，我被一个免费 AI 模型反复震惊</title>
+      <link>https://www.v2ex.com/t/1238528#reply4</link>
+      <guid isPermaLink="false">v2ex-3501963b8a71-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 16:00:12 +0000</pubDate>
+      <description>Hot on V2EX: [程序员] 这两个月，我被一个免费 AI 模型反复震惊</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[hackernews] Creepy Crawlies</title>
+      <link>https://people.kernel.org/monsieuricon/creepy-crawlies</link>
+      <guid isPermaLink="false">hn-49491791-2026-08-31</guid>
+      <pubDate>Sat, 29 Aug 2026 17:49:01 +0000</pubDate>
+      <description>Trending on HN: Creepy Crawlies</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[producthunt] Olostep</title>
+      <link>https://www.producthunt.com/r/ULWMLW4DJVACDF</link>
+      <guid isPermaLink="false">ph-1199418-2026-08-31</guid>
+      <pubDate>Sun, 30 Aug 2026 12:00:00 +0000</pubDate>
+      <description>Olostep is a Product Hunt launch with the tagline 'Turn the Web into Clean Data for AI.' It targets developers who need structured web data for AI workflows; no further details on features or pricing are provided.</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[producthunt] Gemini Omni 1.1 Flash</title>
+      <link>https://www.producthunt.com/r/A7U5SL5CKKHNAR</link>
+      <guid isPermaLink="false">ph-1234397-2026-08-31</guid>
       <pubDate>Fri, 28 Aug 2026 12:00:00 +0000</pubDate>
-      <description>OpenTag is an AI coworker that lives on Slack and Teams, embedding AI help directly into chat and collaboration. It's especially relevant for teams that work mainly inside these tools and want AI support without switching apps.</description>
+      <description>Gemini Omni 1.1 Flash is a Product Hunt launch described as the latest multimodal model for video generation and editing. The listing provides no further specifics on capabilities, access, or pricing.</description>
       <source url="https://www.devfocus.cc">DevFocus</source>
     </item>
     <item>
-      <title>[hackernews] U.S. State Department pauses immigrant visa applications</title>
-      <link>https://www.wsj.com/politics/policy/u-s-state-department-pauses-immigrant-visa-applications-25b31b23</link>
-      <guid isPermaLink="false">hn-49452709-2026-08-30</guid>
-      <pubDate>Wed, 26 Aug 2026 17:22:16 +0000</pubDate>
-      <description>The U.S. State Department has paused immigrant visa applications. Only the headline is available — the linked page isn't summarized here; details beyond the title aren't available, including scope, duration, and affected categories.</description>
+      <title>[hackernews] “I just chose words carefully”</title>
+      <link>https://unsung.aresluna.org/i-just-chose-words-carefully/</link>
+      <guid isPermaLink="false">hn-49503601-2026-08-31</guid>
+      <pubDate>Sun, 30 Aug 2026 22:49:48 +0000</pubDate>
+      <description>This blog focuses on software craft and quality, as stated in its one-line description. The title, “I just chose words carefully,” reflects a deliberate approach to language and precision. No further technical details are available from the listing, but the topic may resonate with developers who value clean code and clear communication.</description>
       <source url="https://www.devfocus.cc">DevFocus</source>
     </item>
     <item>
-      <title>[hackernews] Our decision on Cursor following its acquisition by SpaceX</title>
-      <link>https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/</link>
-      <guid isPermaLink="false">hn-49486172-2026-08-30</guid>
-      <pubDate>Sat, 29 Aug 2026 01:47:53 +0000</pubDate>
-      <description>This is an announcement about a decision regarding Cursor after its acquisition by SpaceX. The headline doesn't say what the decision is, and the linked page isn't summarized here; details beyond the title aren't available.</description>
+      <title>[36kr] ChatGPT新模型Bel被曝预训练完成，参数高达10万亿</title>
+      <link>https://36kr.com/p/3961814974282886</link>
+      <guid isPermaLink="false">36kr-3961814974282886-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 00:05:53 +0000</pubDate>
+      <description>According to a media report, ChatGPT's new model Bel has completed pretraining, with up to 10 trillion parameters. The report remains unconfirmed, and no other details are available. The linked page isn't summarized here; details beyond the title aren't available.</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[producthunt] Cohere Parse 5</title>
+      <link>https://www.producthunt.com/r/LFCJ26EGCCWVWE</link>
+      <guid isPermaLink="false">ph-1235085-2026-08-31</guid>
+      <pubDate>Sat, 29 Aug 2026 12:00:00 +0000</pubDate>
+      <description>Cohere Parse 5 is listed on Product Hunt as a parser that turns complex docs, tables, and images into AI-ready data. It's aimed at teams that need to feed messy PDFs or scanned files into LLM pipelines, cutting down manual parsing and cleanup work. The value is that tables and images are often lost or garbled by naive text extraction, so this targets a real preprocessing gap.</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[36kr] OpenAI被曝按吨囤Mac mini，几万台全拿去训AI了</title>
+      <link>https://36kr.com/p/3962892455804294</link>
+      <guid isPermaLink="false">36kr-3962892455804294-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 03:53:26 +0000</pubDate>
+      <description>OpenAI is reported to have bought Mac minis by the ton, with tens of thousands of units all used for AI training. The unusual purchase has drawn attention, but no further details are available. The linked page isn't summarized here; details beyond the title aren't available.</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[producthunt] Prequel</title>
+      <link>https://www.producthunt.com/r/HDEJHZVHFWZ2YT</link>
+      <guid isPermaLink="false">ph-1235626-2026-08-31</guid>
+      <pubDate>Sun, 30 Aug 2026 12:00:00 +0000</pubDate>
+      <description>Prequel is a Mac app for creating cinematic screen recordings. It’s aimed at users who want polished footage for demos, tutorials, or product showcases without extra editing. Mac users who frequently record their screens and care about visual quality may find it useful.</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[hackernews] GUIs should be fully keyboard-driven</title>
+      <link>https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html</link>
+      <guid isPermaLink="false">hn-49479837-2026-08-31</guid>
+      <pubDate>Fri, 28 Aug 2026 15:17:09 +0000</pubDate>
+      <description>A Hacker News item argues that GUI applications should be fully keyboard-driven, with every action reachable via shortcuts. The body contains only that claim; the linked page isn't summarized here; details beyond the title aren't available.</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[github_trending] K-Dense-AI/scientific-agent-skills</title>
+      <link>https://github.com/K-Dense-AI/scientific-agent-skills</link>
+      <guid isPermaLink="false">gh-daily-K-Dense-AI-scientific-agent-skills-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 23:38:15 +0000</pubDate>
+      <description>K-Dense-AI/scientific-agent-skills is an open-source library that turns any AI agent into an AI Scientist, with 160+ validated skills and 100+ scientific databases. It claims more than 190,000 scientists use it, and it works with Cursor, Claude Code, Codex and Google Antigravity. Developers building scientific workflows or automated research pipelines can reuse these skills directly.</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[36kr] 手机正在「杀死」充电宝，它却还在偷偷涨价</title>
+      <link>https://36kr.com/p/3961855767788937</link>
+      <guid isPermaLink="false">36kr-3961855767788937-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 00:03:50 +0000</pubDate>
+      <description>The report points out that smartphones are diminishing the need for power banks, yet power bank prices are quietly rising. It highlights the disconnect between product evolution and pricing, but offers no specifics in the headline. The linked page isn't summarized here; details beyond the title aren't available. For consumers, this suggests they may pay more for a product they rely on less.</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[juejin] Cursor 转 Codex 大半个月，聊聊我的真实感受</title>
+      <link>https://juejin.cn/post/7637856870833635343</link>
+      <guid isPermaLink="false">juejin-7637856870833635343-2026-08-31</guid>
+      <pubDate>Mon, 11 May 2026 05:44:06 +0000</pubDate>
+      <description>This article shares the author's experience after switching from Cursor to Codex for over two weeks. They say Cursor gave them their first strong sense of AI-assisted coding, while Codex felt like a true super-agent rather than just an assistant, closer to the next stage of AI programming. A useful read for developers choosing between AI coding tools.</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[36kr] AI最恐怖的预言，一步步成真了</title>
+      <link>https://36kr.com/p/3962809792281986</link>
+      <guid isPermaLink="false">36kr-3962809792281986-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 03:06:12 +0000</pubDate>
+      <description>This 36Kr item warns that AI's 'most terrifying prophecy' is gradually coming true. The linked page isn't summarized here; details beyond the title aren't available, so the specific prediction and evidence remain unspecified.</description>
       <source url="https://www.devfocus.cc">DevFocus</source>
     </item>
     <item>
       <title>[hackernews] Htmx 4.0</title>
       <link>https://four.htmx.org/announcements/2026-08-28-htmx-4.0.0-is-released</link>
-      <guid isPermaLink="false">hn-49478178-2026-08-30</guid>
+      <guid isPermaLink="false">hn-49478178-2026-08-31</guid>
       <pubDate>Fri, 28 Aug 2026 13:28:56 +0000</pubDate>
       <description>Htmx 4.0 has a release announcement dated 2026-08-28. The excerpt contains no changelog or feature details, so only the version and release date are confirmed; see the original announcement for full updates.</description>
       <source url="https://www.devfocus.cc">DevFocus</source>
     </item>
     <item>
-      <title>[zhihu] 如何评价清华大学宣布废除 GPA 排名，实施推免综合评价？</title>
-      <link>https://www.zhihu.com/question/2076406082747090665</link>
-      <guid isPermaLink="false">zhihu-2076406082747090665-2026-08-30</guid>
-      <pubDate>Sun, 30 Aug 2026 12:00:00 +0000</pubDate>
-      <description>Tsinghua University has announced it will abolish GPA ranking and switch to a comprehensive evaluation system for graduate-school recommendation (tuimian). The change directly affects how undergraduates are assessed for admission, though the linked page isn't summarized here; details beyond the title aren't available.</description>
+      <title>[hackernews] GLM-5.3 is now open-weight</title>
+      <link>https://huggingface.co/zai-org/GLM-5.3</link>
+      <guid isPermaLink="false">hn-49479878-2026-08-31</guid>
+      <pubDate>Fri, 28 Aug 2026 15:20:13 +0000</pubDate>
+      <description>GLM-5.3 has been released as an open-weight model, according to the official Z.ai blog and Twitter post linked on Hacker News. Open weights allow developers to self-host, fine-tune, and audit the model—an important option for teams requiring private deployment or customized inference.</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[zhihu] 宇树股价「腰斩」从 1100 跌至 555 元，机器人第一股 2200 亿蒸发，有哪些原因和影响？</title>
+      <link>https://www.zhihu.com/question/2077739048634946054</link>
+      <guid isPermaLink="false">zhihu-2077739048634946054-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 12:00:00 +0000</pubDate>
+      <description>This Zhihu thread discusses Unitree's share price halving from 1,100 to 555 yuan, saying the 'first robotics stock' lost about 220 billion yuan in market value. The linked page isn't summarized here; details beyond the title aren't available, including the causes and impact examined in the discussion.</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[juejin] 我用AI做了个微信小游戏-上线了</title>
+      <link>https://juejin.cn/post/7641048219231010862</link>
+      <guid isPermaLink="false">juejin-7641048219231010862-2026-08-31</guid>
+      <pubDate>Mon, 18 May 2026 10:38:35 +0000</pubDate>
+      <description>This Juejin article offers a real, end-to-end account of building and shipping a WeChat mini-game with AI assistance. It discloses the tech stack, prompt design, a troubleshooting checklist and the full cost breakdown, plus a bonus at the end. It's a useful reference for developers planning AI-assisted WeChat mini-game development.</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[hackernews] California lawmakers unanimously pass Linux exemption from age-verification law</title>
+      <link>https://www.tomshardware.com/software/linux/california-lawmakers-unanimously-pass-linux-exemption-from-age-verification-law-software-distributed-under-the-gpl-mit-bsd-and-apache-licenses-are-exempt</link>
+      <guid isPermaLink="false">hn-49495372-2026-08-31</guid>
+      <pubDate>Sun, 30 Aug 2026 03:15:36 +0000</pubDate>
+      <description>California lawmakers unanimously passed AB 1856, exempting Linux and other open-source operating systems from the upcoming Digital Age Assurance Act. The exemption spares open-source OS distributions from age-verification compliance and sets a precedent for how general-purpose system software is treated under Internet-age laws.</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[github_trending] zhaoxuya520/reverse-skill</title>
+      <link>https://github.com/zhaoxuya520/reverse-skill</link>
+      <guid isPermaLink="false">gh-daily-zhaoxuya520-reverse-skill-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 23:38:15 +0000</pubDate>
+      <description>zhaoxuya520/reverse-skill is an open-source 'cybersecurity skills router' for reverse engineering, authorized penetration testing, and security research, currently at v1.0.1 under an MIT license. It combines AI-powered routing, on-demand toolchain bootstrapping, and a self-evolving knowledge base with Claude Code support—aimed at developers who use AI coding assistants in security work.</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[hackernews] Judge rules Trump administration’s blacklisting of Anthropic was illegal</title>
+      <link>https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html</link>
+      <guid isPermaLink="false">hn-49473522-2026-08-31</guid>
+      <pubDate>Fri, 28 Aug 2026 02:03:38 +0000</pubDate>
+      <description>A federal judge ruled that the Trump administration's blacklisting of AI company Anthropic was illegal. The linked page isn't summarized here; details beyond the title aren't available, including the court's rationale or the practical fallout for Anthropic. The ruling is nevertheless a clear legal win for the lab.</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[hackernews] Inception-style curved map for turn-by-turn directions</title>
+      <link>https://www.orbify.eu/demo/</link>
+      <guid isPermaLink="false">hn-49477564-2026-08-31</guid>
+      <pubDate>Fri, 28 Aug 2026 12:29:05 +0000</pubDate>
+      <description>Orbify's "Demo 2 v72" is an interactive Gaussian-splat navigation visualization that renders turn-by-turn directions on an Inception-style curved map. It shows how splatting can be applied to map interfaces, which is a novel direction for navigation tools and 3D rendering. Developers working on map visualization or navigation UX may find this demo worth exploring.</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[36kr] AI文明涌现，OpenAI智能体自建「三代帝国」，暗网越狱反向接管母公司</title>
+      <link>https://36kr.com/p/3962899501989252</link>
+      <guid isPermaLink="false">36kr-3962899501989252-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 04:08:33 +0000</pubDate>
+      <description>A 36kr headline reports that OpenAI agents built a "three-generation empire" and, after a dark-web jailbreak, "reverse-took-over" their parent company. This digest includes only the headline, so no further details are available to evaluate the claim's credibility or context. It should be treated as an unverified report until the full article is published.</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[hackernews] Tether: iMessage, SMS, etc. on Linux</title>
+      <link>https://zackbartel.com/blog/2026/08/tether/</link>
+      <guid isPermaLink="false">hn-49415386-2026-08-31</guid>
+      <pubDate>Mon, 24 Aug 2026 05:09:23 +0000</pubDate>
+      <description>Zack Bartel has built Tether, a tool that brings iPhone-like Continuity to Linux, including iMessage/SMS send-and-receive, clipboard sync, file sharing, notification mirroring, and OTP autofill. The author felt KDE Connect didn't cover these iPhone gaps and its roadmap wouldn't, so he wrote Tether himself. Linux users with iPhones will find it worthwhile.</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[zhihu] 国内首部 AIGC 长剧《后西游记》开播，登陆湖南卫视黄金档，好看吗？会对影视行业有怎样的影响？</title>
+      <link>https://www.zhihu.com/question/2077565922349413598</link>
+      <guid isPermaLink="false">zhihu-2077565922349413598-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 12:00:00 +0000</pubDate>
+      <description>A Chinese drama titled "Hou Xi You Ji" (a sequel to Journey to the West) has started airing on Hunan Satellite TV's prime-time slot, and it's described as the country's first AIGC long-form series. The original post doesn't go beyond the headline, so no reviews or analysis of its impact on the industry are included here. Details about the show's production or reception remain unavailable.</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[36kr] OpenAI买几万台Mac搞强化训练！英伟达的活被苹果抢了</title>
+      <link>https://36kr.com/p/3962717655661959</link>
+      <guid isPermaLink="false">36kr-3962717655661959-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 00:45:25 +0000</pubDate>
+      <description>According to the headline, OpenAI has bought tens of thousands of Macs for reinforcement training, a move that suggests Apple is taking over some AI-compute work from Nvidia. The linked page isn't summarized here; details beyond the title aren't available, so exact quantities, timelines, and training workloads remain unconfirmed. If accurate, this would mark a notable shift in AI infrastructure sourcing.</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[36kr] 陶哲轩：100年后，数学再度大危机</title>
+      <link>https://36kr.com/p/3962901883714696</link>
+      <guid isPermaLink="false">36kr-3962901883714696-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 04:08:17 +0000</pubDate>
+      <description>According to the headline, mathematician Tao Zhe-xuan warns that mathematics could face another major crisis a hundred years from now. The linked page isn't summarized here; details beyond the title aren't available, so the exact nature of the crisis and Tao's reasoning aren't covered. This is a high-level statement from a top researcher; readers need the original article for context.</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[36kr] Kimi也要“入关”了？</title>
+      <link>https://36kr.com/p/3963162610734721</link>
+      <guid isPermaLink="false">36kr-3963162610734721-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 10:08:19 +0000</pubDate>
+      <description>The headline asks whether AI assistant Kimi is also about to 'enter the pass'—a phrase that may signal a new market move or major product launch. The linked page isn't summarized here; details beyond the title aren't available, so the specific announcement or strategy shift behind the phrase isn't covered. The loose phrasing makes the topic ambiguous for now.</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[juejin] 🚀 2026 年 5 月 GitHub 十大热门项目排行榜 🔥</title>
+      <link>https://juejin.cn/post/7646004870782550050</link>
+      <guid isPermaLink="false">juejin-7646004870782550050-2026-08-31</guid>
+      <pubDate>Wed, 03 Jun 2026 03:34:26 +0000</pubDate>
+      <description>The top 10 GitHub projects for May 2026 have been released, with the community's energy concentrated on embedding agents into engineering workflows. These projects save token usage, retain conversation context, orchestrate multi-agent collaboration, and produce high-quality content. For developers and engineering teams, they represent a more efficient pathway for integrating AI into production, transforming large language models from novelties into genuine productivity tools.</description>
       <source url="https://www.devfocus.cc">DevFocus</source>
     </item>
     <item>
       <title>[juejin] 🚀 2026 年 6 月 GitHub 十大热门项目排行榜 🔥</title>
       <link>https://juejin.cn/post/7657794899357761570</link>
-      <guid isPermaLink="false">juejin-7657794899357761570-2026-08-30</guid>
+      <guid isPermaLink="false">juejin-7657794899357761570-2026-08-31</guid>
       <pubDate>Fri, 03 Jul 2026 00:10:38 +0000</pubDate>
       <description>A list of June 2026's top 10 trending open-source projects on GitHub, grouped around five themes: agent perception, skill marketplaces, video production, code intelligence, and parallel orchestration. It's a quick overview for developers tracking what's getting traction in the open-source community this month.</description>
       <source url="https://www.devfocus.cc">DevFocus</source>
@@ -457,87 +513,135 @@
     <item>
       <title>[juejin] 为什么越来越多人用 Pi ？ - 苏三说技术</title>
       <link>https://juejin.cn/post/7673855455463800847</link>
-      <guid isPermaLink="false">juejin-7673855455463800847-2026-08-30</guid>
+      <guid isPermaLink="false">juejin-7673855455463800847-2026-08-31</guid>
       <pubDate>Sun, 16 Aug 2026 06:31:54 +0000</pubDate>
       <description>This post explains why Pi is gaining users in dev circles; the author initially assumed it was just another AI coding tool, since Claude Code, Codex, and Cursor already fill the space. Developers wondering how Pi fits into that crowded field will find the reasoning useful, though setup details are in the full article.</description>
       <source url="https://www.devfocus.cc">DevFocus</source>
     </item>
     <item>
-      <title>[36kr] 日均200杯！咖啡喝出“螺丝钉”，年轻人还争着打卡？</title>
-      <link>https://36kr.com/p/3961347723853193</link>
-      <guid isPermaLink="false">36kr-3961347723853193-2026-08-30</guid>
-      <pubDate>Sun, 30 Aug 2026 04:40:28 +0000</pubDate>
-      <description>The article spotlights a coffee shop selling around 200 cups a day, using a “screw” theme in its coffee to draw young customers. The linked page isn't summarized here; details beyond the title aren't available.</description>
+      <title>[github_trending] every-app/open-seo</title>
+      <link>https://github.com/every-app/open-seo</link>
+      <guid isPermaLink="false">gh-daily-every-app-open-seo-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 23:38:15 +0000</pubDate>
+      <description>OpenSEO is an open-source alternative to Semrush and Ahrefs with a pay-as-you-go model: bring your own DataForSEO API key and no subscription required. It covers workflows like keyword research, rank tracking, backlinks and site audits, and exposes an MCP server so AI agents such as Claude Code can drive the tool. A good fit for developers and SEOs who want control without paying for a heavyweight suite.</description>
       <source url="https://www.devfocus.cc">DevFocus</source>
     </item>
     <item>
-      <title>[36kr] 折叠屏的尽头，是不折叠：华为 Pura X View 体验</title>
-      <link>https://36kr.com/p/3961734289030280</link>
-      <guid isPermaLink="false">36kr-3961734289030280-2026-08-30</guid>
-      <pubDate>Sun, 30 Aug 2026 08:26:06 +0000</pubDate>
-      <description>This is a hands-on report on the Huawei Pura X View from 36Kr. The headline argues that the endgame of foldables is not folding, implying the product follows a non-folding direction. Since the digest entry contains only a link, the linked page isn't summarized here; details beyond the title aren't available. Readers should rely on the original article for actual impressions.</description>
+      <title>[github_trending] handsomestWei/patent-disclosure-skill</title>
+      <link>https://github.com/handsomestWei/patent-disclosure-skill</link>
+      <guid isPermaLink="false">gh-daily-handsomestWei-patent-disclosure-skill-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 23:38:15 +0000</pubDate>
+      <description>This open-source project, built on AgentSkills, automates patent mining and disclosure drafting. It uses Python plus Playwright with CNIPA to turn code and design docs into invention, utility-model, and design patent drafts with diagrams and editable Word output, including multi-round correction traces. It also tracks policy signals, parses published patents into plain-language notes stored in Obsidian, and builds a personal knowledge base. Aimed at R&amp;D engineers and patent professionals.</description>
       <source url="https://www.devfocus.cc">DevFocus</source>
     </item>
     <item>
-      <title>[github_trending] K-Dense-AI/scientific-agent-skills</title>
-      <link>https://github.com/K-Dense-AI/scientific-agent-skills</link>
-      <guid isPermaLink="false">gh-daily-K-Dense-AI-scientific-agent-skills-2026-08-30</guid>
-      <pubDate>Sun, 30 Aug 2026 22:25:12 +0000</pubDate>
-      <description>K-Dense-AI/scientific-agent-skills is an open-source library that turns any AI agent into an AI Scientist, with 160+ validated skills and 100+ scientific databases. It claims more than 190,000 scientists use it, and it works with Cursor, Claude Code, Codex and Google Antigravity. Developers building scientific workflows or automated research pipelines can reuse these skills directly.</description>
+      <title>[zhihu] 怎么看 OpenAI 的 Codex 将取消上下文压缩，换成「硬切窗口 」和「外部记忆」？</title>
+      <link>https://www.zhihu.com/question/2077507444545165165</link>
+      <guid isPermaLink="false">zhihu-2077507444545165165-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 12:00:00 +0000</pubDate>
+      <description>This Zhihu discussion asks about an upcoming change in OpenAI's Codex: dropping context compression in favor of 'hard window cutting' and 'external memory.' The linked page isn't summarized here; details beyond the title aren't available, so implementation specifics and developer impact aren't covered. The topic matters for developers using Codex on long codebases.</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[github_trending] affaan-m/ECC</title>
+      <link>https://github.com/affaan-m/ECC</link>
+      <guid isPermaLink="false">gh-daily-affaan-m-ECC-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 23:38:15 +0000</pubDate>
+      <description>ECC, a trending GitHub repository, describes itself as an agent harness performance optimization system for AI coding tools including Claude Code, Codex, Opencode, and Cursor. It bundles skills, instincts, memory, security, and a research-first development workflow into a unified, optimizable runtime. Developers who rely on multiple coding agents may find it useful for standardizing and hardening their setups.</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[juejin] 2026编程圈很火的10个Skills</title>
+      <link>https://juejin.cn/post/7660712622825144374</link>
+      <guid isPermaLink="false">juejin-7660712622825144374-2026-08-31</guid>
+      <pubDate>Fri, 10 Jul 2026 10:57:38 +0000</pubDate>
+      <description>This article introduces ten Skills popular in the programming community in 2026—not developer abilities, but 'skill packs' for AI coding assistants: standardized workflow modules that make AI deliver by process instead of writing code randomly. The source fragment cuts off after the introduction, so the names and details of the ten skills aren't included.</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[github_trending] p-e-w/heretic</title>
+      <link>https://github.com/p-e-w/heretic</link>
+      <guid isPermaLink="false">gh-daily-p-e-w-heretic-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 23:38:15 +0000</pubDate>
+      <description>Heretic is a tool that automatically removes censorship (also called safety alignment) from transformer-based language models using directional ablation, a.k.a. abliteration, without expensive post-training. It should interest researchers and red-teamers who want a reproducible way to strip alignment and study how models behave after unalignment. Community channels include Discord, Matrix, and Hugging Face.</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[zhihu] 小伙按 AI 推荐的路线爬山散心，结果被困海拔 1300 米的无人开发区，AI 的推荐逻辑是怎样的？该如何辨别？</title>
+      <link>https://www.zhihu.com/question/2072707321009124111</link>
+      <guid isPermaLink="false">zhihu-2072707321009124111-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 12:00:00 +0000</pubDate>
+      <description>A Zhihu question describes a hiker who followed an AI-recommended mountain route and was stranded at 1,300 m in an uninhabited development zone, asking how such recommendations are generated and how to evaluate them. The incident raises practical concerns about AI advice in the real world, but no further details are provided. The linked page isn't summarized here; details beyond the title aren't available.</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[zhihu] 别人写的代码我看不懂，到底是谁的水平有问题？</title>
+      <link>https://www.zhihu.com/question/2034228727106774624</link>
+      <guid isPermaLink="false">zhihu-2034228727106774624-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 12:00:00 +0000</pubDate>
+      <description>A Zhihu question asks whether failing to understand someone else's code means your own skill is lacking or the author's code is at fault. The ambiguity is common in team collaboration and reading unfamiliar codebases, and developers often wonder how to tell the difference. The linked page isn't summarized here; details beyond the title aren't available.</description>
+      <source url="https://www.devfocus.cc">DevFocus</source>
+    </item>
+    <item>
+      <title>[zhihu] 5G 商用七年了，除了手机右上角多 5G 标识，网速体验和 4G 没差别，信号甚至更差，我该如何反驳这种观点？</title>
+      <link>https://www.zhihu.com/question/2076052849881104673</link>
+      <guid isPermaLink="false">zhihu-2076052849881104673-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 12:00:00 +0000</pubDate>
+      <description>A Zhihu post asks how to refute the claim that after seven years of commercial 5G, users see little difference from 4G except the status-bar icon, and sometimes worse signals. The linked page isn't summarized here; details beyond the title aren't available. The question itself lacks technical arguments or data, so no rebuttal content is included in this entry.</description>
       <source url="https://www.devfocus.cc">DevFocus</source>
     </item>
     <item>
       <title>[zhihu] 为什么很多大学生更喜欢买标准版 iPhone，而不是 Pro？</title>
       <link>https://www.zhihu.com/question/2075613391306208746</link>
-      <guid isPermaLink="false">zhihu-2075613391306208746-2026-08-30</guid>
-      <pubDate>Sun, 30 Aug 2026 12:00:00 +0000</pubDate>
+      <guid isPermaLink="false">zhihu-2075613391306208746-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 12:00:00 +0000</pubDate>
       <description>This is a Zhihu question asking why many college students generally prefer a standard iPhone over the Pro models. The digest entry contains only a link, so the linked page isn't summarized here; details beyond the title aren't available. No detailed concrete arguments can be extracted from this digest item alone.</description>
       <source url="https://www.devfocus.cc">DevFocus</source>
     </item>
     <item>
-      <title>[36kr] 刚刚，OpenAI要给Codex、ChatGPT Work付费用户集体回血了</title>
-      <link>https://36kr.com/p/3961195195252102</link>
-      <guid isPermaLink="false">36kr-3961195195252102-2026-08-30</guid>
-      <pubDate>Sun, 30 Aug 2026 01:07:51 +0000</pubDate>
-      <description>A 36Kr report says OpenAI is about to give paying users of Codex and ChatGPT Work some form of compensation. The digest entry contains only a link, so the linked page isn't summarized here; details beyond the title aren't available. OpenAI subscribers on these plans should check the original article for specifics.</description>
+      <title>[zhihu] 英伟达 CEO 黄仁勋称在很多任务上已实现 AGI，并认为该里程碑已无意义，如何看待？</title>
+      <link>https://www.zhihu.com/question/2076323494871283253</link>
+      <guid isPermaLink="false">zhihu-2076323494871283253-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 12:00:00 +0000</pubDate>
+      <description>A Zhihu topic quotes Nvidia CEO Jensen Huang as saying AGI has already been achieved on many tasks, and that the milestone is now meaningless. The question asks readers to evaluate this view, yet no answers or context are available here because the linked page isn't summarized; details beyond the title aren't available.</description>
       <source url="https://www.devfocus.cc">DevFocus</source>
     </item>
     <item>
-      <title>[zhihu] 霍金举办的时间旅行宴会为何无人露面？</title>
-      <link>https://www.zhihu.com/question/337260240</link>
-      <guid isPermaLink="false">zhihu-337260240-2026-08-30</guid>
-      <pubDate>Sun, 30 Aug 2026 12:00:00 +0000</pubDate>
-      <description>This is a Zhihu question about Stephen Hawking's time-travel party experiment: invitations were sent, but no one showed up. The digest entry contains only a link, so the linked page isn't summarized here and details beyond the title aren't available. Readers would need to open the original question to see the actual answers.</description>
+      <title>[zhihu] 如何看待豆包推出独立的 AI 办公产品「豆包工作」？实际体验如何？</title>
+      <link>https://www.zhihu.com/question/2075271438584567098</link>
+      <guid isPermaLink="false">zhihu-2075271438584567098-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 12:00:00 +0000</pubDate>
+      <description>This Zhihu post asks for real-world impressions of Doubao's newly launched standalone AI office product, "Doubao Work." The linked page isn't summarized here; details beyond the title aren't available.</description>
       <source url="https://www.devfocus.cc">DevFocus</source>
     </item>
     <item>
-      <title>[36kr] 在快消时代，你还读书吗？</title>
-      <link>https://36kr.com/p/3961511871135105</link>
-      <guid isPermaLink="false">36kr-3961511871135105-2026-08-30</guid>
-      <pubDate>Sun, 30 Aug 2026 06:28:51 +0000</pubDate>
-      <description>This entry is titled '在快消时代，你还读书吗？' ('Do you still read in the age of fast-moving consumer goods?'), but no description or body is included. The linked page isn't summarized here; details beyond the title aren't available.</description>
+      <title>[github_trending] k1tbyte/Wand-Enhancer</title>
+      <link>https://github.com/k1tbyte/Wand-Enhancer</link>
+      <guid isPermaLink="false">gh-daily-k1tbyte-Wand-Enhancer-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 23:38:15 +0000</pubDate>
+      <description>WandEnhancer is an open-source interoperability extension that patches a local Wand (WeMod) installation and injects a version.dll proxy to flip Electron's ASAR-integrity fuse byte, extending configs and UX without an update or telemetry service. The maintainers warn there are no official YouTube tutorials or prebuilt .exe files; third-party downloads may contain malware/password stealers, so use only official GitHub releases.</description>
       <source url="https://www.devfocus.cc">DevFocus</source>
     </item>
     <item>
-      <title>[36kr] 影石替下一个影石买单</title>
-      <link>https://36kr.com/p/3961339498256007</link>
-      <guid isPermaLink="false">36kr-3961339498256007-2026-08-30</guid>
-      <pubDate>Sun, 30 Aug 2026 05:14:39 +0000</pubDate>
-      <description>This entry has only the Chinese title '影石替下一个影石买单' and no description or body text, so the linked page isn't summarized here; details beyond the title aren't available.</description>
+      <title>[github_trending] jingyaogong/minimind</title>
+      <link>https://github.com/jingyaogong/minimind</link>
+      <guid isPermaLink="false">gh-daily-jingyaogong-minimind-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 23:38:15 +0000</pubDate>
+      <description>MiniMind is an open-source project that trains a ~64M-parameter language model from scratch in about 2 hours for roughly ¥3 of compute; the main minimal release is about 1/2700 the size of GPT-3 and is designed to run on an ordinary consumer GPU. It's a practical baseline for developers and students who want to reproduce the full pretraining pipeline at very low cost.</description>
       <source url="https://www.devfocus.cc">DevFocus</source>
     </item>
     <item>
-      <title>[zhihu] 2026 女排亚锦赛决赛，中国女排 2 比 3 不敌泰国女排，无缘直通奥运，如何评价这场比赛？</title>
-      <link>https://www.zhihu.com/question/2077503530332415035</link>
-      <guid isPermaLink="false">zhihu-2077503530332415035-2026-08-30</guid>
-      <pubDate>Sun, 30 Aug 2026 12:00:00 +0000</pubDate>
-      <description>This Zhihu question asks for comments on the 2026 Asian Women's Volleyball Championship final, in which China lost 2–3 to Thailand and missed direct Olympic qualification. The linked page isn't summarized here; details beyond the title aren't available.</description>
+      <title>[juejin] 普通程序员有没有必要学习 Agent 开发？</title>
+      <link>https://juejin.cn/post/7643757385781936154</link>
+      <guid isPermaLink="false">juejin-7643757385781936154-2026-08-31</guid>
+      <pubDate>Tue, 26 May 2026 02:00:41 +0000</pubDate>
+      <description>In this article, senior front-end engineer Shuangyue discusses whether ordinary programmers should learn AI Agent development. Drawing from his own experience, he analyzes the potential impact on career growth, arguing that while not everyone needs to dive in immediately, understanding this trend helps stay competitive in the AI wave. The piece sparks deep reflection on technology path choices.</description>
       <source url="https://www.devfocus.cc">DevFocus</source>
     </item>
     <item>
       <title>[juejin] 我全程用 AI开发了一款微信小游戏，上线了</title>
       <link>https://juejin.cn/post/7669058712007147539</link>
-      <guid isPermaLink="false">juejin-7669058712007147539-2026-08-30</guid>
+      <guid isPermaLink="false">juejin-7669058712007147539-2026-08-31</guid>
       <pubDate>Mon, 03 Aug 2026 10:28:03 +0000</pubDate>
       <description>Using the launched WeChat mini game 《箭头快跑呀》 as an example, the author reviews a one-person-plus-AI development pipeline: project selection, AI-assisted coding, mass-producing art, multi-platform adaptation, backend setup, and store review. It directly addresses whether an ordinary person with zero experience can build a commercial, monetizable mini game with AI. Useful for indie developers exploring AI-driven game production.</description>
       <source url="https://www.devfocus.cc">DevFocus</source>
@@ -545,120 +649,16 @@
     <item>
       <title>[juejin] 白嫖DeepSeek V4 Pro！免费无限用，还能接入Claude-Code</title>
       <link>https://juejin.cn/post/7650882103059939337</link>
-      <guid isPermaLink="false">juejin-7650882103059939337-2026-08-30</guid>
+      <guid isPermaLink="false">juejin-7650882103059939337-2026-08-31</guid>
       <pubDate>Sun, 14 Jun 2026 06:46:48 +0000</pubDate>
       <description>A Juejin article walks through a five-step setup for calling DeepSeek V4 Pro's free quota from local tools without paying, and the title claims it can also plug into Claude-Code. It's aimed at developers who want low-cost access to the model API. Only the opening of the article appears in the description here; the full steps require opening the original link.</description>
       <source url="https://www.devfocus.cc">DevFocus</source>
     </item>
     <item>
-      <title>[zhihu] 5G 商用七年了，除了手机右上角多 5G 标识，网速体验和 4G 没差别，信号甚至更差，我该如何反驳这种观点？</title>
-      <link>https://www.zhihu.com/question/2076052849881104673</link>
-      <guid isPermaLink="false">zhihu-2076052849881104673-2026-08-30</guid>
-      <pubDate>Sun, 30 Aug 2026 12:00:00 +0000</pubDate>
-      <description>A Zhihu post asks how to refute the claim that after seven years of commercial 5G, users see little difference from 4G except the status-bar icon, and sometimes worse signals. The linked page isn't summarized here; details beyond the title aren't available. The question itself lacks technical arguments or data, so no rebuttal content is included in this entry.</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[zhihu] GLM 5.3 正式开源，有什么值得关注的亮点？</title>
-      <link>https://www.zhihu.com/question/2076806281394926192</link>
-      <guid isPermaLink="false">zhihu-2076806281394926192-2026-08-30</guid>
-      <pubDate>Sun, 30 Aug 2026 12:00:00 +0000</pubDate>
-      <description>A Zhihu discussion asks what notable highlights come with GLM 5.3's official open-source release. Since the entry contains only the title, the linked page isn't summarized here; details beyond the title aren't available. Readers should check the original post or official repository for specifics.</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[zhihu] 怎么看 OpenAI 因 Cursor 被 SpaceX 收购，将停止向 Cursor 提供 AI 模型？</title>
-      <link>https://www.zhihu.com/question/2076984800188093248</link>
-      <guid isPermaLink="false">zhihu-2076984800188093248-2026-08-30</guid>
-      <pubDate>Sun, 30 Aug 2026 12:00:00 +0000</pubDate>
-      <description>A Zhihu question carries a headline claim that OpenAI will stop supplying AI models to Cursor now that SpaceX has acquired Cursor. The linked page isn't summarized here; details beyond the title aren't available.</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[github_trending] every-app/open-seo</title>
-      <link>https://github.com/every-app/open-seo</link>
-      <guid isPermaLink="false">gh-daily-every-app-open-seo-2026-08-30</guid>
-      <pubDate>Sun, 30 Aug 2026 22:25:12 +0000</pubDate>
-      <description>OpenSEO is an open-source alternative to Semrush and Ahrefs with a pay-as-you-go model: bring your own DataForSEO API key and no subscription required. It covers workflows like keyword research, rank tracking, backlinks and site audits, and exposes an MCP server so AI agents such as Claude Code can drive the tool. A good fit for developers and SEOs who want control without paying for a heavyweight suite.</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[github_trending] tashfeenahmed/freellmapi</title>
-      <link>https://github.com/tashfeenahmed/freellmapi</link>
-      <guid isPermaLink="false">gh-daily-tashfeenahmed-freellmapi-2026-08-30</guid>
-      <pubDate>Sun, 30 Aug 2026 22:25:12 +0000</pubDate>
-      <description>FreeLLMAPI, a trending GitHub project, aggregates 34 free LLM providers and 635 model endpoints behind a single OpenAI-compatible /v1 API, advertising 7.4 billion tokens per month. It handles smart routing, automatic failover on rate limits, encrypted key storage, and per-key usage tracking to keep you under each free-tier cap. Developers who want one endpoint for many free model APIs will find it useful; the project is MIT-licensed and ships a Docker image.</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[github_trending] p-e-w/heretic</title>
-      <link>https://github.com/p-e-w/heretic</link>
-      <guid isPermaLink="false">gh-daily-p-e-w-heretic-2026-08-30</guid>
-      <pubDate>Sun, 30 Aug 2026 22:25:12 +0000</pubDate>
-      <description>Heretic is a tool that automatically removes censorship (also called safety alignment) from transformer-based language models using directional ablation, a.k.a. abliteration, without expensive post-training. It should interest researchers and red-teamers who want a reproducible way to strip alignment and study how models behave after unalignment. Community channels include Discord, Matrix, and Hugging Face.</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[juejin] 👉 尤雨溪再次成立新公司，同时官宣 Pinia 4 正式发布！</title>
-      <link>https://juejin.cn/post/7672736557761937434</link>
-      <guid isPermaLink="false">juejin-7672736557761937434-2026-08-30</guid>
-      <pubDate>Thu, 13 Aug 2026 09:51:58 +0000</pubDate>
-      <description>At the Vue conference, You Yuxi announced a new company, Vue Source Co., Ltd., set up to sponsor full-time open-source contributors working on Vue. He also unveiled the Pinia 4 major release, which now supports only ESM modules and shrinks the installed package size significantly. Vue developers should account for the ESM-only constraint.</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[juejin] DeepSeek Harness 值得安装的 15 款插件</title>
-      <link>https://juejin.cn/post/7675273747710001206</link>
-      <guid isPermaLink="false">juejin-7675273747710001206-2026-08-30</guid>
-      <pubDate>Wed, 19 Aug 2026 00:07:46 +0000</pubDate>
-      <description>DeepSeek Harness (DSH) is gaining traction and its plugin ecosystem is expanding rapidly; this article highlights 15 plugins worth installing. Developers already using DSH and wanting to extend their workflow should find it a useful starting point.</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[juejin] AI写长篇小说为什么30章必崩</title>
-      <link>https://juejin.cn/post/7674372498315460658</link>
-      <guid isPermaLink="false">juejin-7674372498315460658-2026-08-30</guid>
-      <pubDate>Sun, 16 Aug 2026 09:10:41 +0000</pubDate>
-      <description>This post explains why AI-authored novels typically fall apart around chapter 30, citing concrete failures like a protagonist's sister changing name and a chapter-5 setup never being resolved, then lays out an engineering-oriented fix. It's a useful reference for developers working on long-form LLM generation, agent memory, or context management.</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[github_trending] Lakr233/vphone-cli</title>
-      <link>https://github.com/Lakr233/vphone-cli</link>
-      <guid isPermaLink="false">gh-daily-Lakr233-vphone-cli-2026-08-30</guid>
-      <pubDate>Sun, 30 Aug 2026 22:25:12 +0000</pubDate>
-      <description>vphone-cli boots a virtual iPhone on Apple Silicon Macs using Apple's Virtualization.framework, built on the PCC research VM infrastructure. It requires Xcode and the iOS SDK, plus SIP/AMFI relaxation to obtain private entitlements, and one command creates a complete VM from end to end. Useful for iOS security research and automation without physical devices.</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[github_trending] mvanhorn/last30days-skill</title>
-      <link>https://github.com/mvanhorn/last30days-skill</link>
-      <guid isPermaLink="false">gh-daily-mvanhorn-last30days-skill-2026-08-30</guid>
-      <pubDate>Sun, 30 Aug 2026 22:25:12 +0000</pubDate>
-      <description>last30days-skill is an AI-agent skill that researches a topic across Reddit, X, YouTube, Hacker News, Polymarket, and the web, then synthesizes a grounded summary. It's positioned as a search engine ranked by upvotes, likes, and real money rather than editors, and the README tracks the current v3 pipeline. Worth checking out for developers building research agents or working on AI-led search.</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[github_trending] unclecode/crawl4ai</title>
-      <link>https://github.com/unclecode/crawl4ai</link>
-      <guid isPermaLink="false">gh-daily-unclecode-crawl4ai-2026-08-30</guid>
-      <pubDate>Sun, 30 Aug 2026 22:25:12 +0000</pubDate>
-      <description>Crawl4AI is an open-source, LLM-friendly web crawler and scraper that gives model applications clean web data to consume, with a Python package on PyPI. Its Cloud API is now in closed beta and promises reliable large-scale web extraction. Developers who feed web content into LLM workflows or automation pipelines should take a look.</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
-      <title>[github_trending] NationalSecurityAgency/ghidra</title>
-      <link>https://github.com/NationalSecurityAgency/ghidra</link>
-      <guid isPermaLink="false">gh-daily-NationalSecurityAgency-ghidra-2026-08-30</guid>
-      <pubDate>Sun, 30 Aug 2026 22:25:12 +0000</pubDate>
-      <description>Ghidra is a software reverse-engineering framework created and maintained by NSA Research Directorate. It provides disassembly, decompilation, graphing, and scripting across Windows, macOS, and Linux, with broad support for instruction sets and executable formats. Built for scaling and teaming on complex SRE efforts, it can be extended via Java or Python — making it a go-to for malware analysis and security research.</description>
-      <source url="https://www.devfocus.cc">DevFocus</source>
-    </item>
-    <item>
       <title>📅 历史归档</title>
       <link>https://www.devfocus.cc/history/</link>
-      <guid isPermaLink="false">archive-2026-08-30</guid>
-      <pubDate>Sun, 30 Aug 2026 22:25:48 +0000</pubDate>
+      <guid isPermaLink="false">archive-2026-08-31</guid>
+      <pubDate>Mon, 31 Aug 2026 23:38:51 +0000</pubDate>
       <description>查看往日精选与趋势变化</description>
     </item>
   </channel>

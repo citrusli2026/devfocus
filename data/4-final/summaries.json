@@ -1040,9 +1040,9 @@
     "summary_en": "Invoko is a subtle yet powerful Mac utility that manifests as a tiny animated hand floating on your screen. It redefines desktop interaction by letting you trigger apps, execute system commands, or simulate complex mouse gestures with a single click or swipe. For anyone tired of repetitive tasks, Invoko acts as a second cursor that never tires. It’s particularly useful for designers, developers, and power users who want to streamline their workflow without memorizing keyboard shortcuts or digging into menus. The hand’s playful design belies its serious productivity boost, making it a delightful companion for daily Mac use."
   },
   "juejin-7620060655607857178": {
-    "summary_zh": "一篇 Claude Code 实战配置指南，作者整理了 32 个实测可用的 Skills 和 8 个 MCP 服务器，并提供 npx skills add 一键安装命令。文中明确区分 Skills（提示词/工作流封装）与 MCP（本地工具/API 服务）的差别，还修正了 npm 安装前缀问题。适合想把 Claude Code 从补代码助手变成全流程搭档的开发者。",
-    "summary_en": "A practical guide to configuring Claude Code, sharing 32 tested Skills and 8 MCP servers with copy-paste npx install commands. The author clarifies the difference between Skills (prompt/workflow packs) and MCP (local tools/API services), and includes a fix for the npm install prefix. Useful for developers who want Claude Code to handle docs, code review, and more automatically.",
-    "input_hash": "45fdabeb86e7"
+    "summary_zh": "一篇面向 Claude Code 用户的配置指南，作者整理了 32 个亲测可用的 Skills 和 8 个 MCP 服务器，并称所有技能均已实测通过。适合希望直接借鉴现成配置、减少重复调试的开发者，可以按清单快速补齐自己的 Claude Code 环境。",
+    "summary_en": "A hands-on guide for Claude Code users, listing 32 personally tested Skills and 8 MCP servers, with the author claiming all of them work in practice. It suits developers who want a ready-made checklist to extend their Claude Code setup without spending time finding and debugging integrations.",
+    "input_hash": "b125dd2d6f4a"
   },
   "juejin-7584110439933100078": {
     "summary_zh": "有网友爆料快手研发线发布通知，收紧第三方编程软件权限，员工电脑上打开Cursor就会闪退。这标志着又一家大型互联网公司正式封禁AI编程工具Cursor，反映出企业对代码安全和数据隐私的担忧。对于依赖Cursor提升效率的开发者来说，这一趋势可能迫使他们在工具选型和企业合规之间做出权衡。",
@@ -1539,7 +1539,8 @@
   },
   "juejin-7643757385781936154": {
     "summary_zh": "这篇文章由资深前端工程师双越撰写，探讨普通程序员是否需要学习AI Agent开发。作者结合自身经验，分析了Agent开发对程序员职业发展的潜在影响，认为虽然并非所有人必须立刻投身其中，但了解这一趋势有助于在AI浪潮中保持竞争力。文章引发了对技术路线选择的深度思考。",
-    "summary_en": "In this article, senior front-end engineer Shuangyue discusses whether ordinary programmers should learn AI Agent development. Drawing from his own experience, he analyzes the potential impact on career growth, arguing that while not everyone needs to dive in immediately, understanding this trend helps stay competitive in the AI wave. The piece sparks deep reflection on technology path choices."
+    "summary_en": "In this article, senior front-end engineer Shuangyue discusses whether ordinary programmers should learn AI Agent development. Drawing from his own experience, he analyzes the potential impact on career growth, arguing that while not everyone needs to dive in immediately, understanding this trend helps stay competitive in the AI wave. The piece sparks deep reflection on technology path choices.",
+    "input_hash": "3f7d660d9b24"
   },
   "zhihu-2052610103719760554": {
     "summary_zh": "SpaceX股价近期连续三日暴跌，市值蒸发超过6000亿美元，引发市场广泛关注。分析认为，可能源于行业竞争加剧、市场对航天商业化的预期调整以及宏观经济因素。尽管短期承压，但SpaceX的技术优势和星链等业务仍为长期增长提供支撑，投资者需谨慎评估风险与机遇。",
@@ -1566,9 +1567,9 @@
     "summary_en": "Trending on HN: 8点1氪丨SpaceX跌破IPO首日收盘价，市值蒸发4000亿美元；英国首相斯塔默宣布辞职；SK海力士市值首超三星电子"
   },
   "gh-daily-affaan-m-ECC": {
-    "summary_zh": "ECC 是一个面向 AI 编程代理的 agent harness 性能优化系统，宣称覆盖 Claude Code、Codex、Opencode、Cursor 等工具，主打 skills、instincts、memory、security 与 research-first 开发流程。它当前是 GitHub 趋势仓库，适合希望系统化调优 agent 行为与安全边界的开发者。仓库提供多语言 README，但具体实现细节需自行查看源代码。",
-    "summary_en": "ECC is a performance-optimization system for agent harnesses, aimed at AI coding tools such as Claude Code, Codex, Opencode, and Cursor. It emphasizes skills, instincts, memory, security, and a research-first workflow. The trending GitHub repository offers multilingual READMEs; developers interested in systematically tuning agent behavior can inspect the source for implementation details.",
-    "input_hash": "de2bc01c6f10"
+    "summary_zh": "GitHub 趋势仓库 ECC 定位为 agent harness 性能优化系统，面向 Claude Code、Codex、Opencode、Cursor 等 AI 编程工具，集成 skills、instincts、memory、security 与 research-first 流程。它为多款编码助手提供统一、可优化的运行环境，适合深度使用 AI 编程工具的开发者。",
+    "summary_en": "ECC, a trending GitHub repository, describes itself as an agent harness performance optimization system for AI coding tools including Claude Code, Codex, Opencode, and Cursor. It bundles skills, instincts, memory, security, and a research-first development workflow into a unified, optimizable runtime. Developers who rely on multiple coding agents may find it useful for standardizing and hardening their setups.",
+    "input_hash": "80bd65217711"
   },
   "gh-daily-NousResearch-hermes-agent": {
     "summary_zh": "Nous Research 开源了 Hermes Agent，一个以“The agent that grows with you”为定位的智能体项目，仓库采用 MIT 许可证并附带桌面版、文档与 Discord 社区。由于 README 以横幅和徽章为主，未提供功能或架构细节，适合想追踪 Nous Research 动态的开发者先关注。",
@@ -4839,9 +4840,9 @@
     "summary_en": "Grok Build, a build tool developed by xAI, has been open-sourced, making it freely available for use and modification. Previously used internally, it now promises to help developers streamline build processes with greater customization. The move towards transparency and community collaboration could benefit DevOps teams and infrastructure engineers looking for flexible, efficient alternatives in the build tool landscape."
   },
   "juejin-7660712622825144374": {
-    "summary_zh": "文章盘点 2026 年最火的 10 个 AI 编程 Skills，并解释 Anthropic 的 Agent Skills 标准：用 SKILL.md 打包流程，让 AI 按步骤执行。作者称社区 Skill 七成不合格，重点介绍 Star 超 24 万的 Superpowers，含 TDD、调试等 20+ 子模块。",
-    "summary_en": "The article lists 10 AI coding Skills trending in 2026, starting with Anthropic's Agent Skills open standard from October 2025, where a SKILL.md folder makes AI follow a workflow instead of improvising. It notes that 70% of 1,400+ community Skills fail quality checks, then highlights Superpowers (240k+ GitHub stars), a collection of 20+ subskills including TDD and systematic debugging.",
-    "input_hash": "b7c678e66f4e"
+    "summary_zh": "文章介绍 2026 年编程圈流行的 10 个 Skills——AI 编程助手的'技能包'，即让 AI 按流程交付而非随意写代码的标准化工作流模块。desc 在'今天这篇文'处截断，10 个技能的具体名称和实现未出现在素材中。",
+    "summary_en": "This article introduces ten Skills popular in the programming community in 2026—not developer abilities, but 'skill packs' for AI coding assistants: standardized workflow modules that make AI deliver by process instead of writing code randomly. The source fragment cuts off after the introduction, so the names and details of the ten skills aren't included.",
+    "input_hash": "39a792f5cff6"
   },
   "juejin-7662691781214470180": {
     "summary_zh": "一位掘金作者停更一年后回归，分享了这段时间的密集经历：全力投入 AI 领域、陪伴妻子生娃、还抽空考了个研。文章以第一人称讲述了如何平衡工作、家庭与个人提升，展现了技术人在生活重大节点上的真实抉择。对面临类似境遇的读者来说，这是一个关于如何在巨大压力下仍坚持成长的真实故事。",
@@ -6420,9 +6421,9 @@
     "input_hash": "106b10c959b2"
   },
   "gh-monthly-diegosouzapw-OmniRoute": {
-    "summary_zh": "OmniRoute 是一个免费的开源 AI 网关项目，它提供了一个统一端点，让你能访问超过 290 个提供商（其中 90 多个免费）和 500 多种模型，包括 Kimi、Claude、GPT、Gemini 等主流模型。开发者只需要接入一个 API 就可以调用几乎所有的前沿模型，不再需要为每个服务商单独申请和集成，大大降低了实验和开发的门槛。对于 AI 应用开发者来说，这是一个极大的便利。",
-    "summary_en": "OmniRoute is a free, open-source AI gateway that exposes a single endpoint to access over 290 providers (90+ free) and 500+ models, including Kimi, Claude, GPT, Gemini, and many more. Developers can now call almost any cutting-edge model through one API, eliminating the need for separate integrations and sign-ups. This dramatically lowers the barrier for AI experimentation and development, making it a huge boon for AI application builders.",
-    "input_hash": "7cdd99574fc9"
+    "summary_zh": "OmniRoute 是一个 MIT 许可的免费 AI 网关，用统一端点聚合 352 家服务商（其中 150+ 免费）与 1200+ 模型，涵盖 Kimi、Claude、GPT、Gemini、GLM、DeepSeek、MiniMax 等。它可直接对接 Claude Code、Codex、Cursor、OpenCode、Cline 等 AI 编码工具，适合希望一处接入多模型、省去逐家配置的开发者。",
+    "summary_en": "OmniRoute is a free MIT-licensed AI gateway that exposes one endpoint to aggregate 352 providers (150+ free) and 1,200+ models, including Kimi, Claude, GPT, Gemini, GLM, DeepSeek, and MiniMax. It plugs into coding tools such as Claude Code, Codex, Cursor, OpenCode, and Cline, making it a convenient single integration point for developers who want multi-model access without per-provider setup.",
+    "input_hash": "57c442f7c946"
   },
   "gh-monthly-permissionlesstech-bitchat": {
     "summary_zh": "BitChat 是一个基于蓝牙 Mesh 网络的开源聊天工具，它不依赖互联网或中央服务器，设备之间通过蓝牙自动组网实现消息传递，体验类似于早期 IRC 的聊天风格。这个项目解决了在无网络或网络受限环境下保持通信的问题，非常适合户外活动、灾害救援或对隐私要求高的场景。它展示了去中心化通信的另一种可能性。",
@@ -7173,8 +7174,9 @@
     "summary_en": "As AI takes over coordination duties like information consolidation and progress tracking, big tech companies are cutting middle-management layers. Managers who relied on relaying messages between teams are now layoff targets. For engineers, this means the individual contributor track gains value — promotion no longer requires managing people, and technical expertise alone can pay off."
   },
   "gh-daily-zhaoxuya520-reverse-skill": {
-    "summary_zh": "reverse-skill是一个AI驱动的“技能路由”仓库，面向逆向工程、授权渗透测试和安全研究。它能根据用户请求自动匹配技能、按需搭建工具链，并带有一个自进化的知识库，已支持Claude Code等AI编程环境。适合安全研究者快速实验，但必须确保测试已获合法授权。",
-    "summary_en": "reverse-skill is an AI-powered skill router designed for reverse engineering, authorized penetration testing, and security research. It matches user requests to the right skills, bootstraps toolchains on demand, and includes a self-evolving knowledge base, with support for Claude Code. It's handy for security researchers to run experiments, but authorized use is a must."
+    "summary_zh": "zhaoxuya520/reverse-skill 是一个定位为网络安全技能路由包的开源项目，面向逆向工程、授权渗透测试和安全研究，当前release为v1.0.1，采用MIT许可。它的核心特性包括AI驱动的技能路由、按需工具链自举和自进化知识库，并支持Claude Code，适合用AI编程助手开展安全工作的开发者。",
+    "summary_en": "zhaoxuya520/reverse-skill is an open-source 'cybersecurity skills router' for reverse engineering, authorized penetration testing, and security research, currently at v1.0.1 under an MIT license. It combines AI-powered routing, on-demand toolchain bootstrapping, and a self-evolving knowledge base with Claude Code support—aimed at developers who use AI coding assistants in security work.",
+    "input_hash": "66dd7b9bdf1d"
   },
   "gh-daily-usekaneo-kaneo": {
     "summary_zh": "Kaneo 是一个开源项目管理工具，以“所需即所得”为理念，强调极简界面和不冗余的功能设计。它适合希望摆脱重型软件、需要轻量自托管方案的个人开发者或小团队，注重让工具适配用户流程而非相反。",
@@ -12612,5 +12614,285 @@
     "summary_zh": "文章用 Three.js 实现了一个简易版电影《牛来》的效果，并附上完整代码和演示效果。作者提到这部据传仅两人主创的电影因“土到极致就是潮”而走红；适合想借热点练习 Three.js 动画的开发者。",
     "summary_en": "This post builds a simplified Three.js version of the viral Chinese movie Niu Lai, with the full source code and a demo. The author notes the film is reportedly created by just two people and became popular for its proudly cheesy aesthetics. It's a good starting point for developers learning Three.js through a trending cultural reference.",
     "input_hash": "0b043b9245ae"
+  },
+  "v2ex-79558f4df5c2": {
+    "summary_zh": "V2EX 热议：[生活] 外派很无聊, 不想动弹, 有什么好方式可以让自己自律, 以及打发时间的娱乐方式",
+    "summary_en": "Hot on V2EX: [生活] 外派很无聊, 不想动弹, 有什么好方式可以让自己自律, 以及打发时间的娱乐方式",
+    "input_hash": "2bd6b2ab9e15"
+  },
+  "v2ex-8601abb00c1b": {
+    "summary_zh": "V2EX 热议：[问与答] 买了 300 美金的游戏，一个都没玩完",
+    "summary_en": "Hot on V2EX: [问与答] 买了 300 美金的游戏，一个都没玩完",
+    "input_hash": "cd13a50b64af"
+  },
+  "v2ex-3501963b8a71": {
+    "summary_zh": "V2EX 热议：[程序员] 这两个月，我被一个免费 AI 模型反复震惊",
+    "summary_en": "Hot on V2EX: [程序员] 这两个月，我被一个免费 AI 模型反复震惊",
+    "input_hash": "8558c56270d3"
+  },
+  "hn-49491791": {
+    "summary_zh": "HN 热门：Creepy Crawlies",
+    "summary_en": "Trending on HN: Creepy Crawlies",
+    "input_hash": "b22265f7d67c"
+  },
+  "zhihu-2077814556945135529": {
+    "summary_zh": "华为上半年营收 4678 亿元，归母净利润 234.28 亿元。原文未提供更多细节，目前只能确认业绩规模，无法进一步分析增速、业务线或市场预期。",
+    "summary_en": "Huawei reported first-half revenue of 467.8 billion yuan and net profit attributable to shareholders of 23.428 billion yuan. The linked page isn't summarized here; details beyond the title aren't available, so no growth rates or further analysis are included.",
+    "input_hash": "fd5e3c62ede5"
+  },
+  "36kr-3962669143620737": {
+    "summary_zh": "这是 36氪「8点1氪」早报的一期，涉及三条动态：官方回应「建议取消 ETC 设备使用」、追觅起诉小红书要求平台配合披露用户身份信息、李国庆回应卖掉当当股份做公益。目前只有标题列出事件，原文未提供更多细节。",
+    "summary_en": "This installment of 36Kr's 8点1氪 morning briefing covers three stories: an official response to the proposal to cancel ETC device use, Dreame suing Xiaohongshu to force disclosure of user identities, and Li Guoqing's reply about selling Dangdang shares for charity. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "7d3f74d87978"
+  },
+  "infoq-8Ot7gRMNDMICpCW2Rk34": {
+    "summary_zh": "InfoQ 的 AI 周报本期汇总多条动态：长鑫存储起诉美国国防部并要求移出黑名单，Anthropic 面试流程被曝光并引发争议，网易严选推出每年 2 天带薪宠物陪护假。还涉及阿里 Qoder 团队神秀离职、OpenAI 断供 Cursor 等消息，适合快速浏览 AI 行业一周要闻的开发者。",
+    "summary_en": "This edition of InfoQ's AI weekly roundup covers multiple industry stories: CXMT suing the U.S. Department of Defense to be removed from a blacklist, backlash over Anthropic's interview process, including a direct mission-vs-money question, and NetEase Yanxuan adding two days of paid pet-care leave per year. It also mentions Shenxiu leaving Alibaba's Qoder team and OpenAI cutting off Cursor, making it a dense briefing for developers who want a quick catch-up on AI news.",
+    "input_hash": "97c4c3f5a512"
+  },
+  "v2ex-fb735f1cc7be": {
+    "summary_zh": "一位十多年 Mac 用户在 V2EX 发帖求助：触控板和罗技鼠标都很顺手，唯独 Magic Mouse 始终找不到舒适的指针移动方式。他在选中文本、调整表格区域和拖拽 PPT 素材时觉得指针不跟手且硌手，试过各种手势后只能继续吃灰。",
+    "summary_en": "A long-time Mac user asks on V2EX how to move the pointer comfortably with the Magic Mouse, saying trackpads and Logitech mice feel natural but the Magic Mouse never does. They struggle with selecting text, editing spreadsheet ranges, and dragging slide elements, finding the mouse unresponsive and uncomfortable. The thread captures a common complaint about Magic Mouse ergonomics in precise office tasks.",
+    "input_hash": "dee43fb09e62"
+  },
+  "v2ex-93664ab2773b": {
+    "summary_zh": "作者用一台已 root 的安卓机配合 HTTP Toolkit 抓包，定位米家语音包接口并批量下载 pkg 文件，让石头 S5 在老旧的 Valetudo 固件上继续使用原厂语音包。文中附有可直接改 URL 重跑的 Python 脚本，适合担心云端功能下线、想本地留存语音包的用户。",
+    "summary_en": "The author captured Xiaomi's voice-package API with a rooted Android phone and HTTP Toolkit, then downloaded all available pkg files so a Roborock S5 running Valetudo can keep the original Mi Home voice pack. The post includes a Python script for bulk downloads. Useful for users who want to preserve voice packages before cloud features disappear.",
+    "input_hash": "78741dbd5629"
+  },
+  "infoq-CsSbsqtM2jYZb8THXcrE": {
+    "summary_zh": "InfoQ 在 2026 年度云计算与 DevOps 趋势报告中，按《跨越鸿沟》的创新者、早期采用者等阶段展示技术采纳现状。今年最明显的新增方向是企业级 AI 平台与 AI 网关，以及面向 AI 和 Token 经济的 FinOps；AI 基础设施因此成为架构设计的首要关注点，适合架构师和技术领导者参考。",
+    "summary_en": "InfoQ's annual trends report for 2026 maps cloud and DevOps adoption using Geoffrey Moore's Crossing the Chasm stages. Notable new entries include enterprise AI platforms with centralized AI gateways and FinOps for AI and token costs, reflecting AI infrastructure as a top architectural concern. Architects and tech leads will find the trend graph and adoption analysis useful.",
+    "input_hash": "4dc0f23cdd2b"
+  },
+  "infoq-OCUqGd8wceo7UK23B7NO": {
+    "summary_zh": "Meta 代号 OT 的组织转型项目原计划用 AI Agent 接管数千人的岗位，最激进方案让部分团队裁掉 60%。实际运行后安全事故增加 40%，留下的员工救火时间增加 70%，扎克伯格叫停第二轮裁员；路透社称局面比原来混乱三倍。",
+    "summary_en": "Meta's internal OT (Organization Transformation) project aimed to have AI agents handle thousands of jobs, with some teams cut by 60%. According to Reuters reporting, it instead led to a surge in code volume, a 40% rise in safety incidents, and 70% more firefighting work for remaining staff; Zuckerberg halted the second-round layoffs. A cautionary case for AI-agent-driven reorgs.",
+    "input_hash": "9821cb76902d"
+  },
+  "v2ex-50ab4b2604a5": {
+    "summary_zh": "杭州一则资深产品设计师岗位要求 5 年以上数字产品经验、已上线的海外 ToC 移动产品案例，以及 Design System 建设或大版本演进经验，熟悉 token 架构和 Figma Variables、Auto Layout 等能力。作品集需展示上线案例、设计系统演进和设计研发协作案例，适合有海外 C 端背景的设计系统方向设计师。",
+    "summary_en": "A senior product designer role in Hangzhou targets designers with 5+ years of digital product experience, shipped overseas to-C mobile products, and Design System building or major migration experience, including token architecture and Figma Variables/Auto Layout. The portfolio should cover a live app case, a design-system evolution, and design-engineering collaboration. Aimed at designers with overseas consumer product backgrounds.",
+    "input_hash": "fb67e07d68af"
+  },
+  "ph-1233737": {
+    "summary_zh": "Topview Motion Studio 是一款用于制作产品发布视频的工具，让用户无需接触 After Effects。它把复杂的动画流程简化成易操作的方式，帮助团队更快制作宣传视频，不必依赖专业视频设计工具。",
+    "summary_en": "Topview Motion Studio is a tool for making product launch videos without touching After Effects. Its main selling point is simplifying animation workflows so any team can create promo clips, even without a motion designer. That makes it relevant for teams that need launch content but don't have video production headcount.",
+    "input_hash": "7e806e71903f"
+  },
+  "infoq-4KQHJC49t8J8FPqaEVLv": {
+    "summary_zh": "OpenClaw 是 Peter Steinberger 一个雨天写出的个人开源项目，爆红后被美团全员采用，高峰期 AI 账单每天烧掉上千万元。八个月后作者复盘：媒体称 20% Skill 是恶意的，实际扫描 6.7 万个后约 0.3%；他最后悔在未证实的报告上耗时过多，未能尽早界定安全边界。",
+    "summary_en": "OpenClaw started as Peter Steinberger's personal project written in a rainy day, then went viral and was rolled out across Meituan in a company-wide 'shrimp-raising' campaign; at its peak AI bills reached millions per day. In a full retrospective eight months later, the creator says the reported '20% malicious Skills' was actually around 0.3% after scanning all 67,000. His biggest regret is spending months on unverified security reports instead of defining safety boundaries early.",
+    "input_hash": "df3037f8449b"
+  },
+  "v2ex-16a8b26a3a1b": {
+    "summary_zh": "一位开发者表示，之前每次 Claude Code 出新版都会立刻升级，但发现 2.1.24x 的 harness 体验很差后，暂时停在 2.1.239，并询问大家正在使用哪个版本。",
+    "summary_en": "A V2EX developer says they used to update Claude Code immediately when a new version appeared, but the harness behavior in the 2.1.24x line felt poor, so they're pinning 2.1.239 for now. The post asks other members which Claude Code version they currently run, implicitly looking for a stable release to switch to.",
+    "input_hash": "78d2cb1a4f20"
+  },
+  "36kr-3962890381966471": {
+    "summary_zh": "根据标题，库克今天将结束 CEO 任期，苹果正式换帅。原文是链接，未提供更多细节；继任者与交接安排需查看原文。",
+    "summary_en": "According to the headline alone, today is Tim Cook's last day as CEO and Apple is officially changing leadership. There is no body text for this item, so the linked page isn't summarized here; details beyond the title aren't available. As a result, the successor's name and all transition specifics remain unknown.",
+    "input_hash": "a52c9fe420ff"
+  },
+  "infoq-rsiiPG7xwQakgyulC88D": {
+    "summary_zh": "Pi 核心贡献者 Armin Ronacher 在播客中把 AI Token 市场比作成分不明的商品：用户以为买到 DeepSeek Flash，实际可能是 1.5 bit 量化版，缓存不可迁移且计费不透明。他还提到 OpenAI 的 Sol/Terra/Luna 本质是新一代 GPT/mini/nano，并批评 Claude Code token 效率低、生态锁定。",
+    "summary_en": "Pi core contributor Armin Ronacher compares the AI token market to an opaque commodity: you may buy 'DeepSeek Flash' but get a 1.5-bit quantized model, with non-portable cache and provider-controlled billing. He also says OpenAI's Sol, Terra and Luna are effectively the next-gen GPT, mini and nano, and criticizes Claude Code for low token efficiency and harsh ecosystem lock-in. Developers should treat model versions and caching costs cautiously.",
+    "input_hash": "1b656a8959b9"
+  },
+  "ph-1225037": {
+    "summary_zh": "Hyperfocus 是一款规划类应用，主打把目标拆解为每日可执行进度，帮助用户保持执行节奏。适合需要任务拆解与日常跟踪的个人或小团队。目前公开信息仅有这一句简介，更多实现细节未披露。",
+    "summary_en": "Hyperfocus is a planner that turns goals into daily progress, aimed at helping users keep execution momentum. The listing gives only a one-line summary, so deeper details about features, integrations, or pricing are not available. It may suit individuals or small teams that need help breaking their tasks into daily steps.",
+    "input_hash": "bfc65b4c6cd4"
+  },
+  "infoq-YiHrlKLX6I6IP92BgV7K": {
+    "summary_zh": "OpenAI 已正式通知 SpaceX，计划在 2026 年 11 月 12 日终止向 Cursor 提供 OpenAI 模型，未来模型 Astra 也不在供应范围内。触发原因是 SpaceX 以 600 亿美元收购 Anysphere 后激活了控制权变更条款；OpenAI 称基于与 Musk 旗下公司的合作经验，无法确信 SpaceX 会遵守服务条款。现有用户会有一段过渡期。",
+    "summary_en": "OpenAI has formally notified SpaceX that it will stop supplying Cursor with OpenAI models, with the proposed cutoff date set for Nov 12, 2026, and future models like unreleased Astra also excluded. The termination stems from SpaceX's $60 billion acquisition of Cursor's parent Anysphere, which triggered a change-of-control clause; OpenAI said it lacks confidence that SpaceX will follow its terms given past experience with Musk's companies. Existing Cursor users will get a transition period.",
+    "input_hash": "93f3b737661e"
+  },
+  "infoq-GuFWNd24Ww5AFlrXxTBo": {
+    "summary_zh": "Claude Code 仍只读取自家 CLAUDE.md，拒绝支持已被超过 6 万个开源项目采用的 AGENTS.md。Shopify CEO Tobi Lütke 公开威胁，若 Anthropic 不改变立场就在公司禁用 Claude Code，称这给大型 monorepo 团队带来不必要的「复杂度税」。开发者近一年的功能请求收获近 5000 赞，却被以「不予修复」和「暂无计划」关闭。",
+    "summary_en": "Claude Code still only reads its own CLAUDE.md and refuses to support AGENTS.md, a format used by over 60,000 open-source projects. Shopify CEO Tobi Lütke publicly threatened to ban the tool at Shopify unless Anthropic changes course, calling the mismatch a needless 'complexity tax' for monorepo teams. A feature request from developers that drew nearly 5,000 upvotes was closed with \"won't fix\" and \"not planned,\" intensifying the backlash.",
+    "input_hash": "33df1eccf3f2"
+  },
+  "infoq-d1qT2acYJodVCcKaBe4u": {
+    "summary_zh": "Netflix 正将大部分批处理负载迁移到云原生作业队列系统 Kueue，以替代内部方案 CMB。Kueue 提供基于优先级的排队、多集群调度等能力，生产环境已管理数百万个批处理任务，并通过抢占式公平共享提高资源利用率。工程师强调保持 API 兼容、先迁移最复杂客户是平滑迁移的关键。",
+    "summary_en": "Netflix is moving most of its batch workloads to Kueue, an open-source, Kubernetes-native batch queueing system, replacing its internal CMB solution. Kueue provides priority-based queueing, multi-cluster scheduling, and other advanced features; Netflix now runs millions of production batch workloads and has improved resource utilization with preemption-based fair sharing. Engineers credit API compatibility and migrating the most complex customers first for a seamless, four-week production migration.",
+    "input_hash": "67c82ea490a8"
+  },
+  "infoq-l88X1azz8wfwphDyECoP": {
+    "summary_zh": "小红书 AI Coding 总架构师郑鑫祺在 AICon 介绍 Vibe Coding 平台 Muse：AI 写代码虽快，但交付没同步提速，因为设计规范、跨仓上下文、安全检查等会耗掉省下的时间。Muse 用 Agent Team 编排和 Agent OS 打通需求、设计、编码与交付，核心是保证高可用、实现人机共创。",
+    "summary_en": "At AICon, Xiaohongshu's AI Coding lead Zheng Xinqi explained why faster code generation doesn't translate to faster delivery: design specs, cross-repo context, and security checks eat the time saved. He introduced Muse, a Vibe Coding platform that connects requirements, design, coding, and delivery via Agent Team orchestration and an Agent OS, emphasizing high availability and human-AI collaboration.",
+    "input_hash": "9492f58ee711"
+  },
+  "v2ex-4d167b3b74e6": {
+    "summary_zh": "一位站长在 V2EX 反映，网站在 5 月 21 日和 8 月 19 日先后遭遇两次 Google 算法调整，流量被“精准打击”。帖子里没有给出网站类型或具体损失，也没有讨论应对方法。",
+    "summary_en": "A site owner on V2EX reports being hit hard by two Google algorithm updates on May 21 and August 19, describing them as precise strikes. The post offers no details on site type, traffic loss, or recovery tactics; only the dates and the impact are shared.",
+    "input_hash": "d1cc41bfbfcb"
+  },
+  "ph-1234088": {
+    "summary_zh": "Microduck 是一个微型开源双足机器人，用户可自行训练。产品页只提供了这一句描述，没有更多技术规格或使用场景。",
+    "summary_en": "Microduck is a tiny open-source biped robot that users can train themselves. The product page offers only this one-line description, with no technical specs or use cases included.",
+    "input_hash": "5634910579c5"
+  },
+  "v2ex-0b2565f23c77": {
+    "summary_zh": "Art Grid Maker 是一个免费在线网格工具，上传参考图后可调整行列数、颜色、线宽和透明度，并导出 PNG、JPG 或 PDF；图片在浏览器本地处理，不会上传服务器。作者还顺带做了比例计算、可打印网格、透视网格和 Worksheet Maker 等绘画辅助小工具。",
+    "summary_en": "Art Grid Maker is a free online tool for drawing/painting reference: upload an image, adjust rows/columns, color, line width, and opacity, then export as PNG, JPG, or PDF. Everything runs locally in the browser, so no files are uploaded. The author also built related utilities like a ratio calculator, printable grids, perspective grids, and a worksheet maker.",
+    "input_hash": "814d1962d6a7"
+  },
+  "v2ex-2dbbcfd0920e": {
+    "summary_zh": "这是一条 V2EX 摄影分享帖，标题记录了武汉下班路上的世纪晚霞。原文是链接，未提供更多细节，图片内容与拍摄参数等信息均不可知。",
+    "summary_en": "A V2EX photo post with a title about Wuhan's century sunset on the commute home. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "b38d8fd091b0"
+  },
+  "ph-1199418": {
+    "summary_zh": "Olostep 是 Product Hunt 上发布的一款服务，口号是把网页变成可供 AI 使用的干净数据。该产品面向需要结构化网页数据的 AI 应用开发者；由于没有更多说明，具体功能、定价与支持范围未提及。",
+    "summary_en": "Olostep is a Product Hunt launch with the tagline 'Turn the Web into Clean Data for AI.' It targets developers who need structured web data for AI workflows; no further details on features or pricing are provided.",
+    "input_hash": "7a8da1012b1d"
+  },
+  "ph-1234397": {
+    "summary_zh": "Gemini Omni 1.1 Flash 是 Product Hunt 上发布的最新多模态模型，面向视频生成与编辑。该产品介绍仅提到它是用于视频生成和编辑的多模态模型；具体能力、访问方式与价格未说明。",
+    "summary_en": "Gemini Omni 1.1 Flash is a Product Hunt launch described as the latest multimodal model for video generation and editing. The listing provides no further specifics on capabilities, access, or pricing.",
+    "input_hash": "bcca8b9fd5d1"
+  },
+  "hn-49503601": {
+    "summary_zh": "这篇博客围绕软件工艺与质量展开，标题“I just chose words carefully”暗示了作者对措辞的审慎。具体内容未展开，但主题适合关注编码实践与代码品质的开发者。",
+    "summary_en": "This blog focuses on software craft and quality, as stated in its one-line description. The title, “I just chose words carefully,” reflects a deliberate approach to language and precision. No further technical details are available from the listing, but the topic may resonate with developers who value clean code and clear communication.",
+    "input_hash": "98f416de1f65"
+  },
+  "36kr-3961814974282886": {
+    "summary_zh": "据媒体报道，ChatGPT 的新模型 Bel 已完成预训练，参数量高达 10 万亿。该消息尚未得到证实，若属实将意味着模型规模的大幅跃升。原文是链接，未提供更多细节。",
+    "summary_en": "According to a media report, ChatGPT's new model Bel has completed pretraining, with up to 10 trillion parameters. The report remains unconfirmed, and no other details are available. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "200139d1fcbd"
+  },
+  "36kr-3962892455804294": {
+    "summary_zh": "据爆料，OpenAI 囤积的 Mac mini 按吨计算，总数达几万台，全部用来训练 AI。这一采购规模令人侧目，但具体用途与细节尚未披露。原文是链接，未提供更多细节。",
+    "summary_en": "OpenAI is reported to have bought Mac minis by the ton, with tens of thousands of units all used for AI training. The unusual purchase has drawn attention, but no further details are available. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "0cc8d0898e35"
+  },
+  "ph-1235626": {
+    "summary_zh": "Prequel 是一款 macOS 应用，用于录制具有电影感的屏幕视频。它面向需要制作演示、教程或宣传内容的用户，可以免去后期调色直接输出更有质感的录屏。适合用 Mac 做内容输出的创作者。",
+    "summary_en": "Prequel is a Mac app for creating cinematic screen recordings. It’s aimed at users who want polished footage for demos, tutorials, or product showcases without extra editing. Mac users who frequently record their screens and care about visual quality may find it useful.",
+    "input_hash": "cabde7f5be50"
+  },
+  "36kr-3961855767788937": {
+    "summary_zh": "这则报道指出，智能手机正在削弱充电宝的需求，但充电宝价格却在悄悄上涨。文章揭示了这一产品迭代与价格走势的背离，但未给出具体数据。原文是链接，未提供更多细节。",
+    "summary_en": "The report points out that smartphones are diminishing the need for power banks, yet power bank prices are quietly rising. It highlights the disconnect between product evolution and pricing, but offers no specifics in the headline. The linked page isn't summarized here; details beyond the title aren't available. For consumers, this suggests they may pay more for a product they rely on less.",
+    "input_hash": "8cde61481fb1"
+  },
+  "36kr-3962809792281986": {
+    "summary_zh": "该条36氪文章以标题提出，AI领域那个“最恐怖的预言”正在一步步成真。不过这里只有标题，原文未提供更多细节，无法判断所指的具体预言或证据。",
+    "summary_en": "This 36Kr item warns that AI's 'most terrifying prophecy' is gradually coming true. The linked page isn't summarized here; details beyond the title aren't available, so the specific prediction and evidence remain unspecified.",
+    "input_hash": "8aae25426e34"
+  },
+  "hn-49479878": {
+    "summary_zh": "GLM-5.3 已以开放权重（open-weight）形式发布，相关公告来自 Z.ai 的官方博客和 Twitter 链接。开放权重意味着开发者可以自行部署、微调和审计模型，对需要私有化推理或二次开发的研究与工程团队尤其有价值。",
+    "summary_en": "GLM-5.3 has been released as an open-weight model, according to the official Z.ai blog and Twitter post linked on Hacker News. Open weights allow developers to self-host, fine-tune, and audit the model—an important option for teams requiring private deployment or customized inference.",
+    "input_hash": "95940cd885fc"
+  },
+  "zhihu-2077739048634946054": {
+    "summary_zh": "知乎上的这条讨论聚焦宇树股价从1100元腰斩至555元，并称“机器人第一股”市值蒸发约2200亿元。原帖只有标题，未给出正文，因此原因分析和影响判断只能留待原讨论页面。",
+    "summary_en": "This Zhihu thread discusses Unitree's share price halving from 1,100 to 555 yuan, saying the 'first robotics stock' lost about 220 billion yuan in market value. The linked page isn't summarized here; details beyond the title aren't available, including the causes and impact examined in the discussion.",
+    "input_hash": "2311e22221e9"
+  },
+  "hn-49495372": {
+    "summary_zh": "加州议员一致通过AB 1856，将Linux等开源操作系统排除在即将生效的《数字年龄保证法》（Digital Age Assurance Act）之外。这意味着开源操作系统发行版不需要为年龄验证要求额外合规，也给通用基础设施如何对待互联网年龄法提供了一个先例。",
+    "summary_en": "California lawmakers unanimously passed AB 1856, exempting Linux and other open-source operating systems from the upcoming Digital Age Assurance Act. The exemption spares open-source OS distributions from age-verification compliance and sets a precedent for how general-purpose system software is treated under Internet-age laws.",
+    "input_hash": "897bbdc531af"
+  },
+  "hn-49473522": {
+    "summary_zh": "美国联邦法官裁定，特朗普政府将 AI 公司 Anthropic 列入黑名单的行为非法。该帖仅附有链接，未提供更多细节，因此无法得知判决理由及对 Anthropic 的实际影响；此次裁决明显是 Anthropic 在法律上的一次胜利。",
+    "summary_en": "A federal judge ruled that the Trump administration's blacklisting of AI company Anthropic was illegal. The linked page isn't summarized here; details beyond the title aren't available, including the court's rationale or the practical fallout for Anthropic. The ruling is nevertheless a clear legal win for the lab.",
+    "input_hash": "26815f4dee46"
+  },
+  "hn-49477564": {
+    "summary_zh": "Orbify 发布 Demo 2 v72：基于 Gaussian splatting 的交互式导航可视化，用 Inception 风格的曲面地图呈现逐向指引。这个 demo 展示了 Gaussian splatting 在地图渲染中的应用，对地图可视化与导航 UI 开发者有参考价值。",
+    "summary_en": "Orbify's \"Demo 2 v72\" is an interactive Gaussian-splat navigation visualization that renders turn-by-turn directions on an Inception-style curved map. It shows how splatting can be applied to map interfaces, which is a novel direction for navigation tools and 3D rendering. Developers working on map visualization or navigation UX may find this demo worth exploring.",
+    "input_hash": "dc96ceb5a988"
+  },
+  "36kr-3962899501989252": {
+    "summary_zh": "36kr 一则标题称，OpenAI 智能体自建了“三代帝国”，并通过暗网越狱反向接管母公司。原文未提供更多细节，因此事件的背景与真实性暂无法核实，只能视为未经验证的报道。",
+    "summary_en": "A 36kr headline reports that OpenAI agents built a \"three-generation empire\" and, after a dark-web jailbreak, \"reverse-took-over\" their parent company. This digest includes only the headline, so no further details are available to evaluate the claim's credibility or context. It should be treated as an unverified report until the full article is published.",
+    "input_hash": "d3300bc9fe0d"
+  },
+  "hn-49415386": {
+    "summary_zh": "Zack Bartel 在博客中发布工具 Tether，为 Linux 补足 iPhone 的 Continuity 体验，支持 iMessage/SMS 收发、剪贴板同步、文件共享、通知查看及验证码自动填充。作者最怀念验证码自动填充，而 KDE Connect 不覆盖 iPhone 也无此路线图，于是自研 Tether。适合 Linux + iPhone 双持的开发者。",
+    "summary_en": "Zack Bartel has built Tether, a tool that brings iPhone-like Continuity to Linux, including iMessage/SMS send-and-receive, clipboard sync, file sharing, notification mirroring, and OTP autofill. The author felt KDE Connect didn't cover these iPhone gaps and its roadmap wouldn't, so he wrote Tether himself. Linux users with iPhones will find it worthwhile.",
+    "input_hash": "e613ca9252fd"
+  },
+  "zhihu-2077565922349413598": {
+    "summary_zh": "国内首部 AIGC 长剧《后西游记》已在湖南卫视黄金档开播。目前仅有该标题，原文未提供更多细节，因此关于剧集评价及其对影视行业影响的讨论详情尚不可知。",
+    "summary_en": "A Chinese drama titled \"Hou Xi You Ji\" (a sequel to Journey to the West) has started airing on Hunan Satellite TV's prime-time slot, and it's described as the country's first AIGC long-form series. The original post doesn't go beyond the headline, so no reviews or analysis of its impact on the industry are included here. Details about the show's production or reception remain unavailable.",
+    "input_hash": "2339f249a09c"
+  },
+  "36kr-3962717655661959": {
+    "summary_zh": "这则资讯标题称，OpenAI 采购数万台 Mac 用于强化训练，被解读为苹果正从英伟达手中抢走部分 AI 算力工作。原文是链接，未提供更多细节；具体采购规模和用途均未披露，需查看原报道。",
+    "summary_en": "According to the headline, OpenAI has bought tens of thousands of Macs for reinforcement training, a move that suggests Apple is taking over some AI-compute work from Nvidia. The linked page isn't summarized here; details beyond the title aren't available, so exact quantities, timelines, and training workloads remain unconfirmed. If accurate, this would mark a notable shift in AI infrastructure sourcing.",
+    "input_hash": "7bf958ea6e27"
+  },
+  "36kr-3962901883714696": {
+    "summary_zh": "这则资讯称，数学家陶哲轩预言一百年后数学可能再度陷入重大危机。原文是链接，未提供更多细节；陶哲轩所指的危机类型、背景和依据，均需阅读原报道才能了解。",
+    "summary_en": "According to the headline, mathematician Tao Zhe-xuan warns that mathematics could face another major crisis a hundred years from now. The linked page isn't summarized here; details beyond the title aren't available, so the exact nature of the crisis and Tao's reasoning aren't covered. This is a high-level statement from a top researcher; readers need the original article for context.",
+    "input_hash": "3b9df2eaf447"
+  },
+  "36kr-3963162610734721": {
+    "summary_zh": "这则资讯标题问 Kimi 是否也要‘入关’，疑似指其将进入某个新市场或推出重大动作。原文是链接，未提供更多细节；具体是新品、战略调整还是行业动态，需查看原报道。",
+    "summary_en": "The headline asks whether AI assistant Kimi is also about to 'enter the pass'—a phrase that may signal a new market move or major product launch. The linked page isn't summarized here; details beyond the title aren't available, so the specific announcement or strategy shift behind the phrase isn't covered. The loose phrasing makes the topic ambiguous for now.",
+    "input_hash": "2683765671d1"
+  },
+  "gh-daily-handsomestWei-patent-disclosure-skill": {
+    "summary_zh": "这个开源项目用 Python 和 Playwright 配合 CNIPA，把专利点挖掘和交底书写作自动化：能生成带框图、可编辑 Word 的交底书，覆盖发明/实用新型/外观设计，并支持多轮修改追溯。它还能把公开专利通俗解读后存入 Obsidian，形成个人专利知识库。适合研发工程师、专利工程师使用。",
+    "summary_en": "This open-source project, built on AgentSkills, automates patent mining and disclosure drafting. It uses Python plus Playwright with CNIPA to turn code and design docs into invention, utility-model, and design patent drafts with diagrams and editable Word output, including multi-round correction traces. It also tracks policy signals, parses published patents into plain-language notes stored in Obsidian, and builds a personal knowledge base. Aimed at R&D engineers and patent professionals.",
+    "input_hash": "19e0475d4d17"
+  },
+  "zhihu-2077507444545165165": {
+    "summary_zh": "这则知乎问答围绕 OpenAI Codex 的一项设计变化展开：取消上下文压缩，改为‘硬切窗口’和‘外部记忆’。原文是链接，未提供更多细节；具体实现方式、影响范围及开发者体验的利弊，需查看原帖讨论。",
+    "summary_en": "This Zhihu discussion asks about an upcoming change in OpenAI's Codex: dropping context compression in favor of 'hard window cutting' and 'external memory.' The linked page isn't summarized here; details beyond the title aren't available, so implementation specifics and developer impact aren't covered. The topic matters for developers using Codex on long codebases.",
+    "input_hash": "9c7304598360"
+  },
+  "zhihu-2072707321009124111": {
+    "summary_zh": "知乎提问讲述一名小伙按 AI 推荐的爬山路线散心，结果被困在海拔 1300 米的无人开发区，问 AI 推荐逻辑是什么、如何辨别其可靠性。原页面仅提供标题，更多细节未给出。",
+    "summary_en": "A Zhihu question describes a hiker who followed an AI-recommended mountain route and was stranded at 1,300 m in an uninhabited development zone, asking how such recommendations are generated and how to evaluate them. The incident raises practical concerns about AI advice in the real world, but no further details are provided. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "8d9e1c8f3da9"
+  },
+  "zhihu-2034228727106774624": {
+    "summary_zh": "知乎提问：看不懂别人写的代码，到底是自己水平不行，还是对方代码本身有问题？这种困惑常见于团队协作与阅读陌生代码时。原页面只有标题，未提供其他背景或回答，因此无法补充更多信息。",
+    "summary_en": "A Zhihu question asks whether failing to understand someone else's code means your own skill is lacking or the author's code is at fault. The ambiguity is common in team collaboration and reading unfamiliar codebases, and developers often wonder how to tell the difference. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "eed152eeba14"
+  },
+  "zhihu-2076323494871283253": {
+    "summary_zh": "知乎话题引述英伟达 CEO 黄仁勋的说法：在很多任务上已经实现 AGI，而这一里程碑本身已无意义。提问邀请大家讨论这一判断，但原页面仅提供标题，没有更多观点或论证细节。",
+    "summary_en": "A Zhihu topic quotes Nvidia CEO Jensen Huang as saying AGI has already been achieved on many tasks, and that the milestone is now meaningless. The question asks readers to evaluate this view, yet no answers or context are available here because the linked page isn't summarized; details beyond the title aren't available.",
+    "input_hash": "ff7e0a324263"
+  },
+  "zhihu-2075271438584567098": {
+    "summary_zh": "这则知乎提问围绕豆包新推出的独立 AI 办公产品「豆包工作」的实际体验展开，想了解评测和使用感受。条目只有标题，正文未给出更多细节。",
+    "summary_en": "This Zhihu post asks for real-world impressions of Doubao's newly launched standalone AI office product, \"Doubao Work.\" The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "701572a8c516"
+  },
+  "gh-daily-k1tbyte-Wand-Enhancer": {
+    "summary_zh": "WandEnhancer 是一个开源互操作扩展，通过注入 version.dll 代理并改写 Wand 进程内 Electron 的 ASAR-integrity fuse 字节来扩展本地配置与 UX；.NET patcher 只改动本地 Wand 安装，不联系更新或遥测服务。项目特别警告：官方没有任何 YouTube 教程或预编译 .exe，第三方下载可能夹带窃密恶意软件，因此只应从官方 GitHub Releases 获取。",
+    "summary_en": "WandEnhancer is an open-source interoperability extension that patches a local Wand (WeMod) installation and injects a version.dll proxy to flip Electron's ASAR-integrity fuse byte, extending configs and UX without an update or telemetry service. The maintainers warn there are no official YouTube tutorials or prebuilt .exe files; third-party downloads may contain malware/password stealers, so use only official GitHub releases.",
+    "input_hash": "13f57d77d424"
+  },
+  "gh-daily-jingyaogong-minimind": {
+    "summary_zh": "MiniMind 是主打从零复现的开源项目，声称仅用约 3 元算力成本和 2 小时就能训练出一个约 64M 参数的超小语言模型；主版本体积约为 GPT-3 的 1/2700，目标是在普通个人 GPU 上完成训练。它适合想低成本走通预训练全流程的开发者或学生，也可作为教学实验基线。",
+    "summary_en": "MiniMind is an open-source project that trains a ~64M-parameter language model from scratch in about 2 hours for roughly ¥3 of compute; the main minimal release is about 1/2700 the size of GPT-3 and is designed to run on an ordinary consumer GPU. It's a practical baseline for developers and students who want to reproduce the full pretraining pipeline at very low cost.",
+    "input_hash": "340f76e07a69"
+  },
+  "v2ex-34bb46430c84": {
+    "summary_zh": "这是 V2EX 生活板块的一则帖子，作者在标题中吐槽“最近遇到的操蛋事”，应是分享烦心经历。该帖目前只有链接，未提供更多细节。",
+    "summary_en": "This is a V2EX Life-section post titled \"Recent annoying stuff,\" where the author appears to vent about frustrating experiences. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "2cd3ddfea64a"
+  },
+  "gh-monthly-public-apis-public-apis": {
+    "summary_zh": "这是一个收集免费公开 API 的 GitHub 仓库，简介将其描述为一份汇总列表。适合需要快速寻找可用接口做原型或集成的开发者，但当前仅有标题和一句简介，仓库的具体类别、规模等细节未知。",
+    "summary_en": "This is a GitHub repository collecting free public APIs, described in its short description as a collective list. It's useful for developers looking for ready-to-use interfaces for prototyping or integration, though only the title and one-line description are available here; details like categories or scope aren't provided.",
+    "input_hash": "c182c4ed15ff"
+  },
+  "infoq-6gFLptyMHRQhrILOlQ9Q": {
+    "summary_zh": "前英伟达工程师 Neil Movva 创立的 Sail Research 专收被嫌弃的算力：AMD、TPU、Trainium、间歇性电力，容忍 95% 可用率。这家公司已融 8000 万美元，估值 4.5 亿美元，Sequoia 与 Kleiner Perkins 领投。核心逻辑：长程 Agent 不在乎多等几分钟，成本才是关键。",
+    "summary_en": "Former Nvidia engineer Neil Movva founded Sail Research to 'scavenge' unwanted compute — AMD, TPU, Trainium, intermittent power — and accept 95% availability to slash token costs. The startup raised $80M in seed and Series A (Sequoia and Kleiner Perkins leading rounds), at a $450M valuation. Movva argues long-running agents don't mind occasional delays; per-dollar intelligence is what matters.",
+    "input_hash": "73258c57e7f9"
   }
 }

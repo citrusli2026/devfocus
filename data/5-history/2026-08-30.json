@@ -196,7 +196,9 @@
       "tags": [],
       "first_seen": "2026-08-29",
       "domain": "huggingface.co",
-      "quality_score": 34.8
+      "quality_score": 34.8,
+      "summary_zh": "GLM-5.3 已以开放权重（open-weight）形式发布，相关公告来自 Z.ai 的官方博客和 Twitter 链接。开放权重意味着开发者可以自行部署、微调和审计模型，对需要私有化推理或二次开发的研究与工程团队尤其有价值。",
+      "summary_en": "GLM-5.3 has been released as an open-weight model, according to the official Z.ai blog and Twitter post linked on Hacker News. Open weights allow developers to self-host, fine-tune, and audit the model—an important option for teams requiring private deployment or customized inference."
     },
     {
       "id": "hn-49466917",
@@ -230,7 +232,9 @@
       "tags": [],
       "first_seen": "2026-08-30",
       "domain": "people.kernel.org",
-      "quality_score": 51.2
+      "quality_score": 51.2,
+      "summary_zh": "HN 热门：Creepy Crawlies",
+      "summary_en": "Trending on HN: Creepy Crawlies"
     },
     {
       "id": "hn-49462763",
@@ -328,7 +332,9 @@
       "tags": [],
       "first_seen": "2026-08-30",
       "domain": "tomshardware.com",
-      "quality_score": 48.7
+      "quality_score": 48.7,
+      "summary_zh": "加州议员一致通过AB 1856，将Linux等开源操作系统排除在即将生效的《数字年龄保证法》（Digital Age Assurance Act）之外。这意味着开源操作系统发行版不需要为年龄验证要求额外合规，也给通用基础设施如何对待互联网年龄法提供了一个先例。",
+      "summary_en": "California lawmakers unanimously passed AB 1856, exempting Linux and other open-source operating systems from the upcoming Digital Age Assurance Act. The exemption spares open-source OS distributions from age-verification compliance and sets a precedent for how general-purpose system software is treated under Internet-age laws."
     },
     {
       "id": "hn-49465169",
@@ -360,7 +366,9 @@
       "tags": [],
       "first_seen": "2026-08-28",
       "domain": "nytimes.com",
-      "quality_score": 34.8
+      "quality_score": 34.8,
+      "summary_zh": "美国联邦法官裁定，特朗普政府将 AI 公司 Anthropic 列入黑名单的行为非法。该帖仅附有链接，未提供更多细节，因此无法得知判决理由及对 Anthropic 的实际影响；此次裁决明显是 Anthropic 在法律上的一次胜利。",
+      "summary_en": "A federal judge ruled that the Trump administration's blacklisting of AI company Anthropic was illegal. The linked page isn't summarized here; details beyond the title aren't available, including the court's rationale or the practical fallout for Anthropic. The ruling is nevertheless a clear legal win for the lab."
     },
     {
       "id": "hn-49477564",
@@ -376,7 +384,9 @@
       "tags": [],
       "first_seen": "2026-08-29",
       "domain": "orbify.eu",
-      "quality_score": 29.8
+      "quality_score": 29.8,
+      "summary_zh": "Orbify 发布 Demo 2 v72：基于 Gaussian splatting 的交互式导航可视化，用 Inception 风格的曲面地图呈现逐向指引。这个 demo 展示了 Gaussian splatting 在地图渲染中的应用，对地图可视化与导航 UI 开发者有参考价值。",
+      "summary_en": "Orbify's \"Demo 2 v72\" is an interactive Gaussian-splat navigation visualization that renders turn-by-turn directions on an Inception-style curved map. It shows how splatting can be applied to map interfaces, which is a novel direction for navigation tools and 3D rendering. Developers working on map visualization or navigation UX may find this demo worth exploring."
     },
     {
       "id": "hn-49457545",
@@ -408,7 +418,9 @@
       "tags": [],
       "first_seen": "2026-08-29",
       "domain": "zackbartel.com",
-      "quality_score": 28.6
+      "quality_score": 28.6,
+      "summary_zh": "Zack Bartel 在博客中发布工具 Tether，为 Linux 补足 iPhone 的 Continuity 体验，支持 iMessage/SMS 收发、剪贴板同步、文件共享、通知查看及验证码自动填充。作者最怀念验证码自动填充，而 KDE Connect 不覆盖 iPhone 也无此路线图，于是自研 Tether。适合 Linux + iPhone 双持的开发者。",
+      "summary_en": "Zack Bartel has built Tether, a tool that brings iPhone-like Continuity to Linux, including iMessage/SMS send-and-receive, clipboard sync, file sharing, notification mirroring, and OTP autofill. The author felt KDE Connect didn't cover these iPhone gaps and its roadmap wouldn't, so he wrote Tether himself. Linux users with iPhones will find it worthwhile."
     },
     {
       "id": "hn-49475079",
@@ -3445,7 +3457,9 @@
       "gh_period": "daily",
       "first_seen": "2026-08-30",
       "domain": "github.com",
-      "quality_score": 30.0
+      "quality_score": 30.0,
+      "summary_zh": "这个开源项目用 Python 和 Playwright 配合 CNIPA，把专利点挖掘和交底书写作自动化：能生成带框图、可编辑 Word 的交底书，覆盖发明/实用新型/外观设计，并支持多轮修改追溯。它还能把公开专利通俗解读后存入 Obsidian，形成个人专利知识库。适合研发工程师、专利工程师使用。",
+      "summary_en": "This open-source project, built on AgentSkills, automates patent mining and disclosure drafting. It uses Python plus Playwright with CNIPA to turn code and design docs into invention, utility-model, and design patent drafts with diagrams and editable Word output, including multi-round correction traces. It also tracks policy signals, parses published patents into plain-language notes stored in Obsidian, and builds a personal knowledge base. Aimed at R&D engineers and patent professionals."
     },
     {
       "id": "gh-daily-corsairdev-corsair",
@@ -3848,7 +3862,9 @@
       "gh_period": "monthly",
       "first_seen": "2026-08-28",
       "domain": "github.com",
-      "quality_score": 35.2
+      "quality_score": 35.2,
+      "summary_zh": "这是一个收集免费公开 API 的 GitHub 仓库，简介将其描述为一份汇总列表。适合需要快速寻找可用接口做原型或集成的开发者，但当前仅有标题和一句简介，仓库的具体类别、规模等细节未知。",
+      "summary_en": "This is a GitHub repository collecting free public APIs, described in its short description as a collective list. It's useful for developers looking for ready-to-use interfaces for prototyping or integration, though only the title and one-line description are available here; details like categories or scope aren't provided."
     },
     {
       "id": "gh-monthly-unclebob-swarm-forge",
@@ -4079,7 +4095,9 @@
       ],
       "first_seen": "2026-08-29",
       "domain": "producthunt.com",
-      "quality_score": 32.4
+      "quality_score": 32.4,
+      "summary_zh": "Microduck 是一个微型开源双足机器人，用户可自行训练。产品页只提供了这一句描述，没有更多技术规格或使用场景。",
+      "summary_en": "Microduck is a tiny open-source biped robot that users can train themselves. The product page offers only this one-line description, with no technical specs or use cases included."
     },
     {
       "id": "ph-1234397",
@@ -4096,7 +4114,9 @@
       ],
       "first_seen": "2026-08-29",
       "domain": "producthunt.com",
-      "quality_score": 27.7
+      "quality_score": 27.7,
+      "summary_zh": "Gemini Omni 1.1 Flash 是 Product Hunt 上发布的最新多模态模型，面向视频生成与编辑。该产品介绍仅提到它是用于视频生成和编辑的多模态模型；具体能力、访问方式与价格未说明。",
+      "summary_en": "Gemini Omni 1.1 Flash is a Product Hunt launch described as the latest multimodal model for video generation and editing. The listing provides no further specifics on capabilities, access, or pricing."
     },
     {
       "id": "ph-1234433",

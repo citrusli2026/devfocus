@@ -214,7 +214,9 @@
       "tags": [],
       "first_seen": "2026-08-29",
       "domain": "huggingface.co",
-      "quality_score": 49.1
+      "quality_score": 49.1,
+      "summary_zh": "GLM-5.3 已以开放权重（open-weight）形式发布，相关公告来自 Z.ai 的官方博客和 Twitter 链接。开放权重意味着开发者可以自行部署、微调和审计模型，对需要私有化推理或二次开发的研究与工程团队尤其有价值。",
+      "summary_en": "GLM-5.3 has been released as an open-weight model, according to the official Z.ai blog and Twitter post linked on Hacker News. Open weights allow developers to self-host, fine-tune, and audit the model—an important option for teams requiring private deployment or customized inference."
     },
     {
       "id": "hn-49462763",
@@ -362,7 +364,9 @@
       "tags": [],
       "first_seen": "2026-08-28",
       "domain": "nytimes.com",
-      "quality_score": 49.3
+      "quality_score": 49.3,
+      "summary_zh": "美国联邦法官裁定，特朗普政府将 AI 公司 Anthropic 列入黑名单的行为非法。该帖仅附有链接，未提供更多细节，因此无法得知判决理由及对 Anthropic 的实际影响；此次裁决明显是 Anthropic 在法律上的一次胜利。",
+      "summary_en": "A federal judge ruled that the Trump administration's blacklisting of AI company Anthropic was illegal. The linked page isn't summarized here; details beyond the title aren't available, including the court's rationale or the practical fallout for Anthropic. The ruling is nevertheless a clear legal win for the lab."
     },
     {
       "id": "hn-49477564",
@@ -378,7 +382,9 @@
       "tags": [],
       "first_seen": "2026-08-29",
       "domain": "orbify.eu",
-      "quality_score": 44.5
+      "quality_score": 44.5,
+      "summary_zh": "Orbify 发布 Demo 2 v72：基于 Gaussian splatting 的交互式导航可视化，用 Inception 风格的曲面地图呈现逐向指引。这个 demo 展示了 Gaussian splatting 在地图渲染中的应用，对地图可视化与导航 UI 开发者有参考价值。",
+      "summary_en": "Orbify's \"Demo 2 v72\" is an interactive Gaussian-splat navigation visualization that renders turn-by-turn directions on an Inception-style curved map. It shows how splatting can be applied to map interfaces, which is a novel direction for navigation tools and 3D rendering. Developers working on map visualization or navigation UX may find this demo worth exploring."
     },
     {
       "id": "hn-49464896",
@@ -874,7 +880,9 @@
       "tags": [],
       "first_seen": "2026-08-29",
       "domain": "zackbartel.com",
-      "quality_score": 21.9
+      "quality_score": 21.9,
+      "summary_zh": "Zack Bartel 在博客中发布工具 Tether，为 Linux 补足 iPhone 的 Continuity 体验，支持 iMessage/SMS 收发、剪贴板同步、文件共享、通知查看及验证码自动填充。作者最怀念验证码自动填充，而 KDE Connect 不覆盖 iPhone 也无此路线图，于是自研 Tether。适合 Linux + iPhone 双持的开发者。",
+      "summary_en": "Zack Bartel has built Tether, a tool that brings iPhone-like Continuity to Linux, including iMessage/SMS send-and-receive, clipboard sync, file sharing, notification mirroring, and OTP autofill. The author felt KDE Connect didn't cover these iPhone gaps and its roadmap wouldn't, so he wrote Tether himself. Linux users with iPhones will find it worthwhile."
     },
     {
       "id": "hn-49432201",
@@ -3890,7 +3898,9 @@
       "gh_period": "monthly",
       "first_seen": "2026-08-28",
       "domain": "github.com",
-      "quality_score": 35.2
+      "quality_score": 35.2,
+      "summary_zh": "这是一个收集免费公开 API 的 GitHub 仓库，简介将其描述为一份汇总列表。适合需要快速寻找可用接口做原型或集成的开发者，但当前仅有标题和一句简介，仓库的具体类别、规模等细节未知。",
+      "summary_en": "This is a GitHub repository collecting free public APIs, described in its short description as a collective list. It's useful for developers looking for ready-to-use interfaces for prototyping or integration, though only the title and one-line description are available here; details like categories or scope aren't provided."
     },
     {
       "id": "gh-monthly-megadose-holehe",
@@ -4013,7 +4023,9 @@
       ],
       "first_seen": "2026-08-29",
       "domain": "producthunt.com",
-      "quality_score": 46.7
+      "quality_score": 46.7,
+      "summary_zh": "Microduck 是一个微型开源双足机器人，用户可自行训练。产品页只提供了这一句描述，没有更多技术规格或使用场景。",
+      "summary_en": "Microduck is a tiny open-source biped robot that users can train themselves. The product page offers only this one-line description, with no technical specs or use cases included."
     },
     {
       "id": "ph-1234397",
@@ -4030,7 +4042,9 @@
       ],
       "first_seen": "2026-08-29",
       "domain": "producthunt.com",
-      "quality_score": 42.7
+      "quality_score": 42.7,
+      "summary_zh": "Gemini Omni 1.1 Flash 是 Product Hunt 上发布的最新多模态模型，面向视频生成与编辑。该产品介绍仅提到它是用于视频生成和编辑的多模态模型；具体能力、访问方式与价格未说明。",
+      "summary_en": "Gemini Omni 1.1 Flash is a Product Hunt launch described as the latest multimodal model for video generation and editing. The listing provides no further specifics on capabilities, access, or pricing."
     },
     {
       "id": "ph-1234433",
