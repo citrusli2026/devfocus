@@ -3223,7 +3223,9 @@
       "gh_period": "daily",
       "first_seen": "2026-09-02",
       "domain": "github.com",
-      "quality_score": 30.0
+      "quality_score": 30.0,
+      "summary_zh": "fmtlib/fmt 是 GitHub Trending 上的一个现代格式化库项目，简介只有一句“A modern formatting library”。README 页面展示了 Linux、macOS、Windows 的 CI 徽章，以及 OSS-Fuzz、OpenSSF Best Practices 等质量与安全徽章，体现对构建健康与供应链安全的投入。除这些外没有实质性的仓库说明文本，更多细节需查看仓库本身。",
+      "summary_en": "fmtlib/fmt is trending on GitHub as a modern formatting library; its one-line description says 'A modern formatting library.' The README on this page shows CI badges for Linux, macOS, and Windows plus OSS-Fuzz and OpenSSF Best Practices badges, signaling attention to build health and supply-chain security. No substantive README text is included here, so details beyond that aren't available."
     },
     {
       "id": "gh-daily-google-research-timesfm",
@@ -3240,7 +3242,9 @@
       "gh_period": "daily",
       "first_seen": "2026-09-02",
       "domain": "github.com",
-      "quality_score": 30.2
+      "quality_score": 30.2,
+      "summary_zh": "TimesFM 是 Google Research 开源的预训练时间序列基础模型，用于时序预测，论文已被 ICML 2024 接收。仓库最近加入 TimesFM 3.0 的 PyTorch checkpoint，并支持通过 BigQuery ML、Google Sheets 和 Vertex Model Garden 使用，适合需要销售、负载等时序预测的团队快速建基线。",
+      "summary_en": "Google Research's TimesFM is a pretrained time-series foundation model for forecasting, introduced in an ICML 2024 paper. The GitHub repo now carries a TimesFM 3.0 PyTorch checkpoint, plus integrations with BigQuery ML, Google Sheets, and Vertex Model Garden. It's a practical starting point for developers who need forecasting baselines for metrics like demand, traffic, or sales."
     },
     {
       "id": "gh-daily-DietrichGebert-ponytail",
@@ -5143,7 +5147,9 @@
       "tags": [],
       "first_seen": "2026-09-02",
       "domain": "infoq.cn",
-      "quality_score": 33.5
+      "quality_score": 33.5,
+      "summary_zh": "Nuxt 4.5 被官方称为近期最大发布：构建层迁移到 Vite 8，Rspack 2 构建器改为基于 Rsbuild，并加入实验性 SSR 流式传输、稳定错误码（NUXT_E1001）和 useLayout。流式传输只提前返回 HTML 外壳以缩短 TTFB，并不会减少服务端 2.5 秒的渲染耗时，机器人请求会自动禁用。升级请用 nuxt upgrade --dedupe，需应对 unhead v3 带来的破坏性变更。",
+      "summary_en": "Nuxt 4.5, billed by the team as a major release, moves the build toolchain to Vite 8, switches the Rspack 2 builder to an Rsbuild-based setup, and adds experimental SSR streaming, a stable error-code scheme, and the useLayout composable. Streaming sends an HTML shell immediately to cut TTFB, though it doesn't reduce the server-side processing time shown at 2.5 seconds and is disabled for crawlers. Use nuxt upgrade --dedupe when upgrading because unhead v3 introduces breaking changes."
     },
     {
       "id": "infoq-rhKVS8RAdp4aVPZD0vZu",
@@ -5159,7 +5165,9 @@
       "tags": [],
       "first_seen": "2026-09-02",
       "domain": "infoq.cn",
-      "quality_score": 36.6
+      "quality_score": 36.6,
+      "summary_zh": "InfoQ 精选：当 AI 开始重写负载，数据库该如何重新设计？",
+      "summary_en": "Featured on InfoQ: 当 AI 开始重写负载，数据库该如何重新设计？"
     },
     {
       "id": "infoq-el0IBcWagf1hxccJYUUP",
@@ -5175,7 +5183,9 @@
       "tags": [],
       "first_seen": "2026-09-02",
       "domain": "infoq.cn",
-      "quality_score": 37.2
+      "quality_score": 37.2,
+      "summary_zh": "JDK 27 Build 35 已进入首个发布候选版，预计 2026 年 9 月 15 日发布正式版，含 JEP 523（G1 默认）等九项功能。面向 JDK 28 的 JEP 540（简单 JSON API 孵化器）、JEP 541（废弃 macOS/x64 移植）和 JEP 542（PEM 编码 API）也已推进到 Targeted / Proposed to Target 状态。",
+      "summary_en": "JDK 27 has reached its first release candidate (Build 35), with GA expected on September 15, 2026, including nine final features such as JEP 523 (G1 as default GC). Meanwhile, JDK 28 sees JEP 540 (simple JSON API incubator), JEP 541 (deprecating the macOS/x64 port) and JEP 542 (PEM encoding API) advanced to Targeted or Proposed to Target; JEP 542 follows three preview rounds in JDK 25–27."
     },
     {
       "id": "infoq-PybEXW1fiP1O5vfteYdL",
@@ -5191,7 +5201,9 @@
       "tags": [],
       "first_seen": "2026-09-02",
       "domain": "infoq.cn",
-      "quality_score": 37.3
+      "quality_score": 37.3,
+      "summary_zh": "InfoQ 精选：优化平台工程规模，构建组织真正需要的平台",
+      "summary_en": "Featured on InfoQ: 优化平台工程规模，构建组织真正需要的平台"
     },
     {
       "id": "infoq-JSgkNf4EBVRL6HPP8D1u",
@@ -5207,7 +5219,9 @@
       "tags": [],
       "first_seen": "2026-09-02",
       "domain": "infoq.cn",
-      "quality_score": 37.9
+      "quality_score": 37.9,
+      "summary_zh": "GOAI（世界人工智能开源大赛）总决赛将在 9 月 22—24 日于杭州举办，与云栖大会、数贸会同期，总奖池 500 万元。初赛 2999 份作品中约 120 支队伍晋级：三条主赛道 100 支队伍须于 9 月 3 日 18:00 前提交复赛材料，争夺 50 个决赛席位；「具身未来」赛道 20 支队伍已直接进入决赛，正分批进行真机调试。",
+      "summary_en": "The World AI Open Source Competition (GOAI) will hold its Hangzhou finals on Sept 22–24, running alongside the Yunqi Conference and Digital Trade Expo, with a 5-million-RMB total prize pool. About 120 teams advanced from 2,999 initial entries. The 100 teams across three main tracks must submit round-two materials by 18:00 on Sept 3 to fight for 50 finals slots, while the 20 embodied-future teams are already in the finals doing real-hardware debugging."
     },
     {
       "id": "infoq-ztbou1CqjAdzrT6GNSKV",
@@ -5223,7 +5237,9 @@
       "tags": [],
       "first_seen": "2026-09-02",
       "domain": "infoq.cn",
-      "quality_score": 38.1
+      "quality_score": 38.1,
+      "summary_zh": "Cloudflare 在 GitHub 开源了 Cloudflare OS：每个文档、仪表盘或数据视图跑在独立 V8 沙箱（Gadget）里，用户各有可修改副本。官方称这种隔离让非技术用户也能安全构建软件，并用能力驱动模型执行企业策略。项目源自员工未经审核部署 GenAI 工作流引发的权限与 API 令牌风险。",
+      "summary_en": "Cloudflare has open-sourced Cloudflare OS, an enterprise AI platform where each document, dashboard or data view runs in an isolated V8 sandbox called a Gadget, giving users a personal, modifiable copy. The isolation is meant to let non-technical users safely build custom software, with a capability-driven model enforcing enterprise policy. The project originated from internal incidents where employees deployed unapproved GenAI workflows with excessive permissions and API-token access."
     },
     {
       "id": "infoq-K8OwgoWM1gHNi2i4yLkU",
