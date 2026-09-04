@@ -3297,7 +3297,9 @@
       "gh_period": "daily",
       "first_seen": "2026-08-12",
       "domain": "github.com",
-      "quality_score": 30.2
+      "quality_score": 30.2,
+      "summary_zh": "anthropics/skills 是 Anthropic 官方公开仓库，收录了其对 Claude Agent Skills 的参考实现。Skills 是以文件夹形式组织的指令、脚本与资源，Claude 会在执行专业任务时按需动态加载，从而把品牌文档、数据分析等流程固化为可复用能力。",
+      "summary_en": "anthropics/skills is Anthropic's public repository containing its implementation of Agent Skills for Claude. Each skill is a folder of instructions, scripts, and resources that Claude loads dynamically to handle specialized, repeatable tasks, from generating on-brand documents to running organization-specific data-analysis workflows. It serves as a reference for developers who want to build custom skills."
     },
     {
       "id": "gh-daily-affaan-m-ECC",
@@ -5108,7 +5110,9 @@
       "tags": [],
       "first_seen": "2026-09-03",
       "domain": "infoq.cn",
-      "quality_score": 35.2
+      "quality_score": 35.2,
+      "summary_zh": "腾讯 WorkBuddy 在 9 月 2 日深圳生态发布会上展示了 9 款联名硬件，并披露已接入 30 多个硬件品牌、30 多个 Buddy 应用和 100 多个共创伙伴。官方面向生态开放 Agent harness，称模型会干活已成标配，下一步看 Agent 能连接多少数据、工具和真实场景；WorkBuddy 上线半年已迭代 50 余版。",
+      "summary_en": "At the WorkBuddy ecosystem launch in Shenzhen on Sept 2, Tencent showed nine co-branded hardware devices and said 30+ hardware brands, 30+ Buddy apps, and 100+ co-creation partners such as Anker, Rokid, and GF Securities are joining the open Agent harness. WorkBuddy has shipped 50+ releases since launching in March. Tencent’s argument: agents that can execute well are now table stakes, so the next edge comes from connecting more data, tools, and real-world scenarios."
     },
     {
       "id": "infoq-hcQKK8OIfwlMKw2zQSS9",
@@ -5124,7 +5128,9 @@
       "tags": [],
       "first_seen": "2026-09-03",
       "domain": "infoq.cn",
-      "quality_score": 36.8
+      "quality_score": 36.8,
+      "summary_zh": "Kiro Crew 是由三名亚马逊云科技工程师业余开发、基于 Kiro CLI 的持续运行 AI 开发工作区，现已开源，不到半年已有超过 3.9 万开发者和近 500 名贡献者。它跨 Session 保留状态与任务进度，沉淀 Lessons 和 Skills，解决多 Agent 上下文割裂、CI 后需要人工接续的问题；核心创造者陈柏霖将于 9 月 4 日直播演示这种机制。",
+      "summary_en": "Kiro Crew is an open-source, continuously running AI development workspace built on Kiro CLI by three engineers at Amazon Web Services as a side project; within six months it has exceeded 39,000 developers and nearly 500 contributors. It preserves state and progress across sessions and turns corrections and repeated workflows into Lessons and reusable Skills, coordinating multiple agents so work can keep moving until a human reviews it. Core creator Chen Bolin is scheduled to demo it on September 4."
     },
     {
       "id": "infoq-IE4CYYwbLYYKSbg7lXfx",
@@ -5140,7 +5146,9 @@
       "tags": [],
       "first_seen": "2026-09-03",
       "domain": "infoq.cn",
-      "quality_score": 37.0
+      "quality_score": 37.0,
+      "summary_zh": "针对 Agent 成为新数据消费者，华为云基于“混合云+Data+AI”重构数据基础设施，用管数、供数、用数、可信流通四环节组织 AI-Ready 平台，并推出 AI DataLake 服务模型训练与推理。DataArts 能统一接入 IT/OT/ET/KT 数据、内置 40 多种算子。可信数据空间则解决跨组织协作时的数据主权与操作留痕。",
+      "summary_en": "As agents become data consumers, Huawei Cloud is reworking data infrastructure around a 'hybrid cloud + Data + AI' AI-Ready platform split into manage, supply, use, and trusted circulation. New AI DataLake handles training and low-latency inference, DataArts ingests IT/OT/ET/KT data with 40+ operators, and trusted data spaces provide cross-organization data control and audit trails."
     },
     {
       "id": "infoq-SJOBmxzKUJ5kX7TLNVKC",
@@ -5156,7 +5164,9 @@
       "tags": [],
       "first_seen": "2026-09-03",
       "domain": "infoq.cn",
-      "quality_score": 36.9
+      "quality_score": 36.9,
+      "summary_zh": "Knowhere 是一个定位为“复杂文档与 AI Agent 之间 Memory Layer”的开源项目，5 月发布完整技术栈，约 3 个月在 GitHub 收获近 3000 star。与把 PDF 转成 Markdown 的 MinerU 不同，它在解析和向量化之间重建文档层级，让每个 chunk 知道自己所属章节和上下文，减少 RAG 检索时的结构信息丢失。",
+      "summary_en": "Knowhere is an open-source project positioning itself as a memory layer between messy documents and AI agents; its full stack was released in May and has gathered nearly 3,000 GitHub stars in about three months. Unlike MinerU, which focuses on converting PDFs into Markdown, Knowhere reconstructs document hierarchy between parsing and vectorization so each chunk knows its section and context. This is especially relevant for teams whose RAG pipelines lose too much structural information."
     },
     {
       "id": "infoq-9YiEhb3hAFtUlxOpMdGC",
@@ -5172,7 +5182,9 @@
       "tags": [],
       "first_seen": "2026-09-03",
       "domain": "infoq.cn",
-      "quality_score": 37.8
+      "quality_score": 37.8,
+      "summary_zh": "World Labs 发布多模态世界模型 Atlas，采用从零预训练的自回归扩散 Transformer，原生处理文本、图像、视频和 3D 数据。它能从一张或数十张图重建三维场景，并生成最长 1 分钟的 1440p 视频；相机位姿作为输入，因此支持可控运镜。该模型面向部分合作伙伴开放早期访问，将用于后续产品。",
+      "summary_en": "World Labs, founded by Fei-Fei Li, unveiled Atlas, a multimodal world model pre-trained from scratch with an autoregressive diffusion Transformer natively handling text, images, video and 3D data. Given one or dozens of photos, it can reconstruct 3D scenes and render videos up to one minute at 1440p; camera pose is a first-class input, enabling controllable camera movement. Atlas is now in early access for select partners and will underpin future products."
     },
     {
       "id": "infoq-dICPOgXYkvE9HcA1KpUv",
@@ -5188,7 +5200,9 @@
       "tags": [],
       "first_seen": "2026-09-03",
       "domain": "infoq.cn",
-      "quality_score": 36.5
+      "quality_score": 36.5,
+      "summary_zh": "Omdia 报告按 2025 年收入计算，将 OceanBase 列为亚太及大洋洲分布式数据库市场第一。该市场 2025 年约 9 亿美元，预计 2029 年增至 18 亿美元，复合增速 19.3%。OceanBase 已有超 4000 家全球客户，并在新加坡设国际总部，向银行核心系统拓展。",
+      "summary_en": "An Omdia report ranks OceanBase first in the Asia-Pacific and Oceania distributed database market by 2025 revenue. The region was worth about $900 million in 2025 and is forecast to reach $1.8 billion by 2029, a 19.3% CAGR. OceanBase, serving more than 4,000 customers globally, has opened an international headquarters in Singapore and is expanding from fintech into core banking systems."
     },
     {
       "id": "infoq-Gz4w1NVNIJjs8fZOaQZD",
@@ -5204,7 +5218,9 @@
       "tags": [],
       "first_seen": "2026-09-03",
       "domain": "infoq.cn",
-      "quality_score": 37.5
+      "quality_score": 37.5,
+      "summary_zh": "InfoQ 精选：AI窗口期只剩3-4年，98%的企业却高估了自身的技术成熟度",
+      "summary_en": "Featured on InfoQ: AI窗口期只剩3-4年，98%的企业却高估了自身的技术成熟度"
     },
     {
       "id": "infoq-cg5y0kCfmWKrIjCraZeH",
@@ -5220,7 +5236,9 @@
       "tags": [],
       "first_seen": "2026-09-03",
       "domain": "infoq.cn",
-      "quality_score": 36.7
+      "quality_score": 36.7,
+      "summary_zh": "InfoQ 精选：亚马逊云科技推出规范驱动组合：数据工作流不再靠复制代码",
+      "summary_en": "Featured on InfoQ: 亚马逊云科技推出规范驱动组合：数据工作流不再靠复制代码"
     },
     {
       "id": "infoq-ofYabQL5uvxdaIY7B31f",
