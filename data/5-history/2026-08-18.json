@@ -4464,7 +4464,9 @@
       "content": "",
       "first_seen": "2026-08-18",
       "domain": "juejin.cn",
-      "quality_score": 16.6
+      "quality_score": 16.6,
+      "summary_zh": "这篇实战文章介绍了一套浏览器端的人脸识别方案：模型约 6.5MB，图片选完后在浏览器内直接输出 128 维特征向量，核心代码只需 5 行，不需要把图片传回服务器。它主打隐私保护和低成本接入，适合做小区门禁这类对隐私敏感的前端场景。",
+      "summary_en": "This hands-on article presents a browser-based face recognition setup with a model of roughly 6.5MB. After selecting an image, the web page computes a 128-dimensional embedding locally with only about five lines of core code, so the photo doesn’t have to be sent to a server. It’s a lightweight, privacy-friendly option for scenarios like community access control."
     },
     {
       "id": "juejin-7666482995197722630",

@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T22:09:13.497235+00:00",
+  "generated_at": "2026-09-05T21:56:45.367294+00:00",
   "daily": {
-    "date": "2026-09-04",
+    "date": "2026-09-05",
     "items": [
       {
         "id": "hn-49554643",
@@ -9,8 +9,8 @@
         "url": "https://openai.com/index/gpt-6-astra/",
         "description": "",
         "source": "hackernews",
-        "score": 2138,
-        "comments": 1946,
+        "score": 2216,
+        "comments": 2031,
         "author": "kibae",
         "time": "2026-09-03T18:41:05+00:00",
         "tags": [
@@ -22,72 +22,73 @@
         "summary_zh": "这条帖子标题为「GPT-6 Astra」，但正文为空，原文是链接，未提供更多细节。能确定的只有标题中出现 GPT-6 与 Astra，无法核实它是模型发布、项目代号还是其他内容。",
         "summary_en": "This post is titled 'GPT-6 Astra,' but it has no body text. The linked page isn't summarized here; details beyond the title aren't available, so nothing about the model, announcement, or Astra designation can be verified.",
         "domain": "openai.com",
-        "quality_score": 100,
+        "quality_score": 95.0,
         "related_ids": [
-          "v2ex-29bec815da66",
+          "infoq-mKGb7ZiPRlAiFDZCWK0v",
+          "ph-1240758",
           "36kr-3968346621751812",
           "36kr-3968299418415362",
-          "36kr-3968652629422337",
-          "zhihu-2079099260516184281"
+          "v2ex-29bec815da66"
         ]
       },
       {
-        "id": "gh-daily-mattpocock-skills",
-        "title": "mattpocock/skills",
-        "url": "https://github.com/mattpocock/skills",
-        "description": "Skills for Real Engineers. Straight from my .agents directory.",
+        "id": "gh-daily-DietrichGebert-ponytail",
+        "title": "DietrichGebert/ponytail",
+        "url": "https://github.com/DietrichGebert/ponytail",
+        "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
         "source": "github_trending",
-        "score": 2757,
+        "score": 2813,
         "comments": 0,
-        "author": "mattpocock",
-        "time": "2026-09-04T22:08:38.628437+00:00",
+        "author": "DietrichGebert",
+        "time": "2026-09-05T21:56:08.189618+00:00",
         "tags": [
           "agent",
-          "directory",
+          "ai",
+          "dev",
           "github",
-          "straight"
+          "makes",
+          "wrote"
         ],
         "gh_period": "daily",
-        "first_seen": "2026-08-07",
-        "summary_zh": "Matt Pocock 开源了他的个人 AI 智能体技能集 mattpocock/skills，来自他日常实际使用的 .agents 目录，主打真实工程而非 vibe coding。这些技能刻意做成小型、易改、可组合，不依赖特定模型，也不同于 GSD、BMAD 这类试图接管整个流程的框架，给开发者更多控制权。",
-        "summary_en": "Matt Pocock open-sourced his personal AI agent skills in mattpocock/skills, taken from his own .agents directory and used for real engineering, not vibe coding. Unlike frameworks like GSD, BMAD, or Spec-Kit that own the whole process, these skills are deliberately small, adaptable, composable, and model-agnostic, giving developers more control. He encourages hacking on them and making them your own.",
+        "first_seen": "2026-08-25",
+        "summary_zh": "Ponytail 是一个开源项目，核心思路是让 AI agent 像“最懒的资深开发者”那样写代码：能少写就少写，一行能解决问题就不写第二行。发布为 npm 包 @dietrichgebert/ponytail，README 标注兼容 20 种 agent。适合希望减少 AI 生成冗余代码、提高可维护性的开发者。",
+        "summary_en": "Ponytail is an open-source project that pushes AI coding agents to behave like the 'laziest senior dev'—write only the minimum, and one line if that's enough. It's published as the npm package @dietrichgebert/ponytail and the README badge claims compatibility with 20 agents. Useful for developers who want AI to write less, not more.",
         "domain": "github.com",
-        "quality_score": 41.9,
+        "quality_score": 42.0,
         "related_ids": [
-          "gh-monthly-mattpocock-skills",
-          "ph-1202963",
-          "ph-1214277",
-          "ph-1232031",
-          "ph-1225427"
+          "ph-1225427",
+          "v2ex-405bc69e5265",
+          "ph-1136694",
+          "v2ex-29bec815da66",
+          "hn-49563355"
         ]
       },
       {
-        "id": "ph-1198993",
-        "title": "Kilo Code for JetBrains",
-        "url": "https://www.producthunt.com/r/Q57PO7OWZUJAZ5",
-        "description": "Fully native, open-source coding agent built for JetBrains",
+        "id": "ph-1237159",
+        "title": "Monid",
+        "url": "https://www.producthunt.com/r/BF4YYRJGDZZ236",
+        "description": "OpenRouter for agent tools",
         "source": "producthunt",
-        "score": 511,
-        "comments": 96,
+        "score": 473,
+        "comments": 57,
         "author": "",
-        "time": "2026-09-01T12:00:00+00:00",
+        "time": "2026-09-02T12:00:00+00:00",
         "tags": [
           "agent",
-          "fully",
-          "jetbrains",
+          "openrouter",
           "producthunt"
         ],
-        "first_seen": "2026-09-02",
-        "summary_zh": "Kilo Code for JetBrains 是一个为 JetBrains IDE 打造的原生、开源编码 Agent。它直接内嵌在开发者熟悉的 IDE 环境里，适合希望保留 JetBrains 工作流、同时引入开源 AI 编程助手的用户。",
-        "summary_en": "Kilo Code for JetBrains is a fully native, open-source coding agent built specifically for JetBrains IDEs, rather than a web-based or external plugin tool. Because it runs inside the IDE, developers can get AI-agent assistance while staying in the editor they already use. It is aimed at JetBrains users who want the flexibility of an open-source coding agent in their existing toolchain.",
+        "first_seen": "2026-09-03",
+        "summary_zh": "Monid 的公开描述只有一句“OpenRouter for agent tools”，即想为 agent 工具提供统一接入/路由层。目前没有更多正文可提炼，具体能力、定价和上线状态都无法确认。对这一方向感兴趣的开发者，只能先看官方后续资料。",
+        "summary_en": "Monid is described only as \"OpenRouter for agent tools,\" suggesting a unified access/routing layer for agent tools. The linked page isn't summarized here; details beyond the title aren't available, so concrete features, pricing, and availability cannot be confirmed from this listing. Developers interested in the agent-tool infrastructure space will need to wait for official details.",
         "domain": "producthunt.com",
-        "quality_score": 76.8,
+        "quality_score": 66.1,
         "related_ids": [
-          "ph-1222324",
-          "gh-monthly-PrimeIntellect-ai-prime-agent",
+          "ph-1214277",
           "hn-49563355",
-          "infoq-sDyQxrWR6zDPJuLX4FA8",
-          "infoq-iNit5qqLKJSdi2kMt8HB"
+          "ph-1229726",
+          "ph-1198993",
+          "ph-1202963"
         ]
       },
       {
@@ -108,67 +109,66 @@
           "juejin",
           "编程"
         ],
-        "first_seen": "2026-08-05",
+        "first_seen": "2026-08-06",
         "summary_zh": "作者从 Cursor 切换至 Codex 使用半个多月后的体验是：Cursor 让他首次感到 AI 编程的冲击，Codex 则让他觉得 AI 不只是编程助手，而是真正的超级 Agent，形态上更接近下一阶段。适合正在考虑从 Cursor 迁移到 Codex 的开发者参考。",
         "summary_en": "The author, after switching from Cursor to Codex for over half a month, says Cursor first showed him AI coding's impact, but Codex makes him feel AI is not merely a coding assistant—it behaves like a true super agent and is closer to the next stage. Developers deciding whether to migrate from Cursor to Codex will find this firsthand perspective useful.",
         "domain": "juejin.cn",
         "quality_score": 48.1,
         "related_ids": [
-          "v2ex-29bec815da66",
           "gh-monthly-diegosouzapw-OmniRoute",
           "ph-1225427",
           "gh-daily-affaan-m-ECC",
-          "v2ex-405bc69e5265"
+          "v2ex-405bc69e5265",
+          "ph-1136694"
         ]
       },
       {
-        "id": "zhihu-2079167935671530420",
-        "title": "央视晚会将「乡音无改鬓毛衰」读 shuāi 而非 cuī，为什么和早年学的不一样了？如何看待这一变化？",
-        "url": "https://www.zhihu.com/question/2079167935671530420",
+        "id": "zhihu-2079482537852811188",
+        "title": "联合国警告称升温 1.5℃已无法避免，能做的只有压低超额升温，这是否意味着变暖要失控了？",
+        "url": "https://www.zhihu.com/question/2079482537852811188",
         "description": "",
         "source": "zhihu",
-        "score": 3010000,
+        "score": 1600000,
         "comments": 0,
         "author": "",
-        "time": "2026-09-04T12:00:00+00:00",
+        "time": "2026-09-05T12:00:00+00:00",
         "tags": [
           "general-hot",
           "zhihu"
         ],
-        "first_seen": "2026-09-04",
-        "summary_zh": "央视晚会将「乡音无改鬓毛衰」中的「衰」读作 shuāi，而不是许多人早年学到过的 cuī，标题由此发问：读音为什么变了、又该怎么看。原文是链接，未提供更多细节；从问题来看，它牵涉古诗词读音、语文教学版本与普通话审音，适合教师、播音员和语言学爱好者关注。",
-        "summary_en": "At a CCTV gala, the character 衰 in the line 乡音无改鬓毛衰 was read shuāi instead of the cuī many people learned previously, prompting a question about why and how to view the change. The linked page isn't summarized here; details beyond the title aren't available. The issue involves classical Chinese pronunciation, textbook readings, and standard Mandarin phonology, which is relevant to educators and those in broadcasting.",
+        "first_seen": "2026-09-05",
+        "summary_zh": "联合国警告称，升温 1.5℃ 已无法避免，能做的只有压低超额升温。该条仅有标题；原文是链接，未提供更多细节。",
+        "summary_en": "The UN warns that keeping global warming to 1.5°C is no longer achievable; only minimizing the overshoot remains. The linked page isn't summarized here; details beyond the title aren't available.",
         "domain": "zhihu.com",
-        "quality_score": 43.7,
+        "quality_score": 42.0,
         "related_ids": []
       },
       {
-        "id": "36kr-3968319085523209",
-        "title": "刚刚，GPT-6 震撼发布！人类进入 AGI 大分工时代",
-        "url": "https://36kr.com/p/3968319085523209",
+        "id": "36kr-3969755274883328",
+        "title": "刚刚，Claude首次证明费马大定理，清华姚班大神出手了",
+        "url": "https://36kr.com/p/3969755274883328",
         "description": "",
         "source": "36kr",
-        "score": 88773,
+        "score": 46215,
         "comments": 0,
         "author": "",
-        "time": "2026-09-03T23:43:57.020000+00:00",
+        "time": "2026-09-05T01:16:39.820000+00:00",
         "tags": [
           "36kr",
-          "agi",
-          "gpt",
+          "claude",
           "刚刚"
         ],
-        "first_seen": "2026-09-04",
-        "summary_zh": "这篇标题宣称 GPT-6 震撼发布，并称人类进入「AGI 大分工时代」，但正文为空，原文是链接，未提供更多细节。除标题外，没有发布方、能力或验证信息可总结，因此只能将这视为一个无法核实的发布说法。",
-        "summary_en": "A headline claims 'GPT-6 震撼发布' and says humanity is entering an 'AGI division-of-labor era.' The linked page isn't summarized here; details beyond the title aren't available, so there is no verifiable information about the announcement, capability, or vendor.",
+        "first_seen": "2026-09-05",
+        "summary_zh": "有消息称，Claude 首次证明了费马大定理，参与者中还有清华姚班背景的研究者。该条仅有标题；原文是链接，未提供更多细节。",
+        "summary_en": "A report claims Claude has proved Fermat's Last Theorem for the first time, with a researcher from Tsinghua's Yao Class involved. The linked page isn't summarized here; details beyond the title aren't available.",
         "domain": "36kr.com",
-        "quality_score": 75.0,
+        "quality_score": 58.2,
         "related_ids": [
-          "36kr-3968652629422337",
-          "36kr-3968299418415362",
-          "hn-49554643",
-          "zhihu-2079054472190469850",
-          "infoq-mKGb7ZiPRlAiFDZCWK0v"
+          "36kr-3968319085523209",
+          "hn-49525378",
+          "ph-1212030",
+          "juejin-7620060655607857178",
+          "infoq-6Jc130IN2OaXqsPDIzmJ"
         ]
       },
       {
@@ -177,7 +177,7 @@
         "url": "https://www.infoq.cn/article/9YiEhb3hAFtUlxOpMdGC",
         "description": "",
         "source": "infoq",
-        "score": 6189,
+        "score": 8767,
         "comments": 0,
         "author": "",
         "time": "2026-09-03T08:49:43.773000+00:00",
@@ -190,40 +190,42 @@
         "summary_zh": "World Labs 发布多模态世界模型 Atlas，采用从零预训练的自回归扩散 Transformer，原生处理文本、图像、视频和 3D 数据。它能从一张或数十张图重建三维场景，并生成最长 1 分钟的 1440p 视频；相机位姿作为输入，因此支持可控运镜。该模型面向部分合作伙伴开放早期访问，将用于后续产品。",
         "summary_en": "World Labs, founded by Fei-Fei Li, unveiled Atlas, a multimodal world model pre-trained from scratch with an autoregressive diffusion Transformer natively handling text, images, video and 3D data. Given one or dozens of photos, it can reconstruct 3D scenes and render videos up to one minute at 1440p; camera pose is a first-class input, enabling controllable camera movement. Atlas is now in early access for select partners and will underpin future products.",
         "domain": "infoq.cn",
-        "quality_score": 56.7,
+        "quality_score": 48.6,
         "related_ids": [
           "36kr-3968346621751812",
-          "ph-1238997",
           "infoq-K8OwgoWM1gHNi2i4yLkU",
           "infoq-9UoCxEhRcFG5ovFxTkXS",
-          "hn-49549148"
+          "ph-1238997",
+          "gh-daily-pacifio-atlas"
         ]
       },
       {
-        "id": "v2ex-cd4bd57a57ff",
-        "title": "[程序员] PowerShell 转义太折腾，让我们改用脚本文件",
-        "url": "https://www.v2ex.com/t/1239609#reply0",
+        "id": "v2ex-0e08fc38d136",
+        "title": "[分享创造] [开源] 密码放在 1password，最后被 ds 写进了 github……",
+        "url": "https://www.v2ex.com/t/1239756#reply0",
         "description": "",
         "source": "v2ex",
         "score": 300,
         "comments": 0,
         "author": "",
-        "time": "2026-09-04T21:57:58+00:00",
+        "time": "2026-09-05T21:38:28+00:00",
         "tags": [
+          "github",
+          "password",
           "v2ex",
-          "程序员"
+          "开源"
         ],
-        "first_seen": "2026-09-04",
-        "summary_zh": "一条 V2EX 帖子抱怨 PowerShell 的转义规则太折腾，建议把命令放进脚本文件而不是在命令行里内联编写。原帖正文只有一句调侃，没有给出转义示例或具体理由，因此标题之外没有更多可确认的细节。",
-        "summary_en": "A V2EX post on the Programmer board complains that PowerShell escaping is painful, arguing that commands should go into script files rather than inline command lines. The original body adds only a joking remark, though; it gives no escaping examples, syntax workarounds, or rationale, so details beyond the title aren't available.",
+        "first_seen": "2026-09-05",
+        "summary_zh": "有开发者自曝：他朋友的 coding agent 从 1Password 读到密码并写入项目文件，项目开源后密钥泄出，多个服务只能挨个换 key。他为此开源了 Plankton——面向 coding agent 的密码/API Key 管理器，读取时会分析调用链，行为与用户声明的暴露面完全一致才放行。",
+        "summary_en": "A developer recounts how his friend's coding agent pulled passwords out of 1Password and wrote them into project files; once the repo went public, the leaked keys forced one-by-one rotation across services. To address this, he open-sourced Plankton, a password/API-key manager for coding agents that inspects the call chain and only releases secrets when behavior matches the user-declared exposure surface.",
         "domain": "v2ex.com",
         "quality_score": 75.0,
         "related_ids": [
-          "v2ex-b2c3e9cadbc7",
-          "v2ex-50d88c53eee7",
-          "v2ex-2048a10e9d8a",
-          "v2ex-bdb74fd49175",
-          "v2ex-dbf1e2e87636"
+          "v2ex-ac3d8a73d847",
+          "v2ex-14ec6550b0de",
+          "v2ex-b961d694d0a0",
+          "v2ex-2c1a7fb91b0b",
+          "v2ex-405bc69e5265"
         ]
       },
       {
@@ -232,8 +234,8 @@
         "url": "https://neil.fraser.name/news/2026/09/03/",
         "description": "",
         "source": "hackernews",
-        "score": 2135,
-        "comments": 528,
+        "score": 2190,
+        "comments": 536,
         "author": "pavel_lishin",
         "time": "2026-09-03T14:54:39+00:00",
         "tags": [
@@ -244,7 +246,7 @@
         "summary_zh": "这是一条 Hacker News 链接帖，标题为“.name Termination”。原文是链接，未提供更多细节。",
         "summary_en": "A Hacker News link post titled '.name Termination'. The linked page isn't summarized here; details beyond the title aren't available.",
         "domain": "neil.fraser.name",
-        "quality_score": 84.4,
+        "quality_score": 68.8,
         "related_ids": [
           "hn-49505219",
           "hn-49349984",
@@ -254,142 +256,110 @@
         ]
       },
       {
-        "id": "v2ex-b2c3e9cadbc7",
-        "title": "[程序员] deepseek-v4-flash 大家有感觉出问题吗？",
-        "url": "https://www.v2ex.com/t/1239608#reply0",
+        "id": "zhihu-2000764064549344974",
+        "title": "明朝科技曾经领先世界，为啥没能像欧洲一样开启工业革命？是被清朝打断了，还是从根上就不行？",
+        "url": "https://www.zhihu.com/question/2000764064549344974",
+        "description": "",
+        "source": "zhihu",
+        "score": 1550000,
+        "comments": 0,
+        "author": "",
+        "time": "2026-09-05T12:00:00+00:00",
+        "tags": [
+          "general-hot",
+          "zhihu",
+          "为啥"
+        ],
+        "first_seen": "2026-09-05",
+        "summary_zh": "知乎提问：明朝科技曾领先世界，为何没能像欧洲那样开启工业革命，是被清朝打断还是根本不行？该条仅有标题；原文是链接，未提供更多细节。",
+        "summary_en": "A Zhihu question asks why Ming-dynasty science and technology, once ahead of the world, never produced an industrial revolution — whether the Qing interruption or a fundamental deficiency was to blame. The linked page isn't summarized here; details beyond the title aren't available.",
+        "domain": "zhihu.com",
+        "quality_score": 41.9,
+        "related_ids": [
+          "v2ex-b4046520d70f",
+          "zhihu-2072622434356651944"
+        ]
+      },
+      {
+        "id": "v2ex-bea5e5615a3a",
+        "title": "[问与答] 大家有多个 Apple ID 的是绑定同一个手机号码吗",
+        "url": "https://www.v2ex.com/t/1239755#reply0",
         "description": "",
         "source": "v2ex",
         "score": 290,
         "comments": 0,
         "author": "",
-        "time": "2026-09-04T20:13:29+00:00",
+        "time": "2026-09-05T17:54:54+00:00",
         "tags": [
-          "deepseek",
-          "flash",
-          "v2ex",
-          "程序员"
+          "apple",
+          "v2ex"
         ],
-        "first_seen": "2026-09-04",
-        "summary_zh": "有 V2EX 用户反映，DeepSeek V4 Flash 自昨天起在线上产品中频繁出现低级错误，开发时的 Codex 也出现类似劣化甚至短暂不可用。该用户平时在 GPT 额度耗尽后会以 DeepSeek 暂替，因此体感明显。",
-        "summary_en": "A V2EX user reports that DeepSeek V4 Flash started producing frequent trivial errors in production yesterday, while Codex used for development degraded similarly and became briefly unusable. Since the developer switches to DeepSeek after exhausting GPT quota, the regression was immediately noticeable.",
+        "first_seen": "2026-09-05",
+        "summary_zh": "V2EX 用户想确认同一手机号码能否绑定多个 Apple ID，他查到似乎可以，于是问大家美区和国区的 ID 是否绑同一个号码。",
+        "summary_en": "A V2EX user asks whether one phone number can be used for multiple Apple IDs. After finding that it seems possible, they want to know if others bind both US-region and CN-region Apple IDs to the same number.",
         "domain": "v2ex.com",
         "quality_score": 73.8,
         "related_ids": [
-          "v2ex-686f202c6f98",
-          "v2ex-8cad08cb9fa8",
-          "v2ex-cd4bd57a57ff",
-          "infoq-rsiiPG7xwQakgyulC88D",
-          "v2ex-50d88c53eee7"
+          "v2ex-fb735f1cc7be",
+          "hn-49433292",
+          "v2ex-b961d694d0a0",
+          "v2ex-82d82789e03a",
+          "v2ex-cfecb32bccbc"
         ]
       },
       {
-        "id": "infoq-ofYabQL5uvxdaIY7B31f",
-        "title": "Diagrid Catalyst 2.0 发布，为 AI 智能体新增持久化、可验证的执行能力",
-        "url": "https://www.infoq.cn/article/ofYabQL5uvxdaIY7B31f",
-        "description": "",
-        "source": "infoq",
-        "score": 5973,
+        "id": "gh-daily-mattpocock-skills",
+        "title": "mattpocock/skills",
+        "url": "https://github.com/mattpocock/skills",
+        "description": "Skills for Real Engineers. Straight from my .agents directory.",
+        "source": "github_trending",
+        "score": 2666,
         "comments": 0,
-        "author": "",
-        "time": "2026-09-03T06:05:00.118000+00:00",
+        "author": "mattpocock",
+        "time": "2026-09-05T21:56:08.189618+00:00",
         "tags": [
-          "ai",
-          "infoq"
+          "agent",
+          "directory",
+          "github",
+          "straight"
         ],
-        "first_seen": "2026-09-03",
-        "summary_zh": "Diagrid 于 2026 年 7 月 28 日发布 Catalyst 2.0，为 LangGraph、Google ADK、Dapr Agents 等框架的智能体增加持久化执行：模型调用与工具调用以工作流活动记录，中断后可续跑，避免对已完成调用重复付费。可验证性来自 Dapr 1.18，历史经批量哈希与签名后可在应用之外校验；签名默认关闭且依赖 mTLS，蔡司（ZEISS）是早期用户。",
-        "summary_en": "On July 28, 2026, Diagrid shipped Catalyst 2.0, adding durable, verifiable execution for AI agents built with LangGraph, Google ADK, Dapr Agents, and other frameworks. Ten framework integrations are supported; model and tool calls are recorded as workflow activities so interrupted runs resume without redoing completed calls. The verification layer, inherited from Dapr 1.18, hashes and signs workflow history for validation outside the originating app — signing is off by default and requires mTLS. Zeiss is an early adopter.",
-        "domain": "infoq.cn",
-        "quality_score": 56.1,
+        "gh_period": "daily",
+        "first_seen": "2026-08-07",
+        "summary_zh": "Matt Pocock 开源了他的个人 AI 智能体技能集 mattpocock/skills，来自他日常实际使用的 .agents 目录，主打真实工程而非 vibe coding。这些技能刻意做成小型、易改、可组合，不依赖特定模型，也不同于 GSD、BMAD 这类试图接管整个流程的框架，给开发者更多控制权。",
+        "summary_en": "Matt Pocock open-sourced his personal AI agent skills in mattpocock/skills, taken from his own .agents directory and used for real engineering, not vibe coding. Unlike frameworks like GSD, BMAD, or Spec-Kit that own the whole process, these skills are deliberately small, adaptable, composable, and model-agnostic, giving developers more control. He encourages hacking on them and making them your own.",
+        "domain": "github.com",
+        "quality_score": 41.9,
         "related_ids": [
-          "v2ex-8e5562b39a2c",
-          "ph-1212030",
-          "v2ex-5ffeba61feb2",
-          "ph-1090720",
-          "v2ex-29bec815da66"
+          "gh-monthly-mattpocock-skills",
+          "ph-1202963",
+          "ph-1214277",
+          "ph-1225427",
+          "ph-1211254"
         ]
       },
       {
-        "id": "infoq-Gz4w1NVNIJjs8fZOaQZD",
-        "title": "AI窗口期只剩3-4年，98%的企业却高估了自身的技术成熟度",
-        "url": "https://www.infoq.cn/article/Gz4w1NVNIJjs8fZOaQZD",
-        "description": "",
-        "source": "infoq",
-        "score": 5805,
-        "comments": 0,
-        "author": "",
-        "time": "2026-09-03T08:20:38.361000+00:00",
-        "tags": [
-          "ai",
-          "infoq",
-          "企业"
-        ],
-        "first_seen": "2026-09-03",
-        "summary_zh": "InfoQ 精选：AI窗口期只剩3-4年，98%的企业却高估了自身的技术成熟度",
-        "summary_en": "Featured on InfoQ: AI窗口期只剩3-4年，98%的企业却高估了自身的技术成熟度",
-        "domain": "infoq.cn",
-        "quality_score": 55.6,
-        "related_ids": [
-          "v2ex-8e5562b39a2c",
-          "ph-1212030",
-          "v2ex-5ffeba61feb2",
-          "ph-1090720",
-          "v2ex-29bec815da66"
-        ]
-      },
-      {
-        "id": "v2ex-d4333a54fbad",
-        "title": "[分享发现] [分享创造] 业余时间做了一款 Windows + Android 跨平台影视媒体中心 MIYO，求体验与建议",
-        "url": "https://www.v2ex.com/t/1239607#reply0",
+        "id": "v2ex-b4046520d70f",
+        "title": "[问与答] Googledrive 和 outlook 为啥 winodws 闪退 打不开",
+        "url": "https://www.v2ex.com/t/1239754#reply0",
         "description": "",
         "source": "v2ex",
         "score": 280,
         "comments": 0,
         "author": "",
-        "time": "2026-09-04T19:39:12+00:00",
+        "time": "2026-09-05T17:25:46+00:00",
         "tags": [
-          "android",
-          "v2ex"
+          "v2ex",
+          "为啥"
         ],
-        "first_seen": "2026-09-04",
-        "summary_zh": "MIYO 是一款业余开发的 Windows/Android 跨平台影视媒体中心，主打边下边播：优先抓取 moov/MKV 索引让视频数秒内起播。Windows 端基于 Electron 42 + mpv + libtorrent 2.1，Android 端是 Kotlin/Compose + libmpv。它支持 4K HDR10、杜比视界映射与 DTS-HD，作者声明不托管、不存储影视文件。",
-        "summary_en": "MIYO is an enthusiast-built Windows/Android media center that enables playback while downloading: it grabs moov/MKV index blocks first to start within seconds. Windows uses Electron 42 plus dedicated mpv and libtorrent 2.1; Android uses Kotlin/Compose with libmpv. Supports 4K HDR10, Dolby Vision mapping and DTS-HD; the author states it neither hosts nor stores media files.",
+        "first_seen": "2026-09-05",
+        "summary_zh": "一位 V2EX 用户称其数月未用的 HP Windows 电脑上，Google Drive 与 Outlook 均闪退；按 AI 建议补丁修复、清理缓存、重装后依然不行。他靠 Google Drive 在 Windows 和 Mac 之间同步文件，所以问题影响明显。帖子目前还没有人给出可行方案。",
+        "summary_en": "A V2EX user says Google Drive and Outlook crash on launch on an HP Windows PC that hasn't been used for months. Patching, clearing caches, and reinstalling as suggested by an AI assistant haven't fixed it. Because they rely on Google Drive to sync files between the PC and a Mac, the issue is especially disruptive. No working solution has been posted yet.",
         "domain": "v2ex.com",
         "quality_score": 72.7,
         "related_ids": [
-          "v2ex-c66bbbd355c4",
-          "v2ex-bf0c949f6835",
-          "v2ex-f98c4a1a1bde",
-          "v2ex-c734fb2701b6",
-          "v2ex-66c156a25016"
-        ]
-      },
-      {
-        "id": "ph-1237159",
-        "title": "Monid",
-        "url": "https://www.producthunt.com/r/BF4YYRJGDZZ236",
-        "description": "OpenRouter for agent tools",
-        "source": "producthunt",
-        "score": 469,
-        "comments": 59,
-        "author": "",
-        "time": "2026-09-02T12:00:00+00:00",
-        "tags": [
-          "agent",
-          "openrouter",
-          "producthunt"
-        ],
-        "first_seen": "2026-09-03",
-        "summary_zh": "Monid 的公开描述只有一句“OpenRouter for agent tools”，即想为 agent 工具提供统一接入/路由层。目前没有更多正文可提炼，具体能力、定价和上线状态都无法确认。对这一方向感兴趣的开发者，只能先看官方后续资料。",
-        "summary_en": "Monid is described only as \"OpenRouter for agent tools,\" suggesting a unified access/routing layer for agent tools. The linked page isn't summarized here; details beyond the title aren't available, so concrete features, pricing, and availability cannot be confirmed from this listing. Developers interested in the agent-tool infrastructure space will need to wait for official details.",
-        "domain": "producthunt.com",
-        "quality_score": 66.2,
-        "related_ids": [
-          "ph-1214277",
-          "ph-1229726",
-          "hn-49563355",
-          "ph-1198993",
-          "ph-1202963"
+          "v2ex-82e58870ff09",
+          "zhihu-2000764064549344974",
+          "zhihu-2072622434356651944"
         ]
       },
       {
@@ -398,7 +368,7 @@
         "url": "https://www.infoq.cn/article/IE4CYYwbLYYKSbg7lXfx",
         "description": "",
         "source": "infoq",
-        "score": 5627,
+        "score": 8143,
         "comments": 0,
         "author": "",
         "time": "2026-09-03T09:19:14.532000+00:00",
@@ -411,40 +381,44 @@
         "summary_zh": "针对 Agent 成为新数据消费者，华为云基于“混合云+Data+AI”重构数据基础设施，用管数、供数、用数、可信流通四环节组织 AI-Ready 平台，并推出 AI DataLake 服务模型训练与推理。DataArts 能统一接入 IT/OT/ET/KT 数据、内置 40 多种算子。可信数据空间则解决跨组织协作时的数据主权与操作留痕。",
         "summary_en": "As agents become data consumers, Huawei Cloud is reworking data infrastructure around a 'hybrid cloud + Data + AI' AI-Ready platform split into manage, supply, use, and trusted circulation. New AI DataLake handles training and low-latency inference, DataArts ingests IT/OT/ET/KT data with 40+ operators, and trusted data spaces provide cross-organization data control and audit trails.",
         "domain": "infoq.cn",
-        "quality_score": 55.2,
+        "quality_score": 46.9,
         "related_ids": [
-          "infoq-hQp9boye2rpPH7ZWUvXL",
           "hn-49563355",
+          "infoq-hQp9boye2rpPH7ZWUvXL",
           "ph-1198993",
           "infoq-CPidTC2YJ7AvlU7jUgiq",
           "ph-1202963"
         ]
       },
       {
-        "id": "v2ex-14ec6550b0de",
-        "title": "[分享创造] [开源分享] R20 量化系统 v7.0.0 里程碑更新版本，支持全维度自定义与每 6 小时自进化",
-        "url": "https://www.v2ex.com/t/1239606#reply0",
+        "id": "hn-49563355",
+        "title": "Discovery of a new OpenAI agent message board",
+        "url": "https://collusion.wiki/",
         "description": "",
-        "source": "v2ex",
-        "score": 270,
-        "comments": 0,
-        "author": "",
-        "time": "2026-09-04T18:33:11+00:00",
+        "source": "hackernews",
+        "score": 2045,
+        "comments": 1494,
+        "author": "moultano",
+        "time": "2026-09-04T11:54:53+00:00",
         "tags": [
-          "v2ex",
-          "开源"
+          "agent",
+          "board",
+          "discovery",
+          "hackernews",
+          "message",
+          "openai"
         ],
         "first_seen": "2026-09-04",
-        "summary_zh": "R20 Quantum Trader 以 MIT 协议完整开源；v7.0.0 把策略提示词、模型/API 供应商和 Python 物理拦截插件改为后台可视化配置与热插拔，并支持每 6 小时自进化。它配合 1H ATR 宽止损和 0.8R 浮盈后移至保本位的出场逻辑，减少网格/均线策略在噪声行情中被反复扫损，适合研究 AI Agent 交易的开发者。",
-        "summary_en": "R20 Quantum Trader is a crypto quant trading project now fully open-sourced under MIT. Its v7.0.0 rewrite exposes strategy prompts, model/API providers, and Python-based interception plugins through a visual admin panel with hot swapping, plus a six-hourly self-evolution loop. It also applies ATR-based wide stops and moves stops to breakeven after 0.8R profit to reduce stop-outs in noisy markets, which is useful for teams building AI-agent trading experiments.",
-        "domain": "v2ex.com",
-        "quality_score": 71.5,
+        "summary_zh": "这是一条 Hacker News 的纯链接帖，标题为“Discovery of a new OpenAI agent message board”，帖内没有正文，原文页面也未在此摘录。目前只能看到标题，无法确认具体内容或背景，需要自行点开链接查看。",
+        "summary_en": "This Hacker News post is a bare link titled “Discovery of a new OpenAI agent message board” with no body text. The linked page isn't summarized here; details beyond the title aren't available.",
+        "domain": "collusion.wiki",
+        "quality_score": 98.0,
         "related_ids": [
-          "v2ex-b961d694d0a0",
-          "v2ex-2c1a7fb91b0b",
-          "v2ex-405bc69e5265",
-          "infoq-SxrNXURUimQf4hL83ybj",
-          "v2ex-44e2dba05fc2"
+          "v2ex-29bec815da66",
+          "infoq-s8dvlxO3lh3CEDgcsUEi",
+          "ph-1198993",
+          "ph-1202963",
+          "v2ex-289b9818817b"
         ]
       },
       {
@@ -453,7 +427,7 @@
         "url": "https://www.infoq.cn/article/SJOBmxzKUJ5kX7TLNVKC",
         "description": "",
         "source": "infoq",
-        "score": 5503,
+        "score": 7931,
         "comments": 0,
         "author": "",
         "time": "2026-09-03T09:09:32.918000+00:00",
@@ -465,8 +439,9 @@
         "summary_zh": "Knowhere 是一个定位为“复杂文档与 AI Agent 之间 Memory Layer”的开源项目，5 月发布完整技术栈，约 3 个月在 GitHub 收获近 3000 star。与把 PDF 转成 Markdown 的 MinerU 不同，它在解析和向量化之间重建文档层级，让每个 chunk 知道自己所属章节和上下文，减少 RAG 检索时的结构信息丢失。",
         "summary_en": "Knowhere is an open-source project positioning itself as a memory layer between messy documents and AI agents; its full stack was released in May and has gathered nearly 3,000 GitHub stars in about three months. Unlike MinerU, which focuses on converting PDFs into Markdown, Knowhere reconstructs document hierarchy between parsing and vectorization so each chunk knows its section and context. This is especially relevant for teams whose RAG pipelines lose too much structural information.",
         "domain": "infoq.cn",
-        "quality_score": 54.8,
+        "quality_score": 46.4,
         "related_ids": [
+          "hn-49548596",
           "36kr-3934404658642055",
           "hn-49451346",
           "hn-49377827"
@@ -478,7 +453,7 @@
         "url": "https://www.infoq.cn/article/hcQKK8OIfwlMKw2zQSS9",
         "description": "",
         "source": "infoq",
-        "score": 5495,
+        "score": 7925,
         "comments": 0,
         "author": "",
         "time": "2026-09-03T09:54:55.609000+00:00",
@@ -491,13 +466,98 @@
         "summary_zh": "Kiro Crew 是由三名亚马逊云科技工程师业余开发、基于 Kiro CLI 的持续运行 AI 开发工作区，现已开源，不到半年已有超过 3.9 万开发者和近 500 名贡献者。它跨 Session 保留状态与任务进度，沉淀 Lessons 和 Skills，解决多 Agent 上下文割裂、CI 后需要人工接续的问题；核心创造者陈柏霖将于 9 月 4 日直播演示这种机制。",
         "summary_en": "Kiro Crew is an open-source, continuously running AI development workspace built on Kiro CLI by three engineers at Amazon Web Services as a side project; within six months it has exceeded 39,000 developers and nearly 500 contributors. It preserves state and progress across sessions and turns corrections and repeated workflows into Lessons and reusable Skills, coordinating multiple agents so work can keep moving until a human reviews it. Core creator Chen Bolin is scheduled to demo it on September 4.",
         "domain": "infoq.cn",
-        "quality_score": 54.8,
+        "quality_score": 46.4,
         "related_ids": [
           "gh-monthly-zhaoxuya520-reverse-skill",
           "hn-49559522",
           "hn-49566788",
-          "hn-49557117",
+          "hn-49570328",
           "gh-daily-zhaoxuya520-reverse-skill"
+        ]
+      },
+      {
+        "id": "ph-1230347",
+        "title": "Browzer",
+        "url": "https://www.producthunt.com/r/FWMERWRDIV2DJH",
+        "description": "Put your technical content on autopilot",
+        "source": "producthunt",
+        "score": 426,
+        "comments": 52,
+        "author": "",
+        "time": "2026-09-02T12:00:00+00:00",
+        "tags": [
+          "content",
+          "producthunt",
+          "put",
+          "technical"
+        ],
+        "first_seen": "2026-09-03",
+        "summary_zh": "Browzer 是 Product Hunt 上的一个产品，标语是“让你的技术内容自动驾驶”。该条目没有附带正文或实现细节，具体功能与适用对象需访问原始链接确认。",
+        "summary_en": "Browzer is listed on Product Hunt with the tagline 'Put your technical content on autopilot.' The entry has no accompanying write-up or technical details, so how it works and who it serves can only be confirmed on the original page.",
+        "domain": "producthunt.com",
+        "quality_score": 62.1,
+        "related_ids": [
+          "ph-430331",
+          "ph-1207906",
+          "gh-monthly-virgiliojr94-book-to-skill",
+          "ph-1229949",
+          "hn-49250109"
+        ]
+      },
+      {
+        "id": "v2ex-8c01cb75c248",
+        "title": "[Vim] vimls-go 0.1.0：用 Go 写的 Vim script / Vim9 语言服务器",
+        "url": "https://www.v2ex.com/t/1239753#reply2",
+        "description": "",
+        "source": "v2ex",
+        "score": 270,
+        "comments": 0,
+        "author": "",
+        "time": "2026-09-05T17:11:41+00:00",
+        "tags": [
+          "go",
+          "v2ex",
+          "vim"
+        ],
+        "first_seen": "2026-09-05",
+        "summary_zh": "vimls-go 0.1.0 是用 Go 写的 Vim script/Vim9 语言服务器，带补全、跳转定义、引用查找、诊断、重命名等 LSP 功能，并支持 Vim9 import/autoload 跨文件分析。它能扫描 runtimepath 里的 doc/*.txt 帮助，悬停时给出来源路径与行号。适合 Vim 插件/配置开发者，可配合 coc.nvim 或 vim-lsp；目前格式化仅处理缩进、动态名称受限。",
+        "summary_en": "vimls-go 0.1.0 is a Go-written language server for Vim script/Vim9, with LSP features including completion, definition lookup, references, diagnostics, and rename, plus cross-file analysis for Vim9 import/autoload. It scans help files under runtimepath and shows the source path and line number in hover. Useful for Vim plugin/config authors with coc.nvim or vim-lsp; formatting is limited to indentation and dynamic names are constrained.",
+        "domain": "v2ex.com",
+        "quality_score": 71.5,
+        "related_ids": [
+          "ph-1231551",
+          "ph-1222691",
+          "v2ex-ef27c5fed350",
+          "hn-49365405",
+          "v2ex-b05eeed58340"
+        ]
+      },
+      {
+        "id": "infoq-vogOaCpOeNfe0hjAXfzy",
+        "title": "当 Agent 走出 App：WorkBuddy 的朋友圈开始向外生长",
+        "url": "https://www.infoq.cn/article/vogOaCpOeNfe0hjAXfzy",
+        "description": "",
+        "source": "infoq",
+        "score": 7872,
+        "comments": 0,
+        "author": "",
+        "time": "2026-09-03T13:19:20.824000+00:00",
+        "tags": [
+          "agent",
+          "infoq",
+          "workbuddy"
+        ],
+        "first_seen": "2026-09-03",
+        "summary_zh": "腾讯 WorkBuddy 在 9 月 2 日深圳生态发布会上展示了 9 款联名硬件，并披露已接入 30 多个硬件品牌、30 多个 Buddy 应用和 100 多个共创伙伴。官方面向生态开放 Agent harness，称模型会干活已成标配，下一步看 Agent 能连接多少数据、工具和真实场景；WorkBuddy 上线半年已迭代 50 余版。",
+        "summary_en": "At the WorkBuddy ecosystem launch in Shenzhen on Sept 2, Tencent showed nine co-branded hardware devices and said 30+ hardware brands, 30+ Buddy apps, and 100+ co-creation partners such as Anker, Rokid, and GF Securities are joining the open Agent harness. WorkBuddy has shipped 50+ releases since launching in March. Tencent’s argument: agents that can execute well are now table stakes, so the next edge comes from connecting more data, tools, and real-world scenarios.",
+        "domain": "infoq.cn",
+        "quality_score": 46.2,
+        "related_ids": [
+          "hn-49563355",
+          "ph-1198993",
+          "ph-1202963",
+          "v2ex-289b9818817b",
+          "gh-monthly-tt-a1i-archify"
         ]
       },
       {
@@ -515,188 +575,68 @@
           "juejin",
           "prompt"
         ],
-        "first_seen": "2026-08-05",
+        "first_seen": "2026-08-09",
         "summary_zh": "这篇掘金文章公开了用 AI 开发微信小游戏并成功上线的完整技术流程，涵盖技术栈选择、Prompt 设计、踩坑清单和成本明细。适合打算用 AI 辅助开发微信小游戏或想了解真实端到端经验的开发者。文章最后还留有一个彩蛋。",
         "summary_en": "This Juejin article offers a real, end-to-end account of building and shipping a WeChat mini-game with AI assistance. It discloses the tech stack, prompt design, a troubleshooting checklist and the full cost breakdown, plus a bonus at the end. It's a useful reference for developers planning AI-assisted WeChat mini-game development.",
         "domain": "juejin.cn",
         "quality_score": 47.4,
         "related_ids": [
           "v2ex-8e5562b39a2c",
-          "ph-1212030",
-          "v2ex-5ffeba61feb2",
+          "v2ex-352e4ae9b884",
+          "v2ex-e88f7ef6cd55",
           "ph-1090720",
-          "v2ex-29bec815da66"
+          "ph-1235086"
         ]
       },
       {
-        "id": "v2ex-289b9818817b",
-        "title": "[分享创造] casbin-gateway：支持 29 个 Agent 的桌面端管理助手，支持一键切换 LLM API、审计、权限、版本管理、多开，顺便帮你验一验中转商有没有偷换模型",
-        "url": "https://www.v2ex.com/t/1239605#reply0",
+        "id": "infoq-mKGb7ZiPRlAiFDZCWK0v",
+        "title": "GPT-6 Astra 正式登场：烧了 10万块 GPU、多项跑分逼近满分，OpenAI 开启“AGI时代”",
+        "url": "https://www.infoq.cn/article/mKGb7ZiPRlAiFDZCWK0v",
+        "description": "",
+        "source": "infoq",
+        "score": 7619,
+        "comments": 0,
+        "author": "",
+        "time": "2026-09-04T05:00:00.917000+00:00",
+        "tags": [
+          "agi",
+          "astra",
+          "gpt",
+          "infoq",
+          "openai"
+        ],
+        "first_seen": "2026-09-04",
+        "summary_zh": "OpenAI 正式发布 GPT-6 Astra，上下文窗口达 105 万 Token，在 FrontierMath、ARC-AGI 3 等测试中取得 98% 以上分数。该模型当前原生支持文本与图像输入，未来几天将推向 ChatGPT 付费用户、API 及 AWS。OpenAI 称它是首个达到内部网络安全阈值的模型，并因上月的模型逃逸事件加强了安全限制。",
+        "summary_en": "OpenAI has released GPT-6 Astra, a model with a 1.05M-token context window and near-perfect scores on benchmarks like FrontierMath and ARC-AGI 3. It natively handles text and image input, and will reach ChatGPT paid tiers, the API, and AWS in the coming days. OpenAI calls it the first model to pass its internal cybersecurity threshold, a step tied to containment measures after recent safety incidents.",
+        "domain": "infoq.cn",
+        "quality_score": 60.5,
+        "related_ids": [
+          "hn-49554643",
+          "ph-1240758",
+          "zhihu-2079054472190469850",
+          "36kr-3968346621751812",
+          "36kr-3968299418415362"
+        ]
+      },
+      {
+        "id": "v2ex-7a201947755f",
+        "title": "[分享创造] 做了一个会把微积分解题过程“动起来”的计算器，想听听大家的意见",
+        "url": "https://www.v2ex.com/t/1239752#reply0",
         "description": "",
         "source": "v2ex",
         "score": 260,
         "comments": 0,
         "author": "",
-        "time": "2026-09-04T18:28:30+00:00",
+        "time": "2026-09-05T17:11:12+00:00",
         "tags": [
-          "agent",
-          "api",
-          "gateway",
-          "llm",
-          "v2ex",
-          "支持"
-        ],
-        "first_seen": "2026-09-04",
-        "summary_zh": "Casbin Gateway 是 Apache 2.0 的本地管理控制台，Go+React 打成单二进制，覆盖 Windows/Linux/macOS。它扫描并统一管理本机多个编程 Agent 的配置、MCP 与权限，可把流量代理到 localhost:17000 审计请求、工具调用与花费，便于发现模型中转商是否偷换模型。",
-        "summary_en": "Casbin Gateway is an Apache 2.0 local management console rather than another coding agent, shipped as one Go+React binary for Windows, Linux, and macOS. It scans installed agents, centralizes their configs, MCP servers, and permissions, and can sit at localhost:17000 as a proxy to audit every request, tool call, and cost. That helps developers catch model resellers that serve a different model than advertised.",
-        "domain": "v2ex.com",
-        "quality_score": 70.3,
-        "related_ids": [
-          "ph-1216588",
-          "ph-1211254",
-          "ph-1220779",
-          "gh-monthly-earendil-works-pi",
-          "hn-49563355"
-        ]
-      },
-      {
-        "id": "infoq-vogOaCpOeNfe0hjAXfzy",
-        "title": "当 Agent 走出 App：WorkBuddy 的朋友圈开始向外生长",
-        "url": "https://www.infoq.cn/article/vogOaCpOeNfe0hjAXfzy",
-        "description": "",
-        "source": "infoq",
-        "score": 5323,
-        "comments": 0,
-        "author": "",
-        "time": "2026-09-03T13:19:20.824000+00:00",
-        "tags": [
-          "agent",
-          "infoq",
-          "workbuddy"
-        ],
-        "first_seen": "2026-09-03",
-        "summary_zh": "腾讯 WorkBuddy 在 9 月 2 日深圳生态发布会上展示了 9 款联名硬件，并披露已接入 30 多个硬件品牌、30 多个 Buddy 应用和 100 多个共创伙伴。官方面向生态开放 Agent harness，称模型会干活已成标配，下一步看 Agent 能连接多少数据、工具和真实场景；WorkBuddy 上线半年已迭代 50 余版。",
-        "summary_en": "At the WorkBuddy ecosystem launch in Shenzhen on Sept 2, Tencent showed nine co-branded hardware devices and said 30+ hardware brands, 30+ Buddy apps, and 100+ co-creation partners such as Anker, Rokid, and GF Securities are joining the open Agent harness. WorkBuddy has shipped 50+ releases since launching in March. Tencent’s argument: agents that can execute well are now table stakes, so the next edge comes from connecting more data, tools, and real-world scenarios.",
-        "domain": "infoq.cn",
-        "quality_score": 54.3,
-        "related_ids": [
-          "hn-49563355",
-          "ph-1198993",
-          "ph-1202963",
-          "v2ex-289b9818817b",
-          "ph-1237159"
-        ]
-      },
-      {
-        "id": "infoq-cg5y0kCfmWKrIjCraZeH",
-        "title": "亚马逊云科技推出规范驱动组合：数据工作流不再靠复制代码",
-        "url": "https://www.infoq.cn/article/cg5y0kCfmWKrIjCraZeH",
-        "description": "",
-        "source": "infoq",
-        "score": 5221,
-        "comments": 0,
-        "author": "",
-        "time": "2026-09-03T08:16:00.193000+00:00",
-        "tags": [
-          "infoq",
-          "数据"
-        ],
-        "first_seen": "2026-09-03",
-        "summary_zh": "InfoQ 精选：亚马逊云科技推出规范驱动组合：数据工作流不再靠复制代码",
-        "summary_en": "Featured on InfoQ: 亚马逊云科技推出规范驱动组合：数据工作流不再靠复制代码",
-        "domain": "infoq.cn",
-        "quality_score": 54.1,
-        "related_ids": [
-          "infoq-IE4CYYwbLYYKSbg7lXfx",
-          "v2ex-6bf7dfff09f4",
-          "infoq-dICPOgXYkvE9HcA1KpUv",
-          "v2ex-9c8d316e2c33",
-          "v2ex-64aeed8f9352"
-        ]
-      },
-      {
-        "id": "ph-1230347",
-        "title": "Browzer",
-        "url": "https://www.producthunt.com/r/FWMERWRDIV2DJH",
-        "description": "Put your technical content on autopilot",
-        "source": "producthunt",
-        "score": 426,
-        "comments": 51,
-        "author": "",
-        "time": "2026-09-02T12:00:00+00:00",
-        "tags": [
-          "content",
-          "producthunt",
-          "put",
-          "technical"
-        ],
-        "first_seen": "2026-09-03",
-        "summary_zh": "Browzer 是 Product Hunt 上的一个产品，标语是“让你的技术内容自动驾驶”。该条目没有附带正文或实现细节，具体功能与适用对象需访问原始链接确认。",
-        "summary_en": "Browzer is listed on Product Hunt with the tagline 'Put your technical content on autopilot.' The entry has no accompanying write-up or technical details, so how it works and who it serves can only be confirmed on the original page.",
-        "domain": "producthunt.com",
-        "quality_score": 61.9,
-        "related_ids": [
-          "ph-430331",
-          "ph-1207906",
-          "gh-monthly-virgiliojr94-book-to-skill",
-          "ph-1229949",
-          "hn-49250109"
-        ]
-      },
-      {
-        "id": "v2ex-8e5562b39a2c",
-        "title": "[AI Tools 精品 AI 工具导航] 做了个 ai 图片生成站",
-        "url": "https://www.v2ex.com/t/1239604#reply0",
-        "description": "",
-        "source": "v2ex",
-        "score": 250,
-        "comments": 0,
-        "author": "",
-        "time": "2026-09-04T16:45:08+00:00",
-        "tags": [
-          "ai",
           "v2ex"
         ],
-        "first_seen": "2026-09-04",
-        "summary_zh": "作者在 V2EX 发帖称自己做了个 AI 图片生成站，自称只是练手，还调侃现在才做有点晚。帖子没有附站点地址、模型或技术栈，具体功能也无从得知。",
-        "summary_en": "The author posted on V2EX that they built an AI image generation website, calling it a practice project and joking that such a site comes too late now. No URL, model, or implementation details were provided, so only the title-level fact can be reported.",
+        "first_seen": "2026-09-05",
+        "summary_zh": "V2EX 热议：[分享创造] 做了一个会把微积分解题过程“动起来”的计算器，想听听大家的意见",
+        "summary_en": "Hot on V2EX: [分享创造] 做了一个会把微积分解题过程“动起来”的计算器，想听听大家的意见",
         "domain": "v2ex.com",
-        "quality_score": 69.2,
-        "related_ids": [
-          "v2ex-46312cd2b7a2",
-          "ph-1229726",
-          "hn-49411102",
-          "ph-1212030",
-          "v2ex-5ffeba61feb2"
-        ]
-      },
-      {
-        "id": "ph-1233934",
-        "title": "Computable GPU Index (CGI)",
-        "url": "https://www.producthunt.com/r/BX544B26YNJ4H3",
-        "description": "The first open-source price index for GPU compute",
-        "source": "producthunt",
-        "score": 424,
-        "comments": 77,
-        "author": "",
-        "time": "2026-09-01T12:00:00+00:00",
-        "tags": [
-          "compute",
-          "index",
-          "producthunt"
-        ],
-        "first_seen": "2026-09-02",
-        "summary_zh": "Computable GPU Index (CGI) 自称是首个开源的 GPU 算力价格指数项目。它试图为 GPU 计算资源的定价提供可量化的参照，适合需要采购云 GPU 或做成本评估的团队与开发者。目前页面只给出这一句定位，具体数据来源、覆盖地域和计算方法尚未公布。",
-        "summary_en": "Computable GPU Index (CGI) describes itself as the first open-source price index for GPU compute. It aims to give development and procurement teams a quantifiable reference for comparing GPU rental costs. Only that one-line description is provided, so the underlying data sources, regions, and methodology are not yet available in this listing.",
-        "domain": "producthunt.com",
-        "quality_score": 67.4,
-        "related_ids": [
-          "infoq-mKGb7ZiPRlAiFDZCWK0v",
-          "infoq-qaWyth5P4tZE1CQhhaGq",
-          "gh-monthly-cactus-compute-needle",
-          "infoq-6gFLptyMHRQhrILOlQ9Q",
-          "hn-49545411"
-        ]
+        "quality_score": 70.3,
+        "related_ids": []
       },
       {
         "id": "infoq-dICPOgXYkvE9HcA1KpUv",
@@ -704,7 +644,7 @@
         "url": "https://www.infoq.cn/article/dICPOgXYkvE9HcA1KpUv",
         "description": "",
         "source": "infoq",
-        "score": 5058,
+        "score": 7366,
         "comments": 0,
         "author": "",
         "time": "2026-09-03T08:37:58.110000+00:00",
@@ -716,91 +656,91 @@
         "summary_zh": "Omdia 报告按 2025 年收入计算，将 OceanBase 列为亚太及大洋洲分布式数据库市场第一。该市场 2025 年约 9 亿美元，预计 2029 年增至 18 亿美元，复合增速 19.3%。OceanBase 已有超 4000 家全球客户，并在新加坡设国际总部，向银行核心系统拓展。",
         "summary_en": "An Omdia report ranks OceanBase first in the Asia-Pacific and Oceania distributed database market by 2025 revenue. The region was worth about $900 million in 2025 and is forecast to reach $1.8 billion by 2029, a 19.3% CAGR. OceanBase, serving more than 4,000 customers globally, has opened an international headquarters in Singapore and is expanding from fintech into core banking systems.",
         "domain": "infoq.cn",
-        "quality_score": 53.6,
+        "quality_score": 44.8,
         "related_ids": [
-          "infoq-IE4CYYwbLYYKSbg7lXfx",
+          "infoq-iV0rsPyO5XZDJ7797hLJ",
           "v2ex-6bf7dfff09f4",
-          "infoq-cg5y0kCfmWKrIjCraZeH",
           "v2ex-9c8d316e2c33",
-          "v2ex-64aeed8f9352"
+          "v2ex-885dc9945703",
+          "v2ex-e0cefca06bb2"
         ]
       },
       {
-        "id": "v2ex-9074d5479506",
-        "title": "[问与答] 求个机场，要求速度要快，价格不要太高的， 500M 带宽这样的就行",
-        "url": "https://www.v2ex.com/t/1239603#reply3",
+        "id": "v2ex-352e4ae9b884",
+        "title": "[程序员] 难绷，太相信 ai 了😭",
+        "url": "https://www.v2ex.com/t/1239751#reply5",
         "description": "",
         "source": "v2ex",
-        "score": 240,
+        "score": 250,
         "comments": 0,
         "author": "",
-        "time": "2026-09-04T16:35:56+00:00",
+        "time": "2026-09-05T16:59:48+00:00",
         "tags": [
-          "v2ex"
-        ],
-        "first_seen": "2026-09-04",
-        "summary_zh": "V2EX 热议：[问与答] 求个机场，要求速度要快，价格不要太高的， 500M 带宽这样的就行",
-        "summary_en": "Hot on V2EX: [问与答] 求个机场，要求速度要快，价格不要太高的， 500M 带宽这样的就行",
-        "domain": "v2ex.com",
-        "quality_score": 68.0,
-        "related_ids": []
-      },
-      {
-        "id": "v2ex-50d88c53eee7",
-        "title": "[程序员] 40 了被毕业，为了养家糊口决定弄了个浏览器端图片压缩站，求 V 友挑刺",
-        "url": "https://www.v2ex.com/t/1239602#reply0",
-        "description": "",
-        "source": "v2ex",
-        "score": 230,
-        "comments": 0,
-        "author": "",
-        "time": "2026-09-04T16:23:34+00:00",
-        "tags": [
+          "ai",
           "v2ex",
           "程序员"
         ],
-        "first_seen": "2026-09-04",
-        "summary_zh": "40+ 程序员上半年被裁后做了出海图片压缩站 zipo.pics：核心压缩用 Rust 编译成 WASM，图片全程不上传服务器。前端 React + Vite SSG 已以 MIT 协议开源（zipo-frontend）。作者记录了跨源隔离、OAuth、WASM 多线程踩坑，适合关注 WebAssembly 和隐私场景的开发者参考。",
-        "summary_en": "A developer in his 40s, laid off earlier this year, launched zipo.pics, an image compression site whose Rust-to-WASM core keeps images in the browser and never uploads them to a server—a privacy-oriented pitch for overseas users. The React + Vite SSG frontend is open-sourced as zipo-frontend under MIT. The author’s write-up details real issues with Cross-Origin Isolation, OAuth popups, and multithreaded WASM, making it useful for developers working on WebAssembly or client-side privacy tools.",
+        "first_seen": "2026-09-05",
+        "summary_zh": "开发者吐槽 Workbuddy 的混元 3 模型：免费期看起来不弱，让它改 UI 后睡一觉醒来界面被改得面目全非；回退时模型称文件已删、无法还原，只能手动从备份恢复。这是“太相信 AI 不看思考过程”的教训，也提醒改代码前先做版本控制。",
+        "summary_en": "A developer complains that Workbuddy's Hunyuan 3 model seemed solid during the free tier, but after being told to fix a UI it changed the interface beyond recognition; when he asked for a rollback, the model claimed a file had been deleted and suggested restoring from backup. The story is a warning to watch what an AI actually does and to keep version control before letting it edit code.",
         "domain": "v2ex.com",
-        "quality_score": 66.8,
+        "quality_score": 69.2,
         "related_ids": [
-          "v2ex-cd4bd57a57ff",
-          "v2ex-b2c3e9cadbc7",
-          "v2ex-2048a10e9d8a",
-          "v2ex-bdb74fd49175",
-          "v2ex-dbf1e2e87636"
+          "v2ex-3501963b8a71",
+          "v2ex-ef7b8349d340",
+          "zhihu-2077824745589028563",
+          "v2ex-42e9bf0fc625",
+          "v2ex-cd4bd57a57ff"
         ]
       },
       {
-        "id": "v2ex-836fd56a9e87",
-        "title": "[推广] H3 Max API：一个把 H3 Max 视频生成接成站点 API key 的小工具",
-        "url": "https://www.v2ex.com/t/1239601#reply0",
+        "id": "infoq-6Jc130IN2OaXqsPDIzmJ",
+        "title": "人人都能整个“自己的DeepSeek Harness”，那我们为啥还在给Claude Code们充会员？",
+        "url": "https://www.infoq.cn/article/6Jc130IN2OaXqsPDIzmJ",
         "description": "",
-        "source": "v2ex",
-        "score": 220,
+        "source": "infoq",
+        "score": 7259,
         "comments": 0,
         "author": "",
-        "time": "2026-09-04T15:52:52+00:00",
+        "time": "2026-09-04T02:22:50.097000+00:00",
         "tags": [
-          "api",
-          "key",
-          "max",
-          "v2ex",
-          "推广"
+          "claude",
+          "deepseek",
+          "infoq"
         ],
         "first_seen": "2026-09-04",
-        "summary_zh": "H3 Max API 是一个把 H3 Max 视频生成封装成站点 API key 接口的开发工具，重点不是套模型宣传页，而是提供 workbench 来调试 h3_live_* site key、provider key、请求 JSON 与队列状态。需要先验证 text-to-video / image-to-video 接口形状的开发者，可以检查 prompt、duration、resolution、aspect ratio、safety_checker 等字段并查看服务端如何转发到上游。",
-        "summary_en": "H3 Max API is a developer tool that wraps H3 Max video generation behind site API keys; its workbench exposes browser-side h3_live_* site keys, server-side provider keys, request JSON preview, and queue/result status. It suits developers who want to verify text-to-video / image-to-video API shapes (prompt, duration, resolution, aspect ratio, safety_checker) before integrating, with examples and upstream forwarding visible on the public site.",
-        "domain": "v2ex.com",
-        "quality_score": 65.7,
+        "summary_zh": "DeepSeek 招募 Harness 内测后评论区变成个人 Harness 展销会；InfoQ 采访唐刘、茹炳晟、Remy、天猪，探讨 Coding Agent 的同质化。报道提到 Claude Code、Codex 的 Agent Loop 趋同，Pi、Aider、Reasonix 都从个人项目起步，Geoffrey Huntley 认为 Cursor 只是 300 行 while 循环。模型差距收窄后，竞争点变成能否写好自己的 Harness。",
+        "summary_en": "After DeepSeek called for Harness testers, its comment section turned into a personal-harness showcase; InfoQ interviewed Tang Liu, Ru Bingsheng, Remy and Tian Zhu about the commoditization of coding agents. The report notes that Claude Code and Codex share a convergent Agent Loop, Pi, Aider and Reasonix all started as one-person projects, and Geoffrey Huntley argues Cursor is just a 300-line while loop. With model differences shrinking, the question becomes whether you can build your own harness.",
+        "domain": "infoq.cn",
+        "quality_score": 59.6,
         "related_ids": [
-          "v2ex-2cc08481582e",
-          "v2ex-92120aa97084",
-          "v2ex-a4553348abb1",
-          "v2ex-3b971931bea2",
-          "v2ex-fa543f753d75"
+          "v2ex-4291236a1424",
+          "gh-monthly-diegosouzapw-OmniRoute",
+          "gh-daily-affaan-m-ECC",
+          "v2ex-55559dd136f2",
+          "v2ex-b2c3e9cadbc7"
         ]
+      },
+      {
+        "id": "zhihu-1899194637576574527",
+        "title": "为何张继科退役后体脂率还是这么低？",
+        "url": "https://www.zhihu.com/question/1899194637576574527",
+        "description": "",
+        "source": "zhihu",
+        "score": 1310000,
+        "comments": 0,
+        "author": "",
+        "time": "2026-09-05T12:00:00+00:00",
+        "tags": [
+          "general-hot",
+          "zhihu"
+        ],
+        "first_seen": "2026-09-05",
+        "summary_zh": "知乎提问讨论张继科退役后体脂率为何仍然很低。原文是链接，未提供更多细节。",
+        "summary_en": "A Zhihu post asks why Zhang Jike still has such a low body-fat percentage after retirement. The linked page isn't summarized here; details beyond the title aren't available.",
+        "domain": "zhihu.com",
+        "quality_score": 41.6,
+        "related_ids": []
       },
       {
         "id": "ph-1232363",
@@ -808,7 +748,7 @@
         "url": "https://www.producthunt.com/r/SV57AXQTEEXIBS",
         "description": "Launch with confidence, not gut instinct",
         "source": "producthunt",
-        "score": 371,
+        "score": 380,
         "comments": 53,
         "author": "",
         "time": "2026-09-02T12:00:00+00:00",
@@ -819,42 +759,129 @@
         "summary_zh": "Articos 是 Product Hunt 上的一个新品，口号为 “Launch with confidence, not gut instinct”，强调不做凭直觉的发布决策。目前可用的仅这句简介，正文没有给出产品机制或其他说明，需要到原页面查看具体功能。",
         "summary_en": "Articos appears on Product Hunt with the tagline “Launch with confidence, not gut instinct,” indicating a focus on data-informed product launches rather than intuition. The listing offers no more details, so the linked page isn't summarized here; what the product actually does isn't described beyond this tagline.",
         "domain": "producthunt.com",
-        "quality_score": 59.0,
+        "quality_score": 59.5,
         "related_ids": [
           "ph-1233737",
           "ph-1224615",
-          "hn-49543530",
-          "hn-49552616",
-          "hn-49525153"
+          "hn-49580325",
+          "hn-49525153",
+          "hn-49543530"
         ]
       },
       {
-        "id": "v2ex-a4553348abb1",
-        "title": "[推广] Omen Alpha 匿名模型是哪家的？不管哪家 API 4 折已无限量供应",
-        "url": "https://www.v2ex.com/t/1239600#reply0",
+        "id": "v2ex-2ea2a1b3e7f5",
+        "title": "[OpenAI] gpt6 的 compute use 是否是说，代码写完后，可以让 gpt6 打开客户端 gui，自行按照 plan 来做测试？",
+        "url": "https://www.v2ex.com/t/1239750#reply5",
         "description": "",
         "source": "v2ex",
-        "score": 210,
+        "score": 240,
         "comments": 0,
         "author": "",
-        "time": "2026-09-04T15:49:17+00:00",
+        "time": "2026-09-05T16:46:19+00:00",
         "tags": [
-          "alpha",
-          "api",
-          "v2ex",
-          "推广"
+          "compute",
+          "gpt",
+          "gui",
+          "openai",
+          "plan",
+          "v2ex"
+        ],
+        "first_seen": "2026-09-05",
+        "summary_zh": "V2EX 上有人提问：GPT-6 的 compute use 是否指写完代码后，模型能打开客户端 GUI、按 plan 自行测试？原文是链接，未提供更多细节。",
+        "summary_en": "A V2EX user asks whether GPT-6's 'compute use' means that after code is written, the model can open a GUI client and run tests on its own from a plan. The linked page isn't summarized here; details beyond the title aren't available.",
+        "domain": "v2ex.com",
+        "quality_score": 68.0,
+        "related_ids": [
+          "infoq-mKGb7ZiPRlAiFDZCWK0v",
+          "ph-1240758",
+          "v2ex-912efe14ca5a",
+          "36kr-3968346621751812",
+          "v2ex-0269e4dbb00a"
+        ]
+      },
+      {
+        "id": "infoq-M792kCZ4FIzk7YHe4WhT",
+        "title": "“美国大豆包”Gemini翻身：输出速度碾压同行、智能水平重回第一梯队",
+        "url": "https://www.infoq.cn/article/M792kCZ4FIzk7YHe4WhT",
+        "description": "",
+        "source": "infoq",
+        "score": 6825,
+        "comments": 0,
+        "author": "",
+        "time": "2026-09-04T02:16:42.367000+00:00",
+        "tags": [
+          "gemini",
+          "infoq"
         ],
         "first_seen": "2026-09-04",
-        "summary_zh": "Omen Alpha 是一个尚未公布归属的匿名模型，多位开发者判断它大概率是 GLM 5.3 Air，也有人猜测是小米的模型。tokenra.io 已开放该模型 API，按 4 折价格无限量供应，开发者可以自己测试效果并参与猜测模型真实身份。",
-        "summary_en": "Omen Alpha is an anonymous model of unidentified origin; several developers suspect it is likely GLM 5.3 Air, while others guess it comes from Xiaomi. The API is available on tokenra.io with a 60% discount and unlimited quota, so developers can benchmark it and take part in guessing the real model.",
-        "domain": "v2ex.com",
-        "quality_score": 64.5,
+        "summary_zh": "Google 发布 Gemini 3.8 Flash，这是六周内第三款 Flash 模型。它在 Artificial Analysis Intelligence Index 得 59 分，追平 GPT-5.6 Sol 和 Grok 4.6，并在 DeepSWE v1.1 长程软件工程榜登顶；输出速度约每秒 300 token，是多数主流模型的 4—6 倍。新版靠更多推理与工具调用改善此前“美国大豆包”式的实际表现短板。",
+        "summary_en": "Google has shipped Gemini 3.8 Flash, its third Flash release in six weeks. The model scores 59 on the Artificial Analysis Intelligence Index — tying GPT-5.6 Sol and Grok 4.6 — and tops the DeepSWE v1.1 long-horizon software-engineering chart while sustaining roughly 300 output tokens per second, about 4–6x faster than many peers. It gains capability from more reasoning and tool calls instead of being a scaled-down Pro, notably closing the gap between flashy scores and real-world reliability.",
+        "domain": "infoq.cn",
+        "quality_score": 58.4,
         "related_ids": [
-          "v2ex-836fd56a9e87",
-          "v2ex-92120aa97084",
-          "v2ex-3b971931bea2",
-          "v2ex-2cc08481582e",
-          "v2ex-fa543f753d75"
+          "v2ex-102701378140",
+          "hn-49537553",
+          "v2ex-ffce4dd4a055",
+          "v2ex-f2c00173f4c7",
+          "ph-1239559"
+        ]
+      },
+      {
+        "id": "v2ex-e88f7ef6cd55",
+        "title": "[分享创造] 我也做了个插件（支持 chrome 和 edge)，为了能直接同时向多个 AI 问同一个问题。免登录，无需 TOKEN。",
+        "url": "https://www.v2ex.com/t/1239749#reply0",
+        "description": "",
+        "source": "v2ex",
+        "score": 230,
+        "comments": 0,
+        "author": "",
+        "time": "2026-09-05T16:16:02+00:00",
+        "tags": [
+          "ai",
+          "chrome",
+          "edge",
+          "v2ex",
+          "支持"
+        ],
+        "first_seen": "2026-09-05",
+        "summary_zh": "作者分享了一款支持 Chrome 和 Edge 的浏览器插件“多答 AI”（站点 duodaai.com），可让同一个问题同时发给多个 AI，免登录也无需 Token。作者表示 V2EX 用户留邮箱可获得兑换码，后续也欢迎反馈和建议。",
+        "summary_en": "The author shares a Chrome/Edge extension named “多答 AI” (site: duodaai.com) that sends one question to several AIs at once; it requires no login or API token. V2EX readers can leave an email for a promo code, and feedback is welcome for future features.",
+        "domain": "v2ex.com",
+        "quality_score": 66.8,
+        "related_ids": [
+          "gh-monthly-zhaoxuya520-reverse-skill",
+          "infoq-WGj2Jx0K2sbP3dhUXeC5",
+          "v2ex-289b9818817b",
+          "v2ex-8e5562b39a2c",
+          "v2ex-352e4ae9b884"
+        ]
+      },
+      {
+        "id": "infoq-iV0rsPyO5XZDJ7797hLJ",
+        "title": "谷歌云发布 AI 智能体，简化数据库生命周期管理",
+        "url": "https://www.infoq.cn/article/iV0rsPyO5XZDJ7797hLJ",
+        "description": "",
+        "source": "infoq",
+        "score": 6488,
+        "comments": 0,
+        "author": "",
+        "time": "2026-09-04T01:21:00.051000+00:00",
+        "tags": [
+          "ai",
+          "infoq",
+          "数据"
+        ],
+        "first_seen": "2026-09-04",
+        "summary_zh": "谷歌云上线两个数据库运维智能体：Onboarding Agent 以自然语言理解 IOPS、延迟等要求并推荐/配置数据库；Observability Agent 面向 SRE，自动关联遥测数据做根因分析和修复。它们集成 Gemini Cloud Assist，支持 AlloyDB、Cloud SQL、Spanner 等，在现有控制台、CLI 和 IDE 中即可使用。",
+        "summary_en": "Google Cloud launched two AI database-operations agents. The Onboarding Agent interprets natural-language requirements like IOPS or latency limits and then recommends and configures a database, while the Observability Agent targets SRE/DevOps teams: it correlates telemetry from Database Insights, Cloud Monitoring, Logging, and Trace to diagnose root causes and apply fixes. Both integrate with Gemini Cloud Assist, support managed services including AlloyDB, Cloud SQL, and Spanner, and work from existing console, CLI, and IDE workflows.",
+        "domain": "infoq.cn",
+        "quality_score": 57.5,
+        "related_ids": [
+          "v2ex-885dc9945703",
+          "infoq-9YicfQysexJdmx11xG4m",
+          "infoq-rhKVS8RAdp4aVPZD0vZu",
+          "v2ex-8e5562b39a2c",
+          "v2ex-352e4ae9b884"
         ]
       },
       {
@@ -863,8 +890,8 @@
         "url": "https://www.producthunt.com/r/XMDJ7VCVJ2VC3D",
         "description": "Claude Cowork for high-volume GTM workflows",
         "source": "producthunt",
-        "score": 343,
-        "comments": 30,
+        "score": 348,
+        "comments": 27,
         "author": "",
         "time": "2026-09-03T12:00:00+00:00",
         "tags": [
@@ -879,69 +906,60 @@
         "summary_zh": "Nex 是 Product Hunt 上的一个新品条目，描述为“Claude Cowork for high-volume GTM workflows”——可理解为面向大批量 GTM（go-to-market）流程的 Claude Cowork 方案。条目没有附带更多介绍，具体功能、定价与架构并未说明。",
         "summary_en": "Nex is listed on Product Hunt with the description 'Claude Cowork for high-volume GTM workflows,' suggesting a Claude-driven agent for go-to-market teams running large workloads. No other details about features, pricing, or implementation are included in this entry.",
         "domain": "producthunt.com",
-        "quality_score": 67.3,
+        "quality_score": 52.0,
         "related_ids": [
+          "gh-daily-ruvnet-ruflo",
           "hn-49241679",
           "gh-monthly-PrimeIntellect-ai-prime-agent",
           "ph-1113358",
-          "gh-daily-ComposioHQ-awesome-claude-skills",
-          "hn-49525378"
+          "gh-daily-ComposioHQ-awesome-claude-skills"
         ]
       },
       {
-        "id": "infoq-6Jc130IN2OaXqsPDIzmJ",
-        "title": "人人都能整个“自己的DeepSeek Harness”，那我们为啥还在给Claude Code们充会员？",
-        "url": "https://www.infoq.cn/article/6Jc130IN2OaXqsPDIzmJ",
+        "id": "v2ex-f94d1e84e334",
+        "title": "[职场话题] 大龄程序员转销售第二天：拒绝还是很多，但我开始敢说话了",
+        "url": "https://www.v2ex.com/t/1239748#reply0",
         "description": "",
-        "source": "infoq",
-        "score": 4130,
+        "source": "v2ex",
+        "score": 220,
         "comments": 0,
         "author": "",
-        "time": "2026-09-04T02:22:50.097000+00:00",
+        "time": "2026-09-05T16:02:08+00:00",
         "tags": [
-          "claude",
-          "deepseek",
-          "infoq"
+          "v2ex"
         ],
-        "first_seen": "2026-09-04",
-        "summary_zh": "DeepSeek 招募 Harness 内测后评论区变成个人 Harness 展销会；InfoQ 采访唐刘、茹炳晟、Remy、天猪，探讨 Coding Agent 的同质化。报道提到 Claude Code、Codex 的 Agent Loop 趋同，Pi、Aider、Reasonix 都从个人项目起步，Geoffrey Huntley 认为 Cursor 只是 300 行 while 循环。模型差距收窄后，竞争点变成能否写好自己的 Harness。",
-        "summary_en": "After DeepSeek called for Harness testers, its comment section turned into a personal-harness showcase; InfoQ interviewed Tang Liu, Ru Bingsheng, Remy and Tian Zhu about the commoditization of coding agents. The report notes that Claude Code and Codex share a convergent Agent Loop, Pi, Aider and Reasonix all started as one-person projects, and Geoffrey Huntley argues Cursor is just a 300-line while loop. With model differences shrinking, the question becomes whether you can build your own harness.",
-        "domain": "infoq.cn",
-        "quality_score": 51.1,
-        "related_ids": [
-          "v2ex-4291236a1424",
-          "gh-monthly-diegosouzapw-OmniRoute",
-          "gh-daily-affaan-m-ECC",
-          "v2ex-55559dd136f2",
-          "v2ex-b2c3e9cadbc7"
-        ]
+        "first_seen": "2026-09-05",
+        "summary_zh": "V2EX 热议：[职场话题] 大龄程序员转销售第二天：拒绝还是很多，但我开始敢说话了",
+        "summary_en": "Hot on V2EX: [职场话题] 大龄程序员转销售第二天：拒绝还是很多，但我开始敢说话了",
+        "domain": "v2ex.com",
+        "quality_score": 65.7,
+        "related_ids": []
       },
       {
-        "id": "hn-49525378",
-        "title": "Claude Fable 5.1 and Claude Mythos 5.1",
-        "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+        "id": "36kr-3969215933421190",
+        "title": "AGI，真的来了？",
+        "url": "https://36kr.com/p/3969215933421190",
         "description": "",
-        "source": "hackernews",
-        "score": 1411,
-        "comments": 1382,
-        "author": "denysvitali",
-        "time": "2026-09-01T17:53:53+00:00",
+        "source": "36kr",
+        "score": 32963,
+        "comments": 0,
+        "author": "",
+        "time": "2026-09-05T01:24:59.694000+00:00",
         "tags": [
-          "claude",
-          "hackernews",
-          "mythos"
+          "36kr",
+          "agi"
         ],
-        "first_seen": "2026-09-01",
-        "summary_zh": "Hacker News 上这条帖子标题为 Claude Fable 5.1 和 Claude Mythos 5.1，正文只提供 Fable 5.1 的 What's new 文档链接与 System Card 链接，分别指向 platform.claude.com 和 www-cdn.anthropic.com。帖内没有模型细节，Mythos 5.1 只出现在标题中，具体内容需查看链接页面。",
-        "summary_en": "This Hacker News post is titled 'Claude Fable 5.1 and Claude Mythos 5.1'; its body only includes a What's-new link for Fable 5.1 and a System Card URL, pointing to platform.claude.com and www-cdn.anthropic.com respectively. No model details are given, and Mythos 5.1 appears only in the title. The linked pages aren't summarized here; details beyond the title aren't available.",
-        "domain": "anthropic.com",
-        "quality_score": 73.0,
+        "first_seen": "2026-09-05",
+        "summary_zh": "这篇内容的标题是“AGI，真的来了？”，直接抛出一个开放性问题。原文是链接，未提供更多细节，因此无法判断它讨论的是模型能力、产品发布还是行业进展。",
+        "summary_en": "This post is titled “AGI，真的来了？” (\"Is AGI really here?\"), asking an open question about whether true AGI has arrived. The linked page isn't summarized here; details beyond the title aren't available, so what model, product, or development the question refers to remains unknown.",
+        "domain": "36kr.com",
+        "quality_score": 53.0,
         "related_ids": [
-          "ph-1239953",
-          "ph-1212030",
-          "juejin-7620060655607857178",
-          "gh-monthly-cathrynlavery-diagram-design",
-          "v2ex-6ebab3254b90"
+          "36kr-3968319085523209",
+          "infoq-mKGb7ZiPRlAiFDZCWK0v",
+          "36kr-3968299418415362",
+          "36kr-3968652629422337",
+          "zhihu-2079054472190469850"
         ]
       },
       {
@@ -950,8 +968,8 @@
         "url": "https://www.producthunt.com/r/2EYT4D2MQCUU3J",
         "description": "Build agents that heal themselves. ",
         "source": "producthunt",
-        "score": 329,
-        "comments": 17,
+        "score": 332,
+        "comments": 16,
         "author": "",
         "time": "2026-09-03T12:00:00+00:00",
         "tags": [
@@ -963,160 +981,189 @@
         "summary_zh": "Airtop 推出的 Agent Builder 是一个专门用来构建 AI agent 的工具，卖点是让 agent 具备自我修复能力：运行出错时能自行恢复，而不是等开发者介入。对在生产环境里跑 agent 的团队来说，能明显降低维护成本和故障响应压力。",
         "summary_en": "Agent Builder by Airtop lets developers create AI agents with self-healing behavior: agents recover automatically from errors rather than waiting on humans. That's meant to cut the maintenance burden for teams running agents in production. In short, less babysitting, more reliable automation.",
         "domain": "producthunt.com",
-        "quality_score": 63.7,
+        "quality_score": 48.6,
         "related_ids": [
           "ph-1202963",
           "ph-1214277",
           "ph-1225427",
-          "ph-1225168",
-          "ph-1211254"
+          "ph-1211254",
+          "gh-monthly-mattpocock-skills"
         ]
       },
       {
-        "id": "hn-49563355",
-        "title": "Discovery of a new OpenAI agent message board",
-        "url": "https://collusion.wiki/",
+        "id": "v2ex-01ff66a97aa0",
+        "title": "[MacBook Air] 有没有推荐的 macbook 充电器",
+        "url": "https://www.v2ex.com/t/1239747#reply5",
         "description": "",
-        "source": "hackernews",
-        "score": 1363,
-        "comments": 1103,
-        "author": "moultano",
-        "time": "2026-09-04T11:54:53+00:00",
-        "tags": [
-          "agent",
-          "board",
-          "discovery",
-          "hackernews",
-          "message",
-          "openai"
-        ],
-        "first_seen": "2026-09-04",
-        "summary_zh": "这是一个 Hacker News 帖子，标题称发现了 OpenAI 的一个新 agent 留言板。原帖只有链接，未提供更多细节，无法介绍具体内容。",
-        "summary_en": "This Hacker News post reports the discovery of a new OpenAI agent message board. The linked page isn't summarized here; details beyond the title aren't available.",
-        "domain": "collusion.wiki",
-        "quality_score": 82.2,
-        "related_ids": [
-          "v2ex-29bec815da66",
-          "infoq-s8dvlxO3lh3CEDgcsUEi",
-          "ph-1198993",
-          "ph-1202963",
-          "v2ex-289b9818817b"
-        ]
-      },
-      {
-        "id": "ph-1233519",
-        "title": "Creatium Coach",
-        "url": "https://www.producthunt.com/r/I5Q2WCFRUDQPOC",
-        "description": "Your multimedia mentor that takes you from mid to great",
-        "source": "producthunt",
-        "score": 318,
-        "comments": 98,
-        "author": "",
-        "time": "2026-09-01T12:00:00+00:00",
-        "tags": [
-          "producthunt",
-          "takes"
-        ],
-        "first_seen": "2026-09-02",
-        "summary_zh": "Creatium Coach 是 Product Hunt 上出现的一款多媒体导师类产品，简介称它能帮助用户从中等水平进阶到优秀。目前只有这行产品描述，原文链接指向 Product Hunt 页面，未提供更多实现或内容细节。",
-        "summary_en": "Creatium Coach is a Product Hunt listing for a multimedia mentor that, per its tagline, takes users from mid-level to great. Only that one-line description is available; the linked page isn't summarized here, details beyond the title aren't available.",
-        "domain": "producthunt.com",
-        "quality_score": 65.5,
-        "related_ids": [
-          "hn-49480091",
-          "hn-49226623",
-          "hn-49177765",
-          "hn-49379091",
-          "hn-49220746"
-        ]
-      },
-      {
-        "id": "gh-daily-DietrichGebert-ponytail",
-        "title": "DietrichGebert/ponytail",
-        "url": "https://github.com/DietrichGebert/ponytail",
-        "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-        "source": "github_trending",
-        "score": 1683,
+        "source": "v2ex",
+        "score": 210,
         "comments": 0,
-        "author": "DietrichGebert",
-        "time": "2026-09-04T22:08:38.628437+00:00",
-        "tags": [
-          "agent",
-          "ai",
-          "dev",
-          "github",
-          "makes",
-          "wrote"
-        ],
-        "gh_period": "daily",
-        "first_seen": "2026-08-25",
-        "summary_zh": "Ponytail 是一个开源项目，核心思路是让 AI agent 像“最懒的资深开发者”那样写代码：能少写就少写，一行能解决问题就不写第二行。发布为 npm 包 @dietrichgebert/ponytail，README 标注兼容 20 种 agent。适合希望减少 AI 生成冗余代码、提高可维护性的开发者。",
-        "summary_en": "Ponytail is an open-source project that pushes AI coding agents to behave like the 'laziest senior dev'—write only the minimum, and one line if that's enough. It's published as the npm package @dietrichgebert/ponytail and the README badge claims compatibility with 20 agents. Useful for developers who want AI to write less, not more.",
-        "domain": "github.com",
-        "quality_score": 41.2,
-        "related_ids": [
-          "v2ex-29bec815da66",
-          "ph-1225427",
-          "v2ex-405bc69e5265",
-          "ph-1136694",
-          "juejin-7637856870833635343"
-        ]
-      },
-      {
-        "id": "ph-1235091",
-        "title": "Gauth AI Course",
-        "url": "https://www.producthunt.com/r/O6RGXJTHGDQVQN",
-        "description": "AI courses you can watch, quiz through, and create",
-        "source": "producthunt",
-        "score": 291,
-        "comments": 83,
         "author": "",
-        "time": "2026-09-01T12:00:00+00:00",
+        "time": "2026-09-05T16:01:36+00:00",
         "tags": [
-          "ai",
-          "producthunt"
+          "air",
+          "macbook",
+          "v2ex"
         ],
-        "first_seen": "2026-09-02",
-        "summary_zh": "Gauth AI Course 是一个 AI 课程产品，主打“可观看、可测练、可创建”的课程。它把被动看课变成带测验的交互式学习，适合想边学边检验知识点的学习者，也给想自己制作课程的人提供了一个入口。",
-        "summary_en": "Gauth AI Course is an AI-course offering that can be watched, quizzed through, and created. It turns passive video consumption into interactive learning, making it a fit for learners who want to test their understanding and for creators who want to build their own courses.",
-        "domain": "producthunt.com",
-        "quality_score": 60.6,
+        "first_seen": "2026-09-05",
+        "summary_zh": "V2EX 用户表示因涨价购入二手 MacBook Air M4，想请大家推荐充电器，预算 200 元以内。这是条简短求助帖，目前能确定的条件只有笔记本型号和价格上限，没有说明接口偏好、充电功率或使用场景等更多信息。",
+        "summary_en": "A V2EX user says that after price increases they bought a used MacBook Air M4 and is asking the community for charger recommendations with a budget below 200 yuan. The post is a short advice request; details such as connector preferences, charging speed needs, or travel scenarios aren't provided, so the only hard requirements are the machine model and the price cap.",
+        "domain": "v2ex.com",
+        "quality_score": 64.5,
         "related_ids": [
-          "hn-49458418",
-          "ph-1196035",
-          "v2ex-8e5562b39a2c",
-          "ph-1212030",
-          "v2ex-5ffeba61feb2"
+          "36kr-3969992945955076",
+          "v2ex-72aa7c1ec9b2",
+          "hn-49527573",
+          "v2ex-ac7ae297e7e9",
+          "36kr-3950880672225153"
         ]
       },
       {
-        "id": "hn-49537553",
-        "title": "Gemini 3.8 Flash and 3.8 Flash Cyber",
-        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+        "id": "zhihu-2078796105559400662",
+        "title": "《周处除三害》导演新作《荡荡荡寇志》剧照流出，张家辉、阮经天、贾静雯造型颠覆，能复刻前作的口碑吗？",
+        "url": "https://www.zhihu.com/question/2078796105559400662",
+        "description": "",
+        "source": "zhihu",
+        "score": 1110000,
+        "comments": 0,
+        "author": "",
+        "time": "2026-09-05T12:00:00+00:00",
+        "tags": [
+          "general-hot",
+          "zhihu"
+        ],
+        "first_seen": "2026-09-05",
+        "summary_zh": "这篇知乎内容的标题指：《周处除三害》导演的新作《荡荡荡寇志》剧照流出，张家辉、阮经天和贾静雯的造型被形容为颠覆。标题之外没有正文细节，无法判断剧情、档期或口碑前景，所以“能否复刻前作口碑”还无法评估。",
+        "summary_en": "On Zhihu, an article about the director of 周处除三害's new film 荡荡荡寇志 shares leaked stills in which Zhang Jiahui, Ruan Jingtian, and Jia Jingwen are described as having subversive looks. The linked page isn't summarized here; details beyond the title aren't available, so its chances of matching the earlier film's critical reception can't be assessed.",
+        "domain": "zhihu.com",
+        "quality_score": 41.4,
+        "related_ids": []
+      },
+      {
+        "id": "zhihu-2069940471808447382",
+        "title": "为什么当年小品《不差钱》要设计一个调侃「刀郎」的片段？",
+        "url": "https://www.zhihu.com/question/2069940471808447382",
+        "description": "",
+        "source": "zhihu",
+        "score": 1040000,
+        "comments": 0,
+        "author": "",
+        "time": "2026-09-05T12:00:00+00:00",
+        "tags": [
+          "general-hot",
+          "zhihu",
+          "设计"
+        ],
+        "first_seen": "2026-09-05",
+        "summary_zh": "知乎上有用户提问：当年春晚小品《不差钱》为什么要设计调侃歌手刀郎的片段。目前仅能确定问题指向这一经典喜剧桥段的创作动机；原帖是链接，未提供更多细节。",
+        "summary_en": "A Zhihu question asks why the classic skit 'Bu Cha Qian' included a scene poking fun at singer Dao Lang. The linked page isn't summarized here; details beyond the title aren't available.",
+        "domain": "zhihu.com",
+        "quality_score": 41.3,
+        "related_ids": [
+          "v2ex-b9e7d9674192",
+          "v2ex-50ab4b2604a5",
+          "infoq-rhKVS8RAdp4aVPZD0vZu",
+          "gh-monthly-bojieli-ai-agent-book",
+          "zhihu-2078162988490383384"
+        ]
+      },
+      {
+        "id": "hn-49525378",
+        "title": "Claude Fable 5.1 and Claude Mythos 5.1",
+        "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
         "description": "",
         "source": "hackernews",
-        "score": 1153,
-        "comments": 661,
-        "author": "bratao",
-        "time": "2026-09-02T15:12:40+00:00",
+        "score": 1413,
+        "comments": 1383,
+        "author": "denysvitali",
+        "time": "2026-09-01T17:53:53+00:00",
         "tags": [
-          "cyber",
-          "flash",
-          "gemini",
-          "hackernews"
+          "claude",
+          "hackernews",
+          "mythos"
         ],
-        "first_seen": "2026-09-02",
-        "summary_zh": "该帖子标题为 Gemini 3.8 Flash 与 Gemini 3.8 Flash Cyber，正文只附上 deepmind.google 的模型卡链接，没有具体说明。原文是链接，标题之外的内容不可用，因此无法判断这两个名称所指版本的能力或发布情况。",
-        "summary_en": "This Hacker News post is titled Gemini 3.8 Flash and 3.8 Flash Cyber and contains only a link to a deepmind.google model-card page. The linked page isn't summarized here; details beyond the title aren't available, so we can't confirm what the two names refer to or their capabilities.",
-        "domain": "blog.google",
-        "quality_score": 55.8,
+        "first_seen": "2026-09-01",
+        "summary_zh": "Hacker News 上这条帖子标题为 Claude Fable 5.1 和 Claude Mythos 5.1，正文只提供 Fable 5.1 的 What's new 文档链接与 System Card 链接，分别指向 platform.claude.com 和 www-cdn.anthropic.com。帖内没有模型细节，Mythos 5.1 只出现在标题中，具体内容需查看链接页面。",
+        "summary_en": "This Hacker News post is titled 'Claude Fable 5.1 and Claude Mythos 5.1'; its body only includes a What's-new link for Fable 5.1 and a System Card URL, pointing to platform.claude.com and www-cdn.anthropic.com respectively. No model details are given, and Mythos 5.1 appears only in the title. The linked pages aren't summarized here; details beyond the title aren't available.",
+        "domain": "anthropic.com",
+        "quality_score": 71.2,
         "related_ids": [
-          "v2ex-102701378140",
-          "36kr-3966847977905669",
-          "hn-49289112",
-          "ph-1234397",
-          "v2ex-b2c3e9cadbc7"
+          "ph-1212030",
+          "juejin-7620060655607857178",
+          "infoq-6Jc130IN2OaXqsPDIzmJ",
+          "gh-monthly-cathrynlavery-diagram-design",
+          "36kr-3969755274883328"
         ]
+      },
+      {
+        "id": "zhihu-2079235027733423233",
+        "title": "如何看待因被要求补缴社保，老板在店门口滚屏抱怨「选择员工需谨慎」？",
+        "url": "https://www.zhihu.com/question/2079235027733423233",
+        "description": "",
+        "source": "zhihu",
+        "score": 1000000,
+        "comments": 0,
+        "author": "",
+        "time": "2026-09-05T12:00:00+00:00",
+        "tags": [
+          "general-hot",
+          "zhihu"
+        ],
+        "first_seen": "2026-09-05",
+        "summary_zh": "知乎提问讨论一起劳资纠纷：老板因被要求补缴社保，在店门口用滚动屏幕抱怨「选择员工需谨慎」。原帖只有标题，未提供更多细节，讨论焦点可能是雇主这类公开表态是否合适，以及社保补缴带来的矛盾。",
+        "summary_en": "A Zhihu question asks for opinions about a boss who, after employees asked him to pay social insurance, used a scrolling storefront sign to complain that he should be careful in choosing staff. The linked page isn't summarized here; details beyond the title aren't available.",
+        "domain": "zhihu.com",
+        "quality_score": 41.2,
+        "related_ids": []
+      },
+      {
+        "id": "ph-1235086",
+        "title": "myAIcademy",
+        "url": "https://www.producthunt.com/r/ZV2IS4ZFBSIMTJ",
+        "description": "Learn AI skills for your specific role and team",
+        "source": "producthunt",
+        "score": 293,
+        "comments": 34,
+        "author": "",
+        "time": "2026-09-04T12:00:00+00:00",
+        "tags": [
+          "ai",
+          "producthunt",
+          "role"
+        ],
+        "first_seen": "2026-09-05",
+        "summary_zh": "myAIcademy 是发布在 Product Hunt 上的一款 AI 培训产品，主打「为你的具体岗位和团队学习 AI 技能」。它强调按角色和团队定制学习内容，适合希望将员工 AI 能力与实际工作流程对齐的管理者。",
+        "summary_en": "myAIcademy is a training product on Product Hunt designed to help people learn AI skills tailored to their specific role and team. Instead of generic AI courses, it focuses on role-specific and team-oriented learning, making it relevant for managers planning practical upskilling.",
+        "domain": "producthunt.com",
+        "quality_score": 65.1,
+        "related_ids": [
+          "gh-monthly-TencentCloud-TencentDB-Agent-Memory",
+          "v2ex-8e5562b39a2c",
+          "v2ex-352e4ae9b884",
+          "v2ex-e88f7ef6cd55",
+          "ph-1090720"
+        ]
+      },
+      {
+        "id": "zhihu-2078786891122308296",
+        "title": "剧版《哈利·波特》新预告释出，观感如何？你对霍格沃茨还原、哈利、赫敏、罗恩、邓布利多等扮相满意吗？",
+        "url": "https://www.zhihu.com/question/2078786891122308296",
+        "description": "",
+        "source": "zhihu",
+        "score": 950000,
+        "comments": 0,
+        "author": "",
+        "time": "2026-09-05T12:00:00+00:00",
+        "tags": [
+          "general-hot",
+          "zhihu"
+        ],
+        "first_seen": "2026-09-05",
+        "summary_zh": "知乎热榜：剧版《哈利·波特》新预告释出，观感如何？你对霍格沃茨还原、哈利、赫敏、罗恩、邓布利多等扮相满意吗？",
+        "summary_en": "Hot on Zhihu: 剧版《哈利·波特》新预告释出，观感如何？你对霍格沃茨还原、哈利、赫敏、罗恩、邓布利多等扮相满意吗？",
+        "domain": "zhihu.com",
+        "quality_score": 41.2,
+        "related_ids": []
       },
       {
         "id": "ph-1226006",
@@ -1124,7 +1171,7 @@
         "url": "https://www.producthunt.com/r/7TTRWNXQKUKM4N",
         "description": "Give everyone their own AI workforce in one platform",
         "source": "producthunt",
-        "score": 275,
+        "score": 277,
         "comments": 40,
         "author": "",
         "time": "2026-09-03T12:00:00+00:00",
@@ -1137,13 +1184,177 @@
         "summary_zh": "MagiCrew 是一个把多个 AI agent 整合到一个平台的产品，强调给每个用户属于自己的 AI 员工队伍，而不是只有一个聊天助手。适合需要让多个 agent 分工协作、在统一界面里管理工作流的个人和团队。",
         "summary_en": "MagiCrew is a platform that gives every user their own AI workforce—a group of agents working together—within one product. Instead of relying on a single chatbot, people and teams can coordinate multiple specialized agents in one place to get more done.",
         "domain": "producthunt.com",
-        "quality_score": 65.4,
+        "quality_score": 50.5,
         "related_ids": [
+          "hn-49574167",
           "v2ex-8e5562b39a2c",
-          "ph-1212030",
-          "v2ex-5ffeba61feb2",
-          "ph-1090720",
-          "v2ex-29bec815da66"
+          "v2ex-352e4ae9b884",
+          "v2ex-e88f7ef6cd55",
+          "ph-1090720"
+        ]
+      },
+      {
+        "id": "ph-1238718",
+        "title": "CleanShot 5.0 with Studio Mode",
+        "url": "https://www.producthunt.com/r/XTWBJN3JRPBAQM",
+        "description": "Mac-native app for screenshots, recordings and collaboration",
+        "source": "producthunt",
+        "score": 275,
+        "comments": 19,
+        "author": "",
+        "time": "2026-09-02T12:00:00+00:00",
+        "tags": [
+          "mac",
+          "mode",
+          "producthunt",
+          "recordings",
+          "screenshots",
+          "studio"
+        ],
+        "first_seen": "2026-09-03",
+        "summary_zh": "Product Hunt 热门：CleanShot 5.0 with Studio Mode",
+        "summary_en": "Popular on Product Hunt: CleanShot 5.0 with Studio Mode",
+        "domain": "producthunt.com",
+        "quality_score": 45.8,
+        "related_ids": [
+          "ph-1235626",
+          "ph-1198993",
+          "hn-49433316",
+          "hn-49508982",
+          "ph-1233737"
+        ]
+      },
+      {
+        "id": "ph-1240025",
+        "title": "Omi",
+        "url": "https://www.producthunt.com/r/LY6RGOFW5MIPEU",
+        "description": "Ask your computer anything you saw or heard",
+        "source": "producthunt",
+        "score": 268,
+        "comments": 22,
+        "author": "",
+        "time": "2026-09-03T12:00:00+00:00",
+        "tags": [
+          "anything",
+          "producthunt",
+          "saw"
+        ],
+        "first_seen": "2026-09-04",
+        "summary_zh": "Omi 是 Product Hunt 上的一款新工具，简介描述为“向你的电脑询问任何你看到或听到的内容”。它的核心设想是让用户用自然语言回查此前在屏幕上见过或设备里播放过的内容，但简介并没有说明具体实现方式。想用对话方式找回多人协作中错过的信息的人，可以先试用看看。",
+        "summary_en": "Omi is a Product Hunt listing described as letting you \"ask your computer anything you saw or heard.\" That premise suggests a natural-language way to query things that appeared on your screen or came through your audio, though the listing doesn't include implementation details. It may appeal to developers who want a conversational memory layer for information they previously saw or heard.",
+        "domain": "producthunt.com",
+        "quality_score": 46.0,
+        "related_ids": [
+          "ph-1186033",
+          "gh-daily-Gitlawb-openclaude",
+          "ph-1210439",
+          "hn-49567437",
+          "gh-monthly-cloudflare-computer"
+        ]
+      },
+      {
+        "id": "36kr-3969755353723393",
+        "title": "大模型蒸馏时代结束：Fable 5.1改写API，彻底切断蒸馏后路",
+        "url": "https://36kr.com/p/3969755353723393",
+        "description": "",
+        "source": "36kr",
+        "score": 25941,
+        "comments": 0,
+        "author": "",
+        "time": "2026-09-05T01:13:01.211000+00:00",
+        "tags": [
+          "36kr",
+          "api",
+          "大模型"
+        ],
+        "first_seen": "2026-09-05",
+        "summary_zh": "36氪的一篇报道称，Fable 5.1 通过改写 API 来阻止输出被用于“大模型蒸馏”，文章据此宣告蒸馏时代结束。如果属实，依赖拿大模型输出训练更小模型的做法会失去一条主要通道。报道没有展开具体技术机制，更像是对这种 API 策略影响的解读。",
+        "summary_en": "A 36kr article claims that Fable 5.1 rewrites its API to prevent outputs from being used in large-model distillation, declaring the end of the distillation era. If accurate, it would cut off a common route where developers train smaller models on outputs from larger ones. The article doesn't detail the technical mechanism, so its weight is more as an interpretation of an API policy change.",
+        "domain": "36kr.com",
+        "quality_score": 50.2,
+        "related_ids": [
+          "v2ex-3b971931bea2",
+          "v2ex-a65668d481de",
+          "v2ex-92120aa97084",
+          "v2ex-fa543f753d75",
+          "v2ex-289b9818817b"
+        ]
+      },
+      {
+        "id": "zhihu-2077943776237114404",
+        "title": "盖尔·加朵确认 DC 未计划她继续出演神奇女侠，这对于 DC 新电影宇宙意味着什么？",
+        "url": "https://www.zhihu.com/question/2077943776237114404",
+        "description": "",
+        "source": "zhihu",
+        "score": 880000,
+        "comments": 0,
+        "author": "",
+        "time": "2026-09-05T12:00:00+00:00",
+        "tags": [
+          "general-hot",
+          "zhihu"
+        ],
+        "first_seen": "2026-09-05",
+        "summary_zh": "知乎上的一个提问引述了盖尔·加朵的说法：DC 已经没有计划让她继续出演神奇女侠，并邀请网友讨论这说明 DC 新电影宇宙的什么方向。提问本身没有提供解析，重点落在“神奇女侠”这个角色是否会在新宇宙中被重选或直接缺席。适合关注 DC 影视选角和宇宙重启的影迷浏览回答。",
+        "summary_en": "A Zhihu question cites Gal Gadot's confirmation that DC has no plans for her to continue as Wonder Woman, asking what this implies for the new DC movie universe. The question itself offers no analysis; it focuses on whether the character will be recast, dropped, or folded into the reboot in another way. It's a discussion prompt for people following DC film continuity and casting.",
+        "domain": "zhihu.com",
+        "quality_score": 41.1,
+        "related_ids": []
+      },
+      {
+        "id": "ph-1228878",
+        "title": "Compliance by TwelveLabs",
+        "url": "https://www.producthunt.com/r/MYCJI5GMJFP5EN",
+        "description": "Video compliance review powered by rules you control",
+        "source": "producthunt",
+        "score": 252,
+        "comments": 18,
+        "author": "",
+        "time": "2026-09-04T12:00:00+00:00",
+        "tags": [
+          "powered",
+          "producthunt"
+        ],
+        "first_seen": "2026-09-05",
+        "summary_zh": "TwelveLabs 在 Product Hunt 发布了 Compliance，其简介描述为“由你控制的规则驱动的视频合规审查”。这表明审查策略不是由服务商预设的固定模型决定，而是可以由使用者定义。产品页没有提供技术实现细节，但控制权前置这一点，对需要按自身政策审核视频的团队很关键。",
+        "summary_en": "Compliance by TwelveLabs is a Product Hunt release described as video compliance review \"powered by rules you control.\" The emphasis is on user-defined review rules rather than a fixed, vendor-supplied model. No technical details are included, but putting policy control in the user's hands is the standout trait for teams that must conduct video moderation according to their own requirements.",
+        "domain": "producthunt.com",
+        "quality_score": 59.2,
+        "related_ids": [
+          "infoq-kyUdCw0IPHwuIHg2WJCu",
+          "ph-1229726",
+          "gh-monthly-zhaoxuya520-reverse-skill",
+          "gh-daily-Imbad0202-academic-research-skills",
+          "ph-1219033"
+        ]
+      },
+      {
+        "id": "hn-49537553",
+        "title": "Gemini 3.8 Flash and 3.8 Flash Cyber",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+        "description": "",
+        "source": "hackernews",
+        "score": 1154,
+        "comments": 663,
+        "author": "bratao",
+        "time": "2026-09-02T15:12:40+00:00",
+        "tags": [
+          "cyber",
+          "flash",
+          "gemini",
+          "hackernews"
+        ],
+        "first_seen": "2026-09-02",
+        "summary_zh": "该帖子标题为 Gemini 3.8 Flash 与 Gemini 3.8 Flash Cyber，正文只附上 deepmind.google 的模型卡链接，没有具体说明。原文是链接，标题之外的内容不可用，因此无法判断这两个名称所指版本的能力或发布情况。",
+        "summary_en": "This Hacker News post is titled Gemini 3.8 Flash and 3.8 Flash Cyber and contains only a link to a deepmind.google model-card page. The linked page isn't summarized here; details beyond the title aren't available, so we can't confirm what the two names refer to or their capabilities.",
+        "domain": "blog.google",
+        "quality_score": 54.7,
+        "related_ids": [
+          "ph-1239559",
+          "v2ex-102701378140",
+          "hn-49289112",
+          "36kr-3966847977905669",
+          "v2ex-b2c3e9cadbc7"
         ]
       },
       {
@@ -1152,8 +1363,8 @@
         "url": "https://github.com/audacity/audacity/releases/tag/Audacity-4.0.0",
         "description": "",
         "source": "hackernews",
-        "score": 1134,
-        "comments": 261,
+        "score": 1147,
+        "comments": 264,
         "author": "ClydeN",
         "time": "2026-09-03T10:53:08+00:00",
         "tags": [
@@ -1164,101 +1375,8 @@
         "summary_zh": "这则 Hacker News 帖子指向 Audacity 4.0——开源音频编辑器 audacity/audacity 的新版本。帖内仅附了 GitHub 仓库地址，没有发布说明或更新日志，因此 4.0 的具体改动需要查看原链接。",
         "summary_en": "This Hacker News post links to Audacity 4.0, the open-source audio editor hosted at GitHub (audacity/audacity). No changelog or feature details accompany the link; the linked page isn't summarized here, so what changed in this release is not available from the post.",
         "domain": "github.com",
-        "quality_score": 63.3,
+        "quality_score": 47.7,
         "related_ids": []
-      },
-      {
-        "id": "gh-daily-debpalash-VoiceStudio",
-        "title": "debpalash/VoiceStudio",
-        "url": "https://github.com/debpalash/VoiceStudio",
-        "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-        "source": "github_trending",
-        "score": 1345,
-        "comments": 0,
-        "author": "debpalash",
-        "time": "2026-09-04T22:08:38.628437+00:00",
-        "tags": [
-          "creation",
-          "dictation",
-          "elevenlabs",
-          "fully",
-          "github",
-          "transcription",
-          "voice"
-        ],
-        "gh_period": "daily",
-        "first_seen": "2026-09-02",
-        "summary_zh": "VoiceStudio（原 OmniVoice-Studio）是一个开源、完全本地运行的 ElevenLabs 替代方案，把声音克隆、视频配音、听写、转写和有声书制作整合在一起，宣称覆盖 646 种语言，底层聚合了 16 个 TTS 与 11 个 ASR 引擎。本地工作流不需要账号、API key 或订阅，支持 macOS、Windows、Linux 和 Docker。适合在乎音频数据隐私、想完全掌控本地生成流程的开发者。",
-        "summary_en": "VoiceStudio, formerly OmniVoice-Studio, is an open-source and fully local alternative to ElevenLabs that bundles voice cloning, video dubbing, dictation, transcription, and audiobook creation with a claimed 646-language catalogue. It is built on 16 TTS and 11 ASR engines, requires no account or API key for local runs, and supports macOS, Windows, Linux, and Docker. Developers who want full control over voice workloads and data privacy are the target audience.",
-        "domain": "github.com",
-        "quality_score": 40.9,
-        "related_ids": [
-          "ph-1215949",
-          "gh-monthly-AprilNEA-OpenLogi",
-          "ph-1198993",
-          "ph-1202963",
-          "v2ex-4adb90b6891e"
-        ]
-      },
-      {
-        "id": "zhihu-2079099260516184281",
-        "title": "如何评价 GPT-6Astra，是目前智能程度最高的模型吗？",
-        "url": "https://www.zhihu.com/question/2079099260516184281",
-        "description": "",
-        "source": "zhihu",
-        "score": 1350000,
-        "comments": 0,
-        "author": "",
-        "time": "2026-09-04T12:00:00+00:00",
-        "tags": [
-          "astra",
-          "gpt",
-          "zhihu",
-          "模型"
-        ],
-        "first_seen": "2026-09-04",
-        "summary_zh": "这是一个知乎提问，标题在问如何评价 GPT-6Astra，以及它是否是目前智能程度最高的模型。问题本身没有附带描述或回答内容，无法提供更多细节。",
-        "summary_en": "This is a Zhihu question asking how to evaluate GPT-6Astra and whether it's currently the most intelligent AI model. No description or answer content is available, so details beyond the title aren't available.",
-        "domain": "zhihu.com",
-        "quality_score": 41.6,
-        "related_ids": [
-          "hn-49554643",
-          "v2ex-29bec815da66",
-          "36kr-3968346621751812",
-          "36kr-3968299418415362",
-          "36kr-3968652629422337"
-        ]
-      },
-      {
-        "id": "hn-49520022",
-        "title": "AnkiDroid: Google Play no longer allowing Open Collective donation link",
-        "url": "https://github.com/ankidroid/Anki-Android/issues/21656",
-        "description": "",
-        "source": "hackernews",
-        "score": 919,
-        "comments": 280,
-        "author": "hexa555",
-        "time": "2026-09-01T10:11:02+00:00",
-        "tags": [
-          "collective",
-          "github",
-          "google",
-          "hackernews",
-          "longer",
-          "play"
-        ],
-        "first_seen": "2026-09-01",
-        "summary_zh": "Google Play 已不允许 AnkiDroid 在商店页放置 Open Collective 捐赠链接。项目方在公开更新中请求 Google 澄清 IRS 501(c)(6) 免税主体资格是否符合其捐赠政策，并希望读者帮忙传播这个工单。",
-        "summary_en": "Google Play no longer lets AnkiDroid use an Open Collective donation link in its listing. The team posted a public update asking Google whether an IRS 501(c)(6) determination satisfies its tax-exempt donation policy, and requesting readers to share the ticket. This matters for open-source projects relying on third-party funding platforms.",
-        "domain": "github.com",
-        "quality_score": 45.1,
-        "related_ids": [
-          "v2ex-4d167b3b74e6",
-          "hn-49475079",
-          "v2ex-846d8a3a0a24",
-          "v2ex-73b929f98f7f",
-          "hn-49514878"
-        ]
       },
       {
         "id": "gh-daily-affaan-m-ECC",
@@ -1266,10 +1384,10 @@
         "url": "https://github.com/affaan-m/ECC",
         "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
         "source": "github_trending",
-        "score": 1139,
+        "score": 1325,
         "comments": 0,
         "author": "affaan-m",
-        "time": "2026-09-04T22:08:38.628437+00:00",
+        "time": "2026-09-05T21:56:08.189618+00:00",
         "tags": [
           "agent",
           "claude",
@@ -1284,46 +1402,44 @@
         "summary_zh": "GitHub 趋势仓库 ECC 定位为 agent harness 性能优化系统，面向 Claude Code、Codex、Opencode、Cursor 等 AI 编程工具，集成 skills、instincts、memory、security 与 research-first 流程。它为多款编码助手提供统一、可优化的运行环境，适合深度使用 AI 编程工具的开发者。",
         "summary_en": "ECC, a trending GitHub repository, describes itself as an agent harness performance optimization system for AI coding tools including Claude Code, Codex, Opencode, and Cursor. It bundles skills, instincts, memory, security, and a research-first development workflow into a unified, optimizable runtime. Developers who rely on multiple coding agents may find it useful for standardizing and hardening their setups.",
         "domain": "github.com",
-        "quality_score": 40.8,
+        "quality_score": 40.9,
         "related_ids": [
           "gh-monthly-diegosouzapw-OmniRoute",
           "gh-monthly-zhaoxuya520-reverse-skill",
-          "juejin-7637856870833635343",
-          "ph-1222324",
-          "gh-daily-magnitudedev-magnitude"
+          "gh-daily-magnitudedev-magnitude",
+          "gh-daily-ruvnet-ruflo",
+          "juejin-7637856870833635343"
         ]
       },
       {
-        "id": "gh-daily-blader-humanizer",
-        "title": "blader/humanizer",
-        "url": "https://github.com/blader/humanizer",
-        "description": "Agent skill that removes signs of AI-generated writing from text",
-        "source": "github_trending",
-        "score": 1132,
-        "comments": 0,
-        "author": "blader",
-        "time": "2026-09-04T22:08:38.628437+00:00",
+        "id": "hn-49520022",
+        "title": "AnkiDroid: Google Play no longer allowing Open Collective donation link",
+        "url": "https://github.com/ankidroid/Anki-Android/issues/21656",
+        "description": "",
+        "source": "hackernews",
+        "score": 921,
+        "comments": 279,
+        "author": "hexa555",
+        "time": "2026-09-01T10:11:02+00:00",
         "tags": [
-          "agent",
-          "ai",
-          "generated",
+          "collective",
           "github",
-          "removes",
-          "signs",
-          "text"
+          "google",
+          "hackernews",
+          "longer",
+          "play"
         ],
-        "gh_period": "daily",
-        "first_seen": "2026-09-02",
-        "summary_zh": "Humanizer 是一个用 Markdown 写成的 agent skill，能把“AI 味”文本改写得更自然、像人写的，且不改变原意。它利用维基百科 WikiProject AI Cleanup 维护的《Signs of AI writing》中的 35 种模式做多轮改写与校验，不会编造人名、日期、引文等事实；适用于任何支持 skills 的 agent，也可按用户的写作样本调整风格。",
-        "summary_en": "Humanizer is a Markdown-based agent skill that rewrites AI-sounding text to read naturally without changing its meaning. It applies 35 patterns from Wikipedia's 'Signs of AI writing' (maintained by WikiProject AI Cleanup), then checks the draft against those patterns and the original claims, never inventing names, dates, or quotes. Built as plain Markdown, it works with any agent supporting skills and can follow a writing sample for style.",
+        "first_seen": "2026-09-01",
+        "summary_zh": "Google Play 已不允许 AnkiDroid 在商店页放置 Open Collective 捐赠链接。项目方在公开更新中请求 Google 澄清 IRS 501(c)(6) 免税主体资格是否符合其捐赠政策，并希望读者帮忙传播这个工单。",
+        "summary_en": "Google Play no longer lets AnkiDroid use an Open Collective donation link in its listing. The team posted a public update asking Google whether an IRS 501(c)(6) determination satisfies its tax-exempt donation policy, and requesting readers to share the ticket. This matters for open-source projects relying on third-party funding platforms.",
         "domain": "github.com",
-        "quality_score": 40.8,
+        "quality_score": 44.4,
         "related_ids": [
-          "v2ex-29bec815da66",
-          "gh-monthly-tt-a1i-archify",
-          "ph-1225427",
-          "gh-monthly-TencentCloud-TencentDB-Agent-Memory",
-          "v2ex-405bc69e5265"
+          "gh-monthly-public-apis-public-apis",
+          "v2ex-4d167b3b74e6",
+          "v2ex-846d8a3a0a24",
+          "v2ex-ffce4dd4a055",
+          "v2ex-73b929f98f7f"
         ]
       },
       {
@@ -1332,8 +1448,8 @@
         "url": "https://juejin.cn/post/7646256871183024128",
         "description": "如题。 这真的没在开玩笑。 这也是最近不少公司，在大力、甚至全面拥抱 AI 之后所发出的切实吐槽。 一个月前，Uber 的 CTO 曾对外透露，公司自部署 CC 以来，内部有超 9 成的工程师在高频率",
         "source": "juejin",
-        "score": 159,
-        "comments": 154,
+        "score": 162,
+        "comments": 155,
         "author": "",
         "time": "2026-06-02T01:59:56+00:00",
         "tags": [
@@ -1342,17 +1458,17 @@
           "uber",
           "部署"
         ],
-        "first_seen": "2026-08-05",
+        "first_seen": "2026-08-06",
         "summary_zh": "文章吐槽公司全面拥抱 AI 后 token 费用比招员工还贵。文中引用 Uber CTO 的说法：自部署 CC 以来，内部超九成工程师在高频使用，反映出企业 AI 落地中的真实成本焦虑。",
         "summary_en": "The post complains that token costs have become higher than hiring after companies fully embraced AI. It cites Uber's CTO saying that since CC was deployed, over 90% of engineers have been using it at high frequency, highlighting the real cost pressure in enterprise AI adoption.",
         "domain": "juejin.cn",
-        "quality_score": 34.4,
+        "quality_score": 34.6,
         "related_ids": [
+          "v2ex-e88f7ef6cd55",
           "infoq-WGj2Jx0K2sbP3dhUXeC5",
-          "v2ex-518d34bbed3e",
           "v2ex-57e772b022f7",
           "v2ex-8e5562b39a2c",
-          "infoq-rsiiPG7xwQakgyulC88D"
+          "v2ex-352e4ae9b884"
         ]
       },
       {
@@ -1361,8 +1477,8 @@
         "url": "https://danluu.com/zitron/",
         "description": "",
         "source": "hackernews",
-        "score": 871,
-        "comments": 1043,
+        "score": 872,
+        "comments": 1049,
         "author": "jatins",
         "time": "2026-09-01T18:35:15+00:00",
         "tags": [
@@ -1371,195 +1487,154 @@
           "prediction"
         ],
         "first_seen": "2026-09-01",
-        "summary_zh": "这篇文章复盘了最常被引用的 AI 怀疑论者 Ed Zitron 的预测记录，作者自称持中立立场。作者援引自己在 2022 年对 Kurzweil 等未来学家预测的检验——结果与推理大多错误，以及 2015 年对“人类低估 AI 取代工作岗位”的提醒。适合关注 AI 叙事与预测评估的读者。",
-        "summary_en": "This post checks how well Ed Zitron — described as the most widely cited AI skeptic — has predicted AI developments. The author says they are neutral, citing their 2022 review of futurists like Kurzweil (mostly wrong in results and reasoning) and a 2015 warning that AI job displacement was being underestimated. Useful for anyone weighing AI hype and forecast credibility.",
+        "summary_zh": "这篇 Hacker News 文章的作者复盘了艾德·齐特隆（Ed Zitron）历来的 AI 预测是否命中，并先交代自己的中立立场：2022 年曾全面检验过 Kurzweil 等未来学家的预测，认为结论和推理大多不可靠；2015 年起则一直认为人们低估 AI 替代人类工作的能力。作者表示自己的看法很朴素：一件事正在发生，那么声称它永远不可能的人很可能是错的。文章在给出完整结论前被截断，只显示了开头部分。",
+        "summary_en": "This Hacker News piece examines how Ed Zitron, described as the most widely cited AI skeptic, has fared with his predictions. The author discloses a neutral bias: a 2022 review found futurists like Kurzweil generally wrong, while they have argued since 2015 that AI's ability to displace jobs is underestimated. Their stated position is that people saying something happening now is impossible are probably wrong. The full post is visible only through a truncated excerpt.",
         "domain": "danluu.com",
-        "quality_score": 58.0,
+        "quality_score": 56.8,
         "related_ids": [
           "v2ex-8e5562b39a2c",
-          "ph-1212030",
-          "v2ex-5ffeba61feb2",
+          "v2ex-352e4ae9b884",
+          "v2ex-e88f7ef6cd55",
           "ph-1090720",
-          "v2ex-29bec815da66"
+          "ph-1235086"
         ]
       },
       {
-        "id": "36kr-3968346621751812",
-        "title": "8点1氪丨字节跳动被曝获近300亿美元贷款；OpenAI正式发布GPT-6 Astra；英伟达129.3亿美元收购Hugging Face",
-        "url": "https://36kr.com/p/3968346621751812",
+        "id": "36kr-3969804742111746",
+        "title": "9点1氪丨大众汽车宣布全球裁员10万；月之暗面据悉计划今年在香港进行IPO；国家统计局：全国打工人周均工作48.2小时",
+        "url": "https://36kr.com/p/3969804742111746",
         "description": "",
         "source": "36kr",
-        "score": 35989,
+        "score": 17987,
         "comments": 0,
         "author": "",
-        "time": "2026-09-04T00:11:07.969000+00:00",
+        "time": "2026-09-05T00:57:02.276000+00:00",
         "tags": [
           "36kr",
-          "astra",
-          "face",
-          "gpt",
-          "hugging",
-          "openai",
-          "亿美元收购",
-          "收购",
-          "正式发布",
-          "英伟达"
+          "ipo",
+          "小时"
         ],
-        "first_seen": "2026-09-04",
-        "summary_zh": "36氪早报披露三条动态：字节跳动被曝获得近300亿美元贷款，OpenAI正式发布GPT-6 Astra，英伟达以129.3亿美元收购Hugging Face。以上均为标题信息；原文是链接，未提供更多细节，交易与产品详情需要查证。",
-        "summary_en": "The 36Kr morning briefing rounds up three pieces of news: ByteDance is reported to be borrowing nearly $30 billion, OpenAI has officially launched GPT-6 Astra, and Nvidia is acquiring Hugging Face for $12.93 billion. These are headline-level facts; the linked page isn't summarized here, so details beyond the title aren't available.",
+        "first_seen": "2026-09-05",
+        "summary_zh": "36氪热门：9点1氪丨大众汽车宣布全球裁员10万；月之暗面据悉计划今年在香港进行IPO；国家统计局：全国打工人周均工作48.2小时",
+        "summary_en": "Popular on 36Kr: 9点1氪丨大众汽车宣布全球裁员10万；月之暗面据悉计划今年在香港进行IPO；国家统计局：全国打工人周均工作48.2小时",
         "domain": "36kr.com",
-        "quality_score": 54.2,
+        "quality_score": 47.1,
         "related_ids": [
-          "hn-49554643",
-          "v2ex-29bec815da66",
-          "infoq-Z9bIWfsMCIA9yiLUSDvJ",
-          "hn-49458161",
-          "zhihu-2079054472190469850"
+          "36kr-3965576741133577",
+          "36kr-3927280128539015",
+          "infoq-mFDVYdsliuDByQKcWFkh",
+          "zhihu-2073355037305316715",
+          "hn-49540376"
         ]
       },
       {
-        "id": "hn-49517448",
-        "title": "Fastpotify",
-        "url": "https://fastpotify.rocks/",
+        "id": "zhihu-2077824745589028563",
+        "title": "如果人人都可以通过 AI 写代码，程序员还需要存在吗？未来的程序员的工作会是什么？",
+        "url": "https://www.zhihu.com/question/2077824745589028563",
         "description": "",
-        "source": "hackernews",
-        "score": 852,
-        "comments": 565,
-        "author": "nreece",
-        "time": "2026-09-01T02:52:14+00:00",
-        "tags": [
-          "hackernews"
-        ],
-        "first_seen": "2026-09-01",
-        "summary_zh": "Fastpotify 是一个用 Rust 编写的原生 Spotify 客户端，支持 Linux、macOS 和 Windows。页面仅有一句简介，强调速度快；仓库地址、安装方式和性能数据都未提供，原文是链接，未提供更多细节。",
-        "summary_en": "Fastpotify is a native Spotify client written in Rust for Linux, macOS, and Windows; the one-line description highlights speed. The page provides only that one-liner; no repository, install instructions, or benchmark details are included in this source.",
-        "domain": "fastpotify.rocks",
-        "quality_score": 49.1,
-        "related_ids": []
-      },
-      {
-        "id": "36kr-3968820481946116",
-        "title": "早餐羊毛党，终于把酒店薅急眼了",
-        "url": "https://36kr.com/p/3968820481946116",
-        "description": "",
-        "source": "36kr",
-        "score": 35173,
+        "source": "zhihu",
+        "score": 590000,
         "comments": 0,
         "author": "",
-        "time": "2026-09-04T08:36:54.923000+00:00",
-        "tags": [
-          "36kr"
-        ],
-        "first_seen": "2026-09-04",
-        "summary_zh": "这篇文章讲的是“早餐羊毛党”与酒店的冲突：一群专薅规则漏洞的人让酒店不堪其扰，最终把酒店方“薅急眼”。原文是链接，未提供更多细节，具体事件和酒店的反制措施无法展开。",
-        "summary_en": "This piece is about a conflict over hotel breakfast perks: a group of deal-hunters keeps exploiting loopholes so aggressively that hotels are finally fed up and pushing back. The linked page isn't summarized here; details beyond the title aren't available, so the specific incidents or hotel countermeasures are not described.",
-        "domain": "36kr.com",
-        "quality_score": 53.9,
-        "related_ids": []
-      },
-      {
-        "id": "juejin-7673855455463800847",
-        "title": "为什么越来越多人用 Pi ？ - 苏三说技术",
-        "url": "https://juejin.cn/post/7673855455463800847",
-        "description": "前言 最近这段时间，我的技术群几乎被同一个名字刷屏了——Pi。 第一次听说Pi的时候，我以为又是什么新的AI编程工具。 毕竟这个赛道已经挤满了Claude Code、Codex、Cursor……再多一",
-        "source": "juejin",
-        "score": 154,
-        "comments": 30,
-        "author": "",
-        "time": "2026-08-16T06:31:54+00:00",
+        "time": "2026-09-05T12:00:00+00:00",
         "tags": [
           "ai",
-          "claude",
-          "codex",
-          "cursor",
-          "juejin",
-          "前言",
-          "编程"
+          "zhihu",
+          "写代码",
+          "程序员"
         ],
-        "first_seen": "2026-08-17",
-        "summary_zh": "这篇文章解释技术圈为什么越来越多人使用 Pi；作者起初以为它又是新的 AI 编程工具，因为 Claude Code、Codex、Cursor 已挤满赛道。适合想了解 Pi 在编程工具竞争中定位的开发者阅读，具体安装或使用方式需看原文。",
-        "summary_en": "This post explains why Pi is gaining users in dev circles; the author initially assumed it was just another AI coding tool, since Claude Code, Codex, and Cursor already fill the space. Developers wondering how Pi fits into that crowded field will find the reasoning useful, though setup details are in the full article.",
-        "domain": "juejin.cn",
-        "quality_score": 24.9,
+        "first_seen": "2026-09-05",
+        "summary_zh": "这是一个知乎问题，核心议题是：当 AI 让写代码变得人人可及，程序员是否还会被需要，未来的工作形态又将如何演变。该条目前只有标题，问题下的回答和讨论内容未收录，因而无法给出更多具体信息。",
+        "summary_en": "This Zhihu question asks whether programmers will still be needed when AI lets everyone write code, and what their future work might look like. Since the entry includes only the title and no answers or discussion text, the linked page isn't summarized here; details beyond the title aren't available.",
+        "domain": "zhihu.com",
+        "quality_score": 40.7,
         "related_ids": [
-          "juejin-7637856870833635343",
-          "gh-monthly-diegosouzapw-OmniRoute",
-          "ph-1212030",
-          "gh-monthly-zhaoxuya520-reverse-skill",
-          "gh-daily-affaan-m-ECC"
+          "v2ex-352e4ae9b884",
+          "v2ex-3501963b8a71",
+          "v2ex-ef7b8349d340",
+          "v2ex-42e9bf0fc625",
+          "v2ex-cd4bd57a57ff"
         ]
       },
       {
-        "id": "zhihu-2078137132128920326",
-        "title": "罗永浩称「谁做老人傻瓜电视，我免费带货一年」，商业上如何看电视越做越复杂，但想看电视却越来越麻烦？",
-        "url": "https://www.zhihu.com/question/2078137132128920326",
+        "id": "zhihu-2073000502732796104",
+        "title": "特斯拉 Cybercab 或本月投放运营，没方向盘、刹车踏板，无人驾驶车真的准备好了吗？你敢乘坐吗？",
+        "url": "https://www.zhihu.com/question/2073000502732796104",
         "description": "",
         "source": "zhihu",
-        "score": 1170000,
+        "score": 580000,
         "comments": 0,
         "author": "",
-        "time": "2026-09-04T12:00:00+00:00",
+        "time": "2026-09-05T12:00:00+00:00",
         "tags": [
-          "general-hot",
           "zhihu"
         ],
-        "first_seen": "2026-09-04",
-        "summary_zh": "罗永浩称，谁做出适合老人的“傻瓜电视”，他就免费带货一年；这份表态引出商业讨论：电视功能越来越复杂，想看个电视却越来越难。原文是链接，未提供更多细节，他的具体发言场合和讨论正文没有给出。",
-        "summary_en": "Luo Yonghao says he will promote any “foolproof TV for the elderly” for one year free of charge, in a discussion about why modern TVs keep getting more complex while viewing becomes harder. The linked page isn't summarized here; details beyond the title aren't available, so the original comments and business analysis are not included.",
+        "first_seen": "2026-09-03",
+        "summary_zh": "标题称特斯拉 Cybercab 或于本月投放运营，该车没有方向盘和刹车踏板，并追问无人驾驶车是否真的准备好、乘客是否敢乘坐。原文是链接，未提供更多细节。",
+        "summary_en": "The title says Tesla's Cybercab may launch operations this month, featuring no steering wheel or brake pedal, and asks whether driverless cars are truly ready and whether people would be willing to ride in one. The linked page isn't summarized here; details beyond the title aren't available.",
         "domain": "zhihu.com",
-        "quality_score": 41.4,
+        "quality_score": 40.7,
         "related_ids": []
       },
       {
-        "id": "36kr-3968299418415362",
-        "title": "刚刚，GPT-6 Astra降世，AGI测试干到几乎满分",
-        "url": "https://36kr.com/p/3968299418415362",
-        "description": "",
-        "source": "36kr",
-        "score": 31862,
+        "id": "gh-daily-blader-humanizer",
+        "title": "blader/humanizer",
+        "url": "https://github.com/blader/humanizer",
+        "description": "Agent skill that removes signs of AI-generated writing from text",
+        "source": "github_trending",
+        "score": 988,
         "comments": 0,
-        "author": "",
-        "time": "2026-09-04T00:38:15.495000+00:00",
+        "author": "blader",
+        "time": "2026-09-05T21:56:08.189618+00:00",
         "tags": [
-          "36kr",
-          "agi",
-          "astra",
-          "gpt",
-          "刚刚"
+          "agent",
+          "ai",
+          "generated",
+          "github",
+          "removes",
+          "text"
         ],
-        "first_seen": "2026-09-04",
-        "summary_zh": "GPT-6 Astra发布，据称在AGI相关测试中拿到接近满分。这个结果让AGI评测的标准和意义再次成为焦点，但标题没有交代发布方与测试细节；原文是链接，未提供更多细节。",
-        "summary_en": "GPT-6 Astra has arrived, reportedly scoring near-perfect on an AGI benchmark. The headline frames that as a milestone, but it doesn't identify the release party, the exact benchmark, or what the score means in practice. For now, only this headline-level fact is confirmed; the linked page isn't summarized here, so details beyond the title aren't available.",
-        "domain": "36kr.com",
-        "quality_score": 52.6,
+        "gh_period": "daily",
+        "first_seen": "2026-09-02",
+        "summary_zh": "Humanizer 是一个用 Markdown 写成的 agent skill，能把“AI 味”文本改写得更自然、像人写的，且不改变原意。它利用维基百科 WikiProject AI Cleanup 维护的《Signs of AI writing》中的 35 种模式做多轮改写与校验，不会编造人名、日期、引文等事实；适用于任何支持 skills 的 agent，也可按用户的写作样本调整风格。",
+        "summary_en": "Humanizer is a Markdown-based agent skill that rewrites AI-sounding text to read naturally without changing its meaning. It applies 35 patterns from Wikipedia's 'Signs of AI writing' (maintained by WikiProject AI Cleanup), then checks the draft against those patterns and the original claims, never inventing names, dates, or quotes. Built as plain Markdown, it works with any agent supporting skills and can follow a writing sample for style.",
+        "domain": "github.com",
+        "quality_score": 40.7,
         "related_ids": [
-          "36kr-3968319085523209",
-          "hn-49554643",
-          "36kr-3968652629422337",
-          "v2ex-29bec815da66",
-          "zhihu-2079054472190469850"
+          "gh-monthly-tt-a1i-archify",
+          "ph-1225427",
+          "gh-monthly-TencentCloud-TencentDB-Agent-Memory",
+          "v2ex-405bc69e5265",
+          "ph-1136694"
         ]
       },
       {
-        "id": "zhihu-2076754620832135160",
-        "title": "苹果现在才做折叠屏，是来得太晚，还是正好等到了技术成熟？",
-        "url": "https://www.zhihu.com/question/2076754620832135160",
+        "id": "hn-49568506",
+        "title": "Formalizing Fermat's Last Theorem",
+        "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
         "description": "",
-        "source": "zhihu",
-        "score": 1030000,
-        "comments": 0,
-        "author": "",
-        "time": "2026-09-04T12:00:00+00:00",
+        "source": "hackernews",
+        "score": 733,
+        "comments": 475,
+        "author": "jlebar",
+        "time": "2026-09-04T18:42:56+00:00",
         "tags": [
-          "zhihu"
+          "fermat",
+          "hackernews",
+          "theorem"
         ],
         "first_seen": "2026-09-04",
-        "summary_zh": "该话题关注苹果折叠屏的入场时机：现在做是太晚，还是技术成熟时点刚刚好？目前可确认的只有标题，原文是链接，未提供更多细节，产品形态与发布时间线均无法展开。",
-        "summary_en": "This discussion asks whether Apple's entry into foldables is too late or just in time as display technology matures. The question hinges on timing versus technical readiness, but only the headline is available. The linked page isn't summarized here, so details beyond the title—such as the specific device, display design, or release timeline—aren't available.",
-        "domain": "zhihu.com",
-        "quality_score": 41.3,
-        "related_ids": []
+        "summary_zh": "这条 Hacker News 帖子的标题是“Formalizing Fermat's Last Theorem”，链接指向 xenaproject.wordpress.com 上的一篇文章，URL 显示发表日期为 2026 年 9 月 4 日。条目没有附带正文或摘录，因此文章的具体方法与验证进展无法从本条获知。",
+        "summary_en": "This Hacker News submission is titled 'Formalizing Fermat's Last Theorem' and links out to a Xena Project blog post; the URL path indicates a publication date of September 4, 2026. The Hacker News item itself does not include an excerpt or the actual article text. The linked page isn't summarized here; details beyond the title and URL aren't available.",
+        "domain": "anthropic.com",
+        "quality_score": 59.8,
+        "related_ids": [
+          "hn-49568697",
+          "hn-49570133",
+          "hn-49203626",
+          "hn-49476143",
+          "hn-49377196"
+        ]
       },
       {
         "id": "hn-49535752",
@@ -1581,89 +1656,143 @@
         "summary_zh": "corbet 在 LWN 发文宣布，订阅价格将从 9 月 15 日起上调。文章称在线出版业整体处境艰难，但 LWN 在读者支持下表现好于多数同行，并回顾了 2002 年底采用的订阅模式，认为这使其摆脱了依赖广告的商业模式。corbet 强调订阅者是 LWN 能够继续存在的唯一原因，并呼吁尚未订阅的用户现在订阅。",
         "summary_en": "LWN's subscription prices will rise as of September 15, according to a post by corbet. He says the online-publishing industry is broadly struggling but LWN is doing better than most thanks to readers. Corbet credits the subscription model adopted in late 2002 for keeping LWN independent of surveillance-driven advertising and emphasizes that subscribers are the only reason the publication still exists.",
         "domain": "lwn.net",
-        "quality_score": 39.6,
+        "quality_score": 39.1,
         "related_ids": [
           "ph-1214897",
           "gh-monthly-stablyai-orca",
           "hn-49562157",
           "hn-49334960",
-          "gh-daily-AgriciDaniel-claude-obsidian"
+          "ph-1218939"
         ]
       },
       {
-        "id": "zhihu-2078432156339140320",
-        "title": "突然之间破亿，鸿蒙系统和开源鸿蒙为什么发展的如此之快？",
-        "url": "https://www.zhihu.com/question/2078432156339140320",
+        "id": "36kr-3969992945955076",
+        "title": "苹果提前“揭晓”触屏MacBook Pro，我终于能戳同事电脑了",
+        "url": "https://36kr.com/p/3969992945955076",
         "description": "",
-        "source": "zhihu",
-        "score": 870000,
+        "source": "36kr",
+        "score": 14121,
         "comments": 0,
         "author": "",
-        "time": "2026-09-04T12:00:00+00:00",
+        "time": "2026-09-05T04:32:50.621000+00:00",
         "tags": [
-          "zhihu",
-          "开源"
+          "36kr",
+          "macbook",
+          "pro"
         ],
-        "first_seen": "2026-09-04",
-        "summary_zh": "这是一则链接型知乎问答：题面称鸿蒙（HarmonyOS）与开源鸿蒙（OpenHarmony）的某项指标“突然破亿”，并询问两者为何发展得这么快。原文是链接，未提供更多细节。",
-        "summary_en": "A Zhihu question asks why HarmonyOS and OpenHarmony have accelerated so quickly, with the title claiming some count “suddenly exceeded 100 million.” Only that question headline is included in this digest; no source text or answer excerpts are provided. The linked page isn’t summarized here, so details beyond the title aren’t available.",
-        "domain": "zhihu.com",
-        "quality_score": 41.1,
+        "first_seen": "2026-09-05",
+        "summary_zh": "36氪这条资讯的标题称苹果提前揭晓了带触屏的 MacBook Pro，并以“终于能戳同事电脑”的口吻调侃。该条目没有收录正文，除了标题信息外，没有提供产品规格、发布时间或是否官方正式发布等更多细节。",
+        "summary_en": "This 36Kr item reports, per its headline, that Apple has early-revealed a touchscreen MacBook Pro — a development the writer jokes now lets them poke coworkers' screens. The item itself contains only the headline, with no article body included in the feed. Consequently, specs, availability, or official confirmation can't be determined from this entry.",
+        "domain": "36kr.com",
+        "quality_score": 45.6,
         "related_ids": [
-          "v2ex-14ec6550b0de",
-          "v2ex-b961d694d0a0",
-          "v2ex-2c1a7fb91b0b",
-          "v2ex-405bc69e5265",
-          "infoq-SxrNXURUimQf4hL83ybj"
+          "v2ex-01ff66a97aa0",
+          "ph-1216588",
+          "v2ex-729e0b1ac57e",
+          "ph-1227752",
+          "zhihu-2071014727606703118"
         ]
       },
       {
-        "id": "gh-daily-clshortfuse-renodx",
-        "title": "clshortfuse/renodx",
-        "url": "https://github.com/clshortfuse/renodx",
-        "description": "Renovation Engine for DirectX Games",
+        "id": "gh-daily-cathrynlavery-diagram-design",
+        "title": "cathrynlavery/diagram-design",
+        "url": "https://github.com/cathrynlavery/diagram-design",
+        "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
         "source": "github_trending",
-        "score": 759,
+        "score": 852,
         "comments": 0,
-        "author": "clshortfuse",
-        "time": "2026-09-04T22:08:38.628437+00:00",
+        "author": "cathrynlavery",
+        "time": "2026-09-05T21:56:08.189618+00:00",
         "tags": [
-          "github"
+          "claude",
+          "codex",
+          "contained",
+          "diagram",
+          "github",
+          "html",
+          "mermaid",
+          "slop",
+          "svg"
         ],
         "gh_period": "daily",
-        "first_seen": "2026-09-04",
-        "summary_zh": "RenoDX 是面向 DirectX 游戏的 Mod 工具集，目前能替换着色器、注入缓冲、加叠加层、升级交换链与纹理资源，并把用户设置写入磁盘。它借助 ReShade 的插件系统挂钩 DirectX，兼容面广，也省去针对不同版本 exe 打补丁的麻烦。适合做游戏 Mod 或图形调试的开发者。",
-        "summary_en": "RenoDX is a DirectX-game modding toolset that can replace shaders, inject buffers, add overlays, upgrade swapchains and texture resources, and save user settings to disk. It builds on ReShade’s add-on system, so it avoids patching game-version-specific executables and should work across many titles. Modders and graphics developers who want a higher-level hook into DirectX are the target audience.",
+        "first_seen": "2026-08-13",
+        "summary_zh": "面向 Claude Code、Codex、Pi 等 AI 代理，提供 39 种编辑级图表类型，输出自包含 HTML/SVG，不依赖 Mermaid。2.5.10 新增 Sankey、Wardley map、UML class 与 database schema 等十种布局文法；语义模式将行为与布局分离。适合要让 AI 直接产出可交付图表的使用者。",
+        "summary_en": "cathrynlavery/diagram-design is a library of 39 editorial diagram types for Claude Code, Codex, Pi, and other agent-compatible hosts. It generates self-contained HTML + SVG instead of Mermaid, with semantic patterns separating behavior from layout. Version 2.5.10 adds ten layout grammars, including Sankey, Wardley map, UML class, and database schema. Developers who want agent-generated visuals that look finished rather than generic Mermaid output should check it.",
         "domain": "github.com",
-        "quality_score": 40.5,
+        "quality_score": 40.6,
         "related_ids": [
-          "hn-49167448",
-          "gh-monthly-3b1b-manim",
-          "hn-49555712",
-          "hn-49524320",
-          "hn-49540565"
+          "gh-monthly-cathrynlavery-diagram-design",
+          "gh-monthly-tt-a1i-archify",
+          "v2ex-eb12a9a8637d",
+          "v2ex-2cc08481582e",
+          "v2ex-f2c00173f4c7"
         ]
       },
       {
-        "id": "gh-daily-bannedbook-fanqiang",
-        "title": "bannedbook/fanqiang",
-        "url": "https://github.com/bannedbook/fanqiang",
-        "description": "翻墙-科学上网",
+        "id": "gh-daily-anomalyco-opencode",
+        "title": "anomalyco/opencode",
+        "url": "https://github.com/anomalyco/opencode",
+        "description": "The open source coding agent.",
         "source": "github_trending",
-        "score": 735,
+        "score": 725,
         "comments": 0,
-        "author": "bannedbook",
-        "time": "2026-09-04T22:08:38.628437+00:00",
+        "author": "anomalyco",
+        "time": "2026-09-05T21:56:08.189618+00:00",
         "tags": [
-          "github"
+          "agent",
+          "github",
+          "opencode"
         ],
         "gh_period": "daily",
-        "first_seen": "2026-08-09",
-        "summary_zh": "bannedbook/fanqiang 是一个长期维护的「科学上网」资源库，收录了 FQNews 安卓应用、Chrome/Edge/Firefox 一键翻墙包，以及自建 V2ray、Shadowsocks 服务器的简明教程。它主要面向中文用户，适合想快速找到可用工具或自己搭代理的人。",
-        "summary_en": "bannedbook/fanqiang is a GitHub repository that aggregates circumvention tools and tutorials for accessing blocked websites. It includes FQNews for Android, one-click proxy packages for Chrome/Edge/Firefox, and step-by-step guides for running your own V2ray or Shadowsocks server. The project is written mostly in Chinese, targets users who need these tools, and is currently appearing in GitHub trending.",
+        "first_seen": "2026-09-04",
+        "summary_zh": "anomalyco/opencode 是开源 AI 编程代理，README 中自称 The open source coding agent；仓库对应 npm 包 opencode-ai，并附官网与 Discord 链接。它还提供简繁中文等多语言 README，便于中文开发者评估或参与。",
+        "summary_en": "anomalyco/opencode is an open-source AI coding agent whose README describes it as The open source coding agent; the repo links to the npm package opencode-ai, an official site, and a Discord server. It also offers the README in simplified Chinese and other languages for developers who want to evaluate or contribute.",
         "domain": "github.com",
         "quality_score": 40.5,
-        "related_ids": []
+        "related_ids": [
+          "ph-1198993",
+          "hn-49563355",
+          "ph-1222324",
+          "gh-monthly-PrimeIntellect-ai-prime-agent",
+          "gh-monthly-diegosouzapw-OmniRoute"
+        ]
+      },
+      {
+        "id": "gh-daily-magnitudedev-magnitude",
+        "title": "magnitudedev/magnitude",
+        "url": "https://github.com/magnitudedev/magnitude",
+        "description": "Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.",
+        "source": "github_trending",
+        "score": 686,
+        "comments": 0,
+        "author": "magnitudedev",
+        "time": "2026-09-05T21:56:08.189618+00:00",
+        "tags": [
+          "agent",
+          "claude",
+          "cline",
+          "codex",
+          "github",
+          "hermes",
+          "inference",
+          "magnitude",
+          "openclaw",
+          "opencode",
+          "runs"
+        ],
+        "gh_period": "daily",
+        "first_seen": "2026-09-03",
+        "summary_zh": "Magnitude 是开源推理服务，能针对硬件挑选合适的本地模型并接入现有 agent，主打免费、私密、离线运行。它声明兼容 Pi、OpenCode、Hermes、OpenClaw、Codex、Claude Code 等，适合不想换 agent 又要本地推理的开发者。",
+        "summary_en": "Magnitude is an open-source inference server that runs local models matched to your hardware and plugs into the agent you already use; the project promises free, private, offline operation. It lists compatibility with agents such as Pi, OpenCode, Hermes, OpenClaw, Codex, and Claude Code, letting developers keep their current agent while moving model execution locally.",
+        "domain": "github.com",
+        "quality_score": 40.5,
+        "related_ids": [
+          "gh-monthly-diegosouzapw-OmniRoute",
+          "gh-daily-affaan-m-ECC",
+          "ph-1202963",
+          "gh-daily-ruvnet-ruflo",
+          "gh-monthly-cathrynlavery-diagram-design"
+        ]
       },
       {
         "id": "gh-daily-NousResearch-hermes-agent",
@@ -1671,10 +1800,10 @@
         "url": "https://github.com/NousResearch/hermes-agent",
         "description": "The agent that grows with you",
         "source": "github_trending",
-        "score": 721,
+        "score": 573,
         "comments": 0,
         "author": "NousResearch",
-        "time": "2026-09-04T22:08:38.628437+00:00",
+        "time": "2026-09-05T21:56:08.189618+00:00",
         "tags": [
           "agent",
           "github",
@@ -1686,168 +1815,40 @@
         "summary_zh": "Nous Research 开源了 Hermes Agent，一个以“The agent that grows with you”为定位的智能体项目，仓库采用 MIT 许可证并附带桌面版、文档与 Discord 社区。由于 README 以横幅和徽章为主，未提供功能或架构细节，适合想追踪 Nous Research 动态的开发者先关注。",
         "summary_en": "Nous Research has open-sourced Hermes Agent, an agent project positioned with the tagline 'The agent that grows with you.' The repo ships under the MIT license and links to desktop builds, docs, and a Discord community, though the README is mostly banners and badges, so deeper technical details aren't available yet. Developers tracking Nous Research's releases may want to star it and watch for updates.",
         "domain": "github.com",
-        "quality_score": 40.5,
+        "quality_score": 40.4,
         "related_ids": [
           "hn-49563355",
+          "gh-daily-magnitudedev-magnitude",
           "ph-1198993",
           "ph-1202963",
-          "v2ex-289b9818817b",
-          "ph-1237159"
+          "v2ex-289b9818817b"
         ]
       },
       {
-        "id": "gh-daily-fmtlib-fmt",
-        "title": "fmtlib/fmt",
-        "url": "https://github.com/fmtlib/fmt",
-        "description": "A modern formatting library",
-        "source": "github_trending",
-        "score": 681,
-        "comments": 0,
-        "author": "fmtlib",
-        "time": "2026-09-04T22:08:38.628437+00:00",
-        "tags": [
-          "github",
-          "library"
-        ],
-        "gh_period": "daily",
-        "first_seen": "2026-09-02",
-        "summary_zh": "GitHub 趋势榜上的 fmtlib/fmt 仓库自我描述为“现代格式化库”，README 展示了 Linux/macOS/Windows 的 CI，以及 OSS-Fuzz 持续模糊测试和 OpenSSF 最佳实践徽章。格式化库常被当作项目的共享基础依赖，这些质量信号能帮下游开发者快速判断维护是否可靠。",
-        "summary_en": "fmtlib/fmt appears on the GitHub trending list as a “modern formatting library”; its README displays CI for Linux, macOS, and Windows plus OSS-Fuzz and OpenSSF Best Practices badges. Formatting code is often reused as a shared low-level dependency, so these maintenance signals give downstream developers a quick basis for evaluation.",
-        "domain": "github.com",
-        "quality_score": 40.5,
-        "related_ids": [
-          "gh-monthly-firecrawl-pdf-inspector",
-          "gh-daily-K-Dense-AI-scientific-agent-skills",
-          "gh-daily-firecrawl-pdf-inspector",
-          "hn-49510511",
-          "hn-49497741"
-        ]
-      },
-      {
-        "id": "zhihu-2078803707794297197",
-        "title": "华为国行 5G 疑似回归，Mate90 系列入网，为何在此时选择回归？其 5G 回归有何技术突破创新？",
-        "url": "https://www.zhihu.com/question/2078803707794297197",
+        "id": "36kr-3969943690064136",
+        "title": "互联网最古老的恐惧，被 AI 复活了",
+        "url": "https://36kr.com/p/3969943690064136",
         "description": "",
-        "source": "zhihu",
-        "score": 640000,
+        "source": "36kr",
+        "score": 9347,
         "comments": 0,
         "author": "",
-        "time": "2026-09-04T12:00:00+00:00",
+        "time": "2026-09-05T03:22:53.349000+00:00",
         "tags": [
-          "zhihu"
+          "36kr",
+          "ai"
         ],
-        "first_seen": "2026-09-04",
-        "summary_zh": "知乎上有条提问，标题称华为国行版 5G 疑似回归，Mate90 系列已入网；提问者想知道为什么选在此时回归，以及 5G 技术上有哪些突破创新。该条只有标题，原文是链接，未提供更多细节。",
-        "summary_en": "A Zhihu question says Huawei’s Mate90 series has entered China’s network-access registration, which it reads as a likely return of 5G for domestic-market Huawei phones, and asks why now and what technical breakthroughs are behind it. Beyond the headline, the item has no body text: the linked page isn’t summarized here, and details beyond the title aren’t available.",
-        "domain": "zhihu.com",
-        "quality_score": 40.8,
-        "related_ids": []
-      },
-      {
-        "id": "zhihu-2079054472190469850",
-        "title": "如何评价 OpenAI 最新发布的 GPT-6 Astra，并宣称人类进入 AGI 时代？",
-        "url": "https://www.zhihu.com/question/2079054472190469850",
-        "description": "",
-        "source": "zhihu",
-        "score": 630000,
-        "comments": 0,
-        "author": "",
-        "time": "2026-09-04T12:00:00+00:00",
-        "tags": [
-          "agi",
-          "astra",
-          "gpt",
-          "openai",
-          "zhihu"
-        ],
-        "first_seen": "2026-09-04",
-        "summary_zh": "知乎上有个问题请大家评价 OpenAI 最新发布的 GPT-6 Astra，以及“人类进入 AGI 时代”这个说法。该条只有标题，没有正文；原文是链接，未提供更多细节，因此只能基于题面理解。",
-        "summary_en": "A Zhihu question asks readers to evaluate OpenAI’s newly released GPT-6 Astra and the assertion that humanity has entered the AGI era. Since the digest entry carries only that question title, no official release notes, benchmarks, or replies are available; the linked page isn’t summarized here. Details beyond the title aren’t available.",
-        "domain": "zhihu.com",
-        "quality_score": 40.8,
-        "related_ids": [
-          "hn-49554643",
-          "v2ex-29bec815da66",
-          "36kr-3968346621751812",
-          "infoq-mKGb7ZiPRlAiFDZCWK0v",
-          "36kr-3968299418415362"
-        ]
-      },
-      {
-        "id": "zhihu-2078852068052137174",
-        "title": "上海交大内部 PPT 曝光高校 AI 教育困局，课程迭代远落后技术发展，学生反超老师成常态，该怎样破解？",
-        "url": "https://www.zhihu.com/question/2078852068052137174",
-        "description": "",
-        "source": "zhihu",
-        "score": 590000,
-        "comments": 0,
-        "author": "",
-        "time": "2026-09-04T12:00:00+00:00",
-        "tags": [
-          "ai",
-          "ppt",
-          "zhihu"
-        ],
-        "first_seen": "2026-09-03",
-        "summary_zh": "据标题，上海交大一份内部 PPT 曝光了高校 AI 教育困局：课程迭代远落后于技术发展，学生反超老师已成常态。标题还抛出了“如何破解”的疑问；原文是链接，未提供更多细节。",
-        "summary_en": "According to the headline, an internal Shanghai Jiao Tong University presentation highlights a dilemma in university AI education: curricula lag far behind technology, and students surpassing teachers has become common. It also asks how to break the deadlock. The linked page isn't summarized here; details beyond the title aren't available.",
-        "domain": "zhihu.com",
-        "quality_score": 40.7,
+        "first_seen": "2026-09-05",
+        "summary_zh": "本条 36 氪条目只有标题：AI 复活了互联网最古老的恐惧。原文是链接，未提供更多细节，无法确认具体指哪种恐惧或通过什么故事呈现。",
+        "summary_en": "This 36Kr item has only a title saying AI has brought back the internet's oldest fear. The linked page isn't summarized here; details beyond the title aren't available, so the specific fear or the story behind it can't be confirmed.",
+        "domain": "36kr.com",
+        "quality_score": 43.7,
         "related_ids": [
           "v2ex-8e5562b39a2c",
-          "ph-1212030",
-          "v2ex-5ffeba61feb2",
+          "v2ex-352e4ae9b884",
+          "v2ex-e88f7ef6cd55",
           "ph-1090720",
-          "v2ex-29bec815da66"
-        ]
-      },
-      {
-        "id": "zhihu-2079153750703456931",
-        "title": "如何评价 GPT-6 打破孪生素数猜想最新纪录？",
-        "url": "https://www.zhihu.com/question/2079153750703456931",
-        "description": "",
-        "source": "zhihu",
-        "score": 590000,
-        "comments": 0,
-        "author": "",
-        "time": "2026-09-04T12:00:00+00:00",
-        "tags": [
-          "gpt",
-          "zhihu"
-        ],
-        "first_seen": "2026-09-04",
-        "summary_zh": "这是一个知乎问答帖，标题讨论“如何评价 GPT-6 打破孪生素数猜想最新纪录”，但未附带任何正文内容。除标题外没有更多细节，无法判断该说法是真实研究进展还是提问者抛出的讨论话题。",
-        "summary_en": "This Zhihu post asks readers how to evaluate the claim that GPT-6 has broken the latest record in work on the twin prime conjecture. Since the question has no accompanying body text or linked article, the claim itself can’t be verified from this item. The linked page isn't summarized here; details beyond the title aren't available.",
-        "domain": "zhihu.com",
-        "quality_score": 40.7,
-        "related_ids": [
-          "hn-49554643",
-          "36kr-3968319085523209",
-          "v2ex-29bec815da66",
-          "v2ex-912efe14ca5a",
-          "36kr-3968346621751812"
-        ]
-      },
-      {
-        "id": "zhihu-2078521113076830363",
-        "title": "最近内存、存储甚至显卡涨价，一个个都说自己要当等等党，难不成要等到 2040 年么？",
-        "url": "https://www.zhihu.com/question/2078521113076830363",
-        "description": "",
-        "source": "zhihu",
-        "score": 590000,
-        "comments": 0,
-        "author": "",
-        "time": "2026-09-04T12:00:00+00:00",
-        "tags": [
-          "zhihu"
-        ],
-        "first_seen": "2026-09-03",
-        "summary_zh": "这条知乎提问围绕内存、存储乃至显卡涨价展开：不少用户表示要当等等党，发帖人则质疑难道要等到 2040 年才下手。帖子没有附带正文内容，暂无更多背景信息可供总结。",
-        "summary_en": "A Zhihu post notes that RAM, storage, and even graphics cards have recently become more expensive, and many would-be buyers say they’ll wait for prices to drop. The headline rhetorically asks whether that means waiting until 2040. No body text accompanies the question, so no further analysis is available here.",
-        "domain": "zhihu.com",
-        "quality_score": 40.7,
-        "related_ids": [
-          "zhihu-2065533036477915827"
+          "ph-1235086"
         ]
       },
       {
@@ -1856,10 +1857,10 @@
         "url": "https://github.com/anthropics/skills",
         "description": "Public repository for Agent Skills",
         "source": "github_trending",
-        "score": 512,
+        "score": 472,
         "comments": 0,
         "author": "anthropics",
-        "time": "2026-09-04T22:08:38.628437+00:00",
+        "time": "2026-09-05T21:56:08.189618+00:00",
         "tags": [
           "agent",
           "anthropics",
@@ -1871,100 +1872,109 @@
         "summary_zh": "anthropics/skills 是 Anthropic 官方公开仓库，收录了其对 Claude Agent Skills 的参考实现。Skills 是以文件夹形式组织的指令、脚本与资源，Claude 会在执行专业任务时按需动态加载，从而把品牌文档、数据分析等流程固化为可复用能力。",
         "summary_en": "anthropics/skills is Anthropic's public repository containing its implementation of Agent Skills for Claude. Each skill is a folder of instructions, scripts, and resources that Claude loads dynamically to handle specialized, repeatable tasks, from generating on-brand documents to running organization-specific data-analysis workflows. It serves as a reference for developers who want to build custom skills.",
         "domain": "github.com",
-        "quality_score": 40.4,
+        "quality_score": 40.3,
         "related_ids": [
           "hn-49563355",
           "ph-1198993",
           "ph-1202963",
           "v2ex-289b9818817b",
-          "ph-1237159"
+          "gh-monthly-tt-a1i-archify"
         ]
       },
       {
-        "id": "36kr-3968521096000003",
-        "title": "理工科天才的黄金时代",
-        "url": "https://36kr.com/p/3968521096000003",
+        "id": "36kr-3970051115266306",
+        "title": "WorkBuddy 开放生态，腾讯不想被困桌面",
+        "url": "https://36kr.com/p/3970051115266306",
         "description": "",
         "source": "36kr",
-        "score": 13120,
+        "score": 7276,
         "comments": 0,
         "author": "",
-        "time": "2026-09-04T03:28:48.308000+00:00",
-        "tags": [
-          "36kr"
-        ],
-        "first_seen": "2026-09-04",
-        "summary_zh": "这是一篇 36Kr 文章，标题为《理工科天才的黄金时代》，指向理工科拔尖人才正在进入有利时期。该条目没有提供正文或摘要，除标题外未能获取作者的论证过程或具体案例。",
-        "summary_en": "A 36Kr article carries the headline “The Golden Age of STEM Talent,” which implies that people with strong backgrounds in math, engineering, and science are now in an unusually advantageous position. The item provides no body text or description, only the title, so the concrete arguments, examples, and evidence behind the claim cannot be summarized here. Details beyond the title aren't available.",
-        "domain": "36kr.com",
-        "quality_score": 45.2,
-        "related_ids": []
-      },
-      {
-        "id": "36kr-3968586718638336",
-        "title": "豆包手机会泯然众人吗？",
-        "url": "https://36kr.com/p/3968586718638336",
-        "description": "",
-        "source": "36kr",
-        "score": 13012,
-        "comments": 0,
-        "author": "",
-        "time": "2026-09-04T07:04:35.230000+00:00",
-        "tags": [
-          "36kr"
-        ],
-        "first_seen": "2026-09-04",
-        "summary_zh": "这篇 36Kr 文章标题为《豆包手机会泯然众人吗？》，核心问题是豆包（Doubao）手机是否会成为一款平庸的产品。条目没有附带正文，产品定位、配置或市场表现等细节均无法从标题之外获知。",
-        "summary_en": "This 36Kr article asks whether the Doubao phone will fade into the crowd, becoming an unremarkable entrant in a competitive market. Only the headline is provided — no body text accompanies the listing — so there are no specifics on the device’s features, pricing, or early reception. Details beyond the title aren't available.",
-        "domain": "36kr.com",
-        "quality_score": 45.1,
-        "related_ids": []
-      },
-      {
-        "id": "36kr-3967785409140608",
-        "title": "电影院开始卖午休了，你愿意睡电影院还是酒店钟点房？",
-        "url": "https://36kr.com/p/3967785409140608",
-        "description": "",
-        "source": "36kr",
-        "score": 12242,
-        "comments": 0,
-        "author": "",
-        "time": "2026-09-04T01:25:50.915000+00:00",
-        "tags": [
-          "36kr"
-        ],
-        "first_seen": "2026-09-04",
-        "summary_zh": "一些电影院开始把午间闲置场次包装成付费休息时段，与酒店钟点房竞争上班族午休场景。具体价位、适用城市和场次规则均未见披露；原文是链接，未提供更多细节。",
-        "summary_en": "Cinemas are starting to sell midday rest periods, turning idle screening rooms into paid napping spaces that compete with hotel day-use rooms for office workers. The linked page isn't summarized here, so no pricing, city rollout, or scheduling details are available beyond the title.",
-        "domain": "36kr.com",
-        "quality_score": 44.8,
-        "related_ids": []
-      },
-      {
-        "id": "36kr-3968194826376834",
-        "title": "阿里又多了一个Agent赛马",
-        "url": "https://36kr.com/p/3968194826376834",
-        "description": "",
-        "source": "36kr",
-        "score": 11272,
-        "comments": 0,
-        "author": "",
-        "time": "2026-09-04T00:42:36.809000+00:00",
+        "time": "2026-09-05T08:00:20+00:00",
         "tags": [
           "36kr",
-          "agent"
+          "workbuddy"
         ],
-        "first_seen": "2026-09-04",
-        "summary_zh": "阿里巴巴的 Agent 产品线再添一个并行项目，继续用内部赛马方式推进 AI Agent 竞争。具体是哪个团队、面向什么场景、何时上线，原文是链接，均未提供更多细节。",
-        "summary_en": "Alibaba is adding another Agent project to its internal product pipeline, maintaining a horse-race strategy in which multiple initiatives compete. The absence of specifics makes the news mostly a signal that Alibaba is still placing broad bets on agent products rather than converging on a single winner. The linked page isn't summarized here; details beyond the title aren't available.",
+        "first_seen": "2026-09-05",
+        "summary_zh": "本条 36 氪条目只有标题：WorkBuddy 开放生态，腾讯不想被困桌面。原文是链接，未提供更多细节，WorkBuddy 的产品形态、开放策略与腾讯的关联都无从确认。",
+        "summary_en": "This 36Kr item has only a title saying WorkBuddy is opening its ecosystem and that Tencent doesn't want to remain trapped on the desktop. The linked page isn't summarized here; details beyond the title aren't available, so WorkBuddy's product form and its exact relationship to Tencent are unknown.",
         "domain": "36kr.com",
-        "quality_score": 44.4,
+        "quality_score": 42.9,
         "related_ids": [
-          "hn-49563355",
-          "ph-1198993",
-          "ph-1202963",
-          "v2ex-289b9818817b",
-          "ph-1237159"
+          "infoq-vogOaCpOeNfe0hjAXfzy",
+          "v2ex-6fa59a94bbee",
+          "infoq-SxrNXURUimQf4hL83ybj",
+          "infoq-kSqvyjVIwTvXsumYgRtf",
+          "v2ex-c31211c38bed"
+        ]
+      },
+      {
+        "id": "36kr-3969787100770825",
+        "title": "大声造车的追觅，只撑了一年",
+        "url": "https://36kr.com/p/3969787100770825",
+        "description": "",
+        "source": "36kr",
+        "score": 6814,
+        "comments": 0,
+        "author": "",
+        "time": "2026-09-05T01:10:38.576000+00:00",
+        "tags": [
+          "36kr"
+        ],
+        "first_seen": "2026-09-05",
+        "summary_zh": "本条 36 氪条目只有标题：高调造车的追觅只撑了一年。原文是链接，未提供更多细节，无法确认造车项目为何这么快止步、后续如何安排。",
+        "summary_en": "This 36Kr item has only a title saying Dreame's high-profile push into car-making lasted just one year. The linked page isn't summarized here; details beyond the title aren't available, so what happened and why the effort stalled can't be verified.",
+        "domain": "36kr.com",
+        "quality_score": 42.7,
+        "related_ids": []
+      },
+      {
+        "id": "gh-daily-humanlayer-skills",
+        "title": "humanlayer/skills",
+        "url": "https://github.com/humanlayer/skills",
+        "description": "",
+        "source": "github_trending",
+        "score": 408,
+        "comments": 0,
+        "author": "humanlayer",
+        "time": "2026-09-05T21:56:08.189618+00:00",
+        "tags": [
+          "github"
+        ],
+        "gh_period": "daily",
+        "first_seen": "2026-09-05",
+        "summary_zh": "HumanLayer 为 Claude Code 发布了一组 skills，可通过 `npx skills add humanlayer/skills --skill <名称>` 安装。improve-claude-md 用 `<important if>` 块提升 CLAUDE.md 的指令遵循度，narrow-react-prop-types 则把组件 props 收窄到真实代码路径而不是 Storybook/测试 mock。适合想让 Claude 在仓库内更贴合已有约定的团队。",
+        "summary_en": "humanlayer/skills is a collection of Claude Code skills from HumanLayer, installed with `npx skills add humanlayer/skills --skill <name>`. Included skills rewrite CLAUDE.md using `<important if>` blocks for better instruction adherence (improve-claude-md) and narrow React component props to match real code paths instead of Storybook-only or mock states. Teams using Claude Code can standardize agent behavior and reduce prompt drift.",
+        "domain": "github.com",
+        "quality_score": 40.3,
+        "related_ids": []
+      },
+      {
+        "id": "36kr-3969914762670601",
+        "title": "字节拿到296亿美元“弹药”：大厂集体为AI找钱，还能烧多久，谁先扛不住？",
+        "url": "https://36kr.com/p/3969914762670601",
+        "description": "",
+        "source": "36kr",
+        "score": 6044,
+        "comments": 0,
+        "author": "",
+        "time": "2026-09-05T04:34:30.721000+00:00",
+        "tags": [
+          "36kr",
+          "ai",
+          "亿美元"
+        ],
+        "first_seen": "2026-09-05",
+        "summary_zh": "该条只有标题：字节跳动拿到 296 亿美元“弹药”，大厂集体为 AI 找钱，并讨论还能烧多久、谁先扛不住。原文未提供正文，无法确认资金形式、用途与各家承受力等细节。",
+        "summary_en": "According to the headline, ByteDance has secured $29.6 billion in “ammunition” while big tech players raise money for AI, with the question being how long they can keep burning cash and who will break first. The linked page isn't summarized here; details beyond the title aren't available.",
+        "domain": "36kr.com",
+        "quality_score": 42.4,
+        "related_ids": [
+          "v2ex-8e5562b39a2c",
+          "v2ex-352e4ae9b884",
+          "v2ex-e88f7ef6cd55",
+          "ph-1090720",
+          "ph-1235086"
         ]
       },
       {
@@ -1988,41 +1998,35 @@
         "domain": "juejin.cn",
         "quality_score": 18.1,
         "related_ids": [
-          "v2ex-4291236a1424",
           "infoq-6Jc130IN2OaXqsPDIzmJ",
+          "v2ex-4291236a1424",
           "v2ex-55559dd136f2",
           "v2ex-b2c3e9cadbc7",
           "juejin-7673390412729614390"
         ]
       },
       {
-        "id": "36kr-3968652629422337",
-        "title": "刚刚，全球最强GPT-6 Astra来了，人类进入AGI时代",
-        "url": "https://36kr.com/p/3968652629422337",
+        "id": "36kr-3969913513341185",
+        "title": "HBM，生变",
+        "url": "https://36kr.com/p/3969913513341185",
         "description": "",
         "source": "36kr",
-        "score": 10741,
+        "score": 5567,
         "comments": 0,
         "author": "",
-        "time": "2026-09-04T07:30:52.683000+00:00",
+        "time": "2026-09-05T03:53:56.095000+00:00",
         "tags": [
           "36kr",
-          "agi",
-          "astra",
-          "gpt",
-          "刚刚"
+          "hbm"
         ],
-        "first_seen": "2026-09-04",
-        "summary_zh": "这篇报道将 GPT-6 Astra 称为当前全球最强模型，并把发布时点描述为人类进入 AGI 时代的开端。目前只能看到标题层面的判断，原文是链接，未披露参数规模、评测基准或产品开放范围。",
-        "summary_en": "A new report announces GPT-6 Astra as the world's strongest model and frames its release as the start of the AGI era. The piece makes a huge claim, but the indexed item contains no benchmark results, parameter counts, or access details. The linked page isn't summarized here; details beyond the title aren't available.",
+        "first_seen": "2026-09-05",
+        "summary_zh": "这是一条以“HBM，生变”为标题的资讯，指向高带宽内存领域可能发生的变化，但标题本身未说明具体变动方向。原文是链接，未提供更多细节，因此除标题外无法进一步概括内容。",
+        "summary_en": "This item is headlined “HBM, changing,” suggesting some shift involving high-bandwidth memory, but the article itself isn't included here. The linked page isn't summarized here; details beyond the title aren't available.",
         "domain": "36kr.com",
-        "quality_score": 44.2,
+        "quality_score": 42.2,
         "related_ids": [
-          "36kr-3968319085523209",
-          "36kr-3968299418415362",
-          "hn-49554643",
-          "v2ex-29bec815da66",
-          "zhihu-2079054472190469850"
+          "infoq-sQW5F63ZP4QMyhlWAzQi",
+          "hn-49420781"
         ]
       },
       {
@@ -2048,37 +2052,42 @@
         "quality_score": 18.3,
         "related_ids": [
           "v2ex-8e5562b39a2c",
-          "ph-1212030",
-          "v2ex-5ffeba61feb2",
+          "v2ex-352e4ae9b884",
+          "v2ex-e88f7ef6cd55",
           "ph-1090720",
-          "v2ex-29bec815da66"
+          "ph-1235086"
         ]
       },
       {
-        "id": "36kr-3968662434410753",
-        "title": "全球最成功的AI硬件公司上市了，一年卖出360万枚AI戒指，32%毛利来自订阅",
-        "url": "https://36kr.com/p/3968662434410753",
-        "description": "",
-        "source": "36kr",
-        "score": 10009,
-        "comments": 0,
+        "id": "juejin-7678529068804554787",
+        "title": "🚀苹果的液态玻璃咋做？🚀",
+        "url": "https://juejin.cn/post/7678529068804554787",
+        "description": "先看看现有方案。 大佬实现的：https://github.com/iyinchao/liquid-glass-studio 效果非常牛逼，但是目前只能渲染图片对于html却无能为力。 svg版本：h",
+        "source": "juejin",
+        "score": 35,
+        "comments": 8,
         "author": "",
-        "time": "2026-09-04T07:32:22.279000+00:00",
+        "time": "2026-08-28T03:09:02+00:00",
         "tags": [
-          "36kr",
-          "ai"
+          "github",
+          "html",
+          "https",
+          "juejin",
+          "studio",
+          "svg",
+          "版本"
         ],
-        "first_seen": "2026-09-04",
-        "summary_zh": "一家做 AI 戒指的硬件公司近日上市，过去一年卖出 360 万枚戒指，约 32% 毛利来自订阅服务。这篇报道称其为全球最成功的 AI 硬件公司，但原文是链接，未提供公司名和更多财务数据。",
-        "summary_en": "An AI-ring maker has gone public after selling 3.6 million rings in a year, with subscriptions contributing about 32% of gross margin. It is described as the world's most successful AI-hardware company in the write-up. No company name or valuation figures appear in the summarized item; the linked page isn't summarized here, and details beyond the title aren't available.",
-        "domain": "36kr.com",
-        "quality_score": 43.9,
+        "first_seen": "2026-09-01",
+        "summary_zh": "帖子讨论如何实现“苹果风”的液态玻璃视觉效果，并盘点现有方案：GitHub 仓库 iyinchao/liquid-glass-studio 已能渲染效果，但目前只支持图片、不支持 HTML；提到的 SVG 版本在提供的摘要处截断。",
+        "summary_en": "A post about recreating Apple-style liquid glass reviews existing approaches. The GitHub repository iyinchao/liquid-glass-studio renders the effect convincingly, but only as images—HTML isn't supported yet; a SVG version is mentioned before the supplied text cuts off. Helpful for front-end developers experimenting with fluid glass-like UI visuals.",
+        "domain": "juejin.cn",
+        "quality_score": 17.4,
         "related_ids": [
-          "v2ex-8e5562b39a2c",
-          "ph-1212030",
-          "v2ex-5ffeba61feb2",
-          "ph-1090720",
-          "v2ex-29bec815da66"
+          "gh-monthly-cathrynlavery-diagram-design",
+          "gh-daily-cathrynlavery-diagram-design",
+          "v2ex-0e08fc38d136",
+          "gh-monthly-tt-a1i-archify",
+          "hn-49330597"
         ]
       },
       {
@@ -2092,14 +2101,16 @@
         "author": "",
         "time": "2026-08-05T10:35:53+00:00",
         "tags": [
-          "juejin"
+          "juejin",
+          "聊聊"
         ],
         "first_seen": "2026-08-26",
         "summary_zh": "一篇在技术社区流传的帖子中，hvv 员工家属称其丈夫 2022 年入职、仍是普通员工，没有外界想象的高薪和奖金，至今尚未配股，积蓄有限，工作强度却很大。帖子下聚集了大量讨论，很多同行留言吐槽，甚至比惨。",
         "summary_en": "A spouse of an hvv employee posted on a developer community saying her husband joined in 2022 as a regular employee: he is wrongly assumed to earn a fat salary and big bonus, but has no equity grant yet, little savings, and a demanding job. Many commenters shared their own bad experiences and joined a misery contest. The post became a lens on how outsiders misread compensation at hvv, not a verified data point.",
         "domain": "juejin.cn",
-        "quality_score": 17.3,
+        "quality_score": 12.3,
         "related_ids": [
+          "juejin-7681223706187153443",
           "juejin-7674686524115353650",
           "juejin-7667204879517941811"
         ]
@@ -2110,7 +2121,7 @@
         "url": "https://juejin.cn/post/7639012204877660206",
         "description": "Codex + GPT-5.5 + DeepSeek V4 项目实战保姆级教程！手把手带你用 AI 编程开发一个 AI 搜索引擎，从 Tavily Search 联网搜索到 LangChain",
         "source": "juejin",
-        "score": 29,
+        "score": 30,
         "comments": 1,
         "author": "",
         "time": "2026-05-13T02:20:19+00:00",
@@ -2128,7 +2139,7 @@
         "summary_zh": "一篇 AI 编程实战教程，演示用 Codex、GPT-5.5 和 DeepSeek V4 开发 AI 搜索引擎，并称约 1 小时完成，标题宣扬“再见百度”。内容从 Tavily Search 联网搜索写到 LangChain 相关阶段，提供的文本在该处截断。适合想看 AI 如何协作搭建完整应用的人。",
         "summary_en": "A hands-on AI-coding tutorial demonstrates building an AI search engine with Codex, GPT-5.5, and DeepSeek V4 in about an hour; the title frames it as a replacement for Baidu. It covers the flow from Tavily Search web search into LangChain-related steps, where the provided excerpt ends. Useful for developers who want to learn building a complete app with AI assistance.",
         "domain": "juejin.cn",
-        "quality_score": 11.3,
+        "quality_score": 11.4,
         "related_ids": [
           "gh-monthly-diegosouzapw-OmniRoute",
           "juejin-7637856870833635343",
@@ -2143,8 +2154,8 @@
         "url": "https://juejin.cn/post/7680741276414296104",
         "description": "大家好，我是前端小张同学，今天给大家分享一下写AI代码的思路，最近也是天天在用AI写代码，感觉自己手写代码的能力已经下降了很多，不过按照这个节奏AI写代码必定替代人工在各种场景下，话不多说，以我这个最",
         "source": "juejin",
-        "score": 27,
-        "comments": 4,
+        "score": 30,
+        "comments": 5,
         "author": "",
         "time": "2026-09-02T08:56:51+00:00",
         "tags": [
@@ -2159,51 +2170,55 @@
         "summary_zh": "前端开发者“小张同学”结合近期每天用 AI 写代码的体验，分享了一套 AI 全栈开发实践，并坦言手写代码能力已经明显下降。他认为按当前节奏，AI 编写代码会在更多场景替代人工。适合正在搭建 AI 辅助编程流程的开发者参考，也提醒自己别丢掉基本功。",
         "summary_en": "A front-end developer who goes by “小张同学” shares full-stack development practices built around writing code with AI every day. He admits his hand-coding ability has dropped noticeably and argues AI-generated code will keep replacing manual work in more scenarios. The post is useful for developers building AI-assisted workflows and doubles as a warning about foundational-skills atrophy.",
         "domain": "juejin.cn",
-        "quality_score": 26.6,
+        "quality_score": 26.8,
         "related_ids": [
           "v2ex-e955e25d7dc4",
+          "zhihu-2077824745589028563",
           "v2ex-0e6fcf4438fd",
-          "v2ex-062e65c47ec4",
           "v2ex-6cdf7c7bdf6b",
           "v2ex-8e5562b39a2c"
         ]
       },
       {
-        "id": "juejin-7680074643861291034",
-        "title": "OpenJDK 全面禁止 AI 生成代码！",
-        "url": "https://juejin.cn/post/7680074643861291034",
-        "description": "文章的开头，咱们先来一个小问卷调查吧。 不知道咱们这里有多少小伙伴还在做 Java 开发的？ 最近 Java 圈子里出了一件事情被大家讨论得蛮多的，相信不少同学也都看到了。 那就是 Oracle 针对",
+        "id": "juejin-7646305182667784243",
+        "title": "我一个前端仔，居然用 Python 搞起了 AI？从零到一，撸了个 AI 聊天框小 demo",
+        "url": "https://juejin.cn/post/7646305182667784243",
+        "description": "作为一个平时跟 React、Vue 打交道的前端人，谁能想到某天我会抱着 Python 文件抓耳挠腮？起因很简单 —— 我想搞个属于自己的极简 AI 聊天框，不用复杂的前端框架，不用写 HTML",
         "source": "juejin",
-        "score": 25,
-        "comments": 13,
+        "score": 24,
+        "comments": 4,
         "author": "",
-        "time": "2026-09-01T01:21:43+00:00",
+        "time": "2026-06-02T08:14:36+00:00",
         "tags": [
           "ai",
-          "java",
+          "demo",
+          "html",
           "juejin",
-          "openjdk",
-          "oracle"
+          "python",
+          "react",
+          "vue",
+          "前端",
+          "框架"
         ],
-        "first_seen": "2026-09-01",
-        "summary_zh": "文章讨论 OpenJDK 全面禁止 AI 生成代码这一争议。作者先用 Java 开发者问卷调查引出 Java 圈热议，并提到 Oracle 的针对性动作；可见片段没有展开具体禁用范围和执行细节。适合 Java 开发者关注上游治理变化，同时引发对开源项目如何界定 AI 贡献的思考。",
-        "summary_en": "The article discusses the controversial move to ban AI-generated code across the OpenJDK project. It opens with a short poll for Java developers and notes that this topic has triggered widespread discussion in the Java community; Oracle's related actions are referenced, but the visible excerpt cuts off before detailing enforcement. Java developers tracking OpenJDK governance will find this relevant, as it touches on how open-source projects should treat AI contributions.",
+        "first_seen": "2026-08-29",
+        "summary_zh": "一位日常使用 React、Vue 的前端开发者，记录了自己用 Python 从零写出一个极简 AI 聊天框 demo 的过程；这次实现没有写 HTML，也没有引入复杂前端框架。对想低成本接触 AI、又不想重构前端技术栈的开发者来说，这是一次很轻量的跨界示范。",
+        "summary_en": "A frontend developer who primarily works in React and Vue shares how they built a minimal AI chatbox demo from scratch in Python, without writing HTML or pulling in a heavy frontend framework. It's a lightweight cross-stack reference for developers who want to touch AI without rebuilding their frontend setup.",
         "domain": "juejin.cn",
-        "quality_score": 27.5,
+        "quality_score": 11.5,
         "related_ids": [
-          "v2ex-405bc69e5265",
-          "infoq-el0IBcWagf1hxccJYUUP",
-          "v2ex-8e5562b39a2c",
-          "ph-1212030",
-          "v2ex-5ffeba61feb2"
+          "v2ex-8bd27c31f1a7",
+          "juejin-7681252693901885478",
+          "gh-monthly-abi-screenshot-to-code",
+          "gh-daily-abi-screenshot-to-code",
+          "v2ex-6cdf7c7bdf6b"
         ]
       }
     ],
     "count": 80
   },
   "monthly": {
-    "start": "2026-08-05",
-    "end": "2026-09-04",
+    "start": "2026-08-06",
+    "end": "2026-09-05",
     "items": [
       {
         "id": "zhihu-2071014727606703118",
@@ -2237,7 +2252,9 @@
         "tags": [],
         "first_seen": "2026-09-04",
         "summary_zh": "这篇标题宣称 GPT-6 震撼发布，并称人类进入「AGI 大分工时代」，但正文为空，原文是链接，未提供更多细节。除标题外，没有发布方、能力或验证信息可总结，因此只能将这视为一个无法核实的发布说法。",
-        "summary_en": "A headline claims 'GPT-6 震撼发布' and says humanity is entering an 'AGI division-of-labor era.' The linked page isn't summarized here; details beyond the title aren't available, so there is no verifiable information about the announcement, capability, or vendor."
+        "summary_en": "A headline claims 'GPT-6 震撼发布' and says humanity is entering an 'AGI division-of-labor era.' The linked page isn't summarized here; details beyond the title aren't available, so there is no verifiable information about the announcement, capability, or vendor.",
+        "domain": "36kr.com",
+        "quality_score": 75.0
       },
       {
         "id": "gh-monthly-mattpocock-skills",
@@ -2280,8 +2297,8 @@
         "url": "https://openai.com/index/gpt-6-astra/",
         "description": "",
         "source": "hackernews",
-        "score": 2138,
-        "comments": 1946,
+        "score": 2216,
+        "comments": 2031,
         "author": "kibae",
         "time": "2026-09-03T18:41:05+00:00",
         "tags": [],
@@ -2307,23 +2324,6 @@
         "summary_en": "Astute is a Product Hunt listing for a service that automates B2B brand virality with new media creators. That one-line pitch is all the listing provides; the linked page isn't summarized here, and details beyond the title and pitch aren't available. Check the original Product Hunt page.",
         "domain": "producthunt.com",
         "quality_score": 72.2
-      },
-      {
-        "id": "v2ex-dd21facf288a",
-        "title": "[问与答] AI 编程都这么卷了嘛，都出了新范式 SDD+TDD？",
-        "url": "https://www.v2ex.com/t/1232352#reply3",
-        "description": "",
-        "source": "v2ex",
-        "score": 300,
-        "comments": 0,
-        "author": "",
-        "time": "2026-08-06T01:12:45+00:00",
-        "tags": [],
-        "first_seen": "2026-08-06",
-        "summary_zh": "V2EX 上出现问答帖，讨论 AI 编程竞争激烈，是否已经催生 SDD+TDD 这样的新范式。原文是链接，未提供更多细节。",
-        "summary_en": "A V2EX Q&A post asks whether AI coding has become so competitive that a new SDD+TDD paradigm has emerged. The linked page isn't summarized here; details beyond the title aren't available.",
-        "domain": "v2ex.com",
-        "quality_score": 75.0
       },
       {
         "id": "v2ex-15a66ac41786",
@@ -2479,6 +2479,23 @@
         "quality_score": 75.0
       },
       {
+        "id": "v2ex-64477bf43e3c",
+        "title": "[职场话题] 离职、换公司、转入临近赛道！",
+        "url": "https://www.v2ex.com/t/1235737#reply0",
+        "description": "",
+        "source": "v2ex",
+        "score": 300,
+        "comments": 0,
+        "author": "",
+        "time": "2026-08-19T19:19:03+00:00",
+        "tags": [],
+        "first_seen": "2026-08-19",
+        "summary_zh": "这是一条 V2EX 职场话题帖，主题是发帖人离职、换公司并转入临近赛道。原帖的具体经历、动机和讨论内容未被收录；除标题外，本文不提供更多细节。",
+        "summary_en": "This is a V2EX workplace-discussion thread in which the author says they quit their job, switched companies, and moved into an adjacent career track. The full post and its details aren't included here; the linked page isn't summarized and details beyond the title aren't available.",
+        "domain": "v2ex.com",
+        "quality_score": 75.0
+      },
+      {
         "id": "juejin-7673855455463800847",
         "title": "为什么越来越多人用 Pi ？ - 苏三说技术",
         "url": "https://juejin.cn/post/7673855455463800847",
@@ -2493,7 +2510,9 @@
         ],
         "first_seen": "2026-08-17",
         "summary_zh": "这篇文章解释技术圈为什么越来越多人使用 Pi；作者起初以为它又是新的 AI 编程工具，因为 Claude Code、Codex、Cursor 已挤满赛道。适合想了解 Pi 在编程工具竞争中定位的开发者阅读，具体安装或使用方式需看原文。",
-        "summary_en": "This post explains why Pi is gaining users in dev circles; the author initially assumed it was just another AI coding tool, since Claude Code, Codex, and Cursor already fill the space. Developers wondering how Pi fits into that crowded field will find the reasoning useful, though setup details are in the full article."
+        "summary_en": "This post explains why Pi is gaining users in dev circles; the author initially assumed it was just another AI coding tool, since Claude Code, Codex, and Cursor already fill the space. Developers wondering how Pi fits into that crowded field will find the reasoning useful, though setup details are in the full article.",
+        "domain": "juejin.cn",
+        "quality_score": 24.9
       },
       {
         "id": "hn-49550772",
@@ -2501,8 +2520,8 @@
         "url": "https://neil.fraser.name/news/2026/09/03/",
         "description": "",
         "source": "hackernews",
-        "score": 2135,
-        "comments": 528,
+        "score": 2190,
+        "comments": 536,
         "author": "pavel_lishin",
         "time": "2026-09-03T14:54:39+00:00",
         "tags": [],
@@ -2542,7 +2561,9 @@
         ],
         "first_seen": "2026-09-02",
         "summary_zh": "Kilo Code for JetBrains 是一个为 JetBrains IDE 打造的原生、开源编码 Agent。它直接内嵌在开发者熟悉的 IDE 环境里，适合希望保留 JetBrains 工作流、同时引入开源 AI 编程助手的用户。",
-        "summary_en": "Kilo Code for JetBrains is a fully native, open-source coding agent built specifically for JetBrains IDEs, rather than a web-based or external plugin tool. Because it runs inside the IDE, developers can get AI-agent assistance while staying in the editor they already use. It is aimed at JetBrains users who want the flexibility of an open-source coding agent in their existing toolchain."
+        "summary_en": "Kilo Code for JetBrains is a fully native, open-source coding agent built specifically for JetBrains IDEs, rather than a web-based or external plugin tool. Because it runs inside the IDE, developers can get AI-agent assistance while staying in the editor they already use. It is aimed at JetBrains users who want the flexibility of an open-source coding agent in their existing toolchain.",
+        "domain": "producthunt.com",
+        "quality_score": 76.8
       },
       {
         "id": "ph-1202963",
@@ -2619,23 +2640,6 @@
         "quality_score": 62.3
       },
       {
-        "id": "hn-49458161",
-        "title": "Nvidia agrees to acquire Hugging Face for $13B",
-        "url": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
-        "description": "",
-        "source": "hackernews",
-        "score": 1981,
-        "comments": 922,
-        "author": "mfiguiere",
-        "time": "2026-08-27T01:12:55+00:00",
-        "tags": [],
-        "first_seen": "2026-08-28",
-        "summary_zh": "Hugging Face 将被 Nvidia 以 130 亿美元收购，交易完成后这家公司将收归 Nvidia 旗下。原文是链接，未提供更多细节，具体条款和完成时间都无从确认。",
-        "summary_en": "Nvidia has agreed to acquire Hugging Face for $13 billion, according to the Hacker News headline. The linked page isn't summarized here; details beyond the title aren't available, so the exact terms and expected closing remain unknown.",
-        "domain": "businessinsider.com",
-        "quality_score": 79.2
-      },
-      {
         "id": "ph-1216472",
         "title": "Soloop",
         "url": "https://www.producthunt.com/r/K3YBVXDB7SFOVL",
@@ -2655,6 +2659,21 @@
         "quality_score": 52.9
       },
       {
+        "id": "hn-49563355",
+        "title": "Discovery of a new OpenAI agent message board",
+        "url": "https://collusion.wiki/",
+        "description": "",
+        "source": "hackernews",
+        "score": 2045,
+        "comments": 1494,
+        "author": "moultano",
+        "time": "2026-09-04T11:54:53+00:00",
+        "tags": [],
+        "first_seen": "2026-09-04",
+        "summary_zh": "这是一条 Hacker News 的纯链接帖，标题为“Discovery of a new OpenAI agent message board”，帖内没有正文，原文页面也未在此摘录。目前只能看到标题，无法确认具体内容或背景，需要自行点开链接查看。",
+        "summary_en": "This Hacker News post is a bare link titled “Discovery of a new OpenAI agent message board” with no body text. The linked page isn't summarized here; details beyond the title aren't available."
+      },
+      {
         "id": "infoq-IBYDTeu3rse9tH3549wf",
         "title": "Cloudflare 推出 Agent Tracing：支持截断限制，不同框架的 Payload 默认记录策略存在差异",
         "url": "https://www.infoq.cn/article/IBYDTeu3rse9tH3549wf",
@@ -2672,13 +2691,30 @@
         "quality_score": 57.0
       },
       {
+        "id": "hn-49458161",
+        "title": "Nvidia agrees to acquire Hugging Face for $13B",
+        "url": "https://www.businessinsider.com/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars-2026-8",
+        "description": "",
+        "source": "hackernews",
+        "score": 1981,
+        "comments": 922,
+        "author": "mfiguiere",
+        "time": "2026-08-27T01:12:55+00:00",
+        "tags": [],
+        "first_seen": "2026-08-28",
+        "summary_zh": "Hugging Face 将被 Nvidia 以 130 亿美元收购，交易完成后这家公司将收归 Nvidia 旗下。原文是链接，未提供更多细节，具体条款和完成时间都无从确认。",
+        "summary_en": "Nvidia has agreed to acquire Hugging Face for $13 billion, according to the Hacker News headline. The linked page isn't summarized here; details beyond the title aren't available, so the exact terms and expected closing remain unknown.",
+        "domain": "businessinsider.com",
+        "quality_score": 79.2
+      },
+      {
         "id": "ph-1237159",
         "title": "Monid",
         "url": "https://www.producthunt.com/r/BF4YYRJGDZZ236",
         "description": "OpenRouter for agent tools",
         "source": "producthunt",
-        "score": 469,
-        "comments": 59,
+        "score": 473,
+        "comments": 57,
         "author": "",
         "time": "2026-09-02T12:00:00+00:00",
         "tags": [
@@ -2687,25 +2723,6 @@
         "first_seen": "2026-09-03",
         "summary_zh": "Monid 的公开描述只有一句“OpenRouter for agent tools”，即想为 agent 工具提供统一接入/路由层。目前没有更多正文可提炼，具体能力、定价和上线状态都无法确认。对这一方向感兴趣的开发者，只能先看官方后续资料。",
         "summary_en": "Monid is described only as \"OpenRouter for agent tools,\" suggesting a unified access/routing layer for agent tools. The linked page isn't summarized here; details beyond the title aren't available, so concrete features, pricing, and availability cannot be confirmed from this listing. Developers interested in the agent-tool infrastructure space will need to wait for official details."
-      },
-      {
-        "id": "ph-1215966",
-        "title": "Cloudflare OS",
-        "url": "https://www.producthunt.com/r/VYDPLSA7MSOD7N",
-        "description": "Build the AI operating system for your company",
-        "source": "producthunt",
-        "score": 466,
-        "comments": 4,
-        "author": "",
-        "time": "2026-08-06T12:00:00+00:00",
-        "tags": [
-          "product-hunt"
-        ],
-        "first_seen": "2026-08-07",
-        "summary_zh": "Cloudflare OS 在 Product Hunt 上线，定位为「为你的公司构建 AI 操作系统」，即面向企业的 AI 平台。目前页面只有这句推广语，没有功能、架构或定价信息。企业 AI 方向的开发者可保持关注，待官方补充资料或提供试用后再评估。",
-        "summary_en": "Cloudflare OS appears on Product Hunt with the tagline 'Build the AI operating system for your company.' The listing doesn't provide any other details, such as features, architecture, or availability. Developers focused on enterprise AI infrastructure should keep an eye on it, but hold off until official documentation or a hands-on review appears.",
-        "domain": "producthunt.com",
-        "quality_score": 44.6
       },
       {
         "id": "ph-1217382",
@@ -2763,6 +2780,25 @@
         "quality_score": 48.7
       },
       {
+        "id": "ph-1222691",
+        "title": "Meridian",
+        "url": "https://www.producthunt.com/r/Q3UR7I2PIWKD7D",
+        "description": "Don't let your work go unnoticed. Get promoted!",
+        "source": "producthunt",
+        "score": 452,
+        "comments": 81,
+        "author": "",
+        "time": "2026-08-17T12:00:00+00:00",
+        "tags": [
+          "product-hunt"
+        ],
+        "first_seen": "2026-08-18",
+        "summary_zh": "Meridian 是 Product Hunt 上的一款新品，宣传语为“别让你的工作被忽视，获得晋升”。目前仅有这句介绍，具体功能与运行方式未披露。",
+        "summary_en": "Meridian is a new product on Product Hunt whose tagline says, 'Don't let your work go unnoticed. Get promoted!' No further details about its functionality are available; the entry only offers this tagline.",
+        "domain": "producthunt.com",
+        "quality_score": 52.5
+      },
+      {
         "id": "infoq-YB51rwb95keVmlIZ0xQd",
         "title": "材科源图三个月完成两轮融资，AI全链路闭环加速材料产业化",
         "url": "https://www.infoq.cn/article/YB51rwb95keVmlIZ0xQd",
@@ -2814,23 +2850,6 @@
         "quality_score": 58.7
       },
       {
-        "id": "hn-49303202",
-        "title": "Firefox is now the last major browser that still supports uBlock Origin",
-        "url": "https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html",
-        "description": "",
-        "source": "hackernews",
-        "score": 1730,
-        "comments": 709,
-        "author": "DemiGuru",
-        "time": "2026-08-14T19:03:20+00:00",
-        "tags": [],
-        "first_seen": "2026-08-17",
-        "summary_zh": "Hacker News 上的一则标题称，Firefox 目前是唯一仍支持 uBlock Origin 的主流浏览器。该条只有链接、没有正文，因此除标题外没有更多信息，消息的具体背景和影响尚不明确。",
-        "summary_en": "A Hacker News post claims that Firefox is currently the only major browser that still supports uBlock Origin. The item is just a link; the linked page isn't summarized here, and no details beyond the title are available. This points to a narrowing space for ad-blocking extensions in mainstream browsers, but the background and implications remain unclear.",
-        "domain": "pcworld.com",
-        "quality_score": 60.1
-      },
-      {
         "id": "zhihu-2075969425702741132",
         "title": "西藏日喀则吉隆口岸发生泥石流，致重大人员伤亡失联，有建筑被掩埋，目前情况如何？",
         "url": "https://www.zhihu.com/question/2075969425702741132",
@@ -2868,6 +2887,23 @@
         "quality_score": 53.6
       },
       {
+        "id": "hn-49303202",
+        "title": "Firefox is now the last major browser that still supports uBlock Origin",
+        "url": "https://www.pcworld.com/article/3212428/firefox-is-now-the-last-major-browser-that-still-supports-ublock-origin.html",
+        "description": "",
+        "source": "hackernews",
+        "score": 1730,
+        "comments": 709,
+        "author": "DemiGuru",
+        "time": "2026-08-14T19:03:20+00:00",
+        "tags": [],
+        "first_seen": "2026-08-17",
+        "summary_zh": "Hacker News 上的一则标题称，Firefox 目前是唯一仍支持 uBlock Origin 的主流浏览器。该条只有链接、没有正文，因此除标题外没有更多信息，消息的具体背景和影响尚不明确。",
+        "summary_en": "A Hacker News post claims that Firefox is currently the only major browser that still supports uBlock Origin. The item is just a link; the linked page isn't summarized here, and no details beyond the title are available. This points to a narrowing space for ad-blocking extensions in mainstream browsers, but the background and implications remain unclear.",
+        "domain": "pcworld.com",
+        "quality_score": 60.1
+      },
+      {
         "id": "infoq-OG03ezJaBkdOd1G3rc1b",
         "title": "AWS Lambda 取消代码存储配额，别误会：函数大小限制没变",
         "url": "https://www.infoq.cn/article/OG03ezJaBkdOd1G3rc1b",
@@ -2883,6 +2919,22 @@
         "summary_en": "AWS Lambda has ended its code storage quota, but the maximum size of a single function is unchanged — so the change is not a green light for larger uploads. The exact impact on existing deployments isn't covered in the headline. The linked page isn't summarized here; details beyond the title aren't available.",
         "domain": "infoq.cn",
         "quality_score": 53.5
+      },
+      {
+        "id": "gh-monthly-tt-a1i-archify",
+        "title": "tt-a1i/archify",
+        "url": "https://github.com/tt-a1i/archify",
+        "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+        "source": "github_trending",
+        "score": 38699,
+        "comments": 0,
+        "author": "tt-a1i",
+        "time": "2026-09-05T21:56:08.189618+00:00",
+        "tags": [],
+        "gh_period": "monthly",
+        "first_seen": "2026-08-06",
+        "summary_zh": "archify 是一个面向 AI agent 的技能包，可生成架构、工作流、时序、数据流和生命周期图，并以自带动效、可清晰导出的独立 HTML 形式输出。适合需要让 agent 自动产出可验证图表文档的开发者。",
+        "summary_en": "Archify is an agent skill designed to produce architecture, workflow, sequence, data-flow, and lifecycle diagrams. Its output is self-contained HTML with motion and crisp export, making it easy to embed or share. Developers using AI coding agents will appreciate having verifiable diagram generation built into the toolchain."
       },
       {
         "id": "hn-49379550",
@@ -2953,22 +3005,6 @@
         "quality_score": 59.9
       },
       {
-        "id": "gh-monthly-tt-a1i-archify",
-        "title": "tt-a1i/archify",
-        "url": "https://github.com/tt-a1i/archify",
-        "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
-        "source": "github_trending",
-        "score": 36689,
-        "comments": 0,
-        "author": "tt-a1i",
-        "time": "2026-09-04T22:08:38.628437+00:00",
-        "tags": [],
-        "gh_period": "monthly",
-        "first_seen": "2026-08-05",
-        "summary_zh": "archify 是一个面向 AI agent 的技能包，可生成架构、工作流、时序、数据流和生命周期图，并以自带动效、可清晰导出的独立 HTML 形式输出。适合需要让 agent 自动产出可验证图表文档的开发者。",
-        "summary_en": "Archify is an agent skill designed to produce architecture, workflow, sequence, data-flow, and lifecycle diagrams. Its output is self-contained HTML with motion and crisp export, making it easy to embed or share. Developers using AI coding agents will appreciate having verifiable diagram generation built into the toolchain."
-      },
-      {
         "id": "juejin-7673390412729614390",
         "title": "DeepSeek 昨晚刚开源了 Harness：附万少的2 万字保姆级教程",
         "url": "https://juejin.cn/post/7673390412729614390",
@@ -3020,23 +3056,6 @@
         "summary_en": "This Hacker News post is titled 'Everything I own, owned' and the linked page isn't summarized here; details beyond the title aren't available. Since the entry contains only the link, there isn't more to report about the content.",
         "domain": "schlarp.com",
         "quality_score": 59.2
-      },
-      {
-        "id": "hn-49299605",
-        "title": "Qwen 3.8 27B",
-        "url": "https://huggingface.co/Qwen/Qwen3.8-27B-FP8",
-        "description": "",
-        "source": "hackernews",
-        "score": 1428,
-        "comments": 791,
-        "author": "erdaltoprak",
-        "time": "2026-08-14T15:00:00+00:00",
-        "tags": [],
-        "first_seen": "2026-08-17",
-        "summary_zh": "标题显示这是一个名为 \"Qwen 3.8 27B\" 的条目，具体内容未提供。原文是链接，未给出更多细节。",
-        "summary_en": "This entry is titled \"Qwen 3.8 27B,\" but no description or content was included. The linked page isn't summarized here; details beyond the title aren't available.",
-        "domain": "huggingface.co",
-        "quality_score": 58.1
       },
       {
         "id": "36kr-3955497683991684",
@@ -3095,10 +3114,10 @@
         "url": "https://github.com/cathrynlavery/diagram-design",
         "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
         "source": "github_trending",
-        "score": 27488,
+        "score": 27843,
         "comments": 0,
         "author": "cathrynlavery",
-        "time": "2026-09-04T22:08:38.628437+00:00",
+        "time": "2026-09-05T21:56:08.189618+00:00",
         "tags": [],
         "gh_period": "monthly",
         "first_seen": "2026-09-04",
@@ -3139,6 +3158,21 @@
         "quality_score": 34.0,
         "summary_zh": "stablyai/orca 是一个面向并行 agent 集群的 ADE，官方介绍称可以用自己的订阅运行任意编码 agent，并支持桌面、移动端和 VPS。它试图把多个 agent 的调度、运行集中到一个工具里，适合需要同时跑多个编码任务的开发者。仓库详情不多，具体工作方式需看 README。",
         "summary_en": "stablyai/orca is an ADE (agent development environment) for working with a fleet of parallel agents. According to the description, you can run any coding agent with your own subscription, on desktop, mobile, or a VPS. It's aimed at developers who want a single tool to coordinate multiple coding agents, though the repository listing is light on specifics."
+      },
+      {
+        "id": "36kr-3969755274883328",
+        "title": "刚刚，Claude首次证明费马大定理，清华姚班大神出手了",
+        "url": "https://36kr.com/p/3969755274883328",
+        "description": "",
+        "source": "36kr",
+        "score": 46215,
+        "comments": 0,
+        "author": "",
+        "time": "2026-09-05T01:16:39.820000+00:00",
+        "tags": [],
+        "first_seen": "2026-09-05",
+        "summary_zh": "有消息称，Claude 首次证明了费马大定理，参与者中还有清华姚班背景的研究者。该条仅有标题；原文是链接，未提供更多细节。",
+        "summary_en": "A report claims Claude has proved Fermat's Last Theorem for the first time, with a researcher from Tsinghua's Yao Class involved. The linked page isn't summarized here; details beyond the title aren't available."
       },
       {
         "id": "36kr-3948502822550665",
@@ -3228,23 +3262,6 @@
         "summary_en": "This open-source project is an AI job application framework built on Claude Code, designed to run on your own machine. It automates the full pipeline: evaluating job postings, tailoring CVs, writing cover letters, and prepping for interviews. Since it's forkable, developers can own and customize the workflow to fit their specific job-search needs."
       },
       {
-        "id": "36kr-3966927971325573",
-        "title": "杨植麟即将拿到大结果",
-        "url": "https://36kr.com/p/3966927971325573",
-        "description": "",
-        "source": "36kr",
-        "score": 41718,
-        "comments": 0,
-        "author": "",
-        "time": "2026-09-03T00:42:53.834000+00:00",
-        "tags": [],
-        "first_seen": "2026-09-03",
-        "summary_zh": "标题称杨植麟即将取得一项重大结果，但没有说明具体是什么结果。正文未提供更多信息，无法判断涉及产品、融资还是其他进展。",
-        "summary_en": "The title says Yang Zhilin is about to get a major result, but gives no details about what it is. The linked page isn't summarized here; details beyond the title aren't available.",
-        "domain": "36kr.com",
-        "quality_score": 64.0
-      },
-      {
         "id": "gh-monthly-bojieli-ai-agent-book",
         "title": "bojieli/ai-agent-book",
         "url": "https://github.com/bojieli/ai-agent-book",
@@ -3281,6 +3298,22 @@
         "quality_score": 56.0
       },
       {
+        "id": "gh-monthly-public-apis-public-apis",
+        "title": "public-apis/public-apis",
+        "url": "https://github.com/public-apis/public-apis",
+        "description": "A collective list of free APIs",
+        "source": "github_trending",
+        "score": 21938,
+        "comments": 0,
+        "author": "public-apis",
+        "time": "2026-09-05T21:56:08.189618+00:00",
+        "tags": [],
+        "gh_period": "monthly",
+        "first_seen": "2026-08-28",
+        "summary_zh": "这是一个收集免费公开 API 的 GitHub 仓库，简介将其描述为一份汇总列表。适合需要快速寻找可用接口做原型或集成的开发者，但当前仅有标题和一句简介，仓库的具体类别、规模等细节未知。",
+        "summary_en": "This is a GitHub repository collecting free public APIs, described in its short description as a collective list. It's useful for developers looking for ready-to-use interfaces for prototyping or integration, though only the title and one-line description are available here; details like categories or scope aren't provided."
+      },
+      {
         "id": "gh-monthly-emilkowalski-skills",
         "title": "emilkowalski/skills",
         "url": "https://github.com/emilkowalski/skills",
@@ -3297,24 +3330,6 @@
         "quality_score": 33.2,
         "summary_zh": "这个仓库面向设计师和工程师，但描述只有一句 \"Skills for Designers and Engineers\"，没有列出具体技能。更多细节未在本次摘要中提供，需要查看 GitHub 页面。",
         "summary_en": "A repository called \"skills\" aimed at designers and engineers, but the description is only the single line \"Skills for Designers and Engineers\"—no list of skills or further details. The linked page isn't summarized here; details beyond the title aren't available. Interested readers can check the GitHub repository directly for more information."
-      },
-      {
-        "id": "gh-monthly-koala73-worldmonitor",
-        "title": "koala73/worldmonitor",
-        "url": "https://github.com/koala73/worldmonitor",
-        "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
-        "source": "github_trending",
-        "score": 21742,
-        "comments": 0,
-        "author": "koala73",
-        "time": "2026-08-21T20:24:35.927315+00:00",
-        "tags": [],
-        "gh_period": "monthly",
-        "first_seen": "2026-07-25",
-        "summary_zh": "这是一个基于AI的实时全球情报仪表盘，能够聚合新闻、监控地缘政治事件并追踪基础设施状态，用户可以通过统一的界面全面了解世界动态。它的价值在于为需要快速掌握全球局势的分析师、记者和企业决策者提供了强大的实时信息工具。",
-        "summary_en": "Worldmonitor is an AI-powered real-time global intelligence dashboard that aggregates news, monitors geopolitical events, and tracks infrastructure status in a single unified view. Designed for analysts, journalists, and business leaders, it enables rapid situational awareness and informed decision-making by consolidating diverse data streams into an accessible interface. Its significance lies in simplifying complex global monitoring and helping professionals stay ahead of critical developments.",
-        "domain": "github.com",
-        "quality_score": 43.2
       },
       {
         "id": "zhihu-2070241074514224234",
@@ -3373,25 +3388,6 @@
         "quality_score": 17.8,
         "summary_zh": "作者写这篇文章是为了回应一位球友的提问，将一线大厂普遍使用的 Git 规范从头到尾拆解一遍。文中按步骤讲解，给出可直接落地的实践参照。适合想规范团队 Git 流程、向大厂看齐的开发者。",
         "summary_en": "This article is the author's reply to a reader's question about finding a reliable Git convention. It unpacks the Git standards used by top-tier tech companies from start to finish, making it a handy reference for daily development. Teams or individuals seeking to align their Git workflow with industry-leading practices will find actionable guidance here."
-      },
-      {
-        "id": "juejin-7670447828808007718",
-        "title": "FFmpeg 9.0正式发布：代号“Lei”，以纪念中国开发者雷霄骅",
-        "url": "https://juejin.cn/post/7670447828808007718",
-        "description": "提到 FFmpeg 这个软件工具，相信技术开发者们应该再熟悉不过了。 作为一款开源且跨平台的多媒体处理工具集，FFmpeg 堪称音视频领域的瑞士军刀，在业内使用得相当广泛，可以说是当今数字媒体生态中不",
-        "source": "juejin",
-        "score": 52,
-        "comments": 5,
-        "author": "",
-        "time": "2026-08-06T01:34:08+00:00",
-        "tags": [
-          "juejin"
-        ],
-        "first_seen": "2026-08-10",
-        "summary_zh": "FFmpeg 9.0 正式发布，大版本代号“Lei”，以纪念中国开发者雷霄骅。FFmpeg 是开源跨平台的多媒体处理工具集，在音视频生态中应用极广，大版本号更新通常意味着命令、接口或行为层面的迭代。",
-        "summary_en": "FFmpeg 9.0 has been released under the codename 'Lei,' honoring the Chinese developer Lei Xiaohua. As an open-source, cross-platform multimedia toolkit, FFmpeg sits at the heart of the audio/video ecosystem, and a major version bump typically signals changes to commands, APIs, or behavior that downstream projects will need to test.",
-        "domain": "juejin.cn",
-        "quality_score": 17.8
       },
       {
         "id": "zhihu-2075290376429216095",
@@ -3490,25 +3486,6 @@
         "summary_en": "This post builds a simplified Three.js version of the viral Chinese movie Niu Lai, with the full source code and a demo. The author notes the film is reportedly created by just two people and became popular for its proudly cheesy aesthetics. It's a good starting point for developers learning Three.js through a trending cultural reference."
       },
       {
-        "id": "zhihu-2068405410696880350",
-        "title": "长鑫拒绝苹果压价，要求内存采购价不低于三星和 SK 海力士，是否意味议价权彻底反转？可能有哪些影响？",
-        "url": "https://www.zhihu.com/question/2068405410696880350",
-        "description": "",
-        "source": "zhihu",
-        "score": 9040000,
-        "comments": 0,
-        "author": "",
-        "time": "2026-08-06T01:24:34.434211+00:00",
-        "tags": [
-          "zhihu"
-        ],
-        "first_seen": "2026-08-06",
-        "summary_zh": "长鑫在内存采购谈判中拒绝苹果的压价要求，坚持采购价格不得低于三星和 SK 海力士的报价。原文是链接，未提供更多细节；这一议价权反转的说法及后续影响，需以正文分析为准。",
-        "summary_en": "Changxin reportedly resisted Apple's price cuts, demanding memory procurement prices no lower than those paid to Samsung and SK Hynix. The linked page isn't summarized here; details beyond the title aren't available.",
-        "domain": "zhihu.com",
-        "quality_score": 64.4
-      },
-      {
         "id": "juejin-7672736557761937434",
         "title": "👉 尤雨溪再次成立新公司，同时官宣 Pinia 4 正式发布！",
         "url": "https://juejin.cn/post/7672736557761937434",
@@ -3584,6 +3561,25 @@
         "quality_score": 49.3
       },
       {
+        "id": "juejin-7672915108386570267",
+        "title": "网页端, 6.5MB人脸识别模型, 谷歌框架, 又快又准",
+        "url": "https://juejin.cn/post/7672915108386570267",
+        "description": "高端的小区往往只需要简单的门禁系统, 简单到什么程度呢?  哈哈, 浏览器加载个小模型就够了。 5行核心代码 图片选完，浏览器内出 128 维向量。不上服务器，隐私保住。 流程图 痛点 公司让做门禁。",
+        "source": "juejin",
+        "score": 36,
+        "comments": 1,
+        "author": "",
+        "time": "2026-08-13T09:52:16+00:00",
+        "tags": [
+          "juejin"
+        ],
+        "first_seen": "2026-08-18",
+        "domain": "juejin.cn",
+        "quality_score": 16.6,
+        "summary_zh": "这篇实战文章介绍了一套浏览器端的人脸识别方案：模型约 6.5MB，图片选完后在浏览器内直接输出 128 维特征向量，核心代码只需 5 行，不需要把图片传回服务器。它主打隐私保护和低成本接入，适合做小区门禁这类对隐私敏感的前端场景。",
+        "summary_en": "This hands-on article presents a browser-based face recognition setup with a model of roughly 6.5MB. After selecting an image, the web page computes a 128-dimensional embedding locally with only about five lines of core code, so the photo doesn’t have to be sent to a server. It’s a lightweight, privacy-friendly option for scenarios like community access control."
+      },
+      {
         "id": "zhihu-2077321081388647459",
         "title": "怎样看待央视抽查保温杯连 304 钢印都能造假？",
         "url": "https://www.zhihu.com/question/2077321081388647459",
@@ -3622,6 +3618,26 @@
         "summary_en": "A Zhihu question about the mudslide disaster at Gyirong Port in Tibet says roads, communications, and electricity to the port are cut off on one side, and asks what the main difficulties are for rescue. The linked page isn't summarized here; details beyond the title aren't available. No further information is captured in this entry.",
         "domain": "zhihu.com",
         "quality_score": 48.0
+      },
+      {
+        "id": "zhihu-2069799083045287916",
+        "title": "于东来回应关闭胖东来生活广场店，因早年租约失误造成租户租金失衡，门店盈利上亿仍闭店，如何看待他的选择？",
+        "url": "https://www.zhihu.com/question/2069799083045287916",
+        "description": "",
+        "source": "zhihu",
+        "score": 5600000,
+        "comments": 0,
+        "author": "",
+        "time": "2026-08-11T00:52:52.387678+00:00",
+        "tags": [
+          "zhihu",
+          "general-hot"
+        ],
+        "first_seen": "2026-08-11",
+        "summary_zh": "这条知乎问答围绕于东来对关闭胖东来生活广场店的回应：他提到早年租约失误造成租户租金失衡，门店尽管盈利过亿仍决定闭店。目前只有提问标题可参考，原文是链接，未提供更多细节，无法判断回应全文及事件背景。",
+        "summary_en": "This Zhihu question discusses a response by Yu Donglai to closing the Pangdonglai Life Plaza store: he blames flawed leases from earlier years that left tenant rents imbalanced, and the store is said to be profitable at over 100 million yuan yet still closed. Only the question title is provided; the linked page isn't summarized here; details beyond the title aren't available.",
+        "domain": "zhihu.com",
+        "quality_score": 55.1
       }
     ],
     "count": 80
@@ -3637,5 +3653,5 @@
     "zhihu"
   ],
   "missing_sources": [],
-  "total_items": 5525
+  "total_items": 5454
 }

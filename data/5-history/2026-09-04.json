@@ -548,7 +548,9 @@
       "tags": [],
       "first_seen": "2026-09-04",
       "domain": "anthropic.com",
-      "quality_score": 39.6
+      "quality_score": 39.6,
+      "summary_zh": "这条 Hacker News 帖子的标题是“Formalizing Fermat's Last Theorem”，链接指向 xenaproject.wordpress.com 上的一篇文章，URL 显示发表日期为 2026 年 9 月 4 日。条目没有附带正文或摘录，因此文章的具体方法与验证进展无法从本条获知。",
+      "summary_en": "This Hacker News submission is titled 'Formalizing Fermat's Last Theorem' and links out to a Xena Project blog post; the URL path indicates a publication date of September 4, 2026. The Hacker News item itself does not include an excerpt or the actual article text. The linked page isn't summarized here; details beyond the title and URL aren't available."
     },
     {
       "id": "hn-49536079",
@@ -3373,7 +3375,9 @@
       "gh_period": "daily",
       "first_seen": "2026-09-03",
       "domain": "github.com",
-      "quality_score": 30.3
+      "quality_score": 30.3,
+      "summary_zh": "Magnitude 是开源推理服务，能针对硬件挑选合适的本地模型并接入现有 agent，主打免费、私密、离线运行。它声明兼容 Pi、OpenCode、Hermes、OpenClaw、Codex、Claude Code 等，适合不想换 agent 又要本地推理的开发者。",
+      "summary_en": "Magnitude is an open-source inference server that runs local models matched to your hardware and plugs into the agent you already use; the project promises free, private, offline operation. It lists compatibility with agents such as Pi, OpenCode, Hermes, OpenClaw, Codex, and Claude Code, letting developers keep their current agent while moving model execution locally."
     },
     {
       "id": "gh-daily-bikini-exploitarium",
@@ -3975,7 +3979,9 @@
       ],
       "first_seen": "2026-09-04",
       "domain": "producthunt.com",
-      "quality_score": 50.8
+      "quality_score": 50.8,
+      "summary_zh": "Omi 是 Product Hunt 上的一款新工具，简介描述为“向你的电脑询问任何你看到或听到的内容”。它的核心设想是让用户用自然语言回查此前在屏幕上见过或设备里播放过的内容，但简介并没有说明具体实现方式。想用对话方式找回多人协作中错过的信息的人，可以先试用看看。",
+      "summary_en": "Omi is a Product Hunt listing described as letting you \"ask your computer anything you saw or heard.\" That premise suggests a natural-language way to query things that appeared on your screen or came through your audio, though the listing doesn't include implementation details. It may appeal to developers who want a conversational memory layer for information they previously saw or heard."
     },
     {
       "id": "ph-1238997",
@@ -4066,7 +4072,9 @@
       ],
       "first_seen": "2026-09-03",
       "domain": "producthunt.com",
-      "quality_score": 35.8
+      "quality_score": 35.8,
+      "summary_zh": "Product Hunt 热门：CleanShot 5.0 with Studio Mode",
+      "summary_en": "Popular on Product Hunt: CleanShot 5.0 with Studio Mode"
     },
     {
       "id": "ph-1223790",
@@ -4232,7 +4240,9 @@
       "content": "",
       "first_seen": "2026-08-29",
       "domain": "juejin.cn",
-      "quality_score": 1.4
+      "quality_score": 1.4,
+      "summary_zh": "一位日常使用 React、Vue 的前端开发者，记录了自己用 Python 从零写出一个极简 AI 聊天框 demo 的过程；这次实现没有写 HTML，也没有引入复杂前端框架。对想低成本接触 AI、又不想重构前端技术栈的开发者来说，这是一次很轻量的跨界示范。",
+      "summary_en": "A frontend developer who primarily works in React and Vue shares how they built a minimal AI chatbox demo from scratch in Python, without writing HTML or pulling in a heavy frontend framework. It's a lightweight cross-stack reference for developers who want to touch AI without rebuilding their frontend setup."
     },
     {
       "id": "juejin-7680105138455855158",
@@ -5152,7 +5162,9 @@
       "tags": [],
       "first_seen": "2026-09-04",
       "domain": "infoq.cn",
-      "quality_score": 40.4
+      "quality_score": 40.4,
+      "summary_zh": "OpenAI 正式发布 GPT-6 Astra，上下文窗口达 105 万 Token，在 FrontierMath、ARC-AGI 3 等测试中取得 98% 以上分数。该模型当前原生支持文本与图像输入，未来几天将推向 ChatGPT 付费用户、API 及 AWS。OpenAI 称它是首个达到内部网络安全阈值的模型，并因上月的模型逃逸事件加强了安全限制。",
+      "summary_en": "OpenAI has released GPT-6 Astra, a model with a 1.05M-token context window and near-perfect scores on benchmarks like FrontierMath and ARC-AGI 3. It natively handles text and image input, and will reach ChatGPT paid tiers, the API, and AWS in the coming days. OpenAI calls it the first model to pass its internal cybersecurity threshold, a step tied to containment measures after recent safety incidents."
     },
     {
       "id": "infoq-m9DBSRgv8grSQ9NkY6rS",
@@ -5234,7 +5246,9 @@
       "tags": [],
       "first_seen": "2026-09-04",
       "domain": "infoq.cn",
-      "quality_score": 40.6
+      "quality_score": 40.6,
+      "summary_zh": "Google 发布 Gemini 3.8 Flash，这是六周内第三款 Flash 模型。它在 Artificial Analysis Intelligence Index 得 59 分，追平 GPT-5.6 Sol 和 Grok 4.6，并在 DeepSWE v1.1 长程软件工程榜登顶；输出速度约每秒 300 token，是多数主流模型的 4—6 倍。新版靠更多推理与工具调用改善此前“美国大豆包”式的实际表现短板。",
+      "summary_en": "Google has shipped Gemini 3.8 Flash, its third Flash release in six weeks. The model scores 59 on the Artificial Analysis Intelligence Index — tying GPT-5.6 Sol and Grok 4.6 — and tops the DeepSWE v1.1 long-horizon software-engineering chart while sustaining roughly 300 output tokens per second, about 4–6x faster than many peers. It gains capability from more reasoning and tool calls instead of being a scaled-down Pro, notably closing the gap between flashy scores and real-world reliability."
     },
     {
       "id": "infoq-bOI6y8Tdr714CWa5CcxR",
@@ -5266,7 +5280,9 @@
       "tags": [],
       "first_seen": "2026-09-04",
       "domain": "infoq.cn",
-      "quality_score": 40.3
+      "quality_score": 40.3,
+      "summary_zh": "谷歌云上线两个数据库运维智能体：Onboarding Agent 以自然语言理解 IOPS、延迟等要求并推荐/配置数据库；Observability Agent 面向 SRE，自动关联遥测数据做根因分析和修复。它们集成 Gemini Cloud Assist，支持 AlloyDB、Cloud SQL、Spanner 等，在现有控制台、CLI 和 IDE 中即可使用。",
+      "summary_en": "Google Cloud launched two AI database-operations agents. The Onboarding Agent interprets natural-language requirements like IOPS or latency limits and then recommends and configures a database, while the Observability Agent targets SRE/DevOps teams: it correlates telemetry from Database Insights, Cloud Monitoring, Logging, and Trace to diagnose root causes and apply fixes. Both integrate with Gemini Cloud Assist, support managed services including AlloyDB, Cloud SQL, and Spanner, and work from existing console, CLI, and IDE workflows."
     },
     {
       "id": "infoq-vogOaCpOeNfe0hjAXfzy",

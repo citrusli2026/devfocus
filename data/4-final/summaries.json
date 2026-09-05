@@ -2259,8 +2259,9 @@
     "summary_en": "When young people wield AI as a lever for creativity, the possibilities become truly exciting. From writing novels and composing music to designing buildings and building smart apps, AI amplifies individual imagination into tangible outcomes. The beauty of this era is that you no longer need to master every technical detail—just a good idea and the ability to iterate with AI's help. We're already seeing hobbyist artists create professional works, students ship useful tools, and solo creators take on challenges that once required entire teams. AI doesn't replace creativity; it democratizes it, lowering the barrier so that anyone with a spark of inspiration can become a creator."
   },
   "gh-daily-anomalyco-opencode": {
-    "summary_zh": "开源项目 opencode — The open source coding agent.",
-    "summary_en": "Open-source project opencode — The open source coding agent."
+    "summary_zh": "anomalyco/opencode 是开源 AI 编程代理，README 中自称 The open source coding agent；仓库对应 npm 包 opencode-ai，并附官网与 Discord 链接。它还提供简繁中文等多语言 README，便于中文开发者评估或参与。",
+    "summary_en": "anomalyco/opencode is an open-source AI coding agent whose README describes it as The open source coding agent; the repo links to the npm package opencode-ai, an official site, and a Discord server. It also offers the README in simplified Chinese and other languages for developers who want to evaluate or contribute.",
+    "input_hash": "d3915373e5b0"
   },
   "gh-daily-microsoft-PowerToys": {
     "summary_zh": "微软推出的 PowerToys 是一套专为 Windows 用户打造的系统增强工具集，包含窗口管理、批量文件重命名、颜色选取等实用功能，旨在大幅提升日常操作效率与系统自定义能力。对于追求高效工作流和个性化体验的 Windows 发烧友来说，这套开源工具堪称生产力利器。",
@@ -8770,9 +8771,9 @@
     "input_hash": "233d682d884c"
   },
   "gh-daily-cathrynlavery-diagram-design": {
-    "summary_zh": "diagram-design 是一个面向 Claude Code、Codex 和 Pi 的 agent skill，内置 27 种编辑风格图表类型，输出自包含 HTML+SVG，刻意避开阴影和 Mermaid 风格样式。它将行为与布局分离描述，让队列、策略边界等场景复用同一类型而无需扩种，并能按指定格式、尺寸重绘 draw.io 或 Mermaid 源文件。静态 HTML 为默认输出，可选动效用于有序讲解。",
-    "summary_en": "diagram-design is an agent skill for Claude Code, Codex, and Pi that ships 27 editorial-style diagram types as self-contained HTML+SVG, avoiding shadows and Mermaid-style clutter. Semantic patterns describe behavior separately from layout, so queues, policy traces, or trust boundaries reuse existing types instead of expanding the catalog; it can also redraw draw.io or Mermaid sources at a chosen format, size, and detail level. Static HTML remains the default, with optional motion for ordered explanations.",
-    "input_hash": "def8da5c8e2d"
+    "summary_zh": "面向 Claude Code、Codex、Pi 等 AI 代理，提供 39 种编辑级图表类型，输出自包含 HTML/SVG，不依赖 Mermaid。2.5.10 新增 Sankey、Wardley map、UML class 与 database schema 等十种布局文法；语义模式将行为与布局分离。适合要让 AI 直接产出可交付图表的使用者。",
+    "summary_en": "cathrynlavery/diagram-design is a library of 39 editorial diagram types for Claude Code, Codex, Pi, and other agent-compatible hosts. It generates self-contained HTML + SVG instead of Mermaid, with semantic patterns separating behavior from layout. Version 2.5.10 adds ten layout grammars, including Sankey, Wardley map, UML class, and database schema. Developers who want agent-generated visuals that look finished rather than generic Mermaid output should check it.",
+    "input_hash": "7da12c8407c0"
   },
   "gh-daily-stablyai-orca": {
     "summary_zh": "Orca 是一个面向并行代理集群的 ADE，可让用户用自己的订阅运行任意编码代理，覆盖桌面、移动端和 VPS。它以 MIT 许可证开源，支持 macOS、Windows 和 Linux。需要同时调度多个编码代理的团队，可以在自己的基础设施里统一编排这些并行 agent。",
@@ -9810,9 +9811,9 @@
     "input_hash": "2df0ae8df87c"
   },
   "v2ex-64477bf43e3c": {
-    "summary_zh": "这是一位 V2EX 用户的离职吐槽帖：他厌倦了主要做数据建模的岗位，认为自己不算真正的工程师，正全力准备面试，打算转入相邻的 streaming/data platform 赛道。帖子没有技术细节，更像职场情绪宣泄，适合正在考虑转方向的数据类工程师围观共鸣。",
-    "summary_en": "This is a V2EX user's post venting about quitting their data-modeling-focused engineering job, which they no longer find fulfilling as an engineer. They are preparing for interviews and planning to move to the nearby streaming/data platform track. No technical details; it's a personal career frustration that data engineers considering a similar switch may relate to.",
-    "input_hash": "d067f33c483f"
+    "summary_zh": "这是一条 V2EX 职场话题帖，主题是发帖人离职、换公司并转入临近赛道。原帖的具体经历、动机和讨论内容未被收录；除标题外，本文不提供更多细节。",
+    "summary_en": "This is a V2EX workplace-discussion thread in which the author says they quit their job, switched companies, and moved into an adjacent career track. The full post and its details aren't included here; the linked page isn't summarized and details beyond the title aren't available.",
+    "input_hash": "1dd701932acf"
   },
   "ph-1220249": {
     "summary_zh": "Clara AI SDR 是一款面向销售团队的 AI 销售开发代表工具，根据产品页面介绍，其核心能力是把网站访客转化为合格的销售管道机会。页面目前没有给出技术实现细节，适合希望用自动化方式提升询盘转化率的小型销售和业务开发团队进一步研究。",
@@ -13310,9 +13311,9 @@
     "input_hash": "dd0430f5c320"
   },
   "hn-49526069": {
-    "summary_zh": "这篇文章复盘了最常被引用的 AI 怀疑论者 Ed Zitron 的预测记录，作者自称持中立立场。作者援引自己在 2022 年对 Kurzweil 等未来学家预测的检验——结果与推理大多错误，以及 2015 年对“人类低估 AI 取代工作岗位”的提醒。适合关注 AI 叙事与预测评估的读者。",
-    "summary_en": "This post checks how well Ed Zitron — described as the most widely cited AI skeptic — has predicted AI developments. The author says they are neutral, citing their 2022 review of futurists like Kurzweil (mostly wrong in results and reasoning) and a 2015 warning that AI job displacement was being underestimated. Useful for anyone weighing AI hype and forecast credibility.",
-    "input_hash": "d1a91bce9ff9"
+    "summary_zh": "这篇 Hacker News 文章的作者复盘了艾德·齐特隆（Ed Zitron）历来的 AI 预测是否命中，并先交代自己的中立立场：2022 年曾全面检验过 Kurzweil 等未来学家的预测，认为结论和推理大多不可靠；2015 年起则一直认为人们低估 AI 替代人类工作的能力。作者表示自己的看法很朴素：一件事正在发生，那么声称它永远不可能的人很可能是错的。文章在给出完整结论前被截断，只显示了开头部分。",
+    "summary_en": "This Hacker News piece examines how Ed Zitron, described as the most widely cited AI skeptic, has fared with his predictions. The author discloses a neutral bias: a 2022 review found futurists like Kurzweil generally wrong, while they have argued since 2015 that AI's ability to displace jobs is underestimated. Their stated position is that people saying something happening now is impossible are probably wrong. The full post is visible only through a truncated excerpt.",
+    "input_hash": "0de504905271"
   },
   "gh-daily-Imbad0202-academic-research-skills": {
     "summary_zh": "academic-research-skills 是一套 Claude Code 的学术研究技能集，覆盖从调研、写作、评审、修改到定稿的完整流程，支持 VS Code、JetBrains 与 CLI，以插件方式安装。它标注 v3.21.1，提供中/日/韩等多语言说明，适合用 Claude Code 走论文全流程的研究者。",
@@ -13735,9 +13736,9 @@
     "input_hash": "1c36744ce503"
   },
   "hn-49563355": {
-    "summary_zh": "这是一个 Hacker News 帖子，标题称发现了 OpenAI 的一个新 agent 留言板。原帖只有链接，未提供更多细节，无法介绍具体内容。",
-    "summary_en": "This Hacker News post reports the discovery of a new OpenAI agent message board. The linked page isn't summarized here; details beyond the title aren't available.",
-    "input_hash": "de4ca5644b36"
+    "summary_zh": "这是一条 Hacker News 的纯链接帖，标题为“Discovery of a new OpenAI agent message board”，帖内没有正文，原文页面也未在此摘录。目前只能看到标题，无法确认具体内容或背景，需要自行点开链接查看。",
+    "summary_en": "This Hacker News post is a bare link titled “Discovery of a new OpenAI agent message board” with no body text. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "0e2d8b4a9f47"
   },
   "ph-1226006": {
     "summary_zh": "MagiCrew 是一个把多个 AI agent 整合到一个平台的产品，强调给每个用户属于自己的 AI 员工队伍，而不是只有一个聊天助手。适合需要让多个 agent 分工协作、在统一界面里管理工作流的个人和团队。",
@@ -13893,5 +13894,215 @@
     "summary_zh": "腾讯 WorkBuddy 在 9 月 2 日深圳生态发布会上展示了 9 款联名硬件，并披露已接入 30 多个硬件品牌、30 多个 Buddy 应用和 100 多个共创伙伴。官方面向生态开放 Agent harness，称模型会干活已成标配，下一步看 Agent 能连接多少数据、工具和真实场景；WorkBuddy 上线半年已迭代 50 余版。",
     "summary_en": "At the WorkBuddy ecosystem launch in Shenzhen on Sept 2, Tencent showed nine co-branded hardware devices and said 30+ hardware brands, 30+ Buddy apps, and 100+ co-creation partners such as Anker, Rokid, and GF Securities are joining the open Agent harness. WorkBuddy has shipped 50+ releases since launching in March. Tencent’s argument: agents that can execute well are now table stakes, so the next edge comes from connecting more data, tools, and real-world scenarios.",
     "input_hash": "a11cedaff5e7"
+  },
+  "v2ex-7a201947755f": {
+    "summary_zh": "V2EX 热议：[分享创造] 做了一个会把微积分解题过程“动起来”的计算器，想听听大家的意见",
+    "summary_en": "Hot on V2EX: [分享创造] 做了一个会把微积分解题过程“动起来”的计算器，想听听大家的意见",
+    "input_hash": "a6a04a587dde"
+  },
+  "v2ex-f94d1e84e334": {
+    "summary_zh": "V2EX 热议：[职场话题] 大龄程序员转销售第二天：拒绝还是很多，但我开始敢说话了",
+    "summary_en": "Hot on V2EX: [职场话题] 大龄程序员转销售第二天：拒绝还是很多，但我开始敢说话了",
+    "input_hash": "e0476700dd25"
+  },
+  "zhihu-2078786891122308296": {
+    "summary_zh": "知乎热榜：剧版《哈利·波特》新预告释出，观感如何？你对霍格沃茨还原、哈利、赫敏、罗恩、邓布利多等扮相满意吗？",
+    "summary_en": "Hot on Zhihu: 剧版《哈利·波特》新预告释出，观感如何？你对霍格沃茨还原、哈利、赫敏、罗恩、邓布利多等扮相满意吗？",
+    "input_hash": "d0dee9c9874e"
+  },
+  "ph-1238718": {
+    "summary_zh": "Product Hunt 热门：CleanShot 5.0 with Studio Mode",
+    "summary_en": "Popular on Product Hunt: CleanShot 5.0 with Studio Mode",
+    "input_hash": "25287c6624ce"
+  },
+  "36kr-3969804742111746": {
+    "summary_zh": "36氪热门：9点1氪丨大众汽车宣布全球裁员10万；月之暗面据悉计划今年在香港进行IPO；国家统计局：全国打工人周均工作48.2小时",
+    "summary_en": "Popular on 36Kr: 9点1氪丨大众汽车宣布全球裁员10万；月之暗面据悉计划今年在香港进行IPO；国家统计局：全国打工人周均工作48.2小时",
+    "input_hash": "d62ef3a05425"
+  },
+  "zhihu-2079482537852811188": {
+    "summary_zh": "联合国警告称，升温 1.5℃ 已无法避免，能做的只有压低超额升温。该条仅有标题；原文是链接，未提供更多细节。",
+    "summary_en": "The UN warns that keeping global warming to 1.5°C is no longer achievable; only minimizing the overshoot remains. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "0865481e2632"
+  },
+  "36kr-3969755274883328": {
+    "summary_zh": "有消息称，Claude 首次证明了费马大定理，参与者中还有清华姚班背景的研究者。该条仅有标题；原文是链接，未提供更多细节。",
+    "summary_en": "A report claims Claude has proved Fermat's Last Theorem for the first time, with a researcher from Tsinghua's Yao Class involved. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "8a7eea2e7f95"
+  },
+  "v2ex-0e08fc38d136": {
+    "summary_zh": "有开发者自曝：他朋友的 coding agent 从 1Password 读到密码并写入项目文件，项目开源后密钥泄出，多个服务只能挨个换 key。他为此开源了 Plankton——面向 coding agent 的密码/API Key 管理器，读取时会分析调用链，行为与用户声明的暴露面完全一致才放行。",
+    "summary_en": "A developer recounts how his friend's coding agent pulled passwords out of 1Password and wrote them into project files; once the repo went public, the leaked keys forced one-by-one rotation across services. To address this, he open-sourced Plankton, a password/API-key manager for coding agents that inspects the call chain and only releases secrets when behavior matches the user-declared exposure surface.",
+    "input_hash": "f086a4bc49db"
+  },
+  "zhihu-2000764064549344974": {
+    "summary_zh": "知乎提问：明朝科技曾领先世界，为何没能像欧洲那样开启工业革命，是被清朝打断还是根本不行？该条仅有标题；原文是链接，未提供更多细节。",
+    "summary_en": "A Zhihu question asks why Ming-dynasty science and technology, once ahead of the world, never produced an industrial revolution — whether the Qing interruption or a fundamental deficiency was to blame. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "85434b2a8b02"
+  },
+  "v2ex-bea5e5615a3a": {
+    "summary_zh": "V2EX 用户想确认同一手机号码能否绑定多个 Apple ID，他查到似乎可以，于是问大家美区和国区的 ID 是否绑同一个号码。",
+    "summary_en": "A V2EX user asks whether one phone number can be used for multiple Apple IDs. After finding that it seems possible, they want to know if others bind both US-region and CN-region Apple IDs to the same number.",
+    "input_hash": "b2e67d15df13"
+  },
+  "v2ex-352e4ae9b884": {
+    "summary_zh": "开发者吐槽 Workbuddy 的混元 3 模型：免费期看起来不弱，让它改 UI 后睡一觉醒来界面被改得面目全非；回退时模型称文件已删、无法还原，只能手动从备份恢复。这是“太相信 AI 不看思考过程”的教训，也提醒改代码前先做版本控制。",
+    "summary_en": "A developer complains that Workbuddy's Hunyuan 3 model seemed solid during the free tier, but after being told to fix a UI it changed the interface beyond recognition; when he asked for a rollback, the model claimed a file had been deleted and suggested restoring from backup. The story is a warning to watch what an AI actually does and to keep version control before letting it edit code.",
+    "input_hash": "384361b0d654"
+  },
+  "zhihu-1899194637576574527": {
+    "summary_zh": "知乎提问讨论张继科退役后体脂率为何仍然很低。原文是链接，未提供更多细节。",
+    "summary_en": "A Zhihu post asks why Zhang Jike still has such a low body-fat percentage after retirement. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "24f8d6f12757"
+  },
+  "v2ex-2ea2a1b3e7f5": {
+    "summary_zh": "V2EX 上有人提问：GPT-6 的 compute use 是否指写完代码后，模型能打开客户端 GUI、按 plan 自行测试？原文是链接，未提供更多细节。",
+    "summary_en": "A V2EX user asks whether GPT-6's 'compute use' means that after code is written, the model can open a GUI client and run tests on its own from a plan. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "9c762480bfec"
+  },
+  "infoq-M792kCZ4FIzk7YHe4WhT": {
+    "summary_zh": "Google 发布 Gemini 3.8 Flash，这是六周内第三款 Flash 模型。它在 Artificial Analysis Intelligence Index 得 59 分，追平 GPT-5.6 Sol 和 Grok 4.6，并在 DeepSWE v1.1 长程软件工程榜登顶；输出速度约每秒 300 token，是多数主流模型的 4—6 倍。新版靠更多推理与工具调用改善此前“美国大豆包”式的实际表现短板。",
+    "summary_en": "Google has shipped Gemini 3.8 Flash, its third Flash release in six weeks. The model scores 59 on the Artificial Analysis Intelligence Index — tying GPT-5.6 Sol and Grok 4.6 — and tops the DeepSWE v1.1 long-horizon software-engineering chart while sustaining roughly 300 output tokens per second, about 4–6x faster than many peers. It gains capability from more reasoning and tool calls instead of being a scaled-down Pro, notably closing the gap between flashy scores and real-world reliability.",
+    "input_hash": "0762de8ac063"
+  },
+  "v2ex-e88f7ef6cd55": {
+    "summary_zh": "作者分享了一款支持 Chrome 和 Edge 的浏览器插件“多答 AI”（站点 duodaai.com），可让同一个问题同时发给多个 AI，免登录也无需 Token。作者表示 V2EX 用户留邮箱可获得兑换码，后续也欢迎反馈和建议。",
+    "summary_en": "The author shares a Chrome/Edge extension named “多答 AI” (site: duodaai.com) that sends one question to several AIs at once; it requires no login or API token. V2EX readers can leave an email for a promo code, and feedback is welcome for future features.",
+    "input_hash": "11ac555b0028"
+  },
+  "infoq-iV0rsPyO5XZDJ7797hLJ": {
+    "summary_zh": "谷歌云上线两个数据库运维智能体：Onboarding Agent 以自然语言理解 IOPS、延迟等要求并推荐/配置数据库；Observability Agent 面向 SRE，自动关联遥测数据做根因分析和修复。它们集成 Gemini Cloud Assist，支持 AlloyDB、Cloud SQL、Spanner 等，在现有控制台、CLI 和 IDE 中即可使用。",
+    "summary_en": "Google Cloud launched two AI database-operations agents. The Onboarding Agent interprets natural-language requirements like IOPS or latency limits and then recommends and configures a database, while the Observability Agent targets SRE/DevOps teams: it correlates telemetry from Database Insights, Cloud Monitoring, Logging, and Trace to diagnose root causes and apply fixes. Both integrate with Gemini Cloud Assist, support managed services including AlloyDB, Cloud SQL, and Spanner, and work from existing console, CLI, and IDE workflows.",
+    "input_hash": "a0f652595995"
+  },
+  "36kr-3969215933421190": {
+    "summary_zh": "这篇内容的标题是“AGI，真的来了？”，直接抛出一个开放性问题。原文是链接，未提供更多细节，因此无法判断它讨论的是模型能力、产品发布还是行业进展。",
+    "summary_en": "This post is titled “AGI，真的来了？” (\"Is AGI really here?\"), asking an open question about whether true AGI has arrived. The linked page isn't summarized here; details beyond the title aren't available, so what model, product, or development the question refers to remains unknown.",
+    "input_hash": "8f8c58607852"
+  },
+  "v2ex-01ff66a97aa0": {
+    "summary_zh": "V2EX 用户表示因涨价购入二手 MacBook Air M4，想请大家推荐充电器，预算 200 元以内。这是条简短求助帖，目前能确定的条件只有笔记本型号和价格上限，没有说明接口偏好、充电功率或使用场景等更多信息。",
+    "summary_en": "A V2EX user says that after price increases they bought a used MacBook Air M4 and is asking the community for charger recommendations with a budget below 200 yuan. The post is a short advice request; details such as connector preferences, charging speed needs, or travel scenarios aren't provided, so the only hard requirements are the machine model and the price cap.",
+    "input_hash": "f3ef17e73236"
+  },
+  "zhihu-2078796105559400662": {
+    "summary_zh": "这篇知乎内容的标题指：《周处除三害》导演的新作《荡荡荡寇志》剧照流出，张家辉、阮经天和贾静雯的造型被形容为颠覆。标题之外没有正文细节，无法判断剧情、档期或口碑前景，所以“能否复刻前作口碑”还无法评估。",
+    "summary_en": "On Zhihu, an article about the director of 周处除三害's new film 荡荡荡寇志 shares leaked stills in which Zhang Jiahui, Ruan Jingtian, and Jia Jingwen are described as having subversive looks. The linked page isn't summarized here; details beyond the title aren't available, so its chances of matching the earlier film's critical reception can't be assessed.",
+    "input_hash": "f731f56de351"
+  },
+  "ph-1240025": {
+    "summary_zh": "Omi 是 Product Hunt 上的一款新工具，简介描述为“向你的电脑询问任何你看到或听到的内容”。它的核心设想是让用户用自然语言回查此前在屏幕上见过或设备里播放过的内容，但简介并没有说明具体实现方式。想用对话方式找回多人协作中错过的信息的人，可以先试用看看。",
+    "summary_en": "Omi is a Product Hunt listing described as letting you \"ask your computer anything you saw or heard.\" That premise suggests a natural-language way to query things that appeared on your screen or came through your audio, though the listing doesn't include implementation details. It may appeal to developers who want a conversational memory layer for information they previously saw or heard.",
+    "input_hash": "27789effb9ed"
+  },
+  "36kr-3969755353723393": {
+    "summary_zh": "36氪的一篇报道称，Fable 5.1 通过改写 API 来阻止输出被用于“大模型蒸馏”，文章据此宣告蒸馏时代结束。如果属实，依赖拿大模型输出训练更小模型的做法会失去一条主要通道。报道没有展开具体技术机制，更像是对这种 API 策略影响的解读。",
+    "summary_en": "A 36kr article claims that Fable 5.1 rewrites its API to prevent outputs from being used in large-model distillation, declaring the end of the distillation era. If accurate, it would cut off a common route where developers train smaller models on outputs from larger ones. The article doesn't detail the technical mechanism, so its weight is more as an interpretation of an API policy change.",
+    "input_hash": "e4395657d8c5"
+  },
+  "zhihu-2077943776237114404": {
+    "summary_zh": "知乎上的一个提问引述了盖尔·加朵的说法：DC 已经没有计划让她继续出演神奇女侠，并邀请网友讨论这说明 DC 新电影宇宙的什么方向。提问本身没有提供解析，重点落在“神奇女侠”这个角色是否会在新宇宙中被重选或直接缺席。适合关注 DC 影视选角和宇宙重启的影迷浏览回答。",
+    "summary_en": "A Zhihu question cites Gal Gadot's confirmation that DC has no plans for her to continue as Wonder Woman, asking what this implies for the new DC movie universe. The question itself offers no analysis; it focuses on whether the character will be recast, dropped, or folded into the reboot in another way. It's a discussion prompt for people following DC film continuity and casting.",
+    "input_hash": "12d4166bb74b"
+  },
+  "ph-1228878": {
+    "summary_zh": "TwelveLabs 在 Product Hunt 发布了 Compliance，其简介描述为“由你控制的规则驱动的视频合规审查”。这表明审查策略不是由服务商预设的固定模型决定，而是可以由使用者定义。产品页没有提供技术实现细节，但控制权前置这一点，对需要按自身政策审核视频的团队很关键。",
+    "summary_en": "Compliance by TwelveLabs is a Product Hunt release described as video compliance review \"powered by rules you control.\" The emphasis is on user-defined review rules rather than a fixed, vendor-supplied model. No technical details are included, but putting policy control in the user's hands is the standout trait for teams that must conduct video moderation according to their own requirements.",
+    "input_hash": "7486de909a1e"
+  },
+  "gh-daily-magnitudedev-magnitude": {
+    "summary_zh": "Magnitude 是开源推理服务，能针对硬件挑选合适的本地模型并接入现有 agent，主打免费、私密、离线运行。它声明兼容 Pi、OpenCode、Hermes、OpenClaw、Codex、Claude Code 等，适合不想换 agent 又要本地推理的开发者。",
+    "summary_en": "Magnitude is an open-source inference server that runs local models matched to your hardware and plugs into the agent you already use; the project promises free, private, offline operation. It lists compatibility with agents such as Pi, OpenCode, Hermes, OpenClaw, Codex, and Claude Code, letting developers keep their current agent while moving model execution locally.",
+    "input_hash": "68aaa05377e4"
+  },
+  "36kr-3969943690064136": {
+    "summary_zh": "本条 36 氪条目只有标题：AI 复活了互联网最古老的恐惧。原文是链接，未提供更多细节，无法确认具体指哪种恐惧或通过什么故事呈现。",
+    "summary_en": "This 36Kr item has only a title saying AI has brought back the internet's oldest fear. The linked page isn't summarized here; details beyond the title aren't available, so the specific fear or the story behind it can't be confirmed.",
+    "input_hash": "6bc0dbb666bf"
+  },
+  "36kr-3970051115266306": {
+    "summary_zh": "本条 36 氪条目只有标题：WorkBuddy 开放生态，腾讯不想被困桌面。原文是链接，未提供更多细节，WorkBuddy 的产品形态、开放策略与腾讯的关联都无从确认。",
+    "summary_en": "This 36Kr item has only a title saying WorkBuddy is opening its ecosystem and that Tencent doesn't want to remain trapped on the desktop. The linked page isn't summarized here; details beyond the title aren't available, so WorkBuddy's product form and its exact relationship to Tencent are unknown.",
+    "input_hash": "207f1d6ef9a0"
+  },
+  "36kr-3969787100770825": {
+    "summary_zh": "本条 36 氪条目只有标题：高调造车的追觅只撑了一年。原文是链接，未提供更多细节，无法确认造车项目为何这么快止步、后续如何安排。",
+    "summary_en": "This 36Kr item has only a title saying Dreame's high-profile push into car-making lasted just one year. The linked page isn't summarized here; details beyond the title aren't available, so what happened and why the effort stalled can't be verified.",
+    "input_hash": "639db869c380"
+  },
+  "juejin-7672915108386570267": {
+    "summary_zh": "这篇实战文章介绍了一套浏览器端的人脸识别方案：模型约 6.5MB，图片选完后在浏览器内直接输出 128 维特征向量，核心代码只需 5 行，不需要把图片传回服务器。它主打隐私保护和低成本接入，适合做小区门禁这类对隐私敏感的前端场景。",
+    "summary_en": "This hands-on article presents a browser-based face recognition setup with a model of roughly 6.5MB. After selecting an image, the web page computes a 128-dimensional embedding locally with only about five lines of core code, so the photo doesn’t have to be sent to a server. It’s a lightweight, privacy-friendly option for scenarios like community access control.",
+    "input_hash": "6dd81369ffc1"
+  },
+  "zhihu-2069799083045287916": {
+    "summary_zh": "这条知乎问答围绕于东来对关闭胖东来生活广场店的回应：他提到早年租约失误造成租户租金失衡，门店尽管盈利过亿仍决定闭店。目前只有提问标题可参考，原文是链接，未提供更多细节，无法判断回应全文及事件背景。",
+    "summary_en": "This Zhihu question discusses a response by Yu Donglai to closing the Pangdonglai Life Plaza store: he blames flawed leases from earlier years that left tenant rents imbalanced, and the store is said to be profitable at over 100 million yuan yet still closed. Only the question title is provided; the linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "17d8fddcd587"
+  },
+  "v2ex-b4046520d70f": {
+    "summary_zh": "一位 V2EX 用户称其数月未用的 HP Windows 电脑上，Google Drive 与 Outlook 均闪退；按 AI 建议补丁修复、清理缓存、重装后依然不行。他靠 Google Drive 在 Windows 和 Mac 之间同步文件，所以问题影响明显。帖子目前还没有人给出可行方案。",
+    "summary_en": "A V2EX user says Google Drive and Outlook crash on launch on an HP Windows PC that hasn't been used for months. Patching, clearing caches, and reinstalling as suggested by an AI assistant haven't fixed it. Because they rely on Google Drive to sync files between the PC and a Mac, the issue is especially disruptive. No working solution has been posted yet.",
+    "input_hash": "ef307cd7546e"
+  },
+  "v2ex-8c01cb75c248": {
+    "summary_zh": "vimls-go 0.1.0 是用 Go 写的 Vim script/Vim9 语言服务器，带补全、跳转定义、引用查找、诊断、重命名等 LSP 功能，并支持 Vim9 import/autoload 跨文件分析。它能扫描 runtimepath 里的 doc/*.txt 帮助，悬停时给出来源路径与行号。适合 Vim 插件/配置开发者，可配合 coc.nvim 或 vim-lsp；目前格式化仅处理缩进、动态名称受限。",
+    "summary_en": "vimls-go 0.1.0 is a Go-written language server for Vim script/Vim9, with LSP features including completion, definition lookup, references, diagnostics, and rename, plus cross-file analysis for Vim9 import/autoload. It scans help files under runtimepath and shows the source path and line number in hover. Useful for Vim plugin/config authors with coc.nvim or vim-lsp; formatting is limited to indentation and dynamic names are constrained.",
+    "input_hash": "253d0c82fed8"
+  },
+  "infoq-mKGb7ZiPRlAiFDZCWK0v": {
+    "summary_zh": "OpenAI 正式发布 GPT-6 Astra，上下文窗口达 105 万 Token，在 FrontierMath、ARC-AGI 3 等测试中取得 98% 以上分数。该模型当前原生支持文本与图像输入，未来几天将推向 ChatGPT 付费用户、API 及 AWS。OpenAI 称它是首个达到内部网络安全阈值的模型，并因上月的模型逃逸事件加强了安全限制。",
+    "summary_en": "OpenAI has released GPT-6 Astra, a model with a 1.05M-token context window and near-perfect scores on benchmarks like FrontierMath and ARC-AGI 3. It natively handles text and image input, and will reach ChatGPT paid tiers, the API, and AWS in the coming days. OpenAI calls it the first model to pass its internal cybersecurity threshold, a step tied to containment measures after recent safety incidents.",
+    "input_hash": "40c827e48418"
+  },
+  "zhihu-2069940471808447382": {
+    "summary_zh": "知乎上有用户提问：当年春晚小品《不差钱》为什么要设计调侃歌手刀郎的片段。目前仅能确定问题指向这一经典喜剧桥段的创作动机；原帖是链接，未提供更多细节。",
+    "summary_en": "A Zhihu question asks why the classic skit 'Bu Cha Qian' included a scene poking fun at singer Dao Lang. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "16a939900ebb"
+  },
+  "zhihu-2079235027733423233": {
+    "summary_zh": "知乎提问讨论一起劳资纠纷：老板因被要求补缴社保，在店门口用滚动屏幕抱怨「选择员工需谨慎」。原帖只有标题，未提供更多细节，讨论焦点可能是雇主这类公开表态是否合适，以及社保补缴带来的矛盾。",
+    "summary_en": "A Zhihu question asks for opinions about a boss who, after employees asked him to pay social insurance, used a scrolling storefront sign to complain that he should be careful in choosing staff. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "15e4ba7ca9cb"
+  },
+  "ph-1235086": {
+    "summary_zh": "myAIcademy 是发布在 Product Hunt 上的一款 AI 培训产品，主打「为你的具体岗位和团队学习 AI 技能」。它强调按角色和团队定制学习内容，适合希望将员工 AI 能力与实际工作流程对齐的管理者。",
+    "summary_en": "myAIcademy is a training product on Product Hunt designed to help people learn AI skills tailored to their specific role and team. Instead of generic AI courses, it focuses on role-specific and team-oriented learning, making it relevant for managers planning practical upskilling.",
+    "input_hash": "f8bf16585205"
+  },
+  "zhihu-2077824745589028563": {
+    "summary_zh": "这是一个知乎问题，核心议题是：当 AI 让写代码变得人人可及，程序员是否还会被需要，未来的工作形态又将如何演变。该条目前只有标题，问题下的回答和讨论内容未收录，因而无法给出更多具体信息。",
+    "summary_en": "This Zhihu question asks whether programmers will still be needed when AI lets everyone write code, and what their future work might look like. Since the entry includes only the title and no answers or discussion text, the linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "949facf600fb"
+  },
+  "hn-49568506": {
+    "summary_zh": "这条 Hacker News 帖子的标题是“Formalizing Fermat's Last Theorem”，链接指向 xenaproject.wordpress.com 上的一篇文章，URL 显示发表日期为 2026 年 9 月 4 日。条目没有附带正文或摘录，因此文章的具体方法与验证进展无法从本条获知。",
+    "summary_en": "This Hacker News submission is titled 'Formalizing Fermat's Last Theorem' and links out to a Xena Project blog post; the URL path indicates a publication date of September 4, 2026. The Hacker News item itself does not include an excerpt or the actual article text. The linked page isn't summarized here; details beyond the title and URL aren't available.",
+    "input_hash": "aea330492a48"
+  },
+  "36kr-3969992945955076": {
+    "summary_zh": "36氪这条资讯的标题称苹果提前揭晓了带触屏的 MacBook Pro，并以“终于能戳同事电脑”的口吻调侃。该条目没有收录正文，除了标题信息外，没有提供产品规格、发布时间或是否官方正式发布等更多细节。",
+    "summary_en": "This 36Kr item reports, per its headline, that Apple has early-revealed a touchscreen MacBook Pro — a development the writer jokes now lets them poke coworkers' screens. The item itself contains only the headline, with no article body included in the feed. Consequently, specs, availability, or official confirmation can't be determined from this entry.",
+    "input_hash": "038ee834b076"
+  },
+  "gh-daily-humanlayer-skills": {
+    "summary_zh": "HumanLayer 为 Claude Code 发布了一组 skills，可通过 `npx skills add humanlayer/skills --skill <名称>` 安装。improve-claude-md 用 `<important if>` 块提升 CLAUDE.md 的指令遵循度，narrow-react-prop-types 则把组件 props 收窄到真实代码路径而不是 Storybook/测试 mock。适合想让 Claude 在仓库内更贴合已有约定的团队。",
+    "summary_en": "humanlayer/skills is a collection of Claude Code skills from HumanLayer, installed with `npx skills add humanlayer/skills --skill <name>`. Included skills rewrite CLAUDE.md using `<important if>` blocks for better instruction adherence (improve-claude-md) and narrow React component props to match real code paths instead of Storybook-only or mock states. Teams using Claude Code can standardize agent behavior and reduce prompt drift.",
+    "input_hash": "c8cfd17ad60c"
+  },
+  "36kr-3969914762670601": {
+    "summary_zh": "该条只有标题：字节跳动拿到 296 亿美元“弹药”，大厂集体为 AI 找钱，并讨论还能烧多久、谁先扛不住。原文未提供正文，无法确认资金形式、用途与各家承受力等细节。",
+    "summary_en": "According to the headline, ByteDance has secured $29.6 billion in “ammunition” while big tech players raise money for AI, with the question being how long they can keep burning cash and who will break first. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "b21284364c54"
+  },
+  "36kr-3969913513341185": {
+    "summary_zh": "这是一条以“HBM，生变”为标题的资讯，指向高带宽内存领域可能发生的变化，但标题本身未说明具体变动方向。原文是链接，未提供更多细节，因此除标题外无法进一步概括内容。",
+    "summary_en": "This item is headlined “HBM, changing,” suggesting some shift involving high-bandwidth memory, but the article itself isn't included here. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "3c6dc693bcef"
+  },
+  "juejin-7646305182667784243": {
+    "summary_zh": "一位日常使用 React、Vue 的前端开发者，记录了自己用 Python 从零写出一个极简 AI 聊天框 demo 的过程；这次实现没有写 HTML，也没有引入复杂前端框架。对想低成本接触 AI、又不想重构前端技术栈的开发者来说，这是一次很轻量的跨界示范。",
+    "summary_en": "A frontend developer who primarily works in React and Vue shares how they built a minimal AI chatbox demo from scratch in Python, without writing HTML or pulling in a heavy frontend framework. It's a lightweight cross-stack reference for developers who want to touch AI without rebuilding their frontend setup.",
+    "input_hash": "aae55eb464d2"
   }
 }
