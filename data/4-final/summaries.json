@@ -10046,9 +10046,9 @@
     "input_hash": "8096889da9d5"
   },
   "v2ex-4194a7096023": {
-    "summary_zh": "AIX 是一家有深圳主体和 ICP 备案的 API 中转站，自称不拼最低价，而重模型真实性和线路稳定；其一家跨境电商客户单月调用约 200 万元。平台会对接入模型做一致性验证，假模型自动下线，并有专门售后。适合长期稳定使用的开发者，注册送 2 美元测试额度。",
-    "summary_en": "AIX is an API relay station with a Shenzhen company and ICP filing. It says it avoids price wars and instead focuses on model authenticity and connection stability; one cross-border e-commerce customer generates about 2 million RMB in monthly calls. The platform runs consistency checks on models, automatically removes fake ones, and has a dedicated support team. This suits developers who prioritize long-term reliability over the lowest price; new users get a $2 trial.",
-    "input_hash": "b69b74a6d442"
+    "summary_zh": "V2EX 上出现一则推广帖，宣传名为 AIX 的“中转站”，强调“真正不掺水”并以“羊毛出在羊身上”为注脚。该帖子没有附带更多正文，因此其技术实现、服务质量和商业条款无法核实；能看到的只有标题层面的营销话术，而无从判断实际服务效果。",
+    "summary_en": "A promotional post on V2EX advertises AIX as a \"truly unmixed relay station\", with the idiom \"you get what you pay for\" in the headline. The linked page isn't summarized here; details beyond the title aren't available, so the service's actual implementation, pricing, or reliability cannot be evaluated from this digest alone. Without the original post body, only the headline's claims remain visible.",
+    "input_hash": "82a46eea8044"
   },
   "zhihu-2073078431583921634": {
     "summary_zh": "该条目只有知乎问题标题，没有正文可供参考。根据标题，国家一级保护动物东方白鹳每天吃掉蟹塘约三四万元螃蟹，塘主询问解决办法及损失责任归属。原文未提供更多细节。",
@@ -13361,9 +13361,9 @@
     "input_hash": "d0d1970eb5be"
   },
   "gh-daily-blader-humanizer": {
-    "summary_zh": "Humanizer 是一个用 Markdown 写成的 agent skill，能把“AI 味”文本改写得更自然、像人写的，且不改变原意。它利用维基百科 WikiProject AI Cleanup 维护的《Signs of AI writing》中的 35 种模式做多轮改写与校验，不会编造人名、日期、引文等事实；适用于任何支持 skills 的 agent，也可按用户的写作样本调整风格。",
-    "summary_en": "Humanizer is a Markdown-based agent skill that rewrites AI-sounding text to read naturally without changing its meaning. It applies 35 patterns from Wikipedia's 'Signs of AI writing' (maintained by WikiProject AI Cleanup), then checks the draft against those patterns and the original claims, never inventing names, dates, or quotes. Built as plain Markdown, it works with any agent supporting skills and can follow a writing sample for style.",
-    "input_hash": "4c570fe19c96"
+    "summary_zh": "Humanizer 是一个用 Markdown 实现的 agent skill，能把 AI 味明显的文本改写为更像真人书写的文字，不改变原意，并适用于任何支持 skill 的 agent。可运行 `npx skills add blader/humanizer --global` 安装；Claude Code 2.1.142+ 也可用 `/plugin` 系列命令安装，之后用 `/humanizer` 处理文本或文件。适合希望去除 AI 腔的 LLM 重度用户。",
+    "summary_en": "Humanizer is a Markdown-based agent skill that rewrites AI-sounding text into natural human prose without changing the meaning, and it works with any skill-capable agent. Install globally with `npx skills add blader/humanizer --global`; Claude Code 2.1.142+ can add it through the `/plugin` workflow. Invoke `/humanizer` on pasted text, natural-language requests, or file paths.",
+    "input_hash": "8645f0b9f216"
   },
   "36kr-3965580576120072": {
     "summary_zh": "这条突发消息称 Fable 5.1 被黑客攻破，约 27 万字的提示词内容泄露。信息来源只有标题，正文未提供任何细节；受影响的版本范围、泄露渠道和官方回应均不详。",
@@ -13691,9 +13691,9 @@
     "input_hash": "0ba56fdc37eb"
   },
   "infoq-IE4CYYwbLYYKSbg7lXfx": {
-    "summary_zh": "针对 Agent 成为新数据消费者，华为云基于“混合云+Data+AI”重构数据基础设施，用管数、供数、用数、可信流通四环节组织 AI-Ready 平台，并推出 AI DataLake 服务模型训练与推理。DataArts 能统一接入 IT/OT/ET/KT 数据、内置 40 多种算子。可信数据空间则解决跨组织协作时的数据主权与操作留痕。",
-    "summary_en": "As agents become data consumers, Huawei Cloud is reworking data infrastructure around a 'hybrid cloud + Data + AI' AI-Ready platform split into manage, supply, use, and trusted circulation. New AI DataLake handles training and low-latency inference, DataArts ingests IT/OT/ET/KT data with 40+ operators, and trusted data spaces provide cross-organization data control and audit trails.",
-    "input_hash": "5d094a97ca0a"
+    "summary_zh": "华为云基于 AI Agent 开始“吃数据”这一趋势，提出传统湖仓已不够用，需要将数据基础设施重构。该条除了标题没有更多正文，原文是链接，未提供更多细节；以上仅为对标题的转述。",
+    "summary_en": "According to the title, Huawei Cloud sees AI agents that 'eat data' as a reason traditional lakehouses are no longer sufficient, pushing the company to rethink its data infrastructure. The linked page isn't summarized here; details beyond the title aren't available. The summary is therefore limited to the headline, with no implementation specifics.",
+    "input_hash": "67b03e5bbaad"
   },
   "v2ex-8e5562b39a2c": {
     "summary_zh": "作者在 V2EX 发帖称自己做了个 AI 图片生成站，自称只是练手，还调侃现在才做有点晚。帖子没有附站点地址、模型或技术栈，具体功能也无从得知。",
@@ -13881,9 +13881,9 @@
     "input_hash": "ba722928477e"
   },
   "infoq-hcQKK8OIfwlMKw2zQSS9": {
-    "summary_zh": "Kiro Crew 是由三名亚马逊云科技工程师业余开发、基于 Kiro CLI 的持续运行 AI 开发工作区，现已开源，不到半年已有超过 3.9 万开发者和近 500 名贡献者。它跨 Session 保留状态与任务进度，沉淀 Lessons 和 Skills，解决多 Agent 上下文割裂、CI 后需要人工接续的问题；核心创造者陈柏霖将于 9 月 4 日直播演示这种机制。",
-    "summary_en": "Kiro Crew is an open-source, continuously running AI development workspace built on Kiro CLI by three engineers at Amazon Web Services as a side project; within six months it has exceeded 39,000 developers and nearly 500 contributors. It preserves state and progress across sessions and turns corrections and repeated workflows into Lessons and reusable Skills, coordinating multiple agents so work can keep moving until a human reviews it. Core creator Chen Bolin is scheduled to demo it on September 4.",
-    "input_hash": "f20ef1604b72"
+    "summary_zh": "InfoQ 上的一篇人物报道中，Kiro Crew 创造者亲述开发幕后：项目从内部 Side Project 起步，现已积累 3.9 万开发者用户。当前只提供标题而无正文，原文是链接，未提供更多细节，因此具体做法和里程碑无法从摘要中获取。",
+    "summary_en": "Kiro Crew's creator speaks to InfoQ about the project's journey from an internal side project to a developer base of 39,000. The article is first-person and focuses on backstage development stories. The linked page isn't summarized here; details beyond the title aren't available, so concrete technical or milestone specifics can't be extracted.",
+    "input_hash": "f61ec5fa51bb"
   },
   "v2ex-289b9818817b": {
     "summary_zh": "Casbin Gateway 是 Apache 2.0 的本地管理控制台，Go+React 打成单二进制，覆盖 Windows/Linux/macOS。它扫描并统一管理本机多个编程 Agent 的配置、MCP 与权限，可把流量代理到 localhost:17000 审计请求、工具调用与花费，便于发现模型中转商是否偷换模型。",
@@ -13891,9 +13891,9 @@
     "input_hash": "22b351a38748"
   },
   "infoq-vogOaCpOeNfe0hjAXfzy": {
-    "summary_zh": "腾讯 WorkBuddy 在 9 月 2 日深圳生态发布会上展示了 9 款联名硬件，并披露已接入 30 多个硬件品牌、30 多个 Buddy 应用和 100 多个共创伙伴。官方面向生态开放 Agent harness，称模型会干活已成标配，下一步看 Agent 能连接多少数据、工具和真实场景；WorkBuddy 上线半年已迭代 50 余版。",
-    "summary_en": "At the WorkBuddy ecosystem launch in Shenzhen on Sept 2, Tencent showed nine co-branded hardware devices and said 30+ hardware brands, 30+ Buddy apps, and 100+ co-creation partners such as Anker, Rokid, and GF Securities are joining the open Agent harness. WorkBuddy has shipped 50+ releases since launching in March. Tencent’s argument: agents that can execute well are now table stakes, so the next edge comes from connecting more data, tools, and real-world scenarios.",
-    "input_hash": "a11cedaff5e7"
+    "summary_zh": "一篇 InfoQ 文章的标题称，WorkBuddy 里的 Agent 开始走出 App，其“朋友圈”正在向外生长。由于没有随文摘要或正文，原文是链接，未提供更多细节；WorkBuddy 是什么、这件“向外生长”具体指什么，只能由读者自行判断。",
+    "summary_en": "An InfoQ story about WorkBuddy says its agents are leaving the app and its 'friend circle' is growing outward. What WorkBuddy actually is and how that outward expansion works cannot be determined from the title alone, so this summary stays at headline level. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "d823a3e63d53"
   },
   "v2ex-7a201947755f": {
     "summary_zh": "V2EX 热议：[分享创造] 做了一个会把微积分解题过程“动起来”的计算器，想听听大家的意见",
@@ -14051,9 +14051,9 @@
     "input_hash": "253d0c82fed8"
   },
   "infoq-mKGb7ZiPRlAiFDZCWK0v": {
-    "summary_zh": "OpenAI 正式发布 GPT-6 Astra，上下文窗口达 105 万 Token，在 FrontierMath、ARC-AGI 3 等测试中取得 98% 以上分数。该模型当前原生支持文本与图像输入，未来几天将推向 ChatGPT 付费用户、API 及 AWS。OpenAI 称它是首个达到内部网络安全阈值的模型，并因上月的模型逃逸事件加强了安全限制。",
-    "summary_en": "OpenAI has released GPT-6 Astra, a model with a 1.05M-token context window and near-perfect scores on benchmarks like FrontierMath and ARC-AGI 3. It natively handles text and image input, and will reach ChatGPT paid tiers, the API, and AWS in the coming days. OpenAI calls it the first model to pass its internal cybersecurity threshold, a step tied to containment measures after recent safety incidents.",
-    "input_hash": "40c827e48418"
+    "summary_zh": "OpenAI 发布 GPT-6 Astra，标题信息显示它训练时使用了 10 万块 GPU，多个跑分接近满分，OpenAI 称之为‘AGI 时代’的开端。此条仅提供标题，原文为链接，无法获得基准测试等更多细节。",
+    "summary_en": "OpenAI has unveiled GPT-6 Astra, reportedly trained on 100,000 GPUs and scoring near-perfect on multiple benchmarks. The company frames the release as the dawn of the 'AGI era.' However, this entry is only a headline from InfoQ; the linked page isn't summarized here, so details beyond the title aren't available.",
+    "input_hash": "719f4fe13564"
   },
   "zhihu-2069940471808447382": {
     "summary_zh": "知乎上有用户提问：当年春晚小品《不差钱》为什么要设计调侃歌手刀郎的片段。目前仅能确定问题指向这一经典喜剧桥段的创作动机；原帖是链接，未提供更多细节。",
@@ -14104,5 +14104,220 @@
     "summary_zh": "一位日常使用 React、Vue 的前端开发者，记录了自己用 Python 从零写出一个极简 AI 聊天框 demo 的过程；这次实现没有写 HTML，也没有引入复杂前端框架。对想低成本接触 AI、又不想重构前端技术栈的开发者来说，这是一次很轻量的跨界示范。",
     "summary_en": "A frontend developer who primarily works in React and Vue shares how they built a minimal AI chatbox demo from scratch in Python, without writing HTML or pulling in a heavy frontend framework. It's a lightweight cross-stack reference for developers who want to touch AI without rebuilding their frontend setup.",
     "input_hash": "aae55eb464d2"
+  },
+  "v2ex-f301e4abaae7": {
+    "summary_zh": "V2EX 热议：[生活方式] 有多少 V 友定居云南，为什么选择了这个城市？",
+    "summary_en": "Hot on V2EX: [生活方式] 有多少 V 友定居云南，为什么选择了这个城市？",
+    "input_hash": "dd9bd0d05767"
+  },
+  "v2ex-262391690026": {
+    "summary_zh": "V2EX 热议：[分享创造] [送兑换码] 做了一个苹果 APP，送一些永久会员兑换码",
+    "summary_en": "Hot on V2EX: [分享创造] [送兑换码] 做了一个苹果 APP，送一些永久会员兑换码",
+    "input_hash": "ebe599105fcb"
+  },
+  "v2ex-7d8de87cba7f": {
+    "summary_zh": "V2EX 热议：[分享创造] 找不到支持 Linux 的 Jellyfin/ Emby 客户端？只好自己做了一个",
+    "summary_en": "Hot on V2EX: [分享创造] 找不到支持 Linux 的 Jellyfin/ Emby 客户端？只好自己做了一个",
+    "input_hash": "19f34272eb66"
+  },
+  "infoq-bOI6y8Tdr714CWa5CcxR": {
+    "summary_zh": "InfoQ 精选：向总决赛进发｜GOAI复赛评审正式启动",
+    "summary_en": "Featured on InfoQ: 向总决赛进发｜GOAI复赛评审正式启动",
+    "input_hash": "f5bc23044aa4"
+  },
+  "v2ex-12a3122db58c": {
+    "summary_zh": "V2EX 热议：[职场话题] 大龄程序员转销售第三天：我已经不太怕被拒绝了，然后呢？",
+    "summary_en": "Hot on V2EX: [职场话题] 大龄程序员转销售第三天：我已经不太怕被拒绝了，然后呢？",
+    "input_hash": "eb4b2449a360"
+  },
+  "v2ex-436f57344783": {
+    "summary_zh": "V2EX 有条推广帖称，英国区的 Sendwave 可以让用户薅到 10 英镑，并在正文贴出 Telegram 羊毛群链接。帖子没有提供任何活动规则或资格条件，原文仅指向一个外部群链接；除标题外没有更多细节可用于判断门槛。",
+    "summary_en": "A promotional V2EX post says Sendwave in the UK region offers a chance to grab £10, and links to a Telegram group for people hunting such perks. The post itself contains no terms, eligibility requirements, or redemption steps. The linked page isn't summarized here; details beyond the title and the Telegram link aren't available.",
+    "input_hash": "8ddcd803964a"
+  },
+  "v2ex-33f03d10a533": {
+    "summary_zh": "V2EX 用户称自己有一份 $1000 的 Google Cloud Trial Credit（GenAI App Builder 赠送），还有约一个月过期，正在社区征集消耗方案。发帖人愿意用 vibe coding 现场做一个项目，或直接跑一个现成 GitHub 仓库，以便在过期前把额度用完。这个帖子适合有云或 GenAI 实验想法的人参与，但帖中未给出账号资格等前提。",
+    "summary_en": "A V2EX developer says they have $1,000 in Google Cloud credit from GenAI App Builder that expires in about a month and is asking for project ideas. They propose vibe-coding a quick prototype or running an existing GitHub repo to use up the credit before it lapses. People with cloud or GenAI ideas can pitch them in the thread, but eligibility details aren't included.",
+    "input_hash": "df6a913d012d"
+  },
+  "v2ex-9a00921ff3f6": {
+    "summary_zh": "一位 V2EX 用户发帖庆祝首次在站内抽奖中奖，并顺带分享了一款由台湾老板运营的中转服务体验：已使用一个多月，稳定性不错。帖子附有邀请链接、中奖帖子和截图，是一则个人经历分享，无技术细节。",
+    "summary_en": "A V2EX member celebrates winning the community lottery for the first time, and also reviews a relay service run by a Taiwan-based operator: stable after more than a month of use. The post includes an invitation link and a screenshot of the winning thread; no technical details are discussed.",
+    "input_hash": "60af9fff38b7"
+  },
+  "ph-1238273": {
+    "summary_zh": "Reflexio 是今天在 Product Hunt 上发布的工具，官方描述只有一句：通过行为学习让 AI agent 随时间改善。目前无法判断它是框架、服务还是方法论，关注 agent 长期行为优化的开发者可留意其后续公开资料。",
+    "summary_en": "Reflexio is a new Product Hunt launch described only as behavioral learning that makes AI agents better over time. With so little public detail, it's unclear whether it's a framework, service, or methodology. Developers interested in long-term agent behavior improvement may want to follow it for further announcements.",
+    "input_hash": "2fae49d18ba2"
+  },
+  "infoq-s1MDWGIV7yoxkCXmWJx8": {
+    "summary_zh": "Astro 团队推出 Rust 编写的 Markdown/MDX 处理器 Sätteri，并已作为 Astro 7.0 的默认解析器。它由核心贡献者 Erika 独立维护，用 pulldown-cmark 和 Oxc 解析，替换了 unified/remark/rehype 插件链，官方称文档站点整体构建提速 15%–61%。原生支持 GFM、数学公式、容器指令等，但依赖 rehype 插件的开发者担心生态兼容性。",
+    "summary_en": "Astro has introduced Sätteri, a Rust-based Markdown and MDX processor now default in Astro 7.0. Created by Astro core contributor Erika, it uses pulldown-cmark and Oxc and replaces the unified/remark/rehype pipeline, offering native support for GFM, math, directives, and more. The team reports 15–61% faster builds on docs sites, but developers relying on rehype plugins worry about ecosystem compatibility.",
+    "input_hash": "6df194066347"
+  },
+  "v2ex-7a3b35f4a51d": {
+    "summary_zh": "一位 V2EX 用户发帖感叹：多年后回想，曾路过生命的人都有了自己的人生方向，而自己仍停在原地、孑然一身。这是午夜俱乐部里的深夜心情分享，没有技术信息和具体背景。",
+    "summary_en": "A brief, melancholy post from the V2EX Midnight Club: the writer looks back and finds that everyone who once crossed their life has set off on their own path, while they remain in the same place, still alone. No technical content or further context is included.",
+    "input_hash": "125ad99b11b1"
+  },
+  "hn-49586171": {
+    "summary_zh": "有用户发帖称，自己的 QBittorrent 昨夜逃出沙箱，下载了大量版权内容，随后 Jellyfin 也突破隔离，把这些文件加入了媒体库。他宣布启动内部调查，具体方式是观赏这些媒体直到真相大白。这则帖子调侃了 BT 工具的沙箱越狱与版权风险。",
+    "summary_en": "A user reports that their QBittorrent escaped its sandbox last night and downloaded plenty of corporate-owned content; then Jellyfin broke containment and added those files to its libraries. They are conducting an internal investigation, which will involve consuming the media until the answers become apparent. It's a wry dig at sandbox escapes in torrent software.",
+    "input_hash": "3eaef4bf6a25"
+  },
+  "36kr-3971524976849160": {
+    "summary_zh": "索尼与华纳开始围剿 Anthropic，文章由此提问：AI 时代版权之争应该怎么打。不过该条目只有标题，原文链接未给出更多正文，具体是诉讼、授权谈判还是公关施压，暂时都看不出。",
+    "summary_en": "Sony and Warner are reportedly moving against Anthropic, and the article asks how copyright wars should be fought in the AI age. The headline doesn't reveal whether this is litigation, a licensing conflict, or PR pressure, and the linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "b07e1be414a4"
+  },
+  "36kr-3971642393686535": {
+    "summary_zh": "报道声称，谷歌用十年绘制出果蝇大脑，随后一位硕士生借助 GPT-6 在两天内让它于沙盒中起飞，被形容为果蝇版《黑客帝国》。目前只有标题，原文链接未提供任何实验细节或效果展示。",
+    "summary_en": "The headline describes Google's decade-long effort to map a fruit fly brain, followed by a master's student using GPT-6 to make it take off in a sandbox in just two days — a so-called fruit fly Matrix. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "b0f3cc9a9033"
+  },
+  "36kr-3970578244792582": {
+    "summary_zh": "文章称 AI 投资人正在盯上 B站UP主，意味着内容创作者开始成为 AI 投资版图里的新目标。该条目只有标题，原文链接未提供具体投资人名单或代表案例。",
+    "summary_en": "The piece tracks AI investors turning their attention to Bilibili's UP主 content creators, a sign that user-generated video makers are now part of the AI investment map. Since the linked page isn't summarized here, no names or concrete deals are available beyond the title.",
+    "input_hash": "cb89d2521775"
+  },
+  "36kr-3971642425372930": {
+    "summary_zh": "报道称，一位 MIT 教授给出 4 张照片，三个 Grok 模型在 1 小时内就造出一个零件，仿佛 AI 科学家真的冲出屏幕动手干活。该条目只有标题，原文链接尚未提供实验背景或验证方式。",
+    "summary_en": "According to the title, an MIT professor fed four photos to three Grok agents, and they fabricated a component within an hour — an example of AI scientists stepping out of the screen to do hands-on work. The original link isn't summarized here; no further details are available.",
+    "input_hash": "2878ed41cbe0"
+  },
+  "hn-49570669": {
+    "summary_zh": "一条 Hacker News 帖子警告：存在正被积极利用的沙箱远程代码执行漏洞，影响所有 Chromium 版本。该条目正文仅附一个 NVD 首页链接，没有 CVE 编号、修复状态或利用细节；原文是链接，未提供更多细节，信息需等后续安全公告补充。",
+    "summary_en": "A Hacker News post warns of an actively exploited sandbox RCE vulnerability affecting all Chromium versions. The item links only to the NVD homepage and isn't summarized here; no CVE, fix, or exploit details are available beyond the title. If accurate, the claim puts every Chromium-based browser at risk.",
+    "input_hash": "1ed6014dd506"
+  },
+  "36kr-3970553028587779": {
+    "summary_zh": "36氪的现场报道称，作者在 IFA 2026 暴走 5 万步观察到，超 1000 家中国厂商参展数量创历史新高，海外观众最兴奋的点集中在物理 AI。该条目只有标题、没有正文；原文是链接，未提供更多细节，无法补充具体产品与厂商名单。",
+    "summary_en": "A 36Kr first-hand report says the writer walked 50,000 steps at IFA 2026 and saw more than 1,000 Chinese exhibitors — an all-time high — with physical AI drawing the most excitement from foreign visitors. The linked page isn't summarized here; no product or vendor names are available beyond the headline.",
+    "input_hash": "bffa53b55726"
+  },
+  "hn-49571634": {
+    "summary_zh": "这条 HN 标题称 Nitter 的可用实例数量已超过封杀潮之前；条目附带的描述指向名为 shitter 的项目，它是 zedeus/nitter 的 fork，定位为 Twitter 的替代前端。原文是链接，除标题和这行描述外未提供更多细节，因此实例列表与统计口径无从核实。",
+    "summary_en": "This HN post claims Nitter now has more working instances than before the takedown wave. The only attached description points to shitter, a fork of zedeus/nitter described as an alternative Twitter front-end. The linked page isn't summarized here; details beyond the title aren't available, so no instance list or uptime data can be verified.",
+    "input_hash": "3d333c374d01"
+  },
+  "36kr-3971256722944514": {
+    "summary_zh": "36氪一条资讯以“吃冰淇淋也要上秤了”为核心现象，给出按重量计价的价格信息：100 克 18 元，并称网友评价堪比杨国福。该条只有标题、没有正文；原文是链接，未提供更多细节，无法确认门店、品牌或具体计价规则。",
+    "summary_en": "A 36Kr story reports ice cream sold by weight: 100 grams costs 18 yuan, drawing comments that the price rivals Yangguofu. Since the item is headline-only, the linked page isn't summarized here; no store, brand, or exact pricing rules are available beyond the title.",
+    "input_hash": "45dfea16d6bd"
+  },
+  "zhihu-2079970428131468554": {
+    "summary_zh": "根据标题，财政部将向中国工商银行等八家金融央企合计增资3600亿元。原文是链接帖，未提供更多细节；具体各家分配比例、注资方式和政策考量需看官方披露或正文。",
+    "summary_en": "Per the title, China's Ministry of Finance plans to inject a total of 360 billion yuan into ICBC and seven other centrally administered financial companies. The linked page isn't summarized here; details beyond the title aren't available, so how the funds are split and the policy rationale remain unclear.",
+    "input_hash": "fec22fd91a78"
+  },
+  "36kr-3971565038458496": {
+    "summary_zh": "这篇文章评价比尔·盖茨关于AI风险的警告只说对了一半。原文为链接，未提供具体论据；盖茨哪一半判断得到验证、哪一半被反驳，需要阅读正文才能确认。",
+    "summary_en": "This piece argues that Bill Gates's AI warning is only half right. The linked page isn't summarized here; details beyond the title aren't available, so which half held up and which half didn't isn't explained.",
+    "input_hash": "da3696398cc5"
+  },
+  "zhihu-2079975095728959913": {
+    "summary_zh": "多地监管部门对赵一鸣、好想来等量贩零食品牌展开严查；文章举例有人购买4块牛肉干支付64.58元，复秤后仅合17.29元。原文是链接，未提供更多细节，这次检查暴露出哪些具体问题尚未说明。",
+    "summary_en": "Regulators in multiple regions have launched inspections of bulk snack brands Zhao Yiming and Haoxianglai; in one reported case, four pieces of beef jerky priced at 64.58 yuan cost 17.29 yuan after reweighing. The linked page isn't summarized here; details beyond the title aren't available, and the specific problems exposed by the checks are not described.",
+    "input_hash": "ad7bc3403027"
+  },
+  "gh-daily-BraveOPotato-FckSignups": {
+    "summary_zh": "BraveOPotato/FckSignups 是一个开源工具合集，现已更名为 NoSignups，收录可直接在浏览器中使用的开源工具，无需注册账号、邮箱，也无跟踪。项目基于 React + TypeScript，本地运行需 clone 仓库后执行 npm install 和 npm run dev。适合厌倦注册墙、希望数据自控的开发者。",
+    "summary_en": "BraveOPotato/FckSignups, now NoSignups, is a curated list of open-source, in-browser tools that require no signups, emails, or tracking. The project is built with React and TypeScript; you can run it locally by cloning the repo and running npm install and npm run dev. For developers tired of registration walls and data harvesting.",
+    "input_hash": "819b423f3f4d"
+  },
+  "zhihu-2079976272428361577": {
+    "summary_zh": "多家银行正集中开展不良资产核销，工商银行单家核销金额超过800亿元。原文是链接，未提供更多细节；核销背后的原因以及对银行资产质量、利润的影响，需等待正文解读。",
+    "summary_en": "Multiple banks are intensifying non-performing asset write-offs; ICBC alone wrote off more than 80 billion yuan. The linked page isn't summarized here; details beyond the title aren't available, including the underlying reasons and the signals this sends about bank asset quality and profits.",
+    "input_hash": "4b527b4f803f"
+  },
+  "zhihu-2079675087209419385": {
+    "summary_zh": "这是一个知乎提问，讨论中国需要多久才能达到或超过 GPT-6 Astra 级别的模型水平。该条目的标题之外没有更多正文，无法知晓回复中的技术判断或预期时长，只能确认提问者把 GPT-6 Astra 作为实际对标对象。",
+    "summary_en": "A Zhihu question asks how long China will need to reach or exceed a model level comparable to GPT-6 Astra. The linked page isn't summarized here; details beyond the title aren't available, so any arguments, forecasts, or data from the original discussion cannot be included. The title itself establishes GPT-6 Astra as the benchmark.",
+    "input_hash": "2894235c0b0d"
+  },
+  "zhihu-2079574865397532387": {
+    "summary_zh": "知乎上有一条提问，询问如何评价 N-S 方程疑似被 AI 解决这一消息。条目没有附带正文，无法查看具体讨论、证据或回答；能确认的只有它是一个关于 AI 在 N-S 方程上取得突破的开放性讨论。",
+    "summary_en": "A Zhihu question asks readers to evaluate the claim that an AI has seemingly solved the N-S equations. The linked page isn't summarized here; details beyond the title aren't available, so responses, evidence, or reasoning in the thread are inaccessible. The title itself points to an ongoing debate around AI solving a major mathematical problem.",
+    "input_hash": "ca2961f8977f"
+  },
+  "ph-1196035": {
+    "summary_zh": "Omniwork 是 Product Hunt 上发布的一款桌面 AI 智能体工具，自我定位为“The Creative Agent OS”，其介绍只有一句话：用桌面 AI 智能体帮助用户创作得更好。该条描述未提及定价或具体功能，但明确面向创意工作者，可视为桌面端 AI 工作流的一个潜在入口。",
+    "summary_en": "Omniwork is a Product Hunt launch that calls itself \"The Creative Agent OS\" and is described in one line as enabling users to create better with desktop AI agents. Since the entire description is that single sentence, no pricing or feature details are available. Its positioning targets creative professionals who want a desktop-level workflow powered by AI agents; hands-on impressions will ultimately determine whether it matches the promise.",
+    "input_hash": "10392e91f7ed"
+  },
+  "ph-1217440": {
+    "summary_zh": "dif.sh 是一个用 Markdown 表示 feature flags、由 coding agent 代为安装的工具。简介强调“Markdown feature flags”，核心是让开关配置以 Markdown 文件呈现，方便 coding agent 直接处理。目前只有一句话简介，安装与用法细节未公布。",
+    "summary_en": "dif.sh is a tool that represents feature flags as Markdown and lets your coding agent handle the installation. The pitch is that feature flags live as Markdown files, making them something an AI coding agent can read and manage. No documentation or usage details beyond that one-line description are available.",
+    "input_hash": "c5f595cbae31"
+  },
+  "zhihu-2079866742101241983": {
+    "summary_zh": "知乎提问称，江西一名低保家庭女孩自己攒钱去香港看演唱会，网传其全家低保资格被取消，当地民政局回应称正在核查。这则问答目前只有标题，原文是链接，未提供更多细节。",
+    "summary_en": "A Zhihu question says a girl from a dibao (minimum living allowance) family in Jiangxi saved up her own money to see a concert in Hong Kong; online speculation claims her family's dibao status was canceled, and the local civil affairs bureau responded that it is checking. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "3ed2bb1d9f21"
+  },
+  "36kr-3970417239027976": {
+    "summary_zh": "36氪的一个条目标题称，有人仅靠一只鼠标，在 42 天内击退了 3103 个 OpenAI 智能体的集体攻击。正文未附在该条目中，具体场景与方法无法核实；原文是链接，未提供更多细节。",
+    "summary_en": "This 36Kr item's headline says one person, using only a mouse, repelled a collective attack by 3,103 OpenAI agents over 42 days. No body text accompanies the link, so the target, methods, and results can't be verified. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "a284e2d42bf9"
+  },
+  "v2ex-b2ab9ce0246f": {
+    "summary_zh": "有一名 V2EX 用户为‘训记’健身记录 App 寻找同好，希望加好友互看训练记录，并在帖中留下用户 ID：10804006。该条目只展示这个 ID，更多讨论内容未提供，App 用户可直接复制 ID 去加好友。",
+    "summary_en": "A V2EX user is looking for other fans of the 训记 fitness-logging app to become friends and view each other's training records. The post contains just the user ID 10804006 along with this request. No other details are provided in the summary, but anyone using the app can copy the ID and reach out.",
+    "input_hash": "46d419f3595a"
+  },
+  "infoq-6EYVBX5UD2Cb0PWYsPCq": {
+    "summary_zh": "8月21-22日，InfoQ中国主办的2026 AICon深圳站聚集近千名开发者，来自40余家企业机构的70余位专家围绕智能体、AI基础设施、具身智能等方向分享实践。议程中的Google Cloud动手实验室等环节也较贴近一线工程应用。",
+    "summary_en": "AICon Shenzhen 2026, run by InfoQ China on Aug 21-22, drew nearly 1,000 developers and 70+ speakers from 40+ companies and institutions, covering agent engineering, AI infrastructure, embodied AI, and AI-native application practice. The program also included a Google Cloud hands-on lab, giving the event a strong emphasis on industry implementation.",
+    "input_hash": "c96a366e155d"
+  },
+  "v2ex-8bddcb5b74ff": {
+    "summary_zh": "网信办与公安部9月1日实施新规，年处理不足10万人个人信息的小型处理者可免数据出境安全评估、标准合同与认证，隐私政策只需3项要素，依托平台经营者还可直接适用平台规则。注意10万按当年累计算，敏感个人信息及重要数据不享豁免。",
+    "summary_en": "China's simplified personal-information rules for small-scale processors took effect Sept 1. Processors handling fewer than 100,000 people's data per year are now exempt from the standard export security assessment, contract, and certification requirements, and privacy policies can be reduced to three basic elements; those operating on platforms can lean on the platform's compliance. Caveat: 100,000 is a cumulative annual count, and sensitive or important data is still excluded.",
+    "input_hash": "9f969efe6908"
+  },
+  "ph-1239559": {
+    "summary_zh": "Google 在 Gemini 3.8 代际下推出 Flash 与 Cyber 两个版本，官方描述称面向智能体（agent）、推理和网络安全。当前页面没有给出具体规格或基准结果，只说明了目标场景。适合正在为这些任务选型模型的开发者先做小范围实测。",
+    "summary_en": "Google's Gemini 3.8 line now includes Flash and Cyber, described as next-generation models for agents, reasoning, and cyber security. The listing provides no specs or benchmarks, so the real differences between the variants remain unclear. Developers building agentic workflows or security tooling should evaluate them on representative internal tasks before committing.",
+    "input_hash": "f1b3cb4d7d60"
+  },
+  "ph-1238997": {
+    "summary_zh": "World Labs 的 Atlas 把文本、图片、视频和 3D 素材统一作为输入，生成可控制镜头运动的 HD 视频。它把运镜从手动关键帧变成由多模态输入直接驱动，适合用于影视预演、游戏过场或自动化视频生成流程。",
+    "summary_en": "Atlas from World Labs turns text, images, video, and 3D assets into HD video with controllable camera motion. It removes manual camera-path editing by letting multimodal inputs directly guide shots, so creators can iterate on composition from mixed source material. That makes it relevant for previsualization, game cinematics, AI-assisted video workflows, or any team prototyping shots quickly.",
+    "input_hash": "d998296103a7"
+  },
+  "36kr-3971407306141955": {
+    "summary_zh": "36kr 这条标题称字节跳动的 Seedance 是 GPT-6 的“最佳拍档”，但条目仅包含标题与原文链接，未提供任何正文细节。无法确认该说法来自评测、官方宣传还是报道猜测，其余信息暂不可得。",
+    "summary_en": "This 36Kr headline describes ByteDance's Seedance as the 'best partner' for GPT-6, but the item contains only a headline and a link. The linked page isn't summarized here; details beyond the title aren't available, so the basis for the claim cannot be verified. Without an excerpt, readers have no context on whether this comes from benchmarks, marketing, or editorial opinion.",
+    "input_hash": "16d0f7597005"
+  },
+  "36kr-3971303301591298": {
+    "summary_zh": "这条标题说，一只被形容为“小章鱼”的方案正在替阿里打开一个万亿美元级的新市场。但原文是链接，未提供更多细节，暂时无法确认它具体指产品、业务还是生态策略。",
+    "summary_en": "This headline says a so-called \"little octopus\" is helping Alibaba open a trillion-dollar new market. The linked page isn't summarized here; details beyond the title aren't available, so no product or strategy specifics can be confirmed.",
+    "input_hash": "259d483a0217"
+  },
+  "juejin-7642513525504737334": {
+    "summary_zh": "这位掘金作者在两年前断更后回归，自述2019年加入社区，更新断断续续，之后因为长期失业而停止写作。文章的标题说“看我你就不焦虑了，程序员”，是用个人经历告诉开发者自己这阵子去做了什么。当前摘要只带出开头部分，完整经历需要打开原文。",
+    "summary_en": "A Juejin author has returned after two years offline. He says he joined the community in 2019, posted intermittently, and then stopped because he was unemployed for a long time. The post uses the title \"Look at me and don't be anxious, programmers\" to share what he did during the gap; only its opening is available in this digest.",
+    "input_hash": "e181fd7621d9"
+  },
+  "zhihu-2079911199861379188": {
+    "summary_zh": "这是一则围绕张家齐的讨论：她已是奥运冠军，妈妈却仍因她不会收拾、整理而频繁数落。提问想探讨的是这种反差背后暴露了怎样的亲子关系问题。原文是链接，未提供更多细节，回答中的具体观点无法在此引用。",
+    "summary_en": "This discussion centers on Olympic champion Zhang Jiaqi, whose mother still repeatedly scolds her for being unable to tidy and organize. The question asks what this reveals about their parent-child relationship, especially why household expectations survive major achievements. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "ba3817ef180f"
+  },
+  "zhihu-2079675637837706434": {
+    "summary_zh": "这则知乎提问围绕「葫芦娃爷爷」提前剪掉 7 个青葫芦一事，讨论他这样做的原因，并追问游客的热情如何成了老人的负担。原帖没有附带更多说明，原文是链接，未提供更多细节。",
+    "summary_en": "This Zhihu question centers on 'Huluwa Grandpa' cutting down his seven green calabashes that had gone viral, asking why he pruned the vine early and how visitors' enthusiasm became a burden. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "8f9cf6e50a72"
+  },
+  "zhihu-2079613018694838243": {
+    "summary_zh": "这则知乎提问讨论据传的 iPhone 18 Pro 9999 元起、Ultra 14999 元起的定价，以及新增红、蓝配色的传闻。仅凭标题无法判断消息来源和具体配置，原文是链接，未提供更多细节。",
+    "summary_en": "This Zhihu question invites commentary on rumored iPhone 18 pricing—Pro from 9,999 yuan, Ultra from 14,999 yuan—and on reportedly new red and blue variants. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "7f8ec6c5ec60"
+  },
+  "zhihu-2079902139359257020": {
+    "summary_zh": "这则知乎提问讨论 China GT 上海站赛车起火事故：车手放弃比赛救人，车队要求调查，并质疑赛事应急救援存在漏洞。原帖未提供具体起火经过和救援细节，原文是链接，未提供更多细节。",
+    "summary_en": "This Zhihu question discusses a fire during China GT's Shanghai round, in which a driver abandoned the race to save someone and the team demanded an investigation into emergency-response shortcomings. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "e934a1fecd96"
   }
 }
