@@ -196,7 +196,9 @@
       "tags": [],
       "first_seen": "2026-09-05",
       "domain": "space.com",
-      "quality_score": 47.5
+      "quality_score": 47.5,
+      "summary_zh": "Hacker News 链向 Isar Aerospace 的一则消息：这家德国私人航天公司的火箭从欧洲本土入轨，被称为历史性时刻。原文是链接，除这家公司外未提供更多细节。",
+      "summary_en": "A Hacker News link points to Isar Aerospace: the German private rocket company's launch reached orbit from European soil, described as a historic moment. The linked page isn't summarized here; details beyond the title and Isar Aerospace's involvement aren't available."
     },
     {
       "id": "hn-49541256",
@@ -740,7 +742,9 @@
       "tags": [],
       "first_seen": "2026-09-06",
       "domain": "github.com",
-      "quality_score": 38.4
+      "quality_score": 38.4,
+      "summary_zh": "按 Hacker News 标题，Nitter 和 XCancel 在获得法律建议后恢复服务。该条正文只有若干链接，没有更多说明，因此法律建议的背景和恢复范围无法进一步确认。",
+      "summary_en": "According to the Hacker News headline, Nitter and XCancel have resumed service after receiving legal advice. The item body contains only links and no further text, so the specifics of the legal situation aren't available here."
     },
     {
       "id": "hn-49566137",
@@ -3297,7 +3301,9 @@
       "gh_period": "daily",
       "first_seen": "2026-09-06",
       "domain": "github.com",
-      "quality_score": 30.0
+      "quality_score": 30.0,
+      "summary_zh": "openai/skills 仓库此前用于收录 Codex 的 Agent Skills，现已被标为 deprecated，README 让用户改用 OpenAI Plugins 仓库并按 Build plugins 指南创建 skill-only plugin。Agent Skills 是以文件夹打包指令、脚本和资源，.system 下的技能会在最新版 Codex 自动安装。维护自定义技能或插件的人应关注迁移口径。",
+      "summary_en": "The openai/skills repository, OpenAI’s catalog of Agent Skills for Codex, is now marked deprecated. Its README points users to the OpenAI Plugins repository for current examples and to the Build plugins guide for creating skill-only plugins. Agent Skills package instructions, scripts and resources in folders, and skills under .system are auto-installed in the latest Codex. Developers maintaining custom Codex skills should follow the migration path."
     },
     {
       "id": "gh-daily-anomalyco-opencode",
@@ -3388,7 +3394,9 @@
       "gh_period": "daily",
       "first_seen": "2026-08-23",
       "domain": "github.com",
-      "quality_score": 30.2
+      "quality_score": 30.2,
+      "summary_zh": "ruflo 是一个开源 AI 智能体编排项目，自称 agent meta-harness，用于部署多智能体 swarm、编排自主工作流和构建对话式 AI 系统，内置自适应记忆与自学习能力。它以 MIT 协议发布，可通过 npm 安装，并提供 flo.ruv.io 的 UI 测试版，适合研究智能体编排的开发者。",
+      "summary_en": "Ruflo is an open-source `agent meta-harness` for deploying multi-agent swarms, coordinating autonomous workflows, and building conversational AI systems, with adaptive memory and self-learning intelligence. It is MIT-licensed, installable as the npm package `ruflo`, and offers a beta UI at flo.ruv.io. Developers experimenting with multi-agent orchestration and agentic workflows are the target audience."
     },
     {
       "id": "gh-daily-magnitudedev-magnitude",
@@ -3443,7 +3451,9 @@
       "gh_period": "daily",
       "first_seen": "2026-09-06",
       "domain": "github.com",
-      "quality_score": 30.2
+      "quality_score": 30.2,
+      "summary_zh": "coreyhaines31/marketingskills 是 Corey Haines 维护的 GitHub 仓库，收集面向营销的 Agent Skills，覆盖 CRO、文案、SEO、分析与增长工程，兼容 Claude Code、OpenAI Codex、Cursor、Windsurf 等支持 Agent Skills 规范的代理。营销人员可直接把这些技能装进编码代理，按统一规范执行常见营销任务，适合技术型营销者和创始人。",
+      "summary_en": "coreyhaines31/marketingskills is a GitHub repository of Agent Skills for marketing work, covering CRO, copywriting, SEO, analytics, and growth engineering. It works with Claude Code, OpenAI Codex, Cursor, Windsurf, and other agents that support the Agent Skills spec. Built by Corey Haines, it lets technical marketers and founders add standard marketing capabilities to coding agents directly."
     },
     {
       "id": "gh-daily-aipoch-open-science",
@@ -3513,7 +3523,9 @@
       "gh_period": "daily",
       "first_seen": "2026-09-06",
       "domain": "github.com",
-      "quality_score": 30.1
+      "quality_score": 30.1,
+      "summary_zh": "AutoHedge 是一个 GitHub 开源项目，声称几分钟就能构建自主对冲基金；它结合群体智能和专用 AI 代理，自动完成市场分析、风险管理与交易执行。目前支持 Solana 上全自动交易，后续将接入 Coinbase 等交易所，适合尝试 AI 代理量化交易的人。",
+      "summary_en": "AutoHedge is an open-source GitHub project that says it can build an autonomous hedge fund in minutes. It combines swarm intelligence with specialized AI agents to handle market analysis, risk management, and trade execution, and currently supports fully autonomous trading on Solana; Coinbase and other exchanges are planned. Developers exploring agent-based crypto trading may use it as a starting point."
     },
     {
       "id": "gh-daily-Stremio-stremio-web",
@@ -3950,7 +3962,9 @@
       ],
       "first_seen": "2026-09-06",
       "domain": "producthunt.com",
-      "quality_score": 46.0
+      "quality_score": 46.0,
+      "summary_zh": "Ponytail 是 Product Hunt 上出现的一款工具，简介只有一句“让新代码成为最后手段”，暗示其鼓励优先复用或改造现有方案。目前仅有这句简介，原文未提供具体实现或适用场景，无法了解更多细节。",
+      "summary_en": "Ponytail is a Product Hunt listing whose tagline is “Make new code the last resort,” suggesting it encourages reusing or modifying existing solutions before writing new ones. The linked page isn't summarized here; details beyond the title and tagline aren't available."
     },
     {
       "id": "ph-1237032",
@@ -5043,7 +5057,9 @@
       "tags": [],
       "first_seen": "2026-09-06",
       "domain": "infoq.cn",
-      "quality_score": 37.9
+      "quality_score": 37.9,
+      "summary_zh": "微软将 Foundry 模型路由器的可用区域从 2 个扩展到 28 个（全球标准部署），数据区域部署扩至 21 个，并更新模型池：新增 Claude Opus 4.8 与 GPT-5.6 系列，移除四个已到生命周期终点的旧模型。默认配置会自动生效，但限定模型子集的团队不会自动更新，且模型池变化可能改变回答风格与业务结果。",
+      "summary_en": "Microsoft expanded its Foundry model router to 28 regions for standard global deployments (up from 2) and 21 for data-region deployments, refreshing the model pool with Anthropic Claude Opus 4.8 and the GPT-5.6 series while dropping four end-of-life models. Default configurations pick up the change automatically; teams that pin a model subset won't update. The pool shift can alter response behavior even though API stability is maintained."
     },
     {
       "id": "infoq-BLyA80LXfvGII85FGmw8",
@@ -5059,7 +5075,9 @@
       "tags": [],
       "first_seen": "2026-09-06",
       "domain": "infoq.cn",
-      "quality_score": 39.0
+      "quality_score": 39.0,
+      "summary_zh": "FlexGanttFX 由 Dirk Lemmerman 开发 15 年后以 AGPL 许可正式开源，是一个基于 JavaFX 的甘特图资源调度框架，可在桌面端和移动端运行。它借助 Canvas 单画布渲染实现复杂图表的高性能，并把时区、周末等因素纳入时间模型。AGPL 要求修改版对网络使用者同样公开源码，SaaS 团队选择前需评估合规影响。",
+      "summary_en": "After 15 years of development, Dirk Lemmerman released FlexGanttFX as open source under AGPL—a JavaFX-based resource scheduling framework for Gantt charts that runs on desktop and mobile. It uses a single Canvas to render even complex charts at high performance and treats time zones and weekends as part of its time model. The AGPL license also obligates modified versions to be opened to network users, so SaaS teams should evaluate the implications before adoption."
     },
     {
       "id": "infoq-ufMvEqDPiwm92btRahrP",
@@ -5075,7 +5093,9 @@
       "tags": [],
       "first_seen": "2026-09-06",
       "domain": "infoq.cn",
-      "quality_score": 40.6
+      "quality_score": 40.6,
+      "summary_zh": "InfoQ 精选：蓝牙耳机总断连？开发者顺藤摸瓜，竟发现阿里全球速卖通在“播放静音”",
+      "summary_en": "Featured on InfoQ: 蓝牙耳机总断连？开发者顺藤摸瓜，竟发现阿里全球速卖通在“播放静音”"
     },
     {
       "id": "infoq-tij5T0vJ1Yk0s7Uov7SE",
@@ -5091,7 +5111,9 @@
       "tags": [],
       "first_seen": "2026-09-05",
       "domain": "infoq.cn",
-      "quality_score": 47.2
+      "quality_score": 47.2,
+      "summary_zh": "伯克利与MIT的研究者开源了FreeToken，一款面向消费级硬件的MoE模型推理引擎。它以动态协同调度替代静态卸载，在专家权重缓存未命中时按实时PCIe吞吐量把计算分给CPU与GPU，并复用中间注意力状态；作者报告称同模型下解码比Ollama/llama.cpp快3～4倍，预填充快6～30倍。",
+      "summary_en": "UC Berkeley and MIT researchers have open-sourced FreeToken, an inference engine aimed at running sparse MoE models efficiently on consumer hardware. Instead of stalling the GPU when expert weights miss the cache, it dynamically schedules token computation across CPU and GPU cores based on available PCIe throughput and reuses attention states. The authors report 3-4x faster decoding and 6-30x faster prefill than llama.cpp/Ollama on the same models."
     },
     {
       "id": "infoq-3M4uYzNDWiLX6BR9RXwy",
@@ -5107,7 +5129,9 @@
       "tags": [],
       "first_seen": "2026-09-05",
       "domain": "infoq.cn",
-      "quality_score": 46.2
+      "quality_score": 46.2,
+      "summary_zh": "Uber推出Git即服务平台GitFarm，把大规模单体仓库的Git操作集中到共享服务，客户端不再需要本地克隆，资源占用降低80%以上。平台将预热的检出挂到沙箱中执行命令，完整检出从10～15分钟缩短到500ms内；某代码所有权服务迁移后CPU从70多核降至16核、内存从400GB降至32GB。",
+      "summary_en": "Uber has introduced GitFarm, a Git-as-a-service platform that centralizes Git operations across its large monorepos. Client systems no longer keep full clones, reducing resource usage by over 80%; the service pools warm checkouts and runs commands in sandboxes, cutting a full checkout from 10–15 minutes to under 500ms. One code-ownership service dropped from 70+ CPUs and 400GB RAM to 16 CPUs and 32GB RAM."
     },
     {
       "id": "infoq-bSxsIYqjExqDh8eO2kwL",
@@ -5123,7 +5147,9 @@
       "tags": [],
       "first_seen": "2026-09-05",
       "domain": "infoq.cn",
-      "quality_score": 48.8
+      "quality_score": 48.8,
+      "summary_zh": "Meta 发布 MTIA 300，这是首款针对排序与推荐模型优化的自研加速器，将网络接口集成进芯片，应对占参数 99%+ 的嵌入表通信瓶颈。配上 12 个 800G RDMA NIC 与 16 个消息引擎后，40 卡跑 1500 亿参数模型时通信耗时约为同级 GPU 集群的 1/3.9，计算吞吐损失低于 0.5%。这标志着 Meta 自研芯片从计算走向网络，未来两年还将推出四代后续产品。",
+      "summary_en": "Meta announced MTIA 300, its first custom accelerator aimed at ranking and recommendation models, and moved networking into the chip. Since embedding tables can hold over 99% of parameters, communication is a major bottleneck; the chip packs twelve 800Gb/s RDMA NICs and 16 dedicated message engines to relieve it. In a 40-accelerator test with a 150B-parameter model, communication time dropped to about 1/3.9 of a comparable GPU cluster while compute throughput loss stayed below 0.5%. More MTIA generations are planned."
     },
     {
       "id": "infoq-4C4RQUGPhAXgcx8G64ab",
@@ -5139,7 +5165,9 @@
       "tags": [],
       "first_seen": "2026-09-04",
       "domain": "infoq.cn",
-      "quality_score": 36.4
+      "quality_score": 36.4,
+      "summary_zh": "这是 InfoQ 上一篇文章的链接，标题表明其主题是鸿蒙（HarmonyOS）研发中引入 AI Coding 后形成的新范式与工程实践。原文页面未提供更多细节，以下只能依据标题概括主题。适合关注鸿蒙生态与 AI 辅助编码结合的开发者打开原文阅读。",
+      "summary_en": "This InfoQ link points to an article about AI coding in HarmonyOS development, covering a new development paradigm and engineering practices. The linked page isn't summarized here; details beyond the title aren't available. Developers curious about how AI-assisted coding fits into HarmonyOS projects should open the original page."
     },
     {
       "id": "infoq-hWQs9a123hhtDYtk0ADQ",

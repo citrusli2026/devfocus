@@ -1320,7 +1320,9 @@
       "tags": [],
       "first_seen": "2026-09-05",
       "domain": "space.com",
-      "quality_score": 33.3
+      "quality_score": 33.3,
+      "summary_zh": "Hacker News 链向 Isar Aerospace 的一则消息：这家德国私人航天公司的火箭从欧洲本土入轨，被称为历史性时刻。原文是链接，除这家公司外未提供更多细节。",
+      "summary_en": "A Hacker News link points to Isar Aerospace: the German private rocket company's launch reached orbit from European soil, described as a historic moment. The linked page isn't summarized here; details beyond the title and Isar Aerospace's involvement aren't available."
     },
     {
       "id": "hn-49536411",
@@ -3377,7 +3379,9 @@
       "gh_period": "daily",
       "first_seen": "2026-08-23",
       "domain": "github.com",
-      "quality_score": 30.1
+      "quality_score": 30.1,
+      "summary_zh": "ruflo 是一个开源 AI 智能体编排项目，自称 agent meta-harness，用于部署多智能体 swarm、编排自主工作流和构建对话式 AI 系统，内置自适应记忆与自学习能力。它以 MIT 协议发布，可通过 npm 安装，并提供 flo.ruv.io 的 UI 测试版，适合研究智能体编排的开发者。",
+      "summary_en": "Ruflo is an open-source `agent meta-harness` for deploying multi-agent swarms, coordinating autonomous workflows, and building conversational AI systems, with adaptive memory and self-learning intelligence. It is MIT-licensed, installable as the npm package `ruflo`, and offers a beta UI at flo.ruv.io. Developers experimenting with multi-agent orchestration and agentic workflows are the target audience."
     },
     {
       "id": "gh-daily-humanlayer-skills",
@@ -5099,7 +5103,9 @@
       "tags": [],
       "first_seen": "2026-09-05",
       "domain": "infoq.cn",
-      "quality_score": 37.7
+      "quality_score": 37.7,
+      "summary_zh": "伯克利与MIT的研究者开源了FreeToken，一款面向消费级硬件的MoE模型推理引擎。它以动态协同调度替代静态卸载，在专家权重缓存未命中时按实时PCIe吞吐量把计算分给CPU与GPU，并复用中间注意力状态；作者报告称同模型下解码比Ollama/llama.cpp快3～4倍，预填充快6～30倍。",
+      "summary_en": "UC Berkeley and MIT researchers have open-sourced FreeToken, an inference engine aimed at running sparse MoE models efficiently on consumer hardware. Instead of stalling the GPU when expert weights miss the cache, it dynamically schedules token computation across CPU and GPU cores based on available PCIe throughput and reuses attention states. The authors report 3-4x faster decoding and 6-30x faster prefill than llama.cpp/Ollama on the same models."
     },
     {
       "id": "infoq-3M4uYzNDWiLX6BR9RXwy",
@@ -5115,7 +5121,9 @@
       "tags": [],
       "first_seen": "2026-09-05",
       "domain": "infoq.cn",
-      "quality_score": 38.5
+      "quality_score": 38.5,
+      "summary_zh": "Uber推出Git即服务平台GitFarm，把大规模单体仓库的Git操作集中到共享服务，客户端不再需要本地克隆，资源占用降低80%以上。平台将预热的检出挂到沙箱中执行命令，完整检出从10～15分钟缩短到500ms内；某代码所有权服务迁移后CPU从70多核降至16核、内存从400GB降至32GB。",
+      "summary_en": "Uber has introduced GitFarm, a Git-as-a-service platform that centralizes Git operations across its large monorepos. Client systems no longer keep full clones, reducing resource usage by over 80%; the service pools warm checkouts and runs commands in sandboxes, cutting a full checkout from 10–15 minutes to under 500ms. One code-ownership service dropped from 70+ CPUs and 400GB RAM to 16 CPUs and 32GB RAM."
     },
     {
       "id": "infoq-bSxsIYqjExqDh8eO2kwL",
@@ -5131,7 +5139,9 @@
       "tags": [],
       "first_seen": "2026-09-05",
       "domain": "infoq.cn",
-      "quality_score": 40.4
+      "quality_score": 40.4,
+      "summary_zh": "Meta 发布 MTIA 300，这是首款针对排序与推荐模型优化的自研加速器，将网络接口集成进芯片，应对占参数 99%+ 的嵌入表通信瓶颈。配上 12 个 800G RDMA NIC 与 16 个消息引擎后，40 卡跑 1500 亿参数模型时通信耗时约为同级 GPU 集群的 1/3.9，计算吞吐损失低于 0.5%。这标志着 Meta 自研芯片从计算走向网络，未来两年还将推出四代后续产品。",
+      "summary_en": "Meta announced MTIA 300, its first custom accelerator aimed at ranking and recommendation models, and moved networking into the chip. Since embedding tables can hold over 99% of parameters, communication is a major bottleneck; the chip packs twelve 800Gb/s RDMA NICs and 16 dedicated message engines to relieve it. In a 40-accelerator test with a 150B-parameter model, communication time dropped to about 1/3.9 of a comparable GPU cluster while compute throughput loss stayed below 0.5%. More MTIA generations are planned."
     },
     {
       "id": "infoq-4C4RQUGPhAXgcx8G64ab",
@@ -5147,7 +5157,9 @@
       "tags": [],
       "first_seen": "2026-09-04",
       "domain": "infoq.cn",
-      "quality_score": 43.6
+      "quality_score": 43.6,
+      "summary_zh": "这是 InfoQ 上一篇文章的链接，标题表明其主题是鸿蒙（HarmonyOS）研发中引入 AI Coding 后形成的新范式与工程实践。原文页面未提供更多细节，以下只能依据标题概括主题。适合关注鸿蒙生态与 AI 辅助编码结合的开发者打开原文阅读。",
+      "summary_en": "This InfoQ link points to an article about AI coding in HarmonyOS development, covering a new development paradigm and engineering practices. The linked page isn't summarized here; details beyond the title aren't available. Developers curious about how AI-assisted coding fits into HarmonyOS projects should open the original page."
     },
     {
       "id": "infoq-hWQs9a123hhtDYtk0ADQ",
