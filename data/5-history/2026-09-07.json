@@ -196,7 +196,9 @@
       "tags": [],
       "first_seen": "2026-09-06",
       "domain": "bcantrill.dtrace.org",
-      "quality_score": 48.1
+      "quality_score": 48.1,
+      "summary_zh": "一篇 Hacker News 帖子断言：用 LLM 写文章会让你的“智力拉链”没拉上，即无意间暴露思维短板。原文是链接，未提供更多细节。",
+      "summary_en": "A Hacker News post argues that using an LLM to author a post leaves your 'intellectual fly' open, exposing your intellectual weaknesses. The linked page isn't summarized here; details beyond the title aren't available."
     },
     {
       "id": "hn-49554520",
@@ -228,7 +230,9 @@
       "tags": [],
       "first_seen": "2026-09-06",
       "domain": "cloudinabottle.org",
-      "quality_score": 44.9
+      "quality_score": 44.9,
+      "summary_zh": "Cloud in a Bottle是一个开源个人云项目，用容器化应用、统一认证和良好交互体验，目标是让自托管像使用一台“提供网页应用的手机”一样自然，而不是变成系统管理员的额外工作。适合不想依赖SaaS、又不愿被运维琐事劝退的开发者尝试。",
+      "summary_en": "Cloud in a Bottle is an open-source personal cloud combining containerized apps, unified authentication, and a polished UX. Its goal is to make self-hosting feel like using a smartphone that serves web apps, rather than a sysadmin side job. Developers who want off-the-shelf software without heavy server maintenance may find it a practical starting point."
     },
     {
       "id": "hn-49586898",
@@ -484,7 +488,9 @@
       "tags": [],
       "first_seen": "2026-09-07",
       "domain": "youtube.com",
-      "quality_score": 47.1
+      "quality_score": 47.1,
+      "summary_zh": "Hacker News 上有一段视频，标题指称 2.16 亿台 LG 智能电视存在“间谍电视”隐私问题。帖子仅附上了一个 NotebookCheck 链接，链接标题以 'LG smart TVs caught logging...' 开头，没有更多正文，无法据此复述视频的具体论证。",
+      "summary_en": "A Hacker News video titled '216M Spy TVs – The LG Smart TV Problem' alleges a privacy issue affecting 216 million LG smart TVs. The post's only extra context is a NotebookCheck URL beginning with 'LG smart TVs caught logging...', so the video's full handling isn't summarized here. Anyone concerned about smart-TV privacy should open the linked video."
     },
     {
       "id": "hn-49576386",
@@ -3259,7 +3265,9 @@
       "gh_period": "daily",
       "first_seen": "2026-09-07",
       "domain": "github.com",
-      "quality_score": 30.1
+      "quality_score": 30.1,
+      "summary_zh": "开源项目 context-mode — Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists se",
+      "summary_en": "Open-source project context-mode — Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists se"
     },
     {
       "id": "gh-daily-jo-inc-camofox-browser",
@@ -3295,7 +3303,9 @@
       "gh_period": "daily",
       "first_seen": "2026-09-07",
       "domain": "github.com",
-      "quality_score": 30.1
+      "quality_score": 30.1,
+      "summary_zh": "MoonTV（LunaTV）是一个基于 Next.js 14、Tailwind CSS 和 TypeScript 构建的跨平台影视聚合播放器，集成多源搜索、HLS 在线播放，并支持基于 Kvrocks/Redis/Upstash 的收藏与播放进度同步。它提供 PWA 和响应式布局，但仓库本身不内置播放源或直播源，需要自行收集。项目描述采用 CC BY-NC-SA 协议，禁止商业化与闭源衍生。",
+      "summary_en": "MoonTV (LunaTV) is a cross-platform movie/TV aggregator built with Next.js 14, Tailwind CSS and TypeScript, offering multi-source search, HLS playback, and synced favorites/progress backed by Kvrocks/Redis/Upstash. It ships as a PWA with responsive layouts, but the repo is an empty shell—users must supply their own media sources. The description applies CC BY-NC-SA, forbidding commercial use and requiring derivatives to stay open-source."
     },
     {
       "id": "gh-daily-affaan-m-ECC",
@@ -5071,7 +5081,9 @@
       "tags": [],
       "first_seen": "2026-09-07",
       "domain": "infoq.cn",
-      "quality_score": 36.5
+      "quality_score": 36.5,
+      "summary_zh": "HashiCorp 的最新指南将 HCP Terraform 定位为 AI 驱动基础设施的治理与控制平面：Agent 可自主编写并触发 Terraform 配置，而策略、身份隔离、审计与短期动态凭证由平台统一约束，原则是 Agent 提变更、Terraform 管治理。平台工程师的工作重心由此转向划定安全边界；文中也提到 Pulumi Neo 是同类竞品。",
+      "summary_en": "HashiCorp's latest guidance positions HCP Terraform as the governance and control plane for AI-driven infrastructure: agents can author plans and trigger runs, while policy-as-code, identity isolation, audit, and short-lived credentials keep them inside guardrails. The working principle is 'agents propose, Terraform governs,' so platform engineers shift from writing resources to defining safety boundaries for autonomous workflows. The article also names Pulumi Neo as a competing approach."
     },
     {
       "id": "infoq-5Xy6jTfq7Si98XvXAJCp",
@@ -5087,7 +5099,9 @@
       "tags": [],
       "first_seen": "2026-09-07",
       "domain": "infoq.cn",
-      "quality_score": 36.6
+      "quality_score": 36.6,
+      "summary_zh": "QCon 上海站将于 10 月 22 日至 24 日举行，蚂蚁集团阿福 Harness 架构组负责人肖汉松将带来线上 Badcase 治理分享。团队先以 Harness Engineering 保证 Agent 能可靠修复，再用 Loop Engineering 衔接发现、归因、分派与回流，真实任务中 Agent 曾连续迭代 16 轮并人工复核后上线。适合在 AI Agent 生产环境上做治理的工程师参考。",
+      "summary_en": "QCon Shanghai (Oct 22–24, 2026) will feature Xiao Hansong, who leads Ant Group's Afu Harness architecture group, on how the Afu agent squad handles a steady stream of online bad cases from AI agents. The approach splits into Harness Engineering for reliable single-case fixes and Loop Engineering for continuous handling across discovery, attribution, assignment, and feedback. In one real run, the agent iterated 16 times before human review approved the rollout. Useful for teams operationalizing AI agents in production."
     },
     {
       "id": "infoq-bEwEWltvchcPZUACt36w",
@@ -5103,7 +5117,9 @@
       "tags": [],
       "first_seen": "2026-09-07",
       "domain": "infoq.cn",
-      "quality_score": 36.6
+      "quality_score": 36.6,
+      "summary_zh": "一篇 GCP 实践分享：作者用 Workload Identity Federation 代替长期有效的服务账户 JSON 密钥，让外部工作负载换取短效访问令牌，任务结束后失效，无需轮换。文中还复盘了半年将 WIF 项目推进到 120+ 的真实经验，包括多组织 Harness 部署的范围界定失误和为何选择模拟身份而非直接访问。",
+      "summary_en": "A practical GCP post on replacing long-lived service-account JSON keys with Workload Identity Federation: external workloads exchange native tokens for short-lived STS-issued access tokens, so there are no stored credentials to rotate. The author shares operational lessons from moving to 120+ WIF-based projects within six months, including scoping mistakes in multi-org Harness deployments and why impersonation was chosen over direct access. Especially relevant for engineers running GCP CI/CD and cross-cloud workloads."
     },
     {
       "id": "infoq-hJYBb35wMVeU07hTPWIb",
@@ -5119,7 +5135,9 @@
       "tags": [],
       "first_seen": "2026-09-07",
       "domain": "infoq.cn",
-      "quality_score": 37.5
+      "quality_score": 37.5,
+      "summary_zh": "Cloudflare AI Search 把 Workers AI、Vectorize、R2 等底层组件整合进一条端到端搜索流水线，并支持免 sitemap 的发现模式，单条命令即可对自定义数据建索引。它为客服代表和开发者场景提供免认证的公共端点，也能通过 Worker 或 MCP 服务器接入应用。默认模型下的向量嵌入、重排序免费，答案生成则按用量计费。",
+      "summary_en": "Cloudflare has expanded AI Search into an end-to-end retrieval pipeline that bundles Workers AI, Vectorize, R2, and related components, with a discovery mode that removes the sitemap requirement and a single command to index custom data. The service exposes an unauthenticated public endpoint and offers Worker/MCP integration, making it easy to embed into customer-service or developer tools. Embeddings and reranking are free with default models; answer generation is billed by usage."
     },
     {
       "id": "infoq-uTRvjxweSGdp2kzlhPiV",
@@ -5135,7 +5153,9 @@
       "tags": [],
       "first_seen": "2026-09-07",
       "domain": "infoq.cn",
-      "quality_score": 38.5
+      "quality_score": 38.5,
+      "summary_zh": "AWS 开源了内部代号 MeshClaw 的 Kiro Crew，让多个 Kiro Coding Agent 跨会话、工具和任务异步执行，开发者离开后仍能推进事故排查、工单分诊、迁移等任务。它已被超 3.9 万名内部开发者使用，支持共享记忆、可复用 Skills、定时任务与子 Agent，并用 ACP 编排、OS 级沙箱和审计日志加固安全性。适合需要并行调度 Coding Agent 并自托管基础设施的团队。",
+      "summary_en": "Amazon has open-sourced Kiro Crew, a system originally built internally as MeshClaw that lets multiple Kiro Coding Agents run asynchronously across sessions, tools, and tasks—covering incident investigation, ticket triage, migrations, and PR monitoring while developers are away. Adopted by over 39,000 internal developers, it offers shared memory, reusable Skills, scheduled tasks, sub-agents, and MCP integration, with Agent Client Protocol orchestration and OS-level sandboxing. Teams wanting to parallelize coding-agent workflows can run it locally or self-host."
     },
     {
       "id": "infoq-atCusTaSOmddUx1vvJba",
@@ -5151,7 +5171,9 @@
       "tags": [],
       "first_seen": "2026-09-07",
       "domain": "infoq.cn",
-      "quality_score": 38.4
+      "quality_score": 38.4,
+      "summary_zh": "TikTok SRE 技术负责人 Salman Munaf 在演讲中称，AI Agent 从调用外部服务那一刻起就变成分布式系统：超时不是失败而是“未知”，没有幂等键和状态查询的盲目重试可能导致同一笔退款被执行两次。要让 Agent 安全落地，必须引入请求标识、把记忆当可失效缓存，并记录其每一步的所见与判断。",
+      "summary_en": "At a recent talk, TikTok SRE tech lead Salman Munaf explained that AI agents become distributed systems once they start calling external services. A refund API timeout is a good example: timeout means 'unknown', not failure, so retrying without idempotency keys or status lookup can execute the same refund twice. He recommends treating agent memory as invalidatable cache and logging what the agent saw, did, and why."
     },
     {
       "id": "infoq-38uc758e24YV4LUpAs77",
@@ -5167,7 +5189,9 @@
       "tags": [],
       "first_seen": "2026-09-07",
       "domain": "infoq.cn",
-      "quality_score": 38.1
+      "quality_score": 38.1,
+      "summary_zh": "TiDB 团队基于 TiDB Cloud Filesystem 构建 Harness：把 Workspace 从 Session/Sandbox 生命周期中抽离，用数据库级能力保证持久化、版本、分支和权限，Sandbox 回收后也能无缝接管。其设计是“薄 Agent Loop，厚 Control Plane”——内层复用开源，重点放在状态、调度与恢复上，并坚持 Fail Fast 优于 Retry。系统已承载数百万 Workspace。",
+      "summary_en": "TiDB detailed its Agent harness built on TiDB Cloud Filesystem, which decouples workspaces from session and sandbox lifecycles. Database-grade persistence, versioning, branching, rollback, and permission control keep agent state intact even after a sandbox is recycled; the platform already hosts millions of workspaces. The design follows a 'thin Agent Loop, thick Control Plane' approach: reuse an open-source inner loop and put engineering effort into orchestration, permissions, and failure recovery, with Fail Fast valued above Retry."
     },
     {
       "id": "infoq-D5heSof43WbGMHrCCIsy",
@@ -5183,7 +5207,9 @@
       "tags": [],
       "first_seen": "2026-09-07",
       "domain": "infoq.cn",
-      "quality_score": 37.9
+      "quality_score": 37.9,
+      "summary_zh": "9 月 9 日 13:30–17:30，2026 外滩大会 C7 场馆将举办“智能体时代的安全坐标与责任边界”见解论坛，讨论智能体身份、权限、决策与责任的治理。Gartner 预测到 2028 年至少 15% 的日常工作决策由智能体完成，因此该论坛为供应链、金融、客服等规模化场景划定安全边界。",
+      "summary_en": "A forum, “Security Coordinates and Responsibility Boundaries in the Agent Era,” runs from 13:30 to 17:30 on September 9 at Hall C7 of the 2026 Bund Conference, gathering researchers and practitioners on identity, permission, decision, and liability governance for AI agents. Gartner expects at least 15% of daily work decisions to be made by agentic AI by 2028, so the talks target guardrails for scaled use in supply chain, finance, manufacturing, and customer service."
     },
     {
       "id": "infoq-kAHvBCLrI3sdMyONOveM",
@@ -5199,7 +5225,9 @@
       "tags": [],
       "first_seen": "2026-09-07",
       "domain": "infoq.cn",
-      "quality_score": 37.9
+      "quality_score": 37.9,
+      "summary_zh": "快看漫画将上线 AI 互动叙事 App Livo：Multi-Agent 驱动 NPC 在用户离线时也自治运行，并按角色经历与用户行为动态“涌现”剧情；底层存储改用向量库与图库，追踪链路转向 Langfuse/LangSmith。对成立 12 年的快看，这是从“推荐引擎”到“Agent 工程”的一次范式切换。",
+      "summary_en": "Kuaikan, the 12-year-old Chinese comic platform, will soon launch Livo, an AI-native interactive narrative app. Its Multi-Agent system keeps NPCs alive even when the user is offline, with stories “emerging” from characters’ history and user actions. To support this, the team swapped MySQL/Mongo for vector and graph databases and moved LLM tracing to Langfuse/LangSmith — a departure from its earlier recommendation-engine stack."
     },
     {
       "id": "infoq-5dtlrdsBbSIZfWUUF6JD",
