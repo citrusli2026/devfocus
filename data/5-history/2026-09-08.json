@@ -884,7 +884,9 @@
       "tags": [],
       "first_seen": "2026-09-08",
       "domain": "ai.meta.com",
-      "quality_score": 36.1
+      "quality_score": 36.1,
+      "summary_zh": "Meta 发布个人 AI 代理 Muse，定位是处理日常任务，并教用户了解它的工作方式和效率提升方法。目前披露的还停留在入门介绍层面，没有公开技术架构或开放范围；关注 Meta 消费级 AI 的开发者可留意后续更完整的技术说明。",
+      "summary_en": "Meta has introduced Muse, a personal AI agent aimed at everyday tasks, with an overview page covering what it does, how it works, and how it helps users get more done. The disclosure is still introductory: no architecture, availability, or concrete rollout details have been shared. Developers tracking Meta's consumer AI push should wait for a deeper spec."
     },
     {
       "id": "hn-49595865",
@@ -3221,7 +3223,9 @@
       "gh_period": "daily",
       "first_seen": "2026-09-08",
       "domain": "github.com",
-      "quality_score": 30.3
+      "quality_score": 30.3,
+      "summary_zh": "i-have-adhd 是一个 GitHub 技能/插件，目的是让 coding agent 直接给出答案，而不是把关键内容埋在冗长输出里；它不需要 ADHD 诊断，面向容易分心的开发者。仓库自带多语言 README（含简体中文），安装方式是把指定提示词粘贴进 CLI prompt。",
+      "summary_en": "i-have-adhd is a GitHub skill/plugin that makes coding agents surface answers directly instead of burying them in verbose output. It's designed to be ADHD-friendly, though no ADHD diagnosis is needed. The repo offers multilingual READMEs, including Simplified Chinese, and installs by pasting a snippet into your CLI prompt."
     },
     {
       "id": "gh-daily-cathrynlavery-diagram-design",
@@ -3500,7 +3504,9 @@
       "gh_period": "daily",
       "first_seen": "2026-09-08",
       "domain": "github.com",
-      "quality_score": 30.1
+      "quality_score": 30.1,
+      "summary_zh": "OpenAI 开源了 plugins 仓库，内含一批精选的 Codex 插件示例，每个插件以 plugin.json 清单为核心，可附带 skills、agents、commands、hooks 等辅助文件，并提供了默认 marketplace 配置。其中包含 Figma、Notion、iOS/macOS/Web 应用、Expo、Netlify 等较完整的参考实现，帮助开发者快速了解如何为 Codex 编写和分发插件。",
+      "summary_en": "OpenAI open-sourced the plugins repo, a curated set of Codex plugin examples. Each plugin centers on a .codex-plugin/plugin.json manifest and may include companion surfaces like skills, agents, commands, hooks, and marketplace entries. Highlighted examples cover Figma, Notion, iOS/macOS/Web apps, Expo, Netlify, and more, offering concrete references for developers building and distributing Codex plugins."
     },
     {
       "id": "gh-monthly-cathrynlavery-diagram-design",
@@ -4212,7 +4218,9 @@
       "content": "",
       "first_seen": "2026-09-04",
       "domain": "juejin.cn",
-      "quality_score": 16.3
+      "quality_score": 16.3,
+      "summary_zh": "2026 年 8 月 GitHub 热门榜从约 22 个候选中精选十个项目，趋势是 Agent 从会写代码转向可复用 Skill、可治理记忆与桌面/硬件工作流。领跑的 archify（38.9K stars）是架构可视化 Skill，reverse-skill（33.2K stars）是安全研究技能路由包，适配 Claude Code、Cursor 等客户端。",
+      "summary_en": "The August 2026 GitHub trending list picks ten repos from about 22 candidates, showing agents moving beyond code generation toward reusable Skill assets, governed memory/context, and closer desktop and hardware workflows. Standouts include archify (38.9K stars, +29.5K this month), an agent skill for self-contained HTML architecture diagrams that verifiably match code, and reverse-skill (33.2K stars, +22.8K), a security-skill router for Claude Code, Cursor, Cline, and other clients. Developer-agent builders and authorized security teams are the main audiences."
     },
     {
       "id": "juejin-7657732588313722926",
@@ -5109,7 +5117,9 @@
       "tags": [],
       "first_seen": "2026-09-08",
       "domain": "infoq.cn",
-      "quality_score": 35.0
+      "quality_score": 35.0,
+      "summary_zh": "InfoQ 这篇科普介绍 HCF：它把观测从“组件在做什么”转向“组件配合得怎么样”，最终输出冲突图、内摩擦指数 I 值和结构化诊断码。在 RCAEval 的 202 次故障注入中，监控栈可见的 177 例故障全部检出（100%），平均提前约 20 分钟预警；这类方案瞄的是告警风暴下的人肉定位痛点。",
+      "summary_en": "This InfoQ article explains HCF, a holographic coding framework that shifts monitoring from “what each component is doing” to “how components cooperate.” Signals become a conflict graph, an I-value, and structured diagnostic codes. In RCAEval's 202 fault injections it caught all 177 observable faults (100%) and alerted about 20 minutes earlier on average. It's aimed at on-call engineers fighting alert storms."
     },
     {
       "id": "infoq-IR6XdUEok3aY1YSDOvat",
@@ -5125,7 +5135,9 @@
       "tags": [],
       "first_seen": "2026-09-08",
       "domain": "infoq.cn",
-      "quality_score": 35.8
+      "quality_score": 35.8,
+      "summary_zh": "Arm 发布计算子系统 Neoverse CSS N4：非成品 CPU，供芯片厂商二次开发；单裸片可配 8–128 核、最高 3.8GHz，首次在 N 系列支持 LPDDR6/PCIe 7.0。较 N3，官方称单插槽性能最高 2 倍，每瓦性能提升 25%，内存带宽提升 75%，面向 DPU、网络芯片和 Agent 沙箱隔离等场景。",
+      "summary_en": "Arm has unveiled Neoverse CSS N4, a compute subsystem for chipmakers rather than a finished server CPU. A single die can be configured with 8 to 128 cores at up to 3.8GHz and adds the first support for LPDDR6 and PCIe 7.0 in the N-series CSS lineup. Arm claims up to 2x single-socket performance, 25% better performance-per-watt, and 75% higher memory bandwidth versus N3, targeting DPUs, network chips, and agent-sandbox isolation workloads."
     },
     {
       "id": "infoq-C8WbrpalJEjLfSh2xJJj",
@@ -5141,7 +5153,9 @@
       "tags": [],
       "first_seen": "2026-09-08",
       "domain": "infoq.cn",
-      "quality_score": 37.2
+      "quality_score": 37.2,
+      "summary_zh": "Cohere 发布 Parse 5，一个 23 亿参数的多模态视觉语言模型，能把财报、论文等复杂 PDF 直接转成规范 Markdown，同时输出边界框坐标，替代传统 OCR。它在 ParseBench 评测得 79.2 分，超过 Mistral OCR 与 Gemini 3 Flash，适合需要高保真表格提取的企业文档解析场景。",
+      "summary_en": "Cohere has released Parse 5, a proprietary 2.3B-parameter multimodal vision-language model that converts complex PDFs such as financial reports and scientific papers into clean Markdown and emits bounding-box coordinates, replacing brittle OCR pipelines. It scored 79.2 on the ParseBench benchmark, beating Mistral OCR and Google Gemini 3 Flash, and could slash failures in high-throughput enterprise document extraction."
     },
     {
       "id": "infoq-yfQdTa8cRxjJB0rzZMJR",
