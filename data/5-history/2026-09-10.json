@@ -196,7 +196,9 @@
       "tags": [],
       "first_seen": "2026-09-10",
       "domain": "shopify.engineering",
-      "quality_score": 45.7
+      "quality_score": 45.7,
+      "summary_zh": "Shopify 正在把移动应用从 React Native 迁回原生 Swift 和 Kotlin，原文给出的理由是 coding agent 改变了构建移动应用的成本结构。目前披露的信息只有这一句背景，迁移范围和排期等细节尚未公开。",
+      "summary_en": "Shopify is moving its mobile apps from React Native back to native Swift and Kotlin, with the post arguing that coding agents have changed what it costs to build mobile apps twice over. Beyond that framing the summary offers no further detail, so the scope and timeline of the migration aren't known."
     },
     {
       "id": "hn-49611251",
@@ -356,7 +358,9 @@
       "tags": [],
       "first_seen": "2026-09-10",
       "domain": "mathstodon.xyz",
-      "quality_score": 45.0
+      "quality_score": 45.0,
+      "summary_zh": "一条 Hacker News 讨论，质疑研究者能否放心把未发表的数学成果交给 OpenAI。该条目本身没有正文，只贴了 Mathstodon、X 和 Bluesky 上的几条讨论链接，详细内容无法从摘要中获知。",
+      "summary_en": "A Hacker News thread asking whether researchers can trust OpenAI with their unpublished mathematics. The submission itself carries no summary text — only links to discussion threads on Mathstodon, X and Bluesky — so the linked pages aren't summarized here and details beyond the title aren't available. Anyone wanting the substance has to read those threads directly."
     },
     {
       "id": "hn-49616968",
@@ -868,7 +872,9 @@
       "tags": [],
       "first_seen": "2026-09-10",
       "domain": "blog.jim-nielsen.com",
-      "quality_score": 35.7
+      "quality_score": 35.7,
+      "summary_zh": "一篇题为“Don't let anyone take away your big box of cables”的文章，从标题看是为囤积线材这件事辩护。该条目只附了作者博客的一句 tagline，说的是制作万维网内容的混乱过程，正文没有提供，具体论点无法确认。",
+      "summary_en": "An essay titled “Don't let anyone take away your big box of cables”; the only text supplied is the author's blog tagline about the messy business of making things for the web. No article body is included here, so the actual argument isn't summarized and details beyond the title aren't available."
     },
     {
       "id": "hn-49628614",
@@ -3278,7 +3284,9 @@
       "gh_period": "daily",
       "first_seen": "2026-09-10",
       "domain": "github.com",
-      "quality_score": 30.2
+      "quality_score": 30.2,
+      "summary_zh": "CloddsBot 是 alsk1992 开源的 AI 交易 agent，可在 Polymarket、Kalshi、Binance、Hyperliquid、Solana DEX 和 5 条 EVM 链等 1000+ 市场自主扫描机会、即时执行并管理风险，内置 119+ skills，基于 Node 22 与 TypeScript，采用 MIT 许可。项目名取自 Claude+Odds，曾参加 Colosseum Agent Hackathon，14 天内被 clone 约 1.07 万次，适合想研究 LLM 驱动自动交易或预测市场套利的人。",
+      "summary_en": "CloddsBot is an open-source AI trading agent that autonomously scans and executes across 1,000+ markets, including Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs and five EVM chains, shipping 119+ skills and risk management in an MIT-licensed Node 22 / TypeScript codebase. Its name blends Claude and Odds, and it was built for the Colosseum Agent Hackathon, drawing about 10.7k clones in 14 days. Developers exploring LLM-driven trading or prediction-market arbitrage are the intended audience."
     },
     {
       "id": "gh-daily-Tencent-teamai-cli",
@@ -3390,7 +3398,9 @@
       "gh_period": "daily",
       "first_seen": "2026-09-10",
       "domain": "github.com",
-      "quality_score": 30.1
+      "quality_score": 30.1,
+      "summary_zh": "ArmorPaint 是一款 3D PBR 贴图绘制软件，GitHub 仓库面向开发者开放，作者提示这里的主干代码可能不稳定，编译好的二进制版本需付费购买以资助项目。从源码编译需要自备平台工具链：Windows 用带 clang 工具的 Visual Studio、Linux 用 clang 及依赖、macOS/iOS 用 Xcode、Android 用 Android Studio。",
+      "summary_en": "ArmorPaint is a 3D PBR texture painting tool whose GitHub repository is aimed at developers; the maintainers note the code here may not be stable, and ready-made binaries are sold to fund the project. Building from source requires a platform toolchain — Visual Studio with clang tools on Windows, clang and dependencies on Linux, Xcode for macOS/iOS, Android Studio for Android."
     },
     {
       "id": "gh-daily-diegosouzapw-OmniRoute",
@@ -3462,7 +3472,9 @@
       "gh_period": "daily",
       "first_seen": "2026-09-10",
       "domain": "github.com",
-      "quality_score": 30.1
+      "quality_score": 30.1,
+      "summary_zh": "LLM Wiki 是一个跨平台桌面应用，会读取你的文档并自动生成结构化、互相链接的 wiki 知识库，而不是像传统 RAG 那样每次查询都从零检索。它提供两步思维链摄取、多模态图片 caption 与多格式文档解析，并保留来源可追溯性，适合想长期维护个人文档知识库的开发者。",
+      "summary_en": "LLM Wiki is a cross-platform desktop app that reads your documents and automatically builds a structured, interlinked wiki knowledge base, instead of answering each query from scratch like traditional RAG. It offers two-step chain-of-thought ingestion, multimodal image captions with source traceability, and multi-format parsing — aimed at anyone who wants a self-maintaining personal knowledge base."
     },
     {
       "id": "gh-daily-vercel-labs-skills",
@@ -3657,7 +3669,9 @@
       "gh_period": "monthly",
       "first_seen": "2026-08-26",
       "domain": "github.com",
-      "quality_score": 44.2
+      "quality_score": 44.2,
+      "summary_zh": "这是一个面向 GPT Image 2 / 2.5 的开源提示词与案例库，主打「Prompt as Code」思路，收录 530+ 个案例、20+ 套工业级模板和可复用的 Skills，并附上完整提示词与生成记录。新增的 2.5 同提示词对比专区，方便开发者直观看出两个版本在同一 prompt 下的出图差异，适合需要把图像生成流程沉淀成可维护资产的人。",
+      "summary_en": "This GitHub repo is a prompt and case library for GPT Image 2 / 2.5, organized around a \"Prompt as Code\" approach: 530+ cases, 20+ production-grade templates, reusable Skills, and the full prompts plus generation logs behind each result. A newly added section compares 2.5 against earlier versions using identical prompts, which makes it a practical reference for developers who want image generation workflows they can version and reuse rather than one-off prompt tinkering."
     },
     {
       "id": "gh-monthly-NVIDIA-NeMo-Switchyard",
@@ -3971,7 +3985,9 @@
       ],
       "first_seen": "2026-09-10",
       "domain": "producthunt.com",
-      "quality_score": 51.0
+      "quality_score": 51.0,
+      "summary_zh": "ChatGPT Images 2.5 是 ChatGPT 图像生成功能的一次更新，官方描述称在画面精度、生成速度和创作控制上有所改进。除这句一句话简介外，原文没有提供更多细节，具体改了什么、面向哪些用户尚不明确。",
+      "summary_en": "ChatGPT Images 2.5 is an update to ChatGPT's image generation, described as delivering sharper visuals, a faster flow and better creative control. The listing gives nothing beyond that one line, so the specific improvements and rollout are unclear; users who generate images inside ChatGPT are the likely audience."
     },
     {
       "id": "ph-1233411",
@@ -5126,7 +5142,9 @@
       "tags": [],
       "first_seen": "2026-09-10",
       "domain": "infoq.cn",
-      "quality_score": 34.0
+      "quality_score": 34.0,
+      "summary_zh": "InfoQ 上线的《2026 腾讯云大数据年度精选技术实践指南》，从标题看是腾讯云整理的大数据技术实践合集。原文未提供正文，具体章节、案例和适用场景无法判断，需要点进页面查看。",
+      "summary_en": "InfoQ has published a \"2026 Tencent Cloud Big Data Annual Selected Technical Practice Guide,\" apparently a curated collection of Tencent Cloud big data engineering practices. The linked page isn't summarized here; details beyond the title, such as chapters, case studies and intended audience, aren't available."
     },
     {
       "id": "infoq-RCa5y6tvZXbjGKeLSGZt",
@@ -5142,7 +5160,9 @@
       "tags": [],
       "first_seen": "2026-09-10",
       "domain": "infoq.cn",
-      "quality_score": 36.2
+      "quality_score": 36.2,
+      "summary_zh": "9 月 8 日，Snowflake World Tour 全球巡演首次落地中国，距其进入中国市场满两年，中国区总经理张莹与全球产品总裁 Christian Kleinerman 将主题定为企业级智能体。Snowflake 认为模型能力已不是瓶颈，关键在于企业特有的定义、口径与权限所构成的上下文，并给出 AI 模型、企业数据与上下文、连接企业系统的应用、Agentic Control Plane 四个要素。",
+      "summary_en": "On September 8, Snowflake World Tour made its first China stop, two years after the company formally entered the market. China GM Shannon Zhang and global product president Christian Kleinerman framed the event around the 'Agentic Enterprise,' arguing the bottleneck is no longer model capability but enterprise context — definitions, metrics and permissions — and naming four building blocks: models, data and context, applications that connect enterprise systems, and an Agentic Control Plane."
     },
     {
       "id": "infoq-FKI7zch6mfFHuNB72eyZ",
@@ -5158,7 +5178,9 @@
       "tags": [],
       "first_seen": "2026-09-10",
       "domain": "infoq.cn",
-      "quality_score": 36.4
+      "quality_score": 36.4,
+      "summary_zh": "京东在 JDD 全球科技探索者大会上发布物流物理 AI 方案：五大工业级原生模型组成「超脑 3.0」负责调度决策，「狼族」集群覆盖仓储到配送，共九类产品、11 款机器人，已在全球超 10 个国家部署。它没有押注通用人形，而是用统一中枢调度异构机器人，灵巧臂「异狼」储备近 100 种手型应对软包、异形件等非标货品，官方称「智狼」等产品可 3 年回本。",
+      "summary_en": "At its JDD conference, JD unveiled a physical-AI logistics stack: 'Super Brain 3.0,' five industrial-grade native models handling scheduling decisions, plus a 'Wolf Pack' fleet covering warehousing through delivery — nine product lines and 11 robots, deployed in more than 10 countries. Rather than betting on general-purpose humanoids, JD coordinates heterogeneous robots from one hub; its dexterous arm stores nearly 100 hand poses for soft and irregular parcels, and JD says products pay back within three years."
     },
     {
       "id": "infoq-8t2vJHOc5srUyQqSlO9m",

@@ -1078,9 +1078,9 @@
     "summary_en": "Just as the annual college entrance exam wrapped up, stories about Liang Wenfeng, the founder of DeepSeek, resurfaced online. Back in the day, he achieved top scores on the gaokao and entered a prestigious university. Now, as a leading figure in the AI world, he is making waves with DeepSeek. His journey inspires students and professionals alike, showcasing how solid academic foundations and relentless persistence can drive groundbreaking innovation in the tech industry."
   },
   "juejin-7646256871183024128": {
-    "summary_zh": "文章吐槽公司全面拥抱 AI 后 token 费用比招员工还贵。文中引用 Uber CTO 的说法：自部署 CC 以来，内部超九成工程师在高频使用，反映出企业 AI 落地中的真实成本焦虑。",
-    "summary_en": "The post complains that token costs have become higher than hiring after companies fully embraced AI. It cites Uber's CTO saying that since CC was deployed, over 90% of engineers have been using it at high frequency, highlighting the real cost pressure in enterprise AI adoption.",
-    "input_hash": "6517d1fad242"
+    "summary_zh": "Uber 的 CTO 透露，公司自部署 Claude Code 后超九成工程师高频使用，原计划覆盖 2026 全年的 AI 预算在今年前 4 个月就烧光。掘金这篇文章由此批评把 token 消耗当 KPI 的 Tokenmaxxing 风气，并指出同一人同一天的用量能差十倍、与产品价值无直接相关性。",
+    "summary_en": "A Juejin article reports that Uber's CTO says over 90% of its engineers now use Claude Code heavily, and that an AI budget meant to cover all of 2026 was exhausted in the first four months of this year. It argues against Tokenmaxxing — judging engineers by token consumption — noting usage swings tenfold for the same person and tool, and that token spend shows no direct correlation with product value.",
+    "input_hash": "9903d2312944"
   },
   "juejin-7651528402427723810": {
     "summary_zh": "苏三又带来一个新手项目：企业智能知识库系统。这套系统非常实用，能帮助企业高效管理内部知识，支持搜索、分类、权限控制等功能，而且可以直接写进简历里加分。作者还分享了更多项目实战在他的技术网站上。对于正在求职或想提升开发技能的朋友来说，这是一个值得研究的优质开源实践。",
@@ -2374,9 +2374,9 @@
     "summary_en": "Dotient is a local semantic search app that lets users find files, notes, and content using natural language queries. Running entirely on-device with local AI models, it ensures privacy and works offline. This addresses the pain point of information overload by offering a smarter way to retrieve personal data without sending it to the cloud, benefiting anyone who struggles with disorganized digital storage."
   },
   "juejin-7655245911811784750": {
-    "summary_zh": "文章给出 2026 年技术面试常见问题的回答思路：面试官默认候选人会用 AI，真正考察的是不可替代性。作者认为“AI 写的质量不行”“AI 不懂业务”等回答都已失效，应分层回应——AI 写代码、人做决策，AI 能写文件、人设计系统，并以电商倒计时组件的边界场景为例。适合正在准备 AI 时代面试的开发者。",
-    "summary_en": "This post offers a framework for a common 2026 interview question: 'If AI can write 80% of the code, why do companies still need you?' It argues that answers like 'AI code is low quality' or 'AI doesn't understand business' no longer land, and suggests framing humans as decision-makers and system architects. The author illustrates with an e-commerce countdown timer example. Relevant for developers preparing for AI-era interviews.",
-    "input_hash": "92cc7415e02b"
+    "summary_zh": "掘金一篇面向面试的文章讨论“AI 已能写 80% 的代码，公司为什么还需要你”。作者称 2026 年的技术面试已与两年前不同：过去考手写 Promise、React Fiber 原理，如今面试官默认你会用 AI，考察点随之转移。适合准备面试或负责招聘的开发者，但给出的摘要在此截断，未展开具体答案。",
+    "summary_en": "A Juejin article tackles the interview question \"AI can already write 80% of the code, so why does the company still need you?\" It contrasts 2026 interviews with those two years ago, when candidates hand-wrote a Promise or explained React Fiber internals; today interviewers assume AI use and probe something else. Useful for developers preparing for interviews or doing the hiring, though the supplied excerpt cuts off before the full argument.",
+    "input_hash": "48f2b65f6681"
   },
   "juejin-7656414036670840832": {
     "summary_zh": "这篇文章详细记录了CPU使用率不均匀的排查过程，从现象分析到根因定位再到解决方案。作者发现根因是服务实例数超过Kafka分片数导致负载不均，快速解决办法是扩大Kafka分片。文章还总结了通用排查思路和典型原因，对架构师和运维人员有很强的实用价值。",
@@ -4300,8 +4300,9 @@
     "summary_en": "Apple has filed a lawsuit against OpenAI, accusing it of stealing trade secrets and demanding the destruction of all confidential materials and a redesign of related AI hardware. The two companies were former partners, with plans to integrate OpenAI's technology into Apple devices, but the relationship soured over alleged misuse of proprietary information. Apple claims OpenAI improperly used its chip design and AI accelerator innovations, potentially undermining Apple's hardware edge. The lawsuit could reshape their collaboration and highlights the growing tension between technology sharing and secrecy in the AI era, with broad implications for the industry."
   },
   "gh-daily-github-spec-kit": {
-    "summary_zh": "Spec-Kit 是一个帮助开发者快速入门规范驱动开发的开源工具包，提供了丰富的模板和脚手架，让团队能够在设计阶段就围绕规范进行协作，从而减少通信歧义和后期返工。对于希望提升 API 设计质量和开发效率的团队来说，这个工具能够显著降低规范的采用门槛。",
-    "summary_en": "Spec-Kit is a toolkit designed to help developers adopt Spec-Driven Development with minimal friction. It provides templates, scaffolding, and best practices to define specifications before writing code, ensuring teams align on API contracts early. This reduces miscommunication and rework, making it valuable for teams aiming for consistent, high-quality API design. Developers, architects, and DevOps engineers working with microservices or distributed systems will find it particularly useful."
+    "summary_zh": "Spec Kit 是 GitHub 开源的一套 Spec-Driven Development 工具包，主张在动手写代码前先用规格说明定义要构建什么，再交给任意 AI coding agent 实现。它提供开箱即用的流程，也允许换成自己的方案并持续扩展，适合想把 AI 编码纳入统一规范、覆盖整个组织的团队。",
+    "summary_en": "Spec Kit is GitHub's open source toolkit for Spec-Driven Development, which has teams define what to build in a spec before handing the work to any AI coding agent. It ships a ready-to-use process that you can replace with your own or extend, and is aimed at organizations that want a repeatable, spec-first workflow across the whole team.",
+    "input_hash": "ffb28018fdf2"
   },
   "gh-daily-Graphify-Labs-graphify": {
     "summary_zh": "Graphify 是一个 AI 编码助手插件，能够将任意代码文件夹、SQL 模式、R 脚本或 Shell 脚本转化为可视化知识图谱，兼容 Claude Code、Codex 等主流工具。它让开发者可以直观地探索项目结构、数据流和依赖关系，尤其适合大型代码库的维护者或需要快速理解他人项目的开发者，显著降低认知负担。",
@@ -4594,9 +4595,9 @@
     "summary_en": "The git history command is a community-built tool that transforms repository browsing into an interactive terminal experience. Instead of scrolling through endless git log output, you get a fuzzy-searchable interface with branch filtering and inline diff previews. It solves the problem of navigating complex commit histories in large projects, making it invaluable for developers who want to quickly trace changes or review code evolution without leaving the terminal. Think of it as a better gitk for the command line."
   },
   "juejin-7659709059810705462": {
-    "summary_zh": "Meta 提出算力过剩观点后 AI 股市应声下跌，引发行业焦虑。文章反思 AI 应用三年未爆发的原因：基础设施投入巨大但 killer app 缺失，用户对 ChatGPT 等工具的新鲜感消退，而企业级落地面临成本和安全挑战。作者认为 AI 不会重蹈互联网泡沫，但需要找到像抖音微信那样的超级场景才能引爆下一波增长。",
-    "summary_en": "When Meta suggested there was too much computing capacity, AI stocks tumbled, revealing deep anxiety in the industry. This article reflects on why AI applications haven't exploded after three years: massive infrastructure spending without a killer app, declining novelty of chatbots like ChatGPT, and enterprise deployment hurdles around cost and security. The author argues it's not a repeat of the 2000 dot-com bubble, but AI needs its own TikTok or WeChat moment to trigger the next growth wave. It's a sobering reality check for the industry.",
-    "input_hash": "cf73555b75f4"
+    "summary_zh": "掘金精选：三年了，为什么 AI 应用还没爆发？",
+    "summary_en": "Featured on Juejin: 三年了，为什么 AI 应用还没爆发？",
+    "input_hash": "180243b43839"
   },
   "zhihu-2058449781597459395": {
     "summary_zh": "长鑫科技以 8.66 元/股启动申购，估值超 4 万亿（实际约 4300 亿？），成为国产 DRAM 龙头资本化里程碑。对自身而言，募资将加速先进制程研发和产能扩张，巩固与三星、SK 海力士的竞争；对半导体产业则意味着国产存储芯片从追赶进入量产验证期，有望降低对进口的依赖并带动设备材料国产化生态。",
@@ -11217,9 +11218,9 @@
     "input_hash": "a79557ffc8b1"
   },
   "v2ex-06a82d878c62": {
-    "summary_zh": "据 V2EX 用户反馈，OpenAI Plus 在今日重置后新增了 5 小时使用限额，发帖者认为这个额度对多数人来说可能不够用，因此 Pro 订阅看起来就成了最佳答案。需要说明的是，这只是一条论坛帖子，并非 OpenAI 的官方公告。",
-    "summary_en": "According to a V2EX post, OpenAI Plus now enforces a 5-hour usage limit after today's reset. The author believes most subscribers will run out of the allowance, making ChatGPT Pro seem like the better option. This is anecdotal from a forum user, and no official announcement about the change has been linked.",
-    "input_hash": "7c16fc4f08be"
+    "summary_zh": "V2EX 上一条关于 OpenAI 的讨论帖，发帖人称 Tibo 今天重置额度后新增了 5 小时限额，形容这是先给甜枣再敲一棒。原文只提供了标题，未包含更多正文细节，具体限额数值和影响范围无法从标题确认。",
+    "summary_en": "A V2EX thread about OpenAI whose poster says Tibo reset usage limits today while adding a 5-hour cap, describing the move as a reward followed by a blow. The linked page isn't summarized here, so details beyond the title, such as the exact limits or their scope, aren't available.",
+    "input_hash": "2ade55f4a034"
   },
   "v2ex-8c08985747b7": {
     "summary_zh": "零 App 开发经验的作者用一周时间完成了自己的第一个 Android 应用「AI 错题本」。他通过 Claude Code 搭配 cc switch 接入第三方大模型 API，先用 GPT-5.4 完成约 75% 的代码，再用 GLM-5.1 收尾。作者强调要建立开发规范，并推荐安装 superpowers 插件，认为单一模型加这个插件比多 agent 团队更够用。",
@@ -15365,5 +15366,260 @@
     "summary_zh": "掘金这篇文章讲的是 Qwen3.8-27B，一个能跑在个人电脑上、不花 API 费用的本地模型，主打把旗舰级 Agent 能力搬到本机。作者也点明代价：速度、内存占用和长任务体验仍有明显门槛，适合愿意折腾本地推理、对响应速度不那么敏感的人。",
     "summary_en": "The post looks at Qwen3.8-27B, a local model that brings flagship-level agent capability to a personal machine without paying API fees. The author is upfront about the trade-offs: inference speed, memory footprint and long-task experience remain real barriers. It suits developers willing to run local inference who can live with slower responses.",
     "input_hash": "22862594345f"
+  },
+  "zhihu-2081793015459177603": {
+    "summary_zh": "知乎这条讨论围绕一则官方通报：网传「男子称停止资助后遭受助学生质问催捐」被认定为假消息，另有媒体曝出该男子已被刑拘。原帖只给出标题和链接，未提供更多正文细节，涉及的具体通报单位与案情尚需查看原文核实。",
+    "summary_en": "A Zhihu thread about an official notice declaring false the viral story of a man who said a student he had funded pressed him for more money after he stopped donating, along with media reports that the man has been criminally detained. The linked page isn't summarized here; details beyond the title, such as the issuing authority and case specifics, aren't available.",
+    "input_hash": "74aebe158727"
+  },
+  "36kr-3978247601601280": {
+    "summary_zh": "36氪「8点1氪」栏目这条要闻汇总了三件事：英伟达被调查，罗永浩连用7个「抄的」吐槽苹果折叠屏，欧洲央行将三大关键利率各上调25个基点。该条仅有标题、没有正文，调查方、时间等具体情况需回到原文查看。",
+    "summary_en": "A roundup from 36Kr's morning brief covering three items: Nvidia is under investigation, Luo Yonghao slammed Apple's foldable phone by repeating the word 'copied' seven times, and the European Central Bank raised its three key interest rates by 25 basis points each. The linked page isn't summarized here; details beyond the title, such as which regulator is investigating, aren't available.",
+    "input_hash": "975e9721db6f"
+  },
+  "infoq-FKI7zch6mfFHuNB72eyZ": {
+    "summary_zh": "京东在 JDD 全球科技探索者大会上发布物流物理 AI 方案：五大工业级原生模型组成「超脑 3.0」负责调度决策，「狼族」集群覆盖仓储到配送，共九类产品、11 款机器人，已在全球超 10 个国家部署。它没有押注通用人形，而是用统一中枢调度异构机器人，灵巧臂「异狼」储备近 100 种手型应对软包、异形件等非标货品，官方称「智狼」等产品可 3 年回本。",
+    "summary_en": "At its JDD conference, JD unveiled a physical-AI logistics stack: 'Super Brain 3.0,' five industrial-grade native models handling scheduling decisions, plus a 'Wolf Pack' fleet covering warehousing through delivery — nine product lines and 11 robots, deployed in more than 10 countries. Rather than betting on general-purpose humanoids, JD coordinates heterogeneous robots from one hub; its dexterous arm stores nearly 100 hand poses for soft and irregular parcels, and JD says products pay back within three years.",
+    "input_hash": "f3b892a9dfa0"
+  },
+  "v2ex-3d09f8f249b8": {
+    "summary_zh": "这是 V2EX 上一篇推广帖，宣传通过众安银行（ZA BANK）香港开户可返 500HKD，正文只留了 Telegram 账号和电报群链接，没有写返现条件、名额或截止时间。对香港银行开户返现有兴趣的人可按此联系发帖人，但帖子本身没有提供更多可核实信息。",
+    "summary_en": "A V2EX promotional post advertising a 500 HKD reward for opening an account with ZA BANK, the Hong Kong virtual bank. The body contains only contact details — a Telegram handle and a group link — with no terms, quotas or deadlines. Anyone curious about Hong Kong bank referral bonuses can reach the poster, but the post itself offers nothing further to verify.",
+    "input_hash": "0ece80412298"
+  },
+  "infoq-RCa5y6tvZXbjGKeLSGZt": {
+    "summary_zh": "9 月 8 日，Snowflake World Tour 全球巡演首次落地中国，距其进入中国市场满两年，中国区总经理张莹与全球产品总裁 Christian Kleinerman 将主题定为企业级智能体。Snowflake 认为模型能力已不是瓶颈，关键在于企业特有的定义、口径与权限所构成的上下文，并给出 AI 模型、企业数据与上下文、连接企业系统的应用、Agentic Control Plane 四个要素。",
+    "summary_en": "On September 8, Snowflake World Tour made its first China stop, two years after the company formally entered the market. China GM Shannon Zhang and global product president Christian Kleinerman framed the event around the 'Agentic Enterprise,' arguing the bottleneck is no longer model capability but enterprise context — definitions, metrics and permissions — and naming four building blocks: models, data and context, applications that connect enterprise systems, and an Agentic Control Plane.",
+    "input_hash": "05bdbbe057ad"
+  },
+  "v2ex-34202f00a1e6": {
+    "summary_zh": "一位 V2EX 用户替朋友打听，任天堂两天前发布、十月底发售的塞尔达主题 Switch 2 套装怎么才能第一时间以平价买到，用途是送小朋友（主机加游戏一套）。帖子只提了需求和发售时间，没有给出渠道、价格或抢购经验，属于纯求教。",
+    "summary_en": "A V2EX user is asking on a friend's behalf how to buy the Zelda-themed Switch 2 bundle at a fair price right at launch; Nintendo announced the console two days ago with an end-of-October release, and the bundle of console plus game is meant as a gift for a child. The post offers no pricing or channel information, only a request for advice.",
+    "input_hash": "be0b144c8f31"
+  },
+  "v2ex-7e4cb0bf35b8": {
+    "summary_zh": "用户让 Codex 读取自己的会话数据，估算 OpenAI Pro 20X 的周额度：本周已用约 6.05 亿 tokens、标准价计 921.97 美元，按 75% 推得整周约 8.07 亿 tokens（约 1,229 美元）。他称印象中该档周限约 2,500 美元，如今近乎腰斩；若 sol 额度不变，astra 单价约为 sol 的 5 倍。",
+    "summary_en": "A user had Codex read his own session logs to estimate the weekly allowance on OpenAI's Pro 20X tier: about 605M tokens consumed so far, worth $921.97 at standard pricing, which projects to roughly 807M tokens (~$1,229) for a full week at 75% usage. He says the limit used to be near $2,500, so it has nearly halved, and if sol's quota is unchanged, astra costs about 5x per unit.",
+    "input_hash": "189e4c4382cd"
+  },
+  "v2ex-74e721544cff": {
+    "summary_zh": "一则推广帖称 OpenAI 官方已无法再订阅 20X 套餐，因此为未到期或即将到期的用户提供续费绑卡，同时代充 ChatGPT Plus/Pro、Claude Pro/Max、Gemini Pro/Ultra，支持微信和支付宝付款、免海外信用卡，开通失败全额退款。属于第三方代订服务，面向受支付渠道限制的订阅用户。",
+    "summary_en": "A promotional post claims OpenAI no longer allows new subscriptions to its 20X plan, so the seller offers card-binding renewals for users whose plans are active or expiring, plus top-ups for ChatGPT Plus/Pro, Claude Pro/Max and Gemini Pro/Ultra. Payment goes through WeChat or Alipay with no overseas credit card, and failed activations are fully refunded; it is a third-party paid service for buyers blocked by payment channels.",
+    "input_hash": "94f1d21b143b"
+  },
+  "v2ex-5555c1dcac7c": {
+    "summary_zh": "作者分享了自己新做的一个工具，把 TikTok 广告和 WhatsApp 对话连起来，以便追踪转化效果，面向跨境电商卖家和出海投手。帖子里只强调简单高效并附上 adlinker.work 链接，没有提供功能细节、价格或技术实现。",
+    "summary_en": "The author shares a new tool that links TikTok ads with WhatsApp conversations so conversions can be tracked, aimed at cross-border e-commerce sellers and overseas ad buyers. The post only calls it simple and efficient and links to adlinker.work; no feature, pricing or implementation details are given.",
+    "input_hash": "941d46ee7447"
+  },
+  "v2ex-62857b94c11d": {
+    "summary_zh": "发帖人认为 iPhone Duo 难以成为大众爆款，障碍在于约 1.6 万元的定价和 254 克的重量，而非形态是否开创。他用 iPhone 13 系列销量最好、vision pro 因高价被边缘化、iPad mini 靠低价做成软刚需来论证：对消费品来说价格比开创性更关键，适合关注苹果产品策略的人。",
+    "summary_en": "The poster argues the iPhone Duo won't become a mainstream hit, and that the real obstacles are its roughly 16,000 yuan price and 254g weight rather than any lack of originality. He points to the iPhone 13 series as Apple's best seller, Vision Pro fading behind a high price, and the cheap iPad mini turning a non-essential into a habit, concluding price matters more than novelty for consumer hardware.",
+    "input_hash": "229247f3136f"
+  },
+  "zhihu-2081779894636240979": {
+    "summary_zh": "据知乎问题标题，打假网红「铁头」因敲诈勒索罪一审被判八年，案情涉及伙同他人以曝光黑料相威胁，向带货主播索要数百克黄金。该条目只给出链接，未提供更多案情或判决细节。",
+    "summary_en": "According to the Zhihu question title, the anti-fraud influencer known as \"Tietou\" received an eight-year first-instance sentence for extortion, allegedly teaming up with others to threaten exposing a livestream seller's secrets and demand several hundred grams of gold. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "4522329fc934"
+  },
+  "v2ex-653a15211852": {
+    "summary_zh": "橙枢 AI 是面向开发者的 GPT / Claude API 中转服务，运营者称已取消注册赠送，最低 1 元起充、充值倍率统一为 1，价格与扣费可在模型广场自行核对。GPT 线路分特价 0.15x、普通 0.24x、低延迟 0.24x、稳定 0.32x 四组，特价组不支持 gpt-5.6-luna，低延迟组共享 RPM 10。",
+    "summary_en": "Chengshu AI is a relay service reselling GPT and Claude API access to developers; its operator says sign-up credits are gone, top-ups start at 1 yuan on a flat 1x rate, and pricing plus actual charges can be verified on its model page. GPT traffic is split into four tiers (0.15x, 0.24x, 0.24x, 0.32x), with gpt-5.6-luna excluded from the cheapest tier and the low-latency tier capped at a shared 10 RPM.",
+    "input_hash": "41d954d57b56"
+  },
+  "v2ex-f5e0734b8053": {
+    "summary_zh": "GPT Image 2 API 是一个第三方图像生成与编辑工具，能用文字提示词出图，也能对已有图片做主体替换、背景修改、风格调整和局部润色，并提供 API Key、任务提交、状态查看和额度管理。作者建议先在网页端把提示词模板调稳再接入 API 批量生成，适合做产品图、广告素材和社交媒体配图的人。",
+    "summary_en": "GPT Image 2 API is a third-party service for image generation and editing: it turns text prompts into images and can swap subjects, change backgrounds, restyle or touch up existing ones, with API keys, job submission, status checks and quota management. The suggested workflow is to lock a prompt on the web UI first, then batch-generate through the API, which suits product shots, ad creative and social visuals.",
+    "input_hash": "278f70c087d9"
+  },
+  "v2ex-5291f38fc2f5": {
+    "summary_zh": "发帖人是做 ChatGPT 代充的推广者，称 Pro 20x 订阅临近到期，一旦过期降为 Free 就无法再升级，因此建议打算续费的人提前找他办理。他声称一卡一充、渠道可靠，掉订阅可按剩余天数退款，并留下微信 geminieth 与网站 AI-airdrop.com。",
+    "summary_en": "A reseller advertising ChatGPT top-ups says Pro 20x subscriptions are about to lapse and that once an account falls back to Free it can't be upgraded again, so anyone due for renewal should contact him early. He claims one-card-per-charge handling, refunds of remaining days if a subscription drops, and lists WeChat geminieth plus the site AI-airdrop.com as contacts.",
+    "input_hash": "f99555bc9525"
+  },
+  "v2ex-a11a9c6e96e5": {
+    "summary_zh": "一位 V2EX 用户在问与答版发帖，寻找做跨境电商和出海方向的从业者交流渠道，说这类人群很难找，并询问谁家做得比较好、有没有头部公司可以推荐。帖子本身没有给出答案，适合正在做跨境或出海业务、想找人交流或了解行业头部的人去回复补充。",
+    "summary_en": "A V2EX user posted in the Q&A board looking for communities of people working in cross-border e-commerce and going-global businesses, saying such groups are hard to find, and asking which companies do it well and whether anyone can recommend leading players. The post itself offers no answers, so it is mainly useful for practitioners in the space to reply with leads.",
+    "input_hash": "b024c77a9dc8"
+  },
+  "zhihu-2081720868716261782": {
+    "summary_zh": "这是一个知乎问题，讨论特朗普拒绝沙特提出的介入也门局势、打击胡塞武装的请求。原文只提供问题链接，没有附带正文或背景材料，无法补充更多细节，感兴趣的读者需要自行到知乎查看回答。",
+    "summary_en": "This is a Zhihu question about Donald Trump declining Saudi Arabia's request to intervene in Yemen and strike the Houthis. The linked page isn't summarized here; details beyond the title aren't available, so readers need to open Zhihu to see the answers.",
+    "input_hash": "248a09b99a7a"
+  },
+  "infoq-W2lxNULd8rJGsXWjEgMX": {
+    "summary_zh": "InfoQ 上线的《2026 腾讯云大数据年度精选技术实践指南》，从标题看是腾讯云整理的大数据技术实践合集。原文未提供正文，具体章节、案例和适用场景无法判断，需要点进页面查看。",
+    "summary_en": "InfoQ has published a \"2026 Tencent Cloud Big Data Annual Selected Technical Practice Guide,\" apparently a curated collection of Tencent Cloud big data engineering practices. The linked page isn't summarized here; details beyond the title, such as chapters, case studies and intended audience, aren't available.",
+    "input_hash": "ba7a001486d1"
+  },
+  "ph-1240780": {
+    "summary_zh": "Typewise Nova 是 Product Hunt 上新出现的 AI 客服产品，官方一句话描述称它能自行构建并不断改进客户体验（builds and improves itself）。对正在评估 AI 客服或自动化客户体验工具的团队来说，值得确认这种自迭代能力是否真能减少人工配置。",
+    "summary_en": "Typewise Nova is a new Product Hunt listing for an AI customer experience product whose one-line pitch is that it builds and improves itself. Teams evaluating AI support or automated CX tooling will care whether that self-improving claim actually reduces the manual configuration such tools usually require.",
+    "input_hash": "885412f4a4d0"
+  },
+  "infoq-PyUlLla6MWSSoRLiDKbu": {
+    "summary_zh": "QCon 全球软件开发大会 2026 上海站定于 10 月 22-24 日举行，主线从「构建 AI」转向「驾驭 AI」，把 AI 深水区的工程挑战拆成 6 个追问，涉及 Coding Agent 带来的新质量债、AI 代码的验证与大型工程重构。讲师来自微软、蚂蚁集团、阿里巴巴、小红书、快手等团队的一线实践者。",
+    "summary_en": "QCon Shanghai 2026 runs October 22-24 and reframes the theme from \"Build AI\" to \"Harness AI,\" splitting the hard engineering problems of production AI into six questions, including the new quality debt created by Coding Agent output, verifying AI-written code, and safely refactoring large codebases. Speakers come from Microsoft, Ant Group, Alibaba, Xiaohongshu and Kuaishou teams, so it suits engineers shipping AI features in production.",
+    "input_hash": "f6d0045f5838"
+  },
+  "infoq-DtxID7YaDp3o3QRcOTYj": {
+    "summary_zh": "Blume 是 Hayden Bleasel 开源的零配置文档框架，基于 Astro 和 Vite、MIT 许可，可把一个 Markdown 文件夹直接渲染成文档网站，无需脚手架，GitHub Star 已超 1300。它提供 30 多个组件和自动 SEO，能生成 llms.txt、托管 MCP 服务器，并用 blume eval 把文档当作测试套件。",
+    "summary_en": "Blume is an MIT-licensed, zero-config docs framework by Hayden Bleasel that renders a folder of Markdown into a full documentation site, built on Astro and Vite with over 1,300 GitHub stars. It ships 30+ components, automatic SEO, generated llms.txt files, a hosted MCP server, and blume eval, which turns your docs into a test suite an agent has to pass.",
+    "input_hash": "2faf5fdf1ff6"
+  },
+  "ph-1245108": {
+    "summary_zh": "ChatGPT Images 2.5 是 ChatGPT 图像生成功能的一次更新，官方描述称在画面精度、生成速度和创作控制上有所改进。除这句一句话简介外，原文没有提供更多细节，具体改了什么、面向哪些用户尚不明确。",
+    "summary_en": "ChatGPT Images 2.5 is an update to ChatGPT's image generation, described as delivering sharper visuals, a faster flow and better creative control. The listing gives nothing beyond that one line, so the specific improvements and rollout are unclear; users who generate images inside ChatGPT are the likely audience.",
+    "input_hash": "3f5109f5aa7b"
+  },
+  "hn-49643982": {
+    "summary_zh": "Shopify 正在把移动应用从 React Native 迁回原生 Swift 和 Kotlin，原文给出的理由是 coding agent 改变了构建移动应用的成本结构。目前披露的信息只有这一句背景，迁移范围和排期等细节尚未公开。",
+    "summary_en": "Shopify is moving its mobile apps from React Native back to native Swift and Kotlin, with the post arguing that coding agents have changed what it costs to build mobile apps twice over. Beyond that framing the summary offers no further detail, so the scope and timeline of the migration aren't known.",
+    "input_hash": "518e7f26274c"
+  },
+  "ph-1228578": {
+    "summary_zh": "AI Observability by OpenObserve 是 OpenObserve 推出的面向 AI agent 与 LLM 的可观测性产品，采用 OpenTelemetry 原生方式采集数据。它面向需要追踪 agent 调用链路、模型延迟与成本的团队，具体功能和定价原文未展开。",
+    "summary_en": "OpenObserve's AI Observability is a tool for monitoring AI agents and LLM workloads, built natively on OpenTelemetry. It targets teams that need to trace agent runs and track model latency and cost in production, though the Product Hunt listing gives no further detail on features or pricing.",
+    "input_hash": "27f97541611c"
+  },
+  "infoq-hLyrZkaWJ9DkIUr7UvKQ": {
+    "summary_zh": "这是快手电商 B 端商家前端负责人李东东在 QCon 上海 2026 的分享，讲端云协同调度在 B 端应用的工程实践，采用规则引擎短路、端侧推理、云端推理三层决策，并支持混合流水线。系统已在 B 端桌面端集成，规则引擎覆盖 60% 以上高频场景，端侧推理延迟稳定在 100ms 以内。",
+    "summary_en": "This QCon Shanghai 2026 talk by Li Dongdong, frontend lead for Kuaishou e-commerce's B-end merchant products, covers an on-device-first, cloud-fallback scheduling system for enterprise apps. Its three-layer decision path runs a rule-engine short circuit, then on-device inference, then cloud with automatic fallback; rules already cover 60%+ of high-frequency cases and on-device latency stays under 100ms.",
+    "input_hash": "d74d063a74e6"
+  },
+  "infoq-NizuOkFpcOPgbeClC4uL": {
+    "summary_zh": "AMD 于 9 月 10 日在北京发布锐龙 AI Max PRO 400 系列处理器，并联合星漪科技、首界科技、六联智能等展示 Mini PC、紧凑工作站、笔记本与 AI NAS 等终端产品。该平台最高配备 128GB 统一内存，其中最多 96GB 可划为显存，通过 CPU、GPU、NPU 异构算力把大模型、长上下文 RAG 和多智能体工作流放到本地运行，适合关注端侧智能体部署的开发者。",
+    "summary_en": "AMD unveiled its Ryzen AI Max PRO 400 processors at a Beijing media event on September 10, alongside partners like Flowy and Nova showing Mini PCs, compact workstations, laptops and AI NAS built on the platform. The chip offers up to 128GB of unified memory, 96GB of which can be allocated as VRAM, letting local LLMs, long-context RAG and multi-agent workflows run across CPU, GPU and NPU. It targets developers weighing on-device agent deployment.",
+    "input_hash": "bd229a88497f"
+  },
+  "36kr-3978268468525825": {
+    "summary_zh": "据 36kr 报道，英伟达开源了一个名为 Harness 的项目，标题称其能让 AI 自己改造 AI。原文仅为链接，未提供更多细节，因此该工具的具体形态、能力范围和开源协议都无法确认。",
+    "summary_en": "According to 36kr, NVIDIA has open-sourced a project called Harness, described in the headline as letting AI modify AI itself. The linked page isn't summarized here; details beyond the title, such as what the tool actually does, its scope or its license, aren't available.",
+    "input_hash": "e519e89e0809"
+  },
+  "infoq-7c7c4W0KxxjMMMgS5RAC": {
+    "summary_zh": "微软为 Azure API Management 的 Standard v2 层级引入区域冗余，把此前 Premium 专属的跨可用区部署能力下放，单单元起步价每月 700 美元，而 Premium v2 为 2801 美元。限制在于该功能只能在新建实例时配置，已有实例无法开启，且 Standard v2 的 SLA 为 99.95%，低于 Premium 的 99.99%，已有团队迁移需重新导入 API、策略与证书。",
+    "summary_en": "Microsoft added zone redundancy to the Standard v2 tier of Azure API Management, bringing availability-zone deployment previously reserved for Premium down to a $700-per-unit monthly starting price versus $2,801 for Premium v2. The catch is that it can only be configured when creating a new instance, not on existing ones, and Standard v2 carries a 99.95% SLA against Premium's 99.99%. Teams already on Standard v2 must rebuild and re-import APIs, policies and certificates.",
+    "input_hash": "684b54c212ef"
+  },
+  "infoq-RLdCKyW7YNb8ybDKlQ5d": {
+    "summary_zh": "作者在 Snowflake World Tour 上海站听完全球产品总裁 Christian Kleinerman 的 Keynote 后，总结出三个细节：Agent 开始拥有 Identity 与 Policy，能像员工一样被授予“工号”，限制它读写什么、调动哪些数据乃至预算；数据平台从被动查询转向主动执行；Snowflake 开始拥抱开源。文章面向关注 Agent 在企业落地的数据与 AI 从业者。",
+    "summary_en": "Writing up Snowflake World Tour Shanghai, the author draws three takeaways from global product president Christian Kleinerman's keynote: agents now get Agent Identity and Policy, effectively an employee ID capping what they can read, write, move and spend; data platforms are starting to take action rather than just answer queries; and Snowflake is embracing open source. Aimed at data and AI practitioners tracking enterprise agent adoption.",
+    "input_hash": "ba328823e7b7"
+  },
+  "hn-49639408": {
+    "summary_zh": "一条 Hacker News 讨论，质疑研究者能否放心把未发表的数学成果交给 OpenAI。该条目本身没有正文，只贴了 Mathstodon、X 和 Bluesky 上的几条讨论链接，详细内容无法从摘要中获知。",
+    "summary_en": "A Hacker News thread asking whether researchers can trust OpenAI with their unpublished mathematics. The submission itself carries no summary text — only links to discussion threads on Mathstodon, X and Bluesky — so the linked pages aren't summarized here and details beyond the title aren't available. Anyone wanting the substance has to read those threads directly.",
+    "input_hash": "261b96f1ee85"
+  },
+  "36kr-3978406307183360": {
+    "summary_zh": "36kr 的一篇观点文章，围绕 iPhone Duo 上“液态玻璃”最惊艳的一瞬间展开，作者称这让他重新理解了这一效果。该条目没有提供正文，因此除标题以外的产品细节、测试方法和结论都无法确认。",
+    "summary_en": "A 36kr opinion piece built around a single striking moment on the iPhone Duo, which the author says changed how he understands “liquid glass”. No body text is provided with this item, so there's nothing to summarize beyond the title — the original 36kr post isn't reproduced here, and readers need to open it for the actual argument.",
+    "input_hash": "894831a4bb51"
+  },
+  "hn-49645393": {
+    "summary_zh": "一篇题为“Don't let anyone take away your big box of cables”的文章，从标题看是为囤积线材这件事辩护。该条目只附了作者博客的一句 tagline，说的是制作万维网内容的混乱过程，正文没有提供，具体论点无法确认。",
+    "summary_en": "An essay titled “Don't let anyone take away your big box of cables”; the only text supplied is the author's blog tagline about the messy business of making things for the web. No article body is included here, so the actual argument isn't summarized and details beyond the title aren't available.",
+    "input_hash": "244821e4a9a9"
+  },
+  "hn-49657850": {
+    "summary_zh": "一条 Ask HN 帖子希望 HN 减少 AI 新闻刷屏，作者说近几个月时间线几乎被 AI 话题占满，自己觉得真正硬核的技术投稿得不到任何讨论。他举例：联想一款采用 solid-state 空冷的机型，以及 Brax Industries 的开源设备，尤其是模块化、支持 on-device 处理的 wall display。",
+    "summary_en": "An Ask HN post asking whether Hacker News can limit the flood of AI stories: the author says the feed has been almost exclusively AI or AI-adjacent for months, while broadly hacker projects he submits get no traction. Two examples he cites are a Lenovo model using solid-state air cooling and Brax Industries' open-source devices, notably a modular wall display with on-device processing.",
+    "input_hash": "ce0bcfe7b406"
+  },
+  "36kr-3978455165713160": {
+    "summary_zh": "36kr 这篇报道称 OpenAI 卷入一场争议，标题指其“窃走 20 年成果”，并称有顶级数学家对此表达愤怒。原文只提供了标题，未提供更多细节，具体指控内容、涉事人物和当事方回应都无从确认。",
+    "summary_en": "A 36kr headline claims OpenAI is caught up in a controversy described as taking \"20 years of work,\" reportedly angering a top mathematician. The linked page isn't summarized here; details beyond the title, such as the specific allegations or who is involved, aren't available.",
+    "input_hash": "117d32971cf6"
+  },
+  "36kr-3978455065508609": {
+    "summary_zh": "36kr 报道称 GPT-6 在某项评测中登顶第一，并被形容为 AlphaFold 之后最大的震撼，成为抗体预测能力最强的 AI。原文只有标题，未提供更多细节，具体榜单、评测数据和模型信息都未给出。",
+    "summary_en": "A 36kr headline says GPT-6 has taken the top spot and is being called the strongest AI for antibody prediction, described as the biggest shock since AlphaFold. The linked page isn't summarized here; details beyond the title, such as which benchmark or model information, aren't available.",
+    "input_hash": "158746ad66e8"
+  },
+  "zhihu-2034727530125595098": {
+    "summary_zh": "这是知乎上的一个提问：觉得自己在上海玩得不开心，是不是因为没钱。原文只有标题，未提供更多细节，提问者的具体经历以及其他回答的内容都不在素材中。",
+    "summary_en": "A Zhihu question asks whether the reason someone finds Shanghai uninteresting is simply that they don't have enough money. The linked page isn't summarized here; details beyond the title, including the asker's own experience and any answers, aren't available.",
+    "input_hash": "90194bc53092"
+  },
+  "zhihu-2081869544939676259": {
+    "summary_zh": "知乎话题中，「魔法画报」事件当事人回应称此事与荣耀手机无关，当时已正常对外拨打了求救电话，只是自己误以为没有拨通。原文是链接帖，未提供更多细节，因此值得追问的仍是求救通话状态为何会被当事人误判。",
+    "summary_en": "The person at the center of the \"Magic Comic\" incident says the matter has nothing to do with Honor phones, and that a distress call was in fact placed normally at the time — they simply misunderstood it as not going through. The linked page isn't summarized here; details beyond the title aren't available, so the open question is how that call-status misunderstanding arose.",
+    "input_hash": "83942819612e"
+  },
+  "36kr-3978406661405701": {
+    "summary_zh": "36氪报道称，全国首个实现「市市通地铁」的都市圈正式官宣。原文未提供正文内容，因此是哪座都市圈、覆盖哪些城市、时间表如何等细节均无法确认，只能从标题得知这一节点已经对外公布。",
+    "summary_en": "A 36Kr report announces that the country's first metropolitan area where every city has a metro is now officially confirmed. The linked page isn't summarized here, so which region it is, which cities are covered, and any timetable can't be determined — only the headline itself is available.",
+    "input_hash": "7009ba90ec03"
+  },
+  "36kr-3978405614599174": {
+    "summary_zh": "这是 36氪 一篇《王者万象棋》的第一人称上手体验，作者称打了一天之后「彻底上头」。原文正文未提供，玩法机制、与《王者荣耀》IP 的关系以及当前测试状态等细节都无法确认，只能从标题判断是一篇体验向内容。",
+    "summary_en": "This 36Kr piece is a first-person hands-on account of Wangzhe Wanxiangqi, with the author saying a full day of play left them hooked. The linked page isn't summarized here; the mechanics, its relationship to the Honor of Kings IP, and its current test status can't be confirmed from the headline alone.",
+    "input_hash": "9635c4bc7c5c"
+  },
+  "36kr-3978220011928576": {
+    "summary_zh": "OpenAI 宣布 ChatGPT Pro 20X 这一档订阅停止售卖。原文未提供正文，因此停止的具体时间、现有订阅用户如何处理、是否有替代档位等信息均未披露，只有这一消息本身可确认。",
+    "summary_en": "OpenAI has announced that the ChatGPT Pro 20X subscription tier is being discontinued. The linked page isn't summarized here, so no timeline, no terms for existing subscribers, and no replacement tier can be confirmed — only the headline statement itself.",
+    "input_hash": "b7789d59a0e9"
+  },
+  "gh-daily-nashsu-llm_wiki": {
+    "summary_zh": "LLM Wiki 是一个跨平台桌面应用，会读取你的文档并自动生成结构化、互相链接的 wiki 知识库，而不是像传统 RAG 那样每次查询都从零检索。它提供两步思维链摄取、多模态图片 caption 与多格式文档解析，并保留来源可追溯性，适合想长期维护个人文档知识库的开发者。",
+    "summary_en": "LLM Wiki is a cross-platform desktop app that reads your documents and automatically builds a structured, interlinked wiki knowledge base, instead of answering each query from scratch like traditional RAG. It offers two-step chain-of-thought ingestion, multimodal image captions with source traceability, and multi-format parsing — aimed at anyone who wants a self-maintaining personal knowledge base.",
+    "input_hash": "c54a72400bca"
+  },
+  "gh-daily-alsk1992-CloddsBot": {
+    "summary_zh": "CloddsBot 是 alsk1992 开源的 AI 交易 agent，可在 Polymarket、Kalshi、Binance、Hyperliquid、Solana DEX 和 5 条 EVM 链等 1000+ 市场自主扫描机会、即时执行并管理风险，内置 119+ skills，基于 Node 22 与 TypeScript，采用 MIT 许可。项目名取自 Claude+Odds，曾参加 Colosseum Agent Hackathon，14 天内被 clone 约 1.07 万次，适合想研究 LLM 驱动自动交易或预测市场套利的人。",
+    "summary_en": "CloddsBot is an open-source AI trading agent that autonomously scans and executes across 1,000+ markets, including Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs and five EVM chains, shipping 119+ skills and risk management in an MIT-licensed Node 22 / TypeScript codebase. Its name blends Claude and Odds, and it was built for the Colosseum Agent Hackathon, drawing about 10.7k clones in 14 days. Developers exploring LLM-driven trading or prediction-market arbitrage are the intended audience.",
+    "input_hash": "4d861db79f67"
+  },
+  "36kr-3978437628492804": {
+    "summary_zh": "这是 36kr 的一篇文章，标题观点是 WorkBuddy 在产品形态上越来越像 QQ。原文以链接形式给出，未提供更多细节，因此具体指哪些功能或哪个版本无法在此确认。",
+    "summary_en": "A 36kr article whose title argues that WorkBuddy is increasingly resembling QQ in product form. The linked page isn't summarized here; details beyond the title, such as which specific features or versions are meant, aren't available.",
+    "input_hash": "128403fce0a1"
+  },
+  "36kr-3978739416906499": {
+    "summary_zh": "36kr 的这篇文章称 OpenAI 对一家中国公司做了“像素级蒸馏”，并表示通过逐帧对比拿出了证据。原文只是链接，未提供更多细节，被指公司的名称与对比方法都无法在此确认，想判断这一指控是否成立需要自行读原文。",
+    "summary_en": "A 36kr article alleging that OpenAI 'pixel-level distilled' a Chinese company's product and claiming frame-by-frame comparisons as evidence. The linked page isn't summarized here; details beyond the title, including which company is involved and how the comparison was made, aren't available, so readers must judge the claim from the original.",
+    "input_hash": "62886f269260"
+  },
+  "zhihu-2081338673782642011": {
+    "summary_zh": "这是知乎上的一个问题，前提是 iPhone Duo 已经发布，讨论点是国内手机厂商有哪些地方值得向它学习。原文只提供链接，未提供更多细节，具体的回答内容与论据无法在此呈现。",
+    "summary_en": "A Zhihu question that takes the release of the iPhone Duo as its premise and asks what Chinese phone makers could learn from it. The linked page isn't summarized here; details beyond the title, including the answers and their arguments, aren't available.",
+    "input_hash": "3eb8b8b86f33"
+  },
+  "zhihu-2081687756963688823": {
+    "summary_zh": "知乎上的一则讨论：影视飓风给包括实习生在内的全体员工发放万元级 iPhone Duo，并由公司代缴个人所得税，引发“别人家的公司”式羡慕。原文只提供链接，未提供更多细节，发放范围与具体做法以原文为准。",
+    "summary_en": "A Zhihu thread about 影视飓风 giving every employee, interns included, a 万元 iPhone Duo while covering the individual income tax, prompting the familiar 'other people's company' envy. The linked page isn't summarized here; details beyond the title about the exact scope and terms aren't available.",
+    "input_hash": "470cc36f7811"
+  },
+  "zhihu-2081639111572698705": {
+    "summary_zh": "知乎上的一条提问，讨论 GPT 为何要暂停 200 美元的 Pro 订阅。帖子只提供了标题，没有正文或官方说明，因此无法确认这是限时下架、区域调整还是别的原因，关注 OpenAI 订阅策略变化的人可以留意后续讨论。",
+    "summary_en": "A Zhihu question asking why GPT is pausing its $200 Pro subscription. The post contains only a title, so the linked page isn't summarized here and no official explanation is given; details beyond that — whether this is a temporary removal, a regional change or something else — aren't available.",
+    "input_hash": "7d474ef28945"
+  },
+  "gh-daily-armory3d-armorpaint": {
+    "summary_zh": "ArmorPaint 是一款 3D PBR 贴图绘制软件，GitHub 仓库面向开发者开放，作者提示这里的主干代码可能不稳定，编译好的二进制版本需付费购买以资助项目。从源码编译需要自备平台工具链：Windows 用带 clang 工具的 Visual Studio、Linux 用 clang 及依赖、macOS/iOS 用 Xcode、Android 用 Android Studio。",
+    "summary_en": "ArmorPaint is a 3D PBR texture painting tool whose GitHub repository is aimed at developers; the maintainers note the code here may not be stable, and ready-made binaries are sold to fund the project. Building from source requires a platform toolchain — Visual Studio with clang tools on Windows, clang and dependencies on Linux, Xcode for macOS/iOS, Android Studio for Android.",
+    "input_hash": "a8dd8714073b"
+  },
+  "gh-daily-p1neappleXpress-OpenFlux": {
+    "summary_zh": "OpenFlux 是一个网络协议栈研究工具，提供支持可插拔传输的 TCP 隧道，链路为客户端经 SOCKS5 接入传输层与出口节点再连往互联网。作者在 README 中声明项目完全非商业、无付费功能和隐藏订阅，代码按原样提供且不附担保，同时明确不鼓励用它绕过平台限制，也不为使用后果负责。",
+    "summary_en": "OpenFlux is a network stack research tool offering a TCP tunnel with pluggable transports, routing SOCKS5 client traffic through a transport and an exit node to the internet. Its README states the project is entirely non-commercial with no paid features or hidden subscriptions, is provided as-is without warranties, and explicitly does not encourage bypassing platform restrictions.",
+    "input_hash": "75b3ca406d59"
+  },
+  "gh-daily-Sonarr-Sonarr": {
+    "summary_zh": "Sonarr 是面向 Usenet 和 BitTorrent 用户的 PVR 工具，会监控多个 RSS 源追踪剧集更新，自动抓取、分类并重命名，还能在出现更高画质版本时自动升级已下载的文件。项目提供 wiki、API 文档以及论坛和 Discord 支持渠道，GitHub Issues 仅用于提交 bug 和功能请求。",
+    "summary_en": "Sonarr is a PVR for Usenet and BitTorrent users that watches multiple RSS feeds for new episodes of your shows, then grabs, sorts and renames them, and can automatically upgrade already-downloaded files when a better-quality release appears. The project ships a wiki and API docs alongside forum and Discord support, while GitHub Issues is reserved for bugs and feature requests.",
+    "input_hash": "89ee01ea496a"
+  },
+  "gh-monthly-freestylefly-awesome-gpt-image-2": {
+    "summary_zh": "这是一个面向 GPT Image 2 / 2.5 的开源提示词与案例库，主打「Prompt as Code」思路，收录 530+ 个案例、20+ 套工业级模板和可复用的 Skills，并附上完整提示词与生成记录。新增的 2.5 同提示词对比专区，方便开发者直观看出两个版本在同一 prompt 下的出图差异，适合需要把图像生成流程沉淀成可维护资产的人。",
+    "summary_en": "This GitHub repo is a prompt and case library for GPT Image 2 / 2.5, organized around a \"Prompt as Code\" approach: 530+ cases, 20+ production-grade templates, reusable Skills, and the full prompts plus generation logs behind each result. A newly added section compares 2.5 against earlier versions using identical prompts, which makes it a practical reference for developers who want image generation workflows they can version and reuse rather than one-off prompt tinkering.",
+    "input_hash": "e383113f2b32"
+  },
+  "infoq-Z5ddgQ63RixMXCVzqgq7": {
+    "summary_zh": "9 月 10 日 Inclusion·外滩大会的圆桌上，作家刘震云与香港大学计算与数据科学学院院长马毅讨论 AI 与人的边界。刘震云称网上 95% 以他形象出现的视频是假的，但 AI 模仿不了他尚未写出的作品；马毅认为大模型只掌握人类的共性、难懂个体个性，教育应教学生用 AI 放大自身能力。",
+    "summary_en": "At a roundtable at the Inclusion Bund Conference in Shanghai on September 10, novelist Liu Zhenyun and Ma Yi, dean of HKU's School of Computing and Data Science, debated what stays uniquely human as AI advances. Liu said 95% of videos using his likeness are fake, yet AI cannot imitate works he hasn't written; Ma argued LLMs grasp only humanity's shared knowledge, not individual character, and that education should teach students to amplify their own skills with AI.",
+    "input_hash": "ad35b6c83740"
   }
 }
