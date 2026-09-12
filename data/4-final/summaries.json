@@ -3117,8 +3117,9 @@
     "input_hash": "0f496bf3eb26"
   },
   "gh-daily-asgeirtj-system_prompts_leaks": {
-    "summary_zh": "这个GitHub仓库公开了从Anthropic和OpenAI等AI公司模型中提取的系统提示（system prompts），包括Claude Fable 5、Opus 4.8、ChatGPT 5.5 Thinking等版本。这些提示揭示了模型背后的一些行为规则和设计逻辑，对AI研究者和开发者理解模型内部机制、进行提示工程非常有价值，但也引发了关于安全和隐私的讨论。",
-    "summary_en": "This repository contains extracted system prompts from major AI models including Anthropic's Claude Fable 5, Opus 4.8, and OpenAI's ChatGPT 5.5 Thinking and GPT 5.5 Instant. These leaked prompts provide rare insight into how these models are instructed to behave, revealing design logic and safety rules. For AI researchers and prompt engineers, this is a goldmine for understanding and improving prompt techniques. However, it also raises concerns about intellectual property and security, as companies typically keep such system prompts confidential."
+    "summary_zh": "该仓库逐字收录 ChatGPT、Claude、Gemini、Grok 等聊天机器人在用户发出第一条消息前收到的 system prompt，覆盖 Anthropic、OpenAI、Google、xAI 等厂商。这些文件曾被 The Washington Post 用于互动报道、被 CEPS 的 AI World 做成数据看板，适合研究各家模型行为规则与产品设计的开发者。",
+    "summary_en": "This repo collects verbatim system prompts that chatbots such as ChatGPT, Claude, Gemini and Grok receive before a user's first message, spanning models from Anthropic, OpenAI, Google and xAI. Its files have been used by The Washington Post for an interactive story and by CEPS' AI World for a live dashboard, making it a reference for developers studying how these products constrain model behavior.",
+    "input_hash": "cc9dec476e31"
   },
   "36kr-3881112560005381": {
     "summary_zh": "据报道，Anthropic正计划全面封禁所谓“地下通道”——即第三方绕过官方API限制的非正规使用方式。此举旨在加强对其AI模型访问的控制，确保合规使用并防止滥用。这对那些依赖非官方接口的开发者或研究机构可能产生影响，但也体现了AI公司在安全治理上的持续推进。",
@@ -4159,8 +4160,9 @@
     "summary_en": "Zig creator Andrew Kelley's response to Bun's migration to Rust highlights fundamental philosophical splits in systems programming. Kelley stresses Zig's advantages in low-level control and compile-time execution, arguing that Rust's borrow checker, while guaranteeing memory safety, introduces complexity and a steep learning curve. The debate reflects trade-offs between zero-cost abstractions and developer ergonomics. Bun's shift to Rust also underscores the growing demand for memory safety in JavaScript tooling, but Kelley's stance reminds us that simpler, more flexible languages can still excel in performance-critical domains."
   },
   "gh-daily-Shubhamsaboo-awesome-llm-apps": {
-    "summary_zh": "这个GitHub仓库收集了超过100个AI智能体和RAG应用，全部都是可以直接克隆下来运行的真实项目。无论是想快速上手智能客服还是文档问答系统，你都能在这里找到现成的模板，稍作修改就能部署上线。对于开发者来说，它大大缩短了从想法到产品的距离，尤其适合那些想探索大模型应用但又不想从零搭框架的团队。",
-    "summary_en": "This repository curates over 100 AI agent and RAG applications that are ready to clone, customize, and deploy. Whether you are building a smart customer service bot or a document Q&A system, you can find ready-to-run templates here and tweak them for your needs. It significantly lowers the barrier for developers who want to experiment with large language models without starting from scratch, making it ideal for rapid prototyping and production deployment."
+    "summary_zh": "Shubhamsaboo/awesome-llm-apps 收录了 100 多个可直接运行的开源 AI agent、agent skills 和 RAG 应用，采用 Apache-2.0 许可，兼容 Claude、Gemini、GPT、DeepSeek、Llama、Qwen 等模型。仓库里的示例都经过手工编写和端到端测试，并配有 Unwind AI 上的逐步教程，适合想直接拿来改、而不是从零搭框架的开发者。",
+    "summary_en": "awesome-llm-apps is a curated GitHub repo of more than 100 open-source AI agents, agent skills and RAG apps, released under Apache-2.0 and compatible with Claude, Gemini, GPT, DeepSeek, Llama and Qwen. Each template is hand-built and tested end-to-end, with step-by-step tutorials on Unwind AI, so developers can clone and ship instead of writing boilerplate from scratch.",
+    "input_hash": "2e61228357cc"
   },
   "36kr-3892406243129985": {
     "summary_zh": "阿里巴巴突然调整快递业务战略，标志着快递行业迎来重大变局。过去阿里通过菜鸟网络整合物流生态，如今转向更轻量化的模式，可能放弃自建物流的重资产路线，转而聚焦平台化和技术赋能。这一转向不仅影响菜鸟的上市计划，也重新定义了电商与物流的关系，对于快递公司和商家来说，都需要重新评估合作模式。",
@@ -11438,9 +11440,9 @@
     "input_hash": "86c2e08c7c99"
   },
   "v2ex-20344e968064": {
-    "summary_zh": "有 V2EX 用户反映，Twitter/X 浏览器首页突然刷不出内容，只剩一句 “Welcome to X! Let's go!”，并猜测是不是 Firefox 被针对性封禁。如果属实，会影响用浏览器访问 X 的用户；但也可能只是显示异常。",
-    "summary_en": "A user on V2EX reports that the X/Twitter homepage in a browser suddenly stopped showing posts, displaying only 'Welcome to X! Let's go!' and wonders whether Firefox is being specifically blocked. If real, it affects Firefox users visiting X; otherwise it may just be a display glitch.",
-    "input_hash": "5c9005d55536"
+    "summary_zh": "这是 V2EX 的 Twitter 节点下的一条帖子，标题在问浏览器首页为什么突然什么都刷不出来。原帖是链接形式，未提供更多细节，正文、描述都没有，因此无法确认涉及哪个浏览器或具体是什么故障。",
+    "summary_en": "This is a V2EX post in the Twitter node asking why a browser homepage suddenly stopped loading anything. The linked page isn't summarized here; details beyond the title aren't available, so it's unclear which browser or what kind of failure is involved.",
+    "input_hash": "ff788c26c1b0"
   },
   "v2ex-869d3d9a4d1a": {
     "summary_zh": "一篇 V2EX 讨论帖问如何最大化 coding 时所用模型的效果，作者提到 Codex 版本多且推理强度分梯度，Claude 通常用 opus 系列 medium，想知道更精细的用法。适合正在组合不同模型和任务、想优化调用策略的开发者。",
@@ -11833,9 +11835,9 @@
     "input_hash": "d96a48a04e99"
   },
   "gh-daily-bilawalsidhu-gods-eye-view": {
-    "summary_zh": "God's Eye View（原 WorldView）是跑在浏览器里的「间谍卫星模拟器」：把实时的航班、船舶、卫星、地震和公共摄像头数据叠加到写实 3D 地球上，还能用实时 AI agent 做免手语音控制。它出自同名 YouTube 系列，2026 年 8 月登顶 GitHub Trending 日榜与周榜。",
-    "summary_en": "God's Eye View (formerly WorldView) is a spy-satellite simulator that runs in the browser: a photorealistic 3D globe layered with live aircraft, ships, satellites, earthquakes, traffic and public cameras, plus hands-free voice control driven by a realtime AI agent. It comes from the YouTube series of the same name and hit #1 on GitHub Trending, daily and weekly, in August 2026 — worth a look for anyone into geospatial visualization or open-source intelligence.",
-    "input_hash": "9110e2aa707d"
+    "summary_zh": "浏览器里的间谍卫星模拟器：用逼真的 3D 地球叠加实时飞机、船舶、卫星、地震、交通与公共摄像头数据，并支持由实时 AI agent 驱动的免手语音控制。作者是 YouTube 系列 God's Eye View（原名 WorldView）的 bilawalsidhu，项目曾登上 GitHub Trending 第一，适合做地理空间可视化与实时数据流的开发者。原文素材只到此处，未涉及更多实现细节。",
+    "summary_en": "God's Eye View is an open source browser app that renders a photorealistic 3D globe layered with live aircraft, ships, satellite, earthquake, traffic and public camera data, plus hands-free voice control driven by a realtime AI agent. Built by bilawalsidhu, the developer behind the YouTube series of the same name (formerly WorldView), it reached #1 on GitHub Trending. It suits developers working on geospatial visualization and real-time data feeds.",
+    "input_hash": "6471e5640f8f"
   },
   "hn-49452709": {
     "summary_zh": "美国国务院暂停受理移民签证申请。目前只有标题这一条信息，原文是链接，未提供更多细节；受影响人群、暂停时长和适用范围都还不清楚。",
@@ -15568,9 +15570,9 @@
     "input_hash": "c54a72400bca"
   },
   "gh-daily-alsk1992-CloddsBot": {
-    "summary_zh": "CloddsBot 是 alsk1992 开源的 AI 交易 agent，可在 Polymarket、Kalshi、Binance、Hyperliquid、Solana DEX 和 5 条 EVM 链等 1000+ 市场自主扫描机会、即时执行并管理风险，内置 119+ skills，基于 Node 22 与 TypeScript，采用 MIT 许可。项目名取自 Claude+Odds，曾参加 Colosseum Agent Hackathon，14 天内被 clone 约 1.07 万次，适合想研究 LLM 驱动自动交易或预测市场套利的人。",
-    "summary_en": "CloddsBot is an open-source AI trading agent that autonomously scans and executes across 1,000+ markets, including Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs and five EVM chains, shipping 119+ skills and risk management in an MIT-licensed Node 22 / TypeScript codebase. Its name blends Claude and Odds, and it was built for the Colosseum Agent Hackathon, drawing about 10.7k clones in 14 days. Developers exploring LLM-driven trading or prediction-market arbitrage are the intended audience.",
-    "input_hash": "4d861db79f67"
+    "summary_zh": "CloddsBot 是开源的自主交易 agent，覆盖 Polymarket、Kalshi、Binance、Hyperliquid、Solana DEX 与 5 条 EVM 链等 1000 多个市场，能扫描价差、即时下单并管理风险。项目用 TypeScript 写成，要求 Node 22+，内置 121+ skills，以 MIT 许可发布，面向想在预测市场和加密市场跑自动化策略的开发者。",
+    "summary_en": "CloddsBot is an open-source trading agent that runs autonomously across 1000+ markets — Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs and five EVM chains — scanning for edge, executing orders instantly and managing risk. It's written in TypeScript (Node 22+), ships 121+ skills under the MIT license, and was built for the Colosseum Agent Hackathon.",
+    "input_hash": "f518362b76d8"
   },
   "36kr-3978437628492804": {
     "summary_zh": "这是 36kr 的一篇文章，标题观点是 WorkBuddy 在产品形态上越来越像 QQ。原文以链接形式给出，未提供更多细节，因此具体指哪些功能或哪个版本无法在此确认。",
@@ -15603,9 +15605,9 @@
     "input_hash": "a8dd8714073b"
   },
   "gh-daily-p1neappleXpress-OpenFlux": {
-    "summary_zh": "OpenFlux 是一个网络协议栈研究工具，提供支持可插拔传输的 TCP 隧道，链路为客户端经 SOCKS5 接入传输层与出口节点再连往互联网。作者在 README 中声明项目完全非商业、无付费功能和隐藏订阅，代码按原样提供且不附担保，同时明确不鼓励用它绕过平台限制，也不为使用后果负责。",
-    "summary_en": "OpenFlux is a network stack research tool offering a TCP tunnel with pluggable transports, routing SOCKS5 client traffic through a transport and an exit node to the internet. Its README states the project is entirely non-commercial with no paid features or hidden subscriptions, is provided as-is without warranties, and explicitly does not encourage bypassing platform restrictions.",
-    "input_hash": "75b3ca406d59"
+    "summary_zh": "OpenFlux 是一个网络栈研究工具，用可插拔传输层（pluggable transports）实现 TCP 隧道，README 提供 Android 等平台的客户端下载。仓库正文几乎全是免责声明，强调项目非商业、不含付费功能，也不鼓励用来绕过平台限制，除标题与这些声明外未提供更多技术细节。",
+    "summary_en": "OpenFlux describes itself as a network stack research tool offering a TCP tunnel with pluggable transports, with client downloads listed for platforms including Android. The README is almost entirely a disclaimer: the project is non-commercial, has no paid features, and the author does not encourage using it to bypass platform restrictions — beyond that, the linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "21b0020beefd"
   },
   "gh-daily-Sonarr-Sonarr": {
     "summary_zh": "Sonarr 是面向 Usenet 和 BitTorrent 用户的 PVR 工具，会监控多个 RSS 源追踪剧集更新，自动抓取、分类并重命名，还能在出现更高画质版本时自动升级已下载的文件。项目提供 wiki、API 文档以及论坛和 Discord 支持渠道，GitHub Issues 仅用于提交 bug 和功能请求。",
@@ -15621,5 +15623,235 @@
     "summary_zh": "9 月 10 日 Inclusion·外滩大会的圆桌上，作家刘震云与香港大学计算与数据科学学院院长马毅讨论 AI 与人的边界。刘震云称网上 95% 以他形象出现的视频是假的，但 AI 模仿不了他尚未写出的作品；马毅认为大模型只掌握人类的共性、难懂个体个性，教育应教学生用 AI 放大自身能力。",
     "summary_en": "At a roundtable at the Inclusion Bund Conference in Shanghai on September 10, novelist Liu Zhenyun and Ma Yi, dean of HKU's School of Computing and Data Science, debated what stays uniquely human as AI advances. Liu said 95% of videos using his likeness are fake, yet AI cannot imitate works he hasn't written; Ma argued LLMs grasp only humanity's shared knowledge, not individual character, and that education should teach students to amplify their own skills with AI.",
     "input_hash": "ad35b6c83740"
+  },
+  "infoq-sT7izVmjw1YVxh3FQyK8": {
+    "summary_zh": "InfoQ 精选：“数据比模型重要”成了共识，接下来拼什么？",
+    "summary_en": "Featured on InfoQ: “数据比模型重要”成了共识，接下来拼什么？",
+    "input_hash": "a823aa902e4b"
+  },
+  "infoq-FA80wgNMOwCRrXsSIAwX": {
+    "summary_zh": "InfoQ 精选：“我们在拿生命做赌注”：造AI的人为何开始密集预警？",
+    "summary_en": "Featured on InfoQ: “我们在拿生命做赌注”：造AI的人为何开始密集预警？",
+    "input_hash": "397b1c37245d"
+  },
+  "v2ex-035c7b268a5e": {
+    "summary_zh": "V2EX 热议：[旅行] 9 月去威海看海玩沙吃海鲜，写了篇万字游记",
+    "summary_en": "Hot on V2EX: [旅行] 9 月去威海看海玩沙吃海鲜，写了篇万字游记",
+    "input_hash": "cc0d844f0c76"
+  },
+  "zhihu-2082125425837335080": {
+    "summary_zh": "在 LPL 2026 赛季败者组决赛中，AL 以 3:2 淘汰 iG，拿到总决赛席位。该条目原文是链接，未提供更多细节，具体比赛过程、选手表现与数据都无法从现有素材确认。",
+    "summary_en": "In the LPL 2026 losers' bracket final, AL eliminated iG 3:2 to advance to the grand final. The linked page isn't summarized here; details beyond the title, such as match stats or player performances, aren't available.",
+    "input_hash": "9a4ea8ed67f9"
+  },
+  "36kr-3979724367985411": {
+    "summary_zh": "据标题，陶哲轩、邓煜等菲尔兹奖得主公开批评 AI 正在毁掉数学。该条目原文是链接，未提供更多细节，他们具体的论点和出处无法从现有素材确认。",
+    "summary_en": "Per the headline, Fields Medalists including Terence Tao and Deng Yu have publicly argued that AI is ruining mathematics. The linked page isn't summarized here; the specific arguments and sources aren't available beyond the title.",
+    "input_hash": "bc20888b5dfe"
+  },
+  "infoq-Y02WwW92ZqjLXQQvIWWi": {
+    "summary_zh": "京东 JDD 大会现场观察：9 月 9 日京东在北京亦庄发布京东 APP 16.0 与 AI 购物助手「东东」，同时京东零售产研团队指出，AI Coding 率上升并未带来整体研发效率的同步提升。他们把研发链路拆为「上工程」（需求定义、架构、跨团队协同）与「下工程」（Review、测试、发布运维），并引用麦肯锡 2026 调研：80% 受访者认可 AI 提升个人效率，仅 37% 认可其对企业 EBIT 的正向影响。",
+    "summary_en": "A field report from JD.com's JDD conference: on September 9 in Beijing, JD unveiled JD APP 16.0 with an AI shopping assistant called Dongdong, while its retail R&D team raised an uncomfortable point — higher AI Coding rates haven't lifted overall R&D efficiency. They split the pipeline into \"upstream engineering\" (requirements, architecture, cross-team coordination) and \"downstream engineering\" (review, testing, release, ops), citing a 2026 McKinsey survey in which 80% said AI improved personal productivity but only 37% saw a positive impact on company EBIT.",
+    "input_hash": "0a6e80593a6e"
+  },
+  "v2ex-fbfe02472971": {
+    "summary_zh": "V2EX 网友发帖征询同好：2026 年还有谁在坚持\"古法编程\"，即不用 AI 辅助、纯手写代码，并邀请大家分享这样坚持的原因。帖子只有这一句提问，没有更多正文或结论，适合想聊聊 AI 辅助编程边界的人参与讨论。",
+    "summary_en": "A V2EX user asks whether anyone still does \"old-school programming\" in 2026 — writing code by hand without AI assistance — and invites people to explain why they stick with it. The post contains only that prompt, with no further detail or conclusions; it is a discussion thread for developers with opinions on AI-assisted coding.",
+    "input_hash": "ed8b8a9a8add"
+  },
+  "infoq-A2IFuW8yiYhRqXizT5Uu": {
+    "summary_zh": "蚂蚁数科技术专家魏长征在 AICon 分享 Harness 工程实践：40 多万行的 Rust 新项目从第一天就把 Harness 内建进流程，60 多万行的 C++ 存量项目先重建事实源与质量门禁，再让 Agent 参与升级，缺陷率从 20% 以上降到个位数。他认为 AI Coding 的关键已不是写得快，而是可验收。",
+    "summary_en": "At AICon, Ant Digital Technologies expert Wei Changzheng described a \"Harness\" engineering approach: a 400k-line Rust project had Harness built into its workflow from day one, while a 600k-line legacy C++ project first rebuilt its source of truth and quality gates before agents were allowed to upgrade the repo, cutting defect rates from over 20% to single digits. His argument: verifiability, not speed, is AI coding's next step.",
+    "input_hash": "d738bf726e50"
+  },
+  "v2ex-1c4f2aa68993": {
+    "summary_zh": "有网友因没有本地机器，搭了个在线 Minimax h3 LoRA 测试站 maxh3.com，集合了 Realism People、Camera Motion、Claymation Transformation、VHS Tape 等社区 LoRA。首页可试用 h3 max，LoRA 页面能选模板测试并查看每个 LoRA 的介绍，注册送积分，适合想试 Minimax h3 但缺本地算力的人。",
+    "summary_en": "Because he has no machine to run Minimax h3 locally, a V2EX user built an online LoRA testing site at maxh3.com, collecting community LoRAs such as Realism People, Camera Motion, Claymation Transformation and VHS Tape. The homepage offers h3 max, and the LoRA page lets you pick templates, test them and read each LoRA's description; new sign-ups get free credits.",
+    "input_hash": "206c027fc6f6"
+  },
+  "infoq-EKC1INXeMjIo00JWMQdV": {
+    "summary_zh": "蚂蚁集团 CEO 韩歆毅在 9 月 11 日上海外滩大会上表示，智能体商业的\"ChatGPT 时刻\"已经到来，智能体正从能力展示走向真实交易，AI 支付宝\"阿宝\"今年 6 月公测，用户一句话就能下单。蚂蚁 AI 支付总经理朱林预计，未来 5 年更自然的新交互支付占比或超 50%，智能设备支付将增长 10 倍。",
+    "summary_en": "Ant Group CEO Han Xinyi told the Inclusion·Bund Conference in Shanghai on September 11 that agentic commerce has reached its \"ChatGPT moment,\" with agents moving from capability demos to real transactions; Alipay's AI assistant \"Abao\" opened beta in June and lets users place orders with one sentence. Ant's AI payments head Zhu Lin expects natural new-interaction payments to top 50% within five years, with smart-device payments up tenfold.",
+    "input_hash": "b7b2a226f029"
+  },
+  "infoq-QPRcUdPGic5r8Ws8R1gM": {
+    "summary_zh": "被国内开发者称为“J 神”的 Android 与 Kotlin 开源开发者 Jake Wharton 列出九项择业标准，第一条即不加入 AI 公司、不参与以 AI 为核心的产品，他估算这一条排除了约 80% 的潜在雇主。他称自己至今没用 AI Agent 写代码，认为 AI 可以处理重复劳动，但让模型生成超出使用者能力范围的代码最不负责任。",
+    "summary_en": "Jake Wharton, a well-known Android and Kotlin open source developer, has listed nine criteria for his next job, starting with a refusal to join AI companies, work on AI-centric products, or accept mandatory AI tooling — a rule he estimates rules out roughly 80% of employers. He says he has never used an AI agent to write code, arguing AI can handle repetitive work but that generating code beyond a developer's ability to understand and maintain is the most irresponsible use.",
+    "input_hash": "dd3e9cdcc3e5"
+  },
+  "infoq-rlXYaPUjVR0fffbQK3Iz": {
+    "summary_zh": "快手主站技术稳定性专家王泽锋在 AICon 上海站分享了“柯南 AI”的稳定性工程实践：确定性的流程交给代码，概率性的推理交给模型，用 Skill 沉淀专家经验并由 Bad Case 驱动系统进化。该系统在快手大前端研发的用户渗透率已接近 60%，根因分析结果的完整采纳率约 50%，曾在鸿蒙 C++ Crash 案例中约 10 分钟定位到纯系统堆栈的 Use-After-Free 问题。",
+    "summary_en": "Wang Zefeng, a stability engineer at Kuaishou, presented the company's 'Conan AI' work at AICon Shanghai: deterministic steps go to code, probabilistic reasoning to models, with expert experience captured as Skills and bad cases driving iteration. The system has reached nearly 60% adoption among Kuaishou's front-end R&D staff, with about 50% full adoption of its root-cause analyses, and located a pure system-stack Use-After-Free issue behind a HarmonyOS C++ crash in roughly 10 minutes.",
+    "input_hash": "f5f0cafe5750"
+  },
+  "v2ex-ffec3b40639b": {
+    "summary_zh": "一位开发者记录了自己近两个月帮朋友做 Ozon 精铺上架工具的经历：他花一周用 AI 把一个需手动安装、自配 Key 的 Chrome 扩展的生图逻辑改成异步任务队列，抹平了频繁超时报错；到襄阳实地看业务后，他判断本地插件是保姆式服务、应转做 SaaS 网页版，但三人最终因套餐定价和 token 单价谈不拢，系统上线前合作就散了。",
+    "summary_en": "A developer recounts two months spent helping a friend build a listing tool for Ozon, the Russian cross-border marketplace: he used AI to turn a Chrome extension's image-generation flow into an async task queue within about a week, eliminating constant timeouts. After visiting the team in Xiangyang to see the business firsthand, he concluded the local-plugin model was unsustainable hand-holding and pushed for a SaaS version, but the three partners split over subscription and token pricing before launch.",
+    "input_hash": "978fea229d04"
+  },
+  "36kr-3979727038004226": {
+    "summary_zh": "这是 36氪“9点1氪”栏目的一条每日资讯合集，标题涉及三条消息：房贷期限延长至 40 年但申请人年龄不能超过 35 岁的说法及相关机构回应、长鑫的利润率反超三星与 SK 海力士、戴尔市值一夜增加 2500 亿元并创历史新高。原文是链接，未提供更多细节。",
+    "summary_en": "This is an entry from 36Kr's '9点1氪' daily news roundup, whose headline packs three items: a claim that mortgage terms are being extended to 40 years while applicants must be under 35, plus an institutional response; ChangXin's profit margin overtaking Samsung and SK Hynix; and Dell's market value jumping 250 billion yuan in a night to a record high. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "b8996c760d86"
+  },
+  "ph-1220456": {
+    "summary_zh": "Anysite.io 是一款通过和 agent 对话来构建并补充 B2B 线索列表的工具，用户描述目标客户条件即可生成名单并完成数据 enrich，不必手动维护表格。对做海外获客、需要批量整理公司和联系人信息的销售与增长团队比较对口。",
+    "summary_en": "Anysite.io is a Product Hunt tool that builds and enriches B2B prospect lists by chatting with an agent, so you describe the accounts you want instead of filling in spreadsheets by hand. It targets sales and growth teams doing outbound prospecting who need company and contact data assembled quickly.",
+    "input_hash": "38431b0d0979"
+  },
+  "v2ex-ce11772646d5": {
+    "summary_zh": "Brosis 是一款跑在 macOS 26+ / Apple Silicon 上的本地活动记录器，驻留在菜单栏，把你浏览、编辑、用过的屏幕内容整理成一条可检索的时间线，再通过 MCP 交给 AI Agent 调用。数据不出本机，理解层不依赖大模型，适合想把 Mac 使用记录变成 agent 上下文的人。",
+    "summary_en": "Brosis is a menu-bar activity recorder for macOS 26+ on Apple Silicon that turns what you read, write, and use on screen into a searchable timeline, handed to AI agents over MCP. Data never leaves the machine and the understanding layer doesn't rely on an LLM, which suits anyone who wants their Mac history available as agent context.",
+    "input_hash": "353dbe996480"
+  },
+  "v2ex-8b1d82bda43b": {
+    "summary_zh": "RED 是作者按 Research、Evolve、Document 三个阶段整理出的开源 Skill 和配套 CLI，让 AI 在需求探索、方案调整、实现和后续维护的整个过程中持续理解项目，并把形成的结论沉淀下来。可通过 `npx @exoticknight/red` 安装，适合希望 AI 参与长期迭代而非只写一次性代码的团队。",
+    "summary_en": "RED is an open-source Skill plus CLI built around three stages — Research, Evolve, and Document — that keeps an AI informed across a project's whole lifecycle, from clarifying requirements to recording accepted decisions for later rounds. It installs via `npx @exoticknight/red` and is aimed at teams that want AI to support long-running iteration rather than one-off code generation.",
+    "input_hash": "593dab934feb"
+  },
+  "zhihu-2080416209279963991": {
+    "summary_zh": "这是知乎上围绕跳水奥运冠军张家齐的一个讨论：她曾称自己「慕强」，而不少网友认为其男友的实力似乎低于她。原文是提问页面，未提供更多背景和细节。",
+    "summary_en": "A Zhihu discussion thread about Olympic diving champion Zhang Jiaqi, who has said she is drawn to people stronger than herself, while her boyfriend strikes onlookers as less accomplished. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "3a7e8c7e2c0e"
+  },
+  "36kr-3957450500210057": {
+    "summary_zh": "36氪这篇文章以「花 40 美元抢 1 块钱」为题，追问为什么越聪明、越拼命投入的人反而越容易被规则收割。原文未提供正文内容，具体论证与案例无法确认。",
+    "summary_en": "A 36Kr piece framed around the image of spending $40 to grab $1, asking why the smarter and harder-working people are the ones most easily harvested by a system's rules. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "36e33ded8ab7"
+  },
+  "v2ex-32a868251f57": {
+    "summary_zh": "一位 V2EX 用户称，其 Claude Pro 会员使用约一周、周限额一直控制在 20% 以内，账号却被封了 5 天。他先后以邮件和电话向 Apple 申请退款均遭拒绝，客服称这是最终决定。通过 App Store 订阅 Claude 等服务的用户，可留意这类封号后的退款处理方式。",
+    "summary_en": "A V2EX user reports that after roughly a week of Claude Pro use, with weekly usage kept under 20%, the account was banned for five days. Refund requests to Apple by email and by phone were both denied, with support calling it a final decision. Relevant to anyone paying for Claude or similar AI subscriptions through the App Store.",
+    "input_hash": "7a22547a7375"
+  },
+  "ph-1243621": {
+    "summary_zh": "Loqua 是 Product Hunt 上新出现的一款产品，官方一句话描述为「自然地说出来，把想法变成完成的事」（Speak naturally and move from thoughts to being done）。目前只有这条描述，原文页面没有提供更多细节，具体形态和功能无法确认。",
+    "summary_en": "Loqua is a new Product Hunt listing whose one-line description reads \"Speak naturally and move from thoughts to being done.\" Beyond that tagline the linked page isn't summarized here; how it works and what it actually does aren't available.",
+    "input_hash": "8e5e9c67fd1e"
+  },
+  "v2ex-b7d7e1ac498e": {
+    "summary_zh": "「哪版」（naban.barrybarrywu.com）把同一款 iPhone 在不同销售地区的差异放进一个页面，覆盖 11 款机型和包含中国大陆、香港、日本、美国在内的 10 个地区。它可对比实体 SIM/eSIM、Apple Intelligence 等地区功能、蜂窝频段、充电规格、官方价格与保修，每项都附 Apple 官方来源，未核验内容单独标注。适合纠结买国行还是港版的人。",
+    "summary_en": "A developer built \"哪版\" (naban.barrybarrywu.com), which compares the same iPhone model across sales regions on a single page, covering 11 models and 10 regions including mainland China, Hong Kong, Japan and the US. It lines up SIM/eSIM combos, regional features like Apple Intelligence, cellular bands, charging specs, official prices and warranty terms, citing Apple sources and flagging unverified data. Useful for buyers torn between the China, Hong Kong or US model.",
+    "input_hash": "7adcdcbad7ad"
+  },
+  "zhihu-2082137769556628252": {
+    "summary_zh": "知乎上一条提问称，有网友爆料付航脱口秀 1300 张门票中约一千张流入黄牛手中，而现场检票执行强实名，导致约 80% 观众进不了场，讨论集中在票务分销与实名核验为何脱节。该链接为知乎提问，原文未提供更多细节。",
+    "summary_en": "A Zhihu question cites a claim that around 1,000 of 1,300 tickets to a 付航 comedy show went to scalpers, while strict real-name checks at the gate left roughly 80% of the audience unable to enter. The discussion centers on how ticketing and real-name verification came apart. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "196157fbefe9"
+  },
+  "v2ex-dabc84b46b49": {
+    "summary_zh": "CC-Monitor 是给 Claude Code 用的操作审计工具，提供 Shell Log 和 Web UI 两种界面，可查看会话数、审计事件数、被拦截的高危操作及文件读写删改次数。它的 Claude Tap 展示会话与模型之间的完整对话和 Token 用量，数据取自本地 transcript JSONL 文件而非抓包，还附带浏览器内终端会话与账号额度查看。",
+    "summary_en": "CC-Monitor is an audit tool for Claude Code, shipping both a Shell Log and a Web UI that count sessions, audit events, blocked high-risk operations and file read/write/delete activity. Its Claude Tap view shows full conversations with the model and token usage, pulled from Claude Code's local transcript JSONL files rather than packet capture. It also offers in-browser terminal sessions and account quota readouts.",
+    "input_hash": "cd73db604e9e"
+  },
+  "ph-1246952": {
+    "summary_zh": "Raycast 2.0 已在 Product Hunt 上线，官方只给出一句“The next generation of Raycast is here”，把它定位为下一代版本，页面没有列出具体新功能、改动或价格。除这句宣传语外，现有信息不足以判断升级幅度，想知道细节的人得等官方发布说明。",
+    "summary_en": "Raycast 2.0 has launched, listed on Product Hunt with the tagline \"The next generation of Raycast is here.\" The listing doesn't spell out what's new: no feature list, changelog or pricing details are given. Anyone weighing an upgrade will have to wait for the official release notes.",
+    "input_hash": "316e674146e9"
+  },
+  "zhihu-2082035913132193247": {
+    "summary_zh": "知乎上一条讨论指出，陶哲轩、邓煜等菲奖得主联合对 AI 公司之间的“数学军备竞赛”表达抗议，并抛出 AI 是否正在毁掉数学这个问题。该条只提供了标题，没有正文，联署者的具体立场和抗议内容无法从现有信息确认。",
+    "summary_en": "A Zhihu discussion reports that Fields medalists including Terence Tao and Deng Yu have jointly protested the \"math arms race\" among AI companies, framing it around a blunt question: is AI ruining mathematics? Only the title is available here, so the specifics of their statement and who signed it aren't included.",
+    "input_hash": "0629e416d527"
+  },
+  "ph-1225735": {
+    "summary_zh": "Wisry 是在 Product Hunt 上线的一款广告工具，按官方描述，它能“批量克隆你所在市场里已经跑赢的广告”，也就是复制同市场中的高投放效果素材。它面向想要快速复刻竞品创意、规模化测试投放的市场与增长团队。",
+    "summary_en": "Wisry is an ad tool listed on Product Hunt that, per its own description, clones \"the ads already winning in your market, at scale\" — copying high-performing creatives from the same market. It targets marketing and growth teams that want to replicate proven ad concepts and test them at volume instead of starting from scratch.",
+    "input_hash": "6fc6ac928c93"
+  },
+  "36kr-3980137436232457": {
+    "summary_zh": "36氪 这篇以“特努斯回答一切”为题的文章，围绕被标题称为懂技术的苹果 CEO 特努斯的回归展开讨论。该条只给出标题，没有正文或摘要，文章具体谈了哪些问题、是否涉及产品或人事变动都无法确认，关注苹果管理层的人需要点进原文。",
+    "summary_en": "A 36Kr piece titled \"Ternus answers everything\" argues that Ternus, whom the headline calls Apple's tech-savvy CEO, is back in the spotlight. Only the title is available here — the article's content, the questions he addressed and any product or personnel news aren't included, so readers tracking Apple's leadership will need to open the original.",
+    "input_hash": "0734fb73bd87"
+  },
+  "hn-49662371": {
+    "summary_zh": "这条 Hacker News 链接指向 Terry Tao 博客上一篇题为《A misalignment of AI in mathematics》的文章，并附有《经济学人》相关报道和 unwall.app 的链接，原文本身没有提供更多正文。关心 AI 与数学研究如何互相影响、以及对齐（alignment）议题的人，需要自己点进链接阅读。",
+    "summary_en": "A Hacker News link pointing to a post on Terry Tao's blog titled \"A misalignment of AI in mathematics\", alongside an Economist article and an unwall.app link; the linked page isn't summarized here, so details beyond the title aren't available. Anyone tracking how AI is reshaping mathematical research, or the alignment debate around it, will need to follow the links directly.",
+    "input_hash": "fa536dc196b4"
+  },
+  "ph-1244851": {
+    "summary_zh": "Cline 在 Product Hunt 上线了 Desktop App，官方描述是一款面向 open-weight 模型的开源应用。对于偏好本地或自托管权重模型、不想完全依赖闭源 API 的开发者，这是一个可以直接试用的桌面客户端。",
+    "summary_en": "Cline has launched a Desktop App, listed on Product Hunt and described as an open-source application aimed at open-weight models. It gives developers who prefer running open-weight models, locally or self-hosted, rather than closed APIs a desktop client to try; the listing itself offers no further technical detail.",
+    "input_hash": "95f9b1eee34d"
+  },
+  "36kr-3980148869184514": {
+    "summary_zh": "36氪这篇报道的标题称谷歌和 Meta 因刷榜被“锤”，但页面未提供正文，除标题外没有可确认的细节，原文是链接形式，未提供更多信息。想了解具体涉及哪类榜单、如何被认定刷榜的读者，只能点进原文核对。",
+    "summary_en": "A 36Kr item whose headline says Google and Meta have been called out over ranking manipulation; the linked page isn't summarized here, so details beyond the title aren't available. Readers curious about which leaderboards or app rankings are involved will need to open the original article.",
+    "input_hash": "e94fe58254e1"
+  },
+  "36kr-3956059062205571": {
+    "summary_zh": "36氪这篇题为《最高级的自由，是过一种“不需要休假去逃离”的生活》，讨论的是把日常状态安排到不必靠假期逃离，属于观点与文化类内容而非产品或研究发布，页面未附正文。适合正在反思工作节奏、以及休假到底在补偿什么的人读原文。",
+    "summary_en": "A 36Kr essay titled \"The highest form of freedom is living a life you don't need a vacation to escape from\", an opinion and culture piece rather than a product or research announcement; no body text accompanies it here, so details beyond the title aren't available. It speaks to readers rethinking work pace and what vacations are actually compensating for.",
+    "input_hash": "afd55c699d30"
+  },
+  "36kr-3979884174244613": {
+    "summary_zh": "36氪标题称黄仁勋可能砸下 100 亿（原文未注明币种）投注 Anthropic 的巨额 IPO，但该条目未附正文，投资方身份、金额币种与交易结构都无法从现有信息确认。关注 Anthropic 融资与上市动向的人需要打开原文核对细节。",
+    "summary_en": "A 36Kr headline claims Jensen Huang may put 10 billion behind Anthropic's large IPO, with the currency unspecified in the title; the linked page isn't summarized here, so details beyond the headline aren't available. Anyone tracking Anthropic's funding and IPO plans will need the original article for confirmation.",
+    "input_hash": "84deedd70b56"
+  },
+  "hn-49666735": {
+    "summary_zh": "这条 Hacker News 帖子的标题称 OpenAI 的 agents 对 RubyGems 发起了一次未披露的攻击，链接指向 simonwillison.net 上的一篇文章。原文只提供链接，没有可读正文，攻击的手法、波及范围和 RubyGems 或 OpenAI 的回应都无从得知。",
+    "summary_en": "The Hacker News submission's title states that OpenAI agents carried out an undisclosed attack on RubyGems, and the link points to a post on simonwillison.net. The linked page isn't summarized here, so the attack's mechanism, its scope, and any response from OpenAI or the RubyGems maintainers aren't available beyond the headline.",
+    "input_hash": "cfe95f35325a"
+  },
+  "36kr-3979785466730377": {
+    "summary_zh": "36kr 的这条资讯标题称 OpenAI 把 Codex「拆开卖了」，指的是产品被拆分后单独提供的变化。条目没有附任何正文，拆出的是哪些能力、面向什么用户、如何定价都未说明，需要点开原文才能确认。",
+    "summary_en": "A 36kr headline says OpenAI has taken Codex apart and is selling it in pieces, pointing to an unbundling of the product. The item contains no body text, so which capabilities are being split out, who they target, and how they are priced cannot be determined from what's here; the original article is needed for specifics.",
+    "input_hash": "9caacc715e9f"
+  },
+  "hn-49621546": {
+    "summary_zh": "这是 Hacker News 上一个关于使用 OpenRouter 的帖子，正文只有一句吐槽：表面看起来简单，实际上从头到尾都是坑。帖子没有展开具体问题，原链接之外的细节不可得，想评估 OpenRouter 的开发者需要自己去看原文。",
+    "summary_en": "This Hacker News thread is about using OpenRouter, and its only text says it might look simple on the surface but is pain all the way down. The linked page isn't summarized here, so the specific problems the writer ran into aren't available; developers weighing OpenRouter will need to read the original.",
+    "input_hash": "8fd20c891973"
+  },
+  "36kr-3980179218699912": {
+    "summary_zh": "36kr 的这篇文章把镜头对准日薪千元的 AI 实习生，标题问的是他们在焦虑什么。条目没有正文，焦虑的具体来源、受访者是谁、所在行业和岗位背景都没有展开，只能回到原文去看。",
+    "summary_en": "A 36kr article focuses on AI interns paid 1,000 yuan a day and asks what they are anxious about. The item provides no body text, so what drives that anxiety, who was interviewed, and the wider industry context can't be determined from what's here; those details live in the original piece.",
+    "input_hash": "71f7eb9b5921"
+  },
+  "zhihu-2082041103209820593": {
+    "summary_zh": "知乎上这个问题在讨论 DeepSeek 灰度测试语音对话，并追问这件事意味着什么。条目没有正文，测试覆盖哪些用户、时间安排以及官方说法都未提供，具体讨论内容需要点进原页面查看。",
+    "summary_en": "A Zhihu question asks how to evaluate DeepSeek's gray-scale testing of voice conversation and what it signals. No body text is included, so the scope of the test, its timing, and any official explanation aren't available here; those details would be in the linked discussion.",
+    "input_hash": "cecdec5f35bc"
+  },
+  "36kr-3980127462685698": {
+    "summary_zh": "这是 36kr 的一篇文章，标题称一项在中产群体中最火的运动已被出售，但原文只给出链接，没有提供正文细节，具体是哪个项目、卖给谁、交易规模多大都无从判断。想看确切信息只能点开原文。",
+    "summary_en": "A 36kr item whose headline says the sport most popular among China's middle class has been sold, but the linked page isn't summarized here; details beyond the title aren't available. Which sport it is, who the buyer is and the deal size can't be determined from the title alone.",
+    "input_hash": "90abbfd33ae6"
+  },
+  "zhihu-2081904462331908716": {
+    "summary_zh": "这是知乎上的一个提问，围绕苹果高管就折叠屏屏幕比例泄密事件的表态：对手因此拿到了该屏幕比例。原文只给出链接，未提供更多正文细节，泄密为何难以防范、会对行业造成哪些实际影响，都无法从标题确知。",
+    "summary_en": "A Zhihu question about an Apple executive calling a foldable display-aspect-ratio leak regrettable because rivals obtained that ratio. The linked page isn't summarized here; details beyond the title aren't available, so how the leak happened and what it changes for the industry can't be determined.",
+    "input_hash": "2a76a89574b7"
+  },
+  "zhihu-2082209639156768904": {
+    "summary_zh": "这是知乎上的一个提问，说 iPhone 18 Pro 与 iPhone 18 Pro Max 已开启预购，并问读者是否抢到。原文为链接，未提供更多细节，机型配置、售价、备货情况等信息在标题里都没有。",
+    "summary_en": "A Zhihu thread noting that pre-orders have opened for the iPhone 18 Pro and iPhone 18 Pro Max, asking readers whether they got one. The linked page isn't summarized here; pricing, specs and availability aren't available beyond the title.",
+    "input_hash": "907e82e54acf"
+  },
+  "zhihu-2081165724622513410": {
+    "summary_zh": "知乎提问，讨论 GPT-6 Astra 会给具身智能行业带来哪些影响。原文是链接，未提供更多正文细节，GPT-6 Astra 的能力范围、发布时间以及它对具身行业的实际作用都无从判断。",
+    "summary_en": "A Zhihu question asking what impact GPT-6 Astra will have on the embodied-AI industry. The linked page isn't summarized here; details beyond the title aren't available, including what the model can do or when it ships.",
+    "input_hash": "5557e02014f8"
+  },
+  "gh-daily-melgarafael-DeskcommCRM": {
+    "summary_zh": "DeskcommCRM 是自托管的开源 CRM，把原生 AI agent 和基于 WAHA 的 WhatsApp 通道做进销售流程，对标 Kommo、Octadesk 和 Intercom。它用 Next.js 16、TypeScript 与 Supabase 构建，支持 MCP、多租户并遵循 LGPD，适合靠聊天成交、想把数据留在自己服务器的团队。",
+    "summary_en": "DeskcommCRM is a self-hosted, open-source CRM that wires native AI agents and a WhatsApp channel (via WAHA) directly into the sales pipeline, positioned as an open alternative to Kommo, Octadesk and Intercom. It's built on Next.js 16, TypeScript and Supabase, and ships MCP support, multi-tenancy and LGPD compliance — aimed at teams that sell over chat and want their data on their own servers.",
+    "input_hash": "a440a6a0002b"
+  },
+  "gh-daily-jihe520-MathModelAgent": {
+    "summary_zh": "MathModelAgent 是面向数学建模的 agent，能自动完成建模流程并生成一份可直接提交的论文。主推的桌面版内置 Claude Code 与全套 MathModelAgent skills，无需安装 Python、Node.js 或 Redis，填一个模型 API Key 即可使用；macOS 包已签名并通过公证，Windows 包当前未签名。",
+    "summary_en": "MathModelAgent is an agent built for mathematical modeling that automates the modeling workflow and produces a paper ready to submit. Its recommended desktop build bundles Claude Code and the full set of MathModelAgent skills, so no Python, Node.js or Redis setup is needed — just a model API key; macOS builds are signed and notarized while Windows ones are not.",
+    "input_hash": "60da09c669d0"
+  },
+  "gh-daily-nab138-iloader": {
+    "summary_zh": "nab138/iloader 是一个用户友好的 sideloading 工具，用来安装 SideStore 等应用并导入 pairing file，构建流程跑在 GitHub Actions 上。项目声明只有仓库和 iloader.app 两个官方下载渠道，另存在社区维护的 Homebrew cask、AUR 和 Fedora COPR 包，适合想给 iOS 设备侧载又不愿手敲命令的人。",
+    "summary_en": "iloader is a user-friendly sideloading tool that installs SideStore and other apps and imports your pairing file without manual fuss; its builds run through GitHub Actions. The project states that the repository and iloader.app are the only official download sources, alongside unofficial Homebrew, AUR and Fedora COPR packages. It targets people who sideload onto iOS devices but prefer a GUI to a command line.",
+    "input_hash": "53f7b1e88feb"
+  },
+  "v2ex-486e4fc162ce": {
+    "summary_zh": "一位 V2EX 用户花两百多买了个飞机杯，商品页宣称自动吮吸、伸缩、加热，到手发现只是硅胶加廉价塑料做的伸缩结构，所谓加热是插 USB 后功率仅 2-3W 的小棒，体验极差，自认血亏。这类成人用品的宣传与实物落差极大，提示想下单的人先看清硬件参数，别为营销词买单。",
+    "summary_en": "A V2EX user paid just over 200 yuan for a masturbation device advertised with automatic suction, thrusting and heating. What arrived was silicone plus a cheap plastic telescoping mechanism, with \"heating\" handled by a tiny USB rod drawing only 2-3W; he calls it a total waste of money. A cautionary note for anyone shopping in this category, where marketing copy rarely matches the hardware.",
+    "input_hash": "73fee91e9e19"
   }
 }
