@@ -1308,7 +1308,9 @@
       "tags": [],
       "first_seen": "2026-09-11",
       "domain": "dayzlegame.com",
-      "quality_score": 32.9
+      "quality_score": 32.9,
+      "summary_zh": "作者花 220 美元投放 Google 应用广告，Google 后台显示单日 21 次安装，自家管理面板却只记到 1 次，据此推算约六成安装来自机器人。文章交代了其余 20 次安装的来源、bot farm 的获利方式，以及团队随后做的改动，对做移动买量的开发者有参考价值。",
+      "summary_en": "A developer spent $220 on Google app-install ads; Google's dashboard reported 21 installs in a day while the app's own admin panel logged just 1, leading the author to conclude roughly 60% of installs came from bots. The post covers what the other 20 installs were, how the bot farm gets paid, and what the team changed."
     },
     {
       "id": "hn-49621018",
@@ -3824,7 +3826,9 @@
       "gh_period": "monthly",
       "first_seen": "2026-08-17",
       "domain": "github.com",
-      "quality_score": 42.8
+      "quality_score": 42.8,
+      "summary_zh": "ayghri/i-have-adhd 是一个给 coding agent 用的 skill，用来阻止它把答案埋在长篇输出里，改为对 ADHD 用户更友好的呈现方式。它针对的是 agent 回复过长、结论藏在中段这一常见问题，适合每天用 AI 写代码、只想先看到结果的人。",
+      "summary_en": "ayghri/i-have-adhd is a skill that stops a coding agent from burying the answer, pushing it toward ADHD-friendly output instead. It targets the familiar annoyance of long agent responses where the conclusion sits somewhere in the middle, and is meant for developers who use AI coding tools daily and just want the result first."
     },
     {
       "id": "gh-monthly-Lakr233-vphone-cli",
@@ -3983,7 +3987,9 @@
       ],
       "first_seen": "2026-09-11",
       "domain": "producthunt.com",
-      "quality_score": 43.9
+      "quality_score": 43.9,
+      "summary_zh": "Product Hunt 上架的 AirPods 5 页面列出三项卖点：1.5 倍主动降噪、AI Siri 与实时翻译 Live Translation。它把升级重点放在降噪强度和 AI 语音交互上，关注真无线耳机新品的用户可以看看它的定位。",
+      "summary_en": "AirPods 5 has a Product Hunt listing whose description highlights three features: 1.5x Active Noise Cancellation, AI Siri and Live Translation. The pitch centers on stronger noise cancelling plus AI voice and cross-language conversation, worth a look for anyone tracking the next wave of wireless earbuds."
     },
     {
       "id": "ph-1238848",
@@ -5213,7 +5219,9 @@
       "tags": [],
       "first_seen": "2026-09-11",
       "domain": "infoq.cn",
-      "quality_score": 36.7
+      "quality_score": 36.7,
+      "summary_zh": "HashiCorp 发布 Packer v1.16.0，新增 provenance 后置处理器，可为每个构建的机器镜像生成、签名并核验符合 SLSA Provenance v1 的 in-toto 来源证明，记录 Git 提交、分支、CI 流水线与构建时间戳。该版本提供未签名 JSON、本地 PEM、云 KMS/Vault、Sigstore Fulcio 四种签名方式，并给出映射 SLSA L1–L3 的参考 GitHub Actions 工作流，适合需要镜像供应链审计和部署门禁的团队。此外还新增 continue_on_error 元参数及 rfc3339_parse()、unix_timestamp_parse() 等 HCL2 改进。",
+      "summary_en": "HashiCorp released Packer v1.16.0, adding a provenance post-processor that generates, signs and verifies SLSA Provenance v1 in-toto attestations for every machine image, capturing the Git commit, branch, CI pipeline and build timestamp. It supports four signing modes — unsigned JSON, local PEM keys, cloud KMS or Vault, and keyless Sigstore Fulcio with Rekor — plus a reference GitHub Actions workflow mapping to SLSA build levels L1–L3, aimed at teams doing image supply-chain audits and deploy gates."
     },
     {
       "id": "infoq-Y02WwW92ZqjLXQQvIWWi",
@@ -5247,7 +5255,9 @@
       "tags": [],
       "first_seen": "2026-09-11",
       "domain": "infoq.cn",
-      "quality_score": 37.1
+      "quality_score": 37.1,
+      "summary_zh": "Netflix 正把 3 万多个流式作业迁移到开源的 Apache Flink Autoscaler，覆盖多个 AWS 区域。此前的集群级扩缩容粒度太粗，不适配含分支、Join 和数 TB 状态的异构作业；新方案按算子逐个用吞吐量和繁忙时间估算并行度（FLIP-271），有团队借此将 Flink 计算支出年化降低 58%，每年省下约 110 万美元。",
+      "summary_en": "Netflix is moving more than 30,000 streaming jobs onto the open-source Apache Flink Autoscaler across multiple AWS regions. Its earlier cluster-level autoscaler was too coarse for pipelines with branches, joins and terabytes of state, so the new per-operator approach described in FLIP-271 estimates parallelism from throughput and busy time; one team cut its Flink compute spend by 58% annualized, about $1.1M a year."
     },
     {
       "id": "infoq-RLdCKyW7YNb8ybDKlQ5d",

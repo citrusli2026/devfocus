@@ -196,7 +196,9 @@
       "tags": [],
       "first_seen": "2026-09-11",
       "domain": "dayzlegame.com",
-      "quality_score": 46.6
+      "quality_score": 46.6,
+      "summary_zh": "作者花 220 美元投放 Google 应用广告，Google 后台显示单日 21 次安装，自家管理面板却只记到 1 次，据此推算约六成安装来自机器人。文章交代了其余 20 次安装的来源、bot farm 的获利方式，以及团队随后做的改动，对做移动买量的开发者有参考价值。",
+      "summary_en": "A developer spent $220 on Google app-install ads; Google's dashboard reported 21 installs in a day while the app's own admin panel logged just 1, leading the author to conclude roughly 60% of installs came from bots. The post covers what the other 20 installs were, how the bot farm gets paid, and what the team changed."
     },
     {
       "id": "hn-49643546",
@@ -3449,7 +3451,9 @@
       "gh_period": "daily",
       "first_seen": "2026-09-12",
       "domain": "github.com",
-      "quality_score": 30.1
+      "quality_score": 30.1,
+      "summary_zh": "claude-red 是一个面向 Claude Skills 系统的攻防安全技能库，由 78 个 SKILL.md 文件组成，按 23 个分类覆盖 SQL 注入、shellcode 等具体攻击面，每个文件为 Claude 注入对应领域专家级的红队方法论。项目采用 MIT 协议，适合做渗透测试或红队工作、想把 Claude 当成上下文感知攻击操作员来用的人。",
+      "summary_en": "claude-red is a curated library of offensive-security skills for the Claude Skills system, packaged as 78 SKILL.md files across 23 categories, each priming Claude with expert-level methodology for a specific attack surface such as SQL injection or shellcode. Released under MIT, it targets red teamers and pentesters who want Claude to act as a context-aware operator."
     },
     {
       "id": "gh-daily-multimodal-art-projection-YuE",
@@ -3466,7 +3470,9 @@
       "gh_period": "daily",
       "first_seen": "2026-09-12",
       "domain": "github.com",
-      "quality_score": 30.1
+      "quality_score": 30.1,
+      "summary_zh": "YuE2 是 multimodal-art-projection 团队推出的音乐生成模型，把符号规划与音频生成统一起来，支持 zero-shot 翻唱和 agentic 音乐编辑，权重以 YuE2-3B 发布在 Hugging Face。原版 YuE 的代码与文档保留在 YuE-v1 分支，仓库还提供 MERT2、SheetSage2 和 WildSongBench 数据集，适合研究 AI 音乐生成的人上手。",
+      "summary_en": "YuE2 is a music generation model from the multimodal-art-projection team that unifies symbolic planning with audio generation, and adds zero-shot covers plus agentic music editing; weights ship as YuE2-3B on Hugging Face. The original YuE's code and docs live on a YuE-v1 branch, and the repo also offers MERT2, SheetSage2 and the WildSongBench dataset for AI music researchers."
     },
     {
       "id": "gh-daily-max-sixty-worktrunk",
@@ -3500,7 +3506,9 @@
       "gh_period": "daily",
       "first_seen": "2026-09-12",
       "domain": "github.com",
-      "quality_score": 30.1
+      "quality_score": 30.1,
+      "summary_zh": "PentAGI 是一套面向渗透测试的全自主 AI agent 系统，名字取自 Penetration testing Artificial General Intelligence，目标是在复杂渗透测试任务中自主执行。README 涉及 agent 监督、给 agent 开放 Docker 访问而不暴露宿主机、多实例运行等部署细节，适合安全研究员与做自动化渗透测试的团队评估。",
+      "summary_en": "PentAGI, short for Penetration testing Artificial General Intelligence, is a system of fully autonomous AI agents built to carry out complex penetration-testing tasks. Its README covers agent supervision, giving agents Docker access without exposing the host, and running several instances at once. It's aimed at security researchers and teams exploring automated offensive-security workflows."
     },
     {
       "id": "gh-monthly-omacom-omarchy",
@@ -3712,7 +3720,9 @@
       "gh_period": "monthly",
       "first_seen": "2026-08-17",
       "domain": "github.com",
-      "quality_score": 44.7
+      "quality_score": 44.7,
+      "summary_zh": "ayghri/i-have-adhd 是一个给 coding agent 用的 skill，用来阻止它把答案埋在长篇输出里，改为对 ADHD 用户更友好的呈现方式。它针对的是 agent 回复过长、结论藏在中段这一常见问题，适合每天用 AI 写代码、只想先看到结果的人。",
+      "summary_en": "ayghri/i-have-adhd is a skill that stops a coding agent from burying the answer, pushing it toward ADHD-friendly output instead. It targets the familiar annoyance of long agent responses where the conclusion sits somewhere in the middle, and is meant for developers who use AI coding tools daily and just want the result first."
     },
     {
       "id": "gh-monthly-youssofal-MTPLX",
@@ -4034,7 +4044,9 @@
       ],
       "first_seen": "2026-09-11",
       "domain": "producthunt.com",
-      "quality_score": 29.6
+      "quality_score": 29.6,
+      "summary_zh": "Product Hunt 上架的 AirPods 5 页面列出三项卖点：1.5 倍主动降噪、AI Siri 与实时翻译 Live Translation。它把升级重点放在降噪强度和 AI 语音交互上，关注真无线耳机新品的用户可以看看它的定位。",
+      "summary_en": "AirPods 5 has a Product Hunt listing whose description highlights three features: 1.5x Active Noise Cancellation, AI Siri and Live Translation. The pitch centers on stronger noise cancelling plus AI voice and cross-language conversation, worth a look for anyone tracking the next wave of wireless earbuds."
     },
     {
       "id": "ph-1238848",
@@ -5047,7 +5059,9 @@
       "tags": [],
       "first_seen": "2026-09-12",
       "domain": "infoq.cn",
-      "quality_score": 41.3
+      "quality_score": 41.3,
+      "summary_zh": "前 Google DeepMind 研究员 Ilia Shumailov 与 Alexander Panfilov 发现，专有模型的加密推理链可跨会话、跨用户重放到同家族小模型上，借此套出 GPT-5、Claude 藏起的思考，他们从 GitHub 和 Hugging Face 的公开 Agent 轨迹里解码出 31.5 万条推理，其中含 API 密钥、邮箱和内部 IP。论文《Stealing Reasoning Traces from Proprietary LLM APIs》还记录了 Kimi-K3 只预填充两个 Opus Token 就改变答案的异常，OpenAI 同期披露 GPT-6 Astra 的思维链可监控性显著下降。",
+      "summary_en": "Former Google DeepMind researcher Ilia Shumailov and Alexander Panfilov found that proprietary models' encrypted reasoning can be replayed across sessions and users into smaller models of the same family, extracting hidden thoughts from GPT-5 and Claude. They decoded 315,000 reasoning traces from public GitHub and Hugging Face agent trajectories, exposing API keys, emails and internal IPs. Their paper, Stealing Reasoning Traces from Proprietary LLM APIs, also documents Kimi-K3 answering differently after two Opus tokens are prefilled."
     },
     {
       "id": "infoq-oPSaLpULlAxGxTbYXlXO",
@@ -5217,7 +5231,9 @@
       "tags": [],
       "first_seen": "2026-09-11",
       "domain": "infoq.cn",
-      "quality_score": 43.8
+      "quality_score": 43.8,
+      "summary_zh": "HashiCorp 发布 Packer v1.16.0，新增 provenance 后置处理器，可为每个构建的机器镜像生成、签名并核验符合 SLSA Provenance v1 的 in-toto 来源证明，记录 Git 提交、分支、CI 流水线与构建时间戳。该版本提供未签名 JSON、本地 PEM、云 KMS/Vault、Sigstore Fulcio 四种签名方式，并给出映射 SLSA L1–L3 的参考 GitHub Actions 工作流，适合需要镜像供应链审计和部署门禁的团队。此外还新增 continue_on_error 元参数及 rfc3339_parse()、unix_timestamp_parse() 等 HCL2 改进。",
+      "summary_en": "HashiCorp released Packer v1.16.0, adding a provenance post-processor that generates, signs and verifies SLSA Provenance v1 in-toto attestations for every machine image, capturing the Git commit, branch, CI pipeline and build timestamp. It supports four signing modes — unsigned JSON, local PEM keys, cloud KMS or Vault, and keyless Sigstore Fulcio with Rekor — plus a reference GitHub Actions workflow mapping to SLSA build levels L1–L3, aimed at teams doing image supply-chain audits and deploy gates."
     },
     {
       "id": "infoq-Y02WwW92ZqjLXQQvIWWi",
@@ -5251,7 +5267,9 @@
       "tags": [],
       "first_seen": "2026-09-11",
       "domain": "infoq.cn",
-      "quality_score": 44.0
+      "quality_score": 44.0,
+      "summary_zh": "Netflix 正把 3 万多个流式作业迁移到开源的 Apache Flink Autoscaler，覆盖多个 AWS 区域。此前的集群级扩缩容粒度太粗，不适配含分支、Join 和数 TB 状态的异构作业；新方案按算子逐个用吞吐量和繁忙时间估算并行度（FLIP-271），有团队借此将 Flink 计算支出年化降低 58%，每年省下约 110 万美元。",
+      "summary_en": "Netflix is moving more than 30,000 streaming jobs onto the open-source Apache Flink Autoscaler across multiple AWS regions. Its earlier cluster-level autoscaler was too coarse for pipelines with branches, joins and terabytes of state, so the new per-operator approach described in FLIP-271 estimates parallelism from throughput and busy time; one team cut its Flink compute spend by 58% annualized, about $1.1M a year."
     },
     {
       "id": "infoq-RLdCKyW7YNb8ybDKlQ5d",

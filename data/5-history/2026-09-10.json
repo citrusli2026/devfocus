@@ -3436,7 +3436,9 @@
       "gh_period": "daily",
       "first_seen": "2026-09-10",
       "domain": "github.com",
-      "quality_score": 30.1
+      "quality_score": 30.1,
+      "summary_zh": "colibri 是一个纯 C、零依赖的推理引擎，把磁盘、内存与显存当作统一推理层级、按需从磁盘流式加载 experts，从而在消费级或异构硬件上运行 744B 到 2.8T 参数的 MoE 模型，现已支持 GLM、Kimi K3、DeepSeek V4 等九个模型家族。适合想在自有硬件上部署超大 MoE、又不愿引入 Python 依赖栈的开发者。",
+      "summary_en": "colibri is a pure-C, dependency-free inference engine that treats disk, RAM and VRAM as one memory hierarchy and streams experts from disk, letting frontier MoE models of 744B to 2.8T parameters run on consumer or heterogeneous hardware. Nine model families are supported today, including GLM, Kimi K3 and DeepSeek V4. It targets developers who want to serve very large MoE models on machines they already own."
     },
     {
       "id": "gh-daily-THU-MAIC-OpenMAIC",
@@ -3911,7 +3913,9 @@
       "gh_period": "monthly",
       "first_seen": "2026-08-17",
       "domain": "github.com",
-      "quality_score": 42.3
+      "quality_score": 42.3,
+      "summary_zh": "ayghri/i-have-adhd 是一个给 coding agent 用的 skill，用来阻止它把答案埋在长篇输出里，改为对 ADHD 用户更友好的呈现方式。它针对的是 agent 回复过长、结论藏在中段这一常见问题，适合每天用 AI 写代码、只想先看到结果的人。",
+      "summary_en": "ayghri/i-have-adhd is a skill that stops a coding agent from burying the answer, pushing it toward ADHD-friendly output instead. It targets the familiar annoyance of long agent responses where the conclusion sits somewhere in the middle, and is meant for developers who use AI coding tools daily and just want the result first."
     },
     {
       "id": "gh-monthly-harry0703-MoneyPrinterTurbo",
