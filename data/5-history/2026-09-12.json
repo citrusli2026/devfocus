@@ -282,7 +282,9 @@
       "tags": [],
       "first_seen": "2026-09-12",
       "domain": "autom.dev",
-      "quality_score": 46.0
+      "quality_score": 46.0,
+      "summary_zh": "Google 正在搜索结果页上推出 google.com/goto 跳转链接，取代此前出站链接的呈现方式。该文将其解读为针对爬虫的反抓取动作，并说明了 Autom 如何相应更新自家的 Google Search API，依赖 SERP 链接结构的采集方需要留意。",
+      "summary_en": "Google is rolling out google.com/goto redirect URLs on its search result pages, changing how outbound links are presented. The writeup frames the move as anti-scraping and explains how Autom updated its own Google Search API in response. Anyone scraping SERPs or building on their link structure should recheck assumptions."
     },
     {
       "id": "hn-49637385",
@@ -842,7 +844,9 @@
       "tags": [],
       "first_seen": "2026-09-12",
       "domain": "high5apps.github.io",
-      "quality_score": 34.2
+      "quality_score": 34.2,
+      "summary_zh": "这是一条指向「完成 OpenStreetMap 首次编辑」的链接，正文只留下 'Website Wizard JOSM Plugin' 这一句，没有更多说明。由于原文未被摘要，具体步骤、涉及的工具用法都无从得知，想上手的人需要自己打开链接。",
+      "summary_en": "This item is a pointer to instructions for making your first edit to OpenStreetMap. Beyond the title, the entry contains only the phrase \"Website Wizard JOSM Plugin\", so the linked page isn't summarized here and the actual steps, requirements and tooling details aren't available. Newcomers will need to open the link to see the workflow."
     },
     {
       "id": "hn-49628614",
@@ -5027,7 +5031,9 @@
       "tags": [],
       "first_seen": "2026-09-12",
       "domain": "infoq.cn",
-      "quality_score": 35.6
+      "quality_score": 35.6,
+      "summary_zh": "InfoQ 精选：AI的新用法，被这群 Builder 带到了外滩大会开发者日",
+      "summary_en": "Featured on InfoQ: AI的新用法，被这群 Builder 带到了外滩大会开发者日"
     },
     {
       "id": "infoq-mF8WwkbQRUS7ZKprE3Ku",
@@ -5043,7 +5049,9 @@
       "tags": [],
       "first_seen": "2026-09-12",
       "domain": "infoq.cn",
-      "quality_score": 37.1
+      "quality_score": 37.1,
+      "summary_zh": "Google 开源了 Mantis，一个覆盖漏洞识别、验证、复现到修复全流程的 AI 代理框架，用来解决传统 AI 代码扫描误报泛滥、真阳性率不足 7% 的问题。它靠批评者、审查者等代理过滤误报，在沙箱中复现验证，并把代码库组织成分层树以节省 85% 的 token，模块化技能套件含 15 种以上工具，支持按阶段混用不同模型。",
+      "summary_en": "Google has open-sourced Mantis, an agent framework that automates the vulnerability lifecycle from identification and validation to reproduction and patching, built to fix the high false-positive rates of earlier AI code scanners, whose true-positive rate sits below 7%. It uses critic and reviewer agents to filter noise, sandboxed reproduction to prove findings, and a codebase-level hierarchical tree that cuts token usage by 85%. Its modular skill suite ships 15-plus tools that can run sequentially or in parallel, with different models chosen per stage."
     },
     {
       "id": "infoq-GhA2VWxo6JTGyKIb7KdT",
@@ -5077,7 +5085,9 @@
       "tags": [],
       "first_seen": "2026-09-12",
       "domain": "infoq.cn",
-      "quality_score": 40.8
+      "quality_score": 40.8,
+      "summary_zh": "同一个模型在不同 AI 编程工具里消耗的 Token 数量最多可相差 70 倍，作者用三项实测对比了各工具的成本差异。原帖未提供更多细节，但对按 Token 计费或正在做工具选型的团队来说，这个量级的差距会直接反映在账单上。",
+      "summary_en": "The same model can burn up to 70 times more tokens depending on which AI coding tool wraps it, with three hands-on tests comparing the cost differences across tools. The linked page isn't summarized here; details beyond the title aren't available, but for teams billed per token or picking tooling, a gap of that size shows up straight on the invoice."
     },
     {
       "id": "infoq-G7cublzVyXFOUX3vpz1t",
@@ -5093,7 +5103,9 @@
       "tags": [],
       "first_seen": "2026-09-12",
       "domain": "infoq.cn",
-      "quality_score": 40.7
+      "quality_score": 40.7,
+      "summary_zh": "DeepSeek 把发往 V4 Pro 的请求在 V4.1 Pro 上线前全部路由到 V4.1 Flash，并按 Flash 价格计费，理由是后者在性能、费用、速度和总用时上全面超过前者，而公告只提前了约一天。开发者不满的正是缺少并行迁移期，建议给旧模型保留独立 model ID 和两周缓冲，因为线上 prompt、工具调用和输出格式都依赖具体模型的行为。",
+      "summary_en": "DeepSeek's Harness team member Cui Tianyi tweeted on 9 September that V4.1 Flash beats V4 Pro across performance, cost, speed and total latency, so all V4 Pro requests are being routed to V4.1 Flash and billed at Flash prices until V4.1 Pro ships. The open-platform notice left roughly one day's notice and no overlap period; developers argue production prompts, QC and tool-calling behaviour are tuned to a specific model, so they want a separate model ID and a two-week migration window."
     },
     {
       "id": "infoq-hk3WB50fAOMDg55YVaaW",
@@ -5109,7 +5121,9 @@
       "tags": [],
       "first_seen": "2026-09-12",
       "domain": "infoq.cn",
-      "quality_score": 39.9
+      "quality_score": 39.9,
+      "summary_zh": "QCon 上海站定于 2026 年 10 月 22 日至 24 日举办，蚂蚁集团高级技术专家林鑫将在「AI Native 架构」专题分享《从沙箱到执行边界：蚂蚁 AI Agent 的大规模企业级实践》。该分享聚焦企业级 Agent 执行环境在隔离、冷启动、状态保持与大规模调度上的矛盾，认为传统容器和普通 Serverless 已难支撑规模化落地，适合做 Agent 平台与基础设施的工程师。",
+      "summary_en": "QCon Global Software Development Conference Shanghai runs October 22 to 24, 2026, and Ant Group senior technical expert Lin Xin will speak in the AI Native Architecture track with a session titled \"From Sandbox to Execution Boundary: Ant's Large-Scale Enterprise AI Agent Practice.\" The talk addresses the tensions enterprise agent runtimes face around isolation, cold starts, state retention and large-scale scheduling, arguing that traditional containers and plain serverless can no longer carry production-scale agents. It is aimed at engineers building agent platforms and infrastructure."
     },
     {
       "id": "infoq-exwZJvLsHKXrPyeKaANC",
