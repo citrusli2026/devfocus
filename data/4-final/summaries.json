@@ -865,9 +865,9 @@
     "summary_en": "RuView turns commodity WiFi signals into real-time intelligence for spatial awareness, vital sign monitoring, and presence detection—all without using any cameras or dedicated sensors. By analyzing how WiFi waves are disturbed by human movement and breathing, it can detect falls, track location, and monitor heart rate through walls. This privacy-preserving, low-cost solution works with existing home WiFi routers, making it a breakthrough for elderly care, smart buildings, and security applications where non-intrusive monitoring is critical."
   },
   "gh-daily-addyosmani-agent-skills": {
-    "summary_zh": "Addy Osmani 开源了 agent-skills，把资深工程师的开发流程、质量门禁与最佳实践打包成 AI 编码 agent 可遵循的规范。仓库提供 8 个斜杠命令，对应从 spec、plan、build、test、review 到 ship 的完整开发周期，方便 agent 在每个阶段按同一套标准执行；适合团队用来为 AI 编码流程建立统一的质量门槛。",
-    "summary_en": "Addy Osmani's agent-skills packs senior-engineer workflows, quality gates, and best practices into skills that AI coding agents can follow consistently. It ships with eight slash commands mapped to the development lifecycle — from spec and plan through build, test, review, and ship — giving teams a straightforward way to enforce the same engineering bar across AI-assisted development.",
-    "input_hash": "9d6cbb9d33ac"
+    "summary_zh": "addyosmani/agent-skills 把资深工程师的工作流、质量门禁和最佳实践打包成 AI coding agent 可遵循的 skills，覆盖 DEFINE、PLAN、BUILD、VERIFY、REVIEW、SHIP 六个开发阶段，并用 /spec、/plan、/build、/test 等 9 个 slash command 对应各环节。适合想让 agent 在编码时稳定执行工程规范的人。",
+    "summary_en": "addyosmani/agent-skills packages the workflows, quality gates and best practices senior engineers rely on into \"skills\" that AI coding agents follow, spanning six phases from DEFINE and PLAN through BUILD, VERIFY and REVIEW to SHIP. It ships 9 slash commands such as /spec, /plan, /build and /test mapped to those stages, aimed at developers who want agents to apply engineering standards consistently.",
+    "input_hash": "0ca23d344bc5"
   },
   "gh-monthly-Egonex-AI-Understand-Anything": {
     "summary_zh": "Understand-Anything 能将任何代码库自动转化为可交互的知识图谱，让你可以像搜索和提问一样探索代码结构。它打破了传统线性阅读代码的模式，通过可视化展示函数、类、模块之间的关系，帮助开发者快速理解大型项目。对于接手历史代码、参与开源贡献或学习新框架的人来说，这个工具极大降低了认知负担，让理解复杂代码变成一场有趣的导航体验。",
@@ -1069,9 +1069,9 @@
     "input_hash": "05e510845448"
   },
   "juejin-7644845137235689472": {
-    "summary_zh": "拉勾破产了：这家招聘平台苦撑 13 年后创始人离职出走，最终没能挺过去。作者提到自己本科毕业前后正是拉勾起势的时候，作为早期用户对它的结局颇为唏嘘。内容偏个人回顾与行业观察，关注国内招聘赛道兴衰的人可以一读。",
-    "summary_en": "Lagou has gone bankrupt: the recruiting platform held on for 13 years before its founder left and it finally shut down. The author notes he was an early user around the time Lagou took off, right around his own graduation, and writes with a sense of regret. Part personal recollection, part post-mortem on a Chinese recruiting platform.",
-    "input_hash": "f56640a1e191"
+    "summary_zh": "掘金精选：苦撑13年，创始人离职出走，拉勾终究还是倒下了…",
+    "summary_en": "Featured on Juejin: 苦撑13年，创始人离职出走，拉勾终究还是倒下了…",
+    "input_hash": "49066502d627"
   },
   "juejin-7651461757568811060": {
     "summary_zh": "高考刚结束，网上又翻出了DeepSeek创始人梁文锋当年的高考故事。这位AI圈的顶级大佬，当年以优异成绩考入名校，如今带领DeepSeek在人工智能领域掀起波澜。他的经历不仅激励着无数考生，也让人看到技术人才如何从校园走向行业巅峰。梁文锋的故事再次证明，真正的创新往往源自深厚的学术积累和持续的坚持。",
@@ -12606,9 +12606,9 @@
     "input_hash": "6ffd92832a6b"
   },
   "gh-daily-NationalSecurityAgency-ghidra": {
-    "summary_zh": "Ghidra 是 NSA 研究局维护的软件逆向工程框架，提供反汇编、反编译、图形分析和脚本功能，支持多平台、多种指令集与可执行格式。它为解决复杂逆向工程的规模化与团队协作而设计，可使用 Java 或 Python 扩展。适合恶意代码分析和安全研究。",
-    "summary_en": "Ghidra is a software reverse-engineering framework created and maintained by NSA Research Directorate. It provides disassembly, decompilation, graphing, and scripting across Windows, macOS, and Linux, with broad support for instruction sets and executable formats. Built for scaling and teaming on complex SRE efforts, it can be extended via Java or Python — making it a go-to for malware analysis and security research.",
-    "input_hash": "d79dd0bfdced"
+    "summary_zh": "Ghidra 由美国国家安全局（NSA）研究部门开发并维护，是一套软件逆向工程框架，提供反汇编、反编译、图形化与脚本等功能，支持 Windows、macOS、Linux 及多种处理器指令集，可交互或自动化运行。用户能用 Java 或 Python 编写扩展，适合分析恶意代码或做大规模逆向工程的团队。",
+    "summary_en": "Ghidra is a software reverse engineering framework built and maintained by the National Security Agency's Research Directorate. It bundles disassembly, decompilation, graphing and scripting for Windows, macOS and Linux binaries across many processor instruction sets, and runs both interactively and in automated mode. Users can extend it with Java or Python, making it a customizable platform for malware analysis and large-team SRE work.",
+    "input_hash": "cd1a2dedbd4a"
   },
   "gh-monthly-tt-a1i-archify": {
     "summary_zh": "archify 是一个面向 AI agent 的技能包，可生成架构、工作流、时序、数据流和生命周期图，并以自带动效、可清晰导出的独立 HTML 形式输出。适合需要让 agent 自动产出可验证图表文档的开发者。",
@@ -15131,9 +15131,9 @@
     "input_hash": "cdd9ead05232"
   },
   "juejin-7680105138455855158": {
-    "summary_zh": "2026 年 8 月 GitHub 热门榜从约 22 个候选中精选十个项目，趋势是 Agent 从会写代码转向可复用 Skill、可治理记忆与桌面/硬件工作流。领跑的 archify（38.9K stars）是架构可视化 Skill，reverse-skill（33.2K stars）是安全研究技能路由包，适配 Claude Code、Cursor 等客户端。",
-    "summary_en": "The August 2026 GitHub trending list picks ten repos from about 22 candidates, showing agents moving beyond code generation toward reusable Skill assets, governed memory/context, and closer desktop and hardware workflows. Standouts include archify (38.9K stars, +29.5K this month), an agent skill for self-contained HTML architecture diagrams that verifiably match code, and reverse-skill (33.2K stars, +22.8K), a security-skill router for Claude Code, Cursor, Cline, and other clients. Developer-agent builders and authorized security teams are the main audiences.",
-    "input_hash": "d522869708dc"
+    "summary_zh": "这是 2026 年 8 月的 GitHub 十大热门项目榜单，提炼出的趋势是 Agent 正从「会写一段代码」走向可复用的 Skill 资产、可治理的记忆与文档上下文，并更贴近真实桌面与硬件工作流。适合想把握 AI Agent 工程化方向、寻找可借鉴开源项目的开发者快速扫一遍。",
+    "summary_en": "A roundup of GitHub's ten hottest projects for August 2026, whose through-line is that agents are shifting from writing one-off code snippets toward reusable skill assets, governable memory and document context, and workflows that reach real desktops and hardware. Developers tracking how agent engineering is maturing get a quick scan of what the community is actually building.",
+    "input_hash": "3e1768579be0"
   },
   "infoq-bvqQk8MoIlx291HfB7pQ": {
     "summary_zh": "InfoQ 精选：诺奖得主阿吉翁：AI时代，比以往任何时候都更需要重视手工劳动和软技能",
@@ -16016,9 +16016,9 @@
     "input_hash": "5315080c42b5"
   },
   "gh-daily-tonhowtf-omniget": {
-    "summary_zh": "OmniGet 是一款免费开源的跨平台桌面下载器，用 Tauri、Rust 和 Svelte 构建，覆盖 1800 多个站点，支持 Udemy、Hotmart 课程、YouTube 视频、音乐和电子书，并内置课程播放器与 PDF/EPUB 阅读器。它相当于给 yt-dlp 这类命令行工具套了图形界面，不想碰终端的人可以直接用。",
-    "summary_en": "OmniGet is a free, open-source desktop downloader for Windows, macOS and Linux, built with Tauri, Rust and Svelte. It covers 1,800+ sites including Udemy and Hotmart courses, YouTube videos, music and books, and bundles a course player plus PDF/EPUB readers. It's essentially a graphical front end for tools like yt-dlp, aimed at people who don't want to touch a terminal.",
-    "input_hash": "64987af11210"
+    "summary_zh": "OmniGet 是一款免费开源的桌面下载工具，支持 Windows、macOS 和 Linux，覆盖 Udemy、Hotmart、YouTube 等 1800 多个站点，并内置课程播放器与 PDF/EPUB 阅读器，全程无需终端。它使用 Tauri、Rust 和 Svelte 构建，适合想批量下载课程、视频或音乐又不想碰命令行的用户。",
+    "summary_en": "OmniGet is a free, open-source desktop downloader for Windows, macOS and Linux covering 1,800+ sites including Udemy, Hotmart and YouTube, with a built-in course player and PDF/EPUB reader and no terminal required. Built with Tauri, Rust and Svelte, it targets users who want to batch-download courses, video or music without touching the command line.",
+    "input_hash": "9b3d7a55365e"
   },
   "gh-daily-SnailSploit-Claude-Red": {
     "summary_zh": "claude-red 是一个面向 Claude Skills 系统的攻防安全技能库，由 78 个 SKILL.md 文件组成，按 23 个分类覆盖 SQL 注入、shellcode 等具体攻击面，每个文件为 Claude 注入对应领域专家级的红队方法论。项目采用 MIT 协议，适合做渗透测试或红队工作、想把 Claude 当成上下文感知攻击操作员来用的人。",
@@ -16186,9 +16186,9 @@
     "input_hash": "10d7c2f96099"
   },
   "gh-daily-alibaba-open-code-review": {
-    "summary_zh": "阿里巴巴开源了代码审查工具 open-code-review，采用确定性流水线加 LLM Agent 的混合架构，能在具体代码行给出精确注释，并内置覆盖 NPE 等问题的多语言规则集，npm 包名为 @alibaba-group/open-code-review。仓库强调该工具已在阿里巴巴的规模上经过实战验证，适合想把自动化 review 接进 CI 的团队评估。",
-    "summary_en": "Alibaba has open-sourced open-code-review (npm: @alibaba-group/open-code-review), a tool that pairs deterministic pipelines with an LLM Agent to post precise line-level comments, backed by a built-in multi-language ruleset covering issues such as NPE. The repo says it is battle-tested at Alibaba's scale, making it worth a look for teams that want automated review wired into CI.",
-    "input_hash": "ec303b64ef2a"
+    "summary_zh": "阿里巴巴开源的 OpenCodeReview 是一个用 Go 编写的代码评审工具，采用确定性流水线加 LLM Agent 的混合架构，能给出精确到行的评论，并内置覆盖 NPE、线程安全等问题的多语言规则集。官方称其已在阿里内部规模上经过验证，适合想把自动 code review 接入 CI、又不愿把判断完全交给大模型的团队。",
+    "summary_en": "Alibaba has open-sourced OpenCodeReview, a Go code-review tool that combines deterministic pipelines with an LLM agent to produce precise line-level comments, supported by a built-in multi-language ruleset covering issues such as NPEs and thread safety. It is described as battle-tested at Alibaba's scale, making it worth a look for teams wiring automated review into CI without trusting an LLM for every judgement.",
+    "input_hash": "22efd09ce81e"
   },
   "hn-49678683": {
     "summary_zh": "Hacker News 上一条题为「Everyone should slow down AI development except for me」的帖子，仅从标题看是在讽刺那种呼吁放缓 AI 发展、却把自己排除在外的双重标准论调。该条目抓取到的只是 BotStopper 的反爬验证页面，原文内容未被摘要，标题之外没有可用细节。",
@@ -16271,9 +16271,9 @@
     "input_hash": "31646ee3e91a"
   },
   "gh-daily-ever-co-ever-gauzy": {
-    "summary_zh": "Ever Gauzy 是 Ever Co 开源的业务管理平台，把 ERP、CRM、HRM、ATS、PM 多个模块打包进同一套系统，采用 AGPL v3 许可，代码托管在 GitHub。它面向想自建企业管理系统、不愿被商业 SaaS 绑定的团队；仓库同时推荐了新发布的 Ever Works，一个号称能自主研究、交付并维护业务的 agentic runtime。",
-    "summary_en": "Ever Gauzy is an AGPL v3 open-source business management platform from Ever Co that bundles ERP, CRM, HRM, ATS and PM modules into a single system on GitHub. It targets teams that want a self-hosted alternative to commercial SaaS suites. The repo also points to a newly released sibling project, Ever Works, described as an open agentic runtime for autonomously running businesses.",
-    "input_hash": "2d8203f429ee"
+    "summary_zh": "Ever Gauzy 是 Ever Co 在 GitHub 上开源的商业管理平台，把 ERP、CRM、HRM、ATS、PM 等模块合进一套系统，采用 AGPL v3 许可，README 还提到配套的 Ever Teams 与刚发布的 Ever Works。它适合想自建开源企业管理系统、又不想把 HR 和项目数据交给 SaaS 厂商的团队评估。",
+    "summary_en": "Ever Gauzy is an AGPL v3 open-source business management platform from Ever Co that bundles ERP, CRM, HRM, ATS and project management into one system. Its README also points to a companion product, Ever Teams, and a newly released agentic runtime called Ever Works. Teams that want to self-host enterprise management software instead of renting SaaS tooling are the target audience.",
+    "input_hash": "8d2403dd7892"
   },
   "zhihu-2049473324745598973": {
     "summary_zh": "这是知乎上的一个提问：为什么全世界范围内都没有知名导演下场，用 AI 制作一部院线长片。原文是链接帖，未提供正文，因此讨论者是否列举了具体案例或论点无从得知。",
@@ -16334,5 +16334,285 @@
     "summary_zh": "一位开发者在 V2EX 提问：能否用 Apple 捷径（Shortcuts）设置一个每月自动运行的自动化，定时打开 Google Voice 并发一条短信，用来给自己的号码保号。帖子只有这句提问，没有附带任何可行做法或报错信息，熟悉 Shortcuts 自动化限制和 Google Voice 保号规则的人可以给点思路。",
     "summary_en": "A V2EX user asks whether Apple Shortcuts can run a monthly automation that opens Google Voice and fires off a text message, the familiar trick for keeping a Google Voice number from expiring. The post is just the question, with no working setup or error details included, so anyone who knows how Shortcuts handles apps that need a logged-in session could weigh in.",
     "input_hash": "a2e9a2cdcba8"
+  },
+  "infoq-CKzbmAxb1lLuu4geZuHy": {
+    "summary_zh": "InfoQ 精选：AI 负责创造，人来干脏活，这事儿能否停一下？",
+    "summary_en": "Featured on InfoQ: AI 负责创造，人来干脏活，这事儿能否停一下？",
+    "input_hash": "87e6fdb63006"
+  },
+  "v2ex-f5ceb17d8a18": {
+    "summary_zh": "V2EX 热议：[问与答] 一个人用 20x ，会不会封啊？",
+    "summary_en": "Hot on V2EX: [问与答] 一个人用 20x ，会不会封啊？",
+    "input_hash": "cd65bffcc715"
+  },
+  "ph-1245781": {
+    "summary_zh": "Naoma AI Demo Agent V2 是 Product Hunt 上新上线的产品，官方定位是把网站流量转化为已完成预约的合格销售会议。适合把官网当作获客入口的 B2B 团队，用它把访客的浏览行为直接推进到约会议这一步；目前披露的信息仅有这一句简介。",
+    "summary_en": "Naoma AI Demo Agent V2, newly listed on Product Hunt, is pitched as a way to turn website traffic into booked, qualified meetings. That puts it in the category of tools for B2B teams that treat their site as a lead source and want visitors pushed straight to a scheduled call; the listing itself offers no further detail.",
+    "input_hash": "fa5e404c4311"
+  },
+  "zhihu-2083273181008064732": {
+    "summary_zh": "这是知乎上的一个提问，讨论鸿蒙智行为何在此时调整与赛力斯的合作模式、让华为退居幕后，以及这一调整是否会影响「华为 5 年不下场造车」的表态。原文是提问链接，未提供正文内容，具体事实细节无法确认。",
+    "summary_en": "This Zhihu question asks why HIMA (鸿蒙智行) is changing its cooperation model with Seres and moving Huawei into the background, and whether that affects Huawei's stated \"five years without making cars\" position. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "40b525f2a64d"
+  },
+  "36kr-3983906594257667": {
+    "summary_zh": "这是 36氪「8点1氪」栏目的一条快讯合集，标题涵盖三件事：HYROX 中国就选手中途失禁污染赛道宣布整改，有机构预计美股明年将暴跌 21%，以及苹果推出 Siri 人工智能。原文是标题链接，未提供更多细节，各条消息的具体背景无法从现有素材确认。",
+    "summary_en": "This 36Kr \"8点1氪\" briefing rounds up three items: HYROX China says it will make changes after an athlete's incontinence contaminated the course, one institution forecasts a 21% drop in US stocks next year, and Apple has launched Siri AI. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "a6c44e93e4a3"
+  },
+  "infoq-fsZQ39K4Cd79vaUkFz7F": {
+    "summary_zh": "Anthropic CEO Dario Amodei 发长文呼吁前沿 AI 公司放慢模型能力推进速度、为安全评估和治理争取时间，随后首次接受专访回应称 AI 不能停但必须慢下来。长文提到多个 AI Agent 可能像集群一样发动未授权网络攻击，Anthropic 威胁报告也披露有人试图用 Claude 从事武器开发等活动，马斯克、Sam Altman、Satya Nadella 等相继公开表态。",
+    "summary_en": "Anthropic CEO Dario Amodei published a long essay urging frontier labs to slow the pace of capability progress so safety evaluation and governance can catch up, then gave his first interview since, arguing AI cannot be stopped but must slow down. The essay cites AI agents that could act as a \"cluster\" in unauthorized cyberattacks and an Anthropic threat report on attempted misuse of Claude for weapons development; Elon Musk and Sam Altman both publicly agreed.",
+    "input_hash": "3ac7659f6baf"
+  },
+  "v2ex-35c2dd63073c": {
+    "summary_zh": "有 V2EX 用户提醒，收到的 OneKey 领奖邮件是钓鱼邮件：发件箱并非 OneKey 官方，而是 nurture.icims.com，邮件里的按钮指向 challenge-onekey.com 这个域名。点进去可能导致钱包被盗，持有 OneKey 或加密钱包的用户不要点击任何链接，直接删除即可。",
+    "summary_en": "A V2EX user warns that a OneKey prize-notification email is a phishing attempt: it was not sent from OneKey's own mail system but from nurture.icims.com, and its button points to the domain challenge-onekey.com. Clicking through can drain a crypto wallet, so OneKey and other wallet users should delete the message without touching any links.",
+    "input_hash": "af47c3faa6c2"
+  },
+  "infoq-xD9oWbebhcjwgHz1oEfa": {
+    "summary_zh": "Arm 在 Create 开发者大会上海站发布 Arm AI Portal，定位为面向开发者和智能体的统一入口，用于在 Arm 计算平台上发现、优化和部署 AI 软件，覆盖云、边缘与物理 AI 场景。首批支持语言、语音、视觉和神经图形负载，预优化模型包含通义千问、Google Gemma 和 Ultralytics，资源已在 Hugging Face 与 developer.arm.com 提供，后续将登陆 ModelScope。",
+    "summary_en": "Arm launched the Arm AI Portal at its Arm Create developer conference in Shanghai, pitching it as a single entry point where developers and agents can discover, optimize and deploy AI software on Arm compute across cloud, edge and physical AI. The first release covers language, speech, vision and neural graphics workloads, with pre-optimized models including Qwen, Google Gemma and Ultralytics; resources are already on Hugging Face and developer.arm.com, with ModelScope to follow.",
+    "input_hash": "28adcdcbfe51"
+  },
+  "v2ex-00407365868b": {
+    "summary_zh": "V2EX 酷工作板块的一条招聘帖，北京或深圳招技术负责人，需统筹客户端、服务端和 Agent 三个团队，负责整体技术方向、架构设计、研发进度与上线稳定性。要求具备其中某一方向的技术背景和跨方向团队管理经验，有产品意识，复杂系统、高并发或 AI 产品研发经验者优先。",
+    "summary_en": "A V2EX job post is hiring a head of engineering in Beijing or Shenzhen to own technical direction and architecture while coordinating client, server and Agent teams, plus delivery quality and release stability. Candidates need a technical background in one of those areas, experience managing teams across multiple directions, product sense, and ideally complex-system, high-concurrency or AI product work.",
+    "input_hash": "9eaeb8ee0b62"
+  },
+  "hn-49711544": {
+    "summary_zh": "这是一个 Show HN 项目：一块电子墨水相框，能识别周围鸟类的叫声，并把它们绘制成 19 世纪插画风格。原帖只提供了链接、没有附正文说明，具体实现方式在原文中并未给出。",
+    "summary_en": "A Show HN project presents an e-ink frame that listens for nearby birds and draws them in the style of 1800s illustrations. The submission contains only a link with no write-up, so the linked page isn't summarized here and details beyond the title aren't available.",
+    "input_hash": "0877448497a4"
+  },
+  "v2ex-f09a461225f7": {
+    "summary_zh": "一位 V2EX 用户提出，当 AI 负责写代码、测试和修 bug 后，人类手写编码的能力将变得没有意义，就像今天没人再需要能写汇编的老教授。他用自己的经历作类比：动态语言、GC 语言取代了汇编，行级控制粒度不再是刚需，但他也承认受过科班计算机与网络安全教育的程序员很难接受这种失控。",
+    "summary_en": "A V2EX poster argues that once AI writes code, tests it and fixes bugs, human coding skill will matter as little as hand-written assembly does today. He draws the parallel from his own experience, where dynamic and garbage-collected languages displaced assembly-level control, while conceding that formally trained computer science and security engineers will find it hard to give up line-level command of their programs.",
+    "input_hash": "63f35a1189b7"
+  },
+  "infoq-AcvXqsA1IGC3ACxJSgP6": {
+    "summary_zh": "Akamai 大中华区副总裁张珂认为，Token 消耗异常不只意味着成本失控，也可能是安全事件的信号，例如「拒绝钱包攻击」（Denial of Wallet）会靠大量请求推高账单，具备智能体能力的爬虫也会触发多轮推理。他引用 Akamai《2026 年 AI 推理现状报告》称 77% 的受访企业缺乏统一 Token 成本指标，主张把观测前移到 AI 网关，按部门、项目和模型实时管控。",
+    "summary_en": "Akamai Greater China VP Zhang Ke argues that abnormal token consumption is not just a cost problem but a security signal: Denial of Wallet attacks inflate bills with floods of requests, and agentic crawlers trigger multi-turn inference that ordinary traffic never caused. He cites Akamai's 2026 AI Inference report, in which 77% of surveyed enterprises lacked consistent per-token cost metrics, and calls for moving that visibility into an AI gateway for real-time control.",
+    "input_hash": "15c71f9818b7"
+  },
+  "v2ex-b1494e57545a": {
+    "summary_zh": "有用户在 V2EX 反映，在 Cursor 中使用第三方 API key 时收到提示「This model does not support custom API keys. Request ID:」，并称 Grok 和 GPT-5.5 都试过。正文只有这一条报错信息，没有附配置或日志，因此无法说明具体原因。",
+    "summary_en": "A V2EX user reports that Cursor rejects third-party API keys with the error 'This model does not support custom API keys. Request ID:', after trying both Grok and GPT-5.5. That error string is essentially the entire body of the post, so no configuration, account tier or logs are provided to explain the cause.",
+    "input_hash": "8d2a20ed45b5"
+  },
+  "zhihu-2083244063277503296": {
+    "summary_zh": "这是知乎上的一个提问：如何评价湘雅医院一名教师的 PPT 引发争议，标题称其「23 年未见父母，每天睡 2 小时」，并追问事件影响以及内容是否夸大。原文只是一个链接，未提供更多细节。",
+    "summary_en": "A Zhihu question asks how to evaluate the controversy over a teacher's PPT at Xiangya Hospital, whose claims the title summarizes as 23 years without seeing his parents and two hours of sleep a night, and whether that account is exaggerated or misleading. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "1c968d3cab32"
+  },
+  "v2ex-deec4f626051": {
+    "summary_zh": "V2EX 用户反映在 iPhone 上通过 Apple 订阅 Claude 20x 档位显示为 249 美元，而他本想用 Apple 礼品卡充值，正在找 200 美元的订阅途径，并疑惑为何不少代充能把苹果端价格做到 200 美元。帖子只提出问题，没有给出答案或具体方法，涉及跨区定价与代充风险，适合正在比较 Claude 订阅渠道的人参考。",
+    "summary_en": "A V2EX user found that subscribing to Claude's 20x tier through Apple on iPhone now costs $249, and is asking whether a $200 route exists, since he had planned to pay with Apple gift cards. He also wonders how resellers manage to offer the Apple subscription at $200. The thread only poses the question and offers no answer or method, so it is mainly useful for anyone weighing Claude pricing and third-party top-up risks.",
+    "input_hash": "def3d4d4e7cf"
+  },
+  "v2ex-b99b3fb028ff": {
+    "summary_zh": "发帖人盘点后发现还能免费用的 AI LLM 越来越少，openCode、openRouter、小红书 dots、ollama 等渠道相继\"阵亡\"，剩下的模型虽多但基本不实用。他判断明年大概率要进入\"充钱用 AI\"的时代，适合还在寻找免费 API 或本地模型的开发者参考。",
+    "summary_en": "The poster lists the free AI LLM options that have vanished one by one — openCode, openRouter, Xiaohongshu's dots and ollama among them — and says that while plenty of models remain, they are largely impractical. He expects a pay-to-use AI era to arrive as soon as next year, a view of interest to developers still hunting for free APIs or local models.",
+    "input_hash": "8c931101a18e"
+  },
+  "hn-49708431": {
+    "summary_zh": "这是 Hacker News 上一条标题为\"I can't stop thinking about Papua New Guinea\"的帖子。原文只是链接，未提供更多细节，因此无法判断作者具体写了什么、为何反复想到巴布亚新几内亚。",
+    "summary_en": "This is a Hacker News post titled \"I can't stop thinking about Papua New Guinea.\" The linked page isn't summarized here; details beyond the title aren't available, so neither the author's argument nor the reason the country keeps coming back to mind can be judged from this entry.",
+    "input_hash": "b9eace73e2de"
+  },
+  "v2ex-5119ee9c006a": {
+    "summary_zh": "分享 Palantir 工程师 Ankit 与 Trinity Industries CEO Jean Savage 的访谈：Trinity 是北美最大的铁路货车租赁车队所有者之一，约 14 万辆车、80 亿美元资产，每月要核对上万条维修发票是否符合 AAR 规则，纠错窗口只有 6 个月。作者强调 AI FDE 不是聊天机器人，而是把数据、业务流程和人的判断串成从发现问题到行动的闭环，Jean 认为它能让替换 25 年旧系统 AMS 的项目从外部报价的 3 至 5.5 年缩到约 6 个月。",
+    "summary_en": "A write-up of an interview with Palantir engineer Ankit and Trinity Industries CEO Jean Savage on applying AI FDE at Trinity, one of North America's largest railcar leasing fleets: about 140,000 cars, some $8 billion in assets, and thousands of repair invoices a month to check against AAR rules within a six-month window. FDE, the piece argues, isn't a chatbot but links data, process and human judgment into a find-to-act loop; Savage says it could have cut a 25-year-old AMS replacement from a quoted 3–5.5 years to six months.",
+    "input_hash": "2f6e66f8639e"
+  },
+  "ph-1231948": {
+    "summary_zh": "Nimble 在 Product Hunt 上线 Web Search Agents，主打用自学习 agent 自动完成网页调研与信息检索。官方目前只给出一句介绍，未说明具体能力、定价或接入方式，适合想自动做网页检索、又不想自建抓取流水线的团队先了解。",
+    "summary_en": "Nimble launched Web Search Agents on Product Hunt, pitched as self-learning agents that automate web research and retrieval. Beyond that one-line description, no further details on capabilities, pricing or integration are given, so it is mainly worth a look for teams that want automated web research without building their own scraping pipeline.",
+    "input_hash": "1b296ba203f9"
+  },
+  "v2ex-5bade33ab7d6": {
+    "summary_zh": "V2EX 网友反馈，自己的港版 iPhone 17 配上港区 Apple 账号，在更新系统后却被提示改用云上贵州的 iCloud 服务，于是发帖询问是否有人遇到同样情况。原文只有这一句描述和链接，没有提供更多细节、版本号或解决办法。",
+    "summary_en": "A V2EX user reports that their Hong Kong–version iPhone 17, paired with a Hong Kong Apple ID, was prompted to switch to 云上贵州, Apple's mainland China iCloud operator, after a system update. They are asking whether others have hit the same behavior. The linked page isn't summarized here; no details, version numbers or workarounds beyond that one-line description are available.",
+    "input_hash": "aeadfa8f6724"
+  },
+  "infoq-4OXJdfB36TpMRdvrVgIc": {
+    "summary_zh": "Meta 介绍了面向合规领域的“组织第二大脑”智能体设计：专家知识不写入模型权重，而是存于 200 多份结构化文件与可组合的“配方”推理流程中，专家修正经回归测试后固化。Meta 称该四层架构把单次评估从数天缩短到数分钟，并可推广到安全、金融、工程与采购领域。",
+    "summary_en": "Meta detailed the design of its compliance-domain “organizational second brain” agent, which keeps expert knowledge out of model weights and stores it instead in 200-plus structured files plus composable “recipes” defining how the agent reasons; expert corrections are regression-tested before landing. Meta says the four-layer architecture cut a single evaluation from days to minutes and could extend to security, finance, engineering and procurement.",
+    "input_hash": "ec629a908d3e"
+  },
+  "v2ex-051cc6ff3f06": {
+    "summary_zh": "V2EX 上的远程招聘帖，招海外运营组组长（20K–35K）以及海外社媒、站点、产品运营（15K–25K）四类岗位，职责涵盖目标国家用户与竞品调研、社媒/SEO/投流方案、账号与站点内容运营及产品需求梳理，要求有海外流量获取和数据分析经验。面试须提供增长案例或目标国家调研，简历投递邮箱为 linlinli88200@gmail.com。",
+    "summary_en": "A V2EX remote-hiring post lists four overseas operations roles: a team lead at 20K–35K plus social media, website and product operations positions at 15K–25K. Duties span target-market user and competitor research, social/SEO/paid-traffic plans, account and site content management, and product requirement gathering, with overseas traffic-acquisition and data-analysis experience required. Interviews need growth case studies or target-country research; resumes go to linlinli88200@gmail.com.",
+    "input_hash": "5fac93a7451f"
+  },
+  "infoq-556HrGKWUqWSg7NM3YT3": {
+    "summary_zh": "蚂蚁集团架构师刘杨将在 10 月 22–24 日的 QCon 上海站讲解企业级 Agent 可观测与评估体系：采集层按 OpenTelemetry GenAI 语义约定统一埋点，评估层以 Trace 为核心走实时管线，延迟做到分钟级。其小模型粗筛加大模型精筛的两阶段机制可省约 90% token，让安全合规类指标覆盖全生产流量。",
+    "summary_en": "At QCon Shanghai (Oct 22–24), Ant Group architect Liu Yang presents an enterprise Agent observability and evaluation practice: instrumentation follows OpenTelemetry GenAI semantic conventions, and evaluation is Trace-centric with a real-time pipeline reaching minute-level latency. A two-stage setup — small models for coarse screening, large models for refinement — cuts token cost by roughly 90%, making safety and compliance checks viable across all production traffic.",
+    "input_hash": "37cfb76cde54"
+  },
+  "infoq-I6k1mOtQ9fltk7Ep1hZE": {
+    "summary_zh": "文章复盘某大型支付处理商的事故：部署中一次例行 ECS 任务替换叠加对单个 Redis 节点的隐性依赖，让结算服务在对账高峰期中断四小时，最终支付七位数 SLA 违约金。作者据此指出支付系统违背标准混沌工程假设：交易可能停在已授权未捕获等中间状态，影响范围难以按实例比例界定，生产实验还须通过 PCI DSS、SOC 2 审批。",
+    "summary_en": "This write-up revisits how a large payment processor's settlement service went down for four hours during a reconciliation peak: a routine ECS task replacement during deployment, combined with a hidden dependency on a single Redis node, triggered cascading authorization timeouts and seven-figure SLA penalties. It explains why payment systems break standard chaos-engineering assumptions — transactions linger in states like authorized-but-uncaptured, blast radius resists instance-percentage definitions, and production experiments need PCI DSS and SOC 2 change approval.",
+    "input_hash": "4c2ace7a0b9d"
+  },
+  "hn-49694296": {
+    "summary_zh": "XCancel 宣布其服务已暂停，恢复时间另行通知。该条目在 Hacker News 上只是一个链接，原文未提供更多细节，暂停原因与影响范围目前都无从得知。",
+    "summary_en": "XCancel has announced that its service is suspended until further notice. The linked page isn't summarized here; details beyond the title aren't available, so the reason for the shutdown and how long it will last remain unknown.",
+    "input_hash": "7c244a1e137e"
+  },
+  "hn-49710883": {
+    "summary_zh": "Schneier 与 Cindy Cohn 在 Lawfare 撰文，回顾 9·11 后美国监控从定向窃听转向互联网骨干接入和电话、互联网元数据的大规模收集，如今 ICE 把它用于移民执法和针对示威者的行动。作者指出这套架构早已超出反恐理由，并渗入 Madison Square Garden 的人脸识别、Flock 车牌抓拍等私营系统。",
+    "summary_en": "In a Lawfare essay, Bruce Schneier and Cindy Cohn trace how post-9/11 US surveillance shifted from targeted wiretaps and pen register orders to mass collection of internet backbone traffic and phone or internet metadata. They argue that legal and technical architecture has long outgrown its counterterrorism framing, noting ICE now applies it in immigration enforcement and against protesters, while private systems such as Madison Square Garden facial recognition and Flock license plate readers push it further into daily life.",
+    "input_hash": "7a51022a1a45"
+  },
+  "infoq-QtIy65SxjN0Q4riY7tCo": {
+    "summary_zh": "OpenAI 明知 Python 撑不住规模，仍把核心在线存储平台 Habitat 写成 Python 服务并主动欠下技术债，赌 Codex 能让日后重写变得便宜。今年第二季度，2 名工程师借助 Codex 和 GPT-5.5 将其重写为 Rust，新版本已承担 95% 生产请求，CPU 与内存效率分别提升 6 倍和 15 倍，延迟也明显下降。",
+    "summary_en": "OpenAI deliberately took on technical debt by building Habitat, its core online storage platform, as a Python service, betting that Codex and GPT would eventually make a rewrite cheap. In the second quarter of this year, two engineers rewrote it in Rust with Codex and GPT-5.5; the Rust version now handles 95% of production requests with 6x better CPU efficiency, 15x better memory efficiency, and lower average and tail latency.",
+    "input_hash": "bb9381703af6"
+  },
+  "ph-1243798": {
+    "summary_zh": "Elva 是 Product Hunt 上的一个新条目，唯一的介绍是一句 \"Goodbye, Postman. Your APIs have new consumers\"，暗示它面向 API 工具链的替代场景。除这句口号外，条目没有提供功能、定价或与现有工具差异的更多信息。",
+    "summary_en": "Elva is a new Product Hunt listing whose only description is the tagline \"Goodbye, Postman. Your APIs have new consumers,\" suggesting it targets teams looking for an alternative in the API tooling space. Beyond that line, the submission gives no further details on features, pricing, or how it differs from existing tools.",
+    "input_hash": "561dfb1cc839"
+  },
+  "infoq-IfxYoy1PPkFQUpjWVBVr": {
+    "summary_zh": "OpenAI 发布 GPT-6 Astra，覆盖编程、计算机应用与网络安全，在 OSWorld 2.0 上得分 72.6%（GPT-5.6 Sol 为 65.7%），支持 100 万 token 上下文。它也是首个被 OpenAI 按 Preparedness Framework 归入\"关键网络安全能力\"级的模型，正逐步向 ChatGPT Plus、Pro、Business、Enterprise 以及 API、Azure 和 AWS Bedrock 用户开放。",
+    "summary_en": "OpenAI released GPT-6 Astra, a model aimed at coding, computer use, professional workflows, and cybersecurity, scoring 72.6% on OSWorld 2.0 against 65.7% for GPT-5.6 Sol. It supports a 1M-token context, adds an experimental context mechanism in Codex, and is the first OpenAI model classified as having \"critical cybersecurity capability\"; it is rolling out to ChatGPT Plus, Pro, Business, and Enterprise, plus API, Azure, and AWS Bedrock users.",
+    "input_hash": "ba93f37a7c02"
+  },
+  "hn-49700661": {
+    "summary_zh": "Steam Frame 起售价为 1059 美元，该条目把它同时归入 VR 与非 VR 游戏场景。除价格和这一分类外，原文没有提供规格、发售时间等更多细节，只能作为了解其入门定价的参考。",
+    "summary_en": "Steam Frame starts at $1059, and the entry groups it under both VR and non-VR gaming. Nothing beyond the price and that category is given, so anyone looking for specs, launch timing or a feature breakdown won't find them here; it is mainly an early signal of where the headset's entry pricing lands.",
+    "input_hash": "af528d0573bb"
+  },
+  "ph-1226046": {
+    "summary_zh": "Hello Inbox 是 Product Hunt 上的一款工具，目标写在介绍里：让更多营销邮件进入收件箱，而不是掉进垃圾箱。它面向做 email marketing 的团队，但该条目只有这一句说明，具体实现方式和定价都没有提及。",
+    "summary_en": "Hello Inbox is a Product Hunt launch whose stated goal is getting more marketing emails into the inbox rather than the spam folder. It is aimed at teams running email marketing campaigns, but the listing gives only that one line, with no detail on how it works or what it costs.",
+    "input_hash": "ce4ec8d7e6a4"
+  },
+  "zhihu-2083117744707352472": {
+    "summary_zh": "这条知乎提问讨论的是英伟达、Palantir 等金主集体限制使用 Anthropic Claude 的情况。提问本身没有附正文，限制的具体范围、原因以及各方回应都无从确认，标题之外的信息仅限于涉及的公司和被限制的产品。",
+    "summary_en": "This Zhihu question asks about Nvidia, Palantir and other backers collectively restricting use of Anthropic's Claude. The post carries no body text, so the scope of the restrictions, the reasons behind them and any responses aren't available; only the companies and the product named in the title can be confirmed.",
+    "input_hash": "66f3055a2a5c"
+  },
+  "hn-49701004": {
+    "summary_zh": "Apple 发布 iOS 27、iPadOS 27 与 macOS 27，主要变化是引入 Siri AI，并带来一批新的 Apple Intelligence 功能。三个平台同版本号推进，对关注 Apple 在 iPhone、iPad 与 Mac 上如何落地端侧 AI 的开发者有参考价值。",
+    "summary_en": "Apple's latest releases, iOS 27, iPadOS 27 and macOS 27, introduce Siri AI alongside new Apple Intelligence features. All three platforms move to the same version number, which matters to developers tracking how Apple ships AI across iPhone, iPad and Mac; this entry gives no further detail.",
+    "input_hash": "edacb22a80a4"
+  },
+  "infoq-BmJh0DzGPYBEl1zlyO0C": {
+    "summary_zh": "2026 年 6 月 IETF 发布 RFC 10008，为 HTTP 引入 QUERY 方法，这是自 2010 年 PATCH 之后第一个新的标准动词，由 Julian Reschke、James Snell 和 Mike Bishop 编写。它让请求像 POST 一样携带正文，却保留 GET 的安全、幂等和可缓存语义，服务器可通过 Accept-Query 声明支持，对设计搜索类接口的后端开发者尤其相关。",
+    "summary_en": "In June 2026 the IETF published RFC 10008, adding QUERY as a new HTTP method: the first new standard verb since PATCH in 2010, authored by Julian Reschke, James Snell and Mike Bishop. QUERY carries a request body like POST while keeping the safe, idempotent and cacheable semantics of a read, and servers can advertise support with Accept-Query. It speaks directly to the long-running search-API debate over URL length limits and filter leakage into logs.",
+    "input_hash": "2aa1fc596889"
+  },
+  "ph-1249790": {
+    "summary_zh": "Slashy Assistant 是一款在 Product Hunt 上架的 AI 助手，卖点是替你处理邮件。目前页面只给出一句产品描述，具体支持哪些邮箱平台、怎么接入和定价策略都未披露，想尝鲜的人只能等后续信息。",
+    "summary_en": "Slashy Assistant is an AI assistant listed on Product Hunt that positions itself around doing your email for you. Beyond that one-line description, the listing doesn't say which mail platforms it supports, how it's integrated, or what it costs, so there is little to evaluate yet.",
+    "input_hash": "f29ee2124850"
+  },
+  "hn-49697893": {
+    "summary_zh": "博客《dario, please!》反驳 Anthropic CEO Dario Amodei 的博文《We Must Pace the Frontier》，认为其真正目的是监管 open weight 模型，同时为前沿实验室争取反垄断豁免。作者逐条质疑 Dario 关于 AI 将在 5-10 年内治愈大多数疾病、带来经济增长与民主复兴的说法，并点名 RSI 与 OAI-HF 事件。",
+    "summary_en": "This blog post, \"dario, please!\", pushes back on Anthropic CEO Dario Amodei's essay \"We Must Pace the Frontier\", arguing its real aim is to regulate open weight models while winning frontier labs an antitrust waiver. It challenges Amodei's claims that AI will cure most major diseases within 5-10 years and drive growth and a democratic renaissance, and touches on RSI and the OAI-HF incident.",
+    "input_hash": "deea339fb0b6"
+  },
+  "36kr-3984193168784390": {
+    "summary_zh": "这是一篇 iOS 27 正式版的上手体验，核心结论是 Siri 的 AI 能力这次终于明显改善，老款 iPhone 升级后也能拿到新功能。原文只提供了标题，没有正文内容，具体新增能力和机型支持范围需要点进原文查看。",
+    "summary_en": "A hands-on take on the official iOS 27 release, whose main takeaway is that Siri's AI finally feels markedly better and that older iPhones also get new features once upgraded. Only the headline is available here; the linked page isn't summarized and no body text is provided, so the specific features and supported models aren't detailed.",
+    "input_hash": "d5382f5691cd"
+  },
+  "36kr-3984147086768897": {
+    "summary_zh": "标题指向一位 DeepSeek 资深算子工程师的深夜独白，他刚写完 V4.1 的主算子，标题以问号暗示可能要从算子岗位「转业」。原文未提供正文，作者的具体说法和去向都无法确认，只能等原文更新。",
+    "summary_en": "The piece is framed as a late-night monologue from a senior kernel (operator) engineer at DeepSeek, written just after finishing the main kernel for V4.1, with the headline hinting at a possible move away from that role. No body text is included here, so the linked article's details beyond the title aren't available.",
+    "input_hash": "9823754cf398"
+  },
+  "36kr-3983959733680899": {
+    "summary_zh": "HYROX 是一项快速扩张的健身竞速赛事，36kr 报道其参赛人数在短时间内暴涨 2000 倍后，因一场被指“失禁”的比赛陷入争议，凸显赛事规模与运营管理之间的落差。关注体育商业化与赛事组织的人可以从中看到扩张过快的代价；本次输入只有标题，具体经过未提供。",
+    "summary_en": "HYROX, a fast-growing fitness racing series, saw its participant numbers grow 2,000-fold before a race described as an \"incontinence\" incident landed it in controversy, according to a 36kr report. The story points to the gap between runaway growth and event operations. Only the headline is available here, so the linked article isn't summarized.",
+    "input_hash": "d10e89eb0e77"
+  },
+  "36kr-3984219694856961": {
+    "summary_zh": "36kr 报道称，Claude 在 44 分钟内独立破译了一段有 370 年历史的密文，速度让密码学家直言“破防”。这意味着 AI 已切入过去依赖专家手工推演的历史密码破译领域，对关注大模型推理能力与密码学的读者有直接参考；原文只有标题，密文出处与验证细节未给出。",
+    "summary_en": "According to 36kr, Claude independently broke a 370-year-old cipher in 44 minutes, a result that left cryptographers rattled. It suggests LLMs can now attack historical ciphers that once required slow, manual expert cryptanalysis. Only the headline is provided here, so the cipher's origin and how the claim was verified aren't available.",
+    "input_hash": "087aa9db42b8"
+  },
+  "36kr-3983904878754567": {
+    "summary_zh": "36kr 这篇报道以《“限高”的太乙，能否救哪吒？》为题，追问受“限高”约束的太乙是否有能力扭转哪吒的处境。标题点出了两个主体和核心疑问，但本次输入未附正文，太乙、哪吒与“限高”具体所指无法确认。",
+    "summary_en": "A 36kr piece titled \"Can a height-capped Taiyi save Nezha?\" asks whether Taiyi, described as height-limited, can turn things around for Nezha. The headline names the two subjects and the question, but not the answer. No article body is included in this input, so what Taiyi, Nezha or the cap actually refer to can't be confirmed.",
+    "input_hash": "b2d1dc831785"
+  },
+  "36kr-3984065369176835": {
+    "summary_zh": "36kr 汇总 14 家车企的半年报发现，这些公司整体净利率只有 1.22%，且业绩分化明显——有人爆赚，有人猛亏。这组数据说明在价格战之下整车企业的盈利空间已被压到极薄，可供关注汽车行业财务与竞争格局的读者参考；原文仅提供标题，未列出具体企业与数字。",
+    "summary_en": "A 36kr roundup of half-year results from 14 automakers puts their combined net margin at just 1.22%, with sharply divergent outcomes: some posted big profits while others lost heavily. The figure suggests carmakers' profitability has been squeezed extremely thin amid price competition. Only the headline is available here; the specific companies and figures aren't listed.",
+    "input_hash": "bfa4005b1863"
+  },
+  "36kr-3984537991239556": {
+    "summary_zh": "据 36kr 报道，智谱与 MiniMax 两家大模型公司都在大幅削减销售开支。原文只给出标题与链接，未提供更多细节，因此具体的削减幅度、涉及团队和原因尚不清楚。",
+    "summary_en": "A 36kr report says Chinese model makers Zhipu and MiniMax have both sharply cut sales spending. The linked page isn't summarized here; details beyond the title aren't available, so the size of the cuts, the teams affected and the reasons are unclear.",
+    "input_hash": "67cc7873f962"
+  },
+  "zhihu-2083123101873844765": {
+    "summary_zh": "这是知乎上的一个提问，围绕 DeepSeek 员工刘胜与所写的《我不得不把才华埋葬在昨天》一文展开讨论。原文是链接，未提供更多细节，所以文章的完整内容和讨论走向无法在此确认。",
+    "summary_en": "This is a Zhihu question about an essay titled \"我不得不把才华埋葬在昨天\" written by Liu Shengyu, who is identified as a DeepSeek employee. The linked page isn't summarized here; details beyond the title aren't available, so the essay's full contents and the discussion around it can't be confirmed.",
+    "input_hash": "7b22370853a9"
+  },
+  "36kr-3983882366581512": {
+    "summary_zh": "这是 36kr 的一篇文章标题，把罗永浩称作所有公关的“试金石”。原文只提供标题与链接，未提供更多细节，因此文章具体讨论了哪些公关事件和案例无法确认。",
+    "summary_en": "A 36kr headline casts Luo Yonghao as a kind of touchstone for public relations professionals. The linked page isn't summarized here; details beyond the title aren't available, so which PR cases or incidents the article actually examines can't be confirmed.",
+    "input_hash": "b0e4705a62bd"
+  },
+  "gh-daily-alphaXiv-OpenResearch": {
+    "summary_zh": "OpenResearch 是 alphaXiv 在 GitHub 上发布的本机优先工作区，能把 Claude Code、Codex、OpenCode、Cursor 这类编码 agent 改造成研究 agent，用来做文献综述、提出假设、跑实验并产出研究产物。它提供 macOS 的 dmg 和 Windows 的 CLI 压缩包下载，适合想让现有 agent 承担科研流程的开发者与研究团队。",
+    "summary_en": "OpenResearch is a local-first workspace from alphaXiv that turns coding agents such as Claude Code, Codex, OpenCode and Cursor into research agents able to review literature, develop hypotheses, run experiments and produce research artifacts. Binaries are offered as a macOS dmg and a Windows CLI zip. It is aimed at developers and research teams that want their existing agents to cover the research workflow.",
+    "input_hash": "c2997dedbc7e"
+  },
+  "36kr-3984107201418884": {
+    "summary_zh": "36kr 这条资讯的标题称，王健林刚“卖掉”HYROX，该项目随即出事。该条目没有附带正文或摘要，除标题外没有更多细节，交易与事件经过都无法确认。",
+    "summary_en": "A 36kr headline states that Wang Jianlin had just \"sold\" HYROX when it ran into trouble. The linked page isn't summarized here; details beyond the title aren't available, so neither the deal nor the incident can be confirmed.",
+    "input_hash": "497060409205"
+  },
+  "zhihu-2038411932424725710": {
+    "summary_zh": "这是知乎上的一个提问：AI 大概还要多久就可以取代程序员？该条目没有正文或回答内容，只能确认问题本身。适合关心 AI 与编程岗位关系、想参与讨论的开发者。",
+    "summary_en": "This Zhihu thread poses a single question: roughly how long until AI can replace programmers? The entry carries no body text or answers, so only the question itself is on record. It's aimed at developers weighing how AI is reshaping programming jobs.",
+    "input_hash": "c2cd64306ddd"
+  },
+  "zhihu-2082847664274497759": {
+    "summary_zh": "知乎提问，讨论该如何理解李博杰开源的《深入理解 AI Agent》。该条目未提供正文，书名之外的内容、章节与技术观点都没出现在素材里，只能确认这本书已开源并有人就此发问。",
+    "summary_en": "A Zhihu question asks how to make sense of 《深入理解 AI Agent》, a book open-sourced by Li Bojie. No body text is included here, so beyond the title nothing about its chapters or technical claims is available. It is for readers tracking Chinese-language material on AI agents.",
+    "input_hash": "2c9a0221fcd6"
+  },
+  "gh-daily-earendil-works-pi": {
+    "summary_zh": "Pi 是 earendil-works 开源的 AI agent 工具集，拆成三个 npm 包：pi-coding-agent 是交互式编码 agent CLI，pi-agent-core 提供带 tool calling 与状态管理的 agent runtime，pi-ai 则统一了 OpenAI、Anthropic、Google 等厂商的 LLM API。项目主打可自扩展的编码 agent，但新贡献者的 issue 和 PR 默认会被自动关闭，由维护者每日复核。",
+    "summary_en": "Pi is an open-source AI agent toolkit from earendil-works, split into three npm packages: pi-coding-agent (an interactive coding-agent CLI), pi-agent-core (a runtime with tool calling and state management), and pi-ai (a unified multi-provider LLM API covering OpenAI, Anthropic, Google and more). New issues and PRs from new contributors are auto-closed by default, with maintainers reviewing them daily.",
+    "input_hash": "471c30631258"
+  },
+  "gh-daily-Homebrew-BrewUI": {
+    "summary_zh": "Homebrew 官方推出 macOS 图形界面客户端 BrewUI，基于 SwiftUI 与 Swift 6.0，要求 macOS Tahoe 26 以上，可用 brew install --cask homebrew-app 安装。它面向不习惯命令行的用户，在图形界面里发现、安装、更新包，并通过 /bin/zsh 与干净环境调用 brew，全程不隐藏底层操作。",
+    "summary_en": "Homebrew has released BrewUI, an official macOS GUI built with SwiftUI and Swift 6.0 that requires macOS Tahoe 26 or later and installs via brew install --cask homebrew-app. Aimed at users who avoid the terminal, it lets them discover, install and update packages graphically while always showing what the underlying brew CLI is doing.",
+    "input_hash": "04bf363aa63a"
+  },
+  "zhihu-2082204780022199310": {
+    "summary_zh": "知乎上有人提问：中国厂商推出改造版 RTX 5090 显卡，售价 2.6 万元，这种定价是否算「良心」。问题原文只有标题，未提供厂商名称、改造的具体内容或性能参数，因此无法判断其改动幅度与实际成本。",
+    "summary_en": "A Zhihu question asks whether a Chinese vendor's modified RTX 5090, priced at 26,000 yuan, counts as a fair deal. The linked page isn't summarized here; details beyond the title — the vendor, what was modified, or performance figures — aren't available.",
+    "input_hash": "f08bf5d9f853"
+  },
+  "zhihu-2040516110559220540": {
+    "summary_zh": "知乎问题讨论如何向别人解释「有你这 AI 写代码的时间，我早就古法编程写完了」这种说法，指向的是 AI 辅助编码在部分场景下反而比手写更慢的抱怨。原文只有标题，未提供具体回答或代码场景，因此只能确认这是围绕 AI 编程效率的争论。",
+    "summary_en": "A Zhihu question asks how to respond to the argument that \"by the time your AI finishes the code, I'd have written it by hand\" — the complaint that AI-assisted coding is slower than manual work in some cases. The linked page isn't summarized here; no answers or concrete examples beyond the title are available.",
+    "input_hash": "fd8511b5ba00"
+  },
+  "zhihu-2083104375505778481": {
+    "summary_zh": "苹果正式推送 iOS 27，本次更新以「液态玻璃」UI 的进一步演进为主打，知乎上有提问讨论它还有哪些亮点以及是否值得升级。问题原文只有标题，未列出具体功能清单或更新说明，因此除 UI 方向外没有更多可确认的细节。",
+    "summary_en": "Apple has begun rolling out iOS 27, an update headlined by a further evolution of its Liquid Glass UI, and a Zhihu thread asks what else stands out and whether it's worth installing. The linked page isn't summarized here; beyond the UI direction, no specific features or changelog details are available.",
+    "input_hash": "e19e84fa9e5b"
+  },
+  "zhihu-2015730174461747883": {
+    "summary_zh": "这条知乎提问关注短剧行业的抄袭问题：AI 几分钟就能产出一部剧，而月薪几千的原创编剧正面临被替代的压力。原文只提供了问题链接，未给出更多细节，但它触及生成式 AI 对内容行业底层创作者收入与版权保护的现实冲击。",
+    "summary_en": "A Zhihu question about plagiarism in the short-drama industry, where AI can turn out a full show in minutes while original screenwriters earning a few thousand yuan a month face being squeezed out. The linked page isn't summarized here; details beyond the title aren't available, though the question itself points at how generative AI pressures pay and copyright for rank-and-file creators.",
+    "input_hash": "54a8cfee3108"
+  },
+  "juejin-7684460980934049807": {
+    "summary_zh": "一位 Codex 老用户记录了自己切换到腾讯智能体编程工具 WorkBuddy 一周的真实体验，包括过程中踩到的坑和省下的钱，并强调既非恰饭也不踩一捧一。对于正在纠结 AI 编程工具选型、关心迁移成本与实际开销的开发者，这类一线对比比官方宣传更有参考价值。",
+    "summary_en": "A long-time Codex user documents a week of switching to WorkBuddy, Tencent's agentic coding tool, covering the pitfalls hit along the way and the money saved. The write-up is explicitly not sponsored and avoids trashing either tool, which makes it worth reading for developers weighing a migration and wondering what it really costs.",
+    "input_hash": "65bf66a0e361"
   }
 }
