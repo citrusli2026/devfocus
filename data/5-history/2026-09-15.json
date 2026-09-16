@@ -212,7 +212,9 @@
       "tags": [],
       "first_seen": "2026-09-15",
       "domain": "typesafe.ai",
-      "quality_score": 40.4
+      "quality_score": 40.4,
+      "summary_zh": "Hacker News 上出现了一条题为《Introducing System One Models and Jev》的帖子，原文是链接，未提供更多细节，因此无法确认 System One Models 和 Jev 具体指什么。需要了解内容的读者只能点进原始链接自行判断。",
+      "summary_en": "A Hacker News submission titled “Introducing System One Models and Jev” links to an external page; the linked page isn't summarized here, so details beyond the title aren't available. Anyone curious about what System One Models and Jev actually refer to will have to open the original source."
     },
     {
       "id": "hn-49695876",
@@ -388,7 +390,9 @@
       "tags": [],
       "first_seen": "2026-09-15",
       "domain": "effort.news",
-      "quality_score": 37.7
+      "quality_score": 37.7,
+      "summary_zh": "这条 Hacker News 帖子称，OpenAI、Anthropic 和 Meta 相关黑客事件背后是同一家公司；提交说明指其为以色列 Effective Altruist 机构 Irregular，称其让缺乏安全防护的 AI 模型去攻击真实目标。除此之外，帖子没有给出报道来源或更多细节。",
+      "summary_en": "A Hacker News submission claims a single company is behind the hacking scandals tied to OpenAI, Anthropic and Meta. The submitted blurb identifies it as Irregular, described as an Israeli Effective Altruist firm, and says it caused unsecured AI models to hack real targets. No sources or further details are given."
     },
     {
       "id": "hn-49638510",
@@ -532,7 +536,9 @@
       "tags": [],
       "first_seen": "2026-09-15",
       "domain": "blog.archive.org",
-      "quality_score": 36.8
+      "quality_score": 36.8,
+      "summary_zh": "Internet Archive 的 Mark Graham 发文说明 Wayback Machine 的访问状况：服务遭遇大量自动化流量冲击，团队已加装防护，并重写了 429（请求过多）错误提示。官方承认这些防护会误伤真实用户，被误封者可邮件 info@archive.org，并附上操作系统、浏览器和 IP 地址。",
+      "summary_en": "Mark Graham of the Internet Archive explains the recent Wayback Machine access problems: waves of high-volume automated traffic, which prompted new protections and a rewritten 429 \"too many requests\" message. The post concedes that real users sometimes get blocked by mistake, and asks anyone wrongly blocked to email info@archive.org with their operating system, browser and IP address."
     },
     {
       "id": "hn-49704246",
@@ -4977,7 +4983,9 @@
       "tags": [],
       "first_seen": "2026-09-15",
       "domain": "infoq.cn",
-      "quality_score": 34.5
+      "quality_score": 34.5,
+      "summary_zh": "InfoQ 精选：缓存不该困在一台服务器里",
+      "summary_en": "Featured on InfoQ: 缓存不该困在一台服务器里"
     },
     {
       "id": "infoq-jGTsO1DrV87muOqyDPGS",
@@ -4993,7 +5001,9 @@
       "tags": [],
       "first_seen": "2026-09-15",
       "domain": "infoq.cn",
-      "quality_score": 36.1
+      "quality_score": 36.1,
+      "summary_zh": "在 KubeCon China 2026 上，InfoQ 与 OpenInfra 基金会总经理 Thierry Carrez、CNCF 执行总监 Jonathan Bryce 讨论了 AI Agent 对云基础设施的冲击：Kubernetes 已通过 DRA（动态资源分配）让 GPU 等加速器更灵活接入集群，CNCF 也推出 Kubernetes AI Conformance 统一兼容规则。文章追问的是，当决定申请资源、调用工具的主体从人变成 Agent，为人设计的云原生控制面还能不能继续用。",
+      "summary_en": "At KubeCon China 2026, InfoQ spoke with OpenInfra general manager Thierry Carrez and CNCF executive director Jonathan Bryce about how AI agents are shaking up cloud infrastructure assumptions. Kubernetes is using DRA (Dynamic Resource Allocation) to plug GPUs and accelerators into clusters more flexibly, while CNCF launched Kubernetes AI Conformance to agree on compatibility rules. The open question: once agents decide when to request resources and call tools, can control planes designed for humans still work?"
     },
     {
       "id": "infoq-aCRVupdyEAHtENIiIDwq",
@@ -5009,7 +5019,9 @@
       "tags": [],
       "first_seen": "2026-09-15",
       "domain": "infoq.cn",
-      "quality_score": 37.7
+      "quality_score": 37.7,
+      "summary_zh": "9 月 15 日飞书发布 8.0，并宣布与办公智能体豆包工作原生融合：Agent 可以像成员一样被拉进群聊，写文档、操作多维表格、排日程、发起审批，CLI 开放的功能点从 3 月的 247 个增至 767 个。Agent 沿用员工本人的访问权限，管理员可设用量上限并限制高消耗模型；同期推出的豆包工作伙伴仍处于与企业定向共创阶段，尚未全面开放。",
+      "summary_en": "Feishu (Lark) released version 8.0 on September 15 alongside native integration with Doubao Work, an enterprise agent that shares the same account system and can read work context within a user's permissions. Agents can now be pulled into group chats like members and handle docs, Base tables, calendars, meetings and approvals, while CLI-exposed capabilities grew from 247 in March to 767. Agents inherit the employee's access rights and admins can cap usage and restrict costly models; Doubao Work Partner is still limited to co-creation with select enterprises."
     },
     {
       "id": "infoq-at1UIEMQbHewc34wvFQ8",
@@ -5025,7 +5037,9 @@
       "tags": [],
       "first_seen": "2026-09-15",
       "domain": "infoq.cn",
-      "quality_score": 36.7
+      "quality_score": 36.7,
+      "summary_zh": "蚂蚁集团支付宝 AI 端云交互负责人魏凤笛在 AICon 2026 深圳站分享了支撑“阿宝”的 xUI 技术体系，覆盖全双工多模态通信、生成式渲染交互、服务执行与多 Agent 协同四个方向。内容梳理了移动端 Agent 从聊天问答走向办事的演进与工程选型，适合做端侧 AI 交互架构的团队参考。",
+      "summary_en": "At AICon 2026 Shenzhen, Ant Group's Alipay AI interaction lead Wei Fengdi detailed xUI, the terminal-side engine behind the “Abao” AI entry point, spanning full-duplex multimodal communication, generative rendering, service execution, and multi-agent coordination. It traces how mobile agents move from chat to completing real transactions, useful for teams designing on-device AI interaction stacks."
     },
     {
       "id": "infoq-ifpS7rhLq24FjWYM6IqW",
@@ -5041,7 +5055,9 @@
       "tags": [],
       "first_seen": "2026-09-15",
       "domain": "infoq.cn",
-      "quality_score": 37.1
+      "quality_score": 37.1,
+      "summary_zh": "腾讯高级后台开发工程师任磊达在 AICon 2026 深圳站分享了 QQ 飞车 Agentic 研发转型中的 Loop Engineering 实践，基于每月约三百亿 token 的使用经验，提出从 hook 级循环、CI 级循环到工作流结构化拆分与团队 graph engineering 的方法。核心是把 agent 循环沉淀为可复用的工程能力。",
+      "summary_en": "Tencent senior backend engineer Ren Leida shared how QQ Speed's agentic development shift applies Loop Engineering, drawing on roughly 30 billion tokens consumed per month. He lays out a progression from hook-level and CI-level loops to structured workflow decomposition and team-wide graph engineering, aimed at turning agent loops into reusable engineering capability."
     },
     {
       "id": "infoq-IfxYoy1PPkFQUpjWVBVr",
@@ -5075,7 +5091,9 @@
       "tags": [],
       "first_seen": "2026-09-15",
       "domain": "infoq.cn",
-      "quality_score": 35.3
+      "quality_score": 35.3,
+      "summary_zh": "京东在原有 APP 内上线了名为“东东”的购物助手，以 Agent 形态提供服务，而非一个独立的购物产品。该条未提供正文，具体能力与开放范围无法确认。",
+      "summary_en": "JD.com has launched a shopping assistant called \"Dongdong\" inside its existing app, built as an agent rather than a standalone product. Details beyond the title aren't available in this item."
     },
     {
       "id": "infoq-QtIy65SxjN0Q4riY7tCo",
