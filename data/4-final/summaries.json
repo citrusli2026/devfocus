@@ -4846,9 +4846,9 @@
     "summary_en": "Grok Build, a build tool developed by xAI, has been open-sourced, making it freely available for use and modification. Previously used internally, it now promises to help developers streamline build processes with greater customization. The move towards transparency and community collaboration could benefit DevOps teams and infrastructure engineers looking for flexible, efficient alternatives in the build tool landscape."
   },
   "juejin-7660712622825144374": {
-    "summary_zh": "文章介绍 2026 年编程圈流行的 10 个 Skills——AI 编程助手的'技能包'，即让 AI 按流程交付而非随意写代码的标准化工作流模块。desc 在'今天这篇文'处截断，10 个技能的具体名称和实现未出现在素材中。",
-    "summary_en": "This article introduces ten Skills popular in the programming community in 2026—not developer abilities, but 'skill packs' for AI coding assistants: standardized workflow modules that make AI deliver by process instead of writing code randomly. The source fragment cuts off after the introduction, so the names and details of the ten skills aren't included.",
-    "input_hash": "39a792f5cff6"
+    "summary_zh": "这篇文章盘点了 10 个 AI 编程助手「技能包」Skills，它们基于 Anthropic 2025 年 10 月推出的 Agent Skills 标准：把操作流程写成 SKILL.md 放进 ~/.claude/skills/，AI 需要时自动加载。截至 2026 年 7 月 GitHub 上已有 1400+ 个 Claude Code Skills，但作者引用的测试显示 100 个社区 Skill 里 70% 不合格，所以这份筛选清单更值得一看。",
+    "summary_en": "This post rounds up ten \"Skills\" for AI coding assistants, built on Anthropic's Agent Skills standard from October 2025, where a workflow is written as a SKILL.md file that drops into ~/.claude/skills/ and loads automatically. As of July 2026 GitHub hosts more than 1,400 Claude Code Skills, but a test the author cites found 70% of 100 community Skills failing, which makes this filtered list the useful part.",
+    "input_hash": "b7c678e66f4e"
   },
   "juejin-7662691781214470180": {
     "summary_zh": "一位掘金作者停更一年后回归，分享了这段时间的密集经历：全力投入 AI 领域、陪伴妻子生娃、还抽空考了个研。文章以第一人称讲述了如何平衡工作、家庭与个人提升，展现了技术人在生活重大节点上的真实抉择。对面临类似境遇的读者来说，这是一个关于如何在巨大压力下仍坚持成长的真实故事。",
@@ -12231,9 +12231,9 @@
     "input_hash": "45445f53bab0"
   },
   "v2ex-20a7f8efe445": {
-    "summary_zh": "V2EX 热议：[分享创造] 受够了视频没听清就反复拖进度条，只考虑音频错别字多，写了个\"会看画面\"的视频转笔记工具",
-    "summary_en": "Hot on V2EX: [分享创造] 受够了视频没听清就反复拖进度条，只考虑音频错别字多，写了个\"会看画面\"的视频转笔记工具",
-    "input_hash": "fd7d6261e552"
+    "summary_zh": "V2EX 用户分享了一个自制的视频转笔记工具，它会把画面内容一并纳入处理，而不是只做音频转写，起因是作者嫌音频识别错别字太多、听不清还得反复拖进度条。该帖只提供了标题，原文是链接、未附正文细节，因此具体实现方式与是否开源无从确认，做会议记录或课程笔记的开发者可以自行去原帖了解。",
+    "summary_en": "A V2EX user shared a self-built video-to-notes tool that takes the on-screen visuals into account rather than relying on audio transcription alone, motivated by misheard speech, frequent typos and having to scrub back through a video. The original post is just a link with no body text, so the linked page isn't summarized here and details beyond the title, such as how it works or whether it is open source, aren't available.",
+    "input_hash": "8fdf85aa4c2c"
   },
   "infoq-IROW9KWVs4zSCByU8wQE": {
     "summary_zh": "InfoQ 精选：大模型和硬件之间，长出了一层新生意",
@@ -16791,9 +16791,9 @@
     "input_hash": "9120ac97dbcc"
   },
   "hn-49716176": {
-    "summary_zh": "Internet Archive 的 Mark Graham 发文说明 Wayback Machine 的访问状况：服务遭遇大量自动化流量冲击，团队已加装防护，并重写了 429（请求过多）错误提示。官方承认这些防护会误伤真实用户，被误封者可邮件 info@archive.org，并附上操作系统、浏览器和 IP 地址。",
-    "summary_en": "Mark Graham of the Internet Archive explains the recent Wayback Machine access problems: waves of high-volume automated traffic, which prompted new protections and a rewritten 429 \"too many requests\" message. The post concedes that real users sometimes get blocked by mistake, and asks anyone wrongly blocked to email info@archive.org with their operating system, browser and IP address.",
-    "input_hash": "cab4d64dd27c"
+    "summary_zh": "Internet Archive 的 Mark Graham 在 9 月 15 日的博客里回应 Wayback Machine 近期频繁报错：大量自动化流量迫使站点加装防护，并把 429「too many requests」的拦截提示重写，而这些防护有时会误伤真人用户。被误拦的人可以发邮件到 info@archive.org，附上操作系统、浏览器和 IP 地址供团队排查。",
+    "summary_en": "In a September 15 blog post, the Internet Archive's Mark Graham explains the recent Wayback Machine failures: waves of high-volume automated traffic forced new protections, and the 429 \"too many requests\" block message was rewritten. Those protections sometimes catch real users by mistake, so anyone wrongly blocked can email info@archive.org with their OS, browser and IP address.",
+    "input_hash": "ecc23a4c30dd"
   },
   "zhihu-2083597869206823687": {
     "summary_zh": "知乎上出现一个法律向讨论：儿子用豆包为母亲挑选下葬的黄道吉日，葬礼后一名亲戚遭遇车祸重伤，家属因此决定起诉豆包。提问从法律角度追问责任如何划分，但原文只是提问，没有案情细节或司法回应。",
@@ -16854,5 +16854,230 @@
     "summary_zh": "V2EX 上有用户发帖询问，在 macOS 27 上是否也有人遇到 appstoreagent 进程占用高 CPU 的情况。帖子只有标题，原文是链接，未提供机型、系统构建号或复现步骤等更多细节，看起来是在确认该问题是否普遍。",
     "summary_en": "A V2EX user asks whether anyone else running macOS 27 is seeing high CPU usage from the appstoreagent process. The linked page isn't summarized here; details beyond the title, such as hardware, build numbers or repro steps, aren't available, so it reads as an attempt to check how widespread the issue is.",
     "input_hash": "90db35d8294c"
+  },
+  "v2ex-2684eeabd3ab": {
+    "summary_zh": "V2EX 热议：[分享发现] 编程任务中，模型的上下文窗口开多大最合适?",
+    "summary_en": "Hot on V2EX: [分享发现] 编程任务中，模型的上下文窗口开多大最合适?",
+    "input_hash": "7a45eadc3079"
+  },
+  "zhihu-2084022859974665628": {
+    "summary_zh": "知乎上热议 HYROX 北京赛场的失禁选手公开道歉，并决定追溯性退出该场比赛、放弃此前获得的积分。讨论集中在赛事追溯处罚的边界，以及运动员在舆论压力下公开致歉的合理性。原帖为提问，未提供更多细节。",
+    "summary_en": "A HYROX athlete who soiled themselves during the Beijing race has apologized, decided to retroactively withdraw from that event and give up the points earned there, according to a Zhihu question discussing the case. The thread centers on how far retroactive penalties should go and on the public pressure behind the apology; the linked page isn't summarized here, so details beyond the title aren't available.",
+    "input_hash": "d9d8d98218b8"
+  },
+  "36kr-3986702306294536": {
+    "summary_zh": "36氪报道称，Claude 正被打造成唯一入口，配套的超级「办公全家桶」直接对标微软。这被解读为 Claude 想串起办公场景的各类能力，与微软的办公生态正面竞争。该条目只有标题，未附正文，具体产品形态与功能尚不清楚。",
+    "summary_en": "36Kr reports that Claude is being positioned as a single entry point, with a bundled 'office suite' aimed squarely at Microsoft. The takeaway is that Claude is being pushed to tie together office-style workflows and compete with Microsoft's office ecosystem. Only the headline is available, so the exact product form and features aren't clear.",
+    "input_hash": "62c51580a406"
+  },
+  "infoq-8leHq71KkbQfo930ptvc": {
+    "summary_zh": "阿里云 9 月 16 日发布 Qoder Cloud Agents 1.0，这是以 Agent as a Service 为核心的企业级云端 Agent 托管平台，已服务超百家大型企业，月调用达千万级。文中引用 LangChain 对 1340 名从业者的调查，称 89% 的组织为 Agent 配了可观测能力，说明调度、监控与故障恢复在生产环境里已成硬需求。",
+    "summary_en": "Alibaba Cloud released Qoder Cloud Agents 1.0 on September 16, an enterprise platform built around 'Agent as a Service' that turns scheduling, recovery, observability and scaling into cloud services; it already serves over 100 large enterprises with tens of millions of monthly calls. The piece cites a LangChain survey of 1,340 practitioners in which 89% of organizations had added observability to their agents, and frames managed agent offerings from OpenAI, Google Cloud and Anthropic as converging on the same need.",
+    "input_hash": "9b1e88927d34"
+  },
+  "v2ex-06ee809a8112": {
+    "summary_zh": "V2EX 上有用户提问：同一个 Claude 账号，第一个月用张山的信用卡充值，第二个月换成李四的借记卡，这样是否可行。问题关注的是不同持卡人、不同卡种为同一账号付款会不会触发风控或封号。原帖只有提问，没有给出答案或实测结果。",
+    "summary_en": "A V2EX user asks whether the same Claude account can be topped up with different payment cards — one person's credit card in the first month, another person's debit card in the second. The concern is whether mixing cardholders and card types on a single account triggers fraud checks or a ban. The post only poses the question; no answers or test results are included.",
+    "input_hash": "32ec6f5ffcc3"
+  },
+  "36kr-3986735004892164": {
+    "summary_zh": "36氪「8点1氪」汇总了三条消息：美联储时隔三年多宣布加息 25 个基点；钟薛高降价重启，售价 6.9 元起；韩国「尸皮针」相关公司已在中国成立并运营 6 年。该条目只提供标题式摘要，未附正文，具体背景和细节无法确认。",
+    "summary_en": "36Kr's '8点1氪' roundup covers three items: the Federal Reserve raising rates by 25 basis points after more than three years, the ice cream brand Zhongxuegao relaunching at lower prices starting from 6.9 yuan, and a Korean 'corpse-skin needle' business that has operated in China for six years. Only the headline digest is available, so the background and details can't be confirmed.",
+    "input_hash": "98656efaf63d"
+  },
+  "v2ex-cca099d02359": {
+    "summary_zh": "V2EX 网友贴出一段对话记录：AI 助手 Fable 报告布局修复已上线，另一个助手 Astra 立刻指出手机端 tab 键导航和 VoiceOver 的顺序问题，用户拍板后开工。亮点是两个模型能看到彼此的工作成果并互相补充、质疑，展示了多智能体协作修 bug 的实际样子。",
+    "summary_en": "A V2EX user shared a session in which two AI assistants, Fable and Astra, work on the same codebase: Fable reports a layout fix shipped, Astra flags a mobile tab-key navigation issue, notes iPhone supports external keyboards and that VoiceOver hits the same ordering problem, and the human decides to fix it. It is a concrete look at two models seeing each other's output and debating a bug, useful for anyone tracking multi-agent coding workflows.",
+    "input_hash": "3e827ea9f94e"
+  },
+  "infoq-joXcPA6XF1QWgik9OALj": {
+    "summary_zh": "Vibe Key 是优篮子 Ulanzi 与腾讯 WorkBuddy 联合推出的 AI 键盘麦：一个麦克风、三颗按键加一颗旋钮，售价 269 至 299 元，按下即可唤起 WorkBuddy 口述需求。InfoQ 实测用它生成中秋海报，并测试了嘈杂环境下的语音转写稳定性。",
+    "summary_en": "Vibe Key, launched by Ulanzi and Tencent WorkBuddy, is a 269-299 yuan hardware mic with one microphone, three buttons and a knob; press it to wake WorkBuddy and dictate a task instead of typing prompts. InfoQ's hands-on review used it to generate a Mid-Autumn Festival poster and tested transcription in noisy environments, aimed at people who want a faster way to direct AI.",
+    "input_hash": "6528b1e790bc"
+  },
+  "v2ex-bc3e250f3642": {
+    "summary_zh": "此前分享的 YouTube 转文章小工具做了三项优化：新增 ASR 解析音频，解决无字幕视频无法处理的问题；分片处理音频并实时显示进度，缓解解析慢；支持多语言输出，不再只生成中文文章。作者在 V2EX 邀请新老用户再体验。",
+    "summary_en": "The author updated a small tool that turns YouTube videos into readable articles, fixing three issues users raised: it now uses ASR to handle videos without subtitles, processes audio in chunks with live progress display to speed things up, and supports multiple output languages instead of Chinese only. The post invites both new and returning users to try it again.",
+    "input_hash": "6046bbbeaed7"
+  },
+  "infoq-5PVJPjNlo2g1XKl90u1F": {
+    "summary_zh": "InfoQ 报道亚马逊 CTO Werner Vogels 即将来华。他在 2025 年 12 月 re:Invent 的第 14 场也是最后一场 Keynote 上没有发布任何新产品，而是提出“文艺复兴开发者”框架，列出全链路所有权、系统思维、极度好奇心、有意识使用 AI 和讲故事五种素质。",
+    "summary_en": "InfoQ reports that Amazon CTO Werner Vogels is coming to China. In his 14th and final re:Invent keynote in December 2025 he released no new products, instead proposing a \"renaissance developer\" framework with five traits: end-to-end ownership, systems thinking, extreme curiosity, deliberate AI use and storytelling. The piece notes he remains Amazon's VP and CTO as of September 2026 and still writes monthly on All Things Distributed.",
+    "input_hash": "c2bb7a36e8b1"
+  },
+  "v2ex-97c89b9ce104": {
+    "summary_zh": "有卖家在 V2EX 推广通过 Jio 渠道开通的 Google One Pro 18 个月订阅，标价 0.84 美元一年，支持一件起购，下单走 Telegram bot google_one_ka_bot 或发卡站 ktno.cc，量大批发可直接联系。适合想低价续 Google One 存储的人，但渠道来源和账号风险需要自行判断。",
+    "summary_en": "A V2EX seller is promoting Google One Pro 18-month subscriptions activated through the Jio channel at $0.84, with single-unit orders handled via a Telegram bot or the ktno.cc shop and bulk pricing available on request. It targets people who want cheap Google One storage, though buyers have to judge the account and channel risks themselves.",
+    "input_hash": "f931f8781a33"
+  },
+  "v2ex-996571fb1448": {
+    "summary_zh": "有开发者在 V2EX 反映语音输入工具 typeless 把每周额度降到 2k 词，一年 139 美元的会员开不起，因此在找平替。他认可 typeless 的语音输入体验，但认为成本大头被 LLM 厂商拿走，长期订阅不划算。",
+    "summary_en": "A developer says typeless, a voice-input tool they rate highly, has cut its weekly quota to 2k words while the annual membership costs $139, so they are asking V2EX for cheaper alternatives. Their complaint is that most of the cost goes to LLM providers, making the subscription hard to justify.",
+    "input_hash": "4b13cd89de9a"
+  },
+  "v2ex-4c4843f4c143": {
+    "summary_zh": "czlmail 是一个用 Claude 辅助开发、基于 Wails 的开源 JMAP 邮件客户端，可配合 Stalwart 服务器使用。功能参照 Bulwark，覆盖邮件、日历、通讯录和 WebDAV 文件，另加了 WebDAV 模板同步、系统级通知，并接入 AI 与 MCP，以 AGPL-3.0 开源，作者注明 mac 端尚未测试。",
+    "summary_en": "czlmail is an open-source JMAP email client built with Wails and written with help from Claude, designed to work with Stalwart. Its basics follow Bulwark: mail, calendar, contacts and WebDAV files, plus extras such as WebDAV template sync, system notifications, AI integration and MCP support. It ships under AGPL-3.0 and the macOS build is still untested.",
+    "input_hash": "b02b1be511ce"
+  },
+  "v2ex-11825cfdd179": {
+    "summary_zh": "有用户在 V2EX 反映 ChatGPT 头一次出现丢对话：两个内容普通、轮次不多的英文翻译对话在历史记录里还看得到，点进去却提示无权访问。他真正在意的是重要对话一旦打不开会很着急，而且 AI 对话不像网盘文件那样方便备份，即使导出到本地也可能损失上下文。",
+    "summary_en": "A V2EX user reports ChatGPT losing two of their conversations for the first time: both plain English-translation chats still appear in history, but opening them returns a no-access error. The real worry is that an important chat could become unopenable, since AI conversations are harder to back up than cloud files and even a local export would lose context.",
+    "input_hash": "928a40c77627"
+  },
+  "v2ex-5947ac7542cd": {
+    "summary_zh": "V2EX 用户分享了一款自制的文字推演游戏《以日为鉴：失落三十年》，玩家从 1989 年泡沫顶点开始做选择，作者称最高可以拿到 60 分。帖子本身只交代了这一条分数上限，玩法、平台和下载方式都没有更多说明，想知道具体内容需要直接点进原帖。",
+    "summary_en": "A V2EX user has released a self-made text-based deduction game, 《以日为鉴：失落三十年》, in which players make choices starting from the peak of the 1989 bubble; the author says the maximum score is 60 points. The post itself offers nothing beyond that score cap — the linked page isn't summarized here, so gameplay, platform and how to get the game aren't available.",
+    "input_hash": "cde363d552d0"
+  },
+  "36kr-3986041611942916": {
+    "summary_zh": "36Kr 发布了 iPhone 18 Pro 与一款名为 Duo 的机型的首发评测，标题称这一代提升最大的是「充电」以及另一项被省略号略去的功能。文章正文未在此提供，充电以外的改进是什么、具体参数如何，都无法从现有信息确认。",
+    "summary_en": "36Kr has published a first-look review of the iPhone 18 Pro and a model it calls the Duo, with the headline claiming the biggest gains this generation are in charging plus one other feature left unnamed. Only the headline is available here and the linked page isn't summarized, so the second improvement and any specs can't be confirmed.",
+    "input_hash": "3a268211d0b2"
+  },
+  "infoq-bj4Q9E2PBJfUWIRZkutu": {
+    "summary_zh": "InfoQ 这篇文章讨论 AIGC 在专业内容生产中的工程化难题，也就是如何从概率性的模型生成走到可稳定交付的产品级输出。标题之外没有附带摘要或正文，具体方案、案例与结论都无法从现有信息判断。",
+    "summary_en": "An InfoQ article looks at the engineering challenges of applying AIGC to professional content production — specifically how to get from probabilistic generation to output that can be delivered reliably. No abstract or body text accompanies it here and the linked page isn't summarized, so the proposed approaches and conclusions can't be assessed.",
+    "input_hash": "a425a77e25cf"
+  },
+  "infoq-ZFk50FZmqsgY7uShA2Gw": {
+    "summary_zh": "LinkedIn 公开了 AI 职位搜索背后的训练基础设施：一条多教师蒸馏流水线，把 80 亿与 17 亿参数的教师模型压缩进一个 6 亿参数的排序模型，NDCG@10 由 0.7583 升至 0.9432。为加快迭代，团队基于 SGLang 让教师模型直接在训练循环中提供服务，并叠加离线缓存、FSDP2 与 H200 集群等优化，训练整体提速约 8 倍，系统已在美国区自然语言职位搜索投产。",
+    "summary_en": "LinkedIn has detailed the training infrastructure behind its AI-driven job search: a multi-teacher distillation pipeline that compresses an 8B relevance teacher and a 1.7B engagement teacher into a 600M-parameter ranking model, lifting NDCG@10 from 0.7583 to 0.9432. To keep iteration fast, the team serves the teachers inside the training loop via SGLang and adds an offline mode that precomputes teacher outputs, plus FSDP2 and H200 clusters for roughly 8x faster training overall. It is in production for US natural-language job search.",
+    "input_hash": "ac18d355f66c"
+  },
+  "ph-1247729": {
+    "summary_zh": "Weave Router 2.0 是 Product Hunt 上新上线的一个面向 coding agent 的路由工具，官方只有一句描述「感知订阅状态的 coding agent 路由器」，大致指按订阅情况调度编码 agent 的请求。页面没有给出支持的模型、功能或定价等更多信息，需要点进原链接查看。",
+    "summary_en": "Weave Router 2.0 is a new Product Hunt listing for a routing tool aimed at coding agents, tagged in a single line as a 'subscription aware coding agent router' — suggesting it dispatches requests based on which subscriptions you hold. The listing gives no further detail on supported models, features or pricing, so specifics require the linked page.",
+    "input_hash": "c685a2d33821"
+  },
+  "infoq-CbZGXuTBMFJPZ7WNtH9h": {
+    "summary_zh": "上海交大副教授杜冬冬将在 QCon 上海站分享 RhymeRL。LLM 强化学习中 Rollout 占用大量耗时，长尾会让最早完成的 GPU 约 76% 时间空闲；团队发现相邻 epoch 有大量 token 可匹配，于是结合历史推测解码与长度调度，并引入离线后缀树、奖励感知选枝等机制，相比现有系统取得 2.6 倍性能提升。适合做强化学习训练与推理系统优化的工程师。",
+    "summary_en": "At QCon Shanghai, Shanghai Jiao Tong University associate professor Du Dongdong will present RhymeRL, built for LLM reinforcement learning where rollout dominates runtime and long tails leave the earliest-finished GPU idle roughly 76% of the time. Exploiting matchable tokens across adjacent epochs, it pairs historical speculative decoding with length scheduling plus offline suffix trees and reward-aware branch selection, reporting a 2.6x speedup over existing systems. It targets engineers optimizing RL training and inference infrastructure.",
+    "input_hash": "31820f60c125"
+  },
+  "infoq-hbZAEa6iQbq5rcUWbUi4": {
+    "summary_zh": "9 月 16 日深圳的 vivo 开发者大会上，vivo 发布原系统 7 与蓝河操作系统 4，并预览把 Agent 做进系统底层的 AgentOS。核心是蓝心 Harness，可把 6000 多项原子技能转成 Agent 可调用的工具、支持超万种任务，搭配端侧 BlueLM-Nano 与语音模型 BlueLM-RealTime，蓝心小 V Pro 已能自主拆解并跨应用执行任务。关注端侧 Agent 架构的开发者可以留意。",
+    "summary_en": "At its September 16 developer conference in Shenzhen, vivo unveiled OriginOS 7 and Blue River OS 4 and previewed AgentOS, which pushes agents into the OS layer. Its BlueLM Harness turns more than 6,000 atomic skills into agent-callable tools covering over 10,000 tasks, paired with on-device BlueLM-Nano and the BlueLM-RealTime speech model; BlueLM Xiaowei V Pro can now break down and run cross-app tasks. Relevant to developers building on-device agents.",
+    "input_hash": "53cf9ec34550"
+  },
+  "infoq-W9wJHIvu52BTYVHZZim3": {
+    "summary_zh": "Terraform AWS Provider 于 2026 年 8 月发布 v6.62.0，新增列表资源以及 Amazon DSQL、ECS、ECR、SES、Pinpoint 相关资源，并增强 Bedrock AgentCore、CloudFront、ElastiCache 等。文章指出随着亚马逊云科技服务快速膨胀，该 Provider 已日益成为连接云 API 与 IaC 实践的抽象层，并提醒团队像管理应用依赖一样锁定版本、测试升级，因为 v6.57.0 曾被撤回。",
+    "summary_en": "Terraform AWS Provider shipped v6.62.0 in August 2026, adding list resources plus resources for Amazon DSQL, ECS, ECR, SES and Pinpoint, and enhancing Bedrock AgentCore, CloudFront, ElastiCache and others. The article argues that as AWS's service catalog balloons, the provider is shifting from provisioning EC2 and S3 into an abstraction layer linking AWS APIs to infrastructure-as-code practice, and warns teams to pin, test and stage upgrades after v6.57.0 was retracted.",
+    "input_hash": "bb4167121ad7"
+  },
+  "infoq-paoGkkFVHV3gbhG3GEdC": {
+    "summary_zh": "阶跃 9 月 15 日发布 StepAudio 3 系列，一次推出 Realtime、ASR、TTS、Gen、Music 五款模型，覆盖实时语音交互、语音识别、真人级语音生成与音乐创作。Realtime 支持原生全双工对话，在 Artificial Analysis 的 Conversational Dynamics 和 Speech Reasoning 榜单均列全球第一，ASR 词错误率为 1.7%、并列第一。关注语音全栈能力的团队可以看看。",
+    "summary_en": "阶跃 launched the StepAudio 3 family on September 15 with five models — Realtime, ASR, TTS, Gen and Music — spanning live voice interaction, speech recognition, lifelike speech generation and music creation. Realtime does native full-duplex dialogue and tops Artificial Analysis's Conversational Dynamics and Speech Reasoning leaderboards with a 98.9% score, while ASR reaches a 1.7% word error rate, tied for first. Aimed at teams building full-stack voice products.",
+    "input_hash": "6bb2ebee5d28"
+  },
+  "infoq-HWTj56QXAtdSar5YGp32": {
+    "summary_zh": "谷歌发布 Gemini 3.8 Live 与 Gemini 3.8 Live Extended Thinking 两款实时对话模型，已通过 Gemini API 和 Google AI Studio 开放。前者主打低延迟与规模化部署，后者增加后台思考：可异步调用工具、先用语音回应\"我来查一下\"再报告进度，开发者需依据 Live API 返回的 IN_PROGRESS 与 IDLE 状态判断任务是否真正结束；两款模型还支持视觉输入。",
+    "summary_en": "Google released Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking, two real-time conversational models now available through the Gemini API and Google AI Studio. The former targets low latency and scale, while Extended Thinking adds background reasoning: it can call tools asynchronously, say \"let me check that\" first and then report progress, so developers must read the Live API's IN_PROGRESS and IDLE states to know when a turn truly ends. Both also accept visual input.",
+    "input_hash": "c4118e582eec"
+  },
+  "36kr-3986916839429766": {
+    "summary_zh": "36kr 的这条资讯给出一个数字：全球芯片销售额单月增长 6.4%，并认为 AI 景气正在向 5 个具体环节扩散。原文没有附带正文或摘要，这 5 个环节分别指什么、涉及哪些公司，从现有信息无法确认。",
+    "summary_en": "A 36kr report notes that global chip sales rose 6.4% in a single month, framing AI demand as spreading into five parts of the supply chain. The linked page isn't summarized here; which five segments those are, and which companies are involved, can't be confirmed from the available material.",
+    "input_hash": "b6e43141d761"
+  },
+  "hn-49724881": {
+    "summary_zh": "NVIDIA 宣布将推进 Rust 原生 GPU 编程，同时表示 CUDA C++ 与 CUDA Python 已经是成熟的企业级工具链。现有素材只有正文开头一段，Rust 支持的具体范围、发布时间和 API 形态均未提及。",
+    "summary_en": "NVIDIA says it is leaning into native GPU programming in Rust, while noting that CUDA C++ and CUDA Python are already mature, enterprise-grade toolchains. Only the opening paragraph of the piece is available here, so the scope of the Rust effort, its timeline and its API surface aren't described.",
+    "input_hash": "a86a4f8cd886"
+  },
+  "36kr-3986712042322947": {
+    "summary_zh": "36kr 的消息称，腾讯悄悄开源了一个叫 WorkBuddy 的项目。除了名称和开源这件事本身，原文没有提供正文或说明，它具体做什么、仓库在哪里、采用什么许可证都无从确认。",
+    "summary_en": "A 36kr item reports that Tencent quietly open-sourced something called WorkBuddy. Beyond the name and the fact that it is open source, the linked page isn't summarized here; what the project does, where its repository lives and under what license it ships aren't available.",
+    "input_hash": "1cae15d530e3"
+  },
+  "gh-daily-Tencent-BrowserSkill": {
+    "summary_zh": "BrowserSkill 是腾讯开源的工具，由 bsk CLI 加浏览器扩展组成，让 Cursor、Claude Code、Codex 等能调用 shell 的 AI Agent 借用你已登录的真实浏览器标签页，任务在单独的可见 Agent Window 里运行，用完须显式归还，不打断你手头的工作。它不绑定特定模型或 Agent 框架，适合需要 Agent 操作已有登录态网站、又不想另建测试账号的开发者。",
+    "summary_en": "BrowserSkill, a Tencent open-source project, is a bsk CLI plus browser extension that lets shell-capable agents such as Cursor, Claude Code and Codex borrow tabs from your already logged-in browser, running the task in a separate visible Agent Window and returning the tab when finished. It keeps your real session and locks you into no particular model or agent framework, which suits anyone automating sites that require a live login.",
+    "input_hash": "910e3d55886f"
+  },
+  "36kr-3985879828478981": {
+    "summary_zh": "36Kr 这篇文章的标题指向一家做 AI4S（AI for Science）的「水下公司」，用「以小博大」来概括它的野心。该条目未附正文，公司名、技术路线和团队背景都无从确认。",
+    "summary_en": "This 36Kr piece's headline points to a low-profile \"underwater\" company working in AI4S, or AI for Science, framing its ambition as punching above its weight. The entry carries no article body, so the company, its technology and its backers can't be confirmed from what's available.",
+    "input_hash": "aeb9b48afb6d"
+  },
+  "hn-49731285": {
+    "summary_zh": "这篇分享讲的是用 agentic reinforcement learning 让 Qwen 学会查询优化，从而训练出一个 4B 模型，生成比 Postgres 快 81% 的查询计划。目前只提供标题和一句副标题，训练方法、数据集与评测口径都没有更多细节。",
+    "summary_en": "The write-up is about using agentic reinforcement learning to teach Qwen query optimization, training a 4B model whose query plans come out 81% faster than Postgres. Only the title and a one-line subtitle are available, so details on the training setup, datasets and evaluation aren't provided.",
+    "input_hash": "601eeaef52ef"
+  },
+  "36kr-3986951406173191": {
+    "summary_zh": "这条 36kr 文章的标题称谷歌在 RSI（递归自我改进）上取得突破，AI 靠「做梦」实现持续进化。原文未提供正文，除了标题之外没有更多细节可以核实。",
+    "summary_en": "This 36kr piece's headline claims Google has cracked RSI (recursive self-improvement), with AI evolving endlessly by \"dreaming.\" The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "5cfae510e3a6"
+  },
+  "hn-49729000": {
+    "summary_zh": "一条来自 Hacker News 的帖子，标题是 Small programming tricks，正文只有一句开场白：很多有效的工程实践，其实来自一条条小知识的积累。适合平时爱收集零散技巧、想打磨手感的开发者，除此之外原文没有更多正文。",
+    "summary_en": "A Hacker News post titled \"Small programming tricks,\" whose only body text is the observation that a lot of effective engineering comes from the accumulation of small nuggets of knowledge. It speaks to developers who collect scattered tips over time; there's no further prose beyond that opening line.",
+    "input_hash": "4b6b9b0f296b"
+  },
+  "36kr-3986995907853057": {
+    "summary_zh": "这条 36kr 文章的标题问的是一部让马斯克反应激烈的纪录片究竟讲了什么。原文没有提供正文，影片名称、制作者和具体观点都无法从标题之外确认。",
+    "summary_en": "A 36kr article whose headline asks what a documentary that reportedly rattled Elon Musk actually covers. The linked page isn't summarized here; the film's name, makers, and specific claims can't be confirmed beyond the title.",
+    "input_hash": "9d8d9b9a8279"
+  },
+  "hn-49723408": {
+    "summary_zh": "Mistral 与 Mozilla 宣布联手，把开放、注重隐私且支持多语言的 AI 放进浏览器，让用户在原本上网的地方就能直接用上。对关心数据隐私、又有多语言需求的开发者和普通用户来说，这是浏览器内 AI 集成的一个新动向。",
+    "summary_en": "Mistral and Mozilla are teaming up to bring open, private, and multilingual AI into the web browser, putting trustworthy AI where people already browse. It's a development worth watching for developers and users who care about privacy and multilingual support in AI tooling.",
+    "input_hash": "924937097725"
+  },
+  "36kr-3987096020384776": {
+    "summary_zh": "36kr 这篇报道讲的是两名00后男生创办的 AI 产品在北美年轻女性用户中打开了市场。原文目前只给出标题，未提供产品名称、具体玩法或增长数据等细节。",
+    "summary_en": "A 36kr piece looks at two founders born after 2000 whose AI product has won over young female users in North America. The linked page isn't summarized here; details beyond the title — the product itself, its features and its traction numbers — aren't available.",
+    "input_hash": "ad096197a0c5"
+  },
+  "zhihu-2083865288337010896": {
+    "summary_zh": "知乎这条讨论的是广电总局提出把机顶盒功能以软件形态内置进电视机，也就是用软件替代外置硬件盒子。若该方向落地，电视的硬件形态和开机找频道的流程都会改变，但原文未附具体细则或时间表。",
+    "summary_en": "The Zhihu question concerns a proposal by China's broadcasting regulator to build set-top box functionality into televisions as software, replacing the external hardware box. If implemented, it would change how TVs ship and how viewers reach channels, but the title comes with no implementation details or timeline.",
+    "input_hash": "4990a555c45e"
+  },
+  "36kr-3986123633163016": {
+    "summary_zh": "36kr 报道的对象是一个鱼摊，其卖点在于吸引了一批全球500强公司排队前来学习它的做法。原文未提供更多细节，鱼摊的位置、经营模式以及访客究竟来学什么都不得而知。",
+    "summary_en": "A 36kr article profiles a single fish stall whose operation has drawn employees from Fortune Global 500 companies to queue up and study it. The linked page isn't summarized here, so the stall's location, business model and what visitors actually come to learn aren't available beyond the title.",
+    "input_hash": "625d78906f9a"
+  },
+  "zhihu-2083595578223636976": {
+    "summary_zh": "知乎这条围绕张一鸣身家突破1050亿美元、首次成为亚洲首富这一节点，讨论如何评价其商业成就。原文为提问帖，没有给出财富来源构成或具体观点。",
+    "summary_en": "A Zhihu discussion question marks Zhang Yiming's net worth passing $105 billion and his first time as Asia's richest person, asking how his business record should be assessed. The linked page isn't summarized here; neither a breakdown of the fortune nor specific arguments are provided.",
+    "input_hash": "a5a485ee4e41"
+  },
+  "zhihu-2083246063851410890": {
+    "summary_zh": "知乎上提出的假设是：一颗表面100%被深海覆盖的海洋星球，对人类来说会不会非常恐怖，以及这样的环境里可能演化出什么样的生命。原文为提问帖，没有给出额外设定或答案。",
+    "summary_en": "The Zhihu question poses a hypothetical: an ocean planet whose surface is 100% deep sea, asking whether that would be terrifying for humans and what kinds of life might evolve there. The linked page isn't summarized here; no further scenario details or answers are available.",
+    "input_hash": "904ad8446156"
+  },
+  "gh-monthly-debpalash-VoiceStudio": {
+    "summary_zh": "VoiceStudio 是一个完全本地运行的开源语音工具，定位为 ElevenLabs 的替代方案，集成了声音克隆、声音设计、视频配音、听写、转写和有声书制作，宣称覆盖 646 种语言。对数据不能出本地、或想自托管语音能力的开发者来说，它提供了一个不依赖云端 API 的选项。",
+    "summary_en": "VoiceStudio is an open-source, fully local alternative to ElevenLabs that bundles voice cloning, voice design, video dubbing, dictation, transcription and audiobook creation, claiming support for 646 languages. It is aimed at developers who want speech tooling they can self-host or who cannot send audio to a third-party API.",
+    "input_hash": "3375fec47bee"
+  },
+  "juejin-7684261460002701338": {
+    "summary_zh": "文章以 github.com 为例：开发者工具里只有一条 _gh_session，是一串 Rails 框架加密后的会话数据，作者借此说明主流网站为何不把状态塞进 JWT，而继续用服务端会话 Cookie。适合正在为鉴权方案选型、想知道 JWT 在真实系统里到底卡在哪里的后端开发者。",
+    "summary_en": "Using github.com as the example, the author notes its cookies contain just a single _gh_session value — Rails-encrypted session data — to explain why mainstream sites keep state on the server rather than packing it into a JWT. It is aimed at backend developers choosing an authentication strategy and wondering where JWTs actually fall short in production.",
+    "input_hash": "9a7e21b48205"
+  },
+  "v2ex-9bf6dbcd4797": {
+    "summary_zh": "这是一位开发者写在三十岁生日后一个月的自述，讲他由爷爷奶奶带大、把父母称为 NPD 的成长经历，以及软件工程毕业后的轨迹：在省会城市工作多年后进入一线城市公司的子公司，买房时在房价高点接盘、首付亏完，如今仍在相亲。适合对家庭关系和程序员生活状态感兴趣的读者。",
+    "summary_en": "A developer's personal essay written a month after turning thirty, tracing a childhood raised by his grandparents with parents he describes as NPD, then a software engineering degree, years at a provincial-city company before joining a subsidiary of a first-tier-city firm, and a home bought at the market peak whose down payment is gone. It is an honest look at family dynamics and life after thirty, aimed at readers who care about upbringing and the everyday reality of being a programmer.",
+    "input_hash": "dead4b05096c"
+  },
+  "zhihu-1932799403552383280": {
+    "summary_zh": "这是知乎上的一个提问，邀请大家聊聊哪些演员第一眼让人惊艳、后来却觉得普通甚至有点怪。原文只提供了问题本身，没有附答案或更多细节。",
+    "summary_en": "This is a Zhihu question asking which actors people found stunning at first glance but later came to see as ordinary, or even a bit odd. The linked page isn't summarized here; details beyond the question title aren't available.",
+    "input_hash": "6d404ba542db"
+  },
+  "zhihu-2020203409219809652": {
+    "summary_zh": "这是一则知乎讨论，标题追问百度搜索为什么走向没落。原文是链接，未提供更多细节，除标题所提的问题外没有可确认的内容。",
+    "summary_en": "This is a Zhihu discussion thread asking why Baidu Search has declined. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "9f8cf8c10c26"
+  },
+  "zhihu-2083549123160925836": {
+    "summary_zh": "这是一则知乎提问，围绕前 OpenAI 研究员发布的新模型「Jev」展开，核心议题是这类模型能否成为 Agent 的新技术路线。原文是链接，未提供更多细节。",
+    "summary_en": "This is a Zhihu question about \"Jev\", a new model released by a former OpenAI researcher, asking whether models of this kind could become a new technical route for Agents. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "dca88eae13a0"
   }
 }
