@@ -340,7 +340,9 @@
       "tags": [],
       "first_seen": "2026-09-17",
       "domain": "github.com",
-      "quality_score": 37.5
+      "quality_score": 37.5,
+      "summary_zh": "Hister 是一个私有搜索引擎，用来检索你访问过的网页和保存在本地的文件，代码托管在 GitHub 的 asciimoo/hister 仓库，作者给它的定位是“你自己的搜索引擎”。适合不想把浏览记录和本地文件交给云端搜索服务的人；不过这条只提供了 GitHub 链接，仓库之外的细节原文并未给出。",
+      "summary_en": "Hister is a private search engine for the pages you visit and the files you keep, published on GitHub as asciimoo/hister and tagged simply \"your own search engine.\" It targets people who want search over their own browsing history and local documents without handing that data to a cloud service. This entry only links to the repository, so details beyond that aren't available here."
     },
     {
       "id": "hn-49686380",
@@ -3354,7 +3356,9 @@
       "gh_period": "daily",
       "first_seen": "2026-09-16",
       "domain": "github.com",
-      "quality_score": 30.2
+      "quality_score": 30.2,
+      "summary_zh": "Anthropic 开源了 11 个面向知识工作者的 Claude Cowork 插件，每个插件打包了对应某一具体职能的 skills、connectors、slash commands 和 sub-agents，同时也兼容 Claude Code。官方强调开箱版本只是起点，真正的价值在于按公司自己的工具、术语和流程做定制，适合想把 Claude 嵌入团队固定工作流的团队。",
+      "summary_en": "Anthropic open-sourced 11 plugins for knowledge workers to use in Claude Cowork, each bundling the skills, connectors, slash commands and sub-agents for a specific job function, and they also work with Claude Code. The company says the out-of-the-box versions are only a starting point and the real value comes from customizing them with your own tools, terminology and processes."
     },
     {
       "id": "gh-daily-Tencent-WeKnora",
@@ -3500,7 +3504,9 @@
       "gh_period": "daily",
       "first_seen": "2026-09-17",
       "domain": "github.com",
-      "quality_score": 30.3
+      "quality_score": 30.3,
+      "summary_zh": "TencentCloud 开源的 Octop 是一个可自托管的 AI assistant，主打 multi-user 与 multi-agent，代码基于 Python 3.12+，采用 MIT 许可，当前版本 1.0.0 并已发布到 PyPI。对希望把助手跑在自己服务器上、又要支持多人多 agent 的团队来说，它提供了一个可直接部署的选项。",
+      "summary_en": "Octop is TencentCloud's open-source, self-hosted AI assistant built for multi-user and multi-agent setups. It targets Python 3.12+, ships under the MIT license, and is at version 1.0.0 on PyPI. Teams that want to run a multi-agent assistant on their own infrastructure are the intended audience."
     },
     {
       "id": "gh-daily-ever-co-ever-gauzy",
@@ -3553,7 +3559,9 @@
       "gh_period": "daily",
       "first_seen": "2026-09-17",
       "domain": "github.com",
-      "quality_score": 30.1
+      "quality_score": 30.1,
+      "summary_zh": "coder/coder 是一个可自托管的云开发环境平台，主打为开发者和他们使用的 AI agent 提供安全环境，工作区跑在团队自己掌控的基础设施上。仓库提供文档、Discord 社区，并区分出付费的 Premium 方案，适合需要统一管理开发环境、或想给编码 agent 划出隔离边界的平台与基础设施团队评估。",
+      "summary_en": "coder/coder is a self-hosted platform for cloud development environments, pitched as secure environments for developers and their agents, so workspaces run on infrastructure the team controls. The repo ships with documentation, a Discord community and a paid Premium tier, making it worth a look for platform and infrastructure teams that want to standardize dev environments or sandbox coding agents."
     },
     {
       "id": "gh-daily-n8n-io-n8n",
@@ -3992,7 +4000,9 @@
       ],
       "first_seen": "2026-09-17",
       "domain": "producthunt.com",
-      "quality_score": 51.2
+      "quality_score": 51.2,
+      "summary_zh": "Appwrite 2.0 是这款开源后端云平台的最新大版本，官方把它定位为“面向 agent 与开发者的开源云”。它要服务的不只是传统应用开发者，还有正在搭建 AI agent 的团队。原文只给出一句简介，新增功能与迁移方式未披露。",
+      "summary_en": "Appwrite 2.0 is the latest major release of the open-source backend cloud platform, positioned as a cloud for both agents and developers. It targets not only traditional app developers but also teams building AI agents. The listing offers just a one-line description, so new features and migration paths aren't detailed."
     },
     {
       "id": "ph-1251643",
@@ -5168,7 +5178,9 @@
       "tags": [],
       "first_seen": "2026-09-17",
       "domain": "infoq.cn",
-      "quality_score": 36.1
+      "quality_score": 36.1,
+      "summary_zh": "OpenRouter 于 9 月 16 日上线匿名模型 Union Alpha，未公布开发方、参数与基准成绩，提供 256K 上下文、131072 最大输出，支持图片输入、工具调用和 JSON 输出，并以零价格免费开放。官方称其具备“前沿级性能”，但上线首日就消耗约 20 亿 Token、累计超 1000 亿，外界尚无完整可复现的第三方测试，关注前沿模型与智能体工作流的开发者可自行盲测判断。",
+      "summary_en": "On Sept 16 OpenRouter listed Union Alpha, an anonymous \"stealth\" multimodal model offered free, with no published developer, parameter count or benchmarks. It ships a 256K context window, 131072-token max output, image input, tool calling and JSON output. It burned roughly 2 billion tokens on day one and over 100 billion since, yet reproducible third-party results are still missing, so developers tracking frontier coding and agent workflows have to blind-test it themselves."
     },
     {
       "id": "infoq-jXliIdDVTYDAtm73EoSU",
@@ -5184,7 +5196,9 @@
       "tags": [],
       "first_seen": "2026-09-17",
       "domain": "infoq.cn",
-      "quality_score": 36.7
+      "quality_score": 36.7,
+      "summary_zh": "InfoQ 精选：百度智能云首发产业智能体操作系统，要实现 AI 的商业和技术飞轮",
+      "summary_en": "Featured on InfoQ: 百度智能云首发产业智能体操作系统，要实现 AI 的商业和技术飞轮"
     },
     {
       "id": "infoq-t5xEQSTQCB0glKSrppNT",
@@ -5200,7 +5214,9 @@
       "tags": [],
       "first_seen": "2026-09-17",
       "domain": "infoq.cn",
-      "quality_score": 36.8
+      "quality_score": 36.8,
+      "summary_zh": "ESP32 Bit Pirate 把基于 ESP32-S3 的多协议硬件调试搬进浏览器：借助 Web Serial 和 WebUSB，Web Flasher 可一键刷写或更新固件，网页终端直接提供命令行交互，省去 PuTTY、minicom 等本地工具。底层 C++ 固件覆盖 I2C、SPI、UART、CAN 等总线以及 BLE、Wi-Fi 嗅探、Sub-GHz、RFID 和 LoRa，并支持用 Python 脚本自动化重复的台架任务。",
+      "summary_en": "ESP32 Bit Pirate turns the ESP32-S3 into a browser-driven multi-protocol debugging workbench: using HTML5 Web Serial and WebUSB, a Web Flasher installs or updates firmware in one click and a web terminal replaces tools such as PuTTY or minicom. Its C++ firmware covers I2C, SPI, UART, CAN, EEPROM and flash dumping, plus BLE, Wi-Fi sniffing, Sub-GHz, RFID and LoRa, and Python scripting can automate repetitive bench tasks."
     },
     {
       "id": "infoq-Yz8Ad81rFlGEYMKVsKRJ",
@@ -5216,7 +5232,9 @@
       "tags": [],
       "first_seen": "2026-09-17",
       "domain": "infoq.cn",
-      "quality_score": 37.5
+      "quality_score": 37.5,
+      "summary_zh": "模力工场将于 9 月 20 日下午在杭州云谷中心举办 Meetup，主题是企业 AI 落地真正难的是技术还是组织，限 50 人，包含 4 场主题分享和企业 AI 落地诊断，属 GOAI 开源周 Free Meetup 系列。讨论聚焦数据权限、系统对接、流程改造和效果衡量等 Forward Deployed Engineer（前线部署工程师）在现场遇到的具体问题，报名时可提交卡住的项目申请诊断。",
+      "summary_en": "Moli Works hosts a meetup on Sept 20 afternoon at Hangzhou's Yungu Center asking whether enterprise AI stalls on technology or organization, capped at 50 people with four talks plus on-site project diagnoses, part of the GOAI Open Source Week Free Meetup series. It targets the messy realities forward deployed engineers hit — data access, system integration, process change and measuring value — and attendees can submit stalled projects for a live diagnosis."
     },
     {
       "id": "infoq-paoGkkFVHV3gbhG3GEdC",
@@ -5250,7 +5268,9 @@
       "tags": [],
       "first_seen": "2026-09-17",
       "domain": "infoq.cn",
-      "quality_score": 37.3
+      "quality_score": 37.3,
+      "summary_zh": "第叁范式（宁波）科技 9 月 16 日发布 M3EM Studio 2026 R2，称其为国内首款 GPU 原生跨尺度系统级电磁仿真软件，面向先进封装、智能汽车与雷达通信等场景。它把亿级网格整机求解从天级压到小时级，用场路协同在设计阶段复现 ESD、辐射发射等 EMC 问题，还提供基于 Python 接口的 MCP 服务，可用自然语言完成从建模到报告导出的全流程。",
+      "summary_en": "On September 16, Chinese vendor 第叁范式 (Ningbo) released M3EM Studio 2026 R2, billed as the country's first GPU-native, cross-scale, system-level electromagnetic simulation suite for advanced packaging, consumer electronics, smart vehicles and radar communications. It cuts billion-cell full-device solves from days to hours, reproduces ESD and radiated-emission EMC problems at design time through field-circuit co-simulation, and exposes a Python-based MCP service that drives the whole modeling-to-report flow in natural language."
     },
     {
       "id": "infoq-HWTj56QXAtdSar5YGp32",
@@ -5284,7 +5304,9 @@
       "tags": [],
       "first_seen": "2026-09-17",
       "domain": "infoq.cn",
-      "quality_score": 37.8
+      "quality_score": 37.8,
+      "summary_zh": "9 月 17 日华为全联接大会 2026 上，轮值董事长汪涛系统阐述以算力为核心的 AI 战略，并公布昇腾 960 芯片与昇腾 960 超节点、Hi-ONE NPO 光互联、鲲鹏超节点、OceanStor M900 等进展。华为称由 4K 规模超节点组成的 10 万卡集群相比传统 8 卡服务器集群 MFU 提升 2.75 倍，昇腾 960 相关产品计划 2027 年进入新一代周期，适合关注国产算力底座的读者。",
+      "summary_en": "At Huawei Connect 2026 on Sept 17, rotating chairman Wang Tao laid out an AI strategy centered on compute and unveiled the Ascend 960 chip, Ascend 960 supernode, Hi-ONE NPO optical interconnect, Kunpeng supernode and OceanStor M900. Huawei claims a 100k-card cluster built from 4K-scale supernodes lifts MFU 2.75x over one made of traditional 8-card servers, with Ascend 960 products entering a new cycle in 2027. Relevant to anyone watching China's compute stack."
     },
     {
       "id": "infoq-VRgVJvwcVrkzWTIa2ecF",
@@ -5300,7 +5322,9 @@
       "tags": [],
       "first_seen": "2026-09-17",
       "domain": "infoq.cn",
-      "quality_score": 37.3
+      "quality_score": 37.3,
+      "summary_zh": "Linux Foundation CEO Jim Zemlin 在华为 HC2026 演讲中称，使用开源的软件占比已从十年前他预测的 80% 升至 98%，AI 投向芯片、数据中心与电力的巨额资本，其软件底座几乎都由 Linux、Kubernetes、PyTorch、vLLM 等开源项目支撑。他引用哈佛商学院研究称每 1 美元开源投入可创造约 2000 美元共享价值，并指出开放权重模型已把每 Token 成本压低约 10 倍。",
+      "summary_en": "Linux Foundation CEO Jim Zemlin told Huawei HC2026 that 98% of the world's software now uses open source, up from the 80% he predicted a decade ago, and that the AI buildout in chips, data centers and power runs almost entirely on open infrastructure like Linux, Kubernetes, PyTorch and vLLM. He cited Harvard research estimating that $1 spent on shared open-source code yields roughly $2,000 in shared value, and said open-weight models have cut per-token costs about tenfold."
     },
     {
       "id": "infoq-UI8Js3eFwYNOGTIszfe8",
