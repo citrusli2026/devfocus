@@ -392,7 +392,9 @@
       "tags": [],
       "first_seen": "2026-09-18",
       "domain": "try.cloudflare.com",
-      "quality_score": 40.3
+      "quality_score": 40.3,
+      "summary_zh": "Cloudflare Quick Tunnels 的作用是把笔记本上运行的本地服务器变成一个公开的加密 URL，这是该条目附带的一句简介。原帖只是链接，链接页面未被概述，除标题和这句说明外没有更多可核实的细节，适合想临时把 localhost 暴露到公网的人自行查看。",
+      "summary_en": "Cloudflare Quick Tunnels turns a server running on your laptop into a public, encrypted URL on Cloudflare, per the one-line description attached to this item. The submission itself is just a link and the linked page isn't summarized here, so nothing beyond the title and that blurb is available; worth opening if you want to expose localhost temporarily."
     },
     {
       "id": "hn-49715947",
@@ -504,7 +506,9 @@
       "tags": [],
       "first_seen": "2026-09-18",
       "domain": "grapheneos.social",
-      "quality_score": 37.6
+      "quality_score": 37.6,
+      "summary_zh": "Android 17 QPR1 成为自 Android Honeycomb (3.x) 以来首个在没有向 AOSP 发布的情况下就为应用开发者新增 API 的版本，这些新 API 目前只在 Pixel OS 上提供，其他 Android OEM 拿不到（见官方 API diff 37.1）。对依赖 AOSP 或非 Pixel 设备做开发和测试的团队来说，API 可得性会明显分化。",
+      "summary_en": "Android 17 QPR1 is the first release since Android Honeycomb (3.x) to add new APIs for app developers without a matching release to the Android Open Source Project, according to the linked API diff 37.1. Those APIs currently ship only in Pixel OS and aren't available to other Android OEMs, so anyone targeting non-Pixel devices can't count on them yet."
     },
     {
       "id": "hn-49711424",
@@ -5119,7 +5123,9 @@
       "tags": [],
       "first_seen": "2026-09-18",
       "domain": "infoq.cn",
-      "quality_score": 37.2
+      "quality_score": 37.2,
+      "summary_zh": "Grab 用内部脚手架 LLM-Kit 把 500 多个智能体服务标准化，新建服务即得到内置 LangGraph 执行循环、OpenTelemetry 追踪、Vault 密钥管理和评估端点的 FastAPI 项目，工具在运行时从 50 多个 MCP 服务器中发现，模型调用统一走 GrabGPT Gateway。据其工程博客，接入一个全新智能体服务到生产环境从两周以上缩短到约 1 小时，真正被省下的是密钥、追踪、服务发现和评估这些配套工程，而非推理循环本身。",
+      "summary_en": "Grab standardized more than 500 internal agent services on LLM-Kit, an in-house scaffolding toolkit that hands each new service a FastAPI project with a LangGraph execution loop, OpenTelemetry tracing, Vault secrets and an evaluation endpoint; tools are discovered at runtime from 50-plus MCP servers, and every model call goes through the OpenAI-compatible GrabGPT Gateway. According to its engineering blog, shipping a new agent service to production now takes about an hour instead of two weeks or more, with the savings coming from secrets, tracing, service discovery and evals rather than the reasoning loop."
     },
     {
       "id": "infoq-CEphwKjzAe7LzbOriLcq",
@@ -5135,7 +5141,9 @@
       "tags": [],
       "first_seen": "2026-09-18",
       "domain": "infoq.cn",
-      "quality_score": 37.5
+      "quality_score": 37.5,
+      "summary_zh": "Anthropic 公布内部数据：截至 2026 年 8 月，Claude 已能“主导”其约 26% 的 AI 研发工作，90% 以上达到“AI 协作”水平，内部平台同时运行约 3 万个 Agent，而今年 2 月这个比例还不到 1%。该统计沿用 Epoch AI 的 AL0–AL5 自动化分级，AL4 即“主导”，指人类只给目标和监督。",
+      "summary_en": "Anthropic says that as of August 2026 Claude can 'lead' about 26% of its own AI R&D work, up from under 1% in February, with over 90% of such work now at least AI-collaborative and roughly 30,000 agents running concurrently on its internal platform. The numbers use Epoch AI's AL0–AL5 scale, where AL4 means a human sets the goal and Claude handles most of the execution."
     },
     {
       "id": "infoq-O1uIfJx3CF5SZz3ayuaI",
@@ -5167,7 +5175,9 @@
       "tags": [],
       "first_seen": "2026-09-18",
       "domain": "infoq.cn",
-      "quality_score": 37.6
+      "quality_score": 37.6,
+      "summary_zh": "OPPO 在 2026 开发者大会发布 ColorOS 17，OPPO、一加、realme 三品牌全面升级，首批机型同步推送，方向明确指向 AgentOS，ColorOS 全球活跃用户已超 7.7 亿。端侧大模型采用 Linear Attention 架构、原生支持 128K 上下文，内存占用降低 48%、能耗优化 55%；小布已可调用支付宝、腾讯地图、微信等第三方服务，并靠蜂群感知做主动服务。",
+      "summary_en": "At its 2026 developer conference OPPO launched ColorOS 17, with OPPO, OnePlus and realme all upgrading and the first devices getting it simultaneously, as the company steers its phone OS toward an \"AgentOS\"; ColorOS now reports over 770 million active users. The on-device model uses a Linear Attention architecture with native 128K context, cutting memory use 48% and energy 55%, while Xiaobu can call Alipay, Tencent Maps and WeChat services and lean on swarm sensing for proactive suggestions."
     },
     {
       "id": "infoq-eluArohETBhwjjYZRoMG",
@@ -5215,7 +5225,9 @@
       "tags": [],
       "first_seen": "2026-09-18",
       "domain": "infoq.cn",
-      "quality_score": 38.7
+      "quality_score": 38.7,
+      "summary_zh": "InfoQ 编译了“现代人工智能之父”Jürgen Schmidhuber 的长文，他把 RSI 的研究脉络从 1987 年毕业论文中的元进化与元强化学习，一路梳理到 1994 年基于自修改策略的强化学习、2002 年的 OOPS 课程学习和 2003 年的 Gödel Machine。文章写作的背景是 OpenAI 披露 RSI 项目进展、Google 发布 Dream-RSI 论文，Sakana AI 的 David Ha 转发时还认为真正的风险是前沿 AI 权力集中，而非超级智能。",
+      "summary_en": "InfoQ translates a long post by Jürgen Schmidhuber tracing his own recursive self-improvement work from meta-evolution and meta-reinforcement learning in his 1987 thesis through self-modifying policies in 1994, the 2002 OOPS curriculum-learning method and the 2003 Gödel Machine. It lands as OpenAI discloses progress on RSI and Google publishes its Dream-RSI paper, with Sakana AI's David Ha arguing on the thread that the real risk is concentration of frontier AI power rather than superintelligence."
     },
     {
       "id": "infoq-da8jMox7ikdNmD2vYyTm",
@@ -5231,7 +5243,9 @@
       "tags": [],
       "first_seen": "2026-09-18",
       "domain": "infoq.cn",
-      "quality_score": 39.2
+      "quality_score": 39.2,
+      "summary_zh": "Richard Socher 的新公司 Recursive Superintelligence 融资 6.5 亿美元，GV 与 Greycroft 领投，英伟达、AMD Ventures 参投，并与亚马逊云科技签下 4.1 亿美元多年算力协议。八位联合创始人包括田渊栋、Alexey Dosovitskiy、Tim Rocktäschel、Jeff Clune 等，目标是构建能递归自我改进（RSI）的“尤里卡机器”，让 AI 研究本身被自动化。",
+      "summary_en": "Richard Socher's new startup Recursive Superintelligence raised $650 million led by GV and Greycroft, with Nvidia and AMD Ventures participating, and signed a $410 million multi-year compute deal with AWS. Its eight co-founders include Yuandong Tian, Alexey Dosovitskiy, Tim Rocktäschel and Jeff Clune; the stated goal is recursive self-improvement, a 'Eureka Machine' that automates AI research itself."
     },
     {
       "id": "infoq-2kGlAwpJrK9I5kdDHLGz",
@@ -5263,7 +5277,9 @@
       "tags": [],
       "first_seen": "2026-09-18",
       "domain": "infoq.cn",
-      "quality_score": 39.8
+      "quality_score": 39.8,
+      "summary_zh": "香港科技大学助理教授袁彬航将在 QCon 上海（10 月 22—24 日）的 AI Infra 专题分享 AReaL 2.0，一套面向 Agent 自演进的在线强化学习基础设施。它通过 Agent 轨迹协议、数据代理层和演进控制平面，把真实交互轨迹变成可训练、可回放的数据，并让已有 Agent 无需重构即可接入 Online RL。",
+      "summary_en": "At QCon Shanghai (Oct 22–24), HKUST assistant professor Binhang Yuan will present AReaL 2.0, an online reinforcement learning infrastructure meant to turn agent production traffic into a training data loop. It adds an agent trajectory protocol, a data proxy layer and an evolution control plane, so existing agents like Hermes Agent can plug into online RL without being rebuilt."
     },
     {
       "id": "infoq-W3tOIQhV5pKhsXP6mgWw",
