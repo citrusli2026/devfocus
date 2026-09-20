@@ -214,7 +214,9 @@
       "tags": [],
       "first_seen": "2026-09-18",
       "domain": "code.claude.com",
-      "quality_score": 44.3
+      "quality_score": 44.3,
+      "summary_zh": "Claude Code 调整了项目指令文件的读取顺序：当项目里没有 Claude.md 时，它会改读 AGENTS.md。这一改动记录在按版本排列的官方 release notes 中，对同时使用多个 AI 编码工具、希望用一份约定文件复用配置的团队影响最直接。",
+      "summary_en": "Claude Code now falls back to reading AGENTS.md when a project has no Claude.md, per its versioned release notes. That matters for teams running several AI coding agents, since one shared conventions file can now serve tools that follow the AGENTS.md convention instead of maintaining a separate instruction file per tool."
     },
     {
       "id": "hn-49731285",
@@ -5076,7 +5078,9 @@
       "tags": [],
       "first_seen": "2026-09-19",
       "domain": "infoq.cn",
-      "quality_score": 37.8
+      "quality_score": 37.8,
+      "summary_zh": "InfoQ 精选：当企业 AI 从演示走向真实业务， 十几位科技领导者看到了什么？",
+      "summary_en": "Featured on InfoQ: 当企业 AI 从演示走向真实业务， 十几位科技领导者看到了什么？"
     },
     {
       "id": "infoq-mrl45Fq31U7JORZsV5re",
@@ -5092,7 +5096,9 @@
       "tags": [],
       "first_seen": "2026-09-19",
       "domain": "infoq.cn",
-      "quality_score": 37.8
+      "quality_score": 37.8,
+      "summary_zh": "Snowflake World Tour 2026 于 9 月 8 日在上海举行，下午技术论坛以 Making AI Real for Business 为主题，Snowflake 联合 InfoQ 发起「雪山之巅 AI 挑战赛」，开发者需在现场围绕真实企业场景构建 AI 应用，分增长之巅、卓越之巅、效能之巅三条赛道。同场五场分享覆盖企业级智能体、AI 安全治理、开放湖仓架构以及与亚马逊云科技的生产级实践。",
+      "summary_en": "At Snowflake World Tour 2026 in Shanghai on September 8, the afternoon technical forum carried the Making AI Real for Business theme with five sessions on enterprise agents, AI governance, open lakehouse architecture and production practices with AWS. Snowflake and InfoQ also ran the Peak of Snow Mountain AI Challenge, where developers built AI applications on real enterprise scenarios across three tracks."
     },
     {
       "id": "infoq-GAhNItmT2o7kvEA1ovxt",
@@ -5108,7 +5114,9 @@
       "tags": [],
       "first_seen": "2026-09-19",
       "domain": "infoq.cn",
-      "quality_score": 37.7
+      "quality_score": 37.7,
+      "summary_zh": "Solaris 虽已淡出视野，但它的转门（turnstile）机制仍活在现代系统里：等待状态被从锁结构中拆出，阻塞线程把预分配的转门交给锁，用一张以锁虚拟地址为键、按桶组织的全局哈希表维护优先级继承链，使无竞争的锁只占一字节左右，代价是高竞争时要付出哈希桶查找和总线同步。文章梳理了 Go 运行时 sema.go 的 semtable、WebKit 与 Rust 中同源的思路，也回顾了 Slab 分配器、ZFS、DTrace、Zones 等遗产。",
+      "summary_en": "Though Solaris has largely faded from view, its turnstile mechanism survives in modern runtimes: waiting state is split off from the lock structure, so a blocking thread hands a pre-allocated turnstile to the lock and priority inheritance is tracked through a bucketed global hash table keyed by the lock's virtual address, keeping uncontended locks at about a byte. The article traces the same idea in Go's runtime sema.go and semtable, WebKit and Rust, and revisits Slab allocators, ZFS, DTrace and Zones."
     },
     {
       "id": "infoq-brH7TRcHB9evl32KQJkY",

@@ -876,7 +876,9 @@
       "tags": [],
       "first_seen": "2026-09-18",
       "domain": "code.claude.com",
-      "quality_score": 34.2
+      "quality_score": 34.2,
+      "summary_zh": "Claude Code 调整了项目指令文件的读取顺序：当项目里没有 Claude.md 时，它会改读 AGENTS.md。这一改动记录在按版本排列的官方 release notes 中，对同时使用多个 AI 编码工具、希望用一份约定文件复用配置的团队影响最直接。",
+      "summary_en": "Claude Code now falls back to reading AGENTS.md when a project has no Claude.md, per its versioned release notes. That matters for teams running several AI coding agents, since one shared conventions file can now serve tools that follow the AGENTS.md convention instead of maintaining a separate instruction file per tool."
     },
     {
       "id": "hn-49759466",
