@@ -196,7 +196,9 @@
       "tags": [],
       "first_seen": "2026-09-17",
       "domain": "sockpuppet.org",
-      "quality_score": 31.0
+      "quality_score": 31.0,
+      "summary_zh": "这篇短文提出用 LLM 写作的两条原则：不要采纳它建议的任何措辞，也不要接受它的鼓励，然后把繁琐的活儿全部交给它。适合想借 AI 提效、但不愿让自己的文字风格被抹平的写作者。",
+      "summary_en": "A short piece arguing that two rules keep an LLM from flattening your prose: never take a word it suggests, and never let it encourage you, then hand it all the tedious work. It speaks to writers who want AI's speed without losing their own voice."
     },
     {
       "id": "hn-49752041",
@@ -390,7 +392,9 @@
       "tags": [],
       "first_seen": "2026-09-20",
       "domain": "buchodi.com",
-      "quality_score": 40.5
+      "quality_score": 40.5,
+      "summary_zh": "有开发者指出 OpenAI 通过 bzr.openai.com 设置一枚名为 __obi 的 cookie（作用域 .openai.com），当用户访问那些在 ChatGPT 上投放过广告的网站时，该标识会被回传，从而把站外浏览和购买行为与 ChatGPT 账号关联起来。作者称已在手机上复现整条链路，并用两种独立抓包方法交叉核对了覆盖 936 个广告像素、1029 个主机名的流量数据。",
+      "summary_en": "A developer reports that OpenAI sets a cookie named __obi from bzr.openai.com, scoped to .openai.com, and that ordinary sites which buy ads on ChatGPT send it back to OpenAI, letting the company tie off-site browsing and purchase behavior to a ChatGPT account. The author says he reproduced the mechanism on his own phone with two independent capture methods and cross-checked traffic covering 936 advertiser pixels across 1,029 hostnames."
     },
     {
       "id": "hn-49775499",
@@ -406,7 +410,9 @@
       "tags": [],
       "first_seen": "2026-09-20",
       "domain": "qwen.ai",
-      "quality_score": 38.2
+      "quality_score": 38.2,
+      "summary_zh": "Hacker News 上关于 Qwen Image 2.1 的帖子，随附说明只笼统列出 Qwen 的能力范围，涵盖对话、图像与视频理解、图像生成、文档处理、联网搜索、工具调用和 artifacts。对 2.1 这个版本本身，条目里没有给出参数、发布时间或评测信息。",
+      "summary_en": "A Hacker News post titled Qwen Image 2.1, whose accompanying description only lists Qwen's broader feature set: chatbot, image and video understanding, image generation, document processing, web search, tool use, and artifacts. Nothing specific to the 2.1 release, such as benchmarks or availability, is provided."
     },
     {
       "id": "hn-49763928",
@@ -3242,7 +3248,9 @@
       "gh_period": "daily",
       "first_seen": "2026-09-20",
       "domain": "github.com",
-      "quality_score": 30.1
+      "quality_score": 30.1,
+      "summary_zh": "Agent-Native 是 BuilderIO 开源的 TypeScript 框架，用来构建“自主执行＋配套 UI”的 agent 应用：每个能力只需声明一次 action，agent 把它当 tool 调用，UI 则在代码里复用同一个 action，避免工具层和界面层各写一套。README 给出的快速上手命令是 npx @agent-native/core create my-agent --standalone --template chat，适合想同时交付 agent 行为和交互界面的团队。",
+      "summary_en": "Agent-Native is an open-source TypeScript framework from BuilderIO for building agents that pair autonomous work with a purpose-built UI. Each capability is declared once as an action, which the agent uses as a tool and the UI calls from code, so the two layers don't diverge. The README's quick start is npx @agent-native/core create my-agent --standalone --template chat; it targets teams that want to ship agent behavior and its interface together."
     },
     {
       "id": "gh-daily-cloudflare-security-audit-skill",
@@ -3837,7 +3845,9 @@
       ],
       "first_seen": "2026-09-20",
       "domain": "producthunt.com",
-      "quality_score": 43.9
+      "quality_score": 43.9,
+      "summary_zh": "Mantra Timer 是一款面向 iOS 的极简咒语冥想计时器，用来给念诵或冥想计时。它强调界面简单、不带多余功能，适合只想要一个安静计时工具、不需要完整冥想课程 App 的人；条目本身没有提供更多细节。",
+      "summary_en": "Mantra Timer is a minimalist iOS timer built for mantra meditation sessions. It targets people who want a bare-bones interval tool rather than a full meditation app with courses and social features; the listing doesn't go beyond that description."
     },
     {
       "id": "ph-1249952",
@@ -4174,7 +4184,9 @@
       "content": "1800年前后，一个英国手工织工坐在家里。 他的脚踩着织机，手一下一下推动梭子。 这台机器不漂亮，也不先进。 但它是他的饭碗。 他的价值，就藏在这双手里。 然而，有一天，工厂里出现了一种织布机器，它不需要一个人拥有几十年的经验。 它只需要动力，以及少量能够操作机器的人。 这时候， 织工发现，自己引以为傲的“熟练”，突然没那么值钱了。 对于程序员而言 ，今天的 AI 时代，也正在发生完全类似的事情。 我们先不急着聊AI，我们先回到200年前 工业革命之前，英国大量纺织品生产依赖家庭手工业。 简单说，就是： 订单来了 → 原料送到家 → 工人在家里织布 → 商人收走 → 再卖出去。 这套模式下，一个熟练织工非常重要。 因为机器不够强，生产效率很大程度上取决于人的熟练程度。 所以当时的逻辑很简单： 生产方式 核心资产 工人的价值 家庭手工业 人的手艺 很高 早期机械化 机器 + 人 开始下降 工厂生产 机器系统 单个工人的独立技能下降 大规模工业化 整套生产系统 操作、管理、技术协作更加重要 注意这里最关键的一句话： 工业革命并不是突然让“人”变得没有价值。而是慢慢的让某一种具体技能的稀缺性下降了。 最残酷的地方：机器不是先抢工作，而是先“降价” 假设原来一个熟练织工一天能织10米布，他经过十年训练，别人很难替代他，所以他的劳动价格自然比较高。 后来，机器出现了，机器可能让一个普通工人，也能完成过去熟练工才能完成工作。 于是 “熟练织工的优势，开始没有以前那么值钱。” 这才是技术革命最容易被忽略的地方。 因为人们通常只关注： “有多少人失业？” 却很少关注： “一个人的技能，在市场上还能卖多少钱？” 而这恰恰是今天程序员最值得警惕的地方。 目前程序员正在面对的第一轮冲击 过去，一个公司想做一个网站。 需要： 产品经理 → UI设计师 → 前端 → 后端 → 测试 → 运维。 现在，一个能力很强的 AI Coding Agent，已经可以参与其中非常多的环节。 你告诉它： “帮我做一个用户注册、登录、支付、后台管理的 SaaS。” 它不一定一次成功。 但它已经可以开始写代码、跑测试、改 Bug、生成数据库结构、写接口、补文档。 以前一个功能需要10小时，现在只需要2小时，那么剩下的8小时去哪了？ 市场会开始重新定义这个岗位。 历史真正告诉我们的，不是“程序员会失业” 这里必须纠正一个非常流行的误解。 很多人讲工业革命，会说： “机器来了，工人失业，于是工人砸机器。” 历史其实没有这么简单。 19世纪初英国确实发生过著名的卢德运动（Luddite movement）。1811—1816年前后，一些工人破坏纺织机械，以反对工资下降、生产制度变化和就业受到冲击。 但他们并不是简单地“讨厌科技”，而是个更复杂的问题： 原来的劳动规则、收入方式和社会秩序正在被机器改变。 而且，工业化并没有让所有纺织工人瞬间消失。 机器化是一个持续很多年的过程，甚至在纺织行业内部，机器本身还经历了不断改进的阶段。 真正改变就业市场的，往往不是AI第一次出现的那一天，而是AI接下来几年不断变强的过程。 如果把织布机换成AI，故事就突然变得很熟悉 我们把两个时代放在一起。 1800年前后的纺织业 2026年前后的软件业 手工织布 手写代码 熟练织工 熟练程序员 织布机 AI Coding 工厂 AI Agent工作流 标准化生产 软件自动生成 熟练度决定产能 AI使用能力开始影响产能 机器降低织布成本 AI降低软件生产成本 两者都曾经把大量价值建立在一种可以被标准化、复制、自动化的技能上。 织工的核心技能是： “我能把线织成布。” 程序员过去的核心技能是： “我能把需求变成代码。” 而 AI 正在让这件事变得越来越便宜。 但这里有一个巨大的反转 如果你读到这里，已经开始焦虑： “完了，那我是不是该转行？” 先别急。 工业革命之后，人类生产的商品数量反而越来越多，新的行业不断出现。 这背后有一个非常重要的规律： 当一种生产方式变便宜，人类往往不会停止生产，而是开始生产更多以前生产不起的东西。 举个最简单的例子。 如果做一个网站以前需要一个程序员花两周。 现在 AI 帮你一天做出来。 那么世界不会因为“网站更便宜了”就不需要网站。 恰恰相反： 可能会出现以前根本没人愿意做的100万个小网站。 这就是 AI 时代最容易被忽视的机会。 AI可能不会消灭程序员，而是先消灭“程序员的某些工作” 这两句话看起来很像。 其实完全不同。 我们把一个程序员的工作拆开。 程序员工作 AI替代难度 未来趋势 写CRUD代码 ★ 大幅自动化 写简单接口 ★ 大幅自动化 补单元测试 ★ 大幅自动化 代码重构 ★★ 大量自动化 查常见Bug ★★ 大量自动化 技术方案设计 ★★★ 人机协作 系统",
       "first_seen": "2026-09-19",
       "domain": "juejin.cn",
-      "quality_score": 17.1
+      "quality_score": 17.1,
+      "summary_zh": "文章从1800年前后一名英国手工织工讲起：他靠脚踏织机、手推梭子维生，价值全在一双手上，直到工厂里出现了新的织布机器。作者用这段历史类比当下 AI 对程序员的冲击，讨论技术替代与技能贬值。适合关心 AI 对职业前景影响的开发者阅读。",
+      "summary_en": "The piece opens with an English handloom weaver around 1800, who made his living by foot and shuttle until a weaving machine appeared in the factory. It uses that history as a parallel for how AI may reshape programmers' work, asking what happens when a skill stops being the thing that pays. Aimed at developers weighing AI's effect on their careers."
     },
     {
       "id": "juejin-7657732588313722926",
