@@ -196,7 +196,9 @@
       "tags": [],
       "first_seen": "2026-09-22",
       "domain": "techradar.com",
-      "quality_score": 49.4
+      "quality_score": 49.4,
+      "summary_zh": "Apple 在 iOS 中加入了常驻的“ads”，用户对此反应强烈，认为这拉低了系统使用体验。该条目正文只有一句“Way to cheapen the experience, Apple”的吐槽，广告出现的位置、涉及的 iOS 版本以及能否关闭都没有说明。",
+      "summary_en": "Apple has added persistent 'ads' to iOS, and users are reacting badly, calling it a downgrade of the overall experience. The item's body is a single line — 'Way to cheapen the experience, Apple' — so where the ads appear, which iOS version is affected, and whether they can be turned off are not described in the source."
     },
     {
       "id": "hn-49747070",
@@ -456,7 +458,9 @@
       "tags": [],
       "first_seen": "2026-09-23",
       "domain": "apnews.com",
-      "quality_score": 40.8
+      "quality_score": 40.8,
+      "summary_zh": "意大利议会投票支持重新发展核能，为该国在 1987 年公投弃核之后重新打开核电政策空间。该条目来自 Hacker News，只有标题没有正文，投票票数、时间表和后续立法步骤等细节均未提供。",
+      "summary_en": "Italy's parliament has voted in favour of returning to nuclear energy, reopening a policy path the country closed after its 1987 referendum phase-out. The Hacker News post is a bare link, so vote margins, timelines and the next legislative steps aren't available; details beyond the title aren't provided."
     },
     {
       "id": "hn-49791939",
@@ -552,7 +556,9 @@
       "tags": [],
       "first_seen": "2026-09-23",
       "domain": "anthropic.com",
-      "quality_score": 40.9
+      "quality_score": 40.9,
+      "summary_zh": "Claude 智能体在其新建的生命科学研究实验室中，发现了一种带有类 CRISPR 重复序列的酶系统，其具体功能目前仍不清楚，属于早期研究结果。这说明 AI 智能体正被用于开放式生物学发现而非只写代码，关注 AI for Science 与新基因编辑工具的人可以留意。",
+      "summary_en": "In early results from a new life sciences research lab, Claude agents identified an enzyme system containing CRISPR-like repeats whose function remains unknown. It points to AI agents being aimed at open-ended biological discovery rather than coding tasks, relevant to anyone tracking AI for Science or new gene-editing tools."
     },
     {
       "id": "hn-49783495",
@@ -3377,7 +3383,9 @@
       "gh_period": "daily",
       "first_seen": "2026-09-23",
       "domain": "github.com",
-      "quality_score": 30.1
+      "quality_score": 30.1,
+      "summary_zh": "Strands Agents 开源了 harness-sdk，用来构建并端到端控制 agent harness，同时提供 Python 与 TypeScript 版本，宣称支持任意模型和任意云，几行代码即可搭出 AI agent，采用 Apache 许可证。适合需要把 agent 推向生产环境的团队评估。",
+      "summary_en": "Strands Agents has open-sourced harness-sdk, an SDK for building an agent harness and controlling it end-to-end, with Python and TypeScript packages that claim to work with any model and any cloud. It takes a model-driven approach and promises agents in a few lines of code, under an Apache license, making it worth a look for teams shipping agents to production."
     },
     {
       "id": "gh-daily-HKUDS-CLI-Anything",
@@ -3394,7 +3402,9 @@
       "gh_period": "daily",
       "first_seen": "2026-09-23",
       "domain": "github.com",
-      "quality_score": 30.0
+      "quality_score": 30.0,
+      "summary_zh": "HKUDS 在 GitHub 上开源了 CLI-Anything，目标是把各类软件改造成 \"agent-native\"，让 AI agent 能通过命令行直接驱动它们，并提供了 CLI-Hub（clianything.cc）作为统一入口。仓库正文目前主要是徽章和展示信息，实现细节不多；正在给 agent 接工具链的开发者可以留意。",
+      "summary_en": "CLI-Anything is an open-source project from HKUDS that aims to make \"ALL software agent-native,\" exposing existing tools to AI agents through command-line interfaces, with a CLI-Hub at clianything.cc as the entry point. The repository page is mostly badges right now, so implementation details are thin; it's aimed at developers wiring tools into agent workflows."
     },
     {
       "id": "gh-daily-superdesigndev-treg",
@@ -5100,7 +5110,9 @@
       "tags": [],
       "first_seen": "2026-09-23",
       "domain": "infoq.cn",
-      "quality_score": 34.6
+      "quality_score": 34.6,
+      "summary_zh": "华为团队被 EMNLP Industry Track 2026 收录的 PrismAlign，让多个 VLM 视角分别观测同一版面，再用贝叶斯决策层对多路输出做一致性对齐，以抑制表格 OCR 的幻觉。它针对的是嵌套表头、旋转扫描、无网格线版式下单视角推理凭空补单元格、把多级表头压平、将墨点脑补成货币符号等系统性偏差，做文档结构化提取与数据管线的团队可以对照。",
+      "summary_en": "PrismAlign, a Huawei paper accepted to EMNLP Industry Track 2026, runs several VLM views over the same document layout and reconciles their outputs with a Bayesian decision layer to curb table-OCR hallucinations. It targets systematic failures such as invented cells, flattened multi-level headers and misread punctuation in nested, rotated or gridline-free tables, and is aimed at teams building document extraction pipelines."
     },
     {
       "id": "infoq-jG9ksSRvpkfP20Qif8Ov",
@@ -5116,7 +5128,9 @@
       "tags": [],
       "first_seen": "2026-09-23",
       "domain": "infoq.cn",
-      "quality_score": 35.0
+      "quality_score": 35.0,
+      "summary_zh": "Anthropic 发布 Claude 5.5 系列首款模型 Claude Opus 5.5，重点从扩大模型规模转向提升编程、计算机操作与知识工作能力，典型任务成本比 Opus 5 低约 40%。官方称早期测试者用它不到一天迁移了 68 万行代码，在 FrontierCode 上每任务成本约为 GPT-6 Astra 的 20%，Sonnet 5.5 与 Haiku 5.5 也即将推出。",
+      "summary_en": "Anthropic released Claude Opus 5.5, the first model in its Claude 5.5 line, shifting focus from scaling to better coding, computer use and knowledge work while cutting typical task cost about 40% versus Opus 5. The company says an early tester migrated 680,000 lines of code in under a day, and that on FrontierCode each task costs roughly 20% of GPT-6 Astra's. Sonnet 5.5 and Haiku 5.5 are coming next."
     },
     {
       "id": "infoq-3rXojuNPmJANFv8iWqI8",
@@ -5132,7 +5146,9 @@
       "tags": [],
       "first_seen": "2026-09-23",
       "domain": "infoq.cn",
-      "quality_score": 34.7
+      "quality_score": 34.7,
+      "summary_zh": "云栖大会发布的 HappyWorld-Bench 不去争论什么才算世界模型，而是把它拆成表征、预测、交互三类能力，按 W1 到 W6 六级给模型统一打分。它要解决的是 Genie 3 这类视频世界生成、Marble 这类三维重建与具身智能各用一套规则、各自宣布领先的局面，适合需要横向比较世界模型的人。",
+      "summary_en": "Released at the Yunqi conference, HappyWorld-Bench proposes a shared exam for world models rather than debating definitions, splitting capability into representation, prediction and interaction and grading models across six levels, W1 to W6. It targets a field where Genie 3-style video world generators, 3D reconstruction efforts like Marble and embodied models each set their own rules and claim the lead."
     },
     {
       "id": "infoq-uG1Um83JFgz2BVxWRYC9",
@@ -5148,7 +5164,9 @@
       "tags": [],
       "first_seen": "2026-09-23",
       "domain": "infoq.cn",
-      "quality_score": 34.7
+      "quality_score": 34.7,
+      "summary_zh": "InfoQ 精选：4096 张卡如何成为“一台计算机”？读懂华为的超节点布局",
+      "summary_en": "Featured on InfoQ: 4096 张卡如何成为“一台计算机”？读懂华为的超节点布局"
     },
     {
       "id": "infoq-zSPQbRwmS0AGpeTAhu9r",
@@ -5164,7 +5182,9 @@
       "tags": [],
       "first_seen": "2026-09-23",
       "domain": "infoq.cn",
-      "quality_score": 36.5
+      "quality_score": 36.5,
+      "summary_zh": "InfoQ 精选：2026 年的云栖，阿里给 AI 行业递了一把新尺子",
+      "summary_en": "Featured on InfoQ: 2026 年的云栖，阿里给 AI 行业递了一把新尺子"
     },
     {
       "id": "infoq-2FFH5EHF2SMusaYQhjlX",
@@ -5180,7 +5200,9 @@
       "tags": [],
       "first_seen": "2026-09-23",
       "domain": "infoq.cn",
-      "quality_score": 37.4
+      "quality_score": 37.4,
+      "summary_zh": "Shopify 弃用 React Native，改用 Swift 和 Kotlin 做跨平台开发，InfoQ 的标题将这一取舍归因于 AI 带来的变化。对正在评估跨平台方案与原生技术栈的移动团队来说这是个信号，但原文只是链接，未提供迁移范围、时间表等更多细节。",
+      "summary_en": "Shopify has dropped React Native and moved to Swift and Kotlin for cross-platform development, a shift InfoQ frames as driven by how AI is changing cross-platform trade-offs. It matters to mobile teams weighing cross-platform frameworks against native stacks, though the linked page isn't summarized here and details beyond the title aren't available."
     },
     {
       "id": "infoq-jJAcfJO5e0ElPhIxwwxo",
@@ -5196,7 +5218,9 @@
       "tags": [],
       "first_seen": "2026-09-23",
       "domain": "infoq.cn",
-      "quality_score": 37.9
+      "quality_score": 37.9,
+      "summary_zh": "Dropbox 将内部用于生成文件预览的 Riviera 演进为通用内容处理平台，支持 300 多种文件格式与 100 多种转换，每秒执行数十万次转换，并支撑 Search、Replay、Sign、Dash。它把内容处理拆成可复用的转换单元，编排与执行分离并带缓存，现已通过公共 API 开放文档转 Markdown、音视频转录、元数据提取等异步接口，供 AI 与 RAG 工作流复用。",
+      "summary_en": "Dropbox has evolved Riviera from an internal file-preview service into a general content-processing platform covering 300+ file formats and 100+ conversion types, running hundreds of thousands of conversions per second and backing Search, Replay, Sign and Dash. It decomposes processing into composable transformation units with orchestration separated from execution and caching, and exposes a public API for Markdown conversion, audio/video transcription and metadata extraction via async jobs so AI and RAG workloads can reuse the pipeline."
     },
     {
       "id": "infoq-qEHi6k5ycwXUiasvfNKH",
