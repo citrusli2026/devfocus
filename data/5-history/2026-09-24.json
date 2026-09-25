@@ -420,7 +420,9 @@
       "tags": [],
       "first_seen": "2026-09-24",
       "domain": "bastardica.mitpit.com",
-      "quality_score": 36.4
+      "quality_score": 36.4,
+      "summary_zh": "这是一个恶搞工具，利用 OpenType 的 ligature（连字）特性把不同字体混排，做出 Times New Bastard 这类 \"cursed fonts\"。它把 Python 编译成 WASM 在浏览器客户端本地运行，所以生成速度相当快。适合对字体排印、OpenType 细节以及 WASM 前端玩法感兴趣的开发者。",
+      "summary_en": "A joke project that abuses OpenType ligatures to splice different typefaces together, producing \"cursed fonts\" like Times New Bastard. It runs Python compiled to WASM entirely client-side, which keeps generation fast in the browser. Aimed at type nerds and anyone curious about using WebAssembly for front-end tooling."
     },
     {
       "id": "hn-49816374",
@@ -3297,7 +3299,9 @@
       "gh_period": "daily",
       "first_seen": "2026-09-24",
       "domain": "github.com",
-      "quality_score": 30.0
+      "quality_score": 30.0,
+      "summary_zh": "NVIDIA 开源了 Model Optimizer（ModelOpt），把量化、剪枝、NAS、蒸馏、投机解码、稀疏化等技术收进一个库，输入支持 Hugging Face、PyTorch 和 ONNX，采用 Apache 2.0 许可，PyPI 包名为 nvidia-modelopt。适合需要在部署前压缩深度学习模型的开发者。",
+      "summary_en": "NVIDIA has open-sourced Model Optimizer (ModelOpt), a single library bundling quantization, pruning, NAS, distillation, speculative decoding and sparsity, with Hugging Face, PyTorch and ONNX inputs under an Apache 2.0 license. It ships as the nvidia-modelopt package on PyPI and targets developers who need to compress deep learning models before deployment."
     },
     {
       "id": "gh-daily-FxEmbed-FxEmbed",
@@ -5094,7 +5098,9 @@
       "tags": [],
       "first_seen": "2026-09-24",
       "domain": "infoq.cn",
-      "quality_score": 38.2
+      "quality_score": 38.2,
+      "summary_zh": "WSO2 正式发布 Agent Manager，把 Agent 治理与 Agent 逻辑分离，企业无需绑定模型、框架或运行时即可统一施加控制。平台提供可验证的 Agent 身份、RBAC、委派与权限撤销，40 多项内置控制覆盖 PII 脱敏和速率限制，并新增 MCP 治理与 Kubernetes 原生沙箱运行时，兼容 LangChain、CrewAI、Bedrock 等。",
+      "summary_en": "WSO2 has released Agent Manager, separating agent governance from agent logic so enterprises can apply uniform controls regardless of the underlying model, framework, or runtime. It offers verifiable agent identities, RBAC, delegation and revocation, 40-plus built-in controls such as PII redaction and rate limiting, plus MCP governance and a Kubernetes-native sandbox runtime. It entered beta in June 2026 and supports LangChain, CrewAI, Bedrock and similar stacks."
     },
     {
       "id": "infoq-amffXXMpr23rX3eoJDhv",
@@ -5126,7 +5132,9 @@
       "tags": [],
       "first_seen": "2026-09-24",
       "domain": "infoq.cn",
-      "quality_score": 39.3
+      "quality_score": 39.3,
+      "summary_zh": "OpenAI 依据 Preparedness Framework 把 GPT-6 Astra 的网络安全能力评为严重级，是首个达到该阈值的模型，Microsoft 同日宣布其已在 Foundry Models 中可用。在专家监督的测试中，Astra 用 29 小时打通针对一款浏览器的沙箱外代码执行链、12 小时适配官方稳定版，并另用 12 小时做出内核本地权限提升利用。",
+      "summary_en": "OpenAI rated GPT-6 Astra's cybersecurity capability as \"severe\" under its Preparedness Framework, the first model to cross that threshold, and Microsoft said the same day that it is available in Foundry Models. In expert-supervised tests, Astra built a browser sandbox-escape chain in 29 hours, adapted it to the official stable build in 12 more, and produced a working kernel local privilege escalation in 12 hours."
     },
     {
       "id": "infoq-P6mBiPWbwZIIpWpUVcOa",
@@ -5174,7 +5182,9 @@
       "tags": [],
       "first_seen": "2026-09-24",
       "domain": "infoq.cn",
-      "quality_score": 39.1
+      "quality_score": 39.1,
+      "summary_zh": "北京时间 9 月 23 日，OpenAI 与 Anthropic 相隔约一小时发布新模型：面向专业工作与复杂 Agent 的 GPT-6 Sol、主打低成本的 GPT-6 Luna，以及把 Communication 列为重点方向的 Claude Opus 5.5。Sol 的输入价从每百万 Token 4 美元降至 2 美元、输出从 20 美元降至 10 美元，Luna 再降一半，比拼焦点已从 Token 单价转向完成单次任务的总成本。",
+      "summary_en": "On September 23, OpenAI and Anthropic shipped new models roughly an hour apart: GPT-6 Sol for professional work, coding and complex agent tasks, the cheaper GPT-6 Luna, and Claude Opus 5.5, which adds Communication as an upgrade focus. Sol's API input price fell from $4 to $2 per million tokens and output from $20 to $10, with Luna halved again — the race is shifting from token prices to the cost of completing a task."
     },
     {
       "id": "infoq-TFaXKQvEWOOPfEuqmLkY",

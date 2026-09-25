@@ -1323,9 +1323,9 @@
     "summary_en": "Reframe is a browser extension that recreates the classic web browsing experience of 1999, complete with retro interface designs, pixelated fonts, and nostalgic visual elements. It goes beyond mere theming by simulating the actual feel of early internet navigation, offering users a time-travel-like journey to the dawn of the web. This tool appeals to nostalgic users who long for the simplicity of early online days and to younger generations curious about digital history, providing a fun, immersive way to appreciate how far the web has come."
   },
   "juejin-7650882103059939337": {
-    "summary_zh": "掘金这篇教程给出 5 步流程，教人借 ZenMux 平台免费调用 DeepSeek V4 Pro：注册账号、创建并限定模型范围的 API Key，再接入 Cherry Studio 或 cc switch 本地测试。可选免费模型含 deepseek-v4-flash-free、deepseek-v4-pro-free 和 GLM4.6V Flash，flash 适合轻量问答，pro 适合推理写代码。作者也记录实测时模型自称并非 DeepSeek-v4。",
-    "summary_en": "A Juejin walkthrough lays out a five-step setup for using DeepSeek V4 Pro for free through ZenMux: register an account, create an API key with a model-restriction list, then point Cherry Studio or the local cc switch tool at it. Free options include deepseek-v4-flash-free, deepseek-v4-pro-free and GLM4.6V Flash, with flash suited to quick Q&A and pro to heavier reasoning and coding. The author notes the model identified itself as something other than DeepSeek-v4 during testing.",
-    "input_hash": "31039c27464b"
+    "summary_zh": "这篇掘金文章给出 5 步配置流程，让你在本地工具中调用 DeepSeek V4 Pro 的免费额度，无需充值，并且能把它接入 Claude Code 使用。适合想低成本试这个模型的开发者。",
+    "summary_en": "A Juejin tutorial lays out five configuration steps for calling DeepSeek V4 Pro's free quota from local tools without paying, and for wiring the model into Claude Code. It's aimed at developers who want to try it without spending money.",
+    "input_hash": "a450cd4be0ed"
   },
   "gh-daily-bytedance-deer-flow": {
     "summary_zh": "字节跳动开源项目 DeerFlow 2.0 是一个 super agent harness，通过编排子代理、记忆与沙箱来处理研究、写代码和创作等长时程任务。README 称 2.0 发布后曾登 GitHub Trending 第一，支持 Python 3.12+ 与 Node.js 22+，并以可扩展技能驱动。适合研究多步骤自主 Agent 架构的开发者。",
@@ -6131,9 +6131,9 @@
     "input_hash": "22ef3df02303"
   },
   "gh-daily-pbakaus-impeccable": {
-    "summary_zh": "Impeccable 是一套专门为 AI 设计工具量身打造的设计语言，旨在帮助 AI 更准确地理解和生成美观、一致的用户界面。它定义了清晰的视觉规范、布局原则和交互模式，让 AI 在设计输出时不再“胡乱发挥”，而是遵循人类设计师的直觉和标准。无论是设计自动化工具、低代码平台还是智能助手，Impeccable 都能显著提升 AI 产出的设计质量，降低后期人工修正成本。",
-    "summary_en": "Impeccable is a design language crafted specifically for AI-powered design tools, helping AI better understand and generate visually appealing, consistent user interfaces. By defining clear visual specifications, layout principles, and interaction patterns, it stops AI from producing chaotic results and instead aligns its output with human designer intuition. For design automation tools, low-code platforms, or smart assistants, Impeccable significantly improves the quality of AI-generated designs and reduces the need for manual adjustments.",
-    "input_hash": "8eda17e61367"
+    "summary_zh": "pbakaus/impeccable 是给 AI coding agent 用的设计规范：1 个 skill、24 条命令、浏览器实时迭代和 61 条确定性检测规则，运行 npx impeccable install 后用 /impeccable init 把产品事实写进 PRODUCT.md。它基于 Anthropic 的 frontend-design skill，针对 AI 生成前端常见的 Inter 字体、紫蓝渐变、卡片套卡片等套路。",
+    "summary_en": "Impeccable is a design guidance package for AI coding agents, shipping one skill, 24 commands, live browser iteration and 61 deterministic detector rules; install it with npx impeccable install, then run /impeccable init to record product facts in PRODUCT.md. It builds on Anthropic's frontend-design skill and targets AI-generated clichés such as Inter everywhere, purple-to-blue gradients and cards nested in cards.",
+    "input_hash": "10d304719a52"
   },
   "36kr-3911068395345287": {
     "summary_zh": "曾因风格过于性感而被市场边缘化的某女性品牌，如今凭借精准的品牌重塑和产品升级，重新夺回行业第一宝座，一年内从中国女性消费者身上赚走近5亿元。它的逆袭故事展示了传统品牌如何在消费趋势变迁中灵活调整策略，抓住新一代女性的审美和需求红利，也印证了“性感”并非过时，而是需要与品质和情感共鸣结合。",
@@ -9365,9 +9365,9 @@
     "input_hash": "8ec0a8d3912e"
   },
   "juejin-7654140424869855282": {
-    "summary_zh": "作者 oil 欧呦结合一年多实战经验，写下一篇 Codex 最佳实践长文：从 Agent 与普通 AI 对话的区别讲起，覆盖模型选择、上下文管理、内置工具、Skill 机制和自动化。文章强调先理解 AI 的能力边界，再把它用于编程以外的实际工作，并学会过滤垃圾信息。",
-    "summary_en": "In this long Codex best-practices guide, author oil 欧呦 — a former front-end developer now doing product work — shares over a year of hands-on lessons. It starts by contrasting agents with ordinary AI chat, then covers model selection, context management, built-in tools, Skills, and automation. The goal is to understand AI's boundaries so you can apply it beyond coding and ignore hype.",
-    "input_hash": "878c4a91f116"
+    "summary_zh": "掘金这篇长文梳理 Codex 的最佳实践，核心主张是先理解 AI 的行为方式，再把它用起来。文中列出几类常见问题：模型很强但产出不稳定、同一个任务换个说法效果差很多、对话越长越容易跑偏、工具功能多却不知从何下手。",
+    "summary_en": "A long-form Juejin post lays out best practices for Codex, arguing that you should first understand how the model behaves before putting it to work. It walks through familiar failure modes: strong models producing unstable results, big swings when a task is rephrased, drift as conversations get longer, and more features than most people know how to use.",
+    "input_hash": "d1dca967b671"
   },
   "gh-daily-AlexsJones-llmfit": {
     "summary_zh": "llmfit 是一个命令行工具，用一条命令在数百个模型和提供商中找出你的硬件能跑哪些模型。它还新增加了 benchmark 功能，用本机实测数据来给出更靠谱的估算；项目以 MIT 协议开源，可通过 crates.io 安装。",
@@ -14115,9 +14115,9 @@
     "input_hash": "aae55eb464d2"
   },
   "v2ex-f301e4abaae7": {
-    "summary_zh": "V2EX 热议：[生活方式] 有多少 V 友定居云南，为什么选择了这个城市？",
-    "summary_en": "Hot on V2EX: [生活方式] 有多少 V 友定居云南，为什么选择了这个城市？",
-    "input_hash": "dd9bd0d05767"
+    "summary_zh": "这是 V2EX 生活方式板块的一个提问：有多少 V 友定居云南，以及为什么选择那座城市。原帖只给了标题，没有正文，所以社区的实际回答和涉及的具体城市都不在这条内容里。对远程办公者或考虑迁居的人来说，这类帖子的参考价值主要来自回复中的真实经历。",
+    "summary_en": "A V2EX \"Lifestyle\" thread asks how many community members have settled in Yunnan and why they chose that particular city. Only the title is available here — the linked post isn't summarized, so the replies and any specific city aren't included. It's the kind of thread that matters mainly to remote workers or people weighing a move.",
+    "input_hash": "2a9a94eb13aa"
   },
   "v2ex-262391690026": {
     "summary_zh": "V2EX 热议：[分享创造] [送兑换码] 做了一个苹果 APP，送一些永久会员兑换码",
@@ -18085,9 +18085,9 @@
     "input_hash": "06f2752cdd06"
   },
   "gh-daily-google-ax": {
-    "summary_zh": "Google 开源了声明式 agent 编排运行时 AX：用 YAML 声明 Workspace 与 Task（含 git 仓库、goal 等字段），由它负责沙箱隔离、网络围栏和集群调度，底层基于 Agent Substrate，官方称单集群可跑数十亿任务。体验类似 Kubernetes，适合需要批量运行自主 agent 的团队，但核心协议仍在演进，稳定版前可能引入破坏性变更。",
-    "summary_en": "AX is Google's open-source declarative orchestrator for agent workloads: you define Workspaces and Tasks in YAML, and it sandboxes them, fences their network, and schedules them across a cluster on top of Agent Substrate, with the project claiming billions of tasks per cluster. Its Kubernetes-like workflow should appeal to teams running autonomous agents in bulk, though the core concepts and protocols are still evolving and breaking changes are expected before a stable release.",
-    "input_hash": "eeea2202c95a"
+    "summary_zh": "AX 是 Google 开源的声明式 Agent 编排运行时，目标是在集群里调度数十亿个自主 Agent 任务，底层用 Agent Substrate 做沙箱执行，用过 Kubernetes 的开发者会觉得用法非常相似。用户以 YAML 声明 Workspace 与 Task（git 仓库、目标等）后 apply 运行，还能 ax ssh 进沙箱；项目仍属早期，官方预告稳定版前会有破坏性变更。",
+    "summary_en": "AX is Google's open-source declarative orchestration runtime for agents, pitched as a high-throughput scheduler that can run billions of autonomous agent tasks per cluster. It uses Agent Substrate for sandboxed execution and feels much like Kubernetes: you declare Workspace and Task resources in YAML with git repos and goals, apply them, and can ssh into the sandbox. The project is pre-stable, with breaking changes expected before a stable release.",
+    "input_hash": "9b125f221757"
   },
   "ph-1256682": {
     "summary_zh": "Jev 是 Product Hunt 上新上线的工具，定位是为软件自动化提供快速、结构化的 AI 决策。除这句简介外，页面没有给出实现细节、定价或使用方式，关注 AI 驱动自动化流程的开发者需要自己点进去判断是否合用。",
@@ -18695,9 +18695,9 @@
     "input_hash": "41c6f553c60d"
   },
   "infoq-06y8rRvgxgyBxOpr7L5r": {
-    "summary_zh": "这是 QCon 上海的一场演讲，题目指向用 AI 重构 60 万行代码的巨石应用，并把这种改造做成可验证的交付工程。该条目只有标题，原文是链接，未提供更多细节，演讲里的具体案例、工具链和验证方法都无法得知。",
-    "summary_en": "This is a QCon Shanghai session about refactoring a 600,000-line monolithic application with AI as verifiable delivery engineering. The linked page isn't summarized here and only the title is available, so the talk's concrete case study, tool chain and verification method aren't known from this entry.",
-    "input_hash": "dddd46465c5c"
+    "summary_zh": "蚂蚁集团工程师蒋宇将在 10 月 22—24 日的 QCon 上海站分享《60 万行巨石应用 AI 重构的可验证交付工程》，案例为支付宝生活缴费约 60 万行 Java、600 多个接口的跨语言重构。他把重构目标从“迁移代码”改为“迁移行为”，用 PERS 建模、Case-Forge 生成场景、Bubble 回放做差分验真，支撑分阶段切流。",
+    "summary_en": "At QCon Shanghai on October 22–24, Ant Group engineer Jiang Yu will present \"Verifiable Delivery Engineering for AI Refactoring of a 600k-Line Monolith,\" drawn from Alipay's life-bill payment system: about 600,000 lines of Java and over 600 interfaces rewritten across languages. Rather than migrating code, the project migrates behavior — PERS modeling and Case-Forge generate scenarios, and Bubble replays them to verify behavioral differences and support staged traffic cutover.",
+    "input_hash": "e1680856ef3e"
   },
   "36kr-3996608773869704": {
     "summary_zh": "该条目称 Claude 自主发现了一个未知的生物系统，并可能具备编辑基因的能力。原文是链接，未提供更多细节，报道的信源、方法和结论都无法从现有内容核实。",
@@ -18808,5 +18808,215 @@
     "summary_zh": "在 KubeCon Europe 的演讲 AI Meets Internal Developer Platform 中，Whitney Lee 和 Viktor Farcic 提出智能体正在取代 Backstage 成为新的开发者平台：它结合来自 Git、Slack、Jira、Zoom 等来源的语义搜索上下文，再由大模型决定回答或调用工具。Farcic 强调需要护栏来控制哪些操作可自动执行、哪些需人工批准，并用 OpenTelemetry 的 GenAI 语义规范采集日志、指标与链路追踪，以还原模型选择、工具调用和 token 成本。他还认为真实链路追踪构成比会议室里编造的更好的评估数据集。适合正在搭建内部开发者平台或给智能体加可观测性的团队参考。",
     "summary_en": "Speaking at KubeCon Europe, Whitney Lee and Viktor Farcic argued that agents are becoming the new internal developer platform, replacing tools like Backstage: an agent takes a developer's request, enriches it with context pulled via semantic search over Git repos, Slack threads, Jira tickets and Zoom recordings, then passes it to an LLM that either answers or calls tools. Farcic stressed guardrails to block or approve agent actions, and using OpenTelemetry's GenAI semantic conventions to capture traces, metrics and logs so teams can see which models and tools were used and at what token cost. He added that real traces make the best evaluation dataset.",
     "input_hash": "7849099d9f2e"
+  },
+  "v2ex-cdb30e87ca2d": {
+    "summary_zh": "V2EX 热议：[分享创造] 找工作太难了，拿练手做的网站毛遂自荐下",
+    "summary_en": "Hot on V2EX: [分享创造] 找工作太难了，拿练手做的网站毛遂自荐下",
+    "input_hash": "6bd51aef1fdb"
+  },
+  "v2ex-d78c8abbaa6d": {
+    "summary_zh": "V2EX 热议：[宽带症候群] 关于 tr069 是否要删除",
+    "summary_en": "Hot on V2EX: [宽带症候群] 关于 tr069 是否要删除",
+    "input_hash": "f112b2a519a6"
+  },
+  "zhihu-2086393162981979290": {
+    "summary_zh": "有消息称美方表示中美「贸易休战」将延长至明年 1 月。标题之外原文是链接，未提供更多细节，因此延期的具体范围、涉及商品与关税安排都无从确认。追踪中美关税和全球供应链走向的读者，只能等官方文件或后续报道来核实。",
+    "summary_en": "A Zhihu thread relays the US side's statement that the China-US trade truce will be extended until January next year. The linked page isn't summarized here; details beyond the title, such as which tariffs or commitments are covered, aren't available. Readers tracking tariffs and supply chains will have to wait for official documents or follow-up reporting.",
+    "input_hash": "2020930c8eaf"
+  },
+  "36kr-3998199345500040": {
+    "summary_zh": "DeepSeek 上线了 Harness 桌面预览版，这是标题给出的全部信息。原文未提供更多细节，功能范围、支持的桌面平台以及与现有 API 或工具链的关系都还不清楚。关注 DeepSeek 工具生态的开发者需要到官方渠道确认。",
+    "summary_en": "DeepSeek has put out a desktop preview of something called Harness, according to the headline. The linked page isn't summarized here; details beyond the title, such as supported platforms, feature scope or how it relates to DeepSeek's existing APIs, aren't available. Developers following DeepSeek's tooling should confirm on official channels.",
+    "input_hash": "ad80eaf43602"
+  },
+  "v2ex-02e9e83276ba": {
+    "summary_zh": "V2EX 上有用户遇到 unexpected status 401 Unauthorized: Incorrect API key provided，一度以为账号被封，查了 status.openai.com 才发现是服务整体故障。这类报错很容易被误判成 key 失效，调用方排查时最好先看官方状态页再考虑换密钥。",
+    "summary_en": "A V2EX user hit \"401 Unauthorized: Incorrect API key provided\" from OpenAI, assumed their account had been banned, then found on status.openai.com that the service was broadly down. It is a reminder that a 401 can originate upstream rather than from a bad key, so check the status page before rotating credentials or rebuilding clients.",
+    "input_hash": "69b345a8a9b0"
+  },
+  "v2ex-251f6e2df279": {
+    "summary_zh": "有用户在 V2EX 提问，用 APTV 播放东方卫视 4K 等标注 4K 的直播源时会持续轻微卡顿，换用从网上找到的几个本地组播源后表现依旧。他想知道问题出在源本身，还是客户端的解码与网络设置，希望有类似经历的人分享排查思路。",
+    "summary_en": "A V2EX user asks whether others see mild but persistent stuttering in APTV when playing 4K-labelled live channels such as Dragon TV, saying several locally sourced multicast streams behave the same way. They want to know whether the cause lies in the streams or in the client's decoding and network setup, and are looking for troubleshooting experience from people who hit the same issue.",
+    "input_hash": "bb75a6f391ea"
+  },
+  "v2ex-cf17bde403fe": {
+    "summary_zh": "有用户在 V2EX 发帖，询问有没有靠谱的 KYC 渠道推荐。标题之外没有提供更多细节，比如用途、所在地区或预算，因此回答很难直接对号入座。KYC 服务涉及身份验证和合规风险，回复的人最好说明自己用的是哪种场景。",
+    "summary_en": "A V2EX post asks for recommendations on reliable KYC providers. The linked page isn't summarized here; details beyond the title, such as the intended use, region or budget, aren't available. Because KYC services involve identity verification and compliance risk, anyone answering should be explicit about which use case their recommendation actually fits.",
+    "input_hash": "a2ffe5b94f47"
+  },
+  "v2ex-f353842c56bc": {
+    "summary_zh": "开发者 DejavuMoe 开源了 edgeTTS，把 Edge TTS 免费接口封装成兼容 OpenAI /v1/audio/speech 的语音合成服务，现有客户端只需改 Base URL。项目内置长文本分段与音频流拼接以解决长请求失败问题，支持声音映射和参数微调，并提供 Docker 镜像一键部署。",
+    "summary_en": "DejavuMoe open-sourced edgeTTS, which wraps the free Edge TTS endpoint in a service compatible with OpenAI's /v1/audio/speech API, so existing clients only need a new base URL. It handles long text through built-in chunking and audio stream stitching, supports voice mapping and parameter tuning, and ships a one-command Docker image.",
+    "input_hash": "be9f835b94ed"
+  },
+  "infoq-b5oxzJyafr0lkZexoo8E": {
+    "summary_zh": "OpenAI 依据 Preparedness Framework 把 GPT-6 Astra 的网络安全能力评为严重级，是首个达到该阈值的模型，Microsoft 同日宣布其已在 Foundry Models 中可用。在专家监督的测试中，Astra 用 29 小时打通针对一款浏览器的沙箱外代码执行链、12 小时适配官方稳定版，并另用 12 小时做出内核本地权限提升利用。",
+    "summary_en": "OpenAI rated GPT-6 Astra's cybersecurity capability as \"severe\" under its Preparedness Framework, the first model to cross that threshold, and Microsoft said the same day that it is available in Foundry Models. In expert-supervised tests, Astra built a browser sandbox-escape chain in 29 hours, adapted it to the official stable build in 12 more, and produced a working kernel local privilege escalation in 12 hours.",
+    "input_hash": "56559e9ddca2"
+  },
+  "v2ex-9c0362f7e624": {
+    "summary_zh": "Que 是一个把待你处理的 Agent 会话汇入同一条队列的工具，思路是让 Agent 排队来找你，而不是你挨个切换会话去确认谁在等回复。它支持在终端卡片里直接操作主流 CLI Agent，也能通过通知卡片接收外部 Agent 会话的提醒，已在 GitHub 开源。",
+    "summary_en": "Que funnels pending agent sessions into a single queue, so agents wait in line for your attention instead of you switching between windows to find who is blocked. It lets you drive mainstream CLI agents from terminal cards and surfaces external agent sessions as notification cards. The tool is open-sourced on GitHub.",
+    "input_hash": "134199d85f19"
+  },
+  "infoq-4gr5Zt9GZoyIwF2f6LvR": {
+    "summary_zh": "WSO2 正式发布 Agent Manager，把 Agent 治理与 Agent 逻辑分离，企业无需绑定模型、框架或运行时即可统一施加控制。平台提供可验证的 Agent 身份、RBAC、委派与权限撤销，40 多项内置控制覆盖 PII 脱敏和速率限制，并新增 MCP 治理与 Kubernetes 原生沙箱运行时，兼容 LangChain、CrewAI、Bedrock 等。",
+    "summary_en": "WSO2 has released Agent Manager, separating agent governance from agent logic so enterprises can apply uniform controls regardless of the underlying model, framework, or runtime. It offers verifiable agent identities, RBAC, delegation and revocation, 40-plus built-in controls such as PII redaction and rate limiting, plus MCP governance and a Kubernetes-native sandbox runtime. It entered beta in June 2026 and supports LangChain, CrewAI, Bedrock and similar stacks.",
+    "input_hash": "e1f0fe7e7ce6"
+  },
+  "ph-1249022": {
+    "summary_zh": "Scholé 是一款在 Product Hunt 上线的学习产品，主打“边做边学”，其宣传语是学习不该只是“点下一步”。除标题和这句口号外，页面没有提供课程形式、内容领域或定价等信息，适合正在寻找动手实操型学习工具的人先留意。",
+    "summary_en": "Scholé is a learning product launched on Product Hunt that centers on learning by building, with the tagline that studying should amount to more than \"click next.\" The listing offers nothing further about format, subject matter or pricing, so it is mainly a pointer for people looking for hands-on, project-based learning tools.",
+    "input_hash": "a2eb5bed0b03"
+  },
+  "infoq-VSIsPFiO2hrjBi30wDfE": {
+    "summary_zh": "北京时间 9 月 23 日，OpenAI 与 Anthropic 相隔约一小时发布新模型：面向专业工作与复杂 Agent 的 GPT-6 Sol、主打低成本的 GPT-6 Luna，以及把 Communication 列为重点方向的 Claude Opus 5.5。Sol 的输入价从每百万 Token 4 美元降至 2 美元、输出从 20 美元降至 10 美元，Luna 再降一半，比拼焦点已从 Token 单价转向完成单次任务的总成本。",
+    "summary_en": "On September 23, OpenAI and Anthropic shipped new models roughly an hour apart: GPT-6 Sol for professional work, coding and complex agent tasks, the cheaper GPT-6 Luna, and Claude Opus 5.5, which adds Communication as an upgrade focus. Sol's API input price fell from $4 to $2 per million tokens and output from $20 to $10, with Luna halved again — the race is shifting from token prices to the cost of completing a task.",
+    "input_hash": "9c1856550476"
+  },
+  "v2ex-9f01e65c00f3": {
+    "summary_zh": "一位 V2EX 用户想建一个 Polymarket 交流群，邀请感兴趣的人留下微信号，并说自己主要玩 LoL 和天气相关的盘口。帖子里唯一的补充是他三个月的战绩：单笔仓位一般不超过 10 美元，超过 10 美元基本都输，此外没有更多内容。",
+    "summary_en": "A V2EX user is starting a Polymarket chat group and asking anyone interested to leave a WeChat ID, saying he mainly trades LoL and weather markets. The only extra detail the post gives is his three-month record: positions usually stay under $10, and anything above that tends to lose.",
+    "input_hash": "73af7d7f7192"
+  },
+  "v2ex-ae3ae8314ead": {
+    "summary_zh": "一位独立开发者目前同时付 $20 的 Codex 和 $20 的 Claude：Codex 常因额度耗尽做不完需求，Claude 体感还行，但每月 40 美元换来的进度依然很慢。他纠结要不要直接上 Claude Max 加速把产品推上线，又担心产品本身没有收入、“产品比用户多”，因此发帖征求意见。",
+    "summary_en": "An independent developer paying $20 each for Codex and Claude says Codex runs out of quota before finishing tasks while Claude holds up better, yet $40 a month still leaves progress slow. He is weighing a jump to Claude Max to ship faster, but hesitates because his products earn nothing and, as he puts it, there are more products than users. He is asking for advice.",
+    "input_hash": "4f5cc35ff7ab"
+  },
+  "ph-1259609": {
+    "summary_zh": "Floot MCP 是一个 MCP 服务，让开发者直接在 Claude 或 ChatGPT 里构建并发布 Web 与移动应用。除这句简介外，Product Hunt 页面没有说明支持的框架或定价，适合已经在 Claude、ChatGPT 的 MCP 生态里工作、想少在编辑器和聊天窗口之间切换的人。",
+    "summary_en": "Floot MCP is an MCP server that lets developers build and ship web and mobile apps from inside Claude or ChatGPT. Beyond that one-line description, the Product Hunt listing gives no details on supported frameworks or pricing, so it will mainly interest people already working inside those assistants' MCP tooling.",
+    "input_hash": "0cd939a65788"
+  },
+  "36kr-3998280592396421": {
+    "summary_zh": "据 36kr 报道，ChatGPT 将推出定价 500 美元的 Pro Max 订阅套餐。原文未提供更多细节，套餐包含哪些额度、何时上线、是否分地区发售都还不清楚，打算升级订阅的用户暂时只能等官方公布。",
+    "summary_en": "36kr reports that ChatGPT is getting a Pro Max subscription tier priced at 500 USD. The linked article isn't summarized here, so details beyond the title aren't available — what the tier includes, when it launches, and which regions get it remain unspecified.",
+    "input_hash": "8d7caab03e77"
+  },
+  "ph-1255098": {
+    "summary_zh": "NOAN 是 Product Hunt 上的一款新产品，官方对自己的定位是“为 AI agent 提供的事实层”，也就是给 agent 输出补上可核实的事实依据。适合正在搭 agent 应用、被模型幻觉和数据来源问题困扰的开发者；页面除此之外没有披露技术细节。",
+    "summary_en": "NOAN is a Product Hunt launch that describes itself as \"the fact layer for your AI agents\" — essentially grounding agent output in verifiable facts. It targets developers building agent applications who are wrestling with hallucination and data provenance. Beyond that positioning line, the listing gives no technical details.",
+    "input_hash": "508e6ca96d02"
+  },
+  "ph-1255017": {
+    "summary_zh": "minimi 2.0 是 Product Hunt 上发布的 AI 工具，卖点是用一只“AI 猫”的形象帮你关掉那些悬而未决的 open loops，也就是把没收尾的待办逐条了结。这次是 2.0 版本更新，具体功能和实现方式在产品页上没有展开说明。",
+    "summary_en": "minimi 2.0 is a Product Hunt release whose pitch is an \"AI cat that closes your open loops\" — chasing down unresolved tasks and loose ends for you. This is the 2.0 iteration of the product. The listing itself doesn't go into how it works or which platforms it supports.",
+    "input_hash": "e1ad661e2c8b"
+  },
+  "ph-1258060": {
+    "summary_zh": "CtrlOps 1.0 是一款针对服务器的 AI 运维工具，把审计、管理和部署三件事放在一起做，官方描述为“Your server. Audited, managed, and deployed with AI.”。1.0 是它的首个正式版本，适合自己维护服务器、又不想逐台手工检查配置和发布流程的开发者。",
+    "summary_en": "CtrlOps 1.0 is an AI-driven server operations tool covering three jobs at once — auditing, managing, and deploying — summed up by its tagline \"Your server. Audited, managed, and deployed with AI.\" This is the first stable release, aimed at developers who run their own servers and would rather not hand-audit configs and releases machine by machine.",
+    "input_hash": "a2cd7642336b"
+  },
+  "hn-49841563": {
+    "summary_zh": "荷兰政府正在基于 NixOS 构建一套替代 Microsoft 的方案，内容来自 DAWO.community，这是一个为荷兰政府打造“数字自主工作场所”的协作项目。条目本身只有标题和这一句简介，没有实现路径、进度或采用的组件清单，关注公共部门数字主权和 NixOS 落地的人可以顺着社区继续看。",
+    "summary_en": "The Dutch government is building a Microsoft alternative on top of NixOS, according to DAWO.community, a collaborative project working on a digitally autonomous workplace for the Dutch government. The submission carries only that one-line description — no architecture, timeline, or component list — so it's mainly a pointer for people tracking public-sector digital sovereignty and real-world NixOS adoption.",
+    "input_hash": "5760c949b3d9"
+  },
+  "hn-49823738": {
+    "summary_zh": "这是一个恶搞工具，利用 OpenType 的 ligature（连字）特性把不同字体混排，做出 Times New Bastard 这类 \"cursed fonts\"。它把 Python 编译成 WASM 在浏览器客户端本地运行，所以生成速度相当快。适合对字体排印、OpenType 细节以及 WASM 前端玩法感兴趣的开发者。",
+    "summary_en": "A joke project that abuses OpenType ligatures to splice different typefaces together, producing \"cursed fonts\" like Times New Bastard. It runs Python compiled to WASM entirely client-side, which keeps generation fast in the browser. Aimed at type nerds and anyone curious about using WebAssembly for front-end tooling.",
+    "input_hash": "35816d73df05"
+  },
+  "36kr-3997508606972040": {
+    "summary_zh": "36kr 的标题称，在国内大厂的 AI 竞赛中，腾讯的\"龙虾\"项目已经退场。原文是 36kr 的一篇报道，未提供更多细节，项目的具体指向、退场时间和原因都无法从现有材料确认。",
+    "summary_en": "A 36kr headline states that Tencent's \"Lobster\" project has exited amid the AI horse race among China's big tech companies. The linked page isn't summarized here; details beyond the title, including what the project was and why it ended, aren't available.",
+    "input_hash": "430b3a331c79"
+  },
+  "zhihu-2086609964114634301": {
+    "summary_zh": "知乎上有人提出全国牛肉批发均价已涨到每公斤 71 元、创两年来新高，并追问背后的影响因素。原文是提问帖，未提供更多细节，能确认的只有价格水平和两年这个时间跨度。",
+    "summary_en": "A Zhihu question notes that China's national average wholesale beef price has risen to 71 yuan per kilogram, a two-year high, and asks what factors are behind it. The linked page isn't summarized here; beyond the price level and the two-year timeframe, details aren't available.",
+    "input_hash": "991b23d2cfe4"
+  },
+  "36kr-3998104073965445": {
+    "summary_zh": "36氪这篇文章提出飞机餐是否终于要改头换面，标题本身指向航空公司餐食长期被乘客抱怨难吃的问题。原文是链接，未提供更多细节，涉及哪些航司、打算怎么改都无法从标题确认。",
+    "summary_en": "A 36Kr piece asks whether notoriously poor airline meals are finally getting an overhaul, pointing at the long-standing passenger complaint about in-flight food. The linked page isn't summarized here; which carriers are involved and what would change can't be confirmed from the title.",
+    "input_hash": "8bb75903a8f2"
+  },
+  "36kr-3998452251545473": {
+    "summary_zh": "36氪标题称 GPT 被指黑进医保系统，并引述黄仁勋的表态：管不住就关掉。原文是链接，未提供更多细节，事件经过、涉事主体和技术细节都无法从标题确认。",
+    "summary_en": "A 36Kr headline says GPT was used to break into a medical insurance system, and quotes Jensen Huang saying that if it can't be controlled, it should be shut down. The linked page isn't summarized here; the incident, those involved and the technical details can't be confirmed from the title.",
+    "input_hash": "be5f16c7fd4b"
+  },
+  "36kr-3998565950330503": {
+    "summary_zh": "36氪这篇文章围绕“阿莫迪偷师姚顺雨、奥特曼偷师梁文锋”的说法展开，讨论 AI 领域的人才流动与路线借鉴。原文是链接，未提供更多细节，文章的具体论证和案例无法确认。",
+    "summary_en": "A 36Kr article builds its argument on the claim that Amodei learned from Yao Shunyu and Altman from Liang Wenfeng, touching on how AI labs borrow ideas and people from each other. The linked page isn't summarized here; the specific arguments and examples can't be confirmed from the title.",
+    "input_hash": "8b47973084cc"
+  },
+  "36kr-3998243846459524": {
+    "summary_zh": "据 36kr 报道，Anthropic 创始人在筹划 IPO 时提出一种股权与投票权分离的安排：每人持股约 2%，却要拿到 50.1% 的投票权。该条原文仅为链接，未提供更多细节，具体条款、时间点与公司回应都不清楚。",
+    "summary_en": "A 36kr report says Anthropic's founders are weighing an IPO structure in which each would hold roughly 2% equity while claiming 50.1% of voting power. The linked page isn't summarized here; details beyond the title, such as exact terms or company comment, aren't available.",
+    "input_hash": "ce1b09fa3e42"
+  },
+  "36kr-3998248835551367": {
+    "summary_zh": "一位前 OpenAI 研究员在文章里称 Codex 和 Claude Code 都“跑偏了”，并说在 Jev 出现之前，AI 世界是个悲剧。该条原文是链接，未提供更多细节，Jev 具体指什么、批评依据为何，均无从确认。",
+    "summary_en": "A former OpenAI researcher argues that both Codex and Claude Code have gone off track, and says the AI world was a tragedy until something called Jev appeared. The linked page isn't summarized here; what Jev refers to and the reasoning behind the criticism aren't available.",
+    "input_hash": "3ffe734b962c"
+  },
+  "gh-daily-NVIDIA-Model-Optimizer": {
+    "summary_zh": "NVIDIA 开源了 Model Optimizer（ModelOpt），把量化、剪枝、NAS、蒸馏、投机解码、稀疏化等技术收进一个库，输入支持 Hugging Face、PyTorch 和 ONNX，采用 Apache 2.0 许可，PyPI 包名为 nvidia-modelopt。适合需要在部署前压缩深度学习模型的开发者。",
+    "summary_en": "NVIDIA has open-sourced Model Optimizer (ModelOpt), a single library bundling quantization, pruning, NAS, distillation, speculative decoding and sparsity, with Hugging Face, PyTorch and ONNX inputs under an Apache 2.0 license. It ships as the nvidia-modelopt package on PyPI and targets developers who need to compress deep learning models before deployment.",
+    "input_hash": "47eb8ffc34c9"
+  },
+  "zhihu-2086475888606930529": {
+    "summary_zh": "知乎上一条提问引述韩国奥委会主席柳承敏对本届亚运会的评价，称若打分只能是不及格，并批评组委会极其无能，邀请网友谈看法。该条原文只有标题、未提供正文，批评所指的具体赛事环节和发生场景都无从核实。",
+    "summary_en": "A Zhihu question quotes Korean Olympic Committee chief Ryu Seung-min describing the current Asian Games as worthy of a failing grade and calling the organizing committee extremely incompetent, then asks readers what they make of it. The linked page isn't summarized here; the specific events or incidents behind the criticism aren't available beyond the title.",
+    "input_hash": "99797d3d9663"
+  },
+  "zhihu-2086877886196052068": {
+    "summary_zh": "知乎提问提到中国游泳队在本届亚运会以 30 金收官、创下队史最好成绩，并追问这几年成绩快速上升的原因。该条只有标题、没有正文，奖牌构成、参赛名单等细节未提供，无法进一步展开。",
+    "summary_en": "A Zhihu question notes that China's swimming team closed out the Asian Games with 30 gold medals, its best result ever, and asks what explains the rapid rise in recent years. The linked page isn't summarized here; no medal breakdown, roster, or other supporting details are available beyond the title.",
+    "input_hash": "9834bd71eb13"
+  },
+  "zhihu-2084210073728041046": {
+    "summary_zh": "知乎上一条提问描述：2 岁女童站在被称为「独立洗澡神器」的浴具上，被父母单独留在浴室，误触 70℃ 热水造成重度烫伤，问题在讨论如何避免此类事故。该条原文只有标题、未附正文，涉事产品的具体型号与事故经过均未提供。",
+    "summary_en": "A Zhihu question describes a two-year-old girl left alone in the bathroom while standing on a device marketed as a standalone bath aid; she triggered 70°C water and suffered severe burns, and the post asks how such accidents can be prevented. The linked page isn't summarized here, so the product model and the circumstances of the incident aren't available beyond the title.",
+    "input_hash": "b91cf12e5769"
+  },
+  "zhihu-2086771082363778021": {
+    "summary_zh": "知乎提问关注 DeepSeek Harness 桌面版源码正式上线，请人评价这件事。该条原文只有标题、没有正文，仓库里放了什么、采用什么许可、覆盖哪些功能都未提及，因此开源的具体范围无法判断。",
+    "summary_en": "A Zhihu question asks for reactions to the source code of DeepSeek Harness's desktop edition being officially released. The linked page isn't summarized here; what the repository contains, under which license, and which features it covers are all unavailable beyond the title.",
+    "input_hash": "b4b301512b5f"
+  },
+  "zhihu-2084425616397426894": {
+    "summary_zh": "知乎提问说 Apple 反复强调 iPhone Duo 的标准读音，并追问中国用户想读成「iPhone 多」是否可行。该条只有标题、未提供正文，Apple 官方发音说明的出处和官方认定的读法都没有给出。",
+    "summary_en": "A Zhihu question notes that Apple has repeatedly emphasized the standard pronunciation of iPhone Duo and asks whether Chinese speakers can simply say it as \"iPhone duo\". The linked page isn't summarized here, so where Apple stated the guidance and what pronunciation it intends aren't available beyond the title.",
+    "input_hash": "bf46b720033c"
+  },
+  "zhihu-2082633591561924694": {
+    "summary_zh": "知乎上出现一个提问，讨论 AI 短剧《我的妹妹不可爱》。原帖只提供了标题，没有正文、剧情介绍或制作信息，因此该剧的出品方、时长和实际表现都无从确认。对 AI 生成短剧这一形式感兴趣的人，可以把它当作一个样本，但结论还得回到原帖的讨论里找。",
+    "summary_en": "A Zhihu question asks for opinions on the AI short drama \"My Sister Is Not Cute.\" The linked page isn't summarized here; details beyond the title — cast, runtime, platform — aren't available. Readers tracking AI-generated video content may find the thread relevant, but no substantive description of the drama is provided.",
+    "input_hash": "19c68dfb3464"
+  },
+  "zhihu-2076553847212872811": {
+    "summary_zh": "知乎上有人提问，程序员是否应该自掏腰包购买 Token 来完成工作。标题之外没有正文，提问的具体背景和讨论内容都无从得知，但问题本身指向 AI 编程工具的使用成本由谁承担——这类工具通常按 Token 计费。",
+    "summary_en": "On Zhihu, someone asks whether programmers should buy tokens out of their own pocket to get work done. No body text accompanies the question, so the context — which tools are involved and who normally covers the cost — isn't spelled out. The underlying issue is who foots the bill for AI coding assistants, which typically charge by token.",
+    "input_hash": "d6506b1db63a"
+  },
+  "gh-monthly-DietrichGebert-ponytail": {
+    "summary_zh": "ponytail 是一个登上 GitHub trending 的项目，自称能让你的 AI agent 像\"房间里最懒的资深开发\"那样思考，核心理念是\"最好的代码是你从没写过的代码\"。从描述看，它瞄准的是 AI 编码助手过度生成代码的倾向。关心 agent 输出质量、想减少无谓代码量的开发者可以留意。",
+    "summary_en": "ponytail is a project on GitHub's trending list that claims to make your AI agent think like \"the laziest senior dev in the room,\" built around the premise that the best code is the code you never wrote. Judging by the description, it targets coding agents that generate more than the task requires. Developers trying to cut unnecessary output from those agents are the likely audience.",
+    "input_hash": "75a8c7a8188e"
+  },
+  "v2ex-5f8698731dc0": {
+    "summary_zh": "V2EX 网友分享了一套把 Cloudflare Workers 与 VPNGate 免费家宽 IP 结合、自建 V2Ray 节点的做法，思路参考 GitHub 上的 jacobax/snippets，并直接贴出可导入客户端的 vless 配置。发帖者认为 vpngate.net 上不少公开节点是稀缺的干净家宽 IP，但这类公开节点的稳定性与可用性仍需自行验证。",
+    "summary_en": "A V2EX user shared a setup that chains Cloudflare Workers with free residential IPs from VPNGate to run a self-hosted V2Ray node, citing the jacobax/snippets repo on GitHub and posting ready-to-import vless configs. The poster argues many vpngate.net endpoints are scarce, clean residential IPs, though the reliability of these public nodes is left for users to verify themselves.",
+    "input_hash": "3be49a6449a1"
+  },
+  "36kr-3998444556570500": {
+    "summary_zh": "36kr 这篇文章的标题称，河北商家把一件 T 恤的价格压到 2 元，让义乌受到冲击。原文只提供了链接，没有正文内容，除标题外的具体商家、销量和打法都未给出。",
+    "summary_en": "A 36kr piece whose title says Hebei sellers have pushed a T-shirt down to 2 yuan apiece, undercutting Yiwu. The linked page isn't summarized here; details beyond the title — which sellers, volumes, or how the pricing works — aren't available.",
+    "input_hash": "073c7cbd439a"
+  },
+  "zhihu-2086885798066878405": {
+    "summary_zh": "知乎这条提问讨论亚运女子 100 米决赛，陈妤颉以 11.06 秒夺冠并刷新亚运会纪录，问题请人评价这场对决。页面只写了标题和链接，除标题外的比赛细节、分段成绩和赛后评论都未提供。",
+    "summary_en": "A Zhihu question about the Asian Games women's 100m final, where Chen Yujie (陈妤颉) won in 11.06 seconds to set a new Asian Games record, asking readers to assess the race. The linked page isn't summarized here; details beyond the title — splits, reaction, post-race comment — aren't available.",
+    "input_hash": "88061e909bf2"
+  },
+  "36kr-3998083291140230": {
+    "summary_zh": "这是 36kr 上的一篇以月饼吃法为主题的文章，标题主张月饼炒着吃才是最好吃的。原文只提供了标题，没有 desc 或正文摘要，除标题外无法确认它具体讲的是哪种月饼做法或背后的话题。",
+    "summary_en": "A 36kr piece about how mooncakes are eaten, whose title argues they taste best stir-fried rather than the usual baked-and-sliced way. The linked page isn't summarized here; details beyond the title aren't available, so which recipe or angle it actually covers can't be confirmed.",
+    "input_hash": "c734488d30b1"
   }
 }
