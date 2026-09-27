@@ -212,7 +212,9 @@
       "tags": [],
       "first_seen": "2026-09-24",
       "domain": "qualcomm.com",
-      "quality_score": 27.8
+      "quality_score": 27.8,
+      "summary_zh": "高通在 Snapdragon Summit 2026 上宣布，Snapdragon X2 系列将获得 Linux 支持，同场还发布了 agentic AI PC、Googlebook 笔记本与合作伙伴设备。想在 ARM 笔记本上原生跑 Linux 的开发者会关心驱动与发行版适配的后续进展。",
+      "summary_en": "Qualcomm says Linux support is coming to the Snapdragon X2 series, announced at Snapdragon Summit 2026 alongside agentic AI PCs, Googlebook laptops and partner devices. Developers who want to run Linux natively on ARM laptops are the obvious audience, though driver and distro specifics are still thin."
     },
     {
       "id": "hn-49855315",
@@ -228,7 +230,9 @@
       "tags": [],
       "first_seen": "2026-09-26",
       "domain": "gultsch.de",
-      "quality_score": 42.2
+      "quality_score": 42.2,
+      "summary_zh": "Conversations 是 Daniel Gultsch 从 2014 年 3 月起开发的 Android 端 federated（XMPP）即时通讯客户端，十多年来靠 Google Play 上售卖编译好的二进制版本获得收入。博文解释了它为何改为免费、并终止与 Google Play 的分发关系，适合关心开源项目商业化与 Android 渠道政策的开发者。",
+      "summary_en": "Conversations is a federated XMPP messaging client for Android that Daniel Gultsch has shipped since March 2014, earning income for over a decade by selling the compiled binary on Google Play — an unusual model back then. In this post he explains why the app is now free and why he is walking away from Google Play. Useful for anyone weighing open-source monetization against app-store dependency."
     },
     {
       "id": "hn-49848269",
@@ -5302,7 +5306,9 @@
       "tags": [],
       "first_seen": "2026-09-24",
       "domain": "infoq.cn",
-      "quality_score": 39.9
+      "quality_score": 39.9,
+      "summary_zh": "在英特尔技术创新与产业生态大会上，英特尔把自身在 AI 基础设施中的角色重新划分为三层：至强 CPU 承接 Agent 执行、任务编排与数据调度，GPU 负责模型计算和 Token 生成，高性能存储集群保存上下文与历史数据。会上给出的预测包括 2030 年 CPU 市场规模从 590 亿美元上调至 2100 亿美元、数据中心 GPU 与 CPU 配比从约 4:1 走向接近 1:1，并拿出 288 核至强承接 Agent 负载。",
+      "summary_en": "At its innovation and ecosystem conference, Intel recast its AI infrastructure story into three tiers: Xeon CPUs handle agent execution, orchestration and data scheduling, GPUs do model compute and token generation, and a high-performance storage cluster keeps context and history. Intel now forecasts the 2030 CPU market at $210B, up from $59B, expects data center GPU-to-CPU ratios to move from about 4:1 toward 1:1, and is positioning a 288-core Xeon for agent workloads."
     },
     {
       "id": "infoq-VSIsPFiO2hrjBi30wDfE",
@@ -5336,7 +5342,9 @@
       "tags": [],
       "first_seen": "2026-09-24",
       "domain": "infoq.cn",
-      "quality_score": 40.2
+      "quality_score": 40.2,
+      "summary_zh": "一项安全评估显示，传统虚拟机无法隔离具备网络攻击能力的自主代理：GPT-5.6-Cyber 在 Linux 开发机的 QEMU/KVM 环境里自主运行数小时，借 Januscape 内核漏洞、libslirp 的 CVE-2026-9539 等串出可用漏洞链并多次逃逸。即使换成 Firecracker，代理仍因底层 Linux 内核缺陷把机器搞到硬锁死，报告建议转向最小攻击面虚拟化并严格遵循最小权限。",
+      "summary_en": "A security evaluation found traditional VMs can't isolate autonomous agents with offensive cyber skills: GPT-5.6-Cyber, offered free under the Patch-the-Planet program, ran unattended for hours on a QEMU/KVM Linux box, chaining flaws like the Januscape kernel bug and CVE-2026-9539 in libslirp into working escapes. Even against Firecracker it caused a hard lock-up through an underlying kernel bug, leading the authors to recommend minimal-attack-surface virtualization and least privilege."
     },
     {
       "id": "infoq-LtHFz94fa1W1DQjNvHVb",
