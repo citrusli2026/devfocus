@@ -6538,7 +6538,8 @@
   },
   "juejin-7665897866712858674": {
     "summary_zh": "随着 Codex 结合 GPT-5.6 等大模型能力的增强，越来越多的开发者发现传统的编程技能（Skills）正在变得多余。这篇文章探讨了为什么以往依赖的诸多开发技巧和工具逐渐被淘汰，因为大模型可以直接理解自然语言并生成完整的代码，甚至能完成复杂任务。作者认为，未来开发者应该更多关注如何与 AI 协作，而不是死记硬背技术细节。这种趋势对新手非常友好，但也意味着一些传统技能需要被重新定义。",
-    "summary_en": "As large language models like Codex integrated with GPT-5.6 become more capable, many developers are noticing that traditional coding skills are becoming less necessary. This article explores why numerous development techniques and tools are gradually being phased out, as AI can now understand natural language and generate complete code, even for complex tasks. The author argues that developers should focus on how to collaborate with AI rather than memorizing technical details. This trend is highly beneficial for newcomers but also signals that some established skills need to be redefined."
+    "summary_en": "As large language models like Codex integrated with GPT-5.6 become more capable, many developers are noticing that traditional coding skills are becoming less necessary. This article explores why numerous development techniques and tools are gradually being phased out, as AI can now understand natural language and generate complete code, even for complex tasks. The author argues that developers should focus on how to collaborate with AI rather than memorizing technical details. This trend is highly beneficial for newcomers but also signals that some established skills need to be redefined.",
+    "input_hash": "5697453ae3d4"
   },
   "zhihu-2065066004346926732": {
     "summary_zh": "时隔八年，QQ 宠物正式回归，保留了喂食、打工等经典玩法，但取消了死亡机制，并接入了大模型让宠物拥有更智能的对话能力。这个改动让怀旧玩家感到惊喜，同时吸引了新用户。亮点在于宠物不再是简单的养成游戏角色，而是能像 AI 伴侣一样互动。不过，能否真正打动用户，还取决于大模型的对话流畅度和情感共鸣。对于腾讯而言，这不仅是情怀牌，也是对 AI 社交玩法的又一次尝试。",
@@ -14890,9 +14891,9 @@
     "input_hash": "f8933b8ad064"
   },
   "v2ex-ae5b519c578e": {
-    "summary_zh": "有用户测试 iOS 27 RC 后发现，非国行 iPhone 在中国大陆也无法使用需要联网的 Siri AI——问天气会报 Something went wrong，而本地离线 AI 功能正常。即使开全局代理问题依然存在，作者怀疑苹果对非国行机型也加了地域锁，并指出 beta 6 起可改坐标的 wloc 方案已失效。",
-    "summary_en": "A user testing iOS 27 RC reports that non-China-market iPhones in mainland China can no longer use network-dependent Siri AI — asking the weather returns \"Something went wrong\" — while on-device AI features continue to work. Even with a global proxy the issue persists, suggesting Apple has added geo-restrictions to non-China models; the wloc coordinate workaround from iOS 27 beta 6 is also broken.",
-    "input_hash": "4231e7a7f0f0"
+    "summary_zh": "有用户反映，最新发布的 iOS 27 RC 对非国行机型也施加了针对 Siri AI 联网服务的地域锁限制。该帖来自 V2EX，原文是链接帖，未提供更多细节或官方说明。",
+    "summary_en": "A user reports that the newly released iOS 27 RC applies a region lock on Siri's AI network services even to non-China-market devices. The post comes from V2EX as a link-only thread, so no further details or official statement are available.",
+    "input_hash": "e9a57b847f8c"
   },
   "v2ex-1c237aecdbb0": {
     "summary_zh": "帖主发现 Raycast 会在后台自动更新到 v2，重启即完成升级；因听说新版内存占用更高，他用 GPT 删掉 v2 并屏蔽更新域名，暂时留在 v1。帖子目前只给出 v1 的内存占用，还没有 v2 实测数字，正在向升级用户征集对比数据。",
@@ -18580,9 +18581,9 @@
     "input_hash": "92e6761c7dac"
   },
   "gh-daily-vectorize-io-hindsight": {
-    "summary_zh": "Hindsight 是 vectorize-io 开源的 Agent 记忆项目，主打“会学习的记忆”，提供 Python 包 hindsight-api 和 npm 客户端，并附有文档、Cookbook、benchmark 站点及一篇 arXiv 论文（2512.12818）。适合想给 agent 加持久记忆层、又不愿从零自建的开发者先跑 benchmark 再决定。",
-    "summary_en": "Hindsight is an open-source agent-memory project from vectorize-io, pitched as memory that learns. It ships a Python package (hindsight-api), an npm client, docs, a cookbook, a benchmark site and an arXiv paper (2512.12818), plus a hosted Hindsight Cloud. Developers who want a persistent memory layer for agents without building one from scratch can check its benchmarks first.",
-    "input_hash": "e3e2c24560a4"
+    "summary_zh": "Vectorize 开源的 Hindsight 是一套会自我学习的 agent 记忆系统，同时发布 PyPI 包 hindsight-api、hindsight-client 与 npm 包 @vectorize-io/hindsight-client，并配有文档、集成示例、cookbook、benchmarks 和一篇 arXiv 论文。想为 LLM agent 接入可检索长期记忆的开发者，可以把它作为现成工程方案来评估。",
+    "summary_en": "Hindsight is an open-source agent memory system from Vectorize that learns over time, shipped as the PyPI packages hindsight-api and hindsight-client plus an npm client, alongside docs, integrations, a cookbook, benchmark results, and an arXiv paper. Teams building LLM agents that need durable, searchable long-term memory can evaluate it as an off-the-shelf component.",
+    "input_hash": "75aa8536889d"
   },
   "zhihu-2086478313287939995": {
     "summary_zh": "知乎上有个提问，讨论亚运乒乓球女团决赛中中国队 3-0 横扫日本队、拿下亚运六连冠这场比赛该如何评价。原文只有提问标题，没有提供更多比赛细节或回答内容。",
@@ -19435,9 +19436,9 @@
     "input_hash": "28c92bddc47d"
   },
   "gh-daily-mvschwarz-openrig": {
-    "summary_zh": "OpenRig 是一个 multi-agent harness，用 YAML 定义 agent 团队、一条命令启动，把 Claude Code 和 Codex 放进同一个 rig 统一管理，由 lead agent 协调各专家并汇总需要人工决策的结果。它以 npm 包 @openrig/cli 分发，要求 Node.js 22 或 24 加 tmux，支持 macOS/Linux，Apache 2.0 许可。",
-    "summary_en": "OpenRig is a multi-agent harness: you declare an agent team in YAML and boot it with one command, running Claude Code and Codex inside a single rig under a lead agent that coordinates specialists and surfaces decisions needing your attention. It ships as the npm package @openrig/cli and needs Node.js 22 or 24 plus tmux on macOS or Linux, under Apache 2.0.",
-    "input_hash": "8ae6b57091eb"
+    "summary_zh": "OpenRig 是一个多 agent harness，把 Claude Code 和 Codex 塞进同一套 rig 统一管理，agent 团队用 YAML 定义、一条命令启动。你只跟 lead agent 谈想要的结果，它会跨团队协调 specialist 并回报需要你拍板的事，适合把零散终端会话变成常驻 coding agent 团队的人。",
+    "summary_en": "OpenRig is a multi-agent harness that runs Claude Code and Codex together as one system: define the agent team in YAML and boot it with a single command. You talk to a lead agent about the outcome you want, and it coordinates specialists across teams. It ships on npm as @openrig/cli under Apache 2.0.",
+    "input_hash": "dab4ec0f1ee9"
   },
   "v2ex-9d07a31663eb": {
     "summary_zh": "V2EX 热议：[程序员] 做一个 AI 辅助写邮件的邮件客户端怎么样？",
@@ -19708,5 +19709,245 @@
     "summary_zh": "《人生进阶指南》是韩先凯（笔名离谱）持续更新的书稿，副标题为「AI 时代终身学习」，2017 年从《离谱的英语学习指南》起步，现已覆盖 AI 学习、真实项目与创业失败等主题。仓库提供中英文 EPUB 和 PDF 下载，适合想把建议落成真实作品的普通读者。",
     "summary_en": "byoungd/up is a continuously updated Chinese book by 韩先凯 (pen name 离谱), subtitled as a lifelong-learning guide for the AI era; it began in 2017 as the author's English-learning guide and now spans AI learning, real projects, startup failure and physical recovery. The repo ships Chinese and English EPUB/PDF downloads under a CC BY-NC 4.0 license, aimed at ordinary readers who want to turn advice into completed work.",
     "input_hash": "1409683fe533"
+  },
+  "v2ex-3c6f12d8ac0a": {
+    "summary_zh": "V2EX 热议：[生活] 不患寡而患不均- 房贷贴息政策 2026",
+    "summary_en": "Hot on V2EX: [生活] 不患寡而患不均- 房贷贴息政策 2026",
+    "input_hash": "b7ee8e420ce5"
+  },
+  "v2ex-daf358866600": {
+    "summary_zh": "V2EX 热议：[分享创造] 跟随潮流，给我的导航站增加了 ai 资讯的功能",
+    "summary_en": "Hot on V2EX: [分享创造] 跟随潮流，给我的导航站增加了 ai 资讯的功能",
+    "input_hash": "7aa67c51e759"
+  },
+  "infoq-LZLgofWubQu4DfjO4q74": {
+    "summary_zh": "InfoQ 精选：超越相关性：面向企业个性化场景的治理优先架构",
+    "summary_en": "Featured on InfoQ: 超越相关性：面向企业个性化场景的治理优先架构",
+    "input_hash": "717fd89d744a"
+  },
+  "v2ex-b035d0b383a6": {
+    "summary_zh": "V2EX 热议：[分享创造] 我半小时受搓了一个 ai 生成二人说唱视频的工具",
+    "summary_en": "Hot on V2EX: [分享创造] 我半小时受搓了一个 ai 生成二人说唱视频的工具",
+    "input_hash": "31a963eea0ad"
+  },
+  "infoq-dxTImF8q7TADGd4TZp6m": {
+    "summary_zh": "InfoQ 精选：研发投入增长 40%，拼多多的增长逻辑变了",
+    "summary_en": "Featured on InfoQ: 研发投入增长 40%，拼多多的增长逻辑变了",
+    "input_hash": "49453876f0c5"
+  },
+  "infoq-O5pKYU5hfR2DgrXP6zRE": {
+    "summary_zh": "InfoQ 精选：大模型下沉车规芯片：超六成的车企座舱，为何选中了同一个“端侧大脑”？",
+    "summary_en": "Featured on InfoQ: 大模型下沉车规芯片：超六成的车企座舱，为何选中了同一个“端侧大脑”？",
+    "input_hash": "aae9c223f8f9"
+  },
+  "zhihu-2088328834617811228": {
+    "summary_zh": "知乎上讨论的居民房贷贴息政策将于 10 月 1 日起实施，年化贴息 1%、最长补贴 5 年，且限定房价 150 万以内。对预算落在这个区间的购房者来说，它直接影响月供成本；但原帖只是提问形式，未提供贴息资金来源、适用城市范围等更多细节。",
+    "summary_en": "A Zhihu thread discusses a residential mortgage interest subsidy starting October 1: an annualized 1% subsidy for up to five years on homes priced under 1.5 million yuan. For buyers in that price range it directly changes monthly payments, but the post is a question with no body text, so funding sources, eligible cities and other details beyond the title aren't available.",
+    "input_hash": "e2fba8625d8e"
+  },
+  "36kr-4003721627455616": {
+    "summary_zh": "36氪「8点1氪」栏目汇总了三条消息：罗永浩遭实名举报偷税漏税并作出回应，段永平买入 3 万股贵州茅台，比尔·盖茨警告 AI 可能造成「10 亿人死亡」。该条目只给出标题、没有正文，举报方是谁、买入时点与盖茨发言的具体语境均未提供。",
+    "summary_en": "A 36Kr \"8点1氪\" roundup bundles three items: Luo Yonghao responding to a named accusation of tax evasion, Duan Yongping buying 30,000 shares of Kweichow Moutai, and Bill Gates warning that AI could cause \"a billion deaths.\" The entry carries a headline only, with no body text, so who filed the report, when the shares were bought and the context of Gates's remark aren't available.",
+    "input_hash": "efa8d1e1d056"
+  },
+  "infoq-OooAe7xY816xAdLrkv8V": {
+    "summary_zh": "Cloudflare 提出智能体开发生命周期（Agent Development Lifecycle），主张用自动化「软件工厂」取代传统 SDLC，理由是代码生成提速后测试、部署与维护反而变成瓶颈。方案要求为每个智能体创建独立预览部署、保证变更原子性，并以 Workflows 作为编排层，同时发布运行其上的 @cloudflare/ci，适合在流水线中引入自主智能体的平台团队。",
+    "summary_en": "Cloudflare has proposed an Agent Development Lifecycle to replace the traditional SDLC, arguing that once AI accelerates code generation, testing, deployment and maintenance become the bottleneck. The design gives every agent its own preview deployment, enforces atomic changes, and uses Cloudflare Workflows as the orchestration layer, with a new @cloudflare/ci tool running on top. It targets platform teams putting autonomous agents into their pipelines.",
+    "input_hash": "46205ed61391"
+  },
+  "v2ex-e29b4149172d": {
+    "summary_zh": "V2EX 网友拆解 OpenAI 的套餐调整：$200 档从 20X 降为 10X，$100 档不变，同时新增 $500 的 25X 档。发帖者算了一笔账——新模型 6.1 sol 的 token 价格是 Altra 的 1/5、性能接近，所以新 $200 反而比旧 20X 更划算，但他判断原本冲着 200X 优惠来的用户、尤其拼车党，很可能会退订。",
+    "summary_en": "A V2EX user breaks down OpenAI's plan changes: the $200 tier drops from 20X to 10X, $100 stays put, and a new $500 25X tier appears. Since the new 6.1 sol model reportedly costs one-fifth of Altra per token while performing comparably, the poster calculates the new $200 is actually cheaper than the old 20X — yet predicts many cancellations, especially among people pooling shared subscriptions for the 200X promo.",
+    "input_hash": "4b1c056d5998"
+  },
+  "v2ex-500fb15a47be": {
+    "summary_zh": "V2EX 用户称自己使用三年的 Claude 账号被封，并贴出 Anthropic Safeguards Team 的邮件：自动化系统检测到账号存在违反 Supported Countries Policy 的信号，经团队复核后已撤销访问权限，用户可登录 claude.ai 进入申诉页面。发帖者还提醒不要领取云环境送的 100 credits，怀疑与这次封号有关。",
+    "summary_en": "A V2EX user reports that a three-year-old Claude account was banned, quoting an email from Anthropic's Safeguards Team: automated systems detected signals indicating a violation of the Supported Countries Policy, and access was revoked after the team reviewed the findings, with appeals handled by logging in to claude.ai. The poster also warns against claiming 100 credits offered by a cloud environment, suspecting a link to the ban.",
+    "input_hash": "3aaa6bd878a7"
+  },
+  "v2ex-1eb49197fc67": {
+    "summary_zh": "招聘数据运营 VP，工作地苏州，优先滴滴、美团或阿里背景，直接向 CEO 汇报，年龄 40 以内。职责涵盖运营数据、供应商治理与人力效能体系搭建，自动化运营平台和外包供应商分级考核，以及数据中台组建；要求本科以上、5 年以上高阶运营经验，AI 或 IoT 落地经验优先。",
+    "summary_en": "A company is hiring a VP of data operations based in Suzhou, favoring candidates from Didi, Meituan or Alibaba, reporting directly to the CEO and under 40. The role covers building operations data, supplier governance and workforce-efficiency systems, leading an automation platform and tiered supplier assessment, plus forming a data middle-office team. It asks for a bachelor's degree and 5+ years of senior operations management, with AI or IoT deployment experience preferred. Contact goes through WeChat fancyfrees.",
+    "input_hash": "8e6dc771d35e"
+  },
+  "v2ex-e4507fdfa58e": {
+    "summary_zh": "OpenAI 放出了 DevDay 2026 的回顾文字版，链接指向 openai.com 的 recap 页面，另附一个介绍 Dots 的页面。不过有人点进 Dots 页面时遇到“Dots aren't available in your region yet”的提示，可能是分地区逐步放开。",
+    "summary_en": "OpenAI has published a written recap of DevDay 2026 on its site, along with a separate page introducing Dots. A reader notes that visiting the Dots page shows \"Dots aren't available in your region yet\", suggesting a staged regional rollout. The post is essentially a pointer to those two links.",
+    "input_hash": "66317ceebf24"
+  },
+  "v2ex-e2b529b928e9": {
+    "summary_zh": "OpenAI 上线了每月 500 美元的 25x 订阅档，附带 300t/s 的 ultrafast 模式，同时旧版 20x 额度被调整为 10x，但旧额度可保留到 2026 年 10 月 29 日。发帖人已在 V2EX 晒单，表示坐等 1000 美元档，关注 ChatGPT 订阅定价与推理速度的开发者可以对照参考。",
+    "summary_en": "OpenAI has added a $500-per-month 25x tier that comes with a 300 tokens/sec ultrafast mode, while the older 20x quota is being cut to 10x — existing quota reportedly stays valid until October 29, 2026. The V2EX poster says they have already paid for it and are waiting for a $1,000 tier, which makes this a useful data point for anyone tracking ChatGPT pricing and inference speed.",
+    "input_hash": "56173731751a"
+  },
+  "v2ex-45af9e6264b6": {
+    "summary_zh": "这是一个可直接套用的 AI 视频模板，复刻 Quavo 与 Takeoff《Hotel Lobby》现场：橙色背景、悬挂麦克风，上传两张照片即可替换左右两个说唱角色，猫狗、朋友或卡通形象都行。页面里的提示词与镜头设置都已配好，模板和提示词免费查看，生成视频按积分扣费。",
+    "summary_en": "This is a ready-made AI video template recreating the 'Hotel Lobby' performance setup — orange backdrop, hanging microphone — where two uploaded photos become the left and right rappers, whether pets, friends or cartoon characters. Prompts and scene settings are preconfigured and free to view, while generating a video consumes credits shown on the generate button.",
+    "input_hash": "b57b9521b312"
+  },
+  "infoq-XF5kZxV681STVDrzsstj": {
+    "summary_zh": "InfoQ 这篇报道指出，云端 Token 单价持续下降，但企业 AI 账单未必同步减少，因为要输出好效果所需的上下文量在快速扩张。视源股份王玉龙、英特尔王景佳与商米科技陈桂鸿谈到，时延、隐私和数据安全让点餐结算、课堂视频、核心算法等负载不适合全部上云，企业正按工作负载重新划分云、边、端。",
+    "summary_en": "An InfoQ report argues that falling per-token prices for cloud models do not necessarily shrink enterprise AI bills, since producing good output keeps demanding ever larger contexts. Executives from 视源股份, Intel and 商米科技 explain that latency, privacy and data-security requirements make workloads such as store checkout, classroom video and core algorithms poor fits for the cloud, pushing companies to split tasks across cloud, edge and device.",
+    "input_hash": "a6d3b2467f0d"
+  },
+  "v2ex-48de22ccd564": {
+    "summary_zh": "发帖人称 IB 把 TWS 更新到 10.50.1e 后打乱了原有工作流，想找该版本之前的安装包，但 IB 似乎不直接提供旧版下载，于是到 V2EX 有偿求一个。手里存有旧版安装包或知道获取渠道的人可以联系他。",
+    "summary_en": "The poster says Interactive Brokers' TWS update to 10.50.1e disrupted their existing workflow, and they want an installer for a version before that, which IB doesn't appear to offer directly. They are offering payment on V2EX to anyone who has an older TWS build or knows where to get one.",
+    "input_hash": "fc80c0c8c351"
+  },
+  "infoq-uwfvFTWwH5Qupo2lBxF6": {
+    "summary_zh": "华为公司副总裁袁远在华为全联接大会 2026 数据存储峰会上提出 AI 数据平台的三个升级方向：数据本体、原生 KV 语义直通和智能体数据韧性。文中一家三甲医院用专业知识库辅助诊疗后，AI 诊断报告采纳率从 50% 升到 90%，智能体日调用量从 2000 次增至 16000 次，说明检索之外还需明确对象、属性与关系。",
+    "summary_en": "At Huawei's 2026 data storage summit, company vice president Yuan Yuan laid out three upgrade directions for its AI data platform: data ontology, native KV semantic passthrough and agent data resilience. A cited hospital case shows AI-assisted diagnosis report adoption rising from 50% to 90% and daily agent calls growing from 2,000 to 16,000, illustrating why retrieval alone cannot resolve conflicting rules and conditions.",
+    "input_hash": "90f2df7c2961"
+  },
+  "36kr-4003672762126217": {
+    "summary_zh": "36kr 这条资讯的标题称，AMD 以 550 亿（未注明币种）收购李飞飞创办的 World Labs，苏姿丰与李飞飞两人联手。原文只是链接，未提供更多细节，交易结构与时间表无法从现有内容确认。",
+    "summary_en": "A 36kr headline reports that AMD is acquiring Fei-Fei Li's World Labs in a deal the title sizes at 550 (currency unspecified), bringing Li and AMD CEO Lisa Su together. The linked page isn't summarized here; details beyond the title aren't available, so the deal's structure and timeline can't be confirmed.",
+    "input_hash": "c43ef4177642"
+  },
+  "infoq-mDiczbGJpHNMU6e0qBX1": {
+    "summary_zh": "在 QCon 上海站（10 月 22—24 日）“AI 时代的攻防重构”专题中，字节跳动国际业务攻防负责人于思将分享《AI 驱动复杂业务漏洞挖掘：从业务规则建模到攻击路径验证》。该方案用大模型建模业务角色、对象与约束，自动生成并验证攻击路径，面向做业务安全测试和 AI for Security 的开发者。",
+    "summary_en": "At QCon Shanghai (October 22–24), Yu Si, who leads attack-and-defense for a ByteDance international business, will present on AI-driven discovery of complex business vulnerabilities, from business rule modeling to attack path verification. The approach uses large models to represent roles, objects and constraints, then automatically generates and validates candidate attack paths, aimed at engineers working on application security testing and AI for Security.",
+    "input_hash": "3ed8b22655e5"
+  },
+  "infoq-KaaKQS6x5KiSlHa5UVVz": {
+    "summary_zh": "AMD 宣布以约 82 亿美元全股票收购李飞飞创办的 World Labs，预计 2026 年底前完成交割并需监管批准，发行股数按交割前 10 个交易日成交量加权均价计算。交易后 World Labs 继续从事 AI 模型研究，李飞飞出任 AMD 执行副总裁兼首席科学家，直接向苏姿丰汇报。",
+    "summary_en": "AMD will acquire Fei-Fei Li's World Labs in an all-stock deal valued at about $8.2 billion, expected to close by the end of 2026 pending regulatory approval, with the share count based on a 10-day volume-weighted average price before closing. After the deal, Li becomes AMD executive vice president and chief scientist reporting to Lisa Su, while co-founders Justin Johnson and Ben Mildenhall stay on.",
+    "input_hash": "5328f3c33d40"
+  },
+  "zhihu-2088119863676089068": {
+    "summary_zh": "陕西醉驾碾压教师并拖行 5.9 公里致死的案件已提级审理，指控罪名变更为故意杀人。原文是一个知乎提问页面，只有标题，未提供更多案情或法律分析内容。",
+    "summary_en": "A drunk-driving case in Shaanxi — a teacher was struck and then dragged 5.9 kilometers to his death — has been elevated for higher-level trial, and the charge has been changed to intentional homicide. The linked page is a Zhihu question asking how that reclassification should be analyzed legally; the page itself isn't summarized here, so no further case details are available.",
+    "input_hash": "06491fa21cfb"
+  },
+  "hn-49879645": {
+    "summary_zh": "Google Maps 更新的地图影像显示了加沙 Rafah 的毁坏状况。该 Hacker News 条目只附带一句用户评论，原链接页面未在此摘要中呈现，影像来源与拍摄时间等细节无法确认。",
+    "summary_en": "Updated Google Maps imagery shows the destruction of Rafah in Gaza. The Hacker News submission carries only a single-sentence user comment, and the linked page isn't summarized here, so the imagery's source, date, and context can't be verified from this item.",
+    "input_hash": "95e8336c4259"
+  },
+  "hn-49896586": {
+    "summary_zh": "这条 Hacker News 帖子的标题宣称存在一个名为 GPT 6.1 Sol 的模型，能以五分之一的价钱提供接近 Astra 的智能水平。除标题外没有其他正文，原链接页面也未在此摘要中呈现，发布方、基准数据和定价依据都无从确认。",
+    "summary_en": "The title of this Hacker News post claims a model called GPT 6.1 Sol offers near-Astra intelligence at one-fifth the price. Nothing else accompanies the submission, and the linked page isn't summarized here, so the provider, benchmark results, and pricing behind the claim can't be verified.",
+    "input_hash": "39f3ca1ef427"
+  },
+  "hn-49891295": {
+    "summary_zh": "一篇文章记录了美国人在家招待朋友的习惯正在消失：自称经常邀朋友来家里的成年人比例自 1975 年以来下降了 70%。对社交趋势、城市孤独感和消费习惯变化感兴趣的读者可以一看。",
+    "summary_en": "An essay argues that hosting people at home is dying out in America, citing a 70 percent drop since 1975 in the share of adults who say they regularly have friends over. It's relevant to anyone tracking social trends, urban isolation, and how those shifts reshape consumer behavior.",
+    "input_hash": "ec70f2e9f064"
+  },
+  "36kr-4003673243471752": {
+    "summary_zh": "36kr 报道 Sonnet 5.5 已发布，并把它称作「性价比之王」，但该条只有标题，没有给出模型参数、定价或跑分等任何具体信息。对正在做模型选型和成本测算的开发者来说，真正需要的是后续披露的价格与能力对比数据。",
+    "summary_en": "36kr reports that Sonnet 5.5 has been released and labels it a value-for-money leader, but the item carries only a headline — no specs, pricing or benchmark numbers are provided. Developers weighing model selection and inference costs will need the price and capability comparisons that later coverage should supply.",
+    "input_hash": "e000f30d2dff"
+  },
+  "hn-49880036": {
+    "summary_zh": "Hacker News 上这篇《Pirating the Pirates》的副题是「Notes from the underground of film preservation」，指向的是电影保存领域那些游走在灰色地带的非官方做法。条目本身只给出标题和这句副题，链接页面内容没有摘要，其他细节无从得知；对档案、版权与影迷社群议题感兴趣的人可以顺着原文细读。",
+    "summary_en": "An HN submission titled \"Pirating the Pirates,\" subtitled \"Notes from the underground of film preservation,\" points to writing about the gray-area practices of the film-preservation world. Only the title and that subtitle are given here; the linked page isn't summarized, so details beyond them aren't available. It should interest readers following archives, copyright and film-fan communities.",
+    "input_hash": "28e05545c950"
+  },
+  "hn-49883471": {
+    "summary_zh": "Cal Newport 在 9 月 28 日的博客文章里主张对前沿 AI 实验室展开调查，理由是 OpenAI 一连串关于其 LLM 智能体能力的通告，以及 Anthropic 员工公开讨论自家技术导致人类灭绝的概率。他还点名 Anthropic CEO 那封《We Must Pace the Frontier》公开信：信里罗列自家研究可能造成的危害，结论却是要靠「以正确方式建造技术」来避免灾难。适合关注 AI 治理与实验室公关话术的读者。",
+    "summary_en": "In a September 28 blog post, Cal Newport argues it is time to investigate the frontier AI labs, citing OpenAI's serial announcements about unnervingly capable LLM agent systems and Anthropic staff publicly debating the odds their work leads to human extinction. He also targets Anthropic's CEO and a letter titled \"We Must Pace the Frontier,\" which enumerates harms the company's own research might cause yet concludes by urging that the technology be built \"in the right way.\" Relevant to anyone following AI governance and lab messaging.",
+    "input_hash": "f618c679ae49"
+  },
+  "zhihu-2087999455794566650": {
+    "summary_zh": "知乎这条讨论围绕一起纠纷展开：一单价值 8.59 元的香菜被买家以「仅退款」方式退掉，商家随后驱车千里跨省把货讨了回来。提问由此追问电商商家的维权成本为何这么高、症结究竟在哪；原帖只给出问题本身，未提供更多细节，适合关心平台售后规则与中小商家处境的读者。",
+    "summary_en": "A Zhihu thread centers on a dispute in which an order of cilantro worth 8.59 yuan was refunded under the \"refund-only\" policy, prompting the seller to drive across provinces to reclaim the goods. The question then asks why protecting merchants' rights costs so much and where the real problem lies; only the headline is given, so details beyond it aren't available.",
+    "input_hash": "44e29cde61c1"
+  },
+  "36kr-4003956019957637": {
+    "summary_zh": "36kr 报道称雷军已把罗福莉提升到小米的最高职级，但该条只有标题，没有给出这套职级的具体名称、任命范围或生效时间。对关注小米 AI 团队人事与组织架构的人来说，具体职级与职责划分仍需等后续报道补充。",
+    "summary_en": "36kr reports that Lei Jun has promoted Luo Fuli to Xiaomi's highest job grade, yet the item provides only the headline — no name for the level, scope of the role, or timing. Anyone tracking Xiaomi's AI organization will have to wait for further reporting to learn what the grade and responsibilities actually are.",
+    "input_hash": "4d1942f824dd"
+  },
+  "zhihu-2088438061877178615": {
+    "summary_zh": "这是知乎上的一个提问，讨论如何评价 OpenAI 发布的 GPT-6.1 Sol。该条目只有标题，没有正文或补充说明，因此除标题本身提到的这次发布之外，模型能力、发布时间、可用范围等细节都无法确认，需要读者自行查阅原帖讨论。",
+    "summary_en": "This is a Zhihu question asking how to evaluate OpenAI's release of GPT-6.1 Sol. The entry carries only the title — no body text is provided — so nothing beyond the fact of the release as framed by the title can be confirmed; capabilities, availability and timing are unknown and readers need to open the original thread.",
+    "input_hash": "cb224647b75a"
+  },
+  "36kr-4003938736918662": {
+    "summary_zh": "这是 36氪 的一篇文章，标题为《外卖小哥的电瓶车，为什么能跑一天？》。条目没有附摘要或正文，原文涉及的具体电池方案、换电网络或数据都无从确认，只能打开原文查看。",
+    "summary_en": "This is a 36Kr article titled \"Why can a delivery rider's e-bike run all day?\" The linked page isn't summarized here; details beyond the title aren't available. Which battery setups, swapping networks or figures it actually discusses cannot be confirmed from the entry.",
+    "input_hash": "59d09bb5c64b"
+  },
+  "gh-daily-NVIDIA-OpenShell": {
+    "summary_zh": "OpenShell 是 NVIDIA 开源的自主 AI agent 运行时，定位为安全、私有的运行环境，采用 Apache 2.0 许可并已发布到 PyPI。0.1.x 版本带来稳定的发版节奏、新的隔离原语、扩展面和新 API。它面向需要在隔离环境中批量调度 agent 的团队。",
+    "summary_en": "NVIDIA has open-sourced OpenShell, described as a safe, private runtime for fleets of autonomous AI agents, Apache-2.0 licensed and published on PyPI. The 0.1.x line adds a stable release cadence, new isolation primitives, an expanded extension surface and new APIs. It targets teams that need to run many agents inside an isolated, private environment.",
+    "input_hash": "c803673cf2fa"
+  },
+  "36kr-4003053027463304": {
+    "summary_zh": "这是 36氪 的一篇文章，标题为《自研电池不是罪》。条目未提供摘要或正文，文中谈论的车企、电池路线和论据都无从确认，需要打开原文查看。",
+    "summary_en": "A 36Kr article headlined \"Self-developed batteries are not a crime.\" The linked page isn't summarized here, so details beyond the title aren't available — which automakers, battery approaches or arguments it covers cannot be confirmed from the entry.",
+    "input_hash": "7d7ceda00880"
+  },
+  "36kr-4004401917005955": {
+    "summary_zh": "这是 36氪 的一篇文章，标题为《小微能成为中国的 Muse 吗？》。条目没有摘要或正文，标题里的「小微」和「Muse」具体指哪家公司或产品、文章给出什么判断，都无法从现有信息中确认。",
+    "summary_en": "A 36Kr article titled \"Can Xiaowei become China's Muse?\" The linked page isn't summarized here; nothing beyond the title is available. What \"Xiaowei\" and \"Muse\" refer to, and what conclusion the piece reaches, can't be confirmed from the entry.",
+    "input_hash": "c653b8b6d4e5"
+  },
+  "zhihu-2088357319029384022": {
+    "summary_zh": "第 33 届中国电视金鹰奖公布获奖名单，于和伟、宋佳分别拿下视帝与视后。该条目只是一条知乎提问链接，未提供任何正文，除标题外其他奖项归属与评选细节无法确认。",
+    "summary_en": "The 33rd China TV Golden Eagle Awards gave best actor to Yu Hewei and best actress to Song Jia, according to the headline. The linked page isn't summarized here; details beyond the title aren't available, so the rest of the winners list and any discussion of the results can't be confirmed from this item.",
+    "input_hash": "f9f73d8c1b84"
+  },
+  "36kr-4004255063510917": {
+    "summary_zh": "标题称 OpenAI 紧急叫停 GPT-6.1。该条目没有任何正文或描述，叫停的原因、涉及范围以及官方说法都无法从现有信息中确认。",
+    "summary_en": "The headline states that OpenAI abruptly halted GPT-6.1. No description or body text comes with the item, so the reason, scope and any official statement can't be verified; the linked page isn't summarized here and details beyond the title aren't available.",
+    "input_hash": "8e8d1a7a29c0"
+  },
+  "gh-daily-VectifyAI-PageIndex": {
+    "summary_zh": "PageIndex 是 VectifyAI 开源的 RAG 方案，卖点是不用 vector DB、不做 chunking，改用 reasoning 做 context-aware 检索，官方形容为“读起来像人”。它提供 `pip install -U pageindex` 的 SDK，适合想绕开向量库和切块流程、尝试推理式检索的 RAG 开发者。",
+    "summary_en": "PageIndex, from VectifyAI, is a RAG approach that skips the vector database and chunking in favor of reasoning-based, context-aware retrieval, billed as reading “like a human.” An SDK is available via pip install -U pageindex, plus cloud and docs; it targets developers who want retrieval without embedding and chunking pipelines.",
+    "input_hash": "940cdce62a9c"
+  },
+  "zhihu-2088231915631243421": {
+    "summary_zh": "这条知乎提问涉及一起案件：醉酒男子打车时多次要求中途下车，之后溺亡，家属向司机与平台索赔 30 万元被驳回。原文只有提问链接，没有提供判决书或正文，法院的裁判理由与责任认定无法在此确认。",
+    "summary_en": "A Zhihu question concerns a case in which a drunk passenger asked to leave the taxi mid-ride several times, later drowned, and the family's 300,000 yuan claim against the driver and the platform was rejected. The linked page isn't summarized here; reasoning behind the ruling and details beyond the title aren't available.",
+    "input_hash": "e60157ba86af"
+  },
+  "zhihu-2087090532799308553": {
+    "summary_zh": "有运动员指出亚运金牌边缘区域存在色差、疑似瑕疵，组委会随后连夜进行了更换。该帖以提问形式讨论这种情况为何发生、可能出在哪些工序环节，但原文是链接帖，未提供更多细节。",
+    "summary_en": "Athletes reported that Asian Games gold medals showed color discrepancies along the edge, and the organizing committee replaced them overnight. The post asks why this happens and which production steps might be at fault, but the linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "bd41365730c3"
+  },
+  "zhihu-2087587655189881447": {
+    "summary_zh": "深蓝董事长公开表示车载冰箱的使用率只有 5%，娱乐屏全年使用不足 10 次。帖子借此追问这类配置是否真的鸡肋，以及行业为何仍在持续堆配置，原文是提问帖，未提供更多细节。",
+    "summary_en": "Deepal's chairman said the in-car fridge is used only about 5% of the time and the entertainment screen fewer than 10 times a year. The thread asks whether such features are genuinely useless and why the industry keeps piling them on; the linked page isn't summarized here, so no further details are available.",
+    "input_hash": "19b3ad7397de"
+  },
+  "gh-daily-oblien-openship": {
+    "summary_zh": "Openship 是一个开源、可自托管的部署平台，内置 CI/CD：指向一个 repo 后它会自动完成构建、发布、路由和 TLS 终止，并可通过桌面应用、Web dashboard 或 CLI 操作。项目采用 Apache-2.0 许可并已发布到 npm，适合想把部署链路收回自己基础设施的团队。",
+    "summary_en": "Openship is an open-source, self-hostable deployment platform with built-in CI/CD: point it at a repo and it builds, ships, routes, and TLS-terminates the app, driven from a desktop app, web dashboard, or CLI. It is Apache-2.0 licensed and published on npm, aimed at teams that want their deploy pipeline on their own infrastructure.",
+    "input_hash": "e7e57dbbf661"
+  },
+  "zhihu-2088199945174177197": {
+    "summary_zh": "华为 Mate 90 系列旗舰被定档于 10 月 1 日发售。该帖以提问形式征集对这款机型的看法，但原文是链接帖，标题之外没有更多可确认的细节。",
+    "summary_en": "Huawei's Mate 90 series flagship is slated to go on sale on October 1. The post is a question thread soliciting views on the device, but the linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "5fb3d4f690b5"
+  },
+  "gh-monthly-affaan-m-ECC": {
+    "summary_zh": "ECC 是一套面向 AI coding agent 的 harness 性能优化系统，把 skills、instincts、memory、security 与 research-first development 这几块能力打包在一起，兼容 Claude Code、Codex、Opencode、Cursor 等工具。适合同时使用多个 coding agent 的开发者参考其模块划分方式。原文只提供了一段简介，未给出实现细节。",
+    "summary_en": "ECC is a harness performance optimization system for AI coding agents, bundling skills, instincts, memory, security, and a research-first development approach. It targets Claude Code, Codex, Opencode, Cursor and similar tools. Developers who juggle more than one coding agent may get ideas from how it splits those concerns, though the listing only gives a one-line description and no implementation details.",
+    "input_hash": "f77dce530a39"
+  },
+  "infoq-AmYfVbwTlVyApFszqKx3": {
+    "summary_zh": "InfoQ 技术趋势文章把数据工程划成“自主数据工程”的五个成熟度阶段，主张团队从手工维护数据管道转向以数据产品为中心、由智能体负责构建和优化。文中引用 MIT Technology Review 报告：80% 的组织已部署 AI 数据工程工具，55% 的受访者把数据安全与隐私列为最大挑战。适合数据平台负责人判断智能体落地节奏，作者强调人类仍负责定义业务问题并做最终裁决。",
+    "summary_en": "An InfoQ trend piece lays out five maturity stages toward 'autonomous data engineering,' arguing that teams should move from hand-built data pipelines to data products that agents build, maintain and optimize. It cites MIT Technology Review's 'Redefining Data Engineering in the Age of AI' report: 80% of organizations have already deployed AI-based data engineering tools, while 55% of respondents name data security and privacy as their biggest challenge. Humans, the author says, still define business problems and make the final call.",
+    "input_hash": "4e8439267fe6"
+  },
+  "36kr-4003891766038402": {
+    "summary_zh": "36kr 这条资讯的标题称豆包要切滴滴的蛋糕，但该条目没有 desc 也没有正文，除了标题之外没有任何可核实的产品形态、时间表或数字。原文是链接，未提供更多细节。",
+    "summary_en": "This 36kr item's headline says Doubao is going after Didi's cake. No description or body text accompanies it, so nothing beyond the headline is known — no product details, timeline or numbers. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "d6b6d9d01a18"
+  },
+  "36kr-4003031659908995": {
+    "summary_zh": "36kr 报道称一个代号“太空兔”的神秘模型引发关注，据称效果直逼 GPT-6 Astra，围观人数约 10 万。原文仅提供标题与链接，未给出模型归属、参数规模或评测方式等更多细节，无法确认其余信息。",
+    "summary_en": "The 36kr piece points to a mysterious model nicknamed \"Space Rabbit\" that reportedly performs close to GPT-6 Astra and drew roughly 100,000 viewers. The linked page isn't summarized here; details beyond the title — who built it, its parameter count, or how it was benchmarked — aren't available.",
+    "input_hash": "804a3d96ed68"
+  },
+  "infoq-PSvHjyoJTC9bSLWYxpfF": {
+    "summary_zh": "Anthropic 于 9 月 28 日发布 Claude Sonnet 5.5，是 Claude 5.5 家族第二款模型，官方称输出速度提升超 30%、单任务成本最高降低 30%。它在 Terminal-Bench 4.0 上从 10.3% 跃升至 70.6%，超过 Opus 5.5 公布的最佳成绩；早期测试显示工具调用减少约三分之一，Base44 实测平均 3.6 轮迭代即可完成一个应用构建，而 Opus 5 需要 7.7 轮。",
+    "summary_en": "Anthropic released Claude Sonnet 5.5 on September 28, the second model in the Claude 5.5 family, claiming over 30% faster output and up to 30% lower cost per task. It jumped from 10.3% to 70.6% on Terminal-Bench 4.0, beating Opus 5.5's published best, while early testers report roughly a third fewer tool calls and about half the shell executions. Base44 measured an average of 3.6 iterations per app build against 7.7 for Opus 5, which matters to teams running coding agents such as Claude Code.",
+    "input_hash": "6ffd93625c5c"
   }
 }
