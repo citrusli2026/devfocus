@@ -196,7 +196,9 @@
       "tags": [],
       "first_seen": "2026-09-25",
       "domain": "ollaya.dev",
-      "quality_score": 25.8
+      "quality_score": 25.8,
+      "summary_zh": "Ollaya 是一个在本地下载并运行开源决策模型（decision models）的工具，主打毫秒级返回带类型、经过校准的答案，且私密、开源，名字和定位都让人联想到 Ollama。适合想把决策类模型跑在自己机器上、不愿把数据交给云端 API 的开发者。",
+      "summary_en": "Ollaya downloads and serves open decision models on your own machine, returning typed, calibrated answers in milliseconds; it is private and open source. The pitch echoes Ollama, and it targets developers who want decision-model inference running locally instead of through a hosted API."
     },
     {
       "id": "hn-49863864",
@@ -212,7 +214,9 @@
       "tags": [],
       "first_seen": "2026-09-27",
       "domain": "authorsguild.org",
-      "quality_score": 46.6
+      "quality_score": 46.6,
+      "summary_zh": "美国作家协会（Authors Guild）公开了作家集体起诉 Microsoft 与 OpenAI 一案中此前封存的法庭文件，指控两家公司高管明知大规模书籍盗版违法、且会导致作家失业。这批文件把版权侵权指控直接指向了决策层，是跟进生成式 AI 训练数据诉讼的人需要看的材料。",
+      "summary_en": "The Authors Guild has unsealed briefs in the authors' lawsuit against Microsoft and OpenAI, alleging that top executives knew their mass book piracy was illegal and would put authors out of work. The documents push the copyright claims up to the decision-making level, making them required reading for anyone tracking AI training-data litigation."
     },
     {
       "id": "hn-49840054",
@@ -228,7 +232,9 @@
       "tags": [],
       "first_seen": "2026-09-25",
       "domain": "aymannadeem.com",
-      "quality_score": 30.2
+      "quality_score": 30.2,
+      "summary_zh": "这是一篇题为《Plan mode is dead》的文章，作者开头回顾说，今年早些时候自己还认为「规划」会成为用 AI 构建软件中最重要的环节。提供的正文只有这一句背景，标题所暗示的反转与具体论证并未在素材中展开。",
+      "summary_en": "An essay titled \"Plan mode is dead\" opens with the author recalling that earlier this year he believed planning would become the most important part of building software with AI. Only that opening line is available here, so the reversal implied by the title isn't argued out in the material provided."
     },
     {
       "id": "hn-49857899",
@@ -276,7 +282,9 @@
       "tags": [],
       "first_seen": "2026-09-23",
       "domain": "pointinthecloud.com",
-      "quality_score": 24.6
+      "quality_score": 24.6,
+      "summary_zh": "一篇博文记录了作者与朋友受邀前往 Portobello 旧警察局，爬上19世纪钟楼查看时钟的经历。起因是刚为社区买下这栋建筑的 Action Porty 不知道怎么调整钟面时间，在社区里公开求助；文中写到爬长梯上塔的过程，适合对老式机械钟和社区接手老建筑的读者。",
+      "summary_en": "A blog post recounts a Saturday spent climbing the 19th-century clock tower of Portobello's old police station, after community group Action Porty — which recently bought the building — publicly asked for help adjusting the clock face. The author describes the steep ladders and the tower itself, a read for anyone interested in old clockwork or community-owned heritage buildings."
     },
     {
       "id": "hn-49845977",
@@ -340,7 +348,9 @@
       "tags": [],
       "first_seen": "2026-09-27",
       "domain": "sancho.bearblog.dev",
-      "quality_score": 40.0
+      "quality_score": 40.0,
+      "summary_zh": "Hacker News 上出现一篇题为《When did Google get so weird?》的讨论帖，议题直指 Google 近年来在产品与决策上的风格变化。原文只给了链接，未提供更多细节，因此帖中具体举了哪些案例、评论区达成什么共识，都无法从现有素材确认。",
+      "summary_en": "A Hacker News thread titled \"When did Google get so weird?\" takes up how the company's products and decisions have drifted over the years. The linked page isn't summarized here; details beyond the title aren't available, so which examples the thread raises or what commenters concluded can't be confirmed."
     },
     {
       "id": "hn-49823568",
@@ -852,7 +862,9 @@
       "tags": [],
       "first_seen": "2026-09-27",
       "domain": "fireworks.ai",
-      "quality_score": 36.3
+      "quality_score": 36.3,
+      "summary_zh": "Ember-1 是 Fireworks Research 推出的新专用模型，官方称它能达到 Kimi K3 的质量，而消耗的 token 数少 40%。对关注推理成本、想在同等效果下压低 token 开销的团队来说，这个数字是主要看点。",
+      "summary_en": "Ember-1 is a new specialized model from Fireworks Research that the team says matches Kimi K3's quality while using 40% fewer tokens. The token-efficiency claim is the headline for teams weighing inference cost against output quality."
     },
     {
       "id": "hn-49845172",
@@ -4939,7 +4951,9 @@
       "tags": [],
       "first_seen": "2026-09-26",
       "domain": "infoq.cn",
-      "quality_score": 51.5
+      "quality_score": 51.5,
+      "summary_zh": "阿里巴巴开源了 AI 辅助代码评审工具 OpenCodeReview，从命名看是面向代码 review 环节引入 AI 审查。原文只给了标题和链接，没有正文，因此支持语言、具体功能、开源协议等信息都无法确认。",
+      "summary_en": "Alibaba has open-sourced OpenCodeReview, an AI-assisted code review tool, according to this InfoQ listing. The entry carries only a title and a link, so its features, supported languages, license and CI integrations can't be confirmed. Developers curious about AI-driven review tooling will have to check the source repository for anything concrete."
     },
     {
       "id": "infoq-C1Vuzh9fUmUL9i5wmDZf",
@@ -4971,7 +4985,9 @@
       "tags": [],
       "first_seen": "2026-09-26",
       "domain": "infoq.cn",
-      "quality_score": 54.1
+      "quality_score": 54.1,
+      "summary_zh": "DoorDash 用一个多 Agent 的 LLM 系统清理了 6 万个 Feature Flag，InfoQ 这篇文章讲的是它的落地过程。该条目没有附带正文，具体架构设计和清理效果只能点开原文查看；正在治理技术债、被历史 Flag 堆积困扰的团队可以对照参考。",
+      "summary_en": "DoorDash used a multi-agent LLM system to clean up 60,000 feature flags, according to this InfoQ write-up. No body text is included with this item, so the architecture and the measured results are only in the original article; teams drowning in stale flags and tech debt are the obvious audience."
     },
     {
       "id": "infoq-kJ4EkjPLVTh9iT5yyXkM",
@@ -4987,7 +5003,9 @@
       "tags": [],
       "first_seen": "2026-09-25",
       "domain": "infoq.cn",
-      "quality_score": 39.0
+      "quality_score": 39.0,
+      "summary_zh": "htmx 4.0.0 发布，跳过 3.0，传输层用原生 fetch() 重写，体积约 14KB，并内置基于 idiomorph 的 Morphing Swap。最大迁移坑是属性继承改为显式，父元素属性需加 :inherited 后缀才传给子元素，否则会静默失效。",
+      "summary_en": "htmx 4.0.0 is out — the team skipped 3.0 entirely, replacing XMLHttpRequest with the native fetch() API while keeping the script near 14KB and adding streaming support. It ships built-in Morphing Swap via idiomorph and an hx-partial tag, but attribute inheritance is now opt-in: parent attributes only reach children with an :inherited suffix, so patterns like hx-headers silently break with 403s. It's published under npm's next tag, not latest."
     },
     {
       "id": "infoq-OUcL9autU0dg1BIt6bib",
@@ -5003,7 +5021,9 @@
       "tags": [],
       "first_seen": "2026-09-25",
       "domain": "infoq.cn",
-      "quality_score": 40.4
+      "quality_score": 40.4,
+      "summary_zh": "TanStack Charts 仍处于 Alpha 阶段，每周下载量已接近 16 万，InfoQ 这篇文章分析它为什么能火起来。该条目没有附带正文，具体原因和它的设计取舍需要阅读原文；正在做前端图表库选型的人可以留意。",
+      "summary_en": "TanStack Charts is still in Alpha yet already pulls roughly 160,000 downloads a week, and this InfoQ piece asks why it has caught on. No body text accompanies this item, so the reasoning and design trade-offs live only in the original article, which matters to anyone picking a front-end charting library."
     },
     {
       "id": "infoq-QQk3wiolU1VScH3u0P7T",
@@ -5019,7 +5039,9 @@
       "tags": [],
       "first_seen": "2026-09-25",
       "domain": "infoq.cn",
-      "quality_score": 41.8
+      "quality_score": 41.8,
+      "summary_zh": "这是 InfoQ 上 QCon 上海的一场演讲预告，主题是 Vibe Coding 在企业级真实工程环境中落地时遇到的效能问题。除标题外没有正文，演讲的具体案例、数据和结论无法确认，关注 AI 辅助研发在团队中实际效果的人可以留意。",
+      "summary_en": "This is an InfoQ listing for a QCon Shanghai session on what happens when Vibe Coding meets enterprise-grade engineering, and where AI-assisted development actually delivers productivity. Only the title is given; the linked page isn't summarized here, so the session's cases, metrics and conclusions aren't available."
     },
     {
       "id": "infoq-lh6Z5E9Zkr33bOeHQGky",
