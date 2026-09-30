@@ -326,7 +326,9 @@
       "tags": [],
       "first_seen": "2026-09-29",
       "domain": "openai.com",
-      "quality_score": 41.0
+      "quality_score": 41.0,
+      "summary_zh": "HN 上标题为 Dots: Always-on agents 的帖子，正文是链接，未提供更多细节。从标题看，它指向某种常驻运行的 agent 方案，但具体实现、能力与适用场景都无法从现有信息判断。",
+      "summary_en": "A Hacker News post titled \"Dots: Always-on agents\". The linked page isn't summarized here; details beyond the title aren't available. From the title alone it appears to concern some kind of always-on agent setup, but its implementation and capabilities can't be judged from what's given."
     },
     {
       "id": "hn-49894005",
@@ -694,7 +696,9 @@
       "tags": [],
       "first_seen": "2026-09-29",
       "domain": "america.gov",
-      "quality_score": 36.8
+      "quality_score": 36.8,
+      "summary_zh": "America.gov 是一个提供官方政府信息查询的服务，用户可以在上面找到由官方来源给出的答案，并获得所需服务的明确后续步骤。它面向需要办理美国政务、又不想在零散信息里翻找的人。",
+      "summary_en": "America.gov is a service that returns answers from official government sources and lays out clear next steps for the services you need. It's aimed at people who want authoritative answers about U.S. government services instead of digging through scattered sources. The Hacker News submission itself adds no further detail beyond that description."
     },
     {
       "id": "hn-49880411",
@@ -2166,7 +2170,9 @@
       "tags": [],
       "first_seen": "2026-09-29",
       "domain": "github.com",
-      "quality_score": 30.9
+      "quality_score": 30.9,
+      "summary_zh": "Livenerf（仓库 ninjahawk/livenerf）是一个在模型发布后持续追踪其能力变化的 benchmark，标题以 Opus 5.5 是否被削弱作为发问场景。它针对的是模型上线后被静默调整、实际表现与发布时不一致的问题，适合关注版本间能力漂移的开发者。",
+      "summary_en": "Livenerf (repo ninjahawk/livenerf) is a benchmark for tracking a model's capability after release, framed by the title's question of whether Opus 5.5 has been nerfed. It targets the case where a shipped model is quietly changed and no longer performs as it did at launch, useful for developers watching for capability drift between releases."
     },
     {
       "id": "hn-49882419",
@@ -3299,7 +3305,9 @@
       "gh_period": "daily",
       "first_seen": "2026-09-29",
       "domain": "github.com",
-      "quality_score": 30.3
+      "quality_score": 30.3,
+      "summary_zh": "dbx 是一个仅 25 MB 的跨平台数据库客户端，覆盖 MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB、SQL Server 和达梦等 100 多种数据库。它提供桌面端、Docker 与 CLI 三种形态，并内置 AI 助手和 MCP Server，适合想在轻量工具里统一管理多种数据库的开发者。",
+      "summary_en": "dbx is a 25 MB cross-platform database client that covers 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server and Dameng. It ships as a desktop app, a Docker image and a CLI, with a built-in AI assistant and an MCP Server, which makes it relevant to developers who want one lightweight tool across many database engines."
     },
     {
       "id": "gh-daily-mvschwarz-openrig",
@@ -5085,7 +5093,9 @@
       "tags": [],
       "first_seen": "2026-09-29",
       "domain": "infoq.cn",
-      "quality_score": 37.5
+      "quality_score": 37.5,
+      "summary_zh": "InfoQ 精选：亚马逊云科技无法恢复仅存储在受损的中东可用区的数据",
+      "summary_en": "Featured on InfoQ: 亚马逊云科技无法恢复仅存储在受损的中东可用区的数据"
     },
     {
       "id": "infoq-he0zFgEyStxF9kOh70AP",
@@ -5101,7 +5111,9 @@
       "tags": [],
       "first_seen": "2026-09-29",
       "domain": "infoq.cn",
-      "quality_score": 38.7
+      "quality_score": 38.7,
+      "summary_zh": "阿里云在云栖大会发布智能体沙箱 Agent Sandbox，由弹性计算产品线负责人吴结生定义为\"面向智能的新型算力形态\"，每个 Sandbox 以 Kubernetes Pod 为载体、运行在 MicroVM 隔离环境中，并管住身份、网络与数据。文中一场阿里云、AMD、金山办公、前程无忧参与的圆桌对谈，解释了 Agent 从 Demo 走向生产后为何在 Docker 和 Kubernetes 之外还需要这层运行环境。",
+      "summary_en": "At its Yunqi Conference, Alibaba Cloud launched Agent Sandbox, described by Wu Jiesheng of its elastic computing team as a \"new compute form for intelligence\": each sandbox runs as a Kubernetes Pod inside a MicroVM, with identity, network and data controls. A roundtable featuring Alibaba Cloud, AMD, Kingsoft Office and 51job explains why production Agent workloads need this layer on top of Docker and Kubernetes."
     },
     {
       "id": "infoq-PSvHjyoJTC9bSLWYxpfF",
@@ -5135,7 +5147,9 @@
       "tags": [],
       "first_seen": "2026-09-29",
       "domain": "infoq.cn",
-      "quality_score": 38.5
+      "quality_score": 38.5,
+      "summary_zh": "InfoQ 技术趋势文章提出“上下文优势（context advantage）”概念：文中以虚构客户 Maya 为例，AI 转化预测准确，却因看不到未解决的服务工单和品牌折扣政策，向她错发了不该发的优惠券。作者认为高能力模型已人人可得，难以复制的其实是企业自身积累的业务判断，落地路径是从客户 360 建设开始。",
+      "summary_en": "An InfoQ trend piece introduces the idea of a “context advantage”: in its example, an AI correctly predicts high conversion for a fictional customer, Maya, but still sends a discount that policy forbids because it can't see her unresolved service case or the brand's pricing rules. The argument is that capable models are now widely available, so the real moat is a company's accumulated business judgment, built outward from an existing customer 360."
     },
     {
       "id": "infoq-0x1uOEWOj16S1vNmtsuP",
@@ -5151,7 +5165,9 @@
       "tags": [],
       "first_seen": "2026-09-29",
       "domain": "infoq.cn",
-      "quality_score": 37.8
+      "quality_score": 37.8,
+      "summary_zh": "Bun 创建者 Jarred Sumner 宣布，这个 JavaScript/TypeScript 运行时与包管理器在四个月内把 53.5 万行 Zig 代码重写为 Rust，远快于原先预计的一年。重写借助 Rust 的借用检查器消除 use-after-free、双重释放、忘记释放等内存问题，由 Claude 预发布模型协调约 50 个动态工作流完成，并用超过一百万条断言的测试套件验证。",
+      "summary_en": "Bun creator Jarred Sumner has rewritten the JavaScript/TypeScript runtime and package manager from 535,496 lines of Zig into Rust in four months, far faster than the year a small team would normally need. The port, orchestrated through roughly 50 dynamic workflows using a pre-release Claude model, removes recurring use-after-free, double-free and leak bugs via Rust's borrow checker and was validated against a test suite with over a million assertions."
     },
     {
       "id": "infoq-HsaJfo3DKR9XC0LeeV30",
@@ -5167,7 +5183,9 @@
       "tags": [],
       "first_seen": "2026-09-29",
       "domain": "infoq.cn",
-      "quality_score": 35.5
+      "quality_score": 35.5,
+      "summary_zh": "InfoQ「金句抢先看」放出的一条预告，主题是 Agent Sandbox 为什么会成为一种新的算力形态，标题提到这类沙箱每天被创建上千万次。原文只给出标题，未提供更多正文，具体观点和技术细节尚不清楚。",
+      "summary_en": "An InfoQ quote-preview item whose title asks why Agent Sandbox is becoming a new form of compute, noting that such sandboxes are created tens of millions of times a day. The linked page isn't summarized here; details beyond the title aren't available."
     },
     {
       "id": "infoq-vWO5oOkToq5WYFE18WiB",
@@ -5183,7 +5201,9 @@
       "tags": [],
       "first_seen": "2026-09-29",
       "domain": "infoq.cn",
-      "quality_score": 37.6
+      "quality_score": 37.6,
+      "summary_zh": "MariaDB Community Server 13.0 已 GA，采用滚动发布模式而非 LTS。该版本原生支持 Oracle PL/SQL 风格的 REF CURSOR 和 RECORD 类型，可用于例程参数与函数返回值，UPDATE 的 RETURNING 子句配合 OLD_VALUE() 能一次取回新旧值。优化器 Hint 框架会自动为 View、CTE 和派生表命名查询块，init_rpl_role 变为系统变量，适合评估从 Oracle 迁移的团队。",
+      "summary_en": "MariaDB Community Server 13.0 has reached GA under the project's rolling-release model rather than an LTS line. It natively supports Oracle PL/SQL-style REF CURSOR and RECORD types usable as routine parameters and function return types, and UPDATE statements gain a RETURNING clause with OLD_VALUE() to fetch pre- and post-update values in one round trip. Optimizer hints now auto-name query blocks for views, CTEs and derived tables, and init_rpl_role is exposed as a system variable. Teams weighing a move off Oracle PL/SQL are the target audience."
     },
     {
       "id": "infoq-O5pKYU5hfR2DgrXP6zRE",
