@@ -230,7 +230,9 @@
       "tags": [],
       "first_seen": "2026-09-29",
       "domain": "blog.alexewerlof.com",
-      "quality_score": 45.3
+      "quality_score": 45.3,
+      "summary_zh": "这篇随笔反驳「编程已经被解决」的流行叙事，核心论点有四条：代码只是达成清晰理解的副产品；理解无法外包给 AI，而它正是「拥有」代码的关键；随着 AI 能力与普及度提升，多数软件价格会崩塌；并且只有概念验证、个人软件和网络攻击这三种场景才真的不必读代码。适合思考 AI 时代工程实践的开发者。",
+      "summary_en": "This essay pushes back on the popular \"coding is solved\" narrative: code is only a side artifact of reaching clarity, understanding can't be offloaded to AI and is what makes ownership real, and better, more widely adopted AI will likely collapse prices for most software. It also names just three cases where reading the code isn't necessary, namely proofs of concept, personal software, and cyber attacks."
     },
     {
       "id": "hn-49896050",
@@ -360,7 +362,9 @@
       "tags": [],
       "first_seen": "2026-09-29",
       "domain": "spectrum.ieee.org",
-      "quality_score": 39.4
+      "quality_score": 39.4,
+      "summary_zh": "德里自 2002 年起把电网从漏电严重的烂摊子改造成世界级系统，电力损耗从 50% 降到 5%。文章拆解了这套改造是怎么做到的，适合关注电网运营、公共事业治理和基础设施改革的读者。",
+      "summary_en": "Since 2002 Delhi has rebuilt its power grid from a leaking, dysfunctional mess into a world-class system, cutting electricity losses from 50 percent to 5 percent. The piece walks through how the turnaround was achieved, making it relevant to anyone interested in grid operations, utility governance, or infrastructure reform."
     },
     {
       "id": "hn-49890226",
@@ -3741,7 +3745,9 @@
       "gh_period": "monthly",
       "first_seen": "2026-09-29",
       "domain": "github.com",
-      "quality_score": 45.0
+      "quality_score": 45.0,
+      "summary_zh": "vectorize-io 在 GitHub 上放出了 Hindsight，官方描述只有一句「Agent Memory That Learns」，定位是面向 AI agent 的记忆层。除这句简介外仓库没有给出更多说明，具体实现和适用场景需要直接读代码判断。",
+      "summary_en": "vectorize-io has published Hindsight on GitHub, described only as \"Agent Memory That Learns\" — it sits in the agent-memory space, aiming at memory that improves rather than staying static. The repository gives no further detail beyond that tagline, so implementation and intended use cases have to be judged from the code itself."
     },
     {
       "id": "gh-monthly-cursor-plugins",

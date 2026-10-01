@@ -324,7 +324,9 @@
       "tags": [],
       "first_seen": "2026-09-29",
       "domain": "blog.alexewerlof.com",
-      "quality_score": 41.7
+      "quality_score": 41.7,
+      "summary_zh": "这篇随笔反驳「编程已经被解决」的流行叙事，核心论点有四条：代码只是达成清晰理解的副产品；理解无法外包给 AI，而它正是「拥有」代码的关键；随着 AI 能力与普及度提升，多数软件价格会崩塌；并且只有概念验证、个人软件和网络攻击这三种场景才真的不必读代码。适合思考 AI 时代工程实践的开发者。",
+      "summary_en": "This essay pushes back on the popular \"coding is solved\" narrative: code is only a side artifact of reaching clarity, understanding can't be offloaded to AI and is what makes ownership real, and better, more widely adopted AI will likely collapse prices for most software. It also names just three cases where reading the code isn't necessary, namely proofs of concept, personal software, and cyber attacks."
     },
     {
       "id": "hn-49844663",
@@ -420,7 +422,9 @@
       "tags": [],
       "first_seen": "2026-09-29",
       "domain": "mubi.com",
-      "quality_score": 38.4
+      "quality_score": 38.4,
+      "summary_zh": "Hacker News 上这篇《Pirating the Pirates》的副题是「Notes from the underground of film preservation」，指向的是电影保存领域那些游走在灰色地带的非官方做法。条目本身只给出标题和这句副题，链接页面内容没有摘要，其他细节无从得知；对档案、版权与影迷社群议题感兴趣的人可以顺着原文细读。",
+      "summary_en": "An HN submission titled \"Pirating the Pirates,\" subtitled \"Notes from the underground of film preservation,\" points to writing about the gray-area practices of the film-preservation world. Only the title and that subtitle are given here; the linked page isn't summarized, so details beyond them aren't available. It should interest readers following archives, copyright and film-fan communities."
     },
     {
       "id": "hn-49870295",
@@ -692,7 +696,9 @@
       "tags": [],
       "first_seen": "2026-09-29",
       "domain": "calnewport.com",
-      "quality_score": 34.3
+      "quality_score": 34.3,
+      "summary_zh": "Cal Newport 在 9 月 28 日的博客文章里主张对前沿 AI 实验室展开调查，理由是 OpenAI 一连串关于其 LLM 智能体能力的通告，以及 Anthropic 员工公开讨论自家技术导致人类灭绝的概率。他还点名 Anthropic CEO 那封《We Must Pace the Frontier》公开信：信里罗列自家研究可能造成的危害，结论却是要靠「以正确方式建造技术」来避免灾难。适合关注 AI 治理与实验室公关话术的读者。",
+      "summary_en": "In a September 28 blog post, Cal Newport argues it is time to investigate the frontier AI labs, citing OpenAI's serial announcements about unnervingly capable LLM agent systems and Anthropic staff publicly debating the odds their work leads to human extinction. He also targets Anthropic's CEO and a letter titled \"We Must Pace the Frontier,\" which enumerates harms the company's own research might cause yet concludes by urging that the technology be built \"in the right way.\" Relevant to anyone following AI governance and lab messaging."
     },
     {
       "id": "hn-49854416",
@@ -1140,7 +1146,9 @@
       "tags": [],
       "first_seen": "2026-09-29",
       "domain": "twitter.com",
-      "quality_score": 33.0
+      "quality_score": 33.0,
+      "summary_zh": "Google Maps 更新的地图影像显示了加沙 Rafah 的毁坏状况。该 Hacker News 条目只附带一句用户评论，原链接页面未在此摘要中呈现，影像来源与拍摄时间等细节无法确认。",
+      "summary_en": "Updated Google Maps imagery shows the destruction of Rafah in Gaza. The Hacker News submission carries only a single-sentence user comment, and the linked page isn't summarized here, so the imagery's source, date, and context can't be verified from this item."
     },
     {
       "id": "hn-49866534",
@@ -3807,7 +3815,9 @@
       "content": "",
       "first_seen": "2026-09-17",
       "domain": "juejin.cn",
-      "quality_score": 10.5
+      "quality_score": 10.5,
+      "summary_zh": "一位开发者写了篇记录，讲怎么让 WorkBuddy 自己把每天的 100 免费积分领掉，不用再手动惦记。作者说自己早就开了会员，但依然有积分焦虑，于是干脆把领取动作自动化。同样的 WorkBuddy 用户可以直接参考这套做法。",
+      "summary_en": "A developer documented how to automate WorkBuddy's daily 100 free credits so the app claims them on its own instead of needing a manual check-in. The author notes they already pay for a membership yet still felt anxious about missing a day, which is what pushed them to automate it. Anyone using WorkBuddy who keeps forgetting the daily claim can follow the same approach."
     },
     {
       "id": "juejin-7686407614478893108",
@@ -4633,7 +4643,9 @@
       "tags": [],
       "first_seen": "2026-09-29",
       "domain": "infoq.cn",
-      "quality_score": 35.8
+      "quality_score": 35.8,
+      "summary_zh": "Cloudflare 提出智能体开发生命周期（Agent Development Lifecycle），主张用自动化「软件工厂」取代传统 SDLC，理由是代码生成提速后测试、部署与维护反而变成瓶颈。方案要求为每个智能体创建独立预览部署、保证变更原子性，并以 Workflows 作为编排层，同时发布运行其上的 @cloudflare/ci，适合在流水线中引入自主智能体的平台团队。",
+      "summary_en": "Cloudflare has proposed an Agent Development Lifecycle to replace the traditional SDLC, arguing that once AI accelerates code generation, testing, deployment and maintenance become the bottleneck. The design gives every agent its own preview deployment, enforces atomic changes, and uses Cloudflare Workflows as the orchestration layer, with a new @cloudflare/ci tool running on top. It targets platform teams putting autonomous agents into their pipelines."
     },
     {
       "id": "infoq-LZLgofWubQu4DfjO4q74",
@@ -4649,7 +4661,9 @@
       "tags": [],
       "first_seen": "2026-09-29",
       "domain": "infoq.cn",
-      "quality_score": 35.3
+      "quality_score": 35.3,
+      "summary_zh": "InfoQ 精选：超越相关性：面向企业个性化场景的治理优先架构",
+      "summary_en": "Featured on InfoQ: 超越相关性：面向企业个性化场景的治理优先架构"
     },
     {
       "id": "infoq-7zcxyr8aBkDqQO682CJm",

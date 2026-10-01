@@ -985,9 +985,9 @@
     "input_hash": "ef4de0757ed8"
   },
   "juejin-7637856870833635343": {
-    "summary_zh": "一位掘金作者复盘了自己从 Cursor 转用 Codex 大半个月的真实体验，认为 Cursor 让他第一次强烈感受到 AI 编程的冲击，而 Codex 更像一个真正的超级 Agent，而不只是编程助手。正在两者之间纠结、或想了解 Agent 形态编程实际手感的开发者可以一读。",
-    "summary_en": "A Juejin author writes up roughly half a month of moving from Cursor to Codex, saying Cursor was the first thing that made AI coding feel striking, while Codex comes across not as a coding assistant but as a genuine super agent, closer to the next stage of the form. Developers weighing the two tools, or wondering what agent-style coding feels like day to day, are the audience.",
-    "input_hash": "72d412342830"
+    "summary_zh": "一位开发者自2025年4月自费订阅 Cursor（每月20美元），后转用公司企业订阅，一直用到2026年4月。随着 Cursor 转为按量计费、费用更高且不可预测，其公司决定中国区改用 OpenAI Codex，他于4月中旬开始迁移。他认为 Cursor 更像贴着编码现场的 IDE，Codex 则更接近能独立干活的超级 Agent。",
+    "summary_en": "A developer who paid $20 a month for Cursor from April 2025, later moving to a company enterprise plan, stuck with it until April 2026, when Cursor's switch to usage-based billing made costs higher and unpredictable. His company then replaced it with OpenAI Codex for its China teams, and he migrated in mid-April. In his view Cursor stays close to the coding surface as an IDE, while Codex feels closer to an autonomous agent.",
+    "input_hash": "cf3d5401aeb1"
   },
   "juejin-7646004870782550050": {
     "summary_zh": "这是掘金上的一篇 2026 年 5 月 GitHub 热门项目月榜盘点，涵盖 skills、Pixelle-Video 等项目。作者观察到当月社区热度集中在把 Agent 做进工程化工作流：省 Token、记住上下文、编排多 Agent、批量产出内容。适合想快速了解近期开源风向的人。",
@@ -1215,9 +1215,9 @@
     "summary_en": "Norway has announced a near-total ban on artificial intelligence tools in elementary schools, citing concerns over privacy, children's cognitive development, and educational equity. The policy prohibits schools from deploying any AI-based teaching aids, with narrow exceptions for special education. This makes Norway one of the strictest nations regarding AI in education, potentially setting a precedent for other European countries. For edtech companies, the ban is a major setback, but it also pushes the industry to more carefully consider the appropriate boundaries of AI use for young children."
   },
   "juejin-7650882103059939337": {
-    "summary_zh": "这篇掘金文章给出 5 步配置流程，按步骤操作后就能在本地工具里直接调用 DeepSeek V4 Pro 的免费额度，不用充值，也可以接入 Claude Code 使用。适合想低成本试用大模型、或想把免费模型塞进现有 coding agent 工作流的开发者。",
-    "summary_en": "A Juejin post lays out a five-step setup for calling DeepSeek V4 Pro's free quota from local tools without topping up an account, and for wiring that model into Claude Code. It targets developers who want to try the model cheaply or plug a free endpoint into an existing coding-agent workflow.",
-    "input_hash": "a450cd4be0ed"
+    "summary_zh": "教程介绍如何借 ZenMux 平台免费调用 DeepSeek V4 Pro：注册账号、创建 API Key 并在 Model Restriction 中填入 deepseek-v4-pro-free 等免费模型，再用 cc switch 或 Cherry Studio 接进本地工具，共五步，其中 cc switch 并非必需。文中还记录一个细节——模型自述并非 DeepSeek-v4，想省额度的人最好先自行验证。",
+    "summary_en": "A walkthrough shows how to call DeepSeek V4 Pro for free through ZenMux: register an account, create an API key, add deepseek-v4-pro-free in the Model Restriction field, then wire it into a local client with cc switch or Cherry Studio in five steps, with cc switch being optional. The post also notes the model replied that it isn't actually DeepSeek-v4, so verify before relying on it.",
+    "input_hash": "31039c27464b"
   },
   "gh-daily-bytedance-deer-flow": {
     "summary_zh": "字节跳动开源项目 DeerFlow 2.0 是一个 super agent harness，通过编排子代理、记忆与沙箱来处理研究、写代码和创作等长时程任务。README 称 2.0 发布后曾登 GitHub Trending 第一，支持 Python 3.12+ 与 Node.js 22+，并以可扩展技能驱动。适合研究多步骤自主 Agent 架构的开发者。",
@@ -4133,9 +4133,9 @@
     "summary_en": "The git history command is a community-built tool that transforms repository browsing into an interactive terminal experience. Instead of scrolling through endless git log output, you get a fuzzy-searchable interface with branch filtering and inline diff previews. It solves the problem of navigating complex commit histories in large projects, making it invaluable for developers who want to quickly trace changes or review code evolution without leaving the terminal. Think of it as a better gitk for the command line."
   },
   "juejin-7659709059810705462": {
-    "summary_zh": "这篇掘金文章从 Meta 讲出的“算力过剩”说法、AI 股市随之下跌谈起，追问三年过去 AI 应用为何仍未爆发，AI 的抖音、微信、小红书何时出现，以及是否重蹈 2000 年的覆辙。适合关心 AI 落地节奏与市场情绪的人阅读。",
-    "summary_en": "A Juejin essay starts from Meta's talk of surplus compute and the resulting sell-off in AI stocks to ask why AI applications still haven't taken off three years in. It weighs when the AI equivalents of Douyin, WeChat and Xiaohongshu will show up, and whether the boom is repeating the dot-com bubble of 2000.",
-    "input_hash": "cf73555b75f4"
+    "summary_zh": "掘金精选：三年了，为什么 AI 应用还没爆发？",
+    "summary_en": "Featured on Juejin: 三年了，为什么 AI 应用还没爆发？",
+    "input_hash": "180243b43839"
   },
   "zhihu-2058449781597459395": {
     "summary_zh": "长鑫科技以 8.66 元/股启动申购，估值超 4 万亿（实际约 4300 亿？），成为国产 DRAM 龙头资本化里程碑。对自身而言，募资将加速先进制程研发和产能扩张，巩固与三星、SK 海力士的竞争；对半导体产业则意味着国产存储芯片从追赶进入量产验证期，有望降低对进口的依赖并带动设备材料国产化生态。",
@@ -4366,9 +4366,9 @@
     "summary_en": "Grok Build, a build tool developed by xAI, has been open-sourced, making it freely available for use and modification. Previously used internally, it now promises to help developers streamline build processes with greater customization. The move towards transparency and community collaboration could benefit DevOps teams and infrastructure engineers looking for flexible, efficient alternatives in the build tool landscape."
   },
   "juejin-7660712622825144374": {
-    "summary_zh": "这篇掘金文章盘点了 2026 年编程圈流行的 10 个 Skills，这里的 Skills 不是指程序员的技术能力，而是 AI 编程助手的「技能包」，也就是把 AI 从随缘写代码变成按流程交付的标准化工作流模块。适合正在把 AI 编码工具接入团队流程的人参考。",
-    "summary_en": "A Juejin post lists ten Skills that took off in the 2026 programming world — not developer abilities, but \"skill packs\" for AI coding assistants: standardized workflow modules that turn ad-hoc code generation into repeatable, process-driven delivery. It's aimed at people trying to fit AI coding tools into an actual team workflow.",
-    "input_hash": "39a792f5cff6"
+    "summary_zh": "这里的 Skills 指 AI 编程助手的「技能包」，基于 Anthropic 在 2025 年 10 月推出的 Agent Skills 开放标准：一个 Skill 就是一个含 SKILL.md 的文件夹，放进 ~/.claude/skills/ 目录后 AI 会自动加载并按流程执行。文章整理了 2026 年最火的 10 个 Skills，并给出 GitHub 上已有 1400+ 个 Claude Code Skills、官方 marketplace 收录 658+ 个等数据。适合想让 AI 助手从「随缘写代码」转向标准化交付的开发者。",
+    "summary_en": "Skills here means reusable skill packs for AI coding assistants, built on Anthropic's Agent Skills open standard from October 2025: each Skill is a folder containing a SKILL.md that Claude Code auto-loads from ~/.claude/skills/ and then follows as a process. The post rounds up 10 of the most popular Skills of 2026 and cites 1,400+ Claude Code Skills on GitHub plus 658+ in the official marketplace. It's aimed at developers who want their AI assistant to deliver standard workflows instead of improvising.",
+    "input_hash": "b7c678e66f4e"
   },
   "juejin-7662691781214470180": {
     "summary_zh": "一位掘金作者停更一年后回归，分享了这段时间的密集经历：全力投入 AI 领域、陪伴妻子生娃、还抽空考了个研。文章以第一人称讲述了如何平衡工作、家庭与个人提升，展现了技术人在生活重大节点上的真实抉择。对面临类似境遇的读者来说，这是一个关于如何在巨大压力下仍坚持成长的真实故事。",
@@ -5990,9 +5990,9 @@
     "summary_en": "This post provides a deep dive into the Kimi K3 architecture, a chip design tailored for high‑performance computing with a focus on heterogeneous compute units and energy efficiency. The author breaks down its memory hierarchy, interconnect topology, and compiler stack, showing how the architecture extracts maximum performance within tight power budgets. Engineers working on chip design, system architecture, or low‑level optimization will find practical insights here. The K3's approach to balancing AI inference and scientific computing workloads makes it a particularly interesting reference for modern accelerator design."
   },
   "juejin-7666482995197722630": {
-    "summary_zh": "文章讲述了一位程序员因公司使用Kimi K3 API成本过高，被老板要求研究本地化部署方案。他精心计算后，发现搭建一套能够承载同等性能的本地系统其实需要三千万人民币，而不是老板想象的低成本。当他把账单放在桌上，老板的脸色从白转红、再转紫最后变黑，沉默良久后让员工先回去等开会讨论。这个故事生动揭示了AI大模型商用部署的现实困境：看似便宜的API背后隐藏着高昂的调用成本，而自建基础设施的门槛更是高得惊人。",
-    "summary_en": "This story recounts a programmer who was asked by his boss to explore local deployment of Kimi K3 after the API costs proved too expensive. After careful calculation, he discovered that building an on-premise system matching the same performance would actually cost 30 million yuan—far more than the boss expected. When he presented the bill, the boss's face turned from white to red, then purplish, and finally black; after a long silence, he told the employee to leave the documents and wait for a meeting. The tale vividly illustrates the harsh reality of deploying large AI models commercially: low API prices hide huge cumulative costs, while self-hosting demands astronomical investment.",
-    "input_hash": "7509ecc3d915"
+    "summary_zh": "文章讲作者被老板要求测算 Kimi K3 本地化部署的成本：K3 是 2.8 万亿参数的 MoE 模型，官方建议至少 64 张加速卡组成超节点，还要配 NVLink、800G 级光模块和 RDMA/RoCE 交换机，他按 64 张 H200 估算后给出约三千万的总投入。文章用具体报价说明超大模型私有化部署远不是“只花一次钱”，适合评估自建推理集群成本的人参考。",
+    "summary_en": "A Chinese developer works out what self-hosting Kimi K3 would actually cost after his boss proposed waiting for the open-source release instead of paying API fees. K3 is a 2.8-trillion-parameter MoE model that officials say needs at least 64 accelerators in a supernode, plus NVLink, 800G optical modules and RDMA/RoCE switches; using H200s he lands at roughly 30 million yuan. Useful for anyone sizing private inference clusters.",
+    "input_hash": "36bbad3536c7"
   },
   "juejin-7667762010876936192": {
     "summary_zh": "文章批评了许多开发者习惯用nohup java -jar &命令在后台运行Spring Boot应用，认为这种做法在生产环境中极其危险。nohup加&虽然能让进程忽略挂断信号并在后台持续运行，但它缺乏进程监控、自动重启、日志轮转等关键守护能力。一旦应用崩溃或因异常退出，服务就会彻底中断，而运维人员往往要等到用户投诉才能发现。作者推荐使用systemd、Supervisor或Docker等专业进程管理工具，它们能确保应用在意外退出后自动恢复，并支持优雅关闭、资源限制等高级功能，真正守护生产环境的稳定性。",
@@ -8512,9 +8512,9 @@
     "input_hash": "0e6c62731944"
   },
   "juejin-7650352436700774400": {
-    "summary_zh": "作者将小米 MiMo Code 官网链接交给 Codex，10 分钟就 1:1 复刻整站，连字体和 DESIGN.md 设计规范也被提取。展示 AI Coding Agent 在还原动效和设计细节上的能力，适合想低成本做致敬页或克隆站点的开发者。",
-    "summary_en": "A developer fed the Xiaomi MiMo Code site URL to Codex and got a pixel-perfect clone in ten minutes, including the mouse-erase reveal animation, fonts, and a DESIGN.md spec. It's a practical demonstration of using an AI coding agent to replicate a polished front-end quickly. Useful for developers who want to recreate design references or spin up a homage page with minimal effort.",
-    "input_hash": "904b9c09fb7c"
+    "summary_zh": "作者把小米 MiMo Code 官网链接直接丢给 Codex，约十分钟完成首页 1:1 复刻，包括鼠标擦除露出背景图的特效以及字体和排版，花掉约一半 Plus 额度。文中还演示了让 Codex 提取站点风格生成 DESIGN.md 供后续项目复用，适合想复刻网页特效的开发者。",
+    "summary_en": "The author handed the Xiaomi MiMo Code site URL to Codex, which reproduced the homepage 1:1 in about ten minutes, covering the mouse-erase background reveal effect along with the fonts and layout, at a cost of roughly half a Plus quota. He also shows Codex extracting the visual style into a DESIGN.md for reuse, useful for anyone wanting to clone fancy web effects.",
+    "input_hash": "38c69fd453c6"
   },
   "gh-daily-akitaonrails-ai-memory": {
     "summary_zh": "ai-memory 是用 Rust 编写的长期记忆工具，用于在不同厂商的 AI coding agent 之间交接上下文：在同一目录下从 Claude Code 切到 OpenAI Codex，无需重新解释架构、失败方案和待解问题。它宣称兼容 20 多个 harness（含 Codex、Cursor、Gemini CLI、Devin 等），采用 MIT 协议，要求 Rust 1.95+。适合经常切换 coding CLI 的开发者。",
@@ -11237,9 +11237,9 @@
     "input_hash": "ac9287844107"
   },
   "juejin-7670094721701445672": {
-    "summary_zh": "一位掘金作者设想在人人都用 AI Coding 的当下，技术面试会变成什么样子：他以小明应聘 Android 工程师为例脑补了一套面试流程，讨论是否还会问老套的面试题。适合正在准备跳槽、想知道 AI 时代面试考察点是否改变的开发者。",
-    "summary_en": "A Juejin post imagines what technical interviews look like now that AI coding is everywhere, mocking up a hypothetical Android engineer interview for a candidate named Xiaoming and asking whether the same old questions still get asked. It's aimed at developers preparing to switch jobs who want to know how interview focus may have shifted.",
-    "input_hash": "2848a59f70ce"
+    "summary_zh": "文章用一个 Android 岗位面试场景说明，靠 AI 写代码的候选人在被追问 View 绘制流程、现场找出 AI 代码问题时很容易露怯；作者认为 AI 时代面试考的不是“会不会用 AI”，而是判断力、对代码产出的所有权、审查能力和工程取舍，并引用 2025 年 Stack Overflow 调查称 66% 的开发者受困于“AI 答案几乎对但差一点”。适合重度依赖 AI Coding 的开发者自查竞争力。",
+    "summary_en": "The article imagines an Android job interview in which a heavy AI-coding user falls apart when asked to explain View rendering or to spot problems in AI-generated code. Its argument: interviews now test judgment (daring to say an AI answer is wrong), ownership of shipped code, review skill and engineering trade-offs, citing a 2025 Stack Overflow survey in which 66% of developers were frustrated by AI answers that were almost right. Aimed at anyone whose workflow leans on AI assistance.",
+    "input_hash": "79b509392998"
   },
   "zhihu-2076984800188093248": {
     "summary_zh": "这个知乎提问的标题提到：OpenAI 因 Cursor 被 SpaceX 收购，将停止向 Cursor 提供 AI 模型。原帖没有正文，更多背景和讨论细节不可知。",
@@ -13122,9 +13122,9 @@
     "input_hash": "ffdf1d5efc46"
   },
   "gh-daily-heygen-com-hyperframes": {
-    "summary_zh": "HyperFrames 是 heygen-com/hyperframes 仓库中的开源项目，核心理念是“写 HTML、渲染视频”，并明确面向 agent。它提供 npm 包 hyperframes，要求 Node.js >=22，采用 Apache 2.0 许可证；适合想用 agent 或脚本将 HTML 内容直接转成视频的开发者。",
-    "summary_en": "HyperFrames, from the heygen-com/hyperframes repository, is an open-source project built around 'Write HTML. Render video. Built for agents.' It is published as the npm package hyperframes, requires Node.js >=22, and is Apache 2.0 licensed. Developers who want agents or code to turn HTML into video can build directly on it.",
-    "input_hash": "49858c686d81"
+    "summary_zh": "HyperFrames 是 HeyGen 开源的项目，用 HTML 写页面再渲染成视频，定位是“built for agents”，npm 包名为 hyperframes，要求 Node.js 22 及以上，采用 Apache 2.0 许可。它把视频生成放进可编程、可自动化的流程里，适合想用代码或 agent 批量产出视频的开发者。",
+    "summary_en": "HyperFrames is an open-source project from HeyGen that turns HTML into rendered video and is pitched as \"built for agents\"; it ships as the npm package hyperframes, requires Node.js 22 or newer and is Apache 2.0 licensed. With a quickstart and showcase available, it targets developers who want to produce video through code or automated agent pipelines rather than timeline editors.",
+    "input_hash": "7554f4857860"
   },
   "36kr-3972425887822337": {
     "summary_zh": "这条资讯没有正文，只有标题：约 8000 万养宠人见证“它经济”从狂热到崩塌。原文是链接，未提供更多细节。",
@@ -13257,8 +13257,8 @@
     "input_hash": "332423d6669a"
   },
   "gh-daily-mksglu-context-mode": {
-    "summary_zh": "开源项目 context-mode — Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists se",
-    "summary_en": "Open-source project context-mode — Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists se",
+    "summary_zh": "context-mode 是面向 AI coding agent 的上下文窗口优化工具，做法是沙箱化工具输出（作者称可减少 98%）、持久化会话记忆，并通过 MCP 与 hooks 在 17 个平台上执行路由。它以 npm 包形式发布，采用 ELv2 许可，适合经常被工具调用结果撑爆上下文的 agent 使用者。",
+    "summary_en": "Context Mode is an optimization layer for AI coding agents that sandboxes tool output, which it says cuts context usage by 98%, persists session memory, and enforces routing across 17 platforms via MCP plus hooks. It ships as an npm package under the ELv2 license, aimed at developers whose agents keep blowing through their context window.",
     "input_hash": "a583e235cd8a"
   },
   "infoq-5Xy6jTfq7Si98XvXAJCp": {
@@ -13767,9 +13767,9 @@
     "input_hash": "b42cbade3116"
   },
   "v2ex-e1998ee1bd50": {
-    "summary_zh": "V2EX 上有用户发帖询问，有没有靠谱的非正规渠道能把国内 eSIM 写进外版 iPhone。他说自己此前在一个二手交易平台上见过提供这项服务的商家并聊过两句，但等换了新手机想细聊时，对方的账号和商品详情页都已消失，再搜类似商家也搜不到，于是发帖问还能不能找到人办理。适合关注 eSIM 国行限制与灰色渠道风险的读者。",
-    "summary_en": "A V2EX user asks whether any reliable grey-market method exists for writing a mainland-China eSIM profile onto an overseas iPhone. He had found a seller offering the service on a second-hand trading platform, but by the time he wanted to discuss it for a new phone, the account and listing had vanished and similar sellers could no longer be found. It's relevant to anyone weighing eSIM restrictions on China-version versus overseas iPhone models.",
-    "input_hash": "ddc59c570636"
+    "summary_zh": "这条 V2EX 帖子询问是否存在靠谱的野路子，能把国内运营商的 eSIM 写进外版 iPhone。帖内未附描述或正文，具体方法、可行性和风险等细节只在原帖中，本摘要无法给出。",
+    "summary_en": "A V2EX post asks whether any reliable, unofficial method exists for writing a mainland China carrier eSIM onto a non-China iPhone. No description or body text accompanies the thread, so the specific method, feasibility and risks live only on the original page and aren't summarized here.",
+    "input_hash": "f360fae158fc"
   },
   "v2ex-71ca43f6e185": {
     "summary_zh": "V2EX 网友发帖称，Tibo 已在 X 上证实 OpenAI 的 Codex $200 Pro 套餐暂停供应。发帖人恰好当天新开了 Pro，表示自己暂时不会断供，但按这一趋势推测，Tibo 此前手动重置用量额度的做法可能会大幅减少甚至消失。适合关注 Codex 订阅额度与限流策略的开发者。",
@@ -13977,9 +13977,9 @@
     "input_hash": "f3b892a9dfa0"
   },
   "v2ex-3d09f8f249b8": {
-    "summary_zh": "这是 V2EX 上一篇推广帖，宣传通过众安银行（ZA BANK）香港开户可返 500HKD，正文只留了 Telegram 账号和电报群链接，没有写返现条件、名额或截止时间。对香港银行开户返现有兴趣的人可按此联系发帖人，但帖子本身没有提供更多可核实信息。",
-    "summary_en": "A V2EX promotional post advertising a 500 HKD reward for opening an account with ZA BANK, the Hong Kong virtual bank. The body contains only contact details — a Telegram handle and a group link — with no terms, quotas or deadlines. Anyone curious about Hong Kong bank referral bonuses can reach the poster, but the post itself offers nothing further to verify.",
-    "input_hash": "0ece80412298"
+    "summary_zh": "这是一条 V2EX 推广帖，宣传香港虚拟银行 ZA BANK（众安银行）开户可返 500 HKD。帖子没有附带描述或正文，返现条件、名额与具体流程等细节在摘要中无从确认。",
+    "summary_en": "A V2EX promotional post advertises that opening an account with ZA BANK, the Hong Kong virtual bank, earns 500 HKD back. No description or body text is attached, so the rebate conditions, availability and exact process can't be confirmed beyond the title.",
+    "input_hash": "06ff83d778e0"
   },
   "infoq-RCa5y6tvZXbjGKeLSGZt": {
     "summary_zh": "9 月 8 日，Snowflake World Tour 全球巡演首次落地中国，距其进入中国市场满两年，中国区总经理张莹与全球产品总裁 Christian Kleinerman 将主题定为企业级智能体。Snowflake 认为模型能力已不是瓶颈，关键在于企业特有的定义、口径与权限所构成的上下文，并给出 AI 模型、企业数据与上下文、连接企业系统的应用、Agentic Control Plane 四个要素。",
@@ -17717,9 +17717,9 @@
     "input_hash": "28c92bddc47d"
   },
   "gh-daily-mvschwarz-openrig": {
-    "summary_zh": "OpenRig 是一个多 agent harness，把 Claude Code 和 Codex 塞进同一套 rig 统一管理，agent 团队用 YAML 定义、一条命令启动。你只跟 lead agent 谈想要的结果，它会跨团队协调 specialist 并回报需要你拍板的事，适合把零散终端会话变成常驻 coding agent 团队的人。",
-    "summary_en": "OpenRig is a multi-agent harness that runs Claude Code and Codex together as one system: define the agent team in YAML and boot it with a single command. You talk to a lead agent about the outcome you want, and it coordinates specialists across teams. It ships on npm as @openrig/cli under Apache 2.0.",
-    "input_hash": "dab4ec0f1ee9"
+    "summary_zh": "OpenRig 是一个开源工具，用 YAML 声明由 Claude Code、Codex、Pi 等 coding agent 组成的团队，一条命令启动，成员有固定角色、共享上下文和各自负责的工作，还能和一个 lead agent 对话来协调。它把零散的终端会话变成可长期运转的 agent 网络，适合想让多个 agent 分工协作的开发者，npm 包名为 @openrig/cli。",
+    "summary_en": "OpenRig is an open-source tool (npm: @openrig/cli) that lets you declare a team of coding agents — Claude Code, Codex and Pi in the same rig — in YAML and boot it with one command. Members get persistent roles, shared context and owned work, and a lead agent coordinates specialists on your behalf. It targets developers who want durable multi-agent collaboration instead of a pile of terminal sessions.",
+    "input_hash": "bb3c0b41155c"
   },
   "v2ex-9d07a31663eb": {
     "summary_zh": "V2EX 热议：[程序员] 做一个 AI 辅助写邮件的邮件客户端怎么样？",
@@ -18322,9 +18322,9 @@
     "input_hash": "dad4e660a390"
   },
   "hn-49893509": {
-    "summary_zh": "America.gov 是一个提供官方政府信息查询的服务，用户可以在上面找到由官方来源给出的答案，并获得所需服务的明确后续步骤。它面向需要办理美国政务、又不想在零散信息里翻找的人。",
-    "summary_en": "America.gov is a service that returns answers from official government sources and lays out clear next steps for the services you need. It's aimed at people who want authoritative answers about U.S. government services instead of digging through scattered sources. The Hacker News submission itself adds no further detail beyond that description.",
-    "input_hash": "eda9657abecc"
+    "summary_zh": "这是 Hacker News 上一条标题为 America.gov 的提交，指向同名域名，没有附描述或正文说明页面内容。原始链接未被摘要，除标题外没有更多细节可供判断，因此无法说明它为何被提交、讨论的是什么。",
+    "summary_en": "A Hacker News submission titled America.gov, pointing at that domain. The linked page isn't summarized here; details beyond the title aren't available, so there is nothing to say about which page it is or why it was posted.",
+    "input_hash": "4b5c90bea1ea"
   },
   "36kr-4005104793866368": {
     "summary_zh": "OpenAI 上线了被称为「OpenAI 版 Muse」的新产品，同时把 GPT-6.1 的价格大幅下调，并有报道称其将融资超过 2000 亿。标题之外原文未提供正文，Muse 的具体形态、降价幅度和融资细节都无法确认，只能确认这三件事被放在同一条消息里。",
@@ -18410,5 +18410,195 @@
     "summary_zh": "知乎上有一条开放式提问：如果机器人真的进入家庭，你希望它最先学会做什么。问题把讨论聚焦到家庭场景下机器人功能的优先级排序，适合做机器人产品、具身智能或家用硬件的人参考；原文仅为提问，未提供更多细节。",
     "summary_en": "A Zhihu question poses an open-ended prompt: if robots really did enter the home, what would you want one to learn first? It focuses discussion on which household tasks should come first for robotics products, useful for anyone working on embodied AI or home hardware; the linked page isn't summarized here, so details beyond the title aren't available.",
     "input_hash": "a1decf4d0c4a"
+  },
+  "v2ex-bd66161e9f20": {
+    "summary_zh": "V2EX 热议：[问与答] 你们家里日常衣服晾晒到室外直接接触阳光吗？",
+    "summary_en": "Hot on V2EX: [问与答] 你们家里日常衣服晾晒到室外直接接触阳光吗？",
+    "input_hash": "91f9c7c794c6"
+  },
+  "v2ex-15c12680c9f7": {
+    "summary_zh": "V2EX 热议：[问与答] 改套餐白送了张副卡，但是不知道怎么利用这张卡",
+    "summary_en": "Hot on V2EX: [问与答] 改套餐白送了张副卡，但是不知道怎么利用这张卡",
+    "input_hash": "95851cf8643c"
+  },
+  "zhihu-2089062587409421035": {
+    "summary_zh": "华为与赛力斯签署新的五年合作协议，将围绕问界业务的升级与品牌向上展开，余承东和张兴海均出席签约仪式。该帖是知乎上的提问，除标题所述信息外未提供协议条款、合作范围等更多细节。",
+    "summary_en": "Huawei and Seres have signed a new five-year cooperation agreement covering the upgrade of the Wenjie (AITO) business and its brand positioning, with Yu Chengdong and Zhang Xinghai attending the signing. The linked page is a Zhihu question, so no further details on terms or scope are available.",
+    "input_hash": "31527743ac30"
+  },
+  "36kr-4006033272131714": {
+    "summary_zh": "据报道，苹果一条全新产品线被曝光，Siri 的 AI 能力将进入家庭场景。原文只提供了标题和链接，产品形态、发布时间等信息均未给出。",
+    "summary_en": "Apple reportedly has a brand-new product line in the works that would bring Siri's AI capabilities into the home. The linked page isn't summarized here; details beyond the title, such as product form or launch timing, aren't available.",
+    "input_hash": "f32be6ca8b07"
+  },
+  "v2ex-33ba740c6a3a": {
+    "summary_zh": "一位开发者用 Flutter、Flame 和 SoLoud 手工写了款全平台掼蛋游戏，2024 年动工，2025 年初网页版测试，2026 年初起陆续上架 iOS、macOS、Windows 和 Google Play，DAU 从不足 10 涨到约 500，未接任何广告。他吐槽 Flame 存在多处 bug，做这款游戏是因为市面掼蛋应用重捞金、轻体验。",
+    "summary_en": "A developer hand-built a cross-platform Guandan card game with Flutter, Flame and SoLoud, starting in 2024, testing a web version in early 2025 and shipping on iOS, macOS, Windows and Google Play in early 2026. Daily active users grew from under 10 to roughly 500 with no advertising at all. He walks through several Flame bugs he hit, and says he built it because existing Guandan apps chase money over play experience.",
+    "input_hash": "c2b43b43fe69"
+  },
+  "36kr-4006619084689545": {
+    "summary_zh": "36kr 这篇文章讨论的是中国人连度假都放不下「考证」，标题把假期备考、拿证当作一部分人的度假方式来看。该条目只提供了标题，原文是链接，未附带更多正文细节，具体涉及哪些证书、引用哪些数据都无法确认。",
+    "summary_en": "A 36kr article whose title asks whether Chinese people are so determined that they even get certified while on holiday, framing exam prep as a holiday activity. The entry carries only the headline and a link — the linked page isn't summarized here, so which certificates or data it discusses can't be confirmed.",
+    "input_hash": "eb641f4bb841"
+  },
+  "v2ex-05230e9fc651": {
+    "summary_zh": "面向软考中高级的备考系统，能按学习时长偏好生成每日计划并随进度调整，涵盖章节知识点、历年真题、模拟考试、错题本和案例论文专项练习，并用 AI 批改案例与论文（作者称仅供参考）。作者在 V2EX 求反馈，发放 VIP 免费体验，备考软考的人可以试试。",
+    "summary_en": "A study platform for China's 软考 qualification exam at the intermediate and advanced levels. It builds a daily plan around how much time you can study and adjusts it as you progress, covering chapter knowledge points, past papers, mock exams, a mistake log, and dedicated case-study and essay practice, with AI feedback on written answers (the author says it's for reference only). The maker is asking V2EX users for feedback and giving out free VIP access.",
+    "input_hash": "7d25b77fd01a"
+  },
+  "v2ex-3cbe7a5ef52a": {
+    "summary_zh": "Herduck 是配合 Herdr 的工具，分工上 Herdr 让 Agent 持续运行并并排管理，Herduck 记录一项活的目标、做到哪、卡在哪、下一步和可回溯记录。本轮补上了把相关对话自动归到同一项活、闲置自动睡眠释放内存，以及让 Agent 用 herduck 命令读写工作计划，兼容 Claude Code、Codex、Cursor 等，作者在 V2EX 求 Herdr 用户拍砖。",
+    "summary_en": "A companion to Herdr: Herdr keeps agents running side by side, while Herduck tracks what a piece of work is aiming for, how far it's got, where it's stuck, the next step and the history behind it. This iteration adds automatic grouping of related conversations under one task, sleeping idle agent sessions to free memory, and a herduck command so agents can read and update the work plan; it works with Claude Code, Codex and Cursor, among others. The author is seeking feedback from Herdr users on V2EX.",
+    "input_hash": "ebab4955983f"
+  },
+  "36kr-4006810439733378": {
+    "summary_zh": "36kr 这篇文章的标题把某个被 00 后带火的低价消费场所称为「穷鬼天堂」，并称它在国庆期间成了「最狠镰刀」，指向价格或营销层面的争议。条目仅有标题，原文是链接，未提供更多细节，具体是哪家公司、用了什么做法无法确认。",
+    "summary_en": "A 36kr piece whose headline calls a low-price venue that Gen Z made popular a 'paradise for the broke', and says it became the sharpest 'sickle' — a means of extracting money — over the National Day holiday. Only the title is given and the linked page isn't summarized here, so the company and practices involved can't be identified.",
+    "input_hash": "b2f4811658d6"
+  },
+  "v2ex-9d01972cd0c4": {
+    "summary_zh": "一位 V2EX 用户发帖询问是否有人玩过第三人称超自然动作 RPG《CONTROL Resonant》，并称支线 The Last Taxi 比主线更好玩：玩家要找到七辆异常出租车，接听 Mila 的电话，再根据车灯、顶灯、路灯和阴影的变化挑出正确的车。帖子除了一段描述和外部链接外没有更多内容，平台与发售信息均未提及。",
+    "summary_en": "A V2EX thread asks whether anyone has played CONTROL Resonant, a third-person supernatural action RPG, and argues its side mission The Last Taxi is more fun than the main story: players track down seven anomalous taxis, take calls from Mila, and pick the right car by reading changes in headlights, roof lights, streetlights and shadows. The post adds little beyond that description and an external link, so platform and release details aren't covered.",
+    "input_hash": "3fd24e262a53"
+  },
+  "v2ex-c7f488501ecd": {
+    "summary_zh": "一位 V2EX 用户称 Opus 5.5 在视频创作上表现突出：丢一句话给它，动效、排版和转场都由它自己写代码生成，效果常常超出预期。他还搭了 opus6.video 这个站，声称无需 Claude 账号就能直接试用，适合想快速做动效视频又不想配置账号的开发者。",
+    "summary_en": "A V2EX poster says Opus 5.5 has been unexpectedly strong at video work: given a single sentence, it writes the code for motion, layout and transitions itself, often beating the poster's own expectations. They also built opus6.video, which they say lets people try it without a Claude account, aimed at developers who want quick animated clips without setup.",
+    "input_hash": "9aaec7f6e5f9"
+  },
+  "v2ex-edeebee3ab8c": {
+    "summary_zh": "一位开发者发帖反映在微软浏览器里看 B 站看不到弹幕，怀疑是插件装太多导致。帖子只有标题和一句补充说明，既没列出所装插件，也没有排查过程和结论，因此从帖子里无法判断真正原因。",
+    "summary_en": "A developer reports that Bilibili danmaku (bullet comments) don't display in Microsoft's browser and suspects too many extensions are installed. The post contains only the title plus one line stating that many plugins are loaded — no extension list, troubleshooting steps or conclusion — so the actual cause can't be determined from the thread.",
+    "input_hash": "5e79477e4088"
+  },
+  "v2ex-e6be5cdce308": {
+    "summary_zh": "开发者发布照片备份工具 Azalea Photo，把手机原图直接写入你自选的存储介质，支持腾讯云 COS、阿里云 OSS、Amazon S3、USB 硬盘和 Samba NAS，访问密钥只存在设备钥匙串里，官方服务器不保存任何照片。它支持增量备份与断点续传，实测 iPhone 15 的 86.4 GB 数据写入 1TB 移动硬盘耗时约 4 小时 17 分，适合不想把原图交给 iCloud 或 Google Photos、又不想长期维护服务器的用户。",
+    "summary_en": "A developer released Azalea Photo, a backup tool that writes phone photos' original files straight to storage you pick: Tencent COS, Aliyun OSS, Amazon S3, USB drives or SSDs, and Samba NAS, with access keys kept in the device keychain and no photos stored on the vendor's servers. It does incremental and resumable transfers; a lab test moved 86.4 GB from an iPhone 15 to a 1TB drive in about 4 hours 17 minutes, suiting users who dislike iCloud or Google Photos but don't want to maintain a server.",
+    "input_hash": "d12d6c2da082"
+  },
+  "infoq-t5i2Yv2z0LwIbK36lteR": {
+    "summary_zh": "9 月 30 日 DeepSeek 开源了面向华为昇腾平台的一组基础设施组件，涵盖 TileLang 编译器以及 DeepGEMM、DeepEP、TileKernels、FlashMLA、DeepSelect 的昇腾实现，与此前英伟达版本一一对应。团队还与华为共同推进基于昇腾 950 的 128 卡超节点方案，其中 TileLang 已承载 DeepSeek V4 训练的大部分算子。",
+    "summary_en": "On September 30, DeepSeek open-sourced a set of infrastructure components for Huawei's Ascend platform, covering the TileLang compiler plus Ascend implementations of DeepGEMM, DeepEP, TileKernels, FlashMLA and DeepSelect that map one-to-one onto its earlier NVIDIA releases. The team also worked with Huawei on a 128-card supernode based on Ascend 950. TileLang already implements most operators used in DeepSeek V4 training, and some components keep NVIDIA-level APIs to ease migration.",
+    "input_hash": "a4e794abe433"
+  },
+  "infoq-Rgb6X5RSD1P8HQzRc0K7": {
+    "summary_zh": "这期 Java 新闻汇总了 JDK 27 的正式发布（含九项 JEP）、JDK 28 早期访问 Build 16、BellSoft 的 Liberica JDK 27，以及 Jakarta EE 12 Core Profile 定于 12 月发布的时间表。Open J Proxy 1.0.0 GA 同期发布，新增 HikariCP 连接池泄漏检测阈值与 JDBC Type 3 驱动，并与 OmniFish 合作面向 Kubernetes 等云原生场景的数据库扩展。",
+    "summary_en": "This Java roundup covers the release of JDK 27 with nine finalized JEPs, JDK 28 early-access Build 16, BellSoft's Liberica JDK 27, and the Jakarta EE 12 Core Profile slated for December with Web and Platform specs following next year. Open J Proxy also reached 1.0.0 GA, adding a HikariCP connection-pool leak-detection threshold, a Core JDBC Type 3 driver, and an OmniFish partnership aimed at database scalability in Kubernetes and cloud-native deployments.",
+    "input_hash": "86ede0833f59"
+  },
+  "infoq-hw3PpM2ZlCmCArsNo1y7": {
+    "summary_zh": "Snowflake 发布《GTM 领导者 AI 转型蓝图》，记录了自家销售与营销团队如何在客户全生命周期中用 AI 推动营收增长。其核心发现是瓶颈不在技术而在组织：两个部门优化不同目标、依赖不同数据，AI 只是让这种割裂更明显，因此需要先打通共享数据与跨团队流程，单点效率提升才可能转化为销售管道。",
+    "summary_en": "Snowflake has published The GTM Leader's Blueprint for AI Transformation, documenting how its own sales and marketing teams apply AI across the customer lifecycle to drive revenue. Its main finding is that the bottleneck is organizational rather than technical: the two functions optimize different goals and rely on different data, so AI only makes the split more visible. Shared data and redesigned cross-team workflows are needed before local productivity gains turn into pipeline.",
+    "input_hash": "d7352182fba9"
+  },
+  "36kr-4006662298865801": {
+    "summary_zh": "36kr 报道称谷歌发布 Gemini 4 Argon，主打性能与 Astra 比肩，而成本只有后者的 60%，被定位为一次对竞争对手的反击。对推理成本敏感的团队来说，这个性价比数字才是关键看点，但原文只有标题，跑分基准与具体定价都没有给出。",
+    "summary_en": "36kr reports that Google released Gemini 4 Argon, pitched as matching Astra's performance at roughly 60% of the cost — framed as Google's counter-punch to rivals. Cost-sensitive inference workloads are the obvious audience, but only the headline is available here: benchmark scores and pricing details aren't provided.",
+    "input_hash": "bc98a6e351cd"
+  },
+  "36kr-4006503753830529": {
+    "summary_zh": "谷歌发布 Gemini 4 Argon，36kr 标题给出的核心数字是单次输出上限达到 100 万 Token。超长输出对长文生成、整库代码改写这类任务有直接价值，但原文未提供正文，上下文窗口、输入上限与开放时间都还不清楚。",
+    "summary_en": "Google has released Gemini 4 Argon, which the 36kr headline says can produce a single output of up to one million tokens. That ceiling matters for long-form generation and whole-repo code rewrites, but the linked page isn't summarized here, so context window, input limits and availability are unknown.",
+    "input_hash": "caf7907d166c"
+  },
+  "36kr-4006830758989953": {
+    "summary_zh": "36kr 关注卡戴珊相关品牌进入中国市场的营销动作，其网红单品定价约 700 元一件，标题直接抛出这个价格还卖不卖得动的问题。原文是链接贴，未提供更多正文，品牌名称、销量和渠道等信息都无从确认。",
+    "summary_en": "A 36kr piece looks at a Kardashian-linked brand trying a down-to-earth push into the Chinese market, where its influencer-style apparel sells at around 700 yuan a piece, and asks whether that price still moves product. Only the headline is available here; the brand name, sales figures and retail channels aren't specified.",
+    "input_hash": "cbe7ca3657d2"
+  },
+  "zhihu-2088971415525356116": {
+    "summary_zh": "江歌妈妈最新发文写下「10 年维权路，尘埃终将落定」，用一句话概括了自己十年间的维权历程。原文是链接贴，未提供更多正文，发文平台、所涉案件的具体进展等信息均无从得知。",
+    "summary_en": "Jiang Ge's mother posted a short message saying her ten-year fight is finally drawing to a close, compressing a decade of legal battles into one line. The linked page isn't summarized here, so the platform she posted on and what specifically changed in the case aren't available.",
+    "input_hash": "29318116929e"
+  },
+  "36kr-3963176848522629": {
+    "summary_zh": "36kr 这篇文章题为《如何记住所有学过的知识》，从标题看讲的是学习方法与记忆技巧，而非新闻事件。原文只有标题，没有任何正文素材，它引用了哪些研究、给出哪些具体方法都无法确认。",
+    "summary_en": "A 36kr article titled 'How to remember everything you have learned' appears to be about study and memory techniques rather than a news item. The linked page isn't summarized here, so which research it draws on and which methods it recommends can't be confirmed; readers after a concrete memory system will have to open the original.",
+    "input_hash": "086ae12e1a32"
+  },
+  "zhihu-2088990170007745695": {
+    "summary_zh": "这是一条知乎提问：美国田纳西州一名死刑犯在接受两轮致死注射后仍未死亡，反而打起了鼾，提问者想弄清是哪个环节出了问题。原帖只提供了问题本身，没有附带报道或执行细节，涉及的药物、注射流程与后续处置都无法确认。",
+    "summary_en": "A Zhihu question asks how a Tennessee death row inmate could survive two rounds of lethal injection and end up snoring, and which step of the protocol might have failed. The post contains only the question itself; the linked reporting and execution details aren't available here, so the drugs used, the timeline and any follow-up remain unknown.",
+    "input_hash": "4c7ce4e76477"
+  },
+  "36kr-4006690290765959": {
+    "summary_zh": "这是一篇 36Kr 文章的标题，以周杰伦、凤凰传奇等演出为切入点，讨论国庆假期酒店被哪一类艺人的演出需求带动。原文只给出标题，正文未提供，因此文中引用了哪些数据、涉及哪些城市或预订平台都无从确认。",
+    "summary_en": "A 36Kr headline that frames the National Day holiday hotel market through performers ranging from Jay Chou to Phoenix Legend, asking whose concerts are filling rooms. Only the title is available here; the article body isn't provided, so the data, cities or booking platforms it cites can't be confirmed.",
+    "input_hash": "d61ac6ed3ecf"
+  },
+  "hn-49906637": {
+    "summary_zh": "Pi 宣布支持 MCP，这篇文章解释了团队改变主意的原因，以及在 MCP 和 Pi 两侧各自发生了什么变化，并介绍了 Codemode 是什么。标题「You said no MCP」对应的是此前拒绝的立场，适合关注 AI 编码工具与 MCP 生态的开发者了解这次转向的具体理由。",
+    "summary_en": "Pi now supports MCP, and this post explains why the team changed its mind, what shifted on both the MCP and Pi sides, and what Codemode is. The title refers to an earlier no-MCP stance, so it's worth reading for developers tracking AI coding tools and the MCP ecosystem.",
+    "input_hash": "894268e733f8"
+  },
+  "zhihu-2089066625966290352": {
+    "summary_zh": "这是知乎上一个关于比亚迪销量的问题：比亚迪 9 月销量 46.36 万辆，并且已连续数月环比增长，提问者想了解该如何看待这一走势。原帖只有问题本身，没有附销量明细、车型结构或同比对比数据，具体增长来源无从判断。",
+    "summary_en": "A Zhihu question notes that BYD sold 463,600 vehicles in September, with month-over-month growth for several consecutive months, and asks how to read that trend. The post contains only the question, with no breakdown by model, segment or year-on-year comparison, so the drivers behind the growth aren't available.",
+    "input_hash": "5d6fa1cd3340"
+  },
+  "hn-49926069": {
+    "summary_zh": "Pi 1.0 是 Hacker News 上的一条条目，原文只给出链接，未提供更多正文细节，从标题能确定的仅是发布了 1.0 版本。想了解它的具体功能需要自行打开原帖。",
+    "summary_en": "Pi 1.0 is a Hacker News submission, and the linked page isn't summarized here; details beyond the title aren't available. All the title establishes is that a 1.0 release exists, so anyone curious about its features will have to open the original thread.",
+    "input_hash": "abfc0d7c74ba"
+  },
+  "hn-49892245": {
+    "summary_zh": "德里自 2002 年起把电网从漏电严重的烂摊子改造成世界级系统，电力损耗从 50% 降到 5%。文章拆解了这套改造是怎么做到的，适合关注电网运营、公共事业治理和基础设施改革的读者。",
+    "summary_en": "Since 2002 Delhi has rebuilt its power grid from a leaking, dysfunctional mess into a world-class system, cutting electricity losses from 50 percent to 5 percent. The piece walks through how the turnaround was achieved, making it relevant to anyone interested in grid operations, utility governance, or infrastructure reform.",
+    "input_hash": "637f72723c17"
+  },
+  "hn-49877988": {
+    "summary_zh": "这篇随笔反驳「编程已经被解决」的流行叙事，核心论点有四条：代码只是达成清晰理解的副产品；理解无法外包给 AI，而它正是「拥有」代码的关键；随着 AI 能力与普及度提升，多数软件价格会崩塌；并且只有概念验证、个人软件和网络攻击这三种场景才真的不必读代码。适合思考 AI 时代工程实践的开发者。",
+    "summary_en": "This essay pushes back on the popular \"coding is solved\" narrative: code is only a side artifact of reaching clarity, understanding can't be offloaded to AI and is what makes ownership real, and better, more widely adopted AI will likely collapse prices for most software. It also names just three cases where reading the code isn't necessary, namely proofs of concept, personal software, and cyber attacks.",
+    "input_hash": "e361307ad5ac"
+  },
+  "zhihu-2088388963652166144": {
+    "summary_zh": "知乎上有人提问：网传一名大学生因公选课老师连续缺课，自己上台用 AI 生成的 PPT 讲了一小时课，这是否属实、又暴露了哪些问题。原文只提供链接，未给出更多细节，事件本身无法在这里核实。",
+    "summary_en": "A Zhihu question asks whether it is true that a university student, after the elective-course instructor missed several classes, took the podium and delivered a one-hour lecture using an AI-generated slide deck, and what problems that would expose. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "88a5e3868aa8"
+  },
+  "zhihu-2087610479766250693": {
+    "summary_zh": "这是一条知乎提问，讨论罗永浩因“溜溜凳”问题与俞敏洪的争执，以及他为何对俞敏洪抱有较大敌意。原文只提供了问题链接，没有附带正文或回答内容，因此无法进一步还原事件细节。",
+    "summary_en": "A Zhihu question asking why Luo Yonghao has taken such issue with Yu Minhong over the \"liuliu stool\" dispute, and where that hostility comes from. The linked page isn't summarized here; details beyond the title aren't available, so no further facts about the exchange can be confirmed.",
+    "input_hash": "028bb3c2827c"
+  },
+  "gh-daily-HunxByts-GhostTrack": {
+    "summary_zh": "GhostTrack 是一个 Python 编写的 OSINT 信息收集工具，菜单提供 IP Tracker、Phone Tracker、Username Tracker，可配合 seeker 获取目标 IP，当前版本 2.2，支持在 Linux（deb）和 Termux 上安装。README 只给出 git clone 加 pip 的命令行步骤，适合想了解这类开源情报工具如何组织查询流程的开发者。",
+    "summary_en": "GhostTrack is a Python OSINT and information-gathering tool whose menu offers IP Tracker, Phone Tracker and Username Tracker, and can be paired with the seeker tool to obtain a target IP; it is at version 2.2 and installs on Linux (deb) or Termux via git clone and pip. The README gives only command-line setup steps, so it is best suited to developers studying how such OSINT lookups are assembled.",
+    "input_hash": "603bee6c9eff"
+  },
+  "gh-daily-pablostanley-yoinks": {
+    "summary_zh": "yoinks 是一个终端视频下载工具，用 npm 全局安装或用 npx 直接运行，支持 YouTube、X/Twitter、Instagram、Threads、TikTok 等 1800 多个站点，粘贴链接后在全屏界面里选分辨率或纯音频 mp3，yt-dlp 和 ffmpeg 会自动获取，只需 Node 18+。它把下载流程压成「粘贴—选格式—完成」，适合厌倦网页下载站弹窗和假按钮的开发者。",
+    "summary_en": "yoinks is a terminal video downloader installed via npm or run directly with npx, pulling from YouTube, X/Twitter, Instagram, Threads, TikTok and 1,800+ other sites. Paste a URL, pick a resolution or audio-only mp3 in a full-screen picker, and let it fetch yt-dlp and ffmpeg automatically; only Node 18+ is needed. It suits developers who want downloads without popups, fake buttons or shady redirects.",
+    "input_hash": "69cb6ffb0eb4"
+  },
+  "zhihu-2088953459273725661": {
+    "summary_zh": "华为 Mate90 系列定价 5999 元起，余承东公开表示在内存大幅涨价的背景下这一定价「很有诚意」。该条目来自知乎提问，没有附带描述或正文，除标题外的价格配置、成本与市场分析等细节无法在此确认。",
+    "summary_en": "Huawei has priced its Mate90 series starting at 5,999 yuan, with Yu Chengdong describing the pricing as sincere given today's steep memory price increases. The item is a Zhihu question with no description or body text supplied, so configuration, cost and market details beyond the title aren't available here.",
+    "input_hash": "eb536c2f9ccb"
+  },
+  "zhihu-2083222866280171324": {
+    "summary_zh": "一位 30 岁的资深程序员发帖称自己每天都用 AI，如今觉得 Agent 的能力过于强大，因而对未来的职业道路感到迷茫。该条目为知乎提问，未提供描述或正文，提问之外的讨论内容与回答无法在本摘要中呈现。",
+    "summary_en": "A 30-year-old senior programmer asks where their career path goes next, saying they use AI daily and now find Agent capabilities too powerful. The item is a Zhihu question with no description or body text, so the surrounding discussion and answers aren't summarized here.",
+    "input_hash": "b26f590ee6d0"
+  },
+  "gh-monthly-vectorize-io-hindsight": {
+    "summary_zh": "vectorize-io 在 GitHub 上放出了 Hindsight，官方描述只有一句「Agent Memory That Learns」，定位是面向 AI agent 的记忆层。除这句简介外仓库没有给出更多说明，具体实现和适用场景需要直接读代码判断。",
+    "summary_en": "vectorize-io has published Hindsight on GitHub, described only as \"Agent Memory That Learns\" — it sits in the agent-memory space, aiming at memory that improves rather than staying static. The repository gives no further detail beyond that tagline, so implementation and intended use cases have to be judged from the code itself.",
+    "input_hash": "85f225fc9f22"
+  },
+  "juejin-7683353819855077412": {
+    "summary_zh": "一位开发者写了篇记录，讲怎么让 WorkBuddy 自己把每天的 100 免费积分领掉，不用再手动惦记。作者说自己早就开了会员，但依然有积分焦虑，于是干脆把领取动作自动化。同样的 WorkBuddy 用户可以直接参考这套做法。",
+    "summary_en": "A developer documented how to automate WorkBuddy's daily 100 free credits so the app claims them on its own instead of needing a manual check-in. The author notes they already pay for a membership yet still felt anxious about missing a day, which is what pushed them to automate it. Anyone using WorkBuddy who keeps forgetting the daily claim can follow the same approach.",
+    "input_hash": "25af85da9dfa"
+  },
+  "v2ex-291052febf89": {
+    "summary_zh": "有开发者在 V2EX 分享了一个自制的单词学习小游戏「单词消消乐」，把背单词和消消乐的消除玩法结合在一起，通过一个网页链接就能直接玩。它适合觉得传统背单词太枯燥、想用游戏化方式记词的人，帖子只给出游戏地址，未说明词库范围或支持平台。",
+    "summary_en": "A developer shared \"Word Match\" (单词消消乐) on V2EX, a small browser game that blends vocabulary memorization with match-and-clear mechanics, playable through a single web link. It targets people who find traditional memorization dull and want a gamified way to review words; the post gives no further detail on word lists, supported platforms or how it was built.",
+    "input_hash": "5fd8e91c0368"
+  },
+  "infoq-fOuaRtwuySyZsS0iGg7N": {
+    "summary_zh": "openJiuwen 开源 AI Agent 平台发布 WorkSwarm 办公编码工作台，把实时音视频交互与后台 Core Agent 执行放进同一个任务：用户能随时插话打断当前播报，也能把查资料、生成文档等耗时工作交给 Core Agent 继续跑。它由华为 2012 实验室等团队联合构建，提供 Windows、Mac、HarmonyOS 一键安装包，适合想上手全双工多模态 Agent 交互的开发者。",
+    "summary_en": "openJiuwen, an open-source AI agent platform, has released WorkSwarm, an office and coding workbench that runs real-time audio/video interaction and a background Core Agent inside the same task. Users can interrupt the agent mid-speech or hand off slower work such as research and document generation to the Core Agent. Built by Huawei's 2012 Lab and other teams, it ships one-click installers for Windows, Mac and HarmonyOS.",
+    "input_hash": "2c004bac7c93"
   }
 }

@@ -214,7 +214,9 @@
       "tags": [],
       "first_seen": "2026-09-30",
       "domain": "earendil.com",
-      "quality_score": 43.2
+      "quality_score": 43.2,
+      "summary_zh": "Pi 宣布支持 MCP，这篇文章解释了团队改变主意的原因，以及在 MCP 和 Pi 两侧各自发生了什么变化，并介绍了 Codemode 是什么。标题「You said no MCP」对应的是此前拒绝的立场，适合关注 AI 编码工具与 MCP 生态的开发者了解这次转向的具体理由。",
+      "summary_en": "Pi now supports MCP, and this post explains why the team changed its mind, what shifted on both the MCP and Pi sides, and what Codemode is. The title refers to an earlier no-MCP stance, so it's worth reading for developers tracking AI coding tools and the MCP ecosystem."
     },
     {
       "id": "hn-49892245",
@@ -230,7 +232,9 @@
       "tags": [],
       "first_seen": "2026-09-29",
       "domain": "spectrum.ieee.org",
-      "quality_score": 42.9
+      "quality_score": 42.9,
+      "summary_zh": "德里自 2002 年起把电网从漏电严重的烂摊子改造成世界级系统，电力损耗从 50% 降到 5%。文章拆解了这套改造是怎么做到的，适合关注电网运营、公共事业治理和基础设施改革的读者。",
+      "summary_en": "Since 2002 Delhi has rebuilt its power grid from a leaking, dysfunctional mess into a world-class system, cutting electricity losses from 50 percent to 5 percent. The piece walks through how the turnaround was achieved, making it relevant to anyone interested in grid operations, utility governance, or infrastructure reform."
     },
     {
       "id": "hn-49877988",
@@ -246,7 +250,9 @@
       "tags": [],
       "first_seen": "2026-09-29",
       "domain": "blog.alexewerlof.com",
-      "quality_score": 30.9
+      "quality_score": 30.9,
+      "summary_zh": "这篇随笔反驳「编程已经被解决」的流行叙事，核心论点有四条：代码只是达成清晰理解的副产品；理解无法外包给 AI，而它正是「拥有」代码的关键；随着 AI 能力与普及度提升，多数软件价格会崩塌；并且只有概念验证、个人软件和网络攻击这三种场景才真的不必读代码。适合思考 AI 时代工程实践的开发者。",
+      "summary_en": "This essay pushes back on the popular \"coding is solved\" narrative: code is only a side artifact of reaching clarity, understanding can't be offloaded to AI and is what makes ownership real, and better, more widely adopted AI will likely collapse prices for most software. It also names just three cases where reading the code isn't necessary, namely proofs of concept, personal software, and cyber attacks."
     },
     {
       "id": "hn-49883844",
@@ -3754,7 +3760,9 @@
       "gh_period": "monthly",
       "first_seen": "2026-09-29",
       "domain": "github.com",
-      "quality_score": 46.0
+      "quality_score": 46.0,
+      "summary_zh": "vectorize-io 在 GitHub 上放出了 Hindsight，官方描述只有一句「Agent Memory That Learns」，定位是面向 AI agent 的记忆层。除这句简介外仓库没有给出更多说明，具体实现和适用场景需要直接读代码判断。",
+      "summary_en": "vectorize-io has published Hindsight on GitHub, described only as \"Agent Memory That Learns\" — it sits in the agent-memory space, aiming at memory that improves rather than staying static. The repository gives no further detail beyond that tagline, so implementation and intended use cases have to be judged from the code itself."
     },
     {
       "id": "gh-monthly-THU-MAIC-OpenMAIC",
@@ -4118,7 +4126,9 @@
       "content": "",
       "first_seen": "2026-09-17",
       "domain": "juejin.cn",
-      "quality_score": 10.7
+      "quality_score": 10.7,
+      "summary_zh": "一位开发者写了篇记录，讲怎么让 WorkBuddy 自己把每天的 100 免费积分领掉，不用再手动惦记。作者说自己早就开了会员，但依然有积分焦虑，于是干脆把领取动作自动化。同样的 WorkBuddy 用户可以直接参考这套做法。",
+      "summary_en": "A developer documented how to automate WorkBuddy's daily 100 free credits so the app claims them on its own instead of needing a manual check-in. The author notes they already pay for a membership yet still felt anxious about missing a day, which is what pushed them to automate it. Anyone using WorkBuddy who keeps forgetting the daily claim can follow the same approach."
     },
     {
       "id": "juejin-7683457864929329204",
@@ -4891,7 +4901,9 @@
       "tags": [],
       "first_seen": "2026-09-30",
       "domain": "infoq.cn",
-      "quality_score": 37.9
+      "quality_score": 37.9,
+      "summary_zh": "9 月 30 日 DeepSeek 开源了面向华为昇腾平台的一组基础设施组件，涵盖 TileLang 编译器以及 DeepGEMM、DeepEP、TileKernels、FlashMLA、DeepSelect 的昇腾实现，与此前英伟达版本一一对应。团队还与华为共同推进基于昇腾 950 的 128 卡超节点方案，其中 TileLang 已承载 DeepSeek V4 训练的大部分算子。",
+      "summary_en": "On September 30, DeepSeek open-sourced a set of infrastructure components for Huawei's Ascend platform, covering the TileLang compiler plus Ascend implementations of DeepGEMM, DeepEP, TileKernels, FlashMLA and DeepSelect that map one-to-one onto its earlier NVIDIA releases. The team also worked with Huawei on a 128-card supernode based on Ascend 950. TileLang already implements most operators used in DeepSeek V4 training, and some components keep NVIDIA-level APIs to ease migration."
     },
     {
       "id": "infoq-07qzHLvyNXSW1SFNV5NV",
@@ -4971,7 +4983,9 @@
       "tags": [],
       "first_seen": "2026-09-30",
       "domain": "infoq.cn",
-      "quality_score": 39.0
+      "quality_score": 39.0,
+      "summary_zh": "Snowflake 发布《GTM 领导者 AI 转型蓝图》，记录了自家销售与营销团队如何在客户全生命周期中用 AI 推动营收增长。其核心发现是瓶颈不在技术而在组织：两个部门优化不同目标、依赖不同数据，AI 只是让这种割裂更明显，因此需要先打通共享数据与跨团队流程，单点效率提升才可能转化为销售管道。",
+      "summary_en": "Snowflake has published The GTM Leader's Blueprint for AI Transformation, documenting how its own sales and marketing teams apply AI across the customer lifecycle to drive revenue. Its main finding is that the bottleneck is organizational rather than technical: the two functions optimize different goals and rely on different data, so AI only makes the split more visible. Shared data and redesigned cross-team workflows are needed before local productivity gains turn into pipeline."
     },
     {
       "id": "infoq-z9VP6ZQ3vCxTrk1VdU5D",
@@ -5005,7 +5019,9 @@
       "tags": [],
       "first_seen": "2026-09-30",
       "domain": "infoq.cn",
-      "quality_score": 41.2
+      "quality_score": 41.2,
+      "summary_zh": "openJiuwen 开源 AI Agent 平台发布 WorkSwarm 办公编码工作台，把实时音视频交互与后台 Core Agent 执行放进同一个任务：用户能随时插话打断当前播报，也能把查资料、生成文档等耗时工作交给 Core Agent 继续跑。它由华为 2012 实验室等团队联合构建，提供 Windows、Mac、HarmonyOS 一键安装包，适合想上手全双工多模态 Agent 交互的开发者。",
+      "summary_en": "openJiuwen, an open-source AI agent platform, has released WorkSwarm, an office and coding workbench that runs real-time audio/video interaction and a background Core Agent inside the same task. Users can interrupt the agent mid-speech or hand off slower work such as research and document generation to the Core Agent. Built by Huawei's 2012 Lab and other teams, it ships one-click installers for Windows, Mac and HarmonyOS."
     },
     {
       "id": "infoq-Rgb6X5RSD1P8HQzRc0K7",
@@ -5021,7 +5037,9 @@
       "tags": [],
       "first_seen": "2026-09-30",
       "domain": "infoq.cn",
-      "quality_score": 40.7
+      "quality_score": 40.7,
+      "summary_zh": "这期 Java 新闻汇总了 JDK 27 的正式发布（含九项 JEP）、JDK 28 早期访问 Build 16、BellSoft 的 Liberica JDK 27，以及 Jakarta EE 12 Core Profile 定于 12 月发布的时间表。Open J Proxy 1.0.0 GA 同期发布，新增 HikariCP 连接池泄漏检测阈值与 JDBC Type 3 驱动，并与 OmniFish 合作面向 Kubernetes 等云原生场景的数据库扩展。",
+      "summary_en": "This Java roundup covers the release of JDK 27 with nine finalized JEPs, JDK 28 early-access Build 16, BellSoft's Liberica JDK 27, and the Jakarta EE 12 Core Profile slated for December with Web and Platform specs following next year. Open J Proxy also reached 1.0.0 GA, adding a HikariCP connection-pool leak-detection threshold, a Core JDBC Type 3 driver, and an OmniFish partnership aimed at database scalability in Kubernetes and cloud-native deployments."
     },
     {
       "id": "infoq-OBQpdcB1xURrJMRlrJZ1",
