@@ -85,8 +85,7 @@ def fetch_hot_list(time_iso: str) -> list[dict]:
     """Fetch Zhihu hot list from tophub.today, filtered to tech only.
 
     tophub 无条目级时间戳，所有条目统一用调用方传入的榜单日时间
-    （当天 12:00 UTC），与 Product Hunt 抓取约定一致，保证 by_date
-    分组确定、月度窗口过滤语义可预期。
+    （当天 12:00 UTC），保证 by_date 分组确定、月度窗口过滤语义可预期。
     """
     req = urllib.request.Request(TOPHUB_URL, headers=HEADERS)
     try:

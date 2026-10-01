@@ -87,7 +87,7 @@ subtitle = "每日自动整理的开发者资讯 · AI / GitHub / 产品"
 draw.text((W // 2, 315), subtitle, font=font_subtitle, fill=TEXT_SECONDARY, anchor="mm")
 
 # Tags
-tags = ["Hacker News", "GitHub Trending", "Product Hunt"]
+tags = ["Hacker News", "GitHub Trending", "V2EX"]
 tag_h = 52
 tag_padding = 24
 tag_spacing = 18

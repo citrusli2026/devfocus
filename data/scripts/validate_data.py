@@ -16,10 +16,10 @@ DATA_DIR = Path(__file__).resolve().parent.parent / "4-final"
 
 # 日榜预期覆盖的数据源（缺源只 WARN，配合 digest.missing_sources 使用）
 EXPECTED_SOURCES = {
-    "hackernews", "github_trending", "producthunt", "juejin",
+    "hackernews", "github_trending", "juejin",
     "zhihu", "36kr", "infoq", "v2ex",
 }
-MIN_DAILY_SOURCES = 7
+MIN_DAILY_SOURCES = 6
 MIN_SEARCH_SOURCES = 5
 
 TREND_VALUES = {"rising", "falling", "stable", "new"}

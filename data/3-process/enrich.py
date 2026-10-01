@@ -896,7 +896,6 @@ PLURAL_MAP = {
 # Canonical forms for near-duplicate tags
 TAG_SYNONYMS = {
     "github-trending": "github",
-    "product-hunt": "producthunt",
     "artificial-intelligence": "ai",
     "machine-learning": "machine-learning",
     "large-language-model": "llm",
@@ -925,7 +924,6 @@ def domain_tag(domain: str) -> str:
     mapping = {
         "github.com": "github",
         "news.ycombinator.com": "hackernews",
-        "producthunt.com": "producthunt",
         "36kr.com": "36kr",
         "juejin.cn": "juejin",
         "zhihu.com": "zhihu",
@@ -1019,7 +1017,7 @@ def compute_quality_score(item: dict, has_summary: bool, max_score: float, max_c
 # 源/域级标签：所有同源条目共享，对"相关条目"匹配无信息量
 # （此前作为桶成员让 find_related 退化为 O(n²) 且结果被同源条目主导）
 SOURCE_TAGS = {
-    "hackernews", "github-trending", "producthunt", "juejin", "zhihu",
+    "hackernews", "github-trending", "juejin", "zhihu",
     "36kr", "infoq", "v2ex", "general-hot",
     "github", "youtube", "arxiv", "twitter",
 }
