@@ -4,8 +4,15 @@ from __future__ import annotations
 """Aggregate raw data → digest with differentiated time periods."""
 
 import json
+import os
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
+
+from _shared import (
+    DEFAULT_SLOT_UTC_HOUR,
+    find_history_gaps,
+    resolve_target_date,
+)
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 RAW_DIR = BASE_DIR / "2-raw"
@@ -178,6 +185,48 @@ def date_key(dt: datetime) -> str:
     return dt.strftime("%Y-%m-%d")
 
 
+def resolve_pipeline_date(now: datetime) -> str:
+    """快照目标日期：PIPELINE_TARGET_DATE 覆盖 > cron 槽位锚定 > UTC 当天。
+
+    - schedule 触发由 _shared.resolve_target_date 按 cron 槽位锚定：GitHub 定时任务
+      常延迟数小时，跨过 UTC 零点时若按「运行时日期」命名就会丢掉前一天的快照
+      （2026-09-28 事故）。
+    - GITHUB_EVENT_NAME 由 Actions 自动注入；本地跑无该变量 → 按 UTC 当天，行为不变。
+    - PIPELINE_TARGET_DATE 供手动补跑指定日期，格式非法则忽略并回退。
+    """
+    override = os.environ.get("PIPELINE_TARGET_DATE", "").strip()
+    if override:
+        try:
+            datetime.strptime(override, "%Y-%m-%d")
+            return override
+        except ValueError:
+            print(f"[AGG] WARN PIPELINE_TARGET_DATE={override!r} 不是 YYYY-MM-DD，已忽略")
+
+    slot_hour = DEFAULT_SLOT_UTC_HOUR
+    raw_slot = os.environ.get("PIPELINE_SLOT_UTC_HOUR", "").strip()
+    if raw_slot:
+        try:
+            slot_hour = int(raw_slot)
+            if not 0 <= slot_hour <= 23:
+                raise ValueError(raw_slot)
+        except ValueError:
+            print(f"[AGG] WARN PIPELINE_SLOT_UTC_HOUR={raw_slot!r} 非法，回退 {DEFAULT_SLOT_UTC_HOUR}")
+            slot_hour = DEFAULT_SLOT_UTC_HOUR
+
+    return resolve_target_date(now, os.environ.get("GITHUB_EVENT_NAME"), slot_hour)
+
+
+def check_history_continuity(window_days: int = 30) -> list[str]:
+    """检查最近 window_days 天快照是否连续，返回缺失日期（只告警，不影响退出码）。"""
+    if not HISTORY_DIR.exists():
+        return []
+    gaps = find_history_gaps((f.stem for f in HISTORY_DIR.glob("*.json")), window_days)
+    if gaps:
+        print(f"[AGG] WARN 历史快照缺失 {len(gaps)} 天（最近 {window_days} 天窗口）: "
+              f"{', '.join(gaps)}")
+    return gaps
+
+
 def load_history() -> list[dict]:
     all_items: dict[str, dict] = {}
     if not HISTORY_DIR.exists():
@@ -210,11 +259,12 @@ def load_first_seen_map() -> dict[str, str]:
     return first_seen
 
 
-def save_snapshot(items: list[dict], digest_items: list[dict], now: datetime):
+def save_snapshot(items: list[dict], digest_items: list[dict], now: datetime, date_str: str):
+    """写入快照。`date_str` 是锚定后的目标日期，不是运行时日期（见 resolve_pipeline_date）。"""
     HISTORY_DIR.mkdir(parents=True, exist_ok=True)
-    path = HISTORY_DIR / f"{date_key(now)}.json"
+    path = HISTORY_DIR / f"{date_str}.json"
     path.write_text(json.dumps({
-        "date": date_key(now),
+        "date": date_str,
         "fetched_at": now.isoformat(),
         "items": items,
         "digest_items": digest_items,
@@ -263,7 +313,11 @@ def strip_internal(items: list[dict]) -> None:
 def main():
     FINAL_DIR.mkdir(parents=True, exist_ok=True)
     now = datetime.now(timezone.utc)
-    today_key = date_key(now)
+    # 快照/日榜归属日期锚定到 cron 槽位，而非运行时 UTC 日期：
+    # 定时任务延迟跨过 UTC 零点时不会再把前一天整个吞掉
+    today_key = resolve_pipeline_date(now)
+    print(f"[AGG] Target date: {today_key} (now={now.isoformat(timespec='seconds')}, "
+          f"event={os.environ.get('GITHUB_EVENT_NAME', 'local')})")
 
     # --- Load raw data ---
     fresh_items: list[dict] = []
@@ -379,7 +433,7 @@ def main():
 
     # Load first_seen from history (before adding today's snapshot)
     first_seen_map = load_first_seen_map()
-    today_key_str = date_key(now)
+    today_key_str = today_key
     for item in fresh_items:
         iid = item["id"]
         if iid in first_seen_map:
@@ -395,7 +449,7 @@ def main():
     daily_items = pick_top_per_source(dedupe_by_title(daily_pool), DAILY_PER_SOURCE)
 
     # Save snapshot (full items + digest items)
-    save_snapshot(fresh_items, daily_items, now)
+    save_snapshot(fresh_items, daily_items, now, today_key)
 
     # Load history for period reports
     history_items = load_history()
@@ -441,6 +495,7 @@ def main():
     }, indent=2, ensure_ascii=False))
 
     cleanup_old_snapshots(days=30)
+    check_history_continuity(window_days=30)
 
     # digest-meta.json：轻量元数据（来源列表/日期/可用归档日），
     # 供前端 Footer/About/归档链接存在性兜底使用——
