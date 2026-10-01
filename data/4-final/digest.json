@@ -59,42 +59,10 @@
         "quality_score": 42.7,
         "related_ids": [
           "gh-monthly-debpalash-VoiceStudio",
-          "ph-1237367",
-          "ph-1198993",
-          "ph-1251122",
-          "hn-49841563"
-        ]
-      },
-      {
-        "id": "ph-1254665",
-        "title": "MCP Connectors by Databox",
-        "url": "https://www.producthunt.com/r/G6WOTY7G4NBGJP",
-        "description": "Give your AI Analyst context to explain performance and act",
-        "source": "producthunt",
-        "score": 461,
-        "comments": 84,
-        "author": "",
-        "time": "2026-09-28T12:00:00+00:00",
-        "tags": [
-          "act",
-          "ai",
-          "analyst",
-          "context",
-          "explain",
-          "mcp",
-          "producthunt"
-        ],
-        "first_seen": "2026-09-29",
-        "summary_zh": "Databox 在 Product Hunt 上发布 MCP Connectors，通过 MCP 把外部数据源接进它的 AI Analyst，让后者拿到业务上下文来解释指标表现并据此行动。已经在用 Databox 做看板、又想让 AI 直接基于自家数据回答问题的团队，是这项集成的主要受众。",
-        "summary_en": "Databox launched MCP Connectors on Product Hunt, wiring external data sources into its AI Analyst over MCP so the assistant has the business context needed to explain performance and take action. Teams already running Databox dashboards that want an AI reasoning over their own data are the intended users.",
-        "domain": "producthunt.com",
-        "quality_score": 67.5,
-        "related_ids": [
-          "gh-daily-mksglu-context-mode",
-          "ph-1238671",
-          "gh-monthly-mksglu-context-mode",
-          "v2ex-939e05c97383",
-          "ph-1252325"
+          "hn-49841563",
+          "v2ex-50ab4b2604a5",
+          "gh-monthly-AprilNEA-OpenLogi",
+          "v2ex-4adb90b6891e"
         ]
       },
       {
@@ -122,10 +90,10 @@
         "quality_score": 56.7,
         "related_ids": [
           "gh-monthly-affaan-m-ECC",
-          "ph-1245781",
-          "ph-1252633",
-          "ph-1255956",
-          "v2ex-9ef8a68ecd4e"
+          "v2ex-9ef8a68ecd4e",
+          "gh-monthly-DietrichGebert-ponytail",
+          "infoq-4gr5Zt9GZoyIwF2f6LvR",
+          "v2ex-28dddf97643b"
         ]
       },
       {
@@ -189,13 +157,13 @@
         "summary_zh": "Anthropic 于 9 月 28 日发布 Claude Sonnet 5.5，是 Claude 5.5 家族第二款模型，官方称输出速度提升超 30%、单任务成本最高降低 30%。它在 Terminal-Bench 4.0 上从 10.3% 跃升至 70.6%，超过 Opus 5.5 公布的最佳成绩；早期测试显示工具调用减少约三分之一，Base44 实测平均 3.6 轮迭代即可完成一个应用构建，而 Opus 5 需要 7.7 轮。",
         "summary_en": "Anthropic released Claude Sonnet 5.5 on September 28, the second model in the Claude 5.5 family, claiming over 30% faster output and up to 30% lower cost per task. It jumped from 10.3% to 70.6% on Terminal-Bench 4.0, beating Opus 5.5's published best, while early testers report roughly a third fewer tool calls and about half the shell executions. Base44 measured an average of 3.6 iterations per app build against 7.7 for Opus 5, which matters to teams running coding agents such as Claude Code.",
         "domain": "infoq.cn",
-        "quality_score": 59.0,
+        "quality_score": 44.0,
         "related_ids": [
           "juejin-7637856870833635343",
           "gh-monthly-alibaba-open-code-review",
           "v2ex-29bec815da66",
           "gh-monthly-tt-a1i-archify",
-          "ph-1245781"
+          "infoq-K8OwgoWM1gHNi2i4yLkU"
         ]
       },
       {
@@ -221,8 +189,8 @@
           "v2ex-500fb15a47be",
           "v2ex-dd77ed29302f",
           "juejin-7620060655607857178",
-          "ph-1259609",
-          "gh-monthly-affaan-m-ECC"
+          "gh-monthly-affaan-m-ECC",
+          "v2ex-911c931771ea"
         ]
       },
       {
@@ -246,11 +214,11 @@
         "domain": "infoq.cn",
         "quality_score": 58.6,
         "related_ids": [
-          "infoq-HsaJfo3DKR9XC0LeeV30",
           "gh-monthly-tt-a1i-archify",
-          "ph-1245781",
-          "ph-1220456",
-          "ph-1252633"
+          "infoq-HsaJfo3DKR9XC0LeeV30",
+          "hn-49563355",
+          "v2ex-9ef8a68ecd4e",
+          "gh-monthly-DietrichGebert-ponytail"
         ]
       },
       {
@@ -274,10 +242,10 @@
         "quality_score": 73.8,
         "related_ids": [
           "hn-49913571",
-          "ph-1203994",
           "v2ex-ed32a1ddabfc",
           "v2ex-102701378140",
-          "infoq-M792kCZ4FIzk7YHe4WhT"
+          "infoq-M792kCZ4FIzk7YHe4WhT",
+          "hn-49537553"
         ]
       },
       {
@@ -349,13 +317,13 @@
         "summary_zh": "InfoQ 技术趋势文章提出“上下文优势（context advantage）”概念：文中以虚构客户 Maya 为例，AI 转化预测准确，却因看不到未解决的服务工单和品牌折扣政策，向她错发了不该发的优惠券。作者认为高能力模型已人人可得，难以复制的其实是企业自身积累的业务判断，落地路径是从客户 360 建设开始。",
         "summary_en": "An InfoQ trend piece introduces the idea of a “context advantage”: in its example, an AI correctly predicts high conversion for a fictional customer, Maya, but still sends a discount that policy forbids because it can't see her unresolved service case or the brand's pricing rules. The argument is that capable models are now widely available, so the real moat is a company's accumulated business judgment, built outward from an existing customer 360.",
         "domain": "infoq.cn",
-        "quality_score": 57.2,
+        "quality_score": 42.2,
         "related_ids": [
-          "ph-1252325",
-          "ph-1230612",
-          "ph-1242849",
-          "ph-1245781",
-          "ph-1237367"
+          "v2ex-83cae6b2bca5",
+          "v2ex-daf358866600",
+          "v2ex-9ef8a68ecd4e",
+          "v2ex-45af9e6264b6",
+          "v2ex-b035d0b383a6"
         ]
       },
       {
@@ -379,11 +347,11 @@
         "domain": "v2ex.com",
         "quality_score": 71.5,
         "related_ids": [
-          "ph-1252325",
-          "ph-1230612",
-          "ph-1242849",
-          "ph-1245781",
-          "ph-1237367"
+          "v2ex-daf358866600",
+          "v2ex-9ef8a68ecd4e",
+          "v2ex-45af9e6264b6",
+          "v2ex-b035d0b383a6",
+          "v2ex-0cefe785ee42"
         ]
       },
       {
@@ -408,42 +376,11 @@
         "domain": "juejin.cn",
         "quality_score": 51.1,
         "related_ids": [
-          "ph-1252325",
-          "infoq-2FFH5EHF2SMusaYQhjlX",
-          "ph-1230612",
-          "ph-1242849",
-          "ph-1245781"
-        ]
-      },
-      {
-        "id": "ph-1252633",
-        "title": "iFixAi",
-        "url": "https://www.producthunt.com/r/GH7ZXAZXZF36UQ",
-        "description": "Independent auditing of AI agents to uncover misalignment",
-        "source": "producthunt",
-        "score": 412,
-        "comments": 43,
-        "author": "",
-        "time": "2026-09-29T12:00:00+00:00",
-        "tags": [
-          "agent",
-          "ai",
-          "auditing",
-          "independent",
-          "misalignment",
-          "producthunt"
-        ],
-        "first_seen": "2026-09-30",
-        "summary_zh": "iFixAi 是 Product Hunt 上的一个产品，定位是对 AI agent 做独立审计，找出其行为与预期目标不一致（misalignment）的地方。适合已经或打算把 agent 放进生产环境的团队，用作自查之外的一层外部检查。",
-        "summary_en": "iFixAi, listed on Product Hunt, offers independent auditing of AI agents to uncover misalignment — situations where an agent's behavior diverges from its intended goals. It's aimed at teams already running agents or about to, who want an outside check on top of whatever they do internally.",
-        "domain": "producthunt.com",
-        "quality_score": 72.3,
-        "related_ids": [
-          "ph-1255956",
-          "ph-1233043",
-          "ph-1258326",
-          "ph-1236022",
-          "ph-1228578"
+          "v2ex-83cae6b2bca5",
+          "v2ex-daf358866600",
+          "v2ex-9ef8a68ecd4e",
+          "v2ex-45af9e6264b6",
+          "v2ex-b035d0b383a6"
         ]
       },
       {
@@ -514,7 +451,7 @@
         "summary_zh": "Bun 创建者 Jarred Sumner 宣布，这个 JavaScript/TypeScript 运行时与包管理器在四个月内把 53.5 万行 Zig 代码重写为 Rust，远快于原先预计的一年。重写借助 Rust 的借用检查器消除 use-after-free、双重释放、忘记释放等内存问题，由 Claude 预发布模型协调约 50 个动态工作流完成，并用超过一百万条断言的测试套件验证。",
         "summary_en": "Bun creator Jarred Sumner has rewritten the JavaScript/TypeScript runtime and package manager from 535,496 lines of Zig into Rust in four months, far faster than the year a small team would normally need. The port, orchestrated through roughly 50 dynamic workflows using a pre-release Claude model, removes recurring use-after-free, double-free and leak bugs via Rust's borrow checker and was validated against a test suite with over a million assertions.",
         "domain": "infoq.cn",
-        "quality_score": 55.7,
+        "quality_score": 40.7,
         "related_ids": [
           "infoq-s1MDWGIV7yoxkCXmWJx8",
           "hn-49724881",
@@ -547,7 +484,7 @@
           "infoq-cg5y0kCfmWKrIjCraZeH",
           "v2ex-8dcf7ba39ed2",
           "infoq-amffXXMpr23rX3eoJDhv",
-          "infoq-AmYfVbwTlVyApFszqKx3"
+          "v2ex-7e63205bc70c"
         ]
       },
       {
@@ -571,11 +508,11 @@
         "domain": "v2ex.com",
         "quality_score": 68.0,
         "related_ids": [
-          "ph-1245781",
-          "ph-1252633",
-          "ph-1255956",
-          "ph-1233043",
-          "gh-monthly-DietrichGebert-ponytail"
+          "gh-monthly-DietrichGebert-ponytail",
+          "infoq-4gr5Zt9GZoyIwF2f6LvR",
+          "juejin-7637856870833635343",
+          "v2ex-28dddf97643b",
+          "infoq-hk3WB50fAOMDg55YVaaW"
         ]
       },
       {
@@ -596,44 +533,13 @@
         "summary_zh": "MariaDB Community Server 13.0 已 GA，采用滚动发布模式而非 LTS。该版本原生支持 Oracle PL/SQL 风格的 REF CURSOR 和 RECORD 类型，可用于例程参数与函数返回值，UPDATE 的 RETURNING 子句配合 OLD_VALUE() 能一次取回新旧值。优化器 Hint 框架会自动为 View、CTE 和派生表命名查询块，init_rpl_role 变为系统变量，适合评估从 Oracle 迁移的团队。",
         "summary_en": "MariaDB Community Server 13.0 has reached GA under the project's rolling-release model rather than an LTS line. It natively supports Oracle PL/SQL-style REF CURSOR and RECORD types usable as routine parameters and function return types, and UPDATE statements gain a RETURNING clause with OLD_VALUE() to fetch pre- and post-update values in one round trip. Optimizer hints now auto-name query blocks for views, CTEs and derived tables, and init_rpl_role is exposed as a system variable. Teams weighing a move off Oracle PL/SQL are the target audience.",
         "domain": "infoq.cn",
-        "quality_score": 54.9,
+        "quality_score": 39.9,
         "related_ids": [
           "v2ex-e597e85be195",
           "hn-49830037",
           "hn-49842483",
           "v2ex-37ddc7e40879",
           "juejin-7680074643861291034"
-        ]
-      },
-      {
-        "id": "ph-1255956",
-        "title": "LUCI Desktop",
-        "url": "https://www.producthunt.com/r/IAYIS7TAFM7O7D",
-        "description": "Let your AI agents remember what you've seen",
-        "source": "producthunt",
-        "score": 357,
-        "comments": 51,
-        "author": "",
-        "time": "2026-09-29T12:00:00+00:00",
-        "tags": [
-          "agent",
-          "ai",
-          "let",
-          "producthunt",
-          "remember",
-          "seen"
-        ],
-        "first_seen": "2026-09-30",
-        "summary_zh": "LUCI Desktop 是 Product Hunt 上发布的一款桌面产品，官方一句话描述是让 AI agent 记住你「看过」的内容，看起来是在给 agent 补上下文记忆能力。除这句定位外，条目没有提供正文、平台支持或定价等更多细节。",
-        "summary_en": "LUCI Desktop is a Product Hunt launch whose one-line pitch is letting your AI agents remember what you've seen, which points to some form of shared memory or context for agents on the desktop. Beyond that tagline the listing gives no further detail on features, supported platforms or pricing, so you'd have to check the linked page.",
-        "domain": "producthunt.com",
-        "quality_score": 70.4,
-        "related_ids": [
-          "ph-1252633",
-          "ph-1233043",
-          "ph-1258326",
-          "ph-1236022",
-          "ph-1228578"
         ]
       },
       {
@@ -664,70 +570,6 @@
         ]
       },
       {
-        "id": "ph-1238671",
-        "title": "Humalike x GTA RP",
-        "url": "https://www.producthunt.com/r/V63RWUYZIRKDTC",
-        "description": "AI NPCs that talk, remember & act on their own",
-        "source": "producthunt",
-        "score": 352,
-        "comments": 32,
-        "author": "",
-        "time": "2026-09-27T12:00:00+00:00",
-        "tags": [
-          "act",
-          "ai",
-          "gta",
-          "producthunt",
-          "remember",
-          "talk"
-        ],
-        "first_seen": "2026-09-29",
-        "summary_zh": "Humalike x GTA RP 是 Product Hunt 上的一款产品，把 AI NPC 放进 GTA 角色扮演服务器，这些 NPC 能自己说话、记住此前的互动并自主行动。除了这句简介，页面没有给出实现方式或试用入口等更多信息，关注游戏内 AI 角色与 RP 玩法的开发者可以留意。",
-        "summary_en": "Humalike x GTA RP is a Product Hunt launch that puts AI NPCs into GTA roleplay servers, where they can talk, remember past interactions and act on their own. Beyond that one-line description the listing offers no further detail on how it works or how to try it, so it is mainly of interest to developers watching AI characters in games.",
-        "domain": "producthunt.com",
-        "quality_score": 51.8,
-        "related_ids": [
-          "ph-1255956",
-          "ph-1254665",
-          "ph-1256969",
-          "ph-1252325",
-          "ph-1230612"
-        ]
-      },
-      {
-        "id": "ph-1258630",
-        "title": "GPT-6 Sol & Luna",
-        "url": "https://www.producthunt.com/r/TYGMCTMYJRKMMV",
-        "description": "Frontier AI intelligence, now at half the price",
-        "source": "producthunt",
-        "score": 342,
-        "comments": 9,
-        "author": "",
-        "time": "2026-09-27T12:00:00+00:00",
-        "tags": [
-          "ai",
-          "frontier",
-          "gpt",
-          "half",
-          "intelligence",
-          "luna",
-          "producthunt",
-          "sol"
-        ],
-        "first_seen": "2026-09-29",
-        "summary_zh": "GPT-6 Sol & Luna 是 Product Hunt 上的一个新条目，官方描述只有一句：前沿级 AI 智能，价格降到一半。除标题和这句描述外没有更多正文，具体能力、定价和开放范围都未披露。",
-        "summary_en": "GPT-6 Sol & Luna is a Product Hunt listing whose only description reads 'Frontier AI intelligence, now at half the price.' Nothing beyond the title and that one line is provided, so details on capabilities, actual pricing or availability aren't available.",
-        "domain": "producthunt.com",
-        "quality_score": 47.1,
-        "related_ids": [
-          "hn-49896586",
-          "v2ex-e83f8e4b1232",
-          "hn-49805509",
-          "v2ex-693b0f984b6d",
-          "v2ex-3cea4cf4aacb"
-        ]
-      },
-      {
         "id": "v2ex-0cefe785ee42",
         "title": "[分享创造] 晚饭后突发奇想，做了一个 AI 倾向测试",
         "url": "https://www.v2ex.com/t/1245933#reply1",
@@ -747,39 +589,11 @@
         "domain": "v2ex.com",
         "quality_score": 65.7,
         "related_ids": [
-          "ph-1252325",
-          "ph-1230612",
-          "ph-1242849",
-          "ph-1245781",
-          "ph-1237367"
-        ]
-      },
-      {
-        "id": "ph-1248418",
-        "title": "SaleSmartly",
-        "url": "https://www.producthunt.com/r/EZKALQKOCUWIZ4",
-        "description": "Turn conversations across every channel into customers",
-        "source": "producthunt",
-        "score": 325,
-        "comments": 79,
-        "author": "",
-        "time": "2026-09-28T12:00:00+00:00",
-        "tags": [
-          "channel",
-          "conversation",
-          "producthunt"
-        ],
-        "first_seen": "2026-09-29",
-        "summary_zh": "SaleSmartly 是一个把各个渠道上的客户对话汇集起来、目标是把聊天转化为成交的工具。它面向需要在一个地方处理多平台客服与营销消息的团队，但产品页只给出这一句描述，具体支持哪些渠道、有哪些功能并未披露。",
-        "summary_en": "SaleSmartly is a Product Hunt launch pitched as a way to turn conversations across every channel into customers, implying a unified place to handle customer messaging. It is aimed at teams juggling support and sales chats on several platforms, though the listing offers no further detail on which channels or features are covered.",
-        "domain": "producthunt.com",
-        "quality_score": 58.4,
-        "related_ids": [
-          "ph-1252325",
-          "hn-49855315",
-          "gh-monthly-TencentCloud-TencentDB-Agent-Memory",
-          "ph-1228394",
-          "gh-daily-mksglu-context-mode"
+          "v2ex-83cae6b2bca5",
+          "v2ex-daf358866600",
+          "v2ex-9ef8a68ecd4e",
+          "v2ex-45af9e6264b6",
+          "v2ex-b035d0b383a6"
         ]
       },
       {
@@ -802,35 +616,6 @@
         "quality_score": 64.5,
         "related_ids": [
           "v2ex-ed15d0914cf5"
-        ]
-      },
-      {
-        "id": "ph-1251721",
-        "title": "Statable Analytics",
-        "url": "https://www.producthunt.com/r/XNQ4NCU2AP5NPN",
-        "description": "Web analytics built for you and your AI agents",
-        "source": "producthunt",
-        "score": 316,
-        "comments": 28,
-        "author": "",
-        "time": "2026-09-28T12:00:00+00:00",
-        "tags": [
-          "agent",
-          "ai",
-          "analytics",
-          "producthunt"
-        ],
-        "first_seen": "2026-09-29",
-        "summary_zh": "Statable Analytics 是 Product Hunt 上一款 Web 分析工具，官方一句话定位是「为你和你的 AI agent 打造的分析」。除去这句简介，页面没有给出采集指标、隐私方案或定价等细节。",
-        "summary_en": "Statable Analytics is a Product Hunt listing for a web analytics product, pitched as \"web analytics built for you and your AI agents.\" That one-line tagline is all the listing offers, so its metrics, privacy model, pricing and anything about how AI agents are meant to consume the data remain unstated.",
-        "domain": "producthunt.com",
-        "quality_score": 48.9,
-        "related_ids": [
-          "ph-1252633",
-          "ph-1255956",
-          "ph-1233043",
-          "ph-1258326",
-          "ph-1236022"
         ]
       },
       {
@@ -863,94 +648,6 @@
         ]
       },
       {
-        "id": "ph-1203994",
-        "title": "Cuey",
-        "url": "https://www.producthunt.com/r/KQXSDK666ISFA3",
-        "description": "Compare ChatGPT, Claude & Gemini answers in one tab.",
-        "source": "producthunt",
-        "score": 303,
-        "comments": 51,
-        "author": "",
-        "time": "2026-09-27T12:00:00+00:00",
-        "tags": [
-          "answer",
-          "chatgpt",
-          "claude",
-          "gemini",
-          "producthunt"
-        ],
-        "first_seen": "2026-09-29",
-        "summary_zh": "Cuey 是 Product Hunt 上的一个工具，把 ChatGPT、Claude 和 Gemini 的回答放在同一个标签页里对比。适合同时订阅多个模型、想并排看不同回答再作判断的开发者；条目目前只给出这一句介绍。",
-        "summary_en": "Cuey is a Product Hunt tool that puts answers from ChatGPT, Claude and Gemini in a single tab for direct comparison. It targets developers who already pay for more than one model and want to compare outputs before deciding which answer to trust, though the listing gives no further details beyond that pitch.",
-        "domain": "producthunt.com",
-        "quality_score": 52.2,
-        "related_ids": [
-          "v2ex-ed32a1ddabfc",
-          "ph-1259609",
-          "ph-1228394",
-          "v2ex-412e6ae2e154",
-          "v2ex-e2372784c879"
-        ]
-      },
-      {
-        "id": "ph-1261326",
-        "title": "Vitals ",
-        "url": "https://www.producthunt.com/r/AI4LWX7QMJSJZL",
-        "description": "A Mac activity monitor that thinks in apps, not processes",
-        "source": "producthunt",
-        "score": 297,
-        "comments": 38,
-        "author": "",
-        "time": "2026-09-28T12:00:00+00:00",
-        "tags": [
-          "activity",
-          "mac",
-          "monitor",
-          "producthunt"
-        ],
-        "first_seen": "2026-09-29",
-        "summary_zh": "Vitals 是一款 Mac 活动监视器，它的组织单位是「应用」而不是系统进程，一个 app 只占一条记录。对不想研究进程树、只想看哪个程序在占用机器资源的用户更省事；原文未列出具体指标或价格。",
-        "summary_en": "Vitals is a Mac activity monitor that organizes usage by application instead of by process, so each running app appears as one entry rather than a scattered set of processes. That framing suits users who want to know which app is hogging the machine without reading a process tree; the listing gives no further detail on metrics or pricing.",
-        "domain": "producthunt.com",
-        "quality_score": 49.5,
-        "related_ids": [
-          "ph-1259609",
-          "ph-1252242",
-          "v2ex-59933bcf3cc8",
-          "v2ex-b961d694d0a0",
-          "v2ex-ce11772646d5"
-        ]
-      },
-      {
-        "id": "ph-1261365",
-        "title": "ZenABM ",
-        "url": "https://www.producthunt.com/r/UAJNQGCRP7DJRD",
-        "description": "Create, optimize & report on LinkedIn Ads from any AI tool",
-        "source": "producthunt",
-        "score": 289,
-        "comments": 72,
-        "author": "",
-        "time": "2026-09-29T12:00:00+00:00",
-        "tags": [
-          "ads",
-          "ai",
-          "linkedin",
-          "producthunt"
-        ],
-        "first_seen": "2026-09-30",
-        "summary_zh": "ZenABM 是 Product Hunt 上的一个工具，可以在任意 AI 工具里创建、优化并生成 LinkedIn Ads 的投放报告。它面向需要批量管理 LinkedIn 广告、又想把投放流程接进现有 AI 助手的营销与增长团队。",
-        "summary_en": "ZenABM is a tool listed on Product Hunt that lets you create, optimize and report on LinkedIn Ads from inside any AI tool. It targets marketers and growth teams who want to manage LinkedIn campaigns without leaving the AI assistants they already work in.",
-        "domain": "producthunt.com",
-        "quality_score": 70.0,
-        "related_ids": [
-          "ph-1235091",
-          "ph-1252325",
-          "ph-1230612",
-          "ph-1242849",
-          "ph-1252189"
-        ]
-      },
-      {
         "id": "infoq-HsaJfo3DKR9XC0LeeV30",
         "title": "金句抢先看 | 每天上千万次创建：Agent Sandbox 为什么会成为新算力形态？",
         "url": "https://www.infoq.cn/article/HsaJfo3DKR9XC0LeeV30",
@@ -969,13 +666,13 @@
         "summary_zh": "InfoQ「金句抢先看」放出的一条预告，主题是 Agent Sandbox 为什么会成为一种新的算力形态，标题提到这类沙箱每天被创建上千万次。原文只给出标题，未提供更多正文，具体观点和技术细节尚不清楚。",
         "summary_en": "An InfoQ quote-preview item whose title asks why Agent Sandbox is becoming a new form of compute, noting that such sandboxes are created tens of millions of times a day. The linked page isn't summarized here; details beyond the title aren't available.",
         "domain": "infoq.cn",
-        "quality_score": 51.8,
+        "quality_score": 36.8,
         "related_ids": [
           "infoq-he0zFgEyStxF9kOh70AP",
           "gh-monthly-tt-a1i-archify",
-          "ph-1245781",
-          "ph-1220456",
-          "ph-1252633"
+          "hn-49563355",
+          "v2ex-9ef8a68ecd4e",
+          "gh-monthly-DietrichGebert-ponytail"
         ]
       },
       {
@@ -1004,8 +701,8 @@
           "infoq-06y8rRvgxgyBxOpr7L5r",
           "infoq-0kYhxXxhOXhxGATe64ec",
           "infoq-QQk3wiolU1VScH3u0P7T",
-          "infoq-mDiczbGJpHNMU6e0qBX1",
-          "infoq-hk3WB50fAOMDg55YVaaW"
+          "infoq-hk3WB50fAOMDg55YVaaW",
+          "infoq-AGIRRRtM1lBDFIvwWuRX"
         ]
       },
       {
@@ -1032,8 +729,8 @@
           "v2ex-50ab4b2604a5",
           "infoq-3M4uYzNDWiLX6BR9RXwy",
           "juejin-7646256871183024128",
-          "infoq-wLJHYzKDUdt5wSyZ06Fp",
-          "infoq-He6bUhlNIuPEa99GGRYC"
+          "infoq-He6bUhlNIuPEa99GGRYC",
+          "infoq-rhKVS8RAdp4aVPZD0vZu"
         ]
       },
       {
@@ -1058,10 +755,10 @@
         "quality_score": 51.3,
         "related_ids": [
           "gh-monthly-tt-a1i-archify",
-          "ph-1245781",
-          "ph-1220456",
-          "ph-1252633",
-          "hn-49563355"
+          "hn-49563355",
+          "v2ex-9ef8a68ecd4e",
+          "gh-monthly-DietrichGebert-ponytail",
+          "gh-monthly-ayghri-i-have-adhd"
         ]
       },
       {
@@ -1088,11 +785,11 @@
         "domain": "openai.com",
         "quality_score": 68.2,
         "related_ids": [
-          "ph-1258630",
           "hn-49906669",
           "hn-49554643",
           "infoq-b5oxzJyafr0lkZexoo8E",
-          "v2ex-e83f8e4b1232"
+          "v2ex-e83f8e4b1232",
+          "hn-49805509"
         ]
       },
       {
@@ -1174,9 +871,9 @@
         "related_ids": [
           "v2ex-e2372784c879",
           "hn-49914236",
-          "ph-1203994",
           "v2ex-ed32a1ddabfc",
-          "v2ex-102701378140"
+          "v2ex-102701378140",
+          "infoq-M792kCZ4FIzk7YHe4WhT"
         ]
       },
       {
@@ -1227,11 +924,11 @@
         "domain": "openai.com",
         "quality_score": 59.6,
         "related_ids": [
-          "ph-1252633",
-          "ph-1255956",
-          "ph-1247082",
-          "ph-1228440",
-          "ph-1233043"
+          "v2ex-cd8fc7443703",
+          "hn-49849985",
+          "gh-daily-paperclipai-paperclip",
+          "gh-monthly-paperclipai-paperclip",
+          "gh-daily-NVIDIA-OpenShell"
         ]
       },
       {
@@ -1319,11 +1016,11 @@
         "domain": "github.com",
         "quality_score": 41.0,
         "related_ids": [
-          "ph-1233043",
-          "ph-1252633",
-          "ph-1255956",
-          "ph-1251157",
-          "ph-1258326"
+          "gh-daily-dream-num-univer",
+          "v2ex-9ef8a68ecd4e",
+          "gh-monthly-DietrichGebert-ponytail",
+          "gh-daily-mksglu-context-mode",
+          "hn-49896604"
         ]
       },
       {
@@ -1371,9 +1068,9 @@
         "related_ids": [
           "juejin-7637856870833635343",
           "infoq-oPSaLpULlAxGxTbYXlXO",
-          "ph-1252325",
-          "ph-1230612",
-          "ph-1242849"
+          "juejin-7673855455463800847",
+          "v2ex-83cae6b2bca5",
+          "v2ex-daf358866600"
         ]
       },
       {
@@ -1409,11 +1106,11 @@
         "domain": "github.com",
         "quality_score": 40.9,
         "related_ids": [
-          "ph-1255956",
-          "ph-1254665",
           "infoq-amffXXMpr23rX3eoJDhv",
-          "ph-1258060",
-          "infoq-uwfvFTWwH5Qupo2lBxF6"
+          "gh-monthly-diegosouzapw-OmniRoute",
+          "infoq-iV0rsPyO5XZDJ7797hLJ",
+          "v2ex-e88f7ef6cd55",
+          "gh-daily-mksglu-context-mode"
         ]
       },
       {
@@ -1437,11 +1134,11 @@
         "domain": "juejin.cn",
         "quality_score": 26.4,
         "related_ids": [
-          "ph-1252325",
-          "ph-1230612",
-          "ph-1242849",
-          "ph-1245781",
-          "ph-1237367"
+          "v2ex-83cae6b2bca5",
+          "v2ex-daf358866600",
+          "hn-49615537",
+          "v2ex-9ef8a68ecd4e",
+          "v2ex-45af9e6264b6"
         ]
       },
       {
@@ -1469,10 +1166,10 @@
         "quality_score": 40.8,
         "related_ids": [
           "gh-monthly-Tencent-WeKnora",
-          "ph-1228394",
-          "ph-1233934",
           "v2ex-02b1742e29e9",
-          "hn-49841563"
+          "hn-49841563",
+          "gh-daily-Tencent-WeKnora",
+          "hn-49891290"
         ]
       },
       {
@@ -1496,11 +1193,11 @@
         "domain": "calnewport.com",
         "quality_score": 37.9,
         "related_ids": [
-          "ph-1252325",
-          "ph-1230612",
-          "ph-1242849",
-          "ph-1245781",
-          "ph-1237367"
+          "v2ex-83cae6b2bca5",
+          "v2ex-daf358866600",
+          "v2ex-9ef8a68ecd4e",
+          "v2ex-45af9e6264b6",
+          "v2ex-b035d0b383a6"
         ]
       },
       {
@@ -1523,11 +1220,11 @@
         "domain": "36kr.com",
         "quality_score": 43.4,
         "related_ids": [
-          "36kr-3995341472125056",
           "v2ex-1a4b0338f31a",
           "v2ex-f0cee2b39b0e",
           "v2ex-28dddf97643b",
-          "v2ex-5de8dcb6884c"
+          "v2ex-5de8dcb6884c",
+          "v2ex-966c0caefc17"
         ]
       },
       {
@@ -1582,11 +1279,11 @@
         "domain": "github.com",
         "quality_score": 40.7,
         "related_ids": [
-          "ph-1252633",
-          "ph-1255956",
-          "ph-1247082",
-          "ph-1228440",
-          "ph-1233043"
+          "hn-49896604",
+          "v2ex-cd8fc7443703",
+          "hn-49849985",
+          "gh-daily-paperclipai-paperclip",
+          "gh-monthly-paperclipai-paperclip"
         ]
       },
       {
@@ -1631,7 +1328,6 @@
           "dev",
           "github",
           "makes",
-          "ponytail",
           "room",
           "senior",
           "wrote"
@@ -1644,10 +1340,10 @@
         "quality_score": 40.7,
         "related_ids": [
           "gh-monthly-DietrichGebert-ponytail",
-          "ph-1245781",
-          "ph-1252633",
-          "ph-1255956",
-          "v2ex-9ef8a68ecd4e"
+          "v2ex-9ef8a68ecd4e",
+          "infoq-4gr5Zt9GZoyIwF2f6LvR",
+          "juejin-7637856870833635343",
+          "v2ex-28dddf97643b"
         ]
       },
       {
@@ -1675,7 +1371,7 @@
           "v2ex-500fb15a47be",
           "v2ex-dd77ed29302f",
           "juejin-7620060655607857178",
-          "ph-1259609"
+          "gh-monthly-affaan-m-ECC"
         ]
       },
       {
@@ -1702,9 +1398,9 @@
         "related_ids": [
           "juejin-7637856870833635343",
           "gh-monthly-affaan-m-ECC",
-          "infoq-PSvHjyoJTC9bSLWYxpfF",
           "v2ex-2440e87a2666",
-          "juejin-7673855455463800847"
+          "juejin-7673855455463800847",
+          "v2ex-9495baae3437"
         ]
       },
       {
@@ -1756,11 +1452,11 @@
         "domain": "github.com",
         "quality_score": 40.6,
         "related_ids": [
-          "ph-1252325",
-          "ph-1230612",
-          "ph-1242849",
-          "ph-1245781",
-          "ph-1237367"
+          "v2ex-83cae6b2bca5",
+          "v2ex-daf358866600",
+          "v2ex-9ef8a68ecd4e",
+          "v2ex-45af9e6264b6",
+          "v2ex-b035d0b383a6"
         ]
       },
       {
@@ -1785,11 +1481,11 @@
         "domain": "juejin.cn",
         "quality_score": 18.2,
         "related_ids": [
-          "ph-1236022",
-          "ph-1246693",
           "infoq-QQk3wiolU1VScH3u0P7T",
           "infoq-4C4RQUGPhAXgcx8G64ab",
-          "ph-1252325"
+          "gh-daily-mksglu-context-mode",
+          "infoq-A2IFuW8yiYhRqXizT5Uu",
+          "infoq-rlXYaPUjVR0fffbQK3Iz"
         ]
       },
       {
@@ -1896,11 +1592,11 @@
         "domain": "juejin.cn",
         "quality_score": 16.1,
         "related_ids": [
-          "ph-1252325",
-          "ph-1230612",
-          "ph-1242849",
-          "ph-1245781",
-          "ph-1237367"
+          "v2ex-83cae6b2bca5",
+          "v2ex-daf358866600",
+          "v2ex-9ef8a68ecd4e",
+          "v2ex-45af9e6264b6",
+          "v2ex-b035d0b383a6"
         ]
       },
       {
@@ -1948,7 +1644,7 @@
           "v2ex-8dcf7ba39ed2",
           "infoq-amffXXMpr23rX3eoJDhv",
           "infoq-YWXyACETW4aRchQbSJE0",
-          "infoq-AmYfVbwTlVyApFszqKx3"
+          "v2ex-7e63205bc70c"
         ]
       },
       {
@@ -1974,11 +1670,11 @@
         "domain": "juejin.cn",
         "quality_score": 21.1,
         "related_ids": [
-          "ph-1245781",
-          "ph-1252633",
-          "ph-1255956",
           "v2ex-9ef8a68ecd4e",
-          "ph-1233043"
+          "gh-monthly-DietrichGebert-ponytail",
+          "infoq-4gr5Zt9GZoyIwF2f6LvR",
+          "juejin-7637856870833635343",
+          "v2ex-28dddf97643b"
         ]
       },
       {
@@ -2001,11 +1697,11 @@
         "domain": "juejin.cn",
         "quality_score": 20.2,
         "related_ids": [
-          "ph-1252325",
-          "ph-1230612",
-          "ph-1242849",
-          "ph-1245781",
-          "ph-1237367"
+          "v2ex-83cae6b2bca5",
+          "v2ex-daf358866600",
+          "v2ex-9ef8a68ecd4e",
+          "v2ex-45af9e6264b6",
+          "v2ex-b035d0b383a6"
         ]
       },
       {
@@ -2067,8 +1763,8 @@
           "gh-monthly-harry0703-MoneyPrinterTurbo",
           "infoq-su9aJV7kiibMfxwzLpOJ",
           "v2ex-28929fe768d0",
-          "ph-1252325",
-          "gh-daily-ComposioHQ-awesome-claude-skills"
+          "gh-daily-ComposioHQ-awesome-claude-skills",
+          "gh-monthly-tt-a1i-archify"
         ]
       },
       {
@@ -2196,11 +1892,11 @@
         "domain": "zhihu.com",
         "quality_score": 40.8,
         "related_ids": [
-          "36kr-4003270787993737",
           "infoq-OBQpdcB1xURrJMRlrJZ1",
           "v2ex-7e63205bc70c",
-          "infoq-O5pKYU5hfR2DgrXP6zRE",
-          "v2ex-3b971931bea2"
+          "v2ex-3b971931bea2",
+          "v2ex-28929fe768d0",
+          "infoq-GhA2VWxo6JTGyKIb7KdT"
         ]
       },
       {
@@ -2224,7 +1920,7 @@
         "related_ids": []
       }
     ],
-    "count": 80
+    "count": 70
   },
   "monthly": {
     "start": "2026-08-31",
@@ -2316,25 +2012,6 @@
         "summary_en": "A Show HN project: an e-ink picture frame that listens for nearby bird calls and renders the birds it hears as 1800s-style illustrations. The linked page isn't summarized here; details beyond the title aren't available, so this is mainly a pointer for people curious about e-ink hardware, birdsong recognition, or generative image tricks.",
         "domain": "github.com",
         "quality_score": 63.7
-      },
-      {
-        "id": "ph-1230612",
-        "title": "CREEM 2.0",
-        "url": "https://www.producthunt.com/r/XPEDAC33OVX2ON",
-        "description": "Sell and grow your AI built products",
-        "source": "producthunt",
-        "score": 582,
-        "comments": 170,
-        "author": "",
-        "time": "2026-09-17T12:00:00+00:00",
-        "tags": [
-          "product-hunt"
-        ],
-        "first_seen": "2026-09-18",
-        "summary_zh": "CREEM 2.0 是 Product Hunt 上新发布的版本，定位为面向 AI 构建产品的销售与增长工具，帮助开发者把做出来的 AI 产品变现。产品页除这句定位描述外没有披露定价、集成方式或具体功能，适合关注 AI 产品商业化路径的人先去了解。",
-        "summary_en": "CREEM 2.0 is a new Product Hunt release positioned as a way to sell and grow products built with AI. Beyond that single tagline the listing gives no pricing, features or integrations, so it mainly serves as a pointer for developers tracking how AI-built products get monetized.",
-        "domain": "producthunt.com",
-        "quality_score": 91.2
       },
       {
         "id": "juejin-7655245911811784750",
@@ -2541,44 +2218,6 @@
         "quality_score": 59.6
       },
       {
-        "id": "ph-1199144",
-        "title": "tiun.",
-        "url": "https://www.producthunt.com/r/TDDTPREQN2HR4H",
-        "description": "Auth, billing, and payments for AI builders",
-        "source": "producthunt",
-        "score": 566,
-        "comments": 106,
-        "author": "",
-        "time": "2026-09-15T12:00:00+00:00",
-        "tags": [
-          "product-hunt"
-        ],
-        "first_seen": "2026-09-16",
-        "summary_zh": "tiun. 是 Product Hunt 上的一个面向 AI 开发者的基础设施产品，把 authentication、billing 和 payments 打包提供，替开发者省掉自己搭登录鉴权和订阅计费的功夫。适合想给自己 AI 应用快速加上付费能力的独立开发者和小团队，但除这句定位外目前没有更多细节。",
-        "summary_en": "tiun. is a Product Hunt launch pitched at AI builders, bundling authentication, billing and payments so teams don't have to build login and subscription logic themselves. It targets indie developers and small teams that need to monetize an AI app quickly, though the listing gives no further detail on supported payment providers or pricing models.",
-        "domain": "producthunt.com",
-        "quality_score": 81.5
-      },
-      {
-        "id": "ph-1252325",
-        "title": "Ami AI",
-        "url": "https://www.producthunt.com/r/IABJ4YWI3SSSWZ",
-        "description": "Lovable for getting customers",
-        "source": "producthunt",
-        "score": 564,
-        "comments": 199,
-        "author": "",
-        "time": "2026-09-18T12:00:00+00:00",
-        "tags": [
-          "product-hunt"
-        ],
-        "first_seen": "2026-09-19",
-        "summary_zh": "Ami AI 是 Product Hunt 上的一个产品，官方一句话定位为「Lovable for getting customers」，即用类似 Lovable 的路径帮用户获取客户。条目除标题和这句 tagline 外未提供更多说明，具体功能、定价与适用人群都无法确认，原文是链接，未提供更多细节。",
-        "summary_en": "Ami AI is a Product Hunt listing whose one-line pitch is \"Lovable for getting customers,\" positioning it as a Lovable-style product aimed at customer acquisition. Beyond that tagline there is no description of features, pricing, or intended users; the linked page isn't summarized here, so details beyond the title aren't available.",
-        "domain": "producthunt.com",
-        "quality_score": 93.9
-      },
-      {
         "id": "hn-49563355",
         "title": "Discovery of a new OpenAI agent message board",
         "url": "https://collusion.wiki/",
@@ -2664,25 +2303,6 @@
         "quality_score": 68.2
       },
       {
-        "id": "ph-1252189",
-        "title": "Clueso MCP",
-        "url": "https://www.producthunt.com/r/CFUV35KT4ZLPZO",
-        "description": "Create and edit videos by chatting",
-        "source": "producthunt",
-        "score": 541,
-        "comments": 161,
-        "author": "",
-        "time": "2026-09-22T12:00:00+00:00",
-        "tags": [
-          "product-hunt"
-        ],
-        "first_seen": "2026-09-23",
-        "summary_zh": "Clueso MCP 在 Product Hunt 上线，主打用聊天的方式创建和编辑视频，把剪辑操作交给对话而非时间轴。公开信息目前只有这一句简介，支持的模型、导出格式与定价都未披露，关注对话式视频工作流的人可以留意后续细节。",
-        "summary_en": "Clueso MCP, newly listed on Product Hunt, lets users create and edit videos through chat rather than a timeline editor. The listing gives only that one-line description, so supported models, export formats and pricing are still undisclosed; developers curious about conversational video workflows may want to track it.",
-        "domain": "producthunt.com",
-        "quality_score": 85.9
-      },
-      {
         "id": "infoq-hrmb2p18iKEwl24OMvcv",
         "title": "世界人工智能开源大赛（GOAI）总决赛暨颁奖盛典在杭州举行",
         "url": "https://www.infoq.cn/article/hrmb2p18iKEwl24OMvcv",
@@ -2698,25 +2318,6 @@
         "summary_en": "The InfoQ headline reports that the World Open-Source AI Competition (GOAI) held its finals and an award ceremony in Hangzhou, putting the event inside China's open-source AI scene. The linked page isn't summarized here; details beyond the title, such as competition tracks, participating teams or winners, aren't available.",
         "domain": "infoq.cn",
         "quality_score": 57.4
-      },
-      {
-        "id": "ph-1256682",
-        "title": "Jev",
-        "url": "https://www.producthunt.com/r/XJ7UD64LPY5QDA",
-        "description": "Fast, structured AI decisions for software automation",
-        "source": "producthunt",
-        "score": 535,
-        "comments": 15,
-        "author": "",
-        "time": "2026-09-21T12:00:00+00:00",
-        "tags": [
-          "product-hunt"
-        ],
-        "first_seen": "2026-09-22",
-        "summary_zh": "Jev 是 Product Hunt 上新上线的工具，定位是为软件自动化提供快速、结构化的 AI 决策。除这句简介外，页面没有给出实现细节、定价或使用方式，关注 AI 驱动自动化流程的开发者需要自己点进去判断是否合用。",
-        "summary_en": "Jev is a newly listed Product Hunt tool that positions itself as a way to make fast, structured AI decisions for software automation. Beyond that one-line pitch, the listing gives no implementation details, pricing, or usage information, so developers curious about AI-driven automation will have to open the product page themselves to judge whether it fits their stack.",
-        "domain": "producthunt.com",
-        "quality_score": 59.8
       },
       {
         "id": "infoq-06y8rRvgxgyBxOpr7L5r",
@@ -2802,101 +2403,6 @@
         "summary_en": "An InfoQ headline frames the ongoing model price war: GPT-6 is cutting prices sharply while Opus 5.5 focuses on being more usable, and the argument is that comparing models on API pricing alone no longer holds. The linked page isn't summarized here, so no specific price figures or capability comparisons are available.",
         "domain": "infoq.cn",
         "quality_score": 56.6
-      },
-      {
-        "id": "ph-1233670",
-        "title": "Switch",
-        "url": "https://www.producthunt.com/r/EAQYN6B2W3MDVB",
-        "description": "Bring any AI agent into Slack, Teams & Discord",
-        "source": "producthunt",
-        "score": 520,
-        "comments": 85,
-        "author": "",
-        "time": "2026-09-08T12:00:00+00:00",
-        "tags": [
-          "product-hunt"
-        ],
-        "first_seen": "2026-09-09",
-        "summary_zh": "Switch 在 Product Hunt 上线，定位是把任意 AI agent 接入 Slack、Teams 与 Discord，让团队在现有聊天工具里直接使用 agent。目前产品介绍只有一句话，没有安装、配置或兼容性细节，实际能力有待进一步披露。",
-        "summary_en": "Switch is a Product Hunt listing that aims to bring any AI agent into Slack, Teams, and Discord, letting teams operate agents inside the chat apps they already use. The listing is only one sentence for now, with no setup or compatibility details revealed.",
-        "domain": "producthunt.com",
-        "quality_score": 77.5
-      },
-      {
-        "id": "ph-1237367",
-        "title": "Voiskey",
-        "url": "https://www.producthunt.com/r/QOEFADHWXGZN5X",
-        "description": "AI voice typing that sounds right in every app",
-        "source": "producthunt",
-        "score": 519,
-        "comments": 151,
-        "author": "",
-        "time": "2026-09-15T12:00:00+00:00",
-        "tags": [
-          "product-hunt"
-        ],
-        "first_seen": "2026-09-16",
-        "summary_zh": "Voiskey 是 Product Hunt 上架的一款 AI 语音输入工具，宣称在各类 app 里听写都“听起来是对的”。除这句简介外，页面没有给出支持平台、定价或所用模型等信息，想找跨应用听写方案的人只能自行试用判断。",
-        "summary_en": "Voiskey is an AI voice-typing tool listed on Product Hunt that claims its dictation “sounds right in every app”. Beyond that single-line description, the listing gives no supported platforms, pricing or underlying model, so anyone looking for cross-app dictation will have to try it to judge.",
-        "domain": "producthunt.com",
-        "quality_score": 87.8
-      },
-      {
-        "id": "ph-1228440",
-        "title": "Mastra Factory",
-        "url": "https://www.producthunt.com/r/52CAOAGHS62ZQY",
-        "description": "From issue to production, run by agents.",
-        "source": "producthunt",
-        "score": 517,
-        "comments": 118,
-        "author": "",
-        "time": "2026-09-09T12:00:00+00:00",
-        "tags": [
-          "product-hunt"
-        ],
-        "first_seen": "2026-09-10",
-        "summary_zh": "Mastra Factory 在 Product Hunt 发布，标语是「From issue to production, run by agents」。原文只有这一句介绍，未提供更多细节，关注 agent 驱动开发流程的人可以自行点开了解。",
-        "summary_en": "Mastra Factory is a Product Hunt launch whose tagline reads \"From issue to production, run by agents.\" The linked page isn't summarized here; details beyond the tagline aren't available, so anyone tracking agent-driven development workflows should check it directly.",
-        "domain": "producthunt.com",
-        "quality_score": 84.0
-      },
-      {
-        "id": "ph-1198993",
-        "title": "Kilo Code for JetBrains",
-        "url": "https://www.producthunt.com/r/Q57PO7OWZUJAZ5",
-        "description": "Fully native, open-source coding agent built for JetBrains",
-        "source": "producthunt",
-        "score": 511,
-        "comments": 96,
-        "author": "",
-        "time": "2026-09-01T12:00:00+00:00",
-        "tags": [
-          "product-hunt"
-        ],
-        "first_seen": "2026-09-02",
-        "summary_zh": "Kilo Code for JetBrains 是一个为 JetBrains IDE 打造的原生、开源编码 Agent。它直接内嵌在开发者熟悉的 IDE 环境里，适合希望保留 JetBrains 工作流、同时引入开源 AI 编程助手的用户。",
-        "summary_en": "Kilo Code for JetBrains is a fully native, open-source coding agent built specifically for JetBrains IDEs, rather than a web-based or external plugin tool. Because it runs inside the IDE, developers can get AI-agent assistance while staying in the editor they already use. It is aimed at JetBrains users who want the flexibility of an open-source coding agent in their existing toolchain.",
-        "domain": "producthunt.com",
-        "quality_score": 76.8
-      },
-      {
-        "id": "ph-1245781",
-        "title": "Naoma AI Demo Agent V2",
-        "url": "https://www.producthunt.com/r/NPQUFAO3PMOWSZ",
-        "description": "Turns website traffic into booked, qualified meetings",
-        "source": "producthunt",
-        "score": 506,
-        "comments": 164,
-        "author": "",
-        "time": "2026-09-14T12:00:00+00:00",
-        "tags": [
-          "product-hunt"
-        ],
-        "first_seen": "2026-09-15",
-        "summary_zh": "Naoma AI Demo Agent V2 是 Product Hunt 上新上线的产品，官方定位是把网站流量转化为已完成预约的合格销售会议。适合把官网当作获客入口的 B2B 团队，用它把访客的浏览行为直接推进到约会议这一步；目前披露的信息仅有这一句简介。",
-        "summary_en": "Naoma AI Demo Agent V2, newly listed on Product Hunt, is pitched as a way to turn website traffic into booked, qualified meetings. That puts it in the category of tools for B2B teams that treat their site as a lead source and want visitors pushed straight to a scheduled call; the listing itself offers no further detail.",
-        "domain": "producthunt.com",
-        "quality_score": 91.4
       },
       {
         "id": "hn-49605915",
@@ -3642,7 +3148,7 @@
         "summary_en": "A developer with eight years in the game industry describes shipping a WeChat mini game solo in 20 days using Cursor and Codex, covering work that would normally be split across art, design, and programming roles. It is useful reading for indie developers who want to see how far AI coding tools can compress a full mini game pipeline."
       }
     ],
-    "count": 80
+    "count": 70
   },
   "sources": [
     "36kr",
@@ -3650,10 +3156,9 @@
     "hackernews",
     "infoq",
     "juejin",
-    "producthunt",
     "v2ex",
     "zhihu"
   ],
   "missing_sources": [],
-  "total_items": 5744
+  "total_items": 5579
 }

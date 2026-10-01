@@ -24,7 +24,7 @@ app/          Next.js 前端（静态导出）
 
 ## 数据源
 
-当前 8 源：Hacker News、GitHub Trending、Product Hunt、掘金、知乎、36氪、InfoQ、V2EX。
+当前 7 源：Hacker News、GitHub Trending、掘金、知乎、36氪、InfoQ、V2EX。
 
 ## 常用命令
 

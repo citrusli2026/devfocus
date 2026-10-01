@@ -11,7 +11,6 @@ export type SourceMeta = {
 export const SOURCE_ORDER = [
   "hackernews",
   "github_trending",
-  "producthunt",
   "juejin",
   "zhihu",
   "36kr",
@@ -40,13 +39,6 @@ export const SOURCE_META: Record<string, SourceMeta> = {
     icon: <GitHubIcon className="h-4 w-4" />,
     color: "text-accent-emerald",
     bg: "bg-accent-emerald/10",
-  },
-  producthunt: {
-    labelKey: "today.phTitle",
-    shortLabel: "Product Hunt",
-    icon: <span className="text-sm">🚀</span>,
-    color: "text-[#da552f]",
-    bg: "bg-[#da552f]/10",
   },
   juejin: {
     labelKey: "today.juejinTitle",

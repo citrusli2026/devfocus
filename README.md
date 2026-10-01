@@ -1,12 +1,11 @@
 # DevFocus — 开发者聚焦
 
-每天自动从 8 个数据源收集开发者最值得看的内容，附带中英双语摘要。不用自己到处刷，一站看完。
+每天自动从 7 个数据源收集开发者最值得看的内容，附带中英双语摘要。不用自己到处刷，一站看完。
 
 ## 数据来源
 
 - **Hacker News** — 全球最活跃的技术社区，每日热门话题
 - **GitHub Trending** — 每日/每周/每月热门开源项目
-- **Product Hunt** — 每日热门新产品（需 `PH_TOKEN`）
 - **掘金 / 知乎 / 36氪 / InfoQ / V2EX** — 中文技术社区热榜
 
 ## 功能
@@ -51,7 +50,6 @@ cd app && npm run build
 | 变量 | 用途 |
 |------|------|
 | `DEEPSEEK_API_KEY` / `OPENAI_API_KEY` | 摘要 LLM（可选，缺省走模板降级） |
-| `PH_TOKEN`（或 `data/.ph_token`） | Product Hunt GraphQL |
 | `NEXT_PUBLIC_SUBSCRIBE_URL` | 邮件订阅后端（可选，静态站建议 Formspree 等） |
 
 ## 测试

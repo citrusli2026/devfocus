@@ -34,7 +34,7 @@ MAX_RETRY_EMPTY = 30        # 每轮最多回填的历史空摘要条数
 
 # 模板摘要的中文前缀（用于识别低质量模板产物，重新入队 + 统计口径）
 TEMPLATE_PREFIXES_ZH = (
-    "HN 热门", "开源项目", "Product Hunt 热门", "掘金精选",
+    "HN 热门", "开源项目", "掘金精选",
     "知乎热榜", "36氪热门", "InfoQ 精选", "V2EX 热议",
 )
 
@@ -192,7 +192,6 @@ def template_summary(item: dict) -> tuple[str, str]:
     source_labels_zh = {
         "hackernews": "HN 热门",
         "github_trending": "开源项目",
-        "producthunt": "Product Hunt 热门",
         "juejin": "掘金精选",
         "zhihu": "知乎热榜",
         "36kr": "36氪热门",
@@ -202,7 +201,6 @@ def template_summary(item: dict) -> tuple[str, str]:
     source_labels_en = {
         "hackernews": "Trending on HN",
         "github_trending": "Open-source project",
-        "producthunt": "Popular on Product Hunt",
         "juejin": "Featured on Juejin",
         "zhihu": "Hot on Zhihu",
         "36kr": "Popular on 36Kr",
