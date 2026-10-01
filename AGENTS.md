@@ -17,7 +17,7 @@ data/
   4-final/    前端消费的 JSON（提交到仓库）
   5-history/  每日历史快照（30 天滚动）
   pipeline.py 一键编排入口
-  scripts/    辅助脚本（generate_rss/validate_data/backfill_history_summaries）
+  scripts/    辅助脚本（generate_rss/validate_data/check_history/backfill_history_summaries）
 
 app/          Next.js 前端（静态导出）
 ```
@@ -39,7 +39,8 @@ cd app && npm run test:e2e   # E2E 测试
 
 # 校验
 cd data && python3 scripts/validate_data.py
-cd data/3-process && python3 -m unittest test_enrich.py
+cd data && python3 scripts/check_history.py --days 30   # 快照连续性（有空洞发 warning）
+cd data/3-process && python3 -m unittest discover -p "test_*.py"
 ```
 
 ## 关键约定
@@ -47,5 +48,8 @@ cd data/3-process && python3 -m unittest test_enrich.py
 - 数据管线用 python3 标准库为主，最小依赖；跨脚本共享工具放 `3-process/_shared.py`
 - 抓取失败一律保留旧缓存（新鲜空文件会绕过 aggregate 的缺席检测）
 - 2-raw 不提交；4-final、5-history、app/src/data 提交（前端构建的数据源）
+- 5-history 快照日期锚定到 cron 槽位（`_shared.resolve_target_date`），不是运行时日期：
+  GitHub schedule 常延迟 2~4 小时，按运行时日期命名会跨零点吞掉一整天。
+  改 `daily.yml` 的 cron 必须同步 `PIPELINE_SLOT_UTC_HOUR` 与 `DEFAULT_SLOT_UTC_HOUR`
 - 前端 Next.js + Tailwind CSS v4 + shadcn/ui 风格；静态导出（output: export）
 - 所有数据文件 JSON 格式；时间统一 ISO 字符串，域名统一小写去前缀 www.

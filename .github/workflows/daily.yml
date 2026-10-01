@@ -5,26 +5,45 @@ on:
     # 北京低峰期：北京时间 04:00 = UTC 前一日 20:00。
     # 原 UTC 0:00（北京 08:00 早高峰）改为凌晨，管线约 70-80 分钟，
     # 05:15 左右完成，早晨醒来前数据已就绪。
-    # 注意：GitHub 不保证 schedule 准时（高峰可能延迟数十分钟）。
+    # 注意 1：GitHub 不保证 schedule 准时——实测常延迟 2~4 小时，偶尔跨过 UTC 零点。
+    #   快照日期因此按「cron 槽位」而非运行时日期锚定（PIPELINE_SLOT_UTC_HOUR），
+    #   跨零点不会再吞掉前一天的快照（2026-09-28 事故，见 _shared.resolve_target_date）。
+    # 注意 2：改这个 cron 必须同步改下面 job env 里的 PIPELINE_SLOT_UTC_HOUR。
     - cron: '0 20 * * *'
   workflow_dispatch:       # 手动触发
+    inputs:
+      target_date:
+        description: '可选：指定快照日期 YYYY-MM-DD（补跑某天用），留空按下一次槽位'
+        required: false
+        type: string
 
 permissions:
   contents: write
   pull-requests: write
   actions: read
 
+# 定时任务被延迟后可能与下一次触发重叠：串行排队而不是并行，
+# 避免两个 job 同时 git push 造成 non-fast-forward 失败
+concurrency:
+  group: daily-pipeline
+  cancel-in-progress: false
+
 jobs:
   pipeline:
     runs-on: ubuntu-latest
+    env:
+      # 与上面 cron 的 UTC 小时一致（20:00 UTC）：快照归属「最近一次槽位」所在日期
+      PIPELINE_SLOT_UTC_HOUR: '20'
+      # 手动补跑指定日期时生效（留空则按槽位规则；格式非法会被 aggregate 忽略并告警）
+      PIPELINE_TARGET_DATE: ${{ inputs.target_date }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: '3.11'
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7
         with:
           node-version: '24'
           cache: 'npm'
@@ -48,6 +67,13 @@ jobs:
         run: |
           cd data
           python3.11 scripts/validate_data.py
+
+      # 空洞曾经完全静默：只在很久以后被人从趋势热力图少一列发现。
+      # 退出码恒为 0（红了的管线不会提交数据，反而制造更大空洞），只发 warning 注解。
+      - name: Check history continuity
+        run: |
+          cd data
+          python3.11 scripts/check_history.py --days 30
 
       - name: Check for changes
         id: changes
@@ -75,6 +101,9 @@ jobs:
           git config user.name "devfocus-bot"
           git config user.email "bot@devfocus.cc"
           git add -A
-          DATE=$(date +%Y-%m-%d)
+          # 提交信息用管线锚定后的快照日期，而不是运行时日期：
+          # 跨零点的运行归属前一天，避免连续两个同名的 "daily update" 提交
+          DATE=$(python3.11 -c 'import json;print(json.load(open("data/4-final/digest-meta.json"))["date"])' 2>/dev/null)
+          [ -n "$DATE" ] || DATE=$(date -u +%F)
           git commit -m "data: daily update $DATE"
           git push
