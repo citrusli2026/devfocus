@@ -4262,7 +4262,9 @@
       "content": "",
       "first_seen": "2026-09-16",
       "domain": "juejin.cn",
-      "quality_score": 9.4
+      "quality_score": 9.4,
+      "summary_zh": "掘金上一篇文章，作者暂时放下 AI 和技术话题，转而聊找工作这件事，说自己最近比较焦虑：眼看着大模型不断上新、自己也在持续更新相关内容，却感觉只有自己没有进步。适合同样在求职、或者被行业节奏压得喘不过气的开发者读一读。",
+      "summary_en": "A Juejin post in which the author sets aside AI and technical topics to talk about job hunting. He explains his recent anxiety: large models keep shipping and he keeps producing content about them, yet it feels as if everyone is advancing except him. Aimed at developers under the same pressure or currently searching for work."
     },
     {
       "id": "juejin-7669743766019244084",
@@ -4869,7 +4871,9 @@
       "tags": [],
       "first_seen": "2026-09-30",
       "domain": "infoq.cn",
-      "quality_score": 37.3
+      "quality_score": 37.3,
+      "summary_zh": "谷歌以 Apache 2.0 许可开源了编排器 AX（托管于 agentexecutor.io 与 GitHub google/ax），把自主 AI Agent 当作有状态 Actor 运行在 Agent Substrate 上，支持亚秒级暂停与恢复、无冷启动。控制平面在 ax.io/v1alpha1 下提供 Task、Workspace、Gateway、Model 四个声明式原语，配套 Go 编写的 ax CLI，需用 ko 部署到 Kubernetes。",
+      "summary_en": "Google open-sourced AX (hosted at agentexecutor.io and GitHub google/ax) under Apache 2.0, an orchestrator that runs autonomous agents as stateful actors on Agent Substrate with sub-second suspend and resume and no cold starts. Its control plane defines four declarative primitives — Task, Workspace, Gateway and Model — under ax.io/v1alpha1, driven by a Go-based ax CLI, with the control plane deployed to Kubernetes via ko and Redis in the ax-system namespace."
     },
     {
       "id": "infoq-cA9rSEGKphbJHIiTQKMv",
@@ -4885,7 +4889,9 @@
       "tags": [],
       "first_seen": "2026-09-30",
       "domain": "infoq.cn",
-      "quality_score": 37.3
+      "quality_score": 37.3,
+      "summary_zh": "GitLab 扩展了自托管版 GitLab Duo，可运行通过微软 Foundry 部署的 OpenAI GPT、Anthropic Claude、Meta Llama 和 Mistral 模型。方案由自管理 GitLab、自托管 AI Gateway 和 Foundry 模型端点组成，能为不同 Duo 功能分配不同模型，适合有数据驻留或网络隔离要求的企业，但模型部署与运维责任转由企业团队承担。",
+      "summary_en": "GitLab extended its self-hosted GitLab Duo so it can run models deployed through Microsoft Foundry, including OpenAI GPT, Anthropic Claude, Meta Llama and Mistral. The setup combines a self-managed GitLab instance, a self-hosted AI Gateway and Foundry model endpoints, and lets teams assign different models to different Duo features. It suits organizations with data residency, sovereignty or network isolation needs, though model deployment, capacity and lifecycle operations shift to their own platform teams."
     },
     {
       "id": "infoq-t5i2Yv2z0LwIbK36lteR",
@@ -4935,7 +4941,9 @@
       "tags": [],
       "first_seen": "2026-09-30",
       "domain": "infoq.cn",
-      "quality_score": 38.3
+      "quality_score": 38.3,
+      "summary_zh": "InfoQ 精选：机房堆满算力卡，业务却还在排队？这份评估报告拆开了“算力荒假象”的破局账本",
+      "summary_en": "Featured on InfoQ: 机房堆满算力卡，业务却还在排队？这份评估报告拆开了“算力荒假象”的破局账本"
     },
     {
       "id": "infoq-ZBXXP1BuZMIGusWyQZvB",

@@ -985,9 +985,9 @@
     "input_hash": "ef4de0757ed8"
   },
   "juejin-7637856870833635343": {
-    "summary_zh": "一位开发者自2025年4月自费订阅 Cursor（每月20美元），后转用公司企业订阅，一直用到2026年4月。随着 Cursor 转为按量计费、费用更高且不可预测，其公司决定中国区改用 OpenAI Codex，他于4月中旬开始迁移。他认为 Cursor 更像贴着编码现场的 IDE，Codex 则更接近能独立干活的超级 Agent。",
-    "summary_en": "A developer who paid $20 a month for Cursor from April 2025, later moving to a company enterprise plan, stuck with it until April 2026, when Cursor's switch to usage-based billing made costs higher and unpredictable. His company then replaced it with OpenAI Codex for its China teams, and he migrated in mid-April. In his view Cursor stays close to the coding surface as an IDE, while Codex feels closer to an autonomous agent.",
-    "input_hash": "cf3d5401aeb1"
+    "summary_zh": "有开发者记录了从 Cursor 转向 Codex 大半个月的实际体验，认为 Cursor 带来的是 AI 编程的冲击，而 Codex 更像一个能自主干活的超级 Agent，而不只是编程助手。如果你正在两者之间纠结，这篇偏主观感受的对比可以当作参考。",
+    "summary_en": "A developer shares what changed after roughly half a month of switching from Cursor to Codex, arguing Codex feels less like a coding assistant and more like a general-purpose agent, closer to the next stage of AI tooling. Worth reading if you're deciding between the two editors.",
+    "input_hash": "72d412342830"
   },
   "juejin-7646004870782550050": {
     "summary_zh": "这是掘金上的一篇 2026 年 5 月 GitHub 热门项目月榜盘点，涵盖 skills、Pixelle-Video 等项目。作者观察到当月社区热度集中在把 Agent 做进工程化工作流：省 Token、记住上下文、编排多 Agent、批量产出内容。适合想快速了解近期开源风向的人。",
@@ -1215,9 +1215,9 @@
     "summary_en": "Norway has announced a near-total ban on artificial intelligence tools in elementary schools, citing concerns over privacy, children's cognitive development, and educational equity. The policy prohibits schools from deploying any AI-based teaching aids, with narrow exceptions for special education. This makes Norway one of the strictest nations regarding AI in education, potentially setting a precedent for other European countries. For edtech companies, the ban is a major setback, but it also pushes the industry to more carefully consider the appropriate boundaries of AI use for young children."
   },
   "juejin-7650882103059939337": {
-    "summary_zh": "教程介绍如何借 ZenMux 平台免费调用 DeepSeek V4 Pro：注册账号、创建 API Key 并在 Model Restriction 中填入 deepseek-v4-pro-free 等免费模型，再用 cc switch 或 Cherry Studio 接进本地工具，共五步，其中 cc switch 并非必需。文中还记录一个细节——模型自述并非 DeepSeek-v4，想省额度的人最好先自行验证。",
-    "summary_en": "A walkthrough shows how to call DeepSeek V4 Pro for free through ZenMux: register an account, create an API key, add deepseek-v4-pro-free in the Model Restriction field, then wire it into a local client with cc switch or Cherry Studio in five steps, with cc switch being optional. The post also notes the model replied that it isn't actually DeepSeek-v4, so verify before relying on it.",
-    "input_hash": "31039c27464b"
+    "summary_zh": "这篇掘金文章给出五步配置流程，让开发者能在本地工具里直接调用 DeepSeek V4 Pro 的免费额度，不用充值也没有复杂操作，同时可以接入 Claude-Code。适合想低成本试用该模型、又不愿走付费流程的人照着做。",
+    "summary_en": "A Juejin tutorial lays out a five-step setup for calling DeepSeek V4 Pro from local tools using its free quota, with no top-up and no complicated steps, and also covers wiring it into Claude Code. It's written for developers who want to try the model cheaply without going through a paid flow.",
+    "input_hash": "a450cd4be0ed"
   },
   "gh-daily-bytedance-deer-flow": {
     "summary_zh": "字节跳动开源项目 DeerFlow 2.0 是一个 super agent harness，通过编排子代理、记忆与沙箱来处理研究、写代码和创作等长时程任务。README 称 2.0 发布后曾登 GitHub Trending 第一，支持 Python 3.12+ 与 Node.js 22+，并以可扩展技能驱动。适合研究多步骤自主 Agent 架构的开发者。",
@@ -4133,9 +4133,9 @@
     "summary_en": "The git history command is a community-built tool that transforms repository browsing into an interactive terminal experience. Instead of scrolling through endless git log output, you get a fuzzy-searchable interface with branch filtering and inline diff previews. It solves the problem of navigating complex commit histories in large projects, making it invaluable for developers who want to quickly trace changes or review code evolution without leaving the terminal. Think of it as a better gitk for the command line."
   },
   "juejin-7659709059810705462": {
-    "summary_zh": "掘金精选：三年了，为什么 AI 应用还没爆发？",
-    "summary_en": "Featured on Juejin: 三年了，为什么 AI 应用还没爆发？",
-    "input_hash": "180243b43839"
+    "summary_zh": "掘金文章从 Meta 讲的“算力过剩”故事和随之而来的 AI 股市暴跌切入，追问 AI 应用为什么迟迟不爆发、AI 版的抖音微信小红书何时出现，以及这轮热潮会不会重蹈 2000 年互联网泡沫。面向关心 AI 落地节奏和行业周期的开发者与从业者。",
+    "summary_en": "A Juejin article starts from Meta's \"compute glut\" story and the resulting plunge in AI stocks to ask why AI applications still haven't taken off, when an AI-native Douyin, WeChat or Xiaohongshu will appear, and whether this cycle repeats the 2000 dot-com bust. It's written for developers and practitioners watching AI adoption timelines and industry cycles.",
+    "input_hash": "cf73555b75f4"
   },
   "zhihu-2058449781597459395": {
     "summary_zh": "长鑫科技以 8.66 元/股启动申购，估值超 4 万亿（实际约 4300 亿？），成为国产 DRAM 龙头资本化里程碑。对自身而言，募资将加速先进制程研发和产能扩张，巩固与三星、SK 海力士的竞争；对半导体产业则意味着国产存储芯片从追赶进入量产验证期，有望降低对进口的依赖并带动设备材料国产化生态。",
@@ -4366,9 +4366,9 @@
     "summary_en": "Grok Build, a build tool developed by xAI, has been open-sourced, making it freely available for use and modification. Previously used internally, it now promises to help developers streamline build processes with greater customization. The move towards transparency and community collaboration could benefit DevOps teams and infrastructure engineers looking for flexible, efficient alternatives in the build tool landscape."
   },
   "juejin-7660712622825144374": {
-    "summary_zh": "这里的 Skills 指 AI 编程助手的「技能包」，基于 Anthropic 在 2025 年 10 月推出的 Agent Skills 开放标准：一个 Skill 就是一个含 SKILL.md 的文件夹，放进 ~/.claude/skills/ 目录后 AI 会自动加载并按流程执行。文章整理了 2026 年最火的 10 个 Skills，并给出 GitHub 上已有 1400+ 个 Claude Code Skills、官方 marketplace 收录 658+ 个等数据。适合想让 AI 助手从「随缘写代码」转向标准化交付的开发者。",
-    "summary_en": "Skills here means reusable skill packs for AI coding assistants, built on Anthropic's Agent Skills open standard from October 2025: each Skill is a folder containing a SKILL.md that Claude Code auto-loads from ~/.claude/skills/ and then follows as a process. The post rounds up 10 of the most popular Skills of 2026 and cites 1,400+ Claude Code Skills on GitHub plus 658+ in the official marketplace. It's aimed at developers who want their AI assistant to deliver standard workflows instead of improvising.",
-    "input_hash": "b7c678e66f4e"
+    "summary_zh": "掘金一文盘点 2026 年编程圈流行的 10 个 Skills：这里的 Skills 不是程序员自身的技术能力，而是 AI 编程助手的“技能包”，即把“随缘写代码”变成“按流程交付”的标准化工作流模块。适合正在给 AI 编程助手搭流程、想了解这套玩法的人。",
+    "summary_en": "A Juejin post rounds up ten Skills trending among programmers in 2026 — not a coder's own abilities, but \"skill packs\" for AI coding assistants: standardized workflow modules that turn ad-hoc code generation into process-driven delivery. It's aimed at developers building workflows around AI coding assistants and wanting to understand the approach.",
+    "input_hash": "39a792f5cff6"
   },
   "juejin-7662691781214470180": {
     "summary_zh": "一位掘金作者停更一年后回归，分享了这段时间的密集经历：全力投入 AI 领域、陪伴妻子生娃、还抽空考了个研。文章以第一人称讲述了如何平衡工作、家庭与个人提升，展现了技术人在生活重大节点上的真实抉择。对面临类似境遇的读者来说，这是一个关于如何在巨大压力下仍坚持成长的真实故事。",
@@ -11237,9 +11237,9 @@
     "input_hash": "ac9287844107"
   },
   "juejin-7670094721701445672": {
-    "summary_zh": "文章用一个 Android 岗位面试场景说明，靠 AI 写代码的候选人在被追问 View 绘制流程、现场找出 AI 代码问题时很容易露怯；作者认为 AI 时代面试考的不是“会不会用 AI”，而是判断力、对代码产出的所有权、审查能力和工程取舍，并引用 2025 年 Stack Overflow 调查称 66% 的开发者受困于“AI 答案几乎对但差一点”。适合重度依赖 AI Coding 的开发者自查竞争力。",
-    "summary_en": "The article imagines an Android job interview in which a heavy AI-coding user falls apart when asked to explain View rendering or to spot problems in AI-generated code. Its argument: interviews now test judgment (daring to say an AI answer is wrong), ownership of shipped code, review skill and engineering trade-offs, citing a 2025 Stack Overflow survey in which 66% of developers were frustrated by AI answers that were almost right. Aimed at anyone whose workflow leans on AI assistance.",
-    "input_hash": "79b509392998"
+    "summary_zh": "掘金这位作者提出一个疑问：在人人 AI Coding 的时代，外面的面试究竟变成了什么样，还会不会问那些老掉牙的题目，并虚构了一位 Android 工程师候选人的面试流程来推演答案。适合正在准备跳槽、想了解面试考察重点是否已经变化的开发者。",
+    "summary_en": "A Juejin post asks what technical interviews actually look like now that everyone codes with AI assistance, and whether the same old questions still come up. The author sketches a mock interview for an Android engineer candidate to reason it through. It's aimed at developers preparing to switch jobs or wondering how hiring signals are shifting.",
+    "input_hash": "2848a59f70ce"
   },
   "zhihu-2076984800188093248": {
     "summary_zh": "这个知乎提问的标题提到：OpenAI 因 Cursor 被 SpaceX 收购，将停止向 Cursor 提供 AI 模型。原帖没有正文，更多背景和讨论细节不可知。",
@@ -14402,9 +14402,9 @@
     "input_hash": "53f7b1e88feb"
   },
   "v2ex-486e4fc162ce": {
-    "summary_zh": "一位 V2EX 用户花两百多买了个飞机杯，商品页宣称自动吮吸、伸缩、加热，到手发现只是硅胶加廉价塑料做的伸缩结构，所谓加热是插 USB 后功率仅 2-3W 的小棒，体验极差，自认血亏。这类成人用品的宣传与实物落差极大，提示想下单的人先看清硬件参数，别为营销词买单。",
-    "summary_en": "A V2EX user paid just over 200 yuan for a masturbation device advertised with automatic suction, thrusting and heating. What arrived was silicone plus a cheap plastic telescoping mechanism, with \"heating\" handled by a tiny USB rod drawing only 2-3W; he calls it a total waste of money. A cautionary note for anyone shopping in this category, where marketing copy rarely matches the hardware.",
-    "input_hash": "73fee91e9e19"
+    "summary_zh": "一位 V2EX 用户发帖说，自己半夜买了个飞机杯，到手后觉得很不划算，情绪相当激动。这是条个人购物吐槽，原文只有标题，没有更多产品、价格或使用细节，具体内容需要点进原帖才能看到。",
+    "summary_en": "A V2EX user writes about buying a masturbation cup late at night and feeling shortchanged once it arrived, venting in a personal complaint post. The linked page isn't summarized here, so no product, price or vendor details beyond the title are available; readers only get the poster's frustration.",
+    "input_hash": "9b9459dfdb10"
   },
   "zhihu-2082478357984421508": {
     "summary_zh": "知乎上有人提问：于东来发文称胖东来后续招聘的员工都是学员性质，合同期为四年且到期不续签，这意味着什么。该条目没有附带正文或公告原文，因此除标题所述内容外，具体条款与背景无从确认。",
@@ -18600,5 +18600,190 @@
     "summary_zh": "openJiuwen 开源 AI Agent 平台发布 WorkSwarm 办公编码工作台，把实时音视频交互与后台 Core Agent 执行放进同一个任务：用户能随时插话打断当前播报，也能把查资料、生成文档等耗时工作交给 Core Agent 继续跑。它由华为 2012 实验室等团队联合构建，提供 Windows、Mac、HarmonyOS 一键安装包，适合想上手全双工多模态 Agent 交互的开发者。",
     "summary_en": "openJiuwen, an open-source AI agent platform, has released WorkSwarm, an office and coding workbench that runs real-time audio/video interaction and a background Core Agent inside the same task. Users can interrupt the agent mid-speech or hand off slower work such as research and document generation to the Core Agent. Built by Huawei's 2012 Lab and other teams, it ships one-click installers for Windows, Mac and HarmonyOS.",
     "input_hash": "2c004bac7c93"
+  },
+  "v2ex-5b3f4bfa53e8": {
+    "summary_zh": "V2EX 热议：[问与答] 有老哥自己拼装过键盘吗？",
+    "summary_en": "Hot on V2EX: [问与答] 有老哥自己拼装过键盘吗？",
+    "input_hash": "70395e5dc56b"
+  },
+  "infoq-bduvBdbgwxj6DMbNeKCC": {
+    "summary_zh": "InfoQ 精选：机房堆满算力卡，业务却还在排队？这份评估报告拆开了“算力荒假象”的破局账本",
+    "summary_en": "Featured on InfoQ: 机房堆满算力卡，业务却还在排队？这份评估报告拆开了“算力荒假象”的破局账本",
+    "input_hash": "63658bbe7252"
+  },
+  "v2ex-f280e151fdca": {
+    "summary_zh": "V2EX 热议：[问与答] OPC 来一波夯的，另外问一下你用 AI 赚了多少钱？",
+    "summary_en": "Hot on V2EX: [问与答] OPC 来一波夯的，另外问一下你用 AI 赚了多少钱？",
+    "input_hash": "21e53ebd283d"
+  },
+  "v2ex-5ca72737f8d2": {
+    "summary_zh": "V2EX 热议：[硬件] 英伟达自己说， V100 快十年了还在跑客户业务",
+    "summary_en": "Hot on V2EX: [硬件] 英伟达自己说， V100 快十年了还在跑客户业务",
+    "input_hash": "d44c17306e79"
+  },
+  "zhihu-2089437755591713926": {
+    "summary_zh": "知乎上的一条提问，关于 CFA 友谊赛中中国男足 0-5 负于巴勒斯坦这场球该怎么评价。原文是链接，未提供更多细节。",
+    "summary_en": "A Zhihu question asking how to evaluate China's men's national team losing 0-5 to Palestine in a CFA friendly. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "4a31ec2cadd8"
+  },
+  "36kr-4007160336027525": {
+    "summary_zh": "36Kr 一篇标题称 GPT-6 Astra 破解了一桩与拿破仑相关的百年悬案的报道。原文除标题外没有提供内容，具体是哪个悬案、如何破解都无从确认。",
+    "summary_en": "A 36Kr piece whose title claims GPT-6 Astra has cracked a century-old mystery tied to Napoleon. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "3082f5ffe89d"
+  },
+  "v2ex-06b0adfefde4": {
+    "summary_zh": "有开发者在 V2EX 记录：通过 kite 的 MCP，一个 Claude Code 会话能在 Ubuntu 机器上另开多个会话干活，分别负责配音模型迁移（旧模型 10 号下线）、修项目管理工具 robin 和修 kite 自身，代码、review、CI 完成后由他确认合并上线，十一点半切到新模型并验收。他也列出确认推送收不到、确认请求十分钟超时、父会话不知道子会话状态等真实问题。",
+    "summary_en": "On V2EX, a developer describes using kite's MCP so one Claude Code session could spawn several more on his Ubuntu machine, splitting work across a voice-model migration, fixes to his robin project tool, and kite itself, with merge and release gated on his approval. He also lists real friction, including missed confirmation pushes, a ten-minute timeout, and parent sessions unaware of child progress.",
+    "input_hash": "530a19df1012"
+  },
+  "v2ex-f2a983fb3578": {
+    "summary_zh": "DecisionsApi 提供在线 playground 和 API，输入可以是文本、JSON 对象或文本数组，支持 Choice、Score、Noul（是/否）三类问题，返回结构化答案、概率、置信度与用量。它可用于客户请求路由、Agent 下一步选择、安全闸门和人工复核，通常先在 playground 验证问题与输出再接入应用。",
+    "summary_en": "DecisionsApi is a developer-facing AI platform with an online playground and an API for testing decision models and wiring them into product flows. Inputs can be text, JSON objects or text arrays, and questions fall into Choice, Score or Noul (yes/no) types, returning structured answers, probabilities, confidence and usage. It targets use cases like routing customer requests, picking an agent's next step, safety gates and human review: validate in the playground, then call the API.",
+    "input_hash": "4ba9cd4c16d6"
+  },
+  "infoq-cA9rSEGKphbJHIiTQKMv": {
+    "summary_zh": "GitLab 扩展了自托管版 GitLab Duo，可运行通过微软 Foundry 部署的 OpenAI GPT、Anthropic Claude、Meta Llama 和 Mistral 模型。方案由自管理 GitLab、自托管 AI Gateway 和 Foundry 模型端点组成，能为不同 Duo 功能分配不同模型，适合有数据驻留或网络隔离要求的企业，但模型部署与运维责任转由企业团队承担。",
+    "summary_en": "GitLab extended its self-hosted GitLab Duo so it can run models deployed through Microsoft Foundry, including OpenAI GPT, Anthropic Claude, Meta Llama and Mistral. The setup combines a self-managed GitLab instance, a self-hosted AI Gateway and Foundry model endpoints, and lets teams assign different models to different Duo features. It suits organizations with data residency, sovereignty or network isolation needs, though model deployment, capacity and lifecycle operations shift to their own platform teams.",
+    "input_hash": "37bdc9179b66"
+  },
+  "infoq-M6BRTrsyJvUg8y0M0kyh": {
+    "summary_zh": "谷歌以 Apache 2.0 许可开源了编排器 AX（托管于 agentexecutor.io 与 GitHub google/ax），把自主 AI Agent 当作有状态 Actor 运行在 Agent Substrate 上，支持亚秒级暂停与恢复、无冷启动。控制平面在 ax.io/v1alpha1 下提供 Task、Workspace、Gateway、Model 四个声明式原语，配套 Go 编写的 ax CLI，需用 ko 部署到 Kubernetes。",
+    "summary_en": "Google open-sourced AX (hosted at agentexecutor.io and GitHub google/ax) under Apache 2.0, an orchestrator that runs autonomous agents as stateful actors on Agent Substrate with sub-second suspend and resume and no cold starts. Its control plane defines four declarative primitives — Task, Workspace, Gateway and Model — under ax.io/v1alpha1, driven by a Go-based ax CLI, with the control plane deployed to Kubernetes via ko and Redis in the ax-system namespace.",
+    "input_hash": "dc604113a194"
+  },
+  "infoq-vVrSzjhEvkmpevS7wZzU": {
+    "summary_zh": "谷歌发布 Gemini 4 Argon，主打长流程软件工程、法律与金融等企业知识工作以及网络安全防御，由 CEO Sundar Pichai 在 X 上宣布。输出上限从 64K 提升至 100 万 Token，目前先通过 Fairwind 计划向受信任的网络安全防御团队开放，谷歌称其在 DeepSWE v1.1 取得 77.9%，并在 Zapier AutomationBench 以 51.3% 排名第一。",
+    "summary_en": "Google announced Gemini 4 Argon, aimed at long-horizon software engineering, legal and financial enterprise knowledge work, and cyber defense, with CEO Sundar Pichai unveiling it on X. The output cap rises from 64K to 1M tokens, and it is first available to vetted cyber-defense teams through the Fairwind program. Google reports 77.9% on DeepSWE v1.1 and first place on Zapier's AutomationBench at 51.3%.",
+    "input_hash": "597411a77b9c"
+  },
+  "v2ex-bba11d48e3a0": {
+    "summary_zh": "CCProgress 是一个给 Claude Code 加进度条的插件，作者自称 Claude Code 重度用户，月消耗 150 亿 token，痛点是让 Claude Opus 跑长任务时完全看不到执行进度，只能从输出和工具调用去推测，会话也不敢中断。代码托管在 GitHub 的 amigoer/ccprogress。",
+    "summary_en": "CCProgress is a plugin that adds a progress bar to Claude Code, built by a self-described heavy user who says he burns 15 billion tokens a month and often hands long tasks to Claude Opus. The pain point: once a task is running there is no way to see how far along it is beyond inferring from outputs and tool calls, and the session feels unsafe to stop. Code is on GitHub at amigoer/ccprogress.",
+    "input_hash": "eaad210bce2e"
+  },
+  "v2ex-db1af5f8645d": {
+    "summary_zh": "V2EX 用户放出 iTrustSSL 10 月优惠码：110 元抵用券兑换后 DV 单域名 50 元/年、DV 通配符 490 元/年，附四组兑换码及官方兑换流程。发帖人说明这是面向已有流量与预算的中小企业开发者的商业证书，没流量没收入的建议走 ACME.SH 签 Let's Encrypt，兑换码失效可通过微信 itrustssl 反馈。",
+    "summary_en": "A V2EX post shares October discount codes for iTrustSSL: a 110 RMB voucher brings DV single-domain certificates to 50 RMB/year and DV wildcard to 490 RMB/year, with four redeem codes and official redemption steps. The poster targets SMB developers who already have traffic and budget, suggests those without revenue use ACME.SH with Let's Encrypt instead, and asks users to report dead codes via WeChat itrustssl.",
+    "input_hash": "a8ad324eb088"
+  },
+  "v2ex-ee5edbef64be": {
+    "summary_zh": "V2EX 用户询问是否有复刻 muse workflow 的开源 repo，用于自己部署，并指出 muse 用的是自家 muse spark 模型、不能换模型，grok 也是如此，因此自托管需求应该不少。发帖人提到服务器隔离已有多套方案（如接 docker-sbx 或 smolvm），但早期预热的 repo 方向不明，希望懂行的人来推荐。",
+    "summary_en": "A V2EX thread asks whether any repo replicates muse's workflow for self-hosted deployment, noting that muse runs on its own muse spark model and can't swap models, as is the case with grok, so self-hosting demand should be significant. The poster says server isolation is already solvable (e.g. docker-sbx or smolvm) but early pre-release repos lack clear direction, and asks those in the know for recommendations.",
+    "input_hash": "f0d30eeccece"
+  },
+  "v2ex-cec6ca946054": {
+    "summary_zh": "AMD 在 9 月 26 日公布 EPYC 9006（Venice，Zen 6）全系 31 个型号及千颗批量价，从 8 核 700 美元到 256 核 14904 美元。SP7 平台 9 个型号主打高核数，支持 16 通道 DDR5、PCIe 6.0，今年四季度上市；SP8 平台 22 个型号面向主流，2027 年上半年推出，帖中还附了供货情况。",
+    "summary_en": "AMD published all 31 SKUs and 1000-unit pricing for its EPYC 9006 (Venice, Zen 6) lineup on September 26, ranging from $700 for 8 cores to $14,904 for 256 cores. The 9 high-core-count SP7 parts ship this Q4 with 16-channel DDR5 and PCIe 6.0, while 22 mainstream SP8 SKUs are due in the first half of 2027; the post also covers supply status.",
+    "input_hash": "62bd42a23e51"
+  },
+  "v2ex-627a928a5a78": {
+    "summary_zh": "V2EX 上一条帖子称，Claude 网页版似乎可以泄漏思维链。原文只有链接，未提供更多细节，具体触发方式、影响范围和是否为预期行为都无法确认，关注 Claude 或提示注入相关问题的人可以留意后续讨论。",
+    "summary_en": "A V2EX post claims the Claude web app appears to leak its chain of thought. The linked page isn't summarized here; details beyond the title aren't available, including how it triggers or how far it reaches. Anyone tracking Claude behavior or prompt-injection issues may want to follow the thread.",
+    "input_hash": "e999cfb837ee"
+  },
+  "36kr-3965960047664391": {
+    "summary_zh": "36氪 一篇标题为《AI 打破了风投界最老铁律，这是 670 亿美元的硬核证明》的文章，主张 AI 正在推翻风投沿用最久的一条规则，并用 670 亿美元作为论据。原文是链接，未提供更多细节，究竟是哪条铁律、670 亿美元如何统计，标题之外无从确认。",
+    "summary_en": "A 36Kr piece titled \"AI has broken venture capital's oldest rule, and here's $67 billion of hard proof\" argues that AI is overturning a long-standing VC rule, citing a $67 billion figure as the evidence. The linked page isn't summarized here; details beyond the title aren't available, so which rule and how the $67 billion is calculated remain unclear.",
+    "input_hash": "2f090c1a7d67"
+  },
+  "zhihu-2087643546463613137": {
+    "summary_zh": "这是知乎上的一个提问，讨论中国 AI 短剧发展迅猛、海外同类产品却迟迟没起来的原因。提问本身没有附正文，页面仅为链接形式，未提供更多细节，具体回答和论据需点开原帖查看。",
+    "summary_en": "A Zhihu question asking why AI-generated short dramas have taken off in China while comparable efforts abroad have largely failed to gain traction. The post contains only the question itself — the linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "debcdc67ffc3"
+  },
+  "hn-49920160": {
+    "summary_zh": "StreetComplete 是一款主打易用性的 OpenStreetMap 编辑器，其 GitHub 仓库描述长期写明为 Android 版本，如今 iOS 版进入公开测试。这让此前没有对应工具的 iPhone 用户也能参与 OSM 数据编辑，原文未给出测试渠道等更多细节。",
+    "summary_en": "StreetComplete, an easy-to-use OpenStreetMap editor whose GitHub repo has long been described as Android-only, has entered public beta on iOS. That opens OSM editing to iPhone users who previously lacked this option. Beyond the beta status, the linked material doesn't offer further details.",
+    "input_hash": "0b697ed92a48"
+  },
+  "hn-49923692": {
+    "summary_zh": "Clef 和 Clef-flash 是托管在 Workers AI 上的开放权重决策模型，面向高速分类与 agentic 工作流；同时发布的还有一套强化学习平台，让开发者用自己的数据微调决策模型。做快速分类或搭 agent 流水线的团队多了一条可调优的开放权重选项。",
+    "summary_en": "Clef and Clef-flash are open-weight decision models hosted on Workers AI, targeting high-speed classification and agentic workflows. Alongside them, a new reinforcement learning platform lets developers fine-tune decision models on their own data. Teams building fast classification or agent pipelines get an openly weighted, tunable option.",
+    "input_hash": "ea172d007bc8"
+  },
+  "hn-49924179": {
+    "summary_zh": "有文章认为 Git 3.0 将 SHA-256 设为默认内容哈希算法是个代价高昂的错误，称其为一场难以想象的昂贵、最终毫无价值且本可避免的全球性折腾。对需要评估这一默认值变更迁移成本的开发者来说，这是一份明确的反对意见。",
+    "summary_en": "An argument that Git 3.0's move to make SHA-256 the default content hashing algorithm is a costly mistake, described as an incomprehensibly expensive, ultimately valueless and avoidable global headache. For developers weighing the migration burden such a default change implies, it offers a clear dissenting view.",
+    "input_hash": "6faa9789e7d3"
+  },
+  "hn-49928121": {
+    "summary_zh": "Debian 发布安全公告 DSA-6528-1，修复 linux 内核包中的一批漏洞，公告由 Salvatore Bonaccorso 署名，列出的 CVE 超过 20 个。运行受影响内核的 Debian 用户应按公告升级系统；原文只有公告和 CVE 清单，没有逐个漏洞的影响分析。",
+    "summary_en": "Debian's security advisory DSA-6528-1, signed by Salvatore Bonaccorso, addresses a batch of Linux kernel vulnerabilities and lists more than twenty CVE IDs. Debian users running affected kernels should upgrade as instructed. The source is the advisory and its CVE list; there is no per-vulnerability impact analysis.",
+    "input_hash": "068da3d4908c"
+  },
+  "hn-49927760": {
+    "summary_zh": "《Frog and Toad and the Increasingly Capable Machines》借儿童读物里的 Frog and Toad 来谈能力越来越强的机器，随文只有一句「Frog and Toad face the most modern of challenges」。原文是链接，除标题和这句简介外未提供更多细节，关注 AI 能力增长讨论的读者可以顺着这个比喻去看。",
+    "summary_en": "\"Frog and Toad and the Increasingly Capable Machines\" uses the children's-book duo to frame a discussion of machines that keep getting more capable; the only accompanying text says the pair face \"the most modern of challenges.\" The linked page isn't summarized here, so details beyond the title and that line aren't available, though the framing may interest readers following AI-capability debates.",
+    "input_hash": "2d531369fe45"
+  },
+  "36kr-4007113782644870": {
+    "summary_zh": "36氪这篇报道关注的是一门被称作「躺平生意」的青年养老院，这个话题已经火了两年，标题追问的是它如今的经营状况。该条目仅有标题，未附正文摘录，具体数据、案例和结论无法在此确认。",
+    "summary_en": "This 36Kr piece looks at \"youth nursing homes,\" a \"lying flat\" business that has been trending for two years, and its headline asks how the business is doing now. The linked page isn't summarized here; details beyond the title, such as figures or case studies, aren't available, so anyone tracking this niche would need the original article.",
+    "input_hash": "c9beee94e376"
+  },
+  "36kr-4008129479315332": {
+    "summary_zh": "36氪这篇报道讲的是外国人来中国扫货、顺便旅个游的现象，「扫货」加「旅游」是标题给出的核心信息。该条目只有标题，未提供正文摘要，因此涉及的具体人群、城市或消费数据无法在此说明。",
+    "summary_en": "This 36Kr headline describes foreign visitors coming to China to shop, tacking tourism onto the trip. The linked page isn't summarized here, so details beyond the title — who is coming, which cities, or any spending figures — aren't available. Nothing further can be confirmed from the entry as provided.",
+    "input_hash": "ff11dcf6255d"
+  },
+  "36kr-4007322594432649": {
+    "summary_zh": "这条 36kr 内容讨论新能源车维修为何这么难，标题给出的具体事实是月薪两万也修不起车。原文为链接形式，未提供更多细节，所以涉及哪些车型、维修项目和费用构成尚不清楚。关心新能源车真实用车成本的潜在车主可以留意这个话题。",
+    "summary_en": "This 36kr item looks at why repairing an electric vehicle is so expensive, the headline fact being that even a 20,000-yuan monthly salary can't cover the bill. The linked page isn't summarized here; details beyond the title aren't available, so specific models, parts and cost breakdowns remain unclear. It speaks to anyone weighing the running costs of an EV.",
+    "input_hash": "c6b1068ee38e"
+  },
+  "zhihu-2089354143802418288": {
+    "summary_zh": "知乎这条提问给出的具体事实是，莫氏鸡煲总店员工从 180 人缩减到 30 多人，国庆假期上座率只有六成，讨论由此延伸到网红餐厅为何难逃流量暴跌。原文只提供标题，没有更多正文细节，经营数据的完整口径无法核实。适合关注餐饮创业与网红店生命周期的人。",
+    "summary_en": "A Zhihu question notes that the flagship store of Mo's Chicken Pot cut staff from 180 to just over 30, and its occupancy over the National Day holiday was only 60 percent, prompting a wider discussion of why viral restaurants can't escape a traffic collapse. Only the title is available, so no further details are given. Relevant to those watching restaurant startups and the hype cycle of internet-famous brands.",
+    "input_hash": "67b22e871393"
+  },
+  "36kr-4007122846748807": {
+    "summary_zh": "36kr 这条内容指出 YouTube 把变现门槛提高了一倍，并分析其真正的目标可能是短视频。原链接未提供正文，所以新门槛的具体数值、生效时间以及受影响的创作者规模都无从得知。对依赖 YouTube 广告分成的创作者来说，这是需要跟踪的规则变化。",
+    "summary_en": "A 36kr piece reports that YouTube has doubled its monetization threshold and suggests the platform's real target may be short-form video. The linked page isn't summarized here, so the exact new requirements, their timing and the number of affected creators aren't available. Creators who rely on YouTube ad revenue are the audience most affected.",
+    "input_hash": "a647d8b70c65"
+  },
+  "36kr-4008277186285446": {
+    "summary_zh": "这条 36kr 内容讲的是中国游客在全球各地旅行，客观上让海外商家也过上了类似黄金周的生意。原文是链接，未提供更多正文，具体的国家和消费数据无法确认。关注出境游复苏和海外零售的人可以留意。",
+    "summary_en": "This 36kr piece describes how Chinese tourists roaming the world have effectively handed overseas merchants a Golden Week of their own. The linked page isn't summarized here; details beyond the title aren't available, so specific destinations and spending figures can't be confirmed. It's of interest to anyone tracking outbound travel and overseas retail.",
+    "input_hash": "6fcff8dcf987"
+  },
+  "zhihu-2088709467814585476": {
+    "summary_zh": "知乎这条提问提到一种网上流传的说法：小诊所看病见效快，是因为用了抗生素、激素等猛药压制症状，并追问这说法是否属实、会对健康造成哪些影响。除标题外没有正文内容，因此文中并未给出任何医学结论或具体案例。适合对基层医疗和用药安全感兴趣的读者。",
+    "summary_en": "A Zhihu question raises an online claim that small clinics make patients feel better fast by using heavy drugs such as antibiotics and hormones to suppress symptoms, and asks whether this is true and what health effects it may have. Only the title is available, so the item offers no medical conclusion or case data. Suited to readers interested in primary care and medication safety.",
+    "input_hash": "b422352a7be8"
+  },
+  "36kr-4008449499877252": {
+    "summary_zh": "这篇 36kr 文章从标题看讨论的是中产群体对「网红民宿」投资或消费热情的退潮，用「开盲盒」比喻其中的不确定性。原文只提供了标题，正文内容未一并给出，具体案例和数据无法确认。",
+    "summary_en": "This 36kr piece, judging by its title alone, looks at how middle-class Chinese have soured on influencer-style homestay (minsu) investments, framing them as a gamble or \"blind box.\" Only the headline is available here; the linked page isn't summarized and no further details, figures, or cases can be confirmed.",
+    "input_hash": "67c93b40d3c4"
+  },
+  "36kr-4008237864374406": {
+    "summary_zh": "这条 36kr 标题把游客挤满景区和景区运营方涌向港交所并列，指向一段长达 13 天的假期里旅游消费与旅游企业赴港上市同时出现的景象。原文仅提供标题，未附正文，具体公司与交易信息无从核对。",
+    "summary_en": "This 36kr headline pairs tourists packing out scenic spots with tourism operators crowding into the Hong Kong stock exchange over an unusually long 13-day holiday stretch. Only the title is given here, so the linked article isn't summarized and no company names, listing details, or numbers can be verified.",
+    "input_hash": "a99f3a596886"
+  },
+  "zhihu-2088728472214684789": {
+    "summary_zh": "这条知乎提问关注女装网店为应对恶意退货而启用「防拆带」这一做法，并追问它是否真比此前的巨型吊牌更有效，以及为何被解读为市场信任的崩塌。原文是问答页面的标题，正文与回答未提供，无法给出具体商家或数据。",
+    "summary_en": "This Zhihu question examines women's-clothing online stores adopting anti-tamper strips to fight malicious returns, asking whether they work better than the earlier oversized hangtags and why some read the trend as a collapse of market trust. Only the question title is available; the linked discussions aren't summarized and no merchants or data can be confirmed.",
+    "input_hash": "309722746d95"
+  },
+  "36kr-4008247094267776": {
+    "summary_zh": "这篇 36kr 文章讲的是上海乐高乐园被本地打工人当成另类健身去处，标题还提到手动跳楼机、玩一天能瘦三斤这类细节。原文只有标题，正文未提供，园区设施与说法是否属实无法核实。",
+    "summary_en": "This 36kr article describes how Shanghai office workers have turned Legoland into an unlikely workout spot, with the headline citing hand-cranked drop rides and claims of losing weight in a day. Only the headline is available here, so the linked page isn't summarized and those specifics can't be verified.",
+    "input_hash": "f2e6b1a4fa37"
+  },
+  "zhihu-1938863202361415169": {
+    "summary_zh": "这是知乎上一个关于如何培养更强深度思考能力的提问，属于方法论类的开放讨论。原文只给出问题标题，回答内容未一并提供，因此无法提炼其中具体的训练方法或观点。",
+    "summary_en": "This is a Zhihu question asking how to develop stronger deep-thinking ability, an open-ended methodology discussion. Only the question title is provided, so the linked page isn't summarized and the specific techniques or viewpoints offered by respondents aren't available.",
+    "input_hash": "ca55ad822eb4"
+  },
+  "zhihu-2088956328886678092": {
+    "summary_zh": "知乎上的一个提问，讨论华为 10 月 1 日发布的 Mate 90 系列，标题称其全系搭载「τ芯片」，并询问不同版本之间该如何选择。原文只有标题，未提供芯片参数、价格或评测等更多细节，想了解配置差异、正在纠结买哪一档的人可以到原帖看讨论。",
+    "summary_en": "A Zhihu question asking how to judge Huawei's Mate 90 series, launched on October 1 with what the title calls a \"τ chip\" across the whole lineup, and how buyers should pick between versions. The linked page isn't summarized here, so no specs, pricing or benchmarks beyond the title are available; those weighing which model to buy will have to look for that elsewhere.",
+    "input_hash": "4bbb1a6e01d7"
+  },
+  "juejin-7683049897088843816": {
+    "summary_zh": "掘金上一篇文章，作者暂时放下 AI 和技术话题，转而聊找工作这件事，说自己最近比较焦虑：眼看着大模型不断上新、自己也在持续更新相关内容，却感觉只有自己没有进步。适合同样在求职、或者被行业节奏压得喘不过气的开发者读一读。",
+    "summary_en": "A Juejin post in which the author sets aside AI and technical topics to talk about job hunting. He explains his recent anxiety: large models keep shipping and he keeps producing content about them, yet it feels as if everyone is advancing except him. Aimed at developers under the same pressure or currently searching for work.",
+    "input_hash": "6b2616b7a236"
   }
 }
