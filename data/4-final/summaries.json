@@ -1422,9 +1422,9 @@
     "summary_en": "Trending on HN: 8点1氪丨SpaceX跌破IPO首日收盘价，市值蒸发4000亿美元；英国首相斯塔默宣布辞职；SK海力士市值首超三星电子"
   },
   "gh-daily-affaan-m-ECC": {
-    "summary_zh": "GitHub 趋势仓库 ECC 定位为 agent harness 性能优化系统，面向 Claude Code、Codex、Opencode、Cursor 等 AI 编程工具，集成 skills、instincts、memory、security 与 research-first 流程。它为多款编码助手提供统一、可优化的运行环境，适合深度使用 AI 编程工具的开发者。",
-    "summary_en": "ECC, a trending GitHub repository, describes itself as an agent harness performance optimization system for AI coding tools including Claude Code, Codex, Opencode, and Cursor. It bundles skills, instincts, memory, security, and a research-first development workflow into a unified, optimizable runtime. Developers who rely on multiple coding agents may find it useful for standardizing and hardening their setups.",
-    "input_hash": "80bd65217711"
+    "summary_zh": "开源项目 ECC — The agent harness performance optimization system. Skills, instincts, memory, security, and research",
+    "summary_en": "Open-source project ECC — The agent harness performance optimization system. Skills, instincts, memory, security, and research",
+    "input_hash": "75c0e860219e"
   },
   "gh-daily-NousResearch-hermes-agent": {
     "summary_zh": "Nous Research 开源了 Hermes Agent，一个以“The agent that grows with you”为定位的智能体项目，仓库采用 MIT 许可证并附带桌面版、文档与 Discord 社区。由于 README 以横幅和徽章为主，未提供功能或架构细节，适合想追踪 Nous Research 动态的开发者先关注。",
@@ -2574,9 +2574,9 @@
     "summary_en": "Clean Code JavaScript adapts Robert C. Martin's classic coding principles specifically for the JavaScript ecosystem, offering practical advice on variable naming, function design, error handling, and more. Whether you're a beginner or an experienced developer, this repository provides actionable tips to improve code readability and maintainability. It has become an essential reference for teams striving to build high-quality JavaScript applications that are easier to debug and extend."
   },
   "gh-daily-JuliusBrussee-caveman": {
-    "summary_zh": "JuliusBrussee/caveman 是一个 Claude Code skill，用原始人式的极简措辞让 AI 回答更短，官方称可削减约 65% 的 token 用量。README 的卖点很直接：模型能力不变，字写少一点，按 token 付费的账单就低一点。",
-    "summary_en": "JuliusBrussee/caveman is a Claude Code skill that cuts token use by roughly 65% by making the agent respond in terse, caveman-style wording. The repository's pitch is 'Same brain. Fewer words. Smaller bill.' Developers who pay for Claude Code per token may find this an easy way to lower cost while keeping output quality.",
-    "input_hash": "e484012b6a85"
+    "summary_zh": "开源项目 caveman — 🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of",
+    "summary_en": "Open-source project caveman — 🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of",
+    "input_hash": "d97032c03273"
   },
   "36kr-3879158039834629": {
     "summary_zh": "8点1氪报道了三则重磅商业新闻：被称为「具身智能第一股」的宇树科技已通过上市申请；SK海力士因市场波动单日市值蒸发超1万亿韩元；霸王茶姬因配置失误导致0元抢购潮，随后致歉并紧急修复。这些事件分别反映了具身机器人赛道的资本加速、半导体行业的股价震荡，以及新消费品牌的运营风险。",
@@ -14417,9 +14417,9 @@
     "input_hash": "cae8e4853272"
   },
   "v2ex-bfd07d65fd34": {
-    "summary_zh": "一位 V2EX 用户碰到怪事：32G 内存的机器，任务管理器显示内存占用 86%（约 27G），但他把其中各进程的占用相加远达不到这个数；而资源管理器显示物理内存使用只有 35%。他贴出三张截图提问，为什么同一台机器上任务管理器与资源管理器给出的内存数字对不上。",
-    "summary_en": "A V2EX user with 32GB of RAM sees Task Manager report 86% memory usage (about 27GB), yet adding up the processes it lists falls far short of that figure, while Resource Monitor shows only 35% of physical memory in use. He posted three screenshots asking why the two Windows tools disagree on the same machine.",
-    "input_hash": "73ae07599871"
+    "summary_zh": "V2EX 热议：[问与答] Windows 内存占用的问题，任务管理器 vs 资源管理器 显示不一样？",
+    "summary_en": "Hot on V2EX: [问与答] Windows 内存占用的问题，任务管理器 vs 资源管理器 显示不一样？",
+    "input_hash": "58df334c5946"
   },
   "36kr-3981250979036163": {
     "summary_zh": "36氪发出快讯称 OpenAI 今年不会启动上市。该条目只给出了标题，链接页面未提供更多细节，因此推迟原因、融资安排和官方回应均无从确认。",
@@ -15077,9 +15077,9 @@
     "input_hash": "2c9a0221fcd6"
   },
   "gh-daily-earendil-works-pi": {
-    "summary_zh": "Pi 是 earendil-works 开源的 AI agent 工具集，拆成三个 npm 包：pi-coding-agent 是交互式编码 agent CLI，pi-agent-core 提供带 tool calling 与状态管理的 agent runtime，pi-ai 则统一了 OpenAI、Anthropic、Google 等厂商的 LLM API。项目主打可自扩展的编码 agent，但新贡献者的 issue 和 PR 默认会被自动关闭，由维护者每日复核。",
-    "summary_en": "Pi is an open-source AI agent toolkit from earendil-works, split into three npm packages: pi-coding-agent (an interactive coding-agent CLI), pi-agent-core (a runtime with tool calling and state management), and pi-ai (a unified multi-provider LLM API covering OpenAI, Anthropic, Google and more). New issues and PRs from new contributors are auto-closed by default, with maintainers reviewing them daily.",
-    "input_hash": "471c30631258"
+    "summary_zh": "开源项目 pi — AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+    "summary_en": "Open-source project pi — AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+    "input_hash": "657931213f80"
   },
   "gh-daily-Homebrew-BrewUI": {
     "summary_zh": "Homebrew 官方推出 macOS 图形界面客户端 BrewUI，基于 SwiftUI 与 Swift 6.0，要求 macOS Tahoe 26 以上，可用 brew install --cask homebrew-app 安装。它面向不习惯命令行的用户，在图形界面里发现、安装、更新包，并通过 /bin/zsh 与干净环境调用 brew，全程不隐藏底层操作。",
@@ -18302,9 +18302,9 @@
     "input_hash": "06cb9bf64aa6"
   },
   "infoq-z9VP6ZQ3vCxTrk1VdU5D": {
-    "summary_zh": "云栖大会企业级 Agent 论坛上，极客邦科技创始人霍太稳提到一个案例：某 AI 应用因开关忘关，Token 费用从预估约一万元涨到三万元，月底才发现。文章由此讨论企业用 Agent 时所需的权限校验、预算约束与费用归属，而不是只靠更强的模型来解决。",
-    "summary_en": "At the enterprise Agent forum of the Yunqi Conference, Geekbang founder Huo Taiwen described an AI app whose token bill hit roughly ¥30,000 instead of an estimated ¥10,000 because a switch was left on, discovered only at month-end settlement. The article uses this to argue that enterprise Agents need permission checks, budget limits and cost attribution built into the stack, not just stronger models.",
-    "input_hash": "11355e788452"
+    "summary_zh": "InfoQ 精选：一个忘关的开关，与企业Agent的全栈技术账单",
+    "summary_en": "Featured on InfoQ: 一个忘关的开关，与企业Agent的全栈技术账单",
+    "input_hash": "84002bc1e2af"
   },
   "hn-49901736": {
     "summary_zh": "Livenerf（仓库 ninjahawk/livenerf）是一个在模型发布后持续追踪其能力变化的 benchmark，标题以 Opus 5.5 是否被削弱作为发问场景。它针对的是模型上线后被静默调整、实际表现与发布时不一致的问题，适合关注版本间能力漂移的开发者。",
@@ -18312,9 +18312,9 @@
     "input_hash": "3ba685eecffe"
   },
   "hn-49913571": {
-    "summary_zh": "HN 上的这条帖子指向 Gemini 4 Argon，正文只给出一个相关链接：Gemini 4 Argon (High) 的智能、性能与价格分析。除标题和该链接外，帖子本身没有提供更多细节，关心该模型表现的读者可以直接去看那篇分析。",
-    "summary_en": "This Hacker News post points to Gemini 4 Argon, with its body only linking to a related thread titled \"Gemini 4 Argon (High): Intelligence, Performance and Price Analysis\". The linked page isn't summarized here; details beyond the title and that pointer aren't available. Anyone interested in the model's intelligence, performance and price trade-offs should follow that link.",
-    "input_hash": "10c193207b13"
+    "summary_zh": "HN 热门：Gemini 4 Argon",
+    "summary_en": "Trending on HN: Gemini 4 Argon",
+    "input_hash": "5e5c438252da"
   },
   "hn-49896604": {
     "summary_zh": "HN 上标题为 Dots: Always-on agents 的帖子，正文是链接，未提供更多细节。从标题看，它指向某种常驻运行的 agent 方案，但具体实现、能力与适用场景都无法从现有信息判断。",
@@ -18477,9 +18477,9 @@
     "input_hash": "d12d6c2da082"
   },
   "infoq-t5i2Yv2z0LwIbK36lteR": {
-    "summary_zh": "9 月 30 日 DeepSeek 开源了面向华为昇腾平台的一组基础设施组件，涵盖 TileLang 编译器以及 DeepGEMM、DeepEP、TileKernels、FlashMLA、DeepSelect 的昇腾实现，与此前英伟达版本一一对应。团队还与华为共同推进基于昇腾 950 的 128 卡超节点方案，其中 TileLang 已承载 DeepSeek V4 训练的大部分算子。",
-    "summary_en": "On September 30, DeepSeek open-sourced a set of infrastructure components for Huawei's Ascend platform, covering the TileLang compiler plus Ascend implementations of DeepGEMM, DeepEP, TileKernels, FlashMLA and DeepSelect that map one-to-one onto its earlier NVIDIA releases. The team also worked with Huawei on a 128-card supernode based on Ascend 950. TileLang already implements most operators used in DeepSeek V4 training, and some components keep NVIDIA-level APIs to ease migration.",
-    "input_hash": "a4e794abe433"
+    "summary_zh": "InfoQ 精选：DeepSeek 开源昇腾平台基础设施组件，覆盖 TileLang、计算库与分布式通信库",
+    "summary_en": "Featured on InfoQ: DeepSeek 开源昇腾平台基础设施组件，覆盖 TileLang、计算库与分布式通信库",
+    "input_hash": "6828ab6d7d34"
   },
   "infoq-Rgb6X5RSD1P8HQzRc0K7": {
     "summary_zh": "这期 Java 新闻汇总了 JDK 27 的正式发布（含九项 JEP）、JDK 28 早期访问 Build 16、BellSoft 的 Liberica JDK 27，以及 Jakarta EE 12 Core Profile 定于 12 月发布的时间表。Open J Proxy 1.0.0 GA 同期发布，新增 HikariCP 连接池泄漏检测阈值与 JDBC Type 3 驱动，并与 OmniFish 合作面向 Kubernetes 等云原生场景的数据库扩展。",
@@ -18537,9 +18537,9 @@
     "input_hash": "5d6fa1cd3340"
   },
   "hn-49926069": {
-    "summary_zh": "Pi 1.0 是 Hacker News 上的一条条目，原文只给出链接，未提供更多正文细节，从标题能确定的仅是发布了 1.0 版本。想了解它的具体功能需要自行打开原帖。",
-    "summary_en": "Pi 1.0 is a Hacker News submission, and the linked page isn't summarized here; details beyond the title aren't available. All the title establishes is that a 1.0 release exists, so anyone curious about its features will have to open the original thread.",
-    "input_hash": "abfc0d7c74ba"
+    "summary_zh": "HN 热门：Pi 1.0",
+    "summary_en": "Trending on HN: Pi 1.0",
+    "input_hash": "9c881b496629"
   },
   "hn-49892245": {
     "summary_zh": "德里自 2002 年起把电网从漏电严重的烂摊子改造成世界级系统，电力损耗从 50% 降到 5%。文章拆解了这套改造是怎么做到的，适合关注电网运营、公共事业治理和基础设施改革的读者。",
@@ -18692,9 +18692,9 @@
     "input_hash": "debcdc67ffc3"
   },
   "hn-49920160": {
-    "summary_zh": "StreetComplete 是一款主打易用性的 OpenStreetMap 编辑器，其 GitHub 仓库描述长期写明为 Android 版本，如今 iOS 版进入公开测试。这让此前没有对应工具的 iPhone 用户也能参与 OSM 数据编辑，原文未给出测试渠道等更多细节。",
-    "summary_en": "StreetComplete, an easy-to-use OpenStreetMap editor whose GitHub repo has long been described as Android-only, has entered public beta on iOS. That opens OSM editing to iPhone users who previously lacked this option. Beyond the beta status, the linked material doesn't offer further details.",
-    "input_hash": "0b697ed92a48"
+    "summary_zh": "HN 热门：StreetComplete on iOS is now in public beta",
+    "summary_en": "Trending on HN: StreetComplete on iOS is now in public beta",
+    "input_hash": "53bdd604cbaf"
   },
   "hn-49923692": {
     "summary_zh": "Clef 和 Clef-flash 是托管在 Workers AI 上的开放权重决策模型，面向高速分类与 agentic 工作流；同时发布的还有一套强化学习平台，让开发者用自己的数据微调决策模型。做快速分类或搭 agent 流水线的团队多了一条可调优的开放权重选项。",
@@ -18785,5 +18785,170 @@
     "summary_zh": "掘金上一篇文章，作者暂时放下 AI 和技术话题，转而聊找工作这件事，说自己最近比较焦虑：眼看着大模型不断上新、自己也在持续更新相关内容，却感觉只有自己没有进步。适合同样在求职、或者被行业节奏压得喘不过气的开发者读一读。",
     "summary_en": "A Juejin post in which the author sets aside AI and technical topics to talk about job hunting. He explains his recent anxiety: large models keep shipping and he keeps producing content about them, yet it feels as if everyone is advancing except him. Aimed at developers under the same pressure or currently searching for work.",
     "input_hash": "6b2616b7a236"
+  },
+  "zhihu-2089736714340102430": {
+    "summary_zh": "知乎热榜：如何评价亚运会中国代表团 169 金 89 银 83 铜收官，创境外参加亚运会最佳战绩？有哪些项目发挥关键作用？",
+    "summary_en": "Hot on Zhihu: 如何评价亚运会中国代表团 169 金 89 银 83 铜收官，创境外参加亚运会最佳战绩？有哪些项目发挥关键作用？",
+    "input_hash": "fdcb262ae521"
+  },
+  "36kr-4009475424063619": {
+    "summary_zh": "36氪热门：刚刚，AI击穿了“视频图灵测试”，1700万网友在线围观",
+    "summary_en": "Popular on 36Kr: 刚刚，AI击穿了“视频图灵测试”，1700万网友在线围观",
+    "input_hash": "2170c890b081"
+  },
+  "v2ex-4de2776edfe5": {
+    "summary_zh": "V2EX 热议：[分享创造] 给 Touch Bar 做了个新用途：直接看 Codex / Claude Code 是在工作，还是已经做完",
+    "summary_en": "Hot on V2EX: [分享创造] 给 Touch Bar 做了个新用途：直接看 Codex / Claude Code 是在工作，还是已经做完",
+    "input_hash": "38d620a39b8d"
+  },
+  "v2ex-3703df7c563d": {
+    "summary_zh": "V2EX 热议：[游戏开发] ai 开发游戏，你们用哪个框架？",
+    "summary_en": "Hot on V2EX: [游戏开发] ai 开发游戏，你们用哪个框架？",
+    "input_hash": "bdbb43f2a0c5"
+  },
+  "v2ex-09001bc56f0b": {
+    "summary_zh": "V2EX 热议：[分享创造] 看到 Chuttamalle 的 AI 深伪事件后，我做了一个强调安全与尊重的 AI 视频工具",
+    "summary_en": "Hot on V2EX: [分享创造] 看到 Chuttamalle 的 AI 深伪事件后，我做了一个强调安全与尊重的 AI 视频工具",
+    "input_hash": "7304b6c0fba6"
+  },
+  "v2ex-0a614913fa12": {
+    "summary_zh": "V2EX 热议：[分享创造] 做了一个 Raindance AI 视频小工具，欢迎大家来用",
+    "summary_en": "Hot on V2EX: [分享创造] 做了一个 Raindance AI 视频小工具，欢迎大家来用",
+    "input_hash": "e4f49e5e5986"
+  },
+  "infoq-07qzHLvyNXSW1SFNV5NV": {
+    "summary_zh": "InfoQ 精选：像改文字一样改语音：火山引擎全新语音内容编辑模型",
+    "summary_en": "Featured on InfoQ: 像改文字一样改语音：火山引擎全新语音内容编辑模型",
+    "input_hash": "4707ad86b603"
+  },
+  "v2ex-6e41b7cd75e5": {
+    "summary_zh": "V2EX 热议：[分享创造] 做了一个 rap 视频生成器，可以上传照片生成 rap 视频。",
+    "summary_en": "Hot on V2EX: [分享创造] 做了一个 rap 视频生成器，可以上传照片生成 rap 视频。",
+    "input_hash": "c5a6b9e75040"
+  },
+  "v2ex-7e1be94ac60d": {
+    "summary_zh": "V2EX 热议：[程序员] 相比 AI 的能力，觉得更可怕是它进步的速度、变化的幅度。",
+    "summary_en": "Hot on V2EX: [程序员] 相比 AI 的能力，觉得更可怕是它进步的速度、变化的幅度。",
+    "input_hash": "40108b4e6acf"
+  },
+  "v2ex-3eb4db43cd45": {
+    "summary_zh": "V2EX 热议：[分享创造] 写了 8 年代码，终于明白“说唱是男人最好的医美”",
+    "summary_en": "Hot on V2EX: [分享创造] 写了 8 年代码，终于明白“说唱是男人最好的医美”",
+    "input_hash": "fb80c317f8d7"
+  },
+  "v2ex-dac1a53f86af": {
+    "summary_zh": "V2EX 热议：[远程工作] USACO 竞赛编程讲师（远程，华盛顿州）",
+    "summary_en": "Hot on V2EX: [远程工作] USACO 竞赛编程讲师（远程，华盛顿州）",
+    "input_hash": "69bad213aba1"
+  },
+  "v2ex-2f34441d1f5e": {
+    "summary_zh": "V2EX 热议：[OpenAI] 有没有人觉得 Codex 的智能比 Chat 差多了",
+    "summary_en": "Hot on V2EX: [OpenAI] 有没有人觉得 Codex 的智能比 Chat 差多了",
+    "input_hash": "9e448fe3e5ce"
+  },
+  "v2ex-afb53570b290": {
+    "summary_zh": "V2EX 热议：[德语] 用 GPT Live 构建了一个 德语 B1 口语考试的工具",
+    "summary_en": "Hot on V2EX: [德语] 用 GPT Live 构建了一个 德语 B1 口语考试的工具",
+    "input_hash": "cdaedc63ae4d"
+  },
+  "hn-49927754": {
+    "summary_zh": "HN 热门：Court agrees with EFF: Utah's VPN law demands a technical impossibility",
+    "summary_en": "Trending on HN: Court agrees with EFF: Utah's VPN law demands a technical impossibility",
+    "input_hash": "8b4d5f26bc05"
+  },
+  "hn-49925184": {
+    "summary_zh": "HN 热门：Mike Tomlin spent 12 years building a Minecraft city",
+    "summary_en": "Trending on HN: Mike Tomlin spent 12 years building a Minecraft city",
+    "input_hash": "74298b09af57"
+  },
+  "36kr-4009334243774592": {
+    "summary_zh": "36氪热门：1.8万一枚、平替几十元，智能戒指是智商税还是真风口？",
+    "summary_en": "Popular on 36Kr: 1.8万一枚、平替几十元，智能戒指是智商税还是真风口？",
+    "input_hash": "01fafc61535f"
+  },
+  "36kr-4009352273236101": {
+    "summary_zh": "36氪热门：刚刚，Meta开源Muse Gadgets，让全球开发者自己「造AI外设」",
+    "summary_en": "Popular on 36Kr: 刚刚，Meta开源Muse Gadgets，让全球开发者自己「造AI外设」",
+    "input_hash": "730a8e555ebd"
+  },
+  "36kr-4008744797442177": {
+    "summary_zh": "36氪热门：女掌门人带队，3年吸金21亿，河南爆火景区要IPO了",
+    "summary_en": "Popular on 36Kr: 女掌门人带队，3年吸金21亿，河南爆火景区要IPO了",
+    "input_hash": "3f5ffbb432a7"
+  },
+  "36kr-4009647948746628": {
+    "summary_zh": "36氪热门：AI引发论文大爆炸，审稿体系濒临崩塌：arXiv也开始最严限流了",
+    "summary_en": "Popular on 36Kr: AI引发论文大爆炸，审稿体系濒临崩塌：arXiv也开始最严限流了",
+    "input_hash": "881470f951c8"
+  },
+  "36kr-3966471483284738": {
+    "summary_zh": "36氪热门：欢迎来到“差不多”世界：当AI样样精通，人类的脑力正在集体退化？",
+    "summary_en": "Popular on 36Kr: 欢迎来到“差不多”世界：当AI样样精通，人类的脑力正在集体退化？",
+    "input_hash": "256654130005"
+  },
+  "36kr-4009381083600769": {
+    "summary_zh": "36氪热门：苏姿丰抬头，李飞飞低头",
+    "summary_en": "Popular on 36Kr: 苏姿丰抬头，李飞飞低头",
+    "input_hash": "564af4f1b9da"
+  },
+  "36kr-4009478235295881": {
+    "summary_zh": "36氪热门：国庆出游用AI，第一批人已经被坑惨了",
+    "summary_en": "Popular on 36Kr: 国庆出游用AI，第一批人已经被坑惨了",
+    "input_hash": "26f9385dc132"
+  },
+  "zhihu-2088992610811637888": {
+    "summary_zh": "知乎热榜：财政部称将推进消费税征收后移并下划地方，将对地方财力和商品价格产生哪些影响？",
+    "summary_en": "Hot on Zhihu: 财政部称将推进消费税征收后移并下划地方，将对地方财力和商品价格产生哪些影响？",
+    "input_hash": "d0347335ea0e"
+  },
+  "36kr-4009610454093960": {
+    "summary_zh": "36氪热门：杀猪盘用上了AI，骗局开始批量生产",
+    "summary_en": "Popular on 36Kr: 杀猪盘用上了AI，骗局开始批量生产",
+    "input_hash": "db41cd967bbb"
+  },
+  "36kr-4009510615027849": {
+    "summary_zh": "36氪热门：Jev被请下王座，StartLux中国开源决策模型冲上第一",
+    "summary_en": "Popular on 36Kr: Jev被请下王座，StartLux中国开源决策模型冲上第一",
+    "input_hash": "abd7d5f537d6"
+  },
+  "gh-daily-Effect-TS-effect": {
+    "summary_zh": "开源项目 effect — Build production-ready applications in TypeScript",
+    "summary_en": "Open-source project effect — Build production-ready applications in TypeScript",
+    "input_hash": "d99b9d6d2782"
+  },
+  "zhihu-2089412797440455404": {
+    "summary_zh": "知乎热榜：如何评价极客湾最新视频《逻辑折叠深度解析！华为 Mate 90 系列韬定律芯片有多强？》？",
+    "summary_en": "Hot on Zhihu: 如何评价极客湾最新视频《逻辑折叠深度解析！华为 Mate 90 系列韬定律芯片有多强？》？",
+    "input_hash": "735417c3cbae"
+  },
+  "zhihu-2089644266393952732": {
+    "summary_zh": "知乎热榜：如何评价 Gemini 新的付费方案？",
+    "summary_en": "Hot on Zhihu: 如何评价 Gemini 新的付费方案？",
+    "input_hash": "c8f6c95c751c"
+  },
+  "zhihu-2089740005770008568": {
+    "summary_zh": "知乎热榜：如何看待 DeepSeek Harness 在新版本中加入 Claude Code Mods 兼容？",
+    "summary_en": "Hot on Zhihu: 如何看待 DeepSeek Harness 在新版本中加入 Claude Code Mods 兼容？",
+    "input_hash": "5aa3fc67cb15"
+  },
+  "zhihu-2089670263927464668": {
+    "summary_zh": "知乎热榜：如何评价 Gemini Flash 和 Pro 模型将于 2026 年 10 月 9 日转入付费模式？",
+    "summary_en": "Hot on Zhihu: 如何评价 Gemini Flash 和 Pro 模型将于 2026 年 10 月 9 日转入付费模式？",
+    "input_hash": "3cb2cc5e3ffb"
+  },
+  "zhihu-2089377620265910988": {
+    "summary_zh": "知乎热榜：怎么看 Claude Code 发布 Mod，崔添翼说 DSH Plugin 是不是要改叫 Mod ？",
+    "summary_en": "Hot on Zhihu: 怎么看 Claude Code 发布 Mod，崔添翼说 DSH Plugin 是不是要改叫 Mod ？",
+    "input_hash": "be50c18ba8b1"
+  },
+  "zhihu-2085637806781642585": {
+    "summary_zh": "知乎热榜：用户反映 iPhone 18 Pro 多次死机重启，官方称存在系统漏洞，你遇到过吗？为什么会出现这种漏洞？",
+    "summary_en": "Hot on Zhihu: 用户反映 iPhone 18 Pro 多次死机重启，官方称存在系统漏洞，你遇到过吗？为什么会出现这种漏洞？",
+    "input_hash": "2d8390c3f191"
+  },
+  "juejin-7675242010802896948": {
+    "summary_zh": "掘金精选：基于 Pi，我居然自己搞了一个好用的 AI Agent 桌面工作台",
+    "summary_en": "Featured on Juejin: 基于 Pi，我居然自己搞了一个好用的 AI Agent 桌面工作台",
+    "input_hash": "5dd8472d57d0"
   }
 }
