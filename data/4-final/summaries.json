@@ -884,9 +884,9 @@
     "summary_en": "Hello Algo is an animated, interactive textbook for data structures and algorithms. Instead of static diagrams, it uses step-by-step animations to show how arrays, trees, sorting, and graph algorithms actually work. Code snippets are provided in a dozen languages (Python, Java, C++, Go, Rust, etc.) and can be run directly in the browser. It's available in both Chinese and English. If you've ever struggled with pure-text algorithm books or want a visual, hands-on way to prepare for technical interviews, this is a beautifully crafted resource that makes learning both fun and effective."
   },
   "gh-daily-mattpocock-skills": {
-    "summary_zh": "Matt Pocock 开源了他的个人 AI 智能体技能集 mattpocock/skills，来自他日常实际使用的 .agents 目录，主打真实工程而非 vibe coding。这些技能刻意做成小型、易改、可组合，不依赖特定模型，也不同于 GSD、BMAD 这类试图接管整个流程的框架，给开发者更多控制权。",
-    "summary_en": "Matt Pocock open-sourced his personal AI agent skills in mattpocock/skills, taken from his own .agents directory and used for real engineering, not vibe coding. Unlike frameworks like GSD, BMAD, or Spec-Kit that own the whole process, these skills are deliberately small, adaptable, composable, and model-agnostic, giving developers more control. He encourages hacking on them and making them your own.",
-    "input_hash": "055a5463d57c"
+    "summary_zh": "开源项目 skills — Skills for Real Engineers. Straight from my .agents directory.",
+    "summary_en": "Open-source project skills — Skills for Real Engineers. Straight from my .agents directory.",
+    "input_hash": "07075e41e80f"
   },
   "gh-monthly-iptv-org-iptv": {
     "summary_zh": "这个项目收集了全球各地公开可用的IPTV频道，让你能轻松观看来自世界各国的电视节目。对于热爱探索不同文化节目或身处海外想收看家乡频道的人来说，它提供了一个免费且便捷的聚合入口，无需繁琐的订阅流程。重要的是，它完全开源并由社区维护，频道列表会持续更新，有效解决了寻找稳定免费IPTV源的常见痛点。",
@@ -1217,7 +1217,7 @@
   "juejin-7650882103059939337": {
     "summary_zh": "掘金精选：白嫖DeepSeek V4 Pro！免费无限用，还能接入Claude-Code",
     "summary_en": "Featured on Juejin: 白嫖DeepSeek V4 Pro！免费无限用，还能接入Claude-Code",
-    "input_hash": "31039c27464b"
+    "input_hash": "a450cd4be0ed"
   },
   "gh-daily-bytedance-deer-flow": {
     "summary_zh": "字节跳动开源项目 DeerFlow 2.0 是一个 super agent harness，通过编排子代理、记忆与沙箱来处理研究、写代码和创作等长时程任务。README 称 2.0 发布后曾登 GitHub Trending 第一，支持 Python 3.12+ 与 Node.js 22+，并以可扩展技能驱动。适合研究多步骤自主 Agent 架构的开发者。",
@@ -5491,9 +5491,9 @@
     "input_hash": "22ef3df02303"
   },
   "gh-daily-pbakaus-impeccable": {
-    "summary_zh": "pbakaus/impeccable 是给 AI coding agent 用的设计规范：1 个 skill、24 条命令、浏览器实时迭代和 61 条确定性检测规则，运行 npx impeccable install 后用 /impeccable init 把产品事实写进 PRODUCT.md。它基于 Anthropic 的 frontend-design skill，针对 AI 生成前端常见的 Inter 字体、紫蓝渐变、卡片套卡片等套路。",
-    "summary_en": "Impeccable is a design guidance package for AI coding agents, shipping one skill, 24 commands, live browser iteration and 61 deterministic detector rules; install it with npx impeccable install, then run /impeccable init to record product facts in PRODUCT.md. It builds on Anthropic's frontend-design skill and targets AI-generated clichés such as Inter everywhere, purple-to-blue gradients and cards nested in cards.",
-    "input_hash": "10d304719a52"
+    "summary_zh": "开源项目 impeccable — The design language that makes your AI harness better at design.",
+    "summary_en": "Open-source project impeccable — The design language that makes your AI harness better at design.",
+    "input_hash": "7686997ebe80"
   },
   "36kr-3911068395345287": {
     "summary_zh": "曾因风格过于性感而被市场边缘化的某女性品牌，如今凭借精准的品牌重塑和产品升级，重新夺回行业第一宝座，一年内从中国女性消费者身上赚走近5亿元。它的逆袭故事展示了传统品牌如何在消费趋势变迁中灵活调整策略，抓住新一代女性的审美和需求红利，也印证了“性感”并非过时，而是需要与品质和情感共鸣结合。",
@@ -5990,9 +5990,9 @@
     "summary_en": "This post provides a deep dive into the Kimi K3 architecture, a chip design tailored for high‑performance computing with a focus on heterogeneous compute units and energy efficiency. The author breaks down its memory hierarchy, interconnect topology, and compiler stack, showing how the architecture extracts maximum performance within tight power budgets. Engineers working on chip design, system architecture, or low‑level optimization will find practical insights here. The K3's approach to balancing AI inference and scientific computing workloads makes it a particularly interesting reference for modern accelerator design."
   },
   "juejin-7666482995197722630": {
-    "summary_zh": "文章讲作者被老板要求测算 Kimi K3 本地化部署的成本：K3 是 2.8 万亿参数的 MoE 模型，官方建议至少 64 张加速卡组成超节点，还要配 NVLink、800G 级光模块和 RDMA/RoCE 交换机，他按 64 张 H200 估算后给出约三千万的总投入。文章用具体报价说明超大模型私有化部署远不是“只花一次钱”，适合评估自建推理集群成本的人参考。",
-    "summary_en": "A Chinese developer works out what self-hosting Kimi K3 would actually cost after his boss proposed waiting for the open-source release instead of paying API fees. K3 is a 2.8-trillion-parameter MoE model that officials say needs at least 64 accelerators in a supernode, plus NVLink, 800G optical modules and RDMA/RoCE switches; using H200s he lands at roughly 30 million yuan. Useful for anyone sizing private inference clusters.",
-    "input_hash": "36bbad3536c7"
+    "summary_zh": "掘金精选：Kimi K3太牛了！但老板说API太贵，让我本地化部署，我算完成本，他涨红脸沉默不语了！其实成本不高，三千万足矣。",
+    "summary_en": "Featured on Juejin: Kimi K3太牛了！但老板说API太贵，让我本地化部署，我算完成本，他涨红脸沉默不语了！其实成本不高，三千万足矣。",
+    "input_hash": "7509ecc3d915"
   },
   "juejin-7667762010876936192": {
     "summary_zh": "文章批评了许多开发者习惯用nohup java -jar &命令在后台运行Spring Boot应用，认为这种做法在生产环境中极其危险。nohup加&虽然能让进程忽略挂断信号并在后台持续运行，但它缺乏进程监控、自动重启、日志轮转等关键守护能力。一旦应用崩溃或因异常退出，服务就会彻底中断，而运维人员往往要等到用户投诉才能发现。作者推荐使用systemd、Supervisor或Docker等专业进程管理工具，它们能确保应用在意外退出后自动恢复，并支持优雅关闭、资源限制等高级功能，真正守护生产环境的稳定性。",
@@ -13739,7 +13739,7 @@
   "juejin-7680105138455855158": {
     "summary_zh": "掘金精选：🚀 2026 年 8 月 GitHub 十大热门项目排行榜 🔥",
     "summary_en": "Featured on Juejin: 🚀 2026 年 8 月 GitHub 十大热门项目排行榜 🔥",
-    "input_hash": "d522869708dc"
+    "input_hash": "3e1768579be0"
   },
   "infoq-bvqQk8MoIlx291HfB7pQ": {
     "summary_zh": "InfoQ 精选：诺奖得主阿吉翁：AI时代，比以往任何时候都更需要重视手工劳动和软技能",
@@ -15142,9 +15142,9 @@
     "input_hash": "cdfb0eb19a46"
   },
   "v2ex-da49e96c6279": {
-    "summary_zh": "这是 V2EX 问答区的一条帖子，问的是不靠国补在哪里买 iPhone 17 最便宜。正文只有一句向网友请教的话，没有给出任何渠道、价格或讨论结果，原文是链接，未提供更多细节。",
-    "summary_en": "A V2EX Q&A post asks where to buy an iPhone 17 at the lowest price without China's national subsidy. The body is a single line asking fellow users for advice, so no channels, prices or answers are included. The linked page isn't summarized here; details beyond the title aren't available.",
-    "input_hash": "ca77802bbc0b"
+    "summary_zh": "V2EX 热议：[问与答] 现在不用国补哪里买 iPhone17 最便宜？",
+    "summary_en": "Hot on V2EX: [问与答] 现在不用国补哪里买 iPhone17 最便宜？",
+    "input_hash": "653d8e1bbd39"
   },
   "v2ex-96dffefc9b7b": {
     "summary_zh": "OpenRouter 的 stealth 端点上线了新的匿名免费模型 Union Alpha，Cline 也有提供，并称其达到 Astra/Fable 级别性能、价格约为预计的 1/18。据现有反馈，它速度很慢（约 7 tkps）且容易 timeout，思维链被隐藏，鹈鹕骑车测试表现不佳。",
@@ -19199,7 +19199,7 @@
   "infoq-AYXLumiEmzcCrKrRuq9B": {
     "summary_zh": "InfoQ 精选：Elastic Beanstalk 跑上 EKS，开发者质疑：为什么不把 ECS 做好？",
     "summary_en": "Featured on InfoQ: Elastic Beanstalk 跑上 EKS，开发者质疑：为什么不把 ECS 做好？",
-    "input_hash": "c33f8a73c7d7"
+    "input_hash": "00326cf3056d"
   },
   "v2ex-507d39208e45": {
     "summary_zh": "V2EX 热议：[搜索引擎优化] 继续分享我自己出海发的免费外链，这次又做了 11 个",
@@ -19209,7 +19209,7 @@
   "infoq-P5yCYKFiJfKAICrf8bfs": {
     "summary_zh": "InfoQ 精选：在 Cloudflare Worker 上实现多租户 SaaS 规模的模块化边缘计算",
     "summary_en": "Featured on InfoQ: 在 Cloudflare Worker 上实现多租户 SaaS 规模的模块化边缘计算",
-    "input_hash": "18a36eda3fd8"
+    "input_hash": "904cdda1f125"
   },
   "v2ex-c550c8ff4293": {
     "summary_zh": "V2EX 热议：[人工智能] 开源了个翻译模型 Index-Translate 🌍 150 种语言，免费 API 已开，欢迎体验",
@@ -19345,5 +19345,180 @@
     "summary_zh": "知乎热榜：30 岁女子靠 AI 婚庆培训年入 200 万，10 万元内的方案仅需十几分钟生成，实际含金量如何？",
     "summary_en": "Hot on Zhihu: 30 岁女子靠 AI 婚庆培训年入 200 万，10 万元内的方案仅需十几分钟生成，实际含金量如何？",
     "input_hash": "351a181227da"
+  },
+  "gh-daily-morluto-rea": {
+    "summary_zh": "开源项目 rea — Reverse engineer anything with agents, from app behavior down to native binaries.",
+    "summary_en": "Open-source project rea — Reverse engineer anything with agents, from app behavior down to native binaries.",
+    "input_hash": "1e2b80a277e2"
+  },
+  "zhihu-2090900901653209274": {
+    "summary_zh": "知乎热榜：王皓遭辱骂拍照取证，其妻子发声「不理解竞技体育怎么变这样了」，怎样看待这一现象？骂人者会受到处罚吗？",
+    "summary_en": "Hot on Zhihu: 王皓遭辱骂拍照取证，其妻子发声「不理解竞技体育怎么变这样了」，怎样看待这一现象？骂人者会受到处罚吗？",
+    "input_hash": "91c3ae2ce1d2"
+  },
+  "36kr-4013699052588937": {
+    "summary_zh": "36氪热门：刚刚，ChatGPT 推出文字水印，GPT-6 提速 50%",
+    "summary_en": "Popular on 36Kr: 刚刚，ChatGPT 推出文字水印，GPT-6 提速 50%",
+    "input_hash": "7c95d5bda995"
+  },
+  "v2ex-e69d248290aa": {
+    "summary_zh": "V2EX 热议：[程序员] 从转行到失败： 32 岁程序员跨界做女鞋的经历",
+    "summary_en": "Hot on V2EX: [程序员] 从转行到失败： 32 岁程序员跨界做女鞋的经历",
+    "input_hash": "ed65edbc3286"
+  },
+  "v2ex-3ce5e01619e3": {
+    "summary_zh": "V2EX 热议：[阅读] 2026 年八月 读女性研究，小说，随笔 6 本",
+    "summary_en": "Hot on V2EX: [阅读] 2026 年八月 读女性研究，小说，随笔 6 本",
+    "input_hash": "469f05c37304"
+  },
+  "v2ex-7fe44c571736": {
+    "summary_zh": "V2EX 热议：[分享创造] 我做了一个 AI 工具，想替代用了十多年的 Excel",
+    "summary_en": "Hot on V2EX: [分享创造] 我做了一个 AI 工具，想替代用了十多年的 Excel",
+    "input_hash": "4dd2bddb1a98"
+  },
+  "hn-49977979": {
+    "summary_zh": "HN 热门：Mistral Large 4",
+    "summary_en": "Trending on HN: Mistral Large 4",
+    "input_hash": "ad5013cd001d"
+  },
+  "v2ex-0dd929e963bf": {
+    "summary_zh": "V2EX 热议：[问与答] 坛里大佬给介绍介绍 找个靠谱一点的苹果签名交易市场",
+    "summary_en": "Hot on V2EX: [问与答] 坛里大佬给介绍介绍 找个靠谱一点的苹果签名交易市场",
+    "input_hash": "b1c6a8c5c79b"
+  },
+  "v2ex-198141529712": {
+    "summary_zh": "V2EX 热议：[小米] 小米 15，想换一个小米 15 pro",
+    "summary_en": "Hot on V2EX: [小米] 小米 15，想换一个小米 15 pro",
+    "input_hash": "a81e677b7030"
+  },
+  "v2ex-2251c793cfc0": {
+    "summary_zh": "V2EX 热议：[生活] 我要和女朋友结婚了，关于婚纱照，求各位大佬给我点意见！",
+    "summary_en": "Hot on V2EX: [生活] 我要和女朋友结婚了，关于婚纱照，求各位大佬给我点意见！",
+    "input_hash": "1c8275cef74c"
+  },
+  "v2ex-d21dadc3f43e": {
+    "summary_zh": "V2EX 热议：[Wunder] 把系统的实时状态画成 GIF",
+    "summary_en": "Hot on V2EX: [Wunder] 把系统的实时状态画成 GIF",
+    "input_hash": "7e02088bcb89"
+  },
+  "v2ex-27bf537f0917": {
+    "summary_zh": "V2EX 热议：[Android] 最近发布的 Googlebook 原来真的是安卓电脑",
+    "summary_en": "Hot on V2EX: [Android] 最近发布的 Googlebook 原来真的是安卓电脑",
+    "input_hash": "6753057b64b8"
+  },
+  "infoq-8XuP4iZKKr3ex2VTDxpl": {
+    "summary_zh": "InfoQ 精选：Graphify：整合代码库上下文，优化基于代理的软件工程",
+    "summary_en": "Featured on InfoQ: Graphify：整合代码库上下文，优化基于代理的软件工程",
+    "input_hash": "3c3b21def8f8"
+  },
+  "v2ex-683b34be416e": {
+    "summary_zh": "V2EX 热议：[程序员] Tibo 28 天营销逻辑",
+    "summary_en": "Hot on V2EX: [程序员] Tibo 28 天营销逻辑",
+    "input_hash": "2951c50757e9"
+  },
+  "infoq-DEyrayxufObhpoeZgOKT": {
+    "summary_zh": "InfoQ 精选：别再给 Agent 一个“毛坯房”了：构建 Agent 拎包入住的开发环境实践｜QCon上海",
+    "summary_en": "Featured on InfoQ: 别再给 Agent 一个“毛坯房”了：构建 Agent 拎包入住的开发环境实践｜QCon上海",
+    "input_hash": "c622f4f73b01"
+  },
+  "infoq-eRbEA3dMd58RNPqp5D8S": {
+    "summary_zh": "InfoQ 精选：Andrew Kelley 专访：他为何创建 Zig、禁止 AI 贡献以及将 Zig 从 GitHub 移出",
+    "summary_en": "Featured on InfoQ: Andrew Kelley 专访：他为何创建 Zig、禁止 AI 贡献以及将 Zig 从 GitHub 移出",
+    "input_hash": "06173eececaf"
+  },
+  "v2ex-9d7d8ed40167": {
+    "summary_zh": "V2EX 热议：[推广] 推荐一个自带 TEE 防伪证明的 API 聚合中转站 wokey.ai",
+    "summary_en": "Hot on V2EX: [推广] 推荐一个自带 TEE 防伪证明的 API 聚合中转站 wokey.ai",
+    "input_hash": "851c432c12b6"
+  },
+  "36kr-4013928129122184": {
+    "summary_zh": "36氪热门：数学要「毕业」了，xAI联创宣判：两千年英雄史彻底落幕",
+    "summary_en": "Popular on 36Kr: 数学要「毕业」了，xAI联创宣判：两千年英雄史彻底落幕",
+    "input_hash": "3a9a5dd385e8"
+  },
+  "hn-49961057": {
+    "summary_zh": "HN 热门：Anthropic reported diary entry to police, woman faces felony charge",
+    "summary_en": "Trending on HN: Anthropic reported diary entry to police, woman faces felony charge",
+    "input_hash": "01c829a0e300"
+  },
+  "36kr-4013845198507910": {
+    "summary_zh": "36氪热门：比起核电站，美国人为什么更反感数据中心？",
+    "summary_en": "Popular on 36Kr: 比起核电站，美国人为什么更反感数据中心？",
+    "input_hash": "a5346c14e7ec"
+  },
+  "36kr-4012851107204994": {
+    "summary_zh": "36氪热门：2026年诺奖公布，光遗传学推动大脑革命",
+    "summary_en": "Popular on 36Kr: 2026年诺奖公布，光遗传学推动大脑革命",
+    "input_hash": "81c2c573ba4a"
+  },
+  "36kr-4013053094383745": {
+    "summary_zh": "36氪热门：今年的诺奖得主，有一个和鲁迅相反的特征",
+    "summary_en": "Popular on 36Kr: 今年的诺奖得主，有一个和鲁迅相反的特征",
+    "input_hash": "a10b120fa63e"
+  },
+  "36kr-4014008473671300": {
+    "summary_zh": "36氪热门：门票之外，景区还在靠什么赚钱？",
+    "summary_en": "Popular on 36Kr: 门票之外，景区还在靠什么赚钱？",
+    "input_hash": "de5c21265852"
+  },
+  "36kr-3974503150874885": {
+    "summary_zh": "36氪热门：如何过上一种深度的智识生活",
+    "summary_en": "Popular on 36Kr: 如何过上一种深度的智识生活",
+    "input_hash": "f26c7cfafb19"
+  },
+  "36kr-4012967999852425": {
+    "summary_zh": "36氪热门：90后站上C位：姚顺雨、罗福莉、刘大一恒、陈宇森、周畅们接管国产大模型",
+    "summary_en": "Popular on 36Kr: 90后站上C位：姚顺雨、罗福莉、刘大一恒、陈宇森、周畅们接管国产大模型",
+    "input_hash": "1cc2f69eb2e7"
+  },
+  "36kr-4013873369829512": {
+    "summary_zh": "36氪热门：2026的游戏行业，遍地都是埋人的天坑陷阱？",
+    "summary_en": "Popular on 36Kr: 2026的游戏行业，遍地都是埋人的天坑陷阱？",
+    "input_hash": "f5eb4751383a"
+  },
+  "zhihu-2090761132268942635": {
+    "summary_zh": "知乎热榜：缅方曾称没有中国人死，起初拒绝中国警方从电诈园区带回同胞遗骸，哪些信息值得关注？",
+    "summary_en": "Hot on Zhihu: 缅方曾称没有中国人死，起初拒绝中国警方从电诈园区带回同胞遗骸，哪些信息值得关注？",
+    "input_hash": "4b65eb64bfd9"
+  },
+  "36kr-4013794732691328": {
+    "summary_zh": "36氪热门：华为与高通，重新算一笔专利账",
+    "summary_en": "Popular on 36Kr: 华为与高通，重新算一笔专利账",
+    "input_hash": "6ca273bed2a1"
+  },
+  "zhihu-2090915470492660010": {
+    "summary_zh": "知乎热榜：国足对阵塔吉克斯坦，韦世豪情绪失控肘击对手，被红牌罚下，怎样评价他的表现？",
+    "summary_en": "Hot on Zhihu: 国足对阵塔吉克斯坦，韦世豪情绪失控肘击对手，被红牌罚下，怎样评价他的表现？",
+    "input_hash": "58dc1f6bc799"
+  },
+  "zhihu-2089288174748919667": {
+    "summary_zh": "知乎热榜：如何看待曝一大厂职工靠加班将服务器成本降低 2 亿致全组被裁？网友说「程序员要学会养 bug」，怎么理解？",
+    "summary_en": "Hot on Zhihu: 如何看待曝一大厂职工靠加班将服务器成本降低 2 亿致全组被裁？网友说「程序员要学会养 bug」，怎么理解？",
+    "input_hash": "c34f1aa12cfe"
+  },
+  "zhihu-2090852996590428764": {
+    "summary_zh": "知乎热榜：家长称孩子打印作业开销太高，四年级一学期单科最高达 300 元，打印作业应该由家长做吗？怎样能降低成本？",
+    "summary_en": "Hot on Zhihu: 家长称孩子打印作业开销太高，四年级一学期单科最高达 300 元，打印作业应该由家长做吗？怎样能降低成本？",
+    "input_hash": "c25424f39bb5"
+  },
+  "gh-daily-deepseek-ai-DeepGEMM": {
+    "summary_zh": "开源项目 DeepGEMM — DeepGEMM: clean and efficient BLAS kernel library on GPU",
+    "summary_en": "Open-source project DeepGEMM — DeepGEMM: clean and efficient BLAS kernel library on GPU",
+    "input_hash": "978b9f797152"
+  },
+  "zhihu-5203224038": {
+    "summary_zh": "知乎热榜：从暴雪到育碧，感觉这些大厂都已不复往日光彩，欧美游戏行业近几年到底怎么了？",
+    "summary_en": "Hot on Zhihu: 从暴雪到育碧，感觉这些大厂都已不复往日光彩，欧美游戏行业近几年到底怎么了？",
+    "input_hash": "234f433537aa"
+  },
+  "zhihu-2090772030799061671": {
+    "summary_zh": "知乎热榜：怎么看 Claude 订阅现在比 OpenAI 高 5 倍用量？",
+    "summary_en": "Hot on Zhihu: 怎么看 Claude 订阅现在比 OpenAI 高 5 倍用量？",
+    "input_hash": "1e209389d45c"
+  },
+  "zhihu-2082148968041902949": {
+    "summary_zh": "知乎热榜：夫妻在苗圃地采来看似常见的无毒菌菇煮汤，引发食物中毒，该如何避免这种情况？AI 识图等辨别方式靠谱吗？",
+    "summary_en": "Hot on Zhihu: 夫妻在苗圃地采来看似常见的无毒菌菇煮汤，引发食物中毒，该如何避免这种情况？AI 识图等辨别方式靠谱吗？",
+    "input_hash": "3b07b09391c0"
   }
 }
