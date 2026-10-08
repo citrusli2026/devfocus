@@ -262,7 +262,9 @@
       "tags": [],
       "first_seen": "2026-10-05",
       "domain": "developers.cloudflare.com",
-      "quality_score": 40.1
+      "quality_score": 40.1,
+      "summary_zh": "Hacker News 上出现的这个 Web Search API，让 AI agent 和应用通过 AI Gateway 获得联网搜索能力，背后接入了 Ceramic.ai、Exa 和 Linkup 三家搜索提供方。对想给 agent 加实时检索、又不愿逐个对接搜索厂商的开发者来说，网关式聚合省掉了不少集成工作。",
+      "summary_en": "A Web Search API posted on Hacker News lets AI agents and applications search the web through an AI Gateway, with Ceramic.ai, Exa and Linkup as the underlying providers. That aggregation is useful for developers who want live retrieval inside their agents without integrating each search vendor separately."
     },
     {
       "id": "hn-49910462",
@@ -566,7 +568,9 @@
       "tags": [],
       "first_seen": "2026-10-05",
       "domain": "reflection.ai",
-      "quality_score": 35.4
+      "quality_score": 35.4,
+      "summary_zh": "Beam 是 Reflection 发布的开放权重模型，标题给出的参数规模为 501B。除了一句 \"Make intelligence open and accessible to all\" 的口号外，原文没有提供架构、许可协议或评测数据，关注开源权重模型的人目前只能确认这个规模数字。",
+      "summary_en": "Beam is an open-weight model from Reflection, listed at 501B parameters in the title. Beyond the tagline \"Make intelligence open and accessible to all,\" the post offers no architecture, license, or benchmark details, so anyone tracking large open-weight releases can only confirm the parameter count and the vendor for now."
     },
     {
       "id": "hn-49960084",
@@ -950,7 +954,9 @@
       "tags": [],
       "first_seen": "2026-10-05",
       "domain": "vals.ai",
-      "quality_score": 35.0
+      "quality_score": 35.0,
+      "summary_zh": "一队 Claude Opus 5.5 agents 找到两种候选磁性半导体，据称面向下一代计算机内存，两者都被预测净磁性为零、却仍能按自旋区分电子：一种是新设计的化合物，另一种是 1999 年首次合成的材料。原文摘录到这里中断，没有提及实验验证或论文。",
+      "summary_en": "A team of Claude Opus 5.5 agents reports two candidate magnets for next-generation computer memory, both predicted to have zero net magnetism while still sorting electrons by spin: one is a newly designed compound, the other a material first made in 1999. The excerpt cuts off there, with no word on experimental validation or a paper."
     },
     {
       "id": "hn-49933461",
@@ -4813,7 +4819,9 @@
       "tags": [],
       "first_seen": "2026-10-04",
       "domain": "infoq.cn",
-      "quality_score": 41.3
+      "quality_score": 41.3,
+      "summary_zh": "本期 Java 新闻汇总覆盖 Atmosphere 4.0 GA、GraalVM 25.3（新增面向 JIT 与 Native Image 的优先内联器 SubstratePriorityInliningPhase 与安全加固）、WildFly 41 维护版以及 Jakarta Data 1.1.0 第四个里程碑等更新。OpenJDK 方面，用于加密对象 PEM 编解码的 JEP 542 在 JDK 25 至 27 三轮预览后，已提升为 JDK 28 的 Targeted。适合想一次扫完 Java 生态版本节奏的开发者。",
+      "summary_en": "This Java roundup covers Atmosphere 4.0 reaching GA, GraalVM 25.3 with a new SubstratePriorityInliningPhase inliner for JIT and Native Image plus security hardening, a WildFly 41 maintenance release, and milestone builds of Jakarta Data 1.1.0 and Eclipse JNoSQL. On the JDK side, JEP 542 (PEM Encodings of Cryptographic Objects) is now Targeted for JDK 28 after three preview rounds in JDK 25 through 27. It's a quick way for Java developers to catch up on ecosystem releases."
     },
     {
       "id": "infoq-M4mgbKf4RDv5AKTwQvFH",
@@ -4829,7 +4837,9 @@
       "tags": [],
       "first_seen": "2026-10-04",
       "domain": "infoq.cn",
-      "quality_score": 45.4
+      "quality_score": 45.4,
+      "summary_zh": "QCon 上海 2026（10 月 22—24 日）上，卡奥斯 COSMOPlat 工业智能首席科学家余锦泽将分享把企业数仓沉淀为多智能体共享语义记忆的路径：写入侧大模型只提议、真实数据裁决、证据分级入库，冲突用时间轴校验与对抗评审消解，使用侧按对象锚定动态构建上下文。他实测只注入一半语义时正确率反而低于不注入，认为企业语义记忆是需要治理的资产。",
+      "summary_en": "At QCon Shanghai 2026 (October 22-24), Yu Jinze, chief scientist for industrial intelligence at COSMOPlat, presents a path to turn enterprise data warehouses into shared semantic memory for multi-agent systems: the LLM only proposes writes, real data adjudicates, evidence is graded on entry, conflicts are settled by timeline checks and adversarial review, and context is built per object at use time. He reports that injecting half the semantics scored worse than injecting none, arguing such memory must be treated as a governed asset."
     },
     {
       "id": "infoq-bLB8RQ6sd3ZGQts0D4tP",
@@ -4845,7 +4855,9 @@
       "tags": [],
       "first_seen": "2026-10-03",
       "domain": "infoq.cn",
-      "quality_score": 35.6
+      "quality_score": 35.6,
+      "summary_zh": "上汽集团云计算中心架构师方宇晨将在 QCon 上海“Agent as a Service”专题，讲企业级 Agent Infra 怎么落地：用 Kubernetes Agent Sandbox 做可信执行环境、OVN-Kubernetes 划分多租户网络、Istio Sidecar 配合租户级 Egress Gateway 构建 L7 访问平面，以 Keycloak 统一 Agent 身份与凭证代理。针对的是 Agent 运行模型生成的未知代码时的隔离、网络管控和凭证泄漏问题。",
+      "summary_en": "Fang Yuchen, an architect at SAIC's cloud computing center, will speak in the \"Agent as a Service\" track at QCon Shanghai on enterprise Agent Infra: Kubernetes Agent Sandbox as the trusted execution environment, OVN-Kubernetes for multi-tenant network isolation, Istio sidecars with per-tenant Egress Gateways for an L7 access plane, and Keycloak for unified agent identity and credential brokering. The talk targets the isolation, network control and credential-leak risks of agents running model-generated code."
     },
     {
       "id": "infoq-eRbEA3dMd58RNPqp5D8S",
