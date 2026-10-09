@@ -4755,7 +4755,9 @@
       "tags": [],
       "first_seen": "2026-10-05",
       "domain": "infoq.cn",
-      "quality_score": 36.7
+      "quality_score": 36.7,
+      "summary_zh": "InfoQ 精选：C2PA 不够可信？苹果把照片签名塞进传感器，却把信任交给了自家云",
+      "summary_en": "Featured on InfoQ: C2PA 不够可信？苹果把照片签名塞进传感器，却把信任交给了自家云"
     },
     {
       "id": "infoq-XWJ8G6GaFmNL74xpSgjU",
@@ -4771,7 +4773,9 @@
       "tags": [],
       "first_seen": "2026-10-05",
       "domain": "infoq.cn",
-      "quality_score": 38.6
+      "quality_score": 38.6,
+      "summary_zh": "Cloudflare 重新设计了 1.1.1.1 解析器 DNS 缓存的内存表示，每个缓存条目的基准占用减少 56%，整个集群释放约 100 TB 工作集内存。其 Big Pineapple 平台插入吞吐提升 43%，查询延迟下降 19%，p99 单实例常驻内存从 9.3 GB 降至 5.3 GB；改动经过五次 Rust 迭代，最终以 DNS 有线格式把记录写入连续字节缓冲区，避免枚举与逐记录分配。",
+      "summary_en": "Cloudflare redesigned the in-memory representation of the DNS cache behind its 1.1.1.1 resolver, cutting per-entry baseline footprint by 56% and freeing roughly 100 TB of working-set memory across the fleet. On its Big Pineapple platform, cache insert throughput rose 43% and query latency fell 19%, with p99 per-instance RSS dropping from 9.3 GB to 5.3 GB. Five Rust iterations replaced Vec/String with boxed slices, packed booleans into bitflags, and finally stored records in a contiguous wire-format byte buffer, avoiding enum and per-record allocation overhead."
     },
     {
       "id": "infoq-yVWAQGCZCzI838JESA1b",
@@ -4787,7 +4791,9 @@
       "tags": [],
       "first_seen": "2026-10-05",
       "domain": "infoq.cn",
-      "quality_score": 38.7
+      "quality_score": 38.7,
+      "summary_zh": "快手生产平台研发负责人韩江将在 10 月 22—24 日的 QCon 上海站，讲快手大数据智能体 DataAgent 的探索之路。DataAgent 覆盖找数取数、数据开发、归因报告与 AB 分析，主动会话周活跃用户近万，分享聚焦 Multi-Agent 协同与数据安全等落地难题。",
+      "summary_en": "Han Jiang, who leads R&D at Kuaishou's production platform center, will speak at QCon Shanghai on October 22–24 about DataAgent, Kuaishou's effort to apply AI to big-data production and analytics. DataAgent is an enterprise agent covering data discovery, data development, attribution reports and AB analysis, with nearly 10,000 weekly active users in proactive sessions; the talk also addresses Multi-Agent coordination, context management and data-security challenges."
     },
     {
       "id": "infoq-KXmob0H9RXKmJxIlcAaA",

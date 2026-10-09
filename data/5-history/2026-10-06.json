@@ -4656,7 +4656,9 @@
       "tags": [],
       "first_seen": "2026-10-06",
       "domain": "infoq.cn",
-      "quality_score": 35.1
+      "quality_score": 35.1,
+      "summary_zh": "在 KubeCon & CloudNativeCon Europe 的演讲中，Marcy Paramonova 和 Stéphane Cusin 讲了一家银行的平台文化转型：用开放支持会替代工单式支持，为参与平台改进的开发者设超级用户奖，靠共享的开放标准减少对平台团队的依赖。他们的判断是平台属于协作系统而非基础设施，文化由结构塑造，若每次变更都要人工介入就会养出依赖文化。",
+      "summary_en": "In a KubeCon & CloudNativeCon Europe talk, Marcy Paramonova and Stéphane Cusin describe a bank's platform culture shift: open support sessions where developers and platform engineers solve problems together instead of filing tickets, super user awards for developers who improve the platform, and shared open standards that cut dependency on the platform team. Their point is that a platform is a collaboration system rather than infrastructure, and that culture comes from structure—requiring manual intervention for every change breeds dependency."
     },
     {
       "id": "infoq-u70P77XPmsXmRBciu6fL",
@@ -4672,7 +4674,9 @@
       "tags": [],
       "first_seen": "2026-10-06",
       "domain": "infoq.cn",
-      "quality_score": 37.2
+      "quality_score": 37.2,
+      "summary_zh": "QCon 全球软件开发大会上海站将于 10 月 22 日至 24 日举办，携程大数据平台 SRE 总监周昕毅将在“理性驾驭 AI 的 SRE 可靠性工程”专题中分享《AI + SRE ≠ AISRE》。他结合携程大数据平台实践，讨论 AI 从理解告警、定位根因到调用工具执行，如何在稳定性、运维效率与成本治理场景真正进入生产闭环。",
+      "summary_en": "QCon Global Software Development Conference Shanghai runs October 22-24, where Zhou Xinyi, SRE director of Ctrip's big data platform, will present \"AI + SRE ≠ AISRE\" in the track on rationally governing AI in SRE reliability engineering. Drawing on Ctrip's big data platform, he covers how AI moves from reading alerts, logs and metrics and locating root causes to calling tools and executing actions, across stability, operations efficiency and cost governance."
     },
     {
       "id": "infoq-6jvNkzZCm5mjr22zr04D",
@@ -4688,7 +4692,9 @@
       "tags": [],
       "first_seen": "2026-10-06",
       "domain": "infoq.cn",
-      "quality_score": 36.7
+      "quality_score": 36.7,
+      "summary_zh": "Canvas UI 是 React Bits 作者 David Haz 推出的开源组件库，也是首个基于实验性 HTML-in-Canvas API 构建的组件库，含 35 个组件，用实时 DOM 布局配合 GLSL/WebGPU 着色器实现流体、火焰、玻璃透镜、VHS 颗粒等特效，文本仍可选、链接仍可点。它以兼容 shadcn 的注册表按源码分发，完整体验需在 Chrome 中启用 canvas-draw-element 标志或使用 Chrome 148–150 的源试用令牌，适合关注 WebGPU 与前端渲染前沿的开发者。",
+      "summary_en": "Canvas UI is an open-source component library from React Bits author David Haz and the first built on the experimental HTML-in-Canvas API. Its 35 components — pointer-driven fluids, flames, glass lenses, ASCII filters, VHS grain — ship in both GLSL/WebGL and WGSL/WebGPU versions with wrappers for React, Vue, Svelte, Solid and Preact. Effects lay out live DOM in canvas via drawElementImage, so text stays selectable and links clickable. The full experience needs Chrome's canvas-draw-element flag or an origin trial token (Chrome 148–150); components are distributed as source through a shadcn-compatible registry."
     },
     {
       "id": "infoq-8lQVsmY9e7zdJsKcfPzE",
@@ -4704,7 +4710,9 @@
       "tags": [],
       "first_seen": "2026-10-05",
       "domain": "infoq.cn",
-      "quality_score": 40.2
+      "quality_score": 40.2,
+      "summary_zh": "InfoQ 精选：C2PA 不够可信？苹果把照片签名塞进传感器，却把信任交给了自家云",
+      "summary_en": "Featured on InfoQ: C2PA 不够可信？苹果把照片签名塞进传感器，却把信任交给了自家云"
     },
     {
       "id": "infoq-XWJ8G6GaFmNL74xpSgjU",
@@ -4720,7 +4728,9 @@
       "tags": [],
       "first_seen": "2026-10-05",
       "domain": "infoq.cn",
-      "quality_score": 41.8
+      "quality_score": 41.8,
+      "summary_zh": "Cloudflare 重新设计了 1.1.1.1 解析器 DNS 缓存的内存表示，每个缓存条目的基准占用减少 56%，整个集群释放约 100 TB 工作集内存。其 Big Pineapple 平台插入吞吐提升 43%，查询延迟下降 19%，p99 单实例常驻内存从 9.3 GB 降至 5.3 GB；改动经过五次 Rust 迭代，最终以 DNS 有线格式把记录写入连续字节缓冲区，避免枚举与逐记录分配。",
+      "summary_en": "Cloudflare redesigned the in-memory representation of the DNS cache behind its 1.1.1.1 resolver, cutting per-entry baseline footprint by 56% and freeing roughly 100 TB of working-set memory across the fleet. On its Big Pineapple platform, cache insert throughput rose 43% and query latency fell 19%, with p99 per-instance RSS dropping from 9.3 GB to 5.3 GB. Five Rust iterations replaced Vec/String with boxed slices, packed booleans into bitflags, and finally stored records in a contiguous wire-format byte buffer, avoiding enum and per-record allocation overhead."
     },
     {
       "id": "infoq-yVWAQGCZCzI838JESA1b",
@@ -4736,7 +4746,9 @@
       "tags": [],
       "first_seen": "2026-10-05",
       "domain": "infoq.cn",
-      "quality_score": 42.0
+      "quality_score": 42.0,
+      "summary_zh": "快手生产平台研发负责人韩江将在 10 月 22—24 日的 QCon 上海站，讲快手大数据智能体 DataAgent 的探索之路。DataAgent 覆盖找数取数、数据开发、归因报告与 AB 分析，主动会话周活跃用户近万，分享聚焦 Multi-Agent 协同与数据安全等落地难题。",
+      "summary_en": "Han Jiang, who leads R&D at Kuaishou's production platform center, will speak at QCon Shanghai on October 22–24 about DataAgent, Kuaishou's effort to apply AI to big-data production and analytics. DataAgent is an enterprise agent covering data discovery, data development, attribution reports and AB analysis, with nearly 10,000 weekly active users in proactive sessions; the talk also addresses Multi-Agent coordination, context management and data-security challenges."
     },
     {
       "id": "infoq-KXmob0H9RXKmJxIlcAaA",
