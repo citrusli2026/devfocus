@@ -4320,7 +4320,9 @@
       "content": "",
       "first_seen": "2026-09-28",
       "domain": "juejin.cn",
-      "quality_score": 7.6
+      "quality_score": 7.6,
+      "summary_zh": "这篇文章讲的是如何在 Codex 里装上 Jev 作为判断模型，作者实测称 Agent 决策比直接调用 LLM 快 40 到 200 倍、便宜 40 到 400 倍，且输出 Token 免费。适合正在用 Codex 搭 Agent、又对推理延迟和 token 开销敏感的开发者。",
+      "summary_en": "This post explains how to install Jev as a judgment model inside Codex, with the author's tests claiming Agent decisions run 40–200x faster than calling an LLM directly, cost 40–400x less, and incur no charge for output tokens. It's aimed at developers building Codex-based agents who care about inference latency and token spend."
     },
     {
       "id": "zhihu-2087643546463613137",

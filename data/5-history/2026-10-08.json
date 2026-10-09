@@ -266,7 +266,9 @@
       "tags": [],
       "first_seen": "2026-10-08",
       "domain": "cactuscompute.com",
-      "quality_score": 38.6
+      "quality_score": 38.6,
+      "summary_zh": "Whistle 是一个开源语音识别模型，体积仅 16.9 MB，跑在与 Needle 相同的 CPU 推理引擎上，支持七种语言，首个 token 延迟 11 毫秒。由于可以和 Needle 一起加载，同一个二进制文件能把音频片段直接转成 tool calls，适合在本地或边缘设备上做轻量语音交互的开发者。",
+      "summary_en": "Whistle is an open speech recognition model that ships in just 16.9 MB and runs on the same CPU engine as Needle. It transcribes seven languages and returns its first token in 11 ms, and since it can load alongside Needle, one binary can turn a clip straight into tool calls — useful for lightweight voice interfaces on local or edge hardware."
     },
     {
       "id": "hn-49993857",
@@ -378,7 +380,9 @@
       "tags": [],
       "first_seen": "2026-10-08",
       "domain": "dgt.is",
-      "quality_score": 39.3
+      "quality_score": 39.3,
+      "summary_zh": "这是 Hacker News 上的一个讨论帖，标题质问业界为何没有对 DeepSeek 4.1 Flash 表现出强烈反应。原帖只给了链接，未提供更多细节，帖中论点和该模型的具体能力、参数都无从确认。",
+      "summary_en": "A Hacker News post whose title asks why the industry isn't reacting more strongly to DeepSeek 4.1 Flash. The linked page isn't summarized here; details beyond the title, including anything about the model itself, aren't available."
     },
     {
       "id": "hn-50008187",
@@ -442,7 +446,9 @@
       "tags": [],
       "first_seen": "2026-10-07",
       "domain": "dexerto.com",
-      "quality_score": 37.8
+      "quality_score": 37.8,
+      "summary_zh": "一条 X 帖子称，有人发现自己父母的咖啡机在 10 天内消耗了 1TB 流量。原文只是链接，未提供更多细节，机型、原因和后续都无从确认；它引发讨论，是因为回应了人们对联网家电到底会产生多少流量的疑问。",
+      "summary_en": "A post on X claims someone found their parents' coffee machine had used 1TB of data in ten days. The linked page isn't summarized here; details beyond the title — the model, the cause, any follow-up — aren't available. It resonates because it speaks to a common question about how much traffic always-connected appliances generate."
     },
     {
       "id": "hn-49994145",
@@ -474,7 +480,9 @@
       "tags": [],
       "first_seen": "2026-10-07",
       "domain": "antonfrolov.substack.com",
-      "quality_score": 35.5
+      "quality_score": 35.5,
+      "summary_zh": "有人请插画师把自己家的房子画成插画，再把这张画做成了 Home Assistant 的仪表盘。原文只有标题，链接页面未做摘要，具体用了哪些自定义卡片或主题无法确认；对想把智能家居面板做得更像自家空间而非标准网格的 Home Assistant 用户来说，是个值得借鉴的思路。",
+      "summary_en": "A user hired an illustrator to draw their house, then turned the artwork into a Home Assistant dashboard. The linked page isn't summarized here, so the implementation — custom cards, images or themes — can't be confirmed. Home Assistant users who want a control panel that feels more personal than the default grid may find the approach worth copying."
     },
     {
       "id": "hn-49992257",
@@ -4057,7 +4065,9 @@
       "content": "",
       "first_seen": "2026-10-07",
       "domain": "juejin.cn",
-      "quality_score": 33.8
+      "quality_score": 33.8,
+      "summary_zh": "有开发者翻 GitHub Releases 页面发现 Spring AI Alibaba 的正式版停在 v1.1.2.2，于是技术群里就“项目是否已停更”吵了起来，文章由此讨论 Java 在 AI 应用方向还有没有机会。内容适合正在做 Java AI 技术栈选型、关心该项目维护状态的人。",
+      "summary_en": "Developers noticed that Spring AI Alibaba's GitHub Releases page stops at v1.1.2.2, which set off a heated debate in tech groups over whether the project has halted updates and whether Java still has a future in AI applications. The article starts from that observation and digs into the project's release cadence and Java's AI options, for teams weighing a Java-based AI stack."
     },
     {
       "id": "juejin-7684460980934049807",
@@ -4744,7 +4754,9 @@
       "tags": [],
       "first_seen": "2026-10-08",
       "domain": "infoq.cn",
-      "quality_score": 35.2
+      "quality_score": 35.2,
+      "summary_zh": "谷歌安全团队用 Gemini 把一个约 3000 行的 C 图像库 giflib 自动翻译成 ABI 兼容、可直接替换的 Rust 实现，该库长期在没有沙箱隔离的情况下解码不可信输入，迁移过程中还修复了尚未打补丁的堆写入零日漏洞 CVE-2026-26740。整个流程围绕自主反馈循环：一次性提示词完成移植，差分模糊测试把失败轨迹回灌给模型迭代出补丁，并在超过 3000 万个真实 GIF 上做逐比特回归验证，六天 2 亿次迭代未发现功能漂移。",
+      "summary_en": "Google's security team used Gemini to translate giflib, a roughly 3,000-line C image library that decodes untrusted input without sandboxing, into an ABI-compatible drop-in Rust implementation, fixing an unpatched heap-write zero-day, CVE-2026-26740, along the way. The pipeline is an autonomous feedback loop: a one-shot prompt for the port, differential fuzzing that feeds failing traces back to the model, and bit-for-bit regression testing on over 30 million real GIFs plus 200 million fuzzing iterations over six days with no functional drift."
     },
     {
       "id": "infoq-hGCTSjQKOsqqz0lVUgfx",
@@ -4760,7 +4772,9 @@
       "tags": [],
       "first_seen": "2026-10-08",
       "domain": "infoq.cn",
-      "quality_score": 34.8
+      "quality_score": 34.8,
+      "summary_zh": "Cloudflare 把官方博客从 WordPress 迁到了自研开源 CMS EmDash：后者用 TypeScript 编写、运行在 Workers 上，配有 Workers Cache 和基于 Workers KV 的对象缓存，并经 Hyperdrive 连接 PlanetScale。迁移用代理 Worker 按 Cookie 灰度路由，从 1% 放量到 100% 一天内完成，出现 500 错误可自动回退旧站，官方称 p95 延迟曲线比旧架构平稳得多，测试可承受 7000 RPS。",
+      "summary_en": "Cloudflare has moved its main blog off WordPress onto EmDash, its in-house open-source CMS written in TypeScript that runs on Workers with Workers Cache plus a Workers KV-backed object cache, connecting to PlanetScale through Hyperdrive. A proxy Worker routed requests by version cookie, scaling from 1% to 100% of traffic in a day and falling back to the old site on 500 errors. Cloudflare reports far steadier p95 latency than the old stack and capacity tested at 7,000 RPS."
     },
     {
       "id": "infoq-3MSU3CcJuh0XjHDyjhXj",
@@ -4776,7 +4790,9 @@
       "tags": [],
       "first_seen": "2026-10-08",
       "domain": "infoq.cn",
-      "quality_score": 36.2
+      "quality_score": 36.2,
+      "summary_zh": "OpenAI 在 DevDay 2026 上把多 Agent 推上产品主线，推出可全天候工作的 Dots（个人 Dot 可调用 Codex，企业侧有 Specialist Dots），并通过 Agents API 向开发者开放多智能体控制与计算机操作能力。同一时间，o1 早期奠基者之一 Noam Brown 在播客访谈中泼冷水：用 1 万个 Agent 解出千禧年难题，他不会把其中 10% 的功劳归给多智能体，真正起作用的是足够强的通用模型和并行测试时计算。适合关注 Agent 工程化与能力边界的人。",
+      "summary_en": "At DevDay 2026 OpenAI moved multi-agent from research into its product line, launching always-on Dots — a personal Dot can call Codex, enterprise Specialist Dots take specific roles — and an Agents API that exposes harness, multi-agent control and computer use to developers. Meanwhile OpenAI researcher Noam Brown, an early architect of o1, argued multi-agent gets outsized credit: he would attribute less than 10% of a 10,000-agent Millennium Prize solution to multi-agent coordination, crediting a strong general model and parallel test-time compute instead."
     },
     {
       "id": "infoq-dS754RhjExrwFP6tWD9d",
@@ -4792,7 +4808,9 @@
       "tags": [],
       "first_seen": "2026-10-08",
       "domain": "infoq.cn",
-      "quality_score": 36.0
+      "quality_score": 36.0,
+      "summary_zh": "InfoQ 整理了 Anthropic 技术负责人 Nicholas Marwell 与 Sholto Douglas 的播客访谈，涉及 AI 编程的下一阶段、反对模型蒸馏，以及中美 AI 竞赛不会单边暂停等判断。文中援引其 IPO 文件：2025 年营收近 46 亿美元、经营亏损超 80 亿美元，已签下至少 5180 亿美元长期算力承诺，估值最高可能超过 2 万亿美元。对前沿模型如何赚钱、算力为何砸得这么狠感兴趣的开发者可以直接看访谈原文。",
+      "summary_en": "InfoQ summarizes a podcast conversation with Anthropic technical leads Nicholas Marwell and Sholto Douglas on the next phase of AI coding, their opposition to model distillation, and why the US-China AI race won't pause unilaterally. It cites Anthropic's IPO filing: 2025 revenue near $4.6B, operating losses above $8B, at least $518B in long-term compute commitments, and a possible valuation above $2T. Developers tracking how frontier labs fund compute should read the underlying interview."
     },
     {
       "id": "infoq-BchL2TVhSF2dwyrCogVO",
@@ -4808,7 +4826,9 @@
       "tags": [],
       "first_seen": "2026-10-08",
       "domain": "infoq.cn",
-      "quality_score": 35.3
+      "quality_score": 35.3,
+      "summary_zh": "Vercel Labs 发布 Apache 2.0 许可的实验性编译器 scriptc，能把普通 TypeScript 编译成不含 Node、V8 或任何 JavaScript 引擎的原生可执行文件，仓库已获得约 4900 Star。它的 CLI 启动中位数为 1.78 毫秒，可执行文件启动比 Node 24 快 12 倍、内存低 72 倍，但社区实测运行速度约慢 7.5 倍，Hono 启用 --dynamic 后 62% 代码落入内嵌 QuickJS，吞吐量只有每秒 1.84 万请求。",
+      "summary_en": "Vercel Labs released scriptc, an Apache-2.0 experimental compiler that turns ordinary TypeScript into small native executables containing no Node, V8 or any JavaScript engine; the repo already has roughly 4,900 stars. Its CLI starts in a median 1.78ms and the binaries boot about 12x faster than Node 24 with 72x less memory, but a community benchmark found runtime around 7.5x slower, with Hono requiring --dynamic and pushing 62% of code into embedded QuickJS at 18.4k requests per second."
     },
     {
       "id": "infoq-s2Rt9t0yqUFk6VYV33Mh",
@@ -4824,7 +4844,9 @@
       "tags": [],
       "first_seen": "2026-10-08",
       "domain": "infoq.cn",
-      "quality_score": 36.3
+      "quality_score": 36.3,
+      "summary_zh": "安全研究员 Patrick Wardle 披露 Meta 新发布的 macOS 桌面助手 Muse 存在尚未修复的零日漏洞：以非特权用户运行的本地进程或脚本可改写未公开的配置键 endo_voyager_dictation_endpoint，把听写音频和账户认证令牌重定向到攻击者服务器，并借用户此前授予 Muse 的广泛权限绕过 macOS 的 TCC 边界。由于 Meta 未发安全公告、也未与 CVE 编号机构协调，漏洞暂无编号；Wardle 放出了 not-a-mused 概念验证程序，Meta 随后为 macOS 版部署了热修复。",
+      "summary_en": "Security researcher Patrick Wardle disclosed an unpatched zero-day in Meta's new Muse macOS client: a non-privileged local process or script can overwrite an undocumented preference key, endo_voyager_dictation_endpoint, redirecting dictation audio and the account's auth token to an attacker-controlled server and borrowing the broad permissions users granted the assistant to bypass macOS TCC boundaries. With no advisory and no CVE coordination, the flaw has no official identifier; Wardle published a not-a-mused proof of concept and Meta later shipped a hotfix."
     },
     {
       "id": "infoq-aJ7cgaNqf4pXVtbbtYiv",
@@ -4840,7 +4862,9 @@
       "tags": [],
       "first_seen": "2026-10-08",
       "domain": "infoq.cn",
-      "quality_score": 36.1
+      "quality_score": 36.1,
+      "summary_zh": "AICon 北京 2026 定于 12 月 18 日至 19 日在北京新云南皇冠假日酒店举行，议题征集已启动，设 12 个专题，覆盖 Post-Training Engineering、多模型推理与算力调度、Knowledge Engineering、Loop & Graph Engineering、智能体评测与生产可靠性等方向。主办方要找的不是能跑通演示的 Agent，而是解决上下文管理、评测、安全边界、成本控制和人机协作等真实生产工程问题的一线实践者。",
+      "summary_en": "AICon Beijing 2026 runs December 18–19 at the New Yunnan Crown Plaza Hotel in Beijing and has opened its call for speakers across 12 tracks spanning Post-Training Engineering, multi-model inference and scheduling, Knowledge Engineering, Loop & Graph Engineering, and agent evaluation and production reliability. Organizers want practitioners who have shipped AI into real systems, covering context management, evaluation, security boundaries, cost control and human-agent collaboration rather than demo-stage agents."
     },
     {
       "id": "infoq-0wk4G4cZwbHgYdeNoQPV",
