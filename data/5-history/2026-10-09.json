@@ -266,7 +266,9 @@
       "tags": [],
       "first_seen": "2026-10-09",
       "domain": "iminafleeting.com",
-      "quality_score": 43.7
+      "quality_score": 43.7,
+      "summary_zh": "这是 Hacker News 上分享的一个小工具，主打职场“时间自卫”：提供听起来可信的假会议音频，用户选一段会议、点播放，就能装作正在开会、看起来很忙。它的用途是挡掉那些临时占用你时间的人，适合经常被打断的远程或办公室工作者。",
+      "summary_en": "A Hacker News post about a small tool pitched as workplace self-defence against people who steal your time. It plays plausible fake meeting audio on demand: pick a meeting, press play, and look busy. It's aimed at remote or office workers who want a low-effort excuse to fend off constant interruptions."
     },
     {
       "id": "hn-49994443",
@@ -420,7 +422,9 @@
       "tags": [],
       "first_seen": "2026-10-09",
       "domain": "minesweeper.mikelacher.com",
-      "quality_score": 39.0
+      "quality_score": 39.0,
+      "summary_zh": "这是经典扫雷游戏的重制版 Triple-A Minesweeper，官方描述称要在其中“扫雷求生”。该条目只给出了标题和一句简介，链接页面未提供更多细节。",
+      "summary_en": "Triple-A Minesweeper is a reboot of the classic puzzle game, pitched with the tagline \"sweep to survive.\" The linked page isn't summarized here, so details beyond the title and that one-line description — platform, developer or release plans — aren't available. It's a link-only submission, so anyone curious will have to open it directly."
     },
     {
       "id": "hn-49993857",
@@ -4764,7 +4768,9 @@
       "tags": [],
       "first_seen": "2026-10-09",
       "domain": "infoq.cn",
-      "quality_score": 34.6
+      "quality_score": 34.6,
+      "summary_zh": "微软在 10 月 8 日的 Windows 发布会上宣布引入“混合智能”：通过模型路由与 Windows ML，GitHub Copilot 等产品可按任务复杂度在云端和本地模型间切换，HydraFusion 将首次直接调用运行在 Windows PC 上的本地模型。黄仁勋与 Satya Nadella 同台回顾从 Windows 95、DirectX 到 CUDA 的合作，并判断 Agent 正成为新的“电脑用户”。当天微软股价微涨约 0.1%。",
+      "summary_en": "At its October 8 Windows event, Microsoft introduced \"hybrid intelligence\": model routing and Windows ML let GitHub Copilot and other products switch between cloud and local models, and GitHub Copilot's HydraFusion will call local models running on Windows PCs directly. Jensen Huang and Satya Nadella traced the partnership from Windows 95, DirectX and CUDA to Azure's InfiniBand HPC, arguing agents are becoming a new kind of computer user. Microsoft shares rose roughly 0.1% that day."
     },
     {
       "id": "infoq-e0iQfJNgepz7VigRdD61",
@@ -4780,7 +4786,9 @@
       "tags": [],
       "first_seen": "2026-10-09",
       "domain": "infoq.cn",
-      "quality_score": 35.3
+      "quality_score": 35.3,
+      "summary_zh": "Jev 创始人、TypeSafe CEO Diogo Almeida 在 Latent Space 播客中称，Codex 和 Claude Code 仍停留在“AI 辅助人”的同一阶段。他提出的 RLCD（面向校准决策的强化学习）让模型输出代码可直接使用的选择、评分与概率，开发者按不确定性设阈值决定自动执行还是交给人，目标是把智能变成像数据库一样的普通能力。",
+      "summary_en": "Diogo Almeida, TypeSafe CEO and founder of Jev, told the Latent Space podcast that Codex and Claude Code belong to the same era in which AI merely assists humans. His answer is RLCD, reinforcement learning for calibrated decisions, which has models emit choices, scores and probabilities that code can consume directly, letting developers set thresholds on uncertainty for when to act and when to hand off."
     },
     {
       "id": "infoq-IRqoPz4cNONlNFBolD9V",
@@ -4796,7 +4804,9 @@
       "tags": [],
       "first_seen": "2026-10-09",
       "domain": "infoq.cn",
-      "quality_score": 35.1
+      "quality_score": 35.1,
+      "summary_zh": "InfoQ 编译了 Latent Space 播客对 OpenAI 计算机操作团队与 API 平台负责人的访谈：每个 Dot 智能体拥有独立云端 Linux 电脑，可操作浏览器和桌面应用；受 Jev 启发启动的 Decisions API 约一周做出可运行原型，沿用 Luna 权重、未重新训练模型。访谈还谈到智能体如何排错重试、以及人工应在哪些环节把关，适合做 Agent 产品的开发者。",
+      "summary_en": "InfoQ translated a Latent Space podcast interview with OpenAI's computer-use and API platform leads: each Dot agent gets its own cloud Linux machine and can drive browsers and desktop apps, while the Decisions API — started after seeing Jev — reached a working prototype in about a week by reusing Luna weights instead of retraining. The talk also covers how agents recover from errors and where humans should stay in the loop."
     },
     {
       "id": "infoq-490gIS9Bk0NmylN7GIt1",
@@ -4812,7 +4822,9 @@
       "tags": [],
       "first_seen": "2026-10-09",
       "domain": "infoq.cn",
-      "quality_score": 34.9
+      "quality_score": 34.9,
+      "summary_zh": "谷歌云在 10 月 8 日的 Gemini at Work 2026 活动上推出企业级通用 AI Agent——Gemini agent，由 CEO Thomas Kurian 介绍。它用一个提示框就能完成内容创作、问答和代码执行等任务，可创建子 Agent 协作；企业能为它分配专属邮箱、日历和持久化存储，让它以团队成员身份长期工作，底层还支持调用 Anthropic Claude。打通 Workspace 与 Slack、Jira 等第三方工具是它的主要卖点。",
+      "summary_en": "At its Gemini at Work 2026 event on October 8, Google Cloud launched Gemini agent, an enterprise general-purpose AI agent introduced by CEO Thomas Kurian. It handles content creation, Q&A and code execution from a single prompt, can spin up sub-agents, and can be given its own email, calendar and persistent storage so it works as a long-term team member; it can also call Anthropic's Claude. Integration spans Workspace plus third-party tools like Slack, Jira and Salesforce."
     },
     {
       "id": "infoq-tor9ik2Xesfgf1x3CadO",
