@@ -214,7 +214,9 @@
       "tags": [],
       "first_seen": "2026-10-08",
       "domain": "htmx.org",
-      "quality_score": 30.4
+      "quality_score": 30.4,
+      "summary_zh": "Carson Gross 在一篇题为「Yes, and」的文章里，讲了他给对计算机科学感兴趣、又因 AI 进展而对前途感到担忧的年轻人的建议。原文只提供了这层概要，具体论点需读全文，适合正在考虑是否进入或留在这一行的学生与初级开发者。",
+      "summary_en": "In an essay titled \"Yes, and,\" Carson Gross lays out the advice he gives young people interested in computer science who are worried about their future given the pace of AI progress. Only that framing is available here, so the specific arguments require reading the piece; it speaks to students and early-career developers deciding whether to stay in the field."
     },
     {
       "id": "hn-50006366",
@@ -4850,7 +4852,9 @@
       "tags": [],
       "first_seen": "2026-10-10",
       "domain": "infoq.cn",
-      "quality_score": 34.7
+      "quality_score": 34.7,
+      "summary_zh": "小米 MiMo 团队公开 MiMo-V2.6-Pro（总参数 1.02T、激活 42B）与 Flash（310B / 15B）两个 MoE 模型，并披露一套规模化 Agentic RL 流程：每个 step 采样 1568 个 prompt、各生成 16 条 rollout，合计约 2.5 万条轨迹、27 亿至 37 亿 token。Pro 单次 RL 后训练成本约 260 万美元，用于评判 Agent 行为的 Grader 已占 12.7%，适合关注 RL 成本与奖励设计的人。",
+      "summary_en": "Xiaomi's MiMo team published a technical report on MiMo-V2.6, releasing two sparse MoE models: Pro (1.02T total, 42B active) and Flash (310B, 15B active). Its scaled agentic RL pipeline samples 1,568 prompts per step with 16 rollouts each, roughly 25,000 trajectories and 2.7–3.7 billion tokens, using GRPO with asynchronous partial rollouts. RL post-training costs about $2.6M for Pro and $0.9M for Flash, with Grader compute at 12.7% and 14.2%."
     },
     {
       "id": "infoq-rKRPT18fGxtjipPAeaLa",
@@ -4866,7 +4870,9 @@
       "tags": [],
       "first_seen": "2026-10-10",
       "domain": "infoq.cn",
-      "quality_score": 34.7
+      "quality_score": 34.7,
+      "summary_zh": "InfoQ 这篇文章讨论为什么模型开放之后 AI 能力仍难复用：模型可下载不等于系统可复现，代码公开不等于能力可直接调用，AI 项目还依赖模型权重、数据、提示词、工具接口和运行环境，底层模型或工具一变就可能让原有工作流失效。文章以 2026 年世界人工智能开源大赛（GOAI）为例——覆盖 91 个国家和地区、超 1.4 万名开发者、2999 份初赛作品、70 个项目进入总决赛——指出文档完整性、环境可复现性和接口稳定性正成为 Star 数与 Benchmark 之外的评价指标。",
+      "summary_en": "An InfoQ article argues that open-sourcing AI models doesn't make their capabilities reusable: a downloadable model isn't a reproducible system, and AI projects depend on weights, data, prompts, tool interfaces and runtime environments, so swapping the base model or a tool can break existing workflows. It points to the 2026 Global Open-source AI competition (GOAI), which drew 91 countries and regions, over 14,000 developers and 2,999 valid entries narrowed to 70 finalists, and notes that docs, environment reproducibility and interface stability are becoming metrics beyond GitHub stars and benchmarks."
     },
     {
       "id": "infoq-8s5fm3AAfw7ya1qdWl5Q",
@@ -4986,7 +4992,9 @@
       "tags": [],
       "first_seen": "2026-10-10",
       "domain": "infoq.cn",
-      "quality_score": 34.8
+      "quality_score": 34.8,
+      "summary_zh": "InfoQ 精选：10 秒视频很惊艳，为什么 AI 做一部短剧还是这么难？",
+      "summary_en": "Featured on InfoQ: 10 秒视频很惊艳，为什么 AI 做一部短剧还是这么难？"
     },
     {
       "id": "infoq-kVJUKEcbqhpL2qwpp2Eq",

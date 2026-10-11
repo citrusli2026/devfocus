@@ -985,9 +985,9 @@
     "input_hash": "ef4de0757ed8"
   },
   "juejin-7637856870833635343": {
-    "summary_zh": "这是一篇掘金上的使用体验分享，作者把日常开发从 Cursor 切到 Codex，用了大半个月后记录下真实感受。在他看来 Cursor 更像一个 AI 编程助手，而 Codex 更接近能自己完成任务的 agent 形态。适合正在 Cursor 和 Codex 之间做选择的开发者参考。",
-    "summary_en": "A Juejin post in which a developer describes spending roughly half a month in Codex after switching from Cursor. His takeaway is that Cursor still reads as an AI coding assistant, while Codex feels closer to a general-purpose agent that carries out tasks on its own. Useful for developers deciding which tool to adopt for daily work.",
-    "input_hash": "72d412342830"
+    "summary_zh": "作者回顾了 2025 年 4 月至 2026 年 4 月使用 Cursor 的体验，认可其 Tab 补全、Cmd+K、Agent、Plan Mode，并曾全程零代码做出一个小程序。因 Cursor 转向按量计费、成本不可控，公司决定中国区改用 OpenAI Codex，他感觉 Codex 更像超级 Agent 而非 IDE。适合关注 AI 编程工具选型与成本的人。",
+    "summary_en": "A developer recounts a year on Cursor, praising its Tab completion, Cmd+K, Agent and Plan Mode, and notes he once shipped a mini-program without writing code. In April 2026 Cursor moved from fixed licenses to usage-based billing, so his company switched its China region to OpenAI Codex. He finds Codex closer to a general-purpose super Agent than to an IDE.",
+    "input_hash": "cf3d5401aeb1"
   },
   "juejin-7646004870782550050": {
     "summary_zh": "这是掘金上的一篇 2026 年 5 月 GitHub 热门项目月榜盘点，涵盖 skills、Pixelle-Video 等项目。作者观察到当月社区热度集中在把 Agent 做进工程化工作流：省 Token、记住上下文、编排多 Agent、批量产出内容。适合想快速了解近期开源风向的人。",
@@ -2137,9 +2137,9 @@
     "summary_en": "This article exposes how Mark Zuckerberg's Meta has systematically suppressed internal whistleblowers, from silencing employees who criticize company policies to using legal threats against former staff. It reveals a pattern of prioritizing reputation over transparency and employee rights. For anyone concerned about tech giant power abuse and data privacy, this is a cautionary tale. The piece argues that behind Meta's polished products lies a culture of intimidation against dissent. It serves as a reminder that corporate governance failures can have real consequences for society."
   },
   "juejin-7655245911811784750": {
-    "summary_zh": "掘金一篇面试向文章指出，2026 年的技术面试已经和两年前不同：那时问的是「手写一个 Promise」「React Fiber 原理」，现在面试官默认你会用 AI，真正想知道的是——AI 都能写 80% 代码了，公司为什么还需要你。适合正在准备面试、想调整答题思路的开发者。",
-    "summary_en": "A Juejin article argues the 2026 technical interview has changed: where two years ago candidates were asked to hand-write a Promise or explain React Fiber, interviewers now assume you work with AI and ask something else — if AI can write 80% of the code, why does the company still need you? Useful for developers preparing interviews and rethinking how they answer.",
-    "input_hash": "48f2b65f6681"
+    "summary_zh": "文章梳理了 2026 年技术面试的高频问题——“AI 能写 80% 的代码，公司为什么还需要你”，并指出“AI 代码质量不行”“AI 不懂业务”“总得有人做 Code Review”这三类回答已经失效。作者主张分两层作答：AI 写代码、人做决策，AI 能写一个文件、人能设计一个系统。",
+    "summary_en": "This post examines a now-common 2026 interview question: if AI writes 80% of the code, why is the company still hiring you? It argues the stock answers — AI's code quality is poor, AI doesn't understand requirements, someone has to do code review — no longer land, and suggests answering on two levels: AI writes code while humans make decisions, and AI writes a file while humans design a system.",
+    "input_hash": "92cc7415e02b"
   },
   "juejin-7656414036670840832": {
     "summary_zh": "这篇文章详细记录了CPU使用率不均匀的排查过程，从现象分析到根因定位再到解决方案。作者发现根因是服务实例数超过Kafka分片数导致负载不均，快速解决办法是扩大Kafka分片。文章还总结了通用排查思路和典型原因，对架构师和运维人员有很强的实用价值。",
@@ -2567,8 +2567,9 @@
     "summary_en": "Langflow is a visual tool that enables developers to build and deploy AI-powered agents and workflows without writing excessive code. By offering a drag-and-drop interface to connect models, data sources, and custom functions, it significantly lowers the barrier to creating AI applications. This is especially valuable for product managers and beginners who want to quickly prototype and iterate on AI-driven ideas, as it abstracts away complex infrastructure."
   },
   "gh-daily-pytorch-pytorch": {
-    "summary_zh": "PyTorch 是一个开源深度学习框架，以动态计算图和强大的 GPU 加速著称。它让研究人员和工程师能用简洁的 Python 代码定义和训练神经网络，从学术实验到工业部署都广受欢迎。其灵活性和易调试性使其成为 AI 领域的主流选择。",
-    "summary_en": "PyTorch is an open-source deep learning framework renowned for its dynamic computation graphs and strong GPU acceleration. It allows researchers and engineers to define and train neural networks using clean, Pythonic code, from academic experiments to industrial-scale deployments. Its flexibility and ease of debugging have made it the go-to choice for the AI community, powering countless innovations in computer vision, NLP, and beyond."
+    "summary_zh": "PyTorch 是一个 Python 包，同时提供类似 NumPy 但带强 GPU 加速的张量计算，以及基于 tape 式自动求导的深度神经网络，并能直接复用 NumPy、SciPy、Cython 等生态。它的 CI 健康状态发布在 hud.pytorch.org，是深度学习研究和训练代码最常依赖的框架之一。",
+    "summary_en": "PyTorch is a Python package offering NumPy-like tensor computation with strong GPU acceleration plus deep neural networks built on a tape-based autograd system, and it interoperates with NumPy, SciPy and Cython. Its trunk CI health is published at hud.pytorch.org. It remains the framework most deep learning research and training code is built on.",
+    "input_hash": "424fbf858c6c"
   },
   "gh-daily-ryanmcdermott-clean-code-javascript": {
     "summary_zh": "《Clean Code JavaScript》将 Robert C. Martin 的经典编码原则移植到 JavaScript 生态，涵盖了变量命名、函数设计、错误处理等实用指南。无论新手还是老手，都能从中获得提升代码可读性和可维护性的具体建议，是打造高质量 JS 项目的必读参考。",
@@ -4134,9 +4135,9 @@
     "summary_en": "The git history command is a community-built tool that transforms repository browsing into an interactive terminal experience. Instead of scrolling through endless git log output, you get a fuzzy-searchable interface with branch filtering and inline diff previews. It solves the problem of navigating complex commit histories in large projects, making it invaluable for developers who want to quickly trace changes or review code evolution without leaving the terminal. Think of it as a better gitk for the command line."
   },
   "juejin-7659709059810705462": {
-    "summary_zh": "掘金文章从 Meta 讲的“算力过剩”故事和随之而来的 AI 股市暴跌切入，追问 AI 应用为什么迟迟不爆发、AI 版的抖音微信小红书何时出现，以及这轮热潮会不会重蹈 2000 年互联网泡沫。面向关心 AI 落地节奏和行业周期的开发者与从业者。",
-    "summary_en": "A Juejin article starts from Meta's \"compute glut\" story and the resulting plunge in AI stocks to ask why AI applications still haven't taken off, when an AI-native Douyin, WeChat or Xiaohongshu will appear, and whether this cycle repeats the 2000 dot-com bust. It's written for developers and practitioners watching AI adoption timelines and industry cycles.",
-    "input_hash": "cf73555b75f4"
+    "summary_zh": "掘金精选：三年了，为什么 AI 应用还没爆发？",
+    "summary_en": "Featured on Juejin: 三年了，为什么 AI 应用还没爆发？",
+    "input_hash": "180243b43839"
   },
   "zhihu-2058449781597459395": {
     "summary_zh": "长鑫科技以 8.66 元/股启动申购，估值超 4 万亿（实际约 4300 亿？），成为国产 DRAM 龙头资本化里程碑。对自身而言，募资将加速先进制程研发和产能扩张，巩固与三星、SK 海力士的竞争；对半导体产业则意味着国产存储芯片从追赶进入量产验证期，有望降低对进口的依赖并带动设备材料国产化生态。",
@@ -4367,9 +4368,9 @@
     "summary_en": "Grok Build, a build tool developed by xAI, has been open-sourced, making it freely available for use and modification. Previously used internally, it now promises to help developers streamline build processes with greater customization. The move towards transparency and community collaboration could benefit DevOps teams and infrastructure engineers looking for flexible, efficient alternatives in the build tool landscape."
   },
   "juejin-7660712622825144374": {
-    "summary_zh": "这里的 Skills 不是指程序员的技术能力，而是 AI 编程助手的技能包，本质是把「随缘写代码」变成「按流程交付」的标准化工作流模块，文章盘点了当下编程圈最火的 10 个。适合已经在用 AI 编程助手、想给交付流程加上可复用约束的开发者。",
-    "summary_en": "The piece rounds up ten \"Skills\" currently hot in programming circles — not human skills, but skill packs for AI coding assistants. Each is a standardized workflow module meant to move an assistant from ad-hoc code generation toward process-driven delivery. Useful for developers already using AI coding assistants who want reusable structure around their workflow.",
-    "input_hash": "39a792f5cff6"
+    "summary_zh": "这篇掘金文章盘点了 2026 年最火的 10 个 AI 编程助手 Skills。它们是 Anthropic 在 2025 年 10 月推出的 Agent Skills 标准的产物——一个含 SKILL.md 的文件夹放进 ~/.claude/skills/ 后即由 AI 按需加载。作者称 100 个社区 Skill 测试中 70% 不合格，排第一的 Superpowers 拥有 20+ 子模块。",
+    "summary_en": "A Juejin roundup of the ten most popular AI coding-assistant Skills of 2026, built on Anthropic's Agent Skills standard from October 2025, where a Skill is a folder containing a SKILL.md file that Claude loads on demand from ~/.claude/skills/. The author notes 1,400+ Claude Code Skills exist on GitHub but 70% of 100 community Skills tested failed, and the top pick, Superpowers, bundles 20+ workflow submodules.",
+    "input_hash": "b7c678e66f4e"
   },
   "juejin-7662691781214470180": {
     "summary_zh": "一位掘金作者停更一年后回归，分享了这段时间的密集经历：全力投入 AI 领域、陪伴妻子生娃、还抽空考了个研。文章以第一人称讲述了如何平衡工作、家庭与个人提升，展现了技术人在生活重大节点上的真实抉择。对面临类似境遇的读者来说，这是一个关于如何在巨大压力下仍坚持成长的真实故事。",
@@ -4867,9 +4868,9 @@
     "summary_en": "Rumors have been circulating online that DeepSeek is conducting grayscale testing of its official fourth-generation large model, called v4. Though the company has not officially confirmed it, some users report experiencing improved reasoning capabilities and lower latency. The buzz quickly spread across the AI community, as DeepSeek is known for its cost-effective and open-source models. If the v4 upgrade is real, it could lower the barrier to entry for powerful AI, benefiting developers, SMEs, and research institutions. This would also reshape the competitive landscape of both domestic and international LLMs, bringing a stronger open-source alternative to the market."
   },
   "gh-daily-chrislgarry-Apollo-11": {
-    "summary_zh": "阿波罗11号导航计算机的原始源码被上传到GitHub，引发了技术怀旧热潮。这份代码记录了人类首次登月所用制导系统的核心逻辑，包括指令舱和登月模块的双重任务分配。对于科技史爱好者和程序员来说，这是一个独特的窗口，能够窥见当年用精简指令和磁芯内存完成航天计算的智慧。它不仅是历史文档，更是早期嵌入式系统风格的典型示范。",
-    "summary_en": "The original Apollo Guidance Computer source code was uploaded to GitHub, sparking a wave of tech nostalgia. This code represents the core logic behind the first moon landing navigation system, including both the command and lunar modules. For history enthusiasts and programmers, it offers a unique glimpse into how early engineers achieved spaceflight computing with minimal instructions and core memory. It's not just a historical artifact but a showcase of classic embedded system design.",
-    "input_hash": "15e84610ac92"
+    "summary_zh": "chrislgarry/Apollo-11 收录了阿波罗 11 号指令舱与登月舱制导计算机（AGC）的原始源代码，README 还被翻译成简体中文、日语、俄语等几十种语言。想读真实航天汇编代码、了解 1960 年代软件工程做法的人可以直接翻看。",
+    "summary_en": "chrislgarry/Apollo-11 collects the original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules, and its README has been translated into dozens of languages including Chinese, Japanese, Russian and Hindi. It is a rare chance to read real 1960s flight-software assembly code, useful for anyone curious about early software engineering and spaceflight history.",
+    "input_hash": "356badf2f2e6"
   },
   "gh-daily-DioxusLabs-dioxus": {
     "summary_zh": "Dioxus 是一个用 Rust 编写的全栈应用框架，旨在替代 React 在桌面、Web 和移动端的开发体验。它利用 Rust 的安全性和性能优势，同时支持类似 React 的声明式 UI 编写方式。最吸引人的是它允许同一套代码运行在多个平台，包括原生桌面和移动应用，这对追求跨平台一致性和高性能的 Rust 开发者来说是一个极具潜力的工具。",
@@ -5848,9 +5849,9 @@
     "summary_en": "A new HIV vaccine has achieved unprecedented success in preclinical studies, sparking significant excitement in the medical community. Through an innovative immune mechanism design, the vaccine demonstrates remarkable antiviral efficacy, offering renewed hope for ultimately conquering AIDS. The research team is now actively advancing toward the next phase of clinical trials."
   },
   "juejin-7665897866712858674": {
-    "summary_zh": "随着 Codex 结合 GPT-5.6 等大模型能力的增强，越来越多的开发者发现传统的编程技能（Skills）正在变得多余。这篇文章探讨了为什么以往依赖的诸多开发技巧和工具逐渐被淘汰，因为大模型可以直接理解自然语言并生成完整的代码，甚至能完成复杂任务。作者认为，未来开发者应该更多关注如何与 AI 协作，而不是死记硬背技术细节。这种趋势对新手非常友好，但也意味着一些传统技能需要被重新定义。",
-    "summary_en": "As large language models like Codex integrated with GPT-5.6 become more capable, many developers are noticing that traditional coding skills are becoming less necessary. This article explores why numerous development techniques and tools are gradually being phased out, as AI can now understand natural language and generate complete code, even for complex tasks. The author argues that developers should focus on how to collaborate with AI rather than memorizing technical details. This trend is highly beneficial for newcomers but also signals that some established skills need to be redefined.",
-    "input_hash": "5697453ae3d4"
+    "summary_zh": "作者认为 GPT-5.6、K3、Claude Fable5 等模型变强后，许多只重复常规步骤的开发类 Skill 已无必要，Codex 现在能自己读项目、顺调用链定位问题并补测试。他还提到 Codex 的渐进式披露最多占用上下文窗口的 2%（上限 8000 字符），Skill 装多了会互相抢活，自己长期保留的不超过 20 个。",
+    "summary_en": "With models like GPT-5.6, K3 and Claude Fable5 now able to read a project, trace call chains and add tests on their own, the author argues most development Skills that merely restate routine steps can be dropped, using Codex as his example. He also notes Codex's progressive disclosure caps Skill metadata at 2% of the context window or 8,000 characters, so too many Skills compete for attention; he keeps fewer than 20.",
+    "input_hash": "cba300cea016"
   },
   "zhihu-2065066004346926732": {
     "summary_zh": "时隔八年，QQ 宠物正式回归，保留了喂食、打工等经典玩法，但取消了死亡机制，并接入了大模型让宠物拥有更智能的对话能力。这个改动让怀旧玩家感到惊喜，同时吸引了新用户。亮点在于宠物不再是简单的养成游戏角色，而是能像 AI 伴侣一样互动。不过，能否真正打动用户，还取决于大模型的对话流畅度和情感共鸣。对于腾讯而言，这不仅是情怀牌，也是对 AI 社交玩法的又一次尝试。",
@@ -6642,8 +6643,9 @@
     "summary_en": "The article's headline argues that today's top AI systems are 'copying' the homework of ordinary people, meaning they learn from or imitate user-generated content. The linked page isn't summarized here; details beyond the title aren't available because the entry lacks a description. Those curious about training data sources and model imitation behavior should click through to see the supporting evidence."
   },
   "gh-daily-lyogavin-airllm": {
-    "summary_zh": "AirLLM 能在单块 4GB 显存 GPU 上运行 70B 参数的大模型推理，不需要多卡或高显存设备。它显著降低了大模型本地部署的硬件门槛，适合资源有限的开发者尝试超大参数模型。",
-    "summary_en": "AirLLM is an inference project that runs a 70B-parameter model on a single 4GB GPU, avoiding the need for multi-GPU setups. It lowers the hardware barrier for local LLM deployment, making it appealing for developers with limited VRAM."
+    "summary_zh": "AirLLM 通过大幅降低显存占用，让 70B 大模型在单张 4GB GPU 上运行，且无需量化、蒸馏或剪枝。按 README，它还能在 4GB 以内跑 2.8T 的 Kimi K3、6GB 跑 125B 的 Qwen3.8-Flash-Next、约 12GB 跑 671B 的 DeepSeek-V3，并新增了小显存训练支持。适合显卡有限又想本地跑大模型的开发者。",
+    "summary_en": "AirLLM cuts inference memory so hard that a 70B model runs on a single 4GB GPU without quantization, distillation or pruning; per its README it also fits Kimi K3 (2.8T) under 4GB, Qwen3.8-Flash-Next (125B) on 6GB and DeepSeek-V3 (671B) on roughly 12GB. It has added support for training large models on small VRAM, which matters to developers without big GPUs.",
+    "input_hash": "49b8fc4e8ba9"
   },
   "hn-49126604": {
     "summary_zh": "这是 Hacker News 上一条标题为“qm – Multiplayer agent harness for work”的帖子，介绍了一个面向工作的多智能体协同工具。原文是链接，未提供更多细节；其具体功能和使用方式无法从标题确认。",
@@ -10698,9 +10700,9 @@
     "input_hash": "d96a48a04e99"
   },
   "gh-daily-bilawalsidhu-gods-eye-view": {
-    "summary_zh": "浏览器里的间谍卫星模拟器：用逼真的 3D 地球叠加实时飞机、船舶、卫星、地震、交通与公共摄像头数据，并支持由实时 AI agent 驱动的免手语音控制。作者是 YouTube 系列 God's Eye View（原名 WorldView）的 bilawalsidhu，项目曾登上 GitHub Trending 第一，适合做地理空间可视化与实时数据流的开发者。原文素材只到此处，未涉及更多实现细节。",
-    "summary_en": "God's Eye View is an open source browser app that renders a photorealistic 3D globe layered with live aircraft, ships, satellite, earthquake, traffic and public camera data, plus hands-free voice control driven by a realtime AI agent. Built by bilawalsidhu, the developer behind the YouTube series of the same name (formerly WorldView), it reached #1 on GitHub Trending. It suits developers working on geospatial visualization and real-time data feeds.",
-    "input_hash": "6471e5640f8f"
+    "summary_zh": "God's Eye View 是一个在浏览器里运行的间谍卫星模拟器，用真实公开数据在写实 3D 地球上叠加飞机、船只、卫星、地震、交通和公共摄像头等实时图层，并支持实时 AI agent 驱动的免手语音控制。项目来自播放量超 500 万的 YouTube 系列（原名 WorldView），曾登上 GitHub Trending 第一，适合做地理空间可视化的人参考。",
+    "summary_en": "God's Eye View is a browser-based spy-satellite simulator that layers live aircraft, ships, satellites, earthquakes, traffic and public camera feeds onto a photorealistic 3D globe, all from real open-source data, with hands-free voice control driven by a realtime AI agent. It comes from the viral YouTube series (formerly WorldView) with 5M+ views and reached #1 on GitHub Trending.",
+    "input_hash": "9396f2439179"
   },
   "hn-49452709": {
     "summary_zh": "美国国务院暂停受理移民签证申请。目前只有标题这一条信息，原文是链接，未提供更多细节；受影响人群、暂停时长和适用范围都还不清楚。",
@@ -16243,9 +16245,9 @@
     "input_hash": "568da319d2d0"
   },
   "v2ex-3f04173291b2": {
-    "summary_zh": "V2EX 推广帖：卖家称一手直连 Azure Foundry API，提供 Azure OpenAI 模型与 GPT Image 生图，限时 0.35x 倍率（原 0.7x），¥1=$1 充值，图片约 ¥0.1/张，叠加满赠最低到正价 API 的 0.4 折。回帖留用户 ID 可按 V2EX 注册年限每年赠 $1，十年老号加赠 $5，帖中预告 gpt-6-sol 与 gpt-6-luna 即将上线。",
-    "summary_en": "A V2EX promotion post advertises a direct Azure Foundry API channel for Azure OpenAI models and GPT Image generation, claiming a limited-time 0.35x rate (down from 0.7x), ¥1 = $1 top-ups, about ¥0.1 per image, and stackable bonuses reaching 0.4 折 of list price. Commenters posting their user ID get $1 per year of V2EX tenure, plus $5 for ten-year accounts, with gpt-6-sol and gpt-6-luna teased.",
-    "input_hash": "515dc83a6afd"
+    "summary_zh": "V2EX 上一条推广帖，推广名为 Token Unlimited 的 Azure OpenAI 模型中转服务，打出 0.35x 倍率限时价格，并附带充值满赠与留言最高赠 $20 的活动。帖子未提供正文，模型清单、计费口径、活动时间与限制条件都无法从标题确认，接入前需要自行核实渠道合法性与稳定性。",
+    "summary_en": "A promotional post on V2EX for a service called Token Unlimited, which resells Azure OpenAI models at a limited-time 0.35x rate and adds a recharge bonus plus up to $20 credit for commenters. The linked page isn't summarized here; details beyond the title aren't available, so the model list, billing rules and promo terms would need to be verified with the vendor before relying on it.",
+    "input_hash": "040a21581dd9"
   },
   "infoq-AGIRRRtM1lBDFIvwWuRX": {
     "summary_zh": "蚂蚁集团新一代大模型训练数据处理系统 Altum 的技术负责人王鑫，将在 10 月 22—24 日的 QCon 上海站“AI Infra：算力效率决定规模化落地”专题分享其设计与实践，涵盖异构算力融合调度、基于数据湖 Paimon 的端到端升级，以及在性能、稳定性、数据交付时效上的取舍。适合关注 AI Data Infra 的工程师。",
@@ -17693,9 +17695,9 @@
     "input_hash": "40e2760342a5"
   },
   "juejin-7683457864929329204": {
-    "summary_zh": "作者飞鱼在文中讨论为什么不建议把 Agent 开发当作职业方向，并提到不少培训班宣称后端工程师要向 AI 转型。文中摘要在此处截断，没有给出他关于 Agent 开发长期发展前提的完整论述。",
-    "summary_en": "The author, writing as Feiyu, argues against pursuing Agent development as a career path, noting that many training programs tell backend engineers to pivot toward AI. The excerpt is cut off before his full argument about what long-term growth in Agent work would require.",
-    "input_hash": "31416beee912"
+    "summary_zh": "作者飞鱼认为 Agent 开发岗位要有长期发展，前提是所在领域本身有增量、由业务驱动，否则大部分存量岗位会在 1-2 年内被淘汰。他把 Agent 开发视为后端的一个分支，指出只靠 LangChain、LangGraph 搭个 Demo 就去面试拿高薪并不现实，985 加多段大厂经历的人也不易拿到 offer。",
+    "summary_en": "Writing as Feiyu, the author argues Agent development roles only hold long-term value when the domain itself is growing and driven by real business demand, and predicts most existing Agent jobs will be eliminated within one to two years. He frames Agent work as a branch of backend engineering, saying that a LangChain or LangGraph demo is not enough to land a high-paying offer in today's crowded market.",
+    "input_hash": "b5738714b3dd"
   },
   "zhihu-2085935290347275671": {
     "summary_zh": "这是一条知乎提问，邀请大家评价 9 月 23 日发布的 Claude Opus 5.5。帖子只给了链接，没有提供版本特性、参数或基准测试等更多素材，因此无法判断这次发布具体改了什么。",
@@ -20183,9 +20185,9 @@
     "input_hash": "2f20c29fe0cc"
   },
   "juejin-7656467869551722537": {
-    "summary_zh": "作者观察到，用上 AI 之后一天能完成过去三天的活，但老板同样清楚这一点，于是方案更多、交付更急，省下来的时间被重新填满。文章的核心判断是，真正危险的不是被替代，而是忙碌的产出没有沉淀为可复用的个人能力或资产，适合已经用 AI 提效却感觉更累的开发者一读。",
-    "summary_en": "The author notes that AI now lets one person finish three days of work in one, but managers know this too, so more proposals and tighter deadlines pour in and refill the saved time. The argument is that the real risk isn't being replaced, but producing a lot without accumulating reusable skills or assets. It speaks to developers who adopted AI tools and somehow feel more drained.",
-    "input_hash": "62eab550926d"
+    "summary_zh": "作者观察到，用 AI 后一天能干完过去三天的活，但老板也知道这一点，于是更多更急的需求涌来；他提醒最危险的不是被替代，而是忙碌没有沉淀成职业资产。他把 AI 提效分为任务提效、流程整合、能力重构三层，认为停留第一层只会让人变成效率更高的执行者。",
+    "summary_en": "A Juejin post argues that with AI one day's work now covers three, but managers know it too, so more and more urgent tasks pile up. The author's warning: the real risk isn't being replaced, but that the extra output never accumulates into portable career assets. He splits AI use into task efficiency, process integration and capability rebuilding, and staying at the first level only makes you a faster executor.",
+    "input_hash": "1a0b095ed6cd"
   },
   "zhihu-2091846052613826029": {
     "summary_zh": "据知乎上的讨论，美国政府暂停了微软等多家科技公司的外籍员工绿卡申请。原文只有标题和提问，没有给出政策依据、适用期限或受影响人数，因此这是否是长期政策、覆盖范围多大都无从判断。",
@@ -20426,5 +20428,125 @@
     "summary_zh": "作者狂师讨论 AI 能写代码后是否还该学编程：非技术人重在“会用”，懂基础概念、能说清需求、会简单验收；技术人必须“会判”，语法基础不丢，但重心转向读懂 AI 代码、判断质量与风险。结论是把写交给 AI、把责任留给人，适合正犹豫是否继续投入学编程的开发者。",
     "summary_en": "Author Kuangshi examines whether programming is still worth learning now that AI writes code: non-technical people should focus on using it well — grasping basic concepts, stating requirements clearly, doing light acceptance checks — while engineers must keep judging, retaining syntax fundamentals but shifting effort to reading AI-generated code and assessing its quality and risk. Writing goes to AI; accountability stays with humans.",
     "input_hash": "a1462f32ac7f"
+  },
+  "v2ex-1292ad21b903": {
+    "summary_zh": "V2EX 热议：[问与答] 收到罚单了",
+    "summary_en": "Hot on V2EX: [问与答] 收到罚单了",
+    "input_hash": "84ac6993a148"
+  },
+  "v2ex-2129d79743d1": {
+    "summary_zh": "V2EX 热议：[问与答] 想聊聊外甥不爱学习的事情",
+    "summary_en": "Hot on V2EX: [问与答] 想聊聊外甥不爱学习的事情",
+    "input_hash": "aab1856b5d4b"
+  },
+  "infoq-8g9tlaqJFUPrb4oGO00A": {
+    "summary_zh": "InfoQ 精选：10 秒视频很惊艳，为什么 AI 做一部短剧还是这么难？",
+    "summary_en": "Featured on InfoQ: 10 秒视频很惊艳，为什么 AI 做一部短剧还是这么难？",
+    "input_hash": "f07e5242cd7e"
+  },
+  "36kr-4020833109807236": {
+    "summary_zh": "该条标题称现在的网吧提供免费洗衣、洗车，甚至报销车费，用服务而非机器配置来吸引顾客。原文未提供更多正文细节，具体门店、收费方式与背后的经营逻辑无法确认。",
+    "summary_en": "The headline claims some internet cafes now offer free laundry and car washing, and even reimburse customers' taxi fares. The linked page isn't summarized here; details beyond the title, such as pricing or how such a business model works, aren't available, so the claim can't be verified.",
+    "input_hash": "d97f54f117da"
+  },
+  "v2ex-b72b2f6555c2": {
+    "summary_zh": "gits 是一个跑在 Cloudflare serverless 上的 git 托管工具，自带 GitHub App 可自动同步已授权账号下的所有仓库，因此不需要自备服务器。它刻意砍掉了 issues 和 pull requests，只保留纯粹的仓库托管，适合存放不愿公开到 GitHub 的仓库或备份私有仓库。",
+    "summary_en": "gits is a git hosting service that runs entirely on Cloudflare's serverless offerings, so it needs no server of your own, and its bundled GitHub App syncs every repository under an authorized account. It deliberately omits issues and pull requests, keeping only plain repo hosting — useful for repositories you'd rather not put on GitHub, or for backing up private ones.",
+    "input_hash": "ef7d6fec936c"
+  },
+  "36kr-4020888466542726": {
+    "summary_zh": "这篇 36氪 文章谈的是一款模仿 Adobe 全家桶的 AI 工具走红后，作者建议用户先别急着卸载正版软件。原文未提供正文，除标题以外的具体工具名称、功能和作者结论都无从确认。",
+    "summary_en": "A 36Kr piece looks at an AI tool that mimics the Adobe suite and went viral overnight, with the author cautioning users not to uninstall their legitimate Adobe software just yet. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "b19b3f762527"
+  },
+  "v2ex-1551abeb7cc1": {
+    "summary_zh": "有用户在 V2EX 的 Apple 板块提问网易云音乐能否跨区更新，原因是港区 App Store 已经搜不到这款 App，美区情况不明。他想弄清楚这款应用在各区商店的下架范围，以及已安装用户后续怎么更新。",
+    "summary_en": "A V2EX user in the Apple section asks whether NetEase Cloud Music can still be updated across App Store regions, noting the app is no longer downloadable in the Hong Kong store while the US store's status is unclear. It's essentially a query about how widely the app has been pulled and how existing users should handle future updates.",
+    "input_hash": "d97abaf2ed7f"
+  },
+  "v2ex-ad80ff1c58eb": {
+    "summary_zh": "一位 V2EX 用户凌晨四点失眠，原因是整晚都在折腾日区礼品卡给 Claude 充值，好在最终充值成功，3000 日元档按汇率算下来约合 95 折。他感慨为了用上 Claude 花掉了不少精力。",
+    "summary_en": "A V2EX user posted at 4 a.m. after spending the whole night trying to top up a Claude subscription with Japan-region gift cards; the payment eventually went through, with the 3,000-yen tier working out to roughly a 5% discount at current exchange rates. He jokes about how much energy he burns just to keep using Claude.",
+    "input_hash": "62aeef0ac67a"
+  },
+  "v2ex-04930dfdc7bf": {
+    "summary_zh": "这篇推广对比 Qwen Image 2.1 Pro 与 Nano Banana 2.1 两款图像模型：前者最多支持 10 张参考图，主打透明素材与蒙版局部编辑，尺寸可自定义但不支持联网搜索。后者支持多轮对话修图、视频参考和 Google 搜索，最多 14 张参考图（物体 10 张、角色 4 张），输出分 1K、2K、4K 档，适合需要连续修图或引用检索内容做视觉创作的创作者。",
+    "summary_en": "This sponsored comparison pits Qwen Image 2.1 Pro against Nano Banana 2.1 for image work: Qwen takes up to 10 reference images and focuses on transparent assets and masked local edits, with no web search, while Nano Banana 2.1 supports multi-turn conversational retouching, video references and Google search, accepts up to 14 reference images, and outputs at 1K, 2K or 4K. It's aimed at creators deciding between extracting transparent subjects, iterating on one image, or grounding visuals in search and video.",
+    "input_hash": "e31d21e417f4"
+  },
+  "v2ex-d46679a119dd": {
+    "summary_zh": "小喷是作者以 Swift 6 / SwiftUI 开发的原生 macOS 菜单栏语音助手，采用 MIT 协议，喊唤醒词就能查天气、定计时器、调音量，问答可接 OpenAI / Anthropic 兼容 API、ChatGPT 订阅或本机 Ollama。1.1.0 新增回声消除和开口打断，提醒与音量指令全在本机解析，适合想在键盘前顺口下指令的 Mac 用户。",
+    "summary_en": "Xiaopeng (小喷) is a native macOS menu-bar voice assistant written in Swift 6 and SwiftUI and released under MIT; say its wake word to check weather, set timers or change volume without hunting for a chat window. Version 1.1.0 adds echo cancellation and barge-in, parses reminder and volume commands locally, and can use your own OpenAI/Anthropic-compatible API, a ChatGPT subscription or local Ollama. It needs macOS 14+ on Apple Silicon, and the unsigned build lacks Apple notarization.",
+    "input_hash": "8807f048e8c1"
+  },
+  "infoq-gNdWoDM8ygkAjXfsLaBK": {
+    "summary_zh": "小米 MiMo 团队公开 MiMo-V2.6-Pro（总参数 1.02T、激活 42B）与 Flash（310B / 15B）两个 MoE 模型，并披露一套规模化 Agentic RL 流程：每个 step 采样 1568 个 prompt、各生成 16 条 rollout，合计约 2.5 万条轨迹、27 亿至 37 亿 token。Pro 单次 RL 后训练成本约 260 万美元，用于评判 Agent 行为的 Grader 已占 12.7%，适合关注 RL 成本与奖励设计的人。",
+    "summary_en": "Xiaomi's MiMo team published a technical report on MiMo-V2.6, releasing two sparse MoE models: Pro (1.02T total, 42B active) and Flash (310B, 15B active). Its scaled agentic RL pipeline samples 1,568 prompts per step with 16 rollouts each, roughly 25,000 trajectories and 2.7–3.7 billion tokens, using GRPO with asynchronous partial rollouts. RL post-training costs about $2.6M for Pro and $0.9M for Flash, with Grader compute at 12.7% and 14.2%.",
+    "input_hash": "a91d401fe314"
+  },
+  "v2ex-bd76bc4ca63b": {
+    "summary_zh": "作者把自己做的 Nano Banana 图片生成站分享出来，输入描述、选比例和分辨率、看结果都在一个页面完成，支持 1K、2K、4K 和一次生成多张，三档分别每张 8、12、28 积分，提交前会显示消耗。首页提供示例提示词，可直接带进生成器再改，适合要做产品图、海报或社媒配图的人试用并反馈。",
+    "summary_en": "A developer shared Nano Banana, a web tool that puts prompt entry, aspect-ratio and resolution selection and result viewing on one page. It supports 1K, 2K and 4K output plus batch generation, costing 8, 12 and 28 credits per image respectively, with the total shown before submission; sample prompts on the homepage load straight into the generator. It targets people making product shots, posters or social images.",
+    "input_hash": "1af3c33b2ca1"
+  },
+  "v2ex-c5e29278caa1": {
+    "summary_zh": "一位用户分享自己注册 Muse 的经历：先通过云浏览器 browser.lexmount.com 以 Google 账号登录，再用非 Gmail 邮箱注册 Muse 一次通过、没有触发验证，而此前用 Gmail 试了几次都被要求验证，他自己也认为成功有运气成分。文中还贴出邀请码 TLM0N7，称加入后 48 小时内在设置中兑换可各得 10 亿 Muse 词元。",
+    "summary_en": "A V2EX user describes a luck-based way to register for Muse: signing in through the cloud browser at browser.lexmount.com with a Google account, then registering with a non-Gmail address, which went through with no verification after several Gmail attempts were blocked. They also share invite code TLM0N7, said to give both parties 1 billion Muse tokens if redeemed in Settings within 48 hours of joining. It's one person's anecdote, not an official method.",
+    "input_hash": "6a8f732a8d93"
+  },
+  "36kr-4020827950403712": {
+    "summary_zh": "陶哲轩在其博客发文，主张 AI 的推进速度应当放缓，并把这一判断与约 25 万名数学博士出路收窄的处境联系起来，相关讨论随后登上热搜。原文只提供标题、没有正文，博客里的具体论证与数据无法在此核实。",
+    "summary_en": "Terence Tao's blog post arguing that AI development should be slowed down, tied to the claim that roughly 250,000 math PhDs are facing a dead end, has climbed onto trending lists. The linked page isn't summarized here; the details beyond the title, including the post's actual arguments and figures, aren't available.",
+    "input_hash": "c949657f7786"
+  },
+  "v2ex-899d1bb54923": {
+    "summary_zh": "这是 V2EX 上的一则推广帖，标题称提供全天稳定、号称不降智的 GPT 访问，需要进群领取额度。原帖只有标题，未提供正文，因此服务的来源、可用性与计费方式都无法确认。",
+    "summary_en": "A V2EX post advertising all-day, supposedly non-degraded GPT access that requires joining a chat group to claim usage quota. The linked page isn't summarized here; details beyond the title, such as where the service comes from, how reliable it is or how it is billed, aren't available.",
+    "input_hash": "056ad69ec746"
+  },
+  "36kr-4020977643671686": {
+    "summary_zh": "标题显示，一个名为 REA、被形容为“逆向灭霸”的项目在一天之内冲上 GitHub 热榜首位，热度超过 Jev。原帖只有标题，没有正文，项目具体做什么、用什么技术栈、作者是谁都无法确认。",
+    "summary_en": "According to the title, a project called REA, described as \"reverse Thanos\", reached the top of GitHub's trending list within a single day, drawing more attention than Jev. The linked page isn't summarized here; what the project actually does, what it is built with and who wrote it aren't available.",
+    "input_hash": "b9417ac612aa"
+  },
+  "36kr-4021010929946761": {
+    "summary_zh": "标题显示，52 岁的吴彦祖开始卖沙发，被描述为一次“中年突围”。原帖只有标题、没有正文，具体品牌、合作方式和商业模式都无从确认。",
+    "summary_en": "The headline says actor Daniel Wu, at 52, has started selling sofas, framed as a mid-career pivot. The linked page isn't summarized here; the brand involved, the terms of any partnership and the business model behind it aren't available.",
+    "input_hash": "92deb231f27a"
+  },
+  "36kr-3990015565708035": {
+    "summary_zh": "硬氪首发报道，一家 AI 运动硬件公司完成数亿元 B 轮融资，方向是用体育大模型重构网球自主训练体验。除融资金额量级和赛道外，原文未提供投资方、产品形态等更多细节。",
+    "summary_en": "Hardware and sports-tech watchers get one data point: an AI sports hardware company has raised a Series B worth several hundred million yuan, betting on a sports large model to rebuild self-directed tennis training. No further details are given beyond the headline, so investors, product form and launch timing aren't available.",
+    "input_hash": "9a5753dd9d30"
+  },
+  "36kr-4020977744449666": {
+    "summary_zh": "麻省理工方面的一项讨论聚焦「靠访谈让 AI 模拟真人」的思路，追问这条路究竟能走多远。原文只给出标题，没有正文细节，但它指向 AI 拟人化的可行性与边界，适合关注训练数据来源和拟真度的人。",
+    "summary_en": "A piece attributed to MIT looks at whether interviewing people to build training material can let AI convincingly imitate real individuals, and asks how far that approach can go. Beyond the headline no further details are available; it speaks to anyone weighing the realism and limits of person-like AI.",
+    "input_hash": "8067d686bc6b"
+  },
+  "36kr-4020781359747204": {
+    "summary_zh": "36kr 一篇报道讲 19.9 元的预制菜如何复刻餐厅招牌菜，并称它精准收割了打工人群体。原文除标题外没有更多正文，适合关心预制菜定价、渠道以及打工人日常餐饮消费的人。",
+    "summary_en": "A 36kr report describes prepared meals priced at 19.9 yuan that copy restaurant signature dishes, arguing they land squarely with the office-worker crowd. No body text beyond the headline is provided; it's relevant to readers tracking prepared-food pricing and how it reshapes cheap daily eating.",
+    "input_hash": "35eb5ebb378a"
+  },
+  "36kr-4020034509739913": {
+    "summary_zh": "36kr 一文追问：MacBook 若真的上触控屏，意味着苹果背离了自己长期坚持的产品理念，这背后在打什么算盘。原文未提供标题以外的细节，适合关注 Mac 产品线走向和苹果交互设计取舍的开发者。",
+    "summary_en": "36kr asks why Apple would put a touchscreen on the MacBook when doing so contradicts the product philosophy the company has long insisted on. Details beyond the headline aren't available; it's aimed at developers tracking the Mac line and Apple's input-design trade-offs.",
+    "input_hash": "a18d2eaf55ab"
+  },
+  "hn-50003796": {
+    "summary_zh": "Carson Gross 在一篇题为「Yes, and」的文章里，讲了他给对计算机科学感兴趣、又因 AI 进展而对前途感到担忧的年轻人的建议。原文只提供了这层概要，具体论点需读全文，适合正在考虑是否进入或留在这一行的学生与初级开发者。",
+    "summary_en": "In an essay titled \"Yes, and,\" Carson Gross lays out the advice he gives young people interested in computer science who are worried about their future given the pace of AI progress. Only that framing is available here, so the specific arguments require reading the piece; it speaks to students and early-career developers deciding whether to stay in the field.",
+    "input_hash": "997d5913c0db"
+  },
+  "36kr-4021019671892096": {
+    "summary_zh": "这是 36kr 的一篇报道，讲述一位曾被视作“过气网红”的人靠短剧重新赚到钱、挣回体面。原文只给出链接，未提供更多正文细节，具体人物身份和收入数字都无法确认。",
+    "summary_en": "A 36kr story about a former internet celebrity who made money — and won back some respect — through short dramas after being written off. Only a link is provided here: neither the person's identity nor any figures are available beyond the title, so this summary can't go further.",
+    "input_hash": "c4320524f58b"
+  },
+  "infoq-rKRPT18fGxtjipPAeaLa": {
+    "summary_zh": "InfoQ 这篇文章讨论为什么模型开放之后 AI 能力仍难复用：模型可下载不等于系统可复现，代码公开不等于能力可直接调用，AI 项目还依赖模型权重、数据、提示词、工具接口和运行环境，底层模型或工具一变就可能让原有工作流失效。文章以 2026 年世界人工智能开源大赛（GOAI）为例——覆盖 91 个国家和地区、超 1.4 万名开发者、2999 份初赛作品、70 个项目进入总决赛——指出文档完整性、环境可复现性和接口稳定性正成为 Star 数与 Benchmark 之外的评价指标。",
+    "summary_en": "An InfoQ article argues that open-sourcing AI models doesn't make their capabilities reusable: a downloadable model isn't a reproducible system, and AI projects depend on weights, data, prompts, tool interfaces and runtime environments, so swapping the base model or a tool can break existing workflows. It points to the 2026 Global Open-source AI competition (GOAI), which drew 91 countries and regions, over 14,000 developers and 2,999 valid entries narrowed to 70 finalists, and notes that docs, environment reproducibility and interface stability are becoming metrics beyond GitHub stars and benchmarks.",
+    "input_hash": "f57892f1453c"
   }
 }
