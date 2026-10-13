@@ -4270,7 +4270,9 @@
       "content": "",
       "first_seen": "2026-10-10",
       "domain": "juejin.cn",
-      "quality_score": 30.4
+      "quality_score": 30.4,
+      "summary_zh": "掘金上的一篇个人随笔，作者所在公司从 400 多人缩减到 100 多人，他借此重新思考程序员的未来，文中还提到 35 岁程序员的处境以及大环境和 AI 冲击带来的失落感。它不是技术教程，而是从业者对行业收缩期的观察，适合正在考虑职业规划的人读。",
+      "summary_en": "A personal essay on Juejin whose author watched their company shrink from over 400 people to just over 100, and uses that to rethink the future of programmers, touching on the situation of 35-year-old developers and the combined pressure of a weak market and AI. It is not a technical tutorial but one developer's read on an industry in retreat, useful for anyone weighing career plans."
     },
     {
       "id": "zhihu-2092283931764552084",
@@ -4820,7 +4822,9 @@
       "tags": [],
       "first_seen": "2026-10-10",
       "domain": "infoq.cn",
-      "quality_score": 34.0
+      "quality_score": 34.0,
+      "summary_zh": "亚马逊云科技宣布 Aurora DSQL 支持外键约束，涵盖 CASCADE、SET NULL 等参照操作。此前缺失外键被社区视为这款无服务器、兼容 PostgreSQL 的分布式数据库阻碍迁移的最大差距；新实现靠事务内快照校验和提交时的冲突检测保证参照完整性，无需锁表，但冲突会以序列化错误拒绝事务，应用需实现重试逻辑。",
+      "summary_en": "AWS has added foreign key constraint support to Aurora DSQL, including CASCADE, SET NULL and other referential actions. Its absence had been the most-cited gap keeping teams from migrating to the serverless, PostgreSQL-compatible distributed database. Integrity is enforced via snapshot validation during transactions and conflict detection at commit, without locking tables — but conflicting transactions are rejected with serialization errors, so applications need retry logic."
     },
     {
       "id": "infoq-YLOUT8CrDm0NPWgHL8LG",
@@ -4836,7 +4840,9 @@
       "tags": [],
       "first_seen": "2026-10-10",
       "domain": "infoq.cn",
-      "quality_score": 34.2
+      "quality_score": 34.2,
+      "summary_zh": "Linear 用约五个月、1000 多个 PR 把 React 应用从 styled-components 迁到 Meta 的原子化 CSS-in-JS 库 StyleX，2026 年 8 月初完成。动机是 React 18 并发渲染下运行时 CSS-in-JS 的开销，以及 styled(Button) 让外部重写样式过于容易，这在编码代理普及后尤其麻烦；收益是视图密集页面主线工作量减少 20% 至 35%，中端机器导航快约 30%。",
+      "summary_en": "Linear has finished moving its React app off styled-components onto StyleX, Meta's atomic CSS-in-JS library, across more than 1,000 pull requests in roughly five months, completing in early August 2026. The push came from runtime CSS-in-JS overhead under React 18 concurrent rendering and from patterns like styled(Button) making components too easy to restyle from outside — undesirable now that coding agents are common. Reported gains: 20–35% less main-thread work on view-heavy pages and roughly 30% faster navigation on mid-range machines."
     },
     {
       "id": "infoq-gNdWoDM8ygkAjXfsLaBK",
@@ -4888,7 +4894,9 @@
       "tags": [],
       "first_seen": "2026-10-10",
       "domain": "infoq.cn",
-      "quality_score": 34.2
+      "quality_score": 34.2,
+      "summary_zh": "本期 Java 生态更新包括 OpenJDK JEP 544（提前代码编译，目标 JDK 28）、ZGC 相关的 JEP 545 与 546、JDK 28 早期访问 Build 17、GraalVM 25.4、Micronaut 用 Graal 开发工具包 5.1.5 以及 TornadoVM 7.0.0。其中 TornadoVM 新增 TileContext 类和用 Java 编写 GPU 核函数的 @Parallel 注解，对做异构计算的 JVM 开发者最值得一看。",
+      "summary_en": "This roundup covers OpenJDK JEP 544 (ahead-of-time code compilation, targeted at JDK 28), the ZGC-related JEPs 545 and 546, JDK 28 early-access Build 17, GraalVM 25.4, the Graal Development Kit for Micronaut 5.1.5, and TornadoVM 7.0.0. The TornadoVM release adds a TileContext class and a @Parallel annotation for writing GPU kernels in Java, which is the part most relevant to JVM developers working on heterogeneous compute."
     },
     {
       "id": "infoq-IAvNgDyPz2NpvfZLoDo0",
@@ -4904,7 +4912,9 @@
       "tags": [],
       "first_seen": "2026-10-10",
       "domain": "infoq.cn",
-      "quality_score": 34.5
+      "quality_score": 34.5,
+      "summary_zh": "谷歌公布了 GKE Pod 快照的基准测试：它保存工作负载的 CPU、GPU 内存与运行时状态并按需恢复，跳过模型加载初始化，启动延迟最高降低 89%，700 亿参数模型 37 秒即可加载。该功能属 checkpoint/restore 机制而非缓存，要求 Pod 运行在基于 gVisor 的 GKE Sandbox 中，客户 Codeway 借此把启动时间从 1 分钟压到 8 秒。",
+      "summary_en": "Google published benchmarks for GKE Pod Snapshot, which captures a workload's CPU and GPU memory plus runtime state and restores it on demand, skipping model initialization: startup latency drops by up to 89%, loading a 70B-parameter model in 37 seconds and an 8B one in 15 seconds. It's a checkpoint/restore mechanism rather than a cache and requires pods to run in the gVisor-based GKE Sandbox. Customer Codeway cut its startup from a minute to 8 seconds."
     },
     {
       "id": "infoq-jri7etqXIv2dp6RsiSHh",
