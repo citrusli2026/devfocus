@@ -214,7 +214,9 @@
       "tags": [],
       "first_seen": "2026-10-10",
       "domain": "rea.tools",
-      "quality_score": 45.7
+      "quality_score": 45.7,
+      "summary_zh": "Hacker News 上有一则标题为 REA Reverse – Engineer Anything 的帖子，正文没有任何描述、说明或链接，只有标题本身。原帖未提供更多细节，无法确认它指的是哪个项目或具体功能。",
+      "summary_en": "A Hacker News submission titled \"REA Reverse – Engineer Anything\" carries no body text, description or link beyond the headline itself. The linked page isn't summarized here; details beyond the title aren't available, so neither the project nor what it does can be confirmed from the post."
     },
     {
       "id": "hn-50020014",
@@ -1512,7 +1514,9 @@
       "tags": [],
       "first_seen": "2026-10-11",
       "domain": "twitter.com",
-      "quality_score": 35.1
+      "quality_score": 35.1,
+      "summary_zh": "这条 Hacker News 帖重新翻出一条 4 月的推文，作者按粗略估算称约 60 亿人（约 75% 的人口）几乎没接触过 LLM，因此对 LLM 能力的共同认知已不是两拨人各说各话，而是一个陡峭的漏斗。适合关注 AI 实际普及度与认知落差的人。",
+      "summary_en": "This Hacker News post dusts off an April tweet arguing that shared understanding of LLM capability has stopped being two groups talking past each other and become a sharp funnel. By rough napkin math, around 6 billion people, roughly 75% of the population, have barely come into contact with LLMs. It is aimed at anyone tracking the real reach of AI adoption."
     },
     {
       "id": "hn-49987858",
@@ -2970,7 +2974,9 @@
       "tags": [],
       "first_seen": "2026-10-11",
       "domain": "royfish.dev",
-      "quality_score": 30.2
+      "quality_score": 30.2,
+      "summary_zh": "这是一个用交互页面演示无 Cookie 追踪的网页：仅凭浏览器指纹就能算出一个稳定昵称，清 Cookie、换 VPN 都不会改变它，换设备或开无痕模式才会得到另一个同样稳定的标识。作者认为，靠广告脚本收集指纹的站点可以把该标识与账号数据关联起来出售，所谓「数据已匿名化」并不成立。",
+      "summary_en": "This demo page fingerprints visitors without cookies: it derives a stable nickname from browser and device traits that survives clearing cookies or connecting through a VPN, and stays consistent in incognito until you switch devices. The author argues ad-funded sites running such scripts could link that identifier to your account data and sell it, undercutting the claim that the data is anonymized."
     },
     {
       "id": "hn-50048536",
@@ -4058,7 +4064,9 @@
       "content": "小说转漫画skills： github.com/aiskyhub/no… 大家可以把这个skills发给ChatGPT之类评鉴，让他们点评下是否有作用，再决定用不用。 副业搞起来 AI 太火爆了。玛德，照这更新速度，真怕哪天就原地进厂了。 最近查了下，很多电子厂不招35岁以上了，天塌了…… 哎…… 新模型一个接一个出来，能做的事越来越多。刚研究明白一个工具，另一个又出了；刚觉得自己会点东西了，再看模型更新，怎么这些活儿它也能干了？ 谁不慌啊。 什么“拥抱变化”，道理都懂。问题是变化太快，有时候光看更新都累，更别说每个东西都自己学一遍。学吧，怕白学；不学吧，又怕以后真不会干了。烦得很。 可看到 AI 能画图、能生成视频，我又确实想研究一下。 平时看小说，碰到喜欢的人物和剧情，总会想他们到底长什么样，这一段要是做成画面，会是什么感觉。现在既然有这些工具了，那就自己试试呗。 能让自己喜欢的小说真的动起来，就踏马让人激动了。 漫剧现状和成本 最近漫剧很热闹。小说有故事，AI 能画图，也能生成视频，看着那些效果展示，确实会觉得自己也能试着做一段。 然后一研究，行，还真有一堆事。 Seedance 的效果不错，可个人折腾起来，反复修改的费用确实得算。版本、分辨率和输入条件不同，价格也不一样。 官方计费说明 一个镜头可能要生成几次才满意。人物长得不对，改；动作不符合剧情，改；单独看挺好，放到前后镜头里接不上，还得改。 视频成功生成了，却用不上，成本已经产生。次数一多，真容易觉得贵得不当人。我只是想做段自己喜欢的视频，怎么修改起来这么费钱啊。 MiniMax H3 开放基模权重之后，社区也做出了量化版本，降低了模型的资源占用，让更多本地配置有机会尝试。已有合适硬件的话，能少一些在线生成的费用。 H3 官方项目 、 社区量化版本 不过，本地速度还得看显卡、分辨率和工作流。等半天，出来发现还得改，真挺烦。显卡、电费要算，自己的时间也不能当不存在。 优化漫剧成本思路 更麻烦的是，小说改成视频，本身就有一堆事要想清楚。 心理活动怎么表现？人物为什么突然生气，前面有没有交代？对白直接照搬，会不会一页全是字？这些问题没处理好，视频生成得再漂亮，故事也可能看不明白。 所以就想先挑一部分完整剧情，做成漫画。 把人物和对白放进具体画面里，按顺序读一遍。哪段情绪转得太突然，哪处解释太啰嗦，哪些镜头缺了必要的交代，都能在这个阶段检查。 人设也先好好打磨。脸长什么样，衣服怎么穿，表情是不是符合这个人物，看着不对就继续修。原著的事件保留，重点调整分镜和剧情呈现。 漫画做到自己愿意从头看完，再尝试让关键镜头动起来。人物形象和故事顺序已经确定，后面就能拿着这些参考继续做，少一些重复调整。 动作、声音和剪辑仍然要单独处理。 漫画先帮我把能提前发现的问题找出来，也有东西可以认真看、低成本的改。 于是，就有了小说转漫画这个 skill： github.com/aiskyhub/no… 。 小说转漫画 skills 牛逼在哪 它给 Codex 安排了一套明确的制作顺序，从读原文、写分镜，一直做到排版和导出。 先读完当前卷的原文，完成整卷分镜，再检查剧情有没有遗漏、因果是否连贯、画面和对白是否适合漫画阅读。改完、审过，才开始正式画图，减少画到后面才发现前面有问题的返工。 还得对照原著。角色没说过的话不能随便补，原文没发生的事也不能硬加。小说就在那儿，先把它看明白。AI 擅自补出来的剧情，该删就删，别让它瞎编。 人物和画风也要先确定。角色有多角度、表情等参考，后续画面持续对照，线条、配色和光影也有统一规范。 同一个主角，每页长得都不一样，读者还得先猜这是谁，谁有耐心啊。参考图能帮助保持一致，画出来仍然要逐格检查，有问题就返修。 生成画面会按镜头需要安排。适合一起画的合并生成，再无损拆成独立画格；复杂动作和重要特写留出足够面积，让需要表达的细节看得清楚。 拆完逐格验收，合格的尽量复用，有问题的针对性返修。整页还要检查阅读顺序、对白归属和文字遮挡，单张图好看，整页也得读得顺。 完成后提供离线阅读器、PDF 和 CBZ 漫画文件。剧本、人设参考和进度一起保存，后面续做、修改都有资料可用。中途停下来，也能查到上次做到哪，不必重新翻聊天记录。 总结 一本漫画，以前真不敢想。光是不会画画，就不知道该怎么继续。 现在有 Codex 组织制作，配合 ChatGPT 的生图模型，可以认真试着把喜欢的故事做出来。一页页看，一点点改，等漫画满意了，再研究怎么把它做成视频。 AI 更新这么快，普通人很难不焦虑。行业怎么变，我们决定不了；该过的日子，也不会等我们把新技术全学明白了再继续。 很多人只能忙完眼前的事，再找时间研究一点。学着学着觉得太难，做到一半觉得效果不行，都挺正常。我也会担心折腾半天，最后没做出",
       "first_seen": "2026-10-10",
       "domain": "juejin.cn",
-      "quality_score": 17.9
+      "quality_score": 17.9,
+      "summary_zh": "一篇掘金文章，围绕小说转漫画、漫剧这条副业链路讲成本优化思路，作者在简介里贴出了 GitHub 项目 aiskyhub/novel_to_comic 用于小说转漫画。对想靠 AI 生成内容做副业、又需要把生成与推理成本压到利润线以下的独立开发者比较实用。",
+      "summary_en": "A Juejin post laying out cost-optimization ideas for a side business built on novels, comics and comic-style shorts, linking the GitHub project aiskyhub/novel_to_comic for turning novels into comics. It suits indie developers monetizing AI-generated content who need generation and inference costs to stay under their margins."
     },
     {
       "id": "juejin-7693821701955567670",
