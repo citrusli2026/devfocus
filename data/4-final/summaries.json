@@ -10765,9 +10765,9 @@
     "input_hash": "4d06bb474d13"
   },
   "gh-daily-K-Dense-AI-scientific-agent-skills": {
-    "summary_zh": "K-Dense-AI/scientific-agent-skills 是一个开源 Agent Skills 库，旨在把任意 AI Agent 变成“AI 科学家”。项目提供 160 多个经过验证的科学技能、100+ 科学数据库，称已被 19 万多名科学家使用，兼容 Cursor、Claude Code、Codex、Google Antigravity 等工具。需要做科研自动化或学术数据分析的开发者可直接引入。",
-    "summary_en": "K-Dense-AI/scientific-agent-skills is an open-source library that turns any AI agent into an AI Scientist, with 160+ validated skills and 100+ scientific databases. It claims more than 190,000 scientists use it, and it works with Cursor, Claude Code, Codex and Google Antigravity. Developers building scientific workflows or automated research pipelines can reuse these skills directly.",
-    "input_hash": "0e3ee12bf5e7"
+    "summary_zh": "面向科研场景的 Agent Skills 库，当前版本 2.72.0，提供 177 个可直接调用的技能和 100+ 科学数据库，MIT 协议开源，兼容 Cursor、Claude Code、Codex 等 agent 工具。README 称已有 25 万科学家使用，适合想把通用 agent 改造成能跑数据处理与文献分析流程的研究者。",
+    "summary_en": "A skills library for scientific work: version 2.72.0 ships 177 ready-to-use skills and 100+ scientific databases, MIT-licensed, plugging into Cursor, Claude Code and Codex under the Agent Skills standard. The README claims 250,000+ scientists already use it, so it targets researchers who want a general-purpose agent to handle data processing or literature analysis.",
+    "input_hash": "6321fdca4ad0"
   },
   "zhihu-2073111100145366214": {
     "summary_zh": "这是一个关于机器人智能架构的讨论题目：大脑应放在端侧还是云端。原文是链接，未提供更多细节，具体观点无法从标题之外获取。",
@@ -14545,9 +14545,9 @@
     "input_hash": "e289bdd4dd73"
   },
   "gh-daily-vxcontrol-pentagi": {
-    "summary_zh": "PentAGI 是一套面向渗透测试的全自主 AI agent 系统，名字取自 Penetration testing Artificial General Intelligence，目标是在复杂渗透测试任务中自主执行。README 涉及 agent 监督、给 agent 开放 Docker 访问而不暴露宿主机、多实例运行等部署细节，适合安全研究员与做自动化渗透测试的团队评估。",
-    "summary_en": "PentAGI, short for Penetration testing Artificial General Intelligence, is a system of fully autonomous AI agents built to carry out complex penetration-testing tasks. Its README covers agent supervision, giving agents Docker access without exposing the host, and running several instances at once. It's aimed at security researchers and teams exploring automated offensive-security workflows.",
-    "input_hash": "5c75a2f6ee12"
+    "summary_zh": "PentAGI 是一个全自主 AI Agent 系统，用于执行复杂的渗透测试（penetration testing）任务，名字取自 Penetration testing Artificial General Intelligence。项目在 Discord 和 Telegram 上建立了安全研究者与 AI 爱好者社区，适合做 red team、关注自动化安全测试工具的从业者。",
+    "summary_en": "PentAGI is a fully autonomous AI agent system built to carry out complex penetration testing tasks; the name stands for Penetration testing Artificial General Intelligence. It maintains a Discord and Telegram community for security researchers and AI enthusiasts, making it relevant to red-teamers and anyone tracking automated security testing.",
+    "input_hash": "60902fa480a7"
   },
   "zhihu-2082512566144783755": {
     "summary_zh": "这是知乎上的一个讨论提问：如何评价极客湾称华为麒麟 9050Pro 的性能体验小幅超过骁龙 8 Elite。原文是链接提问，未提供更多细节，也没有附带评测数据或背景，想核实具体对比结论的人需要自行查看原帖和相关评测。",
@@ -16950,9 +16950,9 @@
     "input_hash": "6b364fc508d3"
   },
   "v2ex-8dcf7ba39ed2": {
-    "summary_zh": "苏州某公司招聘数据运营负责人，要求 5 年以上高阶运营经验，熟悉大型地推与线下规模化团队，并有海量供应商与外包生态的统筹管理经验，明确偏好滴滴出行或美团背景。职责包括搭建运营数据、供应商治理与人力效能三大体系，主导自动化运营平台从 0 到 1 落地。",
-    "summary_en": "A Suzhou-based company is hiring a data operations lead, asking for 5+ years of senior operations management, hands-on experience running large offline field-marketing teams, and a track record managing huge supplier and outsourcing ecosystems; it explicitly prefers candidates from DiDi or Meituan. The role covers building three systems — operations data, supplier governance and workforce efficiency — plus taking an automated operations platform from zero to one.",
-    "input_hash": "12804bff7c22"
+    "summary_zh": "这是 V2EX 酷工作版的一条招聘信息，职位是常驻苏州的数据运营负责人，并明确希望候选人来自滴滴出行或美团。原文只提供标题、没有正文，薪资范围、团队规模、具体职责等细节均未给出。",
+    "summary_en": "A job posting from V2EX's jobs board for a data operations lead based in Suzhou, with a stated preference for candidates from Didi or Meituan. The linked page isn't summarized here; details beyond the title, such as salary, team and responsibilities, aren't available, so anyone with that background would need to open the original thread.",
+    "input_hash": "7cad43f82a99"
   },
   "infoq-2FFH5EHF2SMusaYQhjlX": {
     "summary_zh": "Shopify 弃用 React Native，改用 Swift 和 Kotlin 做跨平台开发，InfoQ 的标题将这一取舍归因于 AI 带来的变化。对正在评估跨平台方案与原生技术栈的移动团队来说这是个信号，但原文只是链接，未提供迁移范围、时间表等更多细节。",
@@ -20968,5 +20968,255 @@
     "summary_zh": "一篇掘金文章，围绕小说转漫画、漫剧这条副业链路讲成本优化思路，作者在简介里贴出了 GitHub 项目 aiskyhub/novel_to_comic 用于小说转漫画。对想靠 AI 生成内容做副业、又需要把生成与推理成本压到利润线以下的独立开发者比较实用。",
     "summary_en": "A Juejin post laying out cost-optimization ideas for a side business built on novels, comics and comic-style shorts, linking the GitHub project aiskyhub/novel_to_comic for turning novels into comics. It suits indie developers monetizing AI-generated content who need generation and inference costs to stay under their margins.",
     "input_hash": "59fbd940c6cc"
+  },
+  "v2ex-0ad8f2d39f4c": {
+    "summary_zh": "V2EX 热议：[分享创造] 做了一个 A 股信息整理工具，把指标、涨停复盘和新闻分别导出成卡片",
+    "summary_en": "Hot on V2EX: [分享创造] 做了一个 A 股信息整理工具，把指标、涨停复盘和新闻分别导出成卡片",
+    "input_hash": "f9d575d9fa83"
+  },
+  "v2ex-9e1036433dfe": {
+    "summary_zh": "V2EX 热议：[分享创造] 做了一个游戏融合目录，帮玩家从演示视频找到原作者和安装要求",
+    "summary_en": "Hot on V2EX: [分享创造] 做了一个游戏融合目录，帮玩家从演示视频找到原作者和安装要求",
+    "input_hash": "b1687551ac2e"
+  },
+  "v2ex-3b03d468dfd3": {
+    "summary_zh": "V2EX 热议：[分享发现] 网络反诈，人人有责，警惕 AI 会员购买诈骗",
+    "summary_en": "Hot on V2EX: [分享发现] 网络反诈，人人有责，警惕 AI 会员购买诈骗",
+    "input_hash": "cedbf90c5cd0"
+  },
+  "infoq-R7OkT6DCUifdCQqAvwtJ": {
+    "summary_zh": "InfoQ 精选：修复漏洞的 PR 刚提交，攻击几分钟后就来了：AI 正在击穿开源安全流程",
+    "summary_en": "Featured on InfoQ: 修复漏洞的 PR 刚提交，攻击几分钟后就来了：AI 正在击穿开源安全流程",
+    "input_hash": "113c5c806726"
+  },
+  "v2ex-466fc38d8eaf": {
+    "summary_zh": "V2EX 热议：[职场话题] 阿里云外包相关 文科小弟的询问",
+    "summary_en": "Hot on V2EX: [职场话题] 阿里云外包相关 文科小弟的询问",
+    "input_hash": "35239f45c735"
+  },
+  "v2ex-9cfc9799050d": {
+    "summary_zh": "V2EX 热议：[生活] 聊聊最近的解压方式的变化。",
+    "summary_en": "Hot on V2EX: [生活] 聊聊最近的解压方式的变化。",
+    "input_hash": "5baf8c079fc9"
+  },
+  "v2ex-afca6d9e98ac": {
+    "summary_zh": "V2EX 热议：[VPS] 终于知道注册甲骨文哪些是能验证的了",
+    "summary_en": "Hot on V2EX: [VPS] 终于知道注册甲骨文哪些是能验证的了",
+    "input_hash": "4f642489bb79"
+  },
+  "infoq-uYQMXN91a1BDTT802G6p": {
+    "summary_zh": "InfoQ 精选：30 名工程师、一个宏大愿景，却没有真实需求：谷歌高管反思产品开发狂热",
+    "summary_en": "Featured on InfoQ: 30 名工程师、一个宏大愿景，却没有真实需求：谷歌高管反思产品开发狂热",
+    "input_hash": "71b8d086259f"
+  },
+  "v2ex-2eb7d6285967": {
+    "summary_zh": "V2EX 热议：[生活] 假如我不曾结婚成家生娃",
+    "summary_en": "Hot on V2EX: [生活] 假如我不曾结婚成家生娃",
+    "input_hash": "bf11f3107a9a"
+  },
+  "zhihu-2093811458442092969": {
+    "summary_zh": "美国 9 月 CPI 同比上涨 3.7%，高于市场预期的 3.6%，这条知乎提问想讨论该数据释放了哪些信号。页面本身只有问题，原文是链接，没有附带分项数据、核心通胀或市场解读，需要这些内容的读者得点进原帖。",
+    "summary_en": "US September CPI rose 3.7% year over year, above the 3.6% expected, and this Zhihu question asks what signals the print sends. The linked page isn't summarized here; details on components, core inflation or market reaction aren't available, so readers need to open the original thread.",
+    "input_hash": "2b0883b0b193"
+  },
+  "36kr-4024861209890695": {
+    "summary_zh": "36氪发出消息称 Gemini 4 已全球上线，是 Google Gemini 系列的新一代模型。该条目只有标题，原文是链接，未提供参数规模、能力变化、开放地区或定价等更多细节。",
+    "summary_en": "A 36Kr post reports that Gemini 4 has gone live globally, the next generation in Google's Gemini line. The linked page isn't summarized here; details beyond the title aren't available, so there is no information on model size, capability changes, availability regions or pricing.",
+    "input_hash": "0416c64a4de8"
+  },
+  "zhihu-2093689082383524747": {
+    "summary_zh": "微信上线了绿泡泡短剧，而腾讯此前多次进军短剧市场都效果平平，这条知乎提问追问这次能否做成、又能否撼动红果的位置。页面只有问题本身，原文是链接，没有提供短剧的产品形态、内容供给或运营数据。",
+    "summary_en": "WeChat has launched a short-drama offering called 绿泡泡短剧, and this Zhihu question asks whether Tencent can make it work this time, after several earlier short-drama attempts fell flat, and whether it can shake 红果's position. The linked page isn't summarized here; no details on format, content supply or operating data are available.",
+    "input_hash": "ffd28116d725"
+  },
+  "infoq-LQjytCZpPdgOE5PrWU59": {
+    "summary_zh": "InfoQ 报道的是一支 Gemini 老兵团队，其 Coding Agent 产品刚亮相就传出被英伟达收购，文章讨论他们为何仍敢押注这一方向。原文是链接，未提供更多细节，具体团队与产品信息无法从标题之外确认。",
+    "summary_en": "InfoQ reports on a team of Gemini veterans whose Coding Agent product was rumored to be acquired by Nvidia almost immediately after launch, and asks why the team is still betting on the coding-agent space. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "dc54da836015"
+  },
+  "infoq-2QXm6PqYYX57AOxTYyO0": {
+    "summary_zh": "InfoQ 这篇报道讲的是 Meta 的新模型如何把公司重新拉回 AI 第一梯队，并引述 Alexandr Wang 复盘 Muse 在七个月内实现反转的过程。原文是链接，未提供更多细节，模型能力与具体做法需看正文。",
+    "summary_en": "InfoQ's article covers how Meta's new model put the company back into AI's top tier, with Alexandr Wang recounting the seven-month turnaround behind Muse. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "ea201422091a"
+  },
+  "36kr-4025027267580036": {
+    "summary_zh": "36氪「8点1氪」栏目汇总了三条动态：茶百道因涉嫌 IPO 欺诈被暂停交易，苹果连夜发布 3 款智能家居新品且总市值再创历史新高，DeepSeek 将完成 1000 亿元融资。适合想快速扫一遍当日公司与资本市场消息的读者。",
+    "summary_en": "36Kr's morning briefing rounds up three items: tea chain Chabaidao suspended from trading over suspected IPO fraud, Apple quietly launching three smart-home products as its market cap hit another record high, and DeepSeek set to close a 100-billion-yuan financing round. It's a quick way to scan the day's corporate and market news.",
+    "input_hash": "6785f6d5643d"
+  },
+  "v2ex-dbdb88c7ddfc": {
+    "summary_zh": "CloudStorm 是一个云平台账号自动售卖服务，覆盖 AWS、Microsoft Azure、GCP、Oracle Cloud、Vultr、Linode、DigitalOcean、Kamatera 等，流程为用户查看实时库存、充值余额、选定配置后由系统自动交付 .txt 格式的账号信息，部分商品在交付前会做可用性检查。它把过去询价、等回复、手动付款的环节压缩成自动化下单，库存随批次变化。",
+    "summary_en": "CloudStorm is an automated storefront for cloud accounts covering AWS, Microsoft Azure, Google Cloud, Oracle Cloud, Vultr, Linode, DigitalOcean and Kamatera. Buyers check live stock, top up a balance, pick a configuration and receive the account details as a .txt file without waiting on a human, and some listings run pre-delivery checks to avoid shipping dead accounts. Stock varies by batch.",
+    "input_hash": "68a4b93abae9"
+  },
+  "v2ex-88898e21448c": {
+    "summary_zh": "有网友分享了用土耳其区 Google Workspace 以 ₺75 TRY/年（约 10 元）注册 .com 域名的流程，无需实名和手机号，net、org、app 等后缀同样可用，付费与 Workspace 试用订阅合并结算，手机号可事后绑 +86。作者提醒要先转移域名再取消订阅，否则域名后续无法登录，适合想低成本长期持有域名的人。",
+    "summary_en": "A V2EX user documented how to register a .com domain for ₺75 TRY per year (roughly 10 RMB) through the Turkey region of Google Workspace, with no real-name verification or phone number required, and the same route works for .net, .org and .app. Payment is bundled with the Workspace trial subscription and a +86 number can be attached later; the author warns you should transfer the domain out before cancelling the subscription, since the domain becomes inaccessible for login afterward.",
+    "input_hash": "f1d373c1ac82"
+  },
+  "infoq-p2TobACROBC8UBPlRKXx": {
+    "summary_zh": "阶跃终端发布首款智能体手机 STEPX Neo 先行版，定价 3999 元，10 月 16 日首销，并推出智能体原生系统 Step AOS 1.0 与开发工具 Step Studio，购机附赠 12 个月每月百亿 Token。硬件亮点是背部智能体状态背屏与六麦克风阵列、Whisper 1.0 拾音算法，主打嘈杂环境下的低声语音交互。",
+    "summary_en": "StepFun's terminal arm launched STEPX Neo, its first agent-centric phone, priced at 3999 yuan with first sales on October 16, alongside the Step AOS 1.0 agent-native OS and Step Studio developer tools; buyers also get 100 billion tokens per month for 12 months. Its signature hardware twist is a rear display that shows the agent's states such as waking, listening and thinking, plus a six-microphone array and Whisper 1.0 pickup algorithm for whispered speech in noisy environments.",
+    "input_hash": "f7fc43ea7bb9"
+  },
+  "infoq-xJ8vYf2lCwGWzVizOTSM": {
+    "summary_zh": "千问为其 Personal Agent 硬件做了升级：AI 眼镜新增虹膜支付能力，并携手 Bose 首发 AI 耳夹式耳机。该条目原文只有标题，未提供产品规格、价格或上市时间等更多细节。",
+    "summary_en": "Qwen announced an upgrade to its Personal Agent hardware: its AI glasses can now handle iris-based payments, and it has partnered with Bose to debut an AI ear-clip headphone. The linked page isn't summarized here; details beyond the title, such as specs, pricing or launch dates, aren't available.",
+    "input_hash": "ccf94891ac86"
+  },
+  "infoq-OjlADL5itjO3PcVHsuMB": {
+    "summary_zh": "高通把 Snapdragon X2 的平台支持提前送进上游 Linux 内核，而不是等芯片上市后再零散地打补丁。这意味着各发行版有机会在硬件开卖前后就拿到较完整的支持，对想在 ARM 笔记本上跑 Linux 的人是个信号。原文是链接，未提供更多细节，具体提交范围和内核版本无从确认。",
+    "summary_en": "Qualcomm has pushed Snapdragon X2 platform support into upstream Linux ahead of the usual schedule, rather than patching it in piecemeal after launch. That gives distributions a shot at shipping reasonably complete support around the time the hardware appears, which matters to anyone running Linux on ARM laptops. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "a713c5314fc3"
+  },
+  "infoq-Fvuq0C19vAAYpSBN3US2": {
+    "summary_zh": "这篇 InfoQ 文章的标题提出把共享 UI 组件库从“可复用”重新思考为“可再生”，讨论组件库在长期维护中的定位问题。原文是链接，未提供摘要或正文，具体论点和案例无从确认。",
+    "summary_en": "This InfoQ piece proposes rethinking shared UI component libraries from “reusable” toward “renewable,” framing the question of what such libraries are actually for over the long term. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "4761530e7afa"
+  },
+  "36kr-4024947420712835": {
+    "summary_zh": "36Kr 这篇文章讨论腾讯、字节、阿里等大厂的 AI 产品被停运、下架的现象，称这些“AI 墓园”正变得越来越拥挤。原文是链接，未提供更多细节。",
+    "summary_en": "A 36Kr piece looks at how the \"AI graveyards\" of Tencent, ByteDance and Alibaba keep getting more crowded, referring to AI products those companies have shut down. Readers tracking how big Chinese platforms prune their AI portfolios may find it relevant; the linked page isn't summarized here, so details beyond the title aren't available.",
+    "input_hash": "7c3e6d380936"
+  },
+  "v2ex-ff4cbbad97c7": {
+    "summary_zh": "发帖人自建了 Bulin 47 AI：上传一张正面照片，就能把自己替换进 Bulin 47 在马德里的原版 freestyle 视频，场景、人群、镜头与伴奏不变，可选 9:16、1:1、16:9 画幅，Google 登录后几分钟下载 MP4。工具以原片为参考做视频编辑，720P 原声、定价 9.99 美元，适合想蹭这个梗做二创的人。",
+    "summary_en": "The poster built Bulin 47 AI, a web tool that swaps you into the original Bulin 47 freestyle shot outside a Madrid venue: upload one clear front-facing photo, pick 9:16, 1:1 or 16:9, sign in with Google, and download an MP4 a few minutes later. A video-edit model uses the original clip as reference, so the venue, crowd, camera moves and beat stay the same. It costs $9.99 at 720P with original sound, aimed at people making TikTok or Reels remixes.",
+    "input_hash": "35d3b2616923"
+  },
+  "infoq-6iRATYfkqF7aITPaFR2R": {
+    "summary_zh": "InfoQ 这篇报道讲的是 Anthropic 因为 Claude 生成的代码量激增、Git 扛不住，仅用 7 个人、5 个月就自建了一套版本控制系统。原文是链接，未提供更多细节。",
+    "summary_en": "An InfoQ report describes how Anthropic replaced Git with an in-house version control system, built by a team of just seven people in five months, after the volume of code written by Claude overwhelmed the existing setup. It's worth a look for teams whose AI-generated commits are straining their tooling; the linked page isn't summarized here, so details beyond the title aren't available.",
+    "input_hash": "9e09ac52471b"
+  },
+  "hn-50073633": {
+    "summary_zh": "Anthropic 发文讲述他们如何花五个月迁移到自研版本控制系统：随着每日 merge 次数增长十倍以上，源码管理成了最大的开发瓶颈。这是一篇工程实践复盘，适合关心大规模工具链以及 AI 辅助编码带来什么后果的开发者。",
+    "summary_en": "Anthropic's post explains why source control became its biggest development bottleneck once daily merges grew more than tenfold, and how the company migrated to an in-house version control system in five months. It's an engineering write-up aimed at developers curious about tooling under AI-heavy coding workflows.",
+    "input_hash": "7d7398d01ab8"
+  },
+  "hn-50091788": {
+    "summary_zh": "网络安全专家认为，近期一批被渲染成 AI 自主攻击的事件，根因是 AI 实验室在隔离（containment）与监控上的失效，而不是模型有了自己的意图。对 CISO 来说，重点应放在审查 AI 供应商、补齐基础安全措施，而非简单地禁用 AI 工具。",
+    "summary_en": "Cybersecurity experts say the recent alarming hacking reports blamed on AI come down to containment and monitoring failures at AI labs, not agents acting with minds of their own. For CISOs, that reframes the job as vetting AI vendors and tightening security basics rather than treating the models themselves as the threat.",
+    "input_hash": "82cf51e5b246"
+  },
+  "hn-50054092": {
+    "summary_zh": "Ledger 确认其钱包的加密货币被盗事件背后，是硬件中被植入的 spy chip。该帖本身只是若干链接的汇总，指向 heise、crypto.news 以及一份关于 Ledger Nano X 植入的研究，原文是链接，未提供更多细节。",
+    "summary_en": "Ledger has confirmed that a spy chip implanted in its hardware was behind cryptocurrency thefts from its wallets. The linked page isn't summarized here; this post is just a set of links to coverage on heise and crypto.news plus research write-ups, so details beyond the title aren't available.",
+    "input_hash": "aef542830e55"
+  },
+  "hn-50063427": {
+    "summary_zh": "这篇文章是对 Rich Hickey《\"AI\" is Not a Tool》的回应，主张自动化与把 AI 当工具使用并不冲突。作者的核心论点是：用好一个 LLM 本身就是一项技能，需要反馈和判断力，而不是把任务一股脑丢给模型。",
+    "summary_en": "This piece responds to Rich Hickey's essay \"'AI' is Not a Tool,\" arguing that automation and tool use can coexist rather than being mutually exclusive. The author's point is that wielding an LLM well is itself a skill, one that depends on feedback loops and judgment instead of simply handing work off to a model.",
+    "input_hash": "3c1339b326c6"
+  },
+  "hn-50070302": {
+    "summary_zh": "Firefox Enterprise 是 Mozilla 面向企业推出的浏览器方案，支持在企业自有基础设施内本地化部署与管理，让数据和策略的存放位置可定义、可审计。产品页同时强调数据主权、AI 治理与 VDI/RBI 风险削减，适合对合规和控制权有要求的 IT 与安全团队评估。",
+    "summary_en": "Firefox Enterprise is Mozilla's enterprise browser offering, designed so organizations can deploy and manage it on their own infrastructure, keeping data, policies and management under their control and auditable. The product page emphasizes data sovereignty, AI governance, and VDI/RBI risk reduction, making it relevant to IT and security teams with compliance requirements.",
+    "input_hash": "22e341b143eb"
+  },
+  "hn-50071017": {
+    "summary_zh": "Apple HomeView 是一款智能显示屏，配备 Siri AI、Liquid Retina 屏幕和高保真音频，支持 FaceTime 与智能家居控制，并主打内置隐私保护。目前公开信息来自产品介绍页，价格、上市时间和其他硬件规格均未提及。",
+    "summary_en": "Apple HomeView is a smart display that combines Siri AI with a Liquid Retina screen, high-fidelity audio, FaceTime and smart home controls, with privacy built in. The product page is all that's available so far, so pricing, availability and further hardware details remain unannounced.",
+    "input_hash": "6a6b494a6a3c"
+  },
+  "hn-50069499": {
+    "summary_zh": "Rust borrow checker 中被曝出已存在 11 年之久的 unsoundness bug，维护者在讨论串里补充背景，强调 Rust 的类型系统本意是防止内存不安全，他们会认真对待这一承诺。这直接触及 Rust 最核心的安全卖点，写 unsafe 代码或维护编译器的人尤其需要看；该条目提供的正文只有这段说明，更多复现细节未给出。",
+    "summary_en": "An issue reports unsoundness bugs in Rust's borrow checker that go back about 11 years. In the thread, maintainers add context, noting that Rust's type system is intended to prevent memory unsafety and that they take upholding that promise seriously. That claim is central to Rust's appeal, so anyone writing unsafe code or maintaining the compiler should read it; the note supplied here is all the detail available.",
+    "input_hash": "d227d98e5bd1"
+  },
+  "36kr-4025420791172992": {
+    "summary_zh": "36氪这篇文章的核心判断是：大厂已经意识到，与其在模型能力上互相内卷，不如把芯片卖出去。原文只提供了标题，未点名公司、产品或数据来源，因此它具体指的是哪几家厂商、依据是什么，都无法从现有信息确认。",
+    "summary_en": "The 36Kr piece argues that big tech has wised up: selling chips is a better business than competing over model capabilities. Only the headline is available here, with no companies, products or figures named, so it's impossible to tell which vendors it refers to or what evidence it draws on.",
+    "input_hash": "9a482eab2fde"
+  },
+  "zhihu-2093662309310620149": {
+    "summary_zh": "国台办就蔡康永出席沈伯洋竞选活动一事作出回应，表示在大是大非问题上没有任何模糊的空间。该条目只给出标题，没有附带正文，因此回应的具体场合、时间和完整表述都不清楚。",
+    "summary_en": "China's Taiwan Affairs Office responded to Cai Kangyong (蔡康永) appearing at a campaign event for Shen Poyang (沈伯洋), stating that there is no room for ambiguity on major issues of principle. Only the headline is available here, so the timing, venue and full wording of that response aren't provided.",
+    "input_hash": "f817438fae29"
+  },
+  "36kr-4025056096817028": {
+    "summary_zh": "据 36氪 报道，苹果一次性推出 12 款新品，其中 HomeView 是首次登场，Siri 的 AI 能力被用来接管全屋设备。原文仅有标题，产品规格、价格和上市时间等细节均未提供。",
+    "summary_en": "According to 36Kr, Apple has pushed out 12 new products at once, including a first-time device called HomeView, with Siri's AI taking over control of the whole home. Only the headline is available here, so pricing, specifications and release dates aren't included.",
+    "input_hash": "31b38fde0453"
+  },
+  "36kr-4025020277723271": {
+    "summary_zh": "谷歌全新的 Gemini 4 Argon 已经迎来一波实测，36氪的标题用“物理真觉醒”来形容这次更新带来的变化。原文只有标题没有正文，因此实测的具体项目、成绩以及能力提升幅度都无法确认。",
+    "summary_en": "Google's new Gemini 4 Argon has already drawn a wave of hands-on testing, with 36Kr's headline framing it as a genuine awakening around physics. Only the headline is available here, so the actual test cases, scores and capability gains can't be confirmed.",
+    "input_hash": "f7dde0b0b846"
+  },
+  "zhihu-2093001535881832037": {
+    "summary_zh": "知乎上出现一个提问：网红女装品牌 CHICYOU 被指使用狸花猫背部毛皮制作毛领，遭到网友抵制，讨论还延伸到哪些渠道的毛皮可能涉嫌违法。原帖只给了标题，没有附正文或来源细节。讨论主要围绕动物福利和毛皮来源的合法性两条线展开。",
+    "summary_en": "A Zhihu question asks about the womenswear brand CHICYOU, which users accuse of using fur from the backs of 狸花猫 (Chinese domestic cats) for coat collars, prompting a boycott, and asks which fur-sourcing channels may be illegal. Only the question title is available — the linked page carries no body text or sources. Animal welfare and the legality of fur supply chains are the two threads here.",
+    "input_hash": "e5c4ab97f59a"
+  },
+  "zhihu-2093629140502933840": {
+    "summary_zh": "知乎提问涉及《此处通往繁星》剧组：有群演被指疑似猥亵女演员，剧组回应称将撤下争议片段并展开调查，讨论聚焦若指控属实，剧组与涉事演员各自要承担什么责任。原帖只有标题，未附官方声明的原文或更多细节。",
+    "summary_en": "A Zhihu question covers the production 《此处通往繁星》, whose crew said it would pull disputed footage and investigate after an extra was accused of molesting an actress. The discussion centers on what liability the production and the individual would bear if the allegation is confirmed. Only the question title is given; the linked page adds no further detail or statement text.",
+    "input_hash": "1e3deb2340a0"
+  },
+  "zhihu-1937505886517068775": {
+    "summary_zh": "知乎上有人提问：刘邦从起兵到称帝大约七年就夺得天下，凭的是什么。原帖只有这一句提问，没有附正文或具体论述，因此更像是一个开放式讨论的引子。适合对秦末汉初历史感兴趣、想看不同解读的读者。",
+    "summary_en": "A Zhihu question asks how Liu Bang managed to take the empire in roughly seven years, from raising troops to founding the Han dynasty. The post carries only that question, with no body text or arguments, so it serves as a prompt for open historical debate rather than a sourced answer. Readers drawn to the late Qin and early Han period are the likely audience.",
+    "input_hash": "768375b73d12"
+  },
+  "zhihu-2093283021692605069": {
+    "summary_zh": "知乎提问讨论一位二本毕业的女生待业一年，仍坚持只找双休工作，并把问题归结为两种解释：不愿降低生活标准，还是对就业市场缺乏认知。原帖只有标题，没有交代当事人的背景或具体求职经历。",
+    "summary_en": "A Zhihu question looks at a woman who graduated from a second-tier university and has been unemployed for a year while insisting on a job with two days off each week, framing it as either a refusal to lower her living standards or a misreading of the job market. Only the title is given; no background on her or her job search is provided.",
+    "input_hash": "1fbe30bcc57a"
+  },
+  "zhihu-2092980571324379933": {
+    "summary_zh": "郑钦文夺冠后，上汽奥迪发布「AUDI 全系买一送一」的宣传文案，但实际赠送的是车模，这一落差引发热议，知乎提问请大家谈看法。原帖只有标题，没有附上活动细则或官方回应。讨论多围绕这类营销文案的表述边界展开。",
+    "summary_en": "After Zheng Qinwen won her title, SAIC Audi posted a promotion reading \"buy one, get one free across the AUDI range,\" but the free item turned out to be a scale model car, and the gap drew widespread discussion; a Zhihu question asks what people make of it. Only the title is provided — no campaign terms or company response are included. Much of the debate concerns how far such ad copy can stretch.",
+    "input_hash": "8f49ea246894"
+  },
+  "36kr-4025108001558403": {
+    "summary_zh": "36kr 报道了一家成立仅九个月的机器人公司，其机器人能走出「排练过的世界」，也就是不再依赖预先编排的动作。原文只有标题和链接，未提供公司名称、技术路线或融资等细节。",
+    "summary_en": "A 36kr report profiles a robotics company founded just nine months ago, framing its robots as able to leave the \"rehearsed world\" of pre-scripted motions. Only the title and link are summarized here, so the company's name, funding and technical approach aren't available.",
+    "input_hash": "399671d2217e"
+  },
+  "36kr-4025179215155077": {
+    "summary_zh": "36kr 报道梁文锋「又出手了」，标题暗示其有新的动作或投资布局，但未说明具体方向。原文只提供标题和链接，项目、金额等信息均未披露。",
+    "summary_en": "36kr reports that Liang Wenfeng has made another move, implying fresh activity or an investment from him, but the headline offers no specifics. The linked page isn't summarized here, so the project, the amount involved and the direction of the move can't be confirmed.",
+    "input_hash": "c82008501927"
+  },
+  "zhihu-1968989779006829679": {
+    "summary_zh": "这是知乎上的一个提问：人类为什么不培育象牙更长的象种，而要去猎杀野生大象取牙。原文只给出问题标题，没有回答正文，具体讨论无法得知。",
+    "summary_en": "A Zhihu question asks why humans don't breed elephants with longer tusks instead of killing wild ones for ivory. The linked page isn't summarized here; only the question title is available, so the answers and reasoning behind it aren't included.",
+    "input_hash": "f1fc1735733a"
+  },
+  "36kr-4024343513370498": {
+    "summary_zh": "36kr 报道一家明星 AI 独角兽公司宣布破产，但标题没有点名具体是哪家公司。原文仅有标题和链接，破产原因、公司身份等信息都未提供。",
+    "summary_en": "36kr reports that a high-profile AI unicorn has declared bankruptcy, though the headline doesn't name which company. Details beyond the title aren't available here — the linked page isn't summarized — so the company's identity, the cause of failure and the timing remain unknown.",
+    "input_hash": "a271b965e8a2"
+  },
+  "zhihu-2072596995445986713": {
+    "summary_zh": "知乎提问讨论 AI 已经在游戏开发中写代码、搭场景、跑测试，从业者应当恐慌还是拥抱这一变化。原文只提供问题标题，没有回答或正文细节可供提炼。",
+    "summary_en": "A Zhihu question asks whether game-industry professionals should fear or embrace AI, noting that AI is already writing code, building scenes and running tests in their workflows. The linked page isn't summarized here, so the arguments and answers aren't available beyond the title.",
+    "input_hash": "5fb0b9daa08d"
+  },
+  "36kr-4024476507558018": {
+    "summary_zh": "老干妈创始人陶华碧因\"79岁用AI一年赚54亿\"的说法冲上热搜，同期老干妈营收创下新高。原文只提供了一条标题、未附正文，AI 具体如何参与经营、54亿对应的是营收还是别的口径，都无法核实。",
+    "summary_en": "A claim that 79-year-old Tao Huabi, founder of the chili-sauce brand Laoganma, \"earned 5.4 billion yuan in a year using AI\" trended as a top search topic, alongside the company posting record revenue. The linked page isn't summarized here; details beyond the title, such as AI's actual role or what the figure represents, aren't available.",
+    "input_hash": "626c5fa531dd"
+  },
+  "gh-daily-ifixai-ai-iFixAi": {
+    "summary_zh": "iFixAi 是一个对 AI Agent 做独立审计的开源项目，可由人也可以由 Agent 自己来跑，目标是回答\"这个 Agent 是否在做它该做的事\"，在问题爆发前发现错误和盲点。README 提供英文、简体中文、日语、韩语四种版本，项目曾登上 Product Hunt 日榜，适合需要给自动化 Agent 流程加一道可靠性检查的开发者。",
+    "summary_en": "iFixAi is an open-source tool for independent auditing of AI agents, run either by a human or by the agent itself, to catch mistakes and blind spots before they cause trouble and answer whether an agent is doing what it's supposed to. Its README ships in English, Simplified Chinese, Japanese and Korean, and it has ranked as a Product Hunt daily top post. Aimed at developers who want a reliability check on agent workflows.",
+    "input_hash": "8d3d8605bb5f"
+  },
+  "gh-daily-rust-lang-rust": {
+    "summary_zh": "这是 Rust 编程语言的主源码仓库，包含编译器、标准库和文档，是学习和参与 Rust 工具链开发的起点。Rust 主打性能与内存效率，适用于关键服务、嵌入式设备等对速度和占用敏感的场景。",
+    "summary_en": "This is the main source repository for the Rust programming language, holding the compiler, the standard library and the documentation. Rust emphasizes performance and memory efficiency, a fit for critical services, embedded devices and other workloads where speed and a small footprint matter. It is the starting point for learning the language or contributing to the toolchain.",
+    "input_hash": "ea5ade7e4a39"
+  },
+  "gh-daily-ntdevlabs-tiny11builder": {
+    "summary_zh": "Tiny11 Builder 是一个原生 WinUI 应用，用官方或自备的 Windows 镜像制作更小、可定制的 Windows 11 安装 ISO。它提供 Tiny11、Tiny11 Core 和 Custom 三种构建模式，并提供加快镜像处理的 Turbo 模式；Core 版无法更新和后续维护，Custom 的受保护删除项可能弄坏系统，作者建议先在虚拟机里测试生成的 ISO。",
+    "summary_en": "Tiny11 Builder is a native WinUI app that turns an official or user-supplied Windows image into a smaller, customized Windows 11 ISO. It offers three build modes, Tiny11 (keeps updates, Defender and recovery), Tiny11 Core (drops servicing and recovery, disables Defender) and Custom (pick components individually), plus a Turbo mode to speed up processing. Core images can't be updated or serviced and protected Custom removals can break Windows, so testing the ISO in a VM first is advised.",
+    "input_hash": "d249a4fc4dbe"
+  },
+  "juejin-7690769804492341298": {
+    "summary_zh": "掘金文章梳理 Anthropic 在 2026 年 9 月发布的一份报告，该报告点名阿里、DeepSeek、月之暗面、智谱、小米、商汤、MiniMax 共 7 家中国 AI 公司，指控它们以多种方式蒸馏 Claude。文章追问蒸馏究竟拿走了什么，适合关注大模型数据来源与合规争议的读者。",
+    "summary_en": "A Juejin article walks through an Anthropic report published in September 2026 that named seven Chinese AI companies — Alibaba, DeepSeek, Moonshot AI, Zhipu, Xiaomi, SenseTime and MiniMax — accusing them of distilling Claude in various ways. It asks what distillation actually takes from a model, and is aimed at readers following the data-provenance and compliance debate around large models.",
+    "input_hash": "2b6cf57d681f"
   }
 }

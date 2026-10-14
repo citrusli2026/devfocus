@@ -260,7 +260,9 @@
       "tags": [],
       "first_seen": "2026-10-13",
       "domain": "github.com",
-      "quality_score": 47.4
+      "quality_score": 47.4,
+      "summary_zh": "Rust borrow checker 中被曝出已存在 11 年之久的 unsoundness bug，维护者在讨论串里补充背景，强调 Rust 的类型系统本意是防止内存不安全，他们会认真对待这一承诺。这直接触及 Rust 最核心的安全卖点，写 unsafe 代码或维护编译器的人尤其需要看；该条目提供的正文只有这段说明，更多复现细节未给出。",
+      "summary_en": "An issue reports unsoundness bugs in Rust's borrow checker that go back about 11 years. In the thread, maintainers add context, noting that Rust's type system is intended to prevent memory unsafety and that they take upholding that promise seriously. That claim is central to Rust's appeal, so anyone writing unsafe code or maintaining the compiler should read it; the note supplied here is all the detail available."
     },
     {
       "id": "hn-50063427",
@@ -276,7 +278,9 @@
       "tags": [],
       "first_seen": "2026-10-12",
       "domain": "yyhh.org",
-      "quality_score": 50.5
+      "quality_score": 50.5,
+      "summary_zh": "这篇文章是对 Rich Hickey《\"AI\" is Not a Tool》的回应，主张自动化与把 AI 当工具使用并不冲突。作者的核心论点是：用好一个 LLM 本身就是一项技能，需要反馈和判断力，而不是把任务一股脑丢给模型。",
+      "summary_en": "This piece responds to Rich Hickey's essay \"'AI' is Not a Tool,\" arguing that automation and tool use can coexist rather than being mutually exclusive. The author's point is that wielding an LLM well is itself a skill, one that depends on feedback loops and judgment instead of simply handing work off to a model."
     },
     {
       "id": "hn-50040547",
@@ -308,7 +312,9 @@
       "tags": [],
       "first_seen": "2026-10-13",
       "domain": "apple.com",
-      "quality_score": 55.7
+      "quality_score": 55.7,
+      "summary_zh": "Apple HomeView 是一款智能显示屏，配备 Siri AI、Liquid Retina 屏幕和高保真音频，支持 FaceTime 与智能家居控制，并主打内置隐私保护。目前公开信息来自产品介绍页，价格、上市时间和其他硬件规格均未提及。",
+      "summary_en": "Apple HomeView is a smart display that combines Siri AI with a Liquid Retina screen, high-fidelity audio, FaceTime and smart home controls, with privacy built in. The product page is all that's available so far, so pricing, availability and further hardware details remain unannounced."
     },
     {
       "id": "hn-49991852",
@@ -372,7 +378,9 @@
       "tags": [],
       "first_seen": "2026-10-13",
       "domain": "firefox.com",
-      "quality_score": 44.4
+      "quality_score": 44.4,
+      "summary_zh": "Firefox Enterprise 是 Mozilla 面向企业推出的浏览器方案，支持在企业自有基础设施内本地化部署与管理，让数据和策略的存放位置可定义、可审计。产品页同时强调数据主权、AI 治理与 VDI/RBI 风险削减，适合对合规和控制权有要求的 IT 与安全团队评估。",
+      "summary_en": "Firefox Enterprise is Mozilla's enterprise browser offering, designed so organizations can deploy and manage it on their own infrastructure, keeping data, policies and management under their control and auditable. The product page emphasizes data sovereignty, AI governance, and VDI/RBI risk reduction, making it relevant to IT and security teams with compliance requirements."
     },
     {
       "id": "hn-50060694",
@@ -452,7 +460,9 @@
       "tags": [],
       "first_seen": "2026-10-13",
       "domain": "anthropic.com",
-      "quality_score": 47.1
+      "quality_score": 47.1,
+      "summary_zh": "Anthropic 发文讲述他们如何花五个月迁移到自研版本控制系统：随着每日 merge 次数增长十倍以上，源码管理成了最大的开发瓶颈。这是一篇工程实践复盘，适合关心大规模工具链以及 AI 辅助编码带来什么后果的开发者。",
+      "summary_en": "Anthropic's post explains why source control became its biggest development bottleneck once daily merges grew more than tenfold, and how the company migrated to an in-house version control system in five months. It's an engineering write-up aimed at developers curious about tooling under AI-heavy coding workflows."
     },
     {
       "id": "hn-50040276",
@@ -660,7 +670,9 @@
       "tags": [],
       "first_seen": "2026-10-13",
       "domain": "bleepingcomputer.com",
-      "quality_score": 41.6
+      "quality_score": 41.6,
+      "summary_zh": "Ledger 确认其钱包的加密货币被盗事件背后，是硬件中被植入的 spy chip。该帖本身只是若干链接的汇总，指向 heise、crypto.news 以及一份关于 Ledger Nano X 植入的研究，原文是链接，未提供更多细节。",
+      "summary_en": "Ledger has confirmed that a spy chip implanted in its hardware was behind cryptocurrency thefts from its wallets. The linked page isn't summarized here; this post is just a set of links to coverage on heise and crypto.news plus research write-ups, so details beyond the title aren't available."
     },
     {
       "id": "hn-50059204",
@@ -4695,7 +4707,9 @@
       "tags": [],
       "first_seen": "2026-10-13",
       "domain": "infoq.cn",
-      "quality_score": 33.6
+      "quality_score": 33.6,
+      "summary_zh": "阶跃终端发布首款智能体手机 STEPX Neo 先行版，定价 3999 元，10 月 16 日首销，并推出智能体原生系统 Step AOS 1.0 与开发工具 Step Studio，购机附赠 12 个月每月百亿 Token。硬件亮点是背部智能体状态背屏与六麦克风阵列、Whisper 1.0 拾音算法，主打嘈杂环境下的低声语音交互。",
+      "summary_en": "StepFun's terminal arm launched STEPX Neo, its first agent-centric phone, priced at 3999 yuan with first sales on October 16, alongside the Step AOS 1.0 agent-native OS and Step Studio developer tools; buyers also get 100 billion tokens per month for 12 months. Its signature hardware twist is a rear display that shows the agent's states such as waking, listening and thinking, plus a six-microphone array and Whisper 1.0 pickup algorithm for whispered speech in noisy environments."
     },
     {
       "id": "infoq-uYQMXN91a1BDTT802G6p",
@@ -4711,7 +4725,9 @@
       "tags": [],
       "first_seen": "2026-10-13",
       "domain": "infoq.cn",
-      "quality_score": 33.5
+      "quality_score": 33.5,
+      "summary_zh": "InfoQ 精选：30 名工程师、一个宏大愿景，却没有真实需求：谷歌高管反思产品开发狂热",
+      "summary_en": "Featured on InfoQ: 30 名工程师、一个宏大愿景，却没有真实需求：谷歌高管反思产品开发狂热"
     },
     {
       "id": "infoq-2QXm6PqYYX57AOxTYyO0",
@@ -4727,7 +4743,9 @@
       "tags": [],
       "first_seen": "2026-10-13",
       "domain": "infoq.cn",
-      "quality_score": 34.6
+      "quality_score": 34.6,
+      "summary_zh": "InfoQ 这篇报道讲的是 Meta 的新模型如何把公司重新拉回 AI 第一梯队，并引述 Alexandr Wang 复盘 Muse 在七个月内实现反转的过程。原文是链接，未提供更多细节，模型能力与具体做法需看正文。",
+      "summary_en": "InfoQ's article covers how Meta's new model put the company back into AI's top tier, with Alexandr Wang recounting the seven-month turnaround behind Muse. The linked page isn't summarized here; details beyond the title aren't available."
     },
     {
       "id": "infoq-LQjytCZpPdgOE5PrWU59",
@@ -4743,7 +4761,9 @@
       "tags": [],
       "first_seen": "2026-10-13",
       "domain": "infoq.cn",
-      "quality_score": 35.0
+      "quality_score": 35.0,
+      "summary_zh": "InfoQ 报道的是一支 Gemini 老兵团队，其 Coding Agent 产品刚亮相就传出被英伟达收购，文章讨论他们为何仍敢押注这一方向。原文是链接，未提供更多细节，具体团队与产品信息无法从标题之外确认。",
+      "summary_en": "InfoQ reports on a team of Gemini veterans whose Coding Agent product was rumored to be acquired by Nvidia almost immediately after launch, and asks why the team is still betting on the coding-agent space. The linked page isn't summarized here; details beyond the title aren't available."
     },
     {
       "id": "infoq-8La5gsJVOOF5BvFiLAUF",
@@ -4777,7 +4797,9 @@
       "tags": [],
       "first_seen": "2026-10-13",
       "domain": "infoq.cn",
-      "quality_score": 34.7
+      "quality_score": 34.7,
+      "summary_zh": "InfoQ 精选：修复漏洞的 PR 刚提交，攻击几分钟后就来了：AI 正在击穿开源安全流程",
+      "summary_en": "Featured on InfoQ: 修复漏洞的 PR 刚提交，攻击几分钟后就来了：AI 正在击穿开源安全流程"
     },
     {
       "id": "infoq-xJ8vYf2lCwGWzVizOTSM",
@@ -4793,7 +4815,9 @@
       "tags": [],
       "first_seen": "2026-10-13",
       "domain": "infoq.cn",
-      "quality_score": 34.8
+      "quality_score": 34.8,
+      "summary_zh": "千问为其 Personal Agent 硬件做了升级：AI 眼镜新增虹膜支付能力，并携手 Bose 首发 AI 耳夹式耳机。该条目原文只有标题，未提供产品规格、价格或上市时间等更多细节。",
+      "summary_en": "Qwen announced an upgrade to its Personal Agent hardware: its AI glasses can now handle iris-based payments, and it has partnered with Bose to debut an AI ear-clip headphone. The linked page isn't summarized here; details beyond the title, such as specs, pricing or launch dates, aren't available."
     },
     {
       "id": "infoq-Fvuq0C19vAAYpSBN3US2",
@@ -4809,7 +4833,9 @@
       "tags": [],
       "first_seen": "2026-10-13",
       "domain": "infoq.cn",
-      "quality_score": 34.5
+      "quality_score": 34.5,
+      "summary_zh": "这篇 InfoQ 文章的标题提出把共享 UI 组件库从“可复用”重新思考为“可再生”，讨论组件库在长期维护中的定位问题。原文是链接，未提供摘要或正文，具体论点和案例无从确认。",
+      "summary_en": "This InfoQ piece proposes rethinking shared UI component libraries from “reusable” toward “renewable,” framing the question of what such libraries are actually for over the long term. The linked page isn't summarized here; details beyond the title aren't available."
     },
     {
       "id": "infoq-OjlADL5itjO3PcVHsuMB",
@@ -4825,7 +4851,9 @@
       "tags": [],
       "first_seen": "2026-10-13",
       "domain": "infoq.cn",
-      "quality_score": 35.0
+      "quality_score": 35.0,
+      "summary_zh": "高通把 Snapdragon X2 的平台支持提前送进上游 Linux 内核，而不是等芯片上市后再零散地打补丁。这意味着各发行版有机会在硬件开卖前后就拿到较完整的支持，对想在 ARM 笔记本上跑 Linux 的人是个信号。原文是链接，未提供更多细节，具体提交范围和内核版本无从确认。",
+      "summary_en": "Qualcomm has pushed Snapdragon X2 platform support into upstream Linux ahead of the usual schedule, rather than patching it in piecemeal after launch. That gives distributions a shot at shipping reasonably complete support around the time the hardware appears, which matters to anyone running Linux on ARM laptops. The linked page isn't summarized here; details beyond the title aren't available."
     },
     {
       "id": "infoq-MrxaqhrQBMrZTcSGEgL1",
