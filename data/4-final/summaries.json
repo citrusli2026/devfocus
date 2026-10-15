@@ -1422,9 +1422,9 @@
     "summary_en": "Trending on HN: 8点1氪丨SpaceX跌破IPO首日收盘价，市值蒸发4000亿美元；英国首相斯塔默宣布辞职；SK海力士市值首超三星电子"
   },
   "gh-daily-affaan-m-ECC": {
-    "summary_zh": "开源项目 ECC — The agent harness performance optimization system. Skills, instincts, memory, security, and research",
-    "summary_en": "Open-source project ECC — The agent harness performance optimization system. Skills, instincts, memory, security, and research",
-    "input_hash": "75c0e860219e"
+    "summary_zh": "ECC 是一个针对 AI coding agent 的 harness 性能优化系统，覆盖 skills、instincts、memory、security 与 research-first development 等模块，支持 Claude Code、Codex、Opencode、Cursor 等工具。它把 agent 的运行环境当作可调优的操作系统来对待，适合已经重度使用 coding agent、希望其行为更稳定可控的开发者。",
+    "summary_en": "ECC is a performance optimization system for AI coding agent harnesses, adding skills, instincts, memory, security and research-first development on top of tools such as Claude Code, Codex, Opencode and Cursor. It treats an agent's runtime as a tunable operating system, which makes it relevant to developers who already lean on coding agents daily and want more stable, controllable behavior.",
+    "input_hash": "621ce4dd0d90"
   },
   "gh-daily-NousResearch-hermes-agent": {
     "summary_zh": "Nous Research 开源了 Hermes Agent，一个以“The agent that grows with you”为定位的智能体项目，仓库采用 MIT 许可证并附带桌面版、文档与 Discord 社区。由于 README 以横幅和徽章为主，未提供功能或架构细节，适合想追踪 Nous Research 动态的开发者先关注。",
@@ -2576,9 +2576,9 @@
     "summary_en": "Clean Code JavaScript adapts Robert C. Martin's classic coding principles specifically for the JavaScript ecosystem, offering practical advice on variable naming, function design, error handling, and more. Whether you're a beginner or an experienced developer, this repository provides actionable tips to improve code readability and maintainability. It has become an essential reference for teams striving to build high-quality JavaScript applications that are easier to debug and extend."
   },
   "gh-daily-JuliusBrussee-caveman": {
-    "summary_zh": "开源项目 caveman — 🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of",
-    "summary_en": "Open-source project caveman — 🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of",
-    "input_hash": "d97032c03273"
+    "summary_zh": "caveman 是一个让 coding agent“少说少读”的 skill 加 proxy，据项目数据可减少整个会话 33.2% 的输入 token，配合 Auto 模式在同等得分下便宜 54%，同时保持代码精确。它以 npm 包 @caveman-ai/cli 分发，声称兼容 30 多种 agent，适合想压低 Claude Code 等编码 agent 使用成本的开发者。",
+    "summary_en": "Caveman is a skill plus proxy for coding agents that trims how much they say and read: the project reports 33.2% fewer input tokens across whole sessions and 54% lower cost with its Auto mode at the same score, while keeping code exact. Distributed as the npm package @caveman-ai/cli and claiming support for 30+ agents, it targets developers trying to cut the cost of tools like Claude Code.",
+    "input_hash": "15091b7be59e"
   },
   "36kr-3879158039834629": {
     "summary_zh": "8点1氪报道了三则重磅商业新闻：被称为「具身智能第一股」的宇树科技已通过上市申请；SK海力士因市场波动单日市值蒸发超1万亿韩元；霸王茶姬因配置失误导致0元抢购潮，随后致歉并紧急修复。这些事件分别反映了具身机器人赛道的资本加速、半导体行业的股价震荡，以及新消费品牌的运营风险。",
@@ -17055,9 +17055,9 @@
     "input_hash": "825594b23f11"
   },
   "hn-49831968": {
-    "summary_zh": "F-Droid 团队发布 2.0 版本，对官方 Android 客户端做了彻底重新设计，官方称开发历时一年多，这是该项目客户端迄今最大的一次改动。F-Droid 是 Android 上以自由开源软件为主的应用商店，关心 FOSS 分发的开发者和用户可以直接升级查看新界面。",
-    "summary_en": "The F-Droid team has released version 2.0 of its official Android app, a complete redesign that it says took more than a year of work and is the largest change the client has seen. F-Droid distributes free and open-source Android apps, so FOSS users and maintainers are the main audience.",
-    "input_hash": "243322528641"
+    "summary_zh": "这是 Hacker News 上一条题为 F-Droid 2.0 的讨论帖，F-Droid 是 Android 上知名的自由软件应用仓库，2.0 指其新版本号。该条只给出链接，未提供更多细节，2.0 究竟带来哪些改动无法从现有信息判断。",
+    "summary_en": "This is a Hacker News discussion titled “F-Droid 2.0”, referring to a new version of the F-Droid free-software app repository for Android. The linked page isn't summarized here, so what changed in 2.0 can't be determined from this entry; anyone wanting the release details will have to open the thread.",
+    "input_hash": "f4f25306789f"
   },
   "hn-49801939": {
     "summary_zh": "Apple 在 iOS 中加入了常驻的“ads”，用户对此反应强烈，认为这拉低了系统使用体验。该条目正文只有一句“Way to cheapen the experience, Apple”的吐槽，广告出现的位置、涉及的 iOS 版本以及能否关闭都没有说明。",
@@ -17170,9 +17170,9 @@
     "input_hash": "ad80eaf43602"
   },
   "v2ex-02e9e83276ba": {
-    "summary_zh": "V2EX 上有用户遇到 unexpected status 401 Unauthorized: Incorrect API key provided，一度以为账号被封，查了 status.openai.com 才发现是服务整体故障。这类报错很容易被误判成 key 失效，调用方排查时最好先看官方状态页再考虑换密钥。",
-    "summary_en": "A V2EX user hit \"401 Unauthorized: Incorrect API key provided\" from OpenAI, assumed their account had been banned, then found on status.openai.com that the service was broadly down. It is a reminder that a 401 can originate upstream rather than from a bad key, so check the status page before rotating credentials or rebuilding clients.",
-    "input_hash": "69b345a8a9b0"
+    "summary_zh": "这是一条 V2EX 帖子，标题显示调用 OpenAI API 时返回 401 Unauthorized，错误信息为 Incorrect API key provided。该条只有链接，未提供更多细节，具体的触发场景与解决办法无法从现有信息判断。",
+    "summary_en": "This V2EX post is titled around an OpenAI API call returning “401 Unauthorized: Incorrect API key provided”, a key-authentication failure. The linked page isn't summarized here, so details beyond the title, such as what triggered it or how it was resolved, aren't available to readers hitting the same error.",
+    "input_hash": "1949af000de7"
   },
   "v2ex-251f6e2df279": {
     "summary_zh": "有用户在 V2EX 提问，用 APTV 播放东方卫视 4K 等标注 4K 的直播源时会持续轻微卡顿，换用从网上找到的几个本地组播源后表现依旧。他想知道问题出在源本身，还是客户端的解码与网络设置，希望有类似经历的人分享排查思路。",
@@ -21218,5 +21218,230 @@
     "summary_zh": "掘金文章梳理 Anthropic 在 2026 年 9 月发布的一份报告，该报告点名阿里、DeepSeek、月之暗面、智谱、小米、商汤、MiniMax 共 7 家中国 AI 公司，指控它们以多种方式蒸馏 Claude。文章追问蒸馏究竟拿走了什么，适合关注大模型数据来源与合规争议的读者。",
     "summary_en": "A Juejin article walks through an Anthropic report published in September 2026 that named seven Chinese AI companies — Alibaba, DeepSeek, Moonshot AI, Zhipu, Xiaomi, SenseTime and MiniMax — accusing them of distilling Claude in various ways. It asks what distillation actually takes from a model, and is aimed at readers following the data-provenance and compliance debate around large models.",
     "input_hash": "2b6cf57d681f"
+  },
+  "v2ex-c682276ac420": {
+    "summary_zh": "V2EX 热议：[分享创造] 免费听歌，现在还吸引人吗",
+    "summary_en": "Hot on V2EX: [分享创造] 免费听歌，现在还吸引人吗",
+    "input_hash": "e27eb9d5ecd1"
+  },
+  "hn-50093568": {
+    "summary_zh": "Hacker News 上一条标题为 Things to know when you get cancer 的帖子，主题是确诊癌症后需要了解的事项。原文只有链接，未提供更多正文细节，因此这里无法概括具体内容；对这类实用信息感兴趣的读者可直接打开原链接。",
+    "summary_en": "A Hacker News post titled \"Things to know when you get cancer.\" The linked page isn't summarized here; details beyond the title aren't available, so the specific advice it gives can't be described. Readers looking for practical guidance after a cancer diagnosis may want to open the original link.",
+    "input_hash": "400ac7a4b0d8"
+  },
+  "zhihu-2093673568659838421": {
+    "summary_zh": "这是知乎上的一个提问：如何看待胖东来梦之城项目按照标准施工、被网友夸为「教科书级」这件事。原帖未附带更多正文或描述，具体的施工细节与讨论无法在此还原，关注胖东来项目或建筑工程质量话题的读者可前往原帖查看。",
+    "summary_en": "A Zhihu question asking how to view the fact that Pang Dong Lai's Dream City project was praised as \"textbook-level\" for building to standard. No description or body text accompanies the post, so the construction details and the arguments behind that praise aren't available here. Those following the retailer's project or Chinese construction-quality debates can read the original thread.",
+    "input_hash": "0f1b5f21065a"
+  },
+  "36kr-4026385299165321": {
+    "summary_zh": "8点1氪汇总三条消息：微信、淘宝、美团等应用拒绝接入豆包手机助手；苹果成为全球第二家市值突破 5 万亿美元的企业；美国 9 月 CPI 同比增长 3.7%，高于预期。内容横跨平台生态、科技股估值与宏观通胀数据，适合想快速掌握当天商业科技动态的读者。",
+    "summary_en": "A daily briefing covering three items: WeChat, Taobao, Meituan and other apps declined to integrate the Doubao phone assistant; Apple became the second company worldwide to top a $5 trillion market cap; and US September CPI came in at 3.7% year over year, above expectations. It's a fast read for anyone tracking platform gatekeeping of AI assistants, mega-cap valuations and inflation data.",
+    "input_hash": "3334b0fdd795"
+  },
+  "infoq-bjowsAJHMwfAzRMqu4qJ": {
+    "summary_zh": "Spring 多个子项目发布第二个里程碑版本：Boot 4.2.0-M2 新增 management.observations.conventions 属性，可在 Micrometer 与 OpenTelemetry 之间切换语义约定，并支持用 LdapContextSource 自动配置命名 SSL Bundle；Data 2026.1.0-M2 初步兼容 Hibernate ORM 8.0.0.Beta1，为 Jakarta Persistence 4.0 做准备；Cloud 2026.0.0-M1（代号 Paddington）新增 PropertyPathNotifier 接口，Framework 7.1.0-M2 与 Security 7.2.0-M2 同步更新。关注 Spring 生态升级路径的后端开发者可据此评估迁移成本。",
+    "summary_en": "Spring shipped second milestone releases across its projects. Spring Boot 4.2.0-M2 adds a management.observations.conventions property for switching between Micrometer and OpenTelemetry semantic conventions, and can auto-configure named SSL bundles from an LdapContextSource instance; Spring Data 2026.1.0-M2 adds preliminary Hibernate ORM 8.0.0.Beta1 support ahead of Jakarta Persistence 4.0, while Spring Cloud 2026.0.0-M1 (Paddington) introduces a PropertyPathNotifier interface. Spring Framework and Security M2 builds shipped alongside, so teams planning upgrades should check the release notes.",
+    "input_hash": "d89aa987abcf"
+  },
+  "v2ex-7ed09ac42b0c": {
+    "summary_zh": "YourKeep 是一款开源备份工具，文件在本地加密后拆成多份，可分存于不同云盘或硬盘，例如 2/3 方案任意保留 2 份即可恢复，无需注册、不上传服务器，恢复功能永久免费。目前已支持 iOS、Android、Windows、macOS 和 Linux，作者在 V2EX 通过 Apple 官方兑换链接发放 iOS 终身会员。适合担心云盘封号或硬盘损坏导致重要文件丢失的用户。",
+    "summary_en": "YourKeep is an open-source backup tool that encrypts files locally, splits them into shards kept across different cloud drives or disks, and needs only a subset to restore the originals — for example, any 2 of 3 shards. It requires no account and no upload to a server, with recovery free forever, and runs on iOS, Android, Windows, macOS and Linux. The developer is giving away iOS lifetime codes through Apple's official redemption link on V2EX.",
+    "input_hash": "bc10b559a836"
+  },
+  "v2ex-11ab44a3be65": {
+    "summary_zh": "英伟达 400G 光模块 MMS1X00-NS400 的规格文档在「Handling and Cleaning」一节写明：80% 的光模块链路故障与光接头脏污有关。该模块是 QSFP112 封装、单模 1310nm、最远 500 米，配 ConnectX-7 与 BlueField-3 使用，文档要求插纤前清洁端面和光纤接头并保留防尘帽。作者据此整理了先查端面、再交叉换位、最后才怀疑模块的排查顺序，适合机房运维和光模块使用者参考。",
+    "summary_en": "NVIDIA's spec sheet for its 400G optical module MMS1X00-NS400 states in the Handling and Cleaning section that 80% of transceiver link problems come from dirty optical connectors. The QSFP112 module runs 4x100G-PAM4 over single-mode 1310nm fiber up to 500m and pairs with ConnectX-7 and BlueField-3; the doc requires cleaning both the module port and the fiber end face before mating and keeping dust caps on. The author adds a field checklist that starts with inspecting end faces instead of swapping modules, noting that a dirty core on one of the MPO-12/APC fibers is enough to degrade a lane.",
+    "input_hash": "2d2be28f3dde"
+  },
+  "v2ex-de23c83d5199": {
+    "summary_zh": "Kling 4.0 局部编辑怎么验收：作者用六个问题把流程拆成创意编辑、商品核查与交付验收，建议先把客户需求写成「要改 / 必须保留 / 可适配」三栏再下指令。官方称编辑任务最多支持 5 段视频（含 1 段主视频）、累计不超 30 秒，9 月 30 日公告表示完整 4.0 计划 2026 年 10 月扩大开放。适合用 AI 换背景、换商品，又担心主体和商品细节被连带改坏的创作者。",
+    "summary_en": "A practical guide to validating Kling 4.0's local edits: the author turns the workflow into six questions spanning creative editing, product fact-checking against real reference shots, and delivery review, and suggests writing requests as three columns — what to change, what to keep, what may adapt. Kling's docs say an edit task supports up to 5 videos including one main clip, totaling 30 seconds, and a Sept 30 notice says full 4.0 is planned to widen access in October 2026. Aimed at creators doing AI background or product swaps who still need to check subject edges, motion and label accuracy.",
+    "input_hash": "1a3af24b74f7"
+  },
+  "v2ex-69a152540898": {
+    "summary_zh": "有人在 V2EX 发帖称一个名为 Muse Spark Open 的开源模型已发布，并称其为「最牛的 open model」，认为国内可以在此基础上继续推进。帖子正文只有一句话，没有给出参数规模、评测成绩、许可协议或下载地址等细节。",
+    "summary_en": "A V2EX post says a model named Muse Spark Open has been released, calling it the strongest open model and suggesting developers in China can build further on top of it. The post is a single sentence; no parameter count, benchmarks, license or download link are provided.",
+    "input_hash": "099428c92036"
+  },
+  "v2ex-e724082e755a": {
+    "summary_zh": "北京一位用户买了个机柜后懒得自己理线，想找本地师傅把 6—7 台设备接进柜内、现场做网线并整理走线，只处理机柜内部的线路。他在某平台问到的报价是一次 1000 元，觉得偏贵，希望网友推荐价格合理的师傅或商家。",
+    "summary_en": "A user in Beijing who bought a rack but doesn't want to do the cabling himself is looking for a local technician to mount 6–7 devices, crimp cables on site and tidy the runs, handling only the wiring inside the cabinet. The single quote he got was 1,000 yuan for one visit, which he finds expensive, so he is asking for recommendations of reliable, reasonably priced installers.",
+    "input_hash": "1efbbfec20f3"
+  },
+  "v2ex-441317c8689e": {
+    "summary_zh": "用户反映 Find My「物品」里的 AirTag 全部消失，而设备栏中的 iPhone、iPad、Mac 仍能正常显示。系统为 iOS 27.01，重启手机无效，用 iPad Pro（iPadOS 26）查看也是同样情况；作者还提到近半年遇到两次严重的苹果软件故障，上一次是 macOS 钥匙串被锁死。",
+    "summary_en": "A user reports that every AirTag disappeared from the Items tab in Find My, while the iPhone, iPad and Mac still show up normally under Devices. Rebooting on iOS 27.01 doesn't help, and the same thing happens when checking from an iPad Pro running iPadOS 26. The poster says this is the second severe Apple software failure they've hit in under six months, the previous one being a locked macOS keychain.",
+    "input_hash": "429b97f5e100"
+  },
+  "v2ex-bdf15a6a4280": {
+    "summary_zh": "Kling 4.0 已由官方在 X 宣布全面开放，新增创作界面并提到 MCP 与 CLI 接入，企业及开发者 API、10-bit HDR 输出仍属 Coming Soon。发帖人更在意 AI 视频能否“改稿”：调整运镜时修改是否收敛、满意部分能否保住、设置能否复用，这比单次生成价格更影响它能否进入固定工作流。",
+    "summary_en": "Kling AI has announced on X that Kling 4.0 is fully open, adding a new creation interface and mentioning MCP and CLI access, while the enterprise/developer API and 10-bit HDR output remain Coming Soon. The poster isn't focused on image quality but on whether AI video can be revised: when you slow a camera move, do edits converge, do the parts you liked survive, and can settings be reused? For anyone shipping AI video, that reproducibility matters more than per-generation price.",
+    "input_hash": "baa845951dd4"
+  },
+  "v2ex-624c4229a1c0": {
+    "summary_zh": "有 V2EX 用户根据近三年使用体验称，WeChat 欧洲与英国的数据存放位置疑似与其隐私政策不符：打开 WeChat 加载消息常有数秒至十余秒延迟，而 UK 到 DE 的延迟仅 15-18ms，查询显示数据会绕经北美和新加坡；港澳数据可能一直在香港（仅为推测）。",
+    "summary_en": "A V2EX user reports that WeChat's data for Europe and the UK appears not to be stored where its privacy policy says. Over roughly three years of use, loading messages in WeChat often takes several to ten-plus seconds, while UK–DE latency is only 15–18ms, and the poster says traffic appears to route through North America and Singapore. Hong Kong/Macau data may have stayed in Hong Kong, though that part is only a guess.",
+    "input_hash": "cb251b9b3bfd"
+  },
+  "36kr-4026443226992771": {
+    "summary_zh": "这是 36氪 的一篇文章，标题为“80、90后经历过的那个盗版年代，好像又要回来了”。该条目除标题外没有提供摘要或正文，原文是链接，未提供更多细节，其具体论据、涉及的产品和事件都无从确认。",
+    "summary_en": "This is a 36Kr article titled \"80、90后经历过的那个盗版年代，好像又要回来了\" (roughly, \"the piracy era that '80s and '90s kids lived through looks like it's coming back\"). No description or body text is provided with this item, so its arguments and the products or events it cites can't be confirmed; the linked page isn't summarized here and details beyond the title aren't available.",
+    "input_hash": "4789ce8a363a"
+  },
+  "infoq-xKkEswgSftEcGrkK6oTY": {
+    "summary_zh": "InfoQ 将一场直播整理成文：蚂蚁集团郭春晓主持，与蚂蚁 Harness 架构组肖汉松、腾讯任磊达、京东曲奎林讨论 Agent 从 Harness 到 Loop 的演进——前者解决“任务怎么完成”，后者解决“怎么越变越强”。核心观点是模型能力正被商品化、工程体系决定交付下限，执行可自动化但决策与验收仍需人拍板；QCon 上海站（10 月 22-24 日）设有【Loop Engineering】专题。",
+    "summary_en": "An InfoQ write-up of a livestream features Ant Group's Guo Chunxiao hosting Xiao Hansong from Ant's Harness architecture team, Tencent's Ren Leida and JD's Qu Kuilin on the shift from Harness to Loop: Harness handles how an agent completes a task, while Loop handles how it keeps getting stronger. Their main points are that model capability is being commoditized, engineering systems set the delivery floor, and execution can be automated while decisions and acceptance still need humans. QCon Shanghai (Oct 22-24) has a Loop Engineering track.",
+    "input_hash": "438247a0d015"
+  },
+  "v2ex-8455b9a9f135": {
+    "summary_zh": "V2EX 问答区有用户发帖，询问是否有人出 grok 订阅或合租，并提到 200 美元的价格。原文只是链接，未提供更多细节，是求购、转让还是拼车分摊无法确认。",
+    "summary_en": "A V2EX Q&A post asks whether anyone is selling or co-renting a Grok subscription, citing a $200 figure. The linked page isn't summarized here; details beyond the title aren't available, so whether the poster is buying, reselling or splitting the cost is unclear.",
+    "input_hash": "a1662b0873fa"
+  },
+  "infoq-Wss036X3C6APXsS41HwC": {
+    "summary_zh": "InfoQ 这篇文章的标题抛出疑问：企业真正需要的，不是更聪明的 Agent？指向对当下 Agent 能力竞赛的反思。原文是链接，未提供更多细节。",
+    "summary_en": "An InfoQ piece asks whether what enterprises actually need is something other than an even smarter Agent, framing the question against today's capability race. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "fcee9455f625"
+  },
+  "infoq-QdPWpubQFmegrsH9UZFC": {
+    "summary_zh": "AI 创业公司元环智能（MetaCircle）成立不到半年，累计完成数亿元种子轮与种子+轮融资，创始人刘子鸣是 KAN 一作、现任清华大学人工智能学院助理教授。其研究对象是“元模型”，不直接执行任务，而是学习架构与训练配置同实验表现的关联，在训练完成前预测损失曲线，用于提前筛掉差方案乃至自动设计模型架构。",
+    "summary_en": "MetaCircle, an AI startup founded in May 2026, has raised several hundred million yuan across seed and seed+ rounds led by Shunwei Capital, with 360's investment arm and Baidu Ventures among the backers. Founder Liu Ziming, born in 1998, is a Tsinghua assistant professor and first author of the KAN paper. The company is building a 'meta model' that learns how architectures and training configurations map to experimental results, predicting training curves before a run finishes so weak candidates can be dropped or architectures designed automatically.",
+    "input_hash": "5e75e3ed2f47"
+  },
+  "infoq-JbzA5yvzl2BkuTpkfdrU": {
+    "summary_zh": "QCon 上海站（10 月 22-24 日）设立《AI Infra：算力效率决定规模化落地》专场，议题覆盖数据工程、集群调度与推理闭环。文章指出 2026 年成本重心正从预训练转向推理端，MoE 动态路由、长上下文显存占用与推理模型的 Token 消耗共同推高单任务成本，竞争指标已从单 Token 标价转向端到端任务的有效交付成本，适合做推理优化的 Infra 开发者。",
+    "summary_en": "QCon Shanghai (Oct 22-24) hosts a track titled 'AI Infra: Compute Efficiency Decides Scalable Deployment,' spanning data engineering, cluster scheduling and the inference loop. The article argues that in 2026 cost is shifting from pretraining to inference: MoE dynamic routing, long-context memory residency and reasoning models burning thousands of tokens per request all inflate per-task spend, so the metric that matters is no longer per-token price but end-to-end cost per delivered task. Aimed at infra engineers working on inference optimization.",
+    "input_hash": "a9f300f9a9cb"
+  },
+  "infoq-kvzkXDXpKOXILlfirftW": {
+    "summary_zh": "QCon 上海站（10 月 22-24 日）上，字节跳动资深技术专家张国强将分享 Supabase 从 App Backend 转向 Agent Backend 的演进实践。面向 App，用 Serverless、Data as Git 和前端自动部署支撑应用快速生成；面向 Agent，则通过 AI Gateway、Sandbox、记忆库和知识库搭建安全可治理的运行底座，并结合豆包应用生成与 TRAE 编程实践复盘工程取舍。",
+    "summary_en": "At QCon Shanghai, ByteDance senior engineer Zhang Guoqiang will present how ByteDance's Supabase evolved from an App backend into an Agent-Native one. For apps it relies on Serverless, Data as Git and automatic frontend deployment to accelerate app generation; for agents it adds an AI Gateway, Sandbox, memory store and knowledge base as a secure, governable runtime. The talk draws on Doubao app generation and TRAE coding practice to review the key trade-offs.",
+    "input_hash": "e358f994906d"
+  },
+  "infoq-5GOXqmJaGKbukSIWU4Uf": {
+    "summary_zh": "亚马逊云科技发布 Amazon CloudWatch Omni，一个 AI 优先的可观测性平台：除传统延迟、错误等指标外，它还捕获智能体端到端追踪，评估正确性、连贯性、检索效果与工具选择，并支持用生产流量构建测试集、比较提示词和检测回归。它兼容 LangChain、CrewAI、OpenAI SDK、Strands 等框架，原生支持 OpenTelemetry，并同时提供 SSO Web 控制台和免费的 VS Code/Kiro IDE 扩展。",
+    "summary_en": "Amazon Web Services launched CloudWatch Omni, an AI-first observability platform that goes beyond standard metrics to capture end-to-end agent traces and assess correctness, coherence, retrieval quality and tool selection, letting teams build test datasets from production traffic and catch regressions. It supports frameworks including LangChain, CrewAI, OpenAI SDK and Strands, is built on open standards such as OpenTelemetry, and ships both an SSO web console and a free VS Code/Kiro extension.",
+    "input_hash": "bc2f0eeb5975"
+  },
+  "infoq-JxVNJwhmsB1YYKmgD9KU": {
+    "summary_zh": "Istio 1.31 允许在 ambient 网格中通过新的 istio-agentgateway-waypoint GatewayClass，把由 Solo.io 捐赠给 Linux 基金会的 Rust 数据平面 agentgateway 用作七层 waypoint 代理，可处理 MCP 等协议。该版本同时停止向 Google Cloud 发布容器镜像和 Helm Chart，仍依赖 gcr.io/istio-release 等来源的团队需在 10 月 13 日断供测试前完成迁移，相关服务将于 12 月退役。",
+    "summary_en": "Istio 1.31 lets teams run agentgateway, the Rust data plane Solo.io donated to the Linux Foundation, as a layer-7 waypoint proxy in ambient mesh via a new istio-agentgateway-waypoint GatewayClass that also handles protocols like MCP. The same release stops publishing container images and Helm charts to Google Cloud, so anyone still pulling from gcr.io/istio-release or registry.istio.io must migrate before the October 13 blackout test; those services retire in December.",
+    "input_hash": "3bfe54ff6f01"
+  },
+  "infoq-Z1dzWgsvtLgDhqMjkRAv": {
+    "summary_zh": "Atlassian 把覆盖 14 个区域、约 10 万台主机的指标平台从 gostatsd 迁到了 OpenTelemetry，同时保住原有 99.95% 的 SLO。做法是保留 StatsD-over-UDP 接口、只重构后端处理，把全组织范围的迁移变成平台团队主导的工作；用 Collector 发行版替换 gostatsd sidecar 后，指标与 tracing 合并，全集群 sidecar 资源消耗约降 30%。",
+    "summary_en": "Atlassian detailed migrating its metrics platform — roughly 100,000 hosts across 14 regions under a 99.95% SLO — from gostatsd to OpenTelemetry. Rather than force thousands of services onto new SDKs, the team kept the StatsD-over-UDP interface and rebuilt everything behind it, turning an org-wide migration into a platform-team effort. Replacing gostatsd sidecars with a Collector distribution and folding metrics into the tracing sidecar cut sidecar resource use across the fleet by about 30%.",
+    "input_hash": "c036da507659"
+  },
+  "infoq-a8LKxyL9AC4PWhB2r0XX": {
+    "summary_zh": "QCon 全球软件开发大会将于 10 月 22 至 24 日在上海举行，其中《数据驱动的具身智能：迈向规模化之路》专题由蚂蚁灵波科技首席数据科学家黄用韬担任出品人。专题围绕真机交互数据不足、闭环效率低、仿真与现实难对齐等挑战，讨论具身数据体系、数据驱动模型革新与通用物理智能落地，已公布讲师包括大晓机器人技术副总裁刘春晓和 Dexmal 原力灵机联合创始人汪天才。",
+    "summary_en": "QCon Shanghai, running October 22–24, hosts a track titled Data-Driven Embodied AI: The Road to Scale, curated by Huang Yongtao, chief data scientist at Ant Lingbo Technology. The sessions address scarce real-robot interaction data, slow feedback loops and the sim-to-real gap, covering embodied data pipelines, model innovation and deployment of general physical intelligence, with speakers including Liu Chunxiao of Daxiao Robotics and Wang Tiancai, co-founder of Dexmal.",
+    "input_hash": "e990356b0613"
+  },
+  "36kr-4025931442034567": {
+    "summary_zh": "中国电建在秘鲁的首个光伏项目提前投产，装机容量为 96.9 兆瓦，标题称这正在改写南美市场的规则。该条目只提供了标题，没有正文或其他细节可供核实。",
+    "summary_en": "PowerChina's first photovoltaic project in Peru, a 96.9 MW plant, came online ahead of schedule, and the headline argues Chinese companies are rewriting the rules of the South American market. Only the title is available for this item — no body text or additional details are provided, so the project's terms and impact can't be verified here.",
+    "input_hash": "5ed006dc277b"
+  },
+  "36kr-4026370532790145": {
+    "summary_zh": "36kr 的这条资讯称 Claude 已彻底解禁第三方应用。原文只有标题、没有正文，所以解禁的范围、时间点和可用接入方式都未披露；正在围绕 Claude 做第三方客户端的开发者需要自己跟进后续细节。",
+    "summary_en": "A 36kr headline reports that Claude has fully opened up to third-party apps. Beyond the title there is no body text, so the scope of the change, its timing and supported integrations remain unknown. Developers building third-party clients on top of Claude will need to follow up on the details themselves.",
+    "input_hash": "a68bc0aaf34b"
+  },
+  "36kr-4026584145631110": {
+    "summary_zh": "36kr 这条标题称 Nvidia DLSS 5 实现了半年约 10 倍的提速，并把「神经渲染」重新推到话题中心。原文除标题外没有正文，测试条件、支持的显卡与画质差异均未披露；做实时渲染的图形开发者可以继续关注后续数据。",
+    "summary_en": "According to a 36kr headline, Nvidia's DLSS 5 brings roughly a 10x speedup over a six-month span and revives the neural rendering discussion. No body text accompanies the title, so test conditions, supported GPUs and image-quality tradeoffs aren't given. Graphics and real-time rendering developers should watch for the underlying numbers.",
+    "input_hash": "d4ad17b01bce"
+  },
+  "hn-50050553": {
+    "summary_zh": "这是 Hacker News 上一个标题为「Do dentists know what they're doing?」的帖子。原文只提供链接，未附任何摘要或正文，所以标题之外的内容无从确认，需要点进原链接自行阅读。",
+    "summary_en": "A Hacker News post titled 'Do dentists know what they're doing?'. The linked page isn't summarized here; details beyond the title aren't available, so you'll have to open the link to see what it actually argues.",
+    "input_hash": "18476f4fe526"
+  },
+  "hn-50084757": {
+    "summary_zh": "这篇文章讲的是 Amazon 如何推高整个互联网上的商品价格，其核心论点是：即使你不在 Amazon 下单，也照样在为 Amazon 造成的高价买单。适合关心电商平台定价权与反垄断议题的读者。",
+    "summary_en": "The article examines how Amazon pushes up prices all across the internet, with the blunt framing that you don't have to shop on Amazon to pay Amazon's high prices. It's aimed at readers following e-commerce pricing power and antitrust debates.",
+    "input_hash": "c58e08c2cddf"
+  },
+  "hn-50094994": {
+    "summary_zh": "OpenCode 2.0 出现在 Hacker News 上。原文只提供链接，未附任何正文说明，因此这个版本具体更新了什么、定位有何变化都无法确认，感兴趣的话只能点进原链接自行判断。",
+    "summary_en": "OpenCode 2.0 was posted to Hacker News. The linked page isn't summarized here; details beyond the title aren't available, so what the release actually changes can't be determined without opening the link.",
+    "input_hash": "e0b0c5a388fd"
+  },
+  "36kr-4026368642175108": {
+    "summary_zh": "36kr 这篇报道的标题称，马斯克用一笔 80 亿美元的交易搅动了电信这门百年生意，但原文是链接，未提供更多细节，交易标的、买卖双方与具体逻辑都无从确认。关注电信、卫星通信以及马斯克旗下公司资本动作的读者，需要点开原文才能看清脉络。",
+    "summary_en": "A 36kr story whose headline says Musk shook up the century-old telecom business with an $8 billion deal. The linked page isn't summarized here; details beyond the title, including the parties and the target, aren't available. One for readers tracking telecom, satellite connectivity or the capital moves of Musk's companies.",
+    "input_hash": "599338bd0b78"
+  },
+  "36kr-4026618302124677": {
+    "summary_zh": "36kr 这篇报道的标题抛出“AI 正在颠覆制药行业？”这一问题，但原文是链接，未提供更多细节，文章涉及哪些研发环节、提到哪些公司均不得而知。对 AI 制药、药物发现与临床试验流程感兴趣的人，只能打开原文判断其论据是否站得住。",
+    "summary_en": "The 36kr headline asks whether AI is upending the pharmaceutical industry. The linked page isn't summarized here, so which parts of drug discovery or which companies are discussed isn't available beyond the title. Anyone following AI-driven pharma R&D or clinical trials will have to open the original to weigh its evidence.",
+    "input_hash": "6cb4795b7694"
+  },
+  "36kr-4026468251539079": {
+    "summary_zh": "36kr 做了一份全球人形机器人领域 20 位领军人物的盘点，但原文是链接，未提供更多细节，名单具体包含谁、按什么标准筛选都没有说明。适合想快速摸清人形机器人赛道关键人物与团队背景的读者。",
+    "summary_en": "A 36kr roundup of 20 leading figures behind humanoid robotics worldwide. The linked page isn't summarized here, so who made the list and how they were chosen isn't available beyond the headline. Useful for readers who want a quick map of the key people and teams in the humanoid robot race.",
+    "input_hash": "98965e6b87a1"
+  },
+  "zhihu-2094116217489450760": {
+    "summary_zh": "知乎上的一个提问：DeepSeek 在服务停摆 5 小时后，按用户最近七日的 API 消耗量发放补偿赠金，标题请人评价这一做法。原文是链接，未提供更多细节，赠金金额、覆盖范围与用户反馈都无从确认。关心 API 可用性承诺与事故补偿机制的开发者可以留意。",
+    "summary_en": "A Zhihu question asking people to evaluate DeepSeek's handling of a five-hour outage: it issued compensation credits based on each user's API consumption over the previous seven days. The linked page isn't summarized here, so the size, scope and reception of those credits aren't available. Relevant to developers thinking about API uptime guarantees and outage compensation.",
+    "input_hash": "c4711fb31ccf"
+  },
+  "36kr-4026609117532802": {
+    "summary_zh": "36kr 的一篇产品观察提到，售价近 8000 元的 Ebike 已被蔚来车主买走数万辆，但原文是链接，未提供更多细节，车型、品牌与具体销量数据都未给出。对电动出行硬件，以及车企如何经营车主社区、做用户变现感兴趣的读者可作参考。",
+    "summary_en": "A 36kr product observation notes that an Ebike priced near 8,000 yuan has been bought in the tens of thousands by NIO owners. The linked page isn't summarized here, so the brand, model and sales figures beyond the headline aren't available. Relevant to those watching e-mobility hardware and how carmakers monetize their owner communities.",
+    "input_hash": "0806c44bda2f"
+  },
+  "36kr-4026574580322439": {
+    "summary_zh": "这是一篇来自 36kr 的报道，主题是借助 AI 约到五个此前不认识的陌生人一起喝酒。原文只给出标题和链接，未附正文摘要，AI 具体如何参与匹配、活动过程和结果都没有更多细节可考。",
+    "summary_en": "A 36kr item whose headline describes using AI to arrange a drinking meetup with five strangers. The linked page isn't summarized here, so anything beyond the title — which tools were used, how the strangers were matched, how the evening went — isn't available; readers need to open the original link for that.",
+    "input_hash": "151fe7056137"
+  },
+  "zhihu-2094023847775135091": {
+    "summary_zh": "知乎上的一个法律讨论帖，案情是一名 1 岁婴儿吃下被邻居投毒的鸡蛋后住进 ICU，邻居自首时称原本「想毒黄鼠狼」。提问聚焦邻居应承担怎样的法律责任，而原文只给出标题，案件后续与更多细节未在页面中提供。",
+    "summary_en": "A Zhihu discussion built on one case: a one-year-old who ate an egg poisoned by a neighbor ended up in the ICU, and the neighbor turned himself in saying he had meant to poison a weasel. The question asks what legal liability the neighbor should bear. The linked page isn't summarized here; no further case details are available.",
+    "input_hash": "16624e5c8259"
+  },
+  "zhihu-2094017633859408212": {
+    "summary_zh": "知乎上的讨论：LoL 官方宣布经典模式将于 2027 年 1 月下架，问题由此追问怀旧模式为何难以留住玩家。原文仅有标题，未附公告内容或数据，关于下架原因和玩家反应没有更多细节。",
+    "summary_en": "A Zhihu thread about an official LoL announcement that the classic mode will be taken offline in January 2027, asking why nostalgic modes struggle to retain players. The linked page isn't summarized here, so the announcement's wording, the reasons behind the decision and player reactions aren't available; only the headline is on hand.",
+    "input_hash": "517370d863d6"
+  },
+  "zhihu-2094036953070920084": {
+    "summary_zh": "知乎话题：长实集团就李嘉诚去世的传闻公开回应称「绝无其事」。提问想了解李嘉诚目前的身体状况，但页面只给出标题，没有正文或进一步说明，因此无法确认更多信息。",
+    "summary_en": "A Zhihu topic about 长实集团's public denial of rumors that Li Ka-shing had died; the company said there was \"absolutely no such thing.\" The question asks about his current health. The linked page isn't summarized here, so no further detail on the statement or his condition is available beyond the headline.",
+    "input_hash": "535fa5f37b98"
+  },
+  "juejin-7686327615728975922": {
+    "summary_zh": "掘金上的一篇个人复盘：作者是 2024 年毕业的长沙本地人，专科学历，在就业环境不佳时仍选择做前端，理由之一是「觉得简单」。毕业后至今他先后待过三家公司，文章讲的是自己在这座「不够大的城市」里的成长经历，适合正在纠结入行方向或刚工作的前端新人参考。",
+    "summary_en": "A personal post on Juejin from a 2024 graduate based in Changsha with a vocational-college degree, who chose frontend development despite a tough job market because it seemed simpler than the alternatives. He has worked at three companies since graduating, and the piece traces how his growth played out in a city he describes as not quite big enough. Readers weighing a frontend career or early career moves may find it relatable.",
+    "input_hash": "5288e124491f"
+  },
+  "zhihu-2093023077651177575": {
+    "summary_zh": "有网友反映，部分华为门店对样机试用设置了时间限制，门店方面的解释是防止小孩长时间占用样机打游戏，相关讨论在知乎展开。该条目原文是链接，未提供更多细节，具体限时方式、涉及门店范围都无法确认。",
+    "summary_en": "A Zhihu thread looks at claims that some Huawei stores now limit how long customers can try out demo phones, with staff saying the rule is meant to stop children from occupying the devices to play games. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "4ffc52bf79e9"
+  },
+  "zhihu-2062123788586726125": {
+    "summary_zh": "知乎上有人在讨论，看多了 AI 生成的短剧之后，为什么对真人出演的短剧和电视剧失去了兴趣。这条原文是链接，未提供更多细节，提问者给出的理由和其他回答的具体观点都无从得知。",
+    "summary_en": "A Zhihu question asks why people who have watched a lot of AI-generated short dramas lose interest in live-action short dramas and TV series. The linked page isn't summarized here; details beyond the title aren't available, so the reasoning behind the question and the answers it drew can't be assessed.",
+    "input_hash": "e473a5f3cfe6"
+  },
+  "zhihu-2094035039738488688": {
+    "summary_zh": "知乎提问关注一项成果：中国科学家称首次借助中国自研大模型解决了某个世界级数学难题。原文是链接，未提供更多细节，因此所用的模型名称、具体是哪道难题以及成果如何验证，都无法从输入中确认。",
+    "summary_en": "A Zhihu question centers on a reported result in which Chinese scientists used a homegrown large model to crack a world-class math problem for the first time. The linked page isn't summarized here; details beyond the title aren't available, so the model involved, the specific problem and how the result was verified remain unknown.",
+    "input_hash": "791b192f7ead"
+  },
+  "zhihu-2092058455427359070": {
+    "summary_zh": "知乎上有人提出一个强硬观点，认为 OpenAI 近期发表的所有论文都是错误的，并反问这一点难道还不明显。这条原文是链接，未提供更多细节，被质疑的论文范围、作者的判断依据在输入中都没有交代。",
+    "summary_en": "A Zhihu post asserts that every paper OpenAI has published recently is wrong, and asks whether that isn't already obvious. The linked page isn't summarized here; details beyond the title aren't available, so which papers are being challenged and on what grounds isn't stated.",
+    "input_hash": "212699f7f10f"
+  },
+  "gh-daily-xerj-org-xerj": {
+    "summary_zh": "XERJ 是一个用 Rust 编写的 AI 数据检索工具，其 autoindex 能用一条命令为代码、文档、日志和 PDF 建立索引，让 agent 直接查询数据，而不必靠 grep、sed 反复翻文件浪费 token，项目采用 Apache-2.0 许可。适合想让 coding agent 在大仓库和大量文档中更快定位内容的开发者。",
+    "summary_en": "XERJ is a Rust-based search tool that gives AI agents a single command to index code, docs, logs and PDFs, so they can query your data directly instead of burning tokens on grep and sed. It ships under Apache-2.0 and is aimed at developers who want coding agents to find the right content in large repos and document sets.",
+    "input_hash": "2035592af6c8"
   }
 }
