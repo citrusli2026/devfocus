@@ -250,7 +250,9 @@
       "tags": [],
       "first_seen": "2026-10-14",
       "domain": "typeof.net",
-      "quality_score": 47.4
+      "quality_score": 47.4,
+      "summary_zh": "Iosevka 更新至 34.9.0，这是一个开源等宽字体家族，兼有 sans-serif 与 slab-serif 风格以及 quasi-proportional 字形，为写代码、终端和技术文档设计。它的等宽字形默认只有 1/2em 宽，同屏能排下更多列，并提供 Normal 与 Extended 两种宽度。",
+      "summary_en": "Iosevka 34.9.0 is an open-source monospace family that also ships sans-serif and slab-serif variants plus quasi-proportional faces, aimed at code, terminals and technical documents. Its monospace glyphs are just 1/2em wide by default, so more columns fit on the same screen, and it comes in Normal and Extended widths."
     },
     {
       "id": "hn-50058528",
@@ -394,7 +396,9 @@
       "tags": [],
       "first_seen": "2026-10-15",
       "domain": "research.meta.ai",
-      "quality_score": 44.6
+      "quality_score": 44.6,
+      "summary_zh": "Meta 发布开放模型 Muse Spark Open，Hugging Face 上的仓库为 meta-models/Muse-Spark-Open-816B-A42B，同时配有 dev.meta.ai 上题为 Build with Muse Spark Open 的博客和 9to5Mac 的报道。816B-A42B 的命名指向总参数量 816B、激活参数约 42B 的规模，适合关注开源大模型体量与稀疏架构的开发者。",
+      "summary_en": "Meta released an open model called Muse Spark Open, with a Hugging Face repo at meta-models/Muse-Spark-Open-816B-A42B, a \"Build with Muse Spark Open\" post on dev.meta.ai and coverage from 9to5Mac. The 816B-A42B naming points to 816B total parameters with roughly 42B active, which matters to developers following large open-weight releases and sparse architectures."
     },
     {
       "id": "hn-50093180",
@@ -490,7 +494,9 @@
       "tags": [],
       "first_seen": "2026-10-15",
       "domain": "already-clean.goodfire.com",
-      "quality_score": 39.9
+      "quality_score": 39.9,
+      "summary_zh": "这条 Hacker News 条目标题为《Neural networks are clean》，但正文只是一个指向 Twitter 的链接，未提供任何摘要或说明。因此无法从现有信息判断作者的具体论点，想了解内容只能直接打开该推文。",
+      "summary_en": "This Hacker News entry carries the title \"Neural networks are clean,\" but the body is just a link to a Twitter post — the linked page isn't summarized here; details beyond the title aren't available. Readers who want the actual argument will have to open the tweet itself."
     },
     {
       "id": "hn-50069971",
@@ -4754,7 +4760,9 @@
       "tags": [],
       "first_seen": "2026-10-15",
       "domain": "infoq.cn",
-      "quality_score": 32.9
+      "quality_score": 32.9,
+      "summary_zh": "阿里千问 10 月 13 日开售 AI 眼镜 N1、N1 Pro，到手价 2218 元起，并推出与 Bose 合作的耳夹式耳机。新机取消显示屏、主打语音交互，N1 Pro 含 5000 万像素传感器与眼动追踪仍仅约 44g，靠骁龙 AR1 等异构平台把常驻视觉感知功耗压至 5 毫瓦。面对国内出货量首次同比下滑，它想用「Personal Agent」补上现实世界的即时上下文。",
+      "summary_en": "Alibaba's Qwen launched its N1 and N1 Pro AI glasses on October 13, priced from 2,218 yuan, alongside a Bose-partnered clip-on AI earbud at 1,099 yuan. The new models drop the display in favor of voice interaction, yet the N1 Pro still packs a 50MP sensor and eye tracking at roughly 44g, with an always-on visual sensing chain drawing just 5 milliwatts. Qwen frames the hardware as a \"Personal Agent\" meant to give models real-world context, as China's smart-glasses shipments fell 8% year over year."
     },
     {
       "id": "infoq-EwqsJX6f03ODRac6Kk4c",
@@ -4770,7 +4778,9 @@
       "tags": [],
       "first_seen": "2026-10-15",
       "domain": "infoq.cn",
-      "quality_score": 34.0
+      "quality_score": 34.0,
+      "summary_zh": "阶跃星辰 10 月 15 日开放 Step 5 Preview 权重，含 BF16 与 FP8 两个版本，已上线 Hugging Face 和 ModelScope 并配部署指南。模型面向长程 Agent，采用稀疏 MoE，总参数 600B、每 token 激活 27B，支持 100 万 token 上下文与文本、视觉输入。团队另披露了 92 层窄深架构与 Sparse GQA 等设计，适合评估长任务 Agent 实际成本的开发者。",
+      "summary_en": "StepFun released the weights of Step 5 Preview on October 15 in BF16 and FP8 versions, published on Hugging Face and ModelScope alongside a technical blog and deployment guide. The model targets long-horizon agent tasks with a sparse MoE design: 600B total parameters, 27B activated per token, a 1M-token context window and native text and vision input. It suits developers weighing the real cost of long-running agents."
     },
     {
       "id": "infoq-SxQO3Aw6JCTgNMTGPPE8",
@@ -4786,7 +4796,9 @@
       "tags": [],
       "first_seen": "2026-10-15",
       "domain": "infoq.cn",
-      "quality_score": 34.1
+      "quality_score": 34.1,
+      "summary_zh": "蚂蚁百灵 10 月 15 日开源 Ling-3.1-flash，约 560B 总参数、每 Token 激活 25B，支持 1M 上下文，权重已在 Hugging Face 和 ModelScope 发布。混合调用价格约每百万 Token 0.19 美元，MXFP4 量化后权重由 534GB 压到 292GB，部署卡数从 8 卡降为 4 卡。适合需要在自有环境里跑办公、医疗、软件工程类工作流的团队。",
+      "summary_en": "Ant Group's BaiLing released Ling-3.1-flash on October 15 under an open-source license: roughly 560B total parameters with about 25B activated per token, 1M context, and weights on Hugging Face and ModelScope. Blended call pricing is about $0.19 per million tokens, and MXFP4 quantization for routed experts cuts the weights from 534GB to 292GB, bringing serving from 8 GPUs down to 4. Teams that want to self-host office, medical, or software-engineering workflows are the target."
     },
     {
       "id": "infoq-pkyTD9OWfpU7QvIbLX2j",
@@ -4802,7 +4814,9 @@
       "tags": [],
       "first_seen": "2026-10-15",
       "domain": "infoq.cn",
-      "quality_score": 34.0
+      "quality_score": 34.0,
+      "summary_zh": "InfoQ 文章认为国产算力的痛点已从「有没有卡」转向「能不能规模化地跑」：集群从几十张卡扩到上万张后，通信、网络、调度或故障定位任一短板都会让加速卡空转。文中以 2023 年成立的基流科技为例，讲原中兴 IP 网络负责人陈维转做 AI 集群网络。",
+      "summary_en": "An InfoQ piece argues the hard part of China's domestic AI compute has shifted from getting cards at all to running them at scale: once a cluster grows from dozens to thousands of accelerators, any weak link in networking, scheduling or fault isolation leaves cards idle. It follows Jiliu Technology, founded in 2023, and early hire Chen Wei, previously an IP networking lead at ZTE, to show the bottleneck moving from single chips to the whole system."
     },
     {
       "id": "infoq-HC8SAgaZmHc6sfwp9gc9",
@@ -4818,7 +4832,9 @@
       "tags": [],
       "first_seen": "2026-10-15",
       "domain": "infoq.cn",
-      "quality_score": 34.0
+      "quality_score": 34.0,
+      "summary_zh": "黄仁勋在 Lex Fridman 的长谈中回忆了当年联系台积电的过程：翻黄页、反复打电话留语音无果，最后给张忠谋写了一封长信，接到回电时他说“也许我们不用倒闭了”。他提到张忠谋会直说“这件事我们做不了”，并认为中国 AI 公司受算力短缺限制极大，却仍在融资、推进业务，“拼命把事情做成”。他也承认每次公开演讲前仍会紧张。",
+      "summary_en": "In a long conversation with Lex Fridman, Jensen Huang recalled trying to reach TSMC: paging through phone books, leaving voicemails, and finally writing Morris Chang a long letter — \"maybe we won't go out of business,\" he remembers thinking when Chang called back. He cites Chang's willingness to say \"we can't do this\" as part of why he chose TSMC, and says Chinese AI companies are severely constrained by compute shortages yet keep raising money and shipping. He also admits he still gets nervous before every public talk."
     },
     {
       "id": "infoq-GSZMrydgKuejLcCpEGYb",
@@ -4834,7 +4850,9 @@
       "tags": [],
       "first_seen": "2026-10-15",
       "domain": "infoq.cn",
-      "quality_score": 33.5
+      "quality_score": 33.5,
+      "summary_zh": "InfoQ 首次联合中欧国际工商学院 EMBA 课程部、独角兽创业营与 TGO 鲲鹏会发起「AI 侦察团」，10 月 22 日随 QCon 上海落地，面向企业创始人、CEO 等一号位决策者。活动包含主论坛趋势洞察、午餐破冰、聚焦非技术老板如何用 AI 与规模化落地的案例专场，以及晚间闭门私董会。",
+      "summary_en": "InfoQ has teamed up with CEIBS's EMBA program, the Unicorn Startup Camp and TGO to launch an \"AI Scout Team\" on October 22 at QCon Shanghai, aimed at founders and CEOs rather than engineers. The day spans a main-forum keynote, a networking lunch, case sessions on how non-technical bosses adopt AI, drive company-wide efficiency and scale pilots, plus an evening closed-door peer workshop."
     },
     {
       "id": "infoq-JZZ6JSvRBq3R579uy8V3",
@@ -4850,7 +4868,9 @@
       "tags": [],
       "first_seen": "2026-10-15",
       "domain": "infoq.cn",
-      "quality_score": 34.3
+      "quality_score": 34.3,
+      "summary_zh": "微软最新一轮安全更新致谢名单里，23 个 Windows 漏洞与智谱 GLM 辅助的安全研究有关，其中有一个 CVSS 9.8 的严重漏洞，公开记录署名为“Yuki Chen using GLM from z.ai”。研究者古河（Yuki Chen）曾五次登顶微软 MSRC 最具价值安全研究者年度榜单、两次获 Pwnie Awards，并于 10 月 14 日宣布加入智谱。过去挖洞高度依赖专家读代码、查调用关系的经验，GLM 的介入正在改变这一流程。",
+      "summary_en": "Microsoft's latest security update credits 23 Windows vulnerabilities to research aided by Zhipu's GLM, including one rated CVSS 9.8; the public record names the finder as \"Yuki Chen using GLM from z.ai.\" Yuki Chen has topped Microsoft's MSRC Most Valuable Security Researcher list five times, won two Pwnie Awards, and said on October 14 that he has joined Zhipu. Bug hunting has long relied on experts reading code and tracing calls — GLM is starting to change that workflow."
     },
     {
       "id": "infoq-LQCqiPUzgZyB3v24rsNO",
@@ -4866,7 +4886,9 @@
       "tags": [],
       "first_seen": "2026-10-15",
       "domain": "infoq.cn",
-      "quality_score": 34.2
+      "quality_score": 34.2,
+      "summary_zh": "Archestra 开源了安全引擎 OpenAPPA，它在智能体循环之外运行，用一份配置文件定义数据源、访问对象、信任等级与权限主体，以此阻断提示词注入或模型幻觉导致的数据外泄。团队称其在 Bench-Corp 和 AgentThreatBench 上攻击成功率为 0，而 Claude Code 自动模式为 10%、微软 FIDES 为 31%。",
+      "summary_en": "Archestra has open-sourced OpenAPPA, a security engine that runs outside the agent's prompt and execution loop and enforces deterministic rules — data sources, access objects, trust levels, principals — from a single config file to stop data exfiltration caused by prompt injection or model hallucination. The team reports a 0% attack success rate on the Bench-Corp and AgentThreatBench suites, against 10% for Claude Code's auto mode and 31% for Microsoft FIDES."
     },
     {
       "id": "infoq-JxVNJwhmsB1YYKmgD9KU",

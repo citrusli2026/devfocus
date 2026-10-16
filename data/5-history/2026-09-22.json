@@ -3419,7 +3419,9 @@
       "gh_period": "monthly",
       "first_seen": "2026-09-18",
       "domain": "github.com",
-      "quality_score": 40.2
+      "quality_score": 40.2,
+      "summary_zh": "cloudflare/security-audit-skill 是一个面向 coding agent 的 skill，用于执行多阶段安全审计，产出可机器读取的结论，且每条发现都经过独立验证。适合把 agent 接进 CI 或安全流程、需要结构化结果而非自然语言描述的团队评估。",
+      "summary_en": "cloudflare/security-audit-skill is a coding-agent skill for running multi-phase security audits that output machine-readable findings, each one independently verified. It suits teams wiring agents into CI or security workflows that want structured, checkable results instead of free-form prose."
     },
     {
       "id": "gh-monthly-cursor-plugins",
