@@ -2039,9 +2039,9 @@
     "summary_en": "When young people wield AI as a lever for creativity, the possibilities become truly exciting. From writing novels and composing music to designing buildings and building smart apps, AI amplifies individual imagination into tangible outcomes. The beauty of this era is that you no longer need to master every technical detail—just a good idea and the ability to iterate with AI's help. We're already seeing hobbyist artists create professional works, students ship useful tools, and solo creators take on challenges that once required entire teams. AI doesn't replace creativity; it democratizes it, lowering the barrier so that anyone with a spark of inspiration can become a creator."
   },
   "gh-daily-anomalyco-opencode": {
-    "summary_zh": "anomalyco/opencode 是开源 AI 编程代理，README 中自称 The open source coding agent；仓库对应 npm 包 opencode-ai，并附官网与 Discord 链接。它还提供简繁中文等多语言 README，便于中文开发者评估或参与。",
-    "summary_en": "anomalyco/opencode is an open-source AI coding agent whose README describes it as The open source coding agent; the repo links to the npm package opencode-ai, an official site, and a Discord server. It also offers the README in simplified Chinese and other languages for developers who want to evaluate or contribute.",
-    "input_hash": "d3915373e5b0"
+    "summary_zh": "opencode 是 anomalyco 的开源 AI 编码 agent，以 npm 包 @opencode/cli 的形式分发，项目配有 Discord 社区和英文、简中、繁中、韩文多语 README。它面向想把编码 agent 装进自己工作流、而不愿被闭源商业工具锁定的开发者，安装方式与普通命令行工具一致。",
+    "summary_en": "opencode is anomalyco's open-source AI coding agent, distributed as the npm package @opencode/cli and backed by a Discord community plus READMEs in English, Simplified and Traditional Chinese and Korean. It targets developers who want a coding agent they can install and wire into their own workflow instead of a closed commercial tool.",
+    "input_hash": "8b6e5e05780a"
   },
   "gh-daily-microsoft-PowerToys": {
     "summary_zh": "微软推出的 PowerToys 是一套专为 Windows 用户打造的系统增强工具集，包含窗口管理、批量文件重命名、颜色选取等实用功能，旨在大幅提升日常操作效率与系统自定义能力。对于追求高效工作流和个性化体验的 Windows 发烧友来说，这套开源工具堪称生产力利器。",
@@ -7935,9 +7935,9 @@
     "input_hash": "5e9f84ed7645"
   },
   "gh-daily-stablyai-orca": {
-    "summary_zh": "Orca 是一个面向并行代理集群的 ADE，可让用户用自己的订阅运行任意编码代理，覆盖桌面、移动端和 VPS。它以 MIT 许可证开源，支持 macOS、Windows 和 Linux。需要同时调度多个编码代理的团队，可以在自己的基础设施里统一编排这些并行 agent。",
-    "summary_en": "Orca is an ADE for managing fleets of parallel agents. You can run any coding agent using your own subscription, on desktop, mobile, or a VPS. The MIT-licensed project ships for macOS, Windows, and Linux, giving teams a cross-platform way to orchestrate multiple coding agents at once.",
-    "input_hash": "4ec2c242fa32"
+    "summary_zh": "Orca 是 stablyai 开源的多 agent 工作台，可在同一界面调度 Grok Bot、Claude Code 等编码 agent，并用自己已有的订阅运行任意 agent。它覆盖 macOS、Windows、Linux 桌面端，另有移动端和远程 runtime，以 MIT 协议开源，适合同时管多个 agent、又不想被平台计费方式绑住的人。",
+    "summary_en": "Orca is an open-source workspace from stablyai for running a fleet of coding agents such as Grok Bot and Claude Code, letting you use your own existing subscription instead of platform credits. It ships desktop apps for macOS, Windows and Linux plus mobile and a remote runtime, under the MIT license. Useful for developers juggling several agents at once.",
+    "input_hash": "34ba8c007d12"
   },
   "hn-49241679": {
     "summary_zh": "Muse Glimmer 是 Meta Superintelligence Labs 发布的 300 亿参数开源 agentic 模型，针对消费级硬件上的常驻本地工作流做了专门优化。它是为在个人设备上持续运行而设计的，适合需要本地、始终在线代理的开发者。",
@@ -17355,9 +17355,9 @@
     "input_hash": "e9393903dedb"
   },
   "v2ex-4a7515cf2357": {
-    "summary_zh": "有开发者用 Claude Code 配合 Opus 5.5 搭出一整套 2D MMORPG 的音乐与美术生产管线，成品跑在 m.linsenx.com，全程没有调用任何图像或音乐生成模型。素材因此来自代码驱动的流程而非生成模型，适合想了解 coding agent 能推进到什么程度的开发者参考。",
-    "summary_en": "A V2EX user built a full music and art pipeline for a 2D MMORPG with Claude Code and Opus 5.5, with the result running at m.linsenx.com. No image or music generation models were used at any point, so the assets come from a code-driven workflow instead — useful for developers probing how far coding agents can go.",
-    "input_hash": "8a7b248c8a6d"
+    "summary_zh": "一位 V2EX 用户发帖称，他用 Opus 5.5 搭建了一套面向 2D MMORPG 的音乐与美术生产管线。帖子只有标题和链接，没有正文，管线包含哪些环节、用了什么工具链、产出质量如何，都没有更多信息。",
+    "summary_en": "A V2EX user reports using Opus 5.5 to assemble a music and art production pipeline for a 2D MMORPG. The linked page isn't summarized here; details beyond the title, such as the toolchain, the pipeline stages and the output quality, aren't available.",
+    "input_hash": "f7df4fba0488"
   },
   "v2ex-a2814bbcebee": {
     "summary_zh": "这是一套纯 CSS 的 V2EX 自定义样式，参考 macOS / Safari 调整了字体、配色和间距，并跟随站内开关自动切换浅色与深色模式。安装时只需在 V2EX 设置里粘贴一行指向 jsdelivr 的 @import 链接，版本锁在 v1.0.0，不用装插件即可生效。",
@@ -17545,9 +17545,9 @@
     "input_hash": "e65390ef653f"
   },
   "v2ex-1a4b0338f31a": {
-    "summary_zh": "V2EX 的 MUSE 节点原本是给 Muse 乐队用的，发帖人吐槽这个节点现在被一个 agent“夺舍”了。对关心社区板块被自动化内容侵占的开发者来说，这是一个具体的小案例。",
-    "summary_en": "A V2EX post notes that the site's MUSE node, originally dedicated to the band Muse, has now been taken over by an agent. It is a small but concrete example of a community space being repurposed by automated content, relevant to anyone watching how agents reshape online forums.",
-    "input_hash": "541c3912ba54"
+    "summary_zh": "这是 V2EX 上的一则发帖，作者指出某个以 MUSE 命名的节点讨论的其实是 Muse 乐队，而非他预期中的内容。原文只有标题、没有正文，具体是哪个节点、发生了什么都没有更多细节可考。",
+    "summary_en": "A V2EX post whose author points out that a node labeled MUSE is actually about the band Muse rather than whatever they expected. The linked page isn't summarized here; details beyond the title aren't available, so there's no further context on which node it is or what prompted the complaint.",
+    "input_hash": "0a761a1c5b77"
   },
   "36kr-4001348750512260": {
     "summary_zh": "据 36kr 报道，尚未正式发布的 Gemini 4 Pro 以曝光形式出现，泄露的实测成绩被认为超过 Opus 5.5。原文只提供标题和链接，测试项目、跑分数据和对比条件都没有说明，关注 Google 与 Anthropic 模型竞争的人需要等更完整的评测出炉。",
@@ -21440,9 +21440,9 @@
     "input_hash": "212699f7f10f"
   },
   "gh-daily-xerj-org-xerj": {
-    "summary_zh": "XERJ 是一个用 Rust 编写的 AI 数据检索工具，其 autoindex 能用一条命令为代码、文档、日志和 PDF 建立索引，让 agent 直接查询数据，而不必靠 grep、sed 反复翻文件浪费 token，项目采用 Apache-2.0 许可。适合想让 coding agent 在大仓库和大量文档中更快定位内容的开发者。",
-    "summary_en": "XERJ is a Rust-based search tool that gives AI agents a single command to index code, docs, logs and PDFs, so they can query your data directly instead of burning tokens on grep and sed. It ships under Apache-2.0 and is aimed at developers who want coding agents to find the right content in large repos and document sets.",
-    "input_hash": "2035592af6c8"
+    "summary_zh": "xerj 是一个用 Rust 编写、采用 Apache-2.0 许可的开源项目，主打让 AI 检索数据时不必再靠 grep 和 sed 反复扫描、浪费 token：它的 autoindex 能力会用一条命令把代码、文档、日志和 PDF 建立索引供搜索。对正在给 coding agent 搭数据检索层的团队来说，这是绕过全量文本扫描的一种思路。",
+    "summary_en": "xerj is a Rust-built, Apache-2.0 licensed project that aims to replace the grep-and-sed approach AI agents use to poke around data, which burns tokens on repeated scans. Its autoindex capability indexes code, docs, logs and PDFs for search with a single command. Teams building a retrieval layer for coding agents may find it a cheaper alternative to brute-force text scanning.",
+    "input_hash": "ee33702752ca"
   },
   "v2ex-828faa21de38": {
     "summary_zh": "V2EX 热议：[问与答] 过敏性鼻炎怎样治疗？",
@@ -21565,9 +21565,9 @@
     "input_hash": "6f67a64337dc"
   },
   "hn-50112657": {
-    "summary_zh": "标题为 Tesla Roadster 的条目，正文只给了两个链接：一段 YouTube 视频和 Tesla 在 X 上的一条推文。原文是链接，未提供更多细节，具体内容需要点开链接才能确认。",
-    "summary_en": "This entry is titled Tesla Roadster and carries only two links: a YouTube video and a post from Tesla on X. The linked page isn't summarized here; details beyond the title aren't available, so anyone curious about what was shown has to open the links themselves.",
-    "input_hash": "96afedb14c22"
+    "summary_zh": "这是 Hacker News 上标题为 Tesla Roadster 的帖子，原文只有一个链接，未提供更多细节，因此无法确认讨论的是车型本身、某条新闻还是别的什么。",
+    "summary_en": "This is a Hacker News submission titled \"Tesla Roadster\"; the linked page isn't summarized here, so details beyond the title aren't available, and it is unclear whether it concerns the car itself, a news item, or something else entirely.",
+    "input_hash": "1baf5060dc2b"
   },
   "zhihu-592258573": {
     "summary_zh": "这是知乎上的一个提问：传国玉玺最后一次可信的出现是在什么时候，讨论这枚象征帝位正统的玉玺在可考史料中最后露面于何时。该条目没有附带问题描述，无法得知提问者列举了哪些史料或时间范围，适合对传国玉玺流传脉络与正史记载感兴趣的读者。",
@@ -21678,5 +21678,180 @@
     "summary_zh": "cloudflare/security-audit-skill 是一个面向 coding agent 的 skill，用于执行多阶段安全审计，产出可机器读取的结论，且每条发现都经过独立验证。适合把 agent 接进 CI 或安全流程、需要结构化结果而非自然语言描述的团队评估。",
     "summary_en": "cloudflare/security-audit-skill is a coding-agent skill for running multi-phase security audits that output machine-readable findings, each one independently verified. It suits teams wiring agents into CI or security workflows that want structured, checkable results instead of free-form prose.",
     "input_hash": "4654524391a1"
+  },
+  "v2ex-700ccc91f6dc": {
+    "summary_zh": "V2EX 热议：[问与答] 为什么还有人宣场读书无用论？",
+    "summary_en": "Hot on V2EX: [问与答] 为什么还有人宣场读书无用论？",
+    "input_hash": "6efdf69de7f1"
+  },
+  "infoq-xQLd004RGWrzFhwqBOyC": {
+    "summary_zh": "InfoQ 精选：生产级大模型平台工程实战手册",
+    "summary_en": "Featured on InfoQ: 生产级大模型平台工程实战手册",
+    "input_hash": "e51d7dd8ba33"
+  },
+  "zhihu-2094773240036061683": {
+    "summary_zh": "知乎上出现一个讨论帖，标题问的是如何评价 DeepSeek V4.1 Flash 1017 这个版本。原文只提供了链接、没有正文内容，具体的参数、评测数据和发布范围都无从确认。",
+    "summary_en": "A Zhihu thread asks readers to weigh in on DeepSeek V4.1 Flash build 1017. The linked page isn't summarized here; details beyond the title, such as benchmark numbers, model size or release scope, aren't available.",
+    "input_hash": "c41b2822c177"
+  },
+  "36kr-3985855472270082": {
+    "summary_zh": "36氪这篇标题主张大多数高薪技能会在十年内失去价值，并给出四项建议转向学习的方向。原文只提供链接，这四项具体是什么、依据何在，素材里都没有给出。",
+    "summary_en": "A 36Kr piece argues that most high-paying skills will lose their value within a decade and points readers toward four alternatives worth learning. The linked page isn't summarized here; what the four skills are, and the evidence behind the claim, aren't available beyond the title.",
+    "input_hash": "3f0a18a320d8"
+  },
+  "v2ex-4a664568c7b5": {
+    "summary_zh": "有 V2EX 用户把社区围绕 Roadster 做的网页小游戏整理成合集站 roadster.games/zh，目前收录 21 款，覆盖跑酷、让车飞起来、推进器实验等玩法，提供中英日三语，并尽量保留作者与原站出处。目录免费浏览，页面另有一张标明 PR 的商品推荐卡，站点与说明由 AI 辅助整理。",
+    "summary_en": "A V2EX user has gathered 21 community-made browser games built around Roadster into one site, roadster.games/zh, spanning parkour, flying cars and thruster experiments, available in Chinese, English and Japanese. Entries link back to the original authors' pages, with credits kept where known. Browsing is free; the site carries one clearly marked PR product card and was assembled with AI assistance.",
+    "input_hash": "63e5a082c0fe"
+  },
+  "v2ex-5304f812574b": {
+    "summary_zh": "V2EX 上有用户发帖称 OpenAI“又重置了”，正文只有“蹬起来”一句。帖子里没有说明重置的是什么、涉及哪个产品或额度、发生在什么时候，更像一条实时的状态提醒。",
+    "summary_en": "A V2EX post reports that OpenAI has “reset again,” with a body of just two short sentences. The thread doesn't say what was reset, which product or quota is affected, or when it happened. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "66b3d46fc6a7"
+  },
+  "v2ex-ae9f04020cd9": {
+    "summary_zh": "V2EX 用户求助：2008 年母亲因邻里用水纠纷被邻居 6 人围殴，医院诊断为多处软组织受挫，派出所调解因 3000 元赔偿与道歉书分歧未果，后续起诉指引不了了之。18 年后他想调取当年住院和调解资料重新起诉，担心已过时效、材料难找，希望有法律经验的人给思路。",
+    "summary_en": "A V2EX user asks for legal advice: in 2008 his mother was beaten by six neighbors in a dispute over irrigation water and diagnosed with soft-tissue injuries. Police mediation collapsed over a 3,000 yuan compensation claim and a demanded apology letter, and the court referral that followed went nowhere. Eighteen years on, he wants to retrieve the hospital and mediation records and sue again, but worries the deadline has passed and the paperwork is gone.",
+    "input_hash": "6c807fa5d6f5"
+  },
+  "v2ex-67f8b57b833a": {
+    "summary_zh": "MC++ 是一组围绕 C++ Modules 的开源基础设施项目，用自研工具补上工具链、包管理、构建系统和智能代码提示等环节的短板，改善 Modules 过渡期的开发体验。作者把这些偏底层的项目串成一条线，以“让 Hello World 优雅运行”为切入点做了一支动画视频，适合想了解现代 C++ 新特性、又没耐心逐个翻文档的人。",
+    "summary_en": "MC++ is a set of open-source infrastructure projects for C++ Modules, building out toolchain, package management, build system and code-completion support to smooth over the feature's transitional period. Its author stitched these fairly low-level pieces together into an animated video that uses a graceful \"Hello World\" as the entry point, a decent first look for developers curious about modern C++ and Modules.",
+    "input_hash": "23c1db60aa86"
+  },
+  "v2ex-dd7ae93aae98": {
+    "summary_zh": "这是 V2EX 上的一条转发帖，称 OpenAI 的 tibo 发推提醒有额度的人赶紧用掉，重置卡先留着，发帖人自己补了一句猜测时间大概还在北京时间午后。除这句提醒外，帖子没有给出推文原文或额度规则的具体说明，只能当作一条时效性消息看。",
+    "summary_en": "A short V2EX post relays that OpenAI's tibo tweeted a reminder to spend any remaining quota now and hold on to reset cards, with the poster guessing the timing falls in the Beijing afternoon. Beyond that nudge the post carries no details on the tweet or the underlying quota rules, so it reads as a time-sensitive heads-up rather than documentation.",
+    "input_hash": "15bfa48f543a"
+  },
+  "v2ex-e04b808567f4": {
+    "summary_zh": "有 V2EX 用户发现，马斯克的 robstars 在 X 和 TikTok 上走红之后，AI 换车类视频一下子多了起来，他挑出 flying-car-ai.com 这个站点，认为效果还算可以。帖子基本只是分享链接和对成片效果的观感，没有交代这些视频具体怎么生成。",
+    "summary_en": "After Musk's robstars took off on X and TikTok, a V2EX user noticed a wave of AI car-swap videos and singles out flying-car-ai.com as one of the better-looking ones. The post is mostly a link plus a quick verdict on the output, with no detail on how the videos are actually generated.",
+    "input_hash": "c04e31017080"
+  },
+  "v2ex-9c3af53c0962": {
+    "summary_zh": "有开发者在 V2EX 的 VXNA 板块提交收录申请，目标站点是名为「imba 久期 BLOG」的个人博客，简介只写了一句「一个前端」，地址为 imba97.com，头像用的是站点 favicon。这类帖子信息量很小，主要对关注该博客的读者，以及同样准备提交收录申请的站长有参考价值。",
+    "summary_en": "A developer has filed a listing request on V2EX's VXNA board for a personal blog called imba 久期 BLOG, described only as \"a frontend\" blog, hosted at imba97.com and using the site's favicon as its avatar. The post carries little beyond the name and URL, so it is mainly useful to readers who already follow the blog or to site owners preparing their own submission.",
+    "input_hash": "48414fc8ec2a"
+  },
+  "hn-50122800": {
+    "summary_zh": "Hacker News 上出现一条标题为「Claude reveals ECDSA curve origins」的讨论，指向 filippo.io 下路径为 seeds-solved 的一篇文章，话题围绕 ECDSA 曲线参数的最初来源。原文是链接，未提供更多细节，对密码学参数生成方式感兴趣的读者需要自行打开原文。",
+    "summary_en": "A Hacker News submission titled \"Claude reveals ECDSA curve origins\" points to a post at words.filippo.io/seeds-solved/, on the question of where the ECDSA curve parameters originally came from. The linked page isn't summarized here; details beyond the title aren't available, so anyone interested in how cryptographic parameters get generated will need to read the source directly.",
+    "input_hash": "8cea81b7fb77"
+  },
+  "zhihu-2094715615177085550": {
+    "summary_zh": "这条知乎提问关注英伟达市值在 9 天内蒸发约 4 万亿元，以及随之而来的全球 AI 股集体抛售，核心争议是 AI 泡沫是否已经到破裂的时候。原文是链接，未提供更多细节。",
+    "summary_en": "A Zhihu question notes that Nvidia's market cap shed roughly 4 trillion yuan in nine days amid a broad selloff in global AI stocks, and asks whether the AI bubble is about to burst. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "c096f8c80297"
+  },
+  "36kr-4029260041245314": {
+    "summary_zh": "36氪「9点1氪」栏目这条快讯列了三件事：特斯拉发布一款号称「会飞」的跑车，预订金 33.2 万元；中国对 AI 等领域 40 项技术实施出口限制或禁止；长鑫科技预计前三季度净利超过 1300 亿元。原文只有标题层面的信息，没有给出技术清单或财报口径等进一步内容。",
+    "summary_en": "This 36Kr morning-brief item packs three headlines: Tesla unveiled a roadster it bills as able to fly, with a 332,000 yuan reservation deposit; China imposed export restrictions or bans on 40 technologies including AI-related ones; and Changxin Technology guided to more than 130 billion yuan in net profit for the first three quarters. Only the headline level is given; the linked page isn't summarized here.",
+    "input_hash": "09f356e3a4b8"
+  },
+  "36kr-4029271381283459": {
+    "summary_zh": "36氪这篇报道讲的是最早一批专程来中国“代购”的外国买家，按标题说法他们在转卖中赚到了钱。原文是链接文章，未提供更多细节，具体品类、城市和利润数字都无法确认。",
+    "summary_en": "A 36Kr story about the first wave of foreign shoppers acting as daigou, buying goods inside China to resell, and reportedly profiting well from it. The linked page isn't summarized here; details beyond the title, such as which products, cities or margins are involved, aren't available.",
+    "input_hash": "33fc2da0704a"
+  },
+  "36kr-4029680047510149": {
+    "summary_zh": "36氪报道了一位女性创业者：公司市值跌去 95% 之后，她把这家上市公司卖掉了。原文是链接文章，未提供更多细节，公司名称、交易金额和买方都无法从标题之外确认。",
+    "summary_en": "A 36Kr piece about a founder who sold her listed company after its value had fallen 95%. The linked page isn't summarized here; the company name, deal size and buyer aren't available beyond what the headline states.",
+    "input_hash": "e5f5c0a6b98b"
+  },
+  "36kr-4029231447446152": {
+    "summary_zh": "36氪报道称 Mythos 5 破解了量子计算领域的一项重大难题。原文是链接文章，未提供正文细节，涉及的具体技术路线、验证方式和发布方信息都无法确认。",
+    "summary_en": "36Kr reports that Mythos 5 has cracked a major problem in quantum computing. The linked page isn't summarized here; the underlying technique, how it was verified and who is behind it aren't available beyond the headline.",
+    "input_hash": "7909ba97ba65"
+  },
+  "zhihu-2094856257873995052": {
+    "summary_zh": "智界将获得独立造车资质，内部人士同时确认公司有上市计划，这两点来自一条问答式讨论。独立资质意味着品牌在生产准入上不再完全依附合作方，也会牵动华为与奇瑞之间的分工安排。原文是链接，未提供更多细节。",
+    "summary_en": "Luxeed is reported to be obtaining its own vehicle manufacturing qualification, and insiders say the company also plans to go public, according to a discussion prompt rather than a full report. Holding its own licence would change how the brand sits between Huawei and Chery on production approval and ownership. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "09d7805502f8"
+  },
+  "zhihu-2094785686142558570": {
+    "summary_zh": "社保新规将于 11 月 1 日起施行，其中明确员工“自愿放弃社保”的约定无效。这直接指向企业与员工之间常见的私下协议，也把企业未足额缴纳时员工会损失哪些权益推到讨论前台。原文是链接，未提供更多细节。",
+    "summary_en": "A new social insurance rule takes effect on 1 November and states that an employee's voluntary waiver of social insurance is invalid. That targets the private arrangements common between employers and staff, and raises the question of what employees lose when contributions are underpaid. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "f2b199000266"
+  },
+  "zhihu-2094730049790465149": {
+    "summary_zh": "一位班主任在休产假期间遭家长投诉，对方质问“一定要生孩子吗”，有教师称近期举报信数量激增。个案把校园投诉渠道的使用边界摆上台面，涉及家校关系、教师权益与学校处理机制如何平衡。原文是链接，未提供更多细节。",
+    "summary_en": "A homeroom teacher on maternity leave was complained about by parents asking whether she \"had to have a child\", and teachers say complaint letters have surged recently. The case puts the boundaries of school complaint channels in focus, touching on parent-teacher relations, teachers' rights and how schools handle reports. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "3d588df18fca"
+  },
+  "zhihu-2094399559841726677": {
+    "summary_zh": "网传佛得角 40 岁门将沃齐尼亚已被所在俱乐部弃用，并疑似提前退役；他此前因世界杯上的表现被外界记住。国家队的高光与俱乐部层面的处境形成对照，具体原因目前没有进一步消息。原文是链接，未提供更多细节。",
+    "summary_en": "Vozinha, the 40-year-old Cape Verde goalkeeper who became a World Cup talking point, is rumoured to have been dropped by his club and may retire early. His national-team showing now contrasts with his club situation, though the reasons are unconfirmed. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "142d3a83974c"
+  },
+  "36kr-4029435030983298": {
+    "summary_zh": "持有《哈利波特》IP 的公司已被出售，交易价值 7361 亿，买方身份与交易结构未在标题中体现。这一体量的内容资产易手，会牵动影视制作与衍生品授权的格局。原文是链接，未提供更多细节。",
+    "summary_en": "The company that owns the Harry Potter franchise has been sold for 736.1 billion, though the title names neither the buyer nor the deal structure. A content asset of that size changing hands affects film production and merchandise licensing. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "b7ac8e36da75"
+  },
+  "zhihu-2080368472178030209": {
+    "summary_zh": "这是知乎上的一个家庭育儿提问：做了鸡翅，孩子想再吃一个却发现没有了，而表弟碗里堆着好几个，二宝看到后没吭声、默默继续吃饭，发帖人问大家会怎么处理。原文是链接帖，未提供更多细节，没有交代孩子年龄、当时在场的大人反应等信息，适合对多子女家庭中公平感和孩子隐忍情绪话题感兴趣的读者。",
+    "summary_en": "A Zhihu parenting question: after chicken wings were served, one child asked for another only to find none left, while a cousin's bowl held several; the second child noticed and quietly kept eating, and the poster asks how others would handle it. The linked page isn't summarized here; details beyond the title aren't available, including the children's ages or how the adults reacted. It touches on fairness and unspoken feelings among siblings.",
+    "input_hash": "71fee7a87484"
+  },
+  "36kr-4029486628327811": {
+    "summary_zh": "36氪这篇报道的主角是名为 Tibo 的人：他接手 Codex 不到一年，标题称这个项目已经吞掉了 ChatGPT。原文只给出标题和链接，没有正文，交接过程、时间线和具体数据都无从确认，关心 AI 编程工具竞争格局的读者只能先从标题本身判断。",
+    "summary_en": "A 36Kr piece centers on someone named Tibo who took over Codex and, according to the headline, saw it swallow ChatGPT in under a year. The linked page isn't summarized here; details beyond the title, such as timelines, metrics or internal decisions, aren't available. Readers tracking competition among AI coding tools have only the headline to go on.",
+    "input_hash": "bf98f92df690"
+  },
+  "zhihu-468869175": {
+    "summary_zh": "这是知乎上围绕《教父》的讨论：为什么第一代教父看上去对任何事都云淡风轻、总能拿捏得当，而第二代教父却显得过得很艰难。原文是链接帖，未提供更多细节，回答里具体怎么分析无从概括，适合对电影人物塑造和权力交接话题感兴趣的读者。",
+    "summary_en": "A Zhihu discussion question about The Godfather: why the first-generation don appears unruffled by anything and always in control, while the second-generation don seems to have a much harder time. The linked page isn't summarized here; details beyond the title aren't available, so how respondents explain it can't be summarized. It suits readers interested in the film's characters and the transfer of power.",
+    "input_hash": "6b02964a8d8e"
+  },
+  "36kr-4029251285242249": {
+    "summary_zh": "36氪这篇报道讲的是一个靠 BI 做到两亿美元营收的故事，标题只给出了金额和方向，没有点名公司。原文是链接帖，未提供更多细节，产品形态、客户构成和增长路径都无法确认，对数据工具如何商业化感兴趣的读者可以自行点开查看。",
+    "summary_en": "A 36Kr story about a business that reached $200 million on the strength of BI, per the headline, which does not name the company. The linked page isn't summarized here; details beyond the title, such as the product, customers and growth path, aren't available. It is relevant to readers curious about how data tooling turns into revenue.",
+    "input_hash": "ba5f1f5f5d05"
+  },
+  "36kr-4028636199555713": {
+    "summary_zh": "36氪这篇是与费德勒的对谈，他在其中谈到加入运动品牌 On 昂跑，把这视为回馈网球的一种方式。原文只给出标题和链接，未提供正文，合作的具体形式和谈话的其余内容都无从确认，关注运动员与品牌合作、商业经营话题的读者可以留意。",
+    "summary_en": "A 36Kr conversation with Roger Federer, who describes joining sportswear brand On as one way of giving back to tennis. The linked page isn't summarized here; details beyond the title, including the shape of the partnership and the rest of the conversation, aren't available. It is aimed at readers following athlete-brand deals and the business side of the sport.",
+    "input_hash": "56996ca00838"
+  },
+  "36kr-4028766019719557": {
+    "summary_zh": "36氪「最前线」这篇报道的标题显示，以车载激光雷达为主业的禾赛（Hesai）并不打算只做硬件销售，而是有意向更多环节延伸。原文只提供标题和链接，未附正文，具体延伸到哪些业务、进展如何，无法确认。",
+    "summary_en": "A 36kr \"最前线\" piece whose headline indicates that Hesai, best known for automotive lidar, does not intend to remain a hardware-only seller and is pushing into adjacent territory. The linked article isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "8cefab178707"
+  },
+  "juejin-7661541585746182186": {
+    "summary_zh": "Deno 2.9 开始支持桌面应用开发，前端框架项目可以直接编译成独立的原生二进制桌面程序，不再需要 Electron 或 Tauri 这类第三方框架。它支持交叉编译到五大平台但不覆盖移动端，适合想用一套前端代码换取更小分发体积、更少运行时依赖的团队先做小范围试点。",
+    "summary_en": "Deno 2.9 adds desktop app support: a frontend-framework project can be compiled into a standalone native binary without Electron or Tauri. Cross-compilation covers five platforms, though mobile is not supported. Worth trialing for teams that want a smaller distribution footprint and fewer runtime dependencies than a full Electron stack.",
+    "input_hash": "9db71bea4c52"
+  },
+  "zhihu-2094509189456295461": {
+    "summary_zh": "这条知乎提问提到的事实是，多家银行上调存款利率，其中五年期定存最高达到 2.1%，提问者还追问这一变化是否会延续。原文只给了标题和链接，没有正文，具体涉及哪些银行、上调幅度和期限结构都缺少细节。",
+    "summary_en": "A Zhihu question noting that several banks have raised deposit rates, with five-year fixed-term deposits reaching as high as 2.1%, and asking whether the increases will continue. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "c4f6f443f314"
+  },
+  "zhihu-2094694840407519249": {
+    "summary_zh": "这条知乎提问记录的情况是：Roadster 发布之后，特斯拉与 SpaceX 的股价仍在大跌，马斯克身家在四天内缩水 5286 亿元。原文只有标题和链接，未提供正文，发布会内容与市场反应的具体原因都无从核实。",
+    "summary_en": "A Zhihu question laying out one fact set: after the Roadster unveiling, Tesla and SpaceX shares kept falling and Musk's net worth shrank by 528.6 billion yuan over four days. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "f1e0622943b2"
+  },
+  "infoq-hRw4BZQQUW14sqYMo5F6": {
+    "summary_zh": "Linus Torvalds 用 Anthropic 的 Claude Code 编写了一组 10 个补丁，修复 Linux 页面缓存中 folio 引用计数的争用瓶颈，在 Ryzen Threadripper 的合成基准测试中把读取吞吐量提升了 23 倍，不过他本人提醒真实负载下提升会小得多。补丁尚未合入，维护者 Kiryl Shutsemau 就在审查中发现竞争条件：在 filemap_read_rcu_batch() 中 folio 被替换且 i_size 随后扩展时，可能把尚未写入的数据返回给用户程序。后续开发已交给 Shutsemau，人类审查仍是最后一道防线。",
+    "summary_en": "Linus Torvalds used Anthropic's Claude Code to produce a 10-patch series fixing a folio refcount contention bottleneck in the Linux page cache, lifting read throughput 23x in a synthetic Ryzen Threadripper benchmark, though he cautions real-world gains will be far smaller. Before the patches could land, maintainer Kiryl Shutsemau spotted a race: in filemap_read_rcu_batch(), a replaced folio plus a later i_size extension can return not-yet-written data to userspace. Shutsemau has taken over further work, a reminder that human review remains the last line of defense.",
+    "input_hash": "baa353b240ce"
+  },
+  "v2ex-9e529f052643": {
+    "summary_zh": "有 V2EX 用户出租位于美国 MA 州波士顿 02120 的一台 Mac，走真实家庭宽带，支持视频验证，可以自备机器也可以由他提供。这台 Mac 仅供单人独占使用，会预先装好 UU 远程，并限定合法用途，发帖人借此试探是否有人需要。",
+    "summary_en": "A V2EX user is offering a Mac hosted on genuine residential broadband in Boston, MA 02120, with video verification available and the option to use your own machine or one he supplies. The Mac is for a single user only, comes with UU remote access preinstalled, and is restricted to lawful use; the post is essentially a probe for demand.",
+    "input_hash": "74e0d0ca7608"
+  },
+  "infoq-aMgWFmwZ2HoZDtw1g0MQ": {
+    "summary_zh": "Pizza Bot 是亚马逊云科技一个开发团队开源的自托管应用，用收件箱式界面管理在后台运行的 AI 智能体：任务由定时或 Webhook 触发，执行重大操作前会停下等待人工批准，智能体状态与数据都留在本机，凭证存进系统密钥库。它采用 Apache 2.0 许可，支持多家模型厂商与 MCP 服务器，但属社区项目而非 AWS 官方服务，运行、备份与升级需自行负责。",
+    "summary_en": "Pizza Bot is a self-hosted app open-sourced by a team at Amazon Web Services that runs background AI agents through an email-like inbox: tasks start on schedules or webhooks, pause for human approval before significant actions, and keep agent state, threads, checkpoints and logs on the user's own machine with credentials in the OS keychain. It is Apache 2.0 licensed, works with multiple model providers and MCP servers, and is a community project rather than an official AWS service, so operators handle their own maintenance, backups and upgrades.",
+    "input_hash": "de1e552e1911"
+  },
+  "v2ex-4e9ca4dd8e7f": {
+    "summary_zh": "Project Moon Life 是开发者自制的浏览器端人生模拟器，灵感来自 Lobotomy Corporation 与 Limbus Company，每局从随机出生地和家庭开始，靠季节事件、关系与选择走向公司职员、Fixer 等不同结局。核心模拟器免费且免登录，存档保存在浏览器中并支持导入导出，另有 10 美元一次性的 AI Chapter Pass 提供持续角色、记忆选择与云端存档，项目与 Project Moon 官方无隶属关系。",
+    "summary_en": "Project Moon Life is a fan-made browser life simulator inspired by Lobotomy Corporation and Limbus Company: each run starts from a random birthplace and family, then unfolds through seasonal events, relationships and choices into outcomes such as company employee, Fixer, artisan or researcher. The core simulator is free and needs no login, saves live in the browser with import and export, and a one-time $10 AI Chapter Pass adds persistent characters, memory selection and cloud saves; it is unaffiliated with Project Moon.",
+    "input_hash": "52e72745ff77"
   }
 }

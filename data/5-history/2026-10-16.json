@@ -292,7 +292,9 @@
       "tags": [],
       "first_seen": "2026-10-16",
       "domain": "anthropic.com",
-      "quality_score": 41.7
+      "quality_score": 41.7,
+      "summary_zh": "Hacker News 上出现一条标题为「Claude reveals ECDSA curve origins」的讨论，指向 filippo.io 下路径为 seeds-solved 的一篇文章，话题围绕 ECDSA 曲线参数的最初来源。原文是链接，未提供更多细节，对密码学参数生成方式感兴趣的读者需要自行打开原文。",
+      "summary_en": "A Hacker News submission titled \"Claude reveals ECDSA curve origins\" points to a post at words.filippo.io/seeds-solved/, on the question of where the ECDSA curve parameters originally came from. The linked page isn't summarized here; details beyond the title aren't available, so anyone interested in how cryptographic parameters get generated will need to read the source directly."
     },
     {
       "id": "hn-50101813",
@@ -4775,7 +4777,9 @@
       "tags": [],
       "first_seen": "2026-10-16",
       "domain": "infoq.cn",
-      "quality_score": 34.7
+      "quality_score": 34.7,
+      "summary_zh": "InfoQ 精选：生产级大模型平台工程实战手册",
+      "summary_en": "Featured on InfoQ: 生产级大模型平台工程实战手册"
     },
     {
       "id": "infoq-8iKz8xNQvxDfeuxH1QLA",
@@ -4873,7 +4877,9 @@
       "tags": [],
       "first_seen": "2026-10-16",
       "domain": "infoq.cn",
-      "quality_score": 35.7
+      "quality_score": 35.7,
+      "summary_zh": "Linus Torvalds 用 Anthropic 的 Claude Code 编写了一组 10 个补丁，修复 Linux 页面缓存中 folio 引用计数的争用瓶颈，在 Ryzen Threadripper 的合成基准测试中把读取吞吐量提升了 23 倍，不过他本人提醒真实负载下提升会小得多。补丁尚未合入，维护者 Kiryl Shutsemau 就在审查中发现竞争条件：在 filemap_read_rcu_batch() 中 folio 被替换且 i_size 随后扩展时，可能把尚未写入的数据返回给用户程序。后续开发已交给 Shutsemau，人类审查仍是最后一道防线。",
+      "summary_en": "Linus Torvalds used Anthropic's Claude Code to produce a 10-patch series fixing a folio refcount contention bottleneck in the Linux page cache, lifting read throughput 23x in a synthetic Ryzen Threadripper benchmark, though he cautions real-world gains will be far smaller. Before the patches could land, maintainer Kiryl Shutsemau spotted a race: in filemap_read_rcu_batch(), a replaced folio plus a later i_size extension can return not-yet-written data to userspace. Shutsemau has taken over further work, a reminder that human review remains the last line of defense."
     },
     {
       "id": "infoq-aMgWFmwZ2HoZDtw1g0MQ",
@@ -4889,7 +4895,9 @@
       "tags": [],
       "first_seen": "2026-10-16",
       "domain": "infoq.cn",
-      "quality_score": 35.7
+      "quality_score": 35.7,
+      "summary_zh": "Pizza Bot 是亚马逊云科技一个开发团队开源的自托管应用，用收件箱式界面管理在后台运行的 AI 智能体：任务由定时或 Webhook 触发，执行重大操作前会停下等待人工批准，智能体状态与数据都留在本机，凭证存进系统密钥库。它采用 Apache 2.0 许可，支持多家模型厂商与 MCP 服务器，但属社区项目而非 AWS 官方服务，运行、备份与升级需自行负责。",
+      "summary_en": "Pizza Bot is a self-hosted app open-sourced by a team at Amazon Web Services that runs background AI agents through an email-like inbox: tasks start on schedules or webhooks, pause for human approval before significant actions, and keep agent state, threads, checkpoints and logs on the user's own machine with credentials in the OS keychain. It is Apache 2.0 licensed, works with multiple model providers and MCP servers, and is a community project rather than an official AWS service, so operators handle their own maintenance, backups and upgrades."
     },
     {
       "id": "infoq-t3XbHewuN37fsodaprUC",
