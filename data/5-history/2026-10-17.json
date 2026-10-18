@@ -196,7 +196,9 @@
       "tags": [],
       "first_seen": "2026-10-14",
       "domain": "tinylittleoffice.com",
-      "quality_score": 27.6
+      "quality_score": 27.6,
+      "summary_zh": "Tiny Little Office 是一个极简在线办公套件，核心设计是「链接即文档」：不需要注册账号，内容也不会存到任何地方，除非用户主动选择保存在本机。适合在意隐私、只想快速分享一份文档而不愿绑定云服务的人。",
+      "summary_en": "Tiny Little Office is a minimal office suite built around one idea: the link is the document. There are no accounts, and nothing is saved anywhere unless you choose to keep it on your own device. It suits people who want to share a quick document without signing up for a cloud service or handing over their data."
     },
     {
       "id": "hn-50103338",
@@ -212,7 +214,9 @@
       "tags": [],
       "first_seen": "2026-10-15",
       "domain": "github.com",
-      "quality_score": 28.4
+      "quality_score": 28.4,
+      "summary_zh": "DEsk 是托管在 GitHub 上（fyzugx/DEsk）的 Linux 桌面项目，运行在 Wayland 之上，界面采用拟物化（skeuomorphic）设计。目前公开的素材只有仓库简介，功能范围与完成度尚不明确，关注 Linux 桌面和 Wayland 生态的开发者需要自行到仓库查看。",
+      "summary_en": "DEsk, hosted on GitHub under fyzugx/DEsk, is a Linux desktop project running on Wayland that opts for a skeuomorphic interface style. Public material is limited to the repository blurb, so its feature set and maturity are unclear; developers tracking the Wayland desktop ecosystem will have to inspect the repo themselves."
     },
     {
       "id": "hn-50088935",
@@ -276,7 +280,9 @@
       "tags": [],
       "first_seen": "2026-10-17",
       "domain": "huggingface.co",
-      "quality_score": 45.3
+      "quality_score": 45.3,
+      "summary_zh": "这条只给了两个链接：DeepSeek 官方 API 文档的新闻页，以及 OpenRouter 上 DeepSeek-v4.1-Flash-1017 的模型页。原文是链接，未提供更多细节。",
+      "summary_en": "This entry is just two links: a news post on DeepSeek's API docs site and the DeepSeek-v4.1-Flash-1017 model listing on OpenRouter. The linked pages aren't summarized here; details beyond the version name aren't available."
     },
     {
       "id": "hn-50121179",
@@ -324,7 +330,9 @@
       "tags": [],
       "first_seen": "2026-10-17",
       "domain": "twitter.com",
-      "quality_score": 38.9
+      "quality_score": 38.9,
+      "summary_zh": "OpenCode 披露昨夜发生安全泄露，起因是一次大规模蒸馏攻击（distillation attack），影响约 1.4% 的 OpenCode Console 用户，官方已于当天上午逐一发邮件通知。事件仍在处置中，因此暂不公布更多细节，只表示正与 Anthropic、OpenAI、Google 协作。使用 Console 的开发者应尽快检查并轮换可能暴露的凭据。",
+      "summary_en": "OpenCode disclosed a breach tied to what it describes as a large-scale distillation attack, hitting 1.4% of OpenCode Console users, all of whom were emailed that morning. The incident is still ongoing, so the company says it can't share more, only that it is working with Anthropic, OpenAI and Google. Anyone with a Console account should treat credentials as potentially exposed and rotate them."
     },
     {
       "id": "hn-50101813",
@@ -3335,7 +3343,9 @@
       "gh_period": "daily",
       "first_seen": "2026-10-16",
       "domain": "github.com",
-      "quality_score": 30.3
+      "quality_score": 30.3,
+      "summary_zh": "android/skills 是 Android 官方团队维护的仓库，用符合 agent skills 开放标准的 SKILL.md 文件把 Android 开发规范写成模块化指令，供 AI agent 读取。它刻意聚焦 LLM 在评测中表现不佳的用例和工作流，而不是 Jetpack Compose 基础用法这类模型已经擅长的领域，技能可通过 Android CLI 的 android skills add 安装到当前目录。",
+      "summary_en": "android/skills is a repository from the Android team that packages development guidance as modular SKILL.md files following the open agent skills standard, grounding LLMs in specific Android workflows. It deliberately targets use cases where evaluations show LLMs underperform, rather than areas like basic Jetpack Compose, and individual skills install into a project through the Android CLI."
     },
     {
       "id": "gh-daily-stablyai-orca",
@@ -3485,7 +3495,9 @@
       "gh_period": "monthly",
       "first_seen": "2026-09-29",
       "domain": "github.com",
-      "quality_score": 50.3
+      "quality_score": 50.3,
+      "summary_zh": "paperclipai/paperclip 是一个开源应用，官方描述为用于在工作中管理 agents 的工具，项目本身没有提供更多正文说明。目前只有仓库名和一句话简介，具体支持哪些 agent、如何接入、部署方式等细节都无从确认。适合需要统一调度多个 agent 的团队先去仓库翻代码，而不是凭简介判断。",
+      "summary_en": "paperclipai/paperclip is an open-source app whose one-line description frames it as a tool for managing agents at work. Beyond that tagline there is no README or body text here, so how it connects to specific agents, what it deploys, or what the setup looks like can't be confirmed. Teams needing to coordinate multiple agents may want to read the repository itself rather than judge from the pitch."
     },
     {
       "id": "gh-monthly-anthropics-financial-services",
@@ -4732,7 +4744,9 @@
       "tags": [],
       "first_seen": "2026-10-16",
       "domain": "infoq.cn",
-      "quality_score": 38.6
+      "quality_score": 38.6,
+      "summary_zh": "10 月 16 日在济南举行的 2026 人工智能产业大会专项活动聚焦 AI 场景落地与 FDE（前线部署工程师）创新，现场启动 2027 人工智能产业大赛、共智方舟社区，并发布《2026—2027 AI 场景落地与 FDE 创新发展行动计划》。鲁信集团、腾讯 WorkBuddy、麦港数据等分享了集团型企业推进 AI、企业级智能体的能力边界，以及把一线交付沉淀为平台复用的做法。",
+      "summary_en": "A special session of the 2026 AI Industry Conference in Jinan on October 16 framed the shift from \"capability available\" to \"deliverable in business\", with FDE (forward deployed engineer) practice as its center. It launched the 2027 AI industry competition and the 共智方舟 community, and released a 2026–2027 action plan for AI scenario deployment. Speakers from 鲁信集团, Tencent WorkBuddy and 麦港数据 covered enterprise-wide AI rollout and turning frontline delivery work into reusable platform capability."
     },
     {
       "id": "infoq-xQLd004RGWrzFhwqBOyC",
@@ -4766,7 +4780,9 @@
       "tags": [],
       "first_seen": "2026-10-16",
       "domain": "infoq.cn",
-      "quality_score": 39.3
+      "quality_score": 39.3,
+      "summary_zh": "InfoQ 这篇文章指出，AI 编程工具的竞争已从“能不能生成代码”后移到“生成的代码能不能进工程体系”，并以亚马逊云科技 Kiro 的 spec-driven development 为例，说明其 requirements.md、design.md、tasks.md 三段式 Specs 如何把需求与设计变成可执行约束。文中还列出 vibe coding 的几类痛点：长会话上下文衰减、决策不可追溯、Demo 转生产要重做工程化。",
+      "summary_en": "InfoQ traces how competition among AI coding tools has moved from whether models can generate code to whether that code can enter an engineering pipeline, using Amazon's Kiro and its spec-driven development as the case: requirements.md, design.md and tasks.md turn intent into executable constraints. It also names vibe coding's concrete costs — context decay in long sessions, untraceable decisions, and demo-to-production work that has to be redone by hand."
     },
     {
       "id": "infoq-VZPlIIdGRg062mgwJe5y",
@@ -4782,7 +4798,9 @@
       "tags": [],
       "first_seen": "2026-10-16",
       "domain": "infoq.cn",
-      "quality_score": 38.7
+      "quality_score": 38.7,
+      "summary_zh": "模域 ModelSphere 是范式智能与睿思智联联合开源的 Apache 2.0 一站式 AI 部署平台，用图形化面板收拢算力管理、模型部署和调优，并通过 EngineX 推理引擎统一调度华为昇腾、天数智芯、摩尔线程、海光 DCU 等国产芯片。官方称配合 AutoTune 极限吞吐提升约 285%，已适配 DeepSeek-V4、Qwen、Kimi 等模型，定位是在 vLLM、SGLang 之上做集群级纳管。",
+      "summary_en": "ModelSphere (模域) is an Apache 2.0 platform open-sourced by 范式智能 and 睿思智联 that bundles compute management, model deployment and runtime tuning behind a GUI panel, with its EngineX inference engine scheduling Huawei Ascend, Iluvatar, Moore Threads and Hygon DCU chips without per-chip rewrites. The team claims AutoTune and adaptive scheduling lift peak throughput roughly 285% and has tuned DeepSeek-V4, Qwen and Kimi. It sits above engines like vLLM and SGLang, handling cluster-level routing, KV cache pooling and autoscaling."
     },
     {
       "id": "infoq-CoGZq3xgQhZI4rBH8pjA",
@@ -4884,7 +4902,9 @@
       "tags": [],
       "first_seen": "2026-10-16",
       "domain": "infoq.cn",
-      "quality_score": 39.1
+      "quality_score": 39.1,
+      "summary_zh": "淘天集团高级测试开发专家泠乐将在 QCon 上海（10 月 22—24 日）讲手淘 TEKO 的“写—验—修”闭环：AI 生码提速后，判据和信号双缺失，使 100 个生成用例的综合可执行率只有 6.4%。TEKO 把验收条件做成沿链路逐级细化、并回喂生码环节的结构化对象，同时把 App 改造成 Agent 可寻址、可观测、可驱动的环境，让循环从“生成后交给人”走向全程无人。",
+      "summary_en": "At QCon Shanghai (Oct 22–24), Alibaba Taotian senior test development expert 泠乐 presents TEKO's write-verify-fix loop for mobile development. AI speeds up code generation but verification lags: missing acceptance criteria plus no objective runtime signal leave only 6.4% of 100 generated test cases executable. TEKO turns acceptance criteria into structured objects refined along the pipeline and fed back into code generation, and reshapes the app into an environment agents can address, observe and drive."
     },
     {
       "id": "infoq-DfJZA7hp0OhKMpaAIfG0",
@@ -4900,7 +4920,9 @@
       "tags": [],
       "first_seen": "2026-10-16",
       "domain": "infoq.cn",
-      "quality_score": 38.2
+      "quality_score": 38.2,
+      "summary_zh": "GitLab 自托管版 CE/EE 曝出 CVSS 10.0 的路径遍历漏洞 CVE-2026-85706，未认证的远程攻击者可读取服务器上的任意文件，影响 18.7 至 19.1.7、19.2 至 19.2.5、19.3 至 19.3.1，GitLab 已于 9 月 11 日修复，补丁版本为 19.3.2、19.2.6 和 19.1.8。该漏洞已被 CISA 列入 KEV 目录，实例只要存在一个公开项目即可被利用；watchTowr 提醒打完补丁还要轮换 CI 变量、runner 令牌和 SSH 密钥，并排查带 file.path 参数的 commits 接口请求。",
+      "summary_en": "GitLab's self-managed CE/EE editions carry a CVSS 10.0 path traversal flaw, CVE-2026-85706, letting unauthenticated remote attackers read arbitrary files on the server; versions 18.7 through 19.1.7, 19.2 through 19.2.5 and 19.3 through 19.3.1 are affected, with fixes in 19.3.2, 19.2.6 and 19.1.8 shipped on September 11. CISA added it to the KEV catalog, and a single public project is enough to exploit. watchTowr notes patching alone is insufficient — rotate CI variables, runner tokens and SSH keys."
     },
     {
       "id": "infoq-wMMAbsA4UOtYlAl1fH4T",
