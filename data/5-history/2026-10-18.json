@@ -196,7 +196,9 @@
       "tags": [],
       "first_seen": "2026-10-17",
       "domain": "pv-magazine.com",
-      "quality_score": 44.7
+      "quality_score": 44.7,
+      "summary_zh": "据 WNISR 2026 报告，2025 年全球太阳能发电量首次超过核电，风能与太阳能对核电的领先还在扩大。报告把差距归因于核电建设周期长、增长缓慢、小型模块化反应堆部署有限，而可再生能源和电池扩张迅速，关心能源结构与电力投资的人可以一看。",
+      "summary_en": "According to the WNISR 2026 report, solar generation surpassed nuclear power worldwide for the first time in 2025, and wind plus solar keep widening the gap. The report attributes this to nuclear's slow growth, long construction timelines and limited small modular reactor deployment, set against rapid renewables and battery expansion — relevant to anyone tracking energy mixes or power investment."
     },
     {
       "id": "hn-50106023",
@@ -228,7 +230,9 @@
       "tags": [],
       "first_seen": "2026-10-16",
       "domain": "alexwang.ai",
-      "quality_score": 25.7
+      "quality_score": 25.7,
+      "summary_zh": "这条 HN 提交的标题主张，Transformer 的架构可以凭记忆一路推导出来，而不必当作固定设计去死记，原文指向一条 Twitter/X 帖子。原文是链接，未提供更多细节，具体的推导路径和论证无法从现有素材确认。",
+      "summary_en": "A Hacker News submission whose title claims the Transformer architecture can be derived from memory rather than memorized as a fixed design; the item points to a Twitter/X post. The linked page isn't summarized here, so the derivation itself and the rest of the argument aren't available beyond the title."
     },
     {
       "id": "hn-50121179",
@@ -244,7 +248,9 @@
       "tags": [],
       "first_seen": "2026-10-16",
       "domain": "mercor.com",
-      "quality_score": 30.4
+      "quality_score": 30.4,
+      "summary_zh": "US Benchmark Map 把公开的 AI 基准测试映射到美国经济的各个部分，用尚未饱和、可执行的 agentic benchmark 衡量劳动力中哪些工作被覆盖。按它的统计，美国 90% 的工作时长花在基准测试覆盖不足的任务上，对做 agent 评测或判断落地场景的人来说，这说明榜单分数与真实生产力之间仍有明显缺口。",
+      "summary_en": "The US Benchmark Map maps public AI benchmarks onto different parts of the American economy, measuring which slices of the labor force are covered by unsaturated, agentic benchmarks. Its headline finding: 90% of US working hours go to tasks those benchmarks don't cover well. For anyone building agent evals or picking deployment targets, the gap between leaderboard scores and real productivity is the point."
     },
     {
       "id": "hn-50089921",
@@ -324,7 +330,9 @@
       "tags": [],
       "first_seen": "2026-10-18",
       "domain": "api-docs.deepseek.com",
-      "quality_score": 40.3
+      "quality_score": 40.3,
+      "summary_zh": "DeepSeek 推出 Search API 和 Fetch API，让 agent 与 RAG 应用能够调用实时网页内容，按每 1000 次成功请求 0.75 美元计费。对需要联网检索的问答、爬取类流程来说，这是可以直接接入的按量付费方案，且只对成功请求收费。公开素材只提到接口用途与定价，覆盖范围、限流等细节尚未说明。",
+      "summary_en": "DeepSeek has introduced Search and Fetch APIs that give agents and RAG applications access to live web content, billed at $0.75 per 1,000 successful requests. The pay-per-success model targets teams building retrieval or browsing agents that need fresh pages rather than a static index. Beyond the APIs' purpose and price, coverage and rate limits aren't spelled out in the available material."
     },
     {
       "id": "hn-50122951",
@@ -596,7 +604,9 @@
       "tags": [],
       "first_seen": "2026-10-18",
       "domain": "reddit.com",
-      "quality_score": 36.4
+      "quality_score": 36.4,
+      "summary_zh": "一位用户在 Hacker News 发帖称，域名注册商 Namecheap 扣押并停用了他名下的全部域名。原文只有链接、没有正文，涉及多少个域名、扣押理由和 Namecheap 的回应都没有提供。",
+      "summary_en": "A Hacker News post reports that the registrar Namecheap seized and disabled all of the author's domains at once. The linked page isn't summarized here, so details beyond the title — how many domains, the stated reason, and any response from Namecheap — aren't available; such actions matter to teams whose production infrastructure sits with a single registrar."
     },
     {
       "id": "hn-50141076",
@@ -3428,7 +3438,9 @@
       "gh_period": "daily",
       "first_seen": "2026-10-18",
       "domain": "github.com",
-      "quality_score": 30.1
+      "quality_score": 30.1,
+      "summary_zh": "Jasna 是一款视频与图像修复工具，用于去除画面中的马赛克，提供图形界面和命令行两种用法，免费且在本机 GPU 上运行。部分「支持者模型」需要许可证码，作者声明正版只能通过 Buy Me a Coffee、Unifans 以及面向国内的闲鱼渠道获取。适合希望素材留在本地、不想上传云端处理的人。",
+      "summary_en": "Jasna is a free, GPU-based tool that restores mosaics in videos and images, shipped with both a simple app and a command line interface. A set of \"supporter models\" requires a license code, which the author says is sold legitimately only through Buy Me a Coffee, Unifans, and, for China, a Xianyu seller. It fits people who want footage processed locally instead of uploaded to a cloud service."
     },
     {
       "id": "gh-daily-Comfy-Org-ComfyUI",
@@ -3445,7 +3457,9 @@
       "gh_period": "daily",
       "first_seen": "2026-10-18",
       "domain": "github.com",
-      "quality_score": 30.1
+      "quality_score": 30.1,
+      "summary_zh": "ComfyUI 是面向 diffusion 模型的模块化工具，用图/节点界面组织生成流程，同时提供 GUI、API 和后端，项目方称其为运行最快的本地推理引擎。它适合想把生成管线拆成节点自行编排、并在自己机器上跑推理的创作者和开发者。仓库还提供官网、Discord 与 Matrix 等社区入口。",
+      "summary_en": "ComfyUI is a modular tool for diffusion models that arranges generation pipelines through a graph/node interface, shipping a GUI alongside an API and backend; the project bills itself as the fastest local inference engine. It suits creators and developers who want to wire up workflows node by node and run inference on their own hardware. Community entry points include a website plus Discord and Matrix rooms."
     },
     {
       "id": "gh-monthly-paperclipai-paperclip",
@@ -4728,7 +4742,9 @@
       "tags": [],
       "first_seen": "2026-10-18",
       "domain": "infoq.cn",
-      "quality_score": 33.1
+      "quality_score": 33.1,
+      "summary_zh": "Meta 于 10 月 15 日开放 Muse Spark Open 权重：总参数 8160 亿、每 token 激活约 420 亿的稀疏 MoE，输入可为文本、图像、音频和视频。它主打智能体与软件工程，但 Terminal-Bench 2.1、DeepSWE 1.1 分数低于 GLM 5.3 max 和 Kimi K3 max；本地部署要两台搭载 M5 Ultra 的 Mac Studio。",
+      "summary_en": "Meta released the open weights of Muse Spark Open on October 15: a sparse mixture-of-experts model with 816B total parameters and roughly 42B active per token, taking text, images, audio and video as input. It targets agentic software engineering, yet trails GLM 5.3 max and Kimi K3 max on Terminal-Bench 2.1 and DeepSWE 1.1. Local deployment needs two M5 Ultra Mac Studios."
     },
     {
       "id": "infoq-UdT804ujpGxrv0pQfxv2",
@@ -4744,7 +4760,9 @@
       "tags": [],
       "first_seen": "2026-10-18",
       "domain": "infoq.cn",
-      "quality_score": 32.9
+      "quality_score": 32.9,
+      "summary_zh": "据 InfoQ 报道，Attention Residuals 论文共同第一作者、在月之暗面参与 Kimi K3 预训练与扩展工作的 17 岁研究者陈广宇（Nathan Chen），10 月 15 日在 X 上宣布离职，并确认将前往旧金山湾区。Anthropic 研究员 Sholto Douglas 在评论区邀他赴湾区工作，引发其加入 Anthropic 的猜测，但他本人直接否认；下一家雇主与入职时间尚未公开。",
+      "summary_en": "Chen Guangyu (Nathan Chen), a 17-year-old co-first author of the Attention Residuals paper who worked on scaling and pretraining for Kimi K3 at Moonshot AI, announced on October 15 that he has left the company and will move to the San Francisco Bay Area. Anthropic researcher Sholto Douglas invited him to work there, sparking speculation he would join Anthropic, which Chen flatly denied. His next employer and start date remain unknown."
     },
     {
       "id": "infoq-YmllSwKbZXY0bcVjjw70",
@@ -4760,7 +4778,9 @@
       "tags": [],
       "first_seen": "2026-10-18",
       "domain": "infoq.cn",
-      "quality_score": 34.5
+      "quality_score": 34.5,
+      "summary_zh": "Cloudflare 披露并修复了 Containers 平台的跨租户数据泄露漏洞：容器磁盘由 dm-thin 按 64 KiB 块精简分配，且跳过清零，一次 4 KiB 写入后剩余空间可能残留其他租户的数据。研究员 Oren Yomtov 于 9 月 4 日经漏洞赏金计划报告该问题，他在 5614 个可测试目录块中读到的全部是他人数据，还恢复出完整 SQLite 数据库；Cloudflare 称未发现恶意利用。",
+      "summary_en": "Cloudflare disclosed and fixed a cross-tenant data leak in its Containers platform, which also backs Cloudflare Sandboxes. Container disks are thinly provisioned by dm-thin in 64 KiB blocks with zeroing skipped, so a 4 KiB write could leave roughly 60 KiB of a previous tenant's data readable. Researcher Oren Yomtov reported it on September 4; all 5,614 testable directory blocks across six production deployments came from other users. Cloudflare says it found no evidence of exploitation."
     },
     {
       "id": "infoq-qZPH971CbfHkaCfgG0cb",
@@ -4776,7 +4796,9 @@
       "tags": [],
       "first_seen": "2026-10-18",
       "domain": "infoq.cn",
-      "quality_score": 36.0
+      "quality_score": 36.0,
+      "summary_zh": "阶跃星辰 AI 终端解决方案架构师袁俊杰将在 2026 年 10 月 22-24 日的 QCon 上海站分享大模型在终端侧的探索与量产落地，归属「千行百业 Agent 创新实践」专题。内容覆盖车端、手机、可穿戴、智能家居和 IoT 的场景现状，以及替代 ASR→NLU→DM→TTS 级联方案的 Realtime Voice Agent 端到端流式架构，目标把端到端延迟压到 200ms 以内并支持随时打断。他此前参与过阶跃 Step、Moonshot、盘古等模型的早期商业化，主导阶跃模型在汽车及终端从 0 到百万量的落地。",
+      "summary_en": "At QCon Shanghai (October 22-24, 2026), StepFun AI terminal solutions architect Yuan Junjie will talk about running large models on devices rather than in the cloud, covering automotive cockpits, phones, wearables, smart home and IoT. The core technical pitch is a Realtime Voice Agent architecture that replaces the cascaded ASR, NLU, dialogue-manager and TTS pipeline with end-to-end streaming, targeting under 200ms latency with mid-utterance interruption. He has worked on early commercialization for Step, Moonshot and PanGu models and led StepFun deployments from zero to a million units."
     },
     {
       "id": "infoq-4BUR4DmMxSBxyzYh6Fxz",
@@ -4792,7 +4814,9 @@
       "tags": [],
       "first_seen": "2026-10-18",
       "domain": "infoq.cn",
-      "quality_score": 35.4
+      "quality_score": 35.4,
+      "summary_zh": "微软 9 月 29 日发布 Aspire 13.6，仪表盘新增基于 SQLite 的持久化遥测和运行历史，默认保留每个应用最近十次运行，日志与跟踪默认上限提至 10 万条，并改为以 Native AOT 可执行文件发布。该版本以预发布包提供 Java 和 Rust 的第一方托管，新增停靠式终端与数据库 REPL，同时带有若干破坏性变更。",
+      "summary_en": "Microsoft shipped Aspire 13.6 on September 29, adding persistent telemetry and run history to the dashboard (stored in SQLite, enabled by default, keeping up to ten runs per app), raising default console log and trace limits to 100,000 entries, and publishing the dashboard as a Native AOT executable. The release also brings preview first-party hosting for Java (JAR, Maven, Gradle, Spring Boot, Quarkus) and Rust via AddRustApp, plus a docked terminal and database REPLs, alongside several breaking changes."
     },
     {
       "id": "infoq-uGNQwpOt5GGAKm2XlEZC",
@@ -4808,7 +4832,9 @@
       "tags": [],
       "first_seen": "2026-10-17",
       "domain": "infoq.cn",
-      "quality_score": 40.4
+      "quality_score": 40.4,
+      "summary_zh": "Akka 在 65 个开源项目上实测了一套基于规格说明的 AI 辅助移植流程，首轮耗时 99.3 小时、消耗 94.1 亿 token，其中 57 个项目在代码行数或性能上有改善。实现与审查由 Claude 配合 Akka Specify 完成，Sonnet 平均每个移植 61 分钟，Opus 要 120 分钟但 token 少约四成。关注 AI 辅助大规模代码迁移的团队可以看看。",
+      "summary_en": "Akka ran a spec-driven AI porting workflow across 65 open source projects, spending 99.3 hours and 9.41 billion tokens in the first round; 57 of the ports improved either line count or performance. Claude worked with Akka Specify on implementation and review, with Sonnet averaging 61 minutes per port versus 120 for Opus, which used roughly 40% fewer tokens. Relevant for teams weighing AI-assisted large-scale code migration."
     },
     {
       "id": "infoq-JMZ6WUx4a4cVqAwhwviU",
@@ -4824,7 +4850,9 @@
       "tags": [],
       "first_seen": "2026-10-17",
       "domain": "infoq.cn",
-      "quality_score": 39.8
+      "quality_score": 39.8,
+      "summary_zh": "蚂蚁灵波科技首席数据科学家黄用韬将在 10 月 22-24 日的 QCon 上海站分享《The World Is Not a Dataset》，指出机器人学习不能只围绕静态数据集，任务创建、人工介入、失败与标定等上下文都属学习系统的一部分。他主张以端、边、云协同把问题发现、数据产生、模型学习与评测串成闭环，让数据集成为持续学习的结果而非起点。",
+      "summary_en": "At QCon Shanghai (October 22-24), Huang Yongtao, chief data scientist at Ant Lingbo Technology and a former tech partner at DeepRoute.ai, will argue in \"The World Is Not a Dataset\" that robot learning cannot be built around static datasets, since task setup, human intervention, failures and recalibration are all part of the learning system. He proposes an end-edge-cloud loop linking problem discovery, data collection, training and evaluation, so datasets become an output of continual learning rather than its starting point."
     },
     {
       "id": "infoq-AF1qxLVCRls3R6MdWwBh",
@@ -4840,7 +4868,9 @@
       "tags": [],
       "first_seen": "2026-10-17",
       "domain": "infoq.cn",
-      "quality_score": 39.4
+      "quality_score": 39.4,
+      "summary_zh": "OpenJDK 的 JEP 544（提前代码编译）已进入 Targeted 状态，计划随 JDK 28 交付，让应用在 HotSpot 启动时直接使用优化后的原生代码以缩短预热时间，同期 JDK 28 Early Access Build 18 发布。Jakarta EE 12 各 Profile 时间表确定，Eclipse JNoSQL 从孵化项目晋升为 EE4J 项目，JobRunr 9.0.0 发布并在仪表盘新增甘特图视图。",
+      "summary_en": "OpenJDK's JEP 544, ahead-of-time code compilation, has moved to Targeted for delivery in JDK 28, letting applications run optimized native code as the HotSpot JVM starts and reach peak performance sooner; JDK 28 Early Access Build 18 also shipped. The roundup covers the Jakarta EE 12 schedule for each profile, Eclipse JNoSQL's promotion from incubation to an EE4J project, and JobRunr 9.0.0, which adds a Gantt-chart view of job lifecycles to its dashboard."
     },
     {
       "id": "infoq-1XtKjZ1OCyrYTCmb4Zkb",

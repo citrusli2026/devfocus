@@ -298,7 +298,9 @@
       "tags": [],
       "first_seen": "2026-10-16",
       "domain": "mercor.com",
-      "quality_score": 45.1
+      "quality_score": 45.1,
+      "summary_zh": "US Benchmark Map 把公开的 AI 基准测试映射到美国经济的各个部分，用尚未饱和、可执行的 agentic benchmark 衡量劳动力中哪些工作被覆盖。按它的统计，美国 90% 的工作时长花在基准测试覆盖不足的任务上，对做 agent 评测或判断落地场景的人来说，这说明榜单分数与真实生产力之间仍有明显缺口。",
+      "summary_en": "The US Benchmark Map maps public AI benchmarks onto different parts of the American economy, measuring which slices of the labor force are covered by unsaturated, agentic benchmarks. Its headline finding: 90% of US working hours go to tasks those benchmarks don't cover well. For anyone building agent evals or picking deployment targets, the gap between leaderboard scores and real productivity is the point."
     },
     {
       "id": "hn-50089921",
@@ -364,7 +366,9 @@
       "tags": [],
       "first_seen": "2026-10-16",
       "domain": "alexwang.ai",
-      "quality_score": 38.1
+      "quality_score": 38.1,
+      "summary_zh": "这条 HN 提交的标题主张，Transformer 的架构可以凭记忆一路推导出来，而不必当作固定设计去死记，原文指向一条 Twitter/X 帖子。原文是链接，未提供更多细节，具体的推导路径和论证无法从现有素材确认。",
+      "summary_en": "A Hacker News submission whose title claims the Transformer architecture can be derived from memory rather than memorized as a fixed design; the item points to a Twitter/X post. The linked page isn't summarized here, so the derivation itself and the rest of the argument aren't available beyond the title."
     },
     {
       "id": "hn-50111852",
@@ -428,7 +432,9 @@
       "tags": [],
       "first_seen": "2026-10-17",
       "domain": "pv-magazine.com",
-      "quality_score": 39.1
+      "quality_score": 39.1,
+      "summary_zh": "据 WNISR 2026 报告，2025 年全球太阳能发电量首次超过核电，风能与太阳能对核电的领先还在扩大。报告把差距归因于核电建设周期长、增长缓慢、小型模块化反应堆部署有限，而可再生能源和电池扩张迅速，关心能源结构与电力投资的人可以一看。",
+      "summary_en": "According to the WNISR 2026 report, solar generation surpassed nuclear power worldwide for the first time in 2025, and wind plus solar keep widening the gap. The report attributes this to nuclear's slow growth, long construction timelines and limited small modular reactor deployment, set against rapid renewables and battery expansion — relevant to anyone tracking energy mixes or power investment."
     },
     {
       "id": "hn-50109375",
@@ -4696,7 +4702,9 @@
       "tags": [],
       "first_seen": "2026-10-17",
       "domain": "infoq.cn",
-      "quality_score": 35.1
+      "quality_score": 35.1,
+      "summary_zh": "Akka 在 65 个开源项目上实测了一套基于规格说明的 AI 辅助移植流程，首轮耗时 99.3 小时、消耗 94.1 亿 token，其中 57 个项目在代码行数或性能上有改善。实现与审查由 Claude 配合 Akka Specify 完成，Sonnet 平均每个移植 61 分钟，Opus 要 120 分钟但 token 少约四成。关注 AI 辅助大规模代码迁移的团队可以看看。",
+      "summary_en": "Akka ran a spec-driven AI porting workflow across 65 open source projects, spending 99.3 hours and 9.41 billion tokens in the first round; 57 of the ports improved either line count or performance. Claude worked with Akka Specify on implementation and review, with Sonnet averaging 61 minutes per port versus 120 for Opus, which used roughly 40% fewer tokens. Relevant for teams weighing AI-assisted large-scale code migration."
     },
     {
       "id": "infoq-JMZ6WUx4a4cVqAwhwviU",
@@ -4712,7 +4720,9 @@
       "tags": [],
       "first_seen": "2026-10-17",
       "domain": "infoq.cn",
-      "quality_score": 35.5
+      "quality_score": 35.5,
+      "summary_zh": "蚂蚁灵波科技首席数据科学家黄用韬将在 10 月 22-24 日的 QCon 上海站分享《The World Is Not a Dataset》，指出机器人学习不能只围绕静态数据集，任务创建、人工介入、失败与标定等上下文都属学习系统的一部分。他主张以端、边、云协同把问题发现、数据产生、模型学习与评测串成闭环，让数据集成为持续学习的结果而非起点。",
+      "summary_en": "At QCon Shanghai (October 22-24), Huang Yongtao, chief data scientist at Ant Lingbo Technology and a former tech partner at DeepRoute.ai, will argue in \"The World Is Not a Dataset\" that robot learning cannot be built around static datasets, since task setup, human intervention, failures and recalibration are all part of the learning system. He proposes an end-edge-cloud loop linking problem discovery, data collection, training and evaluation, so datasets become an output of continual learning rather than its starting point."
     },
     {
       "id": "infoq-AF1qxLVCRls3R6MdWwBh",
@@ -4728,7 +4738,9 @@
       "tags": [],
       "first_seen": "2026-10-17",
       "domain": "infoq.cn",
-      "quality_score": 35.3
+      "quality_score": 35.3,
+      "summary_zh": "OpenJDK 的 JEP 544（提前代码编译）已进入 Targeted 状态，计划随 JDK 28 交付，让应用在 HotSpot 启动时直接使用优化后的原生代码以缩短预热时间，同期 JDK 28 Early Access Build 18 发布。Jakarta EE 12 各 Profile 时间表确定，Eclipse JNoSQL 从孵化项目晋升为 EE4J 项目，JobRunr 9.0.0 发布并在仪表盘新增甘特图视图。",
+      "summary_en": "OpenJDK's JEP 544, ahead-of-time code compilation, has moved to Targeted for delivery in JDK 28, letting applications run optimized native code as the HotSpot JVM starts and reach peak performance sooner; JDK 28 Early Access Build 18 also shipped. The roundup covers the Jakarta EE 12 schedule for each profile, Eclipse JNoSQL's promotion from incubation to an EE4J project, and JobRunr 9.0.0, which adds a Gantt-chart view of job lifecycles to its dashboard."
     },
     {
       "id": "infoq-1XtKjZ1OCyrYTCmb4Zkb",

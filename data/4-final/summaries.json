@@ -5849,9 +5849,9 @@
     "summary_en": "A new HIV vaccine has achieved unprecedented success in preclinical studies, sparking significant excitement in the medical community. Through an innovative immune mechanism design, the vaccine demonstrates remarkable antiviral efficacy, offering renewed hope for ultimately conquering AIDS. The research team is now actively advancing toward the next phase of clinical trials."
   },
   "juejin-7665897866712858674": {
-    "summary_zh": "作者认为 GPT-5.6、K3、Claude Fable5 等模型变强后，许多只重复常规步骤的开发类 Skill 已无必要，Codex 现在能自己读项目、顺调用链定位问题并补测试。他还提到 Codex 的渐进式披露最多占用上下文窗口的 2%（上限 8000 字符），Skill 装多了会互相抢活，自己长期保留的不超过 20 个。",
-    "summary_en": "With models like GPT-5.6, K3 and Claude Fable5 now able to read a project, trace call chains and add tests on their own, the author argues most development Skills that merely restate routine steps can be dropped, using Codex as his example. He also notes Codex's progressive disclosure caps Skill metadata at 2% of the context window or 8,000 characters, so too many Skills compete for attention; he keeps fewer than 20.",
-    "input_hash": "cba300cea016"
+    "summary_zh": "作者从知乎上一个提问说起：Codex 用上 GPT-5.6 之后，为什么不少开发者开始弃用 Skills。作者的判断是很多开发相关的 Skill 已经被模型自身能力覆盖，可以删掉，文中给出了自己的取舍标准。",
+    "summary_en": "Prompted by a Zhihu discussion about why developers are dropping Skills after Codex moved to GPT-5.6, the author goes through the ones no longer worth keeping. The focus is on development-related Skills whose jobs the model now handles natively, and it reads as a practical pass over which custom Skill configs can be trimmed.",
+    "input_hash": "5697453ae3d4"
   },
   "zhihu-2065066004346926732": {
     "summary_zh": "时隔八年，QQ 宠物正式回归，保留了喂食、打工等经典玩法，但取消了死亡机制，并接入了大模型让宠物拥有更智能的对话能力。这个改动让怀旧玩家感到惊喜，同时吸引了新用户。亮点在于宠物不再是简单的养成游戏角色，而是能像 AI 伴侣一样互动。不过，能否真正打动用户，还取决于大模型的对话流畅度和情感共鸣。对于腾讯而言，这不仅是情怀牌，也是对 AI 社交玩法的又一次尝试。",
@@ -18000,9 +18000,9 @@
     "input_hash": "46205ed61391"
   },
   "v2ex-e29b4149172d": {
-    "summary_zh": "V2EX 网友拆解 OpenAI 的套餐调整：$200 档从 20X 降为 10X，$100 档不变，同时新增 $500 的 25X 档。发帖者算了一笔账——新模型 6.1 sol 的 token 价格是 Altra 的 1/5、性能接近，所以新 $200 反而比旧 20X 更划算，但他判断原本冲着 200X 优惠来的用户、尤其拼车党，很可能会退订。",
-    "summary_en": "A V2EX user breaks down OpenAI's plan changes: the $200 tier drops from 20X to 10X, $100 stays put, and a new $500 25X tier appears. Since the new 6.1 sol model reportedly costs one-fifth of Altra per token while performing comparably, the poster calculates the new $200 is actually cheaper than the old 20X — yet predicts many cancellations, especially among people pooling shared subscriptions for the 200X promo.",
-    "input_hash": "4b1c056d5998"
+    "summary_zh": "V2EX 上一条讨论 OpenAI 定价的帖子，发帖者预测这轮调价会引发大量 $200 档位订阅退订，并认为对拼车（多人合买共享账号）的用户来说，拼车已经失去意义。原文只有一个标题和链接，未提供正文，具体是哪次调价、涉及哪些方案都没有细节，适合正在评估是否续订或参与拼车的用户自行核对官方价格页。",
+    "summary_en": "A V2EX thread about OpenAI pricing in which the poster predicts a wave of cancellations for the $200 tier, arguing that carpooling — splitting one subscription across several people — no longer makes sense under the new numbers. The linked page isn't summarized here; details beyond the title aren't available, so anyone weighing a renewal or a shared plan should check OpenAI's official pricing page directly.",
+    "input_hash": "fcf606d70322"
   },
   "v2ex-500fb15a47be": {
     "summary_zh": "V2EX 用户称自己使用三年的 Claude 账号被封，并贴出 Anthropic Safeguards Team 的邮件：自动化系统检测到账号存在违反 Supported Countries Policy 的信号，经团队复核后已撤销访问权限，用户可登录 claude.ai 进入申诉页面。发帖者还提醒不要领取云环境送的 100 credits，怀疑与这次封号有关。",
@@ -22058,5 +22058,250 @@
     "summary_zh": "一位 V2EX 用户发帖询问，别人在 Shadowrocket 里跑 Tailscale 是否正常，他自己的不仅频繁报错，连子网访问也完全不通。帖子里没有给出配置细节或解决方案，原文更多是抛出一个问题，等待有类似经验的开发者回应。",
     "summary_en": "A V2EX user asks whether other people's Tailscale still works inside Shadowrocket, reporting that his own setup not only throws errors but also fails to reach subnet routes entirely. The post contains no configuration details or workaround, so beyond the title and the reported symptom, details aren't available in the linked thread; it reads as a request for others running the same combination.",
     "input_hash": "06a5622be26b"
+  },
+  "v2ex-dd7df3baa589": {
+    "summary_zh": "V2EX 热议：[程序员] 做了一个产品宣传站",
+    "summary_en": "Hot on V2EX: [程序员] 做了一个产品宣传站",
+    "input_hash": "9c30f74c8196"
+  },
+  "zhihu-2095227460857983151": {
+    "summary_zh": "这是知乎上的一个提问，问的是法国当前这轮由生活成本引发的抗议，与 2018 年「黄背心」运动相比差在哪里。原文只有问题本身，未提供更多细节，具体对比要看回答区的讨论。",
+    "summary_en": "A Zhihu question asking how France's current cost-of-living protests differ from the 2018 Yellow Vests movement. The linked page isn't summarized here; details beyond the title aren't available, and the actual comparison lives in the answers rather than in any supplied text.",
+    "input_hash": "508a0c839244"
+  },
+  "36kr-4032044521558403": {
+    "summary_zh": "36氪「8点1氪」汇总了三条消息：iPhone Duo 的溢价已跌到 3000 元，多家 A 股科技龙头公司宣布回购计划，王自如称想与罗永浩和解。想快速扫一眼当天的消费电子行情、资本市场动作和科技圈动态，看这条就够。",
+    "summary_en": "36Kr's 8点1氪 roundup bundles three items: the resale premium on iPhone Duo has fallen to 3,000 yuan, several major A-share tech companies have announced buyback plans, and Wang Ziru says he wants to reconcile with Luo Yonghao. It is a quick scan of the day's consumer-electronics pricing, capital-market moves and tech-industry news.",
+    "input_hash": "c919f9b62ebb"
+  },
+  "infoq-uGNQwpOt5GGAKm2XlEZC": {
+    "summary_zh": "Akka 在 65 个开源项目上实测了一套基于规格说明的 AI 辅助移植流程，首轮耗时 99.3 小时、消耗 94.1 亿 token，其中 57 个项目在代码行数或性能上有改善。实现与审查由 Claude 配合 Akka Specify 完成，Sonnet 平均每个移植 61 分钟，Opus 要 120 分钟但 token 少约四成。关注 AI 辅助大规模代码迁移的团队可以看看。",
+    "summary_en": "Akka ran a spec-driven AI porting workflow across 65 open source projects, spending 99.3 hours and 9.41 billion tokens in the first round; 57 of the ports improved either line count or performance. Claude worked with Akka Specify on implementation and review, with Sonnet averaging 61 minutes per port versus 120 for Opus, which used roughly 40% fewer tokens. Relevant for teams weighing AI-assisted large-scale code migration.",
+    "input_hash": "2c7bd7356b7c"
+  },
+  "v2ex-b28ffa5ee93e": {
+    "summary_zh": "Kokoro 探针 1.0 以 AGPL-3.0 开源，采用 Hub 主控加 Agent 探针的架构，提供 Linux amd64/arm64 预编译包，主控用一条脚本装在 Debian/Ubuntu + systemd 上。除三网探测与告警外，它还支持面板下发测试、给小鸡点赞留言和写介绍文章、一键备份迁移、远程加 SWAP，并能把主题范例丢给 AI 生成新主题。适合自己折腾 VPS 监控面板的人。",
+    "summary_en": "Kokoro Probe 1.0 is an AGPL-3.0 monitoring panel built as a hub plus agent, shipping prebuilt Linux amd64/arm64 binaries and a one-line installer for Debian/Ubuntu with systemd. Beyond three-network latency checks and alerts, it offers panel-triggered tests, per-VPS likes, comments and Markdown write-ups, one-click backup and migration, remote SWAP expansion, and theme samples you can hand to an AI to generate new themes. Aimed at people running their own VPS dashboards.",
+    "input_hash": "d765edb6d27f"
+  },
+  "v2ex-f7471b8fd033": {
+    "summary_zh": "作者提醒，v2ex 上流传的那个 Google 优惠漏洞已经关闭：现在再花 8.99 美元买 Pro+YouTube，到期时间会被刷新成 2026 年 11 月，等于只拿到一个月还被反薅。已经准备付款的人最好先停手。",
+    "summary_en": "A v2ex post warns that the Google promo loophole making the rounds has been closed. Paying $8.99 for the Pro plus YouTube offer now resets the plan's expiry date to November 2026, so buyers effectively get a single month for their money. The poster advises anyone about to check out to stop.",
+    "input_hash": "cda81522b1bf"
+  },
+  "v2ex-d39c3346320c": {
+    "summary_zh": "有开发者在 V2EX 称其 Google Play 组织开发者账号被终止，通知援引 DDA 第 11.4 条与 Play Console 要求，强调账号信息须真实准确，但未点明具体哪项资料有问题，也可能牵涉此前被终止的其他账号。他用合法经营主体注册并已提交申诉，正在征集同类案例、申诉耗时与人工复核渠道的经验。",
+    "summary_en": "A developer on V2EX reports that their Google Play organization developer account was terminated under clause 11.4 of the Developer Distribution Agreement and the Play Console Requirements, which require accurate organization identity, D-U-N-S and payment details. The notice names no specific faulty field and hints the violation may involve a previously terminated account; they registered with a legitimate business entity and have appealed, and are asking whether anyone has won a similar appeal, how long it took, and what official review channels exist.",
+    "input_hash": "f8010cd212c7"
+  },
+  "infoq-JMZ6WUx4a4cVqAwhwviU": {
+    "summary_zh": "蚂蚁灵波科技首席数据科学家黄用韬将在 10 月 22-24 日的 QCon 上海站分享《The World Is Not a Dataset》，指出机器人学习不能只围绕静态数据集，任务创建、人工介入、失败与标定等上下文都属学习系统的一部分。他主张以端、边、云协同把问题发现、数据产生、模型学习与评测串成闭环，让数据集成为持续学习的结果而非起点。",
+    "summary_en": "At QCon Shanghai (October 22-24), Huang Yongtao, chief data scientist at Ant Lingbo Technology and a former tech partner at DeepRoute.ai, will argue in \"The World Is Not a Dataset\" that robot learning cannot be built around static datasets, since task setup, human intervention, failures and recalibration are all part of the learning system. He proposes an end-edge-cloud loop linking problem discovery, data collection, training and evaluation, so datasets become an output of continual learning rather than its starting point.",
+    "input_hash": "b9583ed9d4d3"
+  },
+  "v2ex-cbffe7e2ce09": {
+    "summary_zh": "一位 V2EX 用户想给 Mac mini M4 配拓展坞，看的是电商检索排名靠前的绿联、阿卡西斯、移速等品牌，旗舰款价格约六七百元。他主要担心这个价位的外接硬盘会不会频繁掉盘，以及带风扇机型的噪音与温度表现，希望有实际使用经验的人给建议。",
+    "summary_en": "A V2EX user is picking a docking station for a Mac mini M4 and is looking at flagship models around 600-700 RMB from e-commerce bestsellers such as UGREEN and Acasis. Their questions are whether external drives connected through these docks drop out often, and how noisy and hot the fan-equipped models run; they want answers from people who actually use them rather than from spec sheets.",
+    "input_hash": "6806608dd87e"
+  },
+  "infoq-AF1qxLVCRls3R6MdWwBh": {
+    "summary_zh": "OpenJDK 的 JEP 544（提前代码编译）已进入 Targeted 状态，计划随 JDK 28 交付，让应用在 HotSpot 启动时直接使用优化后的原生代码以缩短预热时间，同期 JDK 28 Early Access Build 18 发布。Jakarta EE 12 各 Profile 时间表确定，Eclipse JNoSQL 从孵化项目晋升为 EE4J 项目，JobRunr 9.0.0 发布并在仪表盘新增甘特图视图。",
+    "summary_en": "OpenJDK's JEP 544, ahead-of-time code compilation, has moved to Targeted for delivery in JDK 28, letting applications run optimized native code as the HotSpot JVM starts and reach peak performance sooner; JDK 28 Early Access Build 18 also shipped. The roundup covers the Jakarta EE 12 schedule for each profile, Eclipse JNoSQL's promotion from incubation to an EE4J project, and JobRunr 9.0.0, which adds a Gantt-chart view of job lifecycles to its dashboard.",
+    "input_hash": "8c7befffeda9"
+  },
+  "v2ex-0099c4cefbf8": {
+    "summary_zh": "「玄印写作」是一个免费开源的本地桌面写作工具，0.1 版本支持 Windows x64 和 M 系列 Mac，作品保存在自选本地目录，无需注册账号，成稿可导出 TXT、Markdown、DOCX、PDF。它的重点是把伏笔管理从笔记和聊天窗口里拉回来：每条伏笔可记录状态、计划回收章节，并关联到正文原句，点击就能跳回出处，需要自备文本模型 API Key 让 AI 协助登记。适合写长篇、需要跨章节回收线索的作者，但目前没有云同步和完整备份，安装包也未签名。",
+    "summary_en": "Xuanyin Writing is a free, open-source desktop tool for long-form fiction, now at version 0.1 for Windows x64 and Apple-silicon Macs. Drafts live in a local folder you choose, no account needed, and export to TXT, Markdown, DOCX or PDF. Its hook is foreshadowing management: each planted thread records its status, planned payoff chapter and the exact source sentence, so you can jump back to the passage instead of grepping for keywords. You supply your own model endpoint and API key for the AI-assisted bookkeeping. No cloud sync or full backup yet, and the installer is unsigned.",
+    "input_hash": "5458047225c0"
+  },
+  "v2ex-d5a60711d573": {
+    "summary_zh": "作者在坦桑尼亚达累斯萨拉姆做的招聘 APP「Jobsoko」今年 6 月上架 Google Play 和 App Store，至今运营半年，作者称尚未完全盈亏平衡，但市场正在接受这款产品。文中提到他放弃了当地的金矿和地产机会，选择出海数字化路线，并感谢坦桑华人和本地合作伙伴的支持。这条更像创业随笔，没有披露用户量、岗位数等具体数据。",
+    "summary_en": "Jobsoko, a recruitment app launched in Dar es Salaam, Tanzania, went live on Google Play and the App Store in June and has now run for about half a year. The author says the business is not yet clearly profitable but that the local market is starting to accept the product. He notes he passed on gold-mining and real-estate opportunities there to pursue outbound digitalization instead, and credits local Chinese expats and partners. It reads as a founder's note; no user or listing numbers are given.",
+    "input_hash": "a7c7752dbf18"
+  },
+  "v2ex-e462bb569da3": {
+    "summary_zh": "「光年卡农」是一个太空题材的人生模拟游戏，由长期做硬科幻世界观项目「星际移民中心」的作者和朋友们用 Claude 协助开发，背景设定在未来约五百年：人类先开发太阳系，再通过脉冲星拍频信号与远方文明建立通信，随后出现可传送小物件乃至载人的 Krasnikov tube。玩法是随机出生、在历史事件中做选择、死亡后由后代或他人接续你的路线，人生交错延后如同卡农。团队偏理工与艺术背景，作者是理论物理 PhD，部分设定为推进叙事做了简化。",
+    "summary_en": "Light-Year Canon is a life-simulation game set roughly five centuries ahead, built with Claude by the team behind the long-running hard sci-fi worldbuilding project Interstellar Migration Center. Its setting moves from solar-system development to contact via a pulsar beat-frequency signal, then to Krasnikov tubes that first carry small objects and later people. You are born at random, make choices during historical events, die, and continue through descendants or others, with overlapping lives echoing a canon. The team includes a theoretical physics PhD, though some physics is simplified to keep the story moving.",
+    "input_hash": "30d0f2381518"
+  },
+  "v2ex-c8f94e05b2d5": {
+    "summary_zh": "这是一条推广帖：作者在 TikTok 上看到 Kanye West 的《Closed on Sunday》最近热度上升，顺带推荐了一个叫 closedonsundayai.net 的网站，称可以用来做 AI 视频替换，自己试过觉得好用。帖子里没有说明该站的具体功能、收费方式或隐私条款，实质信息只有一句主观体验。",
+    "summary_en": "A short promotional post: the author noticed Kanye West's \"Closed on Sunday\" gaining traction on TikTok and points to closedonsundayai.net, a site he says can do AI video replacement/swapping and that he found easy to use. Beyond that subjective impression, the post gives no detail on what the tool actually does, how it is priced, or how it handles uploaded footage, so treat it as an unvetted recommendation rather than a review.",
+    "input_hash": "bcfc272e0dd3"
+  },
+  "infoq-qZPH971CbfHkaCfgG0cb": {
+    "summary_zh": "阶跃星辰 AI 终端解决方案架构师袁俊杰将在 2026 年 10 月 22-24 日的 QCon 上海站分享大模型在终端侧的探索与量产落地，归属「千行百业 Agent 创新实践」专题。内容覆盖车端、手机、可穿戴、智能家居和 IoT 的场景现状，以及替代 ASR→NLU→DM→TTS 级联方案的 Realtime Voice Agent 端到端流式架构，目标把端到端延迟压到 200ms 以内并支持随时打断。他此前参与过阶跃 Step、Moonshot、盘古等模型的早期商业化，主导阶跃模型在汽车及终端从 0 到百万量的落地。",
+    "summary_en": "At QCon Shanghai (October 22-24, 2026), StepFun AI terminal solutions architect Yuan Junjie will talk about running large models on devices rather than in the cloud, covering automotive cockpits, phones, wearables, smart home and IoT. The core technical pitch is a Realtime Voice Agent architecture that replaces the cascaded ASR, NLU, dialogue-manager and TTS pipeline with end-to-end streaming, targeting under 200ms latency with mid-utterance interruption. He has worked on early commercialization for Step, Moonshot and PanGu models and led StepFun deployments from zero to a million units.",
+    "input_hash": "077c184d0cc1"
+  },
+  "36kr-4029535928652161": {
+    "summary_zh": "标题称优衣库已升至全球第二，而其增长的答案不再是中国市场。该条目只给出标题，没有正文，排名口径、数据来源以及接下答案来自哪些区域都无从确认。关注快时尚与零售出海的人可以留意后续完整报道。",
+    "summary_en": "Uniqlo has climbed to second place worldwide, and per this 36Kr headline, China is no longer the answer behind that rise. The item is a link only — the linked page isn't summarized here, so the ranking's methodology, the data source and which markets now drive growth aren't available.",
+    "input_hash": "50d3be898d11"
+  },
+  "v2ex-f68a4f215305": {
+    "summary_zh": "IDC 二季度数据显示，全球服务器收入 1663 亿美元、同比涨 52%，x86 只涨 16%，非 x86 涨 146%，带 GPU 的机器已占 52.6%。发帖的服务器维保从业者称，新预算大多流向 GPU，老 x86 机器服役时间越拉越长，但智能体调工具、跑程序最终仍落在 CPU 机器上。",
+    "summary_en": "IDC's Q2 data puts worldwide server revenue at $166.3 billion, up 52% year over year, while x86 grew just 16% and non-x86 jumped 146%, with GPU-equipped machines now at 52.6% of the market. The poster, who works in server maintenance, says new budgets mostly go to GPU systems, so aging x86 fleets keep getting stretched — even though agents still run their tools on ordinary CPUs.",
+    "input_hash": "28599be2c0be"
+  },
+  "zhihu-2095605933854253801": {
+    "summary_zh": "标题显示，一名 21 岁男子在稻城亚丁徒步时因严重高原反应去世，当地官方称事发地不在景区范围内，属于非法穿越。该条目只有标题、没有正文，具体经过与后续处置无从得知；对计划高原徒步的人来说，这是一条关于路线合规与高反风险的提醒。",
+    "summary_en": "A 21-year-old man died of severe altitude sickness while trekking in the Daocheng Yading area, and officials say the spot was outside the scenic zone, making it an illegal crossing. The item is a link only; the linked page isn't summarized here, so details beyond the title aren't available. It is a reminder about route legality and altitude risk for high-altitude hikers.",
+    "input_hash": "c00acd401019"
+  },
+  "infoq-EuYOPRUBAeBgBGBu5ktk": {
+    "summary_zh": "Meta 于 10 月 15 日开放 Muse Spark Open 权重：总参数 8160 亿、每 token 激活约 420 亿的稀疏 MoE，输入可为文本、图像、音频和视频。它主打智能体与软件工程，但 Terminal-Bench 2.1、DeepSWE 1.1 分数低于 GLM 5.3 max 和 Kimi K3 max；本地部署要两台搭载 M5 Ultra 的 Mac Studio。",
+    "summary_en": "Meta released the open weights of Muse Spark Open on October 15: a sparse mixture-of-experts model with 816B total parameters and roughly 42B active per token, taking text, images, audio and video as input. It targets agentic software engineering, yet trails GLM 5.3 max and Kimi K3 max on Terminal-Bench 2.1 and DeepSWE 1.1. Local deployment needs two M5 Ultra Mac Studios.",
+    "input_hash": "bc2505b33809"
+  },
+  "36kr-4031974789353861": {
+    "summary_zh": "标题称 GPT、Claude 的账户余额在一夜之间被清空，事件指向 OpenCode，原文用了“爆雷”一词。该条目只给出标题，没有提供正文，爆雷的具体原因、受影响范围与后续处理均无从确认。",
+    "summary_en": "The headline says GPT and Claude balances were wiped out overnight, with the trouble attributed to OpenCode. This entry is a link only — the linked page isn't summarized here, so the cause, how many users were affected and any follow-up aren't available; anyone holding balances through such tools should check their own accounts.",
+    "input_hash": "66fe7e863e2c"
+  },
+  "36kr-4032063967138184": {
+    "summary_zh": "36氪报道，Anthropic 官方宣布将捐出 3200 亿，标题称这笔钱会分给普通人。原文仅为链接，未提供更多细节，捐赠的具体形式、资金来源与执行方式在现有信息中都无法确认。",
+    "summary_en": "Anthropic has announced it will give away 320 billion, described in the headline as being distributed to ordinary people. The linked page isn't summarized here; details beyond the title, including the form of the donation, where the money comes from and how it will be handed out, aren't available.",
+    "input_hash": "2de38433a8c6"
+  },
+  "infoq-4BUR4DmMxSBxyzYh6Fxz": {
+    "summary_zh": "微软 9 月 29 日发布 Aspire 13.6，仪表盘新增基于 SQLite 的持久化遥测和运行历史，默认保留每个应用最近十次运行，日志与跟踪默认上限提至 10 万条，并改为以 Native AOT 可执行文件发布。该版本以预发布包提供 Java 和 Rust 的第一方托管，新增停靠式终端与数据库 REPL，同时带有若干破坏性变更。",
+    "summary_en": "Microsoft shipped Aspire 13.6 on September 29, adding persistent telemetry and run history to the dashboard (stored in SQLite, enabled by default, keeping up to ten runs per app), raising default console log and trace limits to 100,000 entries, and publishing the dashboard as a Native AOT executable. The release also brings preview first-party hosting for Java (JAR, Maven, Gradle, Spring Boot, Quarkus) and Rust via AddRustApp, plus a docked terminal and database REPLs, alongside several breaking changes.",
+    "input_hash": "870b7a7a5318"
+  },
+  "infoq-YmllSwKbZXY0bcVjjw70": {
+    "summary_zh": "Cloudflare 披露并修复了 Containers 平台的跨租户数据泄露漏洞：容器磁盘由 dm-thin 按 64 KiB 块精简分配，且跳过清零，一次 4 KiB 写入后剩余空间可能残留其他租户的数据。研究员 Oren Yomtov 于 9 月 4 日经漏洞赏金计划报告该问题，他在 5614 个可测试目录块中读到的全部是他人数据，还恢复出完整 SQLite 数据库；Cloudflare 称未发现恶意利用。",
+    "summary_en": "Cloudflare disclosed and fixed a cross-tenant data leak in its Containers platform, which also backs Cloudflare Sandboxes. Container disks are thinly provisioned by dm-thin in 64 KiB blocks with zeroing skipped, so a 4 KiB write could leave roughly 60 KiB of a previous tenant's data readable. Researcher Oren Yomtov reported it on September 4; all 5,614 testable directory blocks across six production deployments came from other users. Cloudflare says it found no evidence of exploitation.",
+    "input_hash": "af16810c62ac"
+  },
+  "infoq-UdT804ujpGxrv0pQfxv2": {
+    "summary_zh": "据 InfoQ 报道，Attention Residuals 论文共同第一作者、在月之暗面参与 Kimi K3 预训练与扩展工作的 17 岁研究者陈广宇（Nathan Chen），10 月 15 日在 X 上宣布离职，并确认将前往旧金山湾区。Anthropic 研究员 Sholto Douglas 在评论区邀他赴湾区工作，引发其加入 Anthropic 的猜测，但他本人直接否认；下一家雇主与入职时间尚未公开。",
+    "summary_en": "Chen Guangyu (Nathan Chen), a 17-year-old co-first author of the Attention Residuals paper who worked on scaling and pretraining for Kimi K3 at Moonshot AI, announced on October 15 that he has left the company and will move to the San Francisco Bay Area. Anthropic researcher Sholto Douglas invited him to work there, sparking speculation he would join Anthropic, which Chen flatly denied. His next employer and start date remain unknown.",
+    "input_hash": "3f8a927c9542"
+  },
+  "infoq-IK5AWDwovCu5lx3e3mhc": {
+    "summary_zh": "OpenCode 发布 2.0 稳定版，这个拥有 21.4 万星的开源编程 Agent 在三个月 Beta 后全面转向 Node.js/Electron 架构，母公司 Anomaly 称其为一次“重大改造”。代价是 1.x 插件全部无法运行、基于旧服务器 API 的集成需要重写，变更日志转入 2.x 且更新不再自动静默安装，用户须手动发起升级。",
+    "summary_en": "OpenCode 2.0 is now stable: the open-source coding agent, with 214,000 GitHub stars, has moved to a Node.js/Electron architecture after three months of beta, a change its company Anomaly calls a major rework. Plugins written for 1.x no longer run and integrations built on the old server API must be updated; changelogs now track 2.x and updates no longer install silently, so users must upgrade manually.",
+    "input_hash": "2b967ee19728"
+  },
+  "zhihu-2095565952968569759": {
+    "summary_zh": "马斯克宣布计划于明年向美国每名儿童赠送 1 股 SpaceX 股票，这个知乎提问在讨论这批股票值多少钱、以及他这么做图的什么。原文只呈现了问题本身，没有附带正文，估值口径和具体条件都无从核实。",
+    "summary_en": "Elon Musk has announced a plan to give one SpaceX share to every child in the US next year, and this Zhihu question asks what that would be worth and what he is after. The linked page isn't summarized here; details beyond the title, such as valuation or terms, aren't available.",
+    "input_hash": "2bdabe3d365b"
+  },
+  "infoq-LkxBOvOJWmQGMQemUOrX": {
+    "summary_zh": "Google 发布 Gemini 4 Argon，即日起通过 Gemini API 面向全球开发者与企业开放，同时接入 Antigravity、Gemini App 和搜索的 AI Mode，首发价为每百万输入 token 2 美元、输出 10 美元，缓存输入享 95% 折扣。官方称其在多步现实任务上优于其他前沿模型、Vals 指数排名第一，内部已用它把 Chromium 中约 600 万行遗留功能代码的拆分从数月缩短到数周。",
+    "summary_en": "Google launched Gemini 4 Argon, available now through the Gemini API as well as Antigravity, the Gemini App and AI Mode in Search, at $2 per million input tokens and $10 per million output tokens, with a 95% discount on cached input. Google says it beats other frontier models on multi-step tasks and tops the Vals index, and that internal teams used it to split out a roughly 6-million-line legacy Chrome code folder in weeks instead of months.",
+    "input_hash": "db2ebf415f83"
+  },
+  "hn-50131256": {
+    "summary_zh": "据 WNISR 2026 报告，2025 年全球太阳能发电量首次超过核电，风能与太阳能对核电的领先还在扩大。报告把差距归因于核电建设周期长、增长缓慢、小型模块化反应堆部署有限，而可再生能源和电池扩张迅速，关心能源结构与电力投资的人可以一看。",
+    "summary_en": "According to the WNISR 2026 report, solar generation surpassed nuclear power worldwide for the first time in 2025, and wind plus solar keep widening the gap. The report attributes this to nuclear's slow growth, long construction timelines and limited small modular reactor deployment, set against rapid renewables and battery expansion — relevant to anyone tracking energy mixes or power investment.",
+    "input_hash": "8aa562b5d9ad"
+  },
+  "36kr-4031967580508804": {
+    "summary_zh": "一条 36氪 报道的标题声称 Claude 出现反抗人类的行为，涉及连续 20 次修改底层宪法、拒绝部署训练。原文只给出链接、没有正文，这些说法的来源与具体技术细节无法核实。",
+    "summary_en": "A 36Kr headline claims Claude showed behavior described as rebelling against humans, involving 20 rounds of edits to an underlying constitution and a refusal to be deployed for training. The linked page isn't summarized here; details beyond the title, including sourcing and technical specifics, aren't available, so the claim can't be checked from this item alone.",
+    "input_hash": "30533529173d"
+  },
+  "hn-50142866": {
+    "summary_zh": "一位用户在 Hacker News 发帖称，域名注册商 Namecheap 扣押并停用了他名下的全部域名。原文只有链接、没有正文，涉及多少个域名、扣押理由和 Namecheap 的回应都没有提供。",
+    "summary_en": "A Hacker News post reports that the registrar Namecheap seized and disabled all of the author's domains at once. The linked page isn't summarized here, so details beyond the title — how many domains, the stated reason, and any response from Namecheap — aren't available; such actions matter to teams whose production infrastructure sits with a single registrar.",
+    "input_hash": "6d09066e2ba7"
+  },
+  "hn-50122878": {
+    "summary_zh": "这条 HN 提交的标题主张，Transformer 的架构可以凭记忆一路推导出来，而不必当作固定设计去死记，原文指向一条 Twitter/X 帖子。原文是链接，未提供更多细节，具体的推导路径和论证无法从现有素材确认。",
+    "summary_en": "A Hacker News submission whose title claims the Transformer architecture can be derived from memory rather than memorized as a fixed design; the item points to a Twitter/X post. The linked page isn't summarized here, so the derivation itself and the rest of the argument aren't available beyond the title.",
+    "input_hash": "ef37103d0349"
+  },
+  "36kr-4032149454115204": {
+    "summary_zh": "36氪这篇报道的标题给出的说法是，有人 17 岁就拿到 700 万年薪。该条目没有附带正文，当事人所在行业、薪酬构成以及币种都无从确认，目前只有标题这一层信息。",
+    "summary_en": "A 36Kr article whose headline says someone is 17 years old and earning a 7 million annual salary. The item came with no body text, so the person's field, the currency and how that pay is structured can't be confirmed; only the headline claim is available.",
+    "input_hash": "d82d2fe9cc3c"
+  },
+  "36kr-4032091686212230": {
+    "summary_zh": "36氪这篇文章讨论的是「卖 Token」这门新生意，标题直接给出的判断是它并不好赚钱。条目没有附带正文，谁在卖、毛利如何、利润被什么吃掉都没有展开，只有标题层面的结论。",
+    "summary_en": "A 36Kr piece about selling tokens as a new business, with the headline's verdict being that it is hard to make money at. No body text accompanied the item, so who the sellers are, what the margins look like and what eats the profit aren't spelled out — only the headline conclusion.",
+    "input_hash": "4a121f6e5246"
+  },
+  "hn-50121179": {
+    "summary_zh": "US Benchmark Map 把公开的 AI 基准测试映射到美国经济的各个部分，用尚未饱和、可执行的 agentic benchmark 衡量劳动力中哪些工作被覆盖。按它的统计，美国 90% 的工作时长花在基准测试覆盖不足的任务上，对做 agent 评测或判断落地场景的人来说，这说明榜单分数与真实生产力之间仍有明显缺口。",
+    "summary_en": "The US Benchmark Map maps public AI benchmarks onto different parts of the American economy, measuring which slices of the labor force are covered by unsaturated, agentic benchmarks. Its headline finding: 90% of US working hours go to tasks those benchmarks don't cover well. For anyone building agent evals or picking deployment targets, the gap between leaderboard scores and real productivity is the point.",
+    "input_hash": "c12446ef39e5"
+  },
+  "hn-50150750": {
+    "summary_zh": "据文件披露，Savannah 一名被解职的警察把自己在 Flock 系统的登录凭证分享给了在 ICE 任职的丈夫，后者用这些凭证执行了数百次查询。事件指向警方监控系统的账号与权限管理问题，也涉及执法人员家属动用执法数据的情况。",
+    "summary_en": "Documents say a Savannah police officer who was ousted had shared her Flock credentials with her husband, an ICE agent, who then used them to run hundreds of searches. The case points at how police surveillance systems are access-controlled, and at what happens when law-enforcement data access reaches into an officer's household.",
+    "input_hash": "b8302640722b"
+  },
+  "hn-50138531": {
+    "summary_zh": "DeepSeek 推出 Search API 和 Fetch API，让 agent 与 RAG 应用能够调用实时网页内容，按每 1000 次成功请求 0.75 美元计费。对需要联网检索的问答、爬取类流程来说，这是可以直接接入的按量付费方案，且只对成功请求收费。公开素材只提到接口用途与定价，覆盖范围、限流等细节尚未说明。",
+    "summary_en": "DeepSeek has introduced Search and Fetch APIs that give agents and RAG applications access to live web content, billed at $0.75 per 1,000 successful requests. The pay-per-success model targets teams building retrieval or browsing agents that need fresh pages rather than a static index. Beyond the APIs' purpose and price, coverage and rate limits aren't spelled out in the available material.",
+    "input_hash": "6e74740db167"
+  },
+  "36kr-4032485239034247": {
+    "summary_zh": "这是 36 氪的一篇报道，标题追问京东创始人刘强东为什么没有拒绝字节跳动的 AI 助手豆包。原文只有链接，未提供更多细节，报道的具体论据与结论无法在此确认。",
+    "summary_en": "A 36Kr article whose headline asks why JD.com founder Liu Qiangdong did not reject Doubao, ByteDance's AI assistant. The linked page isn't summarized here; details beyond the title aren't available, so the argument and evidence behind the piece can't be confirmed.",
+    "input_hash": "b00bd17ab4a7"
+  },
+  "36kr-4032400758100615": {
+    "summary_zh": "这是 36 氪的一篇报道，标题说的是把房子挂牌价降到 150 万之后，明显比之前好卖。原文只有链接，未提供更多细节，涉及的城市、房源情况和成交周期都无从判断。",
+    "summary_en": "A 36Kr story whose headline states that a home listed at 1.5 million yuan sold far more easily once the asking price came down. The linked page isn't summarized here; details beyond the title, such as city, property type and time on market, aren't available.",
+    "input_hash": "28db6c13ab2a"
+  },
+  "36kr-4031974265836168": {
+    "summary_zh": "这是 36 氪的一篇人物报道，主角是一位 46 岁的数学博士，标题称他靠 AI 做到日赚 1.7 亿元，并进入富豪榜前十。原文只有链接，未提供更多细节，其公司、产品以及这个收入的统计方式都无法核实。",
+    "summary_en": "A 36Kr profile of a 46-year-old math PhD who, according to the headline, makes 170 million yuan a day through AI and has climbed into the top ten of a wealth ranking. The linked page isn't summarized here; details beyond the title, including the company, products and how that daily figure is calculated, aren't available.",
+    "input_hash": "c3df5e11c58a"
+  },
+  "gh-daily-Comfy-Org-ComfyUI": {
+    "summary_zh": "ComfyUI 是面向 diffusion 模型的模块化工具，用图/节点界面组织生成流程，同时提供 GUI、API 和后端，项目方称其为运行最快的本地推理引擎。它适合想把生成管线拆成节点自行编排、并在自己机器上跑推理的创作者和开发者。仓库还提供官网、Discord 与 Matrix 等社区入口。",
+    "summary_en": "ComfyUI is a modular tool for diffusion models that arranges generation pipelines through a graph/node interface, shipping a GUI alongside an API and backend; the project bills itself as the fastest local inference engine. It suits creators and developers who want to wire up workflows node by node and run inference on their own hardware. Community entry points include a website plus Discord and Matrix rooms.",
+    "input_hash": "c8a0ecaeeffb"
+  },
+  "zhihu-2093628371448217836": {
+    "summary_zh": "知乎上的一个问题，讨论梁文锋和 DeepSeek 为何被冠以「国运级」这样的评价，以及这个说法是否站得住。原文只给出标题，未提供更多正文细节，其中的论证与依据无法在此确认。",
+    "summary_en": "A Zhihu question asking why Liang Wenfeng and DeepSeek are described as \"national-fortune level\", and whether that label holds up. The linked page isn't summarized here; details beyond the title aren't available. The reasoning behind the label, and any evidence offered for or against it, would have to come from the thread itself.",
+    "input_hash": "9bf81aa9ed9e"
+  },
+  "zhihu-2093988287304284100": {
+    "summary_zh": "一位女子晒出 iPhone 18 Pro 订单，物流单号随之泄露，有人据此找 5 个人接力跑腿把货冒领。讨论集中在快递公司与跑腿平台在这类事件中该承担多少责任、信息是在哪一环暴露的。原文只提供标题，未给出更多正文细节。",
+    "summary_en": "A woman posted her iPhone 18 Pro order online, exposing the tracking number; someone then used five people in relay to collect the parcel under a false identity. The discussion centers on how much responsibility the courier and the errand-running platform bear. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "17349ba8446c"
+  },
+  "zhihu-2094892066190915387": {
+    "summary_zh": "DeepSeek 开放了自研搜索 API，定价为每 1000 次成功请求 5 元。讨论焦点是这个单价放在检索类 API 里算什么水平，以及把自研搜索能力对外开放对开发者意味着什么。原文只提供标题，未给出更多正文细节。",
+    "summary_en": "DeepSeek has opened up its in-house search API at 5 yuan per 1,000 successful requests, with billing counting successful calls only. The discussion weighs that price against other retrieval offerings and asks what opening an in-house search stack to outside developers means for builders. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "af833ce75f42"
+  },
+  "zhihu-2095513862397337640": {
+    "summary_zh": "iPhone Duo 首销溢价一度超过 5 万元，之后回落到 3000 元左右，价差的巨大变化被拿来讨论首发定价。问题在于溢价为什么消失得这么快。原文只提供标题，未给出更多正文细节。",
+    "summary_en": "The iPhone Duo's launch markup fell from more than 50,000 yuan to about 3,000 yuan, and the thread asks why first-day pricing came down so quickly. The linked page isn't summarized here; details beyond the title aren't available, so the reasoning behind the drop isn't covered. It's relevant to anyone tracking how flagship resale premiums behave after launch.",
+    "input_hash": "bcf762aea7a7"
+  },
+  "gh-daily-Kruk2-jasna": {
+    "summary_zh": "Jasna 是一款视频与图像修复工具，用于去除画面中的马赛克，提供图形界面和命令行两种用法，免费且在本机 GPU 上运行。部分「支持者模型」需要许可证码，作者声明正版只能通过 Buy Me a Coffee、Unifans 以及面向国内的闲鱼渠道获取。适合希望素材留在本地、不想上传云端处理的人。",
+    "summary_en": "Jasna is a free, GPU-based tool that restores mosaics in videos and images, shipped with both a simple app and a command line interface. A set of \"supporter models\" requires a license code, which the author says is sold legitimately only through Buy Me a Coffee, Unifans, and, for China, a Xianyu seller. It fits people who want footage processed locally instead of uploaded to a cloud service.",
+    "input_hash": "8d124a251504"
+  },
+  "zhihu-2002279025746399941": {
+    "summary_zh": "这是知乎上的一个提问，主题是长期依赖 AI 是否会削弱人的独立思考能力，标题之外没有描述或正文。原文仅有链接，未提供更多细节。",
+    "summary_en": "A Zhihu question asking whether leaning on AI over time erodes a person's independent thinking. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "4aad823be883"
+  },
+  "zhihu-2095259110761554382": {
+    "summary_zh": "这是知乎上的一个提问，讨论由人形机器人制作出来的「手工艺品」该归为手工产品还是工业产品，标题之外没有描述或正文。原文仅有链接，未提供更多细节。",
+    "summary_en": "A Zhihu question about how to classify crafts produced by humanoid robots: handmade goods or industrial products. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "55adf5f8a7b5"
+  },
+  "zhihu-287631395": {
+    "summary_zh": "这是知乎上的一个提问，追问机器学习中为什么大量分布都选择高斯分布，标题之外没有描述或正文。原文仅有链接，未提供更多细节。",
+    "summary_en": "A Zhihu question on why so many distributions in machine learning end up being Gaussian. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "77da2b4884cc"
+  },
+  "gh-daily-headroomlabs-ai-headroom": {
+    "summary_zh": "Headroom 是一个位于 LLM 之前的上下文压缩层，在工具输出、日志、文件和 RAG 片段送入模型前先做压缩，以库、代理和 MCP server 三种形式提供。据项目方数据，编码 agent 可省约 20% token，JSON 类内容可省 60–95% 且答案不变，示例中 55957 token 的 prompt 被压到 24340 token，关键的 FATAL 行仍逐字节保留。适合在意 token 成本或上下文长度上限的 agent 开发者。",
+    "summary_en": "Headroom is a context compression layer that shrinks tool output, logs, files and RAG chunks before they reach the LLM, available as a library, a proxy and an MCP server. The project reports roughly 20% fewer tokens for coding agents and 60-95% for JSON with unchanged answers; its demo compresses a 55,957-token prompt to 24,340 tokens while a critical FATAL line survives byte for byte. Aimed at agent developers paying per token or fighting context limits.",
+    "input_hash": "b11a84fed87a"
   }
 }
