@@ -212,7 +212,9 @@
       "tags": [],
       "first_seen": "2026-10-19",
       "domain": "lwn.net",
-      "quality_score": 41.5
+      "quality_score": 41.5,
+      "summary_zh": "Linux 7.3 正式版于 10 月 18 日发布，本周期合入 18,765 个非合并提交、来自 3,021 名开发者，其中 807 人是首次贡献内核代码，改动包含 binfmt_misc 的较大扩展。Linus Torvalds 称这是各项数字均破纪录的版本，7.4 的 merge window 次日开启。内核开发者与发行版维护者可据此评估升级。",
+      "summary_en": "Linux 7.3 is out: Linus Torvalds released the kernel on October 18, with 18,765 non-merge commits from 3,021 developers, 807 of them first-time contributors, which the release note calls a record on all fronts. Changes include extensions to binfmt_misc. The 7.4 merge window opens the next day, though Torvalds' family vacation will make his schedule unusual. Kernel and distro maintainers should start evaluating it."
     },
     {
       "id": "hn-50126253",
@@ -276,7 +278,9 @@
       "tags": [],
       "first_seen": "2026-10-19",
       "domain": "mistral.ai",
-      "quality_score": 38.7
+      "quality_score": 38.7,
+      "summary_zh": "Timestral 是 Mistral 的时间序列基础模型系列，提供 5M 到 209M 参数共四档规模，主打概率预测的 SOTA 效果、开箱即用的零样本能力，以及在 CPU 上高效推理。适合没有自有训练数据、或算力受限却要做预测的团队评估。",
+      "summary_en": "Timestral is Mistral's family of time-series foundation models, released in four sizes from 5M to 209M parameters. It targets state-of-the-art probabilistic forecasting, works zero-shot out of the box, and is built to run efficiently on CPU. Teams that need forecasting without training their own model, or without GPU capacity, are the obvious audience."
     },
     {
       "id": "hn-50145337",
@@ -436,7 +440,9 @@
       "tags": [],
       "first_seen": "2026-10-19",
       "domain": "chriskiehl.com",
-      "quality_score": 24.7
+      "quality_score": 24.7,
+      "summary_zh": "一篇主张“写代码依然可以是件乐事”的短文，正文只有一句 Programming is fun!，没有展开论证或经验细节。适合被排期和指标压得有点倦的开发者当作一句提醒，原文本身并未提供更多内容。",
+      "summary_en": "A short post arguing that enjoying programming is still fine, with a body that amounts to a single line: \"Programming is fun!\" Beyond that rallying cry the piece offers no arguments or anecdotes. It speaks to developers who want a reminder that the work can be pleasurable amid deadlines and metrics; the linked page isn't summarized here beyond that line."
     },
     {
       "id": "hn-50106747",
@@ -548,7 +554,9 @@
       "tags": [],
       "first_seen": "2026-10-19",
       "domain": "youtube.com",
-      "quality_score": 35.1
+      "quality_score": 35.1,
+      "summary_zh": "这是一段视频，作者展示了自己只用单个电机就做出来的无人机。多旋翼通常要靠多个电机维持姿态，单电机方案如何解决平衡和转向是这条内容的核心看点。原文是视频链接，未提供更多细节。",
+      "summary_en": "A video post in which the author demonstrates a drone built with just one motor. Multi-rotor designs normally need several motors for attitude control, so how a single-motor build stays balanced and steers is the obvious question. The linked page isn't summarized here; details beyond the title aren't available."
     },
     {
       "id": "hn-50150927",
@@ -3837,7 +3845,9 @@
       "content": "",
       "first_seen": "2026-10-18",
       "domain": "juejin.cn",
-      "quality_score": 18.3
+      "quality_score": 18.3,
+      "summary_zh": "一篇面向程序员的职业文章，把当下主流出路拆成 7 条，逐条讲真实门槛、优劣势与适合人群。背景是 AI 工具普及、大厂招聘收缩和 35 岁门槛，适合正在考虑转型或换赛道的人。",
+      "summary_en": "A career piece that lays out seven paths programmers are actually taking, with each one's real entry bar, trade-offs and the kind of person it suits. It's framed around AI tooling going mainstream, shrinking hiring at big companies and the 35-year age cutoff, so it speaks to developers weighing a change of track."
     },
     {
       "id": "juejin-7655245911811784750",
@@ -4009,7 +4019,9 @@
       "content": "",
       "first_seen": "2026-09-21",
       "domain": "juejin.cn",
-      "quality_score": 7.0
+      "quality_score": 7.0,
+      "summary_zh": "一位用 GPT 两年多的重度用户，记录自己连续用了一个月 WorkBuddy 的真实感受；他此前因为网络原因，一直通过第三方中转 API 调用 GPT。文中结合写方案、改文案、整理资料等日常场景给出评价，适合正在挑 AI 工具的人参考。",
+      "summary_en": "A heavy GPT user of more than two years, who had been calling the API through a third-party relay because of network issues, writes up his impressions after a month with WorkBuddy. The piece works through everyday tasks such as drafting proposals, editing copy and organizing materials, so it is aimed at people comparing AI tools for daily work."
     },
     {
       "id": "juejin-7693414422438723626",
@@ -4731,7 +4743,9 @@
       "tags": [],
       "first_seen": "2026-10-19",
       "domain": "infoq.cn",
-      "quality_score": 33.9
+      "quality_score": 33.9,
+      "summary_zh": "OpenCode 一套停用中的旧系统遭未授权访问，1.4% 云端 Console 用户的第三方模型 API 密钥可能泄露，有人单日账单被刷到 1700 美元以上，Anthropic、OpenAI、Google 随后紧急撤销部分密钥。联创 Dax Raad 称攻击已持续 48 小时，官方把事件归因于“大规模模型蒸馏攻击”的说法正遭质疑。",
+      "summary_en": "OpenCode says an old system being retired was accessed without authorization, potentially exposing third-party model API keys for 1.4% of its cloud Console users; some victims saw single-day bills above $1,700, and Anthropic, OpenAI and Google moved to revoke affected keys. Co-founder Dax Raad said attacks continued for 48 hours, while the company's framing of the incident as a large-scale \"model distillation attack\" drew pushback from developers."
     },
     {
       "id": "infoq-bROfcYFpijQQVBz4NqDi",
@@ -4747,7 +4761,9 @@
       "tags": [],
       "first_seen": "2026-10-19",
       "domain": "infoq.cn",
-      "quality_score": 33.9
+      "quality_score": 33.9,
+      "summary_zh": "中国团队 StartLux 的 27B Instant 模型以 69.12 分登顶 10 月 16 日更新的 Hugging Face Decision Index 0.3.2，在 174 个参评条目中居首，AutoThink 版本自测得 73.37 分，高于 Jev 托管版的 57.96 分。这类决策模型不生成文本，而是输出各候选动作的概率供 Agent 路由与选工具，StartLux 用 RLCD² 让模型自己判断何时该多算一步。",
+      "summary_en": "Chinese team StartLux tops the Hugging Face Decision Index 0.3.2, updated October 16, with its 27B Instant model scoring 69.12 across 174 entries; its AutoThink variant reaches 73.37 in the team's own evaluation versus 57.96 for Jev's hosted version. These decision models skip text generation and output probabilities over candidate actions for agent routing and tool selection, with an RLCD² method teaching the model when extra reasoning is worth the cost."
     },
     {
       "id": "infoq-AD1M3mJ2SH1dJrTA1r5q",
@@ -4763,7 +4779,9 @@
       "tags": [],
       "first_seen": "2026-10-19",
       "domain": "infoq.cn",
-      "quality_score": 34.8
+      "quality_score": 34.8,
+      "summary_zh": "谷歌研究团队在 GitHub 以 Apache 2.0 协议开源了 Harness²，一个不改模型权重、只调整系统提示词、记忆、工具指导、子智能体等 8 类外部组件的智能体框架，默认跑在 OpenCode 上，也可切换到 Codex。它靠任务内的“提出—探测—组合”和跨任务的 Improvement Harness 两层递归积累经验，不依赖标准答案。有博主称接入 Jev 1.14 后视觉任务表现明显提升，但官方强调这仍是研究项目，不是受支持的产品。",
+      "summary_en": "Google Research has open-sourced Harness² under Apache 2.0, an agent framework that leaves model weights untouched and instead tunes eight external components such as system prompts, guardrails, memory, tool guidance, sub-agents and skills. It defaults to OpenCode, can switch to Codex, and relies on two recursion layers: proposing, probing and recombining harness variants within a task, plus a persistent Improvement Harness that carries evidence-backed lessons across tasks, so no ground-truth answer is required. One blogger reports gains on vision tasks with Jev 1.14; Google stresses it is a research project, not an officially supported product."
     },
     {
       "id": "infoq-4t84hFyjYP6gq9KNWE60",
@@ -4779,7 +4797,9 @@
       "tags": [],
       "first_seen": "2026-10-19",
       "domain": "infoq.cn",
-      "quality_score": 34.3
+      "quality_score": 34.3,
+      "summary_zh": "CNCF 在上海 KubeCon China 2026 上宣布多集群编排项目 Karmada 毕业，同时发布 v1.19。Karmada 构建在标准 Kubernetes API 之上，用 PropagationPolicy 与 OverridePolicy 表达跨集群分发和按集群覆写配置，面向混合云、区域故障转移以及 GPU 分散在多云时的 AI 训练调度；v1.19 强化了 AI 训练任务的多组件调度，优先级调度升为 Beta 并默认开启。",
+      "summary_en": "Karmada, the multi-cluster Kubernetes orchestration project, has reached CNCF's graduated maturity level, announced at KubeCon China 2026 in Shanghai alongside its v1.19 release. It builds on the standard Kubernetes API, using PropagationPolicy and OverridePolicy objects to express cross-cluster distribution and per-cluster overrides, targeting hybrid cloud, regional failover and AI training jobs whose GPUs are spread across clouds. Version 1.19 improves multi-component scheduling for AI training and makes priority-based scheduling Beta and on by default."
     },
     {
       "id": "infoq-4IPptJpXQqX5Lr77uBFZ",
@@ -4795,7 +4815,9 @@
       "tags": [],
       "first_seen": "2026-10-19",
       "domain": "infoq.cn",
-      "quality_score": 35.4
+      "quality_score": 35.4,
+      "summary_zh": "DoorDash 把工程智能体从开发者笔记本迁到自研云平台 Flux，该平台在 2026 年单月自动化完成 13 万个工程任务，每周支撑 2.5 万次以上自动代码审查和逾 1 万次触发。Flux 由云端 Sandbox、MCP 网关、可复用 Playbook 和触发入口四个原语组成，Sandbox 用 Firecracker 微虚机隔离，端到端搭建的 P95 目标在 5 秒以内。",
+      "summary_en": "DoorDash moved engineering agents off developer laptops onto Flux, its own cloud platform, which automated 130,000 engineering tasks in a single month of 2026 while supporting more than 25,000 automated code reviews and 10,000 triggers per week. Flux rests on four primitives: cloud Sandboxes, an MCP gateway, reusable Playbooks and invocation surfaces. Sandboxes run in Firecracker microVMs, with a p95 end-to-end setup target under five seconds."
     },
     {
       "id": "infoq-2uG3W14THqtLhb5Vou51",
@@ -4811,7 +4833,9 @@
       "tags": [],
       "first_seen": "2026-10-19",
       "domain": "infoq.cn",
-      "quality_score": 35.5
+      "quality_score": 35.5,
+      "summary_zh": "阿里云 CTO 产研线公开了“AI 原生研发组织”这轮探索的阶段性进展，云栖大会相关论坛上，研发副总裁唐洪把智能体计算范式概括为“模型 + Harness + Context”，并提出 Agent 进入生产链路才是分水岭、AI Native 的长期目标是组织原生。本文只从组织维度回顾观点，7 个落地实践将另出 7 篇文章。",
+      "summary_en": "Alibaba Cloud's CTO R&D line published interim results from its push toward an AI-native engineering organization. At the Yunqi conference forum, VP Tang Hong described agent computing as \"model + harness + context\" and argued the real dividing line is agents entering production pipelines, with organization-native operation as the long-term goal. This post covers the organizational view only; seven hands-on practices will follow as separate articles."
     },
     {
       "id": "infoq-zBfzQbuxFmP1qrIpZWTG",
@@ -4827,7 +4851,9 @@
       "tags": [],
       "first_seen": "2026-10-19",
       "domain": "infoq.cn",
-      "quality_score": 34.8
+      "quality_score": 34.8,
+      "summary_zh": "OpenTelemetry 的 Kubernetes Attribute Processor 升到 1.0.0，用 Pod、命名空间、节点、工作负载等元数据给日志、指标和追踪补充上下文。稳定版跟随 Semantic Conventions v1.42.0，属性名不向后兼容，例如 container.image.tag 改为 container.image.tags、k8s.pod.labels 改为 k8s.pod.label，引用旧名的仪表盘、告警和查询都要跟着改，迁移期可用 feature gate 同时输出新旧两套。",
+      "summary_en": "OpenTelemetry has promoted its Kubernetes Attribute Processor to 1.0.0. It enriches logs, metrics and traces with Pod, namespace, node and workload metadata, turning generic telemetry into data you can query and correlate by Kubernetes context. The stable release follows Semantic Conventions v1.42.0 and is not fully backward compatible: container.image.tag becomes container.image.tags and k8s.pod.labels becomes k8s.pod.label, so dashboards, alerts and queries using the old names must be updated. Feature gates let teams emit both schemas during migration."
     },
     {
       "id": "infoq-Ddda0DF68laqfoqa4Lju",
