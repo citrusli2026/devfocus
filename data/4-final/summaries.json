@@ -2698,8 +2698,9 @@
     "input_hash": "7e3eab798f93"
   },
   "gh-daily-supabase-supabase": {
-    "summary_zh": "Supabase 是一个基于 PostgreSQL 的开发平台，它为您提供一套完整的后端服务，包括实时数据库、认证、存储和边缘函数，让您能快速搭建 Web、移动和 AI 应用。作为 Firebase 的开源替代品，它让开发者无需管理基础设施就能获得弹性扩展的数据库，特别适合那些希望加速迭代的全栈团队。",
-    "summary_en": "Supabase is an open-source Firebase alternative built on PostgreSQL that gives you a dedicated database along with authentication, real-time subscriptions, storage, and edge functions. It solves the problem of having to manage your own backend infrastructure by offering a complete development platform that scales automatically. Full-stack teams building web, mobile, or AI applications benefit the most, as it dramatically reduces setup time and lets them focus on product features instead of plumbing."
+    "summary_zh": "Supabase 是基于 Postgres 的开发平台，用开源工具实现 Firebase 那套功能：托管数据库、认证授权、自动生成的 REST 与 GraphQL API、Realtime 订阅、Edge Functions、文件存储和 AI 向量工具包。适合想掌控 SQL 数据又不想从零搭后端的 Web、移动端与 AI 应用开发者。",
+    "summary_en": "Supabase is a Postgres development platform that rebuilds Firebase-style features on open source tooling: a hosted Postgres database, auth and authorization, auto-generated REST and GraphQL APIs, realtime subscriptions, edge functions, file storage, and an AI vector/embeddings toolkit. It targets web, mobile, and AI developers who want to own their SQL data without assembling a backend from scratch.",
+    "input_hash": "331e8db537c1"
   },
   "gh-daily-elastic-elasticsearch": {
     "summary_zh": "Elasticsearch 是一款开源的分布式 RESTful 搜索引擎，它以实时、可扩展的方式处理海量数据，广泛应用于日志分析、全文搜索和安全监控等场景。无论是企业需要快速检索大量文档，还是开发者希望为自己的应用添加搜索功能，Elasticsearch 都提供了一套成熟且灵活的解决方案。",
@@ -18437,9 +18438,9 @@
     "input_hash": "f32be6ca8b07"
   },
   "v2ex-33ba740c6a3a": {
-    "summary_zh": "一位开发者用 Flutter、Flame 和 SoLoud 手工写了款全平台掼蛋游戏，2024 年动工，2025 年初网页版测试，2026 年初起陆续上架 iOS、macOS、Windows 和 Google Play，DAU 从不足 10 涨到约 500，未接任何广告。他吐槽 Flame 存在多处 bug，做这款游戏是因为市面掼蛋应用重捞金、轻体验。",
-    "summary_en": "A developer hand-built a cross-platform Guandan card game with Flutter, Flame and SoLoud, starting in 2024, testing a web version in early 2025 and shipping on iOS, macOS, Windows and Google Play in early 2026. Daily active users grew from under 10 to roughly 500 with no advertising at all. He walks through several Flame bugs he hit, and says he built it because existing Guandan apps chase money over play experience.",
-    "input_hash": "c2b43b43fe69"
+    "summary_zh": "作者用 Flutter 搭配 Flame 游戏引擎和 SoLoud 音频库，做了一款可在全平台运行的掼蛋游戏，并称其为“古法编程”的产物。原文是链接，未提供更多细节。",
+    "summary_en": "The author built a cross-platform Guandan game with Flutter, using the Flame game engine and the SoLoud audio library, describing the work as old-school hand-written coding. It is an uncommon case of Flutter driving a full game rather than an app UI. The linked page isn't summarized here; details beyond the title and stated stack aren't available.",
+    "input_hash": "01112545cb9a"
   },
   "36kr-4006619084689545": {
     "summary_zh": "36kr 这篇文章讨论的是中国人连度假都放不下「考证」，标题把假期备考、拿证当作一部分人的度假方式来看。该条目只提供了标题，原文是链接，未附带更多正文细节，具体涉及哪些证书、引用哪些数据都无法确认。",
@@ -22540,5 +22541,240 @@
     "summary_zh": "一篇面向程序员的职业文章，把当下主流出路拆成 7 条，逐条讲真实门槛、优劣势与适合人群。背景是 AI 工具普及、大厂招聘收缩和 35 岁门槛，适合正在考虑转型或换赛道的人。",
     "summary_en": "A career piece that lays out seven paths programmers are actually taking, with each one's real entry bar, trade-offs and the kind of person it suits. It's framed around AI tooling going mainstream, shrinking hiring at big companies and the 35-year age cutoff, so it speaks to developers weighing a change of track.",
     "input_hash": "ed55bf9b5d41"
+  },
+  "v2ex-05bb9a5e2fd7": {
+    "summary_zh": "V2EX 热议：[程序员] 今日份的新闻",
+    "summary_en": "Hot on V2EX: [程序员] 今日份的新闻",
+    "input_hash": "fa3a665ec650"
+  },
+  "infoq-D8uCYSG2Sf29ybwp4i2g": {
+    "summary_zh": "InfoQ 精选：主题征文 ｜ 让鸿蒙应用，玩出新可能！",
+    "summary_en": "Featured on InfoQ: 主题征文 ｜ 让鸿蒙应用，玩出新可能！",
+    "input_hash": "d46fc32533a9"
+  },
+  "zhihu-2096332490944110660": {
+    "summary_zh": "这是知乎上的一个提问：有乘客错过高铁检票后情绪崩溃、跪求工作人员放行，12306 回应称无论车是否已经发出，都不会例外放行。原文只给了链接，没有更多案情细节。",
+    "summary_en": "A Zhihu question about a passenger who broke down and knelt begging staff after missing the check-in for a high-speed train, following 12306's response that no exceptions are made whether or not the train has already departed. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "7cb6871cd3f4"
+  },
+  "36kr-4034867385537670": {
+    "summary_zh": "36氪《8点1氪》栏目汇总了三条公司动态：星巴克中国回应门店是否将实行“消费才可入座”，Anthropic 公布上半年净亏 807 亿美元，日本优衣库宣布涨价。适合想一次扫完当天商业新闻的读者。",
+    "summary_en": "36Kr's daily briefing rounds up three corporate items: Starbucks China responding to talk that stores may require a purchase before taking a seat, Anthropic reporting a net loss of $80.7 billion for the first half, and Uniqlo Japan announcing price increases. It's a single-pass read for anyone tracking company and business news.",
+    "input_hash": "e3d900b3d32f"
+  },
+  "infoq-7Twa7KBWIzi8JGOdVwCK": {
+    "summary_zh": "MiniMax 于 10 月 19 日正式发布 M3.1 Flash，称其价格比 Opus 5.5 便宜 88 倍，同时在 Agent 榜单与 Artificial Analysis 榜单上均排名第一。此前在 OpenCode、OpenRouter 调用量榜上受到关注的匿名模型 Space Bunny 被确认是该模型的早期版本，主打低成本下的代码生成与多步骤任务执行，面向在意调用成本的开发者。",
+    "summary_en": "MiniMax released M3.1 Flash on October 19, claiming it is 88x cheaper than Opus 5.5 while ranking first on both the Agent leaderboard and the Artificial Analysis ranking. The anonymous model Space Bunny, which drew attention on OpenCode and OpenRouter usage charts, was confirmed as an early version of it. The focus is code generation and multi-step task execution at low cost, for developers watching inference budgets.",
+    "input_hash": "f38941b93f39"
+  },
+  "v2ex-41753638172a": {
+    "summary_zh": "一位 V2EX 用户发帖求助：与妻子恋爱两年、结婚三年，对方一直居家不上班，日常刷视频打游戏，如今突然表示不想要小孩。他问还有没有可能改变妻子的想法，或是不是自己的期待有问题，并明确说想要的是解决办法而不是评判。",
+    "summary_en": "A V2EX user writes that after two years of dating and three years of marriage, his wife has stayed home without working, spending her days on videos and games, and has now said she doesn't want children. He asks whether her mind can be changed or whether his own expectations are the problem, and says he wants practical solutions rather than judgment.",
+    "input_hash": "eb71fc5e7847"
+  },
+  "v2ex-59c470f9970b": {
+    "summary_zh": "一位 V2EX 用户吐槽中文互联网的称呼习惯：很多人直接用名字而非姓氏称呼西方人，把 Amodei 叫成 Dario、把 Sutskever 叫成 Ilya，连有海外经历的播客博主也如此。原文只有标题，未提供更多论述。",
+    "summary_en": "A V2EX post argues that one of the funniest habits on the Chinese internet is addressing Westerners by given name instead of surname, calling Amodei \"Dario\" and Sutskever \"Ilya\", and notes that nearly everyone does it, podcasters with overseas experience included. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "86697966ba45"
+  },
+  "v2ex-5ca777ba40c2": {
+    "summary_zh": "PHP 新披露的 PHP2Shell 漏洞（CVE-2026-109618、CVE-2026-109619）属于严重级别的远程代码执行问题，宝塔面板已发布修复公告，PHP 7.4、8.0、8.1 都有对应修复版本，不必急着迁到 8.2 以上。发帖者列出了面板内更新软件列表、升级对应 PHP 版本再重启的步骤，并附了一个在线初筛工具，跑 PHP 站点的运维可以照此检查。",
+    "summary_en": "Two newly disclosed PHP flaws, tracked as CVE-2026-109618 and CVE-2026-109619, allow severe remote code execution, and BT Panel has shipped fixes for PHP 7.4, 8.0 and 8.1 as well as newer branches, so jumping to 8.2 is not required. The post walks through refreshing the software list inside BT Panel, updating the PHP version the site actually runs, and restarting the service, plus links an online scanner for a quick check.",
+    "input_hash": "cbb307c79b3e"
+  },
+  "v2ex-27f5c0a5e743": {
+    "summary_zh": "发帖者称花了一整天用 workbuddy 的“专家团”做软件，结果完全不符合预期。原文只有标题，没有正文，具体是哪一环出了问题无法判断。",
+    "summary_en": "A developer says a full day spent building software with workbuddy's \"expert team\" produced nothing usable. The linked page isn't summarized here; details beyond the title aren't available, so it's unclear which step failed.",
+    "input_hash": "46e110d51e74"
+  },
+  "v2ex-c3bfc7940466": {
+    "summary_zh": "发帖者反映凌晨 3 点 40 前后，DeepSeek 官方 API 的输出速度只有约 60 tps，并且这种速度已经持续了两个小时。帖子本身只是吐槽一段时间的状态，没有更多数据，适合正在调用该接口、怀疑是不是自己这边出问题的人对照参考。",
+    "summary_en": "A developer reports that DeepSeek's official API was returning only about 60 tokens per second around 3:40 a.m., a slowdown that had already lasted roughly two hours. The post is a short status complaint with no further data, useful mainly as a cross-check if you're calling the same API and wondering whether the problem is on your end.",
+    "input_hash": "1728ded078f6"
+  },
+  "36kr-4034920386614406": {
+    "summary_zh": "36kr 的一篇文章以「VR、XR、MR 的 2026，谁在真正赚钱？」为题，讨论这三个头显与空间计算赛道里，哪些玩家已经跑出真实营收和利润。原文只提供了链接，未提供正文，因此除标题外的具体公司、数据与结论无法确认。",
+    "summary_en": "A 36kr piece titled \"VR, XR and MR in 2026: who is actually making money?\" looks at the headset and spatial-computing market and asks which players are generating real revenue and profit rather than just shipping hardware. The linked page isn't summarized here; details beyond the title aren't available, so specific companies and figures can't be confirmed.",
+    "input_hash": "5da9f6350d17"
+  },
+  "v2ex-d973860daddf": {
+    "summary_zh": "den 是 GitHub 上的一个开源项目（onichandame/den），作者因为受够了维护项目文档，转而从第一性原理出发：文档是项目的长期事实记录，关键在于能被快速消化，所以与其统一文档规范，不如让 docs/ 下平铺的所有文件可被语义搜索。它针对的是「查文档」这个输出端场景，适合文档已经堆积、结构混乱又不想再投入治理的团队。",
+    "summary_en": "den is an open-source project on GitHub (onichandame/den) built on a deliberately simple premise: docs are a project's long-term factual record and just need to be absorbed quickly, so rather than imposing a documentation standard, make everything flat under docs/ semantically searchable. Its author argues existing methodologies all attack the input side, and den attacks the output side. It suits teams whose docs are messy but who don't want to invest in governance.",
+    "input_hash": "c225ed8fcaf4"
+  },
+  "infoq-Xkjg7bLE3o6l9qCidVX0": {
+    "summary_zh": "据多家媒体报道，零一万物联合创始人、原算法副总裁黄文灏已离开字节跳动 Seed 团队，他 2024 年 8 月加入时负责技术项目管理与规划，后转向模型评测并向吴永辉汇报，下一步可能创业。他是北大计算机博士，此前在微软亚洲研究院和智源研究院任职；此前已有报道称 Seed 一年内流失近 70 名技术人才，他的离开让这一话题再次被推到台前。",
+    "summary_en": "Huang Wenhao, co-founder and former VP of algorithms at 01.AI, has left ByteDance's Seed team, according to multiple Chinese media reports; he joined in August 2024 to handle technical project management and planning, later shifted to model evaluation under Wu Yonghui, and may start a company next. A Peking University CS PhD who previously worked at Microsoft Research Asia and BAAI, his exit renews scrutiny of Seed's churn, after reports that nearly 70 technical staff left in a year.",
+    "input_hash": "8648f466cd43"
+  },
+  "v2ex-dc2e1eaf3193": {
+    "summary_zh": "一位 V2EX 用户提出一个假设性问题：如果某个 agent/LLM 能让 x% 的程序员被取代，是否也存在对应的教师和医生被取代比例，并设想据此搭建「agent 教育基地 + 本地老师 + 省会特级教师总控」和「agent 医疗预诊检验中心 + 本地技术员 + 专家总控」的模式。帖子只是个人推演，没有给出数据、模型或可执行方案。",
+    "summary_en": "A V2EX poster poses a hypothetical: if an agent or LLM can replace x% of programmers, is there a corresponding share of teachers and doctors it could replace? He then sketches what that ratio might enable — \"agent education bases\" and \"agent pre-diagnosis labs\" staffed by local aides and supervised remotely by top teachers and specialists in provincial capitals, aiming at universal access to quality schooling and care. It is a thought experiment only, with no data or implementation plan.",
+    "input_hash": "7517efd46b19"
+  },
+  "v2ex-ada212378f2c": {
+    "summary_zh": "一位 V2EX 用户询问 DigitalOcean 的 VPS 是否支持国内直连：他在站内看到推荐，但发现官网看起来像 AI 生成的，所有产品价格都指向同一个 VPS 选型页，最低配置 4 美元/月，想确认个人能否拿来搭代理用。帖子本身还没有给出答案。",
+    "summary_en": "A V2EX user asks whether DigitalOcean VPS instances are usable over a direct connection from mainland China. He notes the provider was recommended on the forum, but the site looks AI-generated, with pricing for every product pointing to the same VPS selection page and plans starting at $4/month, and asks whether a personal instance could serve as a proxy. The thread contains no answer yet.",
+    "input_hash": "bd991022a8ad"
+  },
+  "v2ex-e391aec7ec2e": {
+    "summary_zh": "宝塔面板凌晨 2 点推送 PHP 更新：8.5.12、8.4.27、8.3.36、8.2.35 对应官方最新版本，7.4.34、8.1.35、8.0.27 因 PHP 官方只发 GitHub 未发包，由宝塔自行打包修复。刷新软件列表即可升级，官方建议最低升到 7.4，更早的版本已没有补丁，仍在跑老版本 PHP 的运维可以据此判断是否需要跟进。",
+    "summary_en": "BaoTa panel pushed a PHP update at 2am: versions 8.5.12, 8.4.27, 8.3.36 and 8.2.35 track the official releases, while 7.4.34, 8.1.35 and 8.0.27 were patched and packaged by BaoTa itself because PHP only published them on GitHub without a release tarball. Refreshing the software list pulls the updates, and the maintainers recommend running at least PHP 7.4 since older branches no longer receive fixes.",
+    "input_hash": "9e1a699139f9"
+  },
+  "infoq-NBXP966Bz3eqr6Qidvaf": {
+    "summary_zh": "DeepSeek 开源了推理框架 DeepInfer，已在 V4.1 Flash 的线上服务中运行：单集群日吞吐 155 万亿 Token，Prefill 用 8 卡机器、Decode 用 64–128 卡超节点，KVCache 保留 72 小时以上，兼容 NVIDIA 与华为昇腾。同时开源的还有 Token 编解码组件 deepseek-recipe，但 KVCache 管理和负载均衡因与内部基础设施耦合较深尚未完整开放，想复刻其线上架构的人需要留意这一缺口。",
+    "summary_en": "DeepSeek open-sourced DeepInfer, the inference framework behind its V4.1 Flash online service, reporting 155 trillion tokens per day from a single cluster and roughly $38 per GPU-hour at off-peak pricing. Prefill runs on ordinary 8-GPU servers while Decode uses 64–128 GPU supernodes, with KVCache retained for over 72 hours on both NVIDIA and Huawei Ascend hardware. A companion token codec, deepseek-recipe, ships alongside, though KVCache management and load balancing stay closed.",
+    "input_hash": "86e21f48d44f"
+  },
+  "infoq-bTVDaYaUJy2OvNlyuHgz": {
+    "summary_zh": "Anthropic 内部数据显示，技术部门初级员工占比从 2025 年初的 21% 降至 14%，新招聘中初级比例从 27% 跌到 9%；截至 2026 年 8 月，Agent 与人类的工作时长比达 6:1，研究部门为 19:1。工程师代码变更量涨到 5.1 倍，四个月内代码合并量增 12 倍，公司因此自建版本控制系统，管理者提交代码的频率也几乎翻倍。",
+    "summary_en": "Internal numbers from Anthropic show junior staff in its technical org falling from 21% to 14% since early 2025, with juniors dropping from 27% to 9% of new hires. By August 2026 the ratio of agent to human working hours hit 6:1 company-wide and 19:1 in research; engineer code changes rose 5.1x and merge volume 12x in four months, pushing Anthropic to build its own version control system. Managers now commit code nearly twice as often.",
+    "input_hash": "a1245f013c4d"
+  },
+  "hn-50172041": {
+    "summary_zh": "这是一则关于严重远程代码执行漏洞的安全公告，提示尽快更新受影响的系统。原帖只提供了指向该公告与 Hacker News 讨论的链接，未提供更多细节，具体受影响的产品、版本和修复方式需查看公告原文。",
+    "summary_en": "A security advisory warning of critical remote code execution vulnerabilities and urging immediate updates. The submission is only a link to that advisory plus an HN discussion thread, and the linked page isn't summarized here, so affected products, versions and remediation steps aren't available beyond the title.",
+    "input_hash": "948fffb7b71b"
+  },
+  "zhihu-53557905": {
+    "summary_zh": "这是一个知乎提问，讨论哪些书在国内可以正常读到、在国外却属于禁书，属于读者之间的书单交换与话题讨论。原文只提供了标题，未提供更多细节，具体书名和回答内容无法确认。",
+    "summary_en": "A Zhihu question asking which books can be read in China while being banned elsewhere, part reading-list exchange and part discussion of how censorship differs across countries. Only the title is provided here, so the specific books and answers aren't available.",
+    "input_hash": "494416bce6d3"
+  },
+  "infoq-LZsVYHAH1jyOtLg6Yiwk": {
+    "summary_zh": "OpenAI 10 月 19 日发布低资源编程语言研究：在 COBOL 代码迁移评测中，GPT-6.1 Sol 提高推理强度后准确率达 97.9%，上一代 GPT-5.6 Sol 在低推理强度下仅 5.4%；在覆盖 20 种语言、从零实现兼容 SQLite 引擎的测试里，GPT-6 Astra 平均通过率 87.4%，前代 26.8%。这说明 AI 编程正在补上 COBOL、Fortran 这类公开语料稀缺语言的短板。",
+    "summary_en": "On October 19 OpenAI published research on low-resource programming languages. In a COBOL migration benchmark, GPT-6.1 Sol reached 97.9% accuracy at higher reasoning effort, up from 5.4% for GPT-5.6 Sol at low effort; in a separate 20-language test asking models to build a SQLite-compatible database engine from scratch, GPT-6 Astra averaged 87.4% versus 26.8%. The numbers show AI coding closing its gap on COBOL and Fortran, though handing over decades-old systems is another question.",
+    "input_hash": "67393dff9bc6"
+  },
+  "infoq-2Z056Q54wWa6vAIQKsqJ": {
+    "summary_zh": "CMU 教授 Andy Pavlo 以数据库研究副总裁身份加入 ClickHouse，在 The MAD Podcast 中谈 Agent 时代的数据库变化：Agent 删库是旧问题重现，权限与沙箱护栏几十年前就有；向量数据库已从差异化优势沦为入场门槛；现成 text-to-SQL 方案准确率约 60%。他还提到，超过 60% 的开源数据库已出现 Agent 参与的 commit。",
+    "summary_en": "Andy Pavlo, the CMU professor who joined ClickHouse as VP of database research, argues on The MAD Podcast that agent-driven database deletions are an old problem resurfacing — permissions and sandboxing have existed for decades. He also calls vector databases table stakes rather than a moat, puts off-the-shelf text-to-SQL near 60% accuracy, and notes that over 60% of open source databases already carry agent-authored commits.",
+    "input_hash": "44cf6498bd7a"
+  },
+  "infoq-iqCrZLLizNkRTpfo2Jrb": {
+    "summary_zh": "Cloudflare 在生日周开源 Clef 决策模型，含 90 亿和 270 亿参数两个多模态版本：输入状态与带类型问题的 Schema，一次前向推理返回各选项概率，上下文 64k，不生成自由文本。小模型 Clef-Flash 中位延迟 38.8 毫秒，大模型 209.3 毫秒，跑在边缘 GPU 上，适合工单分级、机器人识别等智能体决策环节。",
+    "summary_en": "Cloudflare open-sourced Clef, decision models in 9B and 27B multimodal variants that take a state plus a schema of typed questions and return probabilities for every option in one forward pass, with a 64k context and no free-text generation. Clef-Flash, the 9B model, runs at 38.8ms median latency versus 209.3ms for the 27B, and runs on edge GPUs via Workers AI for triage and classification decisions.",
+    "input_hash": "45f990ba1961"
+  },
+  "infoq-BQJltkL1FJ9AG3cMeUmB": {
+    "summary_zh": "美团研发总监李凯将在 10 月 22—24 日的 QCon 上海站分享企业级 Agent 平台化实践：AgentOS 用 Runtime、Harness、Skill、MCP、沙箱、身份注册与权限治理，让模型只做理解判断、确定性逻辑交给代码，再由 Multica 把人、Agent 与业务流程组织成可追踪、可介入、可恢复的任务体系。该平台目前服务数十万 Agent 用户。",
+    "summary_en": "At QCon Shanghai on October 22–24, Meituan R&D director Li Kai will describe how the company moved internal agents from working to trustworthy. Its AgentOS pairs a runtime and harness with skills, MCP, sandboxing, identity registration, permission governance and evaluation, leaving judgment to models and deterministic logic to code, while Multica turns people, agents and business processes into traceable, resumable tasks. The platform serves hundreds of thousands of agent users.",
+    "input_hash": "ce4a1de4d847"
+  },
+  "infoq-R2z2kCkRHhXwGqDZeMKN": {
+    "summary_zh": "Cloudflare 把前沿模型放进 Python 测试框架里，对自家 WAF 做黑盒探测：模型只负责提出变体、审查响应，请求构造与重放由框架完成。45 个场景共 1,107 次尝试，607 次进入筛选集，人工复核后保留 49 项发现，其中 48 项是命令注入或 SSRF，促成托管规则集新增两条 SSRF 检测规则并改进一条。",
+    "summary_en": "Cloudflare placed frontier models inside a Python harness to black-box test its own WAF: the models propose payload variants and review responses, while the harness builds and replays requests and holds the guardrails. Across 45 scenarios the system made 1,107 attempts; 607 formed a filtered set, and human review kept 49 findings, 48 of them command injection or SSRF. The work produced three changes to Cloudflare's managed ruleset, including two new SSRF detection rules.",
+    "input_hash": "14e3e48a9314"
+  },
+  "hn-50166579": {
+    "summary_zh": "Mozilla 安全博客的一篇文章与 Bugzilla 上编号 2083449 的 bug 记录了 eMudhra 的 intermediate CA 被攻破一事。中间证书颁发机构一旦失守，由它签发的证书就都需要重新评估，这直接关系到浏览器所依赖的公开信任链是否可靠。原文只给出这两条链接，未提供更多细节。",
+    "summary_en": "A Mozilla security blog post and Bugzilla bug 2083449 cover a compromise of an intermediate CA run by eMudhra. When an intermediate certificate authority is compromised, every certificate it issued has to be treated as suspect, which bears directly on the public trust chain browsers rely on. The linked pages aren't summarized here; details beyond the title aren't available.",
+    "input_hash": "77c4e84da372"
+  },
+  "zhihu-2095237911004145500": {
+    "summary_zh": "知乎上有人提问：一名在丹麦卖中国包子的男子一天进账约 5 万元人民币，中式面食在海外究竟有多受欢迎，还有哪些中国传统小吃有机会走红。讨论重点落在海外中餐的需求结构，以及把单一品类推向海外市场的可行性。原文是提问帖，未提供更多细节。",
+    "summary_en": "A Zhihu question notes a Danish man selling Chinese baozi who reportedly takes in around 50,000 RMB a day, and asks how strong demand for Chinese wheat-based food is overseas and which other traditional snacks could catch on. The thread is framed around overseas demand patterns and how viable it is to take a single item abroad. It's a question post; details beyond the title aren't available.",
+    "input_hash": "a70e9a77e6f8"
+  },
+  "36kr-4034913072747394": {
+    "summary_zh": "36 氪这篇报道称，Meta 紧急叫停了原本要推进的裁员计划，文中把原因归于 AI 员工的实际产出不及预期，并引述扎克伯格的说法，大意是“还是人类好用”。文章讨论的是企业把 AI agent 算作可替代人力的裁员理由时遇到的现实阻力。原文未提供更多细节。",
+    "summary_en": "A 36Kr report says Meta abruptly halted a planned round of layoffs, attributing the reversal to AI employees falling short of expectations and quoting Zuckerberg to the effect that humans still work better. The piece frames it as a reality check on treating AI agents as headcount that can be cut. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "de90579f62d8"
+  },
+  "zhihu-2095840965227561820": {
+    "summary_zh": "知乎上讨论的是两部门联合发布的出口管制公告，管制对象包括盾构机、挖泥船和高端无人机等装备。这类管制通常直接影响重型装备与无人机企业的海外订单和供应链安排，做硬件出海和跨境合规的人需要留意具体清单与生效时间。原文是提问帖，未提供更多细节。",
+    "summary_en": "A Zhihu question covers a joint export-control announcement from two Chinese government departments targeting equipment such as tunnel boring machines, dredgers and high-end drones. Such controls typically hit overseas order books and supply-chain planning for heavy-equipment and drone makers, so teams handling hardware exports and cross-border compliance should watch the item list and effective dates. It's a question post; details beyond the title aren't available.",
+    "input_hash": "2e43b325bbfc"
+  },
+  "36kr-4034839431795586": {
+    "summary_zh": "36 氪报道称，OpenAI 正在紧急推进一笔规模约 2000 亿的融资，并与 Anthropic 争夺同一批投资人。若消息属实，这意味着头部模型公司在算力和人才上的投入节奏并未放缓，竞争正从模型能力延伸到资本端。原文是标题快讯，未提供更多细节。",
+    "summary_en": "A 36Kr report says OpenAI is urgently raising a round of roughly 200 billion and competing with Anthropic for the same backers. If accurate, it points to continued heavy spending on compute and talent at the top model labs, with competition now stretching from model quality into access to capital. It's a headline item; the linked page isn't summarized here and details beyond the title aren't available.",
+    "input_hash": "cce241bdceb5"
+  },
+  "36kr-4034904904815748": {
+    "summary_zh": "一家网红国货品牌被迫改名，代价是6000万元亏损，原有品牌认知一夜归零。标题只给出了结果，没有交代改名原因、涉及的具体品牌和时间；原文为链接，未提供更多细节，关注商标纠纷与品牌资产风险的读者需要回看原报道。",
+    "summary_en": "A Chinese domestic brand that built its following online was forced to rename itself, a move that reportedly cost it 60 million yuan and wiped out its brand recognition overnight. The linked article isn't summarized here, so the reason for the rename and the brand involved aren't available. Relevant to anyone tracking trademark disputes and brand equity risk.",
+    "input_hash": "902d3d5a9892"
+  },
+  "hn-50180873": {
+    "summary_zh": "PHP 8.2.35 发布，条目本身只给出这个版本号；附带的链接指向另一个讨论帖，内容是当天的 PHP 安全版本以及项目如何加强安全性。仍在维护 8.2 分支的团队可以顺着这条线索确认该版本是否包含安全修复，并据此安排升级。",
+    "summary_en": "PHP 8.2.35 is out, with the item itself carrying only the version number; a linked companion thread discusses that day's PHP security release and how the project is strengthening its security process. Teams still running the 8.2 branch should check whether this build carries security fixes and plan upgrades accordingly.",
+    "input_hash": "b15bd885a72c"
+  },
+  "36kr-4035275515598721": {
+    "summary_zh": "梁文锋把自己关于如何赚钱的方法公开了出来，标题只说“开源”，没有说明具体开源的是代码、模型还是业务思路。原文为链接，未提供更多细节，想判断其对公司商业化路径影响的开发者，需要先看原报道再下结论。",
+    "summary_en": "Liang Wenfeng has open-sourced what the headline calls the secret to making money, though the title doesn't say whether that means code, a model, or a business playbook. The linked page isn't summarized here; details beyond the title aren't available, so read the original before drawing conclusions about the commercialization angle.",
+    "input_hash": "166c67b8c18f"
+  },
+  "36kr-4034862204736386": {
+    "summary_zh": "文章讨论的是未来十年里某一类人越来越难找到工作，但标题没有点明是哪一类人，也没有给出判断依据。原文为链接，未提供更多细节，无法确认它讲的是技能替代、行业收缩还是其他因素。",
+    "summary_en": "The piece argues that over the next decade one category of workers will find it increasingly hard to land a job, but the title doesn't identify which group or what evidence backs the claim. The linked page isn't summarized here; details beyond the title aren't available, so it's unclear whether the argument rests on automation, industry contraction, or something else.",
+    "input_hash": "8b1746b16660"
+  },
+  "hn-50170593": {
+    "summary_zh": "这是一个可以直接在浏览器里玩的免费城市建造游戏：你当市长，清楚城市需要什么，但方案要先过分区委员会、邻居、上诉法院和下一轮选举这几关。它把模拟经营和审批流程的荒诞感揉在一起，适合喜欢 SimCity 类玩法又想看点讽刺的人。",
+    "summary_en": "A free browser-based city builder where you play mayor: you know what the city needs, but every plan has to survive the zoning board, the neighbors, the appeals court, and the next election. It layers bureaucratic satire on the familiar SimCity loop, which should appeal to anyone who has played city sims and watched permitting grind a good idea to a halt.",
+    "input_hash": "dd7753e3fe50"
+  },
+  "zhihu-2095844033167716971": {
+    "summary_zh": "知乎上一条讨论称，有网友在高铁上遇到一位自称 114 岁的老人，对方能熟练使用智能手机，提问者因此怀疑其年龄的真实性，并延伸出「横跨民国到 AI 时代的人生会是什么样」的话题。原文是问答链接，除标题外没有提供更多细节，老人的身份、年龄佐证都不在素材里。",
+    "summary_en": "A Zhihu question asks whether a man who claims to be 114 years old, and uses a smartphone fluently, is telling the truth, after a user says they met him on a high-speed train; the thread also wonders what a life spanning the Republican era to the AI era would look like. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "2936514cca61"
+  },
+  "36kr-4035339465184131": {
+    "summary_zh": "36氪 这篇稿子提出了「新高净值人群」的说法，指向一个刚刚成形的高净值群体。原文只有标题、没有正文，具体是哪个行业或哪类人、按什么标准划分，从现有素材无法确认。",
+    "summary_en": "A 36Kr piece introduces the phrase \"new high-net-worth cohort\", framing a newly emerging group of wealthy individuals as a distinct category. The linked page isn't summarized here; beyond the headline, who belongs to this group and how it is defined aren't available.",
+    "input_hash": "412a84a6f1d3"
+  },
+  "hn-50177916": {
+    "summary_zh": "安全研究者 Scott Helme 发现，eMudhra 一张中间 CA 证书的私钥就是数字 4，另外几张分别是 56 和 115；他在自己的笔记本上从公开证书里取回全部私钥，用时不到一秒。10 月 17 日有研究者向 Apple、Google、Microsoft、Mozilla 和 eMudhra 报告八张中间证书私钥泄露，Chrome 当晚推送 CRLSet 拦截，Firefox 数小时后经 OneCRL 屏蔽。",
+    "summary_en": "Scott Helme recovered the private keys of eight eMudhra intermediate certificates straight from their public certificates in under a second, because the keys were tiny integers such as 4, 56 and 115. The compromise was reported to Apple, Google, Microsoft, Mozilla and eMudhra on 17 October; Chrome shipped a CRLSet block that evening and Firefox followed hours later through OneCRL.",
+    "input_hash": "f7780261141f"
+  },
+  "36kr-4035092270125958": {
+    "summary_zh": "36氪 这篇文章围绕马斯克提出的「全民高收入」设想展开，追问当 AI 把人的工作接手之后，钱还能不能分到普通人手里。原文只给了标题，具体方案、资金来源和数字都没有披露。",
+    "summary_en": "A 36Kr article looks at Elon Musk's \"universal high income\" idea, the claim that once AI takes over the work people would still get a share of the money. The linked page isn't summarized here; who pays and how much isn't stated, so no policy details or numbers are available.",
+    "input_hash": "c0e8495c81e0"
+  },
+  "36kr-4034873644029065": {
+    "summary_zh": "36氪 这篇稿子梳理了奥特曼提出的「SI 三大终局」，其中一种是最强 AI 最终只剩一家，否则就要熔掉全世界的 GPU。原文只提供标题，三种终局各自的推理、前提和对应的时间线都没有展开。",
+    "summary_en": "A 36Kr article relays Sam Altman's three endgames for SI, one of which leaves a single strongest AI standing, with melting the world's GPUs as the alternative. The linked page isn't summarized here; the reasoning, premises and timelines behind each scenario aren't available.",
+    "input_hash": "0eeb6b3d7f72"
+  },
+  "zhihu-2095674841978488596": {
+    "summary_zh": "这是知乎上的一个提问，围绕英伟达承认消费级显卡的显存供给与价格已超出自身控制，讨论 AI 需求推动的显卡内存涨价潮何时结束。原文是链接，未提供更多细节。",
+    "summary_en": "A Zhihu question about Nvidia acknowledging that consumer graphics cards are now beyond its control, framed around when the memory price surge driven by AI demand will end. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "49f488f15922"
+  },
+  "hn-50168396": {
+    "summary_zh": "Hacker News 上出现一条名为 Voxtral 3 的条目，来源标注为 Mistral，指向该公司的这一新发布。原文是链接，未提供更多细节，具体规格、能力与开放程度都无法从现有信息确认。",
+    "summary_en": "A Hacker News entry titled Voxtral 3, attributed to Mistral, pointing at that company's new release. The linked page isn't summarized here; details beyond the title aren't available, so its specs, capabilities, and how open it is can't be confirmed.",
+    "input_hash": "b0b5b5dd78cf"
+  },
+  "zhihu-2095840244973004152": {
+    "summary_zh": "这是知乎上的一个问题，围绕陶哲轩与邓煜题为《数学与 AI 究竟是什么关系？》的一场对谈，邀请回答者解读两人各自的观点。原文是链接，未提供更多细节。",
+    "summary_en": "A Zhihu question built around a conversation between Terence Tao and Deng Yu titled \"What exactly is the relationship between mathematics and AI?\", asking respondents to unpack each of their positions. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "6f5b66f98da7"
+  },
+  "zhihu-2095491583533658157": {
+    "summary_zh": "知乎提问：有日本独立游戏开发者称自己的作品一发出去就被 AI 抄走，讨论由此延伸到独立开发者该如何应对。原文是链接，未提供更多细节。",
+    "summary_en": "A Zhihu question about a Japanese indie game developer who says his work was copied by AI as soon as it went out, widening into what independent developers should do about it. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "c146910cd067"
+  },
+  "gh-daily-vllm-project-vllm": {
+    "summary_zh": "vLLM 是一个面向大语言模型的高吞吐、显存高效的推理与服务引擎，最初在伯克利 Sky Computing Lab 开发，README 中附有 arXiv 论文、文档站和开发者 Slack 等入口。它适合需要自建 LLM 在线服务、又对吞吐量和显存占用敏感的团队评估或直接部署。",
+    "summary_en": "vLLM is an open-source inference and serving engine for large language models, built for high throughput and memory efficiency and originally developed in the Sky Computing Lab at Berkeley. The repo links its arXiv paper, docs site and developer Slack, which makes it a practical starting point for teams weighing a self-hosted LLM serving stack.",
+    "input_hash": "85144aa144fb"
+  },
+  "gh-daily-strelov1-freehire": {
+    "summary_zh": "freehire 是一个开源的 IT 职位搜索引擎，称从公司招聘页面直接抓取 330 万条以上在招岗位，不经猎头、不做转载、不保留失效链接。项目用 Go 编写、MIT 协议，提供线上站点 freehire.me、API，以及架构与数据源文档，适合想自建垂直职位搜索或研究抓取管线的人。",
+    "summary_en": "freehire is an open-source search engine for IT jobs that claims to pull 3.3M+ live postings directly from company career pages, skipping recruiters, reposts and dead links. It is written in Go under the MIT license, ships a hosted site at freehire.me plus an API, and documents its architecture and sources for anyone building a similar crawler or vertical job search.",
+    "input_hash": "da4b0bea713e"
+  },
+  "juejin-7696894428150300682": {
+    "summary_zh": "这篇文章先解释逆向工程的基本概念和 GitHub 上走红的开源项目 REA，再动手用 AI 去逆一个单机 Android 游戏和一款学习类 App，看它在真实场景里能做到哪一步。适合想了解 AI 辅助逆向的实际边界、不满足于概念介绍的人。",
+    "summary_en": "The post first explains what reverse engineering is and introduces REA, an open-source project that has drawn attention on GitHub, then uses it with AI against a single-player Android game and a learning app. It suits readers who want a hands-on look at where AI-assisted reverse engineering actually lands, rather than a purely conceptual overview.",
+    "input_hash": "13410037d4c5"
   }
 }
