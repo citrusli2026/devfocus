@@ -266,7 +266,9 @@
       "tags": [],
       "first_seen": "2026-10-21",
       "domain": "thephp.foundation",
-      "quality_score": 42.3
+      "quality_score": 42.3,
+      "summary_zh": "PHP 今日发布了一个安全版本，并配文说明项目在安全方面做了哪些加固。这条 HN 提交同时关联到 PHP 8.2.35 的讨论帖以及更多链接。原文为链接汇总，除标题和这些指路链接外没有正文，具体漏洞编号和影响范围需要点进原始公告确认。",
+      "summary_en": "PHP shipped a security release today, accompanied by a post on how the project is strengthening security. The Hacker News submission also points to a related thread on PHP 8.2.35 and further links. The linked page isn't summarized here; details beyond the title, such as specific CVE numbers or affected versions, aren't available."
     },
     {
       "id": "hn-50151036",
@@ -4729,7 +4731,9 @@
       "tags": [],
       "first_seen": "2026-10-21",
       "domain": "infoq.cn",
-      "quality_score": 33.6
+      "quality_score": 33.6,
+      "summary_zh": "在 10 月 14 日深圳的一场媒体群访中，亚马逊 CTO Werner Vogels 回应 AI 写代码是否挤压新人岗位：公司招聘初级工程师的数量与过去一样，没有紧缩。他强调新人除了写代码，还要学会协作、在 S3 这类跑了二十年的系统上继续开发，并为 AI 生成的代码承担“验证债”。",
+      "summary_en": "At a media roundtable in Shenzhen on October 14, Amazon CTO Werner Vogels said the company still hires junior engineers at the same rate as before, rejecting the idea that AI coding tools have squeezed entry-level roles. He argued that newcomers must learn to collaborate, work inside long-lived systems like S3, and take on 'verification debt' for AI-generated code."
     },
     {
       "id": "infoq-Ms3bMt5OcUyYMHwfaXgM",
@@ -4745,7 +4749,9 @@
       "tags": [],
       "first_seen": "2026-10-21",
       "domain": "infoq.cn",
-      "quality_score": 34.7
+      "quality_score": 34.7,
+      "summary_zh": "InfoQ 精选：从试点到规模化落地：制造业领导者如何推动 AI 应用并赢得高管层支持 ｜ 技术趋势",
+      "summary_en": "Featured on InfoQ: 从试点到规模化落地：制造业领导者如何推动 AI 应用并赢得高管层支持 ｜ 技术趋势"
     },
     {
       "id": "infoq-hEHy8XHKyfwKuyIhpyFe",
@@ -4761,7 +4767,9 @@
       "tags": [],
       "first_seen": "2026-10-21",
       "domain": "infoq.cn",
-      "quality_score": 34.3
+      "quality_score": 34.3,
+      "summary_zh": "Cloudflare 公测了 K2：一项把分区持久化日志放在 R2 对象存储上的无服务器事件流服务，官方称生产端延迟 p99 约 1 秒。为绕开对象存储不支持追加写的问题，它先在边缘服务内存里攒批，再整段写成分段文件，用延迟换取成本和弹性。有公测用户实测端到端 p99 达 7.5 秒，团队承认长尾高于预期。",
+      "summary_en": "Cloudflare has opened a public beta of K2, a serverless event-streaming service that keeps partitioned, durable logs inside R2 object storage, with a stated p99 produce latency of about one second. Because object storage cannot be appended to, K2 batches writes in edge memory and flushes them as segment files, trading latency for cost and elasticity. One beta user measured end-to-end p99 at 7.5 seconds, and the team concedes the tail is worse than expected."
     },
     {
       "id": "infoq-Be94YQbRtbWj3pzZ9rSh",
@@ -4777,7 +4785,9 @@
       "tags": [],
       "first_seen": "2026-10-21",
       "domain": "infoq.cn",
-      "quality_score": 34.6
+      "quality_score": 34.6,
+      "summary_zh": "InfoQ 精选：金融智能分析本体：四大核心要素与五条建设路线",
+      "summary_en": "Featured on InfoQ: 金融智能分析本体：四大核心要素与五条建设路线"
     },
     {
       "id": "infoq-6L1Bqr8iNdVT6Cgq22QH",
@@ -4793,7 +4803,9 @@
       "tags": [],
       "first_seen": "2026-10-21",
       "domain": "infoq.cn",
-      "quality_score": 34.3
+      "quality_score": 34.3,
+      "summary_zh": "在布拉格 Open Source Summit Europe 的一场圆桌上，来自 CNCF、Linux Foundation Europe 和 OpenSSF 的与会者认为，追求 100% 技术主权并不现实，关键是保留能真正切换的替代方案与运维能力。讨论涉及欧盟云主权框架的八项目标、Kubernetes 的可移植性、硬件依赖缺口，以及《网络韧性法案》对开源组件的要求。",
+      "summary_en": "At a roundtable at Open Source Summit Europe in Prague, panelists from CNCF, Linux Foundation Europe and OpenSSF argued that 100% tech sovereignty is unrealistic; what matters is keeping alternatives you can actually switch to, along with the skills to run them. The discussion covered the EU cloud sovereignty framework's eight goals, Kubernetes portability, the hardware dependency gap, and the Cyber Resilience Act's treatment of open source components."
     },
     {
       "id": "infoq-GVcxHscrQqv9HXGRowJh",
@@ -4809,7 +4821,9 @@
       "tags": [],
       "first_seen": "2026-10-21",
       "domain": "infoq.cn",
-      "quality_score": 35.0
+      "quality_score": 35.0,
+      "summary_zh": "InfoQ 精选：推动 AI 规模化落地的三大经验：来自公共部门领导者的实践洞察 ｜ 技术趋势",
+      "summary_en": "Featured on InfoQ: 推动 AI 规模化落地的三大经验：来自公共部门领导者的实践洞察 ｜ 技术趋势"
     },
     {
       "id": "infoq-LZsVYHAH1jyOtLg6Yiwk",
@@ -4843,7 +4857,9 @@
       "tags": [],
       "first_seen": "2026-10-21",
       "domain": "infoq.cn",
-      "quality_score": 35.0
+      "quality_score": 35.0,
+      "summary_zh": "黑客组织 FulcrumSec 声称从 PingCAP 窃取约 10.6TB 数据，包括 18 万条租户组织记录、11.5 万个 API Key、约 2065 万条客户 SQL 语句和 413 个私有代码仓库。PingCAP 确认 9 月 9 日至 10 月 7 日内部系统遭未授权访问并被复制数据、窃取源码，其中国区说明称未发现中国区客户生产数据库受影响，事件亦非 TiDB 内核漏洞导致。攻击者公布的数字尚未经独立验证。",
+      "summary_en": "A group called FulcrumSec claims it stole about 10.6TB from PingCAP, including roughly 180,000 tenant organization records, 115,000 API keys, some 20.65 million customer SQL statements and 413 private repositories. PingCAP confirmed unauthorized access to internal systems between September 9 and October 7, with data copied and source code taken; its China statement says no China-region customer production databases were affected and that a TiDB kernel flaw was not the cause. The attacker's figures remain unverified."
     },
     {
       "id": "infoq-yH0DHL8Nil26ES43TeF1",

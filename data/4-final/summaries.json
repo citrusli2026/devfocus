@@ -985,9 +985,9 @@
     "input_hash": "ef4de0757ed8"
   },
   "juejin-7637856870833635343": {
-    "summary_zh": "这是一篇掘金文章，作者记录了自己从 Cursor 切换到 Codex、持续使用大半个月后的真实体验。在他看来，Cursor 让他第一次强烈感受到 AI 编程的价值，而 Codex 更像一个能自主完成任务的超级 Agent，而不只是编程助手，形态更接近下一阶段。适合正在做 AI 编程工具选型的开发者。",
-    "summary_en": "A Juejin post by a developer who switched from Cursor to Codex and has used it for roughly half a month. Cursor, the author says, was his first strong taste of what AI coding can do, while Codex feels less like a coding assistant and more like an autonomous super-agent, closer to the next stage of tooling. Useful for developers weighing which AI coding tool to adopt.",
-    "input_hash": "72d412342830"
+    "summary_zh": "作者2025年4月自费20美元/月订阅Cursor，公司随后开通企业版，一路用到2026年4月；因Cursor改用按量计费、成本不可预测，公司决定中国区换用OpenAI Codex。他的判断是：Cursor仍是一个贴着编码现场的IDE，而Codex更像能独立干活的超级Agent。",
+    "summary_en": "The author paid $20 a month for Cursor from April 2025, later moved onto a company enterprise plan, and used it until April 2026, when Cursor shifted from fixed licenses to usage-based billing and the company decided its China region would standardize on OpenAI Codex instead. His take: Cursor remains an IDE with AI attached, while Codex feels closer to an autonomous agent.",
+    "input_hash": "cf3d5401aeb1"
   },
   "juejin-7646004870782550050": {
     "summary_zh": "这是掘金上的一篇 2026 年 5 月 GitHub 热门项目月榜盘点，涵盖 skills、Pixelle-Video 等项目。作者观察到当月社区热度集中在把 Agent 做进工程化工作流：省 Token、记住上下文、编排多 Agent、批量产出内容。适合想快速了解近期开源风向的人。",
@@ -4371,9 +4371,9 @@
     "summary_en": "Grok Build, a build tool developed by xAI, has been open-sourced, making it freely available for use and modification. Previously used internally, it now promises to help developers streamline build processes with greater customization. The move towards transparency and community collaboration could benefit DevOps teams and infrastructure engineers looking for flexible, efficient alternatives in the build tool landscape."
   },
   "juejin-7660712622825144374": {
-    "summary_zh": "掘金这篇文章盘点了 2026 年在编程圈走红的 10 个 Skills，指的是给 AI 编程助手用的“技能包”，把常见任务固化成标准化工作流模块。文中解释 Skills 如何让 AI 从随缘写代码转为按流程交付，适合想给自己的 AI 助手搭一套可复用工作流的开发者。",
-    "summary_en": "This Juejin post rounds up ten “Skills” that took off in 2026 developer circles — packaged capability modules that turn an AI coding assistant into a step-by-step workflow engine instead of an ad-hoc code generator. It explains how Skills move AI from casual code writing to process-driven delivery, aimed at developers who want reusable routines for themselves or their team.",
-    "input_hash": "39a792f5cff6"
+    "summary_zh": "这篇盘点整理了 2026 年编程圈最常被留下的 10 个 Claude Code Skills。Skills 是 Anthropic 2025 年 10 月推出的开放标准，把含 SKILL.md 的文件夹放进 ~/.claude/skills/，AI 便按流程执行而非仅供参考。作者称 GitHub 已有 1400+ 个 Skills，但实测 100 个社区 Skill 有 70% 不合格，榜首 Superpowers 主打 TDD、系统化调试与代码评审等工作流。",
+    "summary_en": "A roundup of ten Claude Code Skills developers are actually keeping in 2026. Skills are folders holding a SKILL.md instruction file plus optional scripts, dropped into ~/.claude/skills/ so the assistant loads them on demand — an open standard Anthropic introduced in October 2025. The author counts 1,400+ skills on GitHub but says 70% of 100 community skills tested failed, with Superpowers (TDD, debugging, code review workflows) ranked first.",
+    "input_hash": "b7c678e66f4e"
   },
   "juejin-7662691781214470180": {
     "summary_zh": "一位掘金作者停更一年后回归，分享了这段时间的密集经历：全力投入 AI 领域、陪伴妻子生娃、还抽空考了个研。文章以第一人称讲述了如何平衡工作、家庭与个人提升，展现了技术人在生活重大节点上的真实抉择。对面临类似境遇的读者来说，这是一个关于如何在巨大压力下仍坚持成长的真实故事。",
@@ -15113,9 +15113,9 @@
     "input_hash": "54a8cfee3108"
   },
   "juejin-7684460980934049807": {
-    "summary_zh": "一位 Codex 老用户记录了自己切换到腾讯智能体编程工具 WorkBuddy 一周的真实体验，包括过程中踩到的坑和省下的钱，并强调既非恰饭也不踩一捧一。对于正在纠结 AI 编程工具选型、关心迁移成本与实际开销的开发者，这类一线对比比官方宣传更有参考价值。",
-    "summary_en": "A long-time Codex user documents a week of switching to WorkBuddy, Tencent's agentic coding tool, covering the pitfalls hit along the way and the money saved. The write-up is explicitly not sponsored and avoids trashing either tool, which makes it worth reading for developers weighing a migration and wondering what it really costs.",
-    "input_hash": "65bf66a0e361"
+    "summary_zh": "一位 Codex 老用户在中转站被封后转用腾讯 WorkBuddy，记录了一周体验：用 GLM-5.3 修一个需求花掉 800 多积分，改用倍率 0.06 的 GLM-5.3-flash 与 0.03 的 DeepSeek-V4.1-flash 后成本明显下降。作者评价后端完成度不错、前端 UI 还原偏糙，最终因积分体系和暗色皮肤留下，适合纠结切换成本与模型计费的开发者参考。",
+    "summary_en": "A longtime Codex user whose relay service got shut down spent a week on Tencent's WorkBuddy coding agent and wrote up the trade-offs. GLM-5.3 burned over 800 credits on a single feature, while GLM-5.3-flash (0.06 rate) and DeepSeek-V4.1-flash (0.03) cut costs sharply. Backend tasks came out fine, frontend UI fidelity needed manual cleanup. Useful for developers weighing a tool switch against per-model billing.",
+    "input_hash": "25230596b1dc"
   },
   "v2ex-42b4b3b15b7d": {
     "summary_zh": "V2EX 热议：[程序员] 我自己跑的选股和量化, 成功的提前几个小时预测到今晚加息 25bp",
@@ -18638,9 +18638,9 @@
     "input_hash": "3082f5ffe89d"
   },
   "v2ex-06b0adfefde4": {
-    "summary_zh": "有开发者在 V2EX 记录：通过 kite 的 MCP，一个 Claude Code 会话能在 Ubuntu 机器上另开多个会话干活，分别负责配音模型迁移（旧模型 10 号下线）、修项目管理工具 robin 和修 kite 自身，代码、review、CI 完成后由他确认合并上线，十一点半切到新模型并验收。他也列出确认推送收不到、确认请求十分钟超时、父会话不知道子会话状态等真实问题。",
-    "summary_en": "On V2EX, a developer describes using kite's MCP so one Claude Code session could spawn several more on his Ubuntu machine, splitting work across a voice-model migration, fixes to his robin project tool, and kite itself, with merge and release gated on his approval. He also lists real friction, including missed confirmation pushes, a ten-minute timeout, and parent sessions unaware of child progress.",
-    "input_hash": "530a19df1012"
+    "summary_zh": "这篇 V2EX 分享记录了用 kite 让一个 Claude Code 实例自行开启会话、把任务派给别的 Claude Code 实例，以及当天实际跑下来的情况。原文是论坛链接，未提供更多细节，具体实现方式和运行结果需要点进原帖查看。",
+    "summary_en": "A V2EX post shares a day of running kite, which lets one Claude Code instance open sessions on its own and hand tasks to other Claude Code instances, along with how that played out in practice. The linked page isn't summarized here; details beyond the title aren't available, so the implementation and results need to be read in the original thread.",
+    "input_hash": "c26f1f2a70f7"
   },
   "v2ex-f2a983fb3578": {
     "summary_zh": "DecisionsApi 提供在线 playground 和 API，输入可以是文本、JSON 对象或文本数组，支持 Choice、Score、Noul（是/否）三类问题，返回结构化答案、概率、置信度与用量。它可用于客户请求路由、Agent 下一步选择、安全闸门和人工复核，通常先在 playground 验证问题与输出再接入应用。",
@@ -20428,9 +20428,9 @@
     "input_hash": "99e8841c0aa1"
   },
   "juejin-7686040694948134921": {
-    "summary_zh": "作者狂师讨论 AI 能写代码后是否还该学编程：非技术人重在“会用”，懂基础概念、能说清需求、会简单验收；技术人必须“会判”，语法基础不丢，但重心转向读懂 AI 代码、判断质量与风险。结论是把写交给 AI、把责任留给人，适合正犹豫是否继续投入学编程的开发者。",
-    "summary_en": "Author Kuangshi examines whether programming is still worth learning now that AI writes code: non-technical people should focus on using it well — grasping basic concepts, stating requirements clearly, doing light acceptance checks — while engineers must keep judging, retaining syntax fundamentals but shifting effort to reading AI-generated code and assessing its quality and risk. Writing goes to AI; accountability stays with humans.",
-    "input_hash": "a1462f32ac7f"
+    "summary_zh": "掘金精选：AI 都会写代码了，还要不要学传统编程了? （强烈建议阅读）",
+    "summary_en": "Featured on Juejin: AI 都会写代码了，还要不要学传统编程了? （强烈建议阅读）",
+    "input_hash": "fca589b65356"
   },
   "v2ex-1292ad21b903": {
     "summary_zh": "V2EX 热议：[问与答] 收到罚单了",
@@ -21673,9 +21673,9 @@
     "input_hash": "0d882f03a4d9"
   },
   "juejin-7695697094277087272": {
-    "summary_zh": "作者只拿到一张卫星截图，就用 Three.js 加 Blender 建出一座 3D 综合能源补给站：反求设计稿相机、脚本化建模、Cycles 烘焙夜景、重卡倒车入位与运营仿真，最后用叠图逐像素校验还原度。适合想看 3D 重建和图形管线实操细节的开发者。",
-    "summary_en": "Working from just one satellite screenshot, the author rebuilt a 3D integrated energy station with Three.js and Blender: reverse-engineering the design camera, scripting the model, baking a night scene in Cycles, animating a heavy truck backing into place, running an operations simulation, and checking fidelity pixel by pixel with overlays. Worth reading if you care about 3D reconstruction and graphics pipeline practice.",
-    "input_hash": "94132968e121"
+    "summary_zh": "甲方只给一张地图卫星截图和一份设施清单，作者据此反向推出比例尺与布局，用 Python 脚本在 Blender 5.1 里完成全部建模与 Cycles 地面光照烘焙，再以 three.js（正交相机、UnrealBloomPass 辉光、RectAreaLight、InstancedMesh）搭出含重卡倒车入位和运营仿真的数字孪生大屏，页面侧是 Vue 3 + Vite。项目坚持所有产物由脚本生成，最后用无头 Chrome 截图叠图比对设计稿校验还原度，适合做三维可视化大屏的前端参考。",
+    "summary_en": "Given nothing but a satellite screenshot and a facility list, the author reverse-engineered a scale and site layout, then modeled the whole energy station in Blender 5.1 through Python scripts and baked ground lighting with Cycles. The front end is Vue 3 + Vite rendering a three.js scene with an orthographic camera, UnrealBloomPass glow, RectAreaLight and InstancedMesh, plus truck-docking and operations simulation. Every artifact is script-generated and fidelity is checked by diffing headless Chrome screenshots against the design, a useful reference for 3D dashboard work.",
+    "input_hash": "6aa6754406dd"
   },
   "gh-monthly-cloudflare-security-audit-skill": {
     "summary_zh": "cloudflare/security-audit-skill 是一个面向 coding agent 的 skill，用于执行多阶段安全审计，产出可机器读取的结论，且每条发现都经过独立验证。适合把 agent 接进 CI 或安全流程、需要结构化结果而非自然语言描述的团队评估。",
@@ -22533,9 +22533,9 @@
     "input_hash": "1e1b1681758c"
   },
   "juejin-7686407614478237748": {
-    "summary_zh": "一位用 GPT 两年多的重度用户，记录自己连续用了一个月 WorkBuddy 的真实感受；他此前因为网络原因，一直通过第三方中转 API 调用 GPT。文中结合写方案、改文案、整理资料等日常场景给出评价，适合正在挑 AI 工具的人参考。",
-    "summary_en": "A heavy GPT user of more than two years, who had been calling the API through a third-party relay because of network issues, writes up his impressions after a month with WorkBuddy. The piece works through everyday tasks such as drafting proposals, editing copy and organizing materials, so it is aimed at people comparing AI tools for daily work.",
-    "input_hash": "82df4d39d559"
+    "summary_zh": "一位用了两年 GPT 的重度用户记录了从中转站 API 换到 WorkBuddy 一个月后的体验：中转站高峰期超时、断连丢上下文，还有跑路风险。WorkBuddy 注册送 2000 积分，内置 GLM-5.3、Kimi、DeepSeek 等模型，可按任务切换以控制成本，也能用微信远程派活。",
+    "summary_en": "A heavy two-year GPT user recounts a month on WorkBuddy after leaving a third-party relay API that timed out at peak hours, dropped context mid-task, and could disappear with prepaid balances. WorkBuddy offers 2000 signup credits and bundles GLM-5.3, Kimi and DeepSeek, so models can be picked per task to control cost, and jobs can be dispatched from WeChat on a phone.",
+    "input_hash": "b56fe2ef0175"
   },
   "juejin-7696817605548245002": {
     "summary_zh": "一篇面向程序员的职业文章，把当下主流出路拆成 7 条，逐条讲真实门槛、优劣势与适合人群。背景是 AI 工具普及、大厂招聘收缩和 35 岁门槛，适合正在考虑转型或换赛道的人。",
@@ -22633,9 +22633,9 @@
     "input_hash": "a1245f013c4d"
   },
   "hn-50172041": {
-    "summary_zh": "这是一则关于严重远程代码执行漏洞的安全公告，提示尽快更新受影响的系统。原帖只提供了指向该公告与 Hacker News 讨论的链接，未提供更多细节，具体受影响的产品、版本和修复方式需查看公告原文。",
-    "summary_en": "A security advisory warning of critical remote code execution vulnerabilities and urging immediate updates. The submission is only a link to that advisory plus an HN discussion thread, and the linked page isn't summarized here, so affected products, versions and remediation steps aren't available beyond the title.",
-    "input_hash": "948fffb7b71b"
+    "summary_zh": "Hacker News 上出现一条安全公告，标题称存在严重的远程代码执行漏洞，并催促用户尽快更新。受影响产品、CVE 编号和修复版本都没有出现在现有素材里，原文是链接，未提供更多细节。",
+    "summary_en": "A Hacker News submission carries a security advisory warning of critical remote code execution vulnerabilities and urging users to update now. The linked page isn't summarized here; details beyond the title, such as affected products, CVE identifiers or fixed versions, aren't available.",
+    "input_hash": "e329e4c931b2"
   },
   "zhihu-53557905": {
     "summary_zh": "这是一个知乎提问，讨论哪些书在国内可以正常读到、在国外却属于禁书，属于读者之间的书单交换与话题讨论。原文只提供了标题，未提供更多细节，具体书名和回答内容无法确认。",
@@ -22776,5 +22776,235 @@
     "summary_zh": "这篇文章先解释逆向工程的基本概念和 GitHub 上走红的开源项目 REA，再动手用 AI 去逆一个单机 Android 游戏和一款学习类 App，看它在真实场景里能做到哪一步。适合想了解 AI 辅助逆向的实际边界、不满足于概念介绍的人。",
     "summary_en": "The post first explains what reverse engineering is and introduces REA, an open-source project that has drawn attention on GitHub, then uses it with AI against a single-player Android game and a learning app. It suits readers who want a hands-on look at where AI-assisted reverse engineering actually lands, rather than a purely conceptual overview.",
     "input_hash": "13410037d4c5"
+  },
+  "infoq-Ms3bMt5OcUyYMHwfaXgM": {
+    "summary_zh": "InfoQ 精选：从试点到规模化落地：制造业领导者如何推动 AI 应用并赢得高管层支持 ｜ 技术趋势",
+    "summary_en": "Featured on InfoQ: 从试点到规模化落地：制造业领导者如何推动 AI 应用并赢得高管层支持 ｜ 技术趋势",
+    "input_hash": "a57da032490c"
+  },
+  "v2ex-701921e94c1f": {
+    "summary_zh": "V2EX 热议：[职场话题] 帮我一位 27 岁朋友发一条求网友给职业规划的帖子",
+    "summary_en": "Hot on V2EX: [职场话题] 帮我一位 27 岁朋友发一条求网友给职业规划的帖子",
+    "input_hash": "64e5a2e5017c"
+  },
+  "infoq-GVcxHscrQqv9HXGRowJh": {
+    "summary_zh": "InfoQ 精选：推动 AI 规模化落地的三大经验：来自公共部门领导者的实践洞察 ｜ 技术趋势",
+    "summary_en": "Featured on InfoQ: 推动 AI 规模化落地的三大经验：来自公共部门领导者的实践洞察 ｜ 技术趋势",
+    "input_hash": "253af1518ff6"
+  },
+  "v2ex-014e8bd731a1": {
+    "summary_zh": "V2EX 热议：[生活] 以为自己迟早要走上买码注册的道路，结果发现几年前就有账号",
+    "summary_en": "Hot on V2EX: [生活] 以为自己迟早要走上买码注册的道路，结果发现几年前就有账号",
+    "input_hash": "93fee470253e"
+  },
+  "infoq-Be94YQbRtbWj3pzZ9rSh": {
+    "summary_zh": "InfoQ 精选：金融智能分析本体：四大核心要素与五条建设路线",
+    "summary_en": "Featured on InfoQ: 金融智能分析本体：四大核心要素与五条建设路线",
+    "input_hash": "e247592a9a9e"
+  },
+  "v2ex-0bc29674d16e": {
+    "summary_zh": "V2EX 热议：[OpenAI] 又自动重置了",
+    "summary_en": "Hot on V2EX: [OpenAI] 又自动重置了",
+    "input_hash": "44957e579368"
+  },
+  "zhihu-2096725438974224368": {
+    "summary_zh": "乒乓球亚锦赛女团决赛，中国队2比3不敌日本队，获得亚军。原文只是提问链接，未提供出场阵容、各盘比分等信息，因此无法就临场排兵和关键分处理做更多判断。",
+    "summary_en": "China lost the Asian Table Tennis Championships women's team final 2-3 to Japan and finished with silver. The linked page isn't summarized here; details beyond the title aren't available, so there is no lineup, per-match scoring or post-match comment to assess how the tie was lost.",
+    "input_hash": "d489923ca49a"
+  },
+  "36kr-4036266730886018": {
+    "summary_zh": "36氪「8点1氪」汇总了三条消息：宝马离职补偿最高达487万元，员工争相申请挤爆内部系统；iPhone Duo在全球范围每位顾客限购2台；Meta第三季度营收646亿美元，同比增长26%。原文为标题聚合，未提供更多细节。",
+    "summary_en": "36Kr's morning brief packs three items: BMW is offering severance of up to 4.87 million yuan, with so many employees applying that the internal system was overwhelmed; iPhone Duo is limited to two units per customer worldwide; and Meta reported third-quarter revenue of $64.6 billion, up 26% year over year. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "7194bf0b4bd0"
+  },
+  "v2ex-c046a7ad5f76": {
+    "summary_zh": "Linkit 是开源桌面书签管理器，用 Go + Wails + React 写成，数据默认存本机 SQLite，无账号无遥测。它为每条收藏自动生成摘要，支持语义搜索，能把书签库可视化成知识图谱，并自动合并重复链接、扫描死链。AI 侧可接任意 OpenAI 兼容 API 或本地 Ollama，macOS、Windows、Linux 均可安装。",
+    "summary_en": "Linkit is an open-source desktop bookmark manager built with Go, Wails and React that keeps everything in a local SQLite file, with no account and no telemetry. It auto-summarizes each saved link, searches by meaning rather than keywords, renders the library as a knowledge graph, merges duplicate links and scans for dead ones; AI runs on any OpenAI-compatible API or local Ollama. Ships for macOS, Windows and Linux.",
+    "input_hash": "9734651e2193"
+  },
+  "v2ex-5d1c8c7b3304": {
+    "summary_zh": "Vim Keys 是一款 Firefox 扩展，作者用 deepseek 写了这个简化版 Vimperator，约花4.5亿 token、15元人民币。它支持用快捷键打开页面链接，所有键位可通过 JSON 文件或设置界面自定义，还能保存最多36个网站一键直达。适合仍怀念 Vimperator、又嫌 Surfingkeys 缺快捷访问的人。",
+    "summary_en": "Vim Keys is a Firefox extension the author built with deepseek as a stripped-down Vimperator, costing roughly 450 million tokens and about 15 yuan. It opens links by keyboard hint, lets every binding be customized through a JSON file or the settings UI, and stores up to 36 sites for direct jumps. It is aimed at people who still miss Vimperator and found Surfingkeys lacking quick site access.",
+    "input_hash": "6e34f94ae5d6"
+  },
+  "v2ex-08bf5530dd48": {
+    "summary_zh": "Linkit 是一款开源桌面书签管理器，用 Go + Wails + React 编写，数据默认存本机 SQLite，无账号也无遥测。它会为每条收藏生成摘要和要点，支持按语义检索、把书签库可视化成知识图谱，并检测重复链接与 404 死链，AI 后端可接任意 OpenAI 兼容 API 或本地 Ollama。适合书签囤了几千条却几乎不再打开的人。",
+    "summary_en": "Linkit is an open-source desktop bookmark manager built with Go, Wails and React that keeps its data in a local SQLite file, with no account and no telemetry. Each saved link gets an auto-generated summary with key points, and search works by meaning rather than keywords; it also renders the library as a knowledge graph and flags duplicates and 404s. The AI backend accepts any OpenAI-compatible API or a local Ollama model, with builds for macOS, Windows and Linux.",
+    "input_hash": "90b4599dc9ca"
+  },
+  "36kr-4036210178134916": {
+    "summary_zh": "据标题，PHP 被曝出一个严重漏洞，报道称全球程序员为此熬夜加班修复，且这个漏洞是 ChatGPT 发现的。原文只给出标题与链接，未提供正文，因此漏洞编号、影响版本和修复状态都无法确认，需要自行查阅原始报道。",
+    "summary_en": "According to the headline, PHP has been hit by a severe vulnerability that reportedly had programmers around the world working overnight, and the flaw is said to have been found by ChatGPT. The linked page isn't summarized here; details beyond the title, such as a CVE identifier, affected versions or patch status, aren't available.",
+    "input_hash": "4fea4ce2cb00"
+  },
+  "v2ex-94bc7590c2c7": {
+    "summary_zh": "独立开发者在 V2EX 分享了自己为围棋 App「Qi：AI Go Review」在小红书做推广的经历：原本认定国区用户不愿付费，几次推广下来却有不少人下单。他的结论是，至少在围棋这样的细分领域，只要产品确实解决需求，付费意愿是存在的。",
+    "summary_en": "The indie developer behind Qi: AI Go Review, an app that uses AI to review Go games, posted on V2EX about promoting it on Xiaohongshu. He had assumed users in mainland China rarely pay for apps, yet several rounds of promotion brought in a noticeable number of paying customers. His takeaway: in a niche like Go, people will pay when the product genuinely solves a need.",
+    "input_hash": "f1d114da04bb"
+  },
+  "infoq-2KQlziFu7oBa9Q2ZEZyr": {
+    "summary_zh": "黑客组织 FulcrumSec 声称从 PingCAP 窃取约 10.6TB 数据，包括 18 万条租户组织记录、11.5 万个 API Key、约 2065 万条客户 SQL 语句和 413 个私有代码仓库。PingCAP 确认 9 月 9 日至 10 月 7 日内部系统遭未授权访问并被复制数据、窃取源码，其中国区说明称未发现中国区客户生产数据库受影响，事件亦非 TiDB 内核漏洞导致。攻击者公布的数字尚未经独立验证。",
+    "summary_en": "A group called FulcrumSec claims it stole about 10.6TB from PingCAP, including roughly 180,000 tenant organization records, 115,000 API keys, some 20.65 million customer SQL statements and 413 private repositories. PingCAP confirmed unauthorized access to internal systems between September 9 and October 7, with data copied and source code taken; its China statement says no China-region customer production databases were affected and that a TiDB kernel flaw was not the cause. The attacker's figures remain unverified.",
+    "input_hash": "d7d626d048c4"
+  },
+  "v2ex-52d3a133953c": {
+    "summary_zh": "一位开发者长期使用 vibe coding 后觉得自己变“懒”了：关注点从语言语义层上移到 convention 和 taste 层面，角色更像经理而不是程序员。技术栈从 Electron 换到 Tauri，再到 Python 或 Go，已无力逐个深入学；出问题时只判断成因和该调整哪一层，然后交给 agent 修，自己负责验收。",
+    "summary_en": "After a stretch of vibe coding, one developer says their attention has shifted from language semantics up to conventions and taste, turning them from programmer into manager. With stacks moving from Electron to Tauri to Python or Go, learning each in depth is impractical; on failures they now only judge why it happened and which layer to adjust, then hand the fix to an agent and verify the result.",
+    "input_hash": "c53e95f97f50"
+  },
+  "infoq-hEHy8XHKyfwKuyIhpyFe": {
+    "summary_zh": "Cloudflare 公测了 K2：一项把分区持久化日志放在 R2 对象存储上的无服务器事件流服务，官方称生产端延迟 p99 约 1 秒。为绕开对象存储不支持追加写的问题，它先在边缘服务内存里攒批，再整段写成分段文件，用延迟换取成本和弹性。有公测用户实测端到端 p99 达 7.5 秒，团队承认长尾高于预期。",
+    "summary_en": "Cloudflare has opened a public beta of K2, a serverless event-streaming service that keeps partitioned, durable logs inside R2 object storage, with a stated p99 produce latency of about one second. Because object storage cannot be appended to, K2 batches writes in edge memory and flushes them as segment files, trading latency for cost and elasticity. One beta user measured end-to-end p99 at 7.5 seconds, and the team concedes the tail is worse than expected.",
+    "input_hash": "c75a31051b34"
+  },
+  "v2ex-00daa269a96c": {
+    "summary_zh": "V2EX 上流传的《疑似心梗与心脏骤停现场应对操作手册》v1.3 全文约 1.3 万字，帖子只贴出“独自一人时怎么办”一节。内容包括致电 120 或由 110 转接、提前把家门打开、嚼服 300mg 阿斯匹林，以及服药后右侧卧等待救援等步骤，面向没有医学背景的独居者。",
+    "summary_en": "A first-aid manual posted on V2EX, version 1.3, runs roughly 13,000 Chinese characters; the thread reproduces only the section on what to do when you are alone. It walks through calling 120 (or 110 to relay the request), unlocking the door in advance, chewing 300mg of aspirin, and lying on your right side while waiting for help. It is aimed at single people with no medical training.",
+    "input_hash": "c56e9c19be18"
+  },
+  "infoq-XxOpQpEMZpdCCYhXxgaE": {
+    "summary_zh": "在 10 月 14 日深圳的一场媒体群访中，亚马逊 CTO Werner Vogels 回应 AI 写代码是否挤压新人岗位：公司招聘初级工程师的数量与过去一样，没有紧缩。他强调新人除了写代码，还要学会协作、在 S3 这类跑了二十年的系统上继续开发，并为 AI 生成的代码承担“验证债”。",
+    "summary_en": "At a media roundtable in Shenzhen on October 14, Amazon CTO Werner Vogels said the company still hires junior engineers at the same rate as before, rejecting the idea that AI coding tools have squeezed entry-level roles. He argued that newcomers must learn to collaborate, work inside long-lived systems like S3, and take on 'verification debt' for AI-generated code.",
+    "input_hash": "583203466416"
+  },
+  "v2ex-a094a54a75cb": {
+    "summary_zh": "一位 V2EX 用户发帖称上海联通宽带突然无法上网，提示设备不在线，正文只有一句“有一样的吗？”。帖中未给出排查过程、报错细节或运营商回应，更像是在确认是否为同区域的普遍故障。",
+    "summary_en": "A V2EX user reports that their Shanghai Unicom connection suddenly stopped working, with the device showing as offline, and asks only whether anyone else is seeing the same thing. The post adds no troubleshooting steps, error details, or carrier response, so it reads as a check for a wider outage rather than a diagnosis.",
+    "input_hash": "777633d82a81"
+  },
+  "infoq-6L1Bqr8iNdVT6Cgq22QH": {
+    "summary_zh": "在布拉格 Open Source Summit Europe 的一场圆桌上，来自 CNCF、Linux Foundation Europe 和 OpenSSF 的与会者认为，追求 100% 技术主权并不现实，关键是保留能真正切换的替代方案与运维能力。讨论涉及欧盟云主权框架的八项目标、Kubernetes 的可移植性、硬件依赖缺口，以及《网络韧性法案》对开源组件的要求。",
+    "summary_en": "At a roundtable at Open Source Summit Europe in Prague, panelists from CNCF, Linux Foundation Europe and OpenSSF argued that 100% tech sovereignty is unrealistic; what matters is keeping alternatives you can actually switch to, along with the skills to run them. The discussion covered the EU cloud sovereignty framework's eight goals, Kubernetes portability, the hardware dependency gap, and the Cyber Resilience Act's treatment of open source components.",
+    "input_hash": "9e24f2a92728"
+  },
+  "36kr-4036270014927749": {
+    "summary_zh": "据 36Kr 标题，Claude 推出了面向个人的智能体，特点是会主动向用户汇报，标题同时把 Muse 和 Dot 列为被冲击的对象。原文是链接，未提供更多细节，具体形态与能力边界无从判断。",
+    "summary_en": "According to the 36Kr headline, Claude has shipped a personal agent that proactively reports back to its user, with Muse and Dot framed as the products it undercuts. The linked page isn't summarized here; details beyond the title, such as how the agent actually works or what it can access, aren't available.",
+    "input_hash": "c6768ccaf986"
+  },
+  "infoq-w065UmVL9EsVI6IVbBd7": {
+    "summary_zh": "豆包工作上线 IGA Pages 插件，能把对话生成的多页 HTML（比如一份北京红叶旅行手册）一句话打包部署到火山引擎，然后返回公网链接，省去发文件、解压、双击打开这一套。它还支持多人共创：景点投票、想去清单、任务认领和 AA 预算表都能在同一页面实时更新，适合组队出行的协作场景。",
+    "summary_en": "Doubao Work (豆包工作) added an IGA Pages plugin that takes an HTML page it generated and, on a single request, packages it, deploys it to Volcano Engine servers and returns a public link, skipping the send-unzip-open dance. Beyond sharing it supports co-creation: attraction voting, wish lists, claimable task cards and a shared AA budget table all update live in one page, which suits any group planning a trip together.",
+    "input_hash": "623c26e8d95a"
+  },
+  "infoq-0vwVMhufb66SBofWsvRz": {
+    "summary_zh": "AWS Lambda 允许运行在 Lambda Managed Instances 上的函数执行最长 90 分钟，是原先 15 分钟上限的 6 倍，传统同步请求的超时限制保持不变。这覆盖媒体处理、ETL、金融计算、AI 推理等长期靠变通方案绕过的场景，但 AWS 提醒 Lambda 不保证 exactly-once，长时任务需处理凭证有效期、重试与幂等，可用 Powertools 实现。",
+    "summary_en": "AWS Lambda now lets functions on Lambda Managed Instances run for up to 90 minutes, six times the old 15-minute ceiling; synchronous request timeouts stay unchanged. That covers media processing, ETL, financial computation and AI inference that previously needed workarounds. AWS warns Lambda offers no exactly-once guarantee, so longer runs widen the retry window — credentials, connections and idempotency, for example via Powertools, need care.",
+    "input_hash": "b3b207af4196"
+  },
+  "zhihu-2096603053763846842": {
+    "summary_zh": "知乎上这条提问围绕 SemiAnalysis 的一个判断展开：DeepSeek 与华为已经形成共生关系。原文是链接，未提供更多细节，因此支撑该观点的具体论据与数据无法确认，关心国产算力与模型协同路线的读者只能循链接自行查看。",
+    "summary_en": "A Zhihu question asking readers to weigh in on SemiAnalysis's argument that DeepSeek and Huawei have formed a symbiotic relationship. The linked page isn't summarized here; details beyond the title aren't available, so the evidence behind the claim can't be checked from the feed. Aimed at people following Chinese AI chips and model development.",
+    "input_hash": "48bdd1682422"
+  },
+  "36kr-4036220967752838": {
+    "summary_zh": "据 36Kr 标题，黄仁勋在柏林发表演讲，其核心判断是 PC 时代已经结束、AI 智能体时代全面到来。原文除标题外没有正文，演讲中提到的具体产品、数字与论证都无法核实。",
+    "summary_en": "Jensen Huang gave a talk in Berlin, and per the 36Kr headline his message was that the PC era is over and the age of AI agents has fully arrived. The linked article isn't summarized here; details beyond the title, including any products or figures he showed, aren't available.",
+    "input_hash": "7bbcdf77295e"
+  },
+  "36kr-4036567752905602": {
+    "summary_zh": "36Kr 这篇报道的标题是“全网呼叫陈广宇”。原文是链接，未提供更多细节，因此陈广宇是谁、为什么被全网寻找，从现有素材都无法判断。",
+    "summary_en": "A 36Kr post whose headline calls on the internet to track down someone named Chen Guangyu. The linked page isn't summarized here; details beyond the title aren't available, so who Chen is and why he is being sought can't be determined.",
+    "input_hash": "502253d7d709"
+  },
+  "hn-50195959": {
+    "summary_zh": "Quad9 是一个公共免费的 DNS 解析服务，主打安全与隐私，据标题它将退出法国。原文只给出了一句服务简介，没有说明退出的原因和时间表，在法国依赖它做域名解析的人需要另找方案。",
+    "summary_en": "Quad9, a public and free DNS resolver focused on security and privacy, is set to exit France according to the headline. The linked page isn't summarized here; the notice carries only a one-line description of the service, with no reason or timeline given, so anyone relying on it for resolution in France should look for an alternative.",
+    "input_hash": "19b8d637d50b"
+  },
+  "hn-50195110": {
+    "summary_zh": "在印度上市的全球数字信任公司 eMudhra Limited（BSE: 543533，NSE: EMUDHRA）宣布，董事会已决定自愿退出全球 SSL/TLS 证书业务。公告只有这一句，未说明退出原因与过渡安排，仍在持有其签发证书的团队需要跟进后续通知。",
+    "summary_en": "eMudhra Limited, an India-listed digital trust company trading on the BSE and NSE, said its board has decided to voluntarily withdraw from the global SSL/TLS certificate business. The notice is a single announcement with no stated reason or transition plan, so teams holding certificates issued by eMudhra should watch for follow-up guidance.",
+    "input_hash": "af7510b2327e"
+  },
+  "zhihu-2096327185309160809": {
+    "summary_zh": "宇树发布了一款名为「H2-X 功夫传奇 守护」的机器人，官方宣传它能徒手抬车、勇斗歹徒，知乎上由此讨论这种能力在真实生活中究竟用在哪。原文是提问帖，没有附技术参数、演示视频或售价等细节，标题之外的信息无法核实。",
+    "summary_en": "Unitree has announced a robot called the H2-X, marketed under the name \"Kung Fu Legend · Guardian,\" with claims that it can lift a car bare-handed and fight off attackers. The Zhihu thread asks where such capabilities would actually matter in daily life. The post is a question with no body text, so specifics beyond the title aren't available here.",
+    "input_hash": "43f1028e83b6"
+  },
+  "zhihu-2096555342171563789": {
+    "summary_zh": "有测评显示，iPhone Duo 在折叠 3000 次后折痕明显加深，高负载场景下发热也比较突出，知乎由此追问还有哪些问题值得关注。原文是提问帖，未给出测评来源、测试方法或更多数据，标题之外的信息无法确认。",
+    "summary_en": "Early reviews of the iPhone Duo report that the crease becomes noticeably deeper after 3,000 folds, and that the phone heats up under sustained load. The Zhihu question asks which other problems deserve attention. The linked page isn't summarized here; details beyond the title, such as the review source or test methodology, aren't available.",
+    "input_hash": "762b30ba6c66"
+  },
+  "hn-50182987": {
+    "summary_zh": "PHP 今日发布了一个安全版本，并配文说明项目在安全方面做了哪些加固。这条 HN 提交同时关联到 PHP 8.2.35 的讨论帖以及更多链接。原文为链接汇总，除标题和这些指路链接外没有正文，具体漏洞编号和影响范围需要点进原始公告确认。",
+    "summary_en": "PHP shipped a security release today, accompanied by a post on how the project is strengthening security. The Hacker News submission also points to a related thread on PHP 8.2.35 and further links. The linked page isn't summarized here; details beyond the title, such as specific CVE numbers or affected versions, aren't available.",
+    "input_hash": "f71fa38036c3"
+  },
+  "zhihu-2096230307561037909": {
+    "summary_zh": "知乎上在讨论中国拟出台的「AI 出口禁令」会带来哪些实际影响，关注点包括国内使用 AI 产品是否受限、中企海外业务会不会被波及，并延伸到中美 AI 竞争的走向。原文是提问帖，未附禁令草案原文或具体条款，细节无法核实。",
+    "summary_en": "A Zhihu discussion asks what a proposed Chinese AI export ban would mean in practice: whether access to AI products inside the country changes, whether Chinese firms' overseas operations get hit, and how it reshapes US-China AI competition. The post is a question with no attached draft text or clause details, so specifics beyond the title aren't available.",
+    "input_hash": "915cfd9f950d"
+  },
+  "36kr-4035658058126464": {
+    "summary_zh": "这是 36kr 的一篇评论，标题立场是劝开发者不要跟风做 Personal Agent。原文只有链接，未提供更多细节，具体论据和涉及的产品无法确认。",
+    "summary_en": "A 36kr commentary whose stated position is that builders should not jump on the Personal Agent bandwagon. The linked page isn't summarized here; details beyond the title aren't available, so the specific arguments and products involved can't be confirmed.",
+    "input_hash": "5bb6054d2b11"
+  },
+  "36kr-4036566939292806": {
+    "summary_zh": "这是 36kr 的一篇报道，标题指向 AI 持续挖漏洞一年后终于交出一个大成果。原文只有链接，未提供更多细节，具体是哪类漏洞、涉及哪个项目或团队都无法从标题之外确认。",
+    "summary_en": "A 36kr piece about AI systems spending a full year hunting vulnerabilities and finally landing a major find. The linked page isn't summarized here; details beyond the title aren't available, so which class of vulnerability or which project and team are involved can't be confirmed.",
+    "input_hash": "f9daccf9f6d0"
+  },
+  "36kr-4036441413998467": {
+    "summary_zh": "这是 36kr 的一篇消费趋势观察，提出 2026 年年轻人正从奶茶转向被称为「大水」的饮品。原文只有链接，未提供更多细节，具体品牌、数据和结论无法确认。",
+    "summary_en": "A 36kr consumer-trend piece suggesting that in 2026 young Chinese consumers are moving away from milk tea toward drinks referred to as \"big water.\" The linked page isn't summarized here; details beyond the title aren't available, so the brands, data, and conclusions can't be confirmed.",
+    "input_hash": "81508bcc07e5"
+  },
+  "36kr-4036263485936518": {
+    "summary_zh": "这是 36kr 的一篇文章，标题称现在复活一款老游戏只需 8 小时。原文只有链接，未提供更多细节，涉及哪些工具、哪款游戏以及 8 小时如何统计都无法确认。",
+    "summary_en": "A 36kr article claiming that reviving an old game now takes only 8 hours. The linked page isn't summarized here; details beyond the title aren't available, so the tools used, which game was involved, and how the 8 hours were measured can't be confirmed.",
+    "input_hash": "ce7f0fe1c41d"
+  },
+  "36kr-4036441906090884": {
+    "summary_zh": "36kr 这条资讯的标题称中国 AI 开始进入并抢占日本市场，但原文只有链接、未提供更多细节，涉及哪些公司、以什么产品落地均无法确认。关注中国大模型与 AI 产品出海的人，需要打开原报道才能看到具体案例。",
+    "summary_en": "This 36kr item's headline states that Chinese AI is starting to move into and capture the Japanese market, but the linked page isn't summarized here; details beyond the title aren't available. Which companies are involved and what products they are shipping cannot be confirmed from the headline alone. Developers tracking Chinese LLM and AI product expansion overseas will need the original report for specifics.",
+    "input_hash": "8f408378aa53"
+  },
+  "zhihu-2094239068095602796": {
+    "summary_zh": "这是知乎上的一个提问：当 AI 生成代码的速度超过人工审查的吞吐量，团队是否该违背一直沿用的惯例、干脆放弃代码 Review。帖子本身只是提问，原文是链接、未提供更多正文，具体论据和回答需打开原帖查看。它指向的是把 AI 编码工具接入研发流程后，评审环节该如何重新设计。",
+    "summary_en": "A Zhihu thread asks whether teams should break with long-standing practice and drop code review entirely, now that AI generates code faster than humans can review it. The linked page isn't summarized here; details beyond the title aren't available, so the arguments and answers sit behind the link. The question itself is the practical one teams hit after wiring AI coding tools into their workflow: how to redesign review, not just abandon it.",
+    "input_hash": "71311c9e80bb"
+  },
+  "zhihu-2096284238119228758": {
+    "summary_zh": "知乎这条提问指出腾讯股价跌破 400 港元并创下新低，市值较高点缩水近四成，进而追问问题出在哪里、市场对腾讯的估值逻辑发生了哪些转变。原文只有提问，未提供更多正文和数据，具体财务口径与各方分析需打开链接内的回答。",
+    "summary_en": "A Zhihu question notes that Tencent's share price has dropped below HK$400 to a new low, with market capitalization down nearly 40% from its peak, and asks where the problems lie and how the market's valuation logic for the company has shifted. The linked page isn't summarized here; the underlying financials and the various answers are only in the original thread.",
+    "input_hash": "462d9470dcab"
+  },
+  "zhihu-2096569066114610825": {
+    "summary_zh": "知乎这条提问关注的是一款名为 iPhone Duo 的新机即将开卖，而微信等常用应用尚未完成适配，为什么会出现这种硬件先行、软件掉队的错位，以及这会在多大程度上影响用户的购买意愿。原文是提问，未提供更多正文，具体机型信息与适配进度需打开链接确认。",
+    "summary_en": "A Zhihu question points out that the iPhone Duo is about to go on sale while apps such as WeChat have not yet been adapted for it, and asks why this mismatch between a hardware launch and software readiness happens and how much it will weigh on purchase intent. The linked page isn't summarized here; device specifics and the real state of app adaptation aren't available beyond the title.",
+    "input_hash": "b47aa2c0f827"
+  },
+  "zhihu-2096392948342579875": {
+    "summary_zh": "知乎这条提问注意到 10 月 21 日前后，Node.js、PHP、Oracle、Chrome、Linux 在很短时间里接连曝出被描述为超高危的漏洞，并请大家讨论这种集中爆发意味着什么。原文只是提问，未提供更多正文，具体的 CVE 编号、影响版本和修复情况需查看链接内的回答。",
+    "summary_en": "A Zhihu question notes that around October 21, vulnerabilities described as extremely critical were disclosed in Node.js, PHP, Oracle, Chrome and Linux within a very short window, and asks what to make of the cluster. The linked page isn't summarized here; CVE IDs, affected versions and patch status aren't available beyond the title, so the specifics are in the linked answers.",
+    "input_hash": "52d33521b747"
+  },
+  "zhihu-2095965663173071657": {
+    "summary_zh": "这是一条知乎提问，讨论特斯拉 FSD 为何坚持纯视觉而非激光雷达路线。原文只提供了标题，未附带问题描述或回答内容，因此具体观点和技术细节无法在此展开。",
+    "summary_en": "A Zhihu question asking why Tesla's FSD sticks with a pure-vision approach instead of adding lidar. The linked page isn't summarized here; details beyond the title aren't available, so the arguments made in the thread can't be reported.",
+    "input_hash": "c69de5ecf694"
+  },
+  "gh-daily-php-php-src": {
+    "summary_zh": "php/php-src 是 PHP 解释器本身的官方源码仓库，以 BSD-3-Clause 许可分发，仓库内提供 php.net 文档入口、Windows 预编译二进制包下载地址，并接入了 GitHub Actions 测试与 OSS-Fuzz 模糊测试。想读 PHP 内核实现、给语言本身提 PR 或自行编译 PHP 的开发者可以直接从这里入手。",
+    "summary_en": "php/php-src is the official source repository for the PHP interpreter itself, distributed under the BSD-3-Clause license. The repo points to the php.net manual, prebuilt Windows binaries on windows.php.net, and runs both GitHub Actions tests and OSS-Fuzz fuzzing. It's the place to start if you want to read the interpreter internals, compile PHP yourself, or send a patch to the language.",
+    "input_hash": "38e847274e58"
+  },
+  "gh-daily-luongnv89-claude-howto": {
+    "summary_zh": "luongnv89/claude-howto 是一份面向 Claude Code 的图解式实战指南，采用 MIT 许可，当前版本 2.1.302，针对 Claude Code 2.1+，内容覆盖基础概念到 agents、hooks、skills 等进阶用法，并附可直接复制的模板。README 提供中、英、日、越、乌克兰语版本，适合想在一个周末把 Claude Code 从会敲命令推进到能编排工作流的开发者。",
+    "summary_en": "luongnv89/claude-howto is an MIT-licensed, example-driven guide to Claude Code, currently at version 2.1.302 and targeting Claude Code 2.1+. It walks from basic concepts up to agents, hooks and skills, and ships copy-paste templates you can drop into a project. READMEs are available in English, Chinese, Japanese, Vietnamese and Ukrainian, making it a fit for developers who want to move from typing claude to orchestrating workflows over a weekend.",
+    "input_hash": "de9fe64192de"
+  },
+  "gh-daily-Meloong-Git-PCL": {
+    "summary_zh": "PCL（Plain Craft Launcher）是 Minecraft 启动器，这个 GitHub 仓库放出了它的大部分源代码，包括 UI 库、动画模块、下载模块和 Minecraft 启动模块。想研究启动器内部实现或复用其中组件的 Minecraft 玩家与开发者，可以直接读代码。",
+    "summary_en": "PCL (Plain Craft Launcher) is a Minecraft launcher whose GitHub repository publishes most of its source code, including the UI library, animation module, download module and Minecraft launch module. Developers who want to see how a launcher is put together, or reuse parts of one, can read the code directly.",
+    "input_hash": "d95f17091c80"
+  },
+  "gh-daily-fastapi-fastapi": {
+    "summary_zh": "FastAPI 是一个 Python Web 框架，官方定位是高性能、易上手、编码快、可直接用于生产，通过 PyPI 分发，文档在 fastapi.tiangolo.com，源码放在 GitHub。正在做后端选型、想平衡开发速度与运行性能的 Python 开发者可以把它列入候选。",
+    "summary_en": "FastAPI is a Python web framework positioned around high performance, quick learning and fast coding, with a production-ready claim in its own description; it ships on PyPI, with documentation at fastapi.tiangolo.com and source on GitHub. Python developers weighing a backend framework can evaluate it against their current stack.",
+    "input_hash": "1937445fb7d9"
   }
 }
