@@ -985,9 +985,9 @@
     "input_hash": "ef4de0757ed8"
   },
   "juejin-7637856870833635343": {
-    "summary_zh": "作者2025年4月自费20美元/月订阅Cursor，公司随后开通企业版，一路用到2026年4月；因Cursor改用按量计费、成本不可预测，公司决定中国区换用OpenAI Codex。他的判断是：Cursor仍是一个贴着编码现场的IDE，而Codex更像能独立干活的超级Agent。",
-    "summary_en": "The author paid $20 a month for Cursor from April 2025, later moved onto a company enterprise plan, and used it until April 2026, when Cursor shifted from fixed licenses to usage-based billing and the company decided its China region would standardize on OpenAI Codex instead. His take: Cursor remains an IDE with AI attached, while Codex feels closer to an autonomous agent.",
-    "input_hash": "cf3d5401aeb1"
+    "summary_zh": "一位开发者记录了自己从 Cursor 转向 Codex、用了大半个月之后的体验：Cursor 让他第一次强烈感受到 AI 编程的冲击，而 Codex 更像一个能自己往下做事的超级 Agent，而非单纯的编程助手。这是主观使用感受而非基准测试，适合正在 Cursor 和 Codex 之间做选择、或关心 AI 编程工具形态往哪走的人参考。",
+    "summary_en": "A developer who spent the better part of a month on Codex after switching from Cursor says the newer tool feels less like a coding assistant and more like a general-purpose agent that keeps working on its own, while Cursor was his first real taste of AI-assisted coding. It is a personal, hands-on account rather than a benchmark, useful for anyone choosing between the two or tracking how these tools are changing shape.",
+    "input_hash": "72d412342830"
   },
   "juejin-7646004870782550050": {
     "summary_zh": "这是掘金上的一篇 2026 年 5 月 GitHub 热门项目月榜盘点，涵盖 skills、Pixelle-Video 等项目。作者观察到当月社区热度集中在把 Agent 做进工程化工作流：省 Token、记住上下文、编排多 Agent、批量产出内容。适合想快速了解近期开源风向的人。",
@@ -5491,9 +5491,9 @@
     "summary_en": "Nintendo legend Shigeru Miyamoto once said game developers should not always focus on recouping costs, but instead prioritize creating fun and unique experiences. This philosophy has long defined Nintendo's approach—from Super Mario to The Legend of Zelda, they believe that a great game will naturally generate profit. In an industry increasingly driven by microtransactions and short-term monetization, Miyamoto's words are a refreshing reminder that true success comes from delivering genuine joy to players. His stance challenges the prevailing profit-first mindset, suggesting that if you put creativity and player satisfaction at the core, financial returns will follow. For developers and gamers alike, it's a powerful call to return to what makes games special: imagination and pure entertainment."
   },
   "gh-daily-nodejs-node": {
-    "summary_zh": "Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行时环境，让开发者可以使用 JavaScript 编写服务端代码。它采用事件驱动、非阻塞 I/O 模型，轻量且高效，非常适合构建高性能的网络应用和实时系统。无论是 Web 服务器、命令行工具还是微服务，Node.js 都凭借其庞大的 NPM 生态和跨平台能力，成为现代全栈开发不可或缺的基础设施。",
-    "summary_en": "Node.js is a JavaScript runtime built on Chrome's V8 engine, allowing developers to write server-side code in JavaScript. Its event-driven, non-blocking I/O model makes it lightweight and efficient, ideal for building high-performance network applications and real-time systems. With its vast NPM ecosystem and cross-platform support, Node.js has become an essential foundation for modern full-stack development, powering everything from web servers to command-line tools and microservices.",
-    "input_hash": "22ef3df02303"
+    "summary_zh": "nodejs/node 是开源跨平台 JavaScript 运行时的主代码库，README 说明了它的开放治理结构：由 TSC 技术指导委员会决策、OpenJS Foundation 提供支持，并列出 Current、LTS、Nightly 三类发布渠道和二进制校验方式。需要确认版本发布节奏、了解构建与安全流程或参与贡献的开发者，可以按文档操作，贡献者还须遵守项目行为准则。",
+    "summary_en": "nodejs/node is the main repository for Node.js, the open-source cross-platform JavaScript runtime. Its README lays out the project's open governance, with a Technical Steering Committee (TSC) making decisions and the OpenJS Foundation providing support, plus Current, LTS and Nightly release channels and instructions for verifying binaries. Developers checking release cadence, build steps, security process or how to contribute will find the details there.",
+    "input_hash": "7552cc0865aa"
   },
   "gh-daily-pbakaus-impeccable": {
     "summary_zh": "开源项目 impeccable — The design language that makes your AI harness better at design.",
@@ -14563,9 +14563,9 @@
     "input_hash": "9b3d7a55365e"
   },
   "gh-daily-SnailSploit-Claude-Red": {
-    "summary_zh": "claude-red 是一个面向 Claude Skills 系统的攻防安全技能库，由 78 个 SKILL.md 文件组成，按 23 个分类覆盖 SQL 注入、shellcode 等具体攻击面，每个文件为 Claude 注入对应领域专家级的红队方法论。项目采用 MIT 协议，适合做渗透测试或红队工作、想把 Claude 当成上下文感知攻击操作员来用的人。",
-    "summary_en": "claude-red is a curated library of offensive-security skills for the Claude Skills system, packaged as 78 SKILL.md files across 23 categories, each priming Claude with expert-level methodology for a specific attack surface such as SQL injection or shellcode. Released under MIT, it targets red teamers and pentesters who want Claude to act as a context-aware operator.",
-    "input_hash": "d1df8005bb6c"
+    "summary_zh": "Claude-Red 是 SnailSploit 维护的攻防技能库，以 78 个结构化 SKILL.md 文件覆盖 23 个安全类别，放进 Claude skills 系统后让它按专家方法论执行红队任务。项目采用 MIT 许可，适合做渗透测试和红队演练的安全人员直接取用。",
+    "summary_en": "Claude-Red is a curated offensive security library from SnailSploit, shipping 78 structured SKILL.md files across 23 categories that prime Claude with expert-level red team methodology. Drop them into the Claude skills system and the model operates as a context-aware red team operator. It is MIT licensed, aimed at pentesters and red teamers who want reusable, drop-in skill definitions rather than ad-hoc prompts.",
+    "input_hash": "d421e0835a8a"
   },
   "gh-daily-multimodal-art-projection-YuE": {
     "summary_zh": "YuE2 是 multimodal-art-projection 团队推出的音乐生成模型，把符号规划与音频生成统一起来，支持 zero-shot 翻唱和 agentic 音乐编辑，权重以 YuE2-3B 发布在 Hugging Face。原版 YuE 的代码与文档保留在 YuE-v1 分支，仓库还提供 MERT2、SheetSage2 和 WildSongBench 数据集，适合研究 AI 音乐生成的人上手。",
@@ -15113,9 +15113,9 @@
     "input_hash": "54a8cfee3108"
   },
   "juejin-7684460980934049807": {
-    "summary_zh": "一位 Codex 老用户在中转站被封后转用腾讯 WorkBuddy，记录了一周体验：用 GLM-5.3 修一个需求花掉 800 多积分，改用倍率 0.06 的 GLM-5.3-flash 与 0.03 的 DeepSeek-V4.1-flash 后成本明显下降。作者评价后端完成度不错、前端 UI 还原偏糙，最终因积分体系和暗色皮肤留下，适合纠结切换成本与模型计费的开发者参考。",
-    "summary_en": "A longtime Codex user whose relay service got shut down spent a week on Tencent's WorkBuddy coding agent and wrote up the trade-offs. GLM-5.3 burned over 800 credits on a single feature, while GLM-5.3-flash (0.06 rate) and DeepSeek-V4.1-flash (0.03) cut costs sharply. Backend tasks came out fine, frontend UI fidelity needed manual cleanup. Useful for developers weighing a tool switch against per-model billing.",
-    "input_hash": "25230596b1dc"
+    "summary_zh": "一位 Codex 老用户记录自己转用腾讯智能体编程工具 WorkBuddy 一周的经历，写了换工具的原因、迁移中踩到的坑以及省下的费用。作者明确表示既不是恰饭也不是踩一捧一，属于个人使用记录，对正在挑选编程 Agent 或考虑从 Codex 换工具的人有参考价值。",
+    "summary_en": "A long-time Codex user documents a week of switching to WorkBuddy, Tencent's agentic coding tool, covering why he moved, the problems he ran into and the money he saved. He frames it as a personal usage log rather than an ad or a hit piece, which makes it worth reading for developers comparing coding agents or thinking about leaving Codex.",
+    "input_hash": "65bf66a0e361"
   },
   "v2ex-42b4b3b15b7d": {
     "summary_zh": "V2EX 热议：[程序员] 我自己跑的选股和量化, 成功的提前几个小时预测到今晚加息 25bp",
@@ -18803,9 +18803,9 @@
     "input_hash": "2170c890b081"
   },
   "v2ex-4de2776edfe5": {
-    "summary_zh": "V2EX 热议：[分享创造] 给 Touch Bar 做了个新用途：直接看 Codex / Claude Code 是在工作，还是已经做完",
-    "summary_en": "Hot on V2EX: [分享创造] 给 Touch Bar 做了个新用途：直接看 Codex / Claude Code 是在工作，还是已经做完",
-    "input_hash": "38d620a39b8d"
+    "summary_zh": "有开发者在 V2EX 分享，把 MacBook 的 Touch Bar 改作状态显示，用来判断 Codex 或 Claude Code 是在跑任务还是已经做完。原文只提供了标题和链接，未提供实现方式等更多细节。",
+    "summary_en": "A V2EX post describes repurposing the MacBook Touch Bar as a status display that shows whether Codex or Claude Code is still working or has finished its task, giving a glanceable indicator without switching windows. The linked page isn't summarized here; details beyond the title, such as how it was implemented, aren't available.",
+    "input_hash": "90c2fd15b74b"
   },
   "v2ex-3703df7c563d": {
     "summary_zh": "V2EX 热议：[游戏开发] ai 开发游戏，你们用哪个框架？",
@@ -21673,9 +21673,9 @@
     "input_hash": "0d882f03a4d9"
   },
   "juejin-7695697094277087272": {
-    "summary_zh": "甲方只给一张地图卫星截图和一份设施清单，作者据此反向推出比例尺与布局，用 Python 脚本在 Blender 5.1 里完成全部建模与 Cycles 地面光照烘焙，再以 three.js（正交相机、UnrealBloomPass 辉光、RectAreaLight、InstancedMesh）搭出含重卡倒车入位和运营仿真的数字孪生大屏，页面侧是 Vue 3 + Vite。项目坚持所有产物由脚本生成，最后用无头 Chrome 截图叠图比对设计稿校验还原度，适合做三维可视化大屏的前端参考。",
-    "summary_en": "Given nothing but a satellite screenshot and a facility list, the author reverse-engineered a scale and site layout, then modeled the whole energy station in Blender 5.1 through Python scripts and baked ground lighting with Cycles. The front end is Vue 3 + Vite rendering a three.js scene with an orthographic camera, UnrealBloomPass glow, RectAreaLight and InstancedMesh, plus truck-docking and operations simulation. Every artifact is script-generated and fidelity is checked by diffing headless Chrome screenshots against the design, a useful reference for 3D dashboard work.",
-    "input_hash": "6aa6754406dd"
+    "summary_zh": "作者手上只有甲方给的一张卫星截图，用 Three.js 加 Blender 还原出一座 3D 综合能源补给站：从截图反求设计稿相机、脚本化建模、Cycles 烘焙夜景，到重卡倒车入位动画与运营仿真，最后叠图逐像素比对还原度。适合做 Web 3D 可视化、数字孪生，或需要从参考图逆向搭建场景的前端开发者参考。",
+    "summary_en": "Starting from a single satellite screenshot handed over by a client, the author rebuilt a 3D integrated energy station with Three.js and Blender: reverse-engineering the design camera from the image, scripting the modeling, baking a night scene in Cycles, then adding a truck reversing into a bay and an operations simulation, with a pixel-by-pixel overlay to check fidelity. Useful for front-end developers working on Web 3D visualization, digital twins, or reconstructing scenes from reference imagery.",
+    "input_hash": "94132968e121"
   },
   "gh-monthly-cloudflare-security-audit-skill": {
     "summary_zh": "cloudflare/security-audit-skill 是一个面向 coding agent 的 skill，用于执行多阶段安全审计，产出可机器读取的结论，且每条发现都经过独立验证。适合把 agent 接进 CI 或安全流程、需要结构化结果而非自然语言描述的团队评估。",
@@ -22533,9 +22533,9 @@
     "input_hash": "1e1b1681758c"
   },
   "juejin-7686407614478237748": {
-    "summary_zh": "一位用了两年 GPT 的重度用户记录了从中转站 API 换到 WorkBuddy 一个月后的体验：中转站高峰期超时、断连丢上下文，还有跑路风险。WorkBuddy 注册送 2000 积分，内置 GLM-5.3、Kimi、DeepSeek 等模型，可按任务切换以控制成本，也能用微信远程派活。",
-    "summary_en": "A heavy two-year GPT user recounts a month on WorkBuddy after leaving a third-party relay API that timed out at peak hours, dropped context mid-task, and could disappear with prepaid balances. WorkBuddy offers 2000 signup credits and bundles GLM-5.3, Kimi and DeepSeek, so models can be picked per task to control cost, and jobs can be dispatched from WeChat on a phone.",
-    "input_hash": "b56fe2ef0175"
+    "summary_zh": "一位用 GPT 两年多、平时写方案改文案整理资料的重度用户，因为网络原因长期依赖第三方中转 API，这次记录了自己使用 WorkBuddy 一个月的真实体验。对同样靠中转站调用模型的开发者来说，这类长期使用反馈比发布会参数更有参考价值。",
+    "summary_en": "A heavy GPT user of more than two years, who writes proposals, edits copy and sorts materials with it, explains that he has long relied on third-party relay APIs because of network constraints, and now shares what a month of using WorkBuddy actually felt like. Devs who also reach models through relay endpoints will find this kind of long-term, hands-on account more useful than launch-day benchmarks.",
+    "input_hash": "82df4d39d559"
   },
   "juejin-7696817605548245002": {
     "summary_zh": "一篇面向程序员的职业文章，把当下主流出路拆成 7 条，逐条讲真实门槛、优劣势与适合人群。背景是 AI 工具普及、大厂招聘收缩和 35 岁门槛，适合正在考虑转型或换赛道的人。",
@@ -22908,9 +22908,9 @@
     "input_hash": "502253d7d709"
   },
   "hn-50195959": {
-    "summary_zh": "Quad9 是一个公共免费的 DNS 解析服务，主打安全与隐私，据标题它将退出法国。原文只给出了一句服务简介，没有说明退出的原因和时间表，在法国依赖它做域名解析的人需要另找方案。",
-    "summary_en": "Quad9, a public and free DNS resolver focused on security and privacy, is set to exit France according to the headline. The linked page isn't summarized here; the notice carries only a one-line description of the service, with no reason or timeline given, so anyone relying on it for resolution in France should look for an alternative.",
-    "input_hash": "19b8d637d50b"
+    "summary_zh": "Quad9 是一个主打安全与隐私的免费公共 DNS 服务，此次宣布将退出法国。原文是链接，未提供更多细节，退出原因、时间表以及对解析的具体影响都不在本条素材中；把解析指向 Quad9 的团队或许需要提前确认备用方案。",
+    "summary_en": "Quad9, a free public DNS resolver that positions itself on security and privacy, has announced it is exiting France. The linked page isn't summarized here; the reason, timeline and any technical fallout aren't available beyond the title. Teams that point their resolvers at Quad9 may want to check what their fallback configuration looks like.",
+    "input_hash": "4c2e71515553"
   },
   "hn-50195110": {
     "summary_zh": "在印度上市的全球数字信任公司 eMudhra Limited（BSE: 543533，NSE: EMUDHRA）宣布，董事会已决定自愿退出全球 SSL/TLS 证书业务。公告只有这一句，未说明退出原因与过渡安排，仍在持有其签发证书的团队需要跟进后续通知。",
@@ -23006,5 +23006,225 @@
     "summary_zh": "FastAPI 是一个 Python Web 框架，官方定位是高性能、易上手、编码快、可直接用于生产，通过 PyPI 分发，文档在 fastapi.tiangolo.com，源码放在 GitHub。正在做后端选型、想平衡开发速度与运行性能的 Python 开发者可以把它列入候选。",
     "summary_en": "FastAPI is a Python web framework positioned around high performance, quick learning and fast coding, with a production-ready claim in its own description; it ships on PyPI, with documentation at fastapi.tiangolo.com and source on GitHub. Python developers weighing a backend framework can evaluate it against their current stack.",
     "input_hash": "1937445fb7d9"
+  },
+  "v2ex-07821b6bd9ed": {
+    "summary_zh": "V2EX 热议：[问与答] 大家有没有一首充满回忆的音乐",
+    "summary_en": "Hot on V2EX: [问与答] 大家有没有一首充满回忆的音乐",
+    "input_hash": "3f1d94d91bd6"
+  },
+  "zhihu-2096972346951198516": {
+    "summary_zh": "知乎上出现了一个提问「如何评价 Kimi K3.1？」，向社区征集对该模型的实际使用评价。原文只提供了提问链接，未附任何正文或补充说明，除标题外没有更多细节。",
+    "summary_en": "A Zhihu question asks users to share their assessments of Kimi K3.1, inviting hands-on impressions of the model from the community. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "6b70fb4950be"
+  },
+  "36kr-4037687068021637": {
+    "summary_zh": "36氪「8点1氪」栏目的每日快讯合集，本期提到 iPhone Duo 约有八成应用尚未适配，DeepSeek 据悉完成 1000 亿元融资，长实集团则再次发布澄清公告称李嘉诚健康情况良好。适合想用几分钟扫一遍当天几条主要商业与科技消息的读者。",
+    "summary_en": "The latest 8点1氪 roundup from 36Kr bundles several news briefs: roughly 80% of apps reportedly have not yet been adapted for iPhone Duo, DeepSeek is said to have closed a 100 billion yuan funding round, and CK Asset issued another clarification saying Li Ka-shing is in good health. It is a quick scan of the day's main business and tech headlines.",
+    "input_hash": "66359dd5f6ca"
+  },
+  "infoq-v85ey09UlxhCDH4r3RS3": {
+    "summary_zh": "Snowflake 的 Cortex AI Gateway 已进入公开预览，定位在企业 AI 客户端与其访问的后端系统之间，作为集中式控制平面，通过单一端点提供受治理的模型推理、动态模型路由、MCP 工具治理、可观测性、安全护栏与成本归因。文章认为企业 AI 栈碎片化的根源不是工具不够，而是缺少这样一层控制节点，适合负责 AI 平台治理与成本管理的团队阅读。",
+    "summary_en": "Snowflake's Cortex AI Gateway has entered public preview, positioned as a control plane between AI clients and the enterprise systems they reach, offering governed model inference, dynamic model routing, MCP and tool governance, observability, guardrails and cost attribution through a single endpoint. The article argues that fragmentation in enterprise AI stacks comes from a missing control layer rather than a shortage of tools, and targets platform teams responsible for governance and spend.",
+    "input_hash": "55f60b5a68e8"
+  },
+  "v2ex-b475ca42d45e": {
+    "summary_zh": "V2EX 上有用户指出 @cjkcjkcjk 是一个到处搬运站内帖子来起号的账号，正文列出了该账号近期搬来的多条帖子标题和发布时间，跨度从几小时前到四五天前，内容从「年轻人的出路在哪里？」「结婚三年，现在跟我说不生小孩，我该怎么办？」到「vps 的 IP 送中了能用来给 Claude 做代理么？」都有。相当于给常逛站内的人提个醒，注意这类批量搬运账号。",
+    "summary_en": "A V2EX user flags @cjkcjkcjk as an account that mass-reposts threads from across the forum to build up a profile, listing copied titles and their posting times, which range from a few hours to about five days old. The examples run from career advice and marriage questions to a VPS-and-Claude proxy query, giving regulars a concrete way to recognize this kind of repost farming.",
+    "input_hash": "7bf77f446d26"
+  },
+  "infoq-wyGrRsTrfHM7i9MhuV5P": {
+    "summary_zh": "蚂蚁数科 10 月 22 日发布决策模型 LingDT-Decision-1.0，提供 4B 与 27B 两个版本，专做意图识别、任务分类、工具选择与风险判断等结构化判断，已在 DTMaaS 平台限时免费开放体验。官方称其 27B 版本在 23 项开源基准的综合评分超过 Microsoft-Decision-1、Jev 1.13.0 与 Fastino/GLiDE，在客服等场景 Token 消耗降低九成以上、处理速度最高提升约 10 倍。",
+    "summary_en": "Ant Digital Technologies released LingDT-Decision-1.0 on October 22 in 4B and 27B sizes, aimed at structured enterprise decisions such as intent detection, task classification, tool selection and risk scoring rather than free-form text generation. The company says the 27B version outscores Microsoft-Decision-1, Jev 1.13.0 and Fastino/GLiDE across 23 open benchmarks, with over 90% lower token use and up to 10x faster processing in customer-service and labeling tests. It is free to try for a limited time on the DTMaaS platform.",
+    "input_hash": "6fac3a4cb064"
+  },
+  "v2ex-a2f0f2f8b12f": {
+    "summary_zh": "V2EX 用户耶格尔做了一个免安装的在线视频下载站，浏览器打开、粘贴链接后由服务端解析直接下载，支持 YouTube、B 站、微博、小红书、X、Instagram 等平台，整段带文案的分享内容粘进去也会自动提取链接。作者说自己被 iPhone 存视频折磨多年才动手做这个工具，目前免费开放并征集反馈，还声称 91 和 P 站同样能下。",
+    "summary_en": "A V2EX developer posting as 耶格尔 launched a browser-based video downloader that requires no app install: paste a link, the server parses it, and the file downloads. It covers YouTube, Bilibili, Weibo, Xiaohongshu, X and Instagram, and accepts whole share texts by pulling the URL out automatically. The tool is free and the author is soliciting feedback; the post also claims support for 91 and Pornhub.",
+    "input_hash": "d592cdfe5b08"
+  },
+  "v2ex-8e848cc04dce": {
+    "summary_zh": "一位 V2EX 用户想把搜狗输入法多年积累的词库导出来换到别的输入法，结果导出的 bin 文件只有约 400k，用深蓝转换工具打开后只剩几十条，而手机端词库同步显示约三万词。他换了老版本搜狗依旧如此，因此怀疑是官方故意限制导出，发帖询问是否有其他人遇到同样情况。",
+    "summary_en": "A V2EX user trying to migrate years of accumulated Sogou IME vocabulary to other input methods found the exported bin file was only about 400KB, and converting it with the 深蓝 tool yielded just a few dozen entries, even though Sogou's phone-side sync shows roughly 30,000 words. Installing older Sogou versions gave the same result, prompting him to suspect the export is deliberately capped and to ask whether others are seeing this too.",
+    "input_hash": "e7f63be53200"
+  },
+  "infoq-o9OcWNkkwgKvsZmgY45d": {
+    "summary_zh": "本文整理自阿里巴巴 Qwen 团队算法工程师章程瑞东在 AICon 2026 深圳站的分享，介绍面向 GDN（Gated Delta Network）线性注意力的 GPU 算子库 FlashQLA。文章从线性注意力把复杂度由 O(N²d) 降到 O(Nd²) 的矩阵连乘推导讲起，覆盖序列并行、滑动窗口性质利用、硬件友好的代数改写与 warp specialization，并给出性能基准与生态集成进展。",
+    "summary_en": "This write-up follows a talk by Alibaba Qwen team engineer Zhang Chengruidong at AICon 2026 Shenzhen on FlashQLA, a GPU operator library for GDN (Gated Delta Network) linear attention. It starts from the matrix-multiplication argument that takes linear attention from O(N²d) to O(Nd²), then covers sequence parallelism, exploiting sliding-window properties, hardware-friendly algebraic rewrites and warp specialization, closing with benchmarks and ecosystem integration.",
+    "input_hash": "4faba15a70da"
+  },
+  "v2ex-a2ef11e48bc2": {
+    "summary_zh": "集邦 10 月 22 日预测，服务器 CPU 出货量 2026 年同比涨 31%、2027 年涨 40% 以上，理由是 AI 智能体调工具、查数据、跑代码都落在 CPU 上，机柜内 CPU 与 GPU/ASIC 配比会从 1:8 走向 1:2 甚至 1:1，同时给出 Arm 份额 2025 年略超 10%、2027 年约 30%，AMD 2026 年约 27% 的估计。发帖人是做服务器维保的，提醒出货量和收入是两回事：GPU 机器抬的是收入，CPU 出货涨抬的是台数，每颗 CPU 还带一整套 DDR5，所以服务器内存紧张不只关乎 HBM。",
+    "summary_en": "TrendForce's October 22 forecast has server CPU shipments rising 31% in 2026 and more than 40% in 2027, arguing that AI agents doing tool calls, data lookups and code execution put the load back on the CPU, pushing rack-level CPU-to-GPU/ASIC ratios from 1:8 toward 1:2 or even 1:1. The same forecast puts Arm at just over 10% share in 2025 and about 30% by 2027, with AMD near 27% in 2026. The poster, who works in server maintenance, notes shipments and revenue are different things: GPU boxes inflate revenue, while CPU volume also drags along a full set of DDR5 per socket.",
+    "input_hash": "fd2b7febf012"
+  },
+  "v2ex-b43f47c1d178": {
+    "summary_zh": "帖子里列了一组对比数据：月活方面豆包 4.2 亿、千问 1.7 亿、DeepSeek 1.2 亿、智谱 2000 万、Kimi 1000 万，ARR 方面豆包 272 亿、阿里 80 亿、智谱 68 亿、DeepSeek 27-34 亿、Kimi 20 亿，开源上 Qwen 放出 460 多个模型、衍生模型超 30 万、下载破 20 亿次。作者认为 DeepSeek 本身很强，但被捧成国内 AI 唯一的神，对阿里、智谱这些在开源上踏实投入的团队不公平，也忽视了字节那种靠抖音、飞书等产品矩阵托底、类似 Google 与 Gemini 关系的商业结构。",
+    "summary_en": "The post lines up MAU (Doubao 420M, Qwen 170M, DeepSeek 120M, Zhipu 20M, Kimi 10M) against ARR (Doubao 27.2B, Alibaba 8B, Zhipu 6.8B, DeepSeek 2.7-3.4B, Kimi 2B) and open-source output, where Qwen has released over 460 models with 300,000+ derivatives and 2 billion downloads. The author's argument is not that DeepSeek is weak, but that crowning it the country's only AI god shortchanges teams like Alibaba and Zhipu that ship steadily in the open, and ignores the ByteDance structure where Doubao, like Gemini inside Google, is carried by Douyin, Feishu and a very large cash flow.",
+    "input_hash": "704f70ce923b"
+  },
+  "zhihu-2096930670463530796": {
+    "summary_zh": "这是一条知乎提问，标题提到有 Anthropic 科学家称，如果 AGI 三年内到来，读博将失去意义。原文只给出问题标题，未附回答或更多细节，该科学家是谁、在什么场合说的、具体论证如何，都无法从现有素材确认。",
+    "summary_en": "A Zhihu question citing an Anthropic scientist's claim that if AGI arrives within three years, pursuing a PhD would lose its point. The linked page isn't summarized here; details beyond the title aren't available, so who said it, on what occasion and with what argument can't be confirmed from this item.",
+    "input_hash": "0c61b9daa40a"
+  },
+  "v2ex-0f7ea74f4d6c": {
+    "summary_zh": "作者用 Three.js 把 GitHub 账号数据渲染成一颗可探索的星球：不同项目变成不同岛屿，不同开发语言长成不同树木，私有项目化作深不见底的海洋，再加上建筑和生物点缀。用户可授权 GitHub 基础信息生成自己的星球，也可匿名生成，只是生态内容会少一些并标注未认领；项目里还埋了一个彩蛋。",
+    "summary_en": "A side project that renders a GitHub account as an explorable planet in Three.js: each repository becomes an island, each programming language a kind of tree, and private repos turn into deep ocean, with buildings and creatures filling out the ecosystem. You can authorize basic GitHub info to generate your own planet or do it anonymously, which yields a thinner ecosystem marked as unclaimed. The author says an easter egg is hidden in the project for someone to find.",
+    "input_hash": "5365a0c83f3a"
+  },
+  "v2ex-59b90628f729": {
+    "summary_zh": "开发者做了个免费的浏览器人生模拟游戏「80 亿分之一」，开局随机分配出生国家和家庭，之后在升学、工作、恋爱、移居等节点做选择，直到一生结束，无需注册打开网页即可玩。适合喜欢文字冒险和随机人生题材的人，作者也在收集体验反馈。",
+    "summary_en": "A developer has released \"One in Eight Billion\", a free browser-based life simulator that randomly assigns your birth country and family, then lets you make choices about schooling, work, romance and emigration until the run ends. No sign-up is needed. It targets fans of text adventures and randomized life scenarios, and the author is asking players for feedback.",
+    "input_hash": "f3f149e839ee"
+  },
+  "v2ex-d5892b4c531a": {
+    "summary_zh": "一位开发者在 V2EX 发帖求助：领到智谱 GLM 1024 程序员节活动的优惠后，要把 zcode CLI 的套餐切换成 StartPlan 才能用掉，但他用 API key 登录时似乎只能消耗付费的 BigModel 订阅。帖中只有提问没有答案，熟悉 zcode CLI 配置的人可以帮忙看看。",
+    "summary_en": "A developer on V2EX asks how to switch plans to StartPlan inside the zcode CLI, after receiving a Zhipu GLM 1024 Programmer's Day coupon that only works on that tier. Logging in with an API key, they say, seems to consume only the paid BigModel subscription. The post is a question with no answer attached, so anyone who knows zcode CLI configuration could help.",
+    "input_hash": "930de0564cd0"
+  },
+  "infoq-ViOyxiOSP2ihxuUyg1rD": {
+    "summary_zh": "据彭博社报道，DeepSeek 第二轮融资规模锁定约 1000 亿元人民币，投前估值约 5000 亿元，距 6 月底 510 亿元的首轮融资不到四个月，累计吸金已超 1500 亿元。腾讯、宁德时代各追加约 100 亿元，新进方以中芯聚源、吉利等产业资本为主，完美世界披露的两只专项基金合计募资 111.7 亿元。",
+    "summary_en": "Bloomberg reports DeepSeek's second round has locked in roughly 100 billion RMB at a pre-money valuation near 500 billion, pushing its total raised past 150 billion RMB in under four months. Tencent and CATL each added about 10 billion, while new money came mainly from hard-tech investors such as SMIC Capital and Geely, and Perfect World disclosed two vehicles that raised 11.17 billion combined.",
+    "input_hash": "158958a7b579"
+  },
+  "v2ex-d75acaab443f": {
+    "summary_zh": "KKCE（快快测）是提供 400 多个节点测速与监控的平台，10 月 23 日经 share_earn 活动页免费发放 VIP 会员，权益包括更大检测量、监控优惠和去广告，另有 QQ 群 591111150 可加入。帖子本身是推广性质，除活动信息外没有更多技术内容。",
+    "summary_en": "KKCE, a website speed-test and monitoring service with more than 400 nodes, is handing out free VIP memberships on October 23 through a share-and-earn page. Perks include larger test quotas, monitoring discounts and an ad-free experience, with a QQ group for follow-up. The post itself is promotional and carries no technical detail beyond the offer.",
+    "input_hash": "d87d5779cc03"
+  },
+  "infoq-Pwu4FNskSB2cbKV9BZKq": {
+    "summary_zh": "Meta、MIT 与华盛顿大学提出上下文语言模型（CLM），把上下文当作可反复改写的文件，让模型自主删除无关信息、保留关键事实、记录进度，不再依赖摘要、压缩或检索。零样本下 BrowseComp-Plus 准确率提升 11.4% 且算力减少 21.5%，经强化学习训练的 Qwen3.5-9B 在同一基准从 28.8% 升至 42.5%。",
+    "summary_en": "Researchers from Meta, MIT and the University of Washington propose Context Language Model, which treats context as a freely rewritable file: the model deletes irrelevant turns, keeps key facts and tracks progress instead of relying on summarization or retrieval. Zero-shot it lifts BrowseComp-Plus accuracy by 11.4% with 21.5% fewer FLOPs, and an RL-trained Qwen3.5-9B climbs from 28.8% to 42.5% on the same benchmark.",
+    "input_hash": "bbe99fffd44b"
+  },
+  "infoq-reksyo9EBAcP11Ns2GTO": {
+    "summary_zh": "StartLux 开源了为自家决策模型 StartLux-Decision 定制的推理引擎 Prism，在单张 NVIDIA H200 上跑 27B 模型时速度达到 vLLM 方案的 1.2 至 5.3 倍，同一份材料连答三问从 92.9 毫秒降到 17.4 毫秒。它只计算候选选项的概率而不生成整段文本，并保证相同请求输出逐位一致，12,351 次决策测试准确率 92.94%，与 BF16 的 92.97% 基本持平。",
+    "summary_en": "StartLux has open-sourced Prism, an inference engine built specifically for its StartLux-Decision model. On a single NVIDIA H200 running the 27B model, it claims 1.2x to 5.3x the speed of vLLM, cutting a three-question task on one document from 92.9ms to 17.4ms. Because decision models only score a handful of candidate options rather than generate full text, Prism skips whole-vocabulary output and returns bit-identical results regardless of batching; accuracy was 92.94% against 92.97% in BF16.",
+    "input_hash": "051cff520f26"
+  },
+  "infoq-2bKQkdiAcGEycHJLYPv5": {
+    "summary_zh": "Gremlin 的智能体产品 Foresight AI 结束内测全面上线，作为平台附加组件，把可靠性工作拆给分析师、测试员、运维和技术项目经理四个智能体，其建议基于十余年、数万个系统、数百万次故障注入实验积累的 Failure Atlas。它在未获许可时不会执行测试或应用改动，修复后会重跑原测试验证。",
+    "summary_en": "Gremlin has made Foresight AI generally available as an add-on to its reliability platform. The agent splits work across four roles — Analyst, Tester, Operator and Technical Program Manager — drawing recommendations from Failure Atlas, its record of millions of fault-injection experiments across tens of thousands of systems over a decade. It proposes a fix, then reruns the original test to verify it, and won't execute tests or apply changes without permission. Gremlin says customer data isn't used to train LLMs.",
+    "input_hash": "2b632efa387d"
+  },
+  "infoq-pF59m5h9647ySCb9Afqr": {
+    "summary_zh": "华为小艺 Work 于 9 月开启内测，由终端小艺团队与 openJiuwen 联合打造，已上线鸿蒙版并支持 Windows 桌面端，鸿蒙 PC 直接内置，新用户有 31 天 1000 AI 点免费额度。InfoQ 用改写多平台文案、定时生成具身智能早报、调研并产出选题会 PPT 三个场景实测，关注产物能否继续编辑复用、以及人在哪一步必须介入。",
+    "summary_en": "Huawei's Xiaoyi Work, built with openJiuwen and in beta since September, now runs on HarmonyOS and Windows, comes preinstalled on HarmonyOS PCs, and offers new users 1000 AI credits for 31 days. InfoQ tested it on three editorial tasks: adapting one article into multi-platform copy, scheduling a daily embodied-AI briefing, and turning a story into a research deck. The review focuses on whether outputs stay editable and where humans must step in.",
+    "input_hash": "8add701ea025"
+  },
+  "zhihu-2094836561221251720": {
+    "summary_zh": "知乎上的一条提问，讨论阿里巴巴和腾讯估值已经偏低、股价却仍持续下跌这一现象。原帖是开放式问题，没有正文、数据或回答内容，具体观点无法从现有信息判断，需要到原页面查看讨论。",
+    "summary_en": "A Zhihu question asking why Alibaba and Tencent sit at low valuations while their share prices keep falling. The post is only a question title, with no body text or data, so the arguments and numbers raised by respondents aren't available here; you'd need to read the thread itself.",
+    "input_hash": "970e3069cdaa"
+  },
+  "36kr-4038077554218117": {
+    "summary_zh": "36氪报道，有团队用 AI 批量复制抖音「厦门帮」的短视频打法，做到日产 200 条视频、单条成本不到 5 元。该条目只有标题、没有正文，用什么模型、怎样量产和分发都无从确认，这组成本与产量数字本身是核心信息。",
+    "summary_en": "A 36Kr report on teams using AI to clone the 'Xiamen gang' style of mass-produced Douyin short videos, claiming daily output of 200 videos at under 5 yuan each. Only the headline is available here, so the models, pipeline and distribution behind those numbers aren't described; the cost and volume figures are the takeaway for anyone watching AI content production.",
+    "input_hash": "3889b6652267"
+  },
+  "hn-50192536": {
+    "summary_zh": "开发者 Sammy Hajhamid 公开了 ns2jb：适配 Switch 2 最新固件 23.0.1 的纯软件 tethered 越狱，可让任意原生代码以普通 sysmodule 及内置 fs sysmodule 的身份运行。作者称这是 Switch 2 上首个此类利用，能跑 homebrew、改游戏、导出存档并访问多数外设，文中还用 Codex 修改了《马力欧卡丁车世界》作演示。",
+    "summary_en": "Developer Sammy Hajhamid released ns2jb, a software-only tethered jailbreak for the Switch 2 that works on the current 23.0.1 firmware and runs arbitrary native code as an ordinary sysmodule or as the built-in fs sysmodule. He calls it the first such exploit for the console, enabling homebrew, game modding, save backups and MMIO access to most peripherals; the demo mods Mario Kart World using Codex.",
+    "input_hash": "04fe4cc9e3d7"
+  },
+  "36kr-4037771007251592": {
+    "summary_zh": "36氪快讯称，Claude 的自动模式即将在全球上线，同一标题里还提到 OpenAI 曝出「最恐怖一幕」。该条目只有标题、没有正文，OpenAI 具体发生了什么、自动模式包含哪些能力都无法确认，需要回到原文页面查看。",
+    "summary_en": "A 36Kr news flash says Claude's automatic mode is about to launch globally, and the same headline refers to OpenAI revealing 'the most terrifying scene'. There is no body text beyond the title, so neither what happened at OpenAI nor what the automatic mode actually does can be confirmed from this item.",
+    "input_hash": "32848fc73f52"
+  },
+  "36kr-4037781363545220": {
+    "summary_zh": "这是一篇针对 iPhone Duo 的购买前指南，标题称会讲清到手前需要知道的 12 件事，但没有说明这 12 点具体涉及什么。原文是链接，未提供更多细节，对这款机型感兴趣的人需要点开原文才能看到逐条内容。",
+    "summary_en": "A pre-purchase guide for the iPhone Duo, framed as 12 things to know before the device arrives, though the title doesn't reveal what any of those points cover. The linked page isn't summarized here; details beyond the title aren't available, so readers interested in the device have to open the original.",
+    "input_hash": "ec35a5129dc7"
+  },
+  "36kr-4037020591018881": {
+    "summary_zh": "据 36氪 报道，诺奖得主 Hassabis 修改了自己此前的说法，认为 AGI 最快可能在两年内降临。标题呈现的是一个时间判断上的改口，而非完整访谈。原文是链接，未提供更多细节，他改口的具体理由与原始表述需点开原文确认。",
+    "summary_en": "A 36Kr report says Nobel laureate Hassabis has revised his earlier position, now suggesting AGI could arrive in as little as two years. The headline captures a shift in his stated timeline rather than the full interview. The linked page isn't summarized here; details beyond the title aren't available, including the reasoning behind the change.",
+    "input_hash": "6968e65be04a"
+  },
+  "36kr-4037645118510209": {
+    "summary_zh": "报道讲述谷歌把 4 个 AI 放进《我的世界》里运行，它们在死亡 605 次之后自行编写代码，最终击败了游戏中的大 boss。标题强调的是智能体从反复失败转向写代码解决问题的过程。原文是链接，未提供更多细节，实验设置与所用模型未在标题中说明。",
+    "summary_en": "The story describes Google putting four AI agents into Minecraft, where after 605 deaths they wrote their own code and beat the game's boss. The headline highlights the shift from repeated failure to coding a solution. The linked page isn't summarized here; details beyond the title aren't available, so the experiment setup and the models used remain unclear.",
+    "input_hash": "956fdb5107c4"
+  },
+  "zhihu-2096744765073126686": {
+    "summary_zh": "这是知乎上的一个提问，围绕 iPhone Duo 的拆机结果展开：其纳米纹理表面并非玻璃，而是一层纳米纹理膜，也就是磨砂膜。讨论的焦点在于这一实际用料与产品呈现之间的落差。原文是链接，未提供更多细节，拆机图片与答主分析需查看原帖。",
+    "summary_en": "A Zhihu question about an iPhone Duo teardown finding that the phone's nanotexture surface is not glass but a nanotexture film, essentially a matte layer. The discussion centers on the gap between that material and how the surface was presented. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "362f68adada5"
+  },
+  "zhihu-2073727130379051737": {
+    "summary_zh": "这是知乎上的一个提问，追问大模型为什么至今还没有在因子挖掘中被大面积应用。问题指向的是模型能力与实际生产流程之间尚未打通的环节，适合关注 AI 在数据与研究工作流中落地的人。原文是链接，未提供更多细节，回答中的具体论点无法在此确认。",
+    "summary_en": "A Zhihu question asking why large models have not yet been applied to factor mining at any real scale. It points at the gap between model capability and actual production workflows, and should interest people tracking how AI lands in data and research pipelines. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "fbb7a924e192"
+  },
+  "zhihu-2016994218661405836": {
+    "summary_zh": "这是一个知乎提问，讨论 Claude 在逆向工程任务中实际能提供多少帮助。原文是链接帖，未提供更多细节；除标题外，没有可引用的具体案例、工具链或结论。",
+    "summary_en": "A Zhihu question asking how much Claude actually helps with reverse engineering work. The linked page isn't summarized here; details beyond the title, such as concrete cases or tooling, aren't available.",
+    "input_hash": "539c14c93d91"
+  },
+  "gh-daily-Renhuai123-ziwei-doushu": {
+    "summary_zh": "这是一个紫微斗数开源排盘引擎，按倪海厦《天纪》体系实现排盘算法、四化系统与格局知识库。仓库同时放出 v4.0 解读数据集：674,976 张命盘 × 13 维共 877 万段解读，解压后 56.6 GB，覆盖 1950 至 2026 年。代码为 MIT、数据为 CC BY 4.0，适合研究排盘算法或需要结构化命盘数据的开发者。",
+    "summary_en": "An open-source ziwei doushu (Purple Star Astrology) charting engine that implements the full charting algorithm, the four-transformation system and a pattern knowledge base following Ni Haixia's Tian Ji teaching system. It also ships a v4.0 interpretation dataset of 674,976 charts across 13 dimensions, 8.77 million passages, 56.6 GB uncompressed, covering birth dates from 1950 to 2026. Code is MIT-licensed and the data CC BY 4.0, useful for anyone studying charting algorithms or wanting structured divination data.",
+    "input_hash": "10a8f4b2b82e"
+  },
+  "zhihu-2096713518582179306": {
+    "summary_zh": "据标题，DeepSeek 计划进行规模约 1000 亿元的新一轮融资，其中腾讯和宁德时代出资最多。原文是链接帖，未提供更多细节，估值、条款和资金用途尚无从核实。",
+    "summary_en": "According to the title, DeepSeek is planning a new funding round of roughly 100 billion RMB, with Tencent and CATL contributing the largest shares. The linked page isn't summarized here; details beyond the title, such as valuation, terms or use of proceeds, aren't available.",
+    "input_hash": "9204e4d4aa3e"
+  },
+  "zhihu-2095898196539073291": {
+    "summary_zh": "据标题，美国政府已指示各机构停止使用 DeepSeek，中国外交部回应称反对将科技经贸问题政治化。原文是链接帖，未提供更多细节，涉及哪些机构、何时执行等信息暂不清楚。",
+    "summary_en": "Per the title, the US government has instructed agencies to stop using DeepSeek, and China's foreign ministry responded by opposing the politicization of tech and trade issues. The linked page isn't summarized here; which agencies are covered and the timeline aren't available.",
+    "input_hash": "cadb22e8960d"
+  },
+  "juejin-7696048084749484082": {
+    "summary_zh": "开源逆向工具 REA 今年 4 月才建仓，一个多月里 star 数冲到 15 万以上，作者在文中介绍了这个项目的来历和用法。对做逆向、安全分析或需要拆解二进制的人，这是一份了解该工具定位与上手方式的快速入门。",
+    "summary_en": "REA is an open-source reverse engineering tool whose repository was only created this April, yet it has climbed past 150,000 stars in little more than a month. The article walks through what the project is and how to get started with it. Useful for anyone doing reverse engineering, security analysis, or binary inspection who wants a quick orientation before trying it out.",
+    "input_hash": "aa920fff2915"
+  },
+  "juejin-7696118815167807539": {
+    "summary_zh": "文章借老干妈靠 AI 赚到 54 亿的说法切入，列举企业里填报表、财务录入这类重复劳动的代价：站长每天一小时填 Excel，会计再花一小时录入系统，5 个会计专职做这件事，一年工资几十万。作者想说的是，AI 该用在被流程吃掉的岗位上，而不只是写文案。",
+    "summary_en": "Starting from the claim that Lao Gan Ma quietly earned 5.4 billion through AI, the piece tallies the cost of repetitive back-office work: site managers spend an hour a day filling Excel sheets, accountants spend another hour keying the data into finance software, and five full-time accountants exist just for that, costing hundreds of thousands a year in salaries. The argument is that AI belongs in these process-heavy roles, not just in copywriting.",
+    "input_hash": "f5c164d006e5"
+  },
+  "gh-daily-OpenBMB-VoxCPM": {
+    "summary_zh": "OpenBMB 发布 VoxCPM2，一个去掉 tokenizer 的 TTS 模型，主打多语种语音生成、创意音色设计和高度还原的音色克隆。模型已在 Hugging Face 和 ModelScope 上线，配套在线 Demo、文档和 arXiv 论文，适合做语音合成与配音产品的人直接试用。",
+    "summary_en": "OpenBMB has released VoxCPM2, a tokenizer-free TTS model built for multilingual speech generation, creative voice design, and high-fidelity voice cloning. Weights are on Hugging Face and ModelScope, with a hosted demo space, ReadTheDocs documentation, and an arXiv paper alongside. Teams building speech synthesis or dubbing features can try it without waiting for a hosted API.",
+    "input_hash": "fd088d440dba"
+  },
+  "36kr-4037648095236992": {
+    "summary_zh": "36kr 这篇文章的标题称，一次与 PHP 相关的故障引发了全球范围的紧急“拔网线”处置，并主张不要指望 AI 来拯救互联网。原文目前只提供了标题和链接，没有正文，事件的具体经过、影响范围和责任方都无法从现有素材确认。",
+    "summary_en": "A 36kr article whose headline points to a PHP-related failure that forced emergency network shutdowns worldwide, and argues that AI should not be counted on to save the internet. The linked page isn't summarized here; details beyond the title — what exactly broke, how far it spread, who is responsible — aren't available.",
+    "input_hash": "c3692899b223"
+  },
+  "infoq-Md0kdMxGI6flIbZXH1yg": {
+    "summary_zh": "科大讯飞 10 月 22 日发布星火语音基座大模型 SparkAudio 1.0，在语音识别与同传之外加入音频理解、情绪识别、实时说话人分离和环境声理解，并推出端云一体的星火 X2.6 与 4B 端侧模型 Spark-X2.6-4B。官方称语音大模型调用量同比增长超 20 倍，端侧已具备约 70% 云端能力，相关能力进入讯飞输入法 16.0 等产品，针对的是机器人与智能家居里多人同时说话、环境嘈杂的真实场景。",
+    "summary_en": "iFlytek unveiled SparkAudio 1.0 on October 22, a speech foundation model that moves past ASR and translation to cover audio understanding, emotion recognition, real-time speaker separation and ambient sound. It also showed the cloud-device Spark X2.6 and a 4B on-device model, Spark-X2.6-4B. iFlytek says speech model calls are up more than 20x year over year and on-device models now handle roughly 70% of cloud capability, with the tech already shipping in iFlytek Input 16.0 for robots, cars and smart-home devices where several people talk over background noise.",
+    "input_hash": "b4f1fedf8ea5"
+  },
+  "infoq-7ResdjAZYy8yltOh6drM": {
+    "summary_zh": "苹果在 Xcode 27.2 中推出基于 JSON 的项目配置格式，取代沿用多年的 property-list 版 project.pbxproj，迁移后文件名为 project.xcproj。官方开源了 xcode-project-format 规范与配套 Swift 编解码包，配置表示更稳定可预测，在代码仓库中 diff 更可读、合并冲突更少，也便于 AI 编码智能体读写。升级前需确认 fastlane、CocoaPods、Tuist 等工具已支持新格式。",
+    "summary_en": "Apple has introduced a JSON-based project format in Xcode 27.2, replacing the long-standing property-list project.pbxproj with a project.xcproj file. Apple also open-sourced the xcode-project-format spec and a Swift package for encoding and decoding it, so tooling can walk targets, build settings and dependencies. The more predictable representation produces readable diffs, fewer merge conflicts, and configs that AI coding agents can edit more reliably. Check that fastlane, CocoaPods and Tuist support it before migrating.",
+    "input_hash": "c99a596d1eb5"
+  },
+  "hn-50202285": {
+    "summary_zh": "这是 Hacker News 上的一条链接帖，指向一个名为 Local Wikipedia 的服务：只呈现距离你步行半小时以内的事物。原文仅有链接，未提供更多细节，其实现方式和数据来源都无法从现有素材确认。",
+    "summary_en": "A Hacker News link post for something called Local Wikipedia, described only as Wikipedia restricted to things within a half hour walk of you. The linked page isn't summarized here; details beyond the title aren't available, so how it is built and where its data comes from remain unclear.",
+    "input_hash": "c744aa664741"
+  },
+  "36kr-4037778327720835": {
+    "summary_zh": "36氪报道称，一个 AI 房产经纪人完成了第一单成交。条目除标题外没有正文，涉及的公司、城市、房源与交易流程等具体信息均无法确认。",
+    "summary_en": "A 36Kr headline reports that an AI real estate agent has closed its first deal. No body content accompanies the item, so the company behind it, the market it operates in, the property involved and how the transaction was handled aren't available.",
+    "input_hash": "59ca5ad6e778"
+  },
+  "36kr-4037961873544071": {
+    "summary_zh": "36氪这篇报道的标题是「梁文锋雪中送炭曾毓群」，讲的是梁文锋对曾毓群的一次及时援手，但原文只给了标题和链接，没有正文。因此除了标题点出的这两人之外，援手的具体内容、涉及的公司和背景都无法确认，读者只能知道这是一则关于两人互动的消息。",
+    "summary_en": "A 36Kr item headlined as Liang Wenfeng giving timely help to Zeng Yuqun, framing a story around an act of assistance between the two. The linked page isn't summarized here; details beyond the title, such as what the help consisted of or which companies were involved, aren't available, so readers get only the bare fact that the piece concerns an interaction between these two figures.",
+    "input_hash": "40d3e7236867"
+  },
+  "36kr-4037841110422403": {
+    "summary_zh": "有用户用 Claude 对小米电视的广告下手，这条消息在社区里传开，标题把它概括为「用 AI 整顿智能硬件」。原文只提供了标题和链接，没有正文，因此具体用了什么方法、效果如何都无法确认；能确定的是，普通用户已经开始把大模型当作改造自有硬件的工具。",
+    "summary_en": "A viral story about someone using Claude against the ads on a Xiaomi TV, captured under the idea that users have started using AI to clean up their smart hardware. The linked page isn't summarized here, so the actual method and results aren't available; what the headline establishes is that ordinary owners are now reaching for large models to rework devices they own.",
+    "input_hash": "34a5b3486e98"
   }
 }

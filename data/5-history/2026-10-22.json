@@ -230,7 +230,9 @@
       "tags": [],
       "first_seen": "2026-10-22",
       "domain": "pepsipu.com",
-      "quality_score": 42.7
+      "quality_score": 42.7,
+      "summary_zh": "开发者 Sammy Hajhamid 公开了 ns2jb：适配 Switch 2 最新固件 23.0.1 的纯软件 tethered 越狱，可让任意原生代码以普通 sysmodule 及内置 fs sysmodule 的身份运行。作者称这是 Switch 2 上首个此类利用，能跑 homebrew、改游戏、导出存档并访问多数外设，文中还用 Codex 修改了《马力欧卡丁车世界》作演示。",
+      "summary_en": "Developer Sammy Hajhamid released ns2jb, a software-only tethered jailbreak for the Switch 2 that works on the current 23.0.1 firmware and runs arbitrary native code as an ordinary sysmodule or as the built-in fs sysmodule. He calls it the first such exploit for the console, enabling homebrew, game modding, save backups and MMIO access to most peripherals; the demo mods Mario Kart World using Codex."
     },
     {
       "id": "hn-50184820",
@@ -3959,7 +3961,9 @@
       "content": "最近 AI 圈里爆火的一个开源项目： REA ，今年 4 月才建仓，目前已经干到了 15 万+ star，严格来说，是最近一个多月直接冲到了15W+ star，相信很多人应该都听说过这个项目了，今天我们就来集中聊一聊它。 REA 这个项目到底是干啥的？ 先说它解决的问题。官方口号叫 Reverse Engineer Anything，万物皆可逆向。 它能让你的Agent 从别的软件里直接拿你想要的功能，然后搞清楚它是怎么做出来的，全程不需要看源码。没源码也可以反编译任何app。 这个项目，先记住几个关键信息即可。 项目： REA ，本质上就一个 MCP server 加一套 CLI，让 AI Agent 对二进制、应用、抓包做逆向分析 作者： morluto ，个人开发者，GitHub 主页只挂了一个 X 链接，相当低调 热度：158,125 star（截至 10 月 13 号更新时），但凡搞过开源项目的人，就知道这个数据的含金量了。 迭代：最新版 6.4.0，10 月 11 号发布，一周连发 9 个版本 协议：MIT，TypeScript 为主，官网 rea.tools，README 有简体中文版 有个细节挺有意思，README 里还在庆祝 11 万 star，实际数字已经 15 万+，这个项目热得连文档都追不上自己。 它干的事很简单，一句话概括： 你看中别的软件里某个功能，让 AI Agent 通过 REA 去查，它不看源码直接拆二进制，把实现方式连证据带局限一起讲给你，还能照着写一份能跑的实现出来。 这个对于技术同学来讲，特别实用，比如「你想看懂一个没有源码的东西」，想分析竞品 App 那个丝滑的转场到底怎么实现的，想研究Electron 客户端背后调了哪些接口，一份抓包文件里前后到底发生了什么。 这些问题都有同一个前置条件，你得会逆向 。但常规逆向手段还是非常复杂的，IDA、Ghidra、汇编、伪代码，每一层门槛都不低，大部分人到这里就放弃了。 REA 干的事，就是把这层手艺外包给 AI Agent。 没有源码，REA也能拆 官网列了一张能力表，整整 17 类目标，我挑程序员最常用的几样说。 原生二进制是最硬核的一档。给一个没有源码的 exe 或者 so，它能出伪代码、汇编、字符串、符号表、调用和引用关系，反编译引擎用你机器上装的 Hopper、Ghidra 或 IDA，三家里任何一家都行。 Android APK 走无头 JADX，能反编译到方法级，看清 manifest 声明、类结构和每个方法里的逻辑。接上 adb 还能直接操作真机，看包、看进程、拉日志、截屏幕。 JS 和 Electron 应用是静态分析，不用把应用跑起来，模块、imports、路由、IPC 通道、native add-on 的关系全给梳理出来。.NET 程序集同样开箱即用，连分析引擎都不用配。 再往后是网站实测（驱动 Chrome 系浏览器）、HAR 抓包文件分析、Go 二进制、WASM、EVM 字节码、固件、Linux 崩溃转储，全在覆盖列表里。 有一条贯穿所有能力的设计，所有分析都在本地执行，你的目标文件不会离开你的机器。 最值得学的是它的取证思路 AI 做分析，最怕的就是一本正经地瞎编。逆向这个领域尤其如此，模型给你编一段看着很像那么回事的伪代码，你拿去照抄就完蛋了。 REA 的解法是把证据做进返回契约里 。 每条结论都必须带上 证据和局限 两样东西，伪代码片段、指令、引用、source map 位置算证据，哪里没看清、哪里只是推测算局限。Agent 拿到的永远是一份带出处的调查报告，想编都没有缝隙。 官方案例就是按这个标准自证的。 第一个案例是逆向 DOS 游戏 DX-Ball 的声像定位算法，顺着一次声音调用找到算定位的辅助函数，看指令，把不完整的伪代码补成 C 代码。重建出来的代码通过了原版 3205 个 x86 测试用例，63 字节的编译产物逐字节复现。 另外两个案例，一个拆了 Notion 的剪贴板桥接，顺着渲染进程追 IPC 追到主进程，一个恢复了上世纪 PC-98 弹幕游戏 TH04 的弹幕环角度计算。 第二个值得学的设计，是它不重造反编译器 。 REA 自己不写反编译引擎，它做的是把你机器上已有的专业工具，连同 JADX、adb、Binwalk、WABT 这些现成工具链，统一封装成 Agent 能调用的工具集。仓库的语言构成很说明问题，主体是 1719 万行 TypeScript，旁边还躺着 Java、Python、C++、汇编，全是各家工具链的集成胶水。 整段工作流是这样的。 快速上手 安装就一条命令。 npx rea-agents setup 向导里选你在用的 Agent，Claude Code、Codex、Curso",
       "first_seen": "2026-10-16",
       "domain": "juejin.cn",
-      "quality_score": 8.5
+      "quality_score": 8.5,
+      "summary_zh": "开源逆向工具 REA 今年 4 月才建仓，一个多月里 star 数冲到 15 万以上，作者在文中介绍了这个项目的来历和用法。对做逆向、安全分析或需要拆解二进制的人，这是一份了解该工具定位与上手方式的快速入门。",
+      "summary_en": "REA is an open-source reverse engineering tool whose repository was only created this April, yet it has climbed past 150,000 stars in little more than a month. The article walks through what the project is and how to get started with it. Useful for anyone doing reverse engineering, security analysis, or binary inspection who wants a quick orientation before trying it out."
     },
     {
       "id": "juejin-7656725464404770843",
@@ -4620,7 +4624,9 @@
       "tags": [],
       "first_seen": "2026-10-22",
       "domain": "infoq.cn",
-      "quality_score": 34.5
+      "quality_score": 34.5,
+      "summary_zh": "蚂蚁数科 10 月 22 日发布决策模型 LingDT-Decision-1.0，提供 4B 与 27B 两个版本，专做意图识别、任务分类、工具选择与风险判断等结构化判断，已在 DTMaaS 平台限时免费开放体验。官方称其 27B 版本在 23 项开源基准的综合评分超过 Microsoft-Decision-1、Jev 1.13.0 与 Fastino/GLiDE，在客服等场景 Token 消耗降低九成以上、处理速度最高提升约 10 倍。",
+      "summary_en": "Ant Digital Technologies released LingDT-Decision-1.0 on October 22 in 4B and 27B sizes, aimed at structured enterprise decisions such as intent detection, task classification, tool selection and risk scoring rather than free-form text generation. The company says the 27B version outscores Microsoft-Decision-1, Jev 1.13.0 and Fastino/GLiDE across 23 open benchmarks, with over 90% lower token use and up to 10x faster processing in customer-service and labeling tests. It is free to try for a limited time on the DTMaaS platform."
     },
     {
       "id": "infoq-v85ey09UlxhCDH4r3RS3",
@@ -4636,7 +4642,9 @@
       "tags": [],
       "first_seen": "2026-10-22",
       "domain": "infoq.cn",
-      "quality_score": 35.1
+      "quality_score": 35.1,
+      "summary_zh": "Snowflake 的 Cortex AI Gateway 已进入公开预览，定位在企业 AI 客户端与其访问的后端系统之间，作为集中式控制平面，通过单一端点提供受治理的模型推理、动态模型路由、MCP 工具治理、可观测性、安全护栏与成本归因。文章认为企业 AI 栈碎片化的根源不是工具不够，而是缺少这样一层控制节点，适合负责 AI 平台治理与成本管理的团队阅读。",
+      "summary_en": "Snowflake's Cortex AI Gateway has entered public preview, positioned as a control plane between AI clients and the enterprise systems they reach, offering governed model inference, dynamic model routing, MCP and tool governance, observability, guardrails and cost attribution through a single endpoint. The article argues that fragmentation in enterprise AI stacks comes from a missing control layer rather than a shortage of tools, and targets platform teams responsible for governance and spend."
     },
     {
       "id": "infoq-o9OcWNkkwgKvsZmgY45d",
@@ -4652,7 +4660,9 @@
       "tags": [],
       "first_seen": "2026-10-22",
       "domain": "infoq.cn",
-      "quality_score": 34.7
+      "quality_score": 34.7,
+      "summary_zh": "本文整理自阿里巴巴 Qwen 团队算法工程师章程瑞东在 AICon 2026 深圳站的分享，介绍面向 GDN（Gated Delta Network）线性注意力的 GPU 算子库 FlashQLA。文章从线性注意力把复杂度由 O(N²d) 降到 O(Nd²) 的矩阵连乘推导讲起，覆盖序列并行、滑动窗口性质利用、硬件友好的代数改写与 warp specialization，并给出性能基准与生态集成进展。",
+      "summary_en": "This write-up follows a talk by Alibaba Qwen team engineer Zhang Chengruidong at AICon 2026 Shenzhen on FlashQLA, a GPU operator library for GDN (Gated Delta Network) linear attention. It starts from the matrix-multiplication argument that takes linear attention from O(N²d) to O(Nd²), then covers sequence parallelism, exploiting sliding-window properties, hardware-friendly algebraic rewrites and warp specialization, closing with benchmarks and ecosystem integration."
     },
     {
       "id": "infoq-hy9SMIBOjwjdZ4JduMzL",
