@@ -296,7 +296,9 @@
       "tags": [],
       "first_seen": "2026-10-23",
       "domain": "blog.calif.io",
-      "quality_score": 45.1
+      "quality_score": 45.1,
+      "summary_zh": "一条 Hacker News 帖子，标题称团队当天攻破了原本设定的目标，也就是 iPhone。帖子正文只有与标题完全相同的一句话，没有漏洞类型、iOS 版本、利用链或厂商回应，因此无法判断这是真实攻击、越狱还是演示性质的破解。",
+      "summary_en": "A Hacker News submission whose title states the team hacked exactly what it set out to hack: the iPhone. The post body repeats that single sentence, so there's no word on vulnerability class, iOS version, exploit chain, or vendor response, and it's unclear whether this was a live attack, a jailbreak, or a demo. The linked page isn't summarized here."
     },
     {
       "id": "hn-50194833",
@@ -360,7 +362,9 @@
       "tags": [],
       "first_seen": "2026-10-23",
       "domain": "kimi.ai",
-      "quality_score": 43.5
+      "quality_score": 43.5,
+      "summary_zh": "这条提交指向 Kimi 代码模型文档中的型号列表，其中出现 K3.1 Pro 与 K3.1 Pro Highspeed 两个版本，另附 Artificial Analysis 的模型页和一篇关于中国开源 AI 的对比博客。原文只给了链接、没有说明文字，上下文长度、定价以及 Highspeed 与标准版的具体差异都无从判断。",
+      "summary_en": "A submission pointing to Kimi's code-model docs, which list two entries, K3.1 Pro and K3.1 Pro Highspeed, plus an Artificial Analysis model page and a comparison blog on Chinese open-source AI. Only links were posted, so context length, pricing, and how Highspeed differs from the base model can't be determined from the submission itself."
     },
     {
       "id": "hn-50189232",
@@ -4656,7 +4660,9 @@
       "tags": [],
       "first_seen": "2026-10-23",
       "domain": "infoq.cn",
-      "quality_score": 34.2
+      "quality_score": 34.2,
+      "summary_zh": "智源众智 FlagOS 2.2 的九大算子库合计覆盖 1454 个算子，比上一版增加 890 个，并在 10 款异构 AI 芯片、上千个算子上把跨芯性能整体提升约 27%。实践中 GLM-5.3-Flash 在存量昇腾 910B 上逻辑服务吞吐达优化前的 2.04 倍，按租金折算的算力成本比商业 API 参考计费低 19.4%—27.6%。",
+      "summary_en": "FlagOS 2.2 now bundles nine operator libraries covering 1,454 operators, 890 more than the previous release, and reports roughly 27% overall cross-chip performance gains measured across 10 heterogeneous AI chips and over a thousand operators. In one deployment with GLM-5.3-Flash, existing Ascend 910B hardware served 2.04x its previous logical throughput, with rent-equivalent compute cost running 19.4%–27.6% below comparable commercial API pricing."
     },
     {
       "id": "infoq-UmD4aAerZEts8sZ5t791",
@@ -4672,7 +4678,9 @@
       "tags": [],
       "first_seen": "2026-10-23",
       "domain": "infoq.cn",
-      "quality_score": 34.8
+      "quality_score": 34.8,
+      "summary_zh": "在 ICAAS 2026 首场圆桌上，诺贝尔化学奖得主迈克尔·莱维特、图灵奖得主杰克·唐加拉与数学家马骁、中关村学院何纪言探讨了 Transformer 路线收敛之后 AI 的下一步。莱维特主张像谨慎的银行家一样分散下注，唐加拉强调探索主流之外并接受失败，嘉宾还就 AI 寒冬是否会重演展开了争论。",
+      "summary_en": "At the opening roundtable of ICAAS 2026, Nobel chemistry laureate Michael Levitt, 2021 Turing winner Jack Dongarra, mathematician Ma Xiao and He Jiyan of Zhongguancun Academy debated where AI goes after the industry converged on Transformer-scale training. Levitt argued for hedging like a cautious banker rather than betting everything on one route; Dongarra pushed for exploring beyond the mainstream and treating failure as part of research. They clashed over whether overpromising could trigger another AI winter."
     },
     {
       "id": "infoq-AkDgwN6h72cqUOJ35Zok",
@@ -4688,7 +4696,9 @@
       "tags": [],
       "first_seen": "2026-10-23",
       "domain": "infoq.cn",
-      "quality_score": 35.1
+      "quality_score": 35.1,
+      "summary_zh": "Arm 云 AI 解决方案架构总监 Ravi Malhotra 提出，在 Agent 场景下衡量 CPU 性能的方式正在改变：除了支撑推理，CPU 还要把模型生成的 Token 转成真实行动，包括代码编译与测试、工具调用、数据库访问和沙箱隔离。Arm 已发布一套评估方法，把工具调用、任务编排和端到端任务执行纳入 CPU 性能评价，并与富士通、Meta、OpenAI 等企业共同探索。文章指出，若 CPU 侧的编译测试跟不上，昂贵的 GPU 只能空等，正在做 AI 基础设施选型与算力配比的人可据此重新权衡。",
+      "summary_en": "Arm's cloud AI solutions architecture director Ravi Malhotra argues that in agentic workloads, CPU performance should no longer be judged mainly by token generation. The CPU has to turn generated tokens into actions such as compiling and testing code, calling tools, hitting databases and isolating sandboxes, while accelerators handle planning. Arm has published an evaluation method covering tool calls, orchestration and end-to-end task execution, developed with Fujitsu, Meta, OpenAI and others. If CPU-side work lags, expensive GPUs sit idle."
     },
     {
       "id": "infoq-Q6mgHWCSqV6KeZzee3NT",
@@ -4704,7 +4714,9 @@
       "tags": [],
       "first_seen": "2026-10-23",
       "domain": "infoq.cn",
-      "quality_score": 34.8
+      "quality_score": 34.8,
+      "summary_zh": "PostgreSQL 19 从 10 月 29 日推迟到 11 月 19 日发布，中间加发一个 RC2；Beta 阶段有 8 到 10 项重要功能被撤回。核心提交者、EDB 副总裁 Peter Eisentraut 解释，问题多不是 vibe coding 造成，而是 LLM 辅助代码审查与模糊测试把原本要五年才暴露的长尾缺陷集中翻了出来，人类修 Bug 的速度跟不上。",
+      "summary_en": "PostgreSQL 19 slipped from October 29 to November 19, with an extra RC2 on November 12, after roughly 8 to 10 significant features were reverted during beta. Core committer and EDB vice president Peter Eisentraut says the cause is not vibe coding but maturing LLM-assisted code review and fuzzing, which surfaced long-tail defects that would otherwise have trickled in over five years. AI raised the effective quality bar faster than humans can fix bugs."
     },
     {
       "id": "infoq-Lo9TLlRdvy4II38yaex0",
@@ -4736,7 +4748,9 @@
       "tags": [],
       "first_seen": "2026-10-23",
       "domain": "infoq.cn",
-      "quality_score": 34.6
+      "quality_score": 34.6,
+      "summary_zh": "OpenAI CEO Sam Altman 在与博主 Matthew Berman 的 45 分钟访谈中称，自己已约一年没写过代码，并预计未来几年 AI 能提出重大疾病的候选治疗方案。他发现程序员并未因 AI 失业，反而更忙、赚得更多，对算力的需求则是「无限多」。访谈也谈到 AI 意识、失控风险，以及他压力大到不想起床的一面。",
+      "summary_en": "In a 45-minute interview with AI blogger Matthew Berman, OpenAI CEO Sam Altman said he hasn't looked at a line of code in about a year and expects AI to surface candidate treatments for major diseases within a few years. He argued programmers aren't losing jobs to AI but are busier and earning more, and put his GPU demand at effectively unlimited. The conversation also covered AI consciousness, loss-of-control risk, and the pressure that sometimes keeps him in bed."
     },
     {
       "id": "infoq-9m3Pkeggp2BPUKiF1fmE",
