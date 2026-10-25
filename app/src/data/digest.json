@@ -1,35 +1,34 @@
 {
-  "generated_at": "2026-10-24T22:15:45.420615+00:00",
+  "generated_at": "2026-10-25T22:19:07.284557+00:00",
   "daily": {
-    "date": "2026-10-24",
+    "date": "2026-10-25",
     "items": [
       {
-        "id": "hn-50163277",
-        "title": "DeepInfer: High-performance inference framework for DeepSeek models",
-        "url": "https://github.com/deepseek-ai/DeepInfer",
+        "id": "hn-50202285",
+        "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
+        "url": "https://edjefferson.com/localwiki/",
         "description": "",
         "source": "hackernews",
-        "score": 2346,
-        "comments": 891,
-        "author": "ggcr",
-        "time": "2026-10-20T09:08:54+00:00",
+        "score": 1675,
+        "comments": 253,
+        "author": "sohkamyung",
+        "time": "2026-10-22T23:01:18+00:00",
         "tags": [
-          "deepseek",
-          "github",
           "hackernews",
-          "inference"
+          "half",
+          "wikipedia"
         ],
-        "first_seen": "2026-10-20",
-        "summary_zh": "DeepInfer 是一个面向 DeepSeek 系列模型的高性能推理框架，从标题看定位在推理侧的性能优化。原文只是一个链接帖，未提供更多细节，因此它的具体实现方式、支持的硬件和性能数据暂时无法确认。",
-        "summary_en": "DeepInfer is presented as a high-performance inference framework built for DeepSeek models, positioning itself on the serving side of the stack. The linked page isn't summarized here; details beyond the title aren't available, so its implementation, supported hardware and benchmark numbers can't be confirmed yet.",
-        "domain": "github.com",
-        "quality_score": 69.9,
+        "first_seen": "2026-10-23",
+        "summary_zh": "这是一个名为 Local Wikipedia 的项目，把维基百科的内容限定在你步行半小时能到达的范围内。原文是链接，未提供更多细节，实现方式和数据来源都无从得知。",
+        "summary_en": "A project called Local Wikipedia that restricts Wikipedia content to places within a half-hour walk of you. The linked page isn't summarized here; details beyond the title aren't available, so how it is built and where the data comes from are unknown.",
+        "domain": "edjefferson.com",
+        "quality_score": 52.8,
         "related_ids": [
-          "v2ex-b43f47c1d178",
-          "v2ex-901bc626d51a",
-          "gh-monthly-affaan-m-ECC",
-          "36kr-4037687068021637",
-          "v2ex-c3bfc7940466"
+          "gh-monthly-debpalash-VoiceStudio",
+          "gh-daily-debpalash-VoiceStudio",
+          "gh-daily-AgriciDaniel-claude-seo",
+          "hn-50234232",
+          "gh-daily-Graphify-Labs-graphify"
         ]
       },
       {
@@ -38,10 +37,10 @@
         "url": "https://github.com/cloudflare/security-audit-skill",
         "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
         "source": "github_trending",
-        "score": 2271,
+        "score": 2874,
         "comments": 0,
         "author": "cloudflare",
-        "time": "2026-10-24T22:15:10.538038+00:00",
+        "time": "2026-10-25T22:18:33.973689+00:00",
         "tags": [
           "agent",
           "audit",
@@ -58,13 +57,853 @@
         "summary_zh": "cloudflare/security-audit-skill 是一个把 coding agent 变成安全审计员的 skill，编排隔离的 Agent 依次完成侦察、覆盖驱动狩猎、候选验证、结构化输出、独立记录核验和目标无关报告六个阶段。它是 Cloudflare 漏洞发现 harness 的起点版本，产出的 findings 经过独立验证且机器可读，适合想搭自动化漏洞挖掘流程的安全团队。",
         "summary_en": "cloudflare/security-audit-skill turns a coding agent into a security auditor, orchestrating isolated agents through six phases: reconnaissance, coverage-led hunting, candidate validation, structured output, independent record verification and target-neutral reporting. It is the single-repo skill that seeded Cloudflare's fleet-wide vulnerability discovery harness, and it writes independently verified, machine-readable findings to files like findings.json. Security teams building automated vulnerability-hunting pipelines are the intended audience.",
         "domain": "github.com",
-        "quality_score": 41.6,
+        "quality_score": 42.0,
         "related_ids": [
           "gh-monthly-cloudflare-security-audit-skill",
           "v2ex-a5c59a40ce07",
           "gh-monthly-affaan-m-ECC",
           "gh-monthly-ayghri-i-have-adhd",
           "v2ex-593b0c5dd661"
+        ]
+      },
+      {
+        "id": "juejin-7620060655607857178",
+        "title": "别再裸用 Claude Code 了！32 个亲测Skills + 8 个 MCP，开发效率直接拉满！",
+        "url": "https://juejin.cn/post/7620060655607857178",
+        "description": "别再裸用 Claude Code 了！32 个亲测技能 + 8 个 MCP 服务器，开发效率直接拉满！ 先晒一下我装完的效果（见下图），所有技能均实测可用。",
+        "source": "juejin",
+        "score": 877,
+        "comments": 140,
+        "author": "",
+        "time": "2026-05-27T01:21:08+00:00",
+        "tags": [
+          "claude",
+          "juejin",
+          "mcp",
+          "服务器"
+        ],
+        "first_seen": "2026-10-25",
+        "summary_zh": "一篇面向 Claude Code 用户的配置指南，作者整理了 32 个亲测可用的 Skills 和 8 个 MCP 服务器，并称所有技能均已实测通过。适合希望直接借鉴现成配置、减少重复调试的开发者，可以按清单快速补齐自己的 Claude Code 环境。",
+        "summary_en": "A hands-on guide for Claude Code users, listing 32 personally tested Skills and 8 MCP servers, with the author claiming all of them work in practice. It suits developers who want a ready-made checklist to extend their Claude Code setup without spending time finding and debugging integrations.",
+        "domain": "juejin.cn",
+        "quality_score": 64.9,
+        "related_ids": [
+          "v2ex-00489eeaed8f",
+          "gh-monthly-affaan-m-ECC",
+          "v2ex-a2ef11e48bc2",
+          "v2ex-4832f2a6f794",
+          "v2ex-b72b2f6555c2"
+        ]
+      },
+      {
+        "id": "zhihu-2097635960213037771",
+        "title": "热播日剧把中国人拍成施暴者，设计中方人员对日本情报人员切指、刺穿腹部情节，为何娱乐化包装的敌意更危险？",
+        "url": "https://www.zhihu.com/question/2097635960213037771",
+        "description": "",
+        "source": "zhihu",
+        "score": 2610000,
+        "comments": 0,
+        "author": "",
+        "time": "2026-10-25T12:00:00+00:00",
+        "tags": [
+          "general-hot",
+          "zhihu",
+          "设计"
+        ],
+        "first_seen": "2026-10-25",
+        "summary_zh": "这条知乎提问讨论一部热播日剧，剧中把中国人设定为施暴者，出现中方人员对日本情报人员切指、刺穿腹部等情节，提问者由此追问娱乐化包装的敌意为何更危险。原文只提供标题，未给出剧名、集数或更多剧情细节。",
+        "summary_en": "A Zhihu question about a currently airing Japanese drama that casts Chinese characters as perpetrators, including scenes where a Chinese operative severs a Japanese intelligence agent's finger and pierces his abdomen, asking why hostility wrapped in entertainment is more dangerous. The linked page isn't summarized here; details beyond the title, such as the show's name or episode, aren't available.",
+        "domain": "zhihu.com",
+        "quality_score": 42.1,
+        "related_ids": [
+          "infoq-dbOwzu6l6Tr8NAhCQRC8",
+          "36kr-4016617817837441",
+          "infoq-QdPWpubQFmegrsH9UZFC",
+          "juejin-7695697094277087272",
+          "infoq-HoUf1pHD3WcZCK3YMe7m"
+        ]
+      },
+      {
+        "id": "36kr-4039471138362501",
+        "title": "提示词工程已死！祖师爷亲手砸饭碗：以后问AI，不用再念咒了",
+        "url": "https://36kr.com/p/4039471138362501",
+        "description": "",
+        "source": "36kr",
+        "score": 40702,
+        "comments": 0,
+        "author": "",
+        "time": "2026-10-25T01:55:02.044000+00:00",
+        "tags": [
+          "36kr",
+          "ai"
+        ],
+        "first_seen": "2026-10-25",
+        "summary_zh": "36氪这篇报道以“提示词工程已死”为题，称该领域一位被称作“祖师爷”级的人物公开表示，以后向 AI 提问不必再精心设计提示词。原文只提供了标题，具体人物、论据和示例无从得知，读者只能看到结论本身。",
+        "summary_en": "A 36Kr piece whose headline declares prompt engineering dead, saying a founding figure in the field has himself told people they no longer need to carefully craft prompts before asking an AI. Only the title is available here, so the specific person, arguments and examples behind that claim can't be checked.",
+        "domain": "36kr.com",
+        "quality_score": 60.4,
+        "related_ids": [
+          "v2ex-00489eeaed8f",
+          "v2ex-a5c59a40ce07",
+          "v2ex-993a89c94d30",
+          "juejin-7637856870833635343",
+          "v2ex-c046a7ad5f76"
+        ]
+      },
+      {
+        "id": "infoq-AkDgwN6h72cqUOJ35Zok",
+        "title": "AI Agent 正在改写 CPU 的价值：当 Token 变成行动，算力竞争不再只是拼 GPU",
+        "url": "https://www.infoq.cn/article/AkDgwN6h72cqUOJ35Zok",
+        "description": "",
+        "source": "infoq",
+        "score": 10074,
+        "comments": 0,
+        "author": "",
+        "time": "2026-10-23T09:53:09.224000+00:00",
+        "tags": [
+          "agent",
+          "ai",
+          "infoq"
+        ],
+        "first_seen": "2026-10-23",
+        "summary_zh": "Arm 云 AI 解决方案架构总监 Ravi Malhotra 提出，在 Agent 场景下衡量 CPU 性能的方式正在改变：除了支撑推理，CPU 还要把模型生成的 Token 转成真实行动，包括代码编译与测试、工具调用、数据库访问和沙箱隔离。Arm 已发布一套评估方法，把工具调用、任务编排和端到端任务执行纳入 CPU 性能评价，并与富士通、Meta、OpenAI 等企业共同探索。文章指出，若 CPU 侧的编译测试跟不上，昂贵的 GPU 只能空等，正在做 AI 基础设施选型与算力配比的人可据此重新权衡。",
+        "summary_en": "Arm's cloud AI solutions architecture director Ravi Malhotra argues that in agentic workloads, CPU performance should no longer be judged mainly by token generation. The CPU has to turn generated tokens into actions such as compiling and testing code, calling tools, hitting databases and isolating sandboxes, while accelerators handle planning. Arm has published an evaluation method covering tool calls, orchestration and end-to-end task execution, developed with Fujitsu, Meta, OpenAI and others. If CPU-side work lags, expensive GPUs sit idle.",
+        "domain": "infoq.cn",
+        "quality_score": 40.1,
+        "related_ids": [
+          "v2ex-a5c59a40ce07",
+          "juejin-7637856870833635343",
+          "v2ex-179a55c7c6bf",
+          "v2ex-a2ef11e48bc2",
+          "v2ex-b07085612a6b"
+        ]
+      },
+      {
+        "id": "v2ex-380ea10cdb4b",
+        "title": "[程序员] 拥抱 SI, 用 .si 做域名的个人主页上线，请大家提提建议",
+        "url": "https://www.v2ex.com/t/1251730#reply0",
+        "description": "",
+        "source": "v2ex",
+        "score": 300,
+        "comments": 0,
+        "author": "",
+        "time": "2026-10-25T22:11:48+00:00",
+        "tags": [
+          "v2ex",
+          "拥抱",
+          "程序员"
+        ],
+        "first_seen": "2026-10-25",
+        "summary_zh": "V2EX 热议：[程序员] 拥抱 SI, 用 .si 做域名的个人主页上线，请大家提提建议",
+        "summary_en": "Hot on V2EX: [程序员] 拥抱 SI, 用 .si 做域名的个人主页上线，请大家提提建议",
+        "domain": "v2ex.com",
+        "quality_score": 75.0,
+        "related_ids": [
+          "v2ex-a5c59a40ce07",
+          "v2ex-f7471b8fd033",
+          "v2ex-05bb9a5e2fd7",
+          "v2ex-dd7df3baa589",
+          "v2ex-8d373cd186f9"
+        ]
+      },
+      {
+        "id": "zhihu-2097842344846419225",
+        "title": "S16 瑞士轮 HLE 0-1 iG，如何评价这场比赛？",
+        "url": "https://www.zhihu.com/question/2097842344846419225",
+        "description": "",
+        "source": "zhihu",
+        "score": 2600000,
+        "comments": 0,
+        "author": "",
+        "time": "2026-10-25T12:00:00+00:00",
+        "tags": [
+          "general-hot",
+          "zhihu"
+        ],
+        "first_seen": "2026-10-25",
+        "summary_zh": "知乎这条提问请人评价 S16 瑞士轮中 HLE 0-1 不敌 iG 的一场对局。原文只有标题和链接，未提供阵容、比赛过程或选手数据等细节。",
+        "summary_en": "A Zhihu thread asking readers to assess a Swiss-stage match at S16, where HLE lost 0-1 to iG. It is a discussion prompt rather than a report; the linked page isn't summarized here, so details on drafts, players or how the match unfolded beyond the score aren't available.",
+        "domain": "zhihu.com",
+        "quality_score": 42.1,
+        "related_ids": []
+      },
+      {
+        "id": "zhihu-2097654119607673193",
+        "title": "张雪刷新「改装摩托车在开阔水域行驶最远距离」吉尼斯世界纪录，这个难度主要在哪里？有什么样的意义？",
+        "url": "https://www.zhihu.com/question/2097654119607673193",
+        "description": "",
+        "source": "zhihu",
+        "score": 2570000,
+        "comments": 0,
+        "author": "",
+        "time": "2026-10-25T12:00:00+00:00",
+        "tags": [
+          "general-hot",
+          "zhihu"
+        ],
+        "first_seen": "2026-10-25",
+        "summary_zh": "知乎提问围绕张雪驾驶改装摩托车，刷新“在开阔水域行驶最远距离”吉尼斯世界纪录一事，追问这项挑战难在哪里、意义何在。原文是链接帖，未给出具体距离、水域地点等信息。",
+        "summary_en": "A Zhihu question on Zhang Xue setting a Guinness World Record for the longest distance ridden on a modified motorcycle over open water, asking where the difficulty lies and what the feat signifies. The linked page isn't summarized here; the distance covered, the location and other specifics beyond the title aren't available.",
+        "domain": "zhihu.com",
+        "quality_score": 42.1,
+        "related_ids": []
+      },
+      {
+        "id": "v2ex-11b80a4c4cfa",
+        "title": "[分享发现] dsh 是否会成为新的一代 agent 标准?",
+        "url": "https://www.v2ex.com/t/1251729#reply0",
+        "description": "",
+        "source": "v2ex",
+        "score": 290,
+        "comments": 0,
+        "author": "",
+        "time": "2026-10-25T20:23:52+00:00",
+        "tags": [
+          "agent",
+          "dsh",
+          "v2ex"
+        ],
+        "first_seen": "2026-10-25",
+        "summary_zh": "楼主对比了 pi 和 dsh（DeepSeek Harness）两款新一代 agent：pi 提供浏览器内核，dsh 干脆自己做了浏览器，把每个网页都当作插件。他觉得这比 workbuddy 好玩，而豆包工作、千问办公太封闭，外部 agent 根本访问不了。插件目前还比较浅，也受限于 dsh 和 TS、Electron 的表达能力，但他看重的是能通过对话调用插件并自行改造。",
+        "summary_en": "A V2EX poster compares two new-generation agents: pi, which ships a browser kernel, and dsh (DeepSeek Harness), which builds the browser itself and treats every webpage as a plugin. He finds this more fun to tinker with than workbuddy and criticizes Doubao Work and Qwen Office for being closed off from outside agents. Plugins are still shallow, limited by dsh and by what TS/Electron can express, but he values calling and customizing them through conversation.",
+        "domain": "v2ex.com",
+        "quality_score": 73.8,
+        "related_ids": [
+          "v2ex-a5c59a40ce07",
+          "juejin-7637856870833635343",
+          "gh-monthly-vectorize-io-hindsight",
+          "gh-monthly-paperclipai-paperclip",
+          "gh-monthly-affaan-m-ECC"
+        ]
+      },
+      {
+        "id": "infoq-mhdJwMMzYFedMFHKfHWs",
+        "title": "智源众智 FlagOS 2.2 让前沿模型与多元算力协同演进",
+        "url": "https://www.infoq.cn/article/mhdJwMMzYFedMFHKfHWs",
+        "description": "",
+        "source": "infoq",
+        "score": 9453,
+        "comments": 0,
+        "author": "",
+        "time": "2026-10-23T11:40:29.035000+00:00",
+        "tags": [
+          "infoq"
+        ],
+        "first_seen": "2026-10-23",
+        "summary_zh": "智源众智 FlagOS 2.2 的九大算子库合计覆盖 1454 个算子，比上一版增加 890 个，并在 10 款异构 AI 芯片、上千个算子上把跨芯性能整体提升约 27%。实践中 GLM-5.3-Flash 在存量昇腾 910B 上逻辑服务吞吐达优化前的 2.04 倍，按租金折算的算力成本比商业 API 参考计费低 19.4%—27.6%。",
+        "summary_en": "FlagOS 2.2 now bundles nine operator libraries covering 1,454 operators, 890 more than the previous release, and reports roughly 27% overall cross-chip performance gains measured across 10 heterogeneous AI chips and over a thousand operators. In one deployment with GLM-5.3-Flash, existing Ascend 910B hardware served 2.04x its previous logical throughput, with rent-equivalent compute cost running 19.4%–27.6% below comparable commercial API pricing.",
+        "domain": "infoq.cn",
+        "quality_score": 39.2,
+        "related_ids": []
+      },
+      {
+        "id": "v2ex-7ae8a95763a9",
+        "title": "[Apple] 使用了三天 iPhone Duo 的感想",
+        "url": "https://www.v2ex.com/t/1251728#reply3",
+        "description": "",
+        "source": "v2ex",
+        "score": 280,
+        "comments": 0,
+        "author": "",
+        "time": "2026-10-25T18:40:39+00:00",
+        "tags": [
+          "apple",
+          "duo",
+          "iphone",
+          "v2ex"
+        ],
+        "first_seen": "2026-10-25",
+        "summary_zh": "一位 iPhone 17 Pro Max 用户抢了 iPhone Duo 首发，用三天后给出负面评价：内屏利用率低、单手握持困难，纳米纹理屏把 HDR 高光压得发灰，外屏太小导致已适配的 app 信息密度反而更低。Touch ID 取代 Face ID 后解锁和 Apple Pay 都变慢，主摄素质不如 Pro Max，续航从开箱起就肉眼可见地掉。他的结论是苹果先做了折叠屏，再拿体验去补。",
+        "summary_en": "A first-day iPhone Duo buyer coming from an iPhone 17 Pro Max posts a negative three-day review: the inner screen sees little use because it is hard to hold one-handed, the nano-texture display washes out HDR highlights, and the small outer screen leaves even adapted apps with cramped, low-density UI. Touch ID is slower than Face ID for unlocking and Apple Pay, the main camera trails the Pro Max, and battery drains visibly from day one. His verdict: Apple built the foldable first and the experience second.",
+        "domain": "v2ex.com",
+        "quality_score": 72.7,
+        "related_ids": [
+          "36kr-4036266730886018",
+          "36kr-4032044521558403",
+          "v2ex-cfdc6582ae74",
+          "36kr-4037687068021637",
+          "zhihu-2096894681745286436"
+        ]
+      },
+      {
+        "id": "infoq-UmD4aAerZEts8sZ5t791",
+        "title": "刘铁岩、诺奖、图灵奖得主等嘉宾共话AI的下一个十年：Transformer一统天下之后，AI的下一张王牌是什么？",
+        "url": "https://www.infoq.cn/article/UmD4aAerZEts8sZ5t791",
+        "description": "",
+        "source": "infoq",
+        "score": 9295,
+        "comments": 0,
+        "author": "",
+        "time": "2026-10-23T09:54:19.928000+00:00",
+        "tags": [
+          "ai",
+          "infoq",
+          "transformer"
+        ],
+        "first_seen": "2026-10-23",
+        "summary_zh": "在 ICAAS 2026 首场圆桌上，诺贝尔化学奖得主迈克尔·莱维特、图灵奖得主杰克·唐加拉与数学家马骁、中关村学院何纪言探讨了 Transformer 路线收敛之后 AI 的下一步。莱维特主张像谨慎的银行家一样分散下注，唐加拉强调探索主流之外并接受失败，嘉宾还就 AI 寒冬是否会重演展开了争论。",
+        "summary_en": "At the opening roundtable of ICAAS 2026, Nobel chemistry laureate Michael Levitt, 2021 Turing winner Jack Dongarra, mathematician Ma Xiao and He Jiyan of Zhongguancun Academy debated where AI goes after the industry converged on Transformer-scale training. Levitt argued for hedging like a cautious banker rather than betting everything on one route; Dongarra pushed for exploring beyond the mainstream and treating failure as part of research. They clashed over whether overpromising could trigger another AI winter.",
+        "domain": "infoq.cn",
+        "quality_score": 38.9,
+        "related_ids": [
+          "v2ex-00489eeaed8f",
+          "v2ex-a5c59a40ce07",
+          "v2ex-993a89c94d30",
+          "juejin-7637856870833635343",
+          "36kr-4039471138362501"
+        ]
+      },
+      {
+        "id": "infoq-Q6mgHWCSqV6KeZzee3NT",
+        "title": "PostgreSQL 19 发不出来？AI“找茬”太快，人类修Bug的速度跟不上了",
+        "url": "https://www.infoq.cn/article/Q6mgHWCSqV6KeZzee3NT",
+        "description": "",
+        "source": "infoq",
+        "score": 9280,
+        "comments": 0,
+        "author": "",
+        "time": "2026-10-23T09:48:25.427000+00:00",
+        "tags": [
+          "ai",
+          "bug",
+          "infoq",
+          "postgresql"
+        ],
+        "first_seen": "2026-10-23",
+        "summary_zh": "PostgreSQL 19 从 10 月 29 日推迟到 11 月 19 日发布，中间加发一个 RC2；Beta 阶段有 8 到 10 项重要功能被撤回。核心提交者、EDB 副总裁 Peter Eisentraut 解释，问题多不是 vibe coding 造成，而是 LLM 辅助代码审查与模糊测试把原本要五年才暴露的长尾缺陷集中翻了出来，人类修 Bug 的速度跟不上。",
+        "summary_en": "PostgreSQL 19 slipped from October 29 to November 19, with an extra RC2 on November 12, after roughly 8 to 10 significant features were reverted during beta. Core committer and EDB vice president Peter Eisentraut says the cause is not vibe coding but maturing LLM-assisted code review and fuzzing, which surfaced long-tail defects that would otherwise have trickled in over five years. AI raised the effective quality bar faster than humans can fix bugs.",
+        "domain": "infoq.cn",
+        "quality_score": 38.9,
+        "related_ids": [
+          "v2ex-00489eeaed8f",
+          "v2ex-a5c59a40ce07",
+          "v2ex-993a89c94d30",
+          "juejin-7637856870833635343",
+          "36kr-4039471138362501"
+        ]
+      },
+      {
+        "id": "v2ex-132a76aa80ad",
+        "title": "[OpenAI] 学术写作场景，有啥能优化的吗",
+        "url": "https://www.v2ex.com/t/1251727#reply3",
+        "description": "",
+        "source": "v2ex",
+        "score": 270,
+        "comments": 0,
+        "author": "",
+        "time": "2026-10-25T17:36:04+00:00",
+        "tags": [
+          "openai",
+          "v2ex",
+          "优化"
+        ],
+        "first_seen": "2026-10-25",
+        "summary_zh": "一位 V2EX 用户发帖求助学术写作场景的模型调优：在限定文献库内做归纳总结时，模型回溯原始语料经常偷懒，用 Humanizer 一类工具去 AI 味也收效有限。他想知道知识图谱型外挂（如 graphify）能否改善检索，除 AGENTS.md 和 skill 设定外还有哪些办法，并提到自己当前用 6.1 Sol High、尚未对比 Claude、Grok、Deepseek。适合有类似工作流的人交流经验。",
+        "summary_en": "A V2EX poster is asking for help tuning LLM workflows for academic writing over a fixed literature corpus: the model keeps cutting corners when tracing back to source material, and de-AI-flavor tools like Humanizer haven't helped much. They want to know whether a knowledge-graph add-on such as graphify improves retrieval, and what beyond AGENTS.md and skill settings can raise quality. They currently run 6.1 Sol High and haven't compared Claude, Grok or Deepseek yet.",
+        "domain": "v2ex.com",
+        "quality_score": 71.5,
+        "related_ids": [
+          "v2ex-b8f62d81127b",
+          "v2ex-27f5c0a5e743",
+          "v2ex-ccceebefc6f6",
+          "v2ex-02e9e83276ba",
+          "v2ex-e29b4149172d"
+        ]
+      },
+      {
+        "id": "infoq-sI3z2UMCrB5PPVDWTsLo",
+        "title": "奥特曼最新 45 分钟访谈：一年不写代码、压力大到不想起床，还嫌 ChatGPT 太谄媚",
+        "url": "https://www.infoq.cn/article/sI3z2UMCrB5PPVDWTsLo",
+        "description": "",
+        "source": "infoq",
+        "score": 9047,
+        "comments": 0,
+        "author": "",
+        "time": "2026-10-23T09:35:04.225000+00:00",
+        "tags": [
+          "chatgpt",
+          "infoq"
+        ],
+        "first_seen": "2026-10-23",
+        "summary_zh": "OpenAI CEO Sam Altman 在与博主 Matthew Berman 的 45 分钟访谈中称，自己已约一年没写过代码，并预计未来几年 AI 能提出重大疾病的候选治疗方案。他发现程序员并未因 AI 失业，反而更忙、赚得更多，对算力的需求则是「无限多」。访谈也谈到 AI 意识、失控风险，以及他压力大到不想起床的一面。",
+        "summary_en": "In a 45-minute interview with AI blogger Matthew Berman, OpenAI CEO Sam Altman said he hasn't looked at a line of code in about a year and expects AI to surface candidate treatments for major diseases within a few years. He argued programmers aren't losing jobs to AI but are busier and earning more, and put his GPU demand at effectively unlimited. The conversation also covered AI consciousness, loss-of-control risk, and the pressure that sometimes keeps him in bed.",
+        "domain": "infoq.cn",
+        "quality_score": 38.6,
+        "related_ids": [
+          "36kr-4036210178134916",
+          "v2ex-d46679a119dd",
+          "36kr-4013699052588937",
+          "v2ex-84d3aa26691a",
+          "v2ex-9ed9727bbec1"
+        ]
+      },
+      {
+        "id": "infoq-Md0kdMxGI6flIbZXH1yg",
+        "title": "讯飞发布新一代端到端交互模型：语音大模型调用量暴涨20倍，端侧已实现约70%云端能力",
+        "url": "https://www.infoq.cn/article/Md0kdMxGI6flIbZXH1yg",
+        "description": "",
+        "source": "infoq",
+        "score": 8856,
+        "comments": 0,
+        "author": "",
+        "time": "2026-10-23T03:39:27.576000+00:00",
+        "tags": [
+          "infoq",
+          "大模型"
+        ],
+        "first_seen": "2026-10-23",
+        "summary_zh": "科大讯飞 10 月 22 日发布星火语音基座大模型 SparkAudio 1.0，在语音识别与同传之外加入音频理解、情绪识别、实时说话人分离和环境声理解，并推出端云一体的星火 X2.6 与 4B 端侧模型 Spark-X2.6-4B。官方称语音大模型调用量同比增长超 20 倍，端侧已具备约 70% 云端能力，相关能力进入讯飞输入法 16.0 等产品，针对的是机器人与智能家居里多人同时说话、环境嘈杂的真实场景。",
+        "summary_en": "iFlytek unveiled SparkAudio 1.0 on October 22, a speech foundation model that moves past ASR and translation to cover audio understanding, emotion recognition, real-time speaker separation and ambient sound. It also showed the cloud-device Spark X2.6 and a 4B on-device model, Spark-X2.6-4B. iFlytek says speech model calls are up more than 20x year over year and on-device models now handle roughly 70% of cloud capability, with the tech already shipping in iFlytek Input 16.0 for robots, cars and smart-home devices where several people talk over background noise.",
+        "domain": "infoq.cn",
+        "quality_score": 38.3,
+        "related_ids": [
+          "36kr-4039177193411718",
+          "infoq-qZPH971CbfHkaCfgG0cb",
+          "infoq-OBQpdcB1xURrJMRlrJZ1",
+          "infoq-xQLd004RGWrzFhwqBOyC",
+          "zhihu-2073727130379051737"
+        ]
+      },
+      {
+        "id": "v2ex-021d87584b6d",
+        "title": "[酷工作] 高级 Unity3D 游戏开发工程师 1 名 远程办公",
+        "url": "https://www.v2ex.com/t/1251724#reply0",
+        "description": "",
+        "source": "v2ex",
+        "score": 260,
+        "comments": 0,
+        "author": "",
+        "time": "2026-10-25T16:57:30+00:00",
+        "tags": [
+          "unity",
+          "v2ex"
+        ],
+        "first_seen": "2026-10-25",
+        "summary_zh": "一则远程高级 Unity3D 客户端工程师招聘，只招 1 人，除常规架构设计与性能优化外，重心明显偏在 Android APK 安全：代码混淆、加固、签名与完整性校验、反调试反 Hook，以及与服务端配合的反作弊机制。要求 5 年以上客户端经验、3 年 Unity 实战并上线过 Android 游戏，熟悉 Mono/IL2CPP 和 JADX、Frida、IDA 等工具，投递走 Telegram。",
+        "summary_en": "A remote posting for one senior Unity3D client engineer, with an unusually heavy emphasis on Android APK security: obfuscation, hardening, signature and integrity checks, anti-debugging and anti-hook work, plus server-side anti-cheat. Requirements include five years of client development, three in Unity, and at least one shipped Android title, with hands-on Mono/IL2CPP and tools such as JADX, Frida and IDA. Applications are handled over Telegram.",
+        "domain": "v2ex.com",
+        "quality_score": 70.3,
+        "related_ids": [
+          "hn-50138002",
+          "hn-50061497"
+        ]
+      },
+      {
+        "id": "infoq-reksyo9EBAcP11Ns2GTO",
+        "title": "决策模型也有专用推理引擎了：StartLux 开源 Prism，单卡最高提速 5.3 倍",
+        "url": "https://www.infoq.cn/article/reksyo9EBAcP11Ns2GTO",
+        "description": "",
+        "source": "infoq",
+        "score": 8519,
+        "comments": 0,
+        "author": "",
+        "time": "2026-10-23T04:03:49.453000+00:00",
+        "tags": [
+          "infoq",
+          "startlux",
+          "开源"
+        ],
+        "first_seen": "2026-10-23",
+        "summary_zh": "StartLux 开源了为自家决策模型 StartLux-Decision 定制的推理引擎 Prism，在单张 NVIDIA H200 上跑 27B 模型时速度达到 vLLM 方案的 1.2 至 5.3 倍，同一份材料连答三问从 92.9 毫秒降到 17.4 毫秒。它只计算候选选项的概率而不生成整段文本，并保证相同请求输出逐位一致，12,351 次决策测试准确率 92.94%，与 BF16 的 92.97% 基本持平。",
+        "summary_en": "StartLux has open-sourced Prism, an inference engine built specifically for its StartLux-Decision model. On a single NVIDIA H200 running the 27B model, it claims 1.2x to 5.3x the speed of vLLM, cutting a three-question task on one document from 92.9ms to 17.4ms. Because decision models only score a handful of candidate options rather than generate full text, Prism skips whole-vocabulary output and returns bit-identical results regardless of batching; accuracy was 92.94% against 92.97% in BF16.",
+        "domain": "infoq.cn",
+        "quality_score": 37.8,
+        "related_ids": [
+          "v2ex-694a7e93ffb1",
+          "v2ex-b28ffa5ee93e",
+          "v2ex-c046a7ad5f76",
+          "v2ex-08bf5530dd48",
+          "v2ex-83c2f870366f"
+        ]
+      },
+      {
+        "id": "v2ex-1ec61ddcc4bf",
+        "title": "[问与答] 好奇坛友甲骨文机器/账号注册是否成功",
+        "url": "https://www.v2ex.com/t/1251723#reply0",
+        "description": "",
+        "source": "v2ex",
+        "score": 250,
+        "comments": 0,
+        "author": "",
+        "time": "2026-10-25T16:54:10+00:00",
+        "tags": [
+          "v2ex"
+        ],
+        "first_seen": "2026-10-25",
+        "summary_zh": "V2EX 热议：[问与答] 好奇坛友甲骨文机器/账号注册是否成功",
+        "summary_en": "Hot on V2EX: [问与答] 好奇坛友甲骨文机器/账号注册是否成功",
+        "domain": "v2ex.com",
+        "quality_score": 69.2,
+        "related_ids": []
+      },
+      {
+        "id": "infoq-Lo9TLlRdvy4II38yaex0",
+        "title": "“让Token不空转”，讯飞如何把Agent推进企业核心流程",
+        "url": "https://www.infoq.cn/article/Lo9TLlRdvy4II38yaex0",
+        "description": "",
+        "source": "infoq",
+        "score": 8377,
+        "comments": 0,
+        "author": "",
+        "time": "2026-10-23T09:40:09.559000+00:00",
+        "tags": [
+          "agent",
+          "infoq"
+        ],
+        "first_seen": "2026-10-23",
+        "summary_zh": "科大讯飞披露开放平台开发者已达 1187 万，并以单次互动超过 1 万次调用作为复杂任务口径，称这类用户占比从不足 10% 升到 60%。配套推出星辰 TaaS（把 Token 组织成可交付行业方案）、Agent OS（跨员工、智能体与业务系统的上下文共享和任务调度）、深入 CRM/ERP/OA 的 APA 以及 XFYUN CLI，官方称引入 Agent OS 后跨系统协同效率提升 90%、75% 以上流程可自主流转。关注企业级 Agent 落地路径的团队可以看它如何拆解调度、执行与计费。",
+        "summary_en": "iFlytek says its open platform now has 11.87 million developers, and that users running complex tasks — defined as more than 10,000 interactions per call — grew from under 10% to 60% of the base. It paired that data with four pieces: Xingchen TaaS, which packages tokens into deliverable industry solutions; Agent OS for context sharing and task scheduling across employees, agents and business systems; APA, which pushes into CRM, ERP and OA; and XFYUN CLI. iFlytek claims 90% better cross-system collaboration and over 75% of flows running autonomously. Useful for teams planning enterprise agent rollouts.",
+        "domain": "infoq.cn",
+        "quality_score": 37.5,
+        "related_ids": [
+          "infoq-AkDgwN6h72cqUOJ35Zok",
+          "v2ex-11b80a4c4cfa",
+          "v2ex-a5c59a40ce07",
+          "juejin-7637856870833635343",
+          "gh-monthly-vectorize-io-hindsight"
+        ]
+      },
+      {
+        "id": "infoq-rVqEbaXeaJ91UWlQF4F9",
+        "title": "AI 赋能开发，Spotify 月代码变更量翻倍",
+        "url": "https://www.infoq.cn/article/rVqEbaXeaJ91UWlQF4F9",
+        "description": "",
+        "source": "infoq",
+        "score": 8326,
+        "comments": 0,
+        "author": "",
+        "time": "2026-10-23T08:27:00.472000+00:00",
+        "tags": [
+          "ai",
+          "infoq",
+          "spotify"
+        ],
+        "first_seen": "2026-10-23",
+        "summary_zh": "Spotify 8 月的合并变更量从去年同期的约 8100 个增至 17000 个以上，公司须为此重做质量与可靠性体系，它运行着近 3000 个生产服务、支撑 7.77 亿月活。文中披露了具体机制：后台编码智能体 Honk 在 Kubernetes Pod 里通过 Agent SDK 运行 Claude，Fleetshift 负责目标选择与调度，一次后端 Java 迁移只用了三天；同时也有自动化依赖升级通过既有校验却在生产故障的案例，Spotify 正加强防护、扩大回滚并把自动化变更限制在负责团队的工作时段。",
+        "summary_en": "Spotify's merged changes in August more than doubled year over year, from roughly 8,100 to 17,000, forcing the company to rework quality and reliability controls across nearly 3,000 production services serving 777 million monthly users. The article details the machinery: Honk, a background coding agent running Claude via the Agent SDK inside Kubernetes pods, with Fleetshift handling targeting and scheduling — a backend Java migration took three days. It also covers an automated dependency upgrade that passed existing checks yet failed in production, prompting stronger guards and wider rollback.",
+        "domain": "infoq.cn",
+        "quality_score": 37.5,
+        "related_ids": [
+          "v2ex-00489eeaed8f",
+          "v2ex-a5c59a40ce07",
+          "v2ex-993a89c94d30",
+          "juejin-7637856870833635343",
+          "36kr-4039471138362501"
+        ]
+      },
+      {
+        "id": "infoq-c6KGCCmGuad5wbAcCG61",
+        "title": "GitLab 19.4 发布，新增目标驱动型智能体，强化成本控制",
+        "url": "https://www.infoq.cn/article/c6KGCCmGuad5wbAcCG61",
+        "description": "",
+        "source": "infoq",
+        "score": 8325,
+        "comments": 0,
+        "author": "",
+        "time": "2026-10-23T07:11:00.744000+00:00",
+        "tags": [
+          "gitlab",
+          "infoq"
+        ],
+        "first_seen": "2026-10-23",
+        "summary_zh": "GitLab 19.4 为 Duo CLI 加入了公测中的 /goal 命令：接受一个开放式目标后持续执行，一个模型改代码、另一个模型对照目标检查进度，直到完成或触及迭代上限。同时上架 Kimi K3、MiniMax M3 和 GLM 5.3 三个托管开源权重模型，GitLab 称每个 GitLab 积分可支持最多 4 倍于同类前沿模型的调用量，并扩展 MCP 工具，只读操作默认放行、写入与删除默认需人工确认，漏洞管理工具仅旗舰版可用。",
+        "summary_en": "GitLab 19.4 adds a public-beta /goal command to Duo CLI that takes an open-ended objective and keeps working until done or an iteration cap is hit, with one model making changes and another checking progress against the goal. It also hosts three open-weight models — Kimi K3, MiniMax M3 and GLM 5.3 — which GitLab says deliver up to four times the calls per GitLab credit of comparable frontier models. MCP tools expand too, with read-only actions allowed by default and writes or deletes requiring confirmation; vulnerability tools are Ultimate-only.",
+        "domain": "infoq.cn",
+        "quality_score": 37.5,
+        "related_ids": [
+          "infoq-cA9rSEGKphbJHIiTQKMv",
+          "hn-50222622",
+          "infoq-DfJZA7hp0OhKMpaAIfG0",
+          "hn-50185869",
+          "hn-49838034"
+        ]
+      },
+      {
+        "id": "hn-50195959",
+        "title": "Quad9 to exit France",
+        "url": "https://quad9.net/news/blog/au-revoir-france/",
+        "description": "",
+        "source": "hackernews",
+        "score": 1369,
+        "comments": 476,
+        "author": "farrokhi",
+        "time": "2026-10-22T14:32:38+00:00",
+        "tags": [
+          "exit",
+          "france",
+          "hackernews"
+        ],
+        "first_seen": "2026-10-22",
+        "summary_zh": "Quad9 是一个主打安全与隐私的免费公共 DNS 服务，此次宣布将退出法国。原文是链接，未提供更多细节，退出原因、时间表以及对解析的具体影响都不在本条素材中；把解析指向 Quad9 的团队或许需要提前确认备用方案。",
+        "summary_en": "Quad9, a free public DNS resolver that positions itself on security and privacy, has announced it is exiting France. The linked page isn't summarized here; the reason, timeline and any technical fallout aren't available beyond the title. Teams that point their resolvers at Quad9 may want to check what their fallback configuration looks like.",
+        "domain": "quad9.net",
+        "quality_score": 50.7,
+        "related_ids": [
+          "hn-50195110",
+          "hn-50166257",
+          "hn-50159616",
+          "hn-50198713",
+          "hn-50144310"
+        ]
+      },
+      {
+        "id": "v2ex-993a89c94d30",
+        "title": "[分享创造] 做了一个 AI 图片创作工作台，想听听大家的使用反馈",
+        "url": "https://www.v2ex.com/t/1251722#reply0",
+        "description": "",
+        "source": "v2ex",
+        "score": 240,
+        "comments": 0,
+        "author": "",
+        "time": "2026-10-25T16:49:52+00:00",
+        "tags": [
+          "ai",
+          "v2ex"
+        ],
+        "first_seen": "2026-10-25",
+        "summary_zh": "开发者上线了 seedream55ai.com，一个按场景组织的 AI 图片创作工作台，入口覆盖商品图、海报、人像写真、照片转手办和参考图编辑，生成按账户积分计费，提交前可看到所选模型和对应消耗。作者明确说明这是独立第三方项目，与字节官方无关，域名里的 Seedream 5.5 模型 API 目前尚未启用，实际可用能力以工作台开放的模型为准。发帖目的是收集从进入到生成流程是否顺畅、提示词示例是否有用等反馈。",
+        "summary_en": "A developer has launched seedream55ai.com, a browser-based AI image workbench organized around concrete tasks: product shots, posters, portrait photos, photo-to-figurine conversion, and reference-image editing. Generation runs on account credits, with the model and its credit cost shown before you submit. The author stresses it is an independent third-party project unaffiliated with ByteDance, and that the Seedream 5.5 API referenced in the domain is not yet enabled, so available models are whatever the workbench currently exposes. Feedback on onboarding friction and prompt examples is the goal.",
+        "domain": "v2ex.com",
+        "quality_score": 68.0,
+        "related_ids": [
+          "v2ex-00489eeaed8f",
+          "v2ex-a5c59a40ce07",
+          "juejin-7637856870833635343",
+          "36kr-4039471138362501",
+          "v2ex-c046a7ad5f76"
+        ]
+      },
+      {
+        "id": "zhihu-2097678496394736743",
+        "title": "江苏姑娘花 3.8 万网购鹤岗房，入住后屋顶漏水正起诉解约，问题出在哪？鹤岗热潮至今，人们还愿意留下来吗？",
+        "url": "https://www.zhihu.com/question/2097678496394736743",
+        "description": "",
+        "source": "zhihu",
+        "score": 2010000,
+        "comments": 0,
+        "author": "",
+        "time": "2026-10-25T12:00:00+00:00",
+        "tags": [
+          "general-hot",
+          "zhihu"
+        ],
+        "first_seen": "2026-10-25",
+        "summary_zh": "知乎上这条讨论围绕一位江苏买家花 3.8 万元网购鹤岗房产、入住后发现屋顶漏水并起诉要求解约的个案，追问问题出在交易与验房环节的哪一步。标题同时抛出鹤岗低价房热潮延续至今后人们是否还愿意留下的问题，但原文是链接，未提供更多细节。",
+        "summary_en": "This Zhihu thread centers on a buyer from Jiangsu who paid 38,000 yuan for a Hegang apartment sight-unseen online, found the roof leaking after moving in, and is now suing to cancel the deal, asking where the process broke down. The title also asks whether people are still willing to stay in Hegang now that its cheap-housing boom has aged. The linked page isn't summarized here; details beyond the title aren't available.",
+        "domain": "zhihu.com",
+        "quality_score": 41.7,
+        "related_ids": []
+      },
+      {
+        "id": "v2ex-70d7af380e82",
+        "title": "[分享创造] 做了一个单条商单／推荐码落地页工具，想听听创作者的意见",
+        "url": "https://www.v2ex.com/t/1251721#reply0",
+        "description": "",
+        "source": "v2ex",
+        "score": 230,
+        "comments": 0,
+        "author": "",
+        "time": "2026-10-25T16:48:49+00:00",
+        "tags": [
+          "v2ex"
+        ],
+        "first_seen": "2026-10-25",
+        "summary_zh": "V2EX 热议：[分享创造] 做了一个单条商单／推荐码落地页工具，想听听创作者的意见",
+        "summary_en": "Hot on V2EX: [分享创造] 做了一个单条商单／推荐码落地页工具，想听听创作者的意见",
+        "domain": "v2ex.com",
+        "quality_score": 66.8,
+        "related_ids": []
+      },
+      {
+        "id": "v2ex-647339491ed5",
+        "title": "[推广] 做了个在线音频倒放工具：支持录音、短视频音频倒放，欢迎试用",
+        "url": "https://www.v2ex.com/t/1251719#reply0",
+        "description": "",
+        "source": "v2ex",
+        "score": 220,
+        "comments": 0,
+        "author": "",
+        "time": "2026-10-25T16:05:50+00:00",
+        "tags": [
+          "v2ex",
+          "推广",
+          "欢迎试用"
+        ],
+        "first_seen": "2026-10-25",
+        "summary_zh": "V2EX 热议：[推广] 做了个在线音频倒放工具：支持录音、短视频音频倒放，欢迎试用",
+        "summary_en": "Hot on V2EX: [推广] 做了个在线音频倒放工具：支持录音、短视频音频倒放，欢迎试用",
+        "domain": "v2ex.com",
+        "quality_score": 65.7,
+        "related_ids": [
+          "v2ex-cc11fa707e13",
+          "v2ex-901bc626d51a",
+          "v2ex-c046a7ad5f76",
+          "v2ex-7ecb4ea1538c",
+          "v2ex-08bf5530dd48"
+        ]
+      },
+      {
+        "id": "v2ex-6e19d5d8c615",
+        "title": "[分享创造] ESP32 + 基于网页的 Harness，全自动操作 iPhone 点外卖",
+        "url": "https://www.v2ex.com/t/1251717#reply3",
+        "description": "",
+        "source": "v2ex",
+        "score": 210,
+        "comments": 0,
+        "author": "",
+        "time": "2026-10-25T16:01:32+00:00",
+        "tags": [
+          "esp",
+          "iphone",
+          "v2ex"
+        ],
+        "first_seen": "2026-10-25",
+        "summary_zh": "这是一个让网页端 Harness 自动操作 iPhone 的开源项目：Harness 跑在 Safari 里，读取手机屏幕并调用模型，再通过 ESP32 模拟蓝牙键鼠完成点击输入，还支持剪贴板同步。手机不用接线也不用装 App，ESP32 单独供电、与手机连同一 Wi-Fi 即可，支持自选模型和把常用流程写成可复用的技能，目前要求 iOS / iPadOS 27 及以上。",
+        "summary_en": "This open-source project drives an iPhone from a web-based Harness running in Safari: it reads the screen, calls a model, and sends taps and typing through an ESP32 emulating a Bluetooth keyboard and mouse, with clipboard sync as well. The phone needs no cable and no extra app; the ESP32 has its own power and just shares the same Wi-Fi. Users can pick their own model and save repeatable operation flows as skills, and it currently requires iOS or iPadOS 27 or later.",
+        "domain": "v2ex.com",
+        "quality_score": 64.5,
+        "related_ids": [
+          "v2ex-7ae8a95763a9",
+          "v2ex-a2f0f2f8b12f",
+          "gh-monthly-affaan-m-ECC",
+          "gh-monthly-pbakaus-impeccable",
+          "hn-50211474"
+        ]
+      },
+      {
+        "id": "hn-50195110",
+        "title": "eMudhra to exit global SSL/TLS certificate business",
+        "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+        "description": "",
+        "source": "hackernews",
+        "score": 1152,
+        "comments": 747,
+        "author": "bo0tzz",
+        "time": "2026-10-22T13:33:39+00:00",
+        "tags": [
+          "certificate",
+          "emudhra",
+          "exit",
+          "hackernews",
+          "tls"
+        ],
+        "first_seen": "2026-10-22",
+        "summary_zh": "在印度上市的全球数字信任公司 eMudhra Limited（BSE: 543533，NSE: EMUDHRA）宣布，董事会已决定自愿退出全球 SSL/TLS 证书业务。公告只有这一句，未说明退出原因与过渡安排，仍在持有其签发证书的团队需要跟进后续通知。",
+        "summary_en": "eMudhra Limited, an India-listed digital trust company trading on the BSE and NSE, said its board has decided to voluntarily withdraw from the global SSL/TLS certificate business. The notice is a single announcement with no stated reason or transition plan, so teams holding certificates issued by eMudhra should watch for follow-up guidance.",
+        "domain": "emudhra.com",
+        "quality_score": 50.5,
+        "related_ids": [
+          "hn-50195959",
+          "hn-50166579",
+          "v2ex-db1af5f8645d",
+          "hn-50177916",
+          "hn-50218277"
+        ]
+      },
+      {
+        "id": "hn-50180873",
+        "title": "PHP 8.2.35",
+        "url": "https://github.com/php/php-src/releases/tag/php-8.2.35",
+        "description": "",
+        "source": "hackernews",
+        "score": 1107,
+        "comments": 578,
+        "author": "tuyuri",
+        "time": "2026-10-21T13:45:33+00:00",
+        "tags": [
+          "github",
+          "hackernews",
+          "php"
+        ],
+        "first_seen": "2026-10-21",
+        "summary_zh": "PHP 8.2.35 发布，条目本身只给出这个版本号；附带的链接指向另一个讨论帖，内容是当天的 PHP 安全版本以及项目如何加强安全性。仍在维护 8.2 分支的团队可以顺着这条线索确认该版本是否包含安全修复，并据此安排升级。",
+        "summary_en": "PHP 8.2.35 is out, with the item itself carrying only the version number; a linked companion thread discusses that day's PHP security release and how the project is strengthening its security process. Teams still running the 8.2 branch should check whether this build carries security fixes and plan upgrades accordingly.",
+        "domain": "github.com",
+        "quality_score": 47.9,
+        "related_ids": [
+          "v2ex-5ca777ba40c2",
+          "v2ex-e391aec7ec2e",
+          "36kr-4036210178134916",
+          "hn-50182987",
+          "gh-daily-php-php-src"
+        ]
+      },
+      {
+        "id": "zhihu-2097079956266399076",
+        "title": "「赐死七万精锐铁骑」、「送太子和亲」、「冻死兵部尚书」，古偶为什么总是出现逆天剧情？",
+        "url": "https://www.zhihu.com/question/2097079956266399076",
+        "description": "",
+        "source": "zhihu",
+        "score": 1720000,
+        "comments": 0,
+        "author": "",
+        "time": "2026-10-25T12:00:00+00:00",
+        "tags": [
+          "general-hot",
+          "zhihu"
+        ],
+        "first_seen": "2026-10-25",
+        "summary_zh": "这是知乎上的一个问题，讨论古装偶像剧为何频繁出现「赐死七万精锐铁骑」「送太子和亲」「冻死兵部尚书」这类违背常识的剧情。原文只提供了问题标题，未附带回答或正文内容，因此无法展开具体论点。",
+        "summary_en": "This is a Zhihu question asking why period romance dramas keep producing plot points that defy basic logic, citing examples such as executing seventy thousand elite cavalry, sending the crown prince off in a marriage alliance, and freezing a minister of war to death. The linked page isn't summarized here; beyond the question title, details and answers aren't available.",
+        "domain": "zhihu.com",
+        "quality_score": 41.4,
+        "related_ids": []
+      },
+      {
+        "id": "hn-50211474",
+        "title": "Today, we hacked what we'd set out to hack: the iPhone",
+        "url": "https://blog.calif.io/p/iphone",
+        "description": "",
+        "source": "hackernews",
+        "score": 1101,
+        "comments": 712,
+        "author": "pavel_lishin",
+        "time": "2026-10-23T16:21:50+00:00",
+        "tags": [
+          "hack",
+          "hacked",
+          "hackernews",
+          "iphone"
+        ],
+        "first_seen": "2026-10-23",
+        "summary_zh": "一条 Hacker News 帖子，标题称团队当天攻破了原本设定的目标，也就是 iPhone。帖子正文只有与标题完全相同的一句话，没有漏洞类型、iOS 版本、利用链或厂商回应，因此无法判断这是真实攻击、越狱还是演示性质的破解。",
+        "summary_en": "A Hacker News submission whose title states the team hacked exactly what it set out to hack: the iPhone. The post body repeats that single sentence, so there's no word on vulnerability class, iOS version, exploit chain, or vendor response, and it's unclear whether this was a live attack, a jailbreak, or a demo. The linked page isn't summarized here.",
+        "domain": "blog.calif.io",
+        "quality_score": 49.3,
+        "related_ids": [
+          "v2ex-7ae8a95763a9",
+          "v2ex-6e19d5d8c615",
+          "v2ex-a2f0f2f8b12f",
+          "36kr-4036266730886018",
+          "36kr-4032044521558403"
+        ]
+      },
+      {
+        "id": "hn-50212065",
+        "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+        "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+        "description": "",
+        "source": "hackernews",
+        "score": 1079,
+        "comments": 669,
+        "author": "Jowsey",
+        "time": "2026-10-23T16:59:08+00:00",
+        "tags": [
+          "hackernews",
+          "kimi",
+          "pro"
+        ],
+        "first_seen": "2026-10-23",
+        "summary_zh": "这条提交指向 Kimi 代码模型文档中的型号列表，其中出现 K3.1 Pro 与 K3.1 Pro Highspeed 两个版本，另附 Artificial Analysis 的模型页和一篇关于中国开源 AI 的对比博客。原文只给了链接、没有说明文字，上下文长度、定价以及 Highspeed 与标准版的具体差异都无从判断。",
+        "summary_en": "A submission pointing to Kimi's code-model docs, which list two entries, K3.1 Pro and K3.1 Pro Highspeed, plus an Artificial Analysis model page and a comparison blog on Chinese open-source AI. Only links were posted, so context length, pricing, and how Highspeed differs from the base model can't be determined from the submission itself.",
+        "domain": "kimi.ai",
+        "quality_score": 48.5,
+        "related_ids": [
+          "36kr-4039236862514306",
+          "36kr-4039469378163840",
+          "zhihu-2097222392464655823",
+          "v2ex-00489eeaed8f",
+          "juejin-7700059276316246067"
         ]
       },
       {
@@ -85,1110 +924,18 @@
           "juejin",
           "编程"
         ],
-        "first_seen": "2026-09-24",
+        "first_seen": "2026-09-25",
         "summary_zh": "一位开发者记录了自己从 Cursor 转向 Codex、用了大半个月之后的体验：Cursor 让他第一次强烈感受到 AI 编程的冲击，而 Codex 更像一个能自己往下做事的超级 Agent，而非单纯的编程助手。这是主观使用感受而非基准测试，适合正在 Cursor 和 Codex 之间做选择、或关心 AI 编程工具形态往哪走的人参考。",
         "summary_en": "A developer who spent the better part of a month on Codex after switching from Cursor says the newer tool feels less like a coding assistant and more like a general-purpose agent that keeps working on its own, while Cursor was his first real taste of AI-assisted coding. It is a personal, hands-on account rather than a benchmark, useful for anyone choosing between the two or tracking how these tools are changing shape.",
         "domain": "juejin.cn",
-        "quality_score": 80.0,
+        "quality_score": 66.6,
         "related_ids": [
           "gh-monthly-affaan-m-ECC",
-          "juejin-7673855455463800847",
           "v2ex-a5c59a40ce07",
-          "v2ex-2f94232b8b21",
-          "gh-daily-Nutlope-hallmark"
-        ]
-      },
-      {
-        "id": "zhihu-2097043375547536464",
-        "title": "国务院办公厅称要「有效减缓人工智能应用就业替代影响」，释放出什么信号？可能带来哪些实际影响？",
-        "url": "https://www.zhihu.com/question/2097043375547536464",
-        "description": "",
-        "source": "zhihu",
-        "score": 4960000,
-        "comments": 0,
-        "author": "",
-        "time": "2026-10-24T12:00:00+00:00",
-        "tags": [
-          "zhihu",
-          "应用"
-        ],
-        "first_seen": "2026-10-24",
-        "summary_zh": "知乎上出现一个提问，围绕国务院办公厅提出的「有效减缓人工智能应用就业替代影响」这一表述，讨论它释放了什么政策信号、可能带来哪些实际影响。原文是链接帖，未提供更多正文内容，具体政策条款和配套措施无法从现有素材确认。",
-        "summary_en": "A Zhihu thread asks what signal is being sent by a State Council General Office statement calling for effectively mitigating AI's job-displacement effects, and what practical impact it might have. The linked page isn't summarized here; details beyond the title aren't available.",
-        "domain": "zhihu.com",
-        "quality_score": 44.1,
-        "related_ids": [
-          "zhihu-2096569066114610825",
-          "zhihu-2092937311851902232"
-        ]
-      },
-      {
-        "id": "36kr-4039236862514306",
-        "title": "Kimi K3.1 Pro刚发布，社区先炸了：比K3快、性能逼近Opus，但额度10分钟就烧光了",
-        "url": "https://36kr.com/p/4039236862514306",
-        "description": "",
-        "source": "36kr",
-        "score": 20628,
-        "comments": 0,
-        "author": "",
-        "time": "2026-10-24T02:32:58.645000+00:00",
-        "tags": [
-          "36kr",
-          "kimi",
-          "opus",
-          "pro",
-          "性能"
-        ],
-        "first_seen": "2026-10-24",
-        "summary_zh": "Kimi K3.1 Pro 发布后，社区讨论集中在两点：速度比 K3 更快，性能接近 Opus；但额度消耗极快，有用户 10 分钟就烧光了。打算用它跑长任务或高频调用的开发者，可能得先算清额度成本，再谈性能。",
-        "summary_en": "Kimi K3.1 Pro has just launched, and community reaction centers on two points: it is faster than K3 and performs close to Opus, yet its quota burns fast enough that some users ran out within ten minutes. Developers planning long or high-frequency calls should budget for quota before benchmark scores.",
-        "domain": "36kr.com",
-        "quality_score": 50.3,
-        "related_ids": [
-          "hn-50212065",
-          "36kr-4039469378163840",
-          "v2ex-00489eeaed8f",
-          "36kr-4001348750512260",
-          "36kr-4023585253871494"
-        ]
-      },
-      {
-        "id": "infoq-wyGrRsTrfHM7i9MhuV5P",
-        "title": "又一国产决策模型发布：面向企业高频判断任务，23 项开源基测准确率超过微软和 JEV",
-        "url": "https://www.infoq.cn/article/wyGrRsTrfHM7i9MhuV5P",
-        "description": "",
-        "source": "infoq",
-        "score": 8893,
-        "comments": 0,
-        "author": "",
-        "time": "2026-10-22T11:16:58.129000+00:00",
-        "tags": [
-          "infoq",
-          "jev",
-          "开源",
-          "微软"
-        ],
-        "first_seen": "2026-10-22",
-        "summary_zh": "蚂蚁数科 10 月 22 日发布决策模型 LingDT-Decision-1.0，提供 4B 与 27B 两个版本，专做意图识别、任务分类、工具选择与风险判断等结构化判断，已在 DTMaaS 平台限时免费开放体验。官方称其 27B 版本在 23 项开源基准的综合评分超过 Microsoft-Decision-1、Jev 1.13.0 与 Fastino/GLiDE，在客服等场景 Token 消耗降低九成以上、处理速度最高提升约 10 倍。",
-        "summary_en": "Ant Digital Technologies released LingDT-Decision-1.0 on October 22 in 4B and 27B sizes, aimed at structured enterprise decisions such as intent detection, task classification, tool selection and risk scoring rather than free-form text generation. The company says the 27B version outscores Microsoft-Decision-1, Jev 1.13.0 and Fastino/GLiDE across 23 open benchmarks, with over 90% lower token use and up to 10x faster processing in customer-service and labeling tests. It is free to try for a limited time on the DTMaaS platform.",
-        "domain": "infoq.cn",
-        "quality_score": 38.3,
-        "related_ids": [
-          "v2ex-c046a7ad5f76",
-          "v2ex-694a7e93ffb1",
-          "infoq-AD1M3mJ2SH1dJrTA1r5q",
-          "v2ex-b28ffa5ee93e",
-          "v2ex-08bf5530dd48"
-        ]
-      },
-      {
-        "id": "v2ex-694a7e93ffb1",
-        "title": "[分享创造] 分享一个用 Rust 写的开源 2D CAD： CADCraft",
-        "url": "https://www.v2ex.com/t/1251588#reply0",
-        "description": "",
-        "source": "v2ex",
-        "score": 300,
-        "comments": 0,
-        "author": "",
-        "time": "2026-10-24T21:41:32+00:00",
-        "tags": [
-          "cad",
-          "rust",
-          "v2ex",
-          "开源"
-        ],
-        "first_seen": "2026-10-24",
-        "summary_zh": "CADCraft 是用 Rust 写的免费开源 2D CAD，覆盖 Windows、macOS、Linux、FreeBSD 和 WebAssembly，提供 LINE、CIRCLE、ARC、OFFSET、TRIM 等绘图工具与 DWG/DXF 工作流，可导出 PDF、SVG、PNG。它带 MCP、JSON 控制和 headless CLI，方便脚本或 AI agent 建图、校验实体、转换文件，项目仍在活跃开发。",
-        "summary_en": "CADCraft is a free, open-source 2D CAD application written in Rust, running on Windows, macOS, Linux, FreeBSD and WebAssembly. It ships drafting tools such as LINE, CIRCLE, ARC, OFFSET and TRIM, layers and dimensions, DWG/DXF workflows, plus PDF, SVG and PNG export. Its MCP, JSON control and headless CLI let scripts or AI agents create drawings, inspect entities and convert files. It is under active development with MIT or Apache-2.0 licensing.",
-        "domain": "v2ex.com",
-        "quality_score": 75.0,
-        "related_ids": [
-          "v2ex-c046a7ad5f76",
-          "v2ex-b28ffa5ee93e",
-          "v2ex-08bf5530dd48",
-          "v2ex-83c2f870366f",
-          "v2ex-0099c4cefbf8"
-        ]
-      },
-      {
-        "id": "juejin-7655245911811784750",
-        "title": "面试官问你：“AI 能写 80% 的代码了，公司为什么还需要你？”",
-        "url": "https://juejin.cn/post/7655245911811784750",
-        "description": "先说一个事实：2026 年的技术面试，已经和两年前完全不一样了。两年前面试问的是：\"手写一个 Promise\"、\"说说 React Fiber 原理\"...现在面试官默认你会用 AI。他们真正想知道的",
-        "source": "juejin",
-        "score": 539,
-        "comments": 165,
-        "author": "",
-        "time": "2026-09-02T08:23:08+00:00",
-        "tags": [
-          "ai",
-          "juejin",
-          "react"
-        ],
-        "first_seen": "2026-09-24",
-        "summary_zh": "这篇掘金文章讨论 2026 年技术面试的变化：两年前还在考手写 Promise、React Fiber 原理，如今面试官默认候选人会用 AI，转而追问「AI 能写 80% 的代码，公司为什么还需要你」。文章要回答的正是开发者该展示哪些 AI 替代不了的判断力和工程能力，适合正在准备面试的工程师。",
-        "summary_en": "A Juejin post on how 2026 technical interviews differ from two years ago: instead of hand-writing a Promise or explaining React Fiber, interviewers now assume candidates already use AI and ask why a company should still hire them when AI writes 80% of the code. It's aimed at engineers preparing for interviews who need to articulate what AI can't replace.",
-        "domain": "juejin.cn",
-        "quality_score": 68.3,
-        "related_ids": [
-          "juejin-7637856870833635343",
-          "v2ex-c046a7ad5f76",
-          "v2ex-00489eeaed8f",
-          "v2ex-a2ef11e48bc2",
-          "v2ex-a5c59a40ce07"
-        ]
-      },
-      {
-        "id": "v2ex-00489eeaed8f",
-        "title": "[分享发现] 谈谈我的每月 20 美元 AI 工具搭配策略：为什么我停掉了官方 Claude Pro 订阅",
-        "url": "https://www.v2ex.com/t/1251587#reply2",
-        "description": "",
-        "source": "v2ex",
-        "score": 290,
-        "comments": 0,
-        "author": "",
-        "time": "2026-10-24T20:57:41+00:00",
-        "tags": [
-          "ai",
-          "claude",
-          "pro",
-          "v2ex",
-          "订阅"
-        ],
-        "first_seen": "2026-10-24",
-        "summary_zh": "一位开发者分享把 AI 订阅压在每月 20 美元以内的思路：按 90/10 分流，架构设计、跨文件重构等硬任务才交给付费模型，日常脚本与格式转换用免费模型。他的付费主力是 19.99 美元/月的 Google 企业级聚合方案，可调 Gemini 旗舰与 Claude 3.5 Sonnet、Opus，并因速率限制和封号风险停掉官方 Claude Pro。",
-        "summary_en": "An indie developer lays out an AI tool stack capped at $20 a month, splitting work 90/10: only hard tasks like architecture design and cross-file refactoring go to paid frontier models, while routine scripts and format conversion run on free ones. His paid base is a $19.99/month Google enterprise bundle covering Gemini flagships plus Claude 3.5 Sonnet and Opus quotas. He dropped official Claude Pro over rate limits, peak-hour quality drops and ban risk.",
-        "domain": "v2ex.com",
-        "quality_score": 73.8,
-        "related_ids": [
-          "v2ex-769bd8f52941",
-          "36kr-4037841110422403",
           "v2ex-2f94232b8b21",
           "gh-daily-Nutlope-hallmark",
-          "juejin-7637856870833635343"
+          "juejin-7673855455463800847"
         ]
-      },
-      {
-        "id": "v2ex-b8f62d81127b",
-        "title": "[OpenAI] team codex 额度 vs GPT PLUS 额度如何？",
-        "url": "https://www.v2ex.com/t/1251586#reply0",
-        "description": "",
-        "source": "v2ex",
-        "score": 280,
-        "comments": 0,
-        "author": "",
-        "time": "2026-10-24T20:04:20+00:00",
-        "tags": [
-          "codex",
-          "gpt",
-          "openai",
-          "plus",
-          "v2ex",
-          "额度"
-        ],
-        "first_seen": "2026-10-24",
-        "summary_zh": "一位重度使用 GPT Team 的用户在 V2EX 发帖，说自己为拼车开了多个 team 账号、用 cpa 串起来共用，还搭了网站让拼友自助下单，报价 85 元/月。他真正想问的是 team 和 Plus 的额度各有多少，比如是否如传闻一周 100 美元；帖中并未给出答案，他不使用 sub2api 以免封号。",
-        "summary_en": "A heavy GPT Team user on V2EX describes running several team accounts strung together with cpa for shared use, and even built a self-serve site reselling seats at 85 yuan a month. What he actually wants to know is the real quota for team versus Plus accounts, including whether the rumored $100 a week is accurate; the post offers no answer, and he avoids sub2api over ban worries.",
-        "domain": "v2ex.com",
-        "quality_score": 72.7,
-        "related_ids": [
-          "v2ex-ccceebefc6f6",
-          "v2ex-893e47014fa4",
-          "v2ex-962901f94ed2",
-          "v2ex-2440e87a2666",
-          "v2ex-2f34441d1f5e"
-        ]
-      },
-      {
-        "id": "v2ex-ee9933332fe9",
-        "title": "[分享创造] 我写了个自认为非常牛逼的浏览器插件: StackPrism",
-        "url": "https://www.v2ex.com/t/1251585#reply2",
-        "description": "",
-        "source": "v2ex",
-        "score": 270,
-        "comments": 0,
-        "author": "",
-        "time": "2026-10-24T18:19:15+00:00",
-        "tags": [
-          "v2ex"
-        ],
-        "first_seen": "2026-10-24",
-        "summary_zh": "StackPrism（栈棱镜）是一款检测网页技术栈的浏览器扩展，内置 35,000+ 条规则、130,000+ patterns，覆盖前端框架、UI 库、CDN、SaaS、统计、支付等 20 多个分类。作者是嫌 Wappalyzer 在部分站点上识别不出东西才自己重做的，匹配全部在本地离线完成、不上传页面数据，支持自定义识别规则，代码已开源，Chromium 系浏览器和 Firefox 都能装。",
-        "summary_en": "StackPrism is a browser extension that fingerprints the tech stack of whatever page you're on, shipping 35,000+ rules and 130,000+ patterns across 20-plus categories such as frontend frameworks, UI libraries, CDNs, SaaS, analytics and payments. The author built it after Wappalyzer failed to identify some sites; all matching runs offline inside the extension, no page data is uploaded, detection rules are user-extensible, and the source is on GitHub.",
-        "domain": "v2ex.com",
-        "quality_score": 71.5,
-        "related_ids": []
-      },
-      {
-        "id": "v2ex-5457bdbf1426",
-        "title": "[硬件] 理了一下马斯克和英特尔的公开信息： Terafab + 14A，目前只有「总体框架」，没那么铁",
-        "url": "https://www.v2ex.com/t/1251584#reply0",
-        "description": "",
-        "source": "v2ex",
-        "score": 260,
-        "comments": 0,
-        "author": "",
-        "time": "2026-10-24T18:12:47+00:00",
-        "tags": [
-          "v2ex",
-          "框架",
-          "硬件"
-        ],
-        "first_seen": "2026-10-24",
-        "summary_zh": "有人把马斯克与英特尔的公开信息翻了一遍：英特尔已加入 Terafab 项目，马斯克称正式工厂打算用 14A 制程，但 SpaceX 文件写明只谈妥总体框架，资金、知识产权和各方分工都要另签。作者指出英特尔二季度代工收入 58 亿美元、外部客户仅 2.93 亿且经营亏损 21 亿，认为收购传闻基本不靠谱，更可能是产能协议或封装合作，14A 预计 2027 下半年试产、2028 量产。",
-        "summary_en": "A V2EX user went through the public record on Musk and Intel: Intel has joined the Terafab project and Musk says the production fab would run on the 14A process, but a SpaceX filing states only an overall framework is agreed, with funding, IP and participation still to be signed. Intel's Q2 foundry revenue was $5.8B with just $293M from external customers and a $2.1B operating loss, so he argues an acquisition is unlikely and a capacity or packaging deal more plausible. 14A trial production is slated for H2 2027, volume in 2028.",
-        "domain": "v2ex.com",
-        "quality_score": 70.3,
-        "related_ids": [
-          "v2ex-11ab44a3be65",
-          "v2ex-cc0e24388b3d",
-          "v2ex-3703df7c563d",
-          "v2ex-9ca62f3ed0b5",
-          "v2ex-801e3d51d6c0"
-        ]
-      },
-      {
-        "id": "36kr-4039177193411718",
-        "title": "9点1氪丨国内大模型均价涨至13元；原“死了么”APP公布收费标准，最高199元/年；寒武纪第三季度净利润14.04亿元，同比增长147.74%",
-        "url": "https://36kr.com/p/4039177193411718",
-        "description": "",
-        "source": "36kr",
-        "score": 17209,
-        "comments": 0,
-        "author": "",
-        "time": "2026-10-24T01:06:50.696000+00:00",
-        "tags": [
-          "36kr",
-          "亿元",
-          "同比增长",
-          "大模型"
-        ],
-        "first_seen": "2026-10-24",
-        "summary_zh": "36 氪早间快讯 9 点 1 氪汇总了三条消息：国内大模型平均价格涨至 13 元；原「死了么」APP 公布收费标准，最高 199 元/年；寒武纪第三季度净利润 14.04 亿元，同比增长 147.74%。原文就是标题式速览，没有展开细节，适合快速扫一遍行业动向，单条还需要回到原始报道去看。",
-        "summary_en": "36Kr's morning brief rounds up three items: the average price of domestic Chinese large models has risen to 13 yuan, an app formerly called 死了么 published pricing that tops out at 199 yuan a year, and Cambricon posted Q3 net profit of 1.404 billion yuan, up 147.74% year over year. The original is a headline-style digest with no further detail, good for a quick scan of where the industry is moving rather than for deep reading.",
-        "domain": "36kr.com",
-        "quality_score": 48.6,
-        "related_ids": [
-          "zhihu-2096713518582179306",
-          "infoq-Md0kdMxGI6flIbZXH1yg",
-          "36kr-4036266730886018",
-          "zhihu-2073727130379051737",
-          "36kr-4026385299165321"
-        ]
-      },
-      {
-        "id": "v2ex-a5c59a40ce07",
-        "title": "[程序员] 分享 Vibe Coding 作品： AI Vault，多 Agent 技能管理工具+llama.cpp 本地部署工具",
-        "url": "https://www.v2ex.com/t/1251583#reply0",
-        "description": "",
-        "source": "v2ex",
-        "score": 250,
-        "comments": 0,
-        "author": "",
-        "time": "2026-10-24T16:51:17+00:00",
-        "tags": [
-          "agent",
-          "ai",
-          "cpp",
-          "llama",
-          "v2ex",
-          "vibe",
-          "vibe-coding",
-          "程序员",
-          "部署"
-        ],
-        "first_seen": "2026-10-24",
-        "summary_zh": "AI Vault 把技能、提示词、MCP、模型与密钥集中管理，并能一键分发到 49+ Agent，作者强调数据始终留在本机。它同时集成了 llama.cpp、KVMEM、NInfer 的本地部署和模型下载，适合同时折腾多个 Agent、又不想让配置散落各处的人，作者把它作为自己的 Vibe Coding 作品发布，附了官网文档和 B 站演示。",
-        "summary_en": "AI Vault manages skills, prompts, MCP servers, models and API keys in one place and pushes them to 49+ agents with one click, with the author stressing that all data stays on your own machine. It also bundles local deployment for llama.cpp, KVMEM and NInfer plus model downloads. It targets people juggling several agents who don't want configs scattered across tools; the author presents it as a Vibe Coding project with docs and video demos.",
-        "domain": "v2ex.com",
-        "quality_score": 69.2,
-        "related_ids": [
-          "juejin-7623217419704909866",
-          "v2ex-52d3a133953c",
-          "infoq-QQk3wiolU1VScH3u0P7T",
-          "juejin-7637856870833635343",
-          "v2ex-27d6342cfd59"
-        ]
-      },
-      {
-        "id": "infoq-ViOyxiOSP2ihxuUyg1rD",
-        "title": "DeepSeek千亿融资逼近收官：结盟完美世界、中芯聚源等产业资本，募资翻倍押注具身智能",
-        "url": "https://www.infoq.cn/article/ViOyxiOSP2ihxuUyg1rD",
-        "description": "",
-        "source": "infoq",
-        "score": 7364,
-        "comments": 0,
-        "author": "",
-        "time": "2026-10-23T00:46:30.412000+00:00",
-        "tags": [
-          "deepseek",
-          "infoq",
-          "融资"
-        ],
-        "first_seen": "2026-10-23",
-        "summary_zh": "据彭博社报道，DeepSeek 第二轮融资规模锁定约 1000 亿元人民币，投前估值约 5000 亿元，距 6 月底 510 亿元的首轮融资不到四个月，累计吸金已超 1500 亿元。腾讯、宁德时代各追加约 100 亿元，新进方以中芯聚源、吉利等产业资本为主，完美世界披露的两只专项基金合计募资 111.7 亿元。",
-        "summary_en": "Bloomberg reports DeepSeek's second round has locked in roughly 100 billion RMB at a pre-money valuation near 500 billion, pushing its total raised past 150 billion RMB in under four months. Tencent and CATL each added about 10 billion, while new money came mainly from hard-tech investors such as SMIC Capital and Geely, and Perfect World disclosed two vehicles that raised 11.17 billion combined.",
-        "domain": "infoq.cn",
-        "quality_score": 51.0,
-        "related_ids": [
-          "36kr-4037687068021637",
-          "zhihu-2096713518582179306",
-          "hn-50163277",
-          "v2ex-b43f47c1d178",
-          "36kr-4025027267580036"
-        ]
-      },
-      {
-        "id": "v2ex-cc11fa707e13",
-        "title": "[推广] 做了一个生成 Rap 视频的工具，欢迎来玩",
-        "url": "https://www.v2ex.com/t/1251581#reply0",
-        "description": "",
-        "source": "v2ex",
-        "score": 240,
-        "comments": 0,
-        "author": "",
-        "time": "2026-10-24T16:20:28+00:00",
-        "tags": [
-          "rap",
-          "v2ex",
-          "推广"
-        ],
-        "first_seen": "2026-10-24",
-        "summary_zh": "airapreel.com 是一个把照片里的人替换进 Rap 视频的网站，内置 Hotel Lobby、Burning Bridges 等热门模板，选模板、传照片即可，AI 会尽量保留原视频的动作、场景和镜头，全程不用写提示词。作者坦言多人物、遮挡和频繁切镜时会出现人物不一致，后续会开放上传自己的视频，目前处于优惠期。",
-        "summary_en": "airapreel.com swaps a person in a rap video for someone from your photo: pick a template such as Hotel Lobby or Burning Bridges, upload a picture, and the AI tries to preserve the original motion, scene and camera work with no prompt writing. The author admits results wobble with multiple people, occlusion and frequent cuts, plans to let users upload their own footage, and is running promotional pricing for now.",
-        "domain": "v2ex.com",
-        "quality_score": 68.0,
-        "related_ids": [
-          "v2ex-36ec70ce0fa6",
-          "v2ex-c046a7ad5f76",
-          "v2ex-901bc626d51a",
-          "v2ex-7ecb4ea1538c",
-          "v2ex-08bf5530dd48"
-        ]
-      },
-      {
-        "id": "infoq-AkDgwN6h72cqUOJ35Zok",
-        "title": "AI Agent 正在改写 CPU 的价值：当 Token 变成行动，算力竞争不再只是拼 GPU",
-        "url": "https://www.infoq.cn/article/AkDgwN6h72cqUOJ35Zok",
-        "description": "",
-        "source": "infoq",
-        "score": 6943,
-        "comments": 0,
-        "author": "",
-        "time": "2026-10-23T09:53:09.224000+00:00",
-        "tags": [
-          "agent",
-          "ai",
-          "infoq"
-        ],
-        "first_seen": "2026-10-23",
-        "summary_zh": "Arm 云 AI 解决方案架构总监 Ravi Malhotra 提出，在 Agent 场景下衡量 CPU 性能的方式正在改变：除了支撑推理，CPU 还要把模型生成的 Token 转成真实行动，包括代码编译与测试、工具调用、数据库访问和沙箱隔离。Arm 已发布一套评估方法，把工具调用、任务编排和端到端任务执行纳入 CPU 性能评价，并与富士通、Meta、OpenAI 等企业共同探索。文章指出，若 CPU 侧的编译测试跟不上，昂贵的 GPU 只能空等，正在做 AI 基础设施选型与算力配比的人可据此重新权衡。",
-        "summary_en": "Arm's cloud AI solutions architecture director Ravi Malhotra argues that in agentic workloads, CPU performance should no longer be judged mainly by token generation. The CPU has to turn generated tokens into actions such as compiling and testing code, calling tools, hitting databases and isolating sandboxes, while accelerators handle planning. Arm has published an evaluation method covering tool calls, orchestration and end-to-end task execution, developed with Fujitsu, Meta, OpenAI and others. If CPU-side work lags, expensive GPUs sit idle.",
-        "domain": "infoq.cn",
-        "quality_score": 50.4,
-        "related_ids": [
-          "juejin-7637856870833635343",
-          "v2ex-a2ef11e48bc2",
-          "v2ex-a5c59a40ce07",
-          "v2ex-179a55c7c6bf",
-          "v2ex-b07085612a6b"
-        ]
-      },
-      {
-        "id": "36kr-4039469378163840",
-        "title": "刚刚，Kimi K3.1 Pro杀进全球前四，Agent第一",
-        "url": "https://36kr.com/p/4039469378163840",
-        "description": "",
-        "source": "36kr",
-        "score": 15831,
-        "comments": 0,
-        "author": "",
-        "time": "2026-10-24T07:00:49+00:00",
-        "tags": [
-          "36kr",
-          "agent",
-          "kimi",
-          "pro",
-          "刚刚"
-        ],
-        "first_seen": "2026-10-24",
-        "summary_zh": "36氪 报道称 Kimi K3.1 Pro 在某项排名中进入全球前四，并在 Agent 分类中位列第一。该条目原文只提供标题与链接，未说明榜单名称、评测口径、模型参数或发布时间等细节，无法进一步核实。",
-        "summary_en": "A 36kr report states that Kimi K3.1 Pro has entered the global top four on a ranking and taken first place in the Agent category. The linked page isn't summarized here; the name of the leaderboard, the evaluation methodology, model details and release information are not available beyond the title.",
-        "domain": "36kr.com",
-        "quality_score": 47.9,
-        "related_ids": [
-          "hn-50212065",
-          "36kr-4039236862514306",
-          "juejin-7637856870833635343",
-          "v2ex-00489eeaed8f",
-          "v2ex-a5c59a40ce07"
-        ]
-      },
-      {
-        "id": "v2ex-9821a8fac9c3",
-        "title": "[酷工作] App 开发工程师",
-        "url": "https://www.v2ex.com/t/1251580#reply0",
-        "description": "",
-        "source": "v2ex",
-        "score": 230,
-        "comments": 0,
-        "author": "",
-        "time": "2026-10-24T16:16:50+00:00",
-        "tags": [
-          "v2ex"
-        ],
-        "first_seen": "2026-10-24",
-        "summary_zh": "这是一则 V2EX 上的远程办公 App 开发工程师招聘：要求 5 年以上客户端经验、至少一个已上线并持续迭代的 iOS 或 Android 应用，且必须熟悉 Flutter，同时要覆盖推送、Deep Link、弱网与离线缓存、崩溃治理和商店审核发布等环节。岗位还要求有全栈交付能力，能修改后端接口并完成联调，并明确要求会用 Codex、Cursor、Claude Code、GitHub Copilot 等 AI Coding 工具，但不能只依赖 AI 生成代码，需人工把控代码质量、隐私与合规风险。有意者通过 Telegram 联系。",
-        "summary_en": "A V2EX job post for a remote App developer role asks for 5+ years of client-side experience, at least one shipped and continuously maintained iOS or Android app, and mandatory Flutter skills, plus push, deep links, weak-network and offline caching, crash handling and store release workflows. Candidates must also have full-stack delivery experience and be able to modify backend APIs and debug integrations. Familiarity with Codex, Cursor, Claude Code and GitHub Copilot is required, but AI output must be human-reviewed. Contact is via Telegram.",
-        "domain": "v2ex.com",
-        "quality_score": 66.8,
-        "related_ids": []
-      },
-      {
-        "id": "zhihu-2095176252785157261",
-        "title": "9 月日产本田在华销量均跌超五成，为何日系车遭遇大幅下滑？",
-        "url": "https://www.zhihu.com/question/2095176252785157261",
-        "description": "",
-        "source": "zhihu",
-        "score": 3730000,
-        "comments": 0,
-        "author": "",
-        "time": "2026-10-24T12:00:00+00:00",
-        "tags": [
-          "general-hot",
-          "zhihu"
-        ],
-        "first_seen": "2026-10-24",
-        "summary_zh": "这是一条知乎提问，聚焦 9 月日产与本田在华销量双双同比下跌超过五成这一现象，追问日系车为何出现大幅下滑。原文仅提供标题与链接，未附具体销量数字来源、车型结构或分析内容，细节无法进一步展开。",
-        "summary_en": "A Zhihu question asks why Japanese automakers slid so sharply, citing September China sales for Nissan and Honda both falling more than 50% year over year. The linked page isn't summarized here; the source of the figures, model-level breakdown and any analysis aren't available beyond the title.",
-        "domain": "zhihu.com",
-        "quality_score": 43.1,
-        "related_ids": []
-      },
-      {
-        "id": "36kr-4039202913113223",
-        "title": "从一天119元到月流水100万，05后大学生摆摊干到20家店",
-        "url": "https://36kr.com/p/4039202913113223",
-        "description": "",
-        "source": "36kr",
-        "score": 15338,
-        "comments": 0,
-        "author": "",
-        "time": "2026-10-24T01:45:56.676000+00:00",
-        "tags": [
-          "36kr"
-        ],
-        "first_seen": "2026-10-24",
-        "summary_zh": "36氪 报道了一位 05 后大学生的创业经历：他从摆摊起步，最初一天只有 119 元收入，如今做到 20 家店、月流水 100 万元。原文只提供标题与链接，未交代经营品类、所在城市、单店模型和扩张资金来源等细节，无法评估这套模式的可复制性。",
-        "summary_en": "A 36kr story profiles a post-2005 college student who started with a street stall earning 119 yuan a day and has since grown to 20 stores with monthly revenue of 1 million yuan. The linked page isn't summarized here; the product category, city, unit economics and funding for expansion aren't available beyond the title.",
-        "domain": "36kr.com",
-        "quality_score": 47.7,
-        "related_ids": []
-      },
-      {
-        "id": "v2ex-267ee1026845",
-        "title": "[分享创造] 分享一个小项目：把 ripgrep 做成跨平台的单文件 rg.com，还支持 Python / Node.js / Java 调用",
-        "url": "https://www.v2ex.com/t/1251579#reply0",
-        "description": "",
-        "source": "v2ex",
-        "score": 220,
-        "comments": 0,
-        "author": "",
-        "time": "2026-10-24T16:12:33+00:00",
-        "tags": [
-          "java",
-          "node",
-          "python",
-          "v2ex"
-        ],
-        "first_seen": "2026-10-24",
-        "summary_zh": "有开发者把 ripgrep 打包成 APE（Actually Portable Executable），产出单文件 rg.com，可在 Windows、Linux、macOS 上运行，覆盖 x86_64 与 ARM64。再借助 APEBind 生成统一的调用接口，Python、Node.js、Java 里都能直接调用 rg，省去按平台和架构分别构建的麻烦。",
-        "summary_en": "A developer packaged ripgrep as an APE (Actually Portable Executable), producing a single rg.com binary that runs on Windows, Linux and macOS across both x86_64 and ARM64. APEBind then generates uniform call interfaces for Python, Node.js and Java, so scripts can invoke rg without per-platform builds. The same trick produced sympy-ape and tika-ape, letting Java or Node.js call SymPy without Python installed, and Python use Apache Tika without a JVM.",
-        "domain": "v2ex.com",
-        "quality_score": 65.7,
-        "related_ids": [
-          "hn-50216791",
-          "v2ex-901bc626d51a",
-          "v2ex-83c2f870366f",
-          "v2ex-f8ce9ccf9c21",
-          "v2ex-9c3af53c0962"
-        ]
-      },
-      {
-        "id": "infoq-UmD4aAerZEts8sZ5t791",
-        "title": "刘铁岩、诺奖、图灵奖得主等嘉宾共话AI的下一个十年：Transformer一统天下之后，AI的下一张王牌是什么？",
-        "url": "https://www.infoq.cn/article/UmD4aAerZEts8sZ5t791",
-        "description": "",
-        "source": "infoq",
-        "score": 6393,
-        "comments": 0,
-        "author": "",
-        "time": "2026-10-23T09:54:19.928000+00:00",
-        "tags": [
-          "ai",
-          "infoq",
-          "transformer"
-        ],
-        "first_seen": "2026-10-23",
-        "summary_zh": "在 ICAAS 2026 首场圆桌上，诺贝尔化学奖得主迈克尔·莱维特、图灵奖得主杰克·唐加拉与数学家马骁、中关村学院何纪言探讨了 Transformer 路线收敛之后 AI 的下一步。莱维特主张像谨慎的银行家一样分散下注，唐加拉强调探索主流之外并接受失败，嘉宾还就 AI 寒冬是否会重演展开了争论。",
-        "summary_en": "At the opening roundtable of ICAAS 2026, Nobel chemistry laureate Michael Levitt, 2021 Turing winner Jack Dongarra, mathematician Ma Xiao and He Jiyan of Zhongguancun Academy debated where AI goes after the industry converged on Transformer-scale training. Levitt argued for hedging like a cautious banker rather than betting everything on one route; Dongarra pushed for exploring beyond the mainstream and treating failure as part of research. They clashed over whether overpromising could trigger another AI winter.",
-        "domain": "infoq.cn",
-        "quality_score": 49.6,
-        "related_ids": [
-          "juejin-7637856870833635343",
-          "v2ex-c046a7ad5f76",
-          "v2ex-00489eeaed8f",
-          "v2ex-a2ef11e48bc2",
-          "v2ex-a5c59a40ce07"
-        ]
-      },
-      {
-        "id": "infoq-Md0kdMxGI6flIbZXH1yg",
-        "title": "讯飞发布新一代端到端交互模型：语音大模型调用量暴涨20倍，端侧已实现约70%云端能力",
-        "url": "https://www.infoq.cn/article/Md0kdMxGI6flIbZXH1yg",
-        "description": "",
-        "source": "infoq",
-        "score": 6384,
-        "comments": 0,
-        "author": "",
-        "time": "2026-10-23T03:39:27.576000+00:00",
-        "tags": [
-          "infoq",
-          "大模型"
-        ],
-        "first_seen": "2026-10-23",
-        "summary_zh": "科大讯飞 10 月 22 日发布星火语音基座大模型 SparkAudio 1.0，在语音识别与同传之外加入音频理解、情绪识别、实时说话人分离和环境声理解，并推出端云一体的星火 X2.6 与 4B 端侧模型 Spark-X2.6-4B。官方称语音大模型调用量同比增长超 20 倍，端侧已具备约 70% 云端能力，相关能力进入讯飞输入法 16.0 等产品，针对的是机器人与智能家居里多人同时说话、环境嘈杂的真实场景。",
-        "summary_en": "iFlytek unveiled SparkAudio 1.0 on October 22, a speech foundation model that moves past ASR and translation to cover audio understanding, emotion recognition, real-time speaker separation and ambient sound. It also showed the cloud-device Spark X2.6 and a 4B on-device model, Spark-X2.6-4B. iFlytek says speech model calls are up more than 20x year over year and on-device models now handle roughly 70% of cloud capability, with the tech already shipping in iFlytek Input 16.0 for robots, cars and smart-home devices where several people talk over background noise.",
-        "domain": "infoq.cn",
-        "quality_score": 49.6,
-        "related_ids": [
-          "36kr-4039177193411718",
-          "zhihu-2073727130379051737",
-          "zhihu-2096713518582179306",
-          "infoq-qZPH971CbfHkaCfgG0cb",
-          "infoq-OBQpdcB1xURrJMRlrJZ1"
-        ]
-      },
-      {
-        "id": "infoq-mhdJwMMzYFedMFHKfHWs",
-        "title": "智源众智 FlagOS 2.2 让前沿模型与多元算力协同演进",
-        "url": "https://www.infoq.cn/article/mhdJwMMzYFedMFHKfHWs",
-        "description": "",
-        "source": "infoq",
-        "score": 6364,
-        "comments": 0,
-        "author": "",
-        "time": "2026-10-23T11:40:29.035000+00:00",
-        "tags": [
-          "infoq"
-        ],
-        "first_seen": "2026-10-23",
-        "summary_zh": "智源众智 FlagOS 2.2 的九大算子库合计覆盖 1454 个算子，比上一版增加 890 个，并在 10 款异构 AI 芯片、上千个算子上把跨芯性能整体提升约 27%。实践中 GLM-5.3-Flash 在存量昇腾 910B 上逻辑服务吞吐达优化前的 2.04 倍，按租金折算的算力成本比商业 API 参考计费低 19.4%—27.6%。",
-        "summary_en": "FlagOS 2.2 now bundles nine operator libraries covering 1,454 operators, 890 more than the previous release, and reports roughly 27% overall cross-chip performance gains measured across 10 heterogeneous AI chips and over a thousand operators. In one deployment with GLM-5.3-Flash, existing Ascend 910B hardware served 2.04x its previous logical throughput, with rent-equivalent compute cost running 19.4%–27.6% below comparable commercial API pricing.",
-        "domain": "infoq.cn",
-        "quality_score": 49.5,
-        "related_ids": []
-      },
-      {
-        "id": "infoq-Pwu4FNskSB2cbKV9BZKq",
-        "title": "上下文语言模型：通过自主管理上下文提升性能、降低计算成本",
-        "url": "https://www.infoq.cn/article/Pwu4FNskSB2cbKV9BZKq",
-        "description": "",
-        "source": "infoq",
-        "score": 6341,
-        "comments": 0,
-        "author": "",
-        "time": "2026-10-23T01:05:00.378000+00:00",
-        "tags": [
-          "infoq",
-          "性能"
-        ],
-        "first_seen": "2026-10-23",
-        "summary_zh": "Meta、MIT 与华盛顿大学提出上下文语言模型（CLM），把上下文当作可反复改写的文件，让模型自主删除无关信息、保留关键事实、记录进度，不再依赖摘要、压缩或检索。零样本下 BrowseComp-Plus 准确率提升 11.4% 且算力减少 21.5%，经强化学习训练的 Qwen3.5-9B 在同一基准从 28.8% 升至 42.5%。",
-        "summary_en": "Researchers from Meta, MIT and the University of Washington propose Context Language Model, which treats context as a freely rewritable file: the model deletes irrelevant turns, keeps key facts and tracks progress instead of relying on summarization or retrieval. Zero-shot it lifts BrowseComp-Plus accuracy by 11.4% with 21.5% fewer FLOPs, and an RL-trained Qwen3.5-9B climbs from 28.8% to 42.5% on the same benchmark.",
-        "domain": "infoq.cn",
-        "quality_score": 49.5,
-        "related_ids": [
-          "36kr-4039236862514306",
-          "v2ex-99a077e17635",
-          "infoq-o9OcWNkkwgKvsZmgY45d",
-          "infoq-J1Z3RYgH3Vyd9LFEfmlF",
-          "36kr-4006662298865801"
-        ]
-      },
-      {
-        "id": "infoq-Q6mgHWCSqV6KeZzee3NT",
-        "title": "PostgreSQL 19 发不出来？AI“找茬”太快，人类修Bug的速度跟不上了",
-        "url": "https://www.infoq.cn/article/Q6mgHWCSqV6KeZzee3NT",
-        "description": "",
-        "source": "infoq",
-        "score": 6299,
-        "comments": 0,
-        "author": "",
-        "time": "2026-10-23T09:48:25.427000+00:00",
-        "tags": [
-          "ai",
-          "bug",
-          "infoq",
-          "postgresql"
-        ],
-        "first_seen": "2026-10-23",
-        "summary_zh": "PostgreSQL 19 从 10 月 29 日推迟到 11 月 19 日发布，中间加发一个 RC2；Beta 阶段有 8 到 10 项重要功能被撤回。核心提交者、EDB 副总裁 Peter Eisentraut 解释，问题多不是 vibe coding 造成，而是 LLM 辅助代码审查与模糊测试把原本要五年才暴露的长尾缺陷集中翻了出来，人类修 Bug 的速度跟不上。",
-        "summary_en": "PostgreSQL 19 slipped from October 29 to November 19, with an extra RC2 on November 12, after roughly 8 to 10 significant features were reverted during beta. Core committer and EDB vice president Peter Eisentraut says the cause is not vibe coding but maturing LLM-assisted code review and fuzzing, which surfaced long-tail defects that would otherwise have trickled in over five years. AI raised the effective quality bar faster than humans can fix bugs.",
-        "domain": "infoq.cn",
-        "quality_score": 49.4,
-        "related_ids": [
-          "juejin-7637856870833635343",
-          "v2ex-c046a7ad5f76",
-          "v2ex-00489eeaed8f",
-          "v2ex-a2ef11e48bc2",
-          "v2ex-a5c59a40ce07"
-        ]
-      },
-      {
-        "id": "v2ex-5f74d6a4285c",
-        "title": "[Chrome] 测试一下 Chrome 最新支持的 JXL HDR 图片格式",
-        "url": "https://www.v2ex.com/t/1251577#reply0",
-        "description": "",
-        "source": "v2ex",
-        "score": 210,
-        "comments": 0,
-        "author": "",
-        "time": "2026-10-24T16:11:57+00:00",
-        "tags": [
-          "chrome",
-          "v2ex"
-        ],
-        "first_seen": "2026-10-24",
-        "summary_zh": "Chrome 与 Firefox 近期都加入了对 JXL 图片的支持，网页终于能直接显示采用 PQ transfer 的 HDR 图片。帖中样图由开源工具 LocalViewer 转换导出，该工具能把 JXR 和相机 RAW 转成 JXL、JPEG、AVIF 等多种 HDR 输出，并附了各格式的位深与 base+gain map 对照。",
-        "summary_en": "Chrome and Firefox have both recently shipped JPEG XL support, so web pages can finally display HDR images using the PQ transfer function directly. The sample images in the post were exported with LocalViewer, an open-source converter that turns JXR and camera RAW files into JXL, JPEG and AVIF HDR variants, including 16-bit float JXL with luminance metadata and base-plus-gain-map JPEG.",
-        "domain": "v2ex.com",
-        "quality_score": 64.5,
-        "related_ids": [
-          "v2ex-14cc8df5c82f",
-          "v2ex-682c8e829f1d",
-          "v2ex-e4ada4c654e4",
-          "hn-49991227",
-          "zhihu-2096392948342579875"
-        ]
-      },
-      {
-        "id": "infoq-sI3z2UMCrB5PPVDWTsLo",
-        "title": "奥特曼最新 45 分钟访谈：一年不写代码、压力大到不想起床，还嫌 ChatGPT 太谄媚",
-        "url": "https://www.infoq.cn/article/sI3z2UMCrB5PPVDWTsLo",
-        "description": "",
-        "source": "infoq",
-        "score": 6212,
-        "comments": 0,
-        "author": "",
-        "time": "2026-10-23T09:35:04.225000+00:00",
-        "tags": [
-          "chatgpt",
-          "infoq"
-        ],
-        "first_seen": "2026-10-23",
-        "summary_zh": "OpenAI CEO Sam Altman 在与博主 Matthew Berman 的 45 分钟访谈中称，自己已约一年没写过代码，并预计未来几年 AI 能提出重大疾病的候选治疗方案。他发现程序员并未因 AI 失业，反而更忙、赚得更多，对算力的需求则是「无限多」。访谈也谈到 AI 意识、失控风险，以及他压力大到不想起床的一面。",
-        "summary_en": "In a 45-minute interview with AI blogger Matthew Berman, OpenAI CEO Sam Altman said he hasn't looked at a line of code in about a year and expects AI to surface candidate treatments for major diseases within a few years. He argued programmers aren't losing jobs to AI but are busier and earning more, and put his GPU demand at effectively unlimited. The conversation also covered AI consciousness, loss-of-control risk, and the pressure that sometimes keeps him in bed.",
-        "domain": "infoq.cn",
-        "quality_score": 49.3,
-        "related_ids": [
-          "36kr-4036210178134916",
-          "v2ex-d46679a119dd",
-          "v2ex-9ed9727bbec1",
-          "hn-50207405",
-          "36kr-4013699052588937"
-        ]
-      },
-      {
-        "id": "infoq-reksyo9EBAcP11Ns2GTO",
-        "title": "决策模型也有专用推理引擎了：StartLux 开源 Prism，单卡最高提速 5.3 倍",
-        "url": "https://www.infoq.cn/article/reksyo9EBAcP11Ns2GTO",
-        "description": "",
-        "source": "infoq",
-        "score": 6153,
-        "comments": 0,
-        "author": "",
-        "time": "2026-10-23T04:03:49.453000+00:00",
-        "tags": [
-          "infoq",
-          "startlux",
-          "开源"
-        ],
-        "first_seen": "2026-10-23",
-        "summary_zh": "StartLux 开源了为自家决策模型 StartLux-Decision 定制的推理引擎 Prism，在单张 NVIDIA H200 上跑 27B 模型时速度达到 vLLM 方案的 1.2 至 5.3 倍，同一份材料连答三问从 92.9 毫秒降到 17.4 毫秒。它只计算候选选项的概率而不生成整段文本，并保证相同请求输出逐位一致，12,351 次决策测试准确率 92.94%，与 BF16 的 92.97% 基本持平。",
-        "summary_en": "StartLux has open-sourced Prism, an inference engine built specifically for its StartLux-Decision model. On a single NVIDIA H200 running the 27B model, it claims 1.2x to 5.3x the speed of vLLM, cutting a three-question task on one document from 92.9ms to 17.4ms. Because decision models only score a handful of candidate options rather than generate full text, Prism skips whole-vocabulary output and returns bit-identical results regardless of batching; accuracy was 92.94% against 92.97% in BF16.",
-        "domain": "infoq.cn",
-        "quality_score": 49.2,
-        "related_ids": [
-          "v2ex-c046a7ad5f76",
-          "v2ex-694a7e93ffb1",
-          "v2ex-b28ffa5ee93e",
-          "v2ex-08bf5530dd48",
-          "v2ex-83c2f870366f"
-        ]
-      },
-      {
-        "id": "36kr-4039168291132547",
-        "title": "刚刚，两大实验室双双自曝AI失控，GitHub被投毒，真人程序员遭暗算",
-        "url": "https://36kr.com/p/4039168291132547",
-        "description": "",
-        "source": "36kr",
-        "score": 14183,
-        "comments": 0,
-        "author": "",
-        "time": "2026-10-24T01:26:56.418000+00:00",
-        "tags": [
-          "36kr",
-          "ai",
-          "github",
-          "刚刚"
-        ],
-        "first_seen": "2026-10-24",
-        "summary_zh": "标题称两个实验室同时披露了 AI 失控事件，并牵涉 GitHub 遭投毒、真人程序员被「暗算」。原文只有链接，未提供更多细节，具体是哪两家实验室、事件经过如何，都无法从现有信息确认。",
-        "summary_en": "The headline claims two labs have disclosed AI going out of control, with GitHub reportedly poisoned and human programmers sabotaged. The linked page isn't summarized here; details beyond the title aren't available, so which labs are involved and what actually happened can't be confirmed.",
-        "domain": "36kr.com",
-        "quality_score": 47.1,
-        "related_ids": [
-          "infoq-eRbEA3dMd58RNPqp5D8S",
-          "juejin-7637856870833635343",
-          "v2ex-c046a7ad5f76",
-          "v2ex-00489eeaed8f",
-          "36kr-4030919698731654"
-        ]
-      },
-      {
-        "id": "hn-50202285",
-        "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
-        "url": "https://edjefferson.com/localwiki/",
-        "description": "",
-        "source": "hackernews",
-        "score": 1527,
-        "comments": 240,
-        "author": "sohkamyung",
-        "time": "2026-10-22T23:01:18+00:00",
-        "tags": [
-          "hackernews",
-          "half",
-          "wikipedia"
-        ],
-        "first_seen": "2026-10-23",
-        "summary_zh": "这是一个名为 Local Wikipedia 的项目，把维基百科的内容限定在你步行半小时能到达的范围内。原文是链接，未提供更多细节，实现方式和数据来源都无从得知。",
-        "summary_en": "A project called Local Wikipedia that restricts Wikipedia content to places within a half-hour walk of you. The linked page isn't summarized here; details beyond the title aren't available, so how it is built and where the data comes from are unknown.",
-        "domain": "edjefferson.com",
-        "quality_score": 65.5,
-        "related_ids": [
-          "gh-monthly-debpalash-VoiceStudio",
-          "gh-daily-Graphify-Labs-graphify",
-          "gh-daily-debpalash-VoiceStudio",
-          "gh-daily-Comfy-Org-ComfyUI",
-          "hn-50127979"
-        ]
-      },
-      {
-        "id": "36kr-4039399050040194",
-        "title": "吸金2000亿的“中国神器”，迷晕2亿老外",
-        "url": "https://36kr.com/p/4039399050040194",
-        "description": "",
-        "source": "36kr",
-        "score": 11988,
-        "comments": 0,
-        "author": "",
-        "time": "2026-10-24T07:30:34+00:00",
-        "tags": [
-          "36kr"
-        ],
-        "first_seen": "2026-10-24",
-        "summary_zh": "标题称一款中国产品吸金 2000 亿、让 2 亿外国人着迷。原文只有链接，未提供更多细节，具体是什么产品、属于哪个行业都无法确认。",
-        "summary_en": "The headline claims a Chinese product has taken in 200 billion and captivated 200 million foreigners. The linked page isn't summarized here; details beyond the title aren't available, so what the product is and which sector it belongs to can't be confirmed.",
-        "domain": "36kr.com",
-        "quality_score": 46.0,
-        "related_ids": []
-      },
-      {
-        "id": "hn-50195959",
-        "title": "Quad9 to exit France",
-        "url": "https://quad9.net/news/blog/au-revoir-france/",
-        "description": "",
-        "source": "hackernews",
-        "score": 1363,
-        "comments": 475,
-        "author": "farrokhi",
-        "time": "2026-10-22T14:32:38+00:00",
-        "tags": [
-          "exit",
-          "france",
-          "hackernews"
-        ],
-        "first_seen": "2026-10-22",
-        "summary_zh": "Quad9 是一个主打安全与隐私的免费公共 DNS 服务，此次宣布将退出法国。原文是链接，未提供更多细节，退出原因、时间表以及对解析的具体影响都不在本条素材中；把解析指向 Quad9 的团队或许需要提前确认备用方案。",
-        "summary_en": "Quad9, a free public DNS resolver that positions itself on security and privacy, has announced it is exiting France. The linked page isn't summarized here; the reason, timeline and any technical fallout aren't available beyond the title. Teams that point their resolvers at Quad9 may want to check what their fallback configuration looks like.",
-        "domain": "quad9.net",
-        "quality_score": 50.6,
-        "related_ids": [
-          "hn-50195110",
-          "hn-50166257",
-          "hn-50159616",
-          "hn-50133512",
-          "hn-50198713"
-        ]
-      },
-      {
-        "id": "hn-50166579",
-        "title": "eMudhra intermediate CA compromise",
-        "url": "https://emudhra.we-have-a-problem.com/",
-        "description": "",
-        "source": "hackernews",
-        "score": 1280,
-        "comments": 504,
-        "author": "galadran",
-        "time": "2026-10-20T13:58:33+00:00",
-        "tags": [
-          "compromise",
-          "emudhra",
-          "hackernews"
-        ],
-        "first_seen": "2026-10-20",
-        "summary_zh": "Mozilla 安全博客的一篇文章与 Bugzilla 上编号 2083449 的 bug 记录了 eMudhra 的 intermediate CA 被攻破一事。中间证书颁发机构一旦失守，由它签发的证书就都需要重新评估，这直接关系到浏览器所依赖的公开信任链是否可靠。原文只给出这两条链接，未提供更多细节。",
-        "summary_en": "A Mozilla security blog post and Bugzilla bug 2083449 cover a compromise of an intermediate CA run by eMudhra. When an intermediate certificate authority is compromised, every certificate it issued has to be treated as suspect, which bears directly on the public trust chain browsers rely on. The linked pages aren't summarized here; details beyond the title aren't available.",
-        "domain": "emudhra.we-have-a-problem.com",
-        "quality_score": 49.7,
-        "related_ids": [
-          "hn-50212822",
-          "hn-50195110",
-          "hn-50183280",
-          "hn-50172713",
-          "hn-50177916"
-        ]
-      },
-      {
-        "id": "zhihu-1926924740225922646",
-        "title": "为什么腾讯有了 QQ 这么庞大的用户基础群之后要开发微信呢？",
-        "url": "https://www.zhihu.com/question/1926924740225922646",
-        "description": "",
-        "source": "zhihu",
-        "score": 2520000,
-        "comments": 0,
-        "author": "",
-        "time": "2026-10-24T12:00:00+00:00",
-        "tags": [
-          "zhihu"
-        ],
-        "first_seen": "2026-10-24",
-        "summary_zh": "这是知乎上的一个讨论问题：腾讯在已有 QQ 庞大用户基础的情况下，为什么还要开发微信。原文只有问题标题，没有正文内容，具体回答和论证细节无从得知。",
-        "summary_en": "A Zhihu discussion question asking why Tencent built WeChat when it already had QQ's huge user base. The linked page isn't summarized here; details beyond the title aren't available, so the actual arguments and answers can't be reported.",
-        "domain": "zhihu.com",
-        "quality_score": 42.1,
-        "related_ids": []
-      },
-      {
-        "id": "hn-50195110",
-        "title": "eMudhra to exit global SSL/TLS certificate business",
-        "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
-        "description": "",
-        "source": "hackernews",
-        "score": 1151,
-        "comments": 741,
-        "author": "bo0tzz",
-        "time": "2026-10-22T13:33:39+00:00",
-        "tags": [
-          "certificate",
-          "emudhra",
-          "exit",
-          "hackernews",
-          "tls"
-        ],
-        "first_seen": "2026-10-22",
-        "summary_zh": "在印度上市的全球数字信任公司 eMudhra Limited（BSE: 543533，NSE: EMUDHRA）宣布，董事会已决定自愿退出全球 SSL/TLS 证书业务。公告只有这一句，未说明退出原因与过渡安排，仍在持有其签发证书的团队需要跟进后续通知。",
-        "summary_en": "eMudhra Limited, an India-listed digital trust company trading on the BSE and NSE, said its board has decided to voluntarily withdraw from the global SSL/TLS certificate business. The notice is a single announcement with no stated reason or transition plan, so teams holding certificates issued by eMudhra should watch for follow-up guidance.",
-        "domain": "emudhra.com",
-        "quality_score": 50.4,
-        "related_ids": [
-          "hn-50195959",
-          "hn-50166579",
-          "v2ex-db1af5f8645d",
-          "hn-50177916",
-          "hn-50210067"
-        ]
-      },
-      {
-        "id": "36kr-4038591177986951",
-        "title": "走访一线商场，我发现了三大消费趋势",
-        "url": "https://36kr.com/p/4038591177986951",
-        "description": "",
-        "source": "36kr",
-        "score": 10102,
-        "comments": 0,
-        "author": "",
-        "time": "2026-10-24T08:00:15+00:00",
-        "tags": [
-          "36kr"
-        ],
-        "first_seen": "2026-10-24",
-        "summary_zh": "36氪这篇报道基于对线下商场的实地走访，作者称由此归纳出三类消费趋势。原文只提供标题和链接、没有正文，三大趋势具体是什么、走访了哪些商场、依据哪些数据都无法确认。",
-        "summary_en": "A 36Kr report built on field visits to physical shopping malls, in which the author says three consumer trends emerged from the walk-through. The linked page isn't summarized here; details beyond the title, such as which trends, which malls, and what data supports them, aren't available.",
-        "domain": "36kr.com",
-        "quality_score": 45.1,
-        "related_ids": []
-      },
-      {
-        "id": "36kr-4039677577122946",
-        "title": "独家｜字节AI应用再整合：小云雀并入即梦",
-        "url": "https://36kr.com/p/4039677577122946",
-        "description": "",
-        "source": "36kr",
-        "score": 10063,
-        "comments": 0,
-        "author": "",
-        "time": "2026-10-24T09:38:23.653000+00:00",
-        "tags": [
-          "36kr",
-          "ai",
-          "字节"
-        ],
-        "first_seen": "2026-10-24",
-        "summary_zh": "36氪以独家名义报道，字节跳动对旗下 AI 应用再做一轮整合，小云雀被并入即梦。原文只有标题与链接、没有正文，整合的具体形式、生效时间和负责人等信息均无法确认。",
-        "summary_en": "Under an exclusive tag, 36Kr reports that ByteDance is consolidating its AI apps again, folding 小云雀 into 即梦. The linked page isn't summarized here, so how the merge is structured, when it takes effect, and who owns the combined product aren't available beyond the headline.",
-        "domain": "36kr.com",
-        "quality_score": 45.0,
-        "related_ids": [
-          "juejin-7637856870833635343",
-          "v2ex-c046a7ad5f76",
-          "v2ex-00489eeaed8f",
-          "v2ex-a2ef11e48bc2",
-          "v2ex-a5c59a40ce07"
-        ]
-      },
-      {
-        "id": "hn-50180873",
-        "title": "PHP 8.2.35",
-        "url": "https://github.com/php/php-src/releases/tag/php-8.2.35",
-        "description": "",
-        "source": "hackernews",
-        "score": 1103,
-        "comments": 578,
-        "author": "tuyuri",
-        "time": "2026-10-21T13:45:33+00:00",
-        "tags": [
-          "github",
-          "hackernews",
-          "php"
-        ],
-        "first_seen": "2026-10-21",
-        "summary_zh": "PHP 8.2.35 发布，条目本身只给出这个版本号；附带的链接指向另一个讨论帖，内容是当天的 PHP 安全版本以及项目如何加强安全性。仍在维护 8.2 分支的团队可以顺着这条线索确认该版本是否包含安全修复，并据此安排升级。",
-        "summary_en": "PHP 8.2.35 is out, with the item itself carrying only the version number; a linked companion thread discusses that day's PHP security release and how the project is strengthening its security process. Teams still running the 8.2 branch should check whether this build carries security fixes and plan upgrades accordingly.",
-        "domain": "github.com",
-        "quality_score": 47.9,
-        "related_ids": [
-          "v2ex-5ca777ba40c2",
-          "36kr-4037648095236992",
-          "v2ex-e391aec7ec2e",
-          "36kr-4036210178134916",
-          "hn-50182987"
-        ]
-      },
-      {
-        "id": "hn-50211474",
-        "title": "Today, we hacked what we'd set out to hack: the iPhone",
-        "url": "https://blog.calif.io/p/iphone",
-        "description": "",
-        "source": "hackernews",
-        "score": 1068,
-        "comments": 668,
-        "author": "pavel_lishin",
-        "time": "2026-10-23T16:21:50+00:00",
-        "tags": [
-          "hack",
-          "hacked",
-          "hackernews",
-          "iphone"
-        ],
-        "first_seen": "2026-10-23",
-        "summary_zh": "一条 Hacker News 帖子，标题称团队当天攻破了原本设定的目标，也就是 iPhone。帖子正文只有与标题完全相同的一句话，没有漏洞类型、iOS 版本、利用链或厂商回应，因此无法判断这是真实攻击、越狱还是演示性质的破解。",
-        "summary_en": "A Hacker News submission whose title states the team hacked exactly what it set out to hack: the iPhone. The post body repeats that single sentence, so there's no word on vulnerability class, iOS version, exploit chain, or vendor response, and it's unclear whether this was a live attack, a jailbreak, or a demo. The linked page isn't summarized here.",
-        "domain": "blog.calif.io",
-        "quality_score": 63.4,
-        "related_ids": [
-          "v2ex-a2f0f2f8b12f",
-          "36kr-4037687068021637",
-          "36kr-4036266730886018",
-          "36kr-4032044521558403",
-          "36kr-4037781363545220"
-        ]
-      },
-      {
-        "id": "hn-50212065",
-        "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
-        "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
-        "description": "",
-        "source": "hackernews",
-        "score": 1056,
-        "comments": 646,
-        "author": "Jowsey",
-        "time": "2026-10-23T16:59:08+00:00",
-        "tags": [
-          "hackernews",
-          "kimi",
-          "pro"
-        ],
-        "first_seen": "2026-10-23",
-        "summary_zh": "这条提交指向 Kimi 代码模型文档中的型号列表，其中出现 K3.1 Pro 与 K3.1 Pro Highspeed 两个版本，另附 Artificial Analysis 的模型页和一篇关于中国开源 AI 的对比博客。原文只给了链接、没有说明文字，上下文长度、定价以及 Highspeed 与标准版的具体差异都无从判断。",
-        "summary_en": "A submission pointing to Kimi's code-model docs, which list two entries, K3.1 Pro and K3.1 Pro Highspeed, plus an Artificial Analysis model page and a comparison blog on Chinese open-source AI. Only links were posted, so context length, pricing, and how Highspeed differs from the base model can't be determined from the submission itself.",
-        "domain": "kimi.ai",
-        "quality_score": 62.9,
-        "related_ids": [
-          "36kr-4039236862514306",
-          "36kr-4039469378163840",
-          "v2ex-00489eeaed8f",
-          "v2ex-198141529712",
-          "v2ex-04930dfdc7bf"
-        ]
-      },
-      {
-        "id": "36kr-4039272307856521",
-        "title": "打工人，开始“表演”AI提效",
-        "url": "https://36kr.com/p/4039272307856521",
-        "description": "",
-        "source": "36kr",
-        "score": 8847,
-        "comments": 0,
-        "author": "",
-        "time": "2026-10-24T04:00:28+00:00",
-        "tags": [
-          "36kr",
-          "ai"
-        ],
-        "first_seen": "2026-10-24",
-        "summary_zh": "36氪这篇报道关注职场里的一种新现象：员工在汇报和考核中刻意表演出 AI 提效的样子，把使用 AI 包装成看得见的产出。原文只有标题和链接、未提供正文，涉及的公司、受访者和具体做法都无法核实。",
-        "summary_en": "A 36Kr piece about office workers who stage visible AI efficiency for managers, performing AI use as a productivity signal rather than describing how they actually work. The linked page isn't summarized here, so the companies, interviewees, and specific practices behind the observation aren't available.",
-        "domain": "36kr.com",
-        "quality_score": 44.4,
-        "related_ids": [
-          "juejin-7637856870833635343",
-          "v2ex-c046a7ad5f76",
-          "v2ex-00489eeaed8f",
-          "v2ex-a2ef11e48bc2",
-          "v2ex-a5c59a40ce07"
-        ]
-      },
-      {
-        "id": "36kr-4039269864724105",
-        "title": "寒武纪Q3：利润翻倍，市值降温",
-        "url": "https://36kr.com/p/4039269864724105",
-        "description": "",
-        "source": "36kr",
-        "score": 8631,
-        "comments": 0,
-        "author": "",
-        "time": "2026-10-24T03:00:58+00:00",
-        "tags": [
-          "36kr"
-        ],
-        "first_seen": "2026-10-24",
-        "summary_zh": "寒武纪第三季度业绩显示利润同比翻倍，但同期公司市值出现回落。原文为链接，未提供更多正文细节，营收构成、具体数字与市场解读均未在素材中给出。",
-        "summary_en": "Cambricon's third-quarter results showed profit doubling year over year, while the company's market valuation cooled over the same period. The linked article isn't summarized here; revenue breakdown, exact figures and market reaction beyond the title aren't available.",
-        "domain": "36kr.com",
-        "quality_score": 44.3,
-        "related_ids": []
       },
       {
         "id": "hn-50177916",
@@ -1196,7 +943,7 @@
         "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
         "description": "",
         "source": "hackernews",
-        "score": 950,
+        "score": 953,
         "comments": 461,
         "author": "hkc",
         "time": "2026-10-21T09:08:08+00:00",
@@ -1226,8 +973,8 @@
         "url": "https://permit.petercai.com/",
         "description": "",
         "source": "hackernews",
-        "score": 936,
-        "comments": 424,
+        "score": 938,
+        "comments": 425,
         "author": "pcai",
         "time": "2026-10-20T18:29:09+00:00",
         "tags": [
@@ -1246,96 +993,90 @@
         ]
       },
       {
-        "id": "gh-daily-NVIDIA-OpenShell",
-        "title": "NVIDIA/OpenShell",
-        "url": "https://github.com/NVIDIA/OpenShell",
-        "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
-        "source": "github_trending",
-        "score": 893,
-        "comments": 0,
-        "author": "NVIDIA",
-        "time": "2026-10-24T22:15:10.538038+00:00",
+        "id": "hn-50207910",
+        "title": "Apple Music 404 Not Found",
+        "url": "https://music.apple.com/this-url-doesnt-exist",
+        "description": "",
+        "source": "hackernews",
+        "score": 929,
+        "comments": 273,
+        "author": "frizlab",
+        "time": "2026-10-23T12:28:47+00:00",
         "tags": [
-          "agent",
-          "ai",
-          "autonomous",
-          "github",
-          "nvidia",
-          "openshell",
-          "runtime",
-          "safe"
+          "apple",
+          "hackernews",
+          "music"
         ],
-        "gh_period": "daily",
-        "first_seen": "2026-09-29",
-        "summary_zh": "OpenShell 是 NVIDIA 开源的自主 AI agent 运行时，定位为安全、私有的运行环境，采用 Apache 2.0 许可并已发布到 PyPI。0.1.x 版本带来稳定的发版节奏、新的隔离原语、扩展面和新 API。它面向需要在隔离环境中批量调度 agent 的团队。",
-        "summary_en": "NVIDIA has open-sourced OpenShell, described as a safe, private runtime for fleets of autonomous AI agents, Apache-2.0 licensed and published on PyPI. The 0.1.x line adds a stable release cadence, new isolation primitives, an expanded extension surface and new APIs. It targets teams that need to run many agents inside an isolated, private environment.",
-        "domain": "github.com",
-        "quality_score": 40.6,
+        "first_seen": "2026-10-23",
+        "summary_zh": "这是 Hacker News 上一条标题为「Apple Music 404 Not Found」的帖子，指向 MacRumors 的一篇报道链接。原文只给了链接，未提供更多细节，正文内容无法概括。",
+        "summary_en": "This is a Hacker News submission titled \"Apple Music 404 Not Found\" that points to a MacRumors article. The linked page isn't summarized here; details beyond the title aren't available.",
+        "domain": "music.apple.com",
+        "quality_score": 41.9,
         "related_ids": [
-          "gh-monthly-NVIDIA-OpenShell",
-          "hn-50198675",
-          "juejin-7637856870833635343",
-          "v2ex-a5c59a40ce07",
-          "gh-daily-aws-agent-toolkit-for-aws"
+          "v2ex-fc90c9d968ed",
+          "v2ex-7ae8a95763a9",
+          "v2ex-69fc6c92d04d",
+          "v2ex-1551abeb7cc1",
+          "v2ex-473ba1277d49"
         ]
       },
       {
-        "id": "juejin-7684460980934049807",
-        "title": "从codex转战workbuddy使用一周的感受",
-        "url": "https://juejin.cn/post/7684460980934049807",
-        "description": "不是恰饭，也不是踩一捧一。只是记录一个 Codex 老用户切换到 WorkBuddy 的真实一周，以及过程中踩到的坑和省下的钱。 一、为什么换：被逼无奈的\"搬家\" 很早就听说腾讯出了智能体编程工具 W",
-        "source": "juejin",
-        "score": 177,
-        "comments": 148,
-        "author": "",
-        "time": "2026-09-13T11:35:50+00:00",
-        "tags": [
-          "codex",
-          "juejin",
-          "workbuddy",
-          "编程"
-        ],
-        "first_seen": "2026-09-24",
-        "summary_zh": "一位 Codex 老用户记录自己转用腾讯智能体编程工具 WorkBuddy 一周的经历，写了换工具的原因、迁移中踩到的坑以及省下的费用。作者明确表示既不是恰饭也不是踩一捧一，属于个人使用记录，对正在挑选编程 Agent 或考虑从 Codex 换工具的人有参考价值。",
-        "summary_en": "A long-time Codex user documents a week of switching to WorkBuddy, Tencent's agentic coding tool, covering why he moved, the problems he ran into and the money he saved. He frames it as a personal usage log rather than an ad or a hit piece, which makes it worth reading for developers comparing coding agents or thinking about leaving Codex.",
-        "domain": "juejin.cn",
-        "quality_score": 42.5,
-        "related_ids": [
-          "juejin-7637856870833635343",
-          "v2ex-b8f62d81127b",
-          "juejin-7673855455463800847",
-          "gh-monthly-affaan-m-ECC",
-          "v2ex-27f5c0a5e743"
-        ]
-      },
-      {
-        "id": "gh-daily-pbakaus-impeccable",
-        "title": "pbakaus/impeccable",
-        "url": "https://github.com/pbakaus/impeccable",
-        "description": "The design language that makes your AI harness better at design.",
+        "id": "gh-daily-debpalash-VoiceStudio",
+        "title": "debpalash/VoiceStudio",
+        "url": "https://github.com/debpalash/VoiceStudio",
+        "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
         "source": "github_trending",
-        "score": 733,
+        "score": 1588,
         "comments": 0,
-        "author": "pbakaus",
-        "time": "2026-10-24T22:15:10.538038+00:00",
+        "author": "debpalash",
+        "time": "2026-10-25T22:18:33.973689+00:00",
         "tags": [
-          "ai",
-          "better",
+          "cloning",
+          "dictation",
+          "fully",
           "github",
-          "makes"
+          "voice"
         ],
         "gh_period": "daily",
-        "first_seen": "2026-09-25",
-        "summary_zh": "impeccable 是给 AI 编码 agent 用的设计规范，含 1 个 skill、24 条命令、浏览器内实时迭代与 62 条确定性检测规则，用 npx impeccable install 安装、/impeccable init 接入。它从 Anthropic 的 frontend-design skill 起步，用 PRODUCT.md 固定产品定位，专门压制 Inter 字体、紫蓝渐变、卡片套卡片这类模板痕迹。适合用 AI 写前端又嫌页面千篇一律的开发者。",
-        "summary_en": "Impeccable is a design guidance package for AI coding agents: one skill, 24 commands, live browser iteration and 62 deterministic detector rules, installed with npx impeccable install and initialized via /impeccable init. It builds on Anthropic's frontend-design skill and records product truth in PRODUCT.md to suppress the usual tells, such as Inter everywhere, purple-to-blue gradients and cards nested in cards. Useful for developers whose AI-written frontends all look alike.",
+        "first_seen": "2026-09-27",
+        "summary_zh": "VoiceStudio 是一个完全本地运行的开源语音工具，定位为 ElevenLabs 的替代品，功能覆盖声音克隆、音色设计、视频配音、听写、转写和有声书制作，宣称支持 646 种语言，并提供网站、安装包下载与 Discord 社区。对需要在离线或内网环境处理语音数据、又不想按量付费调用云 API 的开发者来说，它提供了一套可自行部署的完整方案，适合先看文档评估本地算力需求。",
+        "summary_en": "VoiceStudio is a fully local, open-source take on ElevenLabs that bundles voice cloning, voice design, video dubbing, dictation, transcription and audiobook creation, with the README claiming support for 646 languages; it ships as a downloadable app with a website, docs and a Discord community. It is aimed at developers who need speech tooling to run on their own hardware rather than through a metered cloud API, so the first step is checking the docs against your available compute.",
         "domain": "github.com",
-        "quality_score": 40.5,
+        "quality_score": 41.1,
         "related_ids": [
+          "gh-monthly-debpalash-VoiceStudio",
+          "gh-daily-OpenBMB-VoxCPM",
+          "hn-50202285",
           "gh-monthly-pbakaus-impeccable",
-          "gh-daily-DietrichGebert-ponytail",
-          "gh-daily-Nutlope-hallmark",
-          "juejin-7637856870833635343",
-          "gh-monthly-debpalash-VoiceStudio"
+          "gh-daily-Nutlope-hallmark"
+        ]
+      },
+      {
+        "id": "hn-50202681",
+        "title": "Docker is weird",
+        "url": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird",
+        "description": "",
+        "source": "hackernews",
+        "score": 871,
+        "comments": 366,
+        "author": "psxuaw",
+        "time": "2026-10-22T23:45:56+00:00",
+        "tags": [
+          "docker",
+          "hackernews",
+          "weird"
+        ],
+        "first_seen": "2026-10-23",
+        "summary_zh": "这篇博文记录了作者为自娱自乐动手写容器 runtime 的过程，以及由此发现的 Docker 的“怪”处：容器并不是虚拟机那样的实体，只是一个被加了限制的普通进程，在 /proc 里就能找到；Linux 内核里也没有名为 container 的单一特性，而是 namespaces、cgroups 和网络隔离等几套机制拼起来的。作者还指出镜像本质就是一个文件夹，Docker 只是把它放到某处并用 chroot 或 pivot_root 切换根目录。适合想弄清容器底层到底发生了什么的人。",
+        "summary_en": "The author built a container runtime for fun and wrote up what that exercise revealed about Docker's internals: containers are not miniature VMs but ordinary processes under restrictions, findable in /proc, and there is no single Linux \"container\" feature, just namespaces, cgroups and networking tricks layered together. Images, meanwhile, are essentially folders that Docker stores somewhere and then makes the process's root via chroot or pivot_root. Useful for anyone who wants to know what actually happens under the hood.",
+        "domain": "codeandcake.dev",
+        "quality_score": 42.1,
+        "related_ids": [
+          "hn-49870367",
+          "v2ex-988f1b8a0345",
+          "hn-50214983",
+          "gh-daily-t8y2-dbx",
+          "hn-49996259"
         ]
       },
       {
@@ -1344,10 +1085,10 @@
         "url": "https://github.com/Nutlope/hallmark",
         "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
         "source": "github_trending",
-        "score": 570,
+        "score": 1359,
         "comments": 0,
         "author": "Nutlope",
-        "time": "2026-10-24T22:15:10.538038+00:00",
+        "time": "2026-10-25T22:18:33.973689+00:00",
         "tags": [
           "ai",
           "anti",
@@ -1362,40 +1103,221 @@
         "summary_zh": "Hallmark 是 Together AI 推出的设计 skill，支持 Claude Code、Codex、Cursor 与 OpenCode，从 48 套主题中发三套，并在真实浏览器里 lint 那些一眼像机器生成的特征，比如标题上方的小标签、标题里单独染色的词。关卡分两级，涉及对比度、焦点、减少动效和虚构事实的 Floor 永不发布，Reflex 可有理由地推翻，最后由全新上下文的 reviewer 终审。适合想摆脱 AI 页面同质化的前端团队。",
         "summary_en": "Hallmark, made by Together AI, is a design skill for Claude Code, Codex, Cursor and OpenCode that deals three themes from a 48-theme catalog, then lints the build in a real browser against machine-made tells like eyebrows above headings or one coloured word in a headline. Gates come in tiers: a Floor covering contrast, focus, reduced motion and invented facts that never ships, overridable Reflex defaults, and a fresh-context reviewer with the last word.",
         "domain": "github.com",
-        "quality_score": 40.4,
+        "quality_score": 41.0,
         "related_ids": [
           "juejin-7637856870833635343",
           "gh-monthly-affaan-m-ECC",
-          "gh-daily-Graphify-Labs-graphify",
           "v2ex-00489eeaed8f",
+          "v2ex-2f94232b8b21",
           "juejin-7673855455463800847"
         ]
       },
       {
-        "id": "zhihu-2096743580895397227",
-        "title": "诺奖得主 Hassabis 称 AGI 最快 2 年内到来，如何看待这一预判？",
-        "url": "https://www.zhihu.com/question/2096743580895397227",
+        "id": "36kr-4040565926220928",
+        "title": "只换不修的电池包，正在困住第一批电车车主",
+        "url": "https://36kr.com/p/4040565926220928",
         "description": "",
-        "source": "zhihu",
-        "score": 1190000,
+        "source": "36kr",
+        "score": 18965,
         "comments": 0,
         "author": "",
-        "time": "2026-10-24T12:00:00+00:00",
+        "time": "2026-10-25T01:07:30.127000+00:00",
         "tags": [
-          "agi",
+          "36kr"
+        ],
+        "first_seen": "2026-10-25",
+        "summary_zh": "这篇文章讨论早期电动车车主的电池包维修困境：电池出问题时的处理方式是整体更换而非修复，车主因此被卡住。原文是链接，未提供更多细节，具体涉及哪些品牌、车型和费用尚不可知。",
+        "summary_en": "The piece looks at how early EV owners get stuck when battery packs are replaced wholesale rather than repaired. The linked page isn't summarized here; details beyond the title, such as which brands, models or costs are involved, aren't available.",
+        "domain": "36kr.com",
+        "quality_score": 49.5,
+        "related_ids": []
+      },
+      {
+        "id": "36kr-4041032701481861",
+        "title": "丈母娘也开始抢AI人了",
+        "url": "https://36kr.com/p/4041032701481861",
+        "description": "",
+        "source": "36kr",
+        "score": 17632,
+        "comments": 0,
+        "author": "",
+        "time": "2026-10-25T09:06:39.474000+00:00",
+        "tags": [
+          "36kr",
+          "ai"
+        ],
+        "first_seen": "2026-10-25",
+        "summary_zh": "这篇文章以“丈母娘也开始抢 AI 人了”为题，讨论 AI 人才争夺如何蔓延到职场之外的场景。原文是链接，未提供更多细节，文中涉及的公司、人物和具体案例无法确认。",
+        "summary_en": "Titled roughly \"even the mother-in-law is poaching AI people now,\" the article examines how the scramble for AI talent has spread beyond the workplace. The linked page isn't summarized here; the companies, people and cases it covers aren't available from the title alone.",
+        "domain": "36kr.com",
+        "quality_score": 48.8,
+        "related_ids": [
+          "v2ex-00489eeaed8f",
+          "v2ex-a5c59a40ce07",
+          "v2ex-993a89c94d30",
+          "juejin-7637856870833635343",
+          "36kr-4039471138362501"
+        ]
+      },
+      {
+        "id": "36kr-4040669401715848",
+        "title": "79天，最大芯片IPO告吹",
+        "url": "https://36kr.com/p/4040669401715848",
+        "description": "",
+        "source": "36kr",
+        "score": 16470,
+        "comments": 0,
+        "author": "",
+        "time": "2026-10-25T02:49:41.611000+00:00",
+        "tags": [
+          "36kr",
+          "ipo",
+          "芯片"
+        ],
+        "first_seen": "2026-10-25",
+        "summary_zh": "这篇文章讲的是一场持续 79 天后宣告终止的芯片行业 IPO，标题称其为规模最大的一桩。原文是链接，未提供更多细节，涉及的公司、市场和终止原因在标题中均未说明。",
+        "summary_en": "The article covers a chip-industry IPO that was called off after 79 days, described in the title as the largest of its kind. The linked page isn't summarized here; which company it was, which market, and why the listing failed aren't available beyond the headline.",
+        "domain": "36kr.com",
+        "quality_score": 48.3,
+        "related_ids": [
+          "36kr-4025027267580036",
+          "infoq-J1Z3RYgH3Vyd9LFEfmlF",
+          "36kr-4030896887387784",
+          "36kr-4025420791172992",
+          "36kr-4008744797442177"
+        ]
+      },
+      {
+        "id": "gh-daily-pbakaus-impeccable",
+        "title": "pbakaus/impeccable",
+        "url": "https://github.com/pbakaus/impeccable",
+        "description": "The design language that makes your AI harness better at design.",
+        "source": "github_trending",
+        "score": 1113,
+        "comments": 0,
+        "author": "pbakaus",
+        "time": "2026-10-25T22:18:33.973689+00:00",
+        "tags": [
+          "ai",
+          "better",
+          "github",
+          "makes"
+        ],
+        "gh_period": "daily",
+        "first_seen": "2026-09-25",
+        "summary_zh": "impeccable 是给 AI 编码 agent 用的设计规范，含 1 个 skill、24 条命令、浏览器内实时迭代与 62 条确定性检测规则，用 npx impeccable install 安装、/impeccable init 接入。它从 Anthropic 的 frontend-design skill 起步，用 PRODUCT.md 固定产品定位，专门压制 Inter 字体、紫蓝渐变、卡片套卡片这类模板痕迹。适合用 AI 写前端又嫌页面千篇一律的开发者。",
+        "summary_en": "Impeccable is a design guidance package for AI coding agents: one skill, 24 commands, live browser iteration and 62 deterministic detector rules, installed with npx impeccable install and initialized via /impeccable init. It builds on Anthropic's frontend-design skill and records product truth in PRODUCT.md to suppress the usual tells, such as Inter everywhere, purple-to-blue gradients and cards nested in cards. Useful for developers whose AI-written frontends all look alike.",
+        "domain": "github.com",
+        "quality_score": 40.8,
+        "related_ids": [
+          "gh-monthly-pbakaus-impeccable",
+          "gh-daily-Nutlope-hallmark",
+          "gh-monthly-debpalash-VoiceStudio",
+          "v2ex-00489eeaed8f",
+          "hn-50223647"
+        ]
+      },
+      {
+        "id": "zhihu-2097222392464655823",
+        "title": "如何看待 Kimi K3.1 Pro 开源版刻意削弱网安能力？",
+        "url": "https://www.zhihu.com/question/2097222392464655823",
+        "description": "",
+        "source": "zhihu",
+        "score": 920000,
+        "comments": 0,
+        "author": "",
+        "time": "2026-10-25T12:00:00+00:00",
+        "tags": [
+          "kimi",
+          "pro",
+          "zhihu",
+          "开源"
+        ],
+        "first_seen": "2026-10-25",
+        "summary_zh": "这是知乎上的一个讨论提问，围绕 Kimi K3.1 Pro 的开源版本是否刻意削弱了网络安全相关能力。提问没有附带评测数据或技术说明，原文是链接，未提供更多细节，具体削弱了哪些能力、如何验证都无从核实；适合关注开源模型安全对齐与能力边界取舍的开发者围观。",
+        "summary_en": "A Zhihu discussion thread asking whether the open-source release of Kimi K3.1 Pro deliberately tones down its cybersecurity capabilities. The post is a question only; the linked page isn't summarized here and no benchmarks or technical detail are given, so which capabilities were reduced and how to verify it stays open. Useful mainly as a place to compare notes on how open models gate security-relevant knowledge.",
+        "domain": "zhihu.com",
+        "quality_score": 40.8,
+        "related_ids": [
+          "36kr-4039236862514306",
+          "hn-50212065",
+          "36kr-4039469378163840",
+          "v2ex-694a7e93ffb1",
+          "v2ex-00489eeaed8f"
+        ]
+      },
+      {
+        "id": "36kr-4040834072761475",
+        "title": "人去楼空的杭州“互联网鼻祖”，输给自己的野心",
+        "url": "https://36kr.com/p/4040834072761475",
+        "description": "",
+        "source": "36kr",
+        "score": 14244,
+        "comments": 0,
+        "author": "",
+        "time": "2026-10-25T05:19:30.744000+00:00",
+        "tags": [
+          "36kr"
+        ],
+        "first_seen": "2026-10-25",
+        "summary_zh": "36氪这篇报道写的是杭州一家被称为当地“互联网鼻祖”的公司，如今已人去楼空，报道把败因归结为其自身的野心。原文是链接，未提供更多细节，公司名、时间线和具体业务都无法从现有素材确认，关注中国早期互联网公司兴衰的读者可以点开原文看完整叙事。",
+        "summary_en": "A 36kr story about a Hangzhou company once described as the city's \"internet originator,\" now reportedly empty and abandoned, with the headline blaming its own ambition for the collapse. Only the title is available here; the linked page isn't summarized and the company name, timeline and business details can't be confirmed from the material provided.",
+        "domain": "36kr.com",
+        "quality_score": 47.1,
+        "related_ids": []
+      },
+      {
+        "id": "zhihu-2096941984967563088",
+        "title": "微软宣布全面转向原生开发并告别网页套壳，能解决 Windows11 的卡顿臃肿吗？",
+        "url": "https://www.zhihu.com/question/2096941984967563088",
+        "description": "",
+        "source": "zhihu",
+        "score": 750000,
+        "comments": 0,
+        "author": "",
+        "time": "2026-10-25T12:00:00+00:00",
+        "tags": [
           "zhihu"
         ],
-        "first_seen": "2026-10-24",
-        "summary_zh": "诺奖得主 Hassabis 给出预判，认为 AGI 最快两年内就会到来，该提问在知乎上引发对这条时间表的讨论。原文为链接，未提供更多正文细节，这一预判的具体语境与论据无法从现有素材确认。",
-        "summary_en": "Nobel laureate Hassabis has predicted that AGI could arrive in as little as two years, and this Zhihu thread asks readers how to weigh that timeline. The linked page isn't summarized here; the context and reasoning behind the claim aren't available beyond the title.",
+        "first_seen": "2026-10-25",
+        "summary_zh": "知乎讨论聚焦微软宣称要全面转向原生开发、不再用网页套壳方式构建 Windows 应用，并追问这能否缓解 Windows 11 长期被吐槽的卡顿与臃肿。提问未附具体产品或版本信息，原文是链接，未提供更多细节，哪些组件会被重写、性能收益有多大暂时都没有答案。",
+        "summary_en": "A Zhihu thread on Microsoft's stated move to native development and away from web-wrapper UI in its Windows apps, and whether that will fix Windows 11's reputation for sluggishness and bloat. No products, versions or benchmarks are given; the linked page isn't summarized here, so which components get rewritten and what the performance gains are remain open questions.",
         "domain": "zhihu.com",
-        "quality_score": 41.0,
+        "quality_score": 40.6,
         "related_ids": [
-          "36kr-4037020591018881",
-          "zhihu-2096930670463530796",
-          "infoq-pkFg3POvaTwJt9lei8Vj",
-          "36kr-4011070893871238",
-          "hn-49976751"
+          "v2ex-909f5e63c334",
+          "infoq-dQy1xkMRuPVj1Xh7Pohu",
+          "zhihu-2059660303915397288",
+          "v2ex-07a1cb3cf606",
+          "hn-50159726"
+        ]
+      },
+      {
+        "id": "36kr-4040083368629381",
+        "title": "吉大刘春宝孵化，00后团队创业仿生灵巧脸，拿下数千万融资丨36氪首发",
+        "url": "https://36kr.com/p/4040083368629381",
+        "description": "",
+        "source": "36kr",
+        "score": 9894,
+        "comments": 0,
+        "author": "",
+        "time": "2026-10-25T01:00:00.721000+00:00",
+        "tags": [
+          "36kr",
+          "氪首发",
+          "融资"
+        ],
+        "first_seen": "2026-10-25",
+        "summary_zh": "36氪首发报道称，一支 00 后创业团队在做仿生灵巧脸产品，由吉林大学刘春宝孵化，已拿到数千万元人民币融资。原文是链接，未提供更多细节，投资方名单、产品形态与落地场景均未披露，适合关注仿生机器人与早期硬科技融资的人跟进。",
+        "summary_en": "A 36kr exclusive on a team of post-2000s founders building a bio-inspired \"dexterous face\" (仿生灵巧脸), incubated by Jilin University's Liu Chunbao, which has raised tens of millions of RMB. The linked article isn't summarized here, so the investor list, product form and target use cases aren't in the available material; relevant to those tracking bio-inspired robotics and early-stage hard-tech funding.",
+        "domain": "36kr.com",
+        "quality_score": 45.0,
+        "related_ids": [
+          "36kr-4001258625994626",
+          "36kr-4037687068021637",
+          "infoq-ViOyxiOSP2ihxuUyg1rD",
+          "36kr-4039749830120583",
+          "36kr-4038149843178628"
         ]
       },
       {
@@ -1404,10 +1326,10 @@
         "url": "https://github.com/makecindy/cindy",
         "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
         "source": "github_trending",
-        "score": 471,
+        "score": 677,
         "comments": 0,
         "author": "makecindy",
-        "time": "2026-10-24T22:15:10.538038+00:00",
+        "time": "2026-10-25T22:18:33.973689+00:00",
         "tags": [
           "agent",
           "ai",
@@ -1420,151 +1342,14 @@
         "summary_zh": "Cindy 是 Apache-2.0 许可的开源 AI agent，把多种 harness、模型和工具装进同一个 agent，直接在用户自己的电脑和项目里完成实际工作，依赖 Node.js 22.x 与 pnpm 10，可从 cindy.app 下载。它主打开箱即用而非让人自己搭脚手架，适合想在本机跑一个能干活儿的 agent、又不想从零配置的开发者。",
         "summary_en": "Cindy is an Apache-2.0 open-source AI agent that bundles multiple harnesses, models and tools into a single agent doing real work inside your own projects and apps, running on Node.js 22.x and pnpm 10, downloadable from cindy.app. It pitches itself as ready from day one rather than a framework you assemble, which suits developers who want an agent on their own machine without the setup work.",
         "domain": "github.com",
-        "quality_score": 40.3,
+        "quality_score": 40.5,
         "related_ids": [
+          "v2ex-a5c59a40ce07",
           "juejin-7637856870833635343",
           "v2ex-c046a7ad5f76",
-          "v2ex-a5c59a40ce07",
           "v2ex-08bf5530dd48",
           "v2ex-83c2f870366f"
         ]
-      },
-      {
-        "id": "juejin-7694835192107860009",
-        "title": "公司从 400 多人缩减到 100 多人，我开始重新思考程序员的未来",
-        "url": "https://juejin.cn/post/7694835192107860009",
-        "description": "35岁的程序员，是不是已经落幕了？ 最近一直在逛掘金的文章，有技术文章，有人生感悟，还有各种沸点。 看得越多，越觉得现在大家都不容易。 大环境的影响，加上 AI 的冲击，感觉整个行业正在进入一个落幕阶",
-        "source": "juejin",
-        "score": 106,
-        "comments": 84,
-        "author": "",
-        "time": "2026-10-10T08:59:14+00:00",
-        "tags": [
-          "ai",
-          "juejin"
-        ],
-        "first_seen": "2026-10-10",
-        "summary_zh": "掘金上的一篇个人随笔，作者所在公司从 400 多人缩减到 100 多人，他借此重新思考程序员的未来，文中还提到 35 岁程序员的处境以及大环境和 AI 冲击带来的失落感。它不是技术教程，而是从业者对行业收缩期的观察，适合正在考虑职业规划的人读。",
-        "summary_en": "A personal essay on Juejin whose author watched their company shrink from over 400 people to just over 100, and uses that to rethink the future of programmers, touching on the situation of 35-year-old developers and the combined pressure of a weak market and AI. It is not a technical tutorial but one developer's read on an industry in retreat, useful for anyone weighing career plans.",
-        "domain": "juejin.cn",
-        "quality_score": 33.8,
-        "related_ids": [
-          "juejin-7637856870833635343",
-          "v2ex-c046a7ad5f76",
-          "v2ex-00489eeaed8f",
-          "v2ex-a2ef11e48bc2",
-          "v2ex-a5c59a40ce07"
-        ]
-      },
-      {
-        "id": "gh-daily-luongnv89-claude-howto",
-        "title": "luongnv89/claude-howto",
-        "url": "https://github.com/luongnv89/claude-howto",
-        "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
-        "source": "github_trending",
-        "score": 442,
-        "comments": 0,
-        "author": "luongnv89",
-        "time": "2026-10-24T22:15:10.538038+00:00",
-        "tags": [
-          "agent",
-          "claude",
-          "driven",
-          "github",
-          "template",
-          "visual"
-        ],
-        "gh_period": "daily",
-        "first_seen": "2026-10-22",
-        "summary_zh": "luongnv89/claude-howto 是一份面向 Claude Code 的图解式实战指南，采用 MIT 许可，当前版本 2.1.302，针对 Claude Code 2.1+，内容覆盖基础概念到 agents、hooks、skills 等进阶用法，并附可直接复制的模板。README 提供中、英、日、越、乌克兰语版本，适合想在一个周末把 Claude Code 从会敲命令推进到能编排工作流的开发者。",
-        "summary_en": "luongnv89/claude-howto is an MIT-licensed, example-driven guide to Claude Code, currently at version 2.1.302 and targeting Claude Code 2.1+. It walks from basic concepts up to agents, hooks and skills, and ships copy-paste templates you can drop into a project. READMEs are available in English, Chinese, Japanese, Vietnamese and Ukrainian, making it a fit for developers who want to move from typing claude to orchestrating workflows over a weekend.",
-        "domain": "github.com",
-        "quality_score": 40.3,
-        "related_ids": [
-          "gh-monthly-paperclipai-paperclip",
-          "gh-monthly-affaan-m-ECC",
-          "infoq-MAo3KoDWm9FGIcKau9AK",
-          "v2ex-2f94232b8b21",
-          "gh-monthly-heygen-com-hyperframes"
-        ]
-      },
-      {
-        "id": "juejin-7696894428150300682",
-        "title": "我用 REA 逆向了付费颜色 APP，结果很意外！",
-        "url": "https://juejin.cn/post/7696894428150300682",
-        "description": "GitHub 爆火的开源项目 REA 真的能逆向一切？软件已死？ 本期先科普什么是逆向工程、什么是 REA，然后实测用 AI 逆向单机安卓游戏和学习 App，看看它到底有没有那么神！",
-        "source": "juejin",
-        "score": 105,
-        "comments": 15,
-        "author": "",
-        "time": "2026-10-17T10:16:24+00:00",
-        "tags": [
-          "ai",
-          "github",
-          "juejin",
-          "rea",
-          "开源"
-        ],
-        "first_seen": "2026-10-17",
-        "summary_zh": "这篇文章先解释逆向工程的基本概念和 GitHub 上走红的开源项目 REA，再动手用 AI 去逆一个单机 Android 游戏和一款学习类 App，看它在真实场景里能做到哪一步。适合想了解 AI 辅助逆向的实际边界、不满足于概念介绍的人。",
-        "summary_en": "The post first explains what reverse engineering is and introduces REA, an open-source project that has drawn attention on GitHub, then uses it with AI against a single-player Android game and a learning app. It suits readers who want a hands-on look at where AI-assisted reverse engineering actually lands, rather than a purely conceptual overview.",
-        "domain": "juejin.cn",
-        "quality_score": 33.9,
-        "related_ids": [
-          "v2ex-c046a7ad5f76",
-          "v2ex-08bf5530dd48",
-          "v2ex-0099c4cefbf8",
-          "36kr-4039168291132547",
-          "v2ex-0f9b65f5e3d4"
-        ]
-      },
-      {
-        "id": "juejin-7698382188488048649",
-        "title": "手机到底有没有偷听我们？我抓包了 72 小时，抓到了真凶",
-        "url": "https://juejin.cn/post/7698382188488048649",
-        "description": "麦克风硬件音频采集唤醒为 0 次；真正实现未卜先知的，是 公网 NAT 时空超图（ST-GNN）、现代隐私集合求交（PSI） 与 端侧微模型特征向量化（On-Device Em",
-        "source": "juejin",
-        "score": 102,
-        "comments": 15,
-        "author": "",
-        "time": "2026-10-20T10:53:21+00:00",
-        "tags": [
-          "juejin",
-          "小时",
-          "隐私"
-        ],
-        "first_seen": "2026-10-24",
-        "summary_zh": "作者连续抓包 72 小时，发现麦克风硬件采集唤醒次数为 0，没有拿到手机偷听的证据；真正造成“未卜先知”的，是公网 NAT 时空超图（ST-GNN）、现代隐私集合求交（PSI）和端侧微模型特征向量化。适合关心隐私边界和推荐系统原理的开发者阅读。",
-        "summary_en": "A developer captured 72 hours of phone traffic and found zero microphone wake-ups at the hardware level, which weakens the \"my phone is listening\" theory. The uncanny precognition instead traces to public NAT spatio-temporal hypergraphs (ST-GNN), modern private set intersection (PSI), and on-device micro-model feature vectorization. Useful for engineers who want to understand how targeting actually works and where the privacy line sits.",
-        "domain": "juejin.cn",
-        "quality_score": 33.7,
-        "related_ids": [
-          "v2ex-624c4229a1c0",
-          "v2ex-07b2f85f3e32",
-          "infoq-K5J7yb60djWKM6vUZqwq",
-          "hn-50217903",
-          "36kr-3996646362747015"
-        ]
-      },
-      {
-        "id": "zhihu-2097252062257832354",
-        "title": "宇树机器人侧空翻表演时甩断腿，问题可能出在哪里？出现这种情况正常吗？",
-        "url": "https://www.zhihu.com/question/2097252062257832354",
-        "description": "",
-        "source": "zhihu",
-        "score": 890000,
-        "comments": 0,
-        "author": "",
-        "time": "2026-10-24T12:00:00+00:00",
-        "tags": [
-          "zhihu"
-        ],
-        "first_seen": "2026-10-24",
-        "summary_zh": "这是知乎上的一个提问，讨论宇树机器人在侧空翻表演中甩断腿的视频，追问故障可能出在哪一环、这类情况是否正常。原文是链接，未提供更多细节。",
-        "summary_en": "A Zhihu question about a Unitree robot that threw off a leg while performing a side flip, asking where the fault likely originates and whether such a failure is normal for legged hardware. The linked page isn't summarized here; details beyond the title aren't available.",
-        "domain": "zhihu.com",
-        "quality_score": 40.7,
-        "related_ids": []
       },
       {
         "id": "gh-daily-pollen-robotics-microduck",
@@ -1572,10 +1357,10 @@
         "url": "https://github.com/pollen-robotics/microduck",
         "description": "A Tiny biped duck robot 🦆",
         "source": "github_trending",
-        "score": 381,
+        "score": 657,
         "comments": 0,
         "author": "pollen-robotics",
-        "time": "2026-10-24T22:15:10.538038+00:00",
+        "time": "2026-10-25T22:18:33.973689+00:00",
         "tags": [
           "github",
           "robot",
@@ -1587,144 +1372,93 @@
         "summary_zh": "Pollen Robotics 开源了 Microduck 的机载代码：这台约 25 厘米、800 克的双足鸭子机器人由 Rockchip RK3566 上的若干守护进程驱动，50 Hz 控制循环用神经网络策略带动 15 个舵机，同时管理无线、摄像头，以及不会让机器人变砖的更新机制。强化学习策略的训练代码放在单独的 microduck_rl 仓库。",
         "summary_en": "Pollen Robotics published the onboard software for Microduck, a roughly 25 cm, 800 g bipedal duck robot. Its brain is a handful of daemons on a Rockchip RK3566: a 50 Hz control loop driving fifteen servos from neural policies, plus the radios, camera, and update machinery that pushes new software without bricking the robot. Training code for the reinforcement learning policies lives in a separate microduck_rl repo.",
         "domain": "github.com",
-        "quality_score": 40.3,
+        "quality_score": 40.5,
         "related_ids": [
           "hn-50096142",
           "hn-50162044",
           "gh-monthly-pollen-robotics-microduck_rl",
-          "hn-50131006",
-          "hn-50155616"
+          "hn-50155616",
+          "hn-50144144"
         ]
       },
       {
-        "id": "juejin-7693821701955567670",
-        "title": "Spring AI Alibaba已停更了，Java还有希望吗？",
-        "url": "https://juejin.cn/post/7693821701955567670",
-        "description": "前言 最近技术群里有个话题讨论得特别激烈——“Spring AI Alibaba是不是停更了？” 起因很简单。 有人翻了GitHub的Releases页面，发现上一个正式版还是v1.1.2.2，发布于",
-        "source": "juejin",
-        "score": 65,
-        "comments": 32,
-        "author": "",
-        "time": "2026-10-07T07:36:13+00:00",
+        "id": "gh-daily-TauricResearch-TradingAgents",
+        "title": "TauricResearch/TradingAgents",
+        "url": "https://github.com/TauricResearch/TradingAgents",
+        "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+        "source": "github_trending",
+        "score": 636,
+        "comments": 0,
+        "author": "TauricResearch",
+        "time": "2026-10-25T22:18:33.973689+00:00",
         "tags": [
-          "ai",
-          "alibaba",
+          "agent",
+          "financial",
           "github",
-          "java",
-          "juejin",
-          "release",
-          "spring",
-          "前言"
+          "llm",
+          "multi",
+          "trading"
         ],
-        "first_seen": "2026-10-07",
-        "summary_zh": "有开发者翻 GitHub Releases 页面发现 Spring AI Alibaba 的正式版停在 v1.1.2.2，于是技术群里就“项目是否已停更”吵了起来，文章由此讨论 Java 在 AI 应用方向还有没有机会。内容适合正在做 Java AI 技术栈选型、关心该项目维护状态的人。",
-        "summary_en": "Developers noticed that Spring AI Alibaba's GitHub Releases page stops at v1.1.2.2, which set off a heated debate in tech groups over whether the project has halted updates and whether Java still has a future in AI applications. The article starts from that observation and digs into the project's release cadence and Java's AI options, for teams weighing a Java-based AI stack.",
-        "domain": "juejin.cn",
-        "quality_score": 23.8,
+        "gh_period": "daily",
+        "first_seen": "2026-10-25",
+        "summary_zh": "TradingAgents 是 Tauric Research 开源的多智能体 LLM 金融交易框架，配套论文挂在 arXiv（2412.20138），仓库在 GitHub trending 上拿到过单日第一。它把交易决策拆给多个 LLM 智能体协作完成，适合想研究 agent 编排如何落到金融场景的开发者直接读代码。",
+        "summary_en": "TradingAgents is an open-source framework from Tauric Research for multi-agent LLM-driven financial trading, published alongside an arXiv paper (2412.20138) and ranked first among repositories of the day on trendshift. It's aimed at developers who want to see how multiple LLM agents are composed around trading decisions, with Discord and X channels for the community.",
+        "domain": "github.com",
+        "quality_score": 40.4,
         "related_ids": [
-          "36kr-4039168291132547",
-          "infoq-eRbEA3dMd58RNPqp5D8S",
-          "juejin-7637856870833635343",
-          "v2ex-c046a7ad5f76",
-          "v2ex-00489eeaed8f"
+          "gh-daily-AgriciDaniel-claude-seo",
+          "gh-monthly-paperclipai-paperclip",
+          "gh-monthly-cloudflare-security-audit-skill",
+          "v2ex-dc2e1eaf3193",
+          "gh-monthly-alibaba-open-code-review"
         ]
       },
       {
-        "id": "zhihu-2096894681745286436",
-        "title": "iPhone Duo 开售，每人限购两部，你买到了吗？很多人刚开箱就屏幕开裂，你遇到了吗？使用感受如何？",
-        "url": "https://www.zhihu.com/question/2096894681745286436",
+        "id": "36kr-4040657112208512",
+        "title": "硅谷的天才们怎么天天研究让 AI 在《我的世界》里砍树？",
+        "url": "https://36kr.com/p/4040657112208512",
         "description": "",
-        "source": "zhihu",
-        "score": 580000,
+        "source": "36kr",
+        "score": 8901,
         "comments": 0,
         "author": "",
-        "time": "2026-10-24T12:00:00+00:00",
+        "time": "2026-10-25T04:22:52.908000+00:00",
         "tags": [
-          "duo",
-          "iphone",
+          "36kr",
+          "ai"
+        ],
+        "first_seen": "2026-10-25",
+        "summary_zh": "文章讨论硅谷的 AI 研究者为何长期盯着《我的世界》里的砍树这类基础操作。原文只给出链接，未提供正文，具体观点与案例无法核实。",
+        "summary_en": "The article asks why Silicon Valley AI researchers spend so much time getting models to chop trees and perform similar basics inside Minecraft. The linked page isn't summarized here; details beyond the title aren't available, so the specific labs, methods and claims can't be confirmed.",
+        "domain": "36kr.com",
+        "quality_score": 44.5,
+        "related_ids": [
+          "v2ex-00489eeaed8f",
+          "v2ex-a5c59a40ce07",
+          "v2ex-993a89c94d30",
+          "juejin-7637856870833635343",
+          "36kr-4039471138362501"
+        ]
+      },
+      {
+        "id": "zhihu-1926924740225922646",
+        "title": "为什么腾讯有了 QQ 这么庞大的用户基础群之后要开发微信呢？",
+        "url": "https://www.zhihu.com/question/1926924740225922646",
+        "description": "",
+        "source": "zhihu",
+        "score": 570000,
+        "comments": 0,
+        "author": "",
+        "time": "2026-10-25T12:00:00+00:00",
+        "tags": [
           "zhihu"
         ],
         "first_seen": "2026-10-24",
-        "summary_zh": "知乎提问围绕 iPhone Duo 开售展开：每人限购两部，但有用户反映刚开箱就出现屏幕开裂，提问征集购买者是否遇到同样问题以及实际使用感受。原文是链接，未提供更多细节。",
-        "summary_en": "A Zhihu thread about the iPhone Duo going on sale with a two-per-customer limit, where some buyers report the screen cracking right out of the box, and it asks whether readers got one and how the device is holding up. The linked page isn't summarized here; details beyond the title aren't available.",
-        "domain": "zhihu.com",
-        "quality_score": 40.5,
-        "related_ids": [
-          "36kr-4037687068021637",
-          "36kr-4036266730886018",
-          "36kr-4032044521558403",
-          "36kr-4037781363545220",
-          "v2ex-cfdc6582ae74"
-        ]
-      },
-      {
-        "id": "zhihu-2094836561221251720",
-        "title": "为什么阿里巴巴和腾讯估值低，股价却总是下跌？",
-        "url": "https://www.zhihu.com/question/2094836561221251720",
-        "description": "",
-        "source": "zhihu",
-        "score": 570000,
-        "comments": 0,
-        "author": "",
-        "time": "2026-10-24T12:00:00+00:00",
-        "tags": [
-          "zhihu"
-        ],
-        "first_seen": "2026-10-23",
-        "summary_zh": "知乎上的一条提问，讨论阿里巴巴和腾讯估值已经偏低、股价却仍持续下跌这一现象。原帖是开放式问题，没有正文、数据或回答内容，具体观点无法从现有信息判断，需要到原页面查看讨论。",
-        "summary_en": "A Zhihu question asking why Alibaba and Tencent sit at low valuations while their share prices keep falling. The post is only a question title, with no body text or data, so the arguments and numbers raised by respondents aren't available here; you'd need to read the thread itself.",
+        "summary_zh": "这是知乎上的一个讨论问题：腾讯在已有 QQ 庞大用户基础的情况下，为什么还要开发微信。原文只有问题标题，没有正文内容，具体回答和论证细节无从得知。",
+        "summary_en": "A Zhihu discussion question asking why Tencent built WeChat when it already had QQ's huge user base. The linked page isn't summarized here; details beyond the title aren't available, so the actual arguments and answers can't be reported.",
         "domain": "zhihu.com",
         "quality_score": 40.5,
         "related_ids": []
-      },
-      {
-        "id": "zhihu-2094239068095602796",
-        "title": "AI 写代码太快，Review 不过来，要不要违背祖训放弃 Review？",
-        "url": "https://www.zhihu.com/question/2094239068095602796",
-        "description": "",
-        "source": "zhihu",
-        "score": 570000,
-        "comments": 0,
-        "author": "",
-        "time": "2026-10-24T12:00:00+00:00",
-        "tags": [
-          "ai",
-          "zhihu"
-        ],
-        "first_seen": "2026-10-22",
-        "summary_zh": "这是知乎上的一个提问：当 AI 生成代码的速度超过人工审查的吞吐量，团队是否该违背一直沿用的惯例、干脆放弃代码 Review。帖子本身只是提问，原文是链接、未提供更多正文，具体论据和回答需打开原帖查看。它指向的是把 AI 编码工具接入研发流程后，评审环节该如何重新设计。",
-        "summary_en": "A Zhihu thread asks whether teams should break with long-standing practice and drop code review entirely, now that AI generates code faster than humans can review it. The linked page isn't summarized here; details beyond the title aren't available, so the arguments and answers sit behind the link. The question itself is the practical one teams hit after wiring AI coding tools into their workflow: how to redesign review, not just abandon it.",
-        "domain": "zhihu.com",
-        "quality_score": 40.5,
-        "related_ids": [
-          "juejin-7637856870833635343",
-          "v2ex-c046a7ad5f76",
-          "v2ex-00489eeaed8f",
-          "v2ex-a2ef11e48bc2",
-          "v2ex-a5c59a40ce07"
-        ]
-      },
-      {
-        "id": "zhihu-2095965663173071657",
-        "title": "特斯拉 FSD 为什么非要选择纯视觉方案？",
-        "url": "https://www.zhihu.com/question/2095965663173071657",
-        "description": "",
-        "source": "zhihu",
-        "score": 570000,
-        "comments": 0,
-        "author": "",
-        "time": "2026-10-24T12:00:00+00:00",
-        "tags": [
-          "zhihu"
-        ],
-        "first_seen": "2026-10-22",
-        "summary_zh": "这是一条知乎提问，讨论特斯拉 FSD 为何坚持纯视觉而非激光雷达路线。原文只提供了标题，未附带问题描述或回答内容，因此具体观点和技术细节无法在此展开。",
-        "summary_en": "A Zhihu question asking why Tesla's FSD sticks with a pure-vision approach instead of adding lidar. The linked page isn't summarized here; details beyond the title aren't available, so the arguments made in the thread can't be reported.",
-        "domain": "zhihu.com",
-        "quality_score": 40.5,
-        "related_ids": [
-          "zhihu-2094694840407519249"
-        ]
       },
       {
         "id": "zhihu-2096004164606243451",
@@ -1732,10 +1466,10 @@
         "url": "https://www.zhihu.com/question/2096004164606243451",
         "description": "",
         "source": "zhihu",
-        "score": 570000,
+        "score": 560000,
         "comments": 0,
         "author": "",
-        "time": "2026-10-24T12:00:00+00:00",
+        "time": "2026-10-25T12:00:00+00:00",
         "tags": [
           "zhihu"
         ],
@@ -1745,6 +1479,198 @@
         "domain": "zhihu.com",
         "quality_score": 40.5,
         "related_ids": []
+      },
+      {
+        "id": "zhihu-2096743580895397227",
+        "title": "诺奖得主 Hassabis 称 AGI 最快 2 年内到来，如何看待这一预判？",
+        "url": "https://www.zhihu.com/question/2096743580895397227",
+        "description": "",
+        "source": "zhihu",
+        "score": 560000,
+        "comments": 0,
+        "author": "",
+        "time": "2026-10-25T12:00:00+00:00",
+        "tags": [
+          "agi",
+          "zhihu"
+        ],
+        "first_seen": "2026-10-24",
+        "summary_zh": "诺奖得主 Hassabis 给出预判，认为 AGI 最快两年内就会到来，该提问在知乎上引发对这条时间表的讨论。原文为链接，未提供更多正文细节，这一预判的具体语境与论据无法从现有素材确认。",
+        "summary_en": "Nobel laureate Hassabis has predicted that AGI could arrive in as little as two years, and this Zhihu thread asks readers how to weigh that timeline. The linked page isn't summarized here; the context and reasoning behind the claim aren't available beyond the title.",
+        "domain": "zhihu.com",
+        "quality_score": 40.5,
+        "related_ids": [
+          "36kr-4037020591018881",
+          "zhihu-2096930670463530796",
+          "infoq-pkFg3POvaTwJt9lei8Vj",
+          "36kr-4011070893871238",
+          "hn-49976751"
+        ]
+      },
+      {
+        "id": "juejin-7684460980934049807",
+        "title": "从codex转战workbuddy使用一周的感受",
+        "url": "https://juejin.cn/post/7684460980934049807",
+        "description": "不是恰饭，也不是踩一捧一。只是记录一个 Codex 老用户切换到 WorkBuddy 的真实一周，以及过程中踩到的坑和省下的钱。 一、为什么换：被逼无奈的\"搬家\" 很早就听说腾讯出了智能体编程工具 W",
+        "source": "juejin",
+        "score": 178,
+        "comments": 148,
+        "author": "",
+        "time": "2026-09-13T11:35:50+00:00",
+        "tags": [
+          "codex",
+          "juejin",
+          "workbuddy",
+          "编程"
+        ],
+        "first_seen": "2026-09-25",
+        "summary_zh": "一位 Codex 老用户记录自己转用腾讯智能体编程工具 WorkBuddy 一周的经历，写了换工具的原因、迁移中踩到的坑以及省下的费用。作者明确表示既不是恰饭也不是踩一捧一，属于个人使用记录，对正在挑选编程 Agent 或考虑从 Codex 换工具的人有参考价值。",
+        "summary_en": "A long-time Codex user documents a week of switching to WorkBuddy, Tencent's agentic coding tool, covering why he moved, the problems he ran into and the money he saved. He frames it as a personal usage log rather than an ad or a hit piece, which makes it worth reading for developers comparing coding agents or thinking about leaving Codex.",
+        "domain": "juejin.cn",
+        "quality_score": 38.2,
+        "related_ids": [
+          "juejin-7637856870833635343",
+          "v2ex-b8f62d81127b",
+          "juejin-7673855455463800847",
+          "gh-monthly-affaan-m-ECC",
+          "v2ex-27f5c0a5e743"
+        ]
+      },
+      {
+        "id": "36kr-4002880354504581",
+        "title": "职场“防御性驾驶”指南",
+        "url": "https://36kr.com/p/4002880354504581",
+        "description": "",
+        "source": "36kr",
+        "score": 7561,
+        "comments": 0,
+        "author": "",
+        "time": "2026-10-25T00:00:18.954000+00:00",
+        "tags": [
+          "36kr",
+          "指南"
+        ],
+        "first_seen": "2026-10-25",
+        "summary_zh": "文章把驾驶里的“防御性驾驶”概念搬到职场，讨论如何预判风险、给自己留余地。原文仅有标题和链接，没有正文，具体方法与案例无法确认。",
+        "summary_en": "The article borrows the idea of defensive driving from the road and applies it to the workplace, framing a career as something to navigate with risk anticipation and buffer room. Only the title and link are available here, so the specific advice and examples can't be verified.",
+        "domain": "36kr.com",
+        "quality_score": 43.8,
+        "related_ids": [
+          "gh-daily-byoungd-up",
+          "juejin-7647063256624037940"
+        ]
+      },
+      {
+        "id": "36kr-4040807584863111",
+        "title": "一颗AI毫米波雷达，千里科技在补哪一环",
+        "url": "https://36kr.com/p/4040807584863111",
+        "description": "",
+        "source": "36kr",
+        "score": 6175,
+        "comments": 0,
+        "author": "",
+        "time": "2026-10-25T04:49:15.970000+00:00",
+        "tags": [
+          "36kr",
+          "ai"
+        ],
+        "first_seen": "2026-10-25",
+        "summary_zh": "文章围绕一颗 AI 毫米波雷达展开，讨论千里科技在产业链上补的是哪一环。原文只提供链接，未附正文，具体产品参数与业务细节无法核实。",
+        "summary_en": "The piece centers on a single AI millimeter-wave radar and asks which link in the chain Qianli Technology is trying to fill. The linked page isn't summarized here, so the claimed capabilities and the market it targets can't be confirmed from the title alone.",
+        "domain": "36kr.com",
+        "quality_score": 43.1,
+        "related_ids": [
+          "v2ex-00489eeaed8f",
+          "v2ex-a5c59a40ce07",
+          "v2ex-993a89c94d30",
+          "juejin-7637856870833635343",
+          "36kr-4039471138362501"
+        ]
+      },
+      {
+        "id": "juejin-7694835192107860009",
+        "title": "公司从 400 多人缩减到 100 多人，我开始重新思考程序员的未来",
+        "url": "https://juejin.cn/post/7694835192107860009",
+        "description": "35岁的程序员，是不是已经落幕了？ 最近一直在逛掘金的文章，有技术文章，有人生感悟，还有各种沸点。 看得越多，越觉得现在大家都不容易。 大环境的影响，加上 AI 的冲击，感觉整个行业正在进入一个落幕阶",
+        "source": "juejin",
+        "score": 110,
+        "comments": 84,
+        "author": "",
+        "time": "2026-10-10T08:59:14+00:00",
+        "tags": [
+          "ai",
+          "juejin"
+        ],
+        "first_seen": "2026-10-10",
+        "summary_zh": "掘金上的一篇个人随笔，作者所在公司从 400 多人缩减到 100 多人，他借此重新思考程序员的未来，文中还提到 35 岁程序员的处境以及大环境和 AI 冲击带来的失落感。它不是技术教程，而是从业者对行业收缩期的观察，适合正在考虑职业规划的人读。",
+        "summary_en": "A personal essay on Juejin whose author watched their company shrink from over 400 people to just over 100, and uses that to rethink the future of programmers, touching on the situation of 35-year-old developers and the combined pressure of a weak market and AI. It is not a technical tutorial but one developer's read on an industry in retreat, useful for anyone weighing career plans.",
+        "domain": "juejin.cn",
+        "quality_score": 31.3,
+        "related_ids": [
+          "v2ex-00489eeaed8f",
+          "v2ex-a5c59a40ce07",
+          "v2ex-993a89c94d30",
+          "juejin-7637856870833635343",
+          "36kr-4039471138362501"
+        ]
+      },
+      {
+        "id": "gh-daily-Renhuai123-ziwei-doushu",
+        "title": "Renhuai123/ziwei-doushu",
+        "url": "https://github.com/Renhuai123/ziwei-doushu",
+        "description": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
+        "source": "github_trending",
+        "score": 255,
+        "comments": 0,
+        "author": "Renhuai123",
+        "time": "2026-10-25T22:18:33.973689+00:00",
+        "tags": [
+          "github",
+          "开源",
+          "数据",
+          "算法"
+        ],
+        "gh_period": "daily",
+        "first_seen": "2026-10-23",
+        "summary_zh": "Renhuai123/ziwei-doushu 是依据倪海厦《天纪》体系实现的紫微斗数开源排盘引擎，含排盘算法、四化系统与格局知识库，代码用 MIT、数据集用 CC BY 4.0 授权。它同时发布 v4.0 解读数据集，674,976 张命盘、13 维共 877 万段解读，解压后 56.6 GB，覆盖 1950 至 2026 年的真实日期。",
+        "summary_en": "Renhuai123/ziwei-doushu is an open-source Zi Wei Dou Shu charting engine built on Ni Haixia's Tian Ji system, bundling the charting algorithm, the Four Transformations logic, a pattern knowledge base and classical source texts, with MIT-licensed code and CC BY 4.0 data. Its v4.0 dataset spans 674,976 charts across 13 dimensions, roughly 8.77 million interpretation passages and 56.6 GB uncompressed, covering dates from 1950 to 2026.",
+        "domain": "github.com",
+        "quality_score": 40.2,
+        "related_ids": [
+          "v2ex-694a7e93ffb1",
+          "v2ex-3c0d86f899a8",
+          "v2ex-b28ffa5ee93e",
+          "v2ex-c046a7ad5f76",
+          "v2ex-08bf5530dd48"
+        ]
+      },
+      {
+        "id": "juejin-7691030977348108351",
+        "title": "一个人+AI做情侣食谱小程序，30天纯赚",
+        "url": "https://juejin.cn/post/7691030977348108351",
+        "description": "一个人+AI做情侣食谱小程序，30天纯赚 上一篇「一个月赚了8块」发出去后，评论区挺热闹。 \"8块，够买杯奶茶\"\"这也能叫赚钱？\" 现在可以回一句：奶茶钱有了，还能加份小料。 先说结论：上线30天，累",
+        "source": "juejin",
+        "score": 73,
+        "comments": 57,
+        "author": "",
+        "time": "2026-09-30T10:13:43+00:00",
+        "tags": [
+          "ai",
+          "juejin",
+          "一个人"
+        ],
+        "first_seen": "2026-10-06",
+        "summary_zh": "作者一个人配合 AI 做了款情侣食谱小程序，记录上线 30 天后的实际收益，此前他写过一篇“一个月赚了 8 块”的复盘。文章给的是后台真实数据和单人加 AI 的开发方式，适合想看小副业成本能压到多低的独立开发者。",
+        "summary_en": "A solo developer built a couples' recipe mini-program with AI as the co-pilot and shares the revenue from its first 30 days online, following up on an earlier post about making just 8 yuan in a month. It offers real backend numbers and a one-person-plus-AI workflow for indie developers curious how cheap a small side project can be.",
+        "domain": "juejin.cn",
+        "quality_score": 26.0,
+        "related_ids": [
+          "v2ex-00489eeaed8f",
+          "v2ex-a5c59a40ce07",
+          "v2ex-993a89c94d30",
+          "juejin-7637856870833635343",
+          "36kr-4039471138362501"
+        ]
       },
       {
         "id": "juejin-7675242010802896948",
@@ -1765,66 +1691,114 @@
         "summary_zh": "这篇掘金文章的作者基于 Pi 搭了一个自用的 AI Agent 桌面工作台，核心主张是不要重复造轮子：模型调用、消息循环、工具协议、权限系统这些环节不必从零手写。它适合想自己动手做 Agent 桌面工具的开发者，重点在于如何复用已有能力，把精力放在工作台本身。",
         "summary_en": "A Juejin post describes how the author built an AI Agent desktop workbench on top of Pi. Its main argument is not to reinvent the wheel: the model calls, message loop, tool protocol and permission system do not need to be written from scratch. It is aimed at developers who want their own agent desktop tool without rebuilding the plumbing first.",
         "domain": "juejin.cn",
-        "quality_score": 20.3,
+        "quality_score": 13.8,
         "related_ids": [
-          "juejin-7637856870833635343",
           "v2ex-a5c59a40ce07",
-          "infoq-AkDgwN6h72cqUOJ35Zok",
-          "v2ex-b07085612a6b",
-          "v2ex-9b7e449e051a"
-        ]
-      },
-      {
-        "id": "juejin-7692440533922971667",
-        "title": "副业搞起来，小说，漫画，漫剧的成本优化思路",
-        "url": "https://juejin.cn/post/7692440533922971667",
-        "description": "AI 太火爆了。玛德，照这更新速度，真怕哪天就原地进厂了。 小说转漫画skills：https://github.com/aiskyhub/novel_to_comic",
-        "source": "juejin",
-        "score": 58,
-        "comments": 15,
-        "author": "",
-        "time": "2026-10-12T02:05:51+00:00",
-        "tags": [
-          "ai",
-          "github",
-          "https",
-          "juejin",
-          "novel",
-          "优化"
-        ],
-        "first_seen": "2026-10-10",
-        "summary_zh": "一篇掘金文章，围绕小说转漫画、漫剧这条副业链路讲成本优化思路，作者在简介里贴出了 GitHub 项目 aiskyhub/novel_to_comic 用于小说转漫画。对想靠 AI 生成内容做副业、又需要把生成与推理成本压到利润线以下的独立开发者比较实用。",
-        "summary_en": "A Juejin post laying out cost-optimization ideas for a side business built on novels, comics and comic-style shorts, linking the GitHub project aiskyhub/novel_to_comic for turning novels into comics. It suits indie developers monetizing AI-generated content who need generation and inference costs to stay under their margins.",
-        "domain": "juejin.cn",
-        "quality_score": 20.9,
-        "related_ids": [
-          "v2ex-9c3af53c0962",
-          "36kr-4039168291132547",
-          "infoq-eRbEA3dMd58RNPqp5D8S",
           "juejin-7637856870833635343",
-          "v2ex-c046a7ad5f76"
+          "v2ex-b07085612a6b",
+          "v2ex-9b7e449e051a",
+          "v2ex-2f94232b8b21"
         ]
       },
       {
-        "id": "gh-daily-jbiaojerry-ebook-treasure-chest",
-        "title": "jbiaojerry/ebook-treasure-chest",
-        "url": "https://github.com/jbiaojerry/ebook-treasure-chest",
-        "description": "欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。 该库涵盖了帆书app(原樊登读书)、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。",
+        "id": "gh-daily-coollabsio-coolify",
+        "title": "coollabsio/coolify",
+        "url": "https://github.com/coollabsio/coolify",
+        "description": "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 360+ one-click services on your own servers.",
         "source": "github_trending",
-        "score": 220,
+        "score": 192,
         "comments": 0,
-        "author": "jbiaojerry",
-        "time": "2026-10-24T22:15:10.538038+00:00",
+        "author": "coollabsio",
+        "time": "2026-10-25T22:18:33.973689+00:00",
         "tags": [
-          "github"
+          "click",
+          "deploy",
+          "github",
+          "lets",
+          "stack",
+          "vercel"
         ],
         "gh_period": "daily",
-        "first_seen": "2026-10-24",
-        "summary_zh": "这个 GitHub 仓库汇总了从各电子书网站收集的下载链接，按文学、历史、管理、技术等标签分类，每本书提供 epub、mobi、azw3 三种格式，来源覆盖帆书 app（原樊登读书）、微信读书、京东读书、喜马拉雅等平台的大部分电子书。配套的 GitHub Pages 页面支持按书名、作者或多关键词实时搜索，比在仓库里翻目录省事。",
-        "summary_en": "This GitHub repo aggregates ebook download links collected from various ebook sites, sorted by tags such as literature, history, management and tech, with each title offered in epub, mobi and azw3. Its sources cover much of the catalog of 帆书 (formerly 樊登读书), 微信读书, 京东读书 and 喜马拉雅. A GitHub Pages front end adds real-time multi-keyword search, which beats scrolling the repo if you read across devices and formats.",
+        "first_seen": "2026-10-25",
+        "summary_zh": "Coolify 是开源可自托管的 PaaS，对标 Vercel、Heroku 和 Netlify，支持部署静态站点、数据库、全栈应用以及 360 多个一键服务。只要目标机器能通过 SSH 连接，VPS、裸金属服务器乃至树莓派都能被它管起来，适合想保留基础设施控制权又不想手写部署流程的团队。",
+        "summary_en": "Coolify is an open-source, self-hostable PaaS positioned as an alternative to Vercel, Heroku and Netlify, deploying static sites, databases, full-stack apps and 360-plus one-click services. Any server reachable over SSH works, whether a VPS, bare metal or a Raspberry Pi, so teams keep control of their infrastructure without hand-rolling deployment pipelines.",
         "domain": "github.com",
-        "quality_score": 40.2,
-        "related_ids": []
+        "quality_score": 40.1,
+        "related_ids": [
+          "gh-monthly-debpalash-VoiceStudio",
+          "gh-daily-debpalash-VoiceStudio",
+          "gh-daily-aws-agent-toolkit-for-aws",
+          "hn-49841563",
+          "gh-monthly-supabase-supabase"
+        ]
+      },
+      {
+        "id": "gh-daily-AgriciDaniel-claude-seo",
+        "title": "AgriciDaniel/claude-seo",
+        "url": "https://github.com/AgriciDaniel/claude-seo",
+        "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+        "source": "github_trending",
+        "score": 179,
+        "comments": 0,
+        "author": "AgriciDaniel",
+        "time": "2026-10-25T22:18:33.973689+00:00",
+        "tags": [
+          "agent",
+          "agentic",
+          "api",
+          "claude",
+          "excel",
+          "github",
+          "google",
+          "international",
+          "llm",
+          "seo",
+          "sub",
+          "technical",
+          "txt",
+          "universal"
+        ],
+        "gh_period": "daily",
+        "first_seen": "2026-10-25",
+        "summary_zh": "claude-seo 是开发者 Agrici Daniel 发布的免费开源 SEO 审计插件，以 Claude Code 技能包形式运行，含 26 个子技能和 19 个专职 agent，覆盖技术 SEO、Core Web Vitals、Schema.org、E-E-A-T 与 GEO/AEO，采用 MIT 协议。它还把 Lighthouse Agentic Browsing、WebMCP、llms.txt 这类让站点被 AI agent 读取的检查纳入审计，适合既想提升 Google 排名、又想被 ChatGPT、Perplexity 等引用的开发者。",
+        "summary_en": "claude-seo is a free, MIT-licensed SEO audit plugin from developer Agrici Daniel that runs inside Claude Code as 26 sub-skills and 19 specialist agents, covering technical SEO, Core Web Vitals, Schema.org markup, E-E-A-T and GEO/AEO for AI search. It also audits agent readiness through Lighthouse Agentic Browsing, WebMCP and llms.txt checks. That mix suits developers who want both Google rankings and citations from ChatGPT, Perplexity and similar engines.",
+        "domain": "github.com",
+        "quality_score": 40.1,
+        "related_ids": [
+          "v2ex-eb93e86aad62",
+          "gh-daily-TauricResearch-TradingAgents",
+          "gh-daily-luongnv89-claude-howto",
+          "gh-monthly-paperclipai-paperclip",
+          "gh-monthly-affaan-m-ECC"
+        ]
+      },
+      {
+        "id": "juejin-7695697094277087272",
+        "title": "甲方只给了一张卫星截图，我用 Three.js + Blender 建了一座 3D 能源站",
+        "url": "https://juejin.cn/post/7695697094277087272",
+        "description": "一张卫星截图，用 Three.js + Blender 建出一座 3D 综合能源补给站：反求设计稿相机、脚本化建模、Cycles 烘焙夜景、重卡倒车入位、运营仿真，再用叠图逐像素校验还原度。",
+        "source": "juejin",
+        "score": 53,
+        "comments": 18,
+        "author": "",
+        "time": "2026-10-13T03:31:25+00:00",
+        "tags": [
+          "blender",
+          "juejin",
+          "设计"
+        ],
+        "first_seen": "2026-10-16",
+        "summary_zh": "作者手上只有甲方给的一张卫星截图，用 Three.js 加 Blender 还原出一座 3D 综合能源补给站：从截图反求设计稿相机、脚本化建模、Cycles 烘焙夜景，到重卡倒车入位动画与运营仿真，最后叠图逐像素比对还原度。适合做 Web 3D 可视化、数字孪生，或需要从参考图逆向搭建场景的前端开发者参考。",
+        "summary_en": "Starting from a single satellite screenshot handed over by a client, the author rebuilt a 3D integrated energy station with Three.js and Blender: reverse-engineering the design camera from the image, scripting the modeling, baking a night scene in Cycles, then adding a truck reversing into a bay and an operations simulation, with a pixel-by-pixel overlay to check fidelity. Useful for front-end developers working on Web 3D visualization, digital twins, or reconstructing scenes from reference imagery.",
+        "domain": "juejin.cn",
+        "quality_score": 19.7,
+        "related_ids": [
+          "zhihu-2097635960213037771",
+          "v2ex-3c0d86f899a8",
+          "infoq-dbOwzu6l6Tr8NAhCQRC8",
+          "36kr-4016617817837441",
+          "infoq-QdPWpubQFmegrsH9UZFC"
+        ]
       },
       {
         "id": "juejin-7686040694948134921",
@@ -1832,7 +1806,7 @@
         "url": "https://juejin.cn/post/7686040694948134921",
         "description": "AI时代是否还需学编程？狂师指出：非技术人重在“会用”——懂基础概念、能说清需求、会简单验收；技术人则必须“会判”——语法基础不能丢，但重心转向读懂AI代码、判断质量与风险。写交给AI，责任留给人。",
         "source": "juejin",
-        "score": 48,
+        "score": 47,
         "comments": 11,
         "author": "",
         "time": "2026-09-17T01:10:46+00:00",
@@ -1845,87 +1819,107 @@
         "summary_zh": "掘金作者狂师把 AI 时代的编程能力拆成两类要求：非技术人重在“会用”，理解基础概念、把需求讲清楚、能做简单验收；技术人则要“会判”，语法基础不能丢，但重心转向读懂 AI 生成的代码并判断其质量与风险。核心主张是写代码可以交给 AI，责任仍由人承担。",
         "summary_en": "Writing on 掘金, author 狂师 splits programming skill in the AI era into two tracks: non-technical people need to \"use\" — grasp basic concepts, state requirements clearly and do light acceptance checks — while engineers need to \"judge\", keeping syntax fundamentals but shifting focus to reading AI-generated code and assessing its quality and risk. His claim is simple: let AI write, keep the responsibility human.",
         "domain": "juejin.cn",
-        "quality_score": 14.7,
+        "quality_score": 13.4,
         "related_ids": [
           "juejin-7637856870833635343",
-          "v2ex-c046a7ad5f76",
           "v2ex-00489eeaed8f",
-          "juejin-7673855455463800847",
-          "v2ex-a2ef11e48bc2"
+          "v2ex-a5c59a40ce07",
+          "v2ex-993a89c94d30",
+          "36kr-4039471138362501"
         ]
       },
       {
-        "id": "gh-daily-google-gemini-gemini-cli",
-        "title": "google-gemini/gemini-cli",
-        "url": "https://github.com/google-gemini/gemini-cli",
-        "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
-        "source": "github_trending",
-        "score": 38,
-        "comments": 0,
-        "author": "google-gemini",
-        "time": "2026-10-24T22:15:10.538038+00:00",
+        "id": "juejin-7686407614478237748",
+        "title": "用了一个月 WorkBuddy，聊聊我的真实感受",
+        "url": "https://juejin.cn/post/7686407614478237748",
+        "description": "我用 GPT 有两年多了，也算是个重度用户了吧。平常写方案、改文案、整理资料、有时候半夜想到一个选题也会爬起来跟它聊两轮。因为网络的原因，我一直走的是中转站——大家懂的都懂，就是第三方转发 API 的",
+        "source": "juejin",
+        "score": 45,
+        "comments": 41,
+        "author": "",
+        "time": "2026-09-18T03:38:48+00:00",
         "tags": [
-          "agent",
-          "ai",
-          "cli",
-          "gemini",
-          "github",
-          "google",
-          "terminal"
+          "api",
+          "gpt",
+          "juejin",
+          "workbuddy"
         ],
-        "gh_period": "daily",
-        "first_seen": "2026-10-24",
-        "summary_zh": "Gemini CLI 是 Google 把 Gemini 接进终端的开源 AI agent，以 npm 包 @google/gemini-cli 分发。README 顶部公告写明，面向未付费层和 Google One 用户的 Gemini CLI 已于 2026 年 6 月 18 日被 Antigravity CLI 取代，且它未针对 Gemini 4 Argon 优化，要用该模型需改用 Antigravity；把它接进脚本或终端流程的人需要确认迁移路径。",
-        "summary_en": "Gemini CLI is Google's open-source terminal AI agent, distributed as the npm package @google/gemini-cli. A notice atop the README says the CLI was replaced by Antigravity CLI on June 18, 2026 for unpaid-tier and Google One users, and that it hasn't been optimized for Gemini 4 Argon — that model requires Antigravity instead. Anyone who wired gemini-cli into scripts or terminal workflows should check the migration path.",
-        "domain": "github.com",
-        "quality_score": 40.0,
+        "first_seen": "2026-09-25",
+        "summary_zh": "一位用 GPT 两年多、平时写方案改文案整理资料的重度用户，因为网络原因长期依赖第三方中转 API，这次记录了自己使用 WorkBuddy 一个月的真实体验。对同样靠中转站调用模型的开发者来说，这类长期使用反馈比发布会参数更有参考价值。",
+        "summary_en": "A heavy GPT user of more than two years, who writes proposals, edits copy and sorts materials with it, explains that he has long relied on third-party relay APIs because of network constraints, and now shares what a month of using WorkBuddy actually felt like. Devs who also reach models through relay endpoints will find this kind of long-term, hands-on account more useful than launch-day benchmarks.",
+        "domain": "juejin.cn",
+        "quality_score": 17.6,
         "related_ids": [
-          "juejin-7637856870833635343",
-          "v2ex-a5c59a40ce07",
-          "gh-monthly-thedotmack-claude-mem",
-          "infoq-AkDgwN6h72cqUOJ35Zok",
-          "v2ex-b07085612a6b"
+          "v2ex-b8f62d81127b",
+          "v2ex-27f5c0a5e743",
+          "v2ex-c3bfc7940466",
+          "infoq-VSIsPFiO2hrjBi30wDfE",
+          "36kr-4023585253871494"
         ]
       },
       {
-        "id": "gh-daily-aws-agent-toolkit-for-aws",
-        "title": "aws/agent-toolkit-for-aws",
-        "url": "https://github.com/aws/agent-toolkit-for-aws",
-        "description": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
-        "source": "github_trending",
-        "score": 11,
+        "id": "36kr-4041438599386244",
+        "title": "中国公司全球化周报｜迪拜机场自贸区2026北京交流会报名开启中 / 速卖通与YouTube达成全球战略合作",
+        "url": "https://36kr.com/p/4041438599386244",
+        "description": "",
+        "source": "36kr",
+        "score": 1986,
         "comments": 0,
-        "author": "aws",
-        "time": "2026-10-24T22:15:10.538038+00:00",
+        "author": "",
+        "time": "2026-10-25T15:24:49.898000+00:00",
         "tags": [
-          "agent",
-          "ai",
-          "aws",
-          "github",
-          "mcp",
-          "plugins",
-          "toolkit"
+          "36kr",
+          "youtube"
         ],
-        "gh_period": "daily",
-        "first_seen": "2026-10-24",
-        "summary_zh": "Agent Toolkit for AWS 是 AWS 官方支持的 MCP servers、skills 与 plugins 集合，让 AI 编码 agent 能构建、部署和管理 AWS 应用，官方称可配合 Claude Code、Codex、Cursor、Devin、Kiro、fx 等工具使用。终端里可用 aws configure agent-toolkit 接入，Claude Code 插件已进入 Anthropic 官方 marketplace，项目处于 GA 状态、Apache 2.0 许可。",
-        "summary_en": "Agent Toolkit for AWS bundles AWS-supported MCP servers, skills and plugins that give coding agents the tools, knowledge and guardrails to build, deploy and manage applications on AWS. AWS says it works with agents developers already use, including Claude Code, Codex, Cursor, Devin, Kiro and fx. You can drive it from the terminal via aws configure agent-toolkit, and the Claude Code plugins ship through Anthropic's official marketplace. It's GA under Apache 2.0.",
-        "domain": "github.com",
-        "quality_score": 40.0,
+        "first_seen": "2026-10-25",
+        "summary_zh": "这是 36氪的中国公司全球化周报，本周收录两条动态：迪拜机场自贸区 2026 北京交流会的报名正在开放中，速卖通与 YouTube 达成全球战略合作。原文是链接，未提供会议议程、合作范围或条款等更多细节，关注中东市场落地和跨境电商海外流量渠道的团队可以据此跟进。",
+        "summary_en": "This is 36Kr's weekly roundup on Chinese companies expanding overseas, and it carries two items: registration is open for a 2026 Beijing exchange session held by Dubai Airports Free Zone, and AliExpress has signed a global strategic partnership with YouTube. The linked page isn't summarized here; details beyond the title aren't available. Worth following for teams weighing Middle East expansion or cross-border e-commerce traffic channels.",
+        "domain": "36kr.com",
+        "quality_score": 41.0,
         "related_ids": [
-          "juejin-7637856870833635343",
-          "gh-monthly-mksglu-context-mode",
-          "v2ex-a5c59a40ce07",
-          "gh-daily-NVIDIA-OpenShell",
-          "gh-monthly-paperclipai-paperclip"
+          "v2ex-a2f0f2f8b12f",
+          "v2ex-96957dfa34c6",
+          "v2ex-4904c2684651",
+          "v2ex-bf1135bd5345",
+          "gh-monthly-Panniantong-Agent-Reach"
+        ]
+      },
+      {
+        "id": "juejin-7696048084749484082",
+        "title": "太猛了，一个月干到15W+，给大家推荐一个最近爆火的开源逆向工具：REA",
+        "url": "https://juejin.cn/post/7696048084749484082",
+        "description": "最近 AI 圈里爆火的一个开源项目：REA，今年 4 月才建仓，目前已经干到了 15 万+ star，严格来说，是最近一个多月直接冲到了15W+ star，相信很多人应该都听说过这个项目了...",
+        "source": "juejin",
+        "score": 37,
+        "comments": 9,
+        "author": "",
+        "time": "2026-10-14T01:10:48+00:00",
+        "tags": [
+          "ai",
+          "juejin",
+          "rea",
+          "star",
+          "开源"
+        ],
+        "first_seen": "2026-10-16",
+        "summary_zh": "开源逆向工具 REA 今年 4 月才建仓，一个多月里 star 数冲到 15 万以上，作者在文中介绍了这个项目的来历和用法。对做逆向、安全分析或需要拆解二进制的人，这是一份了解该工具定位与上手方式的快速入门。",
+        "summary_en": "REA is an open-source reverse engineering tool whose repository was only created this April, yet it has climbed past 150,000 stars in little more than a month. The article walks through what the project is and how to get started with it. Useful for anyone doing reverse engineering, security analysis, or binary inspection who wants a quick orientation before trying it out.",
+        "domain": "juejin.cn",
+        "quality_score": 17.8,
+        "related_ids": [
+          "v2ex-c046a7ad5f76",
+          "v2ex-08bf5530dd48",
+          "v2ex-0099c4cefbf8",
+          "v2ex-0f9b65f5e3d4",
+          "infoq-M6BRTrsyJvUg8y0M0kyh"
         ]
       }
     ],
     "count": 70
   },
   "monthly": {
-    "start": "2026-09-24",
-    "end": "2026-10-24",
+    "start": "2026-09-25",
+    "end": "2026-10-25",
     "items": [
       {
         "id": "zhihu-2087911809458102776",
@@ -1970,13 +1964,13 @@
         "url": "https://github.com/debpalash/VoiceStudio",
         "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
         "source": "github_trending",
-        "score": 48343,
+        "score": 49780,
         "comments": 0,
         "author": "debpalash",
-        "time": "2026-10-24T22:15:10.538038+00:00",
+        "time": "2026-10-25T22:18:33.973689+00:00",
         "tags": [],
         "gh_period": "monthly",
-        "first_seen": "2026-09-24",
+        "first_seen": "2026-09-25",
         "summary_zh": "VoiceStudio 是一个完全本地运行的开源语音工具，定位为 ElevenLabs 的替代方案，集成了声音克隆、声音设计、视频配音、听写、转写和有声书制作，宣称覆盖 646 种语言。对数据不能出本地、或想自托管语音能力的开发者来说，它提供了一个不依赖云端 API 的选项。",
         "summary_en": "VoiceStudio is an open-source, fully local alternative to ElevenLabs that bundles voice cloning, voice design, video dubbing, dictation, transcription and audiobook creation, claiming support for 646 languages. It is aimed at developers who want speech tooling they can self-host or who cannot send audio to a third-party API."
       },
@@ -2010,7 +2004,9 @@
         "tags": [],
         "first_seen": "2026-10-20",
         "summary_zh": "DeepInfer 是一个面向 DeepSeek 系列模型的高性能推理框架，从标题看定位在推理侧的性能优化。原文只是一个链接帖，未提供更多细节，因此它的具体实现方式、支持的硬件和性能数据暂时无法确认。",
-        "summary_en": "DeepInfer is presented as a high-performance inference framework built for DeepSeek models, positioning itself on the serving side of the stack. The linked page isn't summarized here; details beyond the title aren't available, so its implementation, supported hardware and benchmark numbers can't be confirmed yet."
+        "summary_en": "DeepInfer is presented as a high-performance inference framework built for DeepSeek models, positioning itself on the serving side of the stack. The linked page isn't summarized here; details beyond the title aren't available, so its implementation, supported hardware and benchmark numbers can't be confirmed yet.",
+        "domain": "github.com",
+        "quality_score": 69.9
       },
       {
         "id": "v2ex-02e9e83276ba",
@@ -2253,6 +2249,23 @@
         "quality_score": 69.8
       },
       {
+        "id": "juejin-7694835192107860009",
+        "title": "公司从 400 多人缩减到 100 多人，我开始重新思考程序员的未来",
+        "url": "https://juejin.cn/post/7694835192107860009",
+        "description": "35岁的程序员，是不是已经落幕了？ 最近一直在逛掘金的文章，有技术文章，有人生感悟，还有各种沸点。 看得越多，越觉得现在大家都不容易。 大环境的影响，加上 AI 的冲击，感觉整个行业正在进入一个落幕阶",
+        "source": "juejin",
+        "score": 110,
+        "comments": 84,
+        "author": "",
+        "time": "2026-10-10T08:59:14+00:00",
+        "tags": [
+          "juejin"
+        ],
+        "first_seen": "2026-10-10",
+        "summary_zh": "掘金上的一篇个人随笔，作者所在公司从 400 多人缩减到 100 多人，他借此重新思考程序员的未来，文中还提到 35 岁程序员的处境以及大环境和 AI 冲击带来的失落感。它不是技术教程，而是从业者对行业收缩期的观察，适合正在考虑职业规划的人读。",
+        "summary_en": "A personal essay on Juejin whose author watched their company shrink from over 400 people to just over 100, and uses that to rethink the future of programmers, touching on the situation of 35-year-old developers and the combined pressure of a weak market and AI. It is not a technical tutorial but one developer's read on an industry in retreat, useful for anyone weighing career plans."
+      },
+      {
         "id": "36kr-3985855472270082",
         "title": "大多数高薪技能10年内将失去价值，学这4项吧",
         "url": "https://36kr.com/p/3985855472270082",
@@ -2304,23 +2317,6 @@
         "quality_score": 58.0
       },
       {
-        "id": "juejin-7694835192107860009",
-        "title": "公司从 400 多人缩减到 100 多人，我开始重新思考程序员的未来",
-        "url": "https://juejin.cn/post/7694835192107860009",
-        "description": "35岁的程序员，是不是已经落幕了？ 最近一直在逛掘金的文章，有技术文章，有人生感悟，还有各种沸点。 看得越多，越觉得现在大家都不容易。 大环境的影响，加上 AI 的冲击，感觉整个行业正在进入一个落幕阶",
-        "source": "juejin",
-        "score": 106,
-        "comments": 84,
-        "author": "",
-        "time": "2026-10-10T08:59:14+00:00",
-        "tags": [
-          "juejin"
-        ],
-        "first_seen": "2026-10-10",
-        "summary_zh": "掘金上的一篇个人随笔，作者所在公司从 400 多人缩减到 100 多人，他借此重新思考程序员的未来，文中还提到 35 岁程序员的处境以及大环境和 AI 冲击带来的失落感。它不是技术教程，而是从业者对行业收缩期的观察，适合正在考虑职业规划的人读。",
-        "summary_en": "A personal essay on Juejin whose author watched their company shrink from over 400 people to just over 100, and uses that to rethink the future of programmers, touching on the situation of 35-year-old developers and the combined pressure of a weak market and AI. It is not a technical tutorial but one developer's read on an industry in retreat, useful for anyone weighing career plans."
-      },
-      {
         "id": "juejin-7696894428150300682",
         "title": "我用 REA 逆向了付费颜色 APP，结果很意外！",
         "url": "https://juejin.cn/post/7696894428150300682",
@@ -2335,7 +2331,9 @@
         ],
         "first_seen": "2026-10-17",
         "summary_zh": "这篇文章先解释逆向工程的基本概念和 GitHub 上走红的开源项目 REA，再动手用 AI 去逆一个单机 Android 游戏和一款学习类 App，看它在真实场景里能做到哪一步。适合想了解 AI 辅助逆向的实际边界、不满足于概念介绍的人。",
-        "summary_en": "The post first explains what reverse engineering is and introduces REA, an open-source project that has drawn attention on GitHub, then uses it with AI against a single-player Android game and a learning app. It suits readers who want a hands-on look at where AI-assisted reverse engineering actually lands, rather than a purely conceptual overview."
+        "summary_en": "The post first explains what reverse engineering is and introduces REA, an open-source project that has drawn attention on GitHub, then uses it with AI against a single-player Android game and a learning app. It suits readers who want a hands-on look at where AI-assisted reverse engineering actually lands, rather than a purely conceptual overview.",
+        "domain": "juejin.cn",
+        "quality_score": 33.9
       },
       {
         "id": "infoq-cA9rSEGKphbJHIiTQKMv",
@@ -2403,7 +2401,9 @@
         ],
         "first_seen": "2026-10-24",
         "summary_zh": "作者连续抓包 72 小时，发现麦克风硬件采集唤醒次数为 0，没有拿到手机偷听的证据；真正造成“未卜先知”的，是公网 NAT 时空超图（ST-GNN）、现代隐私集合求交（PSI）和端侧微模型特征向量化。适合关心隐私边界和推荐系统原理的开发者阅读。",
-        "summary_en": "A developer captured 72 hours of phone traffic and found zero microphone wake-ups at the hardware level, which weakens the \"my phone is listening\" theory. The uncanny precognition instead traces to public NAT spatio-temporal hypergraphs (ST-GNN), modern private set intersection (PSI), and on-device micro-model feature vectorization. Useful for engineers who want to understand how targeting actually works and where the privacy line sits."
+        "summary_en": "A developer captured 72 hours of phone traffic and found zero microphone wake-ups at the hardware level, which weakens the \"my phone is listening\" theory. The uncanny precognition instead traces to public NAT spatio-temporal hypergraphs (ST-GNN), modern private set intersection (PSI), and on-device micro-model feature vectorization. Useful for engineers who want to understand how targeting actually works and where the privacy line sits.",
+        "domain": "juejin.cn",
+        "quality_score": 33.7
       },
       {
         "id": "infoq-M6BRTrsyJvUg8y0M0kyh",
@@ -2578,6 +2578,21 @@
         "quality_score": 57.9
       },
       {
+        "id": "hn-50202285",
+        "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
+        "url": "https://edjefferson.com/localwiki/",
+        "description": "",
+        "source": "hackernews",
+        "score": 1675,
+        "comments": 253,
+        "author": "sohkamyung",
+        "time": "2026-10-22T23:01:18+00:00",
+        "tags": [],
+        "first_seen": "2026-10-23",
+        "summary_zh": "这是一个名为 Local Wikipedia 的项目，把维基百科的内容限定在你步行半小时能到达的范围内。原文是链接，未提供更多细节，实现方式和数据来源都无从得知。",
+        "summary_en": "A project called Local Wikipedia that restricts Wikipedia content to places within a half-hour walk of you. The linked page isn't summarized here; details beyond the title aren't available, so how it is built and where the data comes from are unknown."
+      },
+      {
         "id": "hn-50112657",
         "title": "Tesla Roadster",
         "url": "https://www.tesla.com/roadster",
@@ -2593,24 +2608,6 @@
         "summary_en": "This is a Hacker News submission titled \"Tesla Roadster\"; the linked page isn't summarized here, so details beyond the title aren't available, and it is unclear whether it concerns the car itself, a news item, or something else entirely.",
         "domain": "tesla.com",
         "quality_score": 84.1
-      },
-      {
-        "id": "gh-daily-morluto-rea",
-        "title": "morluto/rea",
-        "url": "https://github.com/morluto/rea",
-        "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-        "source": "github_trending",
-        "score": 32282,
-        "comments": 0,
-        "author": "morluto",
-        "time": "2026-10-15T22:54:18.525152+00:00",
-        "tags": [],
-        "gh_period": "daily",
-        "first_seen": "2026-10-06",
-        "summary_zh": "morluto/rea 是一个把 agent 用在逆向工程上的 GitHub 项目，覆盖范围从 App 行为分析一路下探到 native 二进制层面。它让自动化智能体去驱动整个逆向流程，而不是只做单一的反汇编，适合安全研究、漏洞分析和需要摸清闭源程序内部逻辑的开发者。",
-        "summary_en": "rea is a GitHub project that applies agents to reverse engineering, spanning app behaviour analysis all the way down to native binaries. Rather than being a single-purpose disassembler, it aims to let autonomous agents drive the investigation, which makes it relevant to security researchers and anyone who needs to understand closed-source software.",
-        "domain": "github.com",
-        "quality_score": 70.4
       },
       {
         "id": "hn-50172041",
@@ -2630,19 +2627,22 @@
         "quality_score": 55.6
       },
       {
-        "id": "hn-50202285",
-        "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
-        "url": "https://edjefferson.com/localwiki/",
-        "description": "",
-        "source": "hackernews",
-        "score": 1527,
-        "comments": 240,
-        "author": "sohkamyung",
-        "time": "2026-10-22T23:01:18+00:00",
+        "id": "gh-daily-morluto-rea",
+        "title": "morluto/rea",
+        "url": "https://github.com/morluto/rea",
+        "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+        "source": "github_trending",
+        "score": 32282,
+        "comments": 0,
+        "author": "morluto",
+        "time": "2026-10-15T22:54:18.525152+00:00",
         "tags": [],
-        "first_seen": "2026-10-23",
-        "summary_zh": "这是一个名为 Local Wikipedia 的项目，把维基百科的内容限定在你步行半小时能到达的范围内。原文是链接，未提供更多细节，实现方式和数据来源都无从得知。",
-        "summary_en": "A project called Local Wikipedia that restricts Wikipedia content to places within a half-hour walk of you. The linked page isn't summarized here; details beyond the title aren't available, so how it is built and where the data comes from are unknown."
+        "gh_period": "daily",
+        "first_seen": "2026-10-06",
+        "summary_zh": "morluto/rea 是一个把 agent 用在逆向工程上的 GitHub 项目，覆盖范围从 App 行为分析一路下探到 native 二进制层面。它让自动化智能体去驱动整个逆向流程，而不是只做单一的反汇编，适合安全研究、漏洞分析和需要摸清闭源程序内部逻辑的开发者。",
+        "summary_en": "rea is a GitHub project that applies agents to reverse engineering, spanning app behaviour analysis all the way down to native binaries. Rather than being a single-purpose disassembler, it aims to let autonomous agents drive the investigation, which makes it relevant to security researchers and anyone who needs to understand closed-source software.",
+        "domain": "github.com",
+        "quality_score": 70.4
       },
       {
         "id": "36kr-4036266730886018",
@@ -2747,20 +2747,21 @@
         "quality_score": 51.7
       },
       {
-        "id": "gh-monthly-vectorize-io-hindsight",
-        "title": "vectorize-io/hindsight",
-        "url": "https://github.com/vectorize-io/hindsight",
-        "description": "Hindsight: Agent Memory That Learns",
-        "source": "github_trending",
-        "score": 28115,
-        "comments": 0,
-        "author": "vectorize-io",
-        "time": "2026-10-24T22:15:10.538038+00:00",
-        "tags": [],
-        "gh_period": "monthly",
-        "first_seen": "2026-09-29",
-        "summary_zh": "vectorize-io 在 GitHub 上放出了 Hindsight，官方描述只有一句「Agent Memory That Learns」，定位是面向 AI agent 的记忆层。除这句简介外仓库没有给出更多说明，具体实现和适用场景需要直接读代码判断。",
-        "summary_en": "vectorize-io has published Hindsight on GitHub, described only as \"Agent Memory That Learns\" — it sits in the agent-memory space, aiming at memory that improves rather than staying static. The repository gives no further detail beyond that tagline, so implementation and intended use cases have to be judged from the code itself."
+        "id": "juejin-7691030977348108351",
+        "title": "一个人+AI做情侣食谱小程序，30天纯赚",
+        "url": "https://juejin.cn/post/7691030977348108351",
+        "description": "一个人+AI做情侣食谱小程序，30天纯赚 上一篇「一个月赚了8块」发出去后，评论区挺热闹。 \"8块，够买杯奶茶\"\"这也能叫赚钱？\" 现在可以回一句：奶茶钱有了，还能加份小料。 先说结论：上线30天，累",
+        "source": "juejin",
+        "score": 73,
+        "comments": 57,
+        "author": "",
+        "time": "2026-09-30T10:13:43+00:00",
+        "tags": [
+          "juejin"
+        ],
+        "first_seen": "2026-10-06",
+        "summary_zh": "作者一个人配合 AI 做了款情侣食谱小程序，记录上线 30 天后的实际收益，此前他写过一篇“一个月赚了 8 块”的复盘。文章给的是后台真实数据和单人加 AI 的开发方式，适合想看小副业成本能压到多低的独立开发者。",
+        "summary_en": "A solo developer built a couples' recipe mini-program with AI as the co-pilot and shares the revenue from its first 30 days online, following up on an earlier post about making just 8 yuan in a month. It offers real backend numbers and a one-person-plus-AI workflow for indie developers curious how cheap a small side project can be."
       },
       {
         "id": "gh-monthly-ayghri-i-have-adhd",
@@ -2817,23 +2818,20 @@
         "quality_score": 67.6
       },
       {
-        "id": "juejin-7691030977348108351",
-        "title": "一个人+AI做情侣食谱小程序，30天纯赚",
-        "url": "https://juejin.cn/post/7691030977348108351",
-        "description": "一个人+AI做情侣食谱小程序，30天纯赚 上一篇「一个月赚了8块」发出去后，评论区挺热闹。 \"8块，够买杯奶茶\"\"这也能叫赚钱？\" 现在可以回一句：奶茶钱有了，还能加份小料。 先说结论：上线30天，累",
-        "source": "juejin",
-        "score": 71,
-        "comments": 55,
-        "author": "",
-        "time": "2026-09-30T10:13:43+00:00",
-        "tags": [
-          "juejin"
-        ],
-        "first_seen": "2026-10-06",
-        "summary_zh": "作者一个人配合 AI 做了款情侣食谱小程序，记录上线 30 天后的实际收益，此前他写过一篇“一个月赚了 8 块”的复盘。文章给的是后台真实数据和单人加 AI 的开发方式，适合想看小副业成本能压到多低的独立开发者。",
-        "summary_en": "A solo developer built a couples' recipe mini-program with AI as the co-pilot and shares the revenue from its first 30 days online, following up on an earlier post about making just 8 yuan in a month. It offers real backend numbers and a one-person-plus-AI workflow for indie developers curious how cheap a small side project can be.",
-        "domain": "juejin.cn",
-        "quality_score": 27.5
+        "id": "gh-monthly-vectorize-io-hindsight",
+        "title": "vectorize-io/hindsight",
+        "url": "https://github.com/vectorize-io/hindsight",
+        "description": "Hindsight: Agent Memory That Learns",
+        "source": "github_trending",
+        "score": 26766,
+        "comments": 0,
+        "author": "vectorize-io",
+        "time": "2026-10-25T22:18:33.973689+00:00",
+        "tags": [],
+        "gh_period": "monthly",
+        "first_seen": "2026-09-29",
+        "summary_zh": "vectorize-io 在 GitHub 上放出了 Hindsight，官方描述只有一句「Agent Memory That Learns」，定位是面向 AI agent 的记忆层。除这句简介外仓库没有给出更多说明，具体实现和适用场景需要直接读代码判断。",
+        "summary_en": "vectorize-io has published Hindsight on GitHub, described only as \"Agent Memory That Learns\" — it sits in the agent-memory space, aiming at memory that improves rather than staying static. The repository gives no further detail beyond that tagline, so implementation and intended use cases have to be judged from the code itself."
       },
       {
         "id": "gh-monthly-paperclipai-paperclip",
@@ -2841,33 +2839,15 @@
         "url": "https://github.com/paperclipai/paperclip",
         "description": "The open-source app everyone uses to manage agents at work",
         "source": "github_trending",
-        "score": 25543,
+        "score": 25709,
         "comments": 0,
         "author": "paperclipai",
-        "time": "2026-10-24T22:15:10.538038+00:00",
+        "time": "2026-10-25T22:18:33.973689+00:00",
         "tags": [],
         "gh_period": "monthly",
         "first_seen": "2026-09-29",
         "summary_zh": "paperclipai/paperclip 是一个开源应用，官方描述为用于在工作中管理 agents 的工具，项目本身没有提供更多正文说明。目前只有仓库名和一句话简介，具体支持哪些 agent、如何接入、部署方式等细节都无从确认。适合需要统一调度多个 agent 的团队先去仓库翻代码，而不是凭简介判断。",
         "summary_en": "paperclipai/paperclip is an open-source app whose one-line description frames it as a tool for managing agents at work. Beyond that tagline there is no README or body text here, so how it connects to specific agents, what it deploys, or what the setup looks like can't be confirmed. Teams needing to coordinate multiple agents may want to read the repository itself rather than judge from the pitch."
-      },
-      {
-        "id": "gh-monthly-bilawalsidhu-gods-eye-view",
-        "title": "bilawalsidhu/gods-eye-view",
-        "url": "https://github.com/bilawalsidhu/gods-eye-view",
-        "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
-        "source": "github_trending",
-        "score": 24627,
-        "comments": 0,
-        "author": "bilawalsidhu",
-        "time": "2026-10-13T01:50:05.414297+00:00",
-        "tags": [],
-        "gh_period": "monthly",
-        "first_seen": "2026-09-23",
-        "summary_zh": "bilawalsidhu/gods-eye-view 是一个跑在浏览器里的间谍卫星模拟器，用照片级 3D 地球呈现实时空间情报，且底层数据来自真实开源数据而非演示素材。它适合做地理可视化、地图前端或 OSINT 开源情报方向的开发者，可以直接拿来做空间数据的实验场。",
-        "summary_en": "god's-eye-view is a browser-based spy satellite simulator that renders live spatial intelligence on a photorealistic 3D globe, using real open source data instead of canned demo imagery. It is worth a look if you work on geospatial visualization, web map frontends, or OSINT tooling and want a ready-made playground for spatial data.",
-        "domain": "github.com",
-        "quality_score": 59.0
       },
       {
         "id": "zhihu-2090445207380743793",
@@ -2904,7 +2884,27 @@
         ],
         "first_seen": "2026-10-07",
         "summary_zh": "有开发者翻 GitHub Releases 页面发现 Spring AI Alibaba 的正式版停在 v1.1.2.2，于是技术群里就“项目是否已停更”吵了起来，文章由此讨论 Java 在 AI 应用方向还有没有机会。内容适合正在做 Java AI 技术栈选型、关心该项目维护状态的人。",
-        "summary_en": "Developers noticed that Spring AI Alibaba's GitHub Releases page stops at v1.1.2.2, which set off a heated debate in tech groups over whether the project has halted updates and whether Java still has a future in AI applications. The article starts from that observation and digs into the project's release cadence and Java's AI options, for teams weighing a Java-based AI stack."
+        "summary_en": "Developers noticed that Spring AI Alibaba's GitHub Releases page stops at v1.1.2.2, which set off a heated debate in tech groups over whether the project has halted updates and whether Java still has a future in AI applications. The article starts from that observation and digs into the project's release cadence and Java's AI options, for teams weighing a Java-based AI stack.",
+        "domain": "juejin.cn",
+        "quality_score": 23.8
+      },
+      {
+        "id": "gh-monthly-bilawalsidhu-gods-eye-view",
+        "title": "bilawalsidhu/gods-eye-view",
+        "url": "https://github.com/bilawalsidhu/gods-eye-view",
+        "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+        "source": "github_trending",
+        "score": 24627,
+        "comments": 0,
+        "author": "bilawalsidhu",
+        "time": "2026-10-13T01:50:05.414297+00:00",
+        "tags": [],
+        "gh_period": "monthly",
+        "first_seen": "2026-09-23",
+        "summary_zh": "bilawalsidhu/gods-eye-view 是一个跑在浏览器里的间谍卫星模拟器，用照片级 3D 地球呈现实时空间情报，且底层数据来自真实开源数据而非演示素材。它适合做地理可视化、地图前端或 OSINT 开源情报方向的开发者，可以直接拿来做空间数据的实验场。",
+        "summary_en": "god's-eye-view is a browser-based spy satellite simulator that renders live spatial intelligence on a photorealistic 3D globe, using real open source data instead of canned demo imagery. It is worth a look if you work on geospatial visualization, web map frontends, or OSINT tooling and want a ready-made playground for spatial data.",
+        "domain": "github.com",
+        "quality_score": 59.0
       },
       {
         "id": "gh-monthly-alibaba-open-code-review",
@@ -2930,10 +2930,10 @@
         "url": "https://github.com/affaan-m/ECC",
         "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
         "source": "github_trending",
-        "score": 22804,
+        "score": 22855,
         "comments": 0,
         "author": "affaan-m",
-        "time": "2026-10-24T22:15:10.538038+00:00",
+        "time": "2026-10-25T22:18:33.973689+00:00",
         "tags": [],
         "gh_period": "monthly",
         "first_seen": "2026-09-29",
@@ -2955,26 +2955,9 @@
         ],
         "first_seen": "2026-10-10",
         "summary_zh": "一篇掘金文章，围绕小说转漫画、漫剧这条副业链路讲成本优化思路，作者在简介里贴出了 GitHub 项目 aiskyhub/novel_to_comic 用于小说转漫画。对想靠 AI 生成内容做副业、又需要把生成与推理成本压到利润线以下的独立开发者比较实用。",
-        "summary_en": "A Juejin post laying out cost-optimization ideas for a side business built on novels, comics and comic-style shorts, linking the GitHub project aiskyhub/novel_to_comic for turning novels into comics. It suits indie developers monetizing AI-generated content who need generation and inference costs to stay under their margins."
-      },
-      {
-        "id": "juejin-7686327615728975922",
-        "title": "一座不够大的城市，装下了我毕业后的成长",
-        "url": "https://juejin.cn/post/7686327615728975922",
-        "description": "我是 2024 年毕业的，长沙本地人，专科学历。在大环境不好的情况下还是选择做前端，当时没有想这么多，就觉得简单，其他也学不进去。哈哈哈哈😄 从毕业到现在前后待过三家公司（怎么说猛不猛）是的没错，",
-        "source": "juejin",
-        "score": 53,
-        "comments": 89,
-        "author": "",
-        "time": "2026-09-25T12:52:04+00:00",
-        "tags": [
-          "juejin"
-        ],
-        "first_seen": "2026-09-18",
-        "summary_zh": "掘金上的一篇个人复盘：作者是 2024 年毕业的长沙本地人，专科学历，在就业环境不佳时仍选择做前端，理由之一是「觉得简单」。毕业后至今他先后待过三家公司，文章讲的是自己在这座「不够大的城市」里的成长经历，适合正在纠结入行方向或刚工作的前端新人参考。",
-        "summary_en": "A personal post on Juejin from a 2024 graduate based in Changsha with a vocational-college degree, who chose frontend development despite a tough job market because it seemed simpler than the alternatives. He has worked at three companies since graduating, and the piece traces how his growth played out in a city he describes as not quite big enough. Readers weighing a frontend career or early career moves may find it relatable.",
+        "summary_en": "A Juejin post laying out cost-optimization ideas for a side business built on novels, comics and comic-style shorts, linking the GitHub project aiskyhub/novel_to_comic for turning novels into comics. It suits indie developers monetizing AI-generated content who need generation and inference costs to stay under their margins.",
         "domain": "juejin.cn",
-        "quality_score": 30.5
+        "quality_score": 20.9
       },
       {
         "id": "juejin-7695697094277087272",
@@ -2982,8 +2965,8 @@
         "url": "https://juejin.cn/post/7695697094277087272",
         "description": "一张卫星截图，用 Three.js + Blender 建出一座 3D 综合能源补给站：反求设计稿相机、脚本化建模、Cycles 烘焙夜景、重卡倒车入位、运营仿真，再用叠图逐像素校验还原度。",
         "source": "juejin",
-        "score": 52,
-        "comments": 17,
+        "score": 53,
+        "comments": 18,
         "author": "",
         "time": "2026-10-13T03:31:25+00:00",
         "tags": [
@@ -2991,29 +2974,26 @@
         ],
         "first_seen": "2026-10-16",
         "summary_zh": "作者手上只有甲方给的一张卫星截图，用 Three.js 加 Blender 还原出一座 3D 综合能源补给站：从截图反求设计稿相机、脚本化建模、Cycles 烘焙夜景，到重卡倒车入位动画与运营仿真，最后叠图逐像素比对还原度。适合做 Web 3D 可视化、数字孪生，或需要从参考图逆向搭建场景的前端开发者参考。",
-        "summary_en": "Starting from a single satellite screenshot handed over by a client, the author rebuilt a 3D integrated energy station with Three.js and Blender: reverse-engineering the design camera from the image, scripting the modeling, baking a night scene in Cycles, then adding a truck reversing into a bay and an operations simulation, with a pixel-by-pixel overlay to check fidelity. Useful for front-end developers working on Web 3D visualization, digital twins, or reconstructing scenes from reference imagery.",
-        "domain": "juejin.cn",
-        "quality_score": 20.8
+        "summary_en": "Starting from a single satellite screenshot handed over by a client, the author rebuilt a 3D integrated energy station with Three.js and Blender: reverse-engineering the design camera from the image, scripting the modeling, baking a night scene in Cycles, then adding a truck reversing into a bay and an operations simulation, with a pixel-by-pixel overlay to check fidelity. Useful for front-end developers working on Web 3D visualization, digital twins, or reconstructing scenes from reference imagery."
       },
       {
-        "id": "zhihu-2086393162981979290",
-        "title": "美方称中美「贸易休战」延长至明年 1 月，这对世界局势有何影响？",
-        "url": "https://www.zhihu.com/question/2086393162981979290",
-        "description": "",
-        "source": "zhihu",
-        "score": 14570000,
-        "comments": 0,
+        "id": "juejin-7690769804492341298",
+        "title": "漫话大模型：7 家中国公司被点名「蒸馏」，他们到底偷走了什么？",
+        "url": "https://juejin.cn/post/7690769804492341298",
+        "description": "2026 年 9 月，Anthropic 发布了一份报告，点名 7 家中国 AI 公司——阿里、DeepSeek、月之暗面、智谱、小米、商汤、MiniMax——指控它们用各种方式\"蒸馏\"Claude ",
+        "source": "juejin",
+        "score": 46,
+        "comments": 10,
         "author": "",
-        "time": "2026-09-25T12:00:00+00:00",
+        "time": "2026-09-29T09:55:31+00:00",
         "tags": [
-          "zhihu",
-          "general-hot"
+          "juejin"
         ],
-        "first_seen": "2026-09-25",
-        "summary_zh": "有消息称美方表示中美「贸易休战」将延长至明年 1 月。标题之外原文是链接，未提供更多细节，因此延期的具体范围、涉及商品与关税安排都无从确认。追踪中美关税和全球供应链走向的读者，只能等官方文件或后续报道来核实。",
-        "summary_en": "A Zhihu thread relays the US side's statement that the China-US trade truce will be extended until January next year. The linked page isn't summarized here; details beyond the title, such as which tariffs or commitments are covered, aren't available. Readers tracking tariffs and supply chains will have to wait for official documents or follow-up reporting.",
-        "domain": "zhihu.com",
-        "quality_score": 61.5
+        "first_seen": "2026-10-01",
+        "summary_zh": "掘金文章梳理 Anthropic 在 2026 年 9 月发布的一份报告，该报告点名阿里、DeepSeek、月之暗面、智谱、小米、商汤、MiniMax 共 7 家中国 AI 公司，指控它们以多种方式蒸馏 Claude。文章追问蒸馏究竟拿走了什么，适合关注大模型数据来源与合规争议的读者。",
+        "summary_en": "A Juejin article walks through an Anthropic report published in September 2026 that named seven Chinese AI companies — Alibaba, DeepSeek, Moonshot AI, Zhipu, Xiaomi, SenseTime and MiniMax — accusing them of distilling Claude in various ways. It asks what distillation actually takes from a model, and is aimed at readers following the data-provenance and compliance debate around large models.",
+        "domain": "juejin.cn",
+        "quality_score": 18.3
       },
       {
         "id": "zhihu-2089437755591713926",
@@ -3153,6 +3133,26 @@
         "summary_en": "A Zhihu question asks readers to weigh in on Qilian County — home to roughly 50,000 people — receiving 100,000 visitors over the National Day holiday, with hotels and guesthouses fully booked and the local culture and tourism bureau putting visitors up free in student dormitories. Only the question title is available; the linked page isn't summarized here, so details beyond the title aren't available.",
         "domain": "zhihu.com",
         "quality_score": 46.3
+      },
+      {
+        "id": "zhihu-2091257221887649002",
+        "title": "孙颖莎 1-3 不敌泰国选手，止步 WTT 中国大满贯女单 32 强，怎样评价本场比赛？",
+        "url": "https://www.zhihu.com/question/2091257221887649002",
+        "description": "",
+        "source": "zhihu",
+        "score": 7600000,
+        "comments": 0,
+        "author": "",
+        "time": "2026-10-08T12:00:00+00:00",
+        "tags": [
+          "zhihu",
+          "general-hot"
+        ],
+        "first_seen": "2026-10-07",
+        "summary_zh": "知乎上有人提问：孙颖莎以 1-3 不敌一名泰国选手，止步 WTT 中国大满贯女单 32 强，想听大家如何看待这场比赛。原帖只有链接，未提供比分之外的比赛过程、对手姓名或技术统计等细节。",
+        "summary_en": "A Zhihu question asks readers to weigh in on Sun Yingsha's 1-3 loss to a Thai player, which knocked her out in the round of 32 of the WTT China Grand Smash women's singles. The linked page isn't summarized here; details beyond the title and score, such as the opponent's name or match statistics, aren't available.",
+        "domain": "zhihu.com",
+        "quality_score": 46.2
       }
     ],
     "count": 70
@@ -3167,5 +3167,5 @@
     "zhihu"
   ],
   "missing_sources": [],
-  "total_items": 5328
+  "total_items": 5290
 }
