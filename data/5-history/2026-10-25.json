@@ -248,7 +248,9 @@
       "tags": [],
       "first_seen": "2026-10-24",
       "domain": "twitter.com",
-      "quality_score": 47.0
+      "quality_score": 47.0,
+      "summary_zh": "Hacker News 上标题为“Samsung TV 上的 root shell”的讨论帖，提交内容只有合并的两条 Twitter 链接，原文是链接，未提供更多细节：其中一条称三星在 960×540 的图像上运行 TensorFlow Lite 模型用于追踪观众，另一条称三星电视通过蓝牙搜寻屋内的麦克风。取得 root shell 的方法和涉及机型在帖中都无法核实。",
+      "summary_en": "A Hacker News thread titled \"Root shell on Samsung TV\"; the submission carries no write-up, only two merged Twitter links, so the linked page isn't summarized here and details beyond the title aren't available. The tweets claim Samsung runs a TensorFlow Lite model on 960x540 frames to track viewers and scans for nearby microphones over Bluetooth. Neither the device model nor the exploit method is described."
     },
     {
       "id": "hn-50225695",
@@ -264,7 +266,9 @@
       "tags": [],
       "first_seen": "2026-10-25",
       "domain": "danluu.com",
-      "quality_score": 48.2
+      "quality_score": 48.2,
+      "summary_zh": "一篇主张“我们应当把软件做得更有野心”的文章，以 Michael Malis 用 Rust 重写的 Postgres 项目 pgrust 为例：外界对疑似 AI 生成的项目普遍怀疑，但 pgrust 的测试细致到挖出 Postgres 自身的多个真实 bug，涉及 SP-GiST 数值、JSONPath 格式缓存、pgcrypto 与 money 溢出。适合想厘清 AI 辅助开发质量边界的人阅读。",
+      "summary_en": "An essay arguing that developers should be more ambitious about what they build, using pgrust — Michael Malis's Rust rewrite of Postgres — as the case in point. The author acknowledges the widespread skepticism toward AI-generated projects, then notes that pgrust's testing is thorough enough to have surfaced real Postgres bugs, including SP-GiST numeric errors, a JSONPath format cache bug, pgcrypto failures and a money overflow. Relevant to anyone judging where AI-assisted work actually holds up."
     },
     {
       "id": "hn-50184586",
@@ -296,7 +300,9 @@
       "tags": [],
       "first_seen": "2026-10-24",
       "domain": "grapheneos.social",
-      "quality_score": 43.7
+      "quality_score": 43.7,
+      "summary_zh": "GrapheneOS 项目方称，多数银行 App 已能在该系统上运行，但不少带有内存损坏 bug 和错误的防篡改检测，需要开启逐 App 的漏洞利用防护兼容模式；约 10% 的银行 App 因禁止非 Google 认证系统而完全不可用。目前已约有十几个银行 App 明确同时允许 GrapheneOS，用户持续汇总的兼容清单发布在 privsec.dev。",
+      "summary_en": "According to the GrapheneOS project, most banking apps now run on the OS, though many carry memory-corruption bugs and faulty anti-tampering code that require the per-app exploit-protection compatibility toggle. About 10% stay unavailable because they ban non-Google-approved systems, but roughly a dozen banks have started explicitly permitting GrapheneOS alongside one, and a user-maintained list lives at privsec.dev."
     },
     {
       "id": "hn-50200997",
@@ -3358,7 +3364,9 @@
       "gh_period": "daily",
       "first_seen": "2026-10-25",
       "domain": "github.com",
-      "quality_score": 30.0
+      "quality_score": 30.0,
+      "summary_zh": "ThinkRail 是 JetBrains 的孵化器项目，一个围绕 npm 包 pi coding agent 构建的 agentic IDE：任务被隔离到独立工作区，agent 通过 living specs 和可复用 skills 获得持久的项目知识。官方称它会随使用不断贴合具体项目，后续计划补齐完整扩展支持。适合想试 agent 式开发又不愿离开真实 IDE 的开发者。",
+      "summary_en": "ThinkRail is a JetBrains incubator project: an agentic IDE wrapped around the pi coding agent (an npm package), with tasks isolated into separate workspaces and the agent given durable project knowledge through living specs and reusable skills. JetBrains pitches it as adapting to your project the more you use it, with full extension support planned next. Aimed at developers who want agent-driven coding without leaving a real IDE."
     },
     {
       "id": "gh-daily-coollabsio-coolify",
@@ -4557,7 +4565,9 @@
       "tags": [],
       "first_seen": "2026-10-25",
       "domain": "infoq.cn",
-      "quality_score": 35.2
+      "quality_score": 35.2,
+      "summary_zh": "Cloudflare 为 OHTTP Gateway 开启封闭测试，这是一个替源站解密 Oblivious HTTP（RFC 9458）请求的托管端点。它明确拒绝解密来自 Cloudflare Workers 或经 Cloudflare 代理主机的请求，因为负责识别的中继跳点和负责解密的网关跳点必须由互不相关的运营方持有。中继服务器需用户自备，原 Privacy Gateway 更名为 OHTTP Relay。",
+      "summary_en": "Cloudflare has opened a closed beta of its OHTTP Gateway, a hosted endpoint that decrypts Oblivious HTTP (RFC 9458) requests on behalf of origin servers. The notable constraint: it refuses to decrypt traffic arriving through Cloudflare Workers or proxied hosts, since the relay hop that sees client IPs and the decrypting hop must be run by unrelated operators. Cloudflare ships no relay server; its older Privacy Gateway is now called OHTTP Relay."
     },
     {
       "id": "infoq-9TSuUDxrUSGS26XTA2yB",
@@ -4573,7 +4583,9 @@
       "tags": [],
       "first_seen": "2026-10-25",
       "domain": "infoq.cn",
-      "quality_score": 37.2
+      "quality_score": 37.2,
+      "summary_zh": "Linux 基金会 10 月 20 日发布《Navigating Open Source Software Development in the Generative AI Era》报告，由 Red Hat 赞助、Futurewei 与 OpenSSF 等支持。调查显示生成式 AI 让代码编写平均耗时减少 52%，但维护者估计约 25% 的 PR 属于低质量“AI slop”，大型项目升至 31%；59% 的维护者称收到的贡献变多，另有 21% 的受访者表示复杂任务反而更费时间。",
+      "summary_en": "A Linux Foundation report released Oct 20, “Navigating Open Source Software Development in the Generative AI Era,” sponsored by Red Hat, finds generative AI cut coding time by 52% on average. But maintainers estimate roughly 25% of incoming PRs are low-quality “AI slop,” rising to 31% on large projects, while 59% report more contributions overall. 21% of respondents say complex tasks actually take longer with AI."
     },
     {
       "id": "infoq-BHWP4JJDeExZZWsifFlg",
@@ -4589,7 +4601,9 @@
       "tags": [],
       "first_seen": "2026-10-25",
       "domain": "infoq.cn",
-      "quality_score": 36.1
+      "quality_score": 36.1,
+      "summary_zh": "InfoQ 的 Java 生态汇总，本期重点是四个已列入 JDK 28 目标的 JEP：结构化并发（JEP 543）历经七轮预览后无改动定稿，ZGC 通过 JEP 546、545 实现按可用资源自适应调整堆大小、加快启动与预热，惰性常量（JEP 547）进入第四轮预览。文中还提到 JDK 28 早期访问 Build 19 和 GlassFish 8.0.5 等发布。关注 JDK 28 升级窗口的 Java 开发者可据此排期。",
+      "summary_en": "InfoQ's Java roundup leads with four JEPs now targeted at JDK 28: structured concurrency (JEP 543) is finalized unchanged after seven previews spanning JDK 21 to 27, JEP 546 and 545 let ZGC adapt heap size to available resources and prepare memory faster for startup and warmup, and lazy constants (JEP 547) enter a fourth preview. It also covers JDK 28 Early Access Build 19 and GlassFish 8.0.5. Useful for teams planning around the JDK 28 upgrade."
     },
     {
       "id": "infoq-jNX6EAzqP34xRjqUMU1N",
@@ -4605,7 +4619,9 @@
       "tags": [],
       "first_seen": "2026-10-24",
       "domain": "infoq.cn",
-      "quality_score": 39.7
+      "quality_score": 39.7,
+      "summary_zh": "React 19.3 于 9 月 9 日发布，新增 react-dom 的 browser() API：组件调用 use(browser()) 后会在服务端暂停渲染、保留 Suspense 兜底内容，在浏览器端返回 undefined。它取代 mounted 标志和 typeof window 判断，解决读取 localStorage、时区等仅客户端数据造成的水合不匹配，并提供 onBrowserBailout 回调定位跳过点。",
+      "summary_en": "React 19.3, released to npm on September 9, adds a react-dom browser() API that lets components opt out of server rendering: use(browser()) suspends the component on the server, keeps the nearest Suspense fallback in the HTML, and returns undefined in the browser. It replaces mounted-flag and typeof-window workarounds for localStorage or timezone reads that caused hydration mismatches, and adds an onBrowserBailout callback reporting where rendering was skipped."
     },
     {
       "id": "infoq-lkefSu7SjjIHL1Fmk0Pv",
@@ -4621,7 +4637,9 @@
       "tags": [],
       "first_seen": "2026-10-24",
       "domain": "infoq.cn",
-      "quality_score": 39.8
+      "quality_score": 39.8,
+      "summary_zh": "一项针对 Delta Lake 的基准测试在 5000 万条记录上比较了分区、ZOrdering 与 Liquid Clustering：Liquid Clustering 在点查询、时间范围聚合和大聚合上延迟最低，适合查询模式多变或仍在演进的团队。ZOrdering 只在过滤列与聚类键完全匹配的稳定多谓词场景占优；日期列不作首键时时间范围查询会慢 78%，而 Liquid Clustering 在狭窄可预测的查询中可能多扫十倍数据。",
+      "summary_en": "A benchmark on Delta Lake compares partitioning, ZOrdering and Liquid Clustering across 50 million records and four workload types. Liquid Clustering had the lowest latency for point queries, time-range aggregations and large aggregations, making it the sensible default for teams whose query patterns vary or keep changing. ZOrdering wins only on stable, highly selective multi-predicate filters that match the clustering keys exactly; with a date column as a secondary key, time-range queries ran 78% slower."
     },
     {
       "id": "infoq-mhdJwMMzYFedMFHKfHWs",

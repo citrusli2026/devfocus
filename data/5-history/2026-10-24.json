@@ -396,7 +396,9 @@
       "tags": [],
       "first_seen": "2026-10-24",
       "domain": "grapheneos.social",
-      "quality_score": 42.1
+      "quality_score": 42.1,
+      "summary_zh": "GrapheneOS 项目方称，多数银行 App 已能在该系统上运行，但不少带有内存损坏 bug 和错误的防篡改检测，需要开启逐 App 的漏洞利用防护兼容模式；约 10% 的银行 App 因禁止非 Google 认证系统而完全不可用。目前已约有十几个银行 App 明确同时允许 GrapheneOS，用户持续汇总的兼容清单发布在 privsec.dev。",
+      "summary_en": "According to the GrapheneOS project, most banking apps now run on the OS, though many carry memory-corruption bugs and faulty anti-tampering code that require the per-app exploit-protection compatibility toggle. About 10% stay unavailable because they ban non-Google-approved systems, but roughly a dozen banks have started explicitly permitting GrapheneOS alongside one, and a user-maintained list lives at privsec.dev."
     },
     {
       "id": "hn-50188228",
@@ -540,7 +542,9 @@
       "tags": [],
       "first_seen": "2026-10-24",
       "domain": "twitter.com",
-      "quality_score": 39.2
+      "quality_score": 39.2,
+      "summary_zh": "Hacker News 上标题为“Samsung TV 上的 root shell”的讨论帖，提交内容只有合并的两条 Twitter 链接，原文是链接，未提供更多细节：其中一条称三星在 960×540 的图像上运行 TensorFlow Lite 模型用于追踪观众，另一条称三星电视通过蓝牙搜寻屋内的麦克风。取得 root shell 的方法和涉及机型在帖中都无法核实。",
+      "summary_en": "A Hacker News thread titled \"Root shell on Samsung TV\"; the submission carries no write-up, only two merged Twitter links, so the linked page isn't summarized here and details beyond the title aren't available. The tweets claim Samsung runs a TensorFlow Lite model on 960x540 frames to track viewers and scans for nearby microphones over Bluetooth. Neither the device model nor the exploit method is described."
     },
     {
       "id": "hn-50202217",
@@ -4672,7 +4676,9 @@
       "tags": [],
       "first_seen": "2026-10-24",
       "domain": "infoq.cn",
-      "quality_score": 35.1
+      "quality_score": 35.1,
+      "summary_zh": "React 19.3 于 9 月 9 日发布，新增 react-dom 的 browser() API：组件调用 use(browser()) 后会在服务端暂停渲染、保留 Suspense 兜底内容，在浏览器端返回 undefined。它取代 mounted 标志和 typeof window 判断，解决读取 localStorage、时区等仅客户端数据造成的水合不匹配，并提供 onBrowserBailout 回调定位跳过点。",
+      "summary_en": "React 19.3, released to npm on September 9, adds a react-dom browser() API that lets components opt out of server rendering: use(browser()) suspends the component on the server, keeps the nearest Suspense fallback in the HTML, and returns undefined in the browser. It replaces mounted-flag and typeof-window workarounds for localStorage or timezone reads that caused hydration mismatches, and adds an onBrowserBailout callback reporting where rendering was skipped."
     },
     {
       "id": "infoq-lkefSu7SjjIHL1Fmk0Pv",
@@ -4688,7 +4694,9 @@
       "tags": [],
       "first_seen": "2026-10-24",
       "domain": "infoq.cn",
-      "quality_score": 35.5
+      "quality_score": 35.5,
+      "summary_zh": "一项针对 Delta Lake 的基准测试在 5000 万条记录上比较了分区、ZOrdering 与 Liquid Clustering：Liquid Clustering 在点查询、时间范围聚合和大聚合上延迟最低，适合查询模式多变或仍在演进的团队。ZOrdering 只在过滤列与聚类键完全匹配的稳定多谓词场景占优；日期列不作首键时时间范围查询会慢 78%，而 Liquid Clustering 在狭窄可预测的查询中可能多扫十倍数据。",
+      "summary_en": "A benchmark on Delta Lake compares partitioning, ZOrdering and Liquid Clustering across 50 million records and four workload types. Liquid Clustering had the lowest latency for point queries, time-range aggregations and large aggregations, making it the sensible default for teams whose query patterns vary or keep changing. ZOrdering wins only on stable, highly selective multi-predicate filters that match the clustering keys exactly; with a date column as a secondary key, time-range queries ran 78% slower."
     },
     {
       "id": "infoq-mhdJwMMzYFedMFHKfHWs",
