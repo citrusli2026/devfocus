@@ -292,7 +292,9 @@
       "tags": [],
       "first_seen": "2026-10-26",
       "domain": "magazine.sebastianraschka.com",
-      "quality_score": 38.5
+      "quality_score": 38.5,
+      "summary_zh": "Sebastian Raschka 发布了一套从零构建推理模型的视频课程，累计超过 11 小时的编码视频，内容覆盖评测、推理时扩展（inference-time scaling）、强化学习与蒸馏，代码使用 Python 和 PyTorch。适合想弄清推理模型训练全流程、而不满足于调用 API 的开发者。",
+      "summary_en": "Sebastian Raschka has released a from-scratch video course on building reasoning models: more than 11 hours of coding footage covering evaluation, inference-time scaling, reinforcement learning and distillation, written in Python and PyTorch. It's aimed at developers who want to see how reasoning models are actually trained and evaluated, rather than just calling an API."
     },
     {
       "id": "hn-50202114",
@@ -964,7 +966,9 @@
       "tags": [],
       "first_seen": "2026-10-26",
       "domain": "openai.com",
-      "quality_score": 34.0
+      "quality_score": 34.0,
+      "summary_zh": "这是 Hacker News 上的一条链接帖，标题称数学、计算机科学与物理学领域出现了三项新发现，帖内除标题外只附了一篇相关论文链接，题为 The Exponential Time Hypothesis Is False。原文是链接，未提供更多细节。",
+      "summary_en": "A Hacker News link post whose title claims three new discoveries across mathematics, computer science and physics. The only accompanying material is a link to a related paper titled The Exponential Time Hypothesis Is False. The linked page isn't summarized here; details beyond the title aren't available."
     },
     {
       "id": "hn-50247630",
@@ -1732,7 +1736,9 @@
       "tags": [],
       "first_seen": "2026-10-26",
       "domain": "github.com",
-      "quality_score": 31.5
+      "quality_score": 31.5,
+      "summary_zh": "Hacker News 上出现一篇 PDF 论文，标题直接宣称指数时间假设（ETH）不成立，随附内容只指向另一条宣布数学、计算机科学与物理三项新发现的帖子。ETH 是复杂性理论中许多下界结果的基础，一旦被推翻，相关结论都要重写。原文是 PDF 链接，此处未提供更多细节。",
+      "summary_en": "A PDF paper posted to Hacker News argues that the Exponential Time Hypothesis is false; the only accompanying context is a link to another HN thread announcing three new discoveries in mathematics, computer science and physics. ETH underpins many lower-bound results in complexity theory, so a refutation would force those results to be revisited. The linked PDF isn't summarized here; details beyond the title aren't available."
     },
     {
       "id": "hn-50246238",
@@ -3371,7 +3377,9 @@
       "gh_period": "daily",
       "first_seen": "2026-10-26",
       "domain": "github.com",
-      "quality_score": 30.2
+      "quality_score": 30.2,
+      "summary_zh": "OpenBot 是 nightly-labs 的本地优先桌面工作区，让 Codex、Claude 等 agent 各有独立工作区和对话，并内置任务队列、文件传输、内嵌浏览器与 agent 间的消息通信。它通过 ACP 还能接入 Grok CLI、Gemini 等，适合同时管理多个编程 agent 的开发者；但目前仍是开发预览版，agent 默认拥有完整访问权限且不询问审批，只适合运行可信任务。",
+      "summary_en": "OpenBot is a local-first desktop workspace from nightly-labs that gives each AI agent its own workspace and conversation, plus task queues, file transfer, an embedded browser and agent-to-agent messaging. It runs the Codex App Server and Claude Code natively and adds Grok CLI, Gemini, Cursor CLI and others over ACP. It suits developers juggling several coding agents, but it's a dev preview where agents run with full access and no approval prompts."
     },
     {
       "id": "gh-daily-Panniantong-Agent-Reach",
@@ -3426,7 +3434,9 @@
       "gh_period": "daily",
       "first_seen": "2026-10-26",
       "domain": "github.com",
-      "quality_score": 30.1
+      "quality_score": 30.1,
+      "summary_zh": "Postiz 是一个以 AGPL-3.0 发布的开源社交媒体管理平台，支持内容排期、自动化发布和数据效果分析，既可以注册官方托管的 Postiz Cloud，也可以部署在自己的服务器上，仓库内附有文档和 YouTube 教程。适合需要统一打理多个社交账号、又不想把账号数据交给第三方平台的团队自建使用。",
+      "summary_en": "Postiz is an AGPL-3.0 licensed social media management platform for scheduling, automating and analyzing content. It comes in two forms: the managed Postiz Cloud, or a self-hosted open-source edition you deploy on your own infrastructure, with docs and YouTube tutorials linked from the repo. It targets teams that want one place to run multiple social accounts without handing data to a third party."
     },
     {
       "id": "gh-daily-alchaincyf-huashu-design",
@@ -4753,7 +4763,9 @@
       "tags": [],
       "first_seen": "2026-10-26",
       "domain": "infoq.cn",
-      "quality_score": 35.5
+      "quality_score": 35.5,
+      "summary_zh": "北京中科慧灵完成数亿元人民币 A++ 轮融资，由知来投资、涌铧投资、茂天投资、元禾辰坤等联合投资，资金将用于产品量产交付、具身大脑技术迭代与市场拓展。公司称进入 2026 年具身制鞋机器人订单总额已突破 4 亿元，设备排产达数千台量级，并在莆田鞋厂真实工位做验证。",
+      "summary_en": "Beijing-based Zhongke Huiling raised a several-hundred-million-yuan A++ round from investors including Zhilai Capital, Yonghua Investment, Maotian Investment and Yuanhe Chenkun, with proceeds going to volume delivery, embodied-brain R&D and market expansion. The company says its embodied shoe-making robot orders passed 400 million yuan entering 2026, with production scheduled in the thousands of units and pilots running on real workstations in a Putian footwear factory."
     },
     {
       "id": "infoq-b32Mw2zaPrxyJ6ChePD5",
@@ -4769,7 +4781,9 @@
       "tags": [],
       "first_seen": "2026-10-26",
       "domain": "infoq.cn",
-      "quality_score": 35.4
+      "quality_score": 35.4,
+      "summary_zh": "InfoQ 精选：让 AI 从需求一路干到上线，软件开发组织要变了？",
+      "summary_en": "Featured on InfoQ: 让 AI 从需求一路干到上线，软件开发组织要变了？"
     },
     {
       "id": "infoq-hilBQCk7QcvclfrgZbSf",
@@ -4801,7 +4815,9 @@
       "tags": [],
       "first_seen": "2026-10-26",
       "domain": "infoq.cn",
-      "quality_score": 35.4
+      "quality_score": 35.4,
+      "summary_zh": "前 Stripe、Uber 工程管理者、后任 Carta 与 Calm CTO 的 Will Larson 在 The Pragmatic Engineer 播客中判断，三年内传统工程管理岗位可能不复存在，中层技术经理要么重回技术一线，要么考虑退休。他自己从 Carta 管理约 250 人的组织转到 Imprint 带约 25 人团队，并认为既懂管理又能写代码的 TLM 会更抢手。",
+      "summary_en": "Will Larson, who managed engineering at Stripe and Uber and later served as CTO at Carta and Calm, argues on The Pragmatic Engineer podcast that the traditional engineering-management role may disappear within three years, leaving mid-level managers to either get hands-on again or consider retiring. He made that move himself, going from a roughly 250-person org at Carta to a 25-person team at Imprint, and expects tech-lead-managers to be in demand."
     },
     {
       "id": "infoq-O7lcxqKD2avRPbNoMmtg",
@@ -4817,7 +4833,9 @@
       "tags": [],
       "first_seen": "2026-10-26",
       "domain": "infoq.cn",
-      "quality_score": 36.4
+      "quality_score": 36.4,
+      "summary_zh": "花椒直播 CTO、超序 AI 创始人兼 CEO 封冰清复盘了团队从产研自动化起步、最终落地约 30 个 Agent 的过程。团队在 2026 年 3 月前后决定自研平台，把运行时、执行环境、用户权限和统计等共性能力收进公共内核，业务侧只负责 Skill、Prompt 与模型选择。适合正在搭建企业 Agent 平台的团队参考。",
+      "summary_en": "Feng Bingqing, CTO of Huajiao live streaming and founder/CEO of Huafang Group's Chaoxu AI, walks through how the team went from R&D automation to roughly 30 Agents in production. Around March 2026 they decided to build their own platform, moving runtime, execution environment, user permissions and statistics into a shared core so business teams only own skills, prompts and model choice. Relevant for anyone building an enterprise Agent platform."
     },
     {
       "id": "infoq-GG9rXsevpPV9SK3uPxpq",
@@ -4849,7 +4867,9 @@
       "tags": [],
       "first_seen": "2026-10-26",
       "domain": "infoq.cn",
-      "quality_score": 36.0
+      "quality_score": 36.0,
+      "summary_zh": "写新能源产业链付费研报的陈万有约 4000 名订阅者，最近他删掉了自写的网页清洗脚本 cleaner.py 和列有 387 个网址的信源清单 sites.yaml，改用可独立接入 Agent 的搜索 API。测试中腾讯云元宝搜索除摘要外还返回正文段落与每条结果的发布时间；这类清洗与信源维护，是联网 Agent 绕不开的持续成本。",
+      "summary_en": "Chen Wan writes a paid research brief on the energy-storage and lithium supply chain for roughly 4,000 subscribers. He recently deleted two files he had maintained for years: cleaner.py, which scraped web pages, and sites.yaml, a list of 387 vetted sources, replacing them with a search API that plugs directly into his agent. Tencent Cloud's Yuanbao search returned page summaries, question-relevant passages and per-result publish times rather than one-line abstracts."
     },
     {
       "id": "infoq-qJB2DapLThovtxzyOtKW",
@@ -4899,7 +4919,9 @@
       "tags": [],
       "first_seen": "2026-10-26",
       "domain": "infoq.cn",
-      "quality_score": 35.7
+      "quality_score": 35.7,
+      "summary_zh": "谷歌发布 Android Bench 2.0，新增长周期任务（LHT），覆盖升级依赖、添加功能、跨平台移植等工程师要花数天到一周的工作；评估从二元通过/失败改为按功能、视觉保真度和回归风险连续评分，并引入基于智能体的评估。目前 Claude Opus 5.5 以 32% 的 LHT 通过率居首，GPT 6 Astra 为 28%。",
+      "summary_en": "Google released Android Bench 2.0, adding long-horizon tasks (LHT) such as dependency upgrades, new features, building apps from scratch and porting cross-platform apps, work that takes engineers days to a week. Scoring moved from binary pass/fail to a continuous completion rate weighing functionality, visual fidelity and regressions, plus agent-based evaluation. Claude Opus 5.5 currently leads with a 32% LHT pass rate, ahead of GPT 6 Astra at 28%."
     },
     {
       "id": "infoq-y7YQmP1p42Uj69H1C6uf",
