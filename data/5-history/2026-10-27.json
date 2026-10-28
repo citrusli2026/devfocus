@@ -212,7 +212,9 @@
       "tags": [],
       "first_seen": "2026-10-27",
       "domain": "deepmind.google",
-      "quality_score": 44.2
+      "quality_score": 44.2,
+      "summary_zh": "Google DeepMind 发布 Genie 4，官方定位是「新一代世界模拟」，能够生成并探索可交互的世界，并与 Gemini、Veo、Lyria 等模型并列在同一条产品线中。对做世界模型、游戏生成或具身智能仿真的研究者来说，这是继 SIMA 2 之后又一个可直接上手把玩的生成式环境。",
+      "summary_en": "Google DeepMind has introduced Genie 4, billed as a new generation of world simulation that generates interactive worlds users can explore. It sits in the same model lineup as Gemini, Veo and Lyria, alongside the earlier SIMA 2 agent work. Researchers working on world models, game generation or embodied-agent simulation are the obvious audience."
     },
     {
       "id": "hn-50261998",
@@ -228,7 +230,9 @@
       "tags": [],
       "first_seen": "2026-10-27",
       "domain": "ghostty.org",
-      "quality_score": 41.9
+      "quality_score": 41.9,
+      "summary_zh": "Ghostty 1.4.0 的发布说明，标注的发布日期为 2026 年 10 月 27 日。原文只有链接，未提供更多内容，具体改了哪些东西无法从这里确认。",
+      "summary_en": "Release notes for Ghostty 1.4.0, dated October 27, 2026. The linked page isn't summarized here; details beyond the title and date aren't available."
     },
     {
       "id": "hn-50248124",
@@ -4164,7 +4168,9 @@
       "content": "两年前我们聊 Skills，很多人还在问\"这是啥\"。 到了 2028 年， Skills 已经不是什么新概念，而是 AI 编程的\"水电煤\" 。 不装 Skill 的 AI 编程助手，就像没装插件的浏览器——能用，但效率差着一个时代。 今天这篇文章，我把 2028 年编程圈最火的 10 个 Skills 整理出来。 代码可复制，装完就能用。 希望对你会有所帮助。 一、先搞懂 Skills 到底是什么 老规矩，先花 2 分钟帮新读者补个课。 2025 年 10 月，Anthropic 推出了 Agent Skills 开放标准。它的核心思想很简单： 把\"怎么做一件事\"的完整流程，打包成一个可复用的 Skill 文件。 一个 Skill 本质上就是一个文件夹，里面包含一个 SKILL.md 文件——用 Markdown 写的指令，加上可选的脚本和参考文件。放到指定目录下，AI 就能在需要时自动加载并使用。 Skills 和传统 Prompt 的核心区别： Prompt 是\"建议\"——AI 可以参考，也可以忽略 Skill 是\"流程\"——AI 必须按步骤执行，不能跳过 截至 2028 年 9 月，GitHub 上 Agent Skills 相关仓库超过 8 万个 ，三大 marketplace 收录条目突破 300 万 。 生态和两年前相比，有三个质变： 官方认证体系上线了 。marketplace 引入质量评分和安全审计，当年\"70% 社区 Skill 不合格\"的野蛮时代结束了。 Skills 跨平台通用了 。Agent Skills 标准被主流编程助手集体采纳，一个 Skill 包，Claude Code、Codex、Cursor、Gemini CLI 都能装。 企业 Skill 资产库成了大厂标配 。项目级 Skill 提交进 Git、团队共享、版本管理，已经写进了大多数公司的 AI 编程规范。 但数量多依然不代表质量高。真正能在日常工作里留下来的，还是不超过 10 个。 下面这 10 个，就是经过两年实战检验、卷出来的王炸组合。 二、Top 1：Superpowers 它依然是AI编程界的\"工程纪律手册\"。 GitHub Star：420,000+ 一句话说清 ：给 AI 装上一套完整的软件工程方法论，让它从\"灵感型码农\"变成\"靠谱交付团队\"。 两年过去了，Superpowers 还是整个 Skills 生态的天花板，没有之一。 从 2026 年中的 26 万 Star 一路涨到现在 42 万，官方插件市场安装量突破 800 万次 。 它也从 20+ 子模块进化到 40+，新增了 多 Agent 协作编排 、 长周期任务状态管理 、 自动化回归守护 这些大杀器。 核心理念 ： Process over Prompt（流程大于提示词） 。 最核心的几个子 Skill（2028 版）： ① brainstorming（头脑风暴）⭐ 最常用 入口 Skill，也是最关键的一个。核心逻辑没变： 未获得用户明确批准前，绝不允许 AI 动手写一行代码 。像苏格拉底一样一次只问一个问题，逐步澄清需求，给出 2-3 种方案让你选。 ② subagent-driven-development（子代理驱动开发）⭐ 核心 Skill 为每个计划任务派发独立子代理，互相隔离上下文。2028 版默认并行派发，审查也升级为三阶段： 规格合规 + 代码质量 + 安全扫描 。 审查不通过就打回去重做，和两年前一样铁面无私。 ③ test-driven-development（TDD） 强制遵循\"红灯-绿灯-重构\"循环，先写测试再写代码。 ④ requesting-code-review（代码审查） AI 自动获取当前分支的 git diff，逐文件审查，关键问题阻止推进。 安装命令 ： npx skills add obra/superpowers 适用场景 ：中大型功能开发、需要高质量交付的核心模块。 注意事项 ：简单任务会多花 15 分钟走流程。赶时间的话，直接看文末的 Trellis。 三、Top 2：grill-me 它把\"需求澄清\"做成了盘问艺术。 GitHub Star：260,000+ 一句话说清 ：在你动手之前，让 AI 像一位较真的 Tech Lead，把你的方案盘问到底。 这两年 Skills 生态最大的黑马。作者是 Matt Pocock，他提出的 \"Skill Hell\" 概念已经出圈——Skill 装得越多，AI 越不知道听谁的。这个词和 Tutorial Hell、Framework Hell 并列，成了新时代三大坑。 grill-me 的用法很简单：你把初步计划丢给它，它一次一个问题地盘问你—— 边界条件想清楚了吗？失败路径呢？",
       "first_seen": "2026-10-27",
       "domain": "juejin.cn",
-      "quality_score": 8.6
+      "quality_score": 8.6,
+      "summary_zh": "这篇清单盘点了 2028 年编程圈流行的 10 个 Skills，并回顾两年前很多人还在问 Skills 是什么的阶段。作者把 Skills 比作 AI 编程的水电煤：不装 Skill 的 AI 编程助手，就像没装插件的浏览器。",
+      "summary_en": "The article lists 10 Skills it says are popular in the 2028 programming world, tracing how the question moved from \"what is a Skill\" two years earlier to Skills being treated as basic infrastructure for AI coding. Its framing is blunt: an AI coding assistant without Skills is like a browser without extensions."
     },
     {
       "id": "juejin-7698947426488959016",
