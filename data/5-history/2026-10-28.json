@@ -250,7 +250,9 @@
       "tags": [],
       "first_seen": "2026-10-28",
       "domain": "blog.google",
-      "quality_score": 48.3
+      "quality_score": 48.3,
+      "summary_zh": "Gemini 4 Carbon 被描述为目前最强的模型，主打业界领先的网络安全能力和长程任务处理能力。这条发布只给了这一句定性描述，没有参数规模、上下文长度或基准分数，适合想先弄清新模型定位、再决定是否深入测评的开发者。",
+      "summary_en": "Gemini 4 Carbon is described as the strongest model in the lineup, pitched on state-of-the-art cybersecurity and long-horizon capabilities. The announcement stops there, with no parameter counts, context window or benchmark numbers, so what's on offer is a positioning statement rather than something to evaluate. Teams weighing it against existing models will have to wait for actual benchmarks."
     },
     {
       "id": "hn-50276998",
@@ -266,7 +268,9 @@
       "tags": [],
       "first_seen": "2026-10-28",
       "domain": "nullpt.rs",
-      "quality_score": 42.5
+      "quality_score": 42.5,
+      "summary_zh": "Hacker News 上一条讨论的标题提出了一个疑问：某个指纹识别脚本为什么会生成生物武器相关的内容。帖子只给了链接，原文没有摘要，标题之外的具体背景和结论无法确认。",
+      "summary_en": "A Hacker News submission asks why a particular fingerprinting script is creating bioweapon-related output. The linked page isn't summarized here; details beyond the title aren't available, so what the script does and why remain unconfirmed from the post itself."
     },
     {
       "id": "hn-50234474",
@@ -4707,7 +4711,9 @@
       "tags": [],
       "first_seen": "2026-10-28",
       "domain": "infoq.cn",
-      "quality_score": 33.6
+      "quality_score": 33.6,
+      "summary_zh": "深圳创业公司扩散智能（DiffuSpace）开源 Clover-35B-A3B-Preview，MoE 架构，总参数 350 亿、单次推理激活约 30 亿，官方称生成速度达 680 tokens/s；无人机空域管理 Demo 中它耗时 7.32 秒，对照的 Qwen3.5 为 62.3 秒。关注扩散语言模型能否在放大规模后把并行解码的速度转成 Agent 任务执行力的人值得一看。",
+      "summary_en": "Shenzhen startup DiffuSpace has open-sourced Clover-35B-A3B-Preview, a diffusion language model on a 35B-parameter MoE backbone that activates about 3B parameters per inference and hits 680 tokens/s in the company's own tests. In a drone airspace demo it finished in 7.32 seconds against 62.3 seconds for Qwen3.5. The open question is whether parallel decoding keeps its edge at larger scale and on agent tasks."
     },
     {
       "id": "infoq-II91QKxeaEg7RuZR2rrf",
@@ -4723,7 +4729,9 @@
       "tags": [],
       "first_seen": "2026-10-28",
       "domain": "infoq.cn",
-      "quality_score": 33.8
+      "quality_score": 33.8,
+      "summary_zh": "InfoQ 技术实践文章主张企业别再把智能体当作调提示词的工具，而应像“招聘员工”那样为它写岗位说明书，明确职责与产出责任人。文中给出筛选用例、结构化数据准备等落地步骤，并引用 Snowflake 研究称 65% 的企业认为打破 AI 数据孤岛有挑战。",
+      "summary_en": "An InfoQ practice piece argues that enterprises should stop treating AI agents as prompt-tuned tools and instead \"hire\" them like employees, defining roles, responsibilities and accountable owners in job descriptions. It lays out steps such as screening use cases and preparing structured data, citing a Snowflake study in which 65% of enterprises find breaking down AI data silos challenging."
     },
     {
       "id": "infoq-CxWoiprQltg8YXmwmghd",

@@ -4371,9 +4371,9 @@
     "summary_en": "Grok Build, a build tool developed by xAI, has been open-sourced, making it freely available for use and modification. Previously used internally, it now promises to help developers streamline build processes with greater customization. The move towards transparency and community collaboration could benefit DevOps teams and infrastructure engineers looking for flexible, efficient alternatives in the build tool landscape."
   },
   "juejin-7660712622825144374": {
-    "summary_zh": "文章列出 2026 年编程圈流行的 10 个 AI 编程 Skills，它们基于 Anthropic 2025 年 10 月推出的 Agent Skills 标准：每个 Skill 就是一个含 SKILL.md 的文件夹，放进 ~/.claude/skills/ 即可被调用。作者称实测 100 个社区 Skill 有 70% 不合格，而排在首位的 Superpowers 用 20 多个子模块覆盖 TDD、系统化调试与代码评审，适合想把 AI 写代码变成固定流程的人。",
-    "summary_en": "This post rounds up ten AI coding \"Skills\" that caught on in 2026, built on the Agent Skills standard Anthropic introduced in October 2025: each Skill is a folder with a SKILL.md that gets loaded from ~/.claude/skills/. The author says 70% of 100 community Skills failed testing, while the top pick, Superpowers, bundles 20+ submodules covering TDD, systematic debugging and code review. It's aimed at developers who want repeatable workflows instead of ad-hoc prompts.",
-    "input_hash": "b7c678e66f4e"
+    "summary_zh": "这篇掘金文章盘点了 2026 年在编程圈流行的 10 个 Skills，这里的 Skills 指的不是程序员的技术能力，而是 AI 编程助手的「技能包」：一套把 AI 从随缘写代码变成按流程交付的标准化工作流模块。适合正在为团队或个人搭建 AI 编码流程、想让输出更稳定可控的开发者参考。原文对具体清单的展开未在摘要中提供，需阅读正文。",
+    "summary_en": "This Juejin post rounds up ten \"Skills\" currently popular in programming circles, where the term means skill packs for AI coding assistants rather than human expertise: standardized workflow modules meant to move an AI from writing code ad hoc to delivering through a defined process. It should appeal to developers building or tuning AI coding workflows and wanting more predictable output. The specific ten items aren't detailed in the excerpt available here, so the full post is worth reading.",
+    "input_hash": "39a792f5cff6"
   },
   "juejin-7662691781214470180": {
     "summary_zh": "一位掘金作者停更一年后回归，分享了这段时间的密集经历：全力投入 AI 领域、陪伴妻子生娃、还抽空考了个研。文章以第一人称讲述了如何平衡工作、家庭与个人提升，展现了技术人在生活重大节点上的真实抉择。对面临类似境遇的读者来说，这是一个关于如何在巨大压力下仍坚持成长的真实故事。",
@@ -19073,8 +19073,8 @@
     "input_hash": "db185636b905"
   },
   "gh-daily-thedotmack-claude-mem": {
-    "summary_zh": "开源项目 claude-mem — Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sess",
-    "summary_en": "Open-source project claude-mem — Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sess",
+    "summary_zh": "claude-mem 是 GitHub 上的一个开源项目，它会把 agent 在一次会话中做的所有操作记录下来，用 AI 压缩后把相关上下文重新注入之后的会话，让上下文跨会话延续。据项目描述，它可以和 Claude 配合使用，适合那些要跑多轮长任务、不想每次重新交代背景的开发者。",
+    "summary_en": "claude-mem is a GitHub project that records everything an agent does during a session, compresses that history with AI, and injects the relevant parts back into later sessions so context carries over between runs. Its description says it works with Claude, which makes it relevant to developers running long, multi-session tasks who don't want to re-explain the background each time.",
     "input_hash": "950f7ab25d51"
   },
   "zhihu-2089822273524057209": {
@@ -24163,9 +24163,9 @@
     "input_hash": "966cdec69a5b"
   },
   "hn-50261319": {
-    "summary_zh": "Google DeepMind 发布 Genie 4，官方定位是「新一代世界模拟」，能够生成并探索可交互的世界，并与 Gemini、Veo、Lyria 等模型并列在同一条产品线中。对做世界模型、游戏生成或具身智能仿真的研究者来说，这是继 SIMA 2 之后又一个可直接上手把玩的生成式环境。",
-    "summary_en": "Google DeepMind has introduced Genie 4, billed as a new generation of world simulation that generates interactive worlds users can explore. It sits in the same model lineup as Gemini, Veo and Lyria, alongside the earlier SIMA 2 agent work. Researchers working on world models, game generation or embodied-agent simulation are the obvious audience.",
-    "input_hash": "a7fbea49c739"
+    "summary_zh": "这是 Hacker News 上一条标题为 Genie 4 的提交，除标题外没有可读的正文或说明。仅凭标题无法判断它指的是哪个项目、哪个版本，原文是链接，未提供更多细节，感兴趣只能点开原链接自行确认。",
+    "summary_en": "A Hacker News submission titled \"Genie 4\". The linked page isn't summarized here; details beyond the title aren't available, so it's unclear which project or release the name refers to. Readers have to open the original link to find out what it actually is.",
+    "input_hash": "db68c45453d9"
   },
   "zhihu-2098323820520260042": {
     "summary_zh": "这是知乎上的一个提问：上百家中资网贷平台出海印度，累计亏损约 70 亿元后退场，问的是这场溃败的核心原因。原文只给出问题标题，未提供更多正文细节，因此具体平台名单与亏损口径都无法核实。",
@@ -24251,5 +24251,235 @@
     "summary_zh": "这篇清单盘点了 2028 年编程圈流行的 10 个 Skills，并回顾两年前很多人还在问 Skills 是什么的阶段。作者把 Skills 比作 AI 编程的水电煤：不装 Skill 的 AI 编程助手，就像没装插件的浏览器。",
     "summary_en": "The article lists 10 Skills it says are popular in the 2028 programming world, tracing how the question moved from \"what is a Skill\" two years earlier to Skills being treated as basic infrastructure for AI coding. Its framing is blunt: an AI coding assistant without Skills is like a browser without extensions.",
     "input_hash": "49cbd5d5390d"
+  },
+  "v2ex-1f9ef8397c43": {
+    "summary_zh": "V2EX 热议：[分享发现] 豆包工作支持第三方模型了",
+    "summary_en": "Hot on V2EX: [分享发现] 豆包工作支持第三方模型了",
+    "input_hash": "4aa7073e50c6"
+  },
+  "infoq-YmgmEh686wTClmj3PY8o": {
+    "summary_zh": "InfoQ 精选：亚马逊云科技开源智能体“决策器”和“安全箱”，但并发与冷启动仍待解决",
+    "summary_en": "Featured on InfoQ: 亚马逊云科技开源智能体“决策器”和“安全箱”，但并发与冷启动仍待解决",
+    "input_hash": "de14b92d0cc9"
+  },
+  "v2ex-7015dc805542": {
+    "summary_zh": "V2EX 热议：[问与答] 腾讯网盘正式发布，腾讯不是有微云吗？为什么还要继续发布一个新的网盘？",
+    "summary_en": "Hot on V2EX: [问与答] 腾讯网盘正式发布，腾讯不是有微云吗？为什么还要继续发布一个新的网盘？",
+    "input_hash": "140e06a54348"
+  },
+  "infoq-LLbRSSwTyvqTpFsaJs3v": {
+    "summary_zh": "InfoQ 精选：AI 用起来了，业务价值谁来打分？",
+    "summary_en": "Featured on InfoQ: AI 用起来了，业务价值谁来打分？",
+    "input_hash": "8934c472b4ad"
+  },
+  "infoq-tsyyFmCmzphHw4gWy7Fo": {
+    "summary_zh": "InfoQ 精选：生产级 AI：隐性故障、工程落地与智能体治理",
+    "summary_en": "Featured on InfoQ: 生产级 AI：隐性故障、工程落地与智能体治理",
+    "input_hash": "a0846befb564"
+  },
+  "hn-50294702": {
+    "summary_zh": "Hacker News 上出现一条标题为「Patrick Stewart has died」的帖子。原文只给了链接，未提供更多细节，死因、时间以及家属或经纪方的说法都无法从现有素材确认，需要自行点开原链接核实。",
+    "summary_en": "A Hacker News submission carries the headline \"Patrick Stewart has died.\" The linked page isn't summarized here; details beyond the title — cause, timing, or statements from family and representatives — aren't available, so check the original link before drawing conclusions.",
+    "input_hash": "e47d249cd61e"
+  },
+  "zhihu-2099145641355994025": {
+    "summary_zh": "知乎上有提问讨论遗体捐献的「大体老师」骨骼被写下「死了骨头还要被我玩」等轻浮文字一事，并追问这反映出哪些教育缺失、遗体捐献后该有怎样的管理措施。原文是链接，未提供更多细节。",
+    "summary_en": "A Zhihu question asks what educational gaps are exposed after bones of donated cadavers — called 大体老师 in Chinese medical schools — were found scrawled with taunts such as \"you're dead and I still get to play with your bones,\" and what rules should govern body donations. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "3e2fbc22950e"
+  },
+  "36kr-4046203581289345": {
+    "summary_zh": "36氪「8点1氪」栏目汇总的三条消息：姆巴佩在中国的代言收入接近 2200 万欧元；长鑫科技已被纳入上证指数；宇树科技前三季度净利润 3.87 亿元，同比增长 270.54%。适合想快速扫一遍当日公司与资本市场动态的读者。",
+    "summary_en": "The 8点1氪 daily brief bundles three items: Mbappé's China endorsement income at nearly 22 million euros, ChangXin Technology's inclusion in the SSE Composite Index, and Unitree's 3.87 billion... correction: 387 million yuan net profit for the first three quarters, up 270.54% year on year. A quick scan for readers tracking company and market news out of China.",
+    "input_hash": "e0a74b3b6c15"
+  },
+  "infoq-0tgCLAMXFiFo0Dco5P9m": {
+    "summary_zh": "深圳创业公司扩散智能（DiffuSpace）开源 Clover-35B-A3B-Preview，MoE 架构，总参数 350 亿、单次推理激活约 30 亿，官方称生成速度达 680 tokens/s；无人机空域管理 Demo 中它耗时 7.32 秒，对照的 Qwen3.5 为 62.3 秒。关注扩散语言模型能否在放大规模后把并行解码的速度转成 Agent 任务执行力的人值得一看。",
+    "summary_en": "Shenzhen startup DiffuSpace has open-sourced Clover-35B-A3B-Preview, a diffusion language model on a 35B-parameter MoE backbone that activates about 3B parameters per inference and hits 680 tokens/s in the company's own tests. In a drone airspace demo it finished in 7.32 seconds against 62.3 seconds for Qwen3.5. The open question is whether parallel decoding keeps its edge at larger scale and on agent tasks.",
+    "input_hash": "96137ebedf13"
+  },
+  "v2ex-b237368c3df0": {
+    "summary_zh": "一家做 AI 角色交互的早期创业团队招远程产品负责人，当前以 AI 数字人直播为核心验证场景，要求 2 年以上产品经验且有 AI Native 产品 0 到 1 落地经历，薪资 25K–35K/月。加分项包括 AI 陪伴、数字人、Prompt Engineering 与 Agent Workflow 经验，需要能独立定义问题并对结果负责。",
+    "summary_en": "An early-stage team building a general AI character engine, currently validated through AI digital-human livestreaming, is hiring a remote product owner at 25K–35K RMB per month. Requirements include two-plus years of product experience, a shipped 0-to-1 AI-native product, and hands-on LLM and agent work. Bonus points for AI companion, virtual host, or prompt engineering backgrounds; strong ownership is essential.",
+    "input_hash": "b17f2485cda9"
+  },
+  "infoq-II91QKxeaEg7RuZR2rrf": {
+    "summary_zh": "InfoQ 技术实践文章主张企业别再把智能体当作调提示词的工具，而应像“招聘员工”那样为它写岗位说明书，明确职责与产出责任人。文中给出筛选用例、结构化数据准备等落地步骤，并引用 Snowflake 研究称 65% 的企业认为打破 AI 数据孤岛有挑战。",
+    "summary_en": "An InfoQ practice piece argues that enterprises should stop treating AI agents as prompt-tuned tools and instead \"hire\" them like employees, defining roles, responsibilities and accountable owners in job descriptions. It lays out steps such as screening use cases and preparing structured data, citing a Snowflake study in which 65% of enterprises find breaking down AI data silos challenging.",
+    "input_hash": "b4f1307ed75d"
+  },
+  "36kr-4046154482078599": {
+    "summary_zh": "36氪发布消息称 Gemini 4 Carbon 已经发布，标题同时宣称谷歌借此重回世界第一。原文只有标题和链接，未给出模型参数、评测数据或发布细节。",
+    "summary_en": "A 36Kr post reports the release of Gemini 4 Carbon and, in its headline, claims Google has returned to the top spot worldwide. The linked page isn't summarized here; details beyond the title, such as model specifications or benchmark results, aren't available.",
+    "input_hash": "01fd3f98f23a"
+  },
+  "v2ex-fa2432e04dd3": {
+    "summary_zh": "有开发者在 V2EX 分享了一个免费的《AION 2》时空裂缝倒计时网页工具，支持韩服、台服及自定义服务器时间，可自动换算本地时区、设置浏览器提醒，并附裂缝时间表与攻略。无需注册，手机电脑均可访问，但倒计时基于参考时间表计算，并非实时读取游戏内状态。",
+    "summary_en": "A developer on V2EX built a free web countdown tool for AION 2's rift openings, supporting Korean, Taiwanese and custom server times with automatic local-timezone conversion, browser reminders, plus a schedule and guides. No sign-up is needed and it works on mobile and desktop, though the countdown is calculated from a reference timetable rather than read live from the game.",
+    "input_hash": "8e0f7586c54c"
+  },
+  "zhihu-2099229886933988325": {
+    "summary_zh": "知乎上的这个提问关注西甲主席据报正考虑前往中国，起因是媒体称姆巴佩相关事件令西甲每赛季潜在损失 1 亿欧元。原文只有标题和链接，未提供更多背景与细节。",
+    "summary_en": "A Zhihu question looks at reports that the La Liga president is considering a trip to China, after media claims the Mbappé affair costs the league a potential €100 million per season. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "c9bdf042a8c7"
+  },
+  "v2ex-e64017212576": {
+    "summary_zh": "V2EX 推广帖称 ZA Bank（众安银行）奖励加码，赴香港开户可额外获得 500 HKD 返现。正文没有写活动规则或资格条件，只留下 Telegram 联系方式和群组链接，供有意者私信咨询。",
+    "summary_en": "A V2EX promotional post claims ZA Bank has sweetened its reward, offering an extra 500 HKD for opening an account in Hong Kong. The post body contains no rules or eligibility details, only a Telegram contact and group link for people with questions.",
+    "input_hash": "87fff10e34f7"
+  },
+  "36kr-4046025527694217": {
+    "summary_zh": "36氪报道首款触屏 MacBook 登场，起售价 2.3 万元，苹果 Logo 也重新做成可发光样式，这是 Mac 产品线第一次引入触摸屏。原文仅有标题与跳转链接，未附正文摘要，触控实现方式、屏幕参数和上市时间等细节目前无法确认。",
+    "summary_en": "36Kr reports the first touchscreen MacBook, starting at 23,000 yuan, with the glowing Apple logo brought back — the first time touch input arrives on the Mac line. The linked article isn't summarized here; details beyond the title, such as panel specs, how touch is implemented, and availability, aren't available.",
+    "input_hash": "6a862804db83"
+  },
+  "v2ex-dae7eb10dfdd": {
+    "summary_zh": "开发者自建的 iOS App Catfolio 通过券商 API 以只读方式拉取数据，把散在多家券商的持仓合并，算清总仓位、成本与真实收益，并用 TWR/MWR 双口径对比 SPY、QQQ，还能穿透 ETF 得到个股真实敞口。它附带分红统计、期权持仓墙和 MCP server，计算全在手机本地完成，同时支持 A 股。",
+    "summary_en": "A developer built Catfolio, an iOS app that pulls positions read-only via brokerage APIs and merges accounts across brokers, computing total holdings, cost basis and returns in both TWR and MWR terms against benchmarks like SPY and QQQ, plus ETF look-through to real single-stock exposure. It adds dividends, options open-interest walls, an MCP server, and runs all the math on-device; A-share accounts are supported too.",
+    "input_hash": "57de237f4c6a"
+  },
+  "v2ex-fc1abd27cacc": {
+    "summary_zh": "有 V2EX 网友发帖征集《影之刃零》发售后的实际体验，称网上评价褒贬不一，想听听真正上手玩过的 V 友怎么说。帖子本身没有展开更多内容或评测细节，只是抛出问题等回复。",
+    "summary_en": "A V2EX user is asking how Phantom Blade Zero plays now that it's out, noting that online reactions are mixed and inviting people who have actually played it to weigh in. The post itself adds no impressions or review detail beyond the question, so it serves mainly as a prompt for player opinions.",
+    "input_hash": "16acf6b54ac6"
+  },
+  "v2ex-5440a3e1d106": {
+    "summary_zh": "V2EX 的 Apple 版块出现一条帖子，称 VirPulse 已经在 iPhone Duo 上完成真机实测，正文里只有一个 B 站视频链接和图片预览。原文未提供文字说明，测试方法、具体数据和结论都无法从帖子本身确认。",
+    "summary_en": "A V2EX post in the Apple section says VirPulse has been tested on a physical iPhone Duo, but the body holds only a Bilibili video link and image previews. The linked page isn't summarized here; details beyond the title, such as test methodology or results, aren't available.",
+    "input_hash": "0a18e523974f"
+  },
+  "v2ex-a26cc08a32a1": {
+    "summary_zh": "独立开发者针对 Brother DCP-B7520DW 等无线打印机在手机上打印发虚的问题，做了「鹰眼打印」：绕过 Android 默认的 150–300 DPI 灰度转换，本地以 600/1200 DPI 光栅化生成 1-Bit 点阵流，经 RAW 9100 或 IPP 631 直驱打印机。它还内置 30 款 Windows 字库避免 docx 变字体，并提供免公网 IP 的远程打印网关。",
+    "summary_en": "An independent developer built HawkEye Print after tiring of jagged, blurry phone prints on Brother DCP-B7520DW-class wireless printers. It skips Android's 150–300 DPI grayscale conversion, rasterizes locally at 600/1200 DPI into 1-bit dot streams and sends them straight to the printer over RAW 9100 or IPP 631. It also bundles 30 Windows fonts so .docx files keep their typefaces, plus a remote gateway that needs no public IP.",
+    "input_hash": "fc4338fed0ff"
+  },
+  "infoq-eOqH5GJ5R6UuZGtlhL53": {
+    "summary_zh": "小红书架构师孟洪进在 AICon 上分享了企业级 AI 助理 Seal 的建设实践：团队基于 OpenClaw 二次开发，三个人三天做出内测版，首批 200 个名额被销售、运营、算法、HR、财务等职能用满，一个月内完成全员覆盖。文章重点讲从 Demo 走到万级用户时，安全、成本、记忆、能力复用与产品生态这些问题的应对方式。",
+    "summary_en": "At AICon, Xiaohongshu architect Meng Hongjin described Seal, the company's internal AI assistant: three engineers shipped an internal beta in three days on top of OpenClaw, and the first 200 invite slots were quickly claimed by sales, ops, algorithms, HR and finance staff before the tool reached company-wide coverage within a month. The write-up focuses on what breaks between demo and tens of thousands of users: security, cost, memory, skill reuse and product ecosystem.",
+    "input_hash": "7482bfa1f15c"
+  },
+  "hn-50276998": {
+    "summary_zh": "Hacker News 上一条讨论的标题提出了一个疑问：某个指纹识别脚本为什么会生成生物武器相关的内容。帖子只给了链接，原文没有摘要，标题之外的具体背景和结论无法确认。",
+    "summary_en": "A Hacker News submission asks why a particular fingerprinting script is creating bioweapon-related output. The linked page isn't summarized here; details beyond the title aren't available, so what the script does and why remain unconfirmed from the post itself.",
+    "input_hash": "2917b0e26328"
+  },
+  "v2ex-34b7604ab644": {
+    "summary_zh": "有开发者在 V2EX 发帖指出，IDE 中 Claude Opus 5.5 的积分倍率是 2x Credit，而 Opus 5 与 Opus 4.8 都是 2.2x，于是追问这属于计费策略调整还是模型调用成本下降。帖中暂无结论，适合关心 Claude 订阅额度与计费规则的人参考。",
+    "summary_en": "A V2EX poster notes that Claude Opus 5.5 consumes 2x Credits inside the IDE, while Opus 5 and Opus 4.8 were both charged at 2.2x, and asks whether this reflects a billing policy change or lower inference costs. No answer appears in the thread yet, so it is mainly useful for developers tracking how Claude subscription quotas are metered.",
+    "input_hash": "9aa7e25c74f1"
+  },
+  "36kr-4046281658307456": {
+    "summary_zh": "这是一篇标题为“对不起，我们不投具身智能了”的文章，从标题看讨论的是投资方对具身智能赛道态度的转变。原文除标题外未提供正文素材，具体涉及哪些机构、出于什么原因，目前没有细节可确认。",
+    "summary_en": "A 36kr piece headlined \"Sorry, we're no longer investing in embodied AI\" points to investors turning away from the embodied-intelligence sector. No body text accompanies this item, so which firms are involved and what drove the retreat can't be confirmed; the linked page isn't summarized here, and details beyond the title aren't available.",
+    "input_hash": "bf977450f773"
+  },
+  "infoq-Lg6RgMudjiWIVQllmz8a": {
+    "summary_zh": "微软计划 2027 年起将 Azure Maia 扩至数吉瓦级推理部署，Maia 200 已在 Copilot 与 MAI 生产运行。Maia 300 配 288GB HBM4、功耗 950W，主打长上下文与内存密集推理，但公告力推的效率指标定义不清，已引来从业者质疑。",
+    "summary_en": "Microsoft says it will scale Azure Maia to multi-gigawatt inference deployments from 2027, with Maia 200 already serving Copilot and MAI workloads in production. The upcoming Maia 300 targets long-context, memory-heavy inference with 288GB of HBM4 per accelerator and a 950W TDP, built on TSMC's N2P process. Yet the efficiency figures Microsoft leads with are loosely defined, drawing scepticism from industry engineers.",
+    "input_hash": "cdcda841e019"
+  },
+  "infoq-ii1qFkWaDFZudHSL1lIM": {
+    "summary_zh": "Snowflake 的 Snowpipe Streaming Elastic Channels 已正式 GA，生产者可通过服务端托管的隐式通道直接写入，省掉 Kafka、Schema Registry 和连接器，延迟从分钟级降到秒级，代价是仅保证至少一次投递、不保证顺序。文中给出建对象、Dynamic Tables 实时转换到监控的完整实现。",
+    "summary_en": "Snowflake's Snowpipe Streaming Elastic Channels is now generally available, letting producers write straight into Snowflake through a server-managed implicit channel and dropping Kafka, Schema Registry and connectors from the pipeline. Latency falls from minutes to seconds, at the cost of at-least-once delivery with no ordering guarantee. The article walks through a working setup, from creating objects to transforming data with Dynamic Tables and monitoring the channel.",
+    "input_hash": "a09a30ec81ef"
+  },
+  "infoq-g7TTtqzU1qyQXooXFQGN": {
+    "summary_zh": "10 月 22 日，InfoQ 联合中欧国际工商学院 EMBA 课程部、独角兽创业营与 TGO 鲲鹏会，在 QCon 上海 2026 首次集结「AI 侦察团」，带企业决策者从主论坛走到午餐圆桌和闭门私董会。下午的技术专场由阿里云、亚马逊云科技、去哪儿、腾讯、优码云的一线专家拆解 Agent 落地与组织复利等实践，适合正为场景选型和效果衡量发愁的企业团队。",
+    "summary_en": "InfoQ's AI Scout Group held its first outing at QCon Shanghai 2026 on October 22, co-organized with the EMBA program at 中欧国际工商学院, 独角兽创业营 and TGO 鲲鹏会. Members moved from the 1,200-person main forum to a lunch roundtable and a closed-door board meeting, then heard engineers from Alibaba Cloud, AWS, Qunar, Tencent and 优码云 break down agent deployment and organizational reuse, which is useful for enterprises still choosing scenarios and metrics.",
+    "input_hash": "4f40fd8d3f0c"
+  },
+  "infoq-YVwtY6Jwdu0IB84tDC9m": {
+    "summary_zh": "Grafana Labs 发布 Tempo 3.1：Kafka 客户端补齐 TLS/mTLS 与 SCRAM、OAUTHBEARER、AWS_MSK_IAM 等 SASL 机制，vParquet5 成为默认块格式，简单指标查询速度接近翻倍。tempo-cli redact 现在支持用 TraceQL 查询而非 trace ID 列表来脱敏，并可先用 --dry-run 统计匹配项；另有一项针对采样数据的实验性查询时提示。",
+    "summary_en": "Grafana Labs shipped Tempo 3.1, the first point release on the Kafka-based 3.0 architecture: the Kafka client gains TLS/mTLS plus SCRAM, OAUTHBEARER and AWS_MSK_IAM SASL mechanisms, vParquet5 becomes the default block format, and simple metric queries run nearly twice as fast. The tempo-cli redact command now accepts TraceQL queries instead of trace ID lists, with a --dry-run mode, and sampled TraceQL metrics get an experimental query-time hint.",
+    "input_hash": "f2b604d73e0e"
+  },
+  "hn-50289418": {
+    "summary_zh": "Mistral 公开了 Mistral Large 4（代号 Le Chonk）的权重，这是一个 1T 参数的多模态模型，官方称其为面向编码的最佳开放权重模型，并在欧洲训练完成。对于希望自托管或做本地微调的团队，这提供了一个万亿参数规模的可下载选项。",
+    "summary_en": "Mistral released the weights of Mistral Large 4, codenamed Le Chonk — a 1T-parameter multimodal model that it describes as the best open-weight model for coding, trained in Europe. For teams that want to self-host or fine-tune a frontier-scale coding model instead of calling an API, this is now a trillion-parameter option they can download and run themselves.",
+    "input_hash": "eee8ec2df505"
+  },
+  "36kr-4046427575605128": {
+    "summary_zh": "这是 36氪 发布的一篇题为《世界等待张一鸣》的文章，原文仅提供标题与链接，未附正文，因此除标题外没有可核实的内容。标题指向对张一鸣的某种观察或评论，具体观点需阅读原文。",
+    "summary_en": "A 36Kr piece headlined \"The world waits for Zhang Yiming\". The linked page isn't summarized here; details beyond the title aren't available, so the argument, sourcing and any news it carries can't be confirmed. Readers should open the original to see what the framing refers to and which developments prompted it.",
+    "input_hash": "8732e5de720e"
+  },
+  "zhihu-2099222918274331423": {
+    "summary_zh": "这是知乎上的一个提问，讨论法国足协主席公开表示姆巴佩无意冒犯中国人民，并希望这件事到此为止。问题本身没有附事件经过或原始报道，只有这一句表态，前因后果得点开原链接才能确认。关注体育公关与中外舆论摩擦的读者可以去看回答区的讨论。",
+    "summary_en": "A Zhihu question about the French football federation president saying that Kylian Mbappe meant no offence to the Chinese public and that he hopes the matter ends there. The question carries no account of what triggered the remark, and the linked page isn't summarized here, so the background isn't available beyond the title.",
+    "input_hash": "cfdf94e3d87d"
+  },
+  "hn-50276792": {
+    "summary_zh": "Gemini 4 Carbon 被描述为目前最强的模型，主打业界领先的网络安全能力和长程任务处理能力。这条发布只给了这一句定性描述，没有参数规模、上下文长度或基准分数，适合想先弄清新模型定位、再决定是否深入测评的开发者。",
+    "summary_en": "Gemini 4 Carbon is described as the strongest model in the lineup, pitched on state-of-the-art cybersecurity and long-horizon capabilities. The announcement stops there, with no parameter counts, context window or benchmark numbers, so what's on offer is a positioning statement rather than something to evaluate. Teams weighing it against existing models will have to wait for actual benchmarks.",
+    "input_hash": "4ce14c78b9ef"
+  },
+  "36kr-4046427132744579": {
+    "summary_zh": "36氪这条资讯说 Codex 200 美元档位的额度被砍半，同时 ChatGPT 的入口有较大改动，标题还提示这是变更生效的最后一天。原文只有标题、没有正文，额度具体砍到多少、入口怎么变、老订阅用户如何过渡都没交代，用 Codex 的人最好先去账户页确认自己的额度。",
+    "summary_en": "According to 36Kr, the $200 Codex tier is being cut to half its quota and ChatGPT's entry point is getting a significant overhaul, with the title noting this is the last day before the change takes effect. No body text accompanies the item, so how the new quota is calculated, what exactly changes in the entry point and how existing subscribers transition all remain unclear. Codex users should check their account page directly.",
+    "input_hash": "0c030a390922"
+  },
+  "zhihu-2099160783238255465": {
+    "summary_zh": "三丽鸥在日本官网上用中文和日文发布双语道歉，这个知乎提问围绕这份回应是否足够、消费者是否还会继续买单展开。标题没有交代道歉的具体缘由和措辞，原文是链接，未提供更多细节，需要结合原帖和官网声明才能判断。",
+    "summary_en": "Sanrio posted a bilingual apology in Chinese and Japanese on its Japanese official website, and this Zhihu question asks how to read that response and whether people will keep buying from the brand. The title doesn't say what prompted the apology or what it actually said; the linked page isn't summarized here, so details beyond the title aren't available.",
+    "input_hash": "c169c95340ed"
+  },
+  "gh-daily-milind-soni-OpenMausBot": {
+    "summary_zh": "OpenMausBot 是开源的 Grok Bot 替代品，以 TypeScript、React 19 和 Electron 构建的桌面应用；侧栏里每个 bot 都是本地运行的 Claude 或 Codex agent，各有独立人格、模型、云电脑和已连接应用，关键操作需用户审批。项目原名 OpenGrokBot，与 xAI、Meta、OpenAI、Manus 均无关联，适合想自托管多 agent 桌面的开发者。",
+    "summary_en": "OpenMausBot is an open-source alternative to Grok Bot, shipped as an Electron desktop app built with TypeScript and React 19. Each bot in the sidebar is a real local agent, Claude or Codex, with its own personality, model, cloud computer and connected apps, and users approve what matters as they would with a contact. Formerly OpenGrokBot, it is unaffiliated with xAI, Meta, OpenAI or Manus, aimed at developers who want self-hosted multi-agent setups.",
+    "input_hash": "7b0836cd4323"
+  },
+  "36kr-4046412359603328": {
+    "summary_zh": "36氪这篇稿子以「标价 13800 元」为切口，讨论这届中产父母围绕 AI 的焦虑，以及这种焦虑如何被明码标价。原文为站内链接，除标题外没有提供正文细节。",
+    "summary_en": "A 36kr piece examines how middle-class parents' anxiety about AI gets packaged and sold, taking a 13,800 yuan price tag as its entry point. Only the headline is available here, so the linked page isn't summarized and specifics on what is being sold, and to whom, aren't available.",
+    "input_hash": "78b55beb480a"
+  },
+  "36kr-4045882807522435": {
+    "summary_zh": "36氪报道了配备触屏的 MacBook Pro，顶配价格 11.26 万元，标题借乔布斯之名抛出反问。原文为链接，正文未提供，除价格与触屏形态外没有更多信息。",
+    "summary_en": "36kr covers a touchscreen MacBook Pro whose top configuration is priced at 112,600 yuan, framing the story as a question of what Steve Jobs would have said about it. The linked article isn't summarized here, so details beyond the title, such as specifications and availability, aren't available.",
+    "input_hash": "ae2bd34453f5"
+  },
+  "36kr-4046673516057477": {
+    "summary_zh": "36氪这篇评论借段永平投资可口可乐的框架，论证泡泡玛特并不是那种可以长期持有的可口可乐式生意。原文仅有标题，未提供正文内容，具体论证过程无从判断。",
+    "summary_en": "A 36kr commentary argues that Pop Mart is not the Coca-Cola of Duan Yongping's playbook, meaning it lacks the durable, long-hold consumer franchise the investor famously favors. Only the headline is available here; the linked page isn't summarized, so the supporting argument can't be assessed.",
+    "input_hash": "09bff902bccd"
+  },
+  "36kr-4045505756092036": {
+    "summary_zh": "36氪报道腾讯的反击路径：不推出独立 App，而是在微信内部悄悄与字节跳动展开竞争。原文为链接，正文未提供，具体涉及哪条业务线尚不清楚。",
+    "summary_en": "36kr reports that Tencent is taking a roundabout route against ByteDance: instead of launching a standalone app, it is pushing the fight quietly inside WeChat. The linked article isn't summarized here, so which product lines are involved and what the features look like aren't available.",
+    "input_hash": "94d0ade353fe"
+  },
+  "zhihu-2099103184987714518": {
+    "summary_zh": "知乎上这条提问关注的是华为制药军团的公开表态：其公司定位是医药行业的 AI 赋能者，而不是自己下场参与制药。讨论集中在华为为何选择做技术底座而非抢药企的生意，以及这一姿态对医药研发链条意味着什么。原文是知乎提问，除标题外未提供更多细节。",
+    "summary_en": "This Zhihu question centers on a public statement from Huawei's pharmaceutical legion that its role is to be an AI enabler for the drug industry rather than a drugmaker competing with pharma companies. The discussion asks what that positioning implies and what considerations sit behind choosing to supply technology instead of entering drug development itself. The linked page is a question thread; details beyond the title aren't available here.",
+    "input_hash": "f274bc5cdafa"
+  },
+  "gh-daily-Donchitos-Claude-Code-Game-Studios": {
+    "summary_zh": "Donchitos/Claude-Code-Game-Studios 是一个把单次 Claude Code 会话变成完整游戏开发工作室的开源项目，内含 49 个 agents、74 个 skills，另有 15 个 hooks 和 14 条 rules，用一套协调机制模拟真实工作室的层级分工，采用 MIT 协议。它适合想用 AI 编排多角色协作流程、或对 agent 分工调度感兴趣的游戏与工具开发者。",
+    "summary_en": "Donchitos/Claude-Code-Game-Studios is an MIT-licensed repo that turns a single Claude Code session into a full game development studio, shipping 49 agents and 74 skills along with 15 hooks and 14 rules. A coordination layer mirrors the hierarchy of a real studio, with roles divided across the agent team. It's aimed at game and tooling developers who want to orchestrate multi-role AI workflows, or who are curious how agent分工 and scheduling can be structured.",
+    "input_hash": "04422a29f3ab"
+  },
+  "zhihu-2098804738414399591": {
+    "summary_zh": "知乎这条提问源于江苏一名医生被曝用「豆包」查询药品信息，患者家属得知后拒绝接受其开具的处方。讨论的核心是患者对医生使用 AI 工具查药的信任问题：查药这类辅助性用途是否可接受，医生是否应主动告知，以及医院该如何界定使用边界。原文是知乎提问，除标题描述的事件外未提供更多细节。",
+    "summary_en": "This Zhihu question stems from a case in Jiangsu where a doctor was reportedly seen using Doubao to look up drug information, after which the patient's family refused the prescription the doctor wrote. The debate is about patient trust when clinicians consult AI for drug reference: whether that kind of辅助 lookup is acceptable, whether doctors should disclose it, and where hospitals should draw the line. The linked page is a discussion thread; details beyond the title aren't available here.",
+    "input_hash": "9db027a11186"
+  },
+  "zhihu-2098771415411291576": {
+    "summary_zh": "知乎这条提问围绕一本科普书里出现明显失真的「双头虾」配图展开，出版社回应称正在下架召回。讨论追问这种一眼可见的错误为何能通过编审流程，以及在科普出版中是否应当限制甚至禁止使用 AI 生成配图。原文是知乎提问，除标题所述事件外未提供更多细节。",
+    "summary_en": "This Zhihu question concerns a popular-science book that ran an obviously wrong illustration of a two-headed shrimp, with the publisher saying it is pulling and recalling copies. The discussion asks how such a glaring error cleared editing and review, and whether popular-science publishing should restrict or ban AI-generated illustrations. The linked page is a question thread; details beyond the title aren't available here.",
+    "input_hash": "6e9403293005"
+  },
+  "zhihu-2092665947337273576": {
+    "summary_zh": "这是知乎上的一个提问，主题是 AI 冲击之下的数理科研该往哪走。原文只有链接，未提供更多细节，帖内的具体观点和案例无法从现有信息确认，关心 AI 与基础科学研究关系的人需要自行去原帖查看。",
+    "summary_en": "A Zhihu question asking how AI is reshaping research in mathematics and physics. The linked page isn't summarized here; details beyond the title aren't available, so the specific arguments and cases raised in the thread can't be reported — those interested in AI's effect on basic science will need to read the original post.",
+    "input_hash": "67084c516280"
+  },
+  "zhihu-2097980354397315508": {
+    "summary_zh": "这是知乎上的一个提问，引用的数据是华为 PuraXView 销量已超过 60 万台并且持续缺货，讨论焦点在于“阔直屏”这种形态会不会成为行业新趋势。原文是链接，未提供更多细节，销量数据的统计口径和来源无法从现有信息核实。",
+    "summary_en": "A Zhihu question cites sales of more than 600,000 units for Huawei's PuraXView, which it says remains out of stock, and asks whether the wide flat-screen form factor will become an industry trend. The linked page isn't summarized here; details beyond the title, including where the sales figure comes from, aren't available.",
+    "input_hash": "a7752e660f91"
+  },
+  "zhihu-2099070911362213117": {
+    "summary_zh": "这是知乎上的一个提问，针对苹果在 10 月 29 日发布、22999 起售的触摸屏 MacBook Pro 征集评价。原文只有链接，未提供更多细节，具体配置、触控方案的实现方式以及实际体验反馈都无法从现有信息判断。",
+    "summary_en": "A Zhihu question soliciting reactions to Apple's touchscreen MacBook Pro, released on October 29 with a starting price of 22,999. The linked page isn't summarized here; details beyond the title aren't available, so the specs, how touch input is implemented, and hands-on impressions can't be reported.",
+    "input_hash": "e2514f3ee6c8"
   }
 }
