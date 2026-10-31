@@ -196,7 +196,9 @@
       "tags": [],
       "first_seen": "2026-10-30",
       "domain": "phorion.io",
-      "quality_score": 42.7
+      "quality_score": 42.7,
+      "summary_zh": "有报告指出，通过 Cursor Marketplace 分发的 Claude Code VS Code 扩展中被植入了后门。该条目只给出一条指向 Cursor 官方安全公告的链接，公告本身未被摘要，因此受影响的版本、波及范围和修复方式目前都不明确。凡是曾从该市场安装过这个扩展的开发者，都应直接去读原公告核实。",
+      "summary_en": "A report flags a backdoor in the Claude Code extension for VS Code distributed through the Cursor Marketplace. The item only links to a Cursor security notice, and the linked page isn't summarized here, so affected versions, scope, and remediation aren't available. Developers who installed the extension from that marketplace should read the original advisory to check their exposure."
     },
     {
       "id": "hn-50282838",
@@ -3483,7 +3485,9 @@
       "gh_period": "daily",
       "first_seen": "2026-10-30",
       "domain": "github.com",
-      "quality_score": 30.5
+      "quality_score": 30.5,
+      "summary_zh": "Lightpanda 是一个从零写起的 headless browser，用 Zig 实现，既非 Chromium 分支也不是 WebKit 补丁，README 称其比 Chromium 轻 16 倍、快 9 倍。它面向 AI agent 与自动化场景，适合需要大规模抓取或执行网页任务的团队评估替代方案。",
+      "summary_en": "Lightpanda is a headless browser written from scratch in Zig rather than forked from Chromium or patched from WebKit, and its README claims it is 16x lighter and 9x faster than Chromium. It targets AI agents and automation workloads, so teams running large-scale scraping or browser tasks may want to benchmark it against their current stack."
     },
     {
       "id": "gh-monthly-cloudflare-security-audit-skill",
@@ -4802,7 +4806,9 @@
       "tags": [],
       "first_seen": "2026-10-30",
       "domain": "infoq.cn",
-      "quality_score": 34.2
+      "quality_score": 34.2,
+      "summary_zh": "Cisco 总裁兼首席产品官 Jeetu Patel 把重写公司 98% 遗留代码的任务交给了 27 岁的 Padmanabhan Krishnamurthy，这位被 Cisco 收购的 AI 初创公司前 CEO 只带两个人，却拿到了近乎无限的 AI Token 预算，目标是在 24 个月内完成，先用四周做初步验证。据《财富》10 月 30 日报道，Cisco 尚未披露已完成的比例、系统范围与技术方案；真正的看点是 AI Coding 会如何改变大企业的软件工程组织方式。",
+      "summary_en": "Cisco president and chief product officer Jeetu Patel handed a 27-year-old, Padmanabhan Krishnamurthy — a former AI startup CEO whose company Cisco acquired — the job of rewriting 98% of Cisco's legacy code with just two people, an unlimited AI token budget and a 24-month target that starts with a four-week validation. Fortune reported the story on October 30; Cisco has not disclosed progress, scope or tooling. The real question is how AI coding reshapes engineering orgs at large enterprises."
     },
     {
       "id": "infoq-sCKczimP9lSEl0rgJ7VY",
@@ -4818,7 +4824,9 @@
       "tags": [],
       "first_seen": "2026-10-30",
       "domain": "infoq.cn",
-      "quality_score": 34.6
+      "quality_score": 34.6,
+      "summary_zh": "贝联珠贯创始人兼 CEO、前阿里巴巴集团研究员毕玄在 1024 模力工场 AI 社区日上，以企业 IT 运维助手 SREAgent 为例谈垂类 Agent 的竞争力。他认为跑长任务、熟练调用通用工具这类优势会随大模型进步被抹平，壁垒在于接入各家不同的监控日志数据、建立能随业务自我演进的领域模型；SREAgent 3.0 已支持用自然语言生成 Skill，降低数据接入门槛。",
+      "summary_en": "At the 1024 ModelWorks AI Community Day, Bi Xuan, founder and CEO of Beilian Zhuguan, used his team's SREAgent — an AI assistant that reads monitoring data and logs to help enterprises troubleshoot IT systems — to argue that vertical agents cannot win on long-running tasks or fluent tool use, since models are absorbing those abilities. The durable moat, he says, is wiring up each customer's messy monitoring and log sources and building domain models that keep evolving with the business. SREAgent 3.0 lets customers generate Skills from natural-language requests."
     },
     {
       "id": "infoq-f3FdeDczctAdHMhvBdKw",
@@ -4834,7 +4842,9 @@
       "tags": [],
       "first_seen": "2026-10-30",
       "domain": "infoq.cn",
-      "quality_score": 34.4
+      "quality_score": 34.4,
+      "summary_zh": "极客邦科技创始人兼 CEO 霍太稳在 1024 模力工场·AI 社区日上介绍「模力工场」：用 AI 估算项目所需的时间和预算，按技术团队过往的交付表现推荐合作方，合作后再跟进交付、评估结果，想补上企业找不到靠谱团队、团队又担心收不到钱之间的信任缺口。他同时宣布极客邦科技南方总部与 TGO 鲲鹏会全球总部落户杭州，并提到企业需求正从几天培训转向让服务方带团队做出可用的智能体与 Skill。",
+      "summary_en": "At the 1024 模力工场 AI community day, 极客邦科技 founder and CEO 霍太稳 introduced 模力工场, a platform that uses AI to estimate a project's time and budget, recommend delivery teams based on their past performance, and then track delivery and evaluate results — targeting the trust gap between companies that can't find reliable teams and teams that fear not getting paid. He also announced that 极客邦's southern headquarters and TGO's global headquarters are settling in Hangzhou, and noted enterprises now want vendors to build working agents and Skills with their teams rather than sit through multi-day training."
     },
     {
       "id": "infoq-O6mtiB7FVd0VSDHJe348",
@@ -4850,7 +4860,9 @@
       "tags": [],
       "first_seen": "2026-10-30",
       "domain": "infoq.cn",
-      "quality_score": 34.8
+      "quality_score": 34.8,
+      "summary_zh": "Google 发布 EmbeddingGemma 2，这是基于 Gemma 4、以 Apache 2.0 许可发布的开放权重多模态嵌入模型，把文本、代码、图像、视频和音频放进同一个 768 维向量空间，可按需只加载部分编码器，参数量从 2.7 亿到 7.4 亿，并针对设备端部署做过优化。它支持 MRL 截断：100 万个 768 维向量约需 1.5GB 内存，截到 128 维只需 250MB，代价是图像、视频和语音检索质量降到约 75%。适合做端侧搜索、RAG 与跨媒体检索的开发者。",
+      "summary_en": "Google released EmbeddingGemma 2, an Apache 2.0 open-weight multimodal embedding model built on Gemma 4 that maps text, code, images, video and audio into a single 768-dimensional space, letting developers load only the encoders they need, with parameter counts from 270M to 740M and tuning for on-device deployment. Matryoshka truncation cuts a million 768-dim vectors from about 1.5GB to 250MB at 128 dimensions, though image, video and audio retrieval quality falls to roughly 75%. Aimed at local search, RAG and cross-media retrieval."
     },
     {
       "id": "infoq-ZolBIJdvK5Icdqg6FB0X",
@@ -4866,7 +4878,9 @@
       "tags": [],
       "first_seen": "2026-10-30",
       "domain": "infoq.cn",
-      "quality_score": 35.2
+      "quality_score": 35.2,
+      "summary_zh": "InfoQ 精选：超节点火了一年后，“算力不够就加机器”的扩张逻辑正在被改写",
+      "summary_en": "Featured on InfoQ: 超节点火了一年后，“算力不够就加机器”的扩张逻辑正在被改写"
     },
     {
       "id": "infoq-A8YgLsG4VOhoJkUVq9Jq",
@@ -4948,7 +4962,9 @@
       "tags": [],
       "first_seen": "2026-10-30",
       "domain": "infoq.cn",
-      "quality_score": 35.7
+      "quality_score": 35.7,
+      "summary_zh": "InfoQ 教程用四条提示词，在 Hex Agent 中连接 Snowflake 上的 Amazon Best Sellers 评论数据集（2,700 款产品、25.6 万条评论），对 3.7 星的 GE Profile Opal 2.0 制冰机的 98 条评论做情感分析与投诉主题分类，20 分钟内做出并发布应用。案例说明平均星级会掩盖黑霉、退货与安全隐患等两极分化反馈，适合想把用户评论变成产品决策依据的团队。",
+      "summary_en": "An InfoQ tutorial shows how four prompts in Hex Agent, connected to an Amazon Best Sellers review dataset on Snowflake covering 2,700 products and 256,000 reviews, turn 98 reviews of the 3.7-star GE Profile Opal 2.0 ice maker into sentiment scores and complaint categories, going from blank page to published app in under 20 minutes. The case shows how an average rating hides polarized feedback such as mold, returns and safety complaints, useful for teams that want to turn customer reviews into product decisions."
     },
     {
       "id": "infoq-u23wUVUDcFqL7hLBWXuW",
@@ -4982,7 +4998,9 @@
       "tags": [],
       "first_seen": "2026-10-30",
       "domain": "infoq.cn",
-      "quality_score": 35.3
+      "quality_score": 35.3,
+      "summary_zh": "亚马逊宣布收购 DuckDB 背后的阿姆斯特丹公司 DuckLabs，联合创始人 Hannes Mühleisen 和 Mark Raasveldt 将加入亚马逊云科技并继续主导该项目的技术方向。各方承诺 DuckDB 以及 DuckLake、Quack 等 Duck Stack 组件继续保持 MIT 许可，由非营利的 DuckDB Foundation 监督。社区总体欢迎，但担心收购会拖慢原本的创新节奏。",
+      "summary_en": "Amazon has acquired DuckLabs, the Amsterdam company behind the DuckDB analytical database; founders Hannes Mühleisen and Mark Raasveldt will join AWS and keep leading the project's technical direction. DuckDB and Duck Stack components such as DuckLake and Quack stay MIT-licensed, overseen by the nonprofit DuckDB Foundation. Community reaction is largely positive, with users hoping the deal won't slow the team's pace of innovation."
     },
     {
       "id": "infoq-UNli8x0wc8XUNjI5ETya",

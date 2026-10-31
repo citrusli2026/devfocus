@@ -6227,8 +6227,9 @@
     "summary_en": "Anthropic recently banned a large number of Chinese developer accounts, causing many programmers who heavily relied on Claude for code generation to lose their main tool overnight. Their productivity dropped sharply, leading netizens to joke about 'the fall of genius programmers.' This incident reveals how deeply Chinese developers depend on foreign AI platforms, and it highlights that tech export controls and compliance risks are now extending from chips to software services. The ban may stem from geopolitical pressure or simply from enforcing terms of service. For individual developers, this is a wake-up call about the dangers of over-reliance on a single AI tool. A more resilient strategy would involve diversifying across domestic models, local deployments, or open-source alternatives."
   },
   "gh-monthly-pbakaus-impeccable": {
-    "summary_zh": "开源项目 impeccable — The design language that makes your AI harness better at design.",
-    "summary_en": "Open-source project impeccable — The design language that makes your AI harness better at design."
+    "summary_zh": "pbakaus/impeccable 是一套给 coding agent 用的设计词汇表：用 polish、bolder 这类指令控制打磨方向，用 critique、audit 做评审与检查，目标是在界面交付前拦住 AI 生成的粗糙产物（AI slop）。适合已经在用 agent 写前端、又想把设计质量纳入流程的开发者。",
+    "summary_en": "impeccable, a GitHub project by pbakaus, packages a design vocabulary for coding agents: steer work with polish and bolder, review it with critique and audit, and catch AI slop before it ships. It suits developers who let agents write UI code and want design quality built into the loop rather than fixed up afterwards.",
+    "input_hash": "e520fa89d4ed"
   },
   "36kr-3918999971622280": {
     "summary_zh": "36氪热门：25岁OpenAI神童，拉全球股民陪葬",
@@ -19763,9 +19764,9 @@
     "input_hash": "3f610de44afc"
   },
   "infoq-yVWAQGCZCzI838JESA1b": {
-    "summary_zh": "快手生产平台研发负责人韩江将在 10 月 22—24 日的 QCon 上海站，讲快手大数据智能体 DataAgent 的探索之路。DataAgent 覆盖找数取数、数据开发、归因报告与 AB 分析，主动会话周活跃用户近万，分享聚焦 Multi-Agent 协同与数据安全等落地难题。",
-    "summary_en": "Han Jiang, who leads R&D at Kuaishou's production platform center, will speak at QCon Shanghai on October 22–24 about DataAgent, Kuaishou's effort to apply AI to big-data production and analytics. DataAgent is an enterprise agent covering data discovery, data development, attribution reports and AB analysis, with nearly 10,000 weekly active users in proactive sessions; the talk also addresses Multi-Agent coordination, context management and data-security challenges.",
-    "input_hash": "a12066cd70a5"
+    "summary_zh": "这是快手在 QCon 上海带来的 DataAgent 议题，主题是大数据生产与分析环节的智能化探索，也就是把 agent 类能力接进数据开发与分析的流程里。原文只给出议题标题，未提供摘要或正文，具体架构、方案与落地效果无法在本文确认，适合关注数据平台智能化的开发者按议题名去查对应场次。",
+    "summary_en": "A QCon Shanghai session from Kuaishou titled DataAgent, about the company's exploration of adding intelligence to big data production and analysis workflows. The linked page isn't summarized here; details beyond the title, such as the architecture, tooling, or results, aren't available, so treat this as a pointer to the talk for developers tracking agent-style work on data platforms.",
+    "input_hash": "60fc5d8a0bed"
   },
   "v2ex-0c65b851c4d5": {
     "summary_zh": "这是 V2EX 读书版的一个讨论帖，楼主想找人聊《海伯利安》和《海伯利安的陨落》这两本书，并在标题里标明了高度剧透。原文是链接，未提供更多细节；没读完的人点进去大概率会被剧透关键情节。",
@@ -20423,9 +20424,9 @@
     "input_hash": "e680969c0c38"
   },
   "juejin-7691030977348108351": {
-    "summary_zh": "作者一个人配合 AI 做了款情侣食谱小程序，记录上线 30 天后的实际收益，此前他写过一篇“一个月赚了 8 块”的复盘。文章给的是后台真实数据和单人加 AI 的开发方式，适合想看小副业成本能压到多低的独立开发者。",
-    "summary_en": "A solo developer built a couples' recipe mini-program with AI as the co-pilot and shares the revenue from its first 30 days online, following up on an earlier post about making just 8 yuan in a month. It offers real backend numbers and a one-person-plus-AI workflow for indie developers curious how cheap a small side project can be.",
-    "input_hash": "99e8841c0aa1"
+    "summary_zh": "独立开发者用 AI 做情侣食谱小程序「情侣食光小灶」，上线30天累计广告收入30.5元。服务器用阿里云免费试用、成本为0，只花了30元微信小程序个人认证费，现已回本；曝光率经广告位调优从38%升到46%，流量全靠微信搜一搜和分享。适合想了解零预算小程序真实收益量级的人。",
+    "summary_en": "A solo developer built a couples' recipe mini program called 情侣食光小灶 on WeChat and earned 30.5 yuan in ad revenue in its first 30 days. Hosting ran on an Alibaba Cloud free trial at zero cost, so the only expense was a 30 yuan personal verification fee, already recovered. Tuning ad placement lifted the impression rate from 38% to 46%, with traffic coming from WeChat search and shares. Useful for anyone gauging realistic earnings from a zero-budget mini program.",
+    "input_hash": "2690ac267e66"
   },
   "juejin-7686040694948134921": {
     "summary_zh": "掘金作者狂师把 AI 时代的编程能力拆成两类要求：非技术人重在“会用”，理解基础概念、把需求讲清楚、能做简单验收；技术人则要“会判”，语法基础不能丢，但重心转向读懂 AI 生成的代码并判断其质量与风险。核心主张是写代码可以交给 AI，责任仍由人承担。",
@@ -23163,9 +23164,9 @@
     "input_hash": "539c14c93d91"
   },
   "gh-daily-Renhuai123-ziwei-doushu": {
-    "summary_zh": "Renhuai123/ziwei-doushu 是依据倪海厦《天纪》体系实现的紫微斗数开源排盘引擎，含排盘算法、四化系统与格局知识库，代码用 MIT、数据集用 CC BY 4.0 授权。它同时发布 v4.0 解读数据集，674,976 张命盘、13 维共 877 万段解读，解压后 56.6 GB，覆盖 1950 至 2026 年的真实日期。",
-    "summary_en": "Renhuai123/ziwei-doushu is an open-source Zi Wei Dou Shu charting engine built on Ni Haixia's Tian Ji system, bundling the charting algorithm, the Four Transformations logic, a pattern knowledge base and classical source texts, with MIT-licensed code and CC BY 4.0 data. Its v4.0 dataset spans 674,976 charts across 13 dimensions, roughly 8.77 million interpretation passages and 56.6 GB uncompressed, covering dates from 1950 to 2026.",
-    "input_hash": "2642bd3773f6"
+    "summary_zh": "这是一个基于倪海厦《天纪》体系的紫微斗数开源排盘引擎，代码 MIT 许可、数据集 CC BY 4.0，包含排盘算法、四化系统、格局知识库和古籍原文。仓库同时放出 v4.0 解读数据集：674,976 张命盘、877 万段解读、约 204 亿字，解压后 56.6 GB，覆盖 1950 至 2026 年。",
+    "summary_en": "An open-source ziwei doushu (Purple Star Astrology) charting engine built on Ni Haixia's Tian Ji teaching system, with MIT-licensed code and a CC BY 4.0 dataset covering the charting algorithm, the four-transformation system, a pattern knowledge base and classical source texts. Its v4.0 dataset ships 674,976 charts and 8.77 million interpretation segments — roughly 20.4 billion characters, 56.6 GB uncompressed — spanning 1950 to 2026.",
+    "input_hash": "a4bac4a98143"
   },
   "zhihu-2096713518582179306": {
     "summary_zh": "据标题，DeepSeek 计划进行规模约 1000 亿元的新一轮融资，其中腾讯和宁德时代出资最多。原文是链接帖，未提供更多细节，估值、条款和资金用途尚无从核实。",
@@ -23308,19 +23309,19 @@
     "input_hash": "0aee0b555ead"
   },
   "infoq-UmD4aAerZEts8sZ5t791": {
-    "summary_zh": "在 ICAAS 2026 首场圆桌上，诺贝尔化学奖得主迈克尔·莱维特、图灵奖得主杰克·唐加拉与数学家马骁、中关村学院何纪言探讨了 Transformer 路线收敛之后 AI 的下一步。莱维特主张像谨慎的银行家一样分散下注，唐加拉强调探索主流之外并接受失败，嘉宾还就 AI 寒冬是否会重演展开了争论。",
-    "summary_en": "At the opening roundtable of ICAAS 2026, Nobel chemistry laureate Michael Levitt, 2021 Turing winner Jack Dongarra, mathematician Ma Xiao and He Jiyan of Zhongguancun Academy debated where AI goes after the industry converged on Transformer-scale training. Levitt argued for hedging like a cautious banker rather than betting everything on one route; Dongarra pushed for exploring beyond the mainstream and treating failure as part of research. They clashed over whether overpromising could trigger another AI winter.",
-    "input_hash": "3aae810db27c"
+    "summary_zh": "这是一场在 QCon 上海举行的对话，刘铁岩与诺贝尔奖、图灵奖得主等嘉宾一起讨论 AI 的下一个十年，切入点很明确：在 Transformer 成为主流之后，下一个突破口在哪里。原文只提供标题，没有正文或议题详情，具体观点与判断无法在这里复述。",
+    "summary_en": "A QCon Shanghai conversation in which Liu Tieyan is joined by Nobel and Turing Award laureates to discuss the next decade of AI, framed around one question: after Transformer's dominance, what comes next? The linked page isn't summarized here; beyond the title and the speaker lineup, the specific arguments and predictions aren't available.",
+    "input_hash": "32b0708f93b3"
   },
   "infoq-mhdJwMMzYFedMFHKfHWs": {
-    "summary_zh": "智源众智 FlagOS 2.2 的九大算子库合计覆盖 1454 个算子，比上一版增加 890 个，并在 10 款异构 AI 芯片、上千个算子上把跨芯性能整体提升约 27%。实践中 GLM-5.3-Flash 在存量昇腾 910B 上逻辑服务吞吐达优化前的 2.04 倍，按租金折算的算力成本比商业 API 参考计费低 19.4%—27.6%。",
-    "summary_en": "FlagOS 2.2 now bundles nine operator libraries covering 1,454 operators, 890 more than the previous release, and reports roughly 27% overall cross-chip performance gains measured across 10 heterogeneous AI chips and over a thousand operators. In one deployment with GLM-5.3-Flash, existing Ascend 910B hardware served 2.04x its previous logical throughput, with rent-equivalent compute cost running 19.4%–27.6% below comparable commercial API pricing.",
-    "input_hash": "0dac53606918"
+    "summary_zh": "智源众智 FlagOS 2.2 的更新以“让前沿模型与多元算力协同演进”为主题，从标题看是该软件栈的一次版本迭代，指向模型与多种 AI 芯片之间的适配协同。原文是链接，未提供更多细节，具体特性和支持哪些硬件无法确认。",
+    "summary_en": "FlagOS 2.2 from 智源众智 is framed around letting frontier models and diverse compute hardware evolve together, suggesting a version update to a software stack that bridges models and multiple kinds of AI chips. The linked page isn't summarized here; the specific features and supported hardware can't be confirmed from the title alone.",
+    "input_hash": "bf6c3f9f7cc8"
   },
   "infoq-Q6mgHWCSqV6KeZzee3NT": {
-    "summary_zh": "PostgreSQL 19 从 10 月 29 日推迟到 11 月 19 日发布，中间加发一个 RC2；Beta 阶段有 8 到 10 项重要功能被撤回。核心提交者、EDB 副总裁 Peter Eisentraut 解释，问题多不是 vibe coding 造成，而是 LLM 辅助代码审查与模糊测试把原本要五年才暴露的长尾缺陷集中翻了出来，人类修 Bug 的速度跟不上。",
-    "summary_en": "PostgreSQL 19 slipped from October 29 to November 19, with an extra RC2 on November 12, after roughly 8 to 10 significant features were reverted during beta. Core committer and EDB vice president Peter Eisentraut says the cause is not vibe coding but maturing LLM-assisted code review and fuzzing, which surfaced long-tail defects that would otherwise have trickled in over five years. AI raised the effective quality bar faster than humans can fix bugs.",
-    "input_hash": "bbb9a5bda5ea"
+    "summary_zh": "这条标题给出的说法是 PostgreSQL 19 可能因此发不出来：AI 辅助找 Bug 的速度太快，人类修 Bug 的速度跟不上。原文是链接，未提供更多细节，涉及哪些具体问题、影响哪些版本节奏都无法确认。",
+    "summary_en": "The headline claims PostgreSQL 19 may be held up because AI-assisted bug hunting now outpaces humans' ability to fix what it turns up. The linked page isn't summarized here; details beyond the title, such as the specific issues involved or how release timing changes, aren't available.",
+    "input_hash": "795000add121"
   },
   "v2ex-5f74d6a4285c": {
     "summary_zh": "Chrome 与 Firefox 近期都加入了对 JXL 图片的支持，网页终于能直接显示采用 PQ transfer 的 HDR 图片。帖中样图由开源工具 LocalViewer 转换导出，该工具能把 JXR 和相机 RAW 转成 JXL、JPEG、AVIF 等多种 HDR 输出，并附了各格式的位深与 base+gain map 对照。",
@@ -24696,5 +24697,210 @@
     "summary_zh": "这是一份 2026 年 9 月 GitHub 十大热门开源项目榜单，简介把它们的共同指向概括为：Agent 正从「会写很多代码」转向更克制、更可治理、更能操作真实世界与组织协作。原文只给出了标题和这一句简介，具体是哪些项目并未列出。",
     "summary_en": "A ranking of the ten hottest GitHub open-source projects for September 2026, whose shared direction the blurb describes as agents moving from writing lots of code toward more restrained, governable systems that act on the real world and organizational workflows. Only the title and that one-line description are available here; the individual projects aren't listed.",
     "input_hash": "b461cf44d132"
+  },
+  "v2ex-ce3ae61e42b0": {
+    "summary_zh": "V2EX 热议：[分享创造] Make V2EX Clean Again，纯粹简单的内容屏蔽插件",
+    "summary_en": "Hot on V2EX: [分享创造] Make V2EX Clean Again，纯粹简单的内容屏蔽插件",
+    "input_hash": "2a549f39f363"
+  },
+  "infoq-ZolBIJdvK5Icdqg6FB0X": {
+    "summary_zh": "InfoQ 精选：超节点火了一年后，“算力不够就加机器”的扩张逻辑正在被改写",
+    "summary_en": "Featured on InfoQ: 超节点火了一年后，“算力不够就加机器”的扩张逻辑正在被改写",
+    "input_hash": "dacea367c408"
+  },
+  "v2ex-99c687a0f7db": {
+    "summary_zh": "V2EX 热议：[职场话题] 中年失业程序员的碎碎念（二）- 亦是终篇",
+    "summary_en": "Hot on V2EX: [职场话题] 中年失业程序员的碎碎念（二）- 亦是终篇",
+    "input_hash": "4ad9c21e02f2"
+  },
+  "juejin-7699679577757335587": {
+    "summary_zh": "掘金精选：AI 都这么强了，咱们程序员以后还能干点啥？",
+    "summary_en": "Featured on Juejin: AI 都这么强了，咱们程序员以后还能干点啥？",
+    "input_hash": "72bcdbe05644"
+  },
+  "zhihu-2099856268898690006": {
+    "summary_zh": "这是知乎上的一个讨论提问：我国首次载人登月任务计划由三人乘组执行，其中两人着陆月面，问题在征集值得关注的细节和任务重点。该条目只提供问题标题，没有正文或官方参数，因此具体任务方案、时间表等信息无法从这条内容中确认。",
+    "summary_en": "A Zhihu discussion question about China's first crewed lunar landing mission, planned around a three-person crew with two members descending to the surface. It asks which details are worth watching and where the mission's focus lies. Only the question title is available; the linked page isn't summarized here, so no official timeline or technical specifics can be confirmed.",
+    "input_hash": "3092ae26f4ed"
+  },
+  "36kr-4049055297436164": {
+    "summary_zh": "36氪报道，Apple 智能（Apple Intelligence）的国行版本已经正式官宣，但功能完整的 Siri AI 仍需等待。这条只有标题和链接，上线时间、支持机型与具体功能清单等细节在原文中未提供，无法进一步确认。",
+    "summary_en": "36Kr reports that Apple Intelligence has been officially announced for the China mainland market, while a fully featured Siri AI is still pending. The linked article isn't summarized here; release timing, supported devices and the exact feature list aren't available beyond the headline.",
+    "input_hash": "f37abaf19d2f"
+  },
+  "v2ex-32e2ee7bfdfb": {
+    "summary_zh": "V2EX 网友分享用中国移动 APP 自助找宽带套餐的方法：资费专区把全国资费（约 20 项）和省级资费（约 60 项）混在一起，需要按价格区间筛选缩小范围，再逐个核对方案编号与条款。他在湖北筛到 38 元/月 300M 的家庭融合保底套餐（编号 25HB200299），代价是 24 个月合约期、违约需缴 280 元。",
+    "summary_en": "A V2EX user walks through shopping for China Mobile broadband inside its own app: the tariff section mixes roughly 20 national plans with about 60 provincial ones, so you filter by price range and open each entry to check its plan code and terms. In Hubei he found a 38 yuan/month 300M family bundle, plan 25HB200299, which carries a 24-month contract and a 280 yuan early-exit fee.",
+    "input_hash": "4332995eb71a"
+  },
+  "36kr-4022650519949184": {
+    "summary_zh": "36氪这篇文章提出一种产出方法：把工作当作一场场事先规划好的短跑冲刺，而不是匀速跑完的马拉松。这条只有标题和链接，文中引用的具体人物、案例和执行步骤无法从标题确认。",
+    "summary_en": "A 36Kr piece argues that high output comes from treating work as a series of deliberately planned sprints rather than one long marathon. The linked article isn't summarized here; the specific people, cases and step-by-step method it cites aren't available beyond the title.",
+    "input_hash": "eac6c3ae2439"
+  },
+  "v2ex-5d2fc4c1b497": {
+    "summary_zh": "V2EX 用户发帖质疑新出的 Claude Ultra 实际可用容量是否被砍半，并附上截图、链接到 Claude 官方在 X 上的原帖。帖中给出的关键信息只有“10X Pro”和取消 5 小时限制两条，截图内容无法从文字中还原，具体额度对比没有得到确认。",
+    "summary_en": "A V2EX thread questions whether the newly released Claude Ultra actually offers half the usable capacity it appears to, attaching a screenshot and linking to Claude's own post on X. The only stated details are 10X Pro and the removal of the 5-hour limit; the screenshot isn't readable here, so the quota comparison stays unconfirmed.",
+    "input_hash": "c0b6d31d7f9f"
+  },
+  "infoq-5EaQcXCgMWaZaRvFBeoh": {
+    "summary_zh": "InfoQ 教程用四条提示词，在 Hex Agent 中连接 Snowflake 上的 Amazon Best Sellers 评论数据集（2,700 款产品、25.6 万条评论），对 3.7 星的 GE Profile Opal 2.0 制冰机的 98 条评论做情感分析与投诉主题分类，20 分钟内做出并发布应用。案例说明平均星级会掩盖黑霉、退货与安全隐患等两极分化反馈，适合想把用户评论变成产品决策依据的团队。",
+    "summary_en": "An InfoQ tutorial shows how four prompts in Hex Agent, connected to an Amazon Best Sellers review dataset on Snowflake covering 2,700 products and 256,000 reviews, turn 98 reviews of the 3.7-star GE Profile Opal 2.0 ice maker into sentiment scores and complaint categories, going from blank page to published app in under 20 minutes. The case shows how an average rating hides polarized feedback such as mold, returns and safety complaints, useful for teams that want to turn customer reviews into product decisions.",
+    "input_hash": "a77162cf1590"
+  },
+  "infoq-C9FJGQ0ptRp8F8kHRRdZ": {
+    "summary_zh": "Cisco 总裁兼首席产品官 Jeetu Patel 把重写公司 98% 遗留代码的任务交给了 27 岁的 Padmanabhan Krishnamurthy，这位被 Cisco 收购的 AI 初创公司前 CEO 只带两个人，却拿到了近乎无限的 AI Token 预算，目标是在 24 个月内完成，先用四周做初步验证。据《财富》10 月 30 日报道，Cisco 尚未披露已完成的比例、系统范围与技术方案；真正的看点是 AI Coding 会如何改变大企业的软件工程组织方式。",
+    "summary_en": "Cisco president and chief product officer Jeetu Patel handed a 27-year-old, Padmanabhan Krishnamurthy — a former AI startup CEO whose company Cisco acquired — the job of rewriting 98% of Cisco's legacy code with just two people, an unlimited AI token budget and a 24-month target that starts with a four-week validation. Fortune reported the story on October 30; Cisco has not disclosed progress, scope or tooling. The real question is how AI coding reshapes engineering orgs at large enterprises.",
+    "input_hash": "5f638abed57f"
+  },
+  "infoq-O6mtiB7FVd0VSDHJe348": {
+    "summary_zh": "Google 发布 EmbeddingGemma 2，这是基于 Gemma 4、以 Apache 2.0 许可发布的开放权重多模态嵌入模型，把文本、代码、图像、视频和音频放进同一个 768 维向量空间，可按需只加载部分编码器，参数量从 2.7 亿到 7.4 亿，并针对设备端部署做过优化。它支持 MRL 截断：100 万个 768 维向量约需 1.5GB 内存，截到 128 维只需 250MB，代价是图像、视频和语音检索质量降到约 75%。适合做端侧搜索、RAG 与跨媒体检索的开发者。",
+    "summary_en": "Google released EmbeddingGemma 2, an Apache 2.0 open-weight multimodal embedding model built on Gemma 4 that maps text, code, images, video and audio into a single 768-dimensional space, letting developers load only the encoders they need, with parameter counts from 270M to 740M and tuning for on-device deployment. Matryoshka truncation cuts a million 768-dim vectors from about 1.5GB to 250MB at 128 dimensions, though image, video and audio retrieval quality falls to roughly 75%. Aimed at local search, RAG and cross-media retrieval.",
+    "input_hash": "bcaf37a7b399"
+  },
+  "v2ex-dedce16d65c5": {
+    "summary_zh": "V2EX 推广帖介绍代理服务「我享云」的十一月优惠：周期性订阅 6.8 折（优惠码 eZSdiffE）、买断制套餐 7 折（优惠码 disNPffz），有效期 2026 年 11 月 1 日至 15 日，注册可免费试用 5 到 10 天。帖子称因阻断较严已下线直连节点、只保留专线节点，各档套餐节点资源一致、仅倍率不同。",
+    "summary_en": "A V2EX promotion post for the proxy service 我享云 lists November discount codes: 6.8折 off recurring subscriptions with code eZSdiffE and 7折 off one-time plans with code disNPffz, valid November 1–15, 2026, plus a free 5–10 day trial on signup. The post says direct-connect nodes were taken offline because of stricter blocking, leaving dedicated-line nodes, and that all plan tiers share the same node pool with different multipliers.",
+    "input_hash": "6b9ad60754c9"
+  },
+  "infoq-f3FdeDczctAdHMhvBdKw": {
+    "summary_zh": "极客邦科技创始人兼 CEO 霍太稳在 1024 模力工场·AI 社区日上介绍「模力工场」：用 AI 估算项目所需的时间和预算，按技术团队过往的交付表现推荐合作方，合作后再跟进交付、评估结果，想补上企业找不到靠谱团队、团队又担心收不到钱之间的信任缺口。他同时宣布极客邦科技南方总部与 TGO 鲲鹏会全球总部落户杭州，并提到企业需求正从几天培训转向让服务方带团队做出可用的智能体与 Skill。",
+    "summary_en": "At the 1024 模力工场 AI community day, 极客邦科技 founder and CEO 霍太稳 introduced 模力工场, a platform that uses AI to estimate a project's time and budget, recommend delivery teams based on their past performance, and then track delivery and evaluate results — targeting the trust gap between companies that can't find reliable teams and teams that fear not getting paid. He also announced that 极客邦's southern headquarters and TGO's global headquarters are settling in Hangzhou, and noted enterprises now want vendors to build working agents and Skills with their teams rather than sit through multi-day training.",
+    "input_hash": "4600c592361c"
+  },
+  "v2ex-c40758d15fba": {
+    "summary_zh": "开发者把 AI Coding Agent 的记忆底座迁到自建 OpenViking，在阿里云 99 元/年的 2 核 2G 云主机上跑通了：用 Swap 兜底、限制容器内存、推理全交给外部 API。他不选更便宜的友商 4G 促销机，是看中续费不涨价，记忆库不必跨云搬家；向量模型也坚持一步到位，因为换模型要全库重建索引，所以放弃了免费的 BGE-M3。",
+    "summary_en": "A developer moved the memory layer of his AI coding agent onto self-hosted OpenViking and reports it runs fine on a 99-yuan-per-year Alibaba Cloud instance with 2 vCPUs and 2GB RAM, using swap, container memory caps and external APIs for all inference. He skipped cheaper 4GB promo boxes because renewal prices stay flat and his memory store avoids cross-cloud migrations, and argues the embedding model must be picked once, since switching forces a full re-index.",
+    "input_hash": "4eff6c86fdcc"
+  },
+  "infoq-pwQAXtApbhdQRN2vQfdS": {
+    "summary_zh": "亚马逊宣布收购 DuckDB 背后的阿姆斯特丹公司 DuckLabs，联合创始人 Hannes Mühleisen 和 Mark Raasveldt 将加入亚马逊云科技并继续主导该项目的技术方向。各方承诺 DuckDB 以及 DuckLake、Quack 等 Duck Stack 组件继续保持 MIT 许可，由非营利的 DuckDB Foundation 监督。社区总体欢迎，但担心收购会拖慢原本的创新节奏。",
+    "summary_en": "Amazon has acquired DuckLabs, the Amsterdam company behind the DuckDB analytical database; founders Hannes Mühleisen and Mark Raasveldt will join AWS and keep leading the project's technical direction. DuckDB and Duck Stack components such as DuckLake and Quack stay MIT-licensed, overseen by the nonprofit DuckDB Foundation. Community reaction is largely positive, with users hoping the deal won't slow the team's pace of innovation.",
+    "input_hash": "895f39535dc7"
+  },
+  "v2ex-4559d8cbb5a0": {
+    "summary_zh": "AIRAP Video 是一个用人物照片生成 AI 说唱和音乐表演短片的网站，提供单人、双人主题（橙色摄影棚、绿色录音棚、现场演奏等），可上传照片，并可选填主题情绪来指导生成的音频，生成前会先给出积分报价。目前是早期版本，浏览示例免费、生成消耗积分，自助购买积分尚未开放，作者正在征集使用场景与新主题的建议。",
+    "summary_en": "AIRAP Video is a site that turns a person's photos into short AI rap and music-performance clips, with single- and duo-person themes such as an orange studio, a green recording booth and a live stage. Users upload photos, can optionally describe a mood or greeting to steer the generated audio, and see the credit cost before rendering. It's an early release: browsing examples is free, generation costs credits, self-serve credit purchases aren't open yet, and the maker is asking for feedback.",
+    "input_hash": "caf2f8b81b75"
+  },
+  "v2ex-750776445eea": {
+    "summary_zh": "V2EX 上有用户发帖，请那些至今没触发 Claude 的 KYC 验证、也没被封号的用户分享做法，具体问到放行了哪些域名和 IP、用的是什么 IP、采取了哪些措施。帖子里没有给出答案，只是征集经验，因此没有可以直接照搬的配置。",
+    "summary_en": "A V2EX thread asks Claude users who have so far avoided both KYC verification and account bans to share what they do, specifically which domains and IPs they allow, what kind of IP they use and what precautions they take. The post collects experience rather than offering answers, so there is no concrete configuration to copy from it.",
+    "input_hash": "70749d3a2795"
+  },
+  "36kr-4049021975886084": {
+    "summary_zh": "据 36kr 消息，Claude 的 Max 20x 套餐升级并改名为 Ultra，原有的 5 小时使用限额被取消，这对经常撞到限额的重度用户是直接影响用量节奏的变化。原文只提供标题，未给出价格、额度或其他套餐是否同步调整等细节。",
+    "summary_en": "According to 36kr, Claude's Max 20x plan has been upgraded and renamed Ultra, with the five-hour usage limit removed, a change that directly affects heavy users who regularly hit the cap. The linked page isn't summarized here; details beyond the title, such as pricing, quotas or whether other tiers changed, aren't available.",
+    "input_hash": "878b822939fa"
+  },
+  "v2ex-5db28b37dd0d": {
+    "summary_zh": "博主在 16MiB 数据上实测 LZMA2、ZPAQ、PAQ8PX、NNCP、cmix 等压缩器：PAQ8PX 压到约 3.1MiB，但要一个半小时和 30GiB 内存；Fabrice Bellard 的 Transformer 压缩器 NNCP 在 RTX 4090 上只得到 4.1MiB，输给 7-Zip 的 LZMA2；cmix 中途崩溃。后半篇还附上 zstd、ZIP 两种 Quine 自包含压缩包的生成代码，适合关心压缩格式底层实现的人。",
+    "summary_en": "A developer benchmarked several compressors on a 16MiB corpus: PAQ8PX reached about 3.1MiB but needed 1.5 hours and roughly 30GiB of RAM, while NNCP — Fabrice Bellard's Transformer-based compressor — landed at 4.1MiB on an RTX 4090, worse than 7-Zip's LZMA2; cmix crashed midway. The second half builds self-contained quine archives in zstd and ZIP, generator code included, for anyone curious about format internals.",
+    "input_hash": "e0b6d76fd7a0"
+  },
+  "36kr-4048457242835463": {
+    "summary_zh": "36氪这篇报道以「大肥鱼」作比讨论 DeepSeek，但标题本身没有点明具体事件、数据或时间点。原文只提供了标题和链接，未附正文摘要，想知道它究竟讲了什么，需要点进原文阅读。",
+    "summary_en": "A 36Kr article discusses DeepSeek under the metaphor of a fat fish (大肥鱼), but the title alone names no specific event, figures or timeframe. The linked page isn't summarized here; details beyond the title aren't available, so the argument can only be judged from the original piece.",
+    "input_hash": "b54c5e9482c0"
+  },
+  "gh-daily-Orkas-AI-Orkas": {
+    "summary_zh": "Orkas 是 MIT 许可的本地优先多 agent 桌面应用：向 Commander 给出目标后，它会拆成 to-do，并调度 16 个内置专家 agent 和 Claude Code、Codex、OpenCode、OpenClaw、Hermes-Agent 一起完成工作。项目维度保存目标、规则、记忆与文件，支持自动推进下一条 to-do 和定时任务，数据全部留在本机，已有 macOS 与 Windows 版本。",
+    "summary_en": "Orkas is an MIT-licensed, local-first desktop app that runs a team of AI agents: a Commander turns your goal into to-dos and coordinates 16 built-in specialist agents alongside Claude Code, Codex, OpenCode, OpenClaw and Hermes-Agent. Projects store goals, rules, memory and files across conversations, with auto-advance and scheduled automations, and all data stays on your machine. Builds are available for macOS and Windows.",
+    "input_hash": "a73aa4035b84"
+  },
+  "36kr-4049089058126344": {
+    "summary_zh": "36氪「9点1氪」栏目汇总了当日几条要闻：币安遭黑客攻击，导致其 30 亿美元资产被冻结；「张雪机车」商标回归张雪；美股收盘纳指重挫 700 点，英伟达市值蒸发 1.4 万亿元。原文只提供标题与链接，未附正文。",
+    "summary_en": "A 36Kr 9点1氪 roundup lists several items of the day: Binance was hacked and had $3 billion of its assets frozen, the 「张雪机车」 trademark returned to Zhang Xue, and the Nasdaq closed down 700 points while Nvidia lost 1.4 trillion yuan in market value. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "e4625e8d6030"
+  },
+  "36kr-4049158760479234": {
+    "summary_zh": "36氪这篇文章讨论的是一个规模上亿的群体——独居年轻人——为何至今没能催生出一门与之匹配的大生意。标题点出的核心反差是人群基数与商业规模之间的落差，但原文只有链接、未提供正文，具体论证与案例无法在此展开。",
+    "summary_en": "This 36kr piece asks why China's solo-living young people, a group counted in the hundreds of millions, have not yet generated a matching large-scale business. The tension it raises is between the size of the population and the size of the market built for it. The linked article isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "825dda6e87fe"
+  },
+  "gh-daily-lightpanda-io-browser": {
+    "summary_zh": "Lightpanda 是一个从零写起的 headless browser，用 Zig 实现，既非 Chromium 分支也不是 WebKit 补丁，README 称其比 Chromium 轻 16 倍、快 9 倍。它面向 AI agent 与自动化场景，适合需要大规模抓取或执行网页任务的团队评估替代方案。",
+    "summary_en": "Lightpanda is a headless browser written from scratch in Zig rather than forked from Chromium or patched from WebKit, and its README claims it is 16x lighter and 9x faster than Chromium. It targets AI agents and automation workloads, so teams running large-scale scraping or browser tasks may want to benchmark it against their current stack.",
+    "input_hash": "1ef50c248c1a"
+  },
+  "zhihu-2098805525668537881": {
+    "summary_zh": "这是知乎上的一个讨论帖，围绕台湾地区外事发言人对特朗普相关言论的回应展开，该发言人将其形容为「挫折和羡慕我们」。原文只提供问题链接、没有正文内容，具体言论背景与讨论细节无法在此展开。",
+    "summary_en": "This is a Zhihu discussion thread about a response from Taiwan's foreign affairs spokesperson to remarks by Donald Trump, which the spokesperson characterized as frustration and envy toward Taiwan. The linked page isn't summarized here; the context of the remarks and the discussion itself aren't available beyond the title.",
+    "input_hash": "5ff4d8e4a8d4"
+  },
+  "36kr-4049487143097481": {
+    "summary_zh": "36氪这篇文章讨论白酒行业是否已经走到拐点，标题以问句形式抛出判断。原文未提供正文，因此涉及的具体数据、企业与周期分析无法在此展开，关注消费板块的读者可自行查阅原文。",
+    "summary_en": "This 36kr article asks whether the baijiu sector has finally reached an inflection point, framing the question rather than asserting an answer. No body text accompanies the entry, so the specific figures, companies and cycle analysis behind the claim can't be covered here. The linked article isn't summarized; details beyond the title aren't available.",
+    "input_hash": "28fee3dbc083"
+  },
+  "36kr-4049210811103496": {
+    "summary_zh": "36氪这篇文章关注芯片行业的大买主们是否正面临资金吃紧的问题，标题以问句点出采购方预算可能收缩的可能。原文未提供正文，涉及的具体厂商、订单变化与数据无法在此展开。",
+    "summary_en": "This 36kr piece examines whether the biggest buyers of chips are running short of money, raising the prospect that purchasing budgets on the demand side may be tightening. No body text is included with the entry, so the companies, order trends and figures involved can't be covered here. The linked article isn't summarized; details beyond the title aren't available.",
+    "input_hash": "4b6b31ec47e1"
+  },
+  "zhihu-2098823323752690341": {
+    "summary_zh": "这是知乎上的一个提问，围绕「三年内扩散模型将全面替代大语言模型」这一判断是否成立，以及如果成立，AI Infra 在算力调度、显存占用和推理服务上要如何调整。原文是提问链接，未提供更多细节，适合正在判断模型路线与基础设施选型的开发者自行补充背景。",
+    "summary_en": "A Zhihu question asking whether diffusion models will fully replace large language models within three years, and what such a shift would mean for AI infrastructure — compute scheduling, memory pressure, inference serving. The linked page isn't summarized here; details beyond the title aren't available. Aimed at developers weighing model-roadmap and infrastructure bets.",
+    "input_hash": "4d38eed37275"
+  },
+  "36kr-4049467472493065": {
+    "summary_zh": "36氪报道，奥特曼公开表示在 PC 上装内存是一种浪费，主张把内存资源优先留给 AI 数据中心。原文未提供更多正文，但这一表态指向消费级硬件与数据中心对内存资源的争夺，对关注端侧 AI 与云端算力成本的人有参考价值。",
+    "summary_en": "A 36kr report says 奥特曼 argued that putting memory in PCs is wasteful and that the capacity is better spent on AI data centers. The linked page isn't summarized here; details beyond the title aren't available. The remark matters to anyone tracking how memory supply is being split between consumer devices and datacenter buildouts.",
+    "input_hash": "6e048c198122"
+  },
+  "36kr-4049428208974339": {
+    "summary_zh": "36氪这篇稿子从被称作「红果时间」的说法切入，讨论它为何引起大范围讨论，并借此描述普通人被切碎、被占满的时间状态，即所谓「时间贫困」。原文是链接，未提供更多正文细节，适合关注内容消费与注意力话题的读者。",
+    "summary_en": "A 36kr piece uses the phrase “红果时间” — which the title says startled the whole internet — to examine “time poverty” among ordinary people, the way daily hours get fragmented and claimed by content. The linked page isn't summarized here; details beyond the title aren't available. Relevant to readers tracking attention and content consumption.",
+    "input_hash": "8fdc012b47a6"
+  },
+  "zhihu-1932369918818484287": {
+    "summary_zh": "这是知乎上的一个提问，请回答者列举国内游戏行业的「奇耻大辱」，既包括具体事件，也包括这些事件当下的状况。原文是提问链接，未提供更多细节，具体指向哪些事件、如何评价，只能自行查看答案内容。",
+    "summary_en": "A Zhihu question inviting answers to list what respondents consider the most shameful episodes in China's game industry, covering both the events themselves and where things stand now. The linked page isn't summarized here; details beyond the title aren't available, including which incidents are being referenced.",
+    "input_hash": "049116e47a51"
+  },
+  "zhihu-2098749313132269749": {
+    "summary_zh": "知乎提问：西方发达国家常见的木结构住宅外观好看、造价低、寿命长，抗震表现也更好，为什么不在我国地震带地区推广。原文是提问链接，未提供更多细节，适合关心建筑抗震与住宅建造方式的人查看回答中的实际约束。",
+    "summary_en": "A Zhihu question asking why the wooden houses common in Western developed countries — attractive, cheap to build, long-lasting and notably good in earthquakes — are not promoted in China's seismic zones. The linked page isn't summarized here; details beyond the title aren't available. Relevant to readers interested in seismic-resistant housing and construction practice.",
+    "input_hash": "43e165d141b3"
+  },
+  "hn-50300683": {
+    "summary_zh": "有报告指出，通过 Cursor Marketplace 分发的 Claude Code VS Code 扩展中被植入了后门。该条目只给出一条指向 Cursor 官方安全公告的链接，公告本身未被摘要，因此受影响的版本、波及范围和修复方式目前都不明确。凡是曾从该市场安装过这个扩展的开发者，都应直接去读原公告核实。",
+    "summary_en": "A report flags a backdoor in the Claude Code extension for VS Code distributed through the Cursor Marketplace. The item only links to a Cursor security notice, and the linked page isn't summarized here, so affected versions, scope, and remediation aren't available. Developers who installed the extension from that marketplace should read the original advisory to check their exposure.",
+    "input_hash": "6ceb2e626c33"
+  },
+  "juejin-7696542671834742822": {
+    "summary_zh": "作者在戒断 Claude 后，把复刻某 G4 发布页动态效果的任务交给智谱 GLM5.3：跑了58分钟，核心元素做成一坨；换 GLM5.3-Flash 用了1小时42分钟，效果接近但只是自写了个平庸版本。同一任务 GPT-6.1 Sol 5分钟完成，Gemini 4 Argon 9分钟、Opus 5.5 也都一次做成并各自加了暂停重播、配色切换、可调参数。可作为模型前端复刻能力的直观对比。",
+    "summary_en": "After losing access to Claude, the author asked Zhipu's GLM5.3 to clone the animated particle landing page of a G4 release: it ran 58 minutes and botched the central element, while GLM5.3-Flash took 1 hour 42 minutes for a passable but generic imitation. The same task took GPT-6.1 Sol five minutes and Gemini 4 Argon nine, and Opus 5.5 also delivered, each adding extras like pause and replay, color modes, or draggable parameters. A concrete side-by-side of front-end cloning ability.",
+    "input_hash": "19085f8bdf51"
+  },
+  "v2ex-1acdc4caac89": {
+    "summary_zh": "V2EX 用户发帖求助：他的 M3 Max MacBook Pro 进水后 3 个按键失灵，苹果技术团队确认主板故障，官方方案是整块换板、报价一万多元且只保三个月，因此想找国内能做板级维修、处理过进水机器的店铺或师傅，崩溃日志已整理到 GitHub。适合有类似维修需求、或想了解第三方 Mac 维修渠道的人参考。",
+    "summary_en": "A V2EX user is asking for repair-shop recommendations in China after Apple diagnosed a motherboard fault on an M3 Max MacBook Pro that had previously suffered water damage, leaving three keys dead. Apple's only offer is a full board replacement at over 10,000 RMB with just a three-month warranty, so the poster wants a shop that does board-level repair; the crash logs are on GitHub.",
+    "input_hash": "2730bebb8edc"
+  },
+  "infoq-sCKczimP9lSEl0rgJ7VY": {
+    "summary_zh": "贝联珠贯创始人兼 CEO、前阿里巴巴集团研究员毕玄在 1024 模力工场 AI 社区日上，以企业 IT 运维助手 SREAgent 为例谈垂类 Agent 的竞争力。他认为跑长任务、熟练调用通用工具这类优势会随大模型进步被抹平，壁垒在于接入各家不同的监控日志数据、建立能随业务自我演进的领域模型；SREAgent 3.0 已支持用自然语言生成 Skill，降低数据接入门槛。",
+    "summary_en": "At the 1024 ModelWorks AI Community Day, Bi Xuan, founder and CEO of Beilian Zhuguan, used his team's SREAgent — an AI assistant that reads monitoring data and logs to help enterprises troubleshoot IT systems — to argue that vertical agents cannot win on long-running tasks or fluent tool use, since models are absorbing those abilities. The durable moat, he says, is wiring up each customer's messy monitoring and log sources and building domain models that keep evolving with the business. SREAgent 3.0 lets customers generate Skills from natural-language requests.",
+    "input_hash": "ba4039a081b8"
+  },
+  "zhihu-2096595801644299451": {
+    "summary_zh": "这是知乎上的一个提问，讨论豆包这类 AI 助手正成为医患之间的「第三人」，以及大量 AI 问诊对门诊医生造成的影响和困扰。原文是链接，未提供更多细节。",
+    "summary_en": "A Zhihu question asking how Doubao-style AI assistants are turning into a \"third person\" in the doctor-patient relationship, and what the flood of AI-mediated consultations is doing to outpatient doctors. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "1a2b73fe61d4"
+  },
+  "zhihu-2099418216976102291": {
+    "summary_zh": "人民锐评发表评论文章，反驳「中国 AI 跑偏论」，知乎由此发起讨论，比较中美在 AI 落地路径上的差异。原文只有提问与链接，没有正文，因此文章的具体论点、涉及的企业和数据都无从核实。",
+    "summary_en": "Renmin Ruiping published a commentary rejecting the argument that China's AI development has gone off track, and this Zhihu thread uses it as a starting point to compare how China and the US put AI into practice. The linked page isn't summarized here; details beyond the title, including the article's specific claims and the companies or figures it cites, aren't available.",
+    "input_hash": "55534ccf44dc"
+  },
+  "zhihu-2016241093059040200": {
+    "summary_zh": "这条知乎提问讨论小米为何频繁把高管和工程师推到台前对外发声，这类做法更接近让技术人直接面对公众，而不只是依靠市场部门。原文只有问题与链接，没有正文，具体涉及哪些人、哪些场合都无法确认。",
+    "summary_en": "This Zhihu question asks why Xiaomi keeps putting its executives and engineers in front of the public instead of leaving communication to marketing. The linked page isn't summarized here; details beyond the title, such as which people appear and in what settings, aren't available.",
+    "input_hash": "dfdad0979a5e"
+  },
+  "zhihu-2099641705439965706": {
+    "summary_zh": "杨奇称《黑神话》会坚持按三部曲推进，团队规模上限卡在 180 人，知乎提问由此讨论这套开发策略。原文只有问题与链接，没有访谈正文，三部曲的具体规划以及 180 人上限如何执行均无法核实。",
+    "summary_en": "Yang Qi said Black Myth will be developed as a trilogy and that the team will be capped at 180 people, and this Zhihu thread discusses that development strategy. The linked page isn't summarized here, so details beyond the title, such as the original interview and how the headcount cap is enforced, aren't available.",
+    "input_hash": "80c45fe96076"
   }
 }
