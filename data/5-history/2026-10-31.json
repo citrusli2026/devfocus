@@ -214,7 +214,9 @@
       "tags": [],
       "first_seen": "2026-10-31",
       "domain": "science.org",
-      "quality_score": 43.4
+      "quality_score": 43.4,
+      "summary_zh": "Hacker News 上的一条链接帖，标题称塞尔维亚选出了“世界上最聪明的议会”。原文只有链接，未提供更多细节，议会的具体构成、衡量智力的标准以及数据来源都无法在这里确认。",
+      "summary_en": "A Hacker News link post whose title claims Serbia has just elected the world's brainiest parliament. The linked page isn't summarized here; details beyond the title aren't available, so the metric behind the claim, the data source and the composition of the assembly can't be verified from this item."
     },
     {
       "id": "hn-50282838",
@@ -406,7 +408,9 @@
       "tags": [],
       "first_seen": "2026-10-31",
       "domain": "karpathy.bearblog.dev",
-      "quality_score": 36.5
+      "quality_score": 36.5,
+      "summary_zh": "HackerTube 是一个以 Hacker News 上被推荐过的视频为素材、搭出类 YouTube 浏览体验的项目。原文是链接，未提供更多细节。",
+      "summary_en": "HackerTube is a project that builds a YouTube-style browsing experience out of videos that have been recommended on Hacker News. The linked page isn't summarized here; details beyond the title aren't available."
     },
     {
       "id": "hn-50296486",
@@ -4683,7 +4687,9 @@
       "tags": [],
       "first_seen": "2026-10-31",
       "domain": "infoq.cn",
-      "quality_score": 34.2
+      "quality_score": 34.2,
+      "summary_zh": "Efiwe 是一个面向低端手机和断续网络的编程教学平台，用 PWA 加 WebAssembly 让 Python、SQL、JavaScript 和 HTML 直接在手机浏览器里运行，首次加载后即可离线使用、不再消耗流量。作者因培训机构 80 名学生只有 6 人毕业而做这件事，选择 PWA 而非原生 App 的三个理由是安装流量门槛、Service Worker 带来的更新时效，以及一套运行时通吃多语言。目前有 160 个国家的 22,000 多名学习者使用，并在尼日利亚拉各斯州、奥贡州和印度北阿坎德邦的学校试点；文章重点讲存储配额、冷启动和失败路径这些真正出问题的地方。",
+      "summary_en": "Efiwe is a coding-education platform built for low-end phones and flaky networks: a PWA plus WebAssembly lets students run Python, SQL, JavaScript and HTML in the mobile browser, and after the first load it works offline without further data use. The author built it after only 6 of 80 students at his training school graduated, and chose PWA over a native app because of install data cost, Service Worker update speed and one runtime covering several languages. It now serves 22,000+ learners in 160 countries, with school pilots in Lagos and Ogun states and Uttarakhand, and the write-up focuses on storage quotas, cold starts and failure paths."
     },
     {
       "id": "infoq-4qjamMQLVIoZvytUQwpI",
@@ -4731,7 +4737,9 @@
       "tags": [],
       "first_seen": "2026-10-31",
       "domain": "infoq.cn",
-      "quality_score": 36.3
+      "quality_score": 36.3,
+      "summary_zh": "腾讯云与英特尔合作搭建 Agentic AI 执行底座：Agent 按“规划—推理—行动—反馈”循环运行，一次请求会展开成大量工具调用，CPU 不再只是 GPU 的配套。文中点出突发算力下如何保留任务现场、内存先于核心数成为密度瓶颈这两大问题，对应方案是腾讯云 Cube Sandbox 的计算与状态弹性。",
+      "summary_en": "Tencent Cloud and Intel outline a joint infrastructure stack for agentic AI, where a request runs through a plan-reason-act-feedback loop and fans out into many tool and code calls, so the CPU is no longer merely a companion to the GPU. Two problems are framed: keeping task state alive across bursty workloads, and memory capacity, not core count, capping how many agents a node can host. Tencent Cloud's Cube Sandbox answers with compute and state elasticity, including pause, resume and snapshots."
     },
     {
       "id": "infoq-9OhgYkwYlPYgTbAvWlGz",
@@ -4763,7 +4771,9 @@
       "tags": [],
       "first_seen": "2026-10-31",
       "domain": "infoq.cn",
-      "quality_score": 35.5
+      "quality_score": 35.5,
+      "summary_zh": "GitHub 于 10 月 1 日发布 Actions Runner Controller 0.15.0，这个 Kubernetes operator 用于按工作流需求动态创建和删除自托管 Actions 运行器。新版本把控制器更新改为 patch 请求、将运行器状态聚合并入 EphemeralRunnerSet 与 AutoscalingRunnerSet 指标，并支持事件过滤、监听器 API 速率限制和 max-concurrent-reconciles 并发配置。对于把 ARC 当作共享 CI 基础设施、管理大量 runner scale set 的平台团队，这些改动减少了 API 流量与无效调和，补丁升级可原地完成，terminationGracePeriodSeconds 也变得可配置。",
+      "summary_en": "GitHub shipped Actions Runner Controller 0.15.0 on October 1. The Kubernetes operator, which creates and deletes self-hosted Actions runners on demand, now issues patch requests instead of full updates, folds runner state aggregation into EphemeralRunnerSet and AutoscalingRunnerSet metrics, filters incoming events, and exposes listener rate limits plus a max-concurrent-reconciles flag. For platform teams running ARC as shared CI infrastructure at scale, that means less API traffic and fewer wasted reconciles, in-place patch upgrades, and a configurable terminationGracePeriodSeconds for predictable shutdowns."
     },
     {
       "id": "infoq-fcdAAd69U452t9b39rLU",
@@ -4779,7 +4789,9 @@
       "tags": [],
       "first_seen": "2026-10-31",
       "domain": "infoq.cn",
-      "quality_score": 36.6
+      "quality_score": 36.6,
+      "summary_zh": "亚马逊云科技推出 Lambda Web Functions，让 Express、Hono、Fastify、Next.js 等 Node.js 框架写的标准 HTTP 服务器直接用一条命令部署到 Lambda，无需适配层，支持并发请求和流式响应，计费按活跃 CPU 时间而非等待下游服务的空转时间。原有的 Lambda 函数改称 Lambda Event Functions，无需改动；已预热的执行环境可同时处理多个请求，冷启动因此明显减少。目前仅支持 Node.js，需要自定义域名、边缘缓存或 AWS WAF 时要在前面挂 CloudFront。想省掉 API Gateway 那层胶水代码的 Web 与 API 开发者值得一试。",
+      "summary_en": "AWS launched Lambda Web Functions, which runs a standard Node.js HTTP server built with Express, Hono, Fastify or Next.js directly on Lambda with a single deploy command and no adapter layer. It supports concurrent requests and streaming responses, and bills on active CPU time rather than time spent waiting on downstream services. Existing functions are now called Lambda Event Functions and need no changes, while a warmed execution environment handles multiple requests at once to cut cold starts. It is Node.js only for now, and custom domains or AWS WAF still require CloudFront in front."
     },
     {
       "id": "infoq-C9FJGQ0ptRp8F8kHRRdZ",
@@ -4885,7 +4897,9 @@
       "tags": [],
       "first_seen": "2026-10-30",
       "domain": "infoq.cn",
-      "quality_score": 38.1
+      "quality_score": 38.1,
+      "summary_zh": "微软发布 .NET 11 第 2 个候选版本，附带可用于生产环境部署的许可，支持 Visual Studio 2026 Insiders 以及安装了 C# Dev Kit 的 VS Code。更新覆盖库、运行时、SDK、NuGet、F#、ASP.NET Core、MAUI 和 WinForms，但没有引入新的 C# 语言特性；运行时偏重可靠性，并在 iOS 与 tvOS 上默认关闭建议性文件锁定，避免后台应用被系统终止。",
+      "summary_en": "Microsoft shipped .NET 11 RC2, which carries a go-live license for production deployment and is supported in Visual Studio 2026 Insiders and VS Code with the C# Dev Kit. Updates span libraries, runtime, SDK, NuGet, F#, ASP.NET Core, MAUI and WinForms, but add no new C# language features. The runtime emphasizes reliability, with a breaking change that disables advisory file locking by default on iOS and tvOS so backgrounded apps don't get killed."
     },
     {
       "id": "infoq-lmVM6XjSDMpMb6QTbK0l",

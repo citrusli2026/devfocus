@@ -4896,7 +4896,9 @@
       "tags": [],
       "first_seen": "2026-10-30",
       "domain": "infoq.cn",
-      "quality_score": 34.6
+      "quality_score": 34.6,
+      "summary_zh": "微软发布 .NET 11 第 2 个候选版本，附带可用于生产环境部署的许可，支持 Visual Studio 2026 Insiders 以及安装了 C# Dev Kit 的 VS Code。更新覆盖库、运行时、SDK、NuGet、F#、ASP.NET Core、MAUI 和 WinForms，但没有引入新的 C# 语言特性；运行时偏重可靠性，并在 iOS 与 tvOS 上默认关闭建议性文件锁定，避免后台应用被系统终止。",
+      "summary_en": "Microsoft shipped .NET 11 RC2, which carries a go-live license for production deployment and is supported in Visual Studio 2026 Insiders and VS Code with the C# Dev Kit. Updates span libraries, runtime, SDK, NuGet, F#, ASP.NET Core, MAUI and WinForms, but add no new C# language features. The runtime emphasizes reliability, with a breaking change that disables advisory file locking by default on iOS and tvOS so backgrounded apps don't get killed."
     },
     {
       "id": "infoq-lmVM6XjSDMpMb6QTbK0l",
