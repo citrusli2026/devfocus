@@ -196,7 +196,9 @@
       "tags": [],
       "first_seen": "2026-11-01",
       "domain": "hackerbooks.org",
-      "quality_score": 40.0
+      "quality_score": 40.0,
+      "summary_zh": "HackerBooks 是 Hacker News 的 Show HN 项目，作者把它定位成“面向 HN 上被提及书籍的 HackerTube”。原文是链接，未提供更多细节，收录范围和交互形式无法从现有信息确认。",
+      "summary_en": "HackerBooks is a Show HN project pitched as \"HackerTube, but for books mentioned on HN\". The linked page isn't summarized here; details beyond the title, such as how books are collected, ranked or presented, aren't available."
     },
     {
       "id": "hn-50320963",
@@ -212,7 +214,9 @@
       "tags": [],
       "first_seen": "2026-10-31",
       "domain": "smithsonianmag.com",
-      "quality_score": 40.2
+      "quality_score": 40.2,
+      "summary_zh": "意大利农户 Claudio Grossi 在自家阁楼里翻出一批不认识的种子并种了下去，长出的是一株七穗的茎秆。他挖到的其实是一种古老谷物，原文称它恰好能为某些当代问题提供答案。现有素材只有这段引子，具体是哪个品种、解决了什么问题并未展开。",
+      "summary_en": "Claudio Grossi, an Italian farmer, planted a handful of unidentified seeds he found in his attic, and a seven-eared stem came up. The seeds turned out to be an ancient grain that, per the piece, answers some modern problems. The available excerpt stops there: the specific variety and the problems it addresses aren't spelled out."
     },
     {
       "id": "hn-50282838",
@@ -3498,7 +3502,9 @@
       "gh_period": "daily",
       "first_seen": "2026-11-01",
       "domain": "github.com",
-      "quality_score": 30.2
+      "quality_score": 30.2,
+      "summary_zh": "FreeToken 是 FlashML 推出的边缘端 MoE 推理引擎，宣称能在普通游戏 PC 上以可交互的速度本地运行 290B 以上的 frontier 级开源 MoE 模型，并附有 arXiv 论文。想把数据中心级模型服务搬到自有硬件的开发者可以直接下载试用，项目同时运营 Slack 和 Discord 社区。",
+      "summary_en": "FreeToken is an edge-native mixture-of-experts serving engine from FlashML that claims it can run 290B-plus frontier open MoE models locally on a gaming PC at interactive speeds. A paper is posted on arXiv, and the project offers downloads alongside Slack and Discord communities. It is aimed at developers who want datacenter-class model serving on hardware they already own instead of renting GPUs."
     },
     {
       "id": "gh-daily-hyprwm-Hyprland",
@@ -3515,7 +3521,9 @@
       "gh_period": "daily",
       "first_seen": "2026-11-01",
       "domain": "github.com",
-      "quality_score": 30.1
+      "quality_score": 30.1,
+      "summary_zh": "Hyprland 是一个 100% 独立、支持动态平铺的 Wayland compositor，不依赖 wlroots、libweston、kwin 或 mutter，提供渐变边框、模糊、动画、阴影和自定义动画曲线。它内置插件管理器和 Easy IPC，支持 tearing 改善游戏表现，适合想要高度可定制桌面外观的 Wayland 用户。",
+      "summary_en": "Hyprland is a 100% independent dynamic tiling Wayland compositor that does not rely on wlroots, libweston, kwin or mutter. It offers gradient borders, multiple blur types, animations, glow, shadows, custom bezier and spring curves, a built-in plugin manager and easy IPC. Tearing support is included for gaming, making it relevant to Wayland users who want a highly customizable desktop."
     },
     {
       "id": "gh-monthly-cloudflare-security-audit-skill",
@@ -4778,7 +4786,9 @@
       "tags": [],
       "first_seen": "2026-11-01",
       "domain": "infoq.cn",
-      "quality_score": 34.4
+      "quality_score": 34.4,
+      "summary_zh": "InfoQ 精选：复用已有计算结果，动态表增量刷新如何实现性能与成本双优化 ｜ 技术实践",
+      "summary_en": "Featured on InfoQ: 复用已有计算结果，动态表增量刷新如何实现性能与成本双优化 ｜ 技术实践"
     },
     {
       "id": "infoq-adFNTX7Qiy7yYIGEmTlk",
@@ -4794,7 +4804,9 @@
       "tags": [],
       "first_seen": "2026-11-01",
       "domain": "infoq.cn",
-      "quality_score": 34.4
+      "quality_score": 34.4,
+      "summary_zh": "Snowflake 的 Optima Planning 新增跨查询反馈：除整条 SQL 外，还会对查询计划中的片段和单个算子（如某次连接）计算哈希，让结构相似但文本不同的查询复用执行反馈。文中案例把一条含 19 个连接的分析查询从近两小时缩短到 30 秒，同时会判断反馈迁移是否过度泛化。",
+      "summary_en": "Snowflake's Optima Planning now matches at a finer grain than whole queries: it hashes plan fragments and individual operators such as a specific join, so execution feedback from one query can speed up structurally similar queries that have never run before. In one production case at a large healthcare technology company, a 19-join analytical query dropped from nearly two hours to 30 seconds. The system also checks whether reused feedback would over-generalize before applying it."
     },
     {
       "id": "infoq-0ap8HB0DwK6Xa1lBSNVy",
@@ -4810,7 +4822,9 @@
       "tags": [],
       "first_seen": "2026-11-01",
       "domain": "infoq.cn",
-      "quality_score": 34.7
+      "quality_score": 34.7,
+      "summary_zh": "Snowflake 为智能体助手 CoCo（原 Cortex Code）上线预览版技能共享：把本地的 SKILL.md 操作指南转成账户级、可共享、可版本管理的对象，底层是名为 Cortex Extension 的 SQL 对象。成员可链接分享、浏览他人共享的技能目录，管理员能认证优质技能；文中用 SQL 代码走完编写到认证的完整流程。",
+      "summary_en": "Snowflake has shipped a preview feature for its CoCo agent (formerly Cortex Code) that turns local SKILL.md playbooks into account-wide, shareable and version-managed objects built on a native SQL type called Cortex Extension. Teams can share skills by link, browse a shared catalog, and admins can certify trusted ones. The article walks through writing, sharing, discovery and certification, showing the SQL behind each step."
     },
     {
       "id": "infoq-8mCjWWFLdjDA2vb51QZs",
