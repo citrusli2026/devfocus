@@ -3428,7 +3428,9 @@
       "gh_period": "daily",
       "first_seen": "2026-11-02",
       "domain": "github.com",
-      "quality_score": 30.0
+      "quality_score": 30.0,
+      "summary_zh": "Worktrunk 是一个管理 Git worktree 的命令行工具，用 Rust 编写并发布在 crates.io 上，文档托管在 worktrunk.dev，采用 MIT 或 Apache-2.0 双协议。它面向同时跑多个 AI coding agent 的场景，让每个 agent 在各自独立的 worktree 里工作而不互相干扰。",
+      "summary_en": "Worktrunk is a Rust CLI for managing Git worktrees, published on crates.io with docs at worktrunk.dev and dual-licensed MIT or Apache-2.0. It targets developers running several AI coding agents in parallel, so each agent can work in its own checkout without stepping on the others."
     },
     {
       "id": "gh-daily-paperclipai-paperclip",
@@ -4742,7 +4744,9 @@
       "tags": [],
       "first_seen": "2026-11-02",
       "domain": "infoq.cn",
-      "quality_score": 30.0
+      "quality_score": 30.0,
+      "summary_zh": "AICon 北京站将于 12 月 18–19 日在北京新云南皇冠假日酒店举办，设 13 大专题，覆盖大模型后训练、推理优化、Agent 工程、智能体评测与安全等方向。芯博士（SIMBOSS）联合创始人兼 CTO 潘成宾将在“AI 时代的组织重构”专题，结合 eSIM 与多平台 SDK 业务，讲小团队如何借 AI 从提效走向扩能。",
+      "summary_en": "AICon Beijing runs December 18–19 at the Crowne Plaza Beijing Sun Palace, with 13 tracks spanning post-training, inference optimization, agent engineering, and agent evaluation and safety. Pan Chengbin, co-founder and CTO of SIMBOSS, speaks in the organizational restructuring track on how small teams move from efficiency gains to expanded capability, drawing on eSIM and multi-platform SDK work to discuss shifting roles and delivery ownership."
     },
     {
       "id": "infoq-uIxYaSdYatN2Z7gPOaTU",
@@ -4774,7 +4778,9 @@
       "tags": [],
       "first_seen": "2026-11-02",
       "domain": "infoq.cn",
-      "quality_score": 35.5
+      "quality_score": 35.5,
+      "summary_zh": "MiniMax 于今年 8 月开放多模态模型 H3 的权重，一个月内下载量超过 2400 万次，衍生出 300 多个公开模型。视频公司 fal 据此训练出 H3 Max，Pika 在 10 月 29 日发布压缩生成步骤的 H3 Flex，英伟达研究团队 10 月下旬也基于 H3 发布 Open-H3-Regenerate-2K，并配套流媒体渲染与解码加速项目。",
+      "summary_en": "MiniMax opened the weights of its multimodal H3 model in August, drawing over 24 million downloads in a month and more than 300 public derivative models. Video firm fal trained H3 Max on top of it, Pika released H3 Flex on October 29 with fewer generation steps, and an Nvidia research team put out Open-H3-Regenerate-2K in late October alongside streaming-render and decoder work."
     },
     {
       "id": "infoq-7lNPPkEUVjtMYYvmXaA6",
@@ -4790,7 +4796,9 @@
       "tags": [],
       "first_seen": "2026-11-02",
       "domain": "infoq.cn",
-      "quality_score": 34.7
+      "quality_score": 34.7,
+      "summary_zh": "微软发布 dotnetup 公开预览版，这个借鉴 rustup 与 nvm 的跨平台工具链管理器把 .NET SDK 和运行时装进用户账户目录，而不是 Program Files\\dotnet 或 /usr/share/dotnet。它按 latest、lts、preview 等通道或主次版本、功能带解析安装意图，并读取最近的 global.json 以保持团队构建一致。默认的 everywhere 模式会改写系统 PATH，优先级高于 Visual Studio 装的全机器版本，这正是安装方式引争议之处。",
+      "summary_en": "Microsoft shipped a public preview of dotnetup, a cross-platform toolchain manager modeled on rustup and nvm that installs the .NET SDK and runtimes into the user's local data directory instead of Program Files\\dotnet or /usr/share/dotnet. It resolves channels such as latest, lts or preview (or a major, minor or feature band) and reads the nearest global.json to keep builds deterministic. The default Windows-only everywhere mode rewrites system PATH and overrides machine-wide installs, including Visual Studio's, which is where the install experience draws complaints."
     },
     {
       "id": "infoq-E3wARaqEN7UZx8wM9TNg",
@@ -4806,7 +4814,9 @@
       "tags": [],
       "first_seen": "2026-11-02",
       "domain": "infoq.cn",
-      "quality_score": 34.9
+      "quality_score": 34.9,
+      "summary_zh": "Cilium 1.20 发布，Gateway API 从 1.4 升到 1.6，新增 ExternalAuth、ListenerSets、CORS 过滤与 TCPRoute、UDPRoute，把 HTTP 鉴权和数据库、DNS 等非 HTTP 流量收进同一套 Kubernetes API；同时开放可扩展 eBPF 数据路径并推进无 sidecar 双向 TLS。ListenerSets 让应用团队自建监听器，平台团队保留共享网关控制权。",
+      "summary_en": "Cilium 1.20 is out, moving Gateway API support from 1.4 to 1.6 with ExternalAuth, ListenerSets, CORS filtering, and TCPRoute/UDPRoute, bringing HTTP authorization and non-HTTP traffic such as databases and DNS under the same Kubernetes API. The release also exposes an extensible eBPF data path and advances sidecar-free mutual TLS; ListenerSets let app teams add listeners in their own namespaces while platform teams keep control of shared gateways."
     },
     {
       "id": "infoq-pXJoz3XPv5D224a9Fro1",

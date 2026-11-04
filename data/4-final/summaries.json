@@ -11424,9 +11424,9 @@
     "input_hash": "7f730c6f364a"
   },
   "gh-daily-p-e-w-heretic": {
-    "summary_zh": "Heretic 是一款针对 transformer 语言模型的自动去审查工具，用方向消融（directional ablation，即 abliteration）移除“安全对齐”，无需昂贵后训练。适合研究模型审查机制、做红队测试或复现对齐移除方法的开发者，项目已提供 Discord、Matrix 和 Hugging Face 社区入口。",
-    "summary_en": "Heretic is a tool that automatically removes censorship (also called safety alignment) from transformer-based language models using directional ablation, a.k.a. abliteration, without expensive post-training. It should interest researchers and red-teamers who want a reproducible way to strip alignment and study how models behave after unalignment. Community channels include Discord, Matrix, and Hugging Face.",
-    "input_hash": "858fa952f992"
+    "summary_zh": "Heretic 是一个无需训练即可修改语言模型行为的工具，可去除审查、压制套话式输出、降低谄媚倾向，作者称在一台游戏 PC 上花一个下午就能跑完。项目通过 Hugging Face 组织发布模型，并设有 Discord 与 Matrix 社区。",
+    "summary_en": "Heretic modifies language models without any training: strip censorship, suppress slop, reduce sycophancy and more, with the project claiming it takes an afternoon on a gaming PC. Models are published through a Hugging Face org, and users can get help via its Discord and Matrix communities.",
+    "input_hash": "901aff0d4cd8"
   },
   "gh-daily-Lakr233-vphone-cli": {
     "summary_zh": "vphone-cli 可在 Apple Silicon Mac 上通过 Apple 的 Virtualization.framework 启动虚拟 iPhone，复用 PCC 研究 VM 基础设施。它依赖 Xcode/iOS SDK，需关闭 SIP/AMFI 以获取私有 entitlement，一条命令即可端到端创建 VM。适合无真机条件下做 iOS 研究或自动化的开发者。",
@@ -14534,9 +14534,9 @@
     "input_hash": "2ec9c159cdf3"
   },
   "gh-daily-JustVugg-colibri": {
-    "summary_zh": "colibri 是一个纯 C 编写、零依赖的推理引擎，利用 MoE 模型每个 token 只调用少量专家的特点，把活跃专家放进内存，其余专家按需从磁盘流式读取，从而在本机运行参数量达数千亿的开源模型。它面向想在已有硬件上跑大 MoE 模型又不想装一堆依赖的开发者，README 提供中文、日文等多语言版本。",
-    "summary_en": "colibri is a pure-C, dependency-free inference engine for mixture-of-experts models. Since an MoE model only activates a small slice of its experts per token, colibri keeps that slice in RAM and streams the remaining experts from disk, letting a machine you already own run open models with hundreds of billions of parameters. It targets developers who want large MoE inference without a dependency stack, and the README ships in several languages.",
-    "input_hash": "795bf37923aa"
+    "summary_zh": "colibri 是一个用纯 C 编写的 MoE 推理引擎，它按访问频率分层存放专家权重：热专家常驻 GPU（支持 CUDA 与 Vulkan），温专家留在内存，冷专家则从 NVMe 直接流式读取。由于每个 token 只用到数千亿参数模型中的一小部分专家，它能在你已有的硬件上跑起前沿开源 MoE 模型。",
+    "summary_en": "colibri is a pure-C inference engine for large mixture-of-experts models that tiers expert weights by temperature: hot experts on the GPU via CUDA or Vulkan, warm ones in RAM, cold ones streamed from NVMe. Since each token touches only a fraction of a several-hundred-billion-parameter MoE, it can run frontier open models on hardware you already own.",
+    "input_hash": "254a19f11353"
   },
   "36kr-3980408417106945": {
     "summary_zh": "标题指向哪吒汽车的复活传闻，其中提到“太乙圣莲”与 30 亿元这一数字，但原文只有标题，没有正文，投资方、具体方案和时间表都无法确认。关注哪吒汽车重组进展的读者还需等待后续报道。",
@@ -20339,9 +20339,9 @@
     "input_hash": "9cc030f8e471"
   },
   "infoq-jri7etqXIv2dp6RsiSHh": {
-    "summary_zh": "在 Rails World 2026 上，DHH 一边称 Rust 是“过去 40 年最丑陋的编程语言”，一边表示只要由 Agent 写代码、自己不用看，就乐于享受它的性能。他让 Agent 把 37signals 的群聊应用 Campfire 重写为 Elixir、Go 和 Rust 版本，加载聊天室页面时 Rust 达每秒 36260 个请求，约为 Rails 的 150 倍、Elixir 的 50 倍、Go 的 9.4 倍。",
-    "summary_en": "At Rails World 2026, DHH called Rust the ugliest programming language of the past 40 years, yet said he loves it as long as agents write the code and he never has to read it. He had agents rewrite 37signals' Campfire chat app in Elixir, Go and Rust; loading a chat room page, Rust hit 36,260 requests per second, roughly 150x Rails, 50x Elixir and 9.4x Go.",
-    "input_hash": "8e8592153c94"
+    "summary_zh": "Rails 之父 DHH 称 Rust 快 150 倍，随后有开发者翻出对应代码，对他的说法群起嘲讽。这条只给了标题层面的信息，原文链接未提供更多细节，比如是哪段代码、测的是什么场景，以及 150 倍是相对什么而言。",
+    "summary_en": "DHH, the creator of Rails, claimed Rust is 150 times faster, and developers who went through the code afterwards publicly mocked the claim. The linked article isn't summarized here, so details beyond the title aren't available: which code was compared, what was benchmarked, and what the 150x figure was measured against.",
+    "input_hash": "91251a13ec34"
   },
   "infoq-qmoRIQ1TceKfKwGlXN0S": {
     "summary_zh": "OpenAI 在 DevDay 上发布 Decisions API，底层用当前最小、最便宜的 GPT-6 Luna，让模型从一组预设选项中做选择并返回置信度，延迟 150 毫秒，而直接调用 Luna 做同类任务需要 1.6 秒。该 API 目前仅提供限量预览，定价与单次请求支持的候选答案数量均未公布。它几乎复刻了发布仅 15 天的 Jev 的核心能力，Reddit 的 AI_Agents 版块随即出现“Jev Is Dead”的讨论。",
@@ -20974,9 +20974,9 @@
     "input_hash": "59fbd940c6cc"
   },
   "v2ex-0ad8f2d39f4c": {
-    "summary_zh": "V2EX 热议：[分享创造] 做了一个 A 股信息整理工具，把指标、涨停复盘和新闻分别导出成卡片",
-    "summary_en": "Hot on V2EX: [分享创造] 做了一个 A 股信息整理工具，把指标、涨停复盘和新闻分别导出成卡片",
-    "input_hash": "f9d575d9fa83"
+    "summary_zh": "有开发者在 V2EX 分享自制的 A 股信息整理工具，把行情指标、涨停复盘和新闻分别导出成卡片。原文只给了帖子链接，未提供更多细节，比如技术栈、数据来源或是否开源，对每天盯 A 股复盘、想换一种信息组织方式的人可能有用。",
+    "summary_en": "A developer on V2EX shared a tool that organizes A-share market information, exporting indicators, limit-up reviews and news as separate cards. The linked post isn't summarized here, so the tech stack, data sources and whether it is open source aren't available; it may interest people who follow A-share trading daily and want a different way to lay out that information.",
+    "input_hash": "248f44a92bdb"
   },
   "v2ex-9e1036433dfe": {
     "summary_zh": "V2EX 热议：[分享创造] 做了一个游戏融合目录，帮玩家从演示视频找到原作者和安装要求",
@@ -25189,9 +25189,9 @@
     "input_hash": "731390436663"
   },
   "gh-daily-vercel-labs-agent-desktop": {
-    "summary_zh": "vercel-labs 开源 agent-desktop，让 AI agent 通过操作系统无障碍树读取并操作桌面应用：快照返回带 ref 的 JSON，agent 按 ref 执行动作后再次快照确认结果。以 CLI 和 C 库形式提供，覆盖 macOS、Windows、Linux，Apache-2.0 许可并已发布到 npm。适合需要给 agent 接上 GUI 自动化的开发者。",
-    "summary_en": "vercel-labs released agent-desktop, a CLI and C library that lets AI agents read and drive desktop apps through the OS accessibility tree on macOS, Windows and Linux. A snapshot returns JSON with a ref for every actionable element; the agent acts on a ref and snapshots again to verify the result. Apache-2.0 licensed and published on npm, it targets developers wiring GUI automation into agents.",
-    "input_hash": "efec8aec457f"
+    "summary_zh": "agent-desktop 是 Vercel Labs 发布的 npm 包，让 AI agent 通过操作系统的 accessibility tree 读取并操作 macOS、Windows 和 Linux 上的桌面应用，不依赖截图或像素匹配，采用 Apache-2.0 许可。对于想让 agent 稳定驱动传统桌面软件、又不想维护整套视觉识别链路的开发者，这是一条更轻的接入路径。",
+    "summary_en": "agent-desktop is an Apache-2.0 npm package from Vercel Labs that lets AI agents read and drive desktop apps on macOS, Windows and Linux through the OS accessibility tree, skipping screenshots and pixel matching. It targets developers who want agents to operate conventional desktop software without maintaining a vision pipeline.",
+    "input_hash": "391462d0101b"
   },
   "v2ex-ee2171830835": {
     "summary_zh": "有开发者用 Surge 接管 Tailscale 入口后，设备列表涨到 36 台，其中 18 台是重新认证后带 -1、-2 后缀的离线幽灵节点，于是写了个跑在 Surge 仪表盘里的 Tailscale 状态面板。项目零外部依赖，包含定义卡片的 .sgmodule 和用 ES5 写给 JavaScriptCore 的脚本，直连 Tailscale API v2，默认 300 秒刷新，并顺带清理同名离线节点，代码已开源在 GitHub。",
@@ -25249,9 +25249,9 @@
     "input_hash": "3f3de79142f8"
   },
   "hn-50312408": {
-    "summary_zh": "PostgreSQL 主要贡献者 Robert Haas 表示，19 版大概率推迟到 11 月发布，打破了近十年“9 月中到 10 月中”的惯例，原因是 beta 阶段发现的 bug 数量明显变多，他把这归因于 LLM。SQL/PGQ、UPDATE/DELETE FOR PORTION OF 等大型特性在 8 月底到 9 月中被回滚。",
-    "summary_en": "PostgreSQL 19 will most likely slip to November rather than the usual mid-September to mid-October window, according to major contributor Robert Haas, because far more bugs are turning up during beta, a shift he blames on LLMs. Several large features, including SQL/PGQ and UPDATE/DELETE FOR PORTION OF, were reverted between late August and mid-September. Haas, a staff engineer at Databricks, walks through what that means for the release process.",
-    "input_hash": "8f3e7eadd8ae"
+    "summary_zh": "这条 Hacker News 讨论的标题称 Postgres 19 发布延期，原因是当前发现的新 bug 数量比以往多得多。原文只有链接，未提供更多细节，因此具体是哪些模块出问题、延期多久都无从得知。",
+    "summary_en": "A Hacker News post claims the Postgres 19 release is running late because far more bugs are being surfaced than in previous cycles. The linked page isn't summarized here; details beyond the title aren't available, so which components are affected and how long the delay lasts remain unknown.",
+    "input_hash": "b5237a51dcef"
   },
   "36kr-4052310948123528": {
     "summary_zh": "36氪 的这篇文章标题为《AI“杀死币圈”？》，原文只给出链接、未提供正文，因此无法确认它引用了哪些数据、案例或受访者。从标题能确定的只有一点：它讨论的是 AI 热潮与加密货币行业之间的关系。",
@@ -25347,5 +25347,225 @@
     "summary_zh": "rea 是 GitHub 上的一个逆向工程 agent 项目，按仓库描述，它要覆盖从应用行为分析一直到原生二进制逆向的整条链路。适合需要拆解闭源程序或二进制样本的安全与逆向工程师，不过目前能看到的只有这一句定位，具体实现方式和支持的平台尚不清楚。",
     "summary_en": "rea is a GitHub project that aims to reverse engineer software with agents, spanning everything from observed app behavior down to native binaries, according to its repository description. It targets security researchers and reverse engineers who need to take apart closed-source programs or binary samples. Only that one-line description is available, so supported platforms and how the agents are wired up remain unclear.",
     "input_hash": "08a2c92f5a14"
+  },
+  "v2ex-0390f4aa2a8d": {
+    "summary_zh": "V2EX 热议：[职场话题] 这算是转行吗？这还算不算是计算机对口就业",
+    "summary_en": "Hot on V2EX: [职场话题] 这算是转行吗？这还算不算是计算机对口就业",
+    "input_hash": "4ff0f7fa1934"
+  },
+  "v2ex-09907ba240fd": {
+    "summary_zh": "V2EX 热议：[分享创造] 给孩子整理了一组恐龙交互演示： 64 个，浏览器里能转着看三维复原",
+    "summary_en": "Hot on V2EX: [分享创造] 给孩子整理了一组恐龙交互演示： 64 个，浏览器里能转着看三维复原",
+    "input_hash": "d5a20913012d"
+  },
+  "v2ex-c26475100fd7": {
+    "summary_zh": "V2EX 热议：[分享创造] 给女儿和家人做了个英语跟读小程序，也想请 V 友试试",
+    "summary_en": "Hot on V2EX: [分享创造] 给女儿和家人做了个英语跟读小程序，也想请 V 友试试",
+    "input_hash": "0d7cc717cae3"
+  },
+  "zhihu-2100890499762446584": {
+    "summary_zh": "这是知乎上的一个问题：武汉某小区发生爆燃，造成 2 人死亡、1 人受伤，相关调查与处置工作正在进行。该条目只提供问题链接，未附事件时间、地点或官方通报等更多细节。",
+    "summary_en": "A Zhihu question about an explosion at a residential compound in Wuhan that left two people dead and one injured, with investigation and follow-up work still underway. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "703139d61ddb"
+  },
+  "36kr-4053676712891526": {
+    "summary_zh": "36氪这条标题称 Anthropic 一个 14 万亿参数的模型发生泄露，并称它可能在 6 个月内取代视频与图像模型。该条目没有正文，泄露的具体内容、参数口径和消息来源都无法核实。",
+    "summary_en": "A 36Kr headline claims that a 14-trillion-parameter Anthropic model has leaked and could displace video and image models within six months. No body text accompanies the item, so what actually leaked, how the parameter count was derived, and where the claim came from can't be verified.",
+    "input_hash": "57cdbabba737"
+  },
+  "infoq-h1310kHD9CWD1mO8aTAc": {
+    "summary_zh": "MiniMax 于今年 8 月开放多模态模型 H3 的权重，一个月内下载量超过 2400 万次，衍生出 300 多个公开模型。视频公司 fal 据此训练出 H3 Max，Pika 在 10 月 29 日发布压缩生成步骤的 H3 Flex，英伟达研究团队 10 月下旬也基于 H3 发布 Open-H3-Regenerate-2K，并配套流媒体渲染与解码加速项目。",
+    "summary_en": "MiniMax opened the weights of its multimodal H3 model in August, drawing over 24 million downloads in a month and more than 300 public derivative models. Video firm fal trained H3 Max on top of it, Pika released H3 Flex on October 29 with fewer generation steps, and an Nvidia research team put out Open-H3-Regenerate-2K in late October alongside streaming-render and decoder work.",
+    "input_hash": "a32cb2c085d6"
+  },
+  "v2ex-ebd5daecc38e": {
+    "summary_zh": "这是一篇 V2EX 推广帖，作者以中介身份推荐“免五”（免收最低 5 元佣金）开户渠道，称这些渠道本质是替券商导流的“淘宝客”，并列出目标佣金区间供比价。帖中提醒新手核实 App 与官方客服、问清费率、交易后核对交割单，同时称某 TOP3 券商已通过系统升级封死“免五”权限，暗示这类渠道正在收紧。",
+    "summary_en": "A V2EX promotional post from a referral middleman recommending brokerage account channels that waive the 5-yuan minimum commission, which he describes as lead generation for brokers rather than account providers, plus a list of target commission rates for comparison. He advises newcomers to verify the app and official support, confirm fees, and check trade statements, and notes that one top-three brokerage has closed off waivers through a system upgrade.",
+    "input_hash": "1863e9799584"
+  },
+  "v2ex-95441fcdf90c": {
+    "summary_zh": "V2EX 上的第三方代充推广帖，给 ChatGPT Plus 报价 125 元、Plus 5x 660 元、20x 1150 元，称直充账户可开票、已服务 100 多位站内用户。发帖人认为 Pro 额度翻倍后 5x 档最划算，用量相当于 10 个 Plus。属于付费推广，付款前需自行判断风险。",
+    "summary_en": "A promotional post on V2EX offering third-party direct top-ups for ChatGPT Plus and Pro accounts, quoting 125 yuan for Plus, 660 for a 5x plan and 1,150 for 20x, with invoices available. The poster says Pro quotas recently doubled, making the 5x tier the best value at ten times Plus usage, and claims over 100 prior customers. It is a paid ad, so vet the seller before paying.",
+    "input_hash": "94a296953472"
+  },
+  "v2ex-825ed27d710a": {
+    "summary_zh": "V2EX Apple 版块的一条帖子，标题称国行设备的 AI 功能终于落地。原文只有链接，未提供更多细节，具体上线范围、支持机型与功能清单无法从现有信息确认。",
+    "summary_en": "A V2EX post in the Apple section whose title claims AI features have finally arrived on China-market devices. The linked page isn't summarized here; details beyond the title, such as rollout scope, supported models and the feature list, aren't available.",
+    "input_hash": "8f3735c7be45"
+  },
+  "v2ex-bbbd31741334": {
+    "summary_zh": "一位以学习为目的的用户原本用 dsv4 加 hermes，想换成 Claude Code 或 Codex 这类 agent，看到 commandcode 提供的 goat 方案后发问：走这类第三方订阅和直接买官方订阅差别在哪，是不是仅仅多了请求要先路由到 commandcode 这一层。",
+    "summary_en": "A developer using dsv4 plus hermes for learning purposes wants to switch to an agent like Claude Code or Codex and is weighing subscription options. Having come across a goat plan offered through commandcode, they ask how such third-party subscriptions differ from buying official ones directly, and whether routing requests through commandcode is the only difference.",
+    "input_hash": "2ad9f9bc0db3"
+  },
+  "infoq-E3wARaqEN7UZx8wM9TNg": {
+    "summary_zh": "Cilium 1.20 发布，Gateway API 从 1.4 升到 1.6，新增 ExternalAuth、ListenerSets、CORS 过滤与 TCPRoute、UDPRoute，把 HTTP 鉴权和数据库、DNS 等非 HTTP 流量收进同一套 Kubernetes API；同时开放可扩展 eBPF 数据路径并推进无 sidecar 双向 TLS。ListenerSets 让应用团队自建监听器，平台团队保留共享网关控制权。",
+    "summary_en": "Cilium 1.20 is out, moving Gateway API support from 1.4 to 1.6 with ExternalAuth, ListenerSets, CORS filtering, and TCPRoute/UDPRoute, bringing HTTP authorization and non-HTTP traffic such as databases and DNS under the same Kubernetes API. The release also exposes an extensible eBPF data path and advances sidecar-free mutual TLS; ListenerSets let app teams add listeners in their own namespaces while platform teams keep control of shared gateways.",
+    "input_hash": "298d7d38dd93"
+  },
+  "infoq-7lNPPkEUVjtMYYvmXaA6": {
+    "summary_zh": "微软发布 dotnetup 公开预览版，这个借鉴 rustup 与 nvm 的跨平台工具链管理器把 .NET SDK 和运行时装进用户账户目录，而不是 Program Files\\dotnet 或 /usr/share/dotnet。它按 latest、lts、preview 等通道或主次版本、功能带解析安装意图，并读取最近的 global.json 以保持团队构建一致。默认的 everywhere 模式会改写系统 PATH，优先级高于 Visual Studio 装的全机器版本，这正是安装方式引争议之处。",
+    "summary_en": "Microsoft shipped a public preview of dotnetup, a cross-platform toolchain manager modeled on rustup and nvm that installs the .NET SDK and runtimes into the user's local data directory instead of Program Files\\dotnet or /usr/share/dotnet. It resolves channels such as latest, lts or preview (or a major, minor or feature band) and reads the nearest global.json to keep builds deterministic. The default Windows-only everywhere mode rewrites system PATH and overrides machine-wide installs, including Visual Studio's, which is where the install experience draws complaints.",
+    "input_hash": "72744813a8cb"
+  },
+  "v2ex-a0105660f8f2": {
+    "summary_zh": "作者用周末把五年前用 Flutter 编写、界面全部基于 iOS 26 之前风格 cupertino_ui 的开源 RSS 客户端 fluent-reader-lite 适配到 iPhone Duo。做法参照微信读书，用 preferredVerticalBarBehavior 把状态栏横置并与顶部导航栏排在同一行，让主界面铺满整块屏幕。想了解宽屏或折叠形态下界面如何排布的前端与移动开发者可以读它的 GitHub 代码。",
+    "summary_en": "Over a weekend the author adapted fluent-reader-lite, a five-year-old open-source Flutter RSS client built entirely with pre-iOS 26 Cupertino widgets, to the iPhone Duo form factor. Instead of following Apple's design guidelines, he borrowed a trick from WeChat Reading: rotating the status bar with preferredVerticalBarBehavior and placing it on the same row as the top navigation bar so the main UI fills the screen. The code is on GitHub for anyone curious about layout on wide or foldable screens.",
+    "input_hash": "fef229005c87"
+  },
+  "v2ex-d5c371fe78da": {
+    "summary_zh": "有用户收到 Google One 的学生身份重新验证通知：学生资格即将到期，需在 2026 年 12 月 5 日前完成验证，才能继续以学生折扣价使用 Google AI Pro 方案。以学生价订阅 Google AI Pro 的人应当留意这封邮件，错过期限就会被恢复原价。",
+    "summary_en": "A Google One user received a notice that their student status needs re-verification: the discount runs out unless verification is completed before December 5, 2026, so the Google AI Pro plan keeps its student price. Worth digging the email out of your inbox if you subscribe to Google AI Pro on a student discount, since missing the deadline means paying the regular rate.",
+    "input_hash": "e216526f9fd6"
+  },
+  "36kr-4053409634800768": {
+    "summary_zh": "DeepSeek 发布官方智能体教程，主打用一句话就能造出插件，并免费公开了 7 套提示词。原文只有标题和链接，未提供更多细节，教程的具体步骤与提示词内容需要到原文查看。",
+    "summary_en": "DeepSeek published an official agent tutorial that pitches building a plugin from a single sentence, and released seven sets of prompts for free. The linked page isn't summarized here; details beyond the title aren't available, so the actual tutorial steps and prompt contents have to be read on the original page.",
+    "input_hash": "81ecd970bf58"
+  },
+  "infoq-JmVl0yY2RYIBNpuD0xuu": {
+    "summary_zh": "皮查伊在 Big Technology Podcast 访谈中透露，Gemini 4 Argon 上线前 72 小时用量接近 25 万亿 Token，约为 Gemini 3.0 同期的三倍，算力供给跟不上需求。为此谷歌把算力优先分给 AI 研究团队，云业务放弃了部分短期收入；他还称 Argon 发布后四周内代码提交量增加约 30%、回滚减少约三分之一，AI 写代码的比例已不是他关注的指标。",
+    "summary_en": "In a Big Technology Podcast interview, Sundar Pichai said Gemini 4 Argon consumed nearly 25 trillion tokens in its first 72 hours, roughly triple Gemini 3.0 at the same point, and that compute supply cannot keep up. Google has been steering capacity to its AI research teams while the cloud unit gives up some short-term revenue, and he noted commit volume rose about 30% with rollbacks down a third in the four weeks after launch, making the share of AI-written code a less meaningful number.",
+    "input_hash": "fda250fb5c72"
+  },
+  "infoq-IMWM7ZXDi99sMiUVZBIF": {
+    "summary_zh": "Anthropic 把一个原本没有 Rust 经验的团队组织起来，借助 Claude 将 Messages API 从 Python 重写为 Rust，人类工程师主要负责架构、迁移策略和验证方案。据平台工程负责人 Katelyn Lesse 介绍，改造后 CPU 消耗下降约 40%—50%，首 Token 延迟改善约 10%—20%。她随后在长文中提出，当大量 Agent 长时间自主运行、彼此协作时，Kubernetes 等现有基础设施在隔离、状态保存与调度上都需要新的工程方案。",
+    "summary_en": "Anthropic migrated its Messages API from Python to Rust with a team that had no prior Rust experience, leaning on Claude to write most of the code while engineers handled architecture, migration strategy, and verification. Platform engineering lead Katelyn Lesse reports roughly 40-50% lower CPU usage and 10-20% better first-token latency. In a follow-up essay she argues that long-running, collaborating agents will demand new infrastructure work around Kubernetes isolation, state persistence, and scheduling, framing that as fresh territory for engineers rather than a threat.",
+    "input_hash": "90aa7cdfeb44"
+  },
+  "v2ex-cc0a7f8998b9": {
+    "summary_zh": "这是一条 V2EX 帖子，标题询问 Apple Weather 是否出现 BUG，原文只有链接，未提供更多细节，帖子里没有说明具体是哪个平台、什么现象、影响范围多大。想了解复现条件或苹果是否回应，只能点进原帖查看其他用户的回复。",
+    "summary_en": "This is a V2EX thread whose title asks whether Apple Weather is buggy. The linked page isn't summarized here; details beyond the title aren't available, so the post itself doesn't establish which platform is affected, what the symptoms look like, or how widespread the problem is. Anyone wanting reproduction steps or an Apple response would have to read the replies in the original thread.",
+    "input_hash": "c9196bc45873"
+  },
+  "36kr-4053733300196487": {
+    "summary_zh": "据 36 氪独家报道，字节旗下视频生成模型 Seedance 的海外收入占比已达到 50%，国内市场的客户则以腾讯、B 站等互联网企业为主。原文为付费或摘要式报道，除标题给出的收入结构与客户构成外，未提供更多细节。",
+    "summary_en": "A 36Kr exclusive reports that Seedance, ByteDance's video generation model, now draws about 50% of its revenue from overseas markets, while its domestic customers are mainly internet companies such as Tencent and Bilibili. The linked article isn't summarized here; beyond the title's revenue split and customer mix, details aren't available.",
+    "input_hash": "3d3a94c48992"
+  },
+  "infoq-xaWSKT3MlZjbuJw16Vem": {
+    "summary_zh": "Anthropic 工程经理、Claude Cowork 工程负责人 Felix Rieseberg 在博文中主张对 AI“更有野心”：与其自己筛出崩溃记录再交给 Claude，不如直接给它数据和工具自行判断。他提出让多个 Claude 互相挑错的“对抗式审查”，并认为“你是某领域专家”式提示词已是 2024 年做法。团队约一周半做出 Claude Cowork。",
+    "summary_en": "Felix Rieseberg, an Anthropic engineering manager who led work on Claude Cowork, argues in a blog post that people should be more ambitious with AI: instead of triaging crash reports himself and handing fixes to Claude, he now gives the model the raw data and tools to decide. He also describes \"adversarial review\", where several Claudes critique each other and another judges the critiques, and calls \"you are an expert in X\" prompts a 2024 habit. His team built Claude Cowork in about a week and a half.",
+    "input_hash": "83d3bce2f0c0"
+  },
+  "36kr-4053301163185280": {
+    "summary_zh": "易成创新完成 2 亿元 C 轮融资，业务从无人转运车延伸到工业无人作业场景。该条为 36 氪首发报道，原文是文章链接，除标题外未提供更多细节，投资方构成与具体落地进展暂不清楚。",
+    "summary_en": "易成创新 has raised a 200 million yuan Series C round, with its business expanding from unmanned transfer vehicles to broader unmanned industrial operations. The linked 36Kr exclusive report isn't summarized here, so details beyond the title, such as who invested and where the systems are deployed, aren't available.",
+    "input_hash": "716aa971f3aa"
+  },
+  "infoq-zZutPTX8bsr6NWQYNC3A": {
+    "summary_zh": "腾讯云宣布 TokenHub 升级，把多模型接入、调用调度与企业治理收进同一平台，重点模型支持 Day 0 接入并兼容 OpenAI、Anthropic 协议，TI-ONE 训推平台、Agent Runtime 与 WorkBuddy 同步更新。腾讯云 MaaS 产品中心总经理邹辉称，百万 Token 混合计价已从“元”降到“角”甚至“分”，模型正以泛办公场景为代表加速渗透。",
+    "summary_en": "Tencent Cloud upgraded TokenHub, a platform that puts multi-model access, call scheduling and enterprise governance in one place, with Day 0 onboarding for major models and compatibility with OpenAI and Anthropic protocols; TI-ONE, Agent Runtime and WorkBuddy were updated alongside it. Zou Hui, general manager of Tencent Cloud's MaaS product center, said per-million-token pricing has fallen from yuan to jiao and even fen as models spread through office scenarios.",
+    "input_hash": "23fa4ae271ad"
+  },
+  "infoq-DliBOqGrOaxaXvqlBjGR": {
+    "summary_zh": "AICon 北京站将于 12 月 18–19 日在北京新云南皇冠假日酒店举办，设 13 大专题，覆盖大模型后训练、推理优化、Agent 工程、智能体评测与安全等方向。芯博士（SIMBOSS）联合创始人兼 CTO 潘成宾将在“AI 时代的组织重构”专题，结合 eSIM 与多平台 SDK 业务，讲小团队如何借 AI 从提效走向扩能。",
+    "summary_en": "AICon Beijing runs December 18–19 at the Crowne Plaza Beijing Sun Palace, with 13 tracks spanning post-training, inference optimization, agent engineering, and agent evaluation and safety. Pan Chengbin, co-founder and CTO of SIMBOSS, speaks in the organizational restructuring track on how small teams move from efficiency gains to expanded capability, drawing on eSIM and multi-platform SDK work to discuss shifting roles and delivery ownership.",
+    "input_hash": "94cf5d5d9182"
+  },
+  "infoq-YwAayF1ylWb7oN4P0lyC": {
+    "summary_zh": "TokenSpeed 是尚旭春在 AICon 2026 深圳站分享的 Agent 场景推理引擎：优化目标从“打满 batch”改为“每用户 TPS 不低于 70 的延迟约束下最大化单卡吞吐”，batch=1 时端到端延迟比 TensorRT-LLM 快 9%。分享还覆盖分层解耦架构、自动并行编译与 KV Cache 复用路线，面向为 coding agent 多轮短请求调优推理栈的工程师。",
+    "summary_en": "TokenSpeed, presented by independent contributor Shang Xuchun at AICon 2026 Shenzhen, is an inference engine built for agentic workloads: rather than maximizing batch throughput, it targets the highest per-GPU throughput that still keeps each user above 70 TPS. On that basis it reports 9% lower end-to-end latency than TensorRT-LLM at batch size 1. The talk also covers a decoupled architecture, auto-parallel compilation and KV Cache reuse — useful for anyone tuning inference for multi-turn coding agents.",
+    "input_hash": "e0eec9064776"
+  },
+  "36kr-4053642187330696": {
+    "summary_zh": "36Kr 这篇报道的标题称，曾被视作“暴利”的游戏陪玩行业正在复活，并有从业者年入过亿。原文仅为文章链接，未提供正文，除标题外的具体数据、公司与商业模式无法确认，对游戏陪玩或线上陪伴消费感兴趣的读者需自行打开原文。",
+    "summary_en": "A 36Kr piece whose headline claims the once high-margin game-companion business is reviving, with individual players reportedly earning over 100 million yuan a year. The linked page isn't summarized here; companies, figures and the actual business model beyond the title aren't available, so readers curious about China's paid game-companion market will need to open the original.",
+    "input_hash": "ccba02e4490e"
+  },
+  "36kr-4053418750841731": {
+    "summary_zh": "36Kr 的这篇评论围绕苹果展开，标题认为“存储反噬”已经开始，并追问被当作 AI 热潮之外“避风港”的苹果是否也要漏风。原文是链接，未提供正文，涉及哪类存储成本、冲击哪些财务指标都无从确认，关心苹果硬件成本与估值的读者需要阅读原文。",
+    "summary_en": "A 36Kr commentary on Apple whose headline argues the storage-cost backlash has finally arrived and asks whether Apple, long seen as a safe haven from the AI boom, is about to spring a leak. The linked page isn't summarized here; which storage costs are involved and which financials they hit aren't available beyond the title, so readers tracking Apple's hardware costs and valuation should go to the original.",
+    "input_hash": "54d872f2ffb6"
+  },
+  "36kr-4053498297193347": {
+    "summary_zh": "36Kr 整理了标注为奥尔特曼在斯坦福访谈的内容，主题是一个人如何借助 AI 完成原本需要百人团队的工作。原文只有标题与链接，没有正文，访谈的具体观点、时间与上下文均无法核实，关注 AI 对组织规模与个人产出影响的读者可查阅原文。",
+    "summary_en": "A 36Kr item billed as a Stanford interview with Altman, framed around how one person can use AI to do the work of a hundred-person team. The linked page isn't summarized here; the interview's actual arguments, date and context aren't available beyond the title, so readers interested in AI's effect on team size and individual output should read the original.",
+    "input_hash": "4f88bd837b5b"
+  },
+  "36kr-4053559560213385": {
+    "summary_zh": "36Kr 这篇文章从资本配置角度谈苹果：标题称苹果把本应投给 AI 的钱都回馈给了股东。原文仅有标题和链接，未提供正文，具体金额、回购或分红形式均未给出，关注苹果 AI 投入节奏与股东回报策略的读者需查阅原文。",
+    "summary_en": "A 36Kr article arguing, from a capital-allocation angle, that Apple handed shareholders the money it might otherwise have spent on AI. The linked page isn't summarized here; the amounts, buyback or dividend details and supporting figures aren't available beyond the title, so readers tracking Apple's AI spending pace versus shareholder returns should open the original.",
+    "input_hash": "209949285450"
+  },
+  "36kr-4053977009574789": {
+    "summary_zh": "清华大学团队在 Nature 子刊发表的研究显示，把上千个智能体组网连接后，它们会自发分成对立阵营，观点极化现象随之涌现。这项工作总结的是多智能体规模化交互后的群体行为，对做 agent 社会模拟、多智能体系统的人有直接参考价值。原文只提供了标题，未附实验设置等更多细节。",
+    "summary_en": "A Tsinghua study in a Nature sub-journal reports that when over a thousand agents are networked together, they spontaneously split into opposing camps and opinion polarization emerges. It speaks to anyone building multi-agent simulations or studying how large populations of agents behave collectively. Only the headline is available here; the linked paper isn't summarized and further experimental details aren't provided.",
+    "input_hash": "def767a0acf0"
+  },
+  "36kr-4053877398213765": {
+    "summary_zh": "36氪这条标题把 AI 圈中的某个对象比作泡泡玛特，后者以盲盒和 IP 潮玩收藏著称。原文没有提供正文，除了这个比喻之外，无法确认它具体指向哪家公司或产品，读者需自己打开链接判断。",
+    "summary_en": "The 36Kr headline bills something in the AI world as \"the Pop Mart of AI,\" borrowing the name of the blind-box collectible toymaker. No body text accompanies the item, so what the comparison actually refers to can't be verified from what's given here. The linked page isn't summarized, and details beyond the title aren't available.",
+    "input_hash": "3ab12758d1c3"
+  },
+  "hn-50354960": {
+    "summary_zh": "一份提交给 Postman 的 GitHub issue 称，在 Mac 上打开 Postman 后，编码 agent 出现了非预期改动，标题则指控它静默自动安装 AI 插件并试图共享全部 API 数据。Postman 里通常存着大量接口密钥和请求配置，这种未经确认的自动行为对日常使用它的后端与测试人员风险不小。目前说法来自报告者单方面描述。",
+    "summary_en": "A GitHub issue filed against Postman claims that simply opening the app on a Mac triggered unexpected changes to the reporter's coding agents, while the title alleges it silently auto-installs AI plugins and attempts to share all API data. Postman typically holds API keys and request collections for whole teams, so unannounced behavior like this matters to backend and QA people who keep credentials there. The account so far comes from the reporter alone.",
+    "input_hash": "32916090e1eb"
+  },
+  "zhihu-2100715122348004198": {
+    "summary_zh": "知乎上的一则提问称，一名清华毕业生在 UCL 留学期间疑似遭遇电信诈骗，账户陆续转出数十万元，其邮箱最新留言是「我人平安，被诈骗了」。讨论集中在留学生遇电诈后的处置与求助方式，关注海外安全的读者和家长会留意。该条目为提问页，未提供更多案件细节。",
+    "summary_en": "A Zhihu question describes a Tsinghua graduate studying at UCL who appears to have been hit by a telecom scam, with hundreds of thousands of yuan transferred out of the account in stages; the latest email from the person reads \"I'm safe, I was scammed.\" The thread focuses on how overseas students should respond and where to seek help. The post is a question page, and no further case details are available here.",
+    "input_hash": "b75e27b07477"
+  },
+  "hn-50351111": {
+    "summary_zh": "Hacker News 上的一则帖子指出，「Astra 能读写权重来改进 Qwen」的说法具有误导性：读取原始权重的那批实验，与真正修好 Qwen 的实验，用的是完全不同的技术手段。对关注权重编辑和模型改造的人，这是一条提醒——把两组实验并置，容易让人以为它们之间存在并不成立的因果关系。",
+    "summary_en": "A Hacker News submission argues that the circulating claim \"Astra can read and write weights to improve Qwen\" is misleading, because the experiments that read raw weights and the ones that actually fix Qwen use completely different techniques. It's a useful caution for anyone tracking weight-editing or model-surgery claims: placing two results side by side can imply a causal link that isn't there.",
+    "input_hash": "7935529eb938"
+  },
+  "gh-daily-max-sixty-worktrunk": {
+    "summary_zh": "Worktrunk 是一个管理 Git worktree 的命令行工具，用 Rust 编写并发布在 crates.io 上，文档托管在 worktrunk.dev，采用 MIT 或 Apache-2.0 双协议。它面向同时跑多个 AI coding agent 的场景，让每个 agent 在各自独立的 worktree 里工作而不互相干扰。",
+    "summary_en": "Worktrunk is a Rust CLI for managing Git worktrees, published on crates.io with docs at worktrunk.dev and dual-licensed MIT or Apache-2.0. It targets developers running several AI coding agents in parallel, so each agent can work in its own checkout without stepping on the others.",
+    "input_hash": "b5da947740de"
+  },
+  "juejin-7676098169974292530": {
+    "summary_zh": "这是一份 DeepSeek Harness（DSH）社区插件清单，作者挑了 16 个热门插件，按技能扩展、UI 界面增强和整活玩法三类梳理，具体包括图片识别、浏览器操控、多 Agent 协作和手机远程控制等方向。适合已经在用 DSH、但觉得默认能力不够的开发者按需挑选，也能从中看出社区插件目前主要补的是哪些短板。",
+    "summary_en": "A roundup of 16 popular plugins for DeepSeek Harness (DSH), grouped into three buckets: skill extensions, UI enhancements, and novelty builds. The listed plugins cover image recognition, browser control, multi-agent collaboration, and remote control from a phone. It is aimed at developers already running DSH who want more than the default capabilities, and it doubles as a rough map of which gaps the community is currently filling.",
+    "input_hash": "fcc40ef3ae06"
+  },
+  "zhihu-2100633417675293561": {
+    "summary_zh": "这是一个知乎提问，讨论宇树机器人在登泰山大赛中因过热退赛、被担架抬下山的事件，并由此追问人形机器人目前还存在哪些技术瓶颈。原文只是问题标题，未提供更多细节，散热与长时间高负载行走的稳定性显然是讨论的切入点。",
+    "summary_en": "A Zhihu question about a Unitree robot that overheated and withdrew from a Mount Tai climbing competition, then had to be carried down on a stretcher. The question uses the incident to ask what technical bottlenecks humanoid robots still face. The linked page isn't summarized here; details beyond the title aren't available, though thermal limits under sustained load are the obvious entry point.",
+    "input_hash": "6227aa420d65"
+  },
+  "zhihu-2100276309146575288": {
+    "summary_zh": "这是一个知乎提问，讨论智谱为何敢把 GLM-5.3 flash 套餐定到与 GPT-6.1 Sol 相当的价格档位。原文仅提供问题标题，没有更多细节，讨论焦点自然落在定价背后的成本结构、能力对标与目标用户群上。",
+    "summary_en": "A Zhihu question asking why Zhipu is confident pricing its GLM-5.3 flash plan in the same bracket as GPT-6.1 Sol. The linked page isn't summarized here; details beyond the title aren't available. The debate implied by the title is about what sits behind that pricing, whether cost structure, benchmarked capability, or the target customer segment.",
+    "input_hash": "3dfb70b753af"
+  },
+  "zhihu-2100639463642593262": {
+    "summary_zh": "这是一个知乎提问，围绕抖音副总裁李亮多次公开反驳秦朔关于「字节时间」的文章、秦朔称已就相关言论提起名誉权诉讼一事，讨论秦朔胜诉的可能性。原文只有问题标题，未提供更多细节，涉及的是企业高管公开发言与名誉权侵权认定之间的边界。",
+    "summary_en": "A Zhihu question on whether Qin Shuo can win a defamation suit he says he has filed after Douyin vice president Li Liang repeatedly pushed back on Qin's writing about \"ByteDance time.\" The linked page isn't summarized here; details beyond the title aren't available. The underlying issue is where public statements by a company executive cross into actionable defamation.",
+    "input_hash": "1e762d81cb0a"
+  },
+  "zhihu-2099981630773400745": {
+    "summary_zh": "这是一个知乎提问，讨论基于 DeepSeek Harness 的手机插件 DSH Go 上线后 Star 数突破 4000 之后，实际使用体验究竟如何。原文仅提供问题标题，没有更多细节，读者更关心的显然是手机端调用 Harness 的可用性、延迟与日常场景适配。",
+    "summary_en": "A Zhihu question about real-world experience with DSH Go, a phone plugin built on DeepSeek Harness, after it passed 4,000 GitHub stars following launch. The linked page isn't summarized here; details beyond the title aren't available. What readers would want to know is how usable Harness actually is from a phone, in terms of latency and fit for everyday tasks.",
+    "input_hash": "b97d112fbe64"
+  },
+  "zhihu-2099804620293927443": {
+    "summary_zh": "这条知乎提问讨论一个据称由 AI 在零代码条件下生成的算子，速度比 DeepSeek 人类手写的巅峰版本还快 9.8%。标题里的这个对比是唯一可确认的信息，原文为链接，未提供更多细节，比如测的是哪类算子、跑在什么硬件和基准上。",
+    "summary_en": "A Zhihu question cites a result in which an AI-generated operator, produced without hand-coding, runs 9.8% faster than DeepSeek's best human-written version. Beyond that comparison the linked page isn't summarized here; details such as which operator, which hardware, which benchmark, and what baseline the 9.8% is measured against aren't available.",
+    "input_hash": "963b26a7ca38"
+  },
+  "zhihu-2015477375933096972": {
+    "summary_zh": "这是一条知乎提问，征集大模型理论基础中那些令人惊叹的数学工具和关键研究。原文只给了问题链接，未提供更多细节，也没有列出具体工具或论文，关心大模型背后数学来源的读者可以到原帖翻回答。",
+    "summary_en": "A Zhihu question asking which mathematical tools or key research papers in the theoretical foundations of large models people find remarkable. It is posted as a link with no accompanying body text, so the specific tools, papers and answers being discussed aren't available here; readers curious about the math under large models would need to open the thread.",
+    "input_hash": "c85807edd75f"
+  },
+  "zhihu-2095115356692035507": {
+    "summary_zh": "这是一条知乎提问，问的是第一次把主力电脑换成 Linux 之后最容易后悔的地方。原文只提供链接，未给出具体回答内容，也没有列出具体案例，打算把 Linux 当日常主力系统的人可以在原帖里看别人的经历。",
+    "summary_en": "A Zhihu question asking what people most often regret after switching their main computer to Linux for the first time. The linked page isn't summarized here and no answers or specific cases are included, so details beyond the title aren't available; it is aimed at anyone weighing Linux as a daily driver.",
+    "input_hash": "2c19b92b5121"
+  },
+  "infoq-M6Q9I3DFrozJOREx9ztL": {
+    "summary_zh": "前 Microsoft Edge 性能项目经理 Nolan Lawson 让 AI Agent 用 12 种 JavaScript 框架分别构建同一个 Pokémon 应用，统一使用 Claude Opus 5.5 和 High 推理强度，比拼开发成本、Token 消耗与产物性能。结果显示中位成本最低的 Hono+htmx 为 2.67 美元，Angular 达到 4.97 美元，Token 消耗 976 万对 426 万，差约 2.3 倍。",
+    "summary_en": "Nolan Lawson, a former performance program manager on Microsoft Edge, had an AI agent build the same Pokémon app in 12 JavaScript frameworks, all with Claude Opus 5.5 at high reasoning effort, then compared cost, token use and output quality. Hono+htmx came in at a median $2.67 versus $4.97 for Angular, with token consumption of 4.26 million against 9.76 million, roughly 2.3 times higher, raising the question of whether framework choices made for human developer experience still hold when agents write the code.",
+    "input_hash": "767dbdaad1d7"
+  },
+  "gh-daily-floci-io-floci": {
+    "summary_zh": "Floci 是一个开源的本地云模拟器，定位为 AWS Local Emulator 的替代品，用 docker compose up 一条命令即可启动，无需账号、无需 auth token，也没有功能门槛，代码以 MIT 协议发布。适合想在本地调试云相关代码、又不想连真实云账号或受付费墙限制的开发者。",
+    "summary_en": "Floci is an open-source local cloud emulator pitched as an alternative to the AWS Local Emulator: you start it with a single docker compose up, with no account, no auth token and no feature gates, under the MIT license. It targets developers who want to exercise cloud-dependent code locally without touching a real cloud account or hitting paid tiers.",
+    "input_hash": "ab97bfd54ae7"
   }
 }
