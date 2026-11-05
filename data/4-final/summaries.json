@@ -3873,9 +3873,9 @@
     "summary_en": "Apple has filed a lawsuit against OpenAI, accusing it of stealing trade secrets and demanding the destruction of all confidential materials and a redesign of related AI hardware. The two companies were former partners, with plans to integrate OpenAI's technology into Apple devices, but the relationship soured over alleged misuse of proprietary information. Apple claims OpenAI improperly used its chip design and AI accelerator innovations, potentially undermining Apple's hardware edge. The lawsuit could reshape their collaboration and highlights the growing tension between technology sharing and secrecy in the AI era, with broad implications for the industry."
   },
   "gh-daily-github-spec-kit": {
-    "summary_zh": "Spec Kit 是 GitHub 开源的一套 Spec-Driven Development 工具包，主张在动手写代码前先用规格说明定义要构建什么，再交给任意 AI coding agent 实现。它提供开箱即用的流程，也允许换成自己的方案并持续扩展，适合想把 AI 编码纳入统一规范、覆盖整个组织的团队。",
-    "summary_en": "Spec Kit is GitHub's open source toolkit for Spec-Driven Development, which has teams define what to build in a spec before handing the work to any AI coding agent. It ships a ready-to-use process that you can replace with your own or extend, and is aimed at organizations that want a repeatable, spec-first workflow across the whole team.",
-    "input_hash": "ffb28018fdf2"
+    "summary_zh": "Spec Kit 是 GitHub 开源的 toolkit，为 AI coding agent 提供结构化流程和可复用模板，覆盖写 spec、修 bug、评估想法等场景，README 提供中文、日文、韩文版本。它适合想把 Spec-Driven Development（SDD）纳入日常流程的团队，让 agent 按规格产出，而不是凭感觉生成代码。",
+    "summary_en": "Spec Kit is an open source toolkit from GitHub that gives AI coding agents structured processes and reusable templates for writing a spec, fixing a bug, or assessing an idea. It targets teams trying to adopt Spec-Driven Development (SDD), so agent output follows a spec instead of improvisation. Docs live on GitHub Pages, and the README ships in Chinese, Japanese, and Korean as well as English.",
+    "input_hash": "11ad577cc10c"
   },
   "gh-daily-Graphify-Labs-graphify": {
     "summary_zh": "graphify 以 /graphify 技能的形式接入 Claude Code、Cursor、Codex 和 Gemini CLI，把代码库连同文档、SQL schema、配置文件和 PDF 一起解析成可查询的知识图谱。它采用本地确定性的 AST 解析，代码不需要上传到外部服务。适合想让 AI 助手回答大型仓库结构性问题的人。",
@@ -8194,9 +8194,9 @@
     "input_hash": "983bbe3bf868"
   },
   "gh-daily-harry0703-MoneyPrinterTurbo": {
-    "summary_zh": "MoneyPrinterTurbo 是 harry0703 开源的短视频生成工具，输入主题或关键词后会自动撰写脚本、匹配素材、生成字幕和背景音乐，并合成高清视频，支持 Windows、macOS、Linux，需 Python 3.11 以上。它把剪辑流程压缩成一次自动化调用，适合想批量产出短视频却不想手动剪辑的开发者与内容创作者。",
-    "summary_en": "MoneyPrinterTurbo is an open-source tool from harry0703 that turns a topic or keyword into a finished HD short video: it writes the script, picks matching footage, generates subtitles and background music, then renders the result. It runs on Windows, macOS and Linux and needs Python 3.11 or newer, making it useful for creators and developers who want to batch-produce short videos without editing by hand.",
-    "input_hash": "4fabdf98e8c2"
+    "summary_zh": "MoneyPrinterTurbo 是一个开源的 AI 短视频生成工具：输入主题或关键词，它会自动写脚本、匹配素材、生成字幕和背景音乐，再合成高清视频。项目用 Python 3.11+ 开发，提供 Windows、macOS、Linux 版本，适合想批量做短视频又不想手动剪辑的人。",
+    "summary_en": "MoneyPrinterTurbo is an open-source tool that generates short videos from a topic or keyword: it writes the script, matches footage, creates subtitles and background music, then renders an HD video. It runs on Python 3.11+ with releases for Windows, macOS and Linux, aimed at people who want automated short-video production without manual editing.",
+    "input_hash": "fa2784c999c6"
   },
   "hn-49299222": {
     "summary_zh": "这是 2020 年发布的讽刺网页，集中调侃网站常见的骚扰式设计：Cookie 弹窗、订阅弹窗、优惠码、聊天机器人，还穿插“Trump 2020”“I Hate Puppies”等横幅。它模拟用户被反复打断的体验，适合前端和产品设计师当反面清单。",
@@ -19804,9 +19804,9 @@
     "input_hash": "4d465d0844c6"
   },
   "infoq-u70P77XPmsXmRBciu6fL": {
-    "summary_zh": "QCon 全球软件开发大会上海站将于 10 月 22 日至 24 日举办，携程大数据平台 SRE 总监周昕毅将在“理性驾驭 AI 的 SRE 可靠性工程”专题中分享《AI + SRE ≠ AISRE》。他结合携程大数据平台实践，讨论 AI 从理解告警、定位根因到调用工具执行，如何在稳定性、运维效率与成本治理场景真正进入生产闭环。",
-    "summary_en": "QCon Global Software Development Conference Shanghai runs October 22-24, where Zhou Xinyi, SRE director of Ctrip's big data platform, will present \"AI + SRE ≠ AISRE\" in the track on rationally governing AI in SRE reliability engineering. Drawing on Ctrip's big data platform, he covers how AI moves from reading alerts, logs and metrics and locating root causes to calling tools and executing actions, across stability, operations efficiency and cost governance.",
-    "input_hash": "c02a3399f543"
+    "summary_zh": "这是 QCon 上海的一场演讲，主题是 AI 与 SRE 的结合，核心观点是简单把 AI 叠加到 SRE 流程上并不等于做出 AISRE，讨论重点在于 AI 如何真正进入生产运维闭环。原文未提供更多正文细节，适合正在评估 AIOps 落地路径的运维和平台工程团队参考。",
+    "summary_en": "A QCon Shanghai talk arguing that bolting AI onto SRE practices does not by itself produce AISRE, and examining how AI actually gets embedded into the production operations loop. The linked page isn't summarized here; details beyond the title aren't available. Relevant to ops and platform engineering teams weighing how AIOps should land in real systems.",
+    "input_hash": "626597c277e9"
   },
   "infoq-6jvNkzZCm5mjr22zr04D": {
     "summary_zh": "Canvas UI 是 React Bits 作者 David Haz 推出的开源组件库，也是首个基于实验性 HTML-in-Canvas API 构建的组件库，含 35 个组件，用实时 DOM 布局配合 GLSL/WebGPU 着色器实现流体、火焰、玻璃透镜、VHS 颗粒等特效，文本仍可选、链接仍可点。它以兼容 shadcn 的注册表按源码分发，完整体验需在 Chrome 中启用 canvas-draw-element 标志或使用 Chrome 148–150 的源试用令牌，适合关注 WebGPU 与前端渲染前沿的开发者。",
@@ -21249,9 +21249,9 @@
     "input_hash": "d89aa987abcf"
   },
   "v2ex-7ed09ac42b0c": {
-    "summary_zh": "YourKeep 是一款开源备份工具，文件在本地加密后拆成多份，可分存于不同云盘或硬盘，例如 2/3 方案任意保留 2 份即可恢复，无需注册、不上传服务器，恢复功能永久免费。目前已支持 iOS、Android、Windows、macOS 和 Linux，作者在 V2EX 通过 Apple 官方兑换链接发放 iOS 终身会员。适合担心云盘封号或硬盘损坏导致重要文件丢失的用户。",
-    "summary_en": "YourKeep is an open-source backup tool that encrypts files locally, splits them into shards kept across different cloud drives or disks, and needs only a subset to restore the originals — for example, any 2 of 3 shards. It requires no account and no upload to a server, with recovery free forever, and runs on iOS, Android, Windows, macOS and Linux. The developer is giving away iOS lifetime codes through Apple's official redemption link on V2EX.",
-    "input_hash": "bc10b559a836"
+    "summary_zh": "V2EX 用户分享了自己开发的开源工具 YourKeep，并在帖子里放出 500 个终身授权名额。原文只给了标题和链接，未提供更多细节，从标题能确认的是它开源、作者自研、以赠送终身名额的方式做早期推广。想尝鲜或对独立开发者作品感兴趣的人可以去原帖看具体功能。",
+    "summary_en": "A V2EX user shared YourKeep, an open source tool they built themselves, and is giving away 500 lifetime licenses in the thread. The linked page isn't summarized here; details beyond the title aren't available, so what's certain is only that it's open source, self-developed, and being promoted through free lifetime seats. Worth a look if you follow indie developer projects.",
+    "input_hash": "12d24af9a1ce"
   },
   "v2ex-11ab44a3be65": {
     "summary_zh": "英伟达 400G 光模块 MMS1X00-NS400 的规格文档在「Handling and Cleaning」一节写明：80% 的光模块链路故障与光接头脏污有关。该模块是 QSFP112 封装、单模 1310nm、最远 500 米，配 ConnectX-7 与 BlueField-3 使用，文档要求插纤前清洁端面和光纤接头并保留防尘帽。作者据此整理了先查端面、再交叉换位、最后才怀疑模块的排查顺序，适合机房运维和光模块使用者参考。",
@@ -21529,9 +21529,9 @@
     "input_hash": "bde2974af246"
   },
   "infoq-wMMAbsA4UOtYlAl1fH4T": {
-    "summary_zh": "阿里千问 10 月 13 日开售 AI 眼镜 N1、N1 Pro，到手价 2218 元起，并推出与 Bose 合作的耳夹式耳机。新机取消显示屏、主打语音交互，N1 Pro 含 5000 万像素传感器与眼动追踪仍仅约 44g，靠骁龙 AR1 等异构平台把常驻视觉感知功耗压至 5 毫瓦。面对国内出货量首次同比下滑，它想用「Personal Agent」补上现实世界的即时上下文。",
-    "summary_en": "Alibaba's Qwen launched its N1 and N1 Pro AI glasses on October 13, priced from 2,218 yuan, alongside a Bose-partnered clip-on AI earbud at 1,099 yuan. The new models drop the display in favor of voice interaction, yet the N1 Pro still packs a 50MP sensor and eye tracking at roughly 44g, with an always-on visual sensing chain drawing just 5 milliwatts. Qwen frames the hardware as a \"Personal Agent\" meant to give models real-world context, as China's smart-glasses shipments fell 8% year over year.",
-    "input_hash": "bbb2e9fc436a"
+    "summary_zh": "千问推出 AI 眼镜新硬件，定价 2218 元起，其主张是拍照和翻译这类功能撑不起 AI 眼镜，真正的机会在于抓取现实世界里的上下文。原文未提供更多正文细节，适合关注 AI 硬件形态和端侧多模态入口的人跟进。",
+    "summary_en": "Qwen launched AI glasses starting at 2,218 yuan, with the pitch that photo capture and translation aren't enough to carry smart glasses and that the real opportunity is capturing context from the physical world. The linked page isn't summarized here; details beyond the title aren't available. One to watch for those tracking AI hardware form factors and on-device multimodal entry points.",
+    "input_hash": "e38d03efb56a"
   },
   "v2ex-20915653e56e": {
     "summary_zh": "一位用户更换 2.5G 光猫 F7005TV3 后，用 Telnet 删掉 TR069 并改由软路由桥接拨号，随后国内明文 DNS 查询被劫持到光猫注册页，改用 DoH 后仍被劫持。最终他删除 redictv3、ipredictd、appmgr 三个内置模块才恢复正常。适合自行改造运营商光猫的人参考。",
@@ -21554,9 +21554,9 @@
     "input_hash": "c583629d01eb"
   },
   "infoq-hQOHf1ZXoBs7uMpWJQss": {
-    "summary_zh": "Pi 发布今年最大更新：项目升级到 1.0，Code Mode 与原生 MCP 正式进入稳定版，同时推出长时 Agent 框架 Pi Durable。Pi Durable 接管消息存储、任务调度与崩溃恢复，让 Agent 进程挂掉后从中断处继续；Code Mode 则让 Agent 在 QuickJS 沙箱里写 JavaScript 调用工具以省 Token。曾公开拒绝 MCP 的团队如今正式接入，标志 Pi 从终端编程 Agent 向 Agent 基础设施延伸。",
-    "summary_en": "Pi shipped its biggest update of the year: version 1.0 makes Code Mode and native MCP stable, alongside a new long-running agent harness called Pi Durable. Pi Durable handles message storage, task scheduling and crash recovery so an agent resumes where it left off, while Code Mode lets agents run JavaScript in a QuickJS sandbox to cut token use. The team that once publicly rejected MCP has now adopted it, marking Pi's move from a terminal coding agent toward agent infrastructure.",
-    "input_hash": "63cfc5c16fb4"
+    "summary_zh": "Pi 发布了一套新的 Agent Harness，同时把此前被自己批评了一年的 MCP 正式集成进核心。原文未提供更多细节，从标题看这是一次产品架构上的转向：既换掉了 Agent 运行框架，也在协议层接受了 MCP。关注 Agent 基础设施和 MCP 生态走向的开发者可以留意。",
+    "summary_en": "Pi shipped a new Agent Harness and moved MCP, a protocol it had spent a year criticizing, into its core. The linked page isn't summarized here; details beyond the title aren't available, but the headline points to an architectural shift on both the agent runtime and the protocol layer. Relevant to developers tracking agent infrastructure and where the MCP ecosystem is heading.",
+    "input_hash": "6a87e868fcfd"
   },
   "36kr-4027808045224326": {
     "summary_zh": "36氪 报道 Meta 发布了一款被称为美国最强开源权重模型的新模型，并称两台 Mac Studio 就能把它跑起来。原文只给出标题，未提供模型名称、参数规模和基准成绩等更多细节。",
@@ -25567,5 +25567,225 @@
     "summary_zh": "Floci 是一个开源的本地云模拟器，定位为 AWS Local Emulator 的替代品，用 docker compose up 一条命令即可启动，无需账号、无需 auth token，也没有功能门槛，代码以 MIT 协议发布。适合想在本地调试云相关代码、又不想连真实云账号或受付费墙限制的开发者。",
     "summary_en": "Floci is an open-source local cloud emulator pitched as an alternative to the AWS Local Emulator: you start it with a single docker compose up, with no account, no auth token and no feature gates, under the MIT license. It targets developers who want to exercise cloud-dependent code locally without touching a real cloud account or hitting paid tiers.",
     "input_hash": "ab97bfd54ae7"
+  },
+  "infoq-fvNWWYEmke5xJVsHEIIi": {
+    "summary_zh": "InfoQ 精选：AI 改变的是数据接口，而不是查询引擎",
+    "summary_en": "Featured on InfoQ: AI 改变的是数据接口，而不是查询引擎",
+    "input_hash": "9c61509634a4"
+  },
+  "v2ex-b1a2f8c1a08f": {
+    "summary_zh": "V2EX 热议：[问与答] 「AI 味」到底是什么？",
+    "summary_en": "Hot on V2EX: [问与答] 「AI 味」到底是什么？",
+    "input_hash": "e69601f0f2f2"
+  },
+  "v2ex-dad530824d93": {
+    "summary_zh": "V2EX 热议：[问与答] 磁吸手机壳对位不正是普遍情况么？",
+    "summary_en": "Hot on V2EX: [问与答] 磁吸手机壳对位不正是普遍情况么？",
+    "input_hash": "552a83b99b54"
+  },
+  "infoq-bFKTeyCOlydWMYi91H4q": {
+    "summary_zh": "InfoQ 精选：大模型会击穿具身智能吗？稚晖君带领团队深刻复盘并解答",
+    "summary_en": "Featured on InfoQ: 大模型会击穿具身智能吗？稚晖君带领团队深刻复盘并解答",
+    "input_hash": "72cfbda8e6f4"
+  },
+  "infoq-c3vTLNrRwfCzw8SAmz90": {
+    "summary_zh": "InfoQ 精选：研究发现：AI 生成代码受下游环节瓶颈制约，无法提升整体生产力",
+    "summary_en": "Featured on InfoQ: 研究发现：AI 生成代码受下游环节瓶颈制约，无法提升整体生产力",
+    "input_hash": "3ac4cc04cef5"
+  },
+  "zhihu-2101274789797282938": {
+    "summary_zh": "知乎上有一个讨论，围绕张雪回应校招起薪 10 万被嫌低时说的「你不能逼我把应届生工资提到 20 万」，并追问其拿老员工举例是否显得傲慢。原文是链接，未提供更多细节，回答与具体薪资数字均无从核实。",
+    "summary_en": "A Zhihu discussion thread about Zhang Xue's response to criticism that a 100k campus-hire salary offer was too low, in which he said he can't be forced to raise fresh-graduate pay to 200k, and whether citing veteran employees as an example came across as arrogant. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "0ac83404fb90"
+  },
+  "36kr-4054721087902855": {
+    "summary_zh": "36氪这篇稿子的标题是《年轻人，已经不买车了》，讨论年轻群体购车意愿的变化。原文是链接，未提供更多细节，具体数据、样本和结论依据都不在输入中。",
+    "summary_en": "A 36Kr article titled \"Young people have stopped buying cars,\" looking at the shift in car-purchasing intent among younger consumers. The linked page isn't summarized here; details beyond the title, including any figures or survey basis, aren't available.",
+    "input_hash": "183e24377900"
+  },
+  "infoq-tIt75FRqU2hwy4eWrOIu": {
+    "summary_zh": "11 月 3 日深圳百度 AI Day·Apollo 专场上，百度 Apollo 首次披露 Apollo World，一个面向物理 AI 的智能体驱动全模态世界模型，并提出因果性、交互性两项门槛加三项增益属性的「2+3」判断标准。它把虚拟场景里的交通参与者建模为可决策、可交互的 AI 智能体，已用于萝卜快跑全球化测试与验证；官方称其一天可跑十万公里虚拟路测，约等于真实路测车带安全员跑三年。做自动驾驶仿真和物理 AI 的人值得看它如何定义世界模型的评价尺度。",
+    "summary_en": "At its Baidu AI Day Apollo event in Shenzhen on November 3, Baidu Apollo unveiled Apollo World, an agent-driven omni-modal world model for physical AI, along with a \"2+3\" rubric: causality and interactivity as baseline requirements, plus three capability metrics. The model treats every traffic participant in a virtual scene as a decision-making, interacting AI agent, and is already used to test and validate Baidu's robotaxi service across global markets; Baidu claims it can simulate 100,000 km of virtual road testing per day, roughly three years of real-world testing with a safety driver. Relevant to anyone working on autonomous-driving simulation or physical AI.",
+    "input_hash": "e686b4b03d5a"
+  },
+  "v2ex-800ab9851e6b": {
+    "summary_zh": "V2EX 上的一则推广帖，销售 ChatGPT Plus 与 Pro 的直充账户，标价 Plus 125、5x 660、20x 1150，称可开票，并提到 Pro 订阅额度翻倍、5x 档用量约为 Plus 的十倍。发帖人称已服务 100 多位 V 友，联系需加微信并备注 v2。这类第三方代充涉及账号归属与封禁风险，读者需自行判断。",
+    "summary_en": "A V2EX promotional post selling direct top-ups for ChatGPT Plus and Pro accounts, priced at 125 for Plus, 660 for the 5x tier and 1150 for 20x, with invoices offered. The poster says Pro quotas have doubled and that the 5x tier delivers roughly ten times Plus usage, claims 100-plus V2EX users served, and asks buyers to add a WeChat contact with a note. Third-party account top-ups carry ownership and ban risks, so buyers should judge for themselves.",
+    "input_hash": "9ba851b74e71"
+  },
+  "v2ex-dd3fa9c084d9": {
+    "summary_zh": "有开发者在 V2EX 推广 browseraigames.com，一个既能玩别人做的 AI 小游戏、也能自己动手开发小游戏的网站，站内分玩耍和创作两个入口。帖子称支持用 Opus 5.5 开发游戏，适合想低成本试做浏览器小游戏的人。",
+    "summary_en": "A developer is promoting browseraigames.com on V2EX, a site with separate sections for playing AI-made browser games and for building your own. The post says game creation is supported by Opus 5.5, which makes it worth a look for anyone wanting to prototype small browser games with low setup cost.",
+    "input_hash": "366842821bf1"
+  },
+  "infoq-z1ZeGD2FDqi6xLvSJjSl": {
+    "summary_zh": "Utopai Studios 任命前迪士尼技术赋能办公室 AI 与工程副总裁 Hans Ku 为首席产品官，统筹产品、工程、研究与业务拓展，推动长篇影视叙事引擎 PAI 的规模化应用。他在迪士尼曾参与与 OpenAI 围绕 Sora 的合作，在 Tubi 任内推动基于 GPT-4 的 Rabbit AI 内容发现功能上线。",
+    "summary_en": "Utopai Studios has hired Hans Ku, formerly VP of AI and engineering in Walt Disney's technology enablement office, as chief product officer, putting him in charge of product, engineering, research and business development to scale its PAI long-form narrative engine. At Disney he helped bridge OpenAI's research and product teams on Sora; at Tubi he shipped a GPT-4-powered content discovery feature.",
+    "input_hash": "e87bc4389d95"
+  },
+  "v2ex-2c8b006589a5": {
+    "summary_zh": "有用户报告自己的 M5 Pro MacBook Pro 触控板突然失去震动反馈，指针移动和按压点击都正常，只是没有 haptic 回馈，他怀疑与前一天清理机身缝隙灰尘有关。帖子没有给出排查结果，遇到类似情况的人可以先对照这个现象描述。",
+    "summary_en": "A MacBook Pro (M5 Pro) owner reports that the trackpad suddenly lost its haptic feedback: the cursor still moves and press-to-click still registers, but there is no vibration, possibly after he cleaned dust out of the chassis gap the day before. The post offers no diagnosis or fix, so it is mainly a symptom report for anyone troubleshooting similar hardware.",
+    "input_hash": "0fd4a3f54806"
+  },
+  "v2ex-4c23ab632e54": {
+    "summary_zh": "一位用户的群晖 NAS 在出差期间被勒索病毒加密，常规办法都无效后，他想起机器里有两块用作缓存的 SSD，于是让 AI 遍历缓存生成 CSV 目录清单，发现重要文件基本都在，目前正在提取数百 GB 数据。他强调重要文件仍需云端单向冷备份，3-2-1 备份原则不能省。",
+    "summary_en": "After ransomware encrypted the files on his Synology NAS while he was travelling, a user recovered data from the two SSDs he had installed as cache. Having AI generate a CSV directory listing of the cache showed that most important files were still there, and he is now extracting hundreds of gigabytes. He still stresses off-site cold backups and the 3-2-1 rule.",
+    "input_hash": "15f2659247d6"
+  },
+  "v2ex-1f90e5553145": {
+    "summary_zh": "一位程序员在 V2EX 发帖称，离职半年后重新投简历，大多数都变成已读不回，感觉就业环境几乎每个月都在收紧。帖子没有给出技术栈、工作年限或所在城市等细节，更像是一次求助式的吐槽。",
+    "summary_en": "A developer on V2EX says that after six months out of work, most résumés he sends now show as read but get no reply, and the job market seems to tighten every month. The post gives no details on tech stack, years of experience or location; it is essentially a vent asking for advice.",
+    "input_hash": "006ee10343ab"
+  },
+  "v2ex-275c893cecbc": {
+    "summary_zh": "有 V2EX 用户反馈，他的 iPhone 18 Pro 放到无线充电器上时，本该出现的圆环动画和「duang」提示音会消失，重启手机能暂时恢复，但过一段时间又复发。从 iOS 27.2 Beta 升到 27.2 正式版、再到 27.3 Beta 都没解决，网上重开静音模式之类的办法也无效。他在帖中求教成因和一劳永逸的解法。",
+    "summary_en": "A V2EX user reports that on their iPhone 18 Pro, the ring animation and \"duang\" chime that normally fire when the phone is placed on a wireless charger have stopped appearing. A reboot brings the sound back temporarily before it vanishes again, and the issue has persisted across iOS 27.2 beta, the 27.2 release and 27.3 beta; common workarounds like toggling silent mode did nothing. The poster is asking for the cause and a permanent fix.",
+    "input_hash": "a0041277181a"
+  },
+  "gh-daily-NVIDIA-auto-ontology": {
+    "summary_zh": "NVIDIA 开源了 Auto Ontology（Apache-2.0），一个用 Python 编写的库，可从企业元数据生成本体、打通跨系统的指标口径，并搭建 AI 就绪的知识图谱。它给 agent 提供指标、实体与关系的业务含义，用认证定义和血缘校验生成的查询并附带来源，再通过 MCP、CLI 和 API 暴露给任意 agent 框架，适合在意 agentic analytics 结果准确性的团队。",
+    "summary_en": "NVIDIA's Auto Ontology is an open-source Python library (Apache-2.0) that builds a semantic, graph-based context layer from enterprise metadata: it generates ontologies, reconciles conflicting metric definitions across systems and produces AI-ready knowledge graphs. Agents get grounding for metrics and entities, query validation against certified definitions and lineage, plus provenance, with context served to any agent harness via MCP, CLI or API. Aimed at teams where a fast but wrong agent answer is worse than none.",
+    "input_hash": "5e6ea5ce2e8f"
+  },
+  "v2ex-5b557fb93d79": {
+    "summary_zh": "SSHYard 是一款免费开源的 SSH/SFTP 客户端，同时内置 AI 助手，可以在终端里管理远程文件，并让 AI 直接在主机上执行命令，一个窗口完成。它支持 macOS、Windows 和 Linux，用 Go 编写、纯原生渲染，不依赖 WebView；源码在 GitHub 的 Licoy/sshyard，作者在帖中按楼层送出 50 $v2ex，共 100 层。",
+    "summary_en": "SSHYard is a free, open-source SSH/SFTP client with a built-in AI assistant that can run commands directly on the remote host, so terminal sessions and file management stay in one window. It runs on macOS, Windows and Linux, is written in Go with fully native rendering and no WebView, which the author credits for its speed and low footprint. Source lives at GitHub's Licoy/sshyard; the V2EX thread hands out 50 $v2ex per floor for 100 floors.",
+    "input_hash": "3d1b383ef154"
+  },
+  "v2ex-7cccc92fe834": {
+    "summary_zh": "这是一篇 2026 年 9 月的读书笔记，作者读了梅拉妮·米歇尔的《AI 3.0》（豆瓣 8.8）、第三版《人工智能》教材和《大国护眼之策》三本。他的判断是 2023 年前的书都没覆盖大模型，但书中从感知机、反向传播到 ConvNets 和 AlphaGo 的算法脉络仍有助于理解 LLM 的来路，剩下更多是数据、算力和工程问题。",
+    "summary_en": "A September 2026 reading note covering three books: Melanie Mitchell's AI 3.0, a third-edition AI textbook and a Chinese title on eye care. The author argues anything published before 2023 misses large language models, yet these two AI books still map the lineage from perceptrons and backpropagation through ConvNets to AlphaGo, which helps explain where LLMs came from. The rest, he says, is data, compute and engineering work that only production environments can surface.",
+    "input_hash": "afe44d0b01ea"
+  },
+  "gh-daily-JiaFeiMiao-K-Cat-DiscImageStudio": {
+    "summary_zh": "DiscImageStudio 是一个以 C#/.NET 10 编写、采用 GPL-3.0 的开源工具，能把一张图片转换成符合 CD、DVD 和单层 BD-R 物理层约束的数据，用普通刻录光驱刻录后，盘面就会出现肉眼可见的图案。它同时支持 Windows、Linux 和 macOS，适合想给自刻光盘做盘面图案、又不依赖专用盘面刻印设备的用户。",
+    "summary_en": "DiscImageStudio is a GPL-3.0 open-source tool written in C# on .NET 10 that converts an image into data matching the physical-layer constraints of CD, DVD and single-layer BD-R media, so an ordinary burner etches a visible picture onto the disc surface. It runs on Windows, Linux and macOS, and targets anyone who wants custom disc art from a standard drive.",
+    "input_hash": "9d0db80dcd4b"
+  },
+  "36kr-4054834101326985": {
+    "summary_zh": "标题称，一个神秘的「双模型」配置曾在 OpenAI 的 API 中短暂出现，随后被火速撤回，指向即将到来的 GPT-6.2 Astra。原文是链接，未提供更多细节，因此模型能力、上线时间和撤回原因都无法核实。",
+    "summary_en": "The headline says a mysterious \"dual model\" setup briefly appeared in OpenAI's API before being pulled, apparently tied to a forthcoming GPT-6.2 Astra. The linked page isn't summarized here; details beyond the title, such as capabilities, release timing or why it was withdrawn, aren't available.",
+    "input_hash": "d208fe031b3b"
+  },
+  "infoq-BGkTakB51rl6ybIh4sYJ": {
+    "summary_zh": "帆软 CPO 兼 AI 转型负责人张驰将在 12 月 18–19 日北京 AICon 的「AI 时代的组织重构」专题，讲帆软如何把 AI 业务单独拆出、独立核算，用比老业务高得多的容错度孵化出悟帆、Dora 等产品。他还会分享选人不看履历、先发 AI 工具和额度再看谁用得最多，以及小团队赶进度时踩过的架构债和测试欠账。",
+    "summary_en": "At AICon Beijing on December 18–19, Fanruan CPO and AI transformation lead Zhang Chi will explain how the company carved its AI business into a separately accounted unit with far higher tolerance for failure, which incubated products including Wufan and Dora. He will also cover picking people by observed AI tool usage rather than résumés, and the architecture and testing debt his small team ran into while shipping.",
+    "input_hash": "2fed91e7d2d2"
+  },
+  "infoq-mcHCe07TQ08mEZtqcWi1": {
+    "summary_zh": "OpenAI 11 月 3 日宣布，Uber 总裁兼首席公司事务官 Jill Hazelbaker 将于 12 月初出任 OpenAI 同一职位，直接向联合创始人 Greg Brockman 汇报，统管全球传播、企业声誉与品牌定位。她在 Uber 任职十余年、今年 5 月刚升任总裁，此前在 Google、Snap 与政治传播领域任职。该岗位自前首席传播官 Hannah Wong 今年 1 月离职后已空缺约十个月，正值 OpenAI 应对监管与公众信任压力之际。",
+    "summary_en": "OpenAI said on November 3 that Uber president and chief corporate affairs officer Jill Hazelbaker will join in early December in the same role, reporting directly to co-founder Greg Brockman and owning global communications, corporate reputation and brand positioning. She spent over a decade at Uber, was promoted to president in May, and previously held senior roles at Google and Snap plus political communications work. The job had sat vacant for roughly ten months since chief communications officer Hannah Wong left in January, as OpenAI faces regulatory and public-trust pressure.",
+    "input_hash": "4a8c747113b8"
+  },
+  "infoq-C1C1DThg8z1Dy0rZAmLB": {
+    "summary_zh": "YC Paper Club 的 Harness Night 上，Prime Agent 作者 Seth Karten、OpenJarvis 作者 Jon Saad-Falcon 与 QM 团队讨论了一个现象：同一份模型权重，换一套 Harness，ARC-AGI 成绩能从 30% 升到 95%。Karten 把上下文分为模型权重、活跃上下文加 REPL、文件系统状态三层，主张压缩、Python REPL、编程式子 Agent 等能力缺一不可；Saad-Falcon 则称本地 LLM 只落后前沿模型 6 到 12 个月。",
+    "summary_en": "At YC Paper Club's Harness Night, Seth Karten (Prime Agent), Jon Saad-Falcon (OpenJarvis) and the QM team argued the harness matters as much as the model: the same weights can score anywhere from 30% to 95% on ARC-AGI depending on the scaffolding around them. Karten splits context into model weights, active context plus a REPL, and filesystem state, and calls compression, a Python REPL and programmatic sub-agents non-negotiable. Saad-Falcon notes local LLMs trail frontier models by only 6 to 12 months.",
+    "input_hash": "3ebcc3fd33d9"
+  },
+  "infoq-OiyNEtFwV05opvsLTcvK": {
+    "summary_zh": "CentOS 创始人之一、Rocky Linux 发起人 Gregory Kurtzer 在 2026 年 10 月 27 日宣布，用 11 天、以“人类主导的智能体工程”写出约 13.9 万行代码，做出以 Rust 为主的 x86-64 内核 Ginux，可启动 Rocky Linux 10 并运行 systemd。它不是 Linux 的分叉，但实现了 Linux ABI，未修改的二进制程序可直接运行。其参照对象是 Anthropic 的 Nicholas Carlini 用 16 个 Claude 智能体从零造 C 编译器的实验。",
+    "summary_en": "Gregory Kurtzer, a CentOS co-founder and the driving force behind Rocky Linux, said on October 27, 2026 that in 11 days of what he calls Human-Directed Agentic Engineering he produced roughly 139,000 lines of code for Ginux, a standalone Rust-centric x86-64 kernel that boots Rocky Linux 10 and runs systemd. It is not a Linux fork, but it implements the Linux ABI, so unmodified binaries run on it. He cites Nicholas Carlini's 16-agent Claude C compiler as precedent.",
+    "input_hash": "4377b1a74800"
+  },
+  "36kr-4054861669275529": {
+    "summary_zh": "文章讨论手机在多项配置上普遍缩水、硬件降级的现象，以及这种降配最终由用户承担的问题。原文是链接，未提供更多细节，具体涉及哪些机型、哪些组件被降级以及厂商的说法无法确认。",
+    "summary_en": "The piece examines how phone hardware is being cut back across a range of specs and what that leaves buyers with. The linked page isn't summarized here; details beyond the title, such as which models, components or vendors are involved, aren't available.",
+    "input_hash": "249c15e7e73b"
+  },
+  "36kr-4054788668429440": {
+    "summary_zh": "这条36氪报道的标题指向 FDE（Forward Deployed Engineer）这一岗位：有人开出月薪 8 万的价码招人，同时却有一批 FDE 接不到单。原文是链接页，未提供更多正文细节，因此薪资口径和接单困境的具体成因都无法核实。",
+    "summary_en": "A 36Kr report looks at Forward Deployed Engineers: roles advertised at up to RMB 80,000 a month, while a cohort of FDEs reportedly can't land engagements. The linked page isn't summarized here; details beyond the title aren't available, so the pay figures and the reasons behind the stalled pipeline can't be verified.",
+    "input_hash": "ba1c1cf00e66"
+  },
+  "hn-50364336": {
+    "summary_zh": "Hacker News 上的一篇讨论认为，AI 在网络安全领域同时加速了攻击方和防守方，也把脆弱遗留系统里积压了几十年的技术债摊到台面上。核心论点是：当攻防节奏被 AI 拉快，那些靠一层层补丁维持的老系统会最先出问题。",
+    "summary_en": "A Hacker News discussion argues that AI in cybersecurity accelerates attackers and defenders alike, and in doing so exposes technical debt accumulated over 40 years in fragile legacy systems. The point is that once AI speeds up the pace of both offense and defense, the oldest patch-upon-patch systems are the first to break.",
+    "input_hash": "9d5c0f57b943"
+  },
+  "36kr-4055120234551173": {
+    "summary_zh": "36氪这篇报道围绕张雪与网友之间关于「年薪 10 万嫌低」的争论展开，标题显示当事人做出了情绪激烈的公开回应。原文是链接页，未提供更多正文细节，争论的具体语境和双方说法都无法核实。",
+    "summary_en": "This 36Kr item centers on an argument between Zhang Xue and online commenters over whether an annual salary of RMB 100,000 is too low, with the headline describing an angry public response. The linked page isn't summarized here; details beyond the title aren't available, so the context of the dispute can't be verified.",
+    "input_hash": "0987b5703048"
+  },
+  "hn-50339288": {
+    "summary_zh": "博主开的是 2014 款 Renault Latitude，前车主说改时钟必须插导航地图 SD 卡，他不信，结果屏幕上一直挂着「No maps found!」，最后只能越狱车机系统来改时间。这件事说明车机固件把无关功能绑在过期的地图数据上，也提醒车主：这类封闭系统里的小需求往往得靠逆向手段解决。",
+    "summary_en": "The author drives a 2014 Renault Latitude and was told by the previous owner that changing the clock required a navigation map SD card. He didn't believe it, skipped the card, ended up with a permanent \"No maps found!\" message, and jailbroke the head unit just to set the time. It's a concrete case of car firmware tying unrelated features to stale map data.",
+    "input_hash": "f5f5b48996e7"
+  },
+  "36kr-4054892007216004": {
+    "summary_zh": "多邻国（Duolingo）靠 AI 压缩成本，日活跃用户同比增长 29%，并计划在明年把重点放在变现上。原文只提供了标题，未给出具体财报数字或 AI 用法细节。",
+    "summary_en": "Duolingo cut costs with AI and saw daily active users rise 29%, with monetization set as next year's priority, according to the headline. This 36Kr item is a headline only; the linked page isn't summarized here, so details on the AI systems used and the specific financial figures aren't available.",
+    "input_hash": "501cddaea12e"
+  },
+  "36kr-4054719551673478": {
+    "summary_zh": "这是一篇苹果国行 AI 功能的抢先实测，作者把苹果的实现与华为、小米、OPPO、vivo 已有的功能做对比，追问苹果能否做出差异。原文只有标题，没有给出具体测试项目或结论。",
+    "summary_en": "A first-hand test of Apple's China-market AI features compares them with capabilities Huawei, Xiaomi, OPPO and vivo already offer, asking whether Apple's implementation is meaningfully different. This 36Kr article is a headline only; the linked page isn't summarized here, so specific test results and conclusions beyond the title aren't available.",
+    "input_hash": "eb25da11bf0d"
+  },
+  "36kr-4054817959121794": {
+    "summary_zh": "标题用「绑架」来形容 AI 与美股「七姐妹」的关系，讨论 AI 对这些大型科技股的影响。原文只有标题，没有正文，具体数据、观点和涉及的公司细节都无从确认。",
+    "summary_en": "The headline examines how AI has come to dominate the Magnificent Seven U.S. tech stocks, using the word 'kidnap' to suggest tight dependence. This 36Kr item is only a headline; the linked page isn't summarized here, so details beyond the title, including data and specific arguments in the reporting, aren't available.",
+    "input_hash": "545f2dcdf3f2"
+  },
+  "zhihu-2100649711723963421": {
+    "summary_zh": "标题提出一个问题：字节跳动为何如此害怕被称为「字节时间」的东西。原文只有标题和链接，没有正文，因此「字节时间」具体指什么、字节为何在意都无法从现有材料确认。",
+    "summary_en": "The headline asks why ByteDance is so wary of what it calls 'ByteTime' (字节时间), but doesn't explain the term. This Zhihu item is a headline only; the linked page isn't summarized here, so what 'ByteTime' means and why the company cares aren't available. Beyond that, no details are provided.",
+    "input_hash": "c6e3e93ebffd"
+  },
+  "36kr-4055331476526214": {
+    "summary_zh": "一位普林斯顿计算机系毕业的女性工程师突然从 Anthropic 离职，她此前的工作被认为直接带火了 Claude Code。原文是链接，未提供更多细节，她的具体职位、离职时间与去向都无法从标题确认。关注 AI 编程工具背后人事变动的人可以留意这条。",
+    "summary_en": "A Princeton computer science graduate has abruptly left Anthropic, and her work there is credited with helping Claude Code take off. The linked page isn't summarized here; details beyond the title, such as her exact role, departure timing or destination, aren't available. It's relevant to developers tracking who shapes Anthropic's coding-agent roadmap.",
+    "input_hash": "b1ae2679ff0b"
+  },
+  "36kr-4054987443524745": {
+    "summary_zh": "据标题，OpenAI 公布了一套被称作 AGI 新标准的评估口径，同一条标题中还出现了 1.7 万亿美元与“接管全球 80 亿人类”的表述。原文是链接，未提供更多细节，标准的具体条目以及这个金额指代什么，都无法从标题判断。",
+    "summary_en": "According to the headline, OpenAI has published a new set of criteria it frames as an AGI standard, with the same headline citing a $1.7 trillion figure and the phrase about taking over the world's 8 billion people. The linked page isn't summarized here; details beyond the title, including the actual criteria and what the dollar figure refers to, aren't available.",
+    "input_hash": "48727b72dccf"
+  },
+  "zhihu-406887759": {
+    "summary_zh": "这是一则知乎提问：提问者做东请客，席间一位客人感谢主赐他日用的饮食，提问者开玩笑说那这顿就不买单了，对方因此动怒，他想知道原因。原文是链接，未提供更多细节，具体对话经过和回答内容不在摘要范围内。",
+    "summary_en": "A Zhihu question: the poster was hosting a dinner, a guest thanked God for his daily bread, and the host joked that he therefore wouldn't be paying the bill, which left the guest angry. The poster asks why the joke landed so badly. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "772d2245a9a8"
+  },
+  "zhihu-2100991454428522427": {
+    "summary_zh": "南京一名老人横穿快速路，后方车辆反应不及导致多车连环追尾，交警判定老人不担责，追尾车辆按比例担责，这则知乎提问就是围绕该责任划分展开讨论。原文是链接，未提供更多细节，事故时间与各车具体责任比例未在标题中给出。",
+    "summary_en": "A Zhihu question about a Nanjing case: an elderly man crossed an expressway, following vehicles could not react in time and a multi-vehicle pileup followed, and traffic police held the man not liable while the rear-ending vehicles bear liability by proportion. The thread debates that split. The linked page isn't summarized here; details beyond the title aren't available.",
+    "input_hash": "d6526d9162d1"
+  },
+  "zhihu-2101350682364325976": {
+    "summary_zh": "这是知乎上一条讨论《原神》7.2 版本中“七神会议”剧情的提问，想看玩家如何评价这段内容。原文是链接，未提供更多细节，会议的具体情节与玩家观点无法从标题得知。",
+    "summary_en": "A Zhihu thread asking how people evaluate the Seven Gods meeting in Genshin Impact version 7.2, aimed at players following the game's main story. The linked page isn't summarized here; details beyond the title, such as what happens in the scene or how players reacted, aren't available.",
+    "input_hash": "59d75e1ab0f4"
+  },
+  "zhihu-2099319258408825808": {
+    "summary_zh": "这是一则知乎提问：军长已坚决下达必须执行的命令，旅长判断该命令必然导致战役失败时，该怎么办，讨论落在军事指挥链中服从与抗命的边界。问题本身是假设情境，原文只有提问链接，未提供更多背景或战例细节，读者需要自己去看回答。",
+    "summary_en": "A Zhihu question poses a hypothetical: a corps commander has issued a firm order that must be carried out, while a brigade commander is convinced the order is wrong and will lose the battle — so what then? It is a prompt about obedience versus dissent inside a military chain of command; the linked page isn't summarized here, so details beyond the title aren't available.",
+    "input_hash": "eb7c7aac41cf"
+  },
+  "zhihu-2100991081307453217": {
+    "summary_zh": "这则知乎提问讨论一个行业现象：GPT 最早起势，如今 Claude 却被认为断档领先，问题追问后者是否有独特的训练方法。原文只有提问、没有附正文，因此具体对比维度、评测数据和训练细节都无法核实，适合关注大模型训练路线差异的人自己翻回答。",
+    "summary_en": "A Zhihu question asks why GPT got out first while Claude is now seen as leading by a noticeable margin, and whether Claude relies on a distinctive training method of its own. The linked page isn't summarized here, so benchmarks, methods and timelines behind the claim aren't available beyond the title.",
+    "input_hash": "0f0161f1844b"
+  },
+  "zhihu-2100960777104577622": {
+    "summary_zh": "知乎提问关注 iPhone Duo 开售一周后行情遇冷，业内调侃一个成功的黄牛起码亏十几万，追问背后的核心原因。原文是提问链接，未提供销量、渠道报价等具体数据，因此只能确认这一市场反馈本身，至于原因分析要看回答里怎么讲。",
+    "summary_en": "A Zhihu question looks at the iPhone Duo's lukewarm market one week after launch, citing industry banter that even a successful scalper stands to lose over 100,000 yuan, and asks what is really behind it. The linked page isn't summarized here, so no sales or pricing data is available beyond the title.",
+    "input_hash": "31b4d4de97a0"
+  },
+  "zhihu-2099896271318397900": {
+    "summary_zh": "知乎提问聚焦一则传闻：DeepSeek V5 据称已经做出来但官方尚未发布，问题在问消息是否属实、可能什么时候发布。原文仅有提问、没有正文，官方也未在该页给出确认，因此传闻真伪与时间点都无法核实。",
+    "summary_en": "A Zhihu question weighs a rumor that DeepSeek V5 has already been built but not officially released, and asks whether it is true and when a launch might come. The linked page isn't summarized here; neither the claim nor any release date can be verified beyond the title.",
+    "input_hash": "d83dc6ce6f62"
+  },
+  "zhihu-2100944308262257516": {
+    "summary_zh": "这是一则开放的知乎提问：如果能召唤已故的大师加入当下训练 AI 模型的浪潮，你会选谁，并给出排序。原文为提问帖，无正文补充，可确认的只有这个设定本身，看点在于被提名者的贡献以及这些思路能否迁移到今天的模型训练上。",
+    "summary_en": "A Zhihu prompt invites readers to name — and rank — deceased masters they would summon into today's wave of AI model training. It is an open-ended question with no body text on the page, so beyond the premise itself nothing further can be summarized; the interest lies in whom people pick and why.",
+    "input_hash": "a265ec8cf018"
+  },
+  "gh-monthly-boykopovar-AnyPS5": {
+    "summary_zh": "AnyPS5 是一个把 PS5 可执行文件自动移植到 Linux 和 Windows 的工具，目标是省掉手动适配的平台相关工作。适合想把主机游戏拿到 PC 或 Linux 上跑、又不想从零搭移植流程的开发者研究。",
+    "summary_en": "AnyPS5 is a tool that automates porting PS5 executables to Linux and Windows, aiming to take the manual platform-adaptation work out of the process. It's aimed at developers who want console titles running on PC or Linux without building a porting pipeline from scratch, and who are curious how far automated translation of PS5 binaries can go.",
+    "input_hash": "73c6deaa099f"
   }
 }
