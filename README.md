@@ -1,5 +1,8 @@
 # DevFocus — 开发者聚焦
 
+> **项目已作废（2026-11-06）**：每日自动管线已停用，仓库仅作 GitHub 留档，不再更新。
+> 数据停在 2026-11-05；历史提交与线上站点（www.devfocus.cc）保留原样。
+
 每天自动从 7 个数据源收集开发者最值得看的内容，附带中英双语摘要。不用自己到处刷，一站看完。
 
 ## 数据来源
@@ -64,8 +67,8 @@ cd app && npm run test:e2e                                # Playwright E2E
 ## 部署
 
 静态导出到 `app/out/`，可部署到 Vercel、GitHub Pages、Cloudflare Pages 等。
-每日北京时间 04:00（UTC 前一日 20:00，北京低峰期）由 GitHub Actions（`.github/workflows/daily.yml`）自动抓取、
-生成、构建并提交数据。
+原先每日北京时间 04:00（UTC 前一日 20:00，北京低峰期）由 GitHub Actions（`.github/workflows/daily.yml`）自动抓取、
+生成、构建并提交数据；**该定时任务已于 2026-11-06 停用**，工作流仅保留 `workflow_dispatch` 手动入口。
 
 ## License
 

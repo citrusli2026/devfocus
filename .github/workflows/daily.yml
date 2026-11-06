@@ -1,16 +1,11 @@
 name: Daily Pipeline
 
 on:
-  schedule:
-    # 北京低峰期：北京时间 04:00 = UTC 前一日 20:00。
-    # 原 UTC 0:00（北京 08:00 早高峰）改为凌晨，管线约 70-80 分钟，
-    # 05:15 左右完成，早晨醒来前数据已就绪。
-    # 注意 1：GitHub 不保证 schedule 准时——实测常延迟 2~4 小时，偶尔跨过 UTC 零点。
-    #   快照日期因此按「cron 槽位」而非运行时日期锚定（PIPELINE_SLOT_UTC_HOUR），
-    #   跨零点不会再吞掉前一天的快照（2026-09-28 事故，见 _shared.resolve_target_date）。
-    # 注意 2：改这个 cron 必须同步改下面 job env 里的 PIPELINE_SLOT_UTC_HOUR。
-    - cron: '0 20 * * *'
-  workflow_dispatch:       # 手动触发
+  # 2026-11-06：项目作废，仓库仅作 GitHub 留档，每日定时发布已停用。
+  # 原 schedule 为 '0 20 * * *'（北京 04:00 低峰期）。不要改回去，
+  # 否则会继续每天自动提交数据、触发 Vercel 重新发布。
+  # 仅保留 workflow_dispatch，需要补跑某一天时手动触发即可。
+  workflow_dispatch:       # 手动触发（当前唯一入口）
     inputs:
       target_date:
         description: '可选：指定快照日期 YYYY-MM-DD（补跑某天用），留空按下一次槽位'
@@ -22,7 +17,7 @@ permissions:
   pull-requests: write
   actions: read
 
-# 定时任务被延迟后可能与下一次触发重叠：串行排队而不是并行，
+# 手动补跑可能与上一次运行重叠：串行排队而不是并行，
 # 避免两个 job 同时 git push 造成 non-fast-forward 失败
 concurrency:
   group: daily-pipeline
@@ -32,7 +27,7 @@ jobs:
   pipeline:
     runs-on: ubuntu-latest
     env:
-      # 与上面 cron 的 UTC 小时一致（20:00 UTC）：快照归属「最近一次槽位」所在日期
+      # 沿用旧 cron 槽位（20:00 UTC）：留空 target_date 时快照归属「最近一次槽位」所在日期
       PIPELINE_SLOT_UTC_HOUR: '20'
       # 手动补跑指定日期时生效（留空则按槽位规则；格式非法会被 aggregate 忽略并告警）
       PIPELINE_TARGET_DATE: ${{ inputs.target_date }}
