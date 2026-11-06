@@ -69,6 +69,8 @@ cd app && npm run test:e2e                                # Playwright E2E
 静态导出到 `app/out/`，可部署到 Vercel、GitHub Pages、Cloudflare Pages 等。
 原先每日北京时间 04:00（UTC 前一日 20:00，北京低峰期）由 GitHub Actions（`.github/workflows/daily.yml`）自动抓取、
 生成、构建并提交数据；**该定时任务已于 2026-11-06 停用**，工作流仅保留 `workflow_dispatch` 手动入口。
+同一时间 `app/vercel.json` 里 `git.deploymentEnabled` 置为 `false`，关闭 Vercel 的自动发布：
+www.devfocus.cc 停留在 2026-11-05 的最后一次构建，不再随提交更新。
 
 ## License
 
